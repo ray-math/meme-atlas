@@ -105,6 +105,21 @@
         "super-power",
         "is-this-best"
       ]
+    },
+    "8": {
+      "input_hash": "db2c7c9842aab7e0cde8de54ff456b2b07e379d36fdf24baaca9992c42291faa",
+      "ids": [
+        "utpeuda",
+        "utan-ut",
+        "geumson",
+        "ttongson",
+        "seongdeok",
+        "deogeop-ilchi",
+        "chwijon",
+        "ppaebak-cant",
+        "munjjin",
+        "gaptuk-twi"
+      ]
     }
   },
   "entries": {
@@ -915,6 +930,88 @@
       "tags": [
         "방송"
       ]
+    },
+    "utpeuda": {
+      "title": "웃프다",
+      "batch": "8",
+      "body_hash": "be22af4991554400ce2d06a93d13fa0c610582f50f4f76821e75cdd6eaa232a7",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "utan-ut": {
+      "title": "웃안웃",
+      "batch": "8",
+      "body_hash": "d6efb9c5831d1773c55613fa2f16c3bb58d75e572a54581e9a5651c0e465b964",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "geumson": {
+      "title": "금손",
+      "batch": "8",
+      "body_hash": "044f1c6a2313e8c9c7841955159db12e8541af403ea7a4acc0993eae229f378b",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "ttongson": {
+      "title": "똥손",
+      "batch": "8",
+      "body_hash": "30fe91ca7c69f067be34a548a93dc969c9881910945a3477edee44ff05dc0d7f",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "seongdeok": {
+      "title": "성덕",
+      "batch": "8",
+      "body_hash": "2f906798acdc8ca935571e8bd0304c95ad21beceeef7eb2c6aafd290c13ffa0c",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": [
+        "연예"
+      ]
+    },
+    "deogeop-ilchi": {
+      "title": "덕업일치",
+      "batch": "8",
+      "body_hash": "8f527ff9d58d6dd63ab91d20951c0accfffb870edf7f1f7e141f66eed1598b67",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "chwijon": {
+      "title": "취존",
+      "batch": "8",
+      "body_hash": "d6d0b20dd8c65ff9a897094638f2e332a1ec0015ed48fa4df05ed928496b0db5",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "ppaebak-cant": {
+      "title": "빼박캔트",
+      "batch": "8",
+      "body_hash": "0a711cf6f314761f6cdaf9cbcb1e4b46bcfe8c7080cfe9a63c6df318bc69938b",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "munjjin": {
+      "title": "문찐",
+      "batch": "8",
+      "body_hash": "ba0e576ec3b26654c47ffb41be236feab2bd2ae5f69b856e1fef1e84708ea9eb",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "gaptuk-twi": {
+      "title": "갑툭튀",
+      "batch": "8",
+      "body_hash": "a65626dd2f31d1711842d39b4ea2259bc11e6aa24fead79382f27da5bd3bef88",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
     }
   }
 }

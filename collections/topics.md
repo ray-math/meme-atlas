@@ -33,16 +33,25 @@
 
 - [~삐](../memes/ppi.md)
 - [갑분싸](../memes/gapbunssa.md)
+- [갑툭튀](../memes/gaptuk-twi.md)
 - [갓생](../memes/gatsaeng.md)
+- [금손](../memes/geumson.md)
 - [낄끼빠빠](../memes/kkilkki-ppappa.md)
 - [답정너](../memes/dapjeongneo.md)
+- [덕업일치](../memes/deogeop-ilchi.md)
+- [똥손](../memes/ttongson.md)
 - [만반잘부](../memes/manbanjalbu.md)
 - [많관부](../memes/mangwanbu.md)
+- [문찐](../memes/munjjin.md)
 - [별다줄](../memes/byeoldajul.md)
 - [복세편살](../memes/bokse-pyeonsal.md)
+- [빼박캔트](../memes/ppaebak-cant.md)
 - [숨긴다고 숨겨지는 것도 아니고](../memes/cannot-hide.md)
 - [스불재](../memes/seubuljae.md)
 - [안물안궁](../memes/anmul-angung.md)
+- [웃안웃](../memes/utan-ut.md)
+- [웃프다](../memes/utpeuda.md)
+- [취존](../memes/chwijon.md)
 - [포기하겠습니다](../memes/give-up.md)
 
 ## 방송
@@ -91,6 +100,7 @@
 - [가보자고](../memes/gabojago.md)
 - [내 마음속에 저장](../memes/save-in-my-heart.md)
 - [반한 건 ❌](../memes/swings-denial.md)
+- [성덕](../memes/seongdeok.md)
 - [원영적 사고](../memes/wonyoung-thinking.md)
 - [이거 제 이모지야](../memes/my-emoji.md)
 
