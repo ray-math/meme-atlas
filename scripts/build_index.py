@@ -16,6 +16,9 @@ def build(root):
   metadata=read_metadata(text)
   search_text=text[text.index('# '):].split('## 유래와 확산',1)[0]
   search_text=re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1',search_text)
+  # Retired derivative names remain searchable, but are not asserted to be aliases.
+  retired=[v['title'] for v in meta.values() if v.get('superseded_by')==p.stem]
+  search_text+=' '+' '.join(retired)
   search_text=re.sub(r'\s+',' ',search_text).strip()
   rows.append({'id':p.stem,'title':title(text),'aliases':metadata.get('aliases',meta.get(p.stem,{}).get('aliases',[])),'tags':metadata.get('tags',[]),'summary':lines[0] if lines else '', 'search_text':search_text, 'path':f'memes/{p.name}'})
   if not rows[-1]['aliases']:rows[-1].pop('aliases')

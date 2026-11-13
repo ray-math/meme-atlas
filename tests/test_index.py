@@ -19,3 +19,10 @@ class IndexTests(unittest.TestCase):
    write_topics(d,rows);text=(Path(d)/'collections/topics.md').read_text()
    self.assertIn('## 게임',text);self.assertIn('## 방송',text);self.assertIn('## 미분류',text)
    self.assertEqual(text.count('[A]'),2);self.assertEqual(text.count('[B]'),1)
+
+ def test_retired_derivative_search_without_false_alias(self):
+  from search_dictionary import search
+  rows=build(ROOT);hit=search(rows,'삐바삐',limit=1)[0]
+  self.assertEqual(hit['id'],'ppi')
+  self.assertNotIn('삐바삐',hit.get('aliases',[]))
+  self.assertFalse(any(r['id']=='ppibappi' for r in rows))

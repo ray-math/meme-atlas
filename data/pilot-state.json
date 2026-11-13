@@ -182,6 +182,23 @@
         "hallelyaru",
         "sallidan-gil"
       ]
+    },
+    "latest-2026-11-batch-5": {
+      "input_hash": "7e0b44b4ae00122e6208319586f85905d6ce01fc54337262502b1cb6195fa9dc",
+      "ids": [
+        "bomiguna-christina",
+        "weareone-cheohaja",
+        "okay-thanks-daldal",
+        "mihon-and-bihon",
+        "raeulla",
+        "golden-iyeora"
+      ]
+    },
+    "latest-2026-11-batch-6": {
+      "input_hash": "c283a3fc7fbe19b50a240e59948cff59b1cb4aa2b3c0ac230c58849667377483",
+      "ids": [
+        "no-reply-live-well"
+      ]
     }
   },
   "entries": {
@@ -1479,6 +1496,79 @@
       "scope_basis": "국내 영화·장소와 한국의 인기상권 작명 관습을 결합한 국내 온라인 별칭.",
       "tags": [
         "영화"
+      ]
+    },
+    "bomiguna-christina": {
+      "title": "봄이구나",
+      "batch": "latest-2026-11-batch-5",
+      "body_hash": "59086142b204a55b5bad31f1c47e4339af4629a7f14f868359efa48e9167aac1",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 웹예능의 한국어 반응과 국내 활동 방송인의 한국어 영상 시리즈에서 만들어진 말투 밈이며, 출연자의 국적과 밈의 생성 맥락을 구별한다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "weareone-cheohaja": {
+      "title": "위아원 처하자",
+      "batch": "latest-2026-11-batch-5",
+      "body_hash": "a5eb4135165e7e38bbc5ecf66aae5554816f4298a4cb6bfbbc8d316282f77d3d",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 아이돌 팬덤이 공식 구호에 한국어 동사·어감을 결합하여 만든 표현이고, 국내 활동과 취미에 맞춘 생산적인 변형이 확인된다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "okay-thanks-daldal": {
+      "title": "오케이 감사드리고 달달달달달",
+      "batch": "latest-2026-11-batch-5",
+      "body_hash": "c5b2177e378e949bfc644858568c3f7f08221c60f8516a0b3145404d4994e09c",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 스트리머의 한국어 야외 방송 말투와 효과음을 국내 이용자들이 재사용한 밈이다.",
+      "tags": [
+        "인터넷방송"
+      ]
+    },
+    "mihon-and-bihon": {
+      "title": "미혼 앤 비혼",
+      "aliases": [
+        "이혼앤비혼"
+      ],
+      "batch": "latest-2026-11-batch-5",
+      "body_hash": "805947f26705b064a189edea81fdf6cf73809a07815ec189ccc85c8ed9f89456",
+      "scope_type": "korean_origin",
+      "scope_basis": "외국어 가사를 한국어의 미혼·비혼·위염·비염으로 재해석한 뚜렷한 한국식 음성 말장난이다. 원곡의 단순 국내 인기가 아니라 이 한국어 변형을 수록한다.",
+      "tags": [
+        "음악",
+        "연예"
+      ]
+    },
+    "raeulla": {
+      "title": "라을라",
+      "batch": "latest-2026-11-batch-5",
+      "body_hash": "0038aa1bae26b66090df209648501cca8e21918b7a3e417b41b88c1deeccdc8a",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 직장인 사연의 특정 의성어가 한국어 반응·하품 표현으로 확장. 라우럴과 별개.",
+      "tags": []
+    },
+    "golden-iyeora": {
+      "title": "골든이여라",
+      "batch": "latest-2026-11-batch-5",
+      "body_hash": "971fd507bf4f76bab7386b815727bb2203b272e22993cabca786797293ea5807",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "해외 제작 영화OST 자체가 아닌 송가인의 한국어 트로트식 변형 감탄과 그 응용.",
+      "tags": [
+        "음악",
+        "방송"
+      ]
+    },
+    "no-reply-live-well": {
+      "title": "연락 없네 잘 살아",
+      "batch": "latest-2026-11-batch-6",
+      "body_hash": "072588a6ca2c8e8fb9758cd7749a5f401a7f4a45e9b5f7c64a0202919931fb83",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 커뮤니티 사연의 과장된 작별 문장에서 만들어진 국내 문장 변형 밈이다.",
+      "tags": [
+        "연애"
       ]
     }
   }
