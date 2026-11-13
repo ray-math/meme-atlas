@@ -29,3 +29,8 @@ class PilotTests(unittest.TestCase):
   self.put(self.data());p.apply(self.r,self.input,'fixture');f=self.r/'memes/fixture-0.md';f.write_text(f.read_text()+'\n사용자 수정')
   with self.assertRaisesRegex(ValueError,'refuse overwrite'):p.apply(self.r,self.input,'fixture')
   self.assertIn('사용자 수정',f.read_text())
+
+ def test_structure_failure_leaves_worktree(self):
+  rows=self.data();rows[0]['markdown']+='\n[없는글](missing.md)';self.put(rows)
+  with self.assertRaises(ValueError):p.apply(self.r,self.input,'fixture')
+  self.assertFalse((self.r/'memes/fixture-0.md').exists())

@@ -15,6 +15,21 @@
         "disaster-girl",
         "success-kid"
       ]
+    },
+    "2": {
+      "input_hash": "5848989a3c8315886126afc438a9b4c16335aff62a2019e0719fae7bf1936266",
+      "ids": [
+        "jung-kkeok-ma",
+        "wonyoung-thinking",
+        "ohiryeo-joa",
+        "gabojago",
+        "aljaltakkalsen",
+        "eojjeol-tv",
+        "kingbatne",
+        "muyaho",
+        "museon129",
+        "form-michyeotda"
+      ]
     }
   },
   "entries": {
@@ -107,6 +122,100 @@
       ],
       "batch": "1",
       "body_hash": "44c7d36dc3c103a665f7854dd264c94bec32825560803dec75f5335fb76623fc"
+    },
+    "jung-kkeok-ma": {
+      "title": "중꺾마",
+      "aliases": [
+        "중요한 건 꺾이지 않는 마음",
+        "중요한 것은 꺾이지 않는 마음"
+      ],
+      "batch": "2",
+      "body_hash": "ff24b266899d6d19cb727abb677ce81a7a34fd89dac4c574218f3bb78b0a1a67"
+    },
+    "wonyoung-thinking": {
+      "title": "원영적 사고",
+      "aliases": [
+        "럭키비키",
+        "Lucky Vicky",
+        "완전 럭키비키잖아"
+      ],
+      "batch": "2",
+      "body_hash": "171f62502eb8bbaa30e26b4eea42d618293419162dac1bff20b1951b7dc16920"
+    },
+    "ohiryeo-joa": {
+      "title": "오히려 좋아",
+      "aliases": [
+        "오히려좋아"
+      ],
+      "batch": "2",
+      "body_hash": "8ed434ec0d0d212d510ea03d5e3a820fe41d7f706a3d4716f191b9d66b65e444"
+    },
+    "gabojago": {
+      "title": "가보자고",
+      "aliases": [
+        "가 보자고",
+        "#가보자고"
+      ],
+      "batch": "2",
+      "body_hash": "de465f05cc09eb3337aa12a7f6197787d26f680cf3bd3a73162b2136875431ce"
+    },
+    "aljaltakkalsen": {
+      "title": "알잘딱깔센",
+      "aliases": [
+        "알잘딱",
+        "알아서 잘 딱 깔끔하고 센스 있게"
+      ],
+      "batch": "2",
+      "body_hash": "345550bec23aea9e4fe460d3f9e0addc07cec9cf4e2f9f777876c5192640e165"
+    },
+    "eojjeol-tv": {
+      "title": "어쩔티비",
+      "aliases": [
+        "어쩔TV",
+        "어쩔 티비",
+        "저쩔티비"
+      ],
+      "batch": "2",
+      "body_hash": "7ba1fe3665d2302457768b2ba1a391839e1bb2816b568a5bf465c72d1bf4c198"
+    },
+    "kingbatne": {
+      "title": "킹받네",
+      "aliases": [
+        "킹받다",
+        "킹받는다",
+        "킹받쥬"
+      ],
+      "batch": "2",
+      "body_hash": "02b6b863a902e9cd31a465cca95c824915779155f1f14a58b49cb1cd15d833da"
+    },
+    "muyaho": {
+      "title": "무야호",
+      "aliases": [
+        "무야~호~",
+        "무야호~"
+      ],
+      "batch": "2",
+      "body_hash": "ebfb3ef827d7427940c3c9619c36e82a72479f357625e368a6bd56c40ded0d24"
+    },
+    "museon129": {
+      "title": "머선129",
+      "aliases": [
+        "머선 129",
+        "머선일이고",
+        "무슨 일이고"
+      ],
+      "batch": "2",
+      "body_hash": "5573def79b8f71f56bb940a537cbfdd671318ea9c22c41a0f2eff6b94e223b42"
+    },
+    "form-michyeotda": {
+      "title": "폼 미쳤다",
+      "aliases": [
+        "폼미쳤다",
+        "폼 미쳤다이",
+        "Pom Michutda"
+      ],
+      "batch": "2",
+      "body_hash": "ac17ec8e2773194218e53686174acc550d29a0280e0502420497787a7fefce33"
     }
   }
 }

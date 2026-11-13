@@ -1,7 +1,7 @@
 """Small-batch importer. Evidence inputs stay outside the public repository.
 Structural/replay checks do not certify factual truth.
 """
-import argparse, hashlib, json, re, unicodedata
+import argparse, hashlib, json, re, unicodedata, shutil, tempfile, os
 from pathlib import Path
 from check_dictionary import check, title
 
@@ -10,7 +10,7 @@ def key(value):
 
 def digest(s): return hashlib.sha256(s.encode()).hexdigest()
 
-def apply(root, input_path, batch):
+def _apply(root, input_path, batch):
     root = Path(root)
     rows = json.loads(Path(input_path).read_text())
     if len(rows) != 10: raise ValueError('pilot batch must contain exactly 10 entries')
@@ -61,6 +61,24 @@ def apply(root, input_path, batch):
     errors=check(root)
     if errors: raise ValueError('\n'.join(errors))
     return {'status':'applied','batch':batch,'added':len(rows),'total_pilot':len(ledger['entries'])}
+
+def apply(root, input_path, batch):
+    root=Path(root).resolve()
+    with tempfile.TemporaryDirectory() as directory:
+        stage=Path(directory)/'stage'
+        shutil.copytree(root,stage,ignore=shutil.ignore_patterns('.git','__pycache__'))
+        result=_apply(stage,input_path,batch)
+        if result['status']=='unchanged': return result
+        # Validate a whole batch before touching the working copy; ledger written last.
+        files=[p for p in stage.rglob('*') if p.is_file()]
+        files.sort(key=lambda p: p.relative_to(stage).as_posix()=='data/pilot-state.json')
+        for p in files:
+            dest=root/p.relative_to(stage)
+            if dest.exists() and dest.read_bytes()==p.read_bytes():continue
+            dest.parent.mkdir(parents=True,exist_ok=True)
+            tmp=dest.with_name(dest.name+'.pilot-tmp')
+            shutil.copy2(p,tmp);os.replace(tmp,dest)
+        return result
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('input');p.add_argument('--batch',required=True);p.add_argument('--root',default=str(Path(__file__).resolve().parents[1]));a=p.parse_args()
