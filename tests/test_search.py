@@ -14,3 +14,7 @@ class SearchTests(unittest.TestCase):
   with self.assertRaises(ValueError):search(DATA,limit=0)
  def test_read_only(self):
   original=repr(DATA);search(DATA,'게임');self.assertEqual(repr(DATA),original)
+
+ def test_definition_terms_beyond_summary(self):
+  rows=[{'id':'c','title':'손민수','summary':'사람 이름에서 유래','search_text':'모방과 소비를 가리키는 표현'}]
+  result=search(rows,'모방');self.assertEqual(result[0]['id'],'c');self.assertNotIn('search_text',result[0])

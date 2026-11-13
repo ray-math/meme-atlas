@@ -60,6 +60,21 @@
         "seubuljae",
         "sonminsu"
       ]
+    },
+    "5": {
+      "input_hash": "ab4d69acb8221b719df6feef2dba73521556db9c93dd65ba233a37b3b06eed18",
+      "ids": [
+        "you-go-hawaii",
+        "chingu-aiga",
+        "have-you-eaten",
+        "go-back-again",
+        "father-job",
+        "favor-right",
+        "mojito-maldives",
+        "jangan-narang-jigeum",
+        "bravo-yeonjin",
+        "traitor-among-us"
+      ]
     }
   },
   "entries": {
@@ -564,6 +579,113 @@
         "웹툰",
         "방송",
         "소비"
+      ]
+    },
+    "you-go-hawaii": {
+      "title": "니가 가라 하와이",
+      "batch": "5",
+      "body_hash": "5f8384ccae5988a41ed1c1b11345475aec9e8a9569496390595da9c8a6c61487",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "chingu-aiga": {
+      "title": "친구 아이가",
+      "aliases": [
+        "우리 친구 아이가"
+      ],
+      "batch": "5",
+      "body_hash": "82256c04d463376d2a5cda984ddc8d66965302623683ee8d69dffdb0cf9c39cf",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "have-you-eaten": {
+      "title": "밥은 먹고 다니냐",
+      "batch": "5",
+      "body_hash": "432259b3be43dc967bc947f3449c2c4ecf5dcdba46598fe5d7a64971978a76eb",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "go-back-again": {
+      "title": "나 다시 돌아갈래",
+      "batch": "5",
+      "body_hash": "d0971f61b9bf7bcbaf7395619cd690ea13a4c4c4493ab4ca8916ecaf7c585b66",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "father-job": {
+      "title": "아버지 뭐하시노",
+      "aliases": [
+        "아부지 뭐하시노",
+        "느그 아버지 뭐하시노"
+      ],
+      "batch": "5",
+      "body_hash": "98cde0b76296ad2cd8617bc9ec3471394d3d4d019a4465ac2939a805cc744a8a",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "favor-right": {
+      "title": "호의가 계속되면 권리인 줄 안다",
+      "batch": "5",
+      "body_hash": "4f9c9fe640a20f1bebd2113b3f31b372a088b9ab5c29a98aef1937c3436b618e",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "mojito-maldives": {
+      "title": "모히또 가서 몰디브 한잔",
+      "batch": "5",
+      "body_hash": "e42b1ea9c0fedce0e7e3759ed67995e2ac69f36fb4c2dfab380307261710d353",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "jangan-narang-jigeum": {
+      "title": "장난 나랑 지금 하냐",
+      "batch": "5",
+      "body_hash": "ae536beb8d21153d9f2a26fa477a7ae7463a16a4679f50e8e502e04b13b07e2e",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "bravo-yeonjin": {
+      "title": "멋지다 연진아",
+      "batch": "5",
+      "body_hash": "2e01fb98b8b4c1b6600a8f8a94c619c9f6cff2b4af8e45448645e834bf758c16",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "traitor-among-us": {
+      "title": "이 안에 배신자가 있다",
+      "batch": "5",
+      "body_hash": "e67e18789f31538b310ab183fa904a3caae3bc36e39207bf55895f47206a4a70",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "영화"
       ]
     }
   }

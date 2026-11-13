@@ -48,3 +48,19 @@ class PilotTests(unittest.TestCase):
   rows=self.data();rows[0]['aliases']=['Criss Cross'];self.put(rows)
   with self.assertRaisesRegex(ValueError,'alias collision'):p.apply(self.r,self.input,'fixture')
   self.assertFalse((self.r/'memes/fixture-0.md').exists())
+
+ def test_small_final_batch(self):
+  self.put(self.data()[:4]);self.assertEqual(p.apply(self.r,self.input,'fixture')['added'],4)
+  self.assertEqual(p.apply(self.r,self.input,'fixture')['added'],0)
+ def test_empty_batch_rejected(self):
+  self.put([])
+  with self.assertRaisesRegex(ValueError,'1 to 10'):p.apply(self.r,self.input,'fixture')
+ def test_oversized_batch_rejected(self):
+  self.put(self.data()+self.data()[:1])
+  with self.assertRaisesRegex(ValueError,'1 to 10'):p.apply(self.r,self.input,'fixture')
+
+ def test_derived_index_updated_in_staging(self):
+  rows=self.data()[:1];rows[0]['tags']=['게임'];self.put(rows);p.apply(self.r,self.input,'fixture')
+  index=json.loads((self.r/'data/search-index.json').read_text())
+  self.assertTrue(any(x['id']=='fixture-0' and x['tags']==['게임'] for x in index))
+  self.assertIn('[테스트0]',(self.r/'collections/topics.md').read_text())

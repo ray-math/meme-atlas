@@ -1,6 +1,7 @@
 """Structural checks only; does not certify the truth of a meme's history."""
 from pathlib import Path
 import re
+import unicodedata
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from frontmatter import read as read_metadata
@@ -33,13 +34,19 @@ def check(root):
             if not target.is_relative_to(root) or not target.exists(): err(p, f'broken link: {label}')
             if target in entries and label != title(entries[target]): err(p, f'title mismatch: {label} != {title(entries[target])}')
     seen = {}
+    normalized_names = {}
     for p, text in entries.items():
-        try: read_metadata(text)
+        metadata={}
+        try: metadata=read_metadata(text)
         except (ValueError,TypeError) as e: err(p, str(e))
         name = title(text)
         if not name: err(p, 'missing title')
         if name in seen: err(p, f'duplicate title: {name}')
         seen[name] = p
+        for label in [name]+metadata.get('aliases',[]):
+            normalized=re.sub(r'[^\w]+','',unicodedata.normalize('NFKC',label).casefold())
+            if normalized in normalized_names and normalized_names[normalized]!=p:err(p,'normalized title/alias collision: '+label)
+            normalized_names[normalized]=p
         for section in ['## 뜻풀이', '## 유래와 확산']:
             if section not in text: err(p, f'missing section: {section}')
             elif not text.split(section,1)[1].split('\n## ',1)[0].strip(): err(p, f'empty section: {section}')

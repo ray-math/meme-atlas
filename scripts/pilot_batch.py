@@ -5,6 +5,7 @@ import argparse, hashlib, json, re, unicodedata, shutil, tempfile, os
 from pathlib import Path
 from check_dictionary import check, title
 from frontmatter import render, validate, read as read_metadata
+from build_index import build, write_topics
 
 def key(value):
     return re.sub(r'[^\w]+', '', unicodedata.normalize('NFKC', value).casefold())
@@ -14,7 +15,7 @@ def digest(s): return hashlib.sha256(s.encode()).hexdigest()
 def _apply(root, input_path, batch):
     root = Path(root)
     rows = json.loads(Path(input_path).read_text())
-    if len(rows) != 10: raise ValueError('pilot batch must contain exactly 10 entries')
+    if not 1 <= len(rows) <= 10: raise ValueError('pilot batch must contain 1 to 10 entries')
     ledger_path = root/'data/pilot-state.json'
     ledger = json.loads(ledger_path.read_text()) if ledger_path.exists() else {'version':1,'batches':{},'entries':{}}
     payload = digest(json.dumps(rows,ensure_ascii=False,sort_keys=True))
@@ -65,6 +66,9 @@ def _apply(root, input_path, batch):
     collection='# 확장 시험 수록\n\n최근 유행 순위나 관찰 월이 아니라, 사전 확장 절차를 검증하기 위해 고른 한국에서 생성되었거나 독자적인 한국식 변형이 확인된 표본입니다. 해외 밈의 단순 국내 유행은 포함하지 않습니다.\n\n'
     collection+='\n'.join(f'- [{v["title"]}](../memes/{k}.md)' for k,v in ledger['entries'].items())+'\n'
     (root/'collections/pilot-30.md').write_text(collection)
+    search_rows=build(root)
+    (root/'data/search-index.json').write_text(json.dumps(search_rows,ensure_ascii=False,indent=2)+'\n')
+    write_topics(root,search_rows)
     errors=check(root)
     if errors: raise ValueError('\n'.join(errors))
     return {'status':'applied','batch':batch,'added':len(rows),'total_pilot':len(ledger['entries'])}

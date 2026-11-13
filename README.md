@@ -7,6 +7,7 @@
 | 찾는 방법 | 안내 |
 | --- | --- |
 | [전체 밈 목록](memes/README.md) | 이름으로 항목 찾기 |
+| [분야·소재별 목록](collections/topics.md) | 게임·방송·영화 등 분야로 찾기 |
 | [월별 목록](months/README.md) | 특정 시기에 관찰된 밈 찾아보기 |
 | [확장 시험 수록](collections/pilot-30.md) | 한국 밈 수집 절차 검증용 표본 |
 
