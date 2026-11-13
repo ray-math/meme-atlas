@@ -6,13 +6,15 @@
 ## ㄷ
 - [딸깍](click.md)
 
+## ㅂ
+- [반한 건 ❌](swings-denial.md)
+
 ## ㅃ
 - [빼난지원금](pepero-aid.md)
 - [~삐](ppi.md)
 
 ## ㅅ
 - [숨긴다고 숨겨지는 것도 아니고](cannot-hide.md)
-- [스윙스 밈](swings-denial.md)
 
 ## ㅇ
 - [오디세이](odyssey.md)
