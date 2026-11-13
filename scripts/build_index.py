@@ -2,6 +2,7 @@
 import json,re
 from pathlib import Path
 from check_dictionary import title
+from frontmatter import read as read_metadata
 ROOT=Path(__file__).resolve().parents[1]
 def build(root):
  root=Path(root);state=root/'data/pilot-state.json';meta=json.loads(state.read_text())['entries'] if state.exists() else {}
@@ -12,7 +13,9 @@ def build(root):
   lines=[x.strip() for x in definition.splitlines() if x.strip() and not x.startswith(('#','>','-'))]
   if not lines:
    lines=[re.sub(r'^#+\s*(?:\d+\.\s*)?','',x.strip()) for x in definition.splitlines() if x.strip().startswith('### ')]
-  rows.append({'id':p.stem,'title':title(text),'aliases':meta.get(p.stem,{}).get('aliases',[]),'summary':lines[0] if lines else '', 'path':f'memes/{p.name}'})
+  metadata=read_metadata(text)
+  rows.append({'id':p.stem,'title':title(text),'aliases':metadata.get('aliases',meta.get(p.stem,{}).get('aliases',[])),'tags':metadata.get('tags',[]),'summary':lines[0] if lines else '', 'path':f'memes/{p.name}'})
+  if not rows[-1]['aliases']:rows[-1].pop('aliases')
  return rows
 if __name__=='__main__':
  (ROOT/'data').mkdir(exist_ok=True)

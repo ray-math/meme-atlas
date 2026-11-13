@@ -2,6 +2,8 @@
 from pathlib import Path
 import re
 import sys
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from frontmatter import read as read_metadata
 from urllib.parse import unquote
 
 LINK = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
@@ -32,6 +34,8 @@ def check(root):
             if target in entries and label != title(entries[target]): err(p, f'title mismatch: {label} != {title(entries[target])}')
     seen = {}
     for p, text in entries.items():
+        try: read_metadata(text)
+        except (ValueError,TypeError) as e: err(p, str(e))
         name = title(text)
         if not name: err(p, 'missing title')
         if name in seen: err(p, f'duplicate title: {name}')
