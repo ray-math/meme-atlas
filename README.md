@@ -21,3 +21,14 @@
 
 [작성 가이드](CONTRIBUTING.md) · [항목 템플릿](templates/meme.md)
 
+## 필요한 내용만 조회
+
+검색 후 항목 id로 뜻풀이·유래·관련 밈 중 필요한 부분만 읽을 수 있습니다. 현재는 Python CLI이며, 원격 MCP 서버가 실행되는 것은 아닙니다.
+
+```sh
+python scripts/search_dictionary.py '럭키비키' --limit 3
+python scripts/get_entry.py wonyoung-thinking --section definition
+python scripts/get_entry.py wonyoung-thinking --section origin
+```
+
+편집 후 `python scripts/build_index.py`로 검색/분야 목차를 갱신하고 `python scripts/check_generated.py`로 원본과 일치하는지 확인합니다.
