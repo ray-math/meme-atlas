@@ -167,6 +167,21 @@
         "ppibappi",
         "dance-parapara"
       ]
+    },
+    "latest-2026-11-batch-4": {
+      "input_hash": "cbe7ff00a1edcb369a78e0dad1a34bec78336b97c4378aa85f95770be03fc74d",
+      "ids": [
+        "geoje-yaho",
+        "acting-day-one",
+        "yareu-song",
+        "hundred-joke",
+        "if-i-were-idol",
+        "gapchagiseureounde",
+        "pelvis-wont-stop",
+        "unread-none-of-my-business",
+        "hallelyaru",
+        "sallidan-gil"
+      ]
     }
   },
   "entries": {
@@ -1344,7 +1359,10 @@
       "body_hash": "78420cd83e03d13a27909e22e333fa26a074696b53f1e23ed169ea46e2a14655",
       "scope_type": "korean_origin",
       "scope_basis": "한국어 커뮤니티에서 피에로를 삐로 줄이고 역할명·바이 패턴과 결합한 독자적 호칭 놀이이다.",
-      "tags": []
+      "tags": [],
+      "superseded_by": "ppi",
+      "canonical_body_hash": "3dfd3d365ce2658d84254a6225c1e09c8e45238fd734f8150dffefc13a2b77ea",
+      "supersession_reason": "동일 피에로 사연에서 파생된 호칭 놀이. 기존 원형 항목으로 통합; 원문 보존."
     },
     "dance-parapara": {
       "title": "난 파라파라나 춰야겠다",
@@ -1354,6 +1372,113 @@
       "scope_basis": "일본 춤을 소재로 하지만 국내 아이돌 콘텐츠에서 나온 한국어 발화와 상황이 국내 패러디의 중심이다.",
       "tags": [
         "음악"
+      ]
+    },
+    "geoje-yaho": {
+      "title": "거제 야호",
+      "batch": "latest-2026-11-batch-4",
+      "body_hash": "4fe5b90001c41b1f04436607f0a0c8ba686041fdbde83e3ffe40d76d85998cc5",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 아이돌의 국내 제작 콘텐츠에서 거제라는 지명과 갸루식 인사를 결합한 대화 장면이 독자적인 밈으로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "acting-day-one": {
+      "title": "배우 도전 1일차",
+      "aliases": [
+        "연기 도전 1일차"
+      ],
+      "batch": "latest-2026-11-batch-4",
+      "body_hash": "e5eda0ab1f055bc2c59e99a1a968cca95e343abb0eb21e540e520999b68b99d8",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 계정의 한국어 상황극과 배우 도전 문구를 반복·변형하는 숏폼 형식으로, 국내 연예인의 참여가 확인된다.",
+      "tags": [
+        "인터넷방송"
+      ]
+    },
+    "yareu-song": {
+      "title": "야르송",
+      "batch": "latest-2026-11-batch-4",
+      "body_hash": "bb3c7075851e3c55b35a207872c683002305c84c06551116abb50212f7b01ff4",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 채널의 한국어 음원과 국내 서비스의 기상용 개사·영상 변형을 중심으로 커버가 확산한 사례다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "hundred-joke": {
+      "title": "100명 넘겠지?",
+      "aliases": [
+        "100드립",
+        "나만 아는 100드립"
+      ],
+      "batch": "latest-2026-11-batch-4",
+      "body_hash": "b0fcd6409afaf726ffc6e9b0ec9ad8699958c42e5607f2c5790390768056099f",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 크리에이터의 한국어 농담 영상과 국내 이용자들의 수량 단위 변형으로 확산된 문장틀이다.",
+      "tags": []
+    },
+    "if-i-were-idol": {
+      "title": "내가 아이돌이었으면 이 파트는 꼭 하고 싶음",
+      "batch": "latest-2026-11-batch-4",
+      "body_hash": "79cce2ecdaff5a4367ef63f481d1d8af05e8290bda82f77b673b47f06fd6c8e4",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 팬 커뮤니티에서 직접 부른 파트 모음과 최애 소개를 결합한 문장틀로 확인된다. 해외 표현의 번역 유행으로 판단할 근거는 확인되지 않았다.",
+      "tags": [
+        "연예",
+        "음악"
+      ]
+    },
+    "gapchagiseureounde": {
+      "title": "갑차기스러운데",
+      "batch": "latest-2026-11-batch-4",
+      "body_hash": "d29be4288975b17f13bd22a9fc1fbea7dedbcd85bf307abfc017e91c70c8d5f2",
+      "scope_type": "korean_origin",
+      "scope_basis": "원대화 화자는 일본인으로 소개되지만 한국어 오타를 국내 이용자들이 취소·홍보 문장틀로 만든 독자적 한국어 변형이다.",
+      "tags": []
+    },
+    "pelvis-wont-stop": {
+      "title": "골반이 멈추지 않아",
+      "aliases": [
+        "골반통신"
+      ],
+      "batch": "latest-2026-11-batch-4",
+      "body_hash": "f9def21ea646fc6c6b6ab703e9ff1a4b4a30ca5da532eab98d63ae50cf0fea94",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 크리에이터가 한국 노래와 독자적 상황극·자막 체계를 결합해 제작한 영상 포맷이다.",
+      "tags": [
+        "음악",
+        "인터넷방송"
+      ]
+    },
+    "unread-none-of-my-business": {
+      "title": "읽지 않음 난 모르는 일",
+      "batch": "latest-2026-11-batch-4",
+      "body_hash": "4e10ee802bc8bd734044b31abb24baea4e912bcb7957eb52ba0f08d1e8ba85b5",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 카카오톡 대화의 읽음 상태와 말의 모순을 국내 이용자들이 반응문으로 확장했다.",
+      "tags": []
+    },
+    "hallelyaru": {
+      "title": "할렐야루",
+      "aliases": [
+        "할렐야르"
+      ],
+      "batch": "latest-2026-11-batch-4",
+      "body_hash": "c9f4d1ad065b6a25e83e30c42c1ea48b02ff0eff6428a5a46f9860592350c25e",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 교회의 한글 글자판 공연에서 만들어진 어순 장난을 한국어 감탄사로 확장한 밈이다.",
+      "tags": []
+    },
+    "sallidan-gil": {
+      "title": "살리단길",
+      "batch": "latest-2026-11-batch-4",
+      "body_hash": "ed4998e35fc779df7dc28d368586c843c45a006f1572ebc2e45e90ad4eccf2b4",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 영화·장소와 한국의 인기상권 작명 관습을 결합한 국내 온라인 별칭.",
+      "tags": [
+        "영화"
       ]
     }
   }

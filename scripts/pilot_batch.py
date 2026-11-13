@@ -22,7 +22,10 @@ def _apply(root, input_path, batch):
     if batch in ledger['batches']:
         if ledger['batches'][batch]['input_hash'] != payload: raise ValueError('batch replay differs; review required')
         for slug in ledger['batches'][batch]['ids']:
-            if digest((root/'memes'/f'{slug}.md').read_text()) != ledger['entries'][slug]['body_hash']:
+            entry = ledger['entries'][slug]
+            canonical = entry.get('superseded_by', slug)
+            expected = entry.get('canonical_body_hash', entry['body_hash'])
+            if digest((root/'memes'/f'{canonical}.md').read_text()) != expected:
                 raise ValueError('published entry changed; refuse overwrite')
         return {'status':'unchanged','batch':batch,'added':0}
     known = {}
@@ -31,12 +34,13 @@ def _apply(root, input_path, batch):
             text=p.read_text();known[key(title(text))]=p.stem
             for alias in read_metadata(text).get('aliases',[]):known[key(alias)]=p.stem
     for slug, item in ledger['entries'].items():
-        for alias in item.get('aliases',[]): known[key(alias)]=slug
+        known[key(item['title'])]=item.get('superseded_by',slug)
+        for alias in item.get('aliases',[]): known[key(alias)]=item.get('superseded_by',slug)
     planned=[]
     for row in rows:
         slug=row['slug']; name=row['title']; body=row['markdown'].strip()
         if not re.fullmatch('[a-z0-9]+(?:-[a-z0-9]+)*',slug): raise ValueError('unsafe slug')
-        if (root/'memes'/f'{slug}.md').exists(): raise ValueError('existing ID')
+        if slug in ledger['entries'] or (root/'memes'/f'{slug}.md').exists(): raise ValueError('existing ID')
         if title(body)!=name: raise ValueError('title mismatch')
         if len({x['url'] for x in row['evidence']}) < 2: raise ValueError('two reviewed evidence URLs required')
         if not row.get('reviewed'): raise ValueError('human/editorial review gate missing')
@@ -64,7 +68,7 @@ def _apply(root, input_path, batch):
     index+='\n'.join(f'- [{n}]({f})' for n,f in all_entries)+'\n\n[사전 소개](../README.md) · [월별 목록](../months/README.md)\n'
     (root/'memes/README.md').write_text(index)
     collection='# 확장 시험 수록\n\n최근 유행 순위나 관찰 월이 아니라, 사전 확장 절차를 검증하기 위해 고른 한국에서 생성되었거나 독자적인 한국식 변형이 확인된 표본입니다. 해외 밈의 단순 국내 유행은 포함하지 않습니다.\n\n'
-    collection+='\n'.join(f'- [{v["title"]}](../memes/{k}.md)' for k,v in ledger['entries'].items())+'\n'
+    collection+='\n'.join(f'- [{v["title"]}](../memes/{k}.md)' for k,v in ledger['entries'].items() if not v.get('superseded_by'))+'\n'
     (root/'collections/pilot-30.md').write_text(collection)
     search_rows=build(root)
     (root/'data/search-index.json').write_text(json.dumps(search_rows,ensure_ascii=False,indent=2)+'\n')

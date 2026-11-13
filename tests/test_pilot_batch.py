@@ -64,3 +64,16 @@ class PilotTests(unittest.TestCase):
   index=json.loads((self.r/'data/search-index.json').read_text())
   self.assertTrue(any(x['id']=='fixture-0' and x['tags']==['게임'] for x in index))
   self.assertIn('[테스트0]',(self.r/'collections/topics.md').read_text())
+
+ def test_retired_slug_cannot_return(self):
+  rows=self.data()[:1];rows[0]['slug']='ppibappi';self.put(rows)
+  with self.assertRaisesRegex(ValueError,'existing ID'):p.apply(self.r,self.input,'fixture')
+ def test_retired_title_cannot_return(self):
+  rows=self.data()[:1];rows[0]['title']='삐바삐';rows[0]['markdown']=rows[0]['markdown'].replace('테스트0','삐바삐');self.put(rows)
+  with self.assertRaisesRegex(ValueError,'alias collision'):p.apply(self.r,self.input,'fixture')
+ def test_superseded_replay_checks_original(self):
+  self.put(self.data()[:1]);p.apply(self.r,self.input,'fixture')
+  lp=self.r/'data/pilot-state.json';ledger=json.loads(lp.read_text());entry=ledger['entries']['fixture-0'];entry['superseded_by']='ppi';entry['canonical_body_hash']=p.digest((self.r/'memes/ppi.md').read_text());lp.write_text(json.dumps(ledger));(self.r/'memes/fixture-0.md').unlink()
+  self.assertEqual(p.apply(self.r,self.input,'fixture')['added'],0)
+  q=self.r/'memes/ppi.md';q.write_text(q.read_text()+'수정')
+  with self.assertRaisesRegex(ValueError,'refuse overwrite'):p.apply(self.r,self.input,'fixture')
