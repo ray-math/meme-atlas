@@ -4,7 +4,7 @@ Structural/replay checks do not certify factual truth.
 import argparse, hashlib, json, re, unicodedata, shutil, tempfile, os
 from pathlib import Path
 from check_dictionary import check, title
-from frontmatter import render, validate
+from frontmatter import render, validate, read as read_metadata
 
 def key(value):
     return re.sub(r'[^\w]+', '', unicodedata.normalize('NFKC', value).casefold())
@@ -26,7 +26,9 @@ def _apply(root, input_path, batch):
         return {'status':'unchanged','batch':batch,'added':0}
     known = {}
     for p in (root/'memes').glob('*.md'):
-        if p.name!='README.md': known[key(title(p.read_text()))]=p.stem
+        if p.name!='README.md':
+            text=p.read_text();known[key(title(text))]=p.stem
+            for alias in read_metadata(text).get('aliases',[]):known[key(alias)]=p.stem
     for slug, item in ledger['entries'].items():
         for alias in item.get('aliases',[]): known[key(alias)]=slug
     planned=[]
@@ -52,6 +54,7 @@ def _apply(root, input_path, batch):
     for row,body in planned:
         (root/'memes'/f"{row['slug']}.md").write_text(body)
         ledger['entries'][row['slug']]={'title':row['title'],'aliases':row.get('aliases',[]),'batch':batch,'body_hash':digest(body),'scope_type':row['scope_type'],'scope_basis':row['scope_basis'],'tags':row.get('tags',[])}
+        if not row.get('aliases'):ledger['entries'][row['slug']].pop('aliases')
     ledger['batches'][batch]={'input_hash':payload,'ids':[r['slug'] for r in rows]}
     (root/'data').mkdir(exist_ok=True); (root/'collections').mkdir(exist_ok=True)
     ledger_path.write_text(json.dumps(ledger,ensure_ascii=False,indent=2)+'\n')

@@ -2,7 +2,7 @@
   "version": 1,
   "batches": {
     "1": {
-      "input_hash": "8ee6504cc9ac3db6b1e148f0997e8ec2cfc3988f3e19797e254a0634d421066c",
+      "input_hash": "d8afbb6c586e7cd49b8f0051a79dbe555dd617bb64f54a9aeee4eee538c7ae9f",
       "ids": [
         "jung-kkeok-ma",
         "wonyoung-thinking",
@@ -17,7 +17,7 @@
       ]
     },
     "2": {
-      "input_hash": "af688ed77cd930f886be1cf2d6f845eeb3532596d8b3acc92c57dc247cc1479c",
+      "input_hash": "d457a4c296dc032240f28c9da27b36d36a78400ee8c264e18e35ba14268414b4",
       "ids": [
         "four-dollars",
         "mukgo-double",
@@ -32,7 +32,7 @@
       ]
     },
     "3": {
-      "input_hash": "6a013a521cce964ec761c744045b4be1b14c5d5327647e1b99301d2b0c6641d5",
+      "input_hash": "42a60328c8ce3acfe758df39da21ca8f8eddd5cc90bf7e4630958cb7f8e54c84",
       "ids": [
         "iwaejin",
         "welcome-first-time",
@@ -45,6 +45,21 @@
         "donjjul",
         "manbanjalbu"
       ]
+    },
+    "4": {
+      "input_hash": "b403c372e2427ec1426e292cec6499ee4e40f7d569bb8edc0006bcef97ad009c",
+      "ids": [
+        "mwosi-jungheondi",
+        "will-i-be-king",
+        "eoi-eopne",
+        "deuruwa",
+        "never-this-taste",
+        "naeronambul",
+        "nukalhyeop",
+        "alppano",
+        "seubuljae",
+        "sonminsu"
+      ]
     }
   },
   "entries": {
@@ -55,9 +70,13 @@
         "중요한 것은 꺾이지 않는 마음"
       ],
       "batch": "1",
-      "body_hash": "ff24b266899d6d19cb727abb677ce81a7a34fd89dac4c574218f3bb78b0a1a67",
+      "body_hash": "2876f83b5f57b5697038fb6fa82974a825617fcdb44a3f16072f173ee8191eb3",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 선수 인터뷰의 한국어 제목을 국내 기자가 구성한 표현. 국제 대회에서 나왔다는 사실은 해외 밈 수입을 뜻하지 않음."
+      "scope_basis": "한국 선수 인터뷰의 한국어 제목을 국내 기자가 구성한 표현. 국제 대회에서 나왔다는 사실은 해외 밈 수입을 뜻하지 않음.",
+      "tags": [
+        "게임",
+        "스포츠"
+      ]
     },
     "wonyoung-thinking": {
       "title": "원영적 사고",
@@ -67,9 +86,12 @@
         "완전 럭키비키잖아"
       ],
       "batch": "1",
-      "body_hash": "171f62502eb8bbaa30e26b4eea42d618293419162dac1bff20b1951b7dc16920",
+      "body_hash": "7f18bcd01dd699fd248d09b0de44993588d138001b3cbcc432e18ae53eb37dd2",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 아이돌의 브이로그와 국내 팬덤 재해석에서 형성된 표현. 촬영지가 스페인인 것과 기원 문화권은 구별."
+      "scope_basis": "한국 아이돌의 브이로그와 국내 팬덤 재해석에서 형성된 표현. 촬영지가 스페인인 것과 기원 문화권은 구별.",
+      "tags": [
+        "연예"
+      ]
     },
     "ohiryeo-joa": {
       "title": "오히려 좋아",
@@ -77,55 +99,67 @@
         "오히려좋아"
       ],
       "batch": "1",
-      "body_hash": "8ed434ec0d0d212d510ea03d5e3a820fe41d7f706a3d4716f191b9d66b65e444",
+      "body_hash": "312c8c3040d4074ae58c66087480aeaf982e2ff2193589c41e520e1c2126ad4a",
       "scope_type": "korean_origin",
-      "scope_basis": "한국어 일상 문장의 국내 게임 방송 밈화. 최초 개인은 불명확하지만 외국 밈의 번역으로 확인된 표현이 아님."
+      "scope_basis": "한국어 일상 문장의 국내 게임 방송 밈화. 최초 개인은 불명확하지만 외국 밈의 번역으로 확인된 표현이 아님.",
+      "tags": [
+        "게임",
+        "인터넷방송"
+      ]
     },
     "gabojago": {
       "title": "가보자고",
       "aliases": [
-        "가 보자고",
-        "#가보자고"
+        "가 보자고"
       ],
       "batch": "1",
-      "body_hash": "de465f05cc09eb3337aa12a7f6197787d26f680cf3bd3a73162b2136875431ce",
+      "body_hash": "93b17c3d0200225811aed5467673af33d762e8101923badbb2605ffc50b9f3ba",
       "scope_type": "korean_origin",
-      "scope_basis": "한국어 권유형의 국내 팬덤 해시태그·응원 구호화. 특정 최초 게시물은 미확정."
+      "scope_basis": "한국어 권유형의 국내 팬덤 해시태그·응원 구호화. 특정 최초 게시물은 미확정.",
+      "tags": [
+        "연예"
+      ]
     },
     "aljaltakkalsen": {
       "title": "알잘딱깔센",
       "aliases": [
-        "알잘딱",
-        "알아서 잘 딱 깔끔하고 센스 있게"
+        "알잘딱"
       ],
       "batch": "1",
-      "body_hash": "345550bec23aea9e4fe460d3f9e0addc07cec9cf4e2f9f777876c5192640e165",
+      "body_hash": "0c74d9e110cdb8a9c18877559e24ac6144f65396b43463d9737454cfa0d7092b",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 인터넷 방송의 한국어 구절을 축약한 조어."
+      "scope_basis": "한국 인터넷 방송의 한국어 구절을 축약한 조어.",
+      "tags": [
+        "인터넷방송"
+      ]
     },
     "eojjeol-tv": {
       "title": "어쩔티비",
       "aliases": [
         "어쩔TV",
-        "어쩔 티비",
-        "저쩔티비"
+        "어쩔 티비"
       ],
       "batch": "1",
-      "body_hash": "7ba1fe3665d2302457768b2ba1a391839e1bb2816b568a5bf465c72d1bf4c198",
+      "body_hash": "c5f23af5e54b53489b87448447f8f6b153500ef1c7fba61523516e872e6c968a",
       "scope_type": "korean_origin",
-      "scope_basis": "한국어 어쩌라고와 티비를 결합한 국내 청소년 말놀이. 티비가 외래어인 것은 해외 밈 수입과 다름."
+      "scope_basis": "한국어 어쩌라고와 티비를 결합한 국내 청소년 말놀이. 티비가 외래어인 것은 해외 밈 수입과 다름.",
+      "tags": [
+        "방송"
+      ]
     },
     "kingbatne": {
       "title": "킹받네",
       "aliases": [
         "킹받다",
-        "킹받는다",
-        "킹받쥬"
+        "킹받는다"
       ],
       "batch": "1",
-      "body_hash": "02b6b863a902e9cd31a465cca95c824915779155f1f14a58b49cb1cd15d833da",
+      "body_hash": "4171a32905d2a778c9dc9021e0ab16f2784839a5d7eea1aa12cf92b9d37433ac",
       "scope_type": "korean_origin",
-      "scope_basis": "영어 king을 한국어 열받네에 결합한 한국식 조어. 영어권 표현을 그대로 수입한 밈이 아님."
+      "scope_basis": "영어 king을 한국어 열받네에 결합한 한국식 조어. 영어권 표현을 그대로 수입한 밈이 아님.",
+      "tags": [
+        "인터넷방송"
+      ]
     },
     "muyaho": {
       "title": "무야호",
@@ -134,56 +168,70 @@
         "무야호~"
       ],
       "batch": "1",
-      "body_hash": "ebfb3ef827d7427940c3c9619c36e82a72479f357625e368a6bd56c40ded0d24",
+      "body_hash": "c42aef972f3c180d1894c3e5eba94c2681cd7e5403fedd98bc637f61834fbae0",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 방송 무한도전에서 나온 한국어 구호 변형. 알래스카 현지 촬영이라는 지리적 조건과 별개로 한국 방송 밈."
+      "scope_basis": "한국 방송 무한도전에서 나온 한국어 구호 변형. 알래스카 현지 촬영이라는 지리적 조건과 별개로 한국 방송 밈.",
+      "tags": [
+        "방송"
+      ]
     },
     "museon129": {
       "title": "머선129",
       "aliases": [
         "머선 129",
-        "머선일이고",
-        "무슨 일이고"
+        "머선일이고"
       ],
       "batch": "1",
-      "body_hash": "5573def79b8f71f56bb940a537cbfdd671318ea9c22c41a0f2eff6b94e223b42",
+      "body_hash": "75e455c40bb311a38e40714f3128871b57aabbe49fa34b991d7091cf8821ebe5",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 방언 무슨 일이고의 소리를 숫자로 바꾼 한국식 언어유희."
+      "scope_basis": "한국 방언 무슨 일이고의 소리를 숫자로 바꾼 한국식 언어유희.",
+      "tags": [
+        "인터넷방송",
+        "방송"
+      ]
     },
     "form-michyeotda": {
       "title": "폼 미쳤다",
       "aliases": [
         "폼미쳤다",
-        "폼 미쳤다이",
-        "Pom Michutda"
+        "폼 미쳤다이"
       ],
       "batch": "1",
-      "body_hash": "ac17ec8e2773194218e53686174acc550d29a0280e0502420497787a7fefce33",
+      "body_hash": "42e63fe617750291f1f463790fb6e6048dbcd0ca6a80deb471ceb1cd8d14a100",
       "scope_type": "korean_origin",
-      "scope_basis": "차용어 폼과 한국어 미쳤다를 결합한 국내 스포츠·인터넷 기량 칭찬 표현. 영어 단어 form 자체의 기원과 밈 형성을 구별."
+      "scope_basis": "차용어 폼과 한국어 미쳤다를 결합한 국내 스포츠·인터넷 기량 칭찬 표현. 영어 단어 form 자체의 기원과 밈 형성을 구별.",
+      "tags": [
+        "스포츠",
+        "인터넷방송"
+      ]
     },
     "four-dollars": {
       "title": "사딸라",
       "aliases": [
         "4딸라",
-        "사달라",
-        "김두한식 협상"
+        "사달라"
       ],
       "batch": "2",
-      "body_hash": "8f25b68e3b060f063c3a70545e47145a7b5f0e4260c1adb55c4b26c1828797d2",
+      "body_hash": "91c3b1fd1d1878238447d3507f5fd98f394f8a0ba84c781da055bbd871942f32",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다."
+      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다.",
+      "tags": [
+        "방송",
+        "광고"
+      ]
     },
     "mukgo-double": {
       "title": "묻고 더블로 가",
       "aliases": [
-        "묻더",
         "묻고 더블로 가!"
       ],
       "batch": "2",
-      "body_hash": "e163f8b94c488f2dab94bd92db294b031b96bf55b78507d98e914e59d95f1a98",
+      "body_hash": "b77875ee554d49d70557b79a7189101e63a3ab62a7d1b5be3b2a414c872192cc",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다."
+      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다.",
+      "tags": [
+        "영화"
+      ]
     },
     "you-have-a-plan": {
       "title": "넌 계획이 다 있구나",
@@ -192,9 +240,12 @@
         "아들아 넌 계획이 다 있구나"
       ],
       "batch": "2",
-      "body_hash": "369008390523556d5927672df897a6bdc7449810b5366c7631c6d8d07fe77b62",
+      "body_hash": "ae08c5905a74b33e5ed27c0cb3e0dac8530b91cd5ad96ef3db68b358d29eb575",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다."
+      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다.",
+      "tags": [
+        "영화"
+      ]
     },
     "sangmottjeong": {
       "title": "상상도 못한 정체",
@@ -204,55 +255,66 @@
         "└(°0°)┐"
       ],
       "batch": "2",
-      "body_hash": "e4ef1b0202869ba5d53ac2f4ec6ca553c71171b9d51c2a9dbf9ced81d9098138",
+      "body_hash": "09e168a9e61fafd3b82f61d507277c096e9e62bf0eb17396ce98942fbca354ea",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다."
+      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
     },
     "who-coughed": {
       "title": "누가 기침 소리를 내었는가",
       "aliases": [
-        "누구인가",
-        "누가 기침소리를 내었는가",
-        "궁예 기침"
+        "누가 기침소리를 내었는가"
       ],
       "batch": "2",
-      "body_hash": "d29760bdbf843dd96fd2ca23d9a6304d09b3c65e005fdf70a8425d04786b8b9a",
+      "body_hash": "282bb5c324087ba4eea2bd5ad9a7bf77cafca29eed621dec738603ae6a01e981",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다."
+      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
     },
     "save-in-my-heart": {
       "title": "내 마음속에 저장",
       "aliases": [
-        "내 마음 속에 저장",
-        "저장"
+        "내 마음 속에 저장"
       ],
       "batch": "2",
-      "body_hash": "ff645ba160835e7967bd08ea0ccab884ec6cf9623c0e2e168aafb4525a8856a5",
+      "body_hash": "32869087a51129cd01174135486db0b20353948f05326adce73dff18177102ba",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다."
+      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다.",
+      "tags": [
+        "방송",
+        "연예"
+      ]
     },
     "ya-neodu": {
       "title": "야 너두",
       "aliases": [
         "야 너두?",
-        "야 나두",
         "야 너두 할 수 있어"
       ],
       "batch": "2",
-      "body_hash": "104fdc400b0e7ed5dacc79e6955c4cd5a6a8d093588035f22645560f542e1ba9",
+      "body_hash": "6ecb771392442d454f15030ad7f8c1e9cdf16563692dcb44d3eb2a14b85c3701",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다."
+      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다.",
+      "tags": [
+        "광고"
+      ]
     },
     "sara-inne": {
       "title": "살아있네",
       "aliases": [
-        "살아있네~",
-        "살아있어"
+        "살아있네~"
       ],
       "batch": "2",
-      "body_hash": "d1cd5458dd4f06d6c14f9e2475248f589be4a535eb75a20175350ab794ab1e05",
+      "body_hash": "221ec8686e608cf502c9cbc78c4d9627ccc42b46a0a1fb69183b1444fedcba17",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다."
+      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다.",
+      "tags": [
+        "영화"
+      ]
     },
     "do-you-know-crab": {
       "title": "니들이 게맛을 알아",
@@ -261,20 +323,26 @@
         "니들이 게 맛을 알아?"
       ],
       "batch": "2",
-      "body_hash": "aad011ae2fcebe915e1f2ba6abbb9c4f68e4b01e87eda6da4e8ed906c62fcf93",
+      "body_hash": "a162f1fec4c4b8ffc0e127005cf1677c99a4aeaab17f5c50bb82a6d98478bc5f",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다."
+      "scope_basis": "한국 방송·영화·광고에서 나온 표현이 한국어 온라인 패러디로 확산했다.",
+      "tags": [
+        "광고"
+      ]
     },
     "neona-jalhaseyo": {
       "title": "너나 잘하세요",
       "aliases": [
-        "너나 잘 하세요",
-        "너나 걱정하세요"
+        "너나 잘 하세요"
       ],
       "batch": "2",
-      "body_hash": "e5a383e4dbe774e3576f28ca4b599fb43fcca5de2dbe503d70a7233ed474c735",
+      "body_hash": "4aac12d0fff6d978aaf5719d637851f7eb1ceae0980ff5fa77697ef23033c06f",
       "scope_type": "korean_origin",
-      "scope_basis": "2005년 한국 영화 친절한 금자씨의 대사가 한국 광고와 일상 인용으로 확산했다."
+      "scope_basis": "2005년 한국 영화 친절한 금자씨의 대사가 한국 광고와 일상 인용으로 확산했다.",
+      "tags": [
+        "영화",
+        "광고"
+      ]
     },
     "iwaejin": {
       "title": "이왜진",
@@ -283,19 +351,22 @@
         "이게 왜 진짜야"
       ],
       "batch": "3",
-      "body_hash": "e393f7d66eea76be9e5e451a9c9af663c4b2343a4537c30a8eb247f20cf1175b",
+      "body_hash": "fadbf95b4493a5276dfff0de3650363e5a01c39ed87e88c442e110d46f1047e9",
       "scope_type": "korean_origin",
-      "scope_basis": "‘이게 왜 진짜?’라는 한국어 문장을 줄여 만든 국내 온라인 반응 표현이다."
+      "scope_basis": "‘이게 왜 진짜?’라는 한국어 문장을 줄여 만든 국내 온라인 반응 표현이다.",
+      "tags": [
+        "인터넷방송"
+      ]
     },
     "welcome-first-time": {
       "title": "어서 와, ○○는 처음이지?",
-      "aliases": [
-        "어서 와 한국은 처음이지"
-      ],
       "batch": "3",
-      "body_hash": "3f95ad8182cbdbe81a79c9a2a8fdf8e54a8a90c0f6982b43c3109f2603220dc2",
+      "body_hash": "b704acfb1900d4f732fc32dbb9a3935d06604489111bd2f2d7dfedb77668eaae",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 오디션 방송의 이승철 장면을 국내 이용자들이 빈칸 치환형 문장으로 발전시켰다."
+      "scope_basis": "한국 오디션 방송의 이승철 장면을 국내 이용자들이 빈칸 치환형 문장으로 발전시켰다.",
+      "tags": [
+        "방송"
+      ]
     },
     "not-me": {
       "title": "나만 아니면 돼",
@@ -303,21 +374,27 @@
         "나만 아니면 된다"
       ],
       "batch": "3",
-      "body_hash": "f9775d3ca82bc1d6092d779ba211aefd710084f2e938eda04e31b562dd4b7830",
+      "body_hash": "fc9e1b71e8854d32553fdecbb23f2997f03ba4b8e2474766c860439d5ddc42ff",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 예능 1박2일의 복불복 장면과 반응 짤을 통해 국내 밈으로 정착했다."
+      "scope_basis": "한국 예능 1박2일의 복불복 장면과 반응 짤을 통해 국내 밈으로 정착했다.",
+      "tags": [
+        "방송"
+      ]
     },
     "why-are-you-there": {
       "title": "형이 왜 거기서 나와",
       "aliases": [
         "니가 왜 거기서 나와",
-        "네가 왜 거기서 나와",
-        "너가 왜 거기서 나와"
+        "네가 왜 거기서 나와"
       ],
       "batch": "3",
-      "body_hash": "c61e3cf00456b3790a761fe20fa28b89480dfbce10b1a0b02c5c84499a16fbc8",
+      "body_hash": "39766b90861ff52f95e3ff8c56dbdafe61d58bd3908e6da15f90708804432441",
       "scope_type": "korean_origin",
-      "scope_basis": "한국 예능의 반응 짤에서 출발해 국내 대중가요와 문장 변형으로 확산된 표현이다."
+      "scope_basis": "한국 예능의 반응 짤에서 출발해 국내 대중가요와 문장 변형으로 확산된 표현이다.",
+      "tags": [
+        "방송",
+        "음악"
+      ]
     },
     "latte-is-horse": {
       "title": "라떼는 말이야",
@@ -326,30 +403,28 @@
         "나 때는 말이야"
       ],
       "batch": "3",
-      "body_hash": "02a543d0180dbf09d46af2f8bca3bdd9a12cd420dc992a413bac003d15fc8198",
+      "body_hash": "651e47b18994c141e9240b7d0493e2d16bdc3207a8f5b13f68999d6432dfda68",
       "scope_type": "korean_origin",
-      "scope_basis": "‘나 때는’과 ‘라떼’의 한국어 발음 유사성을 이용해 국내 세대·위계 문화를 풍자한 표현이다."
+      "scope_basis": "‘나 때는’과 ‘라떼’의 한국어 발음 유사성을 이용해 국내 세대·위계 문화를 풍자한 표현이다.",
+      "tags": [
+        "광고"
+      ]
     },
     "dapjeongneo": {
       "title": "답정너",
-      "aliases": [
-        "답은 정해져 있고 너는 대답만 하면 돼"
-      ],
       "batch": "3",
-      "body_hash": "d66723f85bc10a04dbaea87a173b9266ecfb036c4718a2fb065156330ba2fec4",
+      "body_hash": "6bc1840d1c8714140eb3c83d36d037ed92de9bbc20de7996a7d9c39dfb400984",
       "scope_type": "korean_origin",
-      "scope_basis": "한국어 문장을 압축해 온라인 대화의 특정 태도를 명명한 국내 신조어다."
+      "scope_basis": "한국어 문장을 압축해 온라인 대화의 특정 태도를 명명한 국내 신조어다.",
+      "tags": []
     },
     "gapbunssa": {
       "title": "갑분싸",
-      "aliases": [
-        "갑자기 분위기 싸해짐",
-        "갑자기 분위기가 싸해진다"
-      ],
       "batch": "3",
-      "body_hash": "d85c07bf5303698dc0c1baefabcda03df829163c184ba2fb5eaba580651e2f8e",
+      "body_hash": "55e9a20c359d1574b7e61680765550583c70f7a714606a5f2b8da2315ba6b205",
       "scope_type": "korean_origin",
-      "scope_basis": "한국어 상황 설명을 줄여 국내 온라인·방송에서 퍼진 반응 표현이다."
+      "scope_basis": "한국어 상황 설명을 줄여 국내 온라인·방송에서 퍼진 반응 표현이다.",
+      "tags": []
     },
     "tallula": {
       "title": "탈룰라",
@@ -358,30 +433,138 @@
         "탈룰라하다"
       ],
       "batch": "3",
-      "body_hash": "1f5d0df4b87a48b18d431cc891d69253b95dc6558e62515ea38ced9c2fd0415e",
+      "body_hash": "de9865d656d1b5a1d683585faad297f7545d6bbe19e3d1524b37119c6f55c1d9",
       "scope_type": "korean_adaptation",
-      "scope_basis": "외국 영화의 이름을 단순 유통한 것이 아니라, 한국에서 실언 수습·태세 전환을 뜻하는 행동 명사로 재해석했다."
+      "scope_basis": "외국 영화의 이름을 단순 유통한 것이 아니라, 한국에서 실언 수습·태세 전환을 뜻하는 행동 명사로 재해석했다.",
+      "tags": [
+        "영화"
+      ]
     },
     "donjjul": {
       "title": "돈쭐",
       "aliases": [
-        "돈쭐내다",
-        "돈쭐내러 가자"
+        "돈쭐내다"
       ],
       "batch": "3",
-      "body_hash": "ed4cb3fc0feb8fb5958622bbd0a66982c36756a5873c6e77022409728a368d13",
+      "body_hash": "9baa161fbcba3a70124e896cb8d6059fedf109f384d23cad9b6265ced5b8f03d",
       "scope_type": "korean_origin",
-      "scope_basis": "돈과 혼쭐을 결합해 국내 선행 가게에 대한 구매 응원 행동을 명명한 한국어 표현이다."
+      "scope_basis": "돈과 혼쭐을 결합해 국내 선행 가게에 대한 구매 응원 행동을 명명한 한국어 표현이다.",
+      "tags": [
+        "소비"
+      ]
     },
     "manbanjalbu": {
       "title": "만반잘부",
-      "aliases": [
-        "만나서 반가워 잘 부탁해"
-      ],
       "batch": "3",
-      "body_hash": "45734a01799caee10df4cdbf1153f1b8387645e1be70a6e4c2b9a23a54e7da47",
+      "body_hash": "4061205d9d0d1191df659a4f05558de9bee83ebcc8a490296dc243019e576eac",
       "scope_type": "korean_origin",
-      "scope_basis": "한국어 첫인사 문구의 음절을 묶어 만든 국내 온라인 인사 표현이다."
+      "scope_basis": "한국어 첫인사 문구의 음절을 묶어 만든 국내 온라인 인사 표현이다.",
+      "tags": []
+    },
+    "mwosi-jungheondi": {
+      "title": "뭣이 중헌디",
+      "batch": "4",
+      "body_hash": "9f4de583b4ee63c85b69f88af3ee83f8064daee6c856da461367da9a0343fbf7",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화의 장면과 말투가 한국어 패러디와 실제 사용으로 확산한 표현이다.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "will-i-be-king": {
+      "title": "내가 왕이 될 상인가",
+      "batch": "4",
+      "body_hash": "4b707d3f2f902af903f54d382e3b49040d6f02e549543991ed47bfe5412e1a57",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화의 장면과 말투가 한국어 패러디와 실제 사용으로 확산한 표현이다.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "eoi-eopne": {
+      "title": "어이가 없네",
+      "batch": "4",
+      "body_hash": "07216e0dbaf005cb004f98b0200bb71447b7177483adbf7f51399a840e7e6c79",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화의 장면과 말투가 한국어 패러디와 실제 사용으로 확산한 표현이다.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "deuruwa": {
+      "title": "드루와",
+      "aliases": [
+        "드루와 드루와"
+      ],
+      "batch": "4",
+      "body_hash": "133d65f1fdd3f8077f2de91a98825f9914c7831cd14f844fd9062caba8a55177",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화의 장면과 말투가 한국어 패러디와 실제 사용으로 확산한 표현이다.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "never-this-taste": {
+      "title": "지금까지 이런 맛은 없었다",
+      "batch": "4",
+      "body_hash": "676b55dc12b8e73c640d52a25a13935c65768ca9c1e0d51fa3c82d687ba7c5a3",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화의 장면과 말투가 한국어 패러디와 실제 사용으로 확산한 표현이다.",
+      "tags": [
+        "영화",
+        "음식"
+      ]
+    },
+    "naeronambul": {
+      "title": "내로남불",
+      "batch": "4",
+      "body_hash": "071bcc6f091e337b560e3f018193f04567415f8d7c5cf670b3c8237862f53265",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 대비 문장을 네 음절로 압축해 국내 사회·정치 논쟁에서 정착한 표현이다.",
+      "tags": [
+        "정치"
+      ]
+    },
+    "nukalhyeop": {
+      "title": "누칼협",
+      "batch": "4",
+      "body_hash": "216ac4e2106e6a16415f48afda9abb87ed406aeacd002dd48e04caf0f8f20027",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 강압적 반문을 국내 게임 커뮤니티에서 짧은 책임 추궁 표현으로 굳힌 밈이다.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "alppano": {
+      "title": "알빠노",
+      "batch": "4",
+      "body_hash": "08e40e7919eabea96b080571b36cffcfafd65511069df729a2dcdcdc3c6043fc",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 LoL 방송의 한국어 채팅을 계기로 무관심과 책임 회피를 나타내는 반응 밈이 됐다.",
+      "tags": [
+        "게임",
+        "인터넷방송"
+      ]
+    },
+    "seubuljae": {
+      "title": "스불재",
+      "batch": "4",
+      "body_hash": "f185d25d058a13faf4d90dd8d89c69366bc9acd71ee636f46fb1bfe18a3fbc2c",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 ‘스스로 불러온 재앙’을 축약한 국내 신조어이며 타언어 표현을 그대로 들여온 항목이 아니다.",
+      "tags": []
+    },
+    "sonminsu": {
+      "title": "손민수",
+      "batch": "4",
+      "body_hash": "514a7950b0cefac67900f462cdf6eb44d367594080eb8ac07703157fdc22fba6",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 웹툰 캐릭터의 이름을 국내 이용자들이 모방 행동과 팬덤 소비를 뜻하는 말로 확장했다.",
+      "tags": [
+        "웹툰",
+        "방송",
+        "소비"
+      ]
     }
   }
 }

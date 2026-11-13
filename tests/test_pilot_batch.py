@@ -43,3 +43,8 @@ class PilotTests(unittest.TestCase):
  def test_missing_scope_basis_rejected(self):
   rows=self.data();rows[0]['scope_basis']='';self.put(rows)
   with self.assertRaisesRegex(ValueError,'scope review'):p.apply(self.r,self.input,'fixture')
+
+ def test_legacy_yaml_alias_collision(self):
+  rows=self.data();rows[0]['aliases']=['Criss Cross'];self.put(rows)
+  with self.assertRaisesRegex(ValueError,'alias collision'):p.apply(self.r,self.input,'fixture')
+  self.assertFalse((self.r/'memes/fixture-0.md').exists())

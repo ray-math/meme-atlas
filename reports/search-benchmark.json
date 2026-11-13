@@ -1,0 +1,24 @@
+{
+  "kind": "synthetic lexical search microbenchmark",
+  "not_content_validation": true,
+  "sizes": [
+    {
+      "synthetic_entries": 1000,
+      "runs": 5,
+      "median_seconds": 0.005259,
+      "results": 1
+    },
+    {
+      "synthetic_entries": 5000,
+      "runs": 5,
+      "median_seconds": 0.027554,
+      "results": 1
+    },
+    {
+      "synthetic_entries": 10000,
+      "runs": 5,
+      "median_seconds": 0.053144,
+      "results": 10
+    }
+  ]
+}
