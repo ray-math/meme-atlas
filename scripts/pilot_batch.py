@@ -36,6 +36,8 @@ def _apply(root, input_path, batch):
         if title(body)!=name: raise ValueError('title mismatch')
         if len({x['url'] for x in row['evidence']}) < 2: raise ValueError('two reviewed evidence URLs required')
         if not row.get('reviewed'): raise ValueError('human/editorial review gate missing')
+        if row.get('scope_type') not in {'korean_origin','korean_adaptation'} or not row.get('scope_basis','').strip():
+            raise ValueError('Korean origin/adaptation scope review required')
         for alias in [name]+row['aliases']:
             normalized=key(alias)
             if not normalized: raise ValueError('empty alias')
@@ -47,7 +49,7 @@ def _apply(root, input_path, batch):
     # Staging validation happens before caller's atomic Git tree/commit publication.
     for row,body in planned:
         (root/'memes'/f"{row['slug']}.md").write_text(body)
-        ledger['entries'][row['slug']]={'title':row['title'],'aliases':row['aliases'],'batch':batch,'body_hash':digest(body)}
+        ledger['entries'][row['slug']]={'title':row['title'],'aliases':row['aliases'],'batch':batch,'body_hash':digest(body),'scope_type':row['scope_type'],'scope_basis':row['scope_basis']}
     ledger['batches'][batch]={'input_hash':payload,'ids':[r['slug'] for r in rows]}
     (root/'data').mkdir(exist_ok=True); (root/'collections').mkdir(exist_ok=True)
     ledger_path.write_text(json.dumps(ledger,ensure_ascii=False,indent=2)+'\n')
@@ -55,7 +57,7 @@ def _apply(root, input_path, batch):
     all_entries=sorted((title(p.read_text()),p.name) for p in (root/'memes').glob('*.md') if p.name!='README.md')
     index+='\n'.join(f'- [{n}]({f})' for n,f in all_entries)+'\n\n[사전 소개](../README.md) · [월별 목록](../months/README.md)\n'
     (root/'memes/README.md').write_text(index)
-    collection='# 확장 시험 수록\n\n최근 유행 순위나 관찰 월이 아니라, 사전 확장 절차를 검증하기 위해 고른 역사적·국내외 표본입니다.\n\n'
+    collection='# 확장 시험 수록\n\n최근 유행 순위나 관찰 월이 아니라, 사전 확장 절차를 검증하기 위해 고른 한국에서 생성되었거나 독자적인 한국식 변형이 확인된 표본입니다. 해외 밈의 단순 국내 유행은 포함하지 않습니다.\n\n'
     collection+='\n'.join(f'- [{v["title"]}](../memes/{k}.md)' for k,v in ledger['entries'].items())+'\n'
     (root/'collections/pilot-30.md').write_text(collection)
     errors=check(root)

@@ -1,17 +1,7 @@
 # 확장 시험 수록
 
-최근 유행 순위나 관찰 월이 아니라, 사전 확장 절차를 검증하기 위해 고른 역사적·국내외 표본입니다.
+최근 유행 순위나 관찰 월이 아니라, 사전 확장 절차를 검증하기 위해 고른 한국에서 생성되었거나 독자적인 한국식 변형이 확인된 표본입니다. 해외 밈의 단순 국내 유행은 포함하지 않습니다.
 
-- [This is fine](../memes/this-is-fine.md)
-- [Distracted Boyfriend](../memes/distracted-boyfriend.md)
-- [Drakeposting](../memes/drakeposting.md)
-- [Is this a pigeon?](../memes/is-this-a-pigeon.md)
-- [Woman Yelling at a Cat](../memes/woman-yelling-at-a-cat.md)
-- [Expanding Brain](../memes/expanding-brain.md)
-- [Change My Mind](../memes/change-my-mind.md)
-- [Hide the Pain Harold](../memes/hide-the-pain-harold.md)
-- [Disaster Girl](../memes/disaster-girl.md)
-- [Success Kid](../memes/success-kid.md)
 - [중꺾마](../memes/jung-kkeok-ma.md)
 - [원영적 사고](../memes/wonyoung-thinking.md)
 - [오히려 좋아](../memes/ohiryeo-joa.md)
@@ -22,13 +12,3 @@
 - [무야호](../memes/muyaho.md)
 - [머선129](../memes/museon129.md)
 - [폼 미쳤다](../memes/form-michyeotda.md)
-- [릭롤](../memes/rickroll.md)
-- [도지](../memes/doge.md)
-- [치임스](../memes/cheems.md)
-- [놀란 피카츄](../memes/surprised-pikachu.md)
-- [롤 세이프](../memes/roll-safe.md)
-- [두 개의 버튼](../memes/two-buttons.md)
-- [조롱하는 스폰지밥](../memes/mocking-spongebob.md)
-- [그루의 계획](../memes/grus-plan.md)
-- [스통크스](../memes/stonks.md)
-- [관짝춤](../memes/coffin-dance.md)

@@ -8,7 +8,7 @@ class PilotTests(unittest.TestCase):
   self.t=tempfile.TemporaryDirectory(); self.addCleanup(self.t.cleanup); self.r=Path(self.t.name)/'repo';shutil.copytree(ROOT,self.r)
   self.input=Path(self.t.name)/'batch.json'
  def data(self):
-  return [{'slug':f'fixture-{i}','title':f'테스트{i}','aliases':[f'Alias{i}'],'reviewed':True,'evidence':[{'url':'https://example.org/a'},{'url':'https://example.org/b'}],'markdown':f'# 테스트{i}\n\n## 뜻풀이\n시험 자료\n\n## 유래와 확산\n실제 밈이 아닌 테스트 자료'} for i in range(10)]
+  return [{'slug':f'fixture-{i}','title':f'테스트{i}','aliases':[f'Alias{i}'],'reviewed':True,'scope_type':'korean_origin','scope_basis':'시험용 국내 분류','evidence':[{'url':'https://example.org/a'},{'url':'https://example.org/b'}],'markdown':f'# 테스트{i}\n\n## 뜻풀이\n시험 자료\n\n## 유래와 확산\n실제 밈이 아닌 테스트 자료'} for i in range(10)]
  def put(self,rows): self.input.write_text(json.dumps(rows))
  def test_replay(self):
   self.put(self.data());a=p.apply(self.r,self.input,'fixture');b=p.apply(self.r,self.input,'fixture');self.assertEqual(a['added'],10);self.assertEqual(b['added'],0)
@@ -34,3 +34,12 @@ class PilotTests(unittest.TestCase):
   rows=self.data();rows[0]['markdown']+='\n[없는글](missing.md)';self.put(rows)
   with self.assertRaises(ValueError):p.apply(self.r,self.input,'fixture')
   self.assertFalse((self.r/'memes/fixture-0.md').exists())
+
+ def test_foreign_popularity_rejected(self):
+  rows=self.data();rows[0]['scope_type']='foreign_popular';self.put(rows)
+  with self.assertRaisesRegex(ValueError,'scope review'):p.apply(self.r,self.input,'fixture')
+  self.assertFalse((self.r/'memes/fixture-0.md').exists())
+
+ def test_missing_scope_basis_rejected(self):
+  rows=self.data();rows[0]['scope_basis']='';self.put(rows)
+  with self.assertRaisesRegex(ValueError,'scope review'):p.apply(self.r,self.input,'fixture')

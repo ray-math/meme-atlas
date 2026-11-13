@@ -2,22 +2,7 @@
   "version": 1,
   "batches": {
     "1": {
-      "input_hash": "0ac8b683b5a5ca2bcf73c14043c43d3a5a3cd95ceb6e1b4ba1f54b49651ecda0",
-      "ids": [
-        "this-is-fine",
-        "distracted-boyfriend",
-        "drakeposting",
-        "is-this-a-pigeon",
-        "woman-yelling-at-a-cat",
-        "expanding-brain",
-        "change-my-mind",
-        "hide-the-pain-harold",
-        "disaster-girl",
-        "success-kid"
-      ]
-    },
-    "2": {
-      "input_hash": "5848989a3c8315886126afc438a9b4c16335aff62a2019e0719fae7bf1936266",
+      "input_hash": "8ee6504cc9ac3db6b1e148f0997e8ec2cfc3988f3e19797e254a0634d421066c",
       "ids": [
         "jung-kkeok-ma",
         "wonyoung-thinking",
@@ -30,122 +15,19 @@
         "museon129",
         "form-michyeotda"
       ]
-    },
-    "3": {
-      "input_hash": "db64d03c265265f211fedc294e5cf1eeb2b61db005e9faf0d54f7e246fb60182",
-      "ids": [
-        "rickroll",
-        "doge",
-        "cheems",
-        "surprised-pikachu",
-        "roll-safe",
-        "two-buttons",
-        "mocking-spongebob",
-        "grus-plan",
-        "stonks",
-        "coffin-dance"
-      ]
     }
   },
   "entries": {
-    "this-is-fine": {
-      "title": "This is fine",
-      "aliases": [
-        "디스 이즈 파인"
-      ],
-      "batch": "1",
-      "body_hash": "00216c0b92a190cf9e2ec2574ce77d7fe889f9412325834392967b53f512119a"
-    },
-    "distracted-boyfriend": {
-      "title": "Distracted Boyfriend",
-      "aliases": [
-        "한눈파는 남자친구",
-        "디스트랙티드 보이프렌드"
-      ],
-      "batch": "1",
-      "body_hash": "f20dde7a813f42040e8516b24d8d20d0cb536798736316c094afb5e4aae35ce6"
-    },
-    "drakeposting": {
-      "title": "Drakeposting",
-      "aliases": [
-        "드레이크 밈",
-        "Hotline Bling 밈"
-      ],
-      "batch": "1",
-      "body_hash": "55cb66315c7f2142280d684c844ab2a899bbd9a749c44a9a08f7ea4db68c4849"
-    },
-    "is-this-a-pigeon": {
-      "title": "Is this a pigeon?",
-      "aliases": [
-        "이것이 비둘기인가요?",
-        "비둘기 밈"
-      ],
-      "batch": "1",
-      "body_hash": "88f33a47ae6b09d773eb429c144a0c463ae9eb68bcf21bee100218b296a58b86"
-    },
-    "woman-yelling-at-a-cat": {
-      "title": "Woman Yelling at a Cat",
-      "aliases": [
-        "고양이에게 소리치는 여자",
-        "스머지 고양이 밈"
-      ],
-      "batch": "1",
-      "body_hash": "2dbb86f4fdc78c2a9a1cb8fa55c807818e258718eeca53e90f8b70cb95783567"
-    },
-    "expanding-brain": {
-      "title": "Expanding Brain",
-      "aliases": [
-        "Galaxy Brain",
-        "갤럭시 브레인",
-        "커지는 뇌"
-      ],
-      "batch": "1",
-      "body_hash": "bcc042767cf5f360c3f4c27e11459e6a779e629564fae7b8fa21631dadcabd27"
-    },
-    "change-my-mind": {
-      "title": "Change My Mind",
-      "aliases": [
-        "체인지 마이 마인드",
-        "내 생각을 바꿔 봐"
-      ],
-      "batch": "1",
-      "body_hash": "f0777000b05a7faa1bdbf71372579a69174f89d2fdfe7dd7d33946401e56c2a6"
-    },
-    "hide-the-pain-harold": {
-      "title": "Hide the Pain Harold",
-      "aliases": [
-        "해럴드",
-        "Maurice"
-      ],
-      "batch": "1",
-      "body_hash": "b579ebd82b71e4e6ec641453445b2a4f76ef4d4af41cbee5ddb66a26997a785f"
-    },
-    "disaster-girl": {
-      "title": "Disaster Girl",
-      "aliases": [
-        "재앙 소녀",
-        "디재스터 걸"
-      ],
-      "batch": "1",
-      "body_hash": "18af580de1b9667d9e0c17d7d22d94deab2a3407ed4e9f3e2db91e31067f17f4"
-    },
-    "success-kid": {
-      "title": "Success Kid",
-      "aliases": [
-        "성공한 아기",
-        "석세스 키드"
-      ],
-      "batch": "1",
-      "body_hash": "44c7d36dc3c103a665f7854dd264c94bec32825560803dec75f5335fb76623fc"
-    },
     "jung-kkeok-ma": {
       "title": "중꺾마",
       "aliases": [
         "중요한 건 꺾이지 않는 마음",
         "중요한 것은 꺾이지 않는 마음"
       ],
-      "batch": "2",
-      "body_hash": "ff24b266899d6d19cb727abb677ce81a7a34fd89dac4c574218f3bb78b0a1a67"
+      "batch": "1",
+      "body_hash": "ff24b266899d6d19cb727abb677ce81a7a34fd89dac4c574218f3bb78b0a1a67",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 선수 인터뷰의 한국어 제목을 국내 기자가 구성한 표현. 국제 대회에서 나왔다는 사실은 해외 밈 수입을 뜻하지 않음."
     },
     "wonyoung-thinking": {
       "title": "원영적 사고",
@@ -154,16 +36,20 @@
         "Lucky Vicky",
         "완전 럭키비키잖아"
       ],
-      "batch": "2",
-      "body_hash": "171f62502eb8bbaa30e26b4eea42d618293419162dac1bff20b1951b7dc16920"
+      "batch": "1",
+      "body_hash": "171f62502eb8bbaa30e26b4eea42d618293419162dac1bff20b1951b7dc16920",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 아이돌의 브이로그와 국내 팬덤 재해석에서 형성된 표현. 촬영지가 스페인인 것과 기원 문화권은 구별."
     },
     "ohiryeo-joa": {
       "title": "오히려 좋아",
       "aliases": [
         "오히려좋아"
       ],
-      "batch": "2",
-      "body_hash": "8ed434ec0d0d212d510ea03d5e3a820fe41d7f706a3d4716f191b9d66b65e444"
+      "batch": "1",
+      "body_hash": "8ed434ec0d0d212d510ea03d5e3a820fe41d7f706a3d4716f191b9d66b65e444",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 일상 문장의 국내 게임 방송 밈화. 최초 개인은 불명확하지만 외국 밈의 번역으로 확인된 표현이 아님."
     },
     "gabojago": {
       "title": "가보자고",
@@ -171,8 +57,10 @@
         "가 보자고",
         "#가보자고"
       ],
-      "batch": "2",
-      "body_hash": "de465f05cc09eb3337aa12a7f6197787d26f680cf3bd3a73162b2136875431ce"
+      "batch": "1",
+      "body_hash": "de465f05cc09eb3337aa12a7f6197787d26f680cf3bd3a73162b2136875431ce",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 권유형의 국내 팬덤 해시태그·응원 구호화. 특정 최초 게시물은 미확정."
     },
     "aljaltakkalsen": {
       "title": "알잘딱깔센",
@@ -180,8 +68,10 @@
         "알잘딱",
         "알아서 잘 딱 깔끔하고 센스 있게"
       ],
-      "batch": "2",
-      "body_hash": "345550bec23aea9e4fe460d3f9e0addc07cec9cf4e2f9f777876c5192640e165"
+      "batch": "1",
+      "body_hash": "345550bec23aea9e4fe460d3f9e0addc07cec9cf4e2f9f777876c5192640e165",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 인터넷 방송의 한국어 구절을 축약한 조어."
     },
     "eojjeol-tv": {
       "title": "어쩔티비",
@@ -190,8 +80,10 @@
         "어쩔 티비",
         "저쩔티비"
       ],
-      "batch": "2",
-      "body_hash": "7ba1fe3665d2302457768b2ba1a391839e1bb2816b568a5bf465c72d1bf4c198"
+      "batch": "1",
+      "body_hash": "7ba1fe3665d2302457768b2ba1a391839e1bb2816b568a5bf465c72d1bf4c198",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어쩌라고와 티비를 결합한 국내 청소년 말놀이. 티비가 외래어인 것은 해외 밈 수입과 다름."
     },
     "kingbatne": {
       "title": "킹받네",
@@ -200,8 +92,10 @@
         "킹받는다",
         "킹받쥬"
       ],
-      "batch": "2",
-      "body_hash": "02b6b863a902e9cd31a465cca95c824915779155f1f14a58b49cb1cd15d833da"
+      "batch": "1",
+      "body_hash": "02b6b863a902e9cd31a465cca95c824915779155f1f14a58b49cb1cd15d833da",
+      "scope_type": "korean_origin",
+      "scope_basis": "영어 king을 한국어 열받네에 결합한 한국식 조어. 영어권 표현을 그대로 수입한 밈이 아님."
     },
     "muyaho": {
       "title": "무야호",
@@ -209,8 +103,10 @@
         "무야~호~",
         "무야호~"
       ],
-      "batch": "2",
-      "body_hash": "ebfb3ef827d7427940c3c9619c36e82a72479f357625e368a6bd56c40ded0d24"
+      "batch": "1",
+      "body_hash": "ebfb3ef827d7427940c3c9619c36e82a72479f357625e368a6bd56c40ded0d24",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 방송 무한도전에서 나온 한국어 구호 변형. 알래스카 현지 촬영이라는 지리적 조건과 별개로 한국 방송 밈."
     },
     "museon129": {
       "title": "머선129",
@@ -219,8 +115,10 @@
         "머선일이고",
         "무슨 일이고"
       ],
-      "batch": "2",
-      "body_hash": "5573def79b8f71f56bb940a537cbfdd671318ea9c22c41a0f2eff6b94e223b42"
+      "batch": "1",
+      "body_hash": "5573def79b8f71f56bb940a537cbfdd671318ea9c22c41a0f2eff6b94e223b42",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 방언 무슨 일이고의 소리를 숫자로 바꾼 한국식 언어유희."
     },
     "form-michyeotda": {
       "title": "폼 미쳤다",
@@ -229,100 +127,10 @@
         "폼 미쳤다이",
         "Pom Michutda"
       ],
-      "batch": "2",
-      "body_hash": "ac17ec8e2773194218e53686174acc550d29a0280e0502420497787a7fefce33"
-    },
-    "rickroll": {
-      "title": "릭롤",
-      "aliases": [
-        "Rickroll",
-        "Rickrolling",
-        "릭롤링"
-      ],
-      "batch": "3",
-      "body_hash": "5d8b33448686675675b005e77d87c54f58f066f6e820c8fd031704d6e002b52d"
-    },
-    "doge": {
-      "title": "도지",
-      "aliases": [
-        "Doge"
-      ],
-      "batch": "3",
-      "body_hash": "d1879423fbe8bf5ae4b0b417bb422d9656556cfba02f1ae79c828f40155f095c"
-    },
-    "cheems": {
-      "title": "치임스",
-      "aliases": [
-        "Cheems",
-        "Cheemsburbger",
-        "쳄스"
-      ],
-      "batch": "3",
-      "body_hash": "e1fb50da738c9054f526be61caa40ac0943375d84c0a4f5a653fdf1dcbba755d"
-    },
-    "surprised-pikachu": {
-      "title": "놀란 피카츄",
-      "aliases": [
-        "Surprised Pikachu",
-        "Surprised Pikachu Face"
-      ],
-      "batch": "3",
-      "body_hash": "94330ec8467c6bb2f44217faeebafec28e4bef44507385280441f2e4516e4647"
-    },
-    "roll-safe": {
-      "title": "롤 세이프",
-      "aliases": [
-        "Roll Safe",
-        "롤세이프"
-      ],
-      "batch": "3",
-      "body_hash": "735218f0642d9c616988543e5150d3b46e5335630d1b65adaf7549c6a67e58ff"
-    },
-    "two-buttons": {
-      "title": "두 개의 버튼",
-      "aliases": [
-        "Two Buttons",
-        "Daily Struggle"
-      ],
-      "batch": "3",
-      "body_hash": "f547e0b6eac5918206b0f8db0839c93b2056abc539edd58746e0b7364d57a1ba"
-    },
-    "mocking-spongebob": {
-      "title": "조롱하는 스폰지밥",
-      "aliases": [
-        "Mocking SpongeBob",
-        "스폰지밥 조롱 밈"
-      ],
-      "batch": "3",
-      "body_hash": "0a0d641f9f4c8059f5b75f2e757636c38053877b212ac7850d2c190fdb637ad0"
-    },
-    "grus-plan": {
-      "title": "그루의 계획",
-      "aliases": [
-        "Gru’s Plan",
-        "Gru's Plan"
-      ],
-      "batch": "3",
-      "body_hash": "3c7ce829b4594a6e83c79e61e7a9706a484d8a4c3ff4a3fb19a88d2b468a4f26"
-    },
-    "stonks": {
-      "title": "스통크스",
-      "aliases": [
-        "Stonks",
-        "스톤크스"
-      ],
-      "batch": "3",
-      "body_hash": "f149514748aaf706d6d593f67c4b95fcb9834115012583ce6673fa267ad87eae"
-    },
-    "coffin-dance": {
-      "title": "관짝춤",
-      "aliases": [
-        "Coffin Dance",
-        "Dancing Pallbearers",
-        "관 춤"
-      ],
-      "batch": "3",
-      "body_hash": "e5691f28f0089db5d989cd9c028762ccb87a90e6ecb11e8591b9d0ff2d45fac6"
+      "batch": "1",
+      "body_hash": "ac17ec8e2773194218e53686174acc550d29a0280e0502420497787a7fefce33",
+      "scope_type": "korean_origin",
+      "scope_basis": "차용어 폼과 한국어 미쳤다를 결합한 국내 스포츠·인터넷 기량 칭찬 표현. 영어 단어 form 자체의 기원과 밈 형성을 구별."
     }
   }
 }
