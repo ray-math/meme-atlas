@@ -13,6 +13,7 @@
 - [L을 가져가](../memes/take-the-l.md)
 - [누칼협](../memes/nukalhyeop.md)
 - [딸깍](../memes/click.md)
+- [밤티](../memes/bamti.md)
 - [알빠노](../memes/alppano.md)
 - [오히려 좋아](../memes/ohiryeo-joa.md)
 - [자강두천](../memes/jagang-ducheon.md)
@@ -87,6 +88,7 @@
 
 - [돈쭐](../memes/donjjul.md)
 - [손민수](../memes/sonminsu.md)
+- [전여친 감자칼](../memes/ex-girlfriend-peeler.md)
 
 ## 스포츠
 
@@ -105,6 +107,7 @@
 - [성덕](../memes/seongdeok.md)
 - [원영적 사고](../memes/wonyoung-thinking.md)
 - [이거 제 이모지야](../memes/my-emoji.md)
+- [장원영 ○○](../memes/wonyoung-praise.md)
 
 ## 영화
 
@@ -134,6 +137,7 @@
 
 ## 음식
 
+- [두바이 딱딱 강정](../memes/dubai-hard-gangjeong.md)
 - [빼난지원금](../memes/pepero-aid.md)
 - [오디세이](../memes/odyssey.md)
 - [지금까지 이런 맛은 없었다](../memes/never-this-taste.md)
@@ -143,11 +147,16 @@
 ## 음악
 
 - [나 왜 이 순간이 영원할 것 같지?](../memes/forever-moment.md)
+- [늙크크](../memes/old-creator-crew.md)
+- [라우럴](../memes/raureol.md)
+- [영크크](../memes/young-creator-crew.md)
 - [체포하겠어](../memes/under-arrest.md)
 - [형이 왜 거기서 나와](../memes/why-are-you-there.md)
+- [힙사사돈 챌린지](../memes/hipsasadon.md)
 
 ## 인터넷방송
 
+- [난리자베스](../memes/nanrijabeth.md)
 - [머선129](../memes/museon129.md)
 - [빼난지원금](../memes/pepero-aid.md)
 - [알빠노](../memes/alppano.md)

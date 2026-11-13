@@ -129,6 +129,20 @@
         "jonbeo",
         "tteoksang"
       ]
+    },
+    "latest-2026-11-batch-1": {
+      "input_hash": "e0ac66dee7c72b830d035ed4d8e74d2d94a251425d0e2b733a7f1d55b5bf66f5",
+      "ids": [
+        "raureol",
+        "young-creator-crew",
+        "hipsasadon",
+        "nanrijabeth",
+        "ex-girlfriend-peeler",
+        "bamti",
+        "wonyoung-praise",
+        "old-creator-crew",
+        "dubai-hard-gangjeong"
+      ]
     }
   },
   "entries": {
@@ -1063,6 +1077,105 @@
       "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
       "tags": [
         "투자"
+      ]
+    },
+    "raureol": {
+      "title": "라우럴",
+      "aliases": [
+        "ㄹㅏ우럴"
+      ],
+      "batch": "latest-2026-11-batch-1",
+      "body_hash": "93ca0e1ad1e82e5e41627a250fdd4787d707a50f7a5707b2bcd37825ae21839b",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "한국 가수의 발화를 한국 팬덤이 특정 한글표기와 반응영상 형식으로 변형한 국내 맥락의 밈이다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "young-creator-crew": {
+      "title": "영크크",
+      "batch": "latest-2026-11-batch-1",
+      "body_hash": "1123c50e1cc321c589c4302bda506d902ee684cd53475e0e2f8acd42f196e2bd",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 아이돌의 팀·곡 표현을 한국어 음절로 줄여 국내 팬덤과 대중이 새 평가말로 사용한 표현이다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "hipsasadon": {
+      "title": "힙사사돈 챌린지",
+      "aliases": [
+        "힙사사돈"
+      ],
+      "batch": "latest-2026-11-batch-1",
+      "body_hash": "12bccdbb6b3c8c2c9614cacf5fdb288d019950bc617977b31534e476084b29ac",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 가수의 한국어 곡에 국내 무용팀이 붙인 안무가 반복되는 국내 생성 챌린지다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "nanrijabeth": {
+      "title": "난리자베스",
+      "batch": "latest-2026-11-batch-1",
+      "body_hash": "80b56856c9a0e95cf57d17f933a48b8a4663083f298f141670ce081170028587",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 크리에이터가 한국어 난리와 외국 이름의 소리를 결합하고 국내 이용자들이 생산적으로 변형한 말이다.",
+      "tags": [
+        "인터넷방송"
+      ]
+    },
+    "ex-girlfriend-peeler": {
+      "title": "전여친 감자칼",
+      "batch": "latest-2026-11-batch-1",
+      "body_hash": "59af0cbd2b11de0ca6bf5422ac31d85334ef7308de4e9cc7a0a42b463456f58d",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 소비·커뮤니티 문화에서 국내 생활용품 사연에 붙인 명칭이다. 외국 밈을 단순히 한국에서 유행시킨 사례가 아니라 한국어의 전남친 토스트 명명 형식을 새 사연에 적용했다.",
+      "tags": [
+        "소비"
+      ]
+    },
+    "bamti": {
+      "title": "밤티",
+      "batch": "latest-2026-11-batch-1",
+      "body_hash": "b9c6e5643fabd772473851732b3d17256c3fd915d8df7d95996a835308029980",
+      "scope_type": "korean_origin",
+      "scope_basis": "게임 자체의 해외 여부가 아니라 한국어 이용자 대화의 닉네임이 국내에서 평가어로 변한 표현이다.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "wonyoung-praise": {
+      "title": "장원영 ○○",
+      "batch": "latest-2026-11-batch-1",
+      "body_hash": "6dfca6bc71efaf6c1e3de770838bcf33401dd0088e7e7862d610c8e6f91d4c70",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 연예인의 이름을 국내 평가어의 반대말로 전환한 한국어 칭찬 틀이다.",
+      "tags": [
+        "연예"
+      ]
+    },
+    "old-creator-crew": {
+      "title": "늙크크",
+      "batch": "latest-2026-11-batch-1",
+      "body_hash": "bf72363da8c55a24a2c7a9f6954758b55854b4ae1f4019d67dee544f99a610a9",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 그룹 곡명의 축약형을 한국어 늙-으로 뒤집어 만든 독자적인 한국어 말장난이다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "dubai-hard-gangjeong": {
+      "title": "두바이 딱딱 강정",
+      "aliases": [
+        "두딱강"
+      ],
+      "batch": "latest-2026-11-batch-1",
+      "body_hash": "4d9367c6b710524bc09f7dd3301f1567995cd8072ec99016282fc3eee07035ed",
+      "scope_type": "korean_origin",
+      "scope_basis": "해외 디저트의 단순 인기가 아니라 국내 셰프 영상에 한국어 식감·메뉴명 반전을 붙인 독자적 댓글 밈이다.",
+      "tags": [
+        "음식"
       ]
     }
   }
