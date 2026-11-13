@@ -75,6 +75,21 @@
         "bravo-yeonjin",
         "traitor-among-us"
       ]
+    },
+    "6": {
+      "input_hash": "0704a4708e6bb7a9635232b9f3e79299206301ac320f4db82b70f7e9a1bc9c98",
+      "ids": [
+        "anmul-angung",
+        "bokse-pyeonsal",
+        "jagang-ducheon",
+        "jotdaet-gual",
+        "mangwanbu",
+        "byeoldajul",
+        "kkilkki-ppappa",
+        "kkuan-kku",
+        "jaman-chu",
+        "gatsaeng"
+      ]
     }
   },
   "entries": {
@@ -687,6 +702,94 @@
       "tags": [
         "영화"
       ]
+    },
+    "anmul-angung": {
+      "title": "안물안궁",
+      "batch": "6",
+      "body_hash": "c2c072b41a5e372f4de91c41ebdf12bad212853f5156458c513ecc908b0ca7ec",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "bokse-pyeonsal": {
+      "title": "복세편살",
+      "batch": "6",
+      "body_hash": "da777dbb212f1eec77bf85df88b0cd808862724fd33e079bcb5c5eb9ad758aa8",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "jagang-ducheon": {
+      "title": "자강두천",
+      "batch": "6",
+      "body_hash": "2c8867db4b16cf6ce45d42d54b5121dc73ac01dc130bc68f4af344805b9833f8",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "jotdaet-gual": {
+      "title": "좋댓구알",
+      "batch": "6",
+      "body_hash": "50a72e5028bd23f9371fa19342038cc2d8bc83de8d58490078aeebe0868988f3",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": [
+        "인터넷방송"
+      ]
+    },
+    "mangwanbu": {
+      "title": "많관부",
+      "batch": "6",
+      "body_hash": "a8dacdc0de56e45a58a4a4c288266d039a451c21f478f08c5bf6ef3a652775e6",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "byeoldajul": {
+      "title": "별다줄",
+      "batch": "6",
+      "body_hash": "82aedb6cd21c6842334c19dab2656e115b9a093ad1ae2ef0aa59ab840da3e4d3",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "kkilkki-ppappa": {
+      "title": "낄끼빠빠",
+      "batch": "6",
+      "body_hash": "bdc98c0c917c2b0351ed4ba27803532ea82b3c62273999a69e5818517a1bbf82",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
+    },
+    "kkuan-kku": {
+      "title": "꾸안꾸",
+      "batch": "6",
+      "body_hash": "38f15c32d81efb7d7eab89e3188a7a8552c464be3a5c46e7327b60aac38985d9",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": [
+        "패션"
+      ]
+    },
+    "jaman-chu": {
+      "title": "자만추",
+      "batch": "6",
+      "body_hash": "41ca294dd691d13d5c02463a3ef891cf5f389ad3b14f212202956a0b22a2cc04",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": [
+        "연애"
+      ]
+    },
+    "gatsaeng": {
+      "title": "갓생",
+      "batch": "6",
+      "body_hash": "276934800686df03e978ae56ef625b6da6b052a6eaa63c405f54a524713d915c",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": []
     }
   }
 }

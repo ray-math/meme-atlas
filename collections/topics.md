@@ -15,6 +15,7 @@
 - [딸깍](../memes/click.md)
 - [알빠노](../memes/alppano.md)
 - [오히려 좋아](../memes/ohiryeo-joa.md)
+- [자강두천](../memes/jagang-ducheon.md)
 - [중꺾마](../memes/jung-kkeok-ma.md)
 - [줴줴이야](../memes/jwejweiya.md)
 - [측면 대 측면](../memes/side-to-side.md)
@@ -32,10 +33,16 @@
 
 - [~삐](../memes/ppi.md)
 - [갑분싸](../memes/gapbunssa.md)
+- [갓생](../memes/gatsaeng.md)
+- [낄끼빠빠](../memes/kkilkki-ppappa.md)
 - [답정너](../memes/dapjeongneo.md)
 - [만반잘부](../memes/manbanjalbu.md)
+- [많관부](../memes/mangwanbu.md)
+- [별다줄](../memes/byeoldajul.md)
+- [복세편살](../memes/bokse-pyeonsal.md)
 - [숨긴다고 숨겨지는 것도 아니고](../memes/cannot-hide.md)
 - [스불재](../memes/seubuljae.md)
+- [안물안궁](../memes/anmul-angung.md)
 - [포기하겠습니다](../memes/give-up.md)
 
 ## 방송
@@ -64,6 +71,10 @@
 
 - [중꺾마](../memes/jung-kkeok-ma.md)
 - [폼 미쳤다](../memes/form-michyeotda.md)
+
+## 연애
+
+- [자만추](../memes/jaman-chu.md)
 
 ## 연예
 
@@ -121,6 +132,7 @@
 - [오디세이](../memes/odyssey.md)
 - [오히려 좋아](../memes/ohiryeo-joa.md)
 - [이왜진](../memes/iwaejin.md)
+- [좋댓구알](../memes/jotdaet-gual.md)
 - [줴줴이야](../memes/jwejweiya.md)
 - [킹받네](../memes/kingbatne.md)
 - [폼 미쳤다](../memes/form-michyeotda.md)
@@ -128,4 +140,8 @@
 ## 정치
 
 - [내로남불](../memes/naeronambul.md)
+
+## 패션
+
+- [꾸안꾸](../memes/kkuan-kku.md)
 
