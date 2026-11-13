@@ -30,6 +30,21 @@
         "museon129",
         "form-michyeotda"
       ]
+    },
+    "3": {
+      "input_hash": "db64d03c265265f211fedc294e5cf1eeb2b61db005e9faf0d54f7e246fb60182",
+      "ids": [
+        "rickroll",
+        "doge",
+        "cheems",
+        "surprised-pikachu",
+        "roll-safe",
+        "two-buttons",
+        "mocking-spongebob",
+        "grus-plan",
+        "stonks",
+        "coffin-dance"
+      ]
     }
   },
   "entries": {
@@ -216,6 +231,98 @@
       ],
       "batch": "2",
       "body_hash": "ac17ec8e2773194218e53686174acc550d29a0280e0502420497787a7fefce33"
+    },
+    "rickroll": {
+      "title": "릭롤",
+      "aliases": [
+        "Rickroll",
+        "Rickrolling",
+        "릭롤링"
+      ],
+      "batch": "3",
+      "body_hash": "5d8b33448686675675b005e77d87c54f58f066f6e820c8fd031704d6e002b52d"
+    },
+    "doge": {
+      "title": "도지",
+      "aliases": [
+        "Doge"
+      ],
+      "batch": "3",
+      "body_hash": "d1879423fbe8bf5ae4b0b417bb422d9656556cfba02f1ae79c828f40155f095c"
+    },
+    "cheems": {
+      "title": "치임스",
+      "aliases": [
+        "Cheems",
+        "Cheemsburbger",
+        "쳄스"
+      ],
+      "batch": "3",
+      "body_hash": "e1fb50da738c9054f526be61caa40ac0943375d84c0a4f5a653fdf1dcbba755d"
+    },
+    "surprised-pikachu": {
+      "title": "놀란 피카츄",
+      "aliases": [
+        "Surprised Pikachu",
+        "Surprised Pikachu Face"
+      ],
+      "batch": "3",
+      "body_hash": "94330ec8467c6bb2f44217faeebafec28e4bef44507385280441f2e4516e4647"
+    },
+    "roll-safe": {
+      "title": "롤 세이프",
+      "aliases": [
+        "Roll Safe",
+        "롤세이프"
+      ],
+      "batch": "3",
+      "body_hash": "735218f0642d9c616988543e5150d3b46e5335630d1b65adaf7549c6a67e58ff"
+    },
+    "two-buttons": {
+      "title": "두 개의 버튼",
+      "aliases": [
+        "Two Buttons",
+        "Daily Struggle"
+      ],
+      "batch": "3",
+      "body_hash": "f547e0b6eac5918206b0f8db0839c93b2056abc539edd58746e0b7364d57a1ba"
+    },
+    "mocking-spongebob": {
+      "title": "조롱하는 스폰지밥",
+      "aliases": [
+        "Mocking SpongeBob",
+        "스폰지밥 조롱 밈"
+      ],
+      "batch": "3",
+      "body_hash": "0a0d641f9f4c8059f5b75f2e757636c38053877b212ac7850d2c190fdb637ad0"
+    },
+    "grus-plan": {
+      "title": "그루의 계획",
+      "aliases": [
+        "Gru’s Plan",
+        "Gru's Plan"
+      ],
+      "batch": "3",
+      "body_hash": "3c7ce829b4594a6e83c79e61e7a9706a484d8a4c3ff4a3fb19a88d2b468a4f26"
+    },
+    "stonks": {
+      "title": "스통크스",
+      "aliases": [
+        "Stonks",
+        "스톤크스"
+      ],
+      "batch": "3",
+      "body_hash": "f149514748aaf706d6d593f67c4b95fcb9834115012583ce6673fa267ad87eae"
+    },
+    "coffin-dance": {
+      "title": "관짝춤",
+      "aliases": [
+        "Coffin Dance",
+        "Dancing Pallbearers",
+        "관 춤"
+      ],
+      "batch": "3",
+      "body_hash": "e5691f28f0089db5d989cd9c028762ccb87a90e6ecb11e8591b9d0ff2d45fac6"
     }
   }
 }
