@@ -1,0 +1,67 @@
+"""Small-batch importer. Evidence inputs stay outside the public repository.
+Structural/replay checks do not certify factual truth.
+"""
+import argparse, hashlib, json, re, unicodedata
+from pathlib import Path
+from check_dictionary import check, title
+
+def key(value):
+    return re.sub(r'[^\w]+', '', unicodedata.normalize('NFKC', value).casefold())
+
+def digest(s): return hashlib.sha256(s.encode()).hexdigest()
+
+def apply(root, input_path, batch):
+    root = Path(root)
+    rows = json.loads(Path(input_path).read_text())
+    if len(rows) != 10: raise ValueError('pilot batch must contain exactly 10 entries')
+    ledger_path = root/'data/pilot-state.json'
+    ledger = json.loads(ledger_path.read_text()) if ledger_path.exists() else {'version':1,'batches':{},'entries':{}}
+    payload = digest(json.dumps(rows,ensure_ascii=False,sort_keys=True))
+    if batch in ledger['batches']:
+        if ledger['batches'][batch]['input_hash'] != payload: raise ValueError('batch replay differs; review required')
+        for slug in ledger['batches'][batch]['ids']:
+            if digest((root/'memes'/f'{slug}.md').read_text()) != ledger['entries'][slug]['body_hash']:
+                raise ValueError('published entry changed; refuse overwrite')
+        return {'status':'unchanged','batch':batch,'added':0}
+    known = {}
+    for p in (root/'memes').glob('*.md'):
+        if p.name!='README.md': known[key(title(p.read_text()))]=p.stem
+    for slug, item in ledger['entries'].items():
+        for alias in item['aliases']: known[key(alias)]=slug
+    planned=[]
+    for row in rows:
+        slug=row['slug']; name=row['title']; body=row['markdown'].strip()
+        if not re.fullmatch('[a-z0-9]+(?:-[a-z0-9]+)*',slug): raise ValueError('unsafe slug')
+        if (root/'memes'/f'{slug}.md').exists(): raise ValueError('existing ID')
+        if title(body)!=name: raise ValueError('title mismatch')
+        if len({x['url'] for x in row['evidence']}) < 2: raise ValueError('two reviewed evidence URLs required')
+        if not row.get('reviewed'): raise ValueError('human/editorial review gate missing')
+        for alias in [name]+row['aliases']:
+            normalized=key(alias)
+            if not normalized: raise ValueError('empty alias')
+            if normalized in known and known[normalized]!=slug: raise ValueError('alias collision: '+alias)
+            known[normalized]=slug
+        if re.search(r'https?://',body): raise ValueError('public entry contains evidence URL')
+        body+='\n\n[시험 수록 목록](../collections/pilot-30.md)\n'
+        planned.append((row,body))
+    # Staging validation happens before caller's atomic Git tree/commit publication.
+    for row,body in planned:
+        (root/'memes'/f"{row['slug']}.md").write_text(body)
+        ledger['entries'][row['slug']]={'title':row['title'],'aliases':row['aliases'],'batch':batch,'body_hash':digest(body)}
+    ledger['batches'][batch]={'input_hash':payload,'ids':[r['slug'] for r in rows]}
+    (root/'data').mkdir(exist_ok=True); (root/'collections').mkdir(exist_ok=True)
+    ledger_path.write_text(json.dumps(ledger,ensure_ascii=False,indent=2)+'\n')
+    index='# 전체 밈 목록\n\n'
+    all_entries=sorted((title(p.read_text()),p.name) for p in (root/'memes').glob('*.md') if p.name!='README.md')
+    index+='\n'.join(f'- [{n}]({f})' for n,f in all_entries)+'\n\n[사전 소개](../README.md) · [월별 목록](../months/README.md)\n'
+    (root/'memes/README.md').write_text(index)
+    collection='# 확장 시험 수록\n\n최근 유행 순위나 관찰 월이 아니라, 사전 확장 절차를 검증하기 위해 고른 역사적·국내외 표본입니다.\n\n'
+    collection+='\n'.join(f'- [{v["title"]}](../memes/{k}.md)' for k,v in ledger['entries'].items())+'\n'
+    (root/'collections/pilot-30.md').write_text(collection)
+    errors=check(root)
+    if errors: raise ValueError('\n'.join(errors))
+    return {'status':'applied','batch':batch,'added':len(rows),'total_pilot':len(ledger['entries'])}
+
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('input');p.add_argument('--batch',required=True);p.add_argument('--root',default=str(Path(__file__).resolve().parents[1]));a=p.parse_args()
+    print(json.dumps(apply(a.root,a.input,a.batch),ensure_ascii=False))

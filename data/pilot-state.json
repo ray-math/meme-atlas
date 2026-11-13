@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "batches": {
+    "1": {
+      "input_hash": "0ac8b683b5a5ca2bcf73c14043c43d3a5a3cd95ceb6e1b4ba1f54b49651ecda0",
+      "ids": [
+        "this-is-fine",
+        "distracted-boyfriend",
+        "drakeposting",
+        "is-this-a-pigeon",
+        "woman-yelling-at-a-cat",
+        "expanding-brain",
+        "change-my-mind",
+        "hide-the-pain-harold",
+        "disaster-girl",
+        "success-kid"
+      ]
+    }
+  },
+  "entries": {
+    "this-is-fine": {
+      "title": "This is fine",
+      "aliases": [
+        "디스 이즈 파인"
+      ],
+      "batch": "1",
+      "body_hash": "00216c0b92a190cf9e2ec2574ce77d7fe889f9412325834392967b53f512119a"
+    },
+    "distracted-boyfriend": {
+      "title": "Distracted Boyfriend",
+      "aliases": [
+        "한눈파는 남자친구",
+        "디스트랙티드 보이프렌드"
+      ],
+      "batch": "1",
+      "body_hash": "f20dde7a813f42040e8516b24d8d20d0cb536798736316c094afb5e4aae35ce6"
+    },
+    "drakeposting": {
+      "title": "Drakeposting",
+      "aliases": [
+        "드레이크 밈",
+        "Hotline Bling 밈"
+      ],
+      "batch": "1",
+      "body_hash": "55cb66315c7f2142280d684c844ab2a899bbd9a749c44a9a08f7ea4db68c4849"
+    },
+    "is-this-a-pigeon": {
+      "title": "Is this a pigeon?",
+      "aliases": [
+        "이것이 비둘기인가요?",
+        "비둘기 밈"
+      ],
+      "batch": "1",
+      "body_hash": "88f33a47ae6b09d773eb429c144a0c463ae9eb68bcf21bee100218b296a58b86"
+    },
+    "woman-yelling-at-a-cat": {
+      "title": "Woman Yelling at a Cat",
+      "aliases": [
+        "고양이에게 소리치는 여자",
+        "스머지 고양이 밈"
+      ],
+      "batch": "1",
+      "body_hash": "2dbb86f4fdc78c2a9a1cb8fa55c807818e258718eeca53e90f8b70cb95783567"
+    },
+    "expanding-brain": {
+      "title": "Expanding Brain",
+      "aliases": [
+        "Galaxy Brain",
+        "갤럭시 브레인",
+        "커지는 뇌"
+      ],
+      "batch": "1",
+      "body_hash": "bcc042767cf5f360c3f4c27e11459e6a779e629564fae7b8fa21631dadcabd27"
+    },
+    "change-my-mind": {
+      "title": "Change My Mind",
+      "aliases": [
+        "체인지 마이 마인드",
+        "내 생각을 바꿔 봐"
+      ],
+      "batch": "1",
+      "body_hash": "f0777000b05a7faa1bdbf71372579a69174f89d2fdfe7dd7d33946401e56c2a6"
+    },
+    "hide-the-pain-harold": {
+      "title": "Hide the Pain Harold",
+      "aliases": [
+        "해럴드",
+        "Maurice"
+      ],
+      "batch": "1",
+      "body_hash": "b579ebd82b71e4e6ec641453445b2a4f76ef4d4af41cbee5ddb66a26997a785f"
+    },
+    "disaster-girl": {
+      "title": "Disaster Girl",
+      "aliases": [
+        "재앙 소녀",
+        "디재스터 걸"
+      ],
+      "batch": "1",
+      "body_hash": "18af580de1b9667d9e0c17d7d22d94deab2a3407ed4e9f3e2db91e31067f17f4"
+    },
+    "success-kid": {
+      "title": "Success Kid",
+      "aliases": [
+        "성공한 아기",
+        "석세스 키드"
+      ],
+      "batch": "1",
+      "body_hash": "44c7d36dc3c103a665f7854dd264c94bec32825560803dec75f5335fb76623fc"
+    }
+  }
+}

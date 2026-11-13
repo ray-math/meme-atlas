@@ -23,6 +23,7 @@ def check(root):
     files = {p.resolve(): p.read_text(encoding='utf-8') for p in root.rglob('*.md') if '.git' not in p.parts and 'templates' not in p.relative_to(root).parts}
     entries = {p: t for p, t in files.items() if p.parent == root/'memes' and p.name != 'README.md'}
     months = {p: t for p, t in files.items() if p.parent == root/'months' and MONTH.fullmatch(p.name)}
+    collections = {p: t for p,t in files.items() if p.parent == root/'collections'}
     graph = {p: list(links(root, p, t)) for p, t in files.items()}
     def err(p, message): errors.append(f'{p.relative_to(root)}: {message}')
     for p, targets in graph.items():
@@ -39,10 +40,10 @@ def check(root):
             if section not in text: err(p, f'missing section: {section}')
             elif not text.split(section,1)[1].split('\n## ',1)[0].strip(): err(p, f'empty section: {section}')
         if any(s in text for s in ['쓰이는 장면 — 상황 요약', '위 장면 설명은 용법을', '## 기록과 근거']): err(p, 'unwanted editorial boilerplate')
-        if not any(target in months for _,target in graph[p]): err(p, 'no observation month')
+        if not any(target in months or target in collections for _,target in graph[p]): err(p, 'no observation month or curated collection')
         for _, target in graph[p]:
             if target in entries and p != target and not any(back == p for _,back in graph[target]): err(p, f'missing related backlink: {target.name}')
-            if target in months and not any(back == p for _,back in graph[target]): err(p, f'missing month backlink: {target.name}')
+            if (target in months or target in collections) and not any(back == p for _,back in graph[target]): err(p, f'missing month backlink: {target.name}')
     for p, text in months.items():
         targets = [t for _,t in graph[p] if t in entries]
         if len(targets) != len(set(targets)): err(p, 'duplicate month entry')
@@ -64,3 +65,4 @@ if __name__ == '__main__':
     if errors:
         print('\n'.join(errors)); sys.exit(1)
     print('Dictionary structure checks passed (not a factual-accuracy certification).')
+
