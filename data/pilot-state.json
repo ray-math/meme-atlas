@@ -90,6 +90,21 @@
         "jaman-chu",
         "gatsaeng"
       ]
+    },
+    "7": {
+      "input_hash": "3fa5b5dc91cc9eea5d6ffcc146c0352f36d674495c33d454c8b2d857ef8a4531",
+      "ids": [
+        "neukkim-anikka",
+        "hitda-hit",
+        "angdaeyo",
+        "curious-500won",
+        "who-raises-cows",
+        "gorae",
+        "bora-unni",
+        "hororok",
+        "super-power",
+        "is-this-best"
+      ]
     }
   },
   "entries": {
@@ -790,6 +805,116 @@
       "scope_type": "korean_origin",
       "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
       "tags": []
+    },
+    "neukkim-anikka": {
+      "title": "느낌 아니까",
+      "batch": "7",
+      "body_hash": "d484cbde7765448afdb8274ff17723296961ececf33c59aaf9f897f0bf57b115",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "hitda-hit": {
+      "title": "히트다 히트",
+      "batch": "7",
+      "body_hash": "767e3cbfd7df319000fbe83490844e90e3b3c5b8fe842e9f0e9f6d03dc502aa7",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "angdaeyo": {
+      "title": "앙대요",
+      "batch": "7",
+      "body_hash": "831f2bd6ad41cba0d84b68f3f2e0db07da1de8c6731cd996b1130886cd61ce9a",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "curious-500won": {
+      "title": "궁금하면 오백원",
+      "aliases": [
+        "궁금하면 500원"
+      ],
+      "batch": "7",
+      "body_hash": "6ef508856070c7f1e844d23039131084f6d83eb36e1713e5e558e1cfdd077bd0",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "who-raises-cows": {
+      "title": "소는 누가 키워",
+      "batch": "7",
+      "body_hash": "2e11ee4267fe80c13e1259267d723668608a447139a5971c9ffb939b9af1a9c0",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "gorae": {
+      "title": "고뤠",
+      "batch": "7",
+      "body_hash": "5218218cd0c928ed3fccaf274fc050d743bf00ddc51545f1c2fac259968a4d06",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "bora-unni": {
+      "title": "잠시만요, 보라언니 ~하고 가실게요",
+      "batch": "7",
+      "body_hash": "1ef2cb3a582d94f7832f190c8aa4859a6e8c8149370d995c0252a8f50465e695",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "hororok": {
+      "title": "호로록",
+      "batch": "7",
+      "body_hash": "0bc2f255984d40629db35af9bb64690f62531ef743a68c26f99380d3c9c1c8f1",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송",
+        "음식"
+      ]
+    },
+    "super-power": {
+      "title": "힘을 내요 슈퍼파월",
+      "aliases": [
+        "힘을 내요 슈퍼파워"
+      ],
+      "batch": "7",
+      "body_hash": "7fc671cd47fed775a804530a51c5d10909e8059f61290109b6c8d3174f1aca01",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "is-this-best": {
+      "title": "이게 최선입니까",
+      "aliases": [
+        "이게 최선입니까? 확실해요?"
+      ],
+      "batch": "7",
+      "body_hash": "770e30f9929f22f52a73de97bfe41b7c49a49320f80a69f9cdc108c544f42ef9",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
     }
   }
 }

@@ -47,20 +47,30 @@
 
 ## 방송
 
+- [고뤠](../memes/gorae.md)
+- [궁금하면 오백원](../memes/curious-500won.md)
 - [나 왜 이 순간이 영원할 것 같지?](../memes/forever-moment.md)
 - [나만 아니면 돼](../memes/not-me.md)
 - [내 마음속에 저장](../memes/save-in-my-heart.md)
 - [누가 기침 소리를 내었는가](../memes/who-coughed.md)
+- [느낌 아니까](../memes/neukkim-anikka.md)
 - [머선129](../memes/museon129.md)
 - [멋지다 연진아](../memes/bravo-yeonjin.md)
 - [무야호](../memes/muyaho.md)
 - [사딸라](../memes/four-dollars.md)
 - [상상도 못한 정체](../memes/sangmottjeong.md)
+- [소는 누가 키워](../memes/who-raises-cows.md)
 - [손민수](../memes/sonminsu.md)
+- [앙대요](../memes/angdaeyo.md)
 - [어서 와, ○○는 처음이지?](../memes/welcome-first-time.md)
 - [어쩔티비](../memes/eojjeol-tv.md)
+- [이게 최선입니까](../memes/is-this-best.md)
+- [잠시만요, 보라언니 ~하고 가실게요](../memes/bora-unni.md)
 - [장난 나랑 지금 하냐](../memes/jangan-narang-jigeum.md)
 - [형이 왜 거기서 나와](../memes/why-are-you-there.md)
+- [호로록](../memes/hororok.md)
+- [히트다 히트](../memes/hitda-hit.md)
+- [힘을 내요 슈퍼파월](../memes/super-power.md)
 
 ## 소비
 
@@ -116,6 +126,7 @@
 - [오디세이](../memes/odyssey.md)
 - [지금까지 이런 맛은 없었다](../memes/never-this-taste.md)
 - [혐대고기](../memes/hyumdae-meat.md)
+- [호로록](../memes/hororok.md)
 
 ## 음악
 
