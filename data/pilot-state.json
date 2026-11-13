@@ -30,6 +30,21 @@
         "do-you-know-crab",
         "neona-jalhaseyo"
       ]
+    },
+    "3": {
+      "input_hash": "6a013a521cce964ec761c744045b4be1b14c5d5327647e1b99301d2b0c6641d5",
+      "ids": [
+        "iwaejin",
+        "welcome-first-time",
+        "not-me",
+        "why-are-you-there",
+        "latte-is-horse",
+        "dapjeongneo",
+        "gapbunssa",
+        "tallula",
+        "donjjul",
+        "manbanjalbu"
+      ]
     }
   },
   "entries": {
@@ -260,6 +275,113 @@
       "body_hash": "e5a383e4dbe774e3576f28ca4b599fb43fcca5de2dbe503d70a7233ed474c735",
       "scope_type": "korean_origin",
       "scope_basis": "2005년 한국 영화 친절한 금자씨의 대사가 한국 광고와 일상 인용으로 확산했다."
+    },
+    "iwaejin": {
+      "title": "이왜진",
+      "aliases": [
+        "이게 왜 진짜",
+        "이게 왜 진짜야"
+      ],
+      "batch": "3",
+      "body_hash": "e393f7d66eea76be9e5e451a9c9af663c4b2343a4537c30a8eb247f20cf1175b",
+      "scope_type": "korean_origin",
+      "scope_basis": "‘이게 왜 진짜?’라는 한국어 문장을 줄여 만든 국내 온라인 반응 표현이다."
+    },
+    "welcome-first-time": {
+      "title": "어서 와, ○○는 처음이지?",
+      "aliases": [
+        "어서 와 한국은 처음이지"
+      ],
+      "batch": "3",
+      "body_hash": "3f95ad8182cbdbe81a79c9a2a8fdf8e54a8a90c0f6982b43c3109f2603220dc2",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 오디션 방송의 이승철 장면을 국내 이용자들이 빈칸 치환형 문장으로 발전시켰다."
+    },
+    "not-me": {
+      "title": "나만 아니면 돼",
+      "aliases": [
+        "나만 아니면 된다"
+      ],
+      "batch": "3",
+      "body_hash": "f9775d3ca82bc1d6092d779ba211aefd710084f2e938eda04e31b562dd4b7830",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 예능 1박2일의 복불복 장면과 반응 짤을 통해 국내 밈으로 정착했다."
+    },
+    "why-are-you-there": {
+      "title": "형이 왜 거기서 나와",
+      "aliases": [
+        "니가 왜 거기서 나와",
+        "네가 왜 거기서 나와",
+        "너가 왜 거기서 나와"
+      ],
+      "batch": "3",
+      "body_hash": "c61e3cf00456b3790a761fe20fa28b89480dfbce10b1a0b02c5c84499a16fbc8",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 예능의 반응 짤에서 출발해 국내 대중가요와 문장 변형으로 확산된 표현이다."
+    },
+    "latte-is-horse": {
+      "title": "라떼는 말이야",
+      "aliases": [
+        "Latte is horse",
+        "나 때는 말이야"
+      ],
+      "batch": "3",
+      "body_hash": "02a543d0180dbf09d46af2f8bca3bdd9a12cd420dc992a413bac003d15fc8198",
+      "scope_type": "korean_origin",
+      "scope_basis": "‘나 때는’과 ‘라떼’의 한국어 발음 유사성을 이용해 국내 세대·위계 문화를 풍자한 표현이다."
+    },
+    "dapjeongneo": {
+      "title": "답정너",
+      "aliases": [
+        "답은 정해져 있고 너는 대답만 하면 돼"
+      ],
+      "batch": "3",
+      "body_hash": "d66723f85bc10a04dbaea87a173b9266ecfb036c4718a2fb065156330ba2fec4",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 문장을 압축해 온라인 대화의 특정 태도를 명명한 국내 신조어다."
+    },
+    "gapbunssa": {
+      "title": "갑분싸",
+      "aliases": [
+        "갑자기 분위기 싸해짐",
+        "갑자기 분위기가 싸해진다"
+      ],
+      "batch": "3",
+      "body_hash": "d85c07bf5303698dc0c1baefabcda03df829163c184ba2fb5eaba580651e2f8e",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 상황 설명을 줄여 국내 온라인·방송에서 퍼진 반응 표현이다."
+    },
+    "tallula": {
+      "title": "탈룰라",
+      "aliases": [
+        "탈룰라급 태세 전환",
+        "탈룰라하다"
+      ],
+      "batch": "3",
+      "body_hash": "1f5d0df4b87a48b18d431cc891d69253b95dc6558e62515ea38ced9c2fd0415e",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "외국 영화의 이름을 단순 유통한 것이 아니라, 한국에서 실언 수습·태세 전환을 뜻하는 행동 명사로 재해석했다."
+    },
+    "donjjul": {
+      "title": "돈쭐",
+      "aliases": [
+        "돈쭐내다",
+        "돈쭐내러 가자"
+      ],
+      "batch": "3",
+      "body_hash": "ed4cb3fc0feb8fb5958622bbd0a66982c36756a5873c6e77022409728a368d13",
+      "scope_type": "korean_origin",
+      "scope_basis": "돈과 혼쭐을 결합해 국내 선행 가게에 대한 구매 응원 행동을 명명한 한국어 표현이다."
+    },
+    "manbanjalbu": {
+      "title": "만반잘부",
+      "aliases": [
+        "만나서 반가워 잘 부탁해"
+      ],
+      "batch": "3",
+      "body_hash": "45734a01799caee10df4cdbf1153f1b8387645e1be70a6e4c2b9a23a54e7da47",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 첫인사 문구의 음절을 묶어 만든 국내 온라인 인사 표현이다."
     }
   }
 }

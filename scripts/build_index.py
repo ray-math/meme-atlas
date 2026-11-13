@@ -10,6 +10,8 @@ def build(root):
   if p.name=='README.md':continue
   text=p.read_text();definition=text.split('## 뜻풀이',1)[1].split('\n## ',1)[0]
   lines=[x.strip() for x in definition.splitlines() if x.strip() and not x.startswith(('#','>','-'))]
+  if not lines:
+   lines=[re.sub(r'^#+\s*(?:\d+\.\s*)?','',x.strip()) for x in definition.splitlines() if x.strip().startswith('### ')]
   rows.append({'id':p.stem,'title':title(text),'aliases':meta.get(p.stem,{}).get('aliases',[]),'summary':lines[0] if lines else '', 'path':f'memes/{p.name}'})
  return rows
 if __name__=='__main__':
