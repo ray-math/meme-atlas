@@ -14,7 +14,7 @@
 | --- | --- |
 | [L을 가져가](memes/take-the-l.md) | 패배를 받아들이라는 장난 섞인 표현 |
 | [크리스 크로스](memes/criss-cross.md) | L을 가져가와 함께 외치는 춤 이름 |
-| [측면 대 측면](memes/side-to-side.md) | 같은 챌린지 계열의 감정표현 |
+| [측면 대 측면](memes/side-to-side.md) | Side to Side를 부르는 이름. 크리스 크로스와는 별개 |
 | [딸깍](memes/click.md) | 적은 조작으로 쉽게 결과를 얻는 상황을 나타내는 표현 |
 
 ## 읽는 방법
