@@ -38,6 +38,8 @@
 - [갓생](../memes/gatsaeng.md)
 - [금손](../memes/geumson.md)
 - [낄끼빠빠](../memes/kkilkki-ppappa.md)
+- [다음 이야기가 궁금하면 냐냐냥을 입력하세요](../memes/type-nyanyanya.md)
+- [단어 습득하는 몬스터](../memes/word-learning-monster.md)
 - [답정너](../memes/dapjeongneo.md)
 - [덕업일치](../memes/deogeop-ilchi.md)
 - [똥손](../memes/ttongson.md)
@@ -47,6 +49,7 @@
 - [별다줄](../memes/byeoldajul.md)
 - [복세편살](../memes/bokse-pyeonsal.md)
 - [빼박캔트](../memes/ppaebak-cant.md)
+- [삐바삐](../memes/ppibappi.md)
 - [숨긴다고 숨겨지는 것도 아니고](../memes/cannot-hide.md)
 - [스불재](../memes/seubuljae.md)
 - [안물안궁](../memes/anmul-angung.md)
@@ -92,6 +95,7 @@
 
 ## 스포츠
 
+- [운동 많이 된다](../memes/good-exercise.md)
 - [중꺾마](../memes/jung-kkeok-ma.md)
 - [폼 미쳤다](../memes/form-michyeotda.md)
 
@@ -102,7 +106,9 @@
 ## 연예
 
 - [가보자고](../memes/gabojago.md)
+- [그건 절대 안 되는 일이얌](../memes/not-allowed-ilyam.md)
 - [내 마음속에 저장](../memes/save-in-my-heart.md)
+- [띄어쓰기를하지않는이유는](../memes/why-no-spaces.md)
 - [반한 건 ❌](../memes/swings-denial.md)
 - [성덕](../memes/seongdeok.md)
 - [원영적 사고](../memes/wonyoung-thinking.md)
@@ -116,6 +122,7 @@
 - [너나 잘하세요](../memes/neona-jalhaseyo.md)
 - [넌 계획이 다 있구나](../memes/you-have-a-plan.md)
 - [니가 가라 하와이](../memes/you-go-hawaii.md)
+- [니가 좋아 챌린지](../memes/niga-joa-challenge.md)
 - [드루와](../memes/deuruwa.md)
 - [모히또 가서 몰디브 한잔](../memes/mojito-maldives.md)
 - [묻고 더블로 가](../memes/mukgo-double.md)
@@ -147,8 +154,10 @@
 ## 음악
 
 - [나 왜 이 순간이 영원할 것 같지?](../memes/forever-moment.md)
+- [난 파라파라나 춰야겠다](../memes/dance-parapara.md)
 - [늙크크](../memes/old-creator-crew.md)
 - [라우럴](../memes/raureol.md)
+- [매끈매끈하다 매끈매끈한](../memes/smooth-smooth.md)
 - [영크크](../memes/young-creator-crew.md)
 - [체포하겠어](../memes/under-arrest.md)
 - [형이 왜 거기서 나와](../memes/why-are-you-there.md)
@@ -156,14 +165,20 @@
 
 ## 인터넷방송
 
+- [감옥에서 누가 돌아왔게](../memes/who-is-back-from-prison.md)
+- [기도해 드릴게요](../memes/pray-for-you.md)
 - [난리자베스](../memes/nanrijabeth.md)
+- [놀기 신청하러 온 거야?](../memes/applying-to-play.md)
+- [매끈매끈하다 매끈매끈한](../memes/smooth-smooth.md)
 - [머선129](../memes/museon129.md)
 - [빼난지원금](../memes/pepero-aid.md)
 - [알빠노](../memes/alppano.md)
 - [알잘딱깔센](../memes/aljaltakkalsen.md)
 - [오디세이](../memes/odyssey.md)
 - [오히려 좋아](../memes/ohiryeo-joa.md)
+- [윤정아 윤정아](../memes/yunjeong-yunjeong.md)
 - [이왜진](../memes/iwaejin.md)
+- [좋~다](../memes/jo-ta.md)
 - [좋댓구알](../memes/jotdaet-gual.md)
 - [줴줴이야](../memes/jwejweiya.md)
 - [킹받네](../memes/kingbatne.md)
