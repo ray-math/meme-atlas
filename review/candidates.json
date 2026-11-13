@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "note": "조사 대기열이며 사전 항목이나 사실 인증이 아니다. 검색 인덱스에 포함하지 않는다.",
+  "candidates": [
+    {
+      "candidate_id": "viraltimes-scuba-dance",
+      "title": "스쿠바 댄스",
+      "discovery": "ViralTimes 공개 샘플 제목",
+      "workflow": "held",
+      "origin_review": "unconfirmed",
+      "korean_scope": "unconfirmed",
+      "duplicate_review": "no_exact_title_or_alias_match",
+      "reason": "한국 기원 또는 뚜렷한 국내 변형의 원본 사용을 확인하지 못함. 외부의 verified 표시는 승계하지 않음.",
+      "next_step": "원본 영상과 국내 변형의 독립 사용례 확보 후 신규 검토. 확보 전 사전 수록 금지."
+    }
+  ]
+}
