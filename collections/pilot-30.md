@@ -82,3 +82,7 @@
 - [빼박캔트](../memes/ppaebak-cant.md)
 - [문찐](../memes/munjjin.md)
 - [갑툭튀](../memes/gaptuk-twi.md)
+- [브라우니 물어](../memes/brownie-bite.md)
+- [이건 특급 칭찬이야](../memes/special-compliment.md)
+- [존버](../memes/jonbeo.md)
+- [떡상](../memes/tteoksang.md)

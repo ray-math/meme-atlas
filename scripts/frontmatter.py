@@ -1,6 +1,6 @@
 """Small, explicit YAML subset for list metadata (inline JSON or dash lists)."""
 import json
-ALLOWED_TAGS={'애니','게임','방송','음악','인터넷방송','영화','광고','스포츠','연예','소비','AI','음식','웹툰','정치','패션','연애'}
+ALLOWED_TAGS={'애니','게임','방송','음악','인터넷방송','영화','광고','스포츠','연예','소비','AI','음식','웹툰','정치','패션','연애','투자'}
 def validate(meta):
  for name in ('tags','aliases'):
   values=meta.get(name,[])

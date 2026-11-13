@@ -66,6 +66,7 @@
 - [머선129](../memes/museon129.md)
 - [멋지다 연진아](../memes/bravo-yeonjin.md)
 - [무야호](../memes/muyaho.md)
+- [브라우니 물어](../memes/brownie-bite.md)
 - [사딸라](../memes/four-dollars.md)
 - [상상도 못한 정체](../memes/sangmottjeong.md)
 - [소는 누가 키워](../memes/who-raises-cows.md)
@@ -73,6 +74,7 @@
 - [앙대요](../memes/angdaeyo.md)
 - [어서 와, ○○는 처음이지?](../memes/welcome-first-time.md)
 - [어쩔티비](../memes/eojjeol-tv.md)
+- [이건 특급 칭찬이야](../memes/special-compliment.md)
 - [이게 최선입니까](../memes/is-this-best.md)
 - [잠시만요, 보라언니 ~하고 가실게요](../memes/bora-unni.md)
 - [장난 나랑 지금 하냐](../memes/jangan-narang-jigeum.md)
@@ -161,6 +163,11 @@
 ## 정치
 
 - [내로남불](../memes/naeronambul.md)
+
+## 투자
+
+- [떡상](../memes/tteoksang.md)
+- [존버](../memes/jonbeo.md)
 
 ## 패션
 

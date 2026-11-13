@@ -120,6 +120,15 @@
         "munjjin",
         "gaptuk-twi"
       ]
+    },
+    "9": {
+      "input_hash": "564af2b71dfbe28d769685d3067f27d25974e18064842821791f92d28e8f0a3e",
+      "ids": [
+        "brownie-bite",
+        "special-compliment",
+        "jonbeo",
+        "tteoksang"
+      ]
     }
   },
   "entries": {
@@ -1012,6 +1021,49 @@
       "scope_type": "korean_origin",
       "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
       "tags": []
+    },
+    "brownie-bite": {
+      "title": "브라우니 물어",
+      "batch": "9",
+      "body_hash": "327d3e548449a7cd7fc3e91864c0724364d0d11e7a843f3c16afb150b52d924b",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "special-compliment": {
+      "title": "이건 특급 칭찬이야",
+      "aliases": [
+        "특급 칭찬이야"
+      ],
+      "batch": "9",
+      "body_hash": "bc84213c6f12cce475239d130f24f5e14ee82cc250ea9d4ec36ae7461d78193d",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 영화·방송의 장면이 한국어 대사 패러디로 확산했다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "jonbeo": {
+      "title": "존버",
+      "batch": "9",
+      "body_hash": "c07940a2ac9f4823f12bedfed3c88831614e070cab44335c8dcbe2ad1e598b9f",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": [
+        "투자"
+      ]
+    },
+    "tteoksang": {
+      "title": "떡상",
+      "batch": "9",
+      "body_hash": "15fa1c88abae5c7491201d2eba4633765ded58c1368c42b643c944bee405b621",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "tags": [
+        "투자"
+      ]
     }
   }
 }
