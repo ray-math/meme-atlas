@@ -21,6 +21,7 @@
 - [이거 제 이모지야](my-emoji.md)
 
 ## ㅈ
+- [존박 맥도날드 랩](john-park-mcdonalds-rap.md)
 - [줴줴이야](jwejweiya.md)
 
 ## ㅊ
