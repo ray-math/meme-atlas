@@ -29,3 +29,20 @@ class ContextDecisionTests(unittest.TestCase):
  def test_unknown_selected_usage(self):
   values=self.sample();values[2]['answers'][0]['selected_usage_id']='other'
   self.assertTrue(validate_decisions(*values))
+
+ def v3sample(self):
+  values=self.sample();values[0]['prompt_version']='contextual-v3'
+  values[2]['answers'][0]['factual_check']={'supported_claims':[{'claim':'상호 장난 관계','evidence_span':'서로 장난을 즐긴다'}],'unsupported_claims':[]}
+  return values
+ def test_v3_grounded_audit(self):
+  self.assertEqual(validate_decisions(*self.v3sample()),[])
+ def test_v3_fabricated_fact_span(self):
+  values=self.v3sample();values[2]['answers'][0]['factual_check']['supported_claims'][0]['evidence_span']='이미 답했다'
+  self.assertTrue(validate_decisions(*values))
+ def test_v3_nonrecommendation_needs_factual_audit(self):
+  values=self.v3sample();values[2]['answers'][0]['action']='abstain'
+  values[2]['answers'][0].pop('factual_check')
+  self.assertTrue(validate_decisions(*values))
+ def test_v3_unresolved_fact(self):
+  values=self.v3sample();values[2]['answers'][0]['factual_check']['unsupported_claims']=['답변 완료']
+  self.assertTrue(validate_decisions(*values))

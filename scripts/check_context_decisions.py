@@ -8,6 +8,20 @@ def validate_decisions(plans, retrieval, answers):
         if identity not in requests or identity not in traces:
             errors.append(identity+': missing request or retrieval')
             continue
+        if plans.get('prompt_version')=='contextual-v3':
+            facts=answer.get('factual_check',{})
+            if facts.get('unsupported_claims')!=[]:
+                errors.append(identity+': unresolved factual claims')
+            claims=facts.get('supported_claims')
+            if not isinstance(claims,list):
+                errors.append(identity+': missing factual audit')
+            else:
+                for claim in claims:
+                    if (not isinstance(claim,dict) or not isinstance(claim.get('claim'),str)
+                        or not claim['claim'].strip() or not isinstance(claim.get('evidence_span'),str)
+                        or not claim['evidence_span'].strip()
+                        or claim['evidence_span'] not in requests[identity]['prompt']):
+                        errors.append(identity+': factual evidence not quoted from request')
         if answer['action']!='recommend':
             continue
         selected=next((r for r in traces[identity]['retrieval']['results']
