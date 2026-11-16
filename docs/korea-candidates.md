@@ -32,7 +32,9 @@ id는 이번 스냅샷의 줄 위치로 처음 부여한 영구 식별자다. �
 
 - [PR #11](https://github.com/ray-math/meme-atlas/pull/11)에서 독립 검토한 13개가 main에 반영돼 당시 비교 색인은 192개였다.
 
-- [PR #13](https://github.com/ray-math/meme-atlas/pull/13)의 17개 main 반영 후 비교 색인은 209개다. 대장은 수록 88, 중복 5, 보류 4, 미검토 994이며, 대장 수록 수와 전체 사전 수는 서로 다르다.
+- [PR #13](https://github.com/ray-math/meme-atlas/pull/13)의 17개 main 반영 후 비교 색인은 209개다. 당시 대장은 수록 88, 중복 5, 보류 4, 미검토 994였다.
+
+- [PR #15](https://github.com/ray-math/meme-atlas/pull/15)의 14개 main 반영 후 비교 색인은 223개다. 대장은 수록 102, 중복 5, 보류 4, 미검토 980이며, 대장 수록 수와 전체 사전 수는 서로 다르다.
 
 ## 수록 절차
 1. 최신 main, 기존 본문·aliases, 대장 상태를 읽는다.

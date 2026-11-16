@@ -15,9 +15,9 @@
   "comparison": {
     "repository": "ray-math/meme-atlas",
     "ref": "main",
-    "search_index_blob_sha": "59de949a57e51a2aa77166e6f010d09e72e33c08",
-    "entry_count": 209,
-    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR13 main 검색색인209개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
+    "search_index_blob_sha": "c9b302e967cacfaa0d63a0fbb71117d7aaac8bfa",
+    "entry_count": 223,
+    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR15 main 검색색인223개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
   },
   "candidates": [
     {
@@ -2524,10 +2524,21 @@
       "section": "ㄱ",
       "source_line": 267,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/criticism-shield.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.ytn.co.kr/_ln/0106_201601291155261257",
+          "published_at": "2016-01-29",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0268",
@@ -4169,10 +4180,21 @@
       "section": "ㄷ",
       "source_line": 408,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/dress-color-debate.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20150228017251009",
+          "published_at": "2015-02-28",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0409",
@@ -4191,10 +4213,21 @@
       "section": "ㄷ",
       "source_line": 410,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/back-breaker.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cstimes.com/news/articleView.html?idxno=58938",
+          "published_at": "2011-12-18",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0411",
@@ -4371,10 +4404,21 @@
       "section": "ㄹ",
       "source_line": 427,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/ramen-invitation.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2016120109481095269",
+          "published_at": "2016-12-01",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0428",
@@ -4577,10 +4621,21 @@
       "section": "ㅁ",
       "source_line": 446,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/mask-impression.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.newsis.com/view/NISX20220127_0001739449",
+          "published_at": "2022-01-30",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0447",
@@ -4963,10 +5018,21 @@
       "section": "ㅁ",
       "source_line": 480,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/lifelong-single.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.viva100.com/article/20250317500643",
+          "published_at": "2025-03-18",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0481",
@@ -5132,10 +5198,21 @@
       "section": "ㅁ",
       "source_line": 495,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/sorry-humanities.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://m.ytn.co.kr/news_view.php?key=202410111519243336&s_mcd=0103",
+          "published_at": "2024-10-11",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0496",
@@ -5542,10 +5619,21 @@
       "section": "ㅂ",
       "source_line": 532,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/keyboard-lubu.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2017060111273939055",
+          "published_at": "2017-06-02",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0533",
@@ -6170,10 +6258,21 @@
       "section": "ㅂ",
       "source_line": 588,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/bbuing-bbuing.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20111216101600005",
+          "published_at": "2011-12-18",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0589",
@@ -6725,10 +6824,21 @@
       "section": "ㅅ",
       "source_line": 637,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/finger-heart.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20240611112033298?s=print_news",
+          "published_at": "2024-06-11",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0638",
@@ -6912,10 +7022,21 @@
       "section": "ㅅ",
       "source_line": 654,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/slickback.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2023102711350136774",
+          "published_at": "2023-10-29",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0655",
@@ -7422,10 +7543,22 @@
       "section": "ㅇ",
       "source_line": 699,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/ice-bucket-challenge.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://dic.hankyung.com/economy/view/?seq=12132",
+          "published_at": null,
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님.",
+        "용어사전 본문 발행일은 미확인. 연결된 2014-09-10 관련 기사는 역사적 국내 참여 확인용."
+      ]
     },
     {
       "id": "kr-list-0700",
@@ -9086,10 +9219,21 @@
       "section": "ㅇ",
       "source_line": 847,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/is-this-real.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.ajunews.com/view/20171128170836842",
+          "published_at": "2017-11-29",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0848",
@@ -11772,10 +11916,21 @@
       "section": "ㅎ",
       "source_line": 1088,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/hao-online-style.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://cine21.com/news/view/?mag_id=20520",
+          "published_at": "2003-08-21",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 실제 쓰임·원형과 변형의 범위를 검토 후 PR #15 main 수록 확인. 역사적 근거이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-1089",
