@@ -1,6 +1,6 @@
 # 기본 수록 목록
 
-최근 유행 순위나 관찰 월을 뜻하지 않는 기본 수록 목록입니다. 한국에서 생성되었거나 독자적인 한국식 변형이 확인된 항목을 모았습니다. 기존 파일 경로는 링크 호환을 위해 유지합니다.
+관찰 월이나 최신 유행 순위를 뜻하지 않는 기본 수록 항목입니다. 한국에서 생성·변형되었거나 한국에서 실제 사용이 독립 검증된 개별 밈을 다룹니다.
 
 - [중꺾마](../memes/jung-kkeok-ma.md)
 - [원영적 사고](../memes/wonyoung-thinking.md)
@@ -164,3 +164,16 @@
 - [첵스 파맛](../memes/green-onion-chex.md)
 - [지못미](../memes/jimotmi.md)
 - [○○냥이](../memes/nyang-parody.md)
+- [아무노래 챌린지](../memes/any-song-challenge.md)
+- [아무것도 안하고 싶다](../memes/want-to-do-nothing.md)
+- [개죽이](../memes/gaejuki.md)
+- [귀요미송](../memes/gwiyomi-song.md)
+- [장미칼](../memes/rose-knife-parody.md)
+- [우왕ㅋ굳ㅋ](../memes/wow-good.md)
+- [킹왕짱](../memes/king-wang-jjang.md)
+- [킹리적 갓심](../memes/king-reasonable-suspicion.md)
+- [트로피카나 스파클링](../memes/tropicana-dance.md)
+- [갸루피스](../memes/gyaru-peace.md)
+- [PPAP](../memes/ppap.md)
+- [관짝소년단](../memes/coffin-dance.md)
+- [나비보벳따우](../memes/nabi-bobettau.md)
