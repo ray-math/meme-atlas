@@ -34,7 +34,14 @@ def replay(plans, root=ROOT):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('plans',type=Path)
-    p.add_argument('--root',type=Path,default=ROOT);a=p.parse_args()
+    p.add_argument('--root',type=Path,default=ROOT)
+    p.add_argument('--jsonl',action='store_true',help='emit one case per log line for larger batches')
+    a=p.parse_args()
     plans=json.loads(a.plans.read_text(encoding='utf-8'))
     trace=replay(plans['plans'],a.root)
-    print('NLTRACE='+json.dumps(trace,ensure_ascii=False,separators=(',',':')))
+    if a.jsonl:
+        print('NLMETA='+json.dumps({k:v for k,v in trace.items() if k!='results'},ensure_ascii=False,separators=(',',':')))
+        for row in trace['results']:
+            print('NLCASE='+json.dumps(row,ensure_ascii=False,separators=(',',':')))
+    else:
+        print('NLTRACE='+json.dumps(trace,ensure_ascii=False,separators=(',',':')))
