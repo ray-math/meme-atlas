@@ -276,6 +276,28 @@
         "coffin-dance",
         "nabi-bobettau"
       ]
+    },
+    "korea-list-reviewed-2026-11-16-e": {
+      "input_hash": "bc91429c912f3af43dfdc112f730451edaa904e18e5796f58f71fb621fb34ba2",
+      "ids": [
+        "gazua",
+        "goguma-frustration",
+        "cider-relief",
+        "school-slang-style",
+        "flower-road",
+        "haengshow",
+        "pumpkin-sweet-potato",
+        "dizzy-hurry",
+        "hyeja",
+        "nonghyup-flirting",
+        "happy-circuit",
+        "guava-mango-song",
+        "male-female-friend",
+        "sorry-for-being-cute",
+        "next-level-dance",
+        "nico-nico-ni",
+        "dame-dame"
+      ]
     }
   },
   "entries": {
@@ -2275,6 +2297,195 @@
       "body_hash": "1d3c798c88865c9091e975742d0087afc9171a4ef913054f26285afa36e35985",
       "scope_type": "korean_adaptation",
       "scope_basis": "게임 노래 소리의 한국어 표기와 국내 여러 장르 커버 유행 확인.",
+      "tags": [
+        "게임",
+        "음악"
+      ]
+    },
+    "gazua": {
+      "title": "가즈아",
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "bd94533665454cd0d0b81e45728ce6d9b71551949bcb34fb712fa9e748bcf612",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 스포츠 커뮤니티·가상화폐 및 일상 표현 확산 기사 본문 확인.",
+      "tags": []
+    },
+    "goguma-frustration": {
+      "title": "고구마",
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "c4600717f93fdffffb58af61df018a4e7c580901b12810e3a2ee50eaa10a92bf",
+      "scope_type": "korean_origin",
+      "scope_basis": "국립국어원 실제 언어사용 조사 보도에서 국내 비유 의미 확인.",
+      "tags": []
+    },
+    "cider-relief": {
+      "title": "사이다",
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "ebf543734c64b69b630e37d5ef95d5030480eaf72c68d3a588cd794f0f85a2f1",
+      "scope_type": "korean_origin",
+      "scope_basis": "국립국어원 조사 보도에서 국내 실제 비유 의미와 사용 확인.",
+      "tags": []
+    },
+    "school-slang-style": {
+      "title": "급식체",
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "367303d223b4518d340d038f2ff908e9b46ca126b489accc2b5bf9a0a88185c7",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 방송·기업 계정 실제 급식체 사용과 형식 분석 본문 확인.",
+      "tags": []
+    },
+    "flower-road": {
+      "title": "꽃길만 걷자",
+      "aliases": [
+        "꽃길"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "1a76a7ceb1c805f987978fdb836bc9d8884c11fafc60a6240db97cd1a9fd06aa",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 팬덤 선행 사용과 방송을 통한 대중확산 본문 확인.",
+      "tags": [
+        "연예"
+      ]
+    },
+    "haengshow": {
+      "title": "행쇼",
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "0fd965e54bf68e2e7587c4f28afcdae5aa31f3abac7eeb02d8fcf559c938c5bf",
+      "scope_type": "korean_origin",
+      "scope_basis": "방송사 자체 기사에서 발화·축약 뜻·시청 반응 확인.",
+      "tags": [
+        "방송",
+        "연예"
+      ]
+    },
+    "pumpkin-sweet-potato": {
+      "title": "호박고구마",
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "8f55ee60e55dc67de130d12eabff6ee9f4cd86a604c63019e08a4f56881cfb8e",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 시트콤 장면과 온라인 짤·방송 공연 재현 확인.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "dizzy-hurry": {
+      "title": "현기증 난단 말이에요",
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "fd20f43e5cc5a1c2af9516477ddfe500b263934bdfbe83c33a0a5a280aa6dd90",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 방송 발언과 요청 대상 치환·자기패러디 보도 확인.",
+      "tags": [
+        "방송",
+        "음식"
+      ]
+    },
+    "hyeja": {
+      "title": "혜자",
+      "aliases": [
+        "혜자스럽다"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "13327c897298d5f60bc9acd6061ae8c113f2e6c964545fbf4e0a412e5bd70e9f",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 편의점 도시락의 이름을 활용한 칭찬과 리뷰 사용 확인.",
+      "tags": [
+        "음식",
+        "소비"
+      ]
+    },
+    "nonghyup-flirting": {
+      "title": "혹시 그거 알아 그대 농협은행",
+      "aliases": [
+        "농협은행"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "f164901978743396537da61e7b8c1bbbafeeda0a5d07837423ad9b7c015bd010",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 동음 유사 말장난과 국내 음악 챌린지 보도 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "happy-circuit": {
+      "title": "행복회로",
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "2ff09d3a2b427d1cbb5262ea340d923d234788008874ec06e4aa8784d1391d5a",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 매체 필자의 실제 사용과 의미 설명 본문 확인.",
+      "tags": []
+    },
+    "guava-mango-song": {
+      "title": "구아바 망고를 유혹하네",
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "2653f704cd611dc8ec28ac4badc68333a3de04b66ea18c532fb1892fd6c14146",
+      "scope_type": "korean_origin",
+      "scope_basis": "광고 제작자의 회고와 국내 기억되는 CM송 사례 직접 확인.",
+      "tags": [
+        "광고",
+        "음악"
+      ]
+    },
+    "male-female-friend": {
+      "title": "남사친·여사친",
+      "aliases": [
+        "남사친",
+        "여사친"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "c0196f2b1bf0ec58aa2f1926304b320403041477f239c379e1c6bc986392ee2c",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 웹툰·커뮤니티 확산과 방송 사용 보도에서 축약형 확인.",
+      "tags": [
+        "연애"
+      ]
+    },
+    "sorry-for-being-cute": {
+      "title": "귀여워서 미안해 챌린지",
+      "aliases": [
+        "귀여워서 미안해"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "3690078c741f1251b12b1b0abcebe1df520d4fd5bb67250ad6d7c45894b420a8",
+      "scope_type": "korean_usage",
+      "scope_basis": "카이 국내 생일행사와 세븐틴 공식 숏폼 참여 보도 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "next-level-dance": {
+      "title": "넥스트 레벨 디귿춤",
+      "aliases": [
+        "디귿춤",
+        "넥스트 레벨"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "53cefb0a2f888a22a0df4d28fc9e8b202396ef71985597f0ee64cf5195cd45ef",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 에스파 안무의 디귿춤 명칭과 틱톡 챌린지 유행 기사 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "nico-nico-ni": {
+      "title": "니코니코니",
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "5055e9ea9ebe2aa98826381a2043c348bc28426c477b1a9cd267e2d2e9d26e98",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 아는 형님 출연자의 실제 구호 사용과 원캐릭터 보도 확인.",
+      "tags": [
+        "애니"
+      ]
+    },
+    "dame-dame": {
+      "title": "다메다메",
+      "aliases": [
+        "다메다네",
+        "바카미타이"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-e",
+      "body_hash": "88ff10bea9cecbb0467a76cb762d899885c403505cef9f5133d126749bd40e3b",
+      "scope_type": "korean_usage",
+      "scope_basis": "게임 노래 기반 합성 밈의 한국 명칭과 확산을 다룬 본문 확인.",
       "tags": [
         "게임",
         "음악"

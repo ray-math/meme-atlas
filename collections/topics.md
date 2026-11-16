@@ -14,6 +14,7 @@
 - [L을 가져가](../memes/take-the-l.md)
 - [나비보벳따우](../memes/nabi-bobettau.md)
 - [누칼협](../memes/nukalhyeop.md)
+- [다메다메](../memes/dame-dame.md)
 - [딸깍](../memes/click.md)
 - [밤티](../memes/bamti.md)
 - [알빠노](../memes/alppano.md)
@@ -28,6 +29,7 @@
 
 - [간 때문이야](../memes/gan-because.md)
 - [개비스콘 짤](../memes/gaviscon-relief.md)
+- [구아바 망고를 유혹하네](../memes/guava-mango-song.md)
 - [너나 잘하세요](../memes/neona-jalhaseyo.md)
 - [니들이 게맛을 알아](../memes/do-you-know-crab.md)
 - [단언컨대 ~는 가장 완벽한 물질입니다](../memes/most-perfect-material.md)
@@ -44,13 +46,16 @@
 
 - [100명 넘겠지?](../memes/hundred-joke.md)
 - [~삐](../memes/ppi.md)
+- [가즈아](../memes/gazua.md)
 - [갑분싸](../memes/gapbunssa.md)
 - [갑차기스러운데](../memes/gapchagiseureounde.md)
 - [갑툭튀](../memes/gaptuk-twi.md)
 - [갓생](../memes/gatsaeng.md)
 - [개죽이](../memes/gaejuki.md)
+- [고구마](../memes/goguma-frustration.md)
 - [국룰](../memes/guk-rule.md)
 - [금손](../memes/geumson.md)
+- [급식체](../memes/school-slang-style.md)
 - [낄끼빠빠](../memes/kkilkki-ppappa.md)
 - [내가 바퀴벌레가 되면 어떡할 거야?](../memes/if-i-become-cockroach.md)
 - [뇌절](../memes/noejeol.md)
@@ -67,6 +72,7 @@
 - [별다줄](../memes/byeoldajul.md)
 - [복세편살](../memes/bokse-pyeonsal.md)
 - [빼박캔트](../memes/ppaebak-cant.md)
+- [사이다](../memes/cider-relief.md)
 - [소울리스좌](../memes/soulless-guide.md)
 - [숨긴다고 숨겨지는 것도 아니고](../memes/cannot-hide.md)
 - [스불재](../memes/seubuljae.md)
@@ -82,6 +88,7 @@
 - [킹왕짱](../memes/king-wang-jjang.md)
 - [포기하겠습니다](../memes/give-up.md)
 - [할렐야루](../memes/hallelyaru.md)
+- [행복회로](../memes/happy-circuit.md)
 
 ## 방송
 
@@ -118,8 +125,11 @@
 - [제가 한번 먹어보겠습니다](../memes/let-me-taste.md)
 - [주스 흘리는 짤](../memes/spilling-juice.md)
 - [카페베네 엔딩](../memes/caffebene-ending.md)
+- [행쇼](../memes/haengshow.md)
+- [현기증 난단 말이에요](../memes/dizzy-hurry.md)
 - [형이 왜 거기서 나와](../memes/why-are-you-there.md)
 - [호로록](../memes/hororok.md)
+- [호박고구마](../memes/pumpkin-sweet-potato.md)
 - [히트다 히트](../memes/hitda-hit.md)
 - [힘을 내요 슈퍼파월](../memes/super-power.md)
 
@@ -128,6 +138,7 @@
 - [돈쭐](../memes/donjjul.md)
 - [손민수](../memes/sonminsu.md)
 - [전여친 감자칼](../memes/ex-girlfriend-peeler.md)
+- [혜자](../memes/hyeja.md)
 
 ## 스포츠
 
@@ -139,12 +150,14 @@
 
 ## 애니
 
+- [니코니코니](../memes/nico-nico-ni.md)
 - [똥 밟았네](../memes/stepped-on-poop.md)
 - [안녕히 계세요 여러분](../memes/goodbye-everyone.md)
 
 ## 연애
 
 - [그린라이트](../memes/green-light-romance.md)
+- [남사친·여사친](../memes/male-female-friend.md)
 - [연락 없네 잘 살아](../memes/no-reply-live-well.md)
 - [자만추](../memes/jaman-chu.md)
 
@@ -153,6 +166,7 @@
 - [가보자고](../memes/gabojago.md)
 - [갸루피스](../memes/gyaru-peace.md)
 - [그건 절대 안 되는 일이얌](../memes/not-allowed-ilyam.md)
+- [꽃길만 걷자](../memes/flower-road.md)
 - [내 마음속에 저장](../memes/save-in-my-heart.md)
 - [내가 아이돌이었으면 이 파트는 꼭 하고 싶음](../memes/if-i-were-idol.md)
 - [누가 이렇게 예쁘게 낳았어? 엄마엄마가](../memes/mom-mom-made-me.md)
@@ -163,6 +177,7 @@
 - [원영적 사고](../memes/wonyoung-thinking.md)
 - [이거 제 이모지야](../memes/my-emoji.md)
 - [장원영 ○○](../memes/wonyoung-praise.md)
+- [행쇼](../memes/haengshow.md)
 
 ## 영화
 
@@ -206,7 +221,9 @@
 - [지금까지 이런 맛은 없었다](../memes/never-this-taste.md)
 - [첵스 파맛](../memes/green-onion-chex.md)
 - [한 뚝배기 하실래예?](../memes/one-bowl-please.md)
+- [현기증 난단 말이에요](../memes/dizzy-hurry.md)
 - [혐대고기](../memes/hyumdae-meat.md)
+- [혜자](../memes/hyeja.md)
 - [호로록](../memes/hororok.md)
 
 ## 음악
@@ -217,14 +234,18 @@
 - [골든이여라](../memes/golden-iyeora.md)
 - [골반이 멈추지 않아](../memes/pelvis-wont-stop.md)
 - [관짝소년단](../memes/coffin-dance.md)
+- [구아바 망고를 유혹하네](../memes/guava-mango-song.md)
+- [귀여워서 미안해 챌린지](../memes/sorry-for-being-cute.md)
 - [귀요미송](../memes/gwiyomi-song.md)
 - [나 왜 이 순간이 영원할 것 같지?](../memes/forever-moment.md)
 - [나비보벳따우](../memes/nabi-bobettau.md)
 - [난 파라파라나 춰야겠다](../memes/dance-parapara.md)
 - [내가 아이돌이었으면 이 파트는 꼭 하고 싶음](../memes/if-i-were-idol.md)
+- [넥스트 레벨 디귿춤](../memes/next-level-dance.md)
 - [누가 이렇게 예쁘게 낳았어? 엄마엄마가](../memes/mom-mom-made-me.md)
 - [뉴진스의 하입보이요](../memes/hype-boy-answer.md)
 - [늙크크](../memes/old-creator-crew.md)
+- [다메다메](../memes/dame-dame.md)
 - [똥 밟았네](../memes/stepped-on-poop.md)
 - [라우럴](../memes/raureol.md)
 - [롤린](../memes/rollin-dance.md)
@@ -242,6 +263,7 @@
 - [체포하겠어](../memes/under-arrest.md)
 - [트로피카나 스파클링](../memes/tropicana-dance.md)
 - [형이 왜 거기서 나와](../memes/why-are-you-there.md)
+- [혹시 그거 알아 그대 농협은행](../memes/nonghyup-flirting.md)
 - [힙사사돈 챌린지](../memes/hipsasadon.md)
 
 ## 인터넷방송
