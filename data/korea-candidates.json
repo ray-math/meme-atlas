@@ -15,8 +15,8 @@
   "comparison": {
     "repository": "ray-math/meme-atlas",
     "ref": "main",
-    "search_index_blob_sha": "a4705917cc48df265ed65fd36b800a5b142eed22",
-    "entry_count": 148,
+    "search_index_blob_sha": "8ea61ee716f5a7f40afd9396281ff70b3cbc2fb1",
+    "entry_count": 178,
     "method": "제목/별칭 공백·일부 구두점 정규화 일치. 의미 중복·후속 PR 반영은 별도 검토."
   },
   "candidates": [
@@ -1002,10 +1002,14 @@
       "section": "영어 및 외국어",
       "source_line": 140,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/queen-never-cry.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0141",
@@ -1279,10 +1283,14 @@
       "section": "ㄱ",
       "source_line": 166,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/gan-because.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0167",
@@ -1444,10 +1452,14 @@
       "section": "ㄱ",
       "source_line": 181,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/gaviscon-relief.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0182",
@@ -1888,10 +1900,14 @@
       "section": "ㄱ",
       "source_line": 221,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/guk-rule.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0222",
@@ -2185,10 +2201,14 @@
       "section": "ㄱ",
       "source_line": 248,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/green-light-romance.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0249",
@@ -2504,10 +2524,14 @@
       "section": "ㄱ",
       "source_line": 277,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/frozen-han-river-cat.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0278",
@@ -2867,10 +2891,14 @@
       "section": "ㄴ",
       "source_line": 311,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/nangnang.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0312",
@@ -3222,10 +3250,14 @@
       "section": "ㄴ",
       "source_line": 342,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/noejeol.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0343",
@@ -3233,10 +3265,14 @@
       "section": "ㄴ",
       "source_line": 343,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/mom-mom-made-me.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0344",
@@ -3299,10 +3335,14 @@
       "section": "ㄴ",
       "source_line": 349,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/hype-boy-answer.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0350",
@@ -4052,10 +4092,14 @@
       "section": "ㄷ",
       "source_line": 417,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/stepped-on-poop.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0418",
@@ -4298,10 +4342,14 @@
       "section": "ㄹ",
       "source_line": 440,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/rollin-dance.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0441",
@@ -4489,10 +4537,14 @@
       "section": "ㅁ",
       "source_line": 458,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/clear-eyed-eccentric.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0459",
@@ -5369,10 +5421,14 @@
       "section": "ㅂ",
       "source_line": 537,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/tiger-is-coming.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0538",
@@ -5523,10 +5579,14 @@
       "section": "ㅂ",
       "source_line": 551,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/not-jealous.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0552",
@@ -5842,10 +5902,14 @@
       "section": "ㅂ",
       "source_line": 580,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/bbangkkuddongkku.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0581",
@@ -5941,10 +6005,14 @@
       "section": "ㅂ",
       "source_line": 589,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/ppikki-ppikki.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0590",
@@ -6444,10 +6512,14 @@
       "section": "ㅅ",
       "source_line": 635,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/soulless-guide.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0636",
@@ -7967,10 +8039,14 @@
       "section": "ㅇ",
       "source_line": 773,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/spilling-juice.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0774",
@@ -8187,10 +8263,14 @@
       "section": "ㅇ",
       "source_line": 793,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/bring-melona.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0794",
@@ -8893,10 +8973,14 @@
       "section": "ㅇ",
       "source_line": 856,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/blanket-kick.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0857",
@@ -8996,10 +9080,14 @@
       "section": "ㅇ",
       "source_line": 865,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/this-car-is-mine.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0866",
@@ -9205,10 +9293,14 @@
       "section": "ㅇ",
       "source_line": 884,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/it-was-gone.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0885",
@@ -9407,10 +9499,14 @@
       "section": "ㅈ",
       "source_line": 903,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/what-is-jazz.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0904",
@@ -10016,10 +10112,14 @@
       "section": "ㅈ",
       "source_line": 958,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/jimotmi.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0959",
@@ -10291,10 +10391,14 @@
       "section": "ㅊ",
       "source_line": 984,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/green-onion-chex.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-0985",
@@ -11065,10 +11169,14 @@
       "section": "ㅍ",
       "source_line": 1054,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/green-onion-chex.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-1055",
@@ -11564,10 +11672,14 @@
       "section": "ㅎ",
       "source_line": 1100,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/one-bowl-please.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "기준 인덱스의 제목/별칭 정규화 일치. 내용·범위 신규 재검증을 뜻하지 않음."
+      ]
     },
     {
       "id": "kr-list-1101",
@@ -12203,5 +12315,6 @@
       "evidence": [],
       "notes": []
     }
-  ]
+  ],
+  "scope": "한국에서 실제 밈으로 쓰인 유용한 개별 표현·동작. 해외 기원도 독립 근거 확인 후 포함 가능(2026-11-16 최신 지시). 작품/인물 포괄 항목은 구체 밈으로 분리 검토."
 }
