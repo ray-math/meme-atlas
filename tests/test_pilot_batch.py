@@ -138,3 +138,17 @@ class PilotTests(unittest.TestCase):
   p.apply(self.r,self.input,'linked')
   self.assertIn('[테스트0](fixture-0.md)',(self.r/'memes/fixture-1.md').read_text())
   self.assertEqual(p.apply(self.r,self.input,'linked')['status'],'unchanged')
+
+ def test_reviewed_korean_usage_accepted_and_recorded(self):
+  rows=self.data()[:1];rows[0]['scope_type']='korean_usage';rows[0]['scope_basis']='독립 출처 두 건에서 한국어 사용 사례 확인';self.put(rows)
+  self.assertEqual(p.apply(self.r,self.input,'local-use')['added'],1)
+  state=json.loads((self.r/'data/pilot-state.json').read_text())
+  self.assertEqual(state['entries']['fixture-0']['scope_type'],'korean_usage')
+  self.assertEqual(p.apply(self.r,self.input,'local-use')['status'],'unchanged')
+
+ def test_korean_usage_keeps_review_evidence_and_basis_gates(self):
+  for field,value,error in [('reviewed',False,'review gate'),('evidence',[],'evidence'),('scope_basis',' ','scope review')]:
+   with self.subTest(field=field):
+    rows=self.data()[:1];rows[0]['scope_type']='korean_usage';rows[0][field]=value;self.put(rows)
+    with self.assertRaisesRegex(ValueError,error):p.apply(self.r,self.input,'unverified-local-use')
+    self.assertFalse((self.r/'memes/fixture-0.md').exists())
