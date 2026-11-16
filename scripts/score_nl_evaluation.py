@@ -48,7 +48,8 @@ def score(gold, retrieval, answers, judgments):
     rate=totals['high_confidence_appropriate']/denominator if denominator else None
     return {'schema_version':1,'evaluation_type':'single_snapshot_AI_judged_not_human_validated',
             'totals':totals,'high_confidence_appropriateness':rate,
-            'predeclared_gate_passed':bool(rate is not None and rate>=0.9 and totals['unsafe_recommendations']==0),
+            'predeclared_gate_applicable':rate is not None,
+            'predeclared_gate_passed':(rate>=0.9 and totals['unsafe_recommendations']==0) if rate is not None else None,
             'cases':per_case}
 
 if __name__=='__main__':

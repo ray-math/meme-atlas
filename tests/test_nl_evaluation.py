@@ -58,3 +58,10 @@ class ScoreContractTests(unittest.TestCase):
         from score_nl_evaluation import score
         values=self.sample();values[3]['judgments']=[]
         with self.assertRaises(ValueError):score(*values)
+
+    def test_missing_prior_confidence_is_not_failed_gate(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[0]['cases'][0].pop('confidence')
+        report=score(*values)
+        self.assertFalse(report['predeclared_gate_applicable'])
+        self.assertIsNone(report['predeclared_gate_passed'])
