@@ -357,6 +357,26 @@
         "ppojjak",
         "spoon-class"
       ]
+    },
+    "korea-list-reviewed-2026-11-16-i": {
+      "input_hash": "bf97ad25518d91d8d597bcc37a2806a3e9ea39f932c98d14474d703352617359",
+      "ids": [
+        "gg",
+        "tmi",
+        "gangnam-horse-dance",
+        "kimchi-slap",
+        "pour-or-dip",
+        "tes-brother",
+        "too-much-talker",
+        "no-partner",
+        "laugh-bell",
+        "unexpected-win",
+        "hug-me-animal",
+        "khaby-reaction",
+        "happy-cat",
+        "i-am-groot",
+        "real-reaction"
+      ]
     }
   },
   "entries": {
@@ -3003,6 +3023,168 @@
       "body_hash": "35113701d925bd0d9e6b4a5893769f8ed37b71fc844596467316323966dac21e",
       "scope_type": "korean_origin",
       "scope_basis": "국내 커뮤니티 분류·빙고 확산과 불평등 풍자·비하 우려 본문 확인.",
+      "tags": []
+    },
+    "gg": {
+      "title": "GG",
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "3f23d01248f80bd8805136fbea502b4751f666541d62bf97802073e326f60041",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 스타리그 경기의 GG 실제사용 및 GoodGame 풀이 확인.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "tmi": {
+      "title": "TMI",
+      "aliases": [
+        "티엠아이"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "72eca8176fa28d345c2d24ac97dc43972de00055dc52e4045021fd02f6bebfb2",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 필자의 가족대화 실제사례와 영어약어 의미 확인.",
+      "tags": []
+    },
+    "gangnam-horse-dance": {
+      "title": "강남스타일 말춤",
+      "aliases": [
+        "강남스타일"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "87a33d3f660b8a91aec5a7e48372b42b52c8e32956ab101fc0fe00b5d042299f",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 지역·기숙사 스타일 영상과 단체말춤 참여 당시 보도 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "kimchi-slap": {
+      "title": "김치싸대기",
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "c47993ba756d422905c703788da7966d190dc1bd1a4c4e2419bfc023a17f1d16",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 드라마 원장면과 SNS 화제·후속패러디를 다룬 본문 확인.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "pour-or-dip": {
+      "title": "부먹 vs 찍먹",
+      "aliases": [
+        "부먹 찍먹"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "f0ae0337a98c6e76092e72e79bd9cf193ff09d5286b16d6d80326e559141bc6b",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 음식취향 논쟁의 반복적 인터넷 사용을 다룬 본문 확인.",
+      "tags": [
+        "음식"
+      ]
+    },
+    "tes-brother": {
+      "title": "테스형",
+      "aliases": [
+        "테스형!"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "7886f9235f997e479fbb36031efdf41298c008417220418378fe906c3d6ee220",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 방송후 호명법과 다른사상가 이름치환 패러디 본문 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "too-much-talker": {
+      "title": "투 머치 토커",
+      "aliases": [
+        "투머치토커",
+        "TMT"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "ab9460d48896f2cfd3691b9f47da5c26c1fb49af0eb03b9e34a0c71b6774db31",
+      "scope_type": "korean_usage",
+      "scope_basis": "박찬호 본인의 별명 사용 인터뷰로 국내 뜻·활용 확인.",
+      "tags": [
+        "스포츠",
+        "방송"
+      ]
+    },
+    "no-partner": {
+      "title": "안 생겨요",
+      "aliases": [
+        "ASKY"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "283881bfba4cd78e045ba8b28bba9a71dadfa92fbf5de66edb34aa7aa45643ba",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 여러커뮤니티 사용과 라디오 대중화 설명 본문 확인.",
+      "tags": [
+        "연애"
+      ]
+    },
+    "laugh-bell": {
+      "title": "웃음벨",
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "6793ac988d4a24c6886deb048f13ed8dadc5a8a574b0f1a34ec2e4b6ad29de1b",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 배우인터뷰·추억사진 SNS 관련 실제 사용 본문 확인.",
+      "tags": []
+    },
+    "unexpected-win": {
+      "title": "의문의 1승",
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "f6f821930f7746e11ed336022834f5a45d792cdd5116505ccbb38c2e4dc83191",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 현대속담을 다룬 보도의 표현·의미 설명 직접 확인.",
+      "tags": []
+    },
+    "hug-me-animal": {
+      "title": "안아줘요",
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "711e1b86a78e81af1697e591b1dd8b98421eb087d84bcef27829d91a1af9999b",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 캐릭터의 원작자·날다람쥐 대사 정체와 플랫폼 확산 본문 확인.",
+      "tags": []
+    },
+    "khaby-reaction": {
+      "title": "한심좌",
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "9bf0cd9b0be57a64fe7d2d333aec1809118cc1ee0d346b5182be5369ea349704",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 별칭·인기와 원영상의 해결·반응 형식 보도 확인.",
+      "tags": []
+    },
+    "happy-cat": {
+      "title": "해피 캣",
+      "aliases": [
+        "해피캣"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "2b2a6ece1120ec281ff0deea7c2fff3d51ea1d60faf9bb4ff1ceb96a25454870",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 고양이 상황극 설명과 전북 공식 여행홍보 활용 사례 확인.",
+      "tags": []
+    },
+    "i-am-groot": {
+      "title": "아이엠그루트",
+      "aliases": [
+        "아이 엠 그루트"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "b7a0521d0888ac8db9bdce65dcd1f19f009b71d378f163db59047523acbd9be9",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "영화 설정을 국내 댓글의 말아끼기 용법으로 사용한 직접 조사 보도 확인.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "real-reaction": {
+      "title": "레알",
+      "batch": "korea-list-reviewed-2026-11-16-i",
+      "body_hash": "dae3fd85517fa6a7083e57eedb84545fe062c6db2a591f530c167be046aacb19",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 의미 설명·실제 용례와 당시 신조어 인기 보도 확인.",
       "tags": []
     }
   }
