@@ -15,9 +15,9 @@
   "comparison": {
     "repository": "ray-math/meme-atlas",
     "ref": "main",
-    "search_index_blob_sha": "51b5c0135323723a2b2e49b250138be305a91fdc",
-    "entry_count": 329,
-    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR31 main 검색색인329개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
+    "search_index_blob_sha": "ba3bfa875e021687b75b53dc1037cd9cb8766e01",
+    "entry_count": 343,
+    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR33 main 검색색인343개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
   },
   "candidates": [
     {
@@ -4504,10 +4504,27 @@
       "section": "ㄷ",
       "source_line": 402,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/hurt-twice.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.inews24.com/view/107317",
+          "published_at": "2004-01-18",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        },
+        {
+          "url": "https://news.tf.co.kr/read/entertain/1098444.htm",
+          "published_at": "2012-10-29",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-0403",
@@ -4680,10 +4697,24 @@
       "section": "ㄷ",
       "source_line": 414,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/tteoksang.md",
+        "memes/tteokrak.md",
+        "memes/jonbeo.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20210414163400005",
+          "published_at": "2021-04-15",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음.",
+        "묶음 제목의 세 표현을 별도 경로로 연결. 이번 신규 항목은 떡락 하나이며 떡상·존버는 기존 수록."
+      ]
     },
     {
       "id": "kr-list-0415",
@@ -4750,10 +4781,21 @@
       "section": "ㄷ",
       "source_line": 420,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/tunak-song.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.hankookilbo.com/news/article/amp/A2022071516210002502",
+          "published_at": "2022-07-15",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-0421",
@@ -4794,10 +4836,21 @@
       "section": "ㄹ",
       "source_line": 425,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/real-lol.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20220222181200001",
+          "published_at": "2022-02-22",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-0426",
@@ -5322,10 +5375,21 @@
       "section": "ㅁ",
       "source_line": 468,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/mukbang.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20130331.99002084640",
+          "published_at": "2013-03-31",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-0469",
@@ -5487,10 +5551,25 @@
       "section": "ㅁ",
       "source_line": 481,
       "parent_id": null,
-      "status": "unreviewed",
+      "status": "held",
       "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "evidence": [
+        {
+          "url": "https://www.gamemeca.com/view.php?gid=1671990",
+          "published_at": "2021-12-07",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        },
+        {
+          "url": "https://www.inven.co.kr/webzine/news/?news=270847",
+          "published_at": "2022-04-22",
+          "access": "snippet_only",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "아로나 2차창작 이모티콘과 국내 재사용은 본문 확인. 모른다는 뜻의 정확한 단락은 재열람502로 추가 근거 필요하여 이번 보류."
+      ]
     },
     {
       "id": "kr-list-0482",
@@ -5623,10 +5702,21 @@
       "section": "ㅁ",
       "source_line": 492,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/humanities-vs-science.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://culture.kookmin.ac.kr/community/newnhot/special/1061593?pn=54rssrss",
+          "published_at": "2014-10-14",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-0493",
@@ -7235,10 +7325,21 @@
       "section": "ㅅ",
       "source_line": 615,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/burned-white.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2011062211561154637",
+          "published_at": "2011-06-22",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-0616",
@@ -7356,10 +7457,21 @@
       "section": "ㅅ",
       "source_line": 626,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/internet-pilgrimage.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://weekly.khan.co.kr/article/19380",
+          "published_at": "2009-02-24",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-0627",
@@ -7916,10 +8028,21 @@
       "section": "ㅅ",
       "source_line": 671,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/hyung-ida.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.inews24.com/view/124849",
+          "published_at": "2004-09-30",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-0672",
@@ -8887,10 +9010,21 @@
       "section": "ㅇ",
       "source_line": 745,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/must-buy-that.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20160101060212938?s=print_news",
+          "published_at": "2016-01-01",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-0746",
@@ -8898,10 +9032,21 @@
       "section": "ㅇ",
       "source_line": 746,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/welcome-first-time.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://sports.khan.co.kr/article/201308081619593",
+          "published_at": "2013-08-08",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "기존 본문과 원장 확인 후 어서 와, ○○는 처음이지? 항목에 연결. 신규 발행 아님."
+      ]
     },
     {
       "id": "kr-list-0747",
@@ -10493,10 +10638,21 @@
       "section": "ㅇ",
       "source_line": 870,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/greed-repeats.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20220907179000001",
+          "published_at": "2022-09-07",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-0871",
@@ -11454,10 +11610,21 @@
       "section": "ㅈ",
       "source_line": 948,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/chuunibyou.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201108241043321/amp",
+          "published_at": "2011-08-24",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-0949",
@@ -11465,10 +11632,21 @@
       "section": "ㅈ",
       "source_line": 949,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/neutral-gear.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://sggpaper.tistory.com/entry/중립기어는-정말-중립일까?category=359307",
+          "published_at": "2024-07-03",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-0950",
@@ -13038,10 +13216,21 @@
       "section": "ㅍ",
       "source_line": 1082,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/flex.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mk.co.kr/news/society/9097404",
+          "published_at": "2019-12-08",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "PR33에서 독립적으로 확인한 개별 표현을 수록. 자료 발행 시점과 조사일을 구분하며 최근 관측으로 추가하지 않음."
+      ]
     },
     {
       "id": "kr-list-1083",
