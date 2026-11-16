@@ -15,8 +15,8 @@
   "comparison": {
     "repository": "ray-math/meme-atlas",
     "ref": "main",
-    "search_index_blob_sha": "113fe9c2d12e4d96c40e43a1e1af16b93230be60",
-    "entry_count": 179,
+    "search_index_blob_sha": "258d1c978c05e99940d07d5ec11ffd1d8aae852a",
+    "entry_count": 192,
     "method": "제목/별칭 공백·일부 구두점 정규화 일치. 의미 중복·후속 PR 반영은 별도 검토. 2026-11-16 PR7 반영 후 179개와 경로 일관성 재확인. 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
   },
   "candidates": [
@@ -980,10 +980,21 @@
       "section": "영어 및 외국어",
       "source_line": 138,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/ppap.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://sports.donga.com/ent/article/all/20161123/81477753/2",
+          "published_at": "2016-11-23",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
+      ]
     },
     {
       "id": "kr-list-0139",
@@ -1478,10 +1489,21 @@
       "section": "ㄱ",
       "source_line": 183,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/gaejuki.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1007961807",
+          "published_at": "2025-01-24",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
+      ]
     },
     {
       "id": "kr-list-0184",
@@ -1533,10 +1555,21 @@
       "section": "ㄱ",
       "source_line": 188,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/gyaru-peace.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20220425092000797",
+          "published_at": "2022-04-26",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
+      ]
     },
     {
       "id": "kr-list-0189",
@@ -1834,10 +1867,21 @@
       "section": "ㄱ",
       "source_line": 215,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/coffin-dance.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20200606030225696?s=print_news",
+          "published_at": "2020-06-06",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
+      ]
     },
     {
       "id": "kr-list-0216",
@@ -2014,10 +2058,21 @@
       "section": "ㄱ",
       "source_line": 231,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/gwiyomi-song.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10002469952",
+          "published_at": "2013-02-26",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
+      ]
     },
     {
       "id": "kr-list-0232",
@@ -2770,10 +2825,21 @@
       "section": "ㄴ",
       "source_line": 300,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/nabi-bobettau.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://news.nate.com/view/20200513n30478?mid=n0704",
+          "published_at": "2020-05-13",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
+      ]
     },
     {
       "id": "kr-list-0301",
@@ -7136,10 +7202,21 @@
       "section": "ㅇ",
       "source_line": 692,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/want-to-do-nothing.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://digitalchosun.dizzo.com/site/data/html_dir/2015/08/28/2015082812094.html",
+          "published_at": "2015-08-29",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
+      ]
     },
     {
       "id": "kr-list-0693",
@@ -7147,10 +7224,21 @@
       "section": "ㅇ",
       "source_line": 693,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/any-song-challenge.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://enews.imbc.com/News/ViewAmp/274549",
+          "published_at": "2020-01-15",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
+      ]
     },
     {
       "id": "kr-list-0694",
@@ -8531,8 +8619,10 @@
       "section": "ㅇ",
       "source_line": 817,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/wow-good.md"
+      ],
       "evidence": [
         {
           "url": "https://www.imaeil.com/page/view/2007120707354746950",
@@ -8542,7 +8632,8 @@
         }
       ],
       "notes": [
-        "이전 조사에서 뜻·사용을 독립 기사 본문으로 확인. 최종 원본/범위/본문 검토 전이며 최근 관측일을 뜻하지 않음."
+        "이전 조사에서 뜻·사용을 독립 기사 본문으로 확인. 최종 원본/범위/본문 검토 전이며 최근 관측일을 뜻하지 않음.",
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
       ]
     },
     {
@@ -9466,10 +9557,21 @@
       "section": "ㅈ",
       "source_line": 900,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/rose-knife-parody.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201306091803091/amp",
+          "published_at": "2013-06-09",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
+      ]
     },
     {
       "id": "kr-list-0901",
@@ -10885,8 +10987,10 @@
       "section": "ㅋ",
       "source_line": 1029,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/king-reasonable-suspicion.md"
+      ],
       "evidence": [
         {
           "url": "https://news.nate.com/view/20210415n20945",
@@ -10896,7 +11000,8 @@
         }
       ],
       "notes": [
-        "이전 조사에서 뜻·사용을 독립 기사 본문으로 확인. 최종 원본/범위/본문 검토 전이며 최근 관측일을 뜻하지 않음."
+        "이전 조사에서 뜻·사용을 독립 기사 본문으로 확인. 최종 원본/범위/본문 검토 전이며 최근 관측일을 뜻하지 않음.",
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
       ]
     },
     {
@@ -10916,8 +11021,10 @@
       "section": "ㅋ",
       "source_line": 1031,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/king-wang-jjang.md"
+      ],
       "evidence": [
         {
           "url": "https://www.imaeil.com/page/view/2007120707354746950",
@@ -10927,7 +11034,8 @@
         }
       ],
       "notes": [
-        "이전 조사에서 뜻·사용을 독립 기사 본문으로 확인. 최종 원본/범위/본문 검토 전이며 최근 관측일을 뜻하지 않음."
+        "이전 조사에서 뜻·사용을 독립 기사 본문으로 확인. 최종 원본/범위/본문 검토 전이며 최근 관측일을 뜻하지 않음.",
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
       ]
     },
     {
@@ -11072,8 +11180,10 @@
       "section": "ㅌ",
       "source_line": 1045,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/tropicana-dance.md"
+      ],
       "evidence": [
         {
           "url": "https://m.etnews.com/20170911000270",
@@ -11083,7 +11193,8 @@
         }
       ],
       "notes": [
-        "이전 조사에서 뜻·사용을 독립 기사 본문으로 확인. 최종 원본/범위/본문 검토 전이며 최근 관측일을 뜻하지 않음."
+        "이전 조사에서 뜻·사용을 독립 기사 본문으로 확인. 최종 원본/범위/본문 검토 전이며 최근 관측일을 뜻하지 않음.",
+        "2026-11-16: 독립 자료의 뜻·국내 사용 범위 검토 후 PR #11 main 반영 확인. 과거 발행일은 최신 관측일이 아님."
       ]
     },
     {
