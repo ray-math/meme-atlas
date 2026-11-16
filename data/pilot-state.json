@@ -424,6 +424,27 @@
         "watch-out-cold",
         "red-sun-hypnosis"
       ]
+    },
+    "korea-list-reviewed-2026-11-16-k": {
+      "input_hash": "7ec5ce94a7cd7c4572f0400b07b4e2a6387d01927d91339f212d5bec401a5dc3",
+      "ids": [
+        "carrot-of-course",
+        "daebak-reaction",
+        "bare-face",
+        "insider-outsider",
+        "gaemseong",
+        "injeong",
+        "jonmattaeng",
+        "ssap-ganeung",
+        "easy-isnt-it",
+        "you-in-here",
+        "because-good-day",
+        "nae-areul",
+        "you-insulted-me",
+        "hyangsook",
+        "but-the-question",
+        "dont-ask-hurt"
+      ]
     }
   },
   "entries": {
@@ -3374,6 +3395,171 @@
       "scope_basis": "국내 코미디 당사자 인터뷰에서 최면수사 캐릭터·구호 사용 확인.",
       "tags": [
         "방송"
+      ]
+    },
+    "carrot-of-course": {
+      "title": "당근이지",
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "45c12b7234d3471849d5b5956d3d4813527adedd7e0b4e99de13d519f0ae92f6",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 유행어의 뜻과 일상 반응 사용 기사 본문 확인.",
+      "tags": []
+    },
+    "daebak-reaction": {
+      "title": "대박",
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "e8750e20c0793de99925144e1ac81327a40493b17cdb8d306048d4ad15fff2ca",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 국어교육 칼럼에서 반복적 감탄 용법과 의미 확인.",
+      "tags": []
+    },
+    "bare-face": {
+      "title": "쌩얼",
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "e23d373deb544e1bdced698a703e058e9d1fc9121e6ca756ecfe2e4af6dd6dbb",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 방송인 자신의 화장 없이 뉴스 진행한 경험과 표현 확산 확인.",
+      "tags": []
+    },
+    "insider-outsider": {
+      "title": "인싸·아싸",
+      "aliases": [
+        "인싸",
+        "아싸"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "8fda1d0b0ea640b2bf3c4066c6c7b59fd36630d54de9eb6d134e54241223f5d4",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "영어축약의 한국적 관계사용과 온라인·마케팅·자발적아싸 용례 본문 확인.",
+      "tags": []
+    },
+    "gaemseong": {
+      "title": "갬성",
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "bec2bd2f3de9793a253e992d68494e9912d9fa3d899bf4d0c7c10704e4d59f2e",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 빈티지카페 용례와 SNS용 감성 표기변형 해설 확인.",
+      "tags": []
+    },
+    "injeong": {
+      "title": "인정",
+      "aliases": [
+        "ㅇㅈ"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "0717e0e4e9cc03431e90d9e88572cbca417a56d3cdab648ec2da98f6d98bb143",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 초성어 풀이와 CU 상품의 자문자답 문구 실제 사용 확인.",
+      "tags": []
+    },
+    "jonmattaeng": {
+      "title": "존맛탱",
+      "aliases": [
+        "JMT"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "84a4387be666c7fd4158fca36119434d2d743a8fc3a3e8c9e4b2fffaeda7a2dc",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 인터넷·SNS의 의미와 JMT 표기 설명 직접 확인.",
+      "tags": [
+        "음식"
+      ]
+    },
+    "ssap-ganeung": {
+      "title": "쌉가능",
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "91a4f751ff38b2860288c3d68a1cd28a7be60979db5727b9d88549cad637d97d",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 공식 뉴스의 쌉가능 및 가능의 영어혼합 변형 풀이 확인.",
+      "tags": []
+    },
+    "easy-isnt-it": {
+      "title": "참 쉽죠?",
+      "aliases": [
+        "참 쉽죠"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "9f6255f2abfb8bcb9821b65e76d7936286d88d4628bc2aaba36b8b9f942b23e7",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "EBS 한국어더빙 유행과 국내 방송·광고 패러디 본문 확인.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "you-in-here": {
+      "title": "이 안에 너 있다",
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "f47cb73ced38e29d5e12549e508eac560c1d83d3807dd1ba7833bd77393d9d21",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 드라마 고백 장면과 다양한 패러디의 당시 보도 확인.",
+      "tags": [
+        "방송",
+        "연애"
+      ]
+    },
+    "because-good-day": {
+      "title": "날이 좋아서",
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "6814515f57b4765aadbbb3410e72fd236fd50d267089a86f1a8e995c4fd2f13d",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 드라마 대사와 SNS 캠핑 문구의 실제 치환 사용 확인.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "nae-areul": {
+      "title": "내 아를 낳아도",
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "36cd786848f6a9fe2a290f14597fff9e23e4ba3eecadb814b0cb90c28305041e",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 코미디 코너와 당사자의 의미 설명·프러포즈 재사용 확인.",
+      "tags": [
+        "방송",
+        "연애"
+      ]
+    },
+    "you-insulted-me": {
+      "title": "넌 나에게 모욕감을 줬어",
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "b02959c443b7345d17e0ee8c8fbd0c0ffd7129306470a9a68cbc11a3058b4795",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 영화 원대사 맥락과 배우의 패러디 대응 SNS 실제 사용 확인.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "hyangsook": {
+      "title": "향숙이",
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "f5c05f00a54de372d396bd4580c4db038e659366e2240f94f3d54e5a01ecccf4",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 영화 대사의 유행과 코미디 프로그램 재등장 본문 확인.",
+      "tags": [
+        "영화",
+        "방송"
+      ]
+    },
+    "but-the-question": {
+      "title": "그런데 말입니다",
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "09154b750b68898b91df404bf2ea9dc5407537e922846bfc60731686fd8104d7",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 진행자 본인 인터뷰와 실제 방송 패러디 확인.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "dont-ask-hurt": {
+      "title": "묻지 마, 다쳐",
+      "aliases": [
+        "묻지 마 다쳐"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-k",
+      "body_hash": "6a425655fab976c8cd5bfed0f3257da2c9e88d1aaa289a9a4e4253ff4f1f3590",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 광고 카피라이터 인터뷰의 원광고·인기·일상 용법 확인.",
+      "tags": [
+        "광고"
       ]
     }
   }
