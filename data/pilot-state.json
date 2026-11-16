@@ -486,6 +486,25 @@
         "gak-situation",
         "musae-repeat"
       ]
+    },
+    "korea-reviewed-20261116-14": {
+      "input_hash": "525387581d07f35e1c0d3e6e7e04becc66e67ecf548dbe786bc5530d1375e907",
+      "ids": [
+        "chuunibyou",
+        "internet-pilgrimage",
+        "mukbang",
+        "humanities-vs-science",
+        "flex",
+        "neutral-gear",
+        "must-buy-that",
+        "greed-repeats",
+        "real-lol",
+        "hyung-ida",
+        "tunak-song",
+        "burned-white",
+        "hurt-twice",
+        "tteokrak"
+      ]
     }
   },
   "entries": {
@@ -3900,6 +3919,150 @@
       "scope_type": "korean_origin",
       "scope_basis": "앵무새 기반 한국어 말붙임과 웹드라마의 반복사과 변형 실제 활용 확인.",
       "tags": []
+    },
+    "chuunibyou": {
+      "title": "중2병",
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "e354ed4e625f0c90e4ae3c1ef0165c049a9813233a8c3740b341ef639a0a885d",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 온라인 유행과 비하적·과장된 태도 의미의 본문 확인.",
+      "tags": []
+    },
+    "internet-pilgrimage": {
+      "title": "성지순례",
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "30e5114ad5646eeb93ad66c09649ea2cfaf1d1486eff3c152880de4a0b818919",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 화제게시물 방문 댓글의 뜻과 실제 커뮤니티 사례 확인.",
+      "tags": []
+    },
+    "mukbang": {
+      "title": "먹방",
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "70b4178705d98d8af80e50ce46f7d28434b0cd3a307df0be75ae43766238cc56",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 BJ 먹는방송 축약과 영화·방송 식사장면으로의 확장 본문 확인.",
+      "tags": [
+        "인터넷방송",
+        "음식"
+      ]
+    },
+    "humanities-vs-science": {
+      "title": "문과 vs 이과",
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "b0bf42d93b4e6afc1568bd26c653906aa94a81c1f1b762ac151ec4a2b3f4f2fc",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 온라인 대비콘텐츠를 행사·SNS홍보에 응용한 기획자 인터뷰 확인.",
+      "tags": []
+    },
+    "flex": {
+      "title": "플렉스",
+      "aliases": [
+        "플렉스 해버렸지 뭐야"
+      ],
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "c534a5d99a348f34822e26b1631c19d53b361e0bdda36bff37a19d320d4afbfe",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 래퍼·연예인·온라인의 소비와 자기자랑 실제 쓰임 확인.",
+      "tags": [
+        "소비",
+        "음악"
+      ]
+    },
+    "neutral-gear": {
+      "title": "중립기어",
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "70a702106db4f6ca3955bf4c18ebc6963760f7ab09ab8ced016e0f4a7f051d9a",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 논란 댓글의 판단유보 표현과 자동차 비유 설명 확인.",
+      "tags": []
+    },
+    "must-buy-that": {
+      "title": "어머 저건 사야해",
+      "aliases": [
+        "어머, 저건 사야 해"
+      ],
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "218b1f3e0c1b64e3eff901a65198aaa46ebfdcf9ba5b949c361529c5691359fa",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 만화 장면에 문구를 붙인 구매욕구 짤과 텍스트 확산 설명 확인.",
+      "tags": [
+        "소비",
+        "웹툰"
+      ]
+    },
+    "greed-repeats": {
+      "title": "인간의 욕심은 끝이 없고 같은 실수를 반복한다",
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "f9a2cef2058af84a97f721ef16c765774ff9513906898cd8bf37ebbbc8bd62d5",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 SNS에 문구와 시바견 사진을 쓴 실제 밈 사례 본문 확인.",
+      "tags": []
+    },
+    "real-lol": {
+      "title": "ㄹㅇㅋㅋ",
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "208bc9a3ec5a39454eb318a1e9990f84d4064916fc1ec2779ff81de81014251c",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 SNS 사용과 초성 결합·반어적 반응의 본문 확인.",
+      "tags": []
+    },
+    "hyung-ida": {
+      "title": "형이다(싱하형)",
+      "aliases": [
+        "싱하형"
+      ],
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "ef702def34b94e66c3c2a3d3249a70e0ef1dfaee44770c481a99944949d525c2",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 커뮤니티 닉네임·형이다 말머리·사진합성과 말투 모방 확인.",
+      "tags": []
+    },
+    "tunak-song": {
+      "title": "뚫훍송",
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "dc946f9966c92cd78dbb6e20298ca5214b10d82d18e6b66449143ed4add11427",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 별칭과 예능·광고·인터넷 밈 재사용 본문 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "burned-white": {
+      "title": "새하얗게 불태워 버렸어",
+      "aliases": [
+        "하얗게 불태웠어"
+      ],
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "fc335cf2301c19eaee600c76d2eaf7ff04976d26c7751144ed9a6c8a9b520736",
+      "scope_type": "korean_usage",
+      "scope_basis": "내일의 죠 관련 표현의 국내 반복 패러디와 탈진 상황 설명 확인.",
+      "tags": [
+        "애니"
+      ]
+    },
+    "hurt-twice": {
+      "title": "두 번 죽이는 거",
+      "aliases": [
+        "나를 두 번 죽이는 일이라고"
+      ],
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "c1e17bb7c7b698863376d39a8e681dacb5f8be0f62c44b5fdd8c56d67f01f615",
+      "scope_type": "korean_origin",
+      "scope_basis": "방송 유행어의 인기와 벨소리 재사용 본문 확인.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "tteokrak": {
+      "title": "떡락",
+      "batch": "korea-reviewed-20261116-14",
+      "body_hash": "e7cfac86c7570b06d72b64a9f6dc9e80b415f40883796cfb413a32ff91ca4a0a",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 투자 은어의 급락 의미와 소설 속 실제 사용 본문 확인.",
+      "tags": [
+        "투자"
+      ]
     }
   }
 }
