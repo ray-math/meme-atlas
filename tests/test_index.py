@@ -26,3 +26,11 @@ class IndexTests(unittest.TestCase):
   self.assertEqual(hit['id'],'ppi')
   self.assertNotIn('삐바삐',hit.get('aliases',[]))
   self.assertFalse(any(r['id']=='ppibappi' for r in rows))
+
+ def test_ledger_alias_does_not_override_canonical_metadata(self):
+  import json
+  with tempfile.TemporaryDirectory() as d:
+   root=Path(d);(root/'memes').mkdir();(root/'data').mkdir()
+   (root/'memes/test.md').write_text('# 표제어\n\n## 뜻풀이\n뜻\n\n## 유래와 확산\n맥락')
+   (root/'data/pilot-state.json').write_text(json.dumps({'entries':{'test':{'aliases':['폐기 별칭']}}}))
+   self.assertNotIn('aliases',build(root)[0])
