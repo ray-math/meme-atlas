@@ -29,6 +29,7 @@
 - [줴줴이야](../memes/jwejweiya.md)
 - [측면 대 측면](../memes/side-to-side.md)
 - [크리스 크로스](../memes/criss-cross.md)
+- [폐인](../memes/paein-online.md)
 
 ## 광고
 
@@ -75,6 +76,7 @@
 - [급식체](../memes/school-slang-style.md)
 - [깜놀](../memes/kkamnol.md)
 - [낄끼빠빠](../memes/kkilkki-ppappa.md)
+- [나 꿍꼬또 기싱꿍꼬또](../memes/ghost-dream-aegyo.md)
 - [내가 바퀴벌레가 되면 어떡할 거야?](../memes/if-i-become-cockroach.md)
 - [뇌절](../memes/noejeol.md)
 - [다음 이야기가 궁금하면 냐냐냥을 입력하세요](../memes/type-nyanyanya.md)
@@ -85,6 +87,8 @@
 - [대박](../memes/daebak-reaction.md)
 - [덕업일치](../memes/deogeop-ilchi.md)
 - [드레스 색깔 논란](../memes/dress-color-debate.md)
+- [듣보잡](../memes/deutbojap.md)
+- [디스](../memes/diss.md)
 - [똥손](../memes/ttongson.md)
 - [라을라](../memes/raeulla.md)
 - [레알](../memes/real-reaction.md)
@@ -99,6 +103,7 @@
 - [방구석 여포](../memes/keyboard-lubu.md)
 - [별다줄](../memes/byeoldajul.md)
 - [복세편살](../memes/bokse-pyeonsal.md)
+- [본좌](../memes/bonjwa.md)
 - [부들부들](../memes/trembling-reaction.md)
 - [불금](../memes/fiery-friday.md)
 - [뷁](../memes/bwek.md)
@@ -133,8 +138,11 @@
 - [인증샷](../memes/proof-photo.md)
 - [읽지 않음 난 모르는 일](../memes/unread-none-of-my-business.md)
 - [있었는데요 없었습니다](../memes/it-was-gone.md)
+- [잉여](../memes/ingyeo.md)
 - [즐](../memes/jeul.md)
 - [지못미](../memes/jimotmi.md)
+- [쩔다](../memes/jjeolda.md)
+- [초딩](../memes/choding.md)
 - [취존](../memes/chwijon.md)
 - [킹리적 갓심](../memes/king-reasonable-suspicion.md)
 - [킹왕짱](../memes/king-wang-jjang.md)
@@ -183,6 +191,7 @@
 - [어서 와, ○○는 처음이지?](../memes/welcome-first-time.md)
 - [어쩔티비](../memes/eojjeol-tv.md)
 - [엣지 있다](../memes/edge-style.md)
+- [왜 이래? 아마추어 같이](../memes/like-an-amateur.md)
 - [으리](../memes/euri.md)
 - [이 안에 너 있다](../memes/you-in-here.md)
 - [이 차는 이제 제 겁니다](../memes/this-car-is-mine.md)
@@ -227,6 +236,7 @@
 - [니코니코니](../memes/nico-nico-ni.md)
 - [똥 밟았네](../memes/stepped-on-poop.md)
 - [안녕히 계세요 여러분](../memes/goodbye-everyone.md)
+- [정의의 이름으로 널 용서하지 않겠다](../memes/in-name-of-justice.md)
 
 ## 연애
 
@@ -267,12 +277,15 @@
 ## 영화
 
 - [나 다시 돌아갈래](../memes/go-back-again.md)
+- [난 한 놈만 패](../memes/one-target-only.md)
 - [내가 왕이 될 상인가](../memes/will-i-be-king.md)
 - [너나 잘하세요](../memes/neona-jalhaseyo.md)
 - [넌 계획이 다 있구나](../memes/you-have-a-plan.md)
 - [넌 나에게 모욕감을 줬어](../memes/you-insulted-me.md)
+- [느그 서장 남천동 살제?](../memes/your-chief-namcheon.md)
 - [니가 가라 하와이](../memes/you-go-hawaii.md)
 - [니가 좋아 챌린지](../memes/niga-joa-challenge.md)
+- [동작 그만, 밑장빼기냐?](../memes/stop-bottom-dealing.md)
 - [드루와](../memes/deuruwa.md)
 - [라면 먹고 갈래?](../memes/ramen-invitation.md)
 - [모히또 가서 몰디브 한잔](../memes/mojito-maldives.md)
@@ -285,6 +298,7 @@
 - [살아있네](../memes/sara-inne.md)
 - [아버지 뭐하시노](../memes/father-job.md)
 - [아이엠그루트](../memes/i-am-groot.md)
+- [아직 한 발 남았다](../memes/one-shot-left.md)
 - [어이가 없네](../memes/eoi-eopne.md)
 - [이 안에 배신자가 있다](../memes/traitor-among-us.md)
 - [지금까지 이런 맛은 없었다](../memes/never-this-taste.md)
@@ -405,6 +419,7 @@
 
 ## 패션
 
+- [간지](../memes/ganji.md)
 - [꾸안꾸](../memes/kkuan-kku.md)
 - [등골 브레이커](../memes/back-breaker.md)
 - [엣지 있다](../memes/edge-style.md)

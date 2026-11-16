@@ -445,6 +445,26 @@
         "but-the-question",
         "dont-ask-hurt"
       ]
+    },
+    "korea-list-reviewed-2026-11-16-l": {
+      "input_hash": "d83793dec131509410942c549724a840e68f0b7b18ca275d76c0f021eb87afec",
+      "ids": [
+        "ganji",
+        "diss",
+        "bonjwa",
+        "deutbojap",
+        "jjeolda",
+        "ingyeo",
+        "paein-online",
+        "choding",
+        "stop-bottom-dealing",
+        "one-shot-left",
+        "your-chief-namcheon",
+        "ghost-dream-aegyo",
+        "like-an-amateur",
+        "one-target-only",
+        "in-name-of-justice"
+      ]
     }
   },
   "entries": {
@@ -3560,6 +3580,154 @@
       "scope_basis": "국내 광고 카피라이터 인터뷰의 원광고·인기·일상 용법 확인.",
       "tags": [
         "광고"
+      ]
+    },
+    "ganji": {
+      "title": "간지",
+      "aliases": [
+        "간지나다"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "4aa6c1e17da9e08350d2dc5b5af3c76a73204e56535af4a9bc1eb935188a0466",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "일본어 유래의 한국식 폼나다 의미와 국내 실제 사용 본문 확인.",
+      "tags": [
+        "패션"
+      ]
+    },
+    "diss": {
+      "title": "디스",
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "09e7b0f897586a0641c808da3c5fe82a65682cc300b6d8eb310a2f8ade9456a0",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 방송의 발언과 인터넷 표현의 일상 확산·뜻 본문 확인.",
+      "tags": []
+    },
+    "bonjwa": {
+      "title": "본좌",
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "844c66b56a6649967d9d5b8e0ff562d82eeb93f11c5581b8fa0571ff9c9692b5",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 고수 의미와 연기본좌 등 실제 호칭 사례 확인.",
+      "tags": []
+    },
+    "deutbojap": {
+      "title": "듣보잡",
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "02cde7f35dbe118b4d87ce0cbc773604cf01721bd6d21fada93a81767486880a",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 청소년 온라인 언어의 뜻과 사용을 다룬 당대 취재 확인.",
+      "tags": []
+    },
+    "jjeolda": {
+      "title": "쩔다",
+      "aliases": [
+        "쩐다"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "882912e009810ac1331ba363e2ce513e459d23433d61ecb4ebe70b1d6f00e433",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 인터넷·일상 대화의 쩐다 의미와 실제 사용 당대 취재 확인.",
+      "tags": []
+    },
+    "ingyeo": {
+      "title": "잉여",
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "8d1696c5e3f83595756b627926579bacb21d2bb9a09c69d2c105061610ad2a20",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 잉여롭다·잉여력의 자조와 집요한 결과물 칭찬 용례 확인.",
+      "tags": []
+    },
+    "paein-online": {
+      "title": "폐인",
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "3f456b68bc15d4815a184e802f0643cd6307dc3c2e1f0749842571cfef31ecca",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 초고속인터넷 문화와 팬 자칭·타인 비하의 이중 용법 확인.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "choding": {
+      "title": "초딩",
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "62bb05b61815ef4eec22050613f4dfa17c43848b9cef613e6f934d63b549a082",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 초등학생 지칭과 네티켓 비하의 확장 양쪽을 다룬 당시 보도 확인.",
+      "tags": []
+    },
+    "stop-bottom-dealing": {
+      "title": "동작 그만, 밑장빼기냐?",
+      "aliases": [
+        "동작 그만 밑장빼기냐"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "c0df1b99f208b3f17e6fbecff68aa332a86902358a1db56bf057e326bc79e519",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 영화 대사를 치킨 사진에 치환한 SNS 패러디 실제 사례 확인.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "one-shot-left": {
+      "title": "아직 한 발 남았다",
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "02dce7cd5fbaeb80d2d18b1a8b8ff3dd821c6ebfa0d1b2015f9d3fef211f152a",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 영화 대사와 광고의 단위 치환 재사용 본문 확인.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "your-chief-namcheon": {
+      "title": "느그 서장 남천동 살제?",
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "acf0800d71abe5517c636111fed0bb7643f2e68f45620ff43935a8c156fa3d95",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 영화 장면과 예능·코미디의 다수 패러디 본문 확인.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "ghost-dream-aegyo": {
+      "title": "나 꿍꼬또 기싱꿍꼬또",
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "38571131941da65f249c2010d261cf54e296c954d27b1485443063d99db4f051",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 온라인 유행과 레드벨벳 공식SNS의 실제 참여·표현 뜻 확인.",
+      "tags": []
+    },
+    "like-an-amateur": {
+      "title": "왜 이래? 아마추어 같이",
+      "aliases": [
+        "왜 이래 아마추어 같이"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "7f042d3976c86b4435d3cb56eb607d73f28e0d3dfd49f6c13d37b6de8c7fafa8",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 코미디의 유행어와 진지한 딴죽 말투를 다룬 본문 확인.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "one-target-only": {
+      "title": "난 한 놈만 패",
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "cff2ceef99494493737eaa4b2a6fb9258d892fb8df5f2e5fa6eff445d0931263",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 영화 대사를 사진 소재·목표 집중에 비유한 실제 사용 확인.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "in-name-of-justice": {
+      "title": "정의의 이름으로 널 용서하지 않겠다",
+      "batch": "korea-list-reviewed-2026-11-16-l",
+      "body_hash": "313b8227a0f4f328eb267e64d19a07921a67fe48f819224dbbcef2e7d0ceea5a",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "한국어 번안 대사와 JTBC 공식 패러디 클립 페이지의 실제 사용 확인.",
+      "tags": [
+        "애니"
       ]
     }
   }
