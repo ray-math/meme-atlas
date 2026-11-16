@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "note": "편집 주석과 함께 설계한 회귀 평가. prompt는 사람이 구조화한 질의 의도 설명이며 자연어 파서 입력이 아님. 독립/blind 평가나 실제 추천 정확도 측정이 아님.",
+  "cases": [
+    {
+      "id": "confirmed",
+      "prompt": "농담인 줄 알았는데 사실 확인 후 놀람",
+      "filters": {
+        "emotions": [
+          "놀람"
+        ],
+        "situations": [
+          "예상밖사실"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "iwaejin:confirmed-surprise"
+      ]
+    },
+    {
+      "id": "success",
+      "prompt": "좋은 결과에 깜짝 놀라 감탄",
+      "filters": {
+        "emotions": [
+          "기쁨"
+        ],
+        "situations": [
+          "성과"
+        ],
+        "mode": "recommend"
+      },
+      "expected_any": [
+        "daebak-reaction:admire",
+        "is-this-real:pleasant-surprise"
+      ]
+    },
+    {
+      "id": "amused",
+      "prompt": "친구의 얄미운 농담에 웃기면서 짜증",
+      "filters": {
+        "emotions": [
+          "재미"
+        ],
+        "intents": [
+          "장난스러운항의"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "kingbatne:amused-irritation"
+      ]
+    },
+    {
+      "id": "protest",
+      "prompt": "영화처럼 장난스럽게 항의",
+      "filters": {
+        "situations": [
+          "가벼운놀림"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "you-insulted-me:mock-serious-protest"
+      ]
+    },
+    {
+      "id": "plot",
+      "prompt": "드라마 오해가 계속 안 풀려 답답",
+      "filters": {
+        "situations": [
+          "드라마감상"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "goguma-frustration:frustrating-plot"
+      ]
+    },
+    {
+      "id": "relief",
+      "prompt": "명쾌한 반박으로 문제가 풀림",
+      "filters": {
+        "situations": [
+          "명쾌한반박"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "cider-relief:satisfying-resolution"
+      ]
+    },
+    {
+      "id": "explain",
+      "prompt": "같은 설명에도 질문이 반복됨",
+      "filters": {
+        "situations": [
+          "반복질문"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "space-behind-pillar:repeated-explanation"
+      ]
+    },
+    {
+      "id": "agreement",
+      "prompt": "상대 평가에 진짜 동의",
+      "filters": {
+        "intents": [
+          "동조"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend"
+      },
+      "expected_any": [
+        "injeong:agreement"
+      ]
+    },
+    {
+      "id": "irony",
+      "prompt": "동의하는 척 비꼬는 댓글",
+      "filters": {
+        "intents": [
+          "비꼼"
+        ],
+        "situations": [
+          "표면상동의"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "real-lol:ironic-agreement"
+      ]
+    },
+    {
+      "id": "optimism",
+      "prompt": "내 낙관적 상상을 자조",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "situations": [
+          "낙관적상상"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "happy-circuit:self-optimism"
+      ]
+    },
+    {
+      "id": "repeat",
+      "prompt": "같은 말만 하는 나를 놀림",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "situations": [
+          "반복발언"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend"
+      },
+      "expected_any": [
+        "musae-repeat:self-repeat"
+      ]
+    },
+    {
+      "id": "dismissal",
+      "prompt": "상대 말을 무시하는 용법을 이해",
+      "filters": {
+        "intents": [
+          "무시"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "eojjeol-tv:dismiss-serious"
+      ]
+    },
+    {
+      "id": "withhold",
+      "prompt": "직접 의견을 말하지 않기",
+      "filters": {
+        "intents": [
+          "말아끼기"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "i-am-groot:withhold-opinion"
+      ]
+    },
+    {
+      "id": "defer",
+      "prompt": "사실관계 나올 때까지 판단 보류",
+      "filters": {
+        "intents": [
+          "판단유보"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "neutral-gear:defer-judgment"
+      ]
+    },
+    {
+      "id": "reality",
+      "prompt": "계획과 현실의 차이를 자조",
+      "filters": {
+        "situations": [
+          "기대와현실차이"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "reality-is-gutter:expectation-gap"
+      ]
+    },
+    {
+      "id": "giveup",
+      "prompt": "사소한 목표를 내려놓는 농담",
+      "filters": {
+        "situations": [
+          "사소한목표포기"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "giving-up-easy:playful-resignation"
+      ]
+    },
+    {
+      "id": "encourage",
+      "prompt": "재도전을 원하는 친구 격려 용법",
+      "filters": {
+        "intents": [
+          "격려"
+        ],
+        "exclude_risks": [
+          "비속어"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "jung-kkeok-ma:encourage-other"
+      ]
+    },
+    {
+      "id": "resolve",
+      "prompt": "실패 후 재도전하는 자기 다짐",
+      "filters": {
+        "intents": [
+          "다짐"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend"
+      },
+      "expected_any": [
+        "jung-kkeok-ma:self-resolve"
+      ]
+    },
+    {
+      "id": "comfort",
+      "prompt": "내가 위로받고 싶어 부탁",
+      "filters": {
+        "intents": [
+          "위로요청"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "hug-me-animal:request-comfort"
+      ]
+    },
+    {
+      "id": "greeting",
+      "prompt": "헤어지며 행복을 빌어주기",
+      "filters": {
+        "intents": [
+          "인사"
+        ],
+        "mode": "recommend"
+      },
+      "expected_any": [
+        "haengshow:well-wishes"
+      ]
+    },
+    {
+      "id": "romance",
+      "prompt": "친절한 연락의 호감 가능성 묻기",
+      "filters": {
+        "intents": [
+          "가능성묻기"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "green-light-romance:romantic-possibility"
+      ]
+    },
+    {
+      "id": "value",
+      "prompt": "가격 대비 알찬 구성 칭찬",
+      "filters": {
+        "intents": [
+          "칭찬"
+        ],
+        "situations": [
+          "가성비"
+        ],
+        "mode": "recommend"
+      },
+      "expected_any": [
+        "hyeja:good-value"
+      ]
+    },
+    {
+      "id": "brag",
+      "prompt": "새 결과물을 귀엽게 자랑",
+      "filters": {
+        "intents": [
+          "자랑"
+        ],
+        "mode": "recommend"
+      },
+      "expected_any": [
+        "look-at-this-hand:cute-brag"
+      ]
+    },
+    {
+      "id": "tired",
+      "prompt": "일 마친 뒤 탈진",
+      "filters": {
+        "situations": [
+          "일완료"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "burned-white:after-effort"
+      ]
+    },
+    {
+      "id": "stop",
+      "prompt": "친구의 반복 농담 제지",
+      "filters": {
+        "intents": [
+          "제지"
+        ],
+        "situations": [
+          "반복농담"
+        ],
+        "mode": "lookup"
+      },
+      "expected_any": [
+        "noejeol:stop-repetition"
+      ]
+    },
+    {
+      "id": "tmi",
+      "prompt": "내가 너무 자세히 말했다고 자인",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "situations": [
+          "과도한설명"
+        ],
+        "mode": "recommend"
+      },
+      "expected_any": [
+        "tmi:self-overdetail"
+      ]
+    },
+    {
+      "id": "no-mock-recommend",
+      "prompt": "조롱을 기본 발화로 추천하지 않음",
+      "filters": {
+        "intents": [
+          "조롱"
+        ],
+        "mode": "recommend"
+      },
+      "expected_status": "no_match"
+    },
+    {
+      "id": "no-ignore-recommend",
+      "prompt": "고민 무시를 기본 발화로 추천하지 않음",
+      "filters": {
+        "intents": [
+          "무시"
+        ],
+        "mode": "recommend"
+      },
+      "expected_status": "no_match"
+    },
+    {
+      "id": "no-cross-sense",
+      "prompt": "ㄹㅇㅋㅋ의 재미와 조롱을 다른 용법에서 합치지 않음",
+      "filters": {
+        "query": "ㄹㅇㅋㅋ",
+        "emotions": [
+          "재미"
+        ],
+        "intents": [
+          "조롱"
+        ],
+        "mode": "lookup"
+      },
+      "expected_status": "no_match"
+    },
+    {
+      "id": "unknown-not-neutral",
+      "prompt": "미판정 정서를 중립으로 오인하지 않음",
+      "filters": {
+        "emotions": [
+          "중립"
+        ],
+        "mode": "lookup"
+      },
+      "expected_status": "no_match"
+    },
+    {
+      "id": "comfort-direction",
+      "prompt": "위로 요청을 위로 제공으로 바꾸지 않음",
+      "filters": {
+        "intents": [
+          "위로제공"
+        ],
+        "mode": "lookup"
+      },
+      "expected_status": "unsupported_filter"
+    },
+    {
+      "id": "no-formal-inference",
+      "prompt": "친근한 용례를 격식 대화에 자동 추천하지 않음",
+      "filters": {
+        "registers": [
+          "격식있는대화"
+        ],
+        "mode": "recommend"
+      },
+      "expected_status": "no_match"
+    },
+    {
+      "id": "no-negative-positive",
+      "prompt": "avoid_when의 진지한 위로가 긍정 용례가 되지 않음",
+      "filters": {
+        "query": "고민",
+        "intents": [
+          "무시"
+        ],
+        "mode": "lookup"
+      },
+      "expected_status": "no_match"
+    },
+    {
+      "id": "unknown-concept",
+      "prompt": "없는 감정을 만들어 맞추지 않음",
+      "filters": {
+        "emotions": [
+          "알수없는감정"
+        ],
+        "mode": "lookup"
+      },
+      "expected_status": "unsupported_filter"
+    }
+  ]
+}

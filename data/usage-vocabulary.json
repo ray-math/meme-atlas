@@ -1,0 +1,563 @@
+{
+  "schema_version": 1,
+  "facets": {
+    "emotions": [
+      {
+        "label": "결의",
+        "aliases": []
+      },
+      {
+        "label": "기대",
+        "aliases": []
+      },
+      {
+        "label": "기쁨",
+        "aliases": [
+          "즐거움"
+        ]
+      },
+      {
+        "label": "놀람",
+        "aliases": [
+          "놀라움",
+          "깜짝놀람"
+        ]
+      },
+      {
+        "label": "다정함",
+        "aliases": []
+      },
+      {
+        "label": "답답함",
+        "aliases": []
+      },
+      {
+        "label": "당혹",
+        "aliases": [
+          "당황"
+        ]
+      },
+      {
+        "label": "만족",
+        "aliases": []
+      },
+      {
+        "label": "민망함",
+        "aliases": []
+      },
+      {
+        "label": "뿌듯함",
+        "aliases": []
+      },
+      {
+        "label": "실망",
+        "aliases": []
+      },
+      {
+        "label": "어이없음",
+        "aliases": []
+      },
+      {
+        "label": "재미",
+        "aliases": [
+          "웃김"
+        ]
+      },
+      {
+        "label": "중립",
+        "aliases": []
+      },
+      {
+        "label": "짜증",
+        "aliases": []
+      },
+      {
+        "label": "체념",
+        "aliases": []
+      },
+      {
+        "label": "탈진",
+        "aliases": []
+      },
+      {
+        "label": "통쾌함",
+        "aliases": []
+      },
+      {
+        "label": "피로감",
+        "aliases": []
+      },
+      {
+        "label": "허탈함",
+        "aliases": []
+      },
+      {
+        "label": "희망",
+        "aliases": []
+      }
+    ],
+    "intents": [
+      {
+        "label": "가능성묻기",
+        "aliases": []
+      },
+      {
+        "label": "감탄",
+        "aliases": []
+      },
+      {
+        "label": "격려",
+        "aliases": []
+      },
+      {
+        "label": "관심요청",
+        "aliases": []
+      },
+      {
+        "label": "다짐",
+        "aliases": []
+      },
+      {
+        "label": "대화끊기",
+        "aliases": []
+      },
+      {
+        "label": "동조",
+        "aliases": [
+          "동의",
+          "맞장구"
+        ]
+      },
+      {
+        "label": "말아끼기",
+        "aliases": []
+      },
+      {
+        "label": "무시",
+        "aliases": []
+      },
+      {
+        "label": "불만표현",
+        "aliases": []
+      },
+      {
+        "label": "비꼼",
+        "aliases": [
+          "비꼬기"
+        ]
+      },
+      {
+        "label": "상태설명",
+        "aliases": []
+      },
+      {
+        "label": "상황평가",
+        "aliases": []
+      },
+      {
+        "label": "약올림",
+        "aliases": []
+      },
+      {
+        "label": "위로요청",
+        "aliases": []
+      },
+      {
+        "label": "응원",
+        "aliases": []
+      },
+      {
+        "label": "인사",
+        "aliases": []
+      },
+      {
+        "label": "자기강조",
+        "aliases": []
+      },
+      {
+        "label": "자랑",
+        "aliases": []
+      },
+      {
+        "label": "자조",
+        "aliases": [
+          "자기놀림"
+        ]
+      },
+      {
+        "label": "장난스러운항의",
+        "aliases": [
+          "장난항의"
+        ]
+      },
+      {
+        "label": "제지",
+        "aliases": []
+      },
+      {
+        "label": "조롱",
+        "aliases": []
+      },
+      {
+        "label": "칭찬",
+        "aliases": []
+      },
+      {
+        "label": "타박",
+        "aliases": []
+      },
+      {
+        "label": "판단유보",
+        "aliases": [
+          "판단보류"
+        ]
+      }
+    ],
+    "situations": [
+      {
+        "label": "가벼운놀림",
+        "aliases": []
+      },
+      {
+        "label": "가성비",
+        "aliases": [
+          "가격대비구성"
+        ]
+      },
+      {
+        "label": "갈등지속",
+        "aliases": []
+      },
+      {
+        "label": "갈등해결",
+        "aliases": []
+      },
+      {
+        "label": "결과물공유",
+        "aliases": []
+      },
+      {
+        "label": "과도한낙관",
+        "aliases": []
+      },
+      {
+        "label": "과도한반복",
+        "aliases": []
+      },
+      {
+        "label": "과도한설명",
+        "aliases": []
+      },
+      {
+        "label": "과장된주장",
+        "aliases": []
+      },
+      {
+        "label": "기대와현실차이",
+        "aliases": []
+      },
+      {
+        "label": "기대이상",
+        "aliases": []
+      },
+      {
+        "label": "낙관적상상",
+        "aliases": []
+      },
+      {
+        "label": "논란",
+        "aliases": []
+      },
+      {
+        "label": "드라마감상",
+        "aliases": []
+      },
+      {
+        "label": "뜻밖의소식",
+        "aliases": []
+      },
+      {
+        "label": "말장난",
+        "aliases": []
+      },
+      {
+        "label": "맞장구",
+        "aliases": []
+      },
+      {
+        "label": "맥락공유",
+        "aliases": []
+      },
+      {
+        "label": "명쾌한반박",
+        "aliases": []
+      },
+      {
+        "label": "반복농담",
+        "aliases": []
+      },
+      {
+        "label": "반복발언",
+        "aliases": []
+      },
+      {
+        "label": "반복질문",
+        "aliases": []
+      },
+      {
+        "label": "보유지속",
+        "aliases": []
+      },
+      {
+        "label": "불완전한정보",
+        "aliases": []
+      },
+      {
+        "label": "불필요한세부정보",
+        "aliases": []
+      },
+      {
+        "label": "불확실한결과",
+        "aliases": []
+      },
+      {
+        "label": "사소한목표포기",
+        "aliases": []
+      },
+      {
+        "label": "사실확인후",
+        "aliases": []
+      },
+      {
+        "label": "새물건",
+        "aliases": []
+      },
+      {
+        "label": "설명불통",
+        "aliases": []
+      },
+      {
+        "label": "성과",
+        "aliases": []
+      },
+      {
+        "label": "얄미운농담",
+        "aliases": []
+      },
+      {
+        "label": "어려움견디기",
+        "aliases": []
+      },
+      {
+        "label": "연락",
+        "aliases": []
+      },
+      {
+        "label": "예상밖사실",
+        "aliases": [
+          "뜻밖의사실"
+        ]
+      },
+      {
+        "label": "예상밖실수",
+        "aliases": []
+      },
+      {
+        "label": "위로받고싶음",
+        "aliases": []
+      },
+      {
+        "label": "의견보류",
+        "aliases": []
+      },
+      {
+        "label": "일완료",
+        "aliases": []
+      },
+      {
+        "label": "자문자답",
+        "aliases": []
+      },
+      {
+        "label": "장난말싸움",
+        "aliases": []
+      },
+      {
+        "label": "좋은일기원",
+        "aliases": []
+      },
+      {
+        "label": "진지한말에무응답",
+        "aliases": []
+      },
+      {
+        "label": "투자손실",
+        "aliases": []
+      },
+      {
+        "label": "패배후재도전",
+        "aliases": []
+      },
+      {
+        "label": "평가동의",
+        "aliases": []
+      },
+      {
+        "label": "표면상동의",
+        "aliases": []
+      },
+      {
+        "label": "풍성한구성",
+        "aliases": []
+      },
+      {
+        "label": "헤어짐",
+        "aliases": []
+      },
+      {
+        "label": "호감추측",
+        "aliases": []
+      },
+      {
+        "label": "힘소진",
+        "aliases": []
+      }
+    ],
+    "targets": [
+      {
+        "label": "상대",
+        "aliases": [
+          "대화상대"
+        ]
+      },
+      {
+        "label": "상황",
+        "aliases": []
+      },
+      {
+        "label": "자기",
+        "aliases": [
+          "자신"
+        ]
+      },
+      {
+        "label": "제삼자",
+        "aliases": []
+      }
+    ],
+    "registers": [
+      {
+        "label": "격식있는대화",
+        "aliases": [
+          "공식대화"
+        ]
+      },
+      {
+        "label": "온라인댓글",
+        "aliases": [
+          "댓글"
+        ]
+      },
+      {
+        "label": "친근한대화",
+        "aliases": [
+          "친구대화"
+        ]
+      },
+      {
+        "label": "혼잣말",
+        "aliases": []
+      }
+    ],
+    "risk_flags": [
+      {
+        "label": "갈등오인",
+        "aliases": []
+      },
+      {
+        "label": "고통축소",
+        "aliases": []
+      },
+      {
+        "label": "공개망신",
+        "aliases": []
+      },
+      {
+        "label": "공격미화",
+        "aliases": []
+      },
+      {
+        "label": "공정성보장오인",
+        "aliases": []
+      },
+      {
+        "label": "관계의존",
+        "aliases": []
+      },
+      {
+        "label": "도발",
+        "aliases": []
+      },
+      {
+        "label": "동의오인",
+        "aliases": []
+      },
+      {
+        "label": "무성의하게들림",
+        "aliases": []
+      },
+      {
+        "label": "무시로들림",
+        "aliases": []
+      },
+      {
+        "label": "무조건인내강요",
+        "aliases": []
+      },
+      {
+        "label": "반어",
+        "aliases": []
+      },
+      {
+        "label": "반어오인",
+        "aliases": []
+      },
+      {
+        "label": "법적면책오인",
+        "aliases": []
+      },
+      {
+        "label": "비속어",
+        "aliases": []
+      },
+      {
+        "label": "사실오인",
+        "aliases": []
+      },
+      {
+        "label": "상처가능",
+        "aliases": []
+      },
+      {
+        "label": "신체접촉동의오인",
+        "aliases": []
+      },
+      {
+        "label": "의미불명확",
+        "aliases": []
+      },
+      {
+        "label": "타인비하",
+        "aliases": []
+      },
+      {
+        "label": "투자조언오인",
+        "aliases": []
+      },
+      {
+        "label": "호감확정오인",
+        "aliases": []
+      }
+    ]
+  }
+}

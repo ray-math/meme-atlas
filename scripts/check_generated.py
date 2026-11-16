@@ -11,6 +11,9 @@ def check(root):
     with tempfile.TemporaryDirectory() as directory:
         write_topics(directory, rows)
         expected['collections/topics.md'] = (Path(directory)/'collections/topics.md').read_text()
+    if (root/'data/usage-vocabulary.json').exists():
+        from build_usage_index import render as render_usage
+        expected['data/usage-index.json'] = render_usage(root)
     return [name for name,text in expected.items() if not (root/name).exists() or (root/name).read_text() != text]
 
 if __name__ == '__main__':
