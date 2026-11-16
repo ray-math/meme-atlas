@@ -130,3 +130,11 @@ class PilotTests(unittest.TestCase):
  def test_existing_id_requires_explicit_update(self):
   row=self.update_data();row.pop('operation');self.put([row])
   with self.assertRaisesRegex(ValueError,'existing ID'):p.apply(self.r,self.input,'revision')
+
+ def test_batch_generates_backlinks_and_replays(self):
+  rows=self.data()[:2]
+  rows[0]['markdown']+='\n\n- [테스트1](fixture-1.md) · 관련 표현\n'
+  self.put(rows)
+  p.apply(self.r,self.input,'linked')
+  self.assertIn('[테스트0](fixture-0.md)',(self.r/'memes/fixture-1.md').read_text())
+  self.assertEqual(p.apply(self.r,self.input,'linked')['status'],'unchanged')
