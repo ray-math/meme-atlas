@@ -258,6 +258,24 @@
       "ids": [
         "nyang-parody"
       ]
+    },
+    "korea-list-reviewed-2026-11-16-d": {
+      "input_hash": "ff1a4b9afc874033400aa3999422441c3c0d5554d4395f4add321cf885f6fdd5",
+      "ids": [
+        "any-song-challenge",
+        "want-to-do-nothing",
+        "gaejuki",
+        "gwiyomi-song",
+        "rose-knife-parody",
+        "wow-good",
+        "king-wang-jjang",
+        "king-reasonable-suspicion",
+        "tropicana-dance",
+        "gyaru-peace",
+        "ppap",
+        "coffin-dance",
+        "nabi-bobettau"
+      ]
     }
   },
   "entries": {
@@ -2117,6 +2135,149 @@
       "tags": [
         "AI",
         "인터넷방송"
+      ]
+    },
+    "any-song-challenge": {
+      "title": "아무노래 챌린지",
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "38ed97efc376cb4aa6737f03f02bb1e2fcf3f270cb8144c0ef4c89ff5dc106e0",
+      "scope_type": "korean_origin",
+      "scope_basis": "지코의 국내 노래·안무 영상과 국내 참여 사례 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "want-to-do-nothing": {
+      "title": "아무것도 안하고 싶다",
+      "aliases": [
+        "아무것도 안 하고 싶다"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "d534168d3cfbb06d03c87caecac56fb50250dd918dd343a40f049ea2449b0dce",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 카드 광고의 문구와 온라인 유행을 보도한 본문 확인.",
+      "tags": [
+        "광고"
+      ]
+    },
+    "gaejuki": {
+      "title": "개죽이",
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "5b1999586b29816a0f85212bf204fcd1eb9f2b22b0ddfe93f636887583b60369",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 초기 인터넷에서 개죽이 사진과 패러디가 유행한 맥락 확인.",
+      "tags": []
+    },
+    "gwiyomi-song": {
+      "title": "귀요미송",
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "e5dd4bce751bda5adaf9b9642cc0eed1f3793c8ca8f1ac0d88ef54894da1e515",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 방송의 손동작 놀이와 하리 노래의 연결·참여 사례 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "rose-knife-parody": {
+      "title": "장미칼",
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "11a9e457998ab8204f067eccf838a75aa3585451e27c4a6b2481d3045df166e3",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 홈쇼핑 광고의 국내 영상 합성 사례 확인.",
+      "tags": [
+        "광고"
+      ]
+    },
+    "wow-good": {
+      "title": "우왕ㅋ굳ㅋ",
+      "aliases": [
+        "우왕ㅋ 굳ㅋ"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "22b4b4e9f03538f45cd8e7c74e9359d5f76be43fc15362b39e0a9ee097b12eb9",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 인터넷 만화와 2007년 온라인 사용 보도 확인.",
+      "tags": [
+        "웹툰"
+      ]
+    },
+    "king-wang-jjang": {
+      "title": "킹왕짱",
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "54f921323ffcbe9ccaa49bca4ff195fa4e3231f0b5ae449da3f62a2813b032a3",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 인터넷 말투의 결합형과 당시 사용 기사 확인.",
+      "tags": []
+    },
+    "king-reasonable-suspicion": {
+      "title": "킹리적 갓심",
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "1eb581a0a1afe24575f6917b1197e705b6028b1ff0f5a1672cd29cc495819871",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 합리적 의심의 변형 및 국내 사용 해설 확인.",
+      "tags": []
+    },
+    "tropicana-dance": {
+      "title": "트로피카나 스파클링",
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "789a3ee619a270c04daae23ec346047f867ef12075dff0f2844c22ee7f8d1e28",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 광고의 춤·반복음악과 국내 패러디 보도 확인.",
+      "tags": [
+        "광고",
+        "음악"
+      ]
+    },
+    "gyaru-peace": {
+      "title": "갸루피스",
+      "aliases": [
+        "갸루브이",
+        "레이피스"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "e16205985521f05002c80c8705030e4ac04796ac9ecd047459de6ad09be188a4",
+      "scope_type": "korean_usage",
+      "scope_basis": "연합뉴스의 한국 아이돌과 국내 청소년 포즈 확산 보도로 국내 사용 확인.",
+      "tags": [
+        "연예"
+      ]
+    },
+    "ppap": {
+      "title": "PPAP",
+      "aliases": [
+        "펜 파인애플 애플 펜"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "af70d24c9230c0ae2f806331826c84e718cab8117d54e8476412611fec95b88e",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 가수와 방송의 실제 PPAP 패러디 참여 보도 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "coffin-dance": {
+      "title": "관짝소년단",
+      "aliases": [
+        "관짝밈",
+        "관짝춤"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "9130d03e6a8b0f68cc5d370e3740f804cd67abea87a19a836989170ef0d08ed7",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 커뮤니티 확산과 놀면 뭐하니 실제 편집 사용 보도 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "nabi-bobettau": {
+      "title": "나비보벳따우",
+      "batch": "korea-list-reviewed-2026-11-16-d",
+      "body_hash": "1d3c798c88865c9091e975742d0087afc9171a4ef913054f26285afa36e35985",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "게임 노래 소리의 한국어 표기와 국내 여러 장르 커버 유행 확인.",
+      "tags": [
+        "게임",
+        "음악"
       ]
     }
   }
