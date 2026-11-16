@@ -12,7 +12,7 @@ class DictionaryTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory(); self.addCleanup(self.temp.cleanup)
         self.root=Path(self.temp.name)
-        for name in ['README.md','CONTRIBUTING.md','memes','months','templates','collections']:
+        for name in ['README.md','CONTRIBUTING.md','memes','months','templates','collections','reports','review','scripts','data']:
             src=ROOT/name; dst=self.root/name
             if not src.exists(): continue
             shutil.copytree(src,dst) if src.is_dir() else shutil.copy2(src,dst)
