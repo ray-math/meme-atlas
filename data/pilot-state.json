@@ -212,6 +212,12 @@
         "shake-a-carrot",
         "most-perfect-material"
       ]
+    },
+    "reviewed-chungju-nyang-2026-11-16": {
+      "input_hash": "a2d5bfc965a363968483538e132d064df30b3bf22690f28fc93e98fec3a9eef4",
+      "ids": [
+        "chungju-nyang"
+      ]
     }
   },
   "entries": {
@@ -1682,6 +1688,17 @@
       "scope_basis": "한국 광고의 문구를 국내 다른 광고와 일상 대상으로 패러디한 표현.",
       "tags": [
         "광고"
+      ]
+    },
+    "chungju-nyang": {
+      "title": "충주냥이",
+      "batch": "reviewed-chungju-nyang-2026-11-16",
+      "body_hash": "e48b8e681431d91696b9c80f80791bf1f5d49a722d29b67af0179888e264aadd",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 크리에이터가 한국어 별명과 공개 문제풀이 형식으로 표현한 패러디.",
+      "tags": [
+        "AI",
+        "인터넷방송"
       ]
     }
   }

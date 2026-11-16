@@ -132,6 +132,7 @@
 - [줴줴이야](jwejweiya.md)
 - [지금까지 이런 맛은 없었다](never-this-taste.md)
 - [체포하겠어](under-arrest.md)
+- [충주냥이](chungju-nyang.md)
 - [취존](chwijon.md)
 - [측면 대 측면](side-to-side.md)
 - [친구 아이가](chingu-aiga.md)

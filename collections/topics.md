@@ -6,6 +6,7 @@
 
 - [54000개](../memes/54000.md)
 - [딸깍](../memes/click.md)
+- [충주냥이](../memes/chungju-nyang.md)
 - [혐대고기](../memes/hyumdae-meat.md)
 
 ## 게임
@@ -213,6 +214,7 @@
 - [좋~다](../memes/jo-ta.md)
 - [좋댓구알](../memes/jotdaet-gual.md)
 - [줴줴이야](../memes/jwejweiya.md)
+- [충주냥이](../memes/chungju-nyang.md)
 - [킹받네](../memes/kingbatne.md)
 - [폼 미쳤다](../memes/form-michyeotda.md)
 

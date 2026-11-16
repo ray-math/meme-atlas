@@ -133,3 +133,4 @@
 - [내가 바퀴벌레가 되면 어떡할 거야?](../memes/if-i-become-cockroach.md)
 - [당근을 흔들어주세요](../memes/shake-a-carrot.md)
 - [단언컨대 ~는 가장 완벽한 물질입니다](../memes/most-perfect-material.md)
+- [충주냥이](../memes/chungju-nyang.md)
