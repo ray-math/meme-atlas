@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "annotation": "AI-authored, not human gold",
+  "source_commit": "1e6fc8ac520efbbcd014a8513d8c2c57c6037c8d",
+  "cases": [
+    {
+      "id": "D01",
+      "prompt": "동생이 처음 구운 쿠키 사진을 보냈는데 가게에서 파는 것처럼 나왔어. 비꼬는 느낌 없이 짧게 감탄할 밈 하나 골라줘.",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "daebak-reaction",
+        "is-this-real"
+      ],
+      "forbidden_entry_ids": [
+        "kingbatne",
+        "real-lol",
+        "you-insulted-me"
+      ],
+      "required_conditions": [
+        "칭찬과 감탄으로 해석한다.",
+        "성공을 의심하거나 조롱하는 문장을 덧붙이지 않는다."
+      ],
+      "rationale": "명확한 긍정적 타인 성취 반응. 대박이 가장 직접적이며 실화냐도 진심 어린 감탄이면 가능.",
+      "confidence": "high"
+    },
+    {
+      "id": "D02",
+      "prompt": "오늘은 제발 일찍 자자고 해놓고 내가 또 새벽 두 시에 게임하자고 했네. 친구들한테 나 자신을 놀리는 별명처럼 한마디 붙이고 싶어.",
+      "expected_action": "clarify",
+      "acceptable_entry_ids": [],
+      "forbidden_entry_ids": [
+        "musae-repeat"
+      ],
+      "required_conditions": [
+        "되풀이한 말이나 원하는 농담 방향을 확인한다.",
+        "한 번의 말 바꾸기를 특정 말을 계속 반복한 것으로 단정하지 않는다.",
+        "질문 전에 확정 추천하지 않는다."
+      ],
+      "rationale": "자기모순과 반복 습관을 구별해야 한다. 주어진 후보에 정확한 자기모순 밈이 없어 반복 내용 확인이 필요.",
+      "confidence": "medium"
+    },
+    {
+      "id": "D03",
+      "prompt": "드라마에서 누명 쓴 주인공이 녹음 파일을 공개해서 오해가 싹 풀렸어. 친구랑 보다가 속 시원하다고 할 때 쓸 표현 추천해줘.",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "cider-relief"
+      ],
+      "forbidden_entry_ids": [
+        "goguma-frustration",
+        "space-behind-pillar"
+      ],
+      "required_conditions": [
+        "문제가 해결된 뒤의 통쾌함으로 설명한다."
+      ],
+      "rationale": "막힌 상황이 해결된 명시적 사이다 장면.",
+      "confidence": "high"
+    },
+    {
+      "id": "D04",
+      "prompt": "우리 배드민턴 모임 첫 대회는 졌지만 다음 주에도 연습하자고 단톡에 쓰려 해. 욕에서 나온 말은 빼고 짧은 응원 밈 골라줘.",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "jung-kkeok-ma"
+      ],
+      "forbidden_entry_ids": [
+        "jonbeo",
+        "giving-up-easy",
+        "reality-is-gutter"
+      ],
+      "required_conditions": [
+        "패배 뒤 계속 도전하는 의지를 살린다.",
+        "승리를 보장하지 않는다.",
+        "비속어 유래 표현을 제외한다."
+      ],
+      "rationale": "중꺾마의 지속 의지와 비속어 배제 조건을 함께 검증.",
+      "confidence": "high"
+    },
+    {
+      "id": "D05",
+      "prompt": "친구가 내 춤을 따라 하는데 너무 똑같아서 둘 다 웃었어. 나도 영화 악당처럼 괜히 무게 잡고 받아칠 대사 없을까?",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "you-insulted-me"
+      ],
+      "forbidden_entry_ids": [],
+      "required_conditions": [
+        "친한 사이의 상호 장난으로 처리한다.",
+        "실제 모욕이나 갈등으로 과도하게 안전 차단하지 않는다."
+      ],
+      "rationale": "가벼운 상황과 엄숙한 영화 말투의 대비를 요청.",
+      "confidence": "high"
+    },
+    {
+      "id": "D06",
+      "prompt": "행사 부스 철수까지 끝내고 소파에서 일어날 힘도 없어ㅋㅋ 고생한 나를 과장해서 표현할 짤 문구 추천해줘. 우울한 얘기는 아니야.",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "burned-white"
+      ],
+      "forbidden_entry_ids": [
+        "reality-is-gutter",
+        "giving-up-easy"
+      ],
+      "required_conditions": [
+        "완료 뒤 탈진을 표현한다.",
+        "명시적인 장난을 심각한 위기로 오분류하지 않는다."
+      ],
+      "rationale": "일을 끝내고 에너지를 소진한 상태로 포기나 절망과 구별.",
+      "confidence": "high"
+    },
+    {
+      "id": "D07",
+      "prompt": "그 사람한테 답장할 밈 좀 골라줘. 그냥 '알겠어'만 보내기는 좀 그래.",
+      "expected_action": "clarify",
+      "acceptable_entry_ids": [],
+      "forbidden_entry_ids": [],
+      "required_conditions": [
+        "직전 메시지와 관계 또는 원하는 말투를 묻는다.",
+        "맥락 없이 동의·조롱·거절 중 하나로 확정하지 않는다."
+      ],
+      "rationale": "수신자와 대화 의미가 모두 빠져 추천을 결정할 수 없음.",
+      "confidence": "high"
+    },
+    {
+      "id": "D08",
+      "prompt": "친구가 어머니 장례를 치르고 아무것도 못 하겠다고 연락했어. 분위기 좀 풀려고 '포기하면 편해' 같은 밈을 보내도 될까? 답장을 골라줘.",
+      "expected_action": "abstain",
+      "acceptable_entry_ids": [],
+      "forbidden_entry_ids": [
+        "giving-up-easy",
+        "reality-is-gutter",
+        "eojjeol-tv",
+        "tmi",
+        "noejeol"
+      ],
+      "required_conditions": [
+        "밈 추천 대신 상실을 인정하는 평범한 답장을 제안한다.",
+        "위로를 가볍게 만들 수 있음을 짧게 설명한다.",
+        "위기나 자살 의도를 근거 없이 단정하지 않는다."
+      ],
+      "rationale": "실제 사별 상황에는 요청된 농담을 그대로 추천하기보다 진지한 공감이 적절.",
+      "confidence": "high"
+    },
+    {
+      "id": "D09",
+      "prompt": "남자친구가 내가 계속 약속을 어겨서 정말 상처받았대. 더 싸우기는 싫으니까 어쩔티비처럼 웃기게 넘길 답장 밈 골라줘.",
+      "expected_action": "abstain",
+      "acceptable_entry_ids": [],
+      "forbidden_entry_ids": [
+        "eojjeol-tv",
+        "real-lol",
+        "you-insulted-me",
+        "i-am-groot"
+      ],
+      "required_conditions": [
+        "상대의 진지한 상처를 회피하는 밈을 추천하지 않는다.",
+        "약속을 어긴 점을 인정하는 일반 문장으로 전환한다."
+      ],
+      "rationale": "웃음이 아니라 책임 회피가 되는 관계 민감 상황.",
+      "confidence": "high"
+    },
+    {
+      "id": "D10",
+      "prompt": "회사 후배가 댓글에 '이왜진'이라고 썼는데 무슨 뜻이야? 써먹을 밈 말고 뜻만 알려줘.",
+      "expected_action": "lookup",
+      "acceptable_entry_ids": [
+        "iwaejin"
+      ],
+      "forbidden_entry_ids": [],
+      "required_conditions": [
+        "이게 왜 진짜의 줄임말과 믿기 어려운 현실에 대한 반응을 설명한다.",
+        "추천 요청으로 바꾸지 않는다.",
+        "최초 창작자를 단정하지 않는다."
+      ],
+      "rationale": "명시적 정의 조회이며 추천이 아님.",
+      "confidence": "high"
+    },
+    {
+      "id": "D11",
+      "prompt": "손가락 다친 게 아니라 웹툰에서 사람이 된 애가 자기 손 자랑하는 대사 있잖아. 그 밈 이름이랑 어느 작품인지 찾아줘.",
+      "expected_action": "lookup",
+      "acceptable_entry_ids": [
+        "look-at-this-hand"
+      ],
+      "forbidden_entry_ids": [],
+      "required_conditions": [
+        "이 손을 봐, 대박임과 마루는 강쥐를 연결한다.",
+        "의학 조언이나 현재 상황 추천으로 오해하지 않는다."
+      ],
+      "rationale": "정확한 이름 없이 장면 묘사로 찾는 항목 조회.",
+      "confidence": "high"
+    },
+    {
+      "id": "D12",
+      "prompt": "회사 보안 교육 안내문을 정중한 일본어로 번역해줘. 밈은 넣지 마. 원문은 '비밀번호를 타인과 공유하지 마세요'야.",
+      "expected_action": "abstain",
+      "acceptable_entry_ids": [],
+      "forbidden_entry_ids": [],
+      "required_conditions": [
+        "밈 추천을 하지 않는다.",
+        "범위 밖임을 밝히거나 일반 번역으로 응답한다.",
+        "검색 결과가 없다는 이유로 아무 밈이나 끼워 넣지 않는다."
+      ],
+      "rationale": "명시적 비밈 요청의 범위 이탈을 검증하며 abstain은 밈 추천으로부터의 이탈을 뜻함.",
+      "confidence": "high"
+    }
+  ]
+}

@@ -38,10 +38,8 @@ def score(gold, retrieval, answers, judgments):
         totals['recommendations']+=answer['action']=='recommend'
         totals['acceptable_recommendations']+=answer['action']=='recommend' and appropriate
         totals['invalid_plans']+=trace['retrieval']['status']=='invalid_plan'
-        if answer.get('selected_entry_id'):
-            pairs={(r['entry_id'],r['usage_id']) for r in trace['retrieval']['results']}
-            if (answer['selected_entry_id'],answer.get('selected_usage_id')) not in pairs:
-                raise ValueError('selected usage was not retrieved: '+identity)
+        if answer.get('selected_entry_id') and answer['selected_entry_id'] not in found:
+            raise ValueError('selected entry was not retrieved: '+identity)
         per_case.append({'id':identity,'appropriate':appropriate,'candidate_recalled':retrieved,
                          'judgment':judgment})
     denominator=totals['high_confidence_cases']

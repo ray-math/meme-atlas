@@ -24,7 +24,7 @@ def blob_sha(path):
 
 def load_vocabulary(root=ROOT):
     value = json.loads((Path(root)/'data/usage-vocabulary.json').read_text(encoding='utf-8'))
-    if type(value.get('schema_version')) is not int or value.get('schema_version') != 1 or set(value.get('facets', {})) != set(FACETS):
+    if not isinstance(value, dict) or not isinstance(value.get('facets'), dict) or type(value.get('schema_version')) is not int or value.get('schema_version') != 1 or set(value.get('facets', {})) != set(FACETS):
         raise ValueError('invalid usage vocabulary version/facets')
     definitions = value.get('facet_definitions')
     if definitions is not None and (not isinstance(definitions, dict) or set(definitions) != set(FACETS)
