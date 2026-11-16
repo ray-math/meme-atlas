@@ -88,7 +88,14 @@ if __name__ == '__main__':
     p.add_argument('--mode', choices=('recommend', 'lookup'), default='recommend')
     p.add_argument('--limit', type=int, default=10)
     p.add_argument('--root', type=Path, default=ROOT)
+    p.add_argument('--describe-facets', action='store_true', help='print vocabulary labels and definitions, without searching')
     args = p.parse_args()
+    if args.describe_facets:
+        try:
+            print(json.dumps(load_vocabulary(args.root), ensure_ascii=False, indent=2))
+        except (ValueError, OSError) as exc:
+            p.exit(2, str(exc)+'\n')
+        raise SystemExit(0)
     try:
         index = json.loads((args.root/'data/usage-index.json').read_text(encoding='utf-8'))
         from build_usage_index import build_usage_index

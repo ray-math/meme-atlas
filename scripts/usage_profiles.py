@@ -24,18 +24,24 @@ def blob_sha(path):
 
 def load_vocabulary(root=ROOT):
     value = json.loads((Path(root)/'data/usage-vocabulary.json').read_text(encoding='utf-8'))
-    if value.get('schema_version') != 1 or set(value.get('facets', {})) != set(FACETS):
+    if not isinstance(value, dict) or not isinstance(value.get('facets'), dict) or type(value.get('schema_version')) is not int or value.get('schema_version') != 1 or set(value.get('facets', {})) != set(FACETS):
         raise ValueError('invalid usage vocabulary version/facets')
+    definitions = value.get('facet_definitions')
+    if definitions is not None and (not isinstance(definitions, dict) or set(definitions) != set(FACETS)
+                                    or not all(nonempty(v) for v in definitions.values())):
+        raise ValueError('invalid facet definitions')
     for facet, concepts in value['facets'].items():
         if not isinstance(concepts, list):
             raise ValueError('vocabulary concepts must be a list')
         labels = set()
         for concept in concepts:
-            if not isinstance(concept, dict) or set(concept) != {'label', 'aliases'} or not nonempty(concept.get('label')) or not strings(concept.get('aliases')):
+            if not isinstance(concept, dict) or not {'label', 'aliases'}.issubset(concept) or set(concept) - {'label', 'aliases', 'definition'} or not nonempty(concept.get('label')) or not strings(concept.get('aliases')):
                 raise ValueError('invalid vocabulary concept: ' + facet)
+            if 'definition' in concept and not nonempty(concept['definition']):
+                raise ValueError('invalid concept definition: ' + facet)
             for label in [concept['label'], *concept['aliases']]:
                 normalized = re.sub(r'[^\w]+', '', unicodedata.normalize('NFKC', label).casefold())
-                if normalized in labels:
+                if not normalized or normalized in labels:
                     raise ValueError('ambiguous vocabulary label: ' + label)
                 labels.add(normalized)
     return value
