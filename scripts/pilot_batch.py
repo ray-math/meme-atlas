@@ -1,4 +1,4 @@
-"""Small-batch importer. Evidence inputs stay outside the public repository.
+"""Reviewed batch importer with explicit, hash-guarded updates. Evidence inputs stay outside the public repository.
 Structural/replay checks do not certify factual truth.
 """
 import argparse, hashlib, json, re, unicodedata, shutil, tempfile, os
@@ -12,10 +12,15 @@ def key(value):
 
 def digest(s): return hashlib.sha256(s.encode()).hexdigest()
 
-def _apply(root, input_path, batch):
+DEFAULT_MAX_ENTRIES = 100
+
+def _apply(root, input_path, batch, max_entries=DEFAULT_MAX_ENTRIES):
     root = Path(root)
     rows = json.loads(Path(input_path).read_text())
-    if not 1 <= len(rows) <= 10: raise ValueError('pilot batch must contain 1 to 10 entries')
+    if not isinstance(rows, list) or not rows:
+        raise ValueError('batch must contain at least 1 entry')
+    if max_entries < 1 or len(rows) > max_entries:
+        raise ValueError(f'batch exceeds maximum of {max_entries} entries')
     ledger_path = root/'data/pilot-state.json'
     ledger = json.loads(ledger_path.read_text()) if ledger_path.exists() else {'version':1,'batches':{},'entries':{}}
     payload = digest(json.dumps(rows,ensure_ascii=False,sort_keys=True))
@@ -34,13 +39,33 @@ def _apply(root, input_path, batch):
             text=p.read_text();known[key(title(text))]=p.stem
             for alias in read_metadata(text).get('aliases',[]):known[key(alias)]=p.stem
     for slug, item in ledger['entries'].items():
-        known[key(item['title'])]=item.get('superseded_by',slug)
-        for alias in item.get('aliases',[]): known[key(alias)]=item.get('superseded_by',slug)
+        # Reserve retired names; active metadata comes only from the entry.
+        if not item.get('superseded_by'): continue
+        known[key(item['title'])]=item['superseded_by']
+        for alias in item.get('aliases',[]): known[key(alias)]=item['superseded_by']
     planned=[]
+    seen_ids=set()
+    added=updated=0
     for row in rows:
         slug=row['slug']; name=row['title']; body=row['markdown'].strip()
         if not re.fullmatch('[a-z0-9]+(?:-[a-z0-9]+)*',slug): raise ValueError('unsafe slug')
-        if slug in ledger['entries'] or (root/'memes'/f'{slug}.md').exists(): raise ValueError('existing ID')
+        if slug in seen_ids: raise ValueError('duplicate ID in batch')
+        seen_ids.add(slug)
+        operation=row.get('operation','create')
+        if operation not in {'create','update'}: raise ValueError('unknown operation')
+        entry_path=root/'memes'/f'{slug}.md'
+        if ledger['entries'].get(slug,{}).get('superseded_by'):
+            raise ValueError('existing ID is retired')
+        if operation=='create':
+            if slug in ledger['entries'] or entry_path.exists(): raise ValueError('existing ID')
+            added+=1
+        else:
+            if not entry_path.exists(): raise ValueError('update target does not exist')
+            current=entry_path.read_text()
+            if not row.get('expected_body_hash') or row['expected_body_hash']!=digest(current):
+                raise ValueError('published entry changed; refuse overwrite')
+            if name!=title(current): raise ValueError('rename requires linked-entry review')
+            updated+=1
         if title(body)!=name: raise ValueError('title mismatch')
         if len({x['url'] for x in row['evidence']}) < 2: raise ValueError('two reviewed evidence URLs required')
         if not row.get('reviewed'): raise ValueError('human/editorial review gate missing')
@@ -53,7 +78,8 @@ def _apply(root, input_path, batch):
             known[normalized]=slug
         if re.search(r'https?://',body): raise ValueError('public entry contains evidence URL')
         body=render(row.get('tags',[]),row.get('aliases',[]))+body
-        body+='\n\n[시험 수록 목록](../collections/pilot-30.md)\n'
+        if '../collections/pilot-30.md' not in body:
+            body+='\n\n[기본 수록 목록](../collections/pilot-30.md)\n'
         planned.append((row,body))
     # Staging validation happens before caller's atomic Git tree/commit publication.
     for row,body in planned:
@@ -67,7 +93,7 @@ def _apply(root, input_path, batch):
     all_entries=sorted((title(p.read_text()),p.name) for p in (root/'memes').glob('*.md') if p.name!='README.md')
     index+='\n'.join(f'- [{n}]({f})' for n,f in all_entries)+'\n\n[사전 소개](../README.md) · [월별 목록](../months/README.md)\n'
     (root/'memes/README.md').write_text(index)
-    collection='# 확장 시험 수록\n\n최근 유행 순위나 관찰 월이 아니라, 사전 확장 절차를 검증하기 위해 고른 한국에서 생성되었거나 독자적인 한국식 변형이 확인된 표본입니다. 해외 밈의 단순 국내 유행은 포함하지 않습니다.\n\n'
+    collection='# 기본 수록 목록\n\n관찰 월이나 최신 유행 순위를 뜻하지 않는 기본 수록 항목입니다. 한국에서 생성되었거나 독자적인 한국식 변형이 확인된 밈을 다룹니다.\n\n'
     collection+='\n'.join(f'- [{v["title"]}](../memes/{k}.md)' for k,v in ledger['entries'].items() if not v.get('superseded_by'))+'\n'
     (root/'collections/pilot-30.md').write_text(collection)
     search_rows=build(root)
@@ -75,17 +101,28 @@ def _apply(root, input_path, batch):
     write_topics(root,search_rows)
     errors=check(root)
     if errors: raise ValueError('\n'.join(errors))
-    return {'status':'applied','batch':batch,'added':len(rows),'total_pilot':len(ledger['entries'])}
+    return {'status':'applied','batch':batch,'added':added,'updated':updated,'total_pilot':len(ledger['entries'])}
 
-def apply(root, input_path, batch):
+def apply(root, input_path, batch, max_entries=DEFAULT_MAX_ENTRIES):
     root=Path(root).resolve()
     with tempfile.TemporaryDirectory() as directory:
         stage=Path(directory)/'stage'
-        shutil.copytree(root,stage,ignore=shutil.ignore_patterns('.git','__pycache__'))
-        result=_apply(stage,input_path,batch)
+        shutil.copytree(root,stage,ignore=shutil.ignore_patterns('.git','__pycache__','.venv','node_modules','.pytest_cache'))
+        before={p.relative_to(stage):hashlib.sha256(p.read_bytes()).hexdigest() for p in stage.rglob('*') if p.is_file()}
+        result=_apply(stage,input_path,batch,max_entries=max_entries)
         if result['status']=='unchanged': return result
         # Validate a whole batch before touching the working copy; ledger written last.
         files=[p for p in stage.rglob('*') if p.is_file()]
+        # Refuse concurrent edits before publishing any file, including entries
+        # not in this batch: index generation depends on the full snapshot.
+        for relative, expected in before.items():
+            target=root/relative
+            if not target.is_file() or hashlib.sha256(target.read_bytes()).hexdigest()!=expected:
+                raise ValueError('working copy changed during validation; retry from latest')
+        for p in files:
+            relative=p.relative_to(stage)
+            if relative not in before and (root/relative).exists():
+                raise ValueError('working copy changed during validation; new file collision')
         files.sort(key=lambda p: p.relative_to(stage).as_posix()=='data/pilot-state.json')
         for p in files:
             dest=root/p.relative_to(stage)
@@ -96,5 +133,5 @@ def apply(root, input_path, batch):
         return result
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('input');p.add_argument('--batch',required=True);p.add_argument('--root',default=str(Path(__file__).resolve().parents[1]));a=p.parse_args()
-    print(json.dumps(apply(a.root,a.input,a.batch),ensure_ascii=False))
+    p=argparse.ArgumentParser();p.add_argument('input');p.add_argument('--batch',required=True);p.add_argument('--root',default=str(Path(__file__).resolve().parents[1]));p.add_argument('--max-entries',type=int,default=DEFAULT_MAX_ENTRIES);a=p.parse_args()
+    print(json.dumps(apply(a.root,a.input,a.batch,max_entries=a.max_entries),ensure_ascii=False))
