@@ -69,6 +69,7 @@
 - [~무새](../memes/musae-repeat.md)
 - [~밍아웃](../memes/ming-out.md)
 - [~삐](../memes/ppi.md)
+- [ㄹㅇㅋㅋ](../memes/real-lol.md)
 - [가즈아](../memes/gazua.md)
 - [갑분싸](../memes/gapbunssa.md)
 - [갑차기스러운데](../memes/gapchagiseureounde.md)
@@ -107,6 +108,7 @@
 - [만반잘부](../memes/manbanjalbu.md)
 - [많관부](../memes/mangwanbu.md)
 - [몸짱](../memes/momjjang.md)
+- [문과 vs 이과](../memes/humanities-vs-science.md)
 - [문송합니다](../memes/sorry-humanities.md)
 - [문찐](../memes/munjjin.md)
 - [뭥미](../memes/mwongmi.md)
@@ -121,6 +123,7 @@
 - [빼박캔트](../memes/ppaebak-cant.md)
 - [뽀짝](../memes/ppojjak.md)
 - [사이다](../memes/cider-relief.md)
+- [성지순례](../memes/internet-pilgrimage.md)
 - [소울리스좌](../memes/soulless-guide.md)
 - [수저계급론](../memes/spoon-class.md)
 - [숨긴다고 숨겨지는 것도 아니고](../memes/cannot-hide.md)
@@ -145,12 +148,15 @@
 - [이거 실화냐](../memes/is-this-real.md)
 - [이건 못 참지](../memes/cannot-resist.md)
 - [이불킥](../memes/blanket-kick.md)
+- [인간의 욕심은 끝이 없고 같은 실수를 반복한다](../memes/greed-repeats.md)
 - [인싸·아싸](../memes/insider-outsider.md)
 - [인정](../memes/injeong.md)
 - [인증샷](../memes/proof-photo.md)
 - [읽지 않음 난 모르는 일](../memes/unread-none-of-my-business.md)
 - [있었는데요 없었습니다](../memes/it-was-gone.md)
 - [잉여](../memes/ingyeo.md)
+- [중2병](../memes/chuunibyou.md)
+- [중립기어](../memes/neutral-gear.md)
 - [즐](../memes/jeul.md)
 - [지못미](../memes/jimotmi.md)
 - [쩔다](../memes/jjeolda.md)
@@ -166,6 +172,7 @@
 - [해피 캣](../memes/happy-cat.md)
 - [행복회로](../memes/happy-circuit.md)
 - [헐](../memes/heol.md)
+- [형이다(싱하형)](../memes/hyung-ida.md)
 
 ## 방송
 
@@ -185,6 +192,7 @@
 - [내 아를 낳아도](../memes/nae-areul.md)
 - [누가 기침 소리를 내었는가](../memes/who-coughed.md)
 - [느낌 아니까](../memes/neukkim-anikka.md)
+- [두 번 죽이는 거](../memes/hurt-twice.md)
 - [레드썬](../memes/red-sun-hypnosis.md)
 - [맑은 눈의 광인](../memes/clear-eyed-eccentric.md)
 - [머선129](../memes/museon129.md)
@@ -230,7 +238,9 @@
 - [돈쭐](../memes/donjjul.md)
 - [등골 브레이커](../memes/back-breaker.md)
 - [손민수](../memes/sonminsu.md)
+- [어머 저건 사야해](../memes/must-buy-that.md)
 - [전여친 감자칼](../memes/ex-girlfriend-peeler.md)
+- [플렉스](../memes/flex.md)
 - [혜자](../memes/hyeja.md)
 
 ## 스포츠
@@ -248,6 +258,7 @@
 - [니코니코니](../memes/nico-nico-ni.md)
 - [도와줘요 스피드웨건](../memes/help-speedwagon.md)
 - [똥 밟았네](../memes/stepped-on-poop.md)
+- [새하얗게 불태워 버렸어](../memes/burned-white.md)
 - [안녕히 계세요 여러분](../memes/goodbye-everyone.md)
 - [정의의 이름으로 널 용서하지 않겠다](../memes/in-name-of-justice.md)
 - [포기하면 편해](../memes/giving-up-easy.md)
@@ -327,6 +338,7 @@
 
 - [Queen never cry](../memes/queen-never-cry.md)
 - [손민수](../memes/sonminsu.md)
+- [어머 저건 사야해](../memes/must-buy-that.md)
 - [우왕ㅋ굳ㅋ](../memes/wow-good.md)
 - [이 손을 봐, 대박임](../memes/look-at-this-hand.md)
 
@@ -335,6 +347,7 @@
 - [깻잎 논쟁](../memes/perilla-leaf-debate.md)
 - [낭낭하다](../memes/nangnang.md)
 - [두바이 딱딱 강정](../memes/dubai-hard-gangjeong.md)
+- [먹방](../memes/mukbang.md)
 - [부먹 vs 찍먹](../memes/pour-or-dip.md)
 - [빼난지원금](../memes/pepero-aid.md)
 - [오디세이](../memes/odyssey.md)
@@ -371,6 +384,7 @@
 - [늙크크](../memes/old-creator-crew.md)
 - [다메다메](../memes/dame-dame.md)
 - [똥 밟았네](../memes/stepped-on-poop.md)
+- [뚫훍송](../memes/tunak-song.md)
 - [라우럴](../memes/raureol.md)
 - [롤린](../memes/rollin-dance.md)
 - [마라탕후루](../memes/malatanghulu.md)
@@ -394,6 +408,7 @@
 - [체포하겠어](../memes/under-arrest.md)
 - [테스형](../memes/tes-brother.md)
 - [트로피카나 스파클링](../memes/tropicana-dance.md)
+- [플렉스](../memes/flex.md)
 - [형이 왜 거기서 나와](../memes/why-are-you-there.md)
 - [혹시 그거 알아 그대 농협은행](../memes/nonghyup-flirting.md)
 - [힙사사돈 챌린지](../memes/hipsasadon.md)
@@ -409,6 +424,7 @@
 - [놀기 신청하러 온 거야?](../memes/applying-to-play.md)
 - [매끈매끈하다 매끈매끈한](../memes/smooth-smooth.md)
 - [머선129](../memes/museon129.md)
+- [먹방](../memes/mukbang.md)
 - [배우 도전 1일차](../memes/acting-day-one.md)
 - [빼난지원금](../memes/pepero-aid.md)
 - [알빠노](../memes/alppano.md)
@@ -431,6 +447,7 @@
 
 ## 투자
 
+- [떡락](../memes/tteokrak.md)
 - [떡상](../memes/tteoksang.md)
 - [존버](../memes/jonbeo.md)
 
