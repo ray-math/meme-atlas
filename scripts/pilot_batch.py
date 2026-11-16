@@ -70,8 +70,8 @@ def _apply(root, input_path, batch, max_entries=DEFAULT_MAX_ENTRIES):
         if title(body)!=name: raise ValueError('title mismatch')
         if len({x['url'] for x in row['evidence']}) < 2: raise ValueError('two reviewed evidence URLs required')
         if not row.get('reviewed'): raise ValueError('human/editorial review gate missing')
-        if row.get('scope_type') not in {'korean_origin','korean_adaptation'} or not row.get('scope_basis','').strip():
-            raise ValueError('Korean origin/adaptation scope review required')
+        if row.get('scope_type') not in {'korean_origin','korean_adaptation','korean_usage'} or not row.get('scope_basis','').strip():
+            raise ValueError('Korean origin/adaptation/usage scope review required')
         for alias in [name]+row.get('aliases',[]):
             normalized=key(alias)
             if not normalized: raise ValueError('empty alias')
@@ -94,7 +94,7 @@ def _apply(root, input_path, batch, max_entries=DEFAULT_MAX_ENTRIES):
     all_entries=sorted((title(p.read_text()),p.name) for p in (root/'memes').glob('*.md') if p.name!='README.md')
     index+='\n'.join(f'- [{n}]({f})' for n,f in all_entries)+'\n\n[사전 소개](../README.md) · [월별 목록](../months/README.md)\n'
     (root/'memes/README.md').write_text(index)
-    collection='# 기본 수록 목록\n\n관찰 월이나 최신 유행 순위를 뜻하지 않는 기본 수록 항목입니다. 한국에서 생성되었거나 독자적인 한국식 변형이 확인된 밈을 다룹니다.\n\n'
+    collection='# 기본 수록 목록\n\n관찰 월이나 최신 유행 순위를 뜻하지 않는 기본 수록 항목입니다. 한국에서 생성·변형되었거나 한국에서 실제 사용이 독립 검증된 개별 밈을 다룹니다.\n\n'
     collection+='\n'.join(f'- [{v["title"]}](../memes/{k}.md)' for k,v in ledger['entries'].items() if not v.get('superseded_by'))+'\n'
     (root/'collections/pilot-30.md').write_text(collection)
     write_navigation(root)
