@@ -254,9 +254,9 @@
       ]
     },
     "reviewed-chungju-nyang-2026-11-16": {
-      "input_hash": "3f96acd82eed0c0fea17c23087b954139c17476437514fc75898152fde5f7251",
+      "input_hash": "9fe7f3f13a7875e21ae934872254d91d565ba19e8ad8c0f02d09e4a8c9c4a6ae",
       "ids": [
-        "chungju-nyang"
+        "nyang-parody"
       ]
     }
   },
@@ -2104,12 +2104,16 @@
       "scope_basis": "한국어 위로 문장을 축약해 국내 온라인에서 사용하는 표현이다.",
       "tags": []
     },
-    "chungju-nyang": {
-      "title": "충주냥이",
+    "nyang-parody": {
+      "title": "○○냥이",
+      "aliases": [
+        "OO냥이",
+        "~냥이"
+      ],
       "batch": "reviewed-chungju-nyang-2026-11-16",
-      "body_hash": "dd920de9bb56a7746e5e3385b612e0820e05a86484806ab647a3732819536d5d",
+      "body_hash": "3791a47fb178d27fe39be5a0aa8d5803c72347ac850a8e96a111ddf876afbf8b",
       "scope_type": "korean_origin",
-      "scope_basis": "국내 크리에이터가 한국어 별명과 공개 문제풀이 형식으로 표현한 패러디.",
+      "scope_basis": "국내 시험 논란의 온라인 닉네임을 한국어 이름 바꾸기와 공개 검증 풍자로 재구성한 용법.",
       "tags": [
         "AI",
         "인터넷방송"

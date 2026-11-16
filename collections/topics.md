@@ -5,8 +5,8 @@
 ## AI
 
 - [54000개](../memes/54000.md)
+- [○○냥이](../memes/nyang-parody.md)
 - [딸깍](../memes/click.md)
-- [충주냥이](../memes/chungju-nyang.md)
 - [혐대고기](../memes/hyumdae-meat.md)
 
 ## 게임
@@ -231,6 +231,7 @@
 
 ## 인터넷방송
 
+- [○○냥이](../memes/nyang-parody.md)
 - [감옥에서 누가 돌아왔게](../memes/who-is-back-from-prison.md)
 - [골반이 멈추지 않아](../memes/pelvis-wont-stop.md)
 - [기도해 드릴게요](../memes/pray-for-you.md)
@@ -252,7 +253,6 @@
 - [좋~다](../memes/jo-ta.md)
 - [좋댓구알](../memes/jotdaet-gual.md)
 - [줴줴이야](../memes/jwejweiya.md)
-- [충주냥이](../memes/chungju-nyang.md)
 - [킹받네](../memes/kingbatne.md)
 - [폼 미쳤다](../memes/form-michyeotda.md)
 
