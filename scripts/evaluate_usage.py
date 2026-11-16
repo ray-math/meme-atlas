@@ -14,6 +14,9 @@ def evaluate(root=ROOT):
         found={h['entry_id']+':'+h['usage_id'] for h in result['results']}
         passed=(result['status']==case['expected_status'] if 'expected_status' in case
                 else bool(found.intersection(case['expected_any'])))
+        if 'expected_exact' in case:
+            passed = passed and found == set(case['expected_exact'])
+        passed = passed and not found.intersection(case.get('expected_absent', []))
         results.append({'id':case['id'],'passed':passed,'status':result['status'],
                         'found':sorted(found)})
     return {'schema_version':1,'evaluation_kind':'editorial_regression_not_independent_accuracy',

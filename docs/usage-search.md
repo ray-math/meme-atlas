@@ -4,7 +4,7 @@
 
 ## 첫 범위와 한계
 
-전체 343개 중 기존 28개에 38개 용법을 주석했다. 신규 밈 등록은 하지 않았다. 10개 용법은 standard, 27개는 caution, 1개는 avoid다. 이는 상황별 편집 판단이며 안전 인증이나 나쁜 밈 목록이 아니다. 수록되지 않은 나머지 항목은 미주석 상태이며 감정이 중립이라는 뜻이 아니다.
+첫 도입 스냅샷의 전체 343개 중 기존 28개에 38개 용법을 주석했다. 신규 밈 등록은 하지 않았다. 10개 용법은 standard, 27개는 caution, 1개는 avoid다. 이는 상황별 편집 판단이며 안전 인증이나 나쁜 밈 목록이 아니다. 수록되지 않은 나머지 항목은 미주석 상태이며 감정이 중립이라는 뜻이 아니다.
 
 28개 본문을 읽은 편집 주석과 일부 독립 재검토를 거쳤다. 두 명의 독립 주석자 전수 평가를 수행한 것은 아니다. 불확실한 감정은 빈 배열로 남겼다. 중립기어의 판단 보류를 중립 감정으로 바꾸지 않는다.
 
@@ -20,11 +20,17 @@
 
 각 profile에는 검토 상태(draft/reviewed), 검토 메모와 usages가 있다. 각 usage는 독립 ID, emotions, intents, situations, targets, registers, risk_flags, safety, context, avoid_when, 편집 예문 및 검토 메모를 가진다.
 
-emotions는 용례가 전달하는 정서, intents는 화용적 쓰임이다. 상황 키워드와 대상·말투를 분리한다. 같은 밈이 자조와 상대 비꼼으로 쓰이면 별도의 usage로 나눈다. 빈 감정 목록은 미판정 또는 명시할 감정 없음이며 자동으로 중립을 넣지 않는다. 이 구분의 세부 사유는 review_note에 적는다.
+emotions는 용례가 전달하는 정서, intents는 화용적 쓰임이다. 상황 키워드와 대상·말투를 분리한다. 같은 밈이 자조와 상대 비꼼으로 쓰이면 별도의 usage로 나눈다. 빈 감정 목록은 감정 라벨을 부여하지 않았다는 뜻이며, 감정이 없다고 확정하거나 자동으로 중립을 넣지 않는다. emotion_status는 annotated(라벨 부여), unknown(미판정), not_applicable(해당 용례에 정서 축을 적용하지 않는다는 명시 검토)을 구별한다. unknown/not_applicable은 빈 배열, annotated는 비어 있지 않은 배열이다. 중립은 검토자가 명시적으로 부여한 라벨일 뿐 unknown의 대체값이 아니다. 현재 파일럿의 빈 목록은 모두 unknown이며 자동으로 not_applicable로 승격하지 않는다. 세부 사유는 review_note에 적는다.
+
+targets는 평가·제지·위로 등 해당 쓰임이 중심적으로 향하는 대상이다. 단순히 말을 듣는 수신자를 나열하지 않는다. 안아줘요의 위로요청은 수혜자인 자기, 행쇼의 응원은 상대다. 현재 구조는 수신자와 수혜자 역할을 각각 완전하게 표현하지 못하므로 복잡한 관계는 context를 읽는다. 필요하면 후속 버전에서 addressee/beneficiary를 분리한다.
 
 예문은 모두 `kind: editorial`인 창작 예시다. 실제 발생한 인용·출처 사례로 재사용하지 않는다. reviewed는 기존 본문과의 편집적 정합성 검토이지 독립 출처 재조사나 사실 인증이 아니다. 숫자 confidence는 제공하지 않는다.
 
 본문이 바뀌면 source_sha 불일치로 검사와 AI용 CLI가 중단된다. 뜻·용법을 다시 읽고 영향받은 주석을 검토한 다음 SHA와 review_note를 갱신한다. 해시만 자동 덮어쓰지 않는다.
+
+### 상황별 safety 편집 기준
+
+standard는 명시한 좁은 문맥에서 보통의 친화적·자기지향적 사용으로 검토한 후보, caution은 반어·친밀관계·오인·비속어 등의 추가 판단이 필요한 후보, avoid는 해당 용례 자체를 실제 답변으로 제안하지 않도록 기록한 항목이다. 이는 도덕적 등급이나 자동 안전 판정이 아니다. 다른 문맥의 같은 밈에 등급을 전파하지 않으며 standard도 avoid_when에 해당하면 사용하지 않는다.
 
 ## 조회와 추천
 
@@ -42,6 +48,7 @@ python scripts/get_entry.py real-lol --usage
 - lookup은 의미 이해를 위한 조회이지 사용 승인이나 권고가 아니다.
 - exclude-risk는 해당 위험 라벨이 있는 용법을 제외한다.
 - 미등록 필터는 unsupported_filter, 빈 요청은 insufficient_query, 해당 용법이 없으면 no_match다. 없는 결과를 만들어내지 않는다.
+- no_match의 reason은 검토된 용례 자체가 안 맞는 no_matching_reviewed_usage와 정책상 제외된 policy_filtered를 구분한다. safety_filtered_count/risk_filtered_count는 조건·어휘가 맞았으나 제외된 건수다. 결과가 없다고 제한을 자동 완화하지 않는다.
 - 선택적 위치 인수 query는 긍정 어휘 보조 검색이다. 자연어의 부정·조건·관계를 이해하지 않는다. 일부 어휘 일치로만 순위를 정한다. 부정 조건인 avoid_when이나 위험 메모는 긍정 검색 텍스트에서 제외한다.
 - 감정의 intensity나 sentiment를 임의로 추정하지 않으며 사용 빈도·인기순을 주장하지 않는다.
 
@@ -65,7 +72,7 @@ python scripts/evaluate_usage.py
 python -m unittest discover -s tests -v
 ```
 
-34개 파일럿 회귀 질의는 26개 관련 용법 조회와 8개 경계·거부 조건을 포함한다. fixture의 prompt는 사람이 해석한 요청의 설명이며 파서에 넣는 자연문장이 아니다. 실제 호출은 filters를 사용한다. 주석과 함께 만든 진단이므로 독립 평가나 추천 정확도 수치로 발표하지 않는다. 미지의 질의·분리된 검토자 평가와 실제 사용자 오검색을 모은 후 어휘를 조정한다.
+34개 파일럿 회귀 질의는 26개 관련 용법 조회와 8개 경계·거부 조건을 포함한다. fixture의 prompt는 사람이 해석한 요청의 설명이며 파서에 넣는 자연문장이 아니다. 실제 호출은 filters를 사용한다. 일부 질의는 정확한 결과 집합(expected_exact)과 제외할 용례(expected_absent)도 검사한다. 나머지 expected_any 통과는 관련 용례가 하나 이상 포함됐다는 뜻이지 전체 결과의 정밀도 증거가 아니다. 주석과 함께 만든 진단이므로 독립 평가나 추천 정확도 수치로 발표하지 않는다. 미지의 질의·분리된 검토자 평가와 실제 사용자 오검색을 모은 후 어휘를 조정한다.
 
 기존 title/alias/분야 CLI와 생성물은 호환 유지한다. batch importer는 새 usage 색인도 갱신하며, 주석된 본문이 변경되면 원자적 staging 단계에서 재검토를 요구한다. 343개 일괄 자동태깅이나 신규 수록 자동 승격은 하지 않는다.
 
@@ -76,7 +83,7 @@ python -m unittest discover -s tests -v
 - [GoEmotions, ACL 2020](https://aclanthology.org/2020.acl-main.372/): 영어 Reddit의 세분·복수 감정 주석을 참고한다. 영어권 분류를 한국 밈에 그대로 이식하지 않았다.
 - [KOTE, LREC-COLING 2024](https://aclanthology.org/2024.lrec-main.1499/): 한국어 감정 어휘와 도메인·편향의 한계를 참고한다.
 - [DailyDialog, IJCNLP 2017](https://aclanthology.org/I17-1099/): 정서와 대화행위를 별도 주석하는 선례다.
-- [Memotion, SemEval 2020](https://aclanthology.org/2020.semeval-1.99/): 유머·풍자·공격성 등 기능과 복수 해석을 참고한다. 이미지 밈 결과를 텍스트 검색 성능으로 전이하지 않는다.
+- [Memotion, SemEval 2020](https://aclanthology.org/2020.semeval-1.99/): 유머·비꼼/반어·공격성 등 기능과 복수 해석을 참고한다. 이미지 밈 결과를 텍스트 검색 성능으로 전이하지 않는다.
 - [Social Bias Frames, ACL 2020](https://aclanthology.org/2020.acl-main.486/): 대상·함축·공격성을 맥락과 함께 다루는 관점만 적용한다. 숨은 의도를 확정하지 않는다.
 - [Out-of-Scope Intent Evaluation, EMNLP 2019](https://aclanthology.org/D19-1131/): 지원하지 않는 요청에 답을 강제하지 않는 평가 원칙을 참고한다.
 - [W3C SKOS Reference](https://www.w3.org/TR/skos-reference/): 대표 개념과 대체 표기의 분리 원칙을 참고한다. 이 JSON을 RDF/SKOS 준수 구현이라 주장하지 않는다.

@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 FACETS = ('emotions', 'intents', 'situations', 'targets', 'registers', 'risk_flags')
 PROFILE_KEYS = {'entry_id', 'source_sha', 'review_status', 'review_note', 'usages'}
-USAGE_KEYS = {'id', *FACETS, 'safety', 'context', 'avoid_when', 'example', 'review_note'}
+USAGE_KEYS = {'id', *FACETS, 'emotion_status', 'safety', 'context', 'avoid_when', 'example', 'review_note'}
 SAFETY = {'standard', 'caution', 'avoid'}
 SLUG = re.compile(r'[a-z0-9]+(?:-[a-z0-9]+)*')
 
@@ -79,6 +79,11 @@ def validate(data, vocabulary, root=ROOT, check_sources=True):
             for facet in FACETS:
                 if not strings(usage[facet]) or set(usage[facet]) - allowed[facet]:
                     raise ValueError('unknown/invalid usage facet: ' + facet)
+            status = usage['emotion_status']
+            if status not in ('annotated', 'unknown', 'not_applicable'):
+                raise ValueError('invalid emotion status')
+            if (status == 'annotated') != bool(usage['emotions']):
+                raise ValueError('emotion status and labels disagree')
             if usage['safety'] not in ('standard', 'caution', 'avoid'):
                 raise ValueError('invalid usage safety')
             if not nonempty(usage['context']) or not nonempty(usage['review_note']) or not strings(usage['avoid_when']):

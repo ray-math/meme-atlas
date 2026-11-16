@@ -35,7 +35,8 @@
         "context",
         "avoid_when",
         "example",
-        "review_note"
+        "review_note",
+        "emotion_status"
       ],
       "properties": {
         "id": {
@@ -139,8 +140,40 @@
           "type": "string",
           "minLength": 1,
           "pattern": "\\S"
+        },
+        "emotion_status": {
+          "enum": [
+            "annotated",
+            "unknown",
+            "not_applicable"
+          ]
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "emotion_status": {
+                "const": "annotated"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "emotions": {
+                "minItems": 1
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "emotions": {
+                "maxItems": 0
+              }
+            }
+          }
+        }
+      ]
     },
     "profile": {
       "type": "object",

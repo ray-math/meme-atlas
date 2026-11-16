@@ -88,6 +88,13 @@
       },
       "expected_any": [
         "cider-relief:satisfying-resolution"
+      ],
+      "expected_exact": [
+        "cider-relief:satisfying-resolution"
+      ],
+      "expected_absent": [
+        "eojjeol-tv:playful-retort",
+        "eojjeol-tv:dismiss-serious"
       ]
     },
     {
@@ -117,6 +124,9 @@
       },
       "expected_any": [
         "injeong:agreement"
+      ],
+      "expected_exact": [
+        "injeong:agreement"
       ]
     },
     {
@@ -132,6 +142,9 @@
         "mode": "lookup"
       },
       "expected_any": [
+        "real-lol:ironic-agreement"
+      ],
+      "expected_exact": [
         "real-lol:ironic-agreement"
       ]
     },
@@ -194,6 +207,9 @@
       },
       "expected_any": [
         "i-am-groot:withhold-opinion"
+      ],
+      "expected_exact": [
+        "i-am-groot:withhold-opinion"
       ]
     },
     {
@@ -206,6 +222,9 @@
         "mode": "lookup"
       },
       "expected_any": [
+        "neutral-gear:defer-judgment"
+      ],
+      "expected_exact": [
         "neutral-gear:defer-judgment"
       ]
     },
@@ -233,6 +252,9 @@
       },
       "expected_any": [
         "giving-up-easy:playful-resignation"
+      ],
+      "expected_absent": [
+        "jung-kkeok-ma:self-resolve"
       ]
     },
     {
@@ -248,6 +270,9 @@
         "mode": "lookup"
       },
       "expected_any": [
+        "jung-kkeok-ma:encourage-other"
+      ],
+      "expected_exact": [
         "jung-kkeok-ma:encourage-other"
       ]
     },
@@ -278,6 +303,12 @@
       },
       "expected_any": [
         "hug-me-animal:request-comfort"
+      ],
+      "expected_exact": [
+        "hug-me-animal:request-comfort"
+      ],
+      "expected_absent": [
+        "haengshow:well-wishes"
       ]
     },
     {
@@ -319,6 +350,9 @@
         "mode": "recommend"
       },
       "expected_any": [
+        "hyeja:good-value"
+      ],
+      "expected_exact": [
         "hyeja:good-value"
       ]
     },

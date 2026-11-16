@@ -18,7 +18,7 @@ def vocabulary():
                                            for s in values] for f,values in labels.items()}}
 
 def usage(uid='reaction', **changes):
-    value = {'id':uid,'emotions':['놀람'],'intents':['감탄'],'situations':['뜻밖의사실'],
+    value = {'id':uid,'emotion_status':'annotated','emotions':['놀람'],'intents':['감탄'],'situations':['뜻밖의사실'],
              'targets':['상황'],'registers':['친근한대화'],'risk_flags':[],
              'safety':'standard','context':'뜻밖의 사실을 확인한 반응',
              'avoid_when':['진지한 위로가 필요한 경우'],'example':{'text':'이게 진짜라니!','kind':'editorial'},
@@ -115,6 +115,7 @@ class UsageValidationTests(unittest.TestCase):
         with self.assertRaises(ValueError):self.check(self.data)
     def test_empty_emotion_allowed_without_inference(self):
         self.data['profiles'][0]['usages'][0]['emotions']=[]
+        self.data['profiles'][0]['usages'][0]['emotion_status']='unknown'
         self.check(self.data)
         self.assertEqual(self.data['profiles'][0]['usages'][0]['emotions'],[])
     def test_reviewed_needs_usage(self):
@@ -176,3 +177,34 @@ class UsageValidationTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'source changed'):
                 pilot_batch.apply(root,source,'usage-stale-test')
             self.assertEqual(path.read_text(),before)
+
+    def test_nonlexical_query_abstains_without_filters(self):
+        for query in ['!!!','   ','！？','😀']:
+            self.assertEqual(search(index(),vocabulary(),query)['status'],'insufficient_query')
+        self.assertEqual(search(index(),vocabulary(),'!!!',emotions=['놀람'])['status'],'matches')
+
+    def test_request_comfort_target_is_beneficiary_not_addressee(self):
+        from build_usage_index import build_usage_index
+        data=build_usage_index(ROOT);vocab=load_vocabulary(ROOT)
+        self.assertEqual(search(data,vocab,intents=['위로요청'],targets=['상대'],mode='lookup')['status'],'no_match')
+        self.assertEqual(search(data,vocab,intents=['위로요청'],targets=['자기'],mode='lookup')['status'],'matches')
+
+    def test_policy_filtered_reason_without_policy_relaxation(self):
+        result=search(index(),vocabulary(),intents=['조롱'])
+        self.assertEqual(result['status'],'no_match')
+        self.assertEqual(result['reason'],'policy_filtered')
+        self.assertEqual(result['safety_filtered_count'],1)
+        self.assertEqual(result['results'],[])
+        absent=search(index(),vocabulary(),'없는어휘')
+        self.assertEqual(absent['reason'],'no_matching_reviewed_usage')
+        self.assertEqual(absent['safety_filtered_count'],0)
+
+    def test_emotion_annotation_status_distinguishes_unknown_and_nonemotional(self):
+        u=self.data['profiles'][0]['usages'][0]
+        u['emotions']=[];u['emotion_status']='unknown';self.check(self.data)
+        u['emotion_status']='not_applicable';self.check(self.data)
+        u['emotion_status']='annotated'
+        with self.assertRaises(ValueError):self.check(self.data)
+        u['emotions']=['중립'];self.check(self.data)
+        u['emotion_status']='unknown'
+        with self.assertRaises(ValueError):self.check(self.data)

@@ -32,7 +32,7 @@ def search(index, vocabulary, query='', *, emotions=(), intents=(), situations=(
         raise ValueError('unsupported usage index version')
     envelope = {'schema_version': 1, 'mode': mode, 'coverage': index['coverage'],
                 'interpretation': 'editorial usage candidates; inspect context and avoid_when before speaking',
-                'status': 'no_match', 'results': []}
+                'status': 'no_match', 'results': [], 'safety_filtered_count': 0, 'risk_filtered_count': 0}
     raw = {'emotions': emotions, 'intents': intents, 'situations': situations,
            'targets': targets, 'registers': registers}
     try:
@@ -40,10 +40,10 @@ def search(index, vocabulary, query='', *, emotions=(), intents=(), situations=(
         excluded = canonical(exclude_risks, 'risk_flags', vocabulary)
     except ValueError as exc:
         return dict(envelope, status='unsupported_filter', reason=str(exc))
-    if not query.strip() and not any(filters.values()):
-        return dict(envelope, status='insufficient_query')
     terms = set(norm(t) for t in query.split() if norm(t))
     phrase = norm(query)
+    if not terms and not any(filters.values()):
+        return dict(envelope, status='insufficient_query')
     hits = []
     for entry in index['entries']:
         if entry['review_status'] != 'reviewed':
@@ -52,16 +52,18 @@ def search(index, vocabulary, query='', *, emotions=(), intents=(), situations=(
             # Never combine facets from different usages of the same meme.
             if any(values and not values.intersection(usage[f]) for f, values in filters.items()):
                 continue
-            if mode == 'recommend' and usage['safety'] != 'standard':
-                continue
-            if excluded.intersection(usage['risk_flags']):
-                continue
             # Negative contexts/risk notes are deliberately NOT positive search text.
             text = ' '.join([entry['title'], *entry['aliases'], usage['context'],
                              *usage['emotions'], *usage['intents'], *usage['situations']])
             haystack = norm(text)
             matches = [t for t in terms if t in haystack]
             if terms and not matches:
+                continue
+            if mode == 'recommend' and usage['safety'] != 'standard':
+                envelope['safety_filtered_count'] += 1
+                continue
+            if excluded.intersection(usage['risk_flags']):
+                envelope['risk_filtered_count'] += 1
                 continue
             exact = phrase and phrase in [norm(entry['title']), *map(norm, entry['aliases'])]
             score = (100 if exact else 0) + 10 * len(matches) + 20 * sum(bool(v) for v in filters.values())
@@ -73,6 +75,9 @@ def search(index, vocabulary, query='', *, emotions=(), intents=(), situations=(
     hits.sort(key=lambda h: (-h['score'], h['title'], h['entry_id'], h['usage_id']))
     envelope['results'] = hits[:limit]
     envelope['status'] = 'matches' if hits else 'no_match'
+    if not hits:
+        envelope['reason'] = ('policy_filtered' if envelope['safety_filtered_count'] or envelope['risk_filtered_count']
+                              else 'no_matching_reviewed_usage')
     return envelope
 
 if __name__ == '__main__':
