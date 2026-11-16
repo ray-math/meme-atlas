@@ -15,9 +15,9 @@
   "comparison": {
     "repository": "ray-math/meme-atlas",
     "ref": "main",
-    "search_index_blob_sha": "ca2e2538ac44e94ee17f17767f4db172983a2b46",
-    "entry_count": 282,
-    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR24 main 검색색인282개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
+    "search_index_blob_sha": "65b1d12ce40b4a98721dbe61482b4f534c6eae7b",
+    "entry_count": 298,
+    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR26 main 검색색인298개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
   },
   "candidates": [
     {
@@ -1611,10 +1611,21 @@
       "section": "ㄱ",
       "source_line": 187,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/gaemseong.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01125046622425944",
+          "published_at": "2019-03-22",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0188",
@@ -2334,10 +2345,21 @@
       "section": "ㄱ",
       "source_line": 245,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/but-the-question.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1004252768",
+          "published_at": "2017-06-19",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0246",
@@ -3112,10 +3134,21 @@
       "section": "ㄴ",
       "source_line": 309,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/because-good-day.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.starnewskorea.com/star/2017/01/25/2017012522104283454",
+          "published_at": "2017-01-25",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0310",
@@ -3269,10 +3302,21 @@
       "section": "ㄴ",
       "source_line": 321,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/nae-areul.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01230006586637864",
+          "published_at": "2008-12-12",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0322",
@@ -3405,10 +3449,27 @@
       "section": "ㄴ",
       "source_line": 333,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/you-insulted-me.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://sports.khan.co.kr/article/202109031811003",
+          "published_at": "2021-09-03",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        },
+        {
+          "url": "https://v.daum.net/v/kDZr3DYtCy",
+          "published_at": "2021-12-20",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0334",
@@ -3917,10 +3978,21 @@
       "section": "ㄷ",
       "source_line": 375,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/carrot-of-course.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://m.tf.co.kr/read/ogmeta/1006008.htm",
+          "published_at": "2012-02-01",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0376",
@@ -3961,10 +4033,21 @@
       "section": "ㄷ",
       "source_line": 379,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/daebak-reaction.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.hangyo.com/news/article.html?no=85438",
+          "published_at": "2018-06-01",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0380",
@@ -5399,10 +5482,21 @@
       "section": "ㅁ",
       "source_line": 498,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/dont-ask-hurt.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mk.co.kr/news/all/2219931",
+          "published_at": "1999-09-03",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0499",
@@ -7593,10 +7687,22 @@
       "section": "ㅅ",
       "source_line": 672,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/ssap-ganeung.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://gnews.gg.go.kr/news/news_detail.do?number=202202211700342716C049&s_code=C049",
+          "published_at": "2022-02-21",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분.",
+        "접두표현 전체가 아닌 독립 근거에서 확인한 '쌉가능' 및 가능의 영어 혼합 변형 범위만 수록."
+      ]
     },
     {
       "id": "kr-list-0673",
@@ -7615,10 +7721,21 @@
       "section": "ㅅ",
       "source_line": 674,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/bare-face.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://withmbc.imbc.com/announcer/special/special02/1551892_13015.html",
+          "published_at": "2006-08-29",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0675",
@@ -8360,10 +8477,14 @@
       "section": "ㅇ",
       "source_line": 733,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
+      "status": "included",
+      "dictionary_paths": [
+        "memes/ya-neodu.md"
+      ],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "2026-11-16: 목록 표기의 자리표시자·구두점을 제외하면 최신 main 별칭 '야 너두 할 수 있어'와 일치하며 본문도 다양한 활동에 바꾸어 쓰는 격려 형식을 설명함. 신규 발행 없이 기존 항목 연결."
+      ]
     },
     {
       "id": "kr-list-0734",
@@ -9981,10 +10102,21 @@
       "section": "ㅇ",
       "source_line": 861,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/you-in-here.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.donga.com/news/Culture/article/all/20041230/8144671/1",
+          "published_at": "2004-12-30",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0862",
@@ -10121,10 +10253,21 @@
       "section": "ㅇ",
       "source_line": 873,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/insider-outsider.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148860925",
+          "published_at": "2019-05-16",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0874",
@@ -10165,10 +10308,27 @@
       "section": "ㅇ",
       "source_line": 877,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/injeong.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.korea.kr/news/cultureColumnView.do?newsId=148801819",
+          "published_at": "2015-10-13",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        },
+        {
+          "url": "https://v.daum.net/v/20190502175902872?s=print_news",
+          "published_at": "2019-05-02",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0878",
@@ -10826,10 +10986,21 @@
       "section": "ㅈ",
       "source_line": 934,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/jonmattaeng.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mt.co.kr/society/2024/10/11/2024101110181774951",
+          "published_at": "2024-10-11",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0935",
@@ -11329,10 +11500,21 @@
       "section": "ㅊ",
       "source_line": 979,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/easy-isnt-it.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://enews.imbc.com/News/RetrieveNewsInfo/10315",
+          "published_at": "2010-03-23",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-0980",
@@ -12964,10 +13146,21 @@
       "section": "ㅎ",
       "source_line": 1117,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/hyangsook.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.segye.com/newsView/20120219002888",
+          "published_at": "2012-02-19",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 실제 사용의 독립 본문 검토 후 PR #26 main 수록 확인. 기사에 소개된 최초 주장과 확인된 사용 사례를 구분."
+      ]
     },
     {
       "id": "kr-list-1118",
