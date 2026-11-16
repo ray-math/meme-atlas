@@ -56,8 +56,8 @@ class PilotTests(unittest.TestCase):
   self.put([])
   with self.assertRaisesRegex(ValueError,'at least 1'):p.apply(self.r,self.input,'fixture')
  def test_oversized_batch_rejected(self):
-  self.put(self.data()+self.data()[:1])
-  with self.assertRaisesRegex(ValueError,'1 to 10'):p.apply(self.r,self.input,'fixture')
+  self.put(self.data())
+  with self.assertRaisesRegex(ValueError,'maximum of 5'):p.apply(self.r,self.input,'fixture',max_entries=5)
 
  def test_derived_index_updated_in_staging(self):
   rows=self.data()[:1];rows[0]['tags']=['게임'];self.put(rows);p.apply(self.r,self.input,'fixture')
