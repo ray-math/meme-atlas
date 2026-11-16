@@ -18,6 +18,9 @@ class NavigationTests(unittest.TestCase):
         (self.root/'memes/a.md').write_text(self.a)
         (self.root/'memes/b.md').write_text(self.b)
 
+    def test_repository_navigation_current(self):
+        self.assertEqual(check(ROOT), [])
+
     def test_reverse_link_and_idempotence(self):
         write(self.root)
         self.assertIn('- [가](a.md)', (self.root/'memes/b.md').read_text())
