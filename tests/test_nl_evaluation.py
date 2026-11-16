@@ -65,3 +65,10 @@ class ScoreContractTests(unittest.TestCase):
         report=score(*values)
         self.assertFalse(report['predeclared_gate_applicable'])
         self.assertIsNone(report['predeclared_gate_passed'])
+
+    def test_ambiguous_lookup_can_explain_retrieved_entry_without_single_sense(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[2]['answers'][0].update(action='lookup',selected_usage_id=None)
+        score(*values)
+        values[2]['answers'][0]['action']='recommend'
+        with self.assertRaises(ValueError):score(*values)

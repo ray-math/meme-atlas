@@ -40,7 +40,9 @@ def score(gold, retrieval, answers, judgments):
         totals['invalid_plans']+=trace['retrieval']['status']=='invalid_plan'
         if answer.get('selected_entry_id'):
             pairs={(r['entry_id'],r['usage_id']) for r in trace['retrieval']['results']}
-            if (answer['selected_entry_id'],answer.get('selected_usage_id')) not in pairs:
+            ambiguous_lookup=(answer['action']=='lookup' and answer.get('selected_usage_id') is None
+                              and answer['selected_entry_id'] in found)
+            if not ambiguous_lookup and (answer['selected_entry_id'],answer.get('selected_usage_id')) not in pairs:
                 raise ValueError('selected usage was not retrieved: '+identity)
         per_case.append({'id':identity,'appropriate':appropriate,'candidate_recalled':retrieved,
                          'judgment':judgment})
