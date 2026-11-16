@@ -26,6 +26,7 @@
 
 - [너나 잘하세요](../memes/neona-jalhaseyo.md)
 - [니들이 게맛을 알아](../memes/do-you-know-crab.md)
+- [단언컨대 ~는 가장 완벽한 물질입니다](../memes/most-perfect-material.md)
 - [라떼는 말이야](../memes/latte-is-horse.md)
 - [사딸라](../memes/four-dollars.md)
 - [야 너두](../memes/ya-neodu.md)
@@ -40,9 +41,11 @@
 - [갓생](../memes/gatsaeng.md)
 - [금손](../memes/geumson.md)
 - [낄끼빠빠](../memes/kkilkki-ppappa.md)
+- [내가 바퀴벌레가 되면 어떡할 거야?](../memes/if-i-become-cockroach.md)
 - [다음 이야기가 궁금하면 냐냐냥을 입력하세요](../memes/type-nyanyanya.md)
 - [단어 습득하는 몬스터](../memes/word-learning-monster.md)
 - [답정너](../memes/dapjeongneo.md)
+- [당근을 흔들어주세요](../memes/shake-a-carrot.md)
 - [덕업일치](../memes/deogeop-ilchi.md)
 - [똥손](../memes/ttongson.md)
 - [라을라](../memes/raeulla.md)
@@ -102,9 +105,14 @@
 
 ## 스포츠
 
+- [내려갈 팀은 내려간다](../memes/down-team-is-down.md)
 - [운동 많이 된다](../memes/good-exercise.md)
 - [중꺾마](../memes/jung-kkeok-ma.md)
 - [폼 미쳤다](../memes/form-michyeotda.md)
+
+## 애니
+
+- [안녕히 계세요 여러분](../memes/goodbye-everyone.md)
 
 ## 연애
 
@@ -152,6 +160,7 @@
 ## 웹툰
 
 - [손민수](../memes/sonminsu.md)
+- [이 손을 봐, 대박임](../memes/look-at-this-hand.md)
 
 ## 음식
 
@@ -171,6 +180,7 @@
 - [내가 아이돌이었으면 이 파트는 꼭 하고 싶음](../memes/if-i-were-idol.md)
 - [늙크크](../memes/old-creator-crew.md)
 - [라우럴](../memes/raureol.md)
+- [마라탕후루](../memes/malatanghulu.md)
 - [매끈매끈하다 매끈매끈한](../memes/smooth-smooth.md)
 - [미혼 앤 비혼](../memes/mihon-and-bihon.md)
 - [야르송](../memes/yareu-song.md)
@@ -187,6 +197,7 @@
 - [골반이 멈추지 않아](../memes/pelvis-wont-stop.md)
 - [기도해 드릴게요](../memes/pray-for-you.md)
 - [난리자베스](../memes/nanrijabeth.md)
+- [너 T야?](../memes/are-you-t.md)
 - [놀기 신청하러 온 거야?](../memes/applying-to-play.md)
 - [매끈매끈하다 매끈매끈한](../memes/smooth-smooth.md)
 - [머선129](../memes/museon129.md)

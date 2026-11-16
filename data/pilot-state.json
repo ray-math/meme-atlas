@@ -199,6 +199,19 @@
       "ids": [
         "no-reply-live-well"
       ]
+    },
+    "reviewed-expansion-2026-11": {
+      "input_hash": "183b60e211fd8e68f64156f63f9acd4de22eca650bde7c341506a45097cb7389",
+      "ids": [
+        "malatanghulu",
+        "down-team-is-down",
+        "look-at-this-hand",
+        "goodbye-everyone",
+        "are-you-t",
+        "if-i-become-cockroach",
+        "shake-a-carrot",
+        "most-perfect-material"
+      ]
     }
   },
   "entries": {
@@ -1569,6 +1582,106 @@
       "scope_basis": "한국어 커뮤니티 사연의 과장된 작별 문장에서 만들어진 국내 문장 변형 밈이다.",
       "tags": [
         "연애"
+      ]
+    },
+    "malatanghulu": {
+      "title": "마라탕후루",
+      "aliases": [
+        "마라탕후루 챌린지"
+      ],
+      "batch": "reviewed-expansion-2026-11",
+      "body_hash": "087ae11b549afdbec30cfdf884666bb123ec9be6f0710a0b1186be4b6913c80d",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 가수의 한국어 노래와 국내 숏폼 안무에서 생성된 표현.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "down-team-is-down": {
+      "title": "내려갈 팀은 내려간다",
+      "aliases": [
+        "DTD",
+        "내팀내"
+      ],
+      "batch": "reviewed-expansion-2026-11",
+      "body_hash": "fba571db20761e942dbdf5dd93dad0848b4dbd96fd243b200656fd0370c4505c",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 프로야구 감독 발언을 국내 팬들이 축약·변형한 표현.",
+      "tags": [
+        "스포츠"
+      ]
+    },
+    "look-at-this-hand": {
+      "title": "이 손을 봐, 대박임",
+      "aliases": [
+        "이 손을 봐 대박임"
+      ],
+      "batch": "reviewed-expansion-2026-11",
+      "body_hash": "1d97b5ea5cef66f3360d7f41305c0c5dc3f3ed40fed9d08c4bb3666398d82026",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 웹툰의 대사를 국내 SNS에서 변형한 표현.",
+      "tags": [
+        "웹툰"
+      ]
+    },
+    "goodbye-everyone": {
+      "title": "안녕히 계세요 여러분",
+      "aliases": [
+        "가영이 퇴사짤"
+      ],
+      "batch": "reviewed-expansion-2026-11",
+      "body_hash": "f299f23d7b0baee6ef96f405798568d752cd006cbcb31e8c2f843f9a0edcd802",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "일본 애니메이션의 한국어 더빙 장면을 국내 퇴사 상황으로 재해석한 표현.",
+      "tags": [
+        "애니"
+      ]
+    },
+    "are-you-t": {
+      "title": "너 T야?",
+      "aliases": [
+        "너 혹시 T야?",
+        "언니 T야?"
+      ],
+      "batch": "reviewed-expansion-2026-11",
+      "body_hash": "90217745cea71181c3e4ed485ffc06b2c95f49b36b6abd47889deefd45fa4f08",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 코미디 영상의 한국어 대화에서 확산된 표현.",
+      "tags": [
+        "인터넷방송"
+      ]
+    },
+    "if-i-become-cockroach": {
+      "title": "내가 바퀴벌레가 되면 어떡할 거야?",
+      "aliases": [
+        "내가 갑자기 바퀴벌레가 되면 어떻게 할 거야?",
+        "바퀴벌레 질문"
+      ],
+      "batch": "reviewed-expansion-2026-11",
+      "body_hash": "237ecc0a3cf99b0cff70bc0a1131f44a9b9fb84f817eaf0fd2a1448a2fc2e497",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "해외 문학의 변신 설정을 국내 SNS의 가족 문답 놀이로 변형한 표현.",
+      "tags": []
+    },
+    "shake-a-carrot": {
+      "title": "당근을 흔들어주세요",
+      "aliases": [
+        "당근을 흔들어 주세요"
+      ],
+      "batch": "reviewed-expansion-2026-11",
+      "body_hash": "869c36beb10e7283ed2a7253e12f018e75bd182a2040481302d764f3ee21af55",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "국내 온라인과 한국 방송에서 뜻밖의 출연을 구조 신호 농담으로 재해석한 표현.",
+      "tags": []
+    },
+    "most-perfect-material": {
+      "title": "단언컨대 ~는 가장 완벽한 물질입니다",
+      "batch": "reviewed-expansion-2026-11",
+      "body_hash": "a987f3172e05630e202de9d8e014c3c11709978b502382ca9227b1fe30d86c9a",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 광고의 문구를 국내 다른 광고와 일상 대상으로 패러디한 표현.",
+      "tags": [
+        "광고"
       ]
     }
   }
