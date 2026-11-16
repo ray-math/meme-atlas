@@ -20,3 +20,4 @@ jobs:
       - run: python scripts/build_usage_index.py --check
       - run: python scripts/evaluate_usage.py
       - run: python scripts/replay_nl_queries.py eval/development/v1-plans.json
+      - run: python scripts/score_nl_evaluation.py eval/development/gold.json eval/development/v1-retrieval.json eval/development/v1-answers.json eval/development/v1-judgments.json
