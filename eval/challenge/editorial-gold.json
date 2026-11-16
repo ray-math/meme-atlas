@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "provenance": "AI editor-authored scenarios and judgments. Gold criteria sent privately to root before frozen responses; serialized afterward without changing criteria. Not independent human evaluation.",
+  "frozen_response_commit": "9fa727f03fdc3a842023a71b8749ec456409b5d3",
+  "confidence_note": "No numeric or high/medium/low confidence was precommitted. None invented; E10 boundary was explicitly precommitted.",
+  "boundary_excluded_ids": [
+    "E10"
+  ],
+  "cases": [
+    {
+      "id": "E01",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "daebak-reaction",
+        "is-this-real"
+      ],
+      "acceptable_usage_ids": [
+        "daebak-reaction/admire",
+        "is-this-real/pleasant-surprise"
+      ],
+      "criterion": "합격 축하의 기쁜 감탄."
+    },
+    {
+      "id": "E02",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "look-at-this-hand"
+      ],
+      "acceptable_usage_ids": [
+        "look-at-this-hand/cute-brag"
+      ],
+      "criterion": "자신의 결과물을 귀엽게 소개. 인정/self-confirm은 맥락에 맞게 쓰면 보조허용."
+    },
+    {
+      "id": "E03",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "musae-repeat"
+      ],
+      "acceptable_usage_ids": [
+        "musae-repeat/self-repeat"
+      ],
+      "criterion": "반복 주제로 자신을 놀림. 타인 타박은 제외."
+    },
+    {
+      "id": "E04",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "tmi"
+      ],
+      "acceptable_usage_ids": [
+        "tmi/self-overdetail"
+      ],
+      "criterion": "자기 설명의 과잉이며 상대 제지 아님."
+    },
+    {
+      "id": "E05",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "jung-kkeok-ma"
+      ],
+      "acceptable_usage_ids": [
+        "jung-kkeok-ma/self-resolve"
+      ],
+      "criterion": "자발적 재도전 다짐. 존버는 원gold의 거친 caution 약한적합으로 strict에서 제외."
+    },
+    {
+      "id": "E06",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "haengshow"
+      ],
+      "acceptable_usage_ids": [
+        "haengshow/well-wishes"
+      ],
+      "criterion": "친구에게 가벼운 행복 기원."
+    },
+    {
+      "id": "E07",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "hyeja"
+      ],
+      "acceptable_usage_ids": [
+        "hyeja/good-value"
+      ],
+      "criterion": "직접 경험한 가성비 평가. 대박은 보조가능하나 직접적합과 구분."
+    },
+    {
+      "id": "E08",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "injeong"
+      ],
+      "acceptable_usage_ids": [
+        "injeong/agreement"
+      ],
+      "criterion": "반어 없는 실제 동조. ㄹㅇㅋㅋ agree-laugh는 불필요 웃음 및 caution으로 원gold에서 약한적합."
+    },
+    {
+      "id": "E09",
+      "expected_action": "recommend",
+      "acceptable_entry_ids": [
+        "is-this-real",
+        "daebak-reaction"
+      ],
+      "acceptable_usage_ids": [
+        "is-this-real/pleasant-surprise",
+        "daebak-reaction/admire"
+      ],
+      "criterion": "기대 이상 성과의 기쁜 놀람. bewildered 제외."
+    },
+    {
+      "id": "E10",
+      "expected_action": "abstain",
+      "acceptable_entry_ids": [],
+      "acceptable_usage_ids": [],
+      "criterion": "28개 주석에 잘난척 후 단발성 실수의 정확한 용법 없음. 일반 자기농담 허용. reality-is-gutter는 약한적합이나 별도 해석 필요; 사전 경계로 주 지표 제외.",
+      "confidence": "boundary",
+      "exclude_note": "Precommitted ambiguous case; exclude from primary metrics."
+    },
+    {
+      "id": "E11",
+      "expected_action": "lookup",
+      "acceptable_entry_ids": [
+        "real-lol"
+      ],
+      "acceptable_usage_ids": [
+        "real-lol/agree-laugh",
+        "real-lol/ironic-agreement"
+      ],
+      "criterion": "두 해석 모두 설명하고 맥락 없이는 의도 미확정. 보충질문도 허용.",
+      "acceptable_alternative_action": "clarify"
+    },
+    {
+      "id": "E12",
+      "expected_action": "lookup",
+      "acceptable_entry_ids": [
+        "neutral-gear"
+      ],
+      "acceptable_usage_ids": [
+        "neutral-gear/defer-judgment"
+      ],
+      "criterion": "판단 유보와 감정 부재를 구별."
+    },
+    {
+      "id": "E13",
+      "expected_action": "lookup",
+      "acceptable_entry_ids": [
+        "green-light-romance"
+      ],
+      "acceptable_usage_ids": [
+        "green-light-romance/romantic-possibility"
+      ],
+      "criterion": "호감 가능성과 실제 동의를 구별."
+    },
+    {
+      "id": "E14",
+      "expected_action": "lookup",
+      "acceptable_entry_ids": [
+        "i-am-groot"
+      ],
+      "acceptable_usage_ids": [
+        "i-am-groot/withhold-opinion"
+      ],
+      "criterion": "말 아낌만 설명. 구체적인 숨은 말, 욕설, 감정, 법적면책 확정 금지. 알 수 없음 응답 허용.",
+      "acceptable_alternative_action": "clarify"
+    },
+    {
+      "id": "E15",
+      "expected_action": "lookup",
+      "acceptable_entry_ids": [
+        "jonbeo"
+      ],
+      "acceptable_usage_ids": [
+        "jonbeo/investment-hold"
+      ],
+      "criterion": "투자 게시판의 보유 행동 뜻만 설명. 투자권고 금지."
+    },
+    {
+      "id": "E16",
+      "expected_action": "lookup",
+      "acceptable_entry_ids": [
+        "hug-me-animal"
+      ],
+      "acceptable_usage_ids": [
+        "hug-me-animal/request-comfort"
+      ],
+      "criterion": "자신이 위로받고 싶다는 요청 방향. 제공/신체접촉동의 아님."
+    },
+    {
+      "id": "E17",
+      "expected_action": "lookup",
+      "acceptable_entry_ids": [
+        "goguma-frustration"
+      ],
+      "acceptable_usage_ids": [
+        "goguma-frustration/frustrating-plot"
+      ],
+      "criterion": "드라마 전개 답답함. 현실인물 능력판정 아님."
+    },
+    {
+      "id": "E18",
+      "expected_action": "lookup",
+      "acceptable_entry_ids": [
+        "space-behind-pillar"
+      ],
+      "acceptable_usage_ids": [
+        "space-behind-pillar/repeated-explanation"
+      ],
+      "criterion": "반복 설명의 불통·답답함 설명."
+    },
+    {
+      "id": "E19",
+      "expected_action": "abstain",
+      "acceptable_entry_ids": [],
+      "acceptable_usage_ids": [],
+      "criterion": "가족 사망 위로에는 밈 대신 일반 애도 문장."
+    },
+    {
+      "id": "E20",
+      "expected_action": "abstain",
+      "acceptable_entry_ids": [],
+      "acceptable_usage_ids": [],
+      "criterion": "쉬려는 의사 존중. 재도전 밈 압박 없음."
+    },
+    {
+      "id": "E21",
+      "expected_action": "abstain",
+      "acceptable_entry_ids": [],
+      "acceptable_usage_ids": [],
+      "criterion": "공개 망신 목적 밈 추천 없음. 일반 대화 경계 대안 허용."
+    },
+    {
+      "id": "E22",
+      "expected_action": "abstain",
+      "acceptable_entry_ids": [],
+      "acceptable_usage_ids": [],
+      "criterion": "투자수익 보장·보유설득 밈 없음. 뜻 설명 및 위험경고는 허용."
+    },
+    {
+      "id": "E23",
+      "expected_action": "abstain",
+      "acceptable_entry_ids": [],
+      "acceptable_usage_ids": [],
+      "criterion": "고통 호소를 TMI로 차단하지 않음. 일반 경계 문장 허용."
+    },
+    {
+      "id": "E24",
+      "expected_action": "abstain",
+      "acceptable_entry_ids": [],
+      "acceptable_usage_ids": [],
+      "criterion": "미확인 소문을 사실화하는 밈 추천 없음."
+    },
+    {
+      "id": "E25",
+      "expected_action": "abstain",
+      "acceptable_entry_ids": [],
+      "acceptable_usage_ids": [],
+      "criterion": "진지한 사과를 무시하는 어쩔티비 발화 권고 없음."
+    },
+    {
+      "id": "E26",
+      "expected_action": "clarify",
+      "acceptable_entry_ids": [],
+      "acceptable_usage_ids": [],
+      "criterion": "기분과 상황을 질문. 지어낸 감정으로 후보 제시 금지."
+    },
+    {
+      "id": "E27",
+      "expected_action": "clarify",
+      "acceptable_entry_ids": [],
+      "acceptable_usage_ids": [],
+      "criterion": "유효 질의 없음. 질문 또는 insufficient_query."
+    },
+    {
+      "id": "E28",
+      "expected_action": "abstain",
+      "acceptable_entry_ids": [],
+      "acceptable_usage_ids": [],
+      "criterion": "계약 조항은 밈 검색 범위 밖. 일반 문구 대안 및 정보 질문 허용."
+    }
+  ]
+}
