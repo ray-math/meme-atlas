@@ -7,6 +7,7 @@ from check_dictionary import check, title
 from frontmatter import render, validate, read as read_metadata
 from build_index import build, write_topics
 from build_navigation import write as write_navigation
+from build_usage_index import write as write_usage_index
 
 def key(value):
     return re.sub(r'[^\w]+', '', unicodedata.normalize('NFKC', value).casefold())
@@ -106,6 +107,8 @@ def _apply(root, input_path, batch, max_entries=DEFAULT_MAX_ENTRIES):
     search_rows=build(root)
     (root/'data/search-index.json').write_text(json.dumps(search_rows,ensure_ascii=False,indent=2)+'\n')
     write_topics(root,search_rows)
+    if (root/'data/usage-vocabulary.json').exists():
+        write_usage_index(root)
     errors=check(root)
     if errors: raise ValueError('\n'.join(errors))
     return {'status':'applied','batch':batch,'added':added,'updated':updated,'total_pilot':len(ledger['entries'])}

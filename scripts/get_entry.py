@@ -9,7 +9,7 @@ from check_dictionary import title
 
 SECTIONS = {'definition': '뜻풀이', 'origin': '유래와 확산', 'related': '함께 쓰이는 밈'}
 
-def get_entry(root, entry_id, section=None):
+def get_entry(root, entry_id, section=None, include_usage=False):
     if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', entry_id):
         raise ValueError('invalid entry id')
     if section is not None and section not in SECTIONS:
@@ -25,14 +25,20 @@ def get_entry(root, entry_id, section=None):
     sections = {k: re.sub(r'\n\[(?:시험 수록 목록|월별 목록)[^\n]*', '', v).strip() for k,v in sections.items()}
     result = {'schema_version': 1, 'id': entry_id, 'title': title(text), **read(text),
               'sections': {k: sections.get(v, '') for k,v in SECTIONS.items() if section is None or section == k}}
+    if include_usage:
+        from usage_profiles import load_profiles
+        profile = next((p for p in load_profiles(root)['profiles'] if p['entry_id'] == entry_id), None)
+        result['usage_profile'] = profile
+        result['usage_annotation_status'] = profile['review_status'] if profile else 'unannotated'
     return result
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('id')
     parser.add_argument('--section', choices=SECTIONS)
+    parser.add_argument('--usage', action='store_true', help='include editorial usage annotations; missing is not neutral')
     args = parser.parse_args()
     try:
-        print(json.dumps(get_entry(ROOT, args.id, args.section), ensure_ascii=False, indent=2))
+        print(json.dumps(get_entry(ROOT, args.id, args.section, include_usage=args.usage), ensure_ascii=False, indent=2))
     except (ValueError, FileNotFoundError) as exc:
         parser.exit(2, f'{exc}\n')
