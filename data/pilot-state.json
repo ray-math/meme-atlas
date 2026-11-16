@@ -405,6 +405,25 @@
         "guava-mango-song",
         "bwek"
       ]
+    },
+    "korea-list-reviewed-2026-11-16-j": {
+      "input_hash": "2c48def7e9612b0ebab01248731a0191182a0b6162cdeb2964928c93e751902c",
+      "ids": [
+        "edge-style",
+        "work-hard-leave",
+        "peaceful-used-market",
+        "sad-frog",
+        "proof-photo",
+        "you-impostor",
+        "ahehheh",
+        "heol",
+        "eoljjang",
+        "momjjang",
+        "yeopgi-humor",
+        "nobody-knows-secret",
+        "watch-out-cold",
+        "red-sun-hypnosis"
+      ]
     }
   },
   "entries": {
@@ -3214,6 +3233,148 @@
       "scope_type": "korean_origin",
       "scope_basis": "국내 의미 설명·실제 용례와 당시 신조어 인기 보도 확인.",
       "tags": []
+    },
+    "edge-style": {
+      "title": "엣지 있다",
+      "aliases": [
+        "엣지있다",
+        "엣지 있게"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "441aa391141505eafe1394731c6b61214f663d4b143575d1c74500bf8f1c7db7",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 패션계 선행 표현과 드라마를 통한 유행어 확산 본문 확인.",
+      "tags": [
+        "패션",
+        "방송"
+      ]
+    },
+    "work-hard-leave": {
+      "title": "열심히 일한 당신, 떠나라",
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "64e51c734de56a8f0ef6ad1d57ca3f9852504757740c7fc1d99c51ebbb10e5fb",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 광고 원카피·휴식 맥락과 당시 히트 문구 보도 확인.",
+      "tags": [
+        "광고"
+      ]
+    },
+    "peaceful-used-market": {
+      "title": "오늘도 평화로운 중고나라",
+      "aliases": [
+        "오늘도 중고로운 평화나라"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "a4e9f852ebd40e8c9fc88b8fb5d0c5911a972894284e1f6f8d64776676e7c4d2",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 중고거래 SNS 사례와 반어적 제목·변형 실사용 확인.",
+      "tags": []
+    },
+    "sad-frog": {
+      "title": "슬픈 개구리",
+      "aliases": [
+        "페페",
+        "페페 더 프로그"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "2dd679a1e7a3672379fbffba5cf9aa408ff4d7555705a11381784965b5a1cc8c",
+      "scope_type": "korean_usage",
+      "scope_basis": "원작 캐릭터와 한국 사용·일부 정치적 전유를 구분한 본문 확인.",
+      "tags": []
+    },
+    "proof-photo": {
+      "title": "인증샷",
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "31aa6e5739db5075b211689d66e39d0163cca77ec6a8b39537397105fcd14d78",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 인터넷 사실 증명 문화와 사진 게시의 실제 사례 확인.",
+      "tags": []
+    },
+    "you-impostor": {
+      "title": "너 임포스터지?",
+      "aliases": [
+        "너 임포스터지"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "848cf1058ab6e24c169ed3060587b3b2e9e69ac88e0d2e0603d0e8193e27e21f",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "어몽어스의 임포스터 찾기를 국내 SNS 놀이로 활용한 공개 본문 확인.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "ahehheh": {
+      "title": "아햏햏",
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "09066539cc5f184d0379c74e0a2b5fa7fa9a26422cb48084099031ba6e9ce18c",
+      "scope_type": "korean_origin",
+      "scope_basis": "국립국어원 자료의 뜻·인터넷 사용과 당시 유행 기사 확인.",
+      "tags": []
+    },
+    "heol": {
+      "title": "헐",
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "b96ec85d4db8747044c6ea9565e64e73ff0d106e34de8bda09c787ae2b236d24",
+      "scope_type": "korean_origin",
+      "scope_basis": "국립국어원 자료에서 한국 인터넷 감탄사 의미와 사용 확인.",
+      "tags": []
+    },
+    "eoljjang": {
+      "title": "얼짱",
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "d5cfe8d936e54883ce112cdfc16c0bc75546985dd27fb75854ca597bd711f4d1",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 온라인 사진 인기 문화와 표현의 뜻을 다룬 당시 보도 확인.",
+      "tags": []
+    },
+    "momjjang": {
+      "title": "몸짱",
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "bc613b5155eb9aee87cea8fb84ec43579c2233f7d5bf5d81d4ed38de7b1d87b6",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 온라인 운동 영상·팬카페와 몸짱 열풍 보도 확인.",
+      "tags": []
+    },
+    "yeopgi-humor": {
+      "title": "엽기",
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "c13140c34fe3971c18881a3adf3cffee84c0391a73e694eb3dc4335f4887eba8",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 네티즌 조사와 당시 인터넷 유머의 대중문화 확산 확인.",
+      "tags": []
+    },
+    "nobody-knows-secret": {
+      "title": "며느리도 몰라, 아무도 몰라",
+      "aliases": [
+        "며느리도 몰라"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "98504d1add433f74b7796bd9bfb634424d743c8708b3464fe68cd305905ded0e",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 광고 당사자·가족의 후속 변주 사용을 다룬 본문 확인.",
+      "tags": [
+        "광고"
+      ]
+    },
+    "watch-out-cold": {
+      "title": "감기 조심하세요",
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "26ea8c9d8d521eeda9b0ec5eab427c3ee6826fee19d35f68403fb14ff5a33bea",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 광고 문구의 회자와 실제 광고 패러디 캠페인 확인.",
+      "tags": [
+        "광고"
+      ]
+    },
+    "red-sun-hypnosis": {
+      "title": "레드썬",
+      "batch": "korea-list-reviewed-2026-11-16-j",
+      "body_hash": "7f1059b4c38455571535117f366af60f9101eaa0204bd68f1b729a298e92e26c",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 코미디 당사자 인터뷰에서 최면수사 캐릭터·구호 사용 확인.",
+      "tags": [
+        "방송"
+      ]
     }
   }
 }
