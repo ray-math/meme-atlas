@@ -298,6 +298,25 @@
         "nico-nico-ni",
         "dame-dame"
       ]
+    },
+    "korea-list-reviewed-2026-11-16-f": {
+      "input_hash": "89fc59df6d52cf19445808edb348fbea1f6edd275c855f10c6adc79bef7aa7c8",
+      "ids": [
+        "criticism-shield",
+        "back-breaker",
+        "ramen-invitation",
+        "sorry-humanities",
+        "keyboard-lubu",
+        "lifelong-single",
+        "hao-online-style",
+        "dress-color-debate",
+        "mask-impression",
+        "bbuing-bbuing",
+        "finger-heart",
+        "slickback",
+        "ice-bucket-challenge",
+        "is-this-real"
+      ]
     }
   },
   "entries": {
@@ -2490,6 +2509,157 @@
         "게임",
         "음악"
       ]
+    },
+    "criticism-shield": {
+      "title": "까방권",
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "3eeac9ee337d9406e4bc04b88b970ff207aed3f6276bfcbb50e2652a412a2941",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 연예 뉴스에서 축약 의미와 군복무 후 댓글 사용 확인.",
+      "tags": [
+        "연예"
+      ]
+    },
+    "back-breaker": {
+      "title": "등골 브레이커",
+      "aliases": [
+        "등골브레이커"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "71616c64e9828efbd1e5010e3cf12644c8933a01bd1946a0883f5b341f8523bd",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 고가 패딩 유행과 소비 부담을 빗댄 표현의 당시 보도 확인.",
+      "tags": [
+        "패션",
+        "소비"
+      ]
+    },
+    "ramen-invitation": {
+      "title": "라면 먹고 갈래?",
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "5e5117cfc6aab854260265a8c96d92ab117cd6c462e386fbe701913a6b33f401",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 영화의 실제 문구와 이후 변형된 작업 멘트 구분 확인.",
+      "tags": [
+        "영화",
+        "연애"
+      ]
+    },
+    "sorry-humanities": {
+      "title": "문송합니다",
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "4ed58868069f648ae8a59ae405615cfa6398627549bb0ca90730fe98bd5be0ac",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 줄임말 의미와 노벨문학상 뒤의 반전 사용 보도 확인.",
+      "tags": []
+    },
+    "keyboard-lubu": {
+      "title": "방구석 여포",
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "da57674d327ae9d44df95c8f5ff5db600f1db40d52ff01b02c482c2e94862fb7",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 인터넷의 삼국지 인물 비유와 온라인 공격적 말투 설명 확인.",
+      "tags": []
+    },
+    "lifelong-single": {
+      "title": "모태솔로",
+      "aliases": [
+        "모쏠",
+        "모솔"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "954ae9032b849c2f083eebe1edceb7e6c620db2147fe4dcfe337f17a88bc6d1b",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 줄임말 설명과 연애 경험 의미를 다룬 기사 본문 확인.",
+      "tags": [
+        "연애"
+      ]
+    },
+    "hao-online-style": {
+      "title": "하오체",
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "9026ed412cca41d40aec9d32fa1b330df9d06ac722e8bb451336d3f2df389da8",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 커뮤니티·다모 게시판 및 제작진의 실제 말투 사용 확인.",
+      "tags": []
+    },
+    "dress-color-debate": {
+      "title": "드레스 색깔 논란",
+      "aliases": [
+        "드레스 색깔"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "c555eef452a26dea76a54bfc4aa95eef14d67ae6748deef21e50fcd3bd655024",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 연예인의 반응과 국내 확산을 포함한 드레스 논쟁 보도 확인.",
+      "tags": []
+    },
+    "mask-impression": {
+      "title": "마기꾼",
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "d593b2809601bac6d22da06c8327046873cb24ed7df2d19a4a490a2a2e8c42e7",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 합성어 의미와 온라인 콘테스트·메이크업 활용 본문 확인.",
+      "tags": []
+    },
+    "bbuing-bbuing": {
+      "title": "뿌잉뿌잉",
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "63f9fd1558f98582cbfec2e3e699a8294f28dbd3b16ca958383c2ab5eba461db",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 시트콤 장면과 유행어 확산을 다룬 당시 보도 확인.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "finger-heart": {
+      "title": "손가락 하트",
+      "aliases": [
+        "손가락하트"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "85a037c65a288ce20e9173d94cc3c967c791f15d4d5f1da908240a8b269cccd5",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 연예·내한 행사에서 실제 포즈 사용과 K팝 확산 확인.",
+      "tags": [
+        "연예"
+      ]
+    },
+    "slickback": {
+      "title": "슬릭백",
+      "aliases": [
+        "초전도체춤",
+        "공중부양춤"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "cc5e10a94fca9db0a4c5ceb3b4e6026c8934f46db227ebdcd61bb5eb4501ad89",
+      "scope_type": "korean_usage",
+      "scope_basis": "해외 유행 뒤 국내10·20대 참여와 한국 영상 확산을 다룬 본문 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "ice-bucket-challenge": {
+      "title": "아이스버킷 챌린지",
+      "aliases": [
+        "아이스 버킷 챌린지"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "92f9580f3196e62aadd678ca73eefef5de74f87d246264bdee7c95b8234110c7",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 유명인의 실제 참여와 후원 목적을 설명한 사전·관련 기사 본문 확인.",
+      "tags": []
+    },
+    "is-this-real": {
+      "title": "이거 실화냐",
+      "aliases": [
+        "이거 실화냐?"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-f",
+      "body_hash": "cdb74548bfbc0cad1e41a6a5a1d6087d2b9dc160000951b4523fa35cef0e3aee",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 젊은층 표현 의미와 방송 자막·제목 실제 사용 본문 확인.",
+      "tags": []
     }
   }
 }
