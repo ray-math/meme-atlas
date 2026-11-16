@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "execution": "actual_search_replay_not_llm_inference",
+  "recorded_at": "2026-11-16T14:34:46.497546+00:00",
+  "source_revision": "72ead4be1b6dbb506697a1ebd27b7330ff70707f",
+  "plans_sha256": "18f92137022f15a67753aeb07ec99d1159d3c39787cc45cf426008312ffff905",
+  "index_sha256": "ef4fc24cdfa6444a2d3d73072cd01d7afb011d0f405aa4a6950b9aa9893d661b",
+  "vocabulary_sha256": "39ee3ab64d6b3afc0e91ecd20b8bfa40633e347309e148f42d22aba39a5f4df9",
+  "coverage": {
+    "dictionary_entries": 343,
+    "annotated_entries": 28,
+    "reviewed_entries": 28,
+    "unannotated_entries": 315
+  },
+  "results": [
+    {
+      "id": "D01",
+      "prompt": "동생이 처음 구운 쿠키 사진을 보냈는데 가게에서 파는 것처럼 나왔어. 비꼬는 느낌 없이 짧게 감탄할 밈 하나 골라줘.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "감탄"
+        ],
+        "situations": [
+          "결과물공유"
+        ],
+        "exclude_risks": [
+          "반어",
+          "반어오인"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "no_match",
+        "results": [],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0,
+        "reason": "no_matching_reviewed_usage"
+      }
+    },
+    {
+      "id": "D02",
+      "prompt": "오늘은 제발 일찍 자자고 해놓고 내가 또 새벽 두 시에 게임하자고 했네. 친구들한테 나 자신을 놀리는 별명처럼 한마디 붙이고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "tmi",
+            "title": "TMI",
+            "path": "memes/tmi.md",
+            "domain_tags": [],
+            "usage_id": "self-overdetail",
+            "score": 40,
+            "matched_facets": {
+              "intents": [
+                "자조"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-overdetail",
+              "emotions": [],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "과도한설명"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신이 불필요한 설명까지 했다고 가볍게 덧붙인다.",
+              "avoid_when": [],
+              "example": {
+                "text": "내가 아침에 양말 고른 얘기까지 했네. TMI였다.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단. 감정은 본문에서 고정되지 않아 []로 남김(통합 검토).",
+              "emotion_status": "unknown"
+            },
+            "review_status": "reviewed",
+            "source_sha": "f30812b98fd28cb0e8ce61abe59ab707a266ee17",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "musae-repeat",
+            "title": "~무새",
+            "path": "memes/musae-repeat.md",
+            "domain_tags": [],
+            "usage_id": "self-repeat",
+            "score": 40,
+            "matched_facets": {
+              "intents": [
+                "자조"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-repeat",
+              "emotions": [
+                "재미"
+              ],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "반복발언"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "같은 말만 하는 자신을 가볍게 돌아본다.",
+              "avoid_when": [],
+              "example": {
+                "text": "나 오늘도 여행 얘기만 했네. 여행무새야.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "d0ce1a349713d6dbe7bc7141f754ffe5da94576a",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 4,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "D03",
+      "prompt": "드라마에서 누명 쓴 주인공이 녹음 파일을 공개해서 오해가 싹 풀렸어. 친구랑 보다가 속 시원하다고 할 때 쓸 표현 추천해줘.",
+      "action": "recommend",
+      "filters": {
+        "emotions": [
+          "통쾌함"
+        ],
+        "situations": [
+          "갈등해결"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "no_match",
+        "results": [],
+        "safety_filtered_count": 1,
+        "risk_filtered_count": 0,
+        "reason": "policy_filtered"
+      }
+    },
+    {
+      "id": "D04",
+      "prompt": "우리 배드민턴 모임 첫 대회는 졌지만 다음 주에도 연습하자고 단톡에 쓰려 해. 욕에서 나온 말은 빼고 짧은 응원 밈 골라줘.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "응원"
+        ],
+        "situations": [
+          "패배후재도전"
+        ],
+        "exclude_risks": [
+          "비속어"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "no_match",
+        "results": [],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0,
+        "reason": "no_matching_reviewed_usage"
+      }
+    },
+    {
+      "id": "D05",
+      "prompt": "친구가 내 춤을 따라 하는데 너무 똑같아서 둘 다 웃었어. 나도 영화 악당처럼 괜히 무게 잡고 받아칠 대사 없을까?",
+      "action": "recommend",
+      "filters": {
+        "emotions": [
+          "재미"
+        ],
+        "situations": [
+          "가벼운놀림"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "no_match",
+        "results": [],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0,
+        "reason": "no_matching_reviewed_usage"
+      }
+    },
+    {
+      "id": "D06",
+      "prompt": "행사 부스 철수까지 끝내고 소파에서 일어날 힘도 없어ㅋㅋ 고생한 나를 과장해서 표현할 짤 문구 추천해줘. 우울한 얘기는 아니야.",
+      "action": "recommend",
+      "filters": {
+        "emotions": [
+          "탈진"
+        ],
+        "intents": [
+          "상태설명"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "no_match",
+        "results": [],
+        "safety_filtered_count": 1,
+        "risk_filtered_count": 0,
+        "reason": "policy_filtered"
+      }
+    },
+    {
+      "id": "D07",
+      "prompt": "그 사람한테 답장할 밈 좀 골라줘. 그냥 '알겠어'만 보내기는 좀 그래.",
+      "action": "clarify",
+      "filters": {
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "clarify"
+      }
+    },
+    {
+      "id": "D08",
+      "prompt": "친구가 어머니 장례를 치르고 아무것도 못 하겠다고 연락했어. 분위기 좀 풀려고 '포기하면 편해' 같은 밈을 보내도 될까? 답장을 골라줘.",
+      "action": "abstain",
+      "filters": {
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "abstain"
+      }
+    },
+    {
+      "id": "D09",
+      "prompt": "남자친구가 내가 계속 약속을 어겨서 정말 상처받았대. 더 싸우기는 싫으니까 어쩔티비처럼 웃기게 넘길 답장 밈 골라줘.",
+      "action": "abstain",
+      "filters": {
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "abstain"
+      }
+    },
+    {
+      "id": "D10",
+      "prompt": "회사 후배가 댓글에 '이왜진'이라고 썼는데 무슨 뜻이야? 써먹을 밈 말고 뜻만 알려줘.",
+      "action": "lookup",
+      "filters": {
+        "query": "이왜진",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "iwaejin",
+            "title": "이왜진",
+            "path": "memes/iwaejin.md",
+            "domain_tags": [
+              "인터넷방송"
+            ],
+            "usage_id": "confirmed-surprise",
+            "score": 110,
+            "matched_facets": {},
+            "usage": {
+              "id": "confirmed-surprise",
+              "emotions": [
+                "놀람"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "예상밖사실",
+                "사실확인후"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인"
+              ],
+              "safety": "caution",
+              "context": "사실임이 확인된 뒤 예상과 현실의 차이에 놀란다.",
+              "avoid_when": [
+                "검증되지 않은 소문을 사실로 암시할 때"
+              ],
+              "example": {
+                "text": "가짜 행사인 줄 알았는데 실제로 열린대. 이왜진.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "53660e445a3454a6173b88264fce498c44bc42d6",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "D11",
+      "prompt": "손가락 다친 게 아니라 웹툰에서 사람이 된 애가 자기 손 자랑하는 대사 있잖아. 그 밈 이름이랑 어느 작품인지 찾아줘.",
+      "action": "lookup",
+      "filters": {
+        "intents": [
+          "자랑"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "look-at-this-hand",
+            "title": "이 손을 봐, 대박임",
+            "path": "memes/look-at-this-hand.md",
+            "domain_tags": [
+              "웹툰"
+            ],
+            "usage_id": "cute-brag",
+            "score": 40,
+            "matched_facets": {
+              "intents": [
+                "자랑"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "cute-brag",
+              "emotions": [
+                "뿌듯함"
+              ],
+              "intents": [
+                "자랑"
+              ],
+              "situations": [
+                "새물건",
+                "결과물공유"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신의 물건이나 결과물을 귀엽고 천진하게 소개한다.",
+              "avoid_when": [
+                "상대의 성과를 깎아내리는 비교 자랑"
+              ],
+              "example": {
+                "text": "이 책장을 봐, 대박임. 내가 조립했다 짱이지.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "17e9c3fafef79ca9d09392647015da56b71599a8",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "D12",
+      "prompt": "회사 보안 교육 안내문을 정중한 일본어로 번역해줘. 밈은 넣지 마. 원문은 '비밀번호를 타인과 공유하지 마세요'야.",
+      "action": "abstain",
+      "filters": {
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "abstain"
+      }
+    }
+  ],
+  "github_run_url": "https://github.com/ray-math/meme-atlas/actions/runs/43887115429"
+}
