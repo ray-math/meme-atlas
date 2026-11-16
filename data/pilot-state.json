@@ -337,6 +337,26 @@
         "trembling-reaction",
         "stern-serious"
       ]
+    },
+    "korea-list-reviewed-2026-11-16-h": {
+      "input_hash": "587373d31c8a42dea32950ca39aa385eb6e041a6519479f4dfa3ab887b66b1a1",
+      "ids": [
+        "otl",
+        "jeul",
+        "hairu",
+        "bangga-bangga",
+        "kkamnol",
+        "eumseum-style",
+        "old-water-expert",
+        "bwek",
+        "saebbing-challenge",
+        "yamin-jeongeum",
+        "some-romance",
+        "push-pull-romance",
+        "swag",
+        "ppojjak",
+        "spoon-class"
+      ]
     }
   },
   "entries": {
@@ -2840,6 +2860,149 @@
       "body_hash": "cebb9ca9c1e9d162ea4bde982027d19edd3c96340777eaaea27bdf82e7f24350",
       "scope_type": "korean_origin",
       "scope_basis": "국내 방송 신조어 퀴즈와 축약 의미를 다룬 본문 확인.",
+      "tags": []
+    },
+    "otl": {
+      "title": "OTL",
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "87970bfa817967c61804249b960cd0d18ea100c1a6a684761e9b72384dc3b72d",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷에서 문자 그림을 좌절 표현으로 사용한 당시 기사 확인.",
+      "tags": []
+    },
+    "jeul": {
+      "title": "즐",
+      "aliases": [
+        "KIN"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "1478ebdba4508a8219fb15b0940da84910d8cb0ad9ae84a557db5958d89007a2",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 인사의 축약과 냉소적 반응·모양 변형에 관한 본문 확인.",
+      "tags": []
+    },
+    "hairu": {
+      "title": "하이루",
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "5017f21a976a8af427c7ecb12c05a837fb9dfad7b91b9f0f43fd86e1f17b41ea",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 통신어의 뜻과 방송의 옛 채팅인사 재현 확인.",
+      "tags": []
+    },
+    "bangga-bangga": {
+      "title": "방가방가",
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "16710f0b0f14c987b1fa81e77d5c78dad31c84d9b21515e73c185da7ef5e0d1d",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 통신어 설명과 무한상사의 회상 발화 확인.",
+      "tags": []
+    },
+    "kkamnol": {
+      "title": "깜놀",
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "5887d6b53954a9e57b5632df6ac15daa417155f0ba6db08b0b1ee77eba5fe9cb",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 방송에서 줄임말 의미와 사용을 다룬 기사 본문 확인.",
+      "tags": []
+    },
+    "eumseum-style": {
+      "title": "음슴체",
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "cc197e0fb1d4dfb5d91eb91817383667fb81588d743ecee22de84de25687c69a",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 인터넷 문화 칼럼의 문장 끝맺음 말투 설명 확인.",
+      "tags": []
+    },
+    "old-water-expert": {
+      "title": "고인물",
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "c6e8d04b34603b3e995a769d434776a4d143d3315d063b8a172d66a6c9e2fb0a",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 게임에서 신규 이용자와 숙련 계정의 실력차를 설명한 실제 사용 확인.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "bwek": {
+      "title": "뷁",
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "1e8c7ee9191bcafe69159784623258f036b697318a82e061aae34fd991af6a07",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 과거 인터넷 유행과 부정적 상황의 반응 의미 본문 확인.",
+      "tags": []
+    },
+    "saebbing-challenge": {
+      "title": "새삥 챌린지",
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "5f42692775a706b9f49aaf71dc3f4dfba769cac418818b433e9bfacfeb1cbf05",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 방송 미션곡·안무와 지코 등 SNS 참여를 다룬 당시 보도 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "yamin-jeongeum": {
+      "title": "야민정음",
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "ef7ca2dc664b0b6f07b77874cc9723da5ce926a4d83404afb618d6cb7a2cd0e2",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 글자모양 변형 사례와 상품 활용을 다룬 본문 확인.",
+      "tags": []
+    },
+    "some-romance": {
+      "title": "썸",
+      "aliases": [
+        "썸 타다"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "0ec1d0eeb6598a52d91a01b057ddd7bf334c3a8f7d487924b96e36ea8e14c73f",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 방송 보도에서 연애 전 관계 의미와 대중문화 활용 확인.",
+      "tags": [
+        "연애"
+      ]
+    },
+    "push-pull-romance": {
+      "title": "밀당",
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "4098d56dce1fb90c216f27ef2d3b78deae1e1ca1510f13b6f22f1b9f0884a382",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 SNS 사용 분석에서 축약 뜻과 연애 맥락의 실제 언급 확인.",
+      "tags": [
+        "연애"
+      ]
+    },
+    "swag": {
+      "title": "스웩",
+      "aliases": [
+        "SWAG"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "8545c0750550e1979fd07077e9d27022961ff7bb198c4b13a194fc7d6a9d22fc",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 힙합 음악인 직접 인터뷰에서 뜻과 실제 사용 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "ppojjak": {
+      "title": "뽀짝",
+      "aliases": [
+        "귀염뽀짝",
+        "큐티뽀짝"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "1f7164e502ca202b4518641754a860374e49fad733743b34fb5b6b26017ec190",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 동물·아이돌 용례와 방언 의미와의 차이를 다룬 본문 확인.",
+      "tags": []
+    },
+    "spoon-class": {
+      "title": "수저계급론",
+      "batch": "korea-list-reviewed-2026-11-16-h",
+      "body_hash": "35113701d925bd0d9e6b4a5893769f8ed37b71fc844596467316323966dac21e",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 커뮤니티 분류·빙고 확산과 불평등 풍자·비하 우려 본문 확인.",
       "tags": []
     }
   }
