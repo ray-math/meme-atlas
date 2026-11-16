@@ -15,9 +15,9 @@
   "comparison": {
     "repository": "ray-math/meme-atlas",
     "ref": "main",
-    "search_index_blob_sha": "258d1c978c05e99940d07d5ec11ffd1d8aae852a",
-    "entry_count": 192,
-    "method": "제목/별칭 공백·일부 구두점 정규화 일치. 의미 중복·후속 PR 반영은 별도 검토. 2026-11-16 PR7 반영 후 179개와 경로 일관성 재확인. 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
+    "search_index_blob_sha": "59de949a57e51a2aa77166e6f010d09e72e33c08",
+    "entry_count": 209,
+    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR13 main 검색색인209개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
   },
   "candidates": [
     {
@@ -1272,10 +1272,21 @@
       "section": "ㄱ",
       "source_line": 164,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/gazua.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20171215165100004",
+          "published_at": "2017-12-16",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-0165",
@@ -1691,10 +1702,21 @@
       "section": "ㄱ",
       "source_line": 199,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/goguma-frustration.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20260205190400005",
+          "published_at": "2026-02-05",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-0200",
@@ -1922,10 +1944,21 @@
       "section": "ㄱ",
       "source_line": 219,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/guava-mango-song.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.adic.or.kr/journal/column/show.do?ukey=10902",
+          "published_at": "2009-04-03",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-0220",
@@ -2047,10 +2080,21 @@
       "section": "ㄱ",
       "source_line": 230,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/sorry-for-being-cute.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://enews.imbc.com/M/Detail/374485",
+          "published_at": "2023-02-22",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-0231",
@@ -2337,10 +2381,21 @@
       "section": "ㄱ",
       "source_line": 255,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/school-slang-style.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201711262254015",
+          "published_at": "2017-11-26",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-0256",
@@ -2594,10 +2649,21 @@
       "section": "ㄱ",
       "source_line": 278,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/flower-road.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20161220157600033",
+          "published_at": "2016-12-21",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-0279",
@@ -2946,10 +3012,21 @@
       "section": "ㄴ",
       "source_line": 310,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/male-female-friend.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://biz.chosun.com/site/data/html_dir/2015/10/20/2015102000601.html?outputType=amp",
+          "published_at": "2015-10-20",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-0311",
@@ -3261,10 +3338,21 @@
       "section": "ㄴ",
       "source_line": 337,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/next-level-dance.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20211117076400005",
+          "published_at": "2021-11-17",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-0338",
@@ -3501,10 +3589,21 @@
       "section": "ㄴ",
       "source_line": 357,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/nico-nico-ni.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20170627071047979?s=print_news",
+          "published_at": "2017-06-27",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-0358",
@@ -3556,10 +3655,21 @@
       "section": "ㄷ",
       "source_line": 363,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/dame-dame.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://economist.co.kr/article/view/ecn202101310007",
+          "published_at": "2021-01-31",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-0364",
@@ -6167,10 +6277,21 @@
       "section": "ㅅ",
       "source_line": 598,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/cider-relief.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20260205190400005",
+          "published_at": "2026-02-05",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-0599",
@@ -11957,10 +12078,21 @@
       "section": "ㅎ",
       "source_line": 1115,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/happy-circuit.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://zdnet.co.kr/view/?no=20181106033913",
+          "published_at": "2018-11-06",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-1116",
@@ -11968,10 +12100,21 @@
       "section": "ㅎ",
       "source_line": 1116,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/haengshow.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://enews.imbc.com/News/RetrieveNewsInfo/68455",
+          "published_at": "2012-09-30",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-1117",
@@ -12034,10 +12177,21 @@
       "section": "ㅎ",
       "source_line": 1122,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/pumpkin-sweet-potato.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.hankookilbo.com/news/article/A2024090914430004801",
+          "published_at": "2024-09-10",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-1123",
@@ -12056,10 +12210,21 @@
       "section": "ㅎ",
       "source_line": 1124,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/nonghyup-flirting.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.newsis.com/view/NISX20240115_0002592844?pc_view=1",
+          "published_at": "2024-01-16",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-1125",
@@ -12188,10 +12353,21 @@
       "section": "ㅎ",
       "source_line": 1136,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/dizzy-hurry.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.dongascience.com/ko/news/9176",
+          "published_at": "2015-12-27",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-1137",
@@ -12225,10 +12401,21 @@
       "section": "ㅎ",
       "source_line": 1139,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/hyeja.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A201412220597",
+          "published_at": "2014-12-22",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 뜻·국내 사용 범위를 독립 본문으로 검토하고 PR #13 main 반영 확인. 기사 발행일을 새 유행/최초 발생일로 취급하지 않음."
+      ]
     },
     {
       "id": "kr-list-1140",
