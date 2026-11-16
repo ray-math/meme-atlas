@@ -15,9 +15,9 @@
   "comparison": {
     "repository": "ray-math/meme-atlas",
     "ref": "main",
-    "search_index_blob_sha": "c9b302e967cacfaa0d63a0fbb71117d7aaac8bfa",
-    "entry_count": 223,
-    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR15 main 검색색인223개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
+    "search_index_blob_sha": "49273f23e282d3ae6e3759728c1a9adc51f48480",
+    "entry_count": 238,
+    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR17 main 검색색인238개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
   },
   "candidates": [
     {
@@ -2623,10 +2623,21 @@
       "section": "ㄱ",
       "source_line": 275,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/vertex-dance.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.nongmin.com/article/20060317149827",
+          "published_at": "2006-03-17",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0276",
@@ -4691,10 +4702,12 @@
       "section": "ㅁ",
       "source_line": 451,
       "parent_id": null,
-      "status": "unreviewed",
+      "status": "held",
       "dictionary_paths": [],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "2026-11-16: 한국 내 실제 밈 사용을 뒷받침할 독립 본문 근거 부족으로 이번 수록 보류. 위키·블로그 중심 검색 결과만으로 발행하지 않음. 추가 국내 사례 확보 후 재검토 가능."
+      ]
     },
     {
       "id": "kr-list-0452",
@@ -5176,10 +5189,21 @@
       "section": "ㅁ",
       "source_line": 493,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/civilized-away.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://weekly.khan.co.kr/article/201010201500401",
+          "published_at": "2010-10-20",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0494",
@@ -5297,10 +5321,21 @@
       "section": "ㅁ",
       "source_line": 503,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/mwongmi.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://news.nate.com/view/20080717n18701?mid=n0000",
+          "published_at": "2008-07-17",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0504",
@@ -5308,10 +5343,21 @@
       "section": "ㅁ",
       "source_line": 504,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/pomegranate-song.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.fnnews.com/news/200604031440477310",
+          "published_at": "2006-04-03",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0505",
@@ -5821,10 +5867,21 @@
       "section": "ㅂ",
       "source_line": 549,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/trembling-reaction.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20150919044807034?s=print_news",
+          "published_at": "2015-09-19",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0550",
@@ -5902,10 +5959,21 @@
       "section": "ㅂ",
       "source_line": 556,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/fiery-friday.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148762504",
+          "published_at": "2013-06-19",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0557",
@@ -6089,10 +6157,21 @@
       "section": "ㅂ",
       "source_line": 573,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/big-mac-song.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.wikitree.co.kr/articles/113135",
+          "published_at": "2013-04-05",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0574",
@@ -6133,10 +6212,21 @@
       "section": "ㅂ",
       "source_line": 577,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/ppappinom.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://sports.khan.co.kr/article/200807302115016/amp",
+          "published_at": "2008-07-30",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0578",
@@ -6203,10 +6293,21 @@
       "section": "ㅂ",
       "source_line": 583,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/bbangsang.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20080905084500005",
+          "published_at": "2008-09-05",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0584",
@@ -6420,10 +6521,12 @@
       "section": "ㅅ",
       "source_line": 601,
       "parent_id": null,
-      "status": "unreviewed",
+      "status": "held",
       "dictionary_paths": [],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "2026-11-16: 한국 내 실제 밈 사용을 뒷받침할 독립 본문 근거 부족으로 이번 수록 보류. 위키·블로그 중심 검색 결과만으로 발행하지 않음. 추가 국내 사례 확보 후 재검토 가능."
+      ]
     },
     {
       "id": "kr-list-0602",
@@ -6431,10 +6534,28 @@
       "section": "ㅅ",
       "source_line": 602,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/sakuranbo-challenge.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.genie.co.kr/magazine/subMain?ctid=1&mgz_seq=9777",
+          "published_at": null,
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        },
+        {
+          "url": "https://v.daum.net/v/1bcMDu8Cis?f=p",
+          "published_at": "2023-07-14",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음.",
+        "가수 인터뷰 정확한 게시일 미표시. 본문 2021년 근황 문맥과 날짜가 확인된 별도 국내 챌린지 보도를 구분."
+      ]
     },
     {
       "id": "kr-list-0603",
@@ -6934,10 +7055,12 @@
       "section": "ㅅ",
       "source_line": 646,
       "parent_id": null,
-      "status": "unreviewed",
+      "status": "held",
       "dictionary_paths": [],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "2026-11-16: 한국 내 실제 밈 사용을 뒷받침할 독립 본문 근거 부족으로 이번 수록 보류. 위키·블로그 중심 검색 결과만으로 발행하지 않음. 추가 국내 사례 확보 후 재검토 가능."
+      ]
     },
     {
       "id": "kr-list-0647",
@@ -8168,10 +8291,21 @@
       "section": "ㅇ",
       "source_line": 754,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/stern-serious.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1006393527",
+          "published_at": "2021-07-15",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0755",
@@ -8289,10 +8423,21 @@
       "section": "ㅇ",
       "source_line": 765,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/be-rich.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/200202230045301",
+          "published_at": "2002-02-23",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0766",
@@ -8675,10 +8820,12 @@
       "section": "ㅇ",
       "source_line": 799,
       "parent_id": null,
-      "status": "unreviewed",
+      "status": "held",
       "dictionary_paths": [],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "2026-11-16: 한국 내 실제 밈 사용을 뒷받침할 독립 본문 근거 부족으로 이번 수록 보류. 위키·블로그 중심 검색 결과만으로 발행하지 않음. 추가 국내 사례 확보 후 재검토 가능."
+      ]
     },
     {
       "id": "kr-list-0800",
@@ -8697,10 +8844,21 @@
       "section": "ㅇ",
       "source_line": 801,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/waldo-style.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://inmun360.culture.go.kr/content/357.do?cid=2367307&mode=view&page=19",
+          "published_at": "2020-10-27",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0802",
@@ -9054,10 +9212,21 @@
       "section": "ㅇ",
       "source_line": 832,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/euri.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201406022113015",
+          "published_at": "2014-06-02",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0833",
@@ -9811,10 +9980,21 @@
       "section": "ㅈ",
       "source_line": 899,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/dream-of-me.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://news.appstory.co.kr/plan8477",
+          "published_at": "2016-06-07",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 독립 본문으로 뜻·국내 활용을 검토해 PR #17 main 수록 확인. 과거 유행이며 최근 관측일을 생성하지 않음."
+      ]
     },
     {
       "id": "kr-list-0900",
