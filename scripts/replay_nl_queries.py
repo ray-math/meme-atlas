@@ -1,6 +1,9 @@
 """Replay frozen AI query plans using the real search implementation. No LLM call here."""
 import argparse
 import json
+import hashlib
+import os
+from datetime import datetime, timezone
 from pathlib import Path
 from usage_profiles import ROOT, load_vocabulary
 from build_usage_index import build_usage_index
@@ -21,7 +24,12 @@ def replay(plans, root=ROOT):
                 result={'status':'invalid_plan','results':[],'reason':str(exc)}
         results.append({'id':identity,'prompt':plan['prompt'],'action':plan['action'],
                         'filters':plan.get('filters',{}),'retrieval':result})
+    digest=lambda value: hashlib.sha256(json.dumps(value,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
     return {'schema_version':1,'execution':'actual_search_replay_not_llm_inference',
+            'recorded_at':datetime.now(timezone.utc).isoformat(),
+            'source_revision':os.environ.get('GITHUB_SHA','unrecorded'),
+            'plans_sha256':digest(plans),'index_sha256':digest(index),
+            'vocabulary_sha256':digest(vocabulary),
             'coverage':index['coverage'],'results':results}
 
 if __name__=='__main__':
