@@ -15,9 +15,9 @@
   "comparison": {
     "repository": "ray-math/meme-atlas",
     "ref": "main",
-    "search_index_blob_sha": "fae29e4eb48781e3c0808fce3dce344050835a51",
-    "entry_count": 268,
-    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR21 main 검색색인268개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
+    "search_index_blob_sha": "ca2e2538ac44e94ee17f17767f4db172983a2b46",
+    "entry_count": 282,
+    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR24 main 검색색인282개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
   },
   "candidates": [
     {
@@ -1353,10 +1353,22 @@
       "section": "ㄱ",
       "source_line": 167,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/watch-out-cold.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2019120410504760553",
+          "published_at": "2019-12-04",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님.",
+        "별도 패러디 캠페인 보도는 광고 표시 콘텐츠이므로 독립 근거로 세지 않고 실행 사례의 1차 근거로만 참조."
+      ]
     },
     {
       "id": "kr-list-0168",
@@ -4617,10 +4629,21 @@
       "section": "ㄹ",
       "source_line": 437,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/red-sun-hypnosis.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://gall.dcinside.com/board/view/?id=dcinterview&no=12565",
+          "published_at": "2008-09-16",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0438",
@@ -5042,10 +5065,21 @@
       "section": "ㅁ",
       "source_line": 473,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/nobody-knows-secret.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01095526629249984",
+          "published_at": "2021-11-27",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0474",
@@ -5152,10 +5186,21 @@
       "section": "ㅁ",
       "source_line": 482,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/momjjang.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.donga.com/news/amp/all/20040115/8020636/1",
+          "published_at": "2004-01-15",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0483",
@@ -7304,10 +7349,12 @@
       "section": "ㅅ",
       "source_line": 652,
       "parent_id": null,
-      "status": "unreviewed",
+      "status": "held",
       "dictionary_paths": [],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "2026-11-16: 해외 시리즈 인기와 국내 반응 외에 한국 내 특정 재사용 형식의 독립 본문 근거 부족."
+      ]
     },
     {
       "id": "kr-list-0653",
@@ -7348,10 +7395,21 @@
       "section": "ㅅ",
       "source_line": 655,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/sad-frog.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20220221106500005",
+          "published_at": "2022-02-21",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0656",
@@ -7991,10 +8049,22 @@
       "section": "ㅇ",
       "source_line": 709,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/ahehheh.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.korean.go.kr/nkview/nklife/2005_1/2005_0103.pdf",
+          "published_at": null,
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님.",
+        "국립국어원 새국어생활 2005년 봄 15권1호 p50(파일14쪽) 각주 직접 확인. 정확한 발행일 미상이라 날짜는 null."
+      ]
     },
     {
       "id": "kr-list-0710",
@@ -8193,10 +8263,19 @@
       "section": "ㅇ",
       "source_line": 725,
       "parent_id": null,
-      "status": "unreviewed",
+      "status": "held",
       "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "evidence": [
+        {
+          "url": "https://weekly.khan.co.kr/article/202010301540361",
+          "published_at": "2020-10-30",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 작품 패러디 인기 자체는 작가 인터뷰에서 확인했으나 개별 대사·장면의 뜻과 실제 재사용 근거를 아직 분리하지 못함. 작품 전체를 독립 밈 하나로 요약하지 않고 추가 검토."
+      ]
     },
     {
       "id": "kr-list-0726",
@@ -8402,10 +8481,22 @@
       "section": "ㅇ",
       "source_line": 743,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/you-impostor.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.careet.net/187",
+          "published_at": "2020-08-21",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님.",
+        "게임 전체가 아니라 공개 본문에서 확인한 '너 임포스터지?' 표현만 연결. 유료벽 뒤는 읽지 않음. sus·어몽어스 잼민이 등 다른 파생은 미검토."
+      ]
     },
     {
       "id": "kr-list-0744",
@@ -8505,10 +8596,21 @@
       "section": "ㅇ",
       "source_line": 752,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/eoljjang.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.seoul.co.kr/news/2003/08/25/20030825022001",
+          "published_at": "2003-08-25",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0753",
@@ -8626,10 +8728,21 @@
       "section": "ㅇ",
       "source_line": 762,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/edge-style.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mk.co.kr/news/culture/4666798",
+          "published_at": "2009-12-27",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0763",
@@ -8714,10 +8827,21 @@
       "section": "ㅇ",
       "source_line": 769,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/work-hard-leave.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.ad.co.kr/journal/column/show.do?ukey=250795",
+          "published_at": "2002-08-09",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0770",
@@ -8751,10 +8875,21 @@
       "section": "ㅇ",
       "source_line": 772,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/yeopgi-humor.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/200012251708421",
+          "published_at": "2000-12-25",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0773",
@@ -8799,10 +8934,21 @@
       "section": "ㅇ",
       "source_line": 776,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/peaceful-used-market.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20180910071400797",
+          "published_at": "2018-09-10",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0777",
@@ -10052,10 +10198,21 @@
       "section": "ㅇ",
       "source_line": 880,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/proof-photo.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/20100604113158A/",
+          "published_at": "2010-06-04",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님."
+      ]
     },
     {
       "id": "kr-list-0881",
@@ -12972,10 +13129,22 @@
       "section": "ㅎ",
       "source_line": 1130,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/heol.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.korean.go.kr/nkview/nklife/2005_1/2005_0103.pdf",
+          "published_at": null,
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 쓰임·개별 표현 범위 검토 후 PR #24 main 수록 확인. 역사적 자료이며 최근 관측 아님.",
+        "국립국어원 새국어생활 2005년 봄 15권1호 p50(파일14쪽) 각주 직접 확인. 정확한 발행일 미상이라 날짜는 null."
+      ]
     },
     {
       "id": "kr-list-1131",
