@@ -7,9 +7,12 @@
 | 찾는 방법 | 안내 |
 | --- | --- |
 | [전체 밈 목록](memes/README.md) | 이름으로 항목 찾기 |
+| [분야·소재별 목록](collections/topics.md) | 게임·방송·영화 등 분야로 찾기 |
+| [최근 1년 선별](collections/latest-year.md) | 날짜·국내 용례를 교차 확인한 최근 선택 |
 | [월별 목록](months/README.md) | 특정 시기에 관찰된 밈 찾아보기 |
+| [확장 시험 수록](collections/pilot-30.md) | 한국 밈 수집 절차 검증용 표본 |
 
-현재는 **2026년 9~11월에 관찰된 밈**을 시험 수록하고 있습니다. 11월 목록은 11월 13일까지 확인한 범위이며, 월은 최초 탄생일이 아니라 사용·확산이 관찰된 시기를 뜻합니다.
+기존 목록은 **2026년 9~11월에 관찰된 밈**을 시험 수록한 것입니다. 확장 시험 표본은 별도 목록으로 구분하며 최근 유행을 주장하지 않습니다. 11월 목록은 확인된 항목을 순차적으로 보완하며, 월은 최초 탄생일이 아니라 사용·확산이 관찰된 시기를 뜻합니다.
 
 ## 사전의 구성
 
@@ -18,3 +21,15 @@
 월별 목록은 항목으로 이동하는 목차입니다. 같은 밈이 여러 달에 나타나도 설명을 복제하지 않고 같은 항목으로 연결합니다.
 
 [작성 가이드](CONTRIBUTING.md) · [항목 템플릿](templates/meme.md)
+
+## 필요한 내용만 조회
+
+검색 후 항목 id로 뜻풀이·유래·관련 밈 중 필요한 부분만 읽을 수 있습니다. 현재는 Python CLI이며, 원격 MCP 서버가 실행되는 것은 아닙니다.
+
+```sh
+python scripts/search_dictionary.py '럭키비키' --limit 3
+python scripts/get_entry.py wonyoung-thinking --section definition
+python scripts/get_entry.py wonyoung-thinking --section origin
+```
+
+편집 후 `python scripts/build_index.py`로 검색/분야 목차를 갱신하고 `python scripts/check_generated.py`로 원본과 일치하는지 확인합니다.

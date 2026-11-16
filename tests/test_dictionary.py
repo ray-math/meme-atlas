@@ -12,12 +12,16 @@ class DictionaryTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory(); self.addCleanup(self.temp.cleanup)
         self.root=Path(self.temp.name)
-        for name in ['README.md','CONTRIBUTING.md','memes','months','templates']:
+        for name in ['README.md','CONTRIBUTING.md','memes','months','templates','collections']:
             src=ROOT/name; dst=self.root/name
+            if not src.exists(): continue
             shutil.copytree(src,dst) if src.is_dir() else shutil.copy2(src,dst)
     def edit(self,path,old,new):
         p=self.root/path; p.write_text(p.read_text().replace(old,new))
     def test_current(self): self.assertEqual(checker.check(self.root),[])
+    def test_normalized_alias_collision(self):
+        self.edit('memes/click.md','tags: ["AI", "게임"]','tags: ["AI", "게임"]\naliases: ["ＣＲＩＳＳ Cross"]')
+        self.assertTrue(any('alias collision' in e for e in checker.check(self.root)))
     def test_broken_link(self):
         self.edit('memes/README.md','click.md','missing.md')
         self.assertTrue(any('broken link' in e for e in checker.check(self.root)))
@@ -47,3 +51,4 @@ class DictionaryTests(unittest.TestCase):
         self.assertEqual(checker.check(self.root),[])
 
 if __name__=='__main__': unittest.main()
+
