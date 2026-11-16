@@ -137,3 +137,42 @@ class UsageValidationTests(unittest.TestCase):
         report=evaluate(ROOT)
         self.assertEqual(report['passed'],report['total'],
                          [r for r in report['results'] if not r['passed']])
+
+    def test_get_entry_usage_opt_in_and_unannotated(self):
+        from get_entry import get_entry
+        legacy=get_entry(ROOT,'real-lol')
+        self.assertNotIn('usage_profile',legacy)
+        annotated=get_entry(ROOT,'real-lol',include_usage=True)
+        self.assertEqual(annotated['usage_annotation_status'],'reviewed')
+        self.assertEqual(len(annotated['usage_profile']['usages']),2)
+        unknown=get_entry(ROOT,'54000',include_usage=True)
+        self.assertEqual(unknown['usage_annotation_status'],'unannotated')
+        self.assertIsNone(unknown['usage_profile'])
+
+    def test_cli_machine_readable_lookup(self):
+        import subprocess
+        output=subprocess.run([sys.executable,str(ROOT/'scripts/search_usage.py'),
+                               '--emotion','놀람','--mode','lookup'],
+                              check=True,capture_output=True,text=True)
+        result=json.loads(output.stdout)
+        self.assertEqual(result['status'],'matches')
+        self.assertEqual(result['coverage']['annotated_entries'],28)
+
+    def test_batch_changed_annotated_entry_rolls_back(self):
+        import shutil
+        import pilot_batch
+        from frontmatter import read
+        from check_dictionary import title
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)/'repo';shutil.copytree(ROOT,root)
+            path=root/'memes/injeong.md';before=path.read_text();meta=read(before)
+            row={'slug':'injeong','title':title(before),'operation':'update',
+                 'expected_body_hash':pilot_batch.digest(before),'reviewed':True,
+                 'scope_type':'korean_usage','scope_basis':'시험용 독립 사용 검토',
+                 'evidence':[{'url':'https://example.org/a'},{'url':'https://example.org/b'}],
+                 'tags':meta.get('tags',[]),'aliases':meta.get('aliases',[]),
+                 'markdown':before[before.index('# '):]+'\n뜻풀이 재검토가 필요한 변경\n'}
+            source=Path(directory)/'input.json';source.write_text(json.dumps([row]))
+            with self.assertRaisesRegex(ValueError,'source changed'):
+                pilot_batch.apply(root,source,'usage-stale-test')
+            self.assertEqual(path.read_text(),before)
