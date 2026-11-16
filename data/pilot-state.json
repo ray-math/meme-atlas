@@ -252,6 +252,12 @@
         "green-onion-chex",
         "jimotmi"
       ]
+    },
+    "reviewed-chungju-nyang-2026-11-16": {
+      "input_hash": "9fe7f3f13a7875e21ae934872254d91d565ba19e8ad8c0f02d09e4a8c9c4a6ae",
+      "ids": [
+        "nyang-parody"
+      ]
     }
   },
   "entries": {
@@ -2097,6 +2103,21 @@
       "scope_type": "korean_origin",
       "scope_basis": "한국어 위로 문장을 축약해 국내 온라인에서 사용하는 표현이다.",
       "tags": []
+    },
+    "nyang-parody": {
+      "title": "○○냥이",
+      "aliases": [
+        "OO냥이",
+        "~냥이"
+      ],
+      "batch": "reviewed-chungju-nyang-2026-11-16",
+      "body_hash": "3791a47fb178d27fe39be5a0aa8d5803c72347ac850a8e96a111ddf876afbf8b",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 시험 논란의 온라인 닉네임을 한국어 이름 바꾸기와 공개 검증 풍자로 재구성한 용법.",
+      "tags": [
+        "AI",
+        "인터넷방송"
+      ]
     }
   }
 }

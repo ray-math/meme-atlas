@@ -6,6 +6,7 @@
 - [L을 가져가](take-the-l.md)
 - [Queen never cry](queen-never-cry.md)
 - [~삐](ppi.md)
+- [○○냥이](nyang-parody.md)
 - [가보자고](gabojago.md)
 - [간 때문이야](gan-because.md)
 - [감옥에서 누가 돌아왔게](who-is-back-from-prison.md)

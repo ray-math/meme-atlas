@@ -5,6 +5,7 @@
 ## AI
 
 - [54000개](../memes/54000.md)
+- [○○냥이](../memes/nyang-parody.md)
 - [딸깍](../memes/click.md)
 - [혐대고기](../memes/hyumdae-meat.md)
 
@@ -230,6 +231,7 @@
 
 ## 인터넷방송
 
+- [○○냥이](../memes/nyang-parody.md)
 - [감옥에서 누가 돌아왔게](../memes/who-is-back-from-prison.md)
 - [골반이 멈추지 않아](../memes/pelvis-wont-stop.md)
 - [기도해 드릴게요](../memes/pray-for-you.md)
