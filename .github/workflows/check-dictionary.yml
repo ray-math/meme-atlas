@@ -28,3 +28,5 @@ jobs:
       - run: python scripts/replay_nl_queries.py eval/challenge/audit-plans.json --jsonl
       - run: python scripts/replay_nl_queries.py eval/challenge/editorial-plans.json --jsonl
       - run: python scripts/check_context_decisions.py eval/holdout/plans.json eval/holdout/retrieval.json eval/holdout/answers.json
+      - run: python scripts/check_context_decisions.py eval/challenge/audit-plans.json eval/challenge/audit-retrieval.json eval/challenge/audit-answers.json
+      - run: python scripts/check_context_decisions.py eval/challenge/editorial-plans.json eval/challenge/editorial-retrieval.json eval/challenge/editorial-answers.json
