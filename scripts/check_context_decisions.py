@@ -32,3 +32,14 @@ def validate_decisions(plans, retrieval, answers):
         elif not set(usage['risk_flags']).issubset(checked):
             errors.append(identity+': risk flags not assessed')
     return errors
+
+if __name__=='__main__':
+    import argparse
+    import json
+    from pathlib import Path
+    p=argparse.ArgumentParser(description=__doc__)
+    for name in ('plans','retrieval','answers'):p.add_argument(name,type=Path)
+    args=p.parse_args()
+    errors=validate_decisions(*(json.loads(getattr(args,k).read_text()) for k in ('plans','retrieval','answers')))
+    if errors:p.exit(1,'\n'.join(errors)+'\n')
+    print('Context decision records are auditable; this is not semantic or safety certification.')
