@@ -1,0 +1,1460 @@
+{
+  "schema_version": 1,
+  "profiles": [
+    {
+      "entry_id": "daebak-reaction",
+      "source_sha": "956ef9e3e44d4e98dae9ef50a206761bb9110a3a",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e의 항목 본문을 직접 읽고 뜻풀이와 사용 예를 대조한 편집 주석. 실제 사용자의 내면·숨은 의도를 판정하지 않음. 예문과 적합성 판단은 편집 작성이며 외부 용례 인용이 아님.",
+      "usages": [
+        {
+          "id": "admire",
+          "emotions": [
+            "놀람",
+            "기쁨"
+          ],
+          "intents": [
+            "감탄",
+            "칭찬"
+          ],
+          "situations": [
+            "기대이상",
+            "성과"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "좋은 결과에 호의적으로 반응한다.",
+          "avoid_when": [
+            "피해나 실패를 기뻐하는 것으로 읽힐 때"
+          ],
+          "example": {
+            "text": "첫 발표가 최우수상이라니, 대박!",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "heol",
+      "source_sha": "7b96e16ef9ba55a5a7428cdb92b346a1f1078739",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e의 항목 본문을 직접 읽고 뜻풀이와 사용 예를 대조한 편집 주석. 실제 사용자의 내면·숨은 의도를 판정하지 않음. 예문과 적합성 판단은 편집 작성이며 외부 용례 인용이 아님.",
+      "usages": [
+        {
+          "id": "unexpected",
+          "emotions": [
+            "놀람",
+            "당혹"
+          ],
+          "intents": [
+            "감탄"
+          ],
+          "situations": [
+            "뜻밖의소식"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "무성의하게들림"
+          ],
+          "safety": "caution",
+          "context": "예상 밖 소식에 짧게 반응하며 긍정·부정은 단정하지 않는다.",
+          "avoid_when": [
+            "진지한 도움 요청에 이 한마디만 답할 때"
+          ],
+          "example": {
+            "text": "헐, 오늘이 벌써 마감이야?",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "is-this-real",
+      "source_sha": "a4b2c1fd404b93b838ae6a65e6771d8b1d06f968",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e의 항목 본문을 직접 읽고 뜻풀이와 사용 예를 대조한 편집 주석. 실제 사용자의 내면·숨은 의도를 판정하지 않음. 예문과 적합성 판단은 편집 작성이며 외부 용례 인용이 아님.",
+      "usages": [
+        {
+          "id": "pleasant-surprise",
+          "emotions": [
+            "놀람",
+            "기쁨"
+          ],
+          "intents": [
+            "감탄"
+          ],
+          "situations": [
+            "기대이상",
+            "성과"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "좋은 결과가 믿기지 않는다는 감탄이다.",
+          "avoid_when": [
+            "실제 사실 검증 답변이 필요한 때"
+          ],
+          "example": {
+            "text": "추첨에 당첨됐어. 이거 실화냐!",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        },
+        {
+          "id": "bewildered",
+          "emotions": [
+            "놀람",
+            "당혹"
+          ],
+          "intents": [
+            "감탄"
+          ],
+          "situations": [
+            "예상밖실수"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "공개망신"
+          ],
+          "safety": "caution",
+          "context": "뜻밖의 실수나 상황을 황당해한다.",
+          "avoid_when": [
+            "실수한 상대를 공개적으로 망신줄 때"
+          ],
+          "example": {
+            "text": "회의 날짜를 한 달 뒤로 잡았대. 이거 실화냐?",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "iwaejin",
+      "source_sha": "53660e445a3454a6173b88264fce498c44bc42d6",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e의 항목 본문을 직접 읽고 뜻풀이와 사용 예를 대조한 편집 주석. 실제 사용자의 내면·숨은 의도를 판정하지 않음. 예문과 적합성 판단은 편집 작성이며 외부 용례 인용이 아님.",
+      "usages": [
+        {
+          "id": "confirmed-surprise",
+          "emotions": [
+            "놀람"
+          ],
+          "intents": [
+            "감탄"
+          ],
+          "situations": [
+            "예상밖사실",
+            "사실확인후"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "사실오인"
+          ],
+          "safety": "caution",
+          "context": "사실임이 확인된 뒤 예상과 현실의 차이에 놀란다.",
+          "avoid_when": [
+            "검증되지 않은 소문을 사실로 암시할 때"
+          ],
+          "example": {
+            "text": "가짜 행사인 줄 알았는데 실제로 열린대. 이왜진.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "kingbatne",
+      "source_sha": "089d5e4a0d0d277ec60b5f730d7ebee2ca8dc381",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e의 항목 본문을 직접 읽고 뜻풀이와 사용 예를 대조한 편집 주석. 실제 사용자의 내면·숨은 의도를 판정하지 않음. 예문과 적합성 판단은 편집 작성이며 외부 용례 인용이 아님.",
+      "usages": [
+        {
+          "id": "amused-irritation",
+          "emotions": [
+            "짜증",
+            "재미"
+          ],
+          "intents": [
+            "장난스러운항의"
+          ],
+          "situations": [
+            "얄미운농담",
+            "말장난"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "관계의존"
+          ],
+          "safety": "caution",
+          "context": "서로 장난이 통하는 사이에서 웃음 섞인 약 오름을 표현한다.",
+          "avoid_when": [
+            "상대가 진지하게 사과하거나 고통을 말할 때"
+          ],
+          "example": {
+            "text": "그 아재개그 또 했어? 웃긴데 킹받네.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        },
+        {
+          "id": "tease-back",
+          "emotions": [
+            "재미"
+          ],
+          "intents": [
+            "약올림"
+          ],
+          "situations": [
+            "장난말싸움"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "도발",
+            "관계의존"
+          ],
+          "safety": "caution",
+          "context": "본문의 킹받쥬 변형처럼 합의된 말장난에서 상대 반응을 유도한다.",
+          "avoid_when": [
+            "상대가 그만하라고 한 뒤",
+            "낯선 상대에게 도발할 때"
+          ],
+          "example": {
+            "text": "내 말장난에 또 웃었네. 킹받쥬?",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "you-insulted-me",
+      "source_sha": "5fec4ef4433c320df3cb88779c29dcd0ea6ad4f7",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e의 항목 본문을 직접 읽고 뜻풀이와 사용 예를 대조한 편집 주석. 실제 사용자의 내면·숨은 의도를 판정하지 않음. 예문과 적합성 판단은 편집 작성이며 외부 용례 인용이 아님.",
+      "usages": [
+        {
+          "id": "mock-serious-protest",
+          "emotions": [
+            "민망함"
+          ],
+          "intents": [
+            "장난스러운항의"
+          ],
+          "situations": [
+            "가벼운놀림"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "갈등오인"
+          ],
+          "safety": "caution",
+          "context": "사소한 놀림에 과하게 엄숙한 영화 말투로 반응한다.",
+          "avoid_when": [
+            "실제 갈등이나 위협으로 오해할 상황"
+          ],
+          "example": {
+            "text": "내 그림을 감자라고 하다니. 넌 나에게 모욕감을 줬어.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "goguma-frustration",
+      "source_sha": "a8ceb43ed53c311191bc7f8e84487c6b3c2a811f",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e의 항목 본문을 직접 읽고 뜻풀이와 사용 예를 대조한 편집 주석. 실제 사용자의 내면·숨은 의도를 판정하지 않음. 예문과 적합성 판단은 편집 작성이며 외부 용례 인용이 아님.",
+      "usages": [
+        {
+          "id": "frustrating-plot",
+          "emotions": [
+            "답답함"
+          ],
+          "intents": [
+            "상황평가"
+          ],
+          "situations": [
+            "갈등지속",
+            "드라마감상"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "타인비하"
+          ],
+          "safety": "caution",
+          "context": "풀리지 않는 전개나 상황의 답답함을 말한다.",
+          "avoid_when": [
+            "현실의 어려움을 겪는 사람 자체를 무능하다고 평가할 때"
+          ],
+          "example": {
+            "text": "오해를 풀 기회마다 놓치네. 오늘 전개 고구마야.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "cider-relief",
+      "source_sha": "01564fb2e336326538123983355356340ac9fa80",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e의 항목 본문을 직접 읽고 뜻풀이와 사용 예를 대조한 편집 주석. 실제 사용자의 내면·숨은 의도를 판정하지 않음. 예문과 적합성 판단은 편집 작성이며 외부 용례 인용이 아님.",
+      "usages": [
+        {
+          "id": "satisfying-resolution",
+          "emotions": [
+            "통쾌함"
+          ],
+          "intents": [
+            "칭찬"
+          ],
+          "situations": [
+            "갈등해결",
+            "명쾌한반박"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "공격미화"
+          ],
+          "safety": "caution",
+          "context": "문제가 실제로 정리되거나 핵심을 짚는 대응을 칭찬한다.",
+          "avoid_when": [
+            "욕설이나 괴롭힘을 통쾌한 해결로 포장할 때"
+          ],
+          "example": {
+            "text": "빠진 근거를 짚어 주니 논쟁이 정리됐네. 사이다다.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "space-behind-pillar",
+      "source_sha": "25a4c799e45d59e0cedd7d10bf709e57db89eb94",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e의 항목 본문을 직접 읽고 뜻풀이와 사용 예를 대조한 편집 주석. 실제 사용자의 내면·숨은 의도를 판정하지 않음. 예문과 적합성 판단은 편집 작성이며 외부 용례 인용이 아님.",
+      "usages": [
+        {
+          "id": "repeated-explanation",
+          "emotions": [
+            "답답함"
+          ],
+          "intents": [
+            "불만표현"
+          ],
+          "situations": [
+            "반복질문",
+            "설명불통"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "무시로들림"
+          ],
+          "safety": "caution",
+          "context": "이미 한 설명이 반복해서 전달되지 않는 답답함을 표현한다.",
+          "avoid_when": [
+            "처음 묻는 사람에게 무시하는 답을 할 때"
+          ],
+          "example": {
+            "text": "안내문에 있다고 계속 설명 중이야. 기둥 뒤에 공간 있어요.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "real-lol",
+      "source_sha": "3023b207010318c0ac52e18d2a12e3145bdf8a93",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e의 항목 본문을 직접 읽고 뜻풀이와 사용 예를 대조한 편집 주석. 실제 사용자의 내면·숨은 의도를 판정하지 않음. 예문과 적합성 판단은 편집 작성이며 외부 용례 인용이 아님.",
+      "usages": [
+        {
+          "id": "agree-laugh",
+          "emotions": [
+            "재미"
+          ],
+          "intents": [
+            "동조"
+          ],
+          "situations": [
+            "맞장구"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "반어오인"
+          ],
+          "safety": "caution",
+          "context": "앞선 말에 실제로 동의하며 웃는 반응이다.",
+          "avoid_when": [
+            "앞뒤 맥락 없이 진지한 동의인지 불명확할 때"
+          ],
+          "example": {
+            "text": "이번 편 진짜 웃겼다는 말에: ㄹㅇㅋㅋ.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        },
+        {
+          "id": "ironic-agreement",
+          "emotions": [
+            "어이없음"
+          ],
+          "intents": [
+            "비꼼",
+            "조롱"
+          ],
+          "situations": [
+            "과장된주장",
+            "표면상동의"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "반어",
+            "타인비하",
+            "관계의존"
+          ],
+          "safety": "caution",
+          "context": "동의하는 형식과 실제 평가가 어긋나는 반어적 댓글이다.",
+          "avoid_when": [
+            "취약한 상대를 집단적으로 조롱할 때",
+            "진지한 위로 요청"
+          ],
+          "example": {
+            "text": "매번 지각하는 친구가 시간 엄수 달인이라며 농담하길래: ㄹㅇㅋㅋ.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "injeong",
+      "source_sha": "201fd3b1548795b7564a7834a7b83b75d34f2e07",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e의 항목 본문을 직접 읽고 뜻풀이와 사용 예를 대조한 편집 주석. 실제 사용자의 내면·숨은 의도를 판정하지 않음. 예문과 적합성 판단은 편집 작성이며 외부 용례 인용이 아님.",
+      "usages": [
+        {
+          "id": "agreement",
+          "emotions": [],
+          "intents": [
+            "동조"
+          ],
+          "situations": [
+            "평가동의"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "앞선 평가가 맞다고 확인하며 특정 정서는 본문만으로 정하지 않는다.",
+          "avoid_when": [],
+          "example": {
+            "text": "마무리가 좋았다는 말, 인정.",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 동의 응답 근거. 감정은 명시되지 않아 []이며 중립 감정으로 환산하지 않음."
+        },
+        {
+          "id": "self-confirm",
+          "emotions": [
+            "재미"
+          ],
+          "intents": [
+            "자기강조"
+          ],
+          "situations": [
+            "자문자답"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "자신의 주장에 스스로 답하며 장난스럽게 강조한다.",
+          "avoid_when": [
+            "반박을 막는 권위적 요구로 들릴 때"
+          ],
+          "example": {
+            "text": "오늘 정리 잘했다, 인정? 어 인정.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "happy-circuit",
+      "source_sha": "0f3d1c7deaa82986454e0b6856f47ee56c262ebc",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e의 항목 본문을 직접 읽고 뜻풀이와 사용 예를 대조한 편집 주석. 실제 사용자의 내면·숨은 의도를 판정하지 않음. 예문과 적합성 판단은 편집 작성이며 외부 용례 인용이 아님.",
+      "usages": [
+        {
+          "id": "self-optimism",
+          "emotions": [
+            "기대"
+          ],
+          "intents": [
+            "자조"
+          ],
+          "situations": [
+            "불확실한결과",
+            "낙관적상상"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "사실오인"
+          ],
+          "safety": "caution",
+          "context": "근거보다 기대가 앞선 자기 모습을 웃어넘긴다.",
+          "avoid_when": [
+            "확정된 사실처럼 기대를 전달할 때"
+          ],
+          "example": {
+            "text": "답장 빠른 걸 보니 합격인가? 행복회로 돌리는 중.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단."
+        },
+        {
+          "id": "mock-optimism",
+          "emotions": [],
+          "intents": [
+            "비꼼"
+          ],
+          "situations": [
+            "과도한낙관"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "타인비하"
+          ],
+          "safety": "caution",
+          "context": "타인의 해석이 근거보다 낙관적이라고 지적한다.",
+          "avoid_when": [
+            "진지한 희망이나 회복 노력을 깎아내릴 때"
+          ],
+          "example": {
+            "text": "아직 추첨도 안 했는데 상금 쓸 계획부터 세워? 행복회로네.",
+            "kind": "editorial"
+          },
+          "review_note": "타인의 지나친 낙관을 평가한다는 본문 근거. 발화 정서는 확정하기 어려워 []."
+        }
+      ]
+    },
+    {
+      "entry_id": "musae-repeat",
+      "source_sha": "d0ce1a349713d6dbe7bc7141f754ffe5da94576a",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "self-repeat",
+          "emotions": [
+            "재미"
+          ],
+          "intents": [
+            "자조"
+          ],
+          "situations": [
+            "반복발언"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "같은 말만 하는 자신을 가볍게 돌아본다.",
+          "avoid_when": [],
+          "example": {
+            "text": "나 오늘도 여행 얘기만 했네. 여행무새야.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        },
+        {
+          "id": "tease-repeat",
+          "emotions": [
+            "답답함"
+          ],
+          "intents": [
+            "타박",
+            "비꼼"
+          ],
+          "situations": [
+            "반복발언"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "타인비하",
+            "관계의존"
+          ],
+          "safety": "caution",
+          "context": "친한 사람의 반복 반응을 가볍게 지적한다.",
+          "avoid_when": [
+            "상대의 정당한 문제 제기를 반복이라는 이유로 무시할 때"
+          ],
+          "example": {
+            "text": "또 야식 얘기야? 오늘 야식무새네.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "eojjeol-tv",
+      "source_sha": "80236e619959d93fe780b97cc034f7a68d8e7732",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "playful-retort",
+          "emotions": [
+            "재미"
+          ],
+          "intents": [
+            "약올림",
+            "대화끊기"
+          ],
+          "situations": [
+            "장난말싸움"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "무시로들림",
+            "도발",
+            "관계의존"
+          ],
+          "safety": "caution",
+          "context": "서로 말다툼을 흉내 내며 노는 경우에 한정한다.",
+          "avoid_when": [
+            "도움 요청이나 사과에 답할 때",
+            "상대가 장난을 원하지 않을 때"
+          ],
+          "example": {
+            "text": "친구와 말장난 주고받기: 어쩔티비 저쩔티비.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        },
+        {
+          "id": "dismiss-serious",
+          "emotions": [],
+          "intents": [
+            "무시",
+            "대화끊기"
+          ],
+          "situations": [
+            "진지한말에무응답"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "무시로들림",
+            "상처가능"
+          ],
+          "safety": "avoid",
+          "context": "본문이 무례하다고 경고하는 용법을 식별하기 위한 사례이며 답변 추천용이 아니다.",
+          "avoid_when": [
+            "진지한 고민",
+            "갈등 해결 대화"
+          ],
+          "example": {
+            "text": "진지한 고민에 어쩔티비라고 답하는 상황.",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 진지한 말에 쓰면 무례하다는 경계. 감정은 미판정, 이 상황만 avoid로 표기."
+        }
+      ]
+    },
+    {
+      "entry_id": "i-am-groot",
+      "source_sha": "dfac98f1bbbdcd0dfb2ce685fe4f2118a51c4424",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "withhold-opinion",
+          "emotions": [],
+          "intents": [
+            "말아끼기"
+          ],
+          "situations": [
+            "의견보류",
+            "맥락공유"
+          ],
+          "targets": [
+            "자기",
+            "상황"
+          ],
+          "registers": [
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "의미불명확",
+            "법적면책오인"
+          ],
+          "safety": "caution",
+          "context": "할 말을 구체적으로 밝히지 않고 캐릭터 대사로 대체한다.",
+          "avoid_when": [
+            "책임을 피할 수 있다는 보장으로 사용",
+            "명확한 설명이나 사실 답변이 필요한 때"
+          ],
+          "example": {
+            "text": "이 장면에 하고 싶은 말은 많은데, 아이엠그루트.",
+            "kind": "editorial"
+          },
+          "review_note": "생략된 말은 본문도 맥락 의존이라 명시. 특정 욕설·분노를 추정하지 않아 감정 []."
+        }
+      ]
+    },
+    {
+      "entry_id": "giving-up-easy",
+      "source_sha": "0e10c10ae26005fb83e0a16d1f63f283cfc81d32",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "playful-resignation",
+          "emotions": [
+            "체념"
+          ],
+          "intents": [
+            "자조"
+          ],
+          "situations": [
+            "사소한목표포기"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "고통축소"
+          ],
+          "safety": "caution",
+          "context": "사소한 목표를 오늘은 내려놓는 자기 농담이다.",
+          "avoid_when": [
+            "절박한 실패나 도움 요청에 단념을 권할 때"
+          ],
+          "example": {
+            "text": "희귀 아이템 찾다 지쳤어. 오늘은 포기하면 편해.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "reality-is-gutter",
+      "source_sha": "0003bb03c71037f5459101fc410374e18bc33599",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "expectation-gap",
+          "emotions": [
+            "실망"
+          ],
+          "intents": [
+            "자조"
+          ],
+          "situations": [
+            "기대와현실차이"
+          ],
+          "targets": [
+            "자기",
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "타인비하"
+          ],
+          "safety": "caution",
+          "context": "자신의 계획과 결과 차이를 과장한다.",
+          "avoid_when": [
+            "타인의 처지나 가치를 깎아내릴 때"
+          ],
+          "example": {
+            "text": "계획은 새벽 운동, 현실은 알람 다섯 번 끄기. 현실은 시궁창.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "jonbeo",
+      "source_sha": "e5d8e9ac2a81aa882a35676a63dd262eaac06854",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "keep-going",
+          "emotions": [
+            "결의"
+          ],
+          "intents": [
+            "다짐"
+          ],
+          "situations": [
+            "어려움견디기"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "비속어",
+            "무조건인내강요"
+          ],
+          "safety": "caution",
+          "context": "쉽게 포기하지 않겠다는 자기 다짐이며 거친 어감이 있다.",
+          "avoid_when": [
+            "격식 있는 대화",
+            "위험한 상황에서 무조건 참으라고 할 때"
+          ],
+          "example": {
+            "text": "이번 주만 넘기자. 일단 존버.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        },
+        {
+          "id": "investment-hold",
+          "emotions": [],
+          "intents": [
+            "상태설명"
+          ],
+          "situations": [
+            "투자손실",
+            "보유지속"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "비속어",
+            "투자조언오인"
+          ],
+          "safety": "caution",
+          "context": "시세 회복을 기다리며 매도하지 않는 행동의 설명이다.",
+          "avoid_when": [
+            "투자 수익을 보장하거나 매도하지 말라는 조언으로 쓸 때"
+          ],
+          "example": {
+            "text": "나는 아직 팔지 않고 존버 중이라고 설명했다.",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 장기 보유 용법. 정서를 다짐으로 자동 확대하지 않아 []."
+        }
+      ]
+    },
+    {
+      "entry_id": "jung-kkeok-ma",
+      "source_sha": "8ff5c4a6a38b27187e359f0a801ec6cc4fe0d4d3",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "self-resolve",
+          "emotions": [
+            "결의"
+          ],
+          "intents": [
+            "다짐"
+          ],
+          "situations": [
+            "패배후재도전"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "패배를 인정하되 다시 도전하려는 자신의 태도다.",
+          "avoid_when": [
+            "성공을 보장하는 근거로 제시할 때"
+          ],
+          "example": {
+            "text": "첫 시도는 실패했지만 다시 해볼래. 중꺾마.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        },
+        {
+          "id": "encourage-other",
+          "emotions": [
+            "희망"
+          ],
+          "intents": [
+            "격려"
+          ],
+          "situations": [
+            "패배후재도전"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "무조건인내강요"
+          ],
+          "safety": "caution",
+          "context": "상대가 재도전을 원할 때 의지를 북돋는다.",
+          "avoid_when": [
+            "쉬거나 그만두겠다는 사람에게 도전을 강요할 때"
+          ],
+          "example": {
+            "text": "이번엔 아쉬웠지만 다음 도전도 응원해. 중꺾마.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "hug-me-animal",
+      "source_sha": "88c673486b935ad7c2e63b23f56568b7e41de0eb",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "request-comfort",
+          "emotions": [
+            "다정함"
+          ],
+          "intents": [
+            "위로요청",
+            "관심요청"
+          ],
+          "situations": [
+            "위로받고싶음"
+          ],
+          "targets": [
+            "자기",
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "관계의존",
+            "신체접촉동의오인"
+          ],
+          "safety": "caution",
+          "context": "가까운 상대에게 자신이 위로받고 싶다는 뜻을 전한다.",
+          "avoid_when": [
+            "위로를 주는 표현으로 방향을 뒤집어 추천할 때",
+            "친밀하지 않은 관계에서 신체 접촉을 당연시할 때"
+          ],
+          "example": {
+            "text": "오늘 좀 지쳤어. 안아줘요.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "haengshow",
+      "source_sha": "8a0977caf65b47878a44cb717d9366163670de78",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "well-wishes",
+          "emotions": [
+            "다정함"
+          ],
+          "intents": [
+            "응원",
+            "인사"
+          ],
+          "situations": [
+            "헤어짐",
+            "좋은일기원"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "가벼운 말투로 잘 지내고 행복하길 빈다.",
+          "avoid_when": [
+            "격식 있는 위로를 요구하는 상황"
+          ],
+          "example": {
+            "text": "새로운 곳에서도 잘 지내. 행쇼!",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "green-light-romance",
+      "source_sha": "b51f2f4b064d63a0732331dde1b50508da8e44f0",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "romantic-possibility",
+          "emotions": [
+            "기대"
+          ],
+          "intents": [
+            "가능성묻기"
+          ],
+          "situations": [
+            "호감추측",
+            "연락"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "호감확정오인",
+            "동의오인"
+          ],
+          "safety": "caution",
+          "context": "친절한 행동이 호감 신호인지 가능성을 묻는다.",
+          "avoid_when": [
+            "상대의 연애 감정이나 성적 동의를 확정할 때"
+          ],
+          "example": {
+            "text": "먼저 다음 약속을 잡자는데, 이거 그린라이트인가요?",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "hyeja",
+      "source_sha": "10e041d35c03446cfea6c2a54c3c3a47d7007683",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "good-value",
+          "emotions": [
+            "만족"
+          ],
+          "intents": [
+            "칭찬"
+          ],
+          "situations": [
+            "가성비",
+            "풍성한구성"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "실제로 본 가격과 구성을 근거로 만족을 말한다.",
+          "avoid_when": [
+            "현재 확인하지 않은 가격·품질을 보증할 때"
+          ],
+          "example": {
+            "text": "이 가격에 구성이 이렇게 알차다니, 혜자네.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "look-at-this-hand",
+      "source_sha": "17e9c3fafef79ca9d09392647015da56b71599a8",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "cute-brag",
+          "emotions": [
+            "뿌듯함"
+          ],
+          "intents": [
+            "자랑"
+          ],
+          "situations": [
+            "새물건",
+            "결과물공유"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "자신의 물건이나 결과물을 귀엽고 천진하게 소개한다.",
+          "avoid_when": [
+            "상대의 성과를 깎아내리는 비교 자랑"
+          ],
+          "example": {
+            "text": "이 책장을 봐, 대박임. 내가 조립했다 짱이지.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "neutral-gear",
+      "source_sha": "2e3e8e5d833d92b283ce403ab8856c68dbae61f1",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "defer-judgment",
+          "emotions": [],
+          "intents": [
+            "판단유보"
+          ],
+          "situations": [
+            "불완전한정보",
+            "논란"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "온라인댓글",
+            "친근한대화"
+          ],
+          "risk_flags": [
+            "공정성보장오인"
+          ],
+          "safety": "caution",
+          "context": "추가 사실을 기다리며 비난과 옹호를 유보한다.",
+          "avoid_when": [
+            "사실관계를 이미 검증했다는 뜻으로 해석",
+            "당사자 도움 요청을 외면하는 핑계"
+          ],
+          "example": {
+            "text": "영상 앞부분이 빠졌네. 전체 맥락 나올 때까지 중립기어.",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 판단 유보는 태도·기능이다. 표현 이름의 중립을 감정 중립과 혼동하지 않아 emotions=[]."
+        }
+      ]
+    },
+    {
+      "entry_id": "noejeol",
+      "source_sha": "2cf453bf55db8c2e2ea9f948b66046070569ca1e",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "stop-repetition",
+          "emotions": [
+            "피로감",
+            "답답함"
+          ],
+          "intents": [
+            "제지"
+          ],
+          "situations": [
+            "반복농담",
+            "과도한반복"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "무시로들림"
+          ],
+          "safety": "caution",
+          "context": "그만 반복하라는 신호를 행동에 한정해 전달한다.",
+          "avoid_when": [
+            "필요한 설명이나 정당한 문제 제기를 막을 때"
+          ],
+          "example": {
+            "text": "그 농담은 여기까지. 뇌절은 그만.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        }
+      ]
+    },
+    {
+      "entry_id": "tmi",
+      "source_sha": "f30812b98fd28cb0e8ce61abe59ab707a266ee17",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "self-overdetail",
+          "emotions": [
+            "민망함"
+          ],
+          "intents": [
+            "자조"
+          ],
+          "situations": [
+            "과도한설명"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "자신이 불필요한 설명까지 했다고 가볍게 덧붙인다.",
+          "avoid_when": [],
+          "example": {
+            "text": "내가 아침에 양말 고른 얘기까지 했네. TMI였다.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        },
+        {
+          "id": "limit-detail",
+          "emotions": [],
+          "intents": [
+            "제지"
+          ],
+          "situations": [
+            "불필요한세부정보"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화"
+          ],
+          "risk_flags": [
+            "무시로들림",
+            "상처가능"
+          ],
+          "safety": "caution",
+          "context": "지금 대화 목적을 벗어난 세부 이야기를 줄이자는 반응이다.",
+          "avoid_when": [
+            "상대가 중요한 고통이나 문제를 털어놓는 때"
+          ],
+          "example": {
+            "text": "그 부분은 지금 듣기엔 TMI 같아. 핵심부터 말해줄래?",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 제지 용법. 전달 정서는 고정하지 않아 []."
+        }
+      ]
+    },
+    {
+      "entry_id": "burned-white",
+      "source_sha": "747a7aec766a9d0531bd14e4ee70bc830017a431",
+      "review_status": "reviewed",
+      "review_note": "main c0cd06e 항목 본문 직접 읽음. 정서는 표현이 전달하는 분위기이며 내면 판정이 아님. 의도는 화용적 용법이며 숨은 의도 확정이 아님. 안전 경계와 예문은 편집 작성.",
+      "usages": [
+        {
+          "id": "after-effort",
+          "emotions": [
+            "탈진",
+            "허탈함"
+          ],
+          "intents": [
+            "상태설명",
+            "자조"
+          ],
+          "situations": [
+            "일완료",
+            "힘소진"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "고통축소"
+          ],
+          "safety": "caution",
+          "context": "힘든 일을 마친 자신의 기력 소진을 과장해 웃어넘긴다.",
+          "avoid_when": [
+            "실제 건강 이상을 가벼운 농담으로 치환할 때"
+          ],
+          "example": {
+            "text": "이사 짐 정리 끝. 새하얗게 불태워 버렸어.",
+            "kind": "editorial"
+          },
+          "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단."
+        }
+      ]
+    }
+  ]
+}
