@@ -58,3 +58,15 @@ class LatestTests(unittest.TestCase):
     def test_archive_current(self):
         rows=json.loads((ROOT/'data/observations.json').read_text())['entries']
         validate(rows,archive=True)
+
+    def test_generated_snapshot_is_reproducible(self):
+        import shutil
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)/'repo'
+            shutil.copytree(ROOT, root)
+            saved=json.loads((root/'data/latest-selection.json').read_text())
+            archive=json.loads((root/'data/observations.json').read_text())
+            before={p:(root/p).read_text() for p in ['data/latest-selection.json','collections/latest-year.md']}
+            write(root,archive['entries'],as_of=saved['end'])
+            for p,expected in before.items():
+                self.assertEqual((root/p).read_text(),expected)

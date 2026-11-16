@@ -54,10 +54,10 @@ class PilotTests(unittest.TestCase):
   self.assertEqual(p.apply(self.r,self.input,'fixture')['added'],0)
  def test_empty_batch_rejected(self):
   self.put([])
-  with self.assertRaisesRegex(ValueError,'1 to 10'):p.apply(self.r,self.input,'fixture')
+  with self.assertRaisesRegex(ValueError,'at least 1'):p.apply(self.r,self.input,'fixture')
  def test_oversized_batch_rejected(self):
-  self.put(self.data()+self.data()[:1])
-  with self.assertRaisesRegex(ValueError,'1 to 10'):p.apply(self.r,self.input,'fixture')
+  self.put(self.data())
+  with self.assertRaisesRegex(ValueError,'maximum of 5'):p.apply(self.r,self.input,'fixture',max_entries=5)
 
  def test_derived_index_updated_in_staging(self):
   rows=self.data()[:1];rows[0]['tags']=['게임'];self.put(rows);p.apply(self.r,self.input,'fixture')
@@ -77,3 +77,56 @@ class PilotTests(unittest.TestCase):
   self.assertEqual(p.apply(self.r,self.input,'fixture')['added'],0)
   q=self.r/'memes/ppi.md';q.write_text(q.read_text()+'수정')
   with self.assertRaisesRegex(ValueError,'refuse overwrite'):p.apply(self.r,self.input,'fixture')
+
+ def test_large_batch(self):
+  rows=self.data()
+  for i in range(10,25):
+   row=dict(rows[0]);row.update(slug=f'fixture-{i}',title=f'테스트{i}',aliases=[f'Alias{i}'],markdown=rows[0]['markdown'].replace('테스트0',f'테스트{i}'));rows.append(row)
+  self.put(rows)
+  self.assertEqual(p.apply(self.r,self.input,'large')['added'],25)
+
+ def test_duplicate_slug_rejected(self):
+  rows=self.data()[:2];rows[1]['slug']=rows[0]['slug'];self.put(rows)
+  with self.assertRaisesRegex(ValueError,'duplicate ID'):p.apply(self.r,self.input,'fixture')
+  self.assertFalse((self.r/'memes/fixture-0.md').exists())
+
+ def update_data(self):
+  row=self.data()[0];self.put([row]);p.apply(self.r,self.input,'fixture')
+  row.update(operation='update',expected_body_hash=p.digest((self.r/'memes/fixture-0.md').read_text()))
+  row['markdown']=row['markdown'].replace('시험 자료','보완된 시험 자료')
+  return row
+
+ def test_update_and_replay(self):
+  row=self.update_data();self.put([row])
+  result=p.apply(self.r,self.input,'revision')
+  self.assertEqual((result['added'],result['updated']),(0,1))
+  self.assertIn('보완된 시험 자료',(self.r/'memes/fixture-0.md').read_text())
+  self.assertEqual(p.apply(self.r,self.input,'revision')['status'],'unchanged')
+
+ def test_stale_update_preserves_user_edit(self):
+  row=self.update_data();f=self.r/'memes/fixture-0.md';f.write_text(f.read_text()+'\n사용자 수정')
+  self.put([row])
+  with self.assertRaisesRegex(ValueError,'refuse overwrite'):p.apply(self.r,self.input,'revision')
+  self.assertIn('사용자 수정',f.read_text())
+
+ def test_update_requires_hash(self):
+  row=self.update_data();del row['expected_body_hash'];self.put([row])
+  with self.assertRaisesRegex(ValueError,'refuse overwrite'):p.apply(self.r,self.input,'revision')
+
+ def test_update_unknown_id(self):
+  row=self.data()[0];row['operation']='update';self.put([row])
+  with self.assertRaisesRegex(ValueError,'target does not exist'):p.apply(self.r,self.input,'revision')
+
+ def test_update_rename_rejected(self):
+  row=self.update_data();row['title']='다른 표제어';self.put([row])
+  with self.assertRaisesRegex(ValueError,'rename requires'):p.apply(self.r,self.input,'revision')
+
+ def test_update_validation_leaves_original(self):
+  row=self.update_data();f=self.r/'memes/fixture-0.md';original=f.read_text()
+  row['markdown']+='\n[없는글](missing.md)';self.put([row])
+  with self.assertRaises(ValueError):p.apply(self.r,self.input,'revision')
+  self.assertEqual(f.read_text(),original)
+
+ def test_existing_id_requires_explicit_update(self):
+  row=self.update_data();row.pop('operation');self.put([row])
+  with self.assertRaisesRegex(ValueError,'existing ID'):p.apply(self.r,self.input,'revision')

@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "note": "태그 없는 항목의 편집 판단만 저장. 없는 id는 pending이며 자동으로 분야 무관 판정을 내리지 않는다.",
+  "decisions": {}
+}
