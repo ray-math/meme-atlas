@@ -70,3 +70,17 @@ class LatestTests(unittest.TestCase):
             write(root,archive['entries'],as_of=saved['end'])
             for p,expected in before.items():
                 self.assertEqual((root/p).read_text(),expected)
+
+    def test_reviewed_korean_usage_selected(self):
+        row=self.sample();row.update(scope_type='korean_usage',scope_basis='독립 출처에서 한국 사용 확인')
+        self.validate([row])
+        self.assertEqual(select([row],as_of='2026-11-16'),[row])
+    def test_korean_usage_requires_scope_basis(self):
+        for basis in [None, '', '  ']:
+            row=self.sample();row['scope_type']='korean_usage'
+            if basis is not None:row['scope_basis']=basis
+            with self.assertRaisesRegex(ValueError,'scope review'):self.validate([row])
+    def test_korean_usage_keeps_date_and_editorial_gates(self):
+        for changes in [{'review_note':''}, {'observed_date':'2030-01-01'}, {'trend_type':'viral'}]:
+            row=self.sample();row.update(scope_type='korean_usage',scope_basis='독립 출처에서 한국 사용 확인');row.update(changes)
+            with self.assertRaises(ValueError):self.validate([row])

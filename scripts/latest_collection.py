@@ -31,8 +31,11 @@ def validate(rows, root=ROOT, as_of=None, archive=False):
             raise ValueError('observation outside requested window')
         if row['trend_type'] not in {'new', 'resurgence', 'observed'}:
             raise ValueError('unknown trend type')
-        if row.get('scope_type') not in {'korean_origin', 'korean_adaptation'}:
+        if row.get('scope_type') not in {'korean_origin', 'korean_adaptation', 'korean_usage'}:
             raise ValueError('scope review missing')
+        # Korean usage is a reviewed local-use claim, not global popularity.
+        if row['scope_type'] == 'korean_usage' and not row.get('scope_basis', '').strip():
+            raise ValueError('Korean usage scope review basis missing')
         if not row.get('review_note', '').strip():
             raise ValueError('editorial date context missing')
     return known
