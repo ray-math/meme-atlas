@@ -15,9 +15,9 @@
   "comparison": {
     "repository": "ray-math/meme-atlas",
     "ref": "main",
-    "search_index_blob_sha": "65b1d12ce40b4a98721dbe61482b4f534c6eae7b",
-    "entry_count": 298,
-    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR26 main 검색색인298개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
+    "search_index_blob_sha": "c32457111ae0a12e2adb7a845e485c5f718927e2",
+    "entry_count": 313,
+    "method": "제목/별칭 공백·일부 구두점 정규화 일치와 검토된 개별 표제의 수동 연결. 2026-11-16 PR29 main 검색색인313개 및 수록 경로 재확인. 전체 의미 중복은 별도 검토하며 목록 밖 ○○냥이는 이 스냅샷의 발견 항목으로 추가하지 않음."
   },
   "candidates": [
     {
@@ -1376,10 +1376,21 @@
       "section": "ㄱ",
       "source_line": 168,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/ganji.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1000925898",
+          "published_at": "2011-06-06",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0169",
@@ -2881,10 +2892,21 @@
       "section": "ㄴ",
       "source_line": 287,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/ghost-dream-aegyo.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/1136796",
+          "published_at": "2015-06-03",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0288",
@@ -3101,10 +3123,21 @@
       "section": "ㄴ",
       "source_line": 306,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/one-target-only.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://zdnet.co.kr/view/?no=20240617103919",
+          "published_at": "2024-06-17",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0307",
@@ -3676,10 +3709,21 @@
       "section": "ㄴ",
       "source_line": 350,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/your-chief-namcheon.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.viva100.com/article/201905143862724",
+          "published_at": "2019-05-14",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0351",
@@ -4198,10 +4242,22 @@
       "section": "ㄷ",
       "source_line": 393,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/stop-bottom-dealing.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2013042718581927270",
+          "published_at": "2013-04-27",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성.",
+        "기사의 원영화 배우 오기 부분은 배제하고 치킨 사진의 대사 치환 사례만 근거로 사용."
+      ]
     },
     {
       "id": "kr-list-0394",
@@ -4385,10 +4441,21 @@
       "section": "ㄷ",
       "source_line": 409,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/deutbojap.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0800&key=20090506.22024201917",
+          "published_at": "2009-05-05",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0410",
@@ -4429,10 +4496,21 @@
       "section": "ㄷ",
       "source_line": 412,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/diss.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201209072147545",
+          "published_at": "2012-09-07",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0413",
@@ -6094,10 +6172,21 @@
       "section": "ㅂ",
       "source_line": 547,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/bonjwa.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.imaeil.com/page/view/2011020507342684402",
+          "published_at": "2011-02-05",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0548",
@@ -8122,10 +8211,21 @@
       "section": "ㅇ",
       "source_line": 705,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/one-shot-left.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/1770095",
+          "published_at": "2019-06-25",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0706",
@@ -9448,10 +9548,21 @@
       "section": "ㅇ",
       "source_line": 809,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/like-an-amateur.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://isplus.com/article/view/isp200908140002",
+          "published_at": "2009-08-14",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0810",
@@ -10428,10 +10539,21 @@
       "section": "ㅇ",
       "source_line": 885,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/ingyeo.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.etnews.com/201010140088",
+          "published_at": "2010-10-14",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0886",
@@ -10619,10 +10741,12 @@
       "section": "ㅈ",
       "source_line": 901,
       "parent_id": null,
-      "status": "unreviewed",
+      "status": "held",
       "dictionary_paths": [],
       "evidence": [],
-      "notes": []
+      "notes": [
+        "2026-11-16: 독립 본문에서 실제 원형·재사용을 확인할 근거 확보 실패. 위키 복제나 개인 밈 설명만으로 발행하지 않고 보류."
+      ]
     },
     {
       "id": "kr-list-0902",
@@ -10810,10 +10934,27 @@
       "section": "ㅈ",
       "source_line": 918,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/in-name-of-justice.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://tv.jtbc.co.kr/clip/pr10010402/pm10034311/vo10105654/view",
+          "published_at": "2016-04-30",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        },
+        {
+          "url": "https://www.yna.co.kr/view/AKR20161125170000073",
+          "published_at": "2016-11-26",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0919",
@@ -11401,10 +11542,21 @@
       "section": "ㅈ",
       "source_line": 969,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/jjeolda.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0800&key=20090506.22024201917",
+          "published_at": "2009-05-05",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0970",
@@ -11603,10 +11755,21 @@
       "section": "ㅊ",
       "source_line": 987,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/choding.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.segye.com/newsView/20040808000404",
+          "published_at": "2004-08-09",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-0988",
@@ -12555,10 +12718,21 @@
       "section": "ㅍ",
       "source_line": 1070,
       "parent_id": null,
-      "status": "unreviewed",
-      "dictionary_paths": [],
-      "evidence": [],
-      "notes": []
+      "status": "included",
+      "dictionary_paths": [
+        "memes/paein-online.md"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.etnews.com/201010140088",
+          "published_at": "2010-10-14",
+          "access": "body_read",
+          "reviewed_at": "2026-11-16"
+        }
+      ],
+      "notes": [
+        "2026-11-16: 국내 사용·뜻·확인된 원형 범위를 검토해 PR #29 main 수록. 모욕적 어감과 중립·자조 용법 구분, 역사 자료로 최근 관측 미생성."
+      ]
     },
     {
       "id": "kr-list-1071",
