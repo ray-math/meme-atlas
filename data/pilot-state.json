@@ -213,8 +213,48 @@
         "most-perfect-material"
       ]
     },
+    "reviewed-korea-2026-11-16-02": {
+      "input_hash": "db7f526cdb5d973a40f81c45ad0fe4d1ee0062940fd9efb7387a94b563886d4e",
+      "ids": [
+        "one-day-one-ggang",
+        "guk-rule",
+        "hype-boy-answer",
+        "mom-mom-made-me",
+        "frozen-han-river-cat",
+        "queen-never-cry",
+        "gaviscon-relief",
+        "green-light-romance",
+        "noejeol",
+        "clear-eyed-eccentric",
+        "one-bowl-please",
+        "gan-because",
+        "bbangkkuddongkku",
+        "nangnang",
+        "let-me-taste",
+        "this-car-is-mine"
+      ]
+    },
+    "reviewed-korea-2026-11-16-03": {
+      "input_hash": "4b4c3c969695951a2c4da0baba76d3ec97646ae106bd38f280546ac3f532c7f3",
+      "ids": [
+        "stepped-on-poop",
+        "soulless-guide",
+        "ppikki-ppikki",
+        "not-jealous",
+        "tiger-is-coming",
+        "rollin-dance",
+        "bring-melona",
+        "blanket-kick",
+        "spilling-juice",
+        "caffebene-ending",
+        "it-was-gone",
+        "what-is-jazz",
+        "green-onion-chex",
+        "jimotmi"
+      ]
+    },
     "reviewed-chungju-nyang-2026-11-16": {
-      "input_hash": "a2d5bfc965a363968483538e132d064df30b3bf22690f28fc93e98fec3a9eef4",
+      "input_hash": "3f96acd82eed0c0fea17c23087b954139c17476437514fc75898152fde5f7251",
       "ids": [
         "chungju-nyang"
       ]
@@ -1690,10 +1730,384 @@
         "광고"
       ]
     },
+    "one-day-one-ggang": {
+      "title": "1일 1깡",
+      "aliases": [
+        "1일1깡",
+        "깡 챌린지"
+      ],
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "1ccef1070108e26dcd3e5ee0d017b4f8b1e47f277a1c887e1f668f819281aa8b",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 가수의 곡을 국내 이용자들이 댓글과 반복 감상 놀이로 재해석했다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "guk-rule": {
+      "title": "국룰",
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "08844ab9d6bb075282e02190aff43f8d1ec1ee44423940b11ec75899cf65586f",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 온라인에서 한국어 축약형으로 사용되는 관행·취향 표현이다.",
+      "tags": []
+    },
+    "hype-boy-answer": {
+      "title": "뉴진스의 하입보이요",
+      "aliases": [
+        "하입보이요",
+        "뉴진스 하입보이요"
+      ],
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "7349175b9d102b685b7329cda378099299f98f8404d48c73142bf224470f4a2e",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "거리 인터뷰 형식을 한국 가수의 곡명으로 비튼 국내 문답 패러디다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "mom-mom-made-me": {
+      "title": "누가 이렇게 예쁘게 낳았어? 엄마엄마가",
+      "aliases": [
+        "우리 엄마엄마가",
+        "엄마 엄마가"
+      ],
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "c2f2b59d8d2e4f9161c3995ef94527ffec1a173e6288f995faccadb6730e975c",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 아이돌 영상에서 한국어 말장난과 안무가 결합한 패러디다.",
+      "tags": [
+        "연예",
+        "음악"
+      ]
+    },
+    "frozen-han-river-cat": {
+      "title": "꽁꽁 얼어붙은 한강 위로 고양이가 걸어다닙니다",
+      "aliases": [
+        "꽁냥이",
+        "꽁냥이 챌린지",
+        "한강 고양이 챌린지"
+      ],
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "21f00722cd6db03e57eca3f6860619501c9a585b62c96ffd49b7837203efb5fa",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 뉴스의 한국어 멘트를 리듬과 동작으로 재구성한 놀이다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "queen-never-cry": {
+      "title": "Queen never cry",
+      "aliases": [
+        "퀸 네버 크라이"
+      ],
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "4b3e5cca7e4fd554005ec5f55951ddf3589217813e917a4aac066ef7edd3297a",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 웹툰에서 만들어진 대사와 장면이 해외에서도 확산된 사례다.",
+      "tags": [
+        "웹툰"
+      ]
+    },
+    "gaviscon-relief": {
+      "title": "개비스콘 짤",
+      "aliases": [
+        "개비스콘 짤방",
+        "개비스콘 편안짤"
+      ],
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "2502d4f8b4ab591aa51efa5ffe021cd4a8957a548b016b848d3aae54a8953254",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "광고 장면을 국내 커뮤니티에서 한국어 문구와 대비형 농담으로 재구성했다.",
+      "tags": [
+        "광고"
+      ]
+    },
+    "green-light-romance": {
+      "title": "그린라이트",
+      "aliases": [
+        "이거 그린라이트인가요"
+      ],
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "261340f91b96ec167f3bc5a00cd29f13dfb8b76fb19cbf0d0286dbdfa4e03747",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "기존 영어 표현을 한국 연애 예능의 호감 판정 문맥으로 대중화한 사례다.",
+      "tags": [
+        "방송",
+        "연애"
+      ]
+    },
+    "noejeol": {
+      "title": "뇌절",
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "abeae2437cd976e57f91dc1738798420a967734be34d0b638ddb7cd8474ef7ba",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "해외 작품의 기술명에 한국어 ‘1절’ 말장난을 결합해 별도 뜻을 만든 표현이다.",
+      "tags": []
+    },
+    "clear-eyed-eccentric": {
+      "title": "맑은 눈의 광인",
+      "aliases": [
+        "맑눈광"
+      ],
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "934ce61a7aca7997f8c359f7154dfd1773c6a5c35e0873e56144f958e587cd62",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 인물 묘사 표현이 국내 예능과 캐릭터 반응으로 확산됐다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "one-bowl-please": {
+      "title": "한 뚝배기 하실래예?",
+      "aliases": [
+        "한뚝배기 하실래예"
+      ],
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "8c981784038e05d2a7c1d9ad359b8c3d061607a710adfece15db403eddc3e53c",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 광고의 한국어 사투리 대사를 모방하는 유행어다.",
+      "tags": [
+        "광고",
+        "음식"
+      ]
+    },
+    "gan-because": {
+      "title": "간 때문이야",
+      "aliases": [
+        "간때문이야"
+      ],
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "4b4c468e64058e7c614cb7441a425e7eb5871eb89ba13e775614739af093f129",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 광고 음악을 국내 이용자들이 한국어 동음 말장난으로 확장했다.",
+      "tags": [
+        "광고",
+        "음악"
+      ]
+    },
+    "bbangkkuddongkku": {
+      "title": "빵꾸똥꾸",
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "beffd3bd7ff9f34e806869b89492c8dd113c891bcb82928ba4e7bb3efa90c8bd",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 시트콤의 캐릭터 대사와 말투를 흉내 내는 유행어다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "nangnang": {
+      "title": "낭낭하다",
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "267a55b98f9d7ece08b0d0413f76e7688473ce984b86ffecf2db7b2f3eac05b3",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 배달 후기의 한국어 표현이 온라인에서 일반적인 양 표현으로 확산됐다.",
+      "tags": [
+        "음식"
+      ]
+    },
+    "let-me-taste": {
+      "title": "제가 한번 먹어보겠습니다",
+      "aliases": [
+        "제가 한 번 먹어보겠습니다"
+      ],
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "3c9f4edccfcf236c482f15c63945cc5357a8f8a1e3d6937ae18c166c7d9330e6",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 방송 진행자의 한국어 말투를 국내 방송에서 패러디하며 퍼졌다.",
+      "tags": [
+        "방송",
+        "음식"
+      ]
+    },
+    "this-car-is-mine": {
+      "title": "이 차는 이제 제 겁니다",
+      "batch": "reviewed-korea-2026-11-16-02",
+      "body_hash": "f9ad86e442ad2cdc73b62877decd0df63d67588d19dd1a1e158b911563dc992d",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 뉴스의 한국어 대사를 일상적인 소유 선언으로 바꿔 쓰는 패러디다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "stepped-on-poop": {
+      "title": "똥 밟았네",
+      "aliases": [
+        "포텐독 똥 밟았네"
+      ],
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "1b9f5118db7afe0ea3d02d0d43e1d379d5e646dde64142495aa168402eaffcd0",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 애니메이션의 노래와 K팝식 군무를 따라 하는 국내 생성 밈이다.",
+      "tags": [
+        "애니",
+        "음악"
+      ]
+    },
+    "soulless-guide": {
+      "title": "소울리스좌",
+      "aliases": [
+        "아마존 소울리스좌"
+      ],
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "bbb682327263d14492d485a5e1d326eb24a89ac7aa21d9132e514c83a0a3f73a",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 놀이공원 직원의 한국어 안내 영상에서 생겨난 별명과 모방 놀이이다.",
+      "tags": []
+    },
+    "ppikki-ppikki": {
+      "title": "삐끼삐끼 춤",
+      "aliases": [
+        "삐끼삐끼",
+        "삐끼삐끼 챌린지"
+      ],
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "f7576e4a04f095782fbf5855d61ab13d6511668ef2e681e5f2d2dc745ef5b75b",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 프로야구 응원 퍼포먼스가 짧은 영상의 춤 챌린지로 확산됐다.",
+      "tags": [
+        "스포츠"
+      ]
+    },
+    "not-jealous": {
+      "title": "부럽지가 않어",
+      "aliases": [
+        "부럽지가 않아"
+      ],
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "bcd1acc46ce48993ab174dbe31cd2b27f5a1e394c5c20c44960937a9ec7550a4",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 가수의 노래를 국내 숏폼에서 반응과 개사 패러디로 활용했다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "tiger-is-coming": {
+      "title": "범 내려온다",
+      "aliases": [
+        "범내려온다"
+      ],
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "e65f01bb893d0d91e717ecbd4b4fa09170e74d169210e75d9b1bced209a3ad3f",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 판소리 기반 음악과 현대무용의 협업이 국내 영상 패러디로 확장됐다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "rollin-dance": {
+      "title": "롤린",
+      "aliases": [
+        "가오리춤",
+        "롤린 가오리춤"
+      ],
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "e6ab0651aac4be778a607c6c688d04cbc76c221981f7c22384e27fd865fe9d1b",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 걸그룹 공연과 국내 관객 댓글 영상에서 재유행과 모방이 형성됐다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "bring-melona": {
+      "title": "올 때 메로나",
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "12088beae4717a0b2287d269e91098d4bb0fd2aafaa9448244c0960ce015bad0",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 커뮤니티와 웹툰에서 한국 상품명을 활용해 퍼진 한국어 부탁 표현이다.",
+      "tags": [
+        "음식"
+      ]
+    },
+    "blanket-kick": {
+      "title": "이불킥",
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "30e9c88f08be359166b2dde39eda3def0f6cacbb228e079590f9f56f4e330a5a",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어의 사물 이름과 동작을 합쳐 뒤늦은 민망함을 나타낸 인터넷 표현이다.",
+      "tags": []
+    },
+    "spilling-juice": {
+      "title": "주스 흘리는 짤",
+      "aliases": [
+        "주스짤"
+      ],
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "ac785bf18f43e047bd8b16f7f0e5d6d6e206cb7ef2d183ead006f93b5323a8c3",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 드라마의 놀라는 연기 장면이 국내 온라인 반응 이미지로 확산됐다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "caffebene-ending": {
+      "title": "카페베네 엔딩",
+      "aliases": [
+        "카페베네 짤방"
+      ],
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "4af95427a23373d6633200c4a42c46aca17e202038c61a27f0646dec4dccc208",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 시트콤의 엔딩과 국내 광고 조합을 변형한 영상 편집 밈이다.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "it-was-gone": {
+      "title": "있었는데요 없었습니다",
+      "aliases": [
+        "있었는데요, 없었습니다"
+      ],
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "d6d2d7db142b94cde979a037208699c0f0001f20ab1403063cb7c1dec533643e",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 온라인 문장 틀이 대조형 농담과 국내 광고 변형으로 사용됐다.",
+      "tags": []
+    },
+    "what-is-jazz": {
+      "title": "재즈가 뭐라고 생각하세요?",
+      "aliases": [
+        "재즈를 뭐라고 생각하세요?"
+      ],
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "00fa2d080f169e2ee8f6a0675a20954c46b69a4dd105d49b71bc5acfdc0b1e5e",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "해외 재즈 공연을 한국 개인방송에서 한국어 질문과 모방으로 재구성했다.",
+      "tags": [
+        "음악",
+        "인터넷방송"
+      ]
+    },
+    "green-onion-chex": {
+      "title": "첵스 파맛",
+      "aliases": [
+        "파맛 첵스"
+      ],
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "ef6e7f2086cd1621394e6a39fb8ee5398334ea2f4ad6b2f162e59ccabc71d48d",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 시리얼 홍보 이벤트를 한국 이용자들이 가상 선거 서사로 재해석했다.",
+      "tags": [
+        "광고",
+        "음식"
+      ]
+    },
+    "jimotmi": {
+      "title": "지못미",
+      "aliases": [
+        "지켜주지 못해 미안해",
+        "지켜주지 못해서 미안해"
+      ],
+      "batch": "reviewed-korea-2026-11-16-03",
+      "body_hash": "97c4d4fb6117e0c0cf71e0a5696d7371fc51e62443eede3569926c1a0a95d5fd",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 위로 문장을 축약해 국내 온라인에서 사용하는 표현이다.",
+      "tags": []
+    },
     "chungju-nyang": {
       "title": "충주냥이",
       "batch": "reviewed-chungju-nyang-2026-11-16",
-      "body_hash": "e48b8e681431d91696b9c80f80791bf1f5d49a722d29b67af0179888e264aadd",
+      "body_hash": "dd920de9bb56a7746e5e3385b612e0820e05a86484806ab647a3732819536d5d",
       "scope_type": "korean_origin",
       "scope_basis": "국내 크리에이터가 한국어 별명과 공개 문제풀이 형식으로 표현한 패러디.",
       "tags": [
