@@ -317,6 +317,26 @@
         "ice-bucket-challenge",
         "is-this-real"
       ]
+    },
+    "korea-list-reviewed-2026-11-16-g": {
+      "input_hash": "d7b4d86363c1a8b3323b465772343882b530bd9516dd4bf17c1e66b013fbf579",
+      "ids": [
+        "big-mac-song",
+        "ppappinom",
+        "pomegranate-song",
+        "be-rich",
+        "dream-of-me",
+        "vertex-dance",
+        "euri",
+        "civilized-away",
+        "bbangsang",
+        "sakuranbo-challenge",
+        "waldo-style",
+        "fiery-friday",
+        "mwongmi",
+        "trembling-reaction",
+        "stern-serious"
+      ]
     }
   },
   "entries": {
@@ -2659,6 +2679,167 @@
       "body_hash": "cdb74548bfbc0cad1e41a6a5a1d6087d2b9dc160000951b4523fa35cef0e3aee",
       "scope_type": "korean_origin",
       "scope_basis": "국내 젊은층 표현 의미와 방송 자막·제목 실제 사용 본문 확인.",
+      "tags": []
+    },
+    "big-mac-song": {
+      "title": "빅맥송",
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "294514e981c7823e24d74779284031dedd62d917e9e44267e3e4d9e44ea1f4e8",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "한국어 광고송을 다른 창법·상황으로 바꾼 국내 영상 사례 확인.",
+      "tags": [
+        "광고",
+        "음악"
+      ]
+    },
+    "ppappinom": {
+      "title": "빠삐놈",
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "fe4aad8eba039e2767d06035b112f683470e2888692e4876ea690f452614cd58",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 광고·영화음악 결합과 온라인 파생 유행을 다룬 당시 보도 확인.",
+      "tags": [
+        "광고",
+        "영화",
+        "음악"
+      ]
+    },
+    "pomegranate-song": {
+      "title": "미녀는 석류를 좋아해",
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "f193a0b298b796fda46c5e59cfd20705cbede100dbcf4eb88420999b7f90faac",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 광고 제작자의 회고와 어린이까지 따라 부른 당시 보도 확인.",
+      "tags": [
+        "광고",
+        "음악"
+      ]
+    },
+    "be-rich": {
+      "title": "여러분 모두 부자되세요",
+      "aliases": [
+        "부자 되세요"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "c317ff8565e2765dac20b11e0a44e5c95a2f55ad32f5170168edb4f649887d18",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 신년광고의 덕담과 인터넷 패러디·벨소리 확산 당시 보도 확인.",
+      "tags": [
+        "광고"
+      ]
+    },
+    "dream-of-me": {
+      "title": "잘자 내 꿈 꿔",
+      "aliases": [
+        "잘 자 내 꿈 꿔"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "84358f64ad9785c3ffa8192454a8cc6f2c0d435865e770d5781969acc6357f6d",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 이동통신 광고 문구의 연인 유행어 사용과 회고 확인.",
+      "tags": [
+        "광고",
+        "연애"
+      ]
+    },
+    "vertex-dance": {
+      "title": "꼭짓점 댄스",
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "1c3aa2e830ea97e8bffa6a8c2a3dfe60b959a582f33ca123edc7cef0d8e2c348",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 방송 뒤 온라인 카페·학교·경기장 참여 사례 확인.",
+      "tags": [
+        "방송",
+        "스포츠"
+      ]
+    },
+    "euri": {
+      "title": "으리",
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "96bf8553daaceca47e40eb428b0fd53b2895b7df213a15e7c45dbf452518d1c3",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 예능 당사자 인터뷰에서 말투 재현·누리꾼 응용 확인.",
+      "tags": [
+        "방송",
+        "연예"
+      ]
+    },
+    "civilized-away": {
+      "title": "문명하셨습니다",
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "ce0424d3d68235056a6a49c160c7736dd36e1524c4990496c71d295ae891251c",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 트위터·블로그 활동 뜸함을 문명 몰입에 빗댄 당시 사용 확인.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "bbangsang": {
+      "title": "빵상",
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "b5ab41218f2b8d73aa683970b8d7be0176de5234fe7835c0c4f6add28bf6a415",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 방송 이후 특이한 말소리의 인기와 확산 기사 본문 확인.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "sakuranbo-challenge": {
+      "title": "사쿠란보 챌린지",
+      "aliases": [
+        "사쿠란보"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "78eca097ad0a0b694bd8576a3588d161a03a5eda670b51383be61592c86a432b",
+      "scope_type": "korean_usage",
+      "scope_basis": "원가수 인터뷰와 한국 숏폼 챌린지를 다룬 독립 보도로 국내 사용 확인.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "waldo-style": {
+      "title": "왈도체",
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "5f9a7ba75fbbc3f28f2e801adf8c3f8ea8478737ee1143d9e70b9bbde27c83d3",
+      "scope_type": "korean_adaptation",
+      "scope_basis": "게임 한국어 번역 대사와 국내 게이머의 일반화 사용 해설 확인.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "fiery-friday": {
+      "title": "불금",
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "f2c0df37ad6c04f42a124a57182732702c8293bb9f03a80df8ec3a117c18c92b",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 인터넷 조어 의미와 한국 관광 홍보의 실제 활용 확인.",
+      "tags": []
+    },
+    "mwongmi": {
+      "title": "뭥미",
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "63ab2b8fc69e1e23cdcc2bd1cf5e20cd4c78f3bc0a19dedc732ba66b57dc3740",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 기사에서 뭐임 변형 설명과 필자의 실제 반응 사용 확인.",
+      "tags": []
+    },
+    "trembling-reaction": {
+      "title": "부들부들",
+      "aliases": [
+        "ㅂㄷㅂㄷ"
+      ],
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "4b6521d07e1a9adbafd1bfaff455cad0779bee42bc0e9db879ac703ed445699d",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 온라인 초성 반응의 뜻과 일상 문자 활용 보도 확인.",
+      "tags": []
+    },
+    "stern-serious": {
+      "title": "엄근진",
+      "batch": "korea-list-reviewed-2026-11-16-g",
+      "body_hash": "cebb9ca9c1e9d162ea4bde982027d19edd3c96340777eaaea27bdf82e7f24350",
+      "scope_type": "korean_origin",
+      "scope_basis": "국내 방송 신조어 퀴즈와 축약 의미를 다룬 본문 확인.",
       "tags": []
     }
   }
