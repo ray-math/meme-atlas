@@ -64,11 +64,15 @@
 - [답정너](../memes/dapjeongneo.md)
 - [당근을 흔들어주세요](../memes/shake-a-carrot.md)
 - [덕업일치](../memes/deogeop-ilchi.md)
+- [드레스 색깔 논란](../memes/dress-color-debate.md)
 - [똥손](../memes/ttongson.md)
 - [라을라](../memes/raeulla.md)
+- [마기꾼](../memes/mask-impression.md)
 - [만반잘부](../memes/manbanjalbu.md)
 - [많관부](../memes/mangwanbu.md)
+- [문송합니다](../memes/sorry-humanities.md)
 - [문찐](../memes/munjjin.md)
+- [방구석 여포](../memes/keyboard-lubu.md)
 - [별다줄](../memes/byeoldajul.md)
 - [복세편살](../memes/bokse-pyeonsal.md)
 - [빼박캔트](../memes/ppaebak-cant.md)
@@ -76,9 +80,11 @@
 - [소울리스좌](../memes/soulless-guide.md)
 - [숨긴다고 숨겨지는 것도 아니고](../memes/cannot-hide.md)
 - [스불재](../memes/seubuljae.md)
+- [아이스버킷 챌린지](../memes/ice-bucket-challenge.md)
 - [안물안궁](../memes/anmul-angung.md)
 - [웃안웃](../memes/utan-ut.md)
 - [웃프다](../memes/utpeuda.md)
+- [이거 실화냐](../memes/is-this-real.md)
 - [이불킥](../memes/blanket-kick.md)
 - [읽지 않음 난 모르는 일](../memes/unread-none-of-my-business.md)
 - [있었는데요 없었습니다](../memes/it-was-gone.md)
@@ -87,6 +93,7 @@
 - [킹리적 갓심](../memes/king-reasonable-suspicion.md)
 - [킹왕짱](../memes/king-wang-jjang.md)
 - [포기하겠습니다](../memes/give-up.md)
+- [하오체](../memes/hao-online-style.md)
 - [할렐야루](../memes/hallelyaru.md)
 - [행복회로](../memes/happy-circuit.md)
 
@@ -110,6 +117,7 @@
 - [봄이구나](../memes/bomiguna-christina.md)
 - [브라우니 물어](../memes/brownie-bite.md)
 - [빵꾸똥꾸](../memes/bbangkkuddongkku.md)
+- [뿌잉뿌잉](../memes/bbuing-bbuing.md)
 - [사딸라](../memes/four-dollars.md)
 - [상상도 못한 정체](../memes/sangmottjeong.md)
 - [소는 누가 키워](../memes/who-raises-cows.md)
@@ -136,6 +144,7 @@
 ## 소비
 
 - [돈쭐](../memes/donjjul.md)
+- [등골 브레이커](../memes/back-breaker.md)
 - [손민수](../memes/sonminsu.md)
 - [전여친 감자칼](../memes/ex-girlfriend-peeler.md)
 - [혜자](../memes/hyeja.md)
@@ -158,6 +167,8 @@
 
 - [그린라이트](../memes/green-light-romance.md)
 - [남사친·여사친](../memes/male-female-friend.md)
+- [라면 먹고 갈래?](../memes/ramen-invitation.md)
+- [모태솔로](../memes/lifelong-single.md)
 - [연락 없네 잘 살아](../memes/no-reply-live-well.md)
 - [자만추](../memes/jaman-chu.md)
 
@@ -166,6 +177,7 @@
 - [가보자고](../memes/gabojago.md)
 - [갸루피스](../memes/gyaru-peace.md)
 - [그건 절대 안 되는 일이얌](../memes/not-allowed-ilyam.md)
+- [까방권](../memes/criticism-shield.md)
 - [꽃길만 걷자](../memes/flower-road.md)
 - [내 마음속에 저장](../memes/save-in-my-heart.md)
 - [내가 아이돌이었으면 이 파트는 꼭 하고 싶음](../memes/if-i-were-idol.md)
@@ -174,6 +186,7 @@
 - [미혼 앤 비혼](../memes/mihon-and-bihon.md)
 - [반한 건 ❌](../memes/swings-denial.md)
 - [성덕](../memes/seongdeok.md)
+- [손가락 하트](../memes/finger-heart.md)
 - [원영적 사고](../memes/wonyoung-thinking.md)
 - [이거 제 이모지야](../memes/my-emoji.md)
 - [장원영 ○○](../memes/wonyoung-praise.md)
@@ -188,6 +201,7 @@
 - [니가 가라 하와이](../memes/you-go-hawaii.md)
 - [니가 좋아 챌린지](../memes/niga-joa-challenge.md)
 - [드루와](../memes/deuruwa.md)
+- [라면 먹고 갈래?](../memes/ramen-invitation.md)
 - [모히또 가서 몰디브 한잔](../memes/mojito-maldives.md)
 - [묻고 더블로 가](../memes/mukgo-double.md)
 - [뭣이 중헌디](../memes/mwosi-jungheondi.md)
@@ -254,6 +268,7 @@
 - [미혼 앤 비혼](../memes/mihon-and-bihon.md)
 - [범 내려온다](../memes/tiger-is-coming.md)
 - [부럽지가 않어](../memes/not-jealous.md)
+- [슬릭백](../memes/slickback.md)
 - [아무노래 챌린지](../memes/any-song-challenge.md)
 - [야르송](../memes/yareu-song.md)
 - [영크크](../memes/young-creator-crew.md)
@@ -305,4 +320,5 @@
 ## 패션
 
 - [꾸안꾸](../memes/kkuan-kku.md)
+- [등골 브레이커](../memes/back-breaker.md)
 
