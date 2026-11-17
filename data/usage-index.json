@@ -4,7 +4,7 @@
   "coverage": {
     "dictionary_entries": 348,
     "annotated_entries": 35,
-    "reviewed_entries": 28,
+    "reviewed_entries": 31,
     "unannotated_entries": 313
   },
   "entries": [
@@ -1512,7 +1512,7 @@
       ],
       "source_sha": "a078606291eef3d6a61a02343002b2aaf9657963",
       "review_status": "draft",
-      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.joongang.co.kr/article/25059788 ; https://sports.khan.co.kr/article/202205240001003/amp . 긍정적 태도·SNS 조합 사용을 참고하며 최근 유행으로 주장하지 않는다.",
+      "review_note": "AI 편집 주석으로 독립 AI의 출처·문맥 재검토와 실제 Python 구조 검색 검사를 거쳤다. 인간 검토·실전 자연어 정확도 검증을 완료한 주석은 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.joongang.co.kr/article/25059788 ; https://sports.khan.co.kr/article/202205240001003/amp . 긍정적 태도·SNS 조합 사용을 참고하며 최근 유행으로 주장하지 않는다. 2026-11-17 개별 검토: lookup은 의미 식별용이며 safety/avoid_when의 문맥 검토 없이 발화하지 않는다. 공개 기존 회귀에 대한 영향도 별도로 검사한다. 보류: 기존 공개 v2 A16 기대와현실차이 검색에서 자기 자조보다 앞에 섞이는 실제 CI 회귀를 발견해 reviewed 승격을 되돌렸다. 의도·대상 조건을 분명히 하는 검색 개선 전 draft 유지.",
       "usages": [
         {
           "id": "find-upside",
@@ -1590,7 +1590,7 @@
             "원래의 꾸며 낸 이야기를 사실인 것처럼 재유포할 때"
           ],
           "example": {
-            "text": "글쓴이가 식당 방문담을 지어냈다고 정정했네. 폰맛집이었구나.",
+            "text": "글쓴이가 식당도 방문담도 모두 지어냈다고 정정했네. 폰맛집이었구나.",
             "kind": "editorial"
           },
           "review_note": "본문의 확장형 폰~ 용법. 예문의 가짜라는 전제는 창작 상황이며 실제 업체나 사람에 대한 주장이 아니다."
@@ -1604,15 +1604,14 @@
       "path": "memes/pro-offended.md",
       "aliases": [],
       "source_sha": "27da9ebc10fd07e733370fd6f723c5eab31c1819",
-      "review_status": "draft",
-      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://ch.yes24.com/Article/Details/32899 ; https://www.khan.co.kr/article/201808171429001 . 매체는 다르지만 같은 인물의 자기 재해석 중심이라는 근거 다양성 한계가 있다.",
+      "review_status": "reviewed",
+      "review_note": "AI 편집 주석으로 독립 AI의 출처·문맥 재검토와 실제 Python 구조 검색 검사를 거쳤다. 인간 검토·실전 자연어 정확도 검증을 완료한 주석은 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://ch.yes24.com/Article/Details/32899 ; https://www.khan.co.kr/article/201808171429001 . 매체는 다르지만 같은 인물의 자기 재해석 중심이라는 근거 다양성 한계가 있다. 2026-11-17 개별 검토: lookup은 의미 식별용이며 safety/avoid_when의 문맥 검토 없이 발화하지 않는다. 공개 기존 회귀에 대한 영향도 별도로 검사한다.",
       "usages": [
         {
           "id": "dismiss-objection",
           "emotion_status": "unknown",
           "emotions": [],
           "intents": [
-            "비꼼",
             "무시"
           ],
           "situations": [],
@@ -1638,7 +1637,7 @@
             "text": "불편한 이유를 설명했더니 프로불편러라는 답이 돌아왔다.",
             "kind": "editorial"
           },
-          "review_note": "본문의 타인 지향 비꼼을 분리했다. 예문은 발화 상황 기술이며 직접 모욕을 생성하는 권고가 아니다. 숨은 적대감은 단정하지 않는다."
+          "review_note": "본문의 타인 지향 폄하·묵살을 분리했다. 예문은 발화 상황 기술이며 직접 모욕을 생성하는 권고가 아니다. 숨은 적대감은 단정하지 않는다."
         },
         {
           "id": "reclaim-self",
@@ -1861,8 +1860,8 @@
         "언더아머 단속반"
       ],
       "source_sha": "a4aff4e6e9e186df58af83cc4b8bfcc6090e3556",
-      "review_status": "draft",
-      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.segye.com/newsView/20181005001582 ; https://www.donga.com/news/Culture/article/all/20201102/103754529/9 . 실제 강제 단속 사실이나 단일 최초 기원은 확정하지 않는다.",
+      "review_status": "reviewed",
+      "review_note": "AI 편집 주석으로 독립 AI의 출처·문맥 재검토와 실제 Python 구조 검색 검사를 거쳤다. 인간 검토·실전 자연어 정확도 검증을 완료한 주석은 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.segye.com/newsView/20181005001582 ; https://www.donga.com/news/Culture/article/all/20201102/103754529/9 . 실제 강제 단속 사실이나 단일 최초 기원은 확정하지 않는다. 2026-11-17 개별 검토: lookup은 의미 식별용이며 safety/avoid_when의 문맥 검토 없이 발화하지 않는다. 공개 기존 회귀에 대한 영향도 별도로 검사한다.",
       "usages": [
         {
           "id": "mock-qualification",
@@ -1982,8 +1981,8 @@
       "path": "memes/ubd.md",
       "aliases": [],
       "source_sha": "934400425c48118130b2470d79118ac13554bd6d",
-      "review_status": "draft",
-      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.mt.co.kr/society/2020/05/06/2020050608413867719 ; https://www.newsis.com/view/NISX20200506_0001015908 . 실제 누적 관객 수와 관용적 17만 단위를 구별한다.",
+      "review_status": "reviewed",
+      "review_note": "AI 편집 주석으로 독립 AI의 출처·문맥 재검토와 실제 Python 구조 검색 검사를 거쳤다. 인간 검토·실전 자연어 정확도 검증을 완료한 주석은 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.mt.co.kr/society/2020/05/06/2020050608413867719 ; https://www.newsis.com/view/NISX20200506_0001015908 . 실제 누적 관객 수와 관용적 17만 단위를 구별한다. 2026-11-17 개별 검토: lookup은 의미 식별용이며 safety/avoid_when의 문맥 검토 없이 발화하지 않는다. 공개 기존 회귀에 대한 영향도 별도로 검사한다.",
       "usages": [
         {
           "id": "unit-comparison",
@@ -2037,7 +2036,7 @@
             "상처가능"
           ],
           "safety": "avoid",
-          "context": "배우 등 흥행 당사자를 평가 대상으로 삼아 이전 작품의 관객 규모를 반복적으로 들추고 웃음거리로 만든다. 용법 식별용이며 추천용이 아니다.",
+          "context": "배우 등 흥행 당사자를 평가 대상으로 삼아 이전 작품의 관객 규모를 들추고 웃음거리로 만든다. 용법 식별용이며 추천용이 아니다.",
           "avoid_when": [
             "당사자의 실패를 조롱하거나 공개 망신을 주려는 모든 요청"
           ],

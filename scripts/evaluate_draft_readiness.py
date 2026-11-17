@@ -45,7 +45,10 @@ def evaluate(root=ROOT):
                          'passed':all(checks.values())})
     drift=[]
     for group in ['audit','editorial']:
-        plans=json.loads((Path(root)/f'eval/regression-v3/{group}-plans.json').read_text())['plans'] + json.loads((Path(root)/f'eval/challenge/{group}-plans.json').read_text())['plans']
+        plans=[]
+        for source in ['regression-v3','challenge']:
+            for plan in json.loads((Path(root)/f'eval/{source}/{group}-plans.json').read_text())['plans']:
+                plans.append(dict(plan,evaluation_set=source+'/'+group))
         for plan in plans:
             if plan['action'] in ('clarify','abstain'):
                 continue
@@ -54,7 +57,7 @@ def evaluate(root=ROOT):
             def hits(result):
                 return [h['entry_id']+':'+h['usage_id'] for h in result['results']]
             if hits(before)!=hits(after):
-                drift.append({'id':plan['id'],'filters':plan['filters'],
+                drift.append({'evaluation_set':plan['evaluation_set'],'id':plan['id'],'filters':plan['filters'],
                               'before':hits(before),'after':hits(after)})
     assert original==build_usage_index(root), 'readiness probes mutated production data'
     return {'schema_version':1,'kind':'published-data structural retrieval probes',

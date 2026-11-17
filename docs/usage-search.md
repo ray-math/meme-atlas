@@ -99,21 +99,12 @@ python -m unittest discover -s tests -v
 - [W3C SKOS Reference](https://www.w3.org/TR/skos-reference/): 대표 개념과 대체 표기의 분리 원칙을 참고한다. 이 JSON을 RDF/SKOS 준수 구현이라 주장하지 않는다.
 - [JSON Schema 2020-12](https://json-schema.org/draft/2020-12): 필수 필드·타입·닫힌 속성 계약에 사용한다. 원본 해시와 어휘 참조는 별도 Python 검사로 검증한다.
 
-## 2026-11-17 초안 확장
+## 2026-11-17 단계적 확장
 
-현재 브랜치의 본문 348개 중 기존 reviewed 28개/38용법은 그대로 유지한다. UBD·프로불편러·GOAT·폰은정·3대500·오히려 좋아·가보자고에 7개 draft profile/10개 용법을 별도로 작성했다. annotated_entries 35는 reviewed 28과 draft 7의 합계이며, 검토 완료 범위가 35개라는 뜻이 아니다. 아직 주석이 없는 항목은 313개다.
+현재 브랜치 본문348개 중 annotated35개는 reviewed31개/43용법과 draft4개/5용법의 합계다. 미주석은313개다. 원래 reviewed28개/38용법은 그대로 유지했다.
 
-draft는 recommend와 lookup 양쪽에서 제외된다. 본문 조회의 명시적 --usage 옵션으로는 draft 상태와 검토 메모를 읽을 수 있으나, 추천 승인이나 정확도 인증으로 사용하지 않는다. 새 표제의 출처는 [수록 근거](../reports/verified-additions-2026-11-17.md), 기존 두 표제의 추가 근거와 초안 한계는 [초안 검토 메모](../reports/usage-drafts-2026-11-17.md)에 기록했다.
+새7개 profile/10용법의 출처·문맥을 개별 AI 재검토하고 실제 Python 검색 경로를 시험했다. UBD·프로불편러·3대500 3profiles/5용법만 reviewed로 전환했다. 이 중 standard1(자기 호칭재전유), caution3, avoid1이며 caution/avoid는 기본 추천에서 제외된다.
 
-이 초안은 실제 마음을 추정하지 않아 감정은 unknown/[]로 남겼다. 예문과 사용 금지 경계는 AI 편집 판단이며 기사 인용이 아니다. 약한 근거의 오히려 좋아 반어 용법과 일반적인 표현 뜻 설명을 별도 실제 사용 용법으로 늘리는 방식은 제외했다. 구조 검사와 기존 회귀 보존은 초안의 새 자연어 정확도를 입증하지 않는다.
+GOAT·폰은정·오히려 좋아·가보자고는 넓은 과거 질의에서 후보 혼입 또는 근거 보강 필요가 있어 draft로 남겼다. draft는 recommend와 lookup 모두 제외된다. get_entry --usage로 직접 읽으면 상태를 명시하지만 사용 권고는 아니다.
 
-### 개별 검토 후 상태 갱신
-
-위 초안 작성 이후 4개 profile(UBD·프로불편러·3대500·오히려 좋아)의 6용법만 reviewed로 전환했다. 현재 reviewed32개/44용법, draft3개/4용법(GOAT·폰은정·가보자고), 미주석313개다. annotated35는 그대로다. 새6용법 중 기본추천 대상은 좁은 맥락의 standard2개이고 나머지 caution3·avoid1은 lookup 전용이다. lookup 역시 draft3개는 제외한다.
-
-실제 Python 구조검사와 공개 회귀 영향 검사를 수행했다. GOAT·폰~·가보자고는 넓은 질의에서 후보 혼입 또는 근거 보강 필요가 있어 승격을 보류했다. 자세한 판단은 [개별 검토 메모](../reports/usage-drafts-2026-11-17.md)를 참고한다. 이 결과는 새 자연어 사용 정확도나 자동 안전성 인증이 아니다.
-
-
-### 기존 v2 회귀에서 추가 발견한 제한
-
-승격 후보를 실제 CI43996056684에서 검사하자 기존 공개 v2 A16의 넓은 기대와현실차이 필터에 오히려 좋아가 자기 자조보다 앞에 섞였다. v3의 자기 대상 필터에서는 없던 변화다. 기존 스냅샷을 고치거나 회귀를 약화하지 않고 오히려 좋아도 draft로 되돌렸다. 현재 단계승격은 UBD·프로불편러·3대500 3profiles/5uses만이며, reviewed31/43uses·draft4/5uses·미주석313이다. 새 reviewed5개 중 standard1·caution3·avoid1이다. 위 4profile 승격 기록은 시도 내역이며 현재 상태가 아니다.
+[수록 근거](../reports/verified-additions-2026-11-17.md)와 [개별 검토·실패 기록](../reports/usage-drafts-2026-11-17.md)을 참고한다. 새 감정은 모두 unknown/[]이며 예문·위험 경계는 AI 편집 판단이다. 10/10 구조검사는 독립 자연어 정확도나 자동 안전 인증이 아니다. 기존 응답·판정·검색 스냅샷은 그대로 보존한다.
