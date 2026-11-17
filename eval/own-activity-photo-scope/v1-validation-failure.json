@@ -1,0 +1,12 @@
+{
+  "execution_commit": "aff0c57d8db62c55c8ed5515ba9f367ac4e1a450",
+  "ci_run": 44028184288,
+  "tests_run": 381,
+  "failed_tests": 1,
+  "validator_errors": [
+    "P-record: unresolved context",
+    "E18: factual evidence not quoted from request"
+  ],
+  "answers_commit": "3feb8ed59e74b4a4c0dbafac0eeea29224eed1b5",
+  "preservation": "Original answers and validator failures must remain reproducible; no relaxation of validator or source checks."
+}

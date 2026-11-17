@@ -40,3 +40,15 @@ class OwnActivityPhotoScopeTests(unittest.TestCase):
         from check_context_decisions import validate_decisions
         def read(name):return json.loads((ROOT/'eval/own-activity-photo-scope'/name).read_text())
         self.assertEqual(validate_decisions(read('plans.json'),read('retrieval.json'),read('answers.json'),expected_prompt_version='contextual-v3'),[])
+
+    def test_original_failed_answers_remain_preserved_and_rejected(self):
+        from check_context_decisions import validate_decisions
+        from usage_profiles import blob_sha
+        folder=ROOT/'eval/own-activity-photo-scope'
+        original=folder/'answers-v1-unresolved.json'
+        self.assertEqual(blob_sha(original),'9e1e6c120fdd14ef6d9913617d9fe24e79277b94')
+        def read(name):return json.loads((folder/name).read_text())
+        self.assertEqual(validate_decisions(read('plans.json'),read('retrieval.json'),
+                                           read('answers-v1-unresolved.json'),
+                                           expected_prompt_version='contextual-v3'),
+                         ['P-record: unresolved context','E18: factual evidence not quoted from request'])

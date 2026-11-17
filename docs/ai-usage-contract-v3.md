@@ -2,12 +2,14 @@
 
 이 계약은 외부 AI 호출자가 사용할 지시문이다. 저장소 CLI가 자연어를 직접 이해하거나 LLM을 호출한다는 뜻이 아니다.
 
+초기 동결 v3 평가의 재현 설정과 이후 scope 개발 평가의 API 사용을 구분한다. 기존 계획·trace·gold 및 당시 결과는 변경하지 않는다.
+
 ## 질의 단계
 
 1. 사용자의 요청이 의미 조회인지 실제 사용인지, 단순 일반 도움인지 구분한다. 중대한 정보나 대화 방향이 없으면 clarify. 고통 축소·소문 확정·금융 보장·명시적 비밈 요청에는 밈추천에서 abstain하고 필요한 일반 도움을 준다.
 2. search_usage.py --describe-facets의 현재 정의를 읽는다. 명확한 밈 이름이 있으면 query에 그 이름을 넣고 추측한 이름을 만들지 않는다.
 3. 이름이 없다면 가장 확실한 대화기능 한 축을 우선 선택한다. 상황이 명시적이고 기능보다 더 정확하면 상황 한 축을 선택한다. 비슷하지만 다른 기능 후보는 같은 축의 OR로 검색한다. 장면 속 감정을 해당 표현의 필수 감정 조건으로 옮기지 않는다.
-4. 목표는 먼저 후보를 이해하는 것이므로 mode=lookup으로 후보를 조회한다. 이것은 사용 승인이나 recommend 제한의 자동 완화가 아니다. 조회 후 별도의 문맥 판정을 반드시 수행한다. 명시적 비속어 제외 같은 금지 조건은 exclude_risks로 유지한다.
+4. 초기 동결 v3 평가에서는 mode=lookup으로 후보를 조회한다. 후속 scope 개발 평가에서는 standard 후보의 기본 추천 경로를 검증하기 위해 mode=recommend도 사용할 수 있으며, 선택한 모드를 계획에 명시한다. 이것은 사용 승인이나 recommend 제한의 자동 완화가 아니다. 조회 후 별도의 문맥 판정을 반드시 수행한다. 명시적 비속어 제외 같은 금지 조건은 exclude_risks로 유지한다.
 5. 서로 다른 축을 2개 이상 AND로 강제하는 것은 실제로 둘 다 필수라고 확인한 경우만 허용한다. 보통 1개 핵심 축이면 충분하다. 질문 내용을 복사한 긴 query를 문자열 검색기에 넣지 않는다.
 6. 후보가 없으면 없는 것을 만들어 답하지 않는다. 다른 질의를 쓴다면 이유와 추가 질의를 별도 기록한다. 이번 평가에서는 비교를 위해 1회 검색만 사용한다.
 
@@ -44,4 +46,13 @@ context_check는 {assessment: compatible|uncertain|incompatible|not_applicable, 
 - 최종 응답 전에 각 사실 주장(이미 한 행동, 확인 여부, 상대 의사, 관계)을 입력 또는 실제 조회 자료의 정확한 근거에 연결한다. 근거 없는 과거형·확정형은 삭제한다. 사용자의 감정이나 다른 사람의 숨은 의도를 사실처럼 단정하지 않는다.
 - 검토용 최종 JSON에는 factual_check={supported_claims:[{claim,evidence_span}],unsupported_claims:[]}를 덧붙인다. evidence_span은 입력 원문의 정확한 부분이다. 일반적인 조언·정의는 별도 reason에 출처/판단임을 설명한다. 이것 역시 AI 기록이지 자동 사실 인증은 아니다.
 
-기계 인터페이스: 계획 envelope {schema_version:1,model_provenance:string,prompt_version:'contextual-v3',plans:[]}. action은 recommend|lookup|clarify|abstain. filters의 허용 키는 query, emotions, intents, situations, targets, registers, exclude_risks, mode, limit이며 risk_flags 양성 필터는 없다. 이 평가의 mode는 lookup, limit은 5. 정의는 vocabulary의 facet_definitions와 각 label.definition을 읽는다. 최종 envelope는 같은 메타데이터와 answers 배열이다.
+기계 인터페이스: 계획 envelope {schema_version:1,model_provenance:string,prompt_version:'contextual-v3',plans:[]}. action은 recommend|lookup|clarify|abstain. filters의 허용 키는 query, emotions, intents, situations, targets, registers, exclude_risks, mode, limit이며 risk_flags 양성 필터는 없다. 초기 동결 v3 평가 설정은 mode=lookup, limit=5다. 후속 scope 개발 계획은 recommend 또는 lookup을 명시하며 과거 평가 설정을 소급 변경하지 않는다. 정의는 vocabulary의 facet_definitions와 각 label.definition을 읽는다. 최종 envelope는 같은 메타데이터와 answers 배열이다.
+
+
+## 검색 모드와 최종 행동의 구분
+
+검색 mode와 최종 action은 별개다. recommend 검색은 caution/avoid를 계속 제외한다. lookup은 의미 조회이지 사용 허가가 아니며, 정확한 이름 조회로 명시적 조건을 우회한 후보는 추천할 수 없다. 최종 recommend는 standard에도 assessment=compatible 및 unresolved_conditions=[]와 원문 근거·위험 검토를 요구한다. caution의 문맥 한정 판단은 위 최종 응답 규칙을 따르며 기본 recommend 차단을 완화하지 않는다.
+
+조회 자료의 일반 정의는 reason에 출처를 적고 factual_check의 evidence_span에 입력 인용 대신 넣지 않는다. 이 구조 검사는 의미적 함의나 출처의 진실성을 자동 인증하지 않는다.
+
+문구 초안의 적합성 판단은 실제 사진 관찰·게시·파일 공유 승인과 다르다. 현재 요청에 영향을 주는 미해결 사용 조건이 있으면 질문하거나 보류한다. 별도로 수행하지 않은 향후 공유 행위의 민감정보·권한 확인을 완료했다고 기록하지 않으며, 초안만 제공하는 경우에도 필요한 주의는 응답과 이유에 명시한다.
