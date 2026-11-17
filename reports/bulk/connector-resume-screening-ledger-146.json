@@ -33,10 +33,11 @@
     "reports/bulk/connector-resume-a176.json",
     "reports/bulk/connector-resume-holds177.json",
     "reports/bulk/connector-resume-a178.json",
-    "reports/bulk/connector-resume-b179.json"
+    "reports/bulk/connector-resume-b179.json",
+    "reports/bulk/connector-resume-c180.json"
   ],
-  "query_observations": 544,
-  "distinct_literal_queries": 436,
+  "query_observations": 556,
+  "distinct_literal_queries": 448,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -2958,6 +2959,66 @@
     {
       "query": "이수지",
       "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "얼데이드립",
+      "source": "reports/bulk/connector-resume-c180.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "존박 맥도날드 랩",
+      "source": "reports/bulk/connector-resume-c180.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야차",
+      "source": "reports/bulk/connector-resume-c180.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "정신 차려보니",
+      "source": "reports/bulk/connector-resume-c180.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한한미일",
+      "source": "reports/bulk/connector-resume-c180.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "멧챠 카멜레온",
+      "source": "reports/bulk/connector-resume-c180.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "배우 도전 1일차",
+      "source": "reports/bulk/connector-resume-c180.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "탭탭탭",
+      "source": "reports/bulk/connector-resume-c180.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Food Jutsu",
+      "source": "reports/bulk/connector-resume-c180.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "GG EZ",
+      "source": "reports/bulk/connector-resume-c180.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와졌어",
+      "source": "reports/bulk/connector-resume-c180.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "써졌어",
+      "source": "reports/bulk/connector-resume-c180.json",
       "status": "screened-see-report"
     }
   ],

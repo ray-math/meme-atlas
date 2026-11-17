@@ -27,6 +27,7 @@
 - [~재질](jaejil-vibe.md)
 - [~하쥬?](hajyu-speech.md)
 - [○○ 사건](oo-sageon.md)
+- [○○ 와졌어](ended-up-here.md)
 - [○○가 되](becomes-oo.md)
 - [○○가 뿔났다](ppulnatda-title-template.md)
 - [○○냥이](nyang-parody.md)
