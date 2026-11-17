@@ -773,6 +773,7 @@
 - [탑꾸](toploader-kku.md)
 - [탕진잼](tangjinjaem.md)
 - [태보해](taebo-hae.md)
+- [탭탭이](tiny-hand-tapping.md)
 - [텅장](empty-bankbook.md)
 - [테스형](tes-brother.md)
 - [텐미닛 챌린지](ten-minutes-challenge.md)

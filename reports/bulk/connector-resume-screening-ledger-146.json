@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 14,
-  "query_observations": 236,
-  "distinct_literal_queries": 199,
+  "source_files": 15,
+  "query_observations": 256,
+  "distinct_literal_queries": 213,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -1315,6 +1315,118 @@
       "query": "사보필",
       "source": "reports/bulk/connector-resume-c159.json",
       "status": "held-unverified"
+    },
+    {
+      "query": "탭탭이",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "탭탭",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "탭질머리",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "tiny hand",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "손가락 막대기",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "손가락 지시봉",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "taptap.e",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "지시봉",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "작은 손",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "tiny",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "잡도리",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "손가락",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "broad-nonduplicate"
+    },
+    {
+      "query": "여러분 저 상 받았어요",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "제거대상",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "처리대상",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "웃다가 오열",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "어제보다 슬픈 오늘",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "스파이더맨",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "천장 챌린지",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "야르송",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "existing-family",
+      "canonical": "yareu-song"
     }
   ],
   "semantic_duplicates": [
