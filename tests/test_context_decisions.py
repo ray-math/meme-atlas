@@ -93,3 +93,27 @@ class ContextDecisionTests(unittest.TestCase):
  def test_missing_schema_version_rejected(self):
   values=self.sample();values[2].pop('schema_version')
   self.assertTrue(validate_decisions(*values))
+
+ def test_explanation_only_lookup_cannot_be_recommended(self):
+  for scope in ({'explicit_filters_match':False,'exact_lookup_only':True},
+                {'explicit_filters_match':True,'exact_lookup_only':True},
+                {'explicit_filters_match':False,'exact_lookup_only':False},
+                None, {}, {'explicit_filters_match':1,'exact_lookup_only':False},
+                {'explicit_filters_match':True,'exact_lookup_only':0}):
+   values=self.sample();values[1]['results'][0]['retrieval']['results'][0]['retrieval_scope']=scope
+   self.assertTrue(validate_decisions(*values))
+ def test_explicit_scope_remains_eligible_for_context_audit(self):
+  values=self.sample()
+  values[1]['results'][0]['retrieval']['results'][0]['retrieval_scope']={'explicit_filters_match':True,'exact_lookup_only':False}
+  self.assertEqual(validate_decisions(*values),[])
+ def test_explanation_only_hit_can_be_explained_not_recommended(self):
+  values=self.sample()
+  values[1]['results'][0]['retrieval']['results'][0]['retrieval_scope']={'explicit_filters_match':False,'exact_lookup_only':True}
+  values[2]['answers'][0]['action']='lookup'
+  self.assertEqual(validate_decisions(*values),[])
+ def test_common_selection_guard_protects_scoring_path(self):
+  from evaluation_records import validate_selection
+  values=self.sample();hits=values[1]['results'][0]['retrieval']['results']
+  hits[0]['retrieval_scope']={'explicit_filters_match':False,'exact_lookup_only':True}
+  with self.assertRaisesRegex(ValueError,'explanation-only'):
+   validate_selection(values[2]['answers'][0],hits)

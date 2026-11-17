@@ -38,3 +38,14 @@ def validate_selection(answer, hits):
         ambiguous_lookup = action == 'lookup' and usage is None and any(r['entry_id'] == entry for r in hits)
         if not ambiguous_lookup and (entry, usage) not in pairs:
             raise ValueError('selected usage was not retrieved')
+
+    if action == 'recommend':
+        selected = next(r for r in hits if r['entry_id'] == entry and r['usage_id'] == usage)
+        if 'retrieval_scope' in selected:
+            scope = selected['retrieval_scope']
+            if (not isinstance(scope, dict)
+                or type(scope.get('explicit_filters_match')) is not bool
+                or type(scope.get('exact_lookup_only')) is not bool):
+                raise ValueError('invalid selected retrieval scope')
+            if scope['exact_lookup_only'] or not scope['explicit_filters_match']:
+                raise ValueError('explanation-only lookup cannot become a recommendation')
