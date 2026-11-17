@@ -109,6 +109,9 @@ jobs:
           manifest=json.loads((root/'reports/bulk/canonical-wave3-approved.json').read_text())
           if {r['slug'] for r in manifest['entries']}!={"kungkungtta","dibidibidip","alien-tech-joke","joa-ganeungeoya","slide-to-unlock-parody","chulbaal","kk-text-laughter","jessica-jingle","manners-maketh-man","ready-shoot-catchphrase","na-moon-hee-first-love","jangchung-pork-song","airplane-feeding","i-didnt-know","popcat-click"}:
               raise ValueError('unexpected canonical batch scope')
+          for row in manifest['entries']:
+              for field in ['slug','title','path','source_revision','source_blob_sha','scope_type','scope_basis','evidence']:
+                  if not row.get(field):raise ValueError('missing source metadata: '+row.get('slug','?')+':'+field)
           rows=[]
           for row in manifest['entries']:
               url='https://raw.githubusercontent.com/ray-math/meme-atlas/'+row['source_revision']+'/'+row['path']
