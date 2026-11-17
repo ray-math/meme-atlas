@@ -34,10 +34,11 @@
     "reports/bulk/connector-resume-holds177.json",
     "reports/bulk/connector-resume-a178.json",
     "reports/bulk/connector-resume-b179.json",
-    "reports/bulk/connector-resume-c180.json"
+    "reports/bulk/connector-resume-c180.json",
+    "reports/bulk/connector-resume-holds181.json"
   ],
-  "query_observations": 556,
-  "distinct_literal_queries": 448,
+  "query_observations": 568,
+  "distinct_literal_queries": 458,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3020,6 +3021,66 @@
       "query": "써졌어",
       "source": "reports/bulk/connector-resume-c180.json",
       "status": "screened-see-report"
+    },
+    {
+      "query": "위고비",
+      "source": "reports/bulk/connector-resume-holds181.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "위에 고비",
+      "source": "reports/bulk/connector-resume-holds181.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "천연",
+      "source": "reports/bulk/connector-resume-holds181.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "식욕",
+      "source": "reports/bulk/connector-resume-holds181.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "주먹자로",
+      "source": "reports/bulk/connector-resume-holds181.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "사진밖에",
+      "source": "reports/bulk/connector-resume-holds181.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "사진 늘리기",
+      "source": "reports/bulk/connector-resume-holds181.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "비밀번호",
+      "source": "reports/bulk/connector-resume-holds181.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "광고는 안",
+      "source": "reports/bulk/connector-resume-holds181.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "삼이렌",
+      "source": "reports/bulk/connector-resume-holds181.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "폭파",
+      "source": "reports/bulk/connector-resume-holds181.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "오디세이",
+      "source": "reports/bulk/connector-resume-holds181.json",
+      "status": "held-see-report"
     }
   ],
   "semantic_duplicates": [

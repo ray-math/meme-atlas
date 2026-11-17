@@ -1,0 +1,46 @@
+{
+  "base_sha": "9d492ce4dc286e2348dda03ee6c30aacfabf274a",
+  "canonical": 889,
+  "new": 0,
+  "query_strings": [
+    "위고비",
+    "위에 고비",
+    "천연",
+    "식욕",
+    "주먹자로",
+    "사진밖에",
+    "사진 늘리기",
+    "비밀번호",
+    "광고는 안",
+    "삼이렌",
+    "폭파",
+    "오디세이"
+  ],
+  "held": [
+    {
+      "candidate": "천연위고비/위에고비",
+      "reason": "음식사진 말장난 적용 보고는 있으나 독립실제적용 두건 미확보. 약품효능/식단제안 배제",
+      "sources": [
+        "https://gogumafarm.kr/디오-주간-니가-좋아-지금-당장-써야하는-최신-유행-밈/",
+        "https://www.careet.net/Newsletter/Detail?id=4241&pageidx=1"
+      ],
+      "source_limit": "조사자 본문보고, 에디터이번턴재열람없음; 캐릿자체예문 제외"
+    },
+    {
+      "candidate": "사진밖에 없는데 릴스를 좋아할 때",
+      "sources": [
+        "https://maily.so/trendaword/posts/92zek417zep",
+        "https://weekly.donga.com/culture/article/all/11/6369583/1"
+      ],
+      "reason": "종로 템플릿 사용 보도, 해양박물관 제목사례는 있으나 동일 편집방식까지 독립검증 미완료. 원쇼츠미시청"
+    },
+    {
+      "candidate": "오디세이 세이렌",
+      "reason": "기존 odyssey 디저트말장난과 동명이의어. 삼이렌다중기사는 같은축제사건; 독립사용부족"
+    }
+  ],
+  "checks": {
+    "python": "not-run",
+    "ci": "not-run"
+  }
+}
