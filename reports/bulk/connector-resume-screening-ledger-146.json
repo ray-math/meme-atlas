@@ -1,0 +1,196 @@
+{
+  "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
+  "source_files": 3,
+  "query_observations": 33,
+  "distinct_literal_queries": 31,
+  "query_rows": [
+    {
+      "query": "체포하겠어",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "전여친 감자칼",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "이거 제 이모지야",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "영원할 건가",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "밤티",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "장원영",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "고맙투우사",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "아리가토",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "동결건조",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "김민",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "한 단어",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "책없쾌",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "야르",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "쌰갈",
+      "source": "reports/bulk/connector-resume-latest-priority-139.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "학개론",
+      "source": "reports/bulk/connector-resume-reviewer01.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "한놈",
+      "source": "reports/bulk/connector-resume-reviewer01.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "안돼",
+      "source": "reports/bulk/connector-resume-reviewer01.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "돌아가",
+      "source": "reports/bulk/connector-resume-reviewer01.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "무승부",
+      "source": "reports/bulk/connector-resume-reviewer01.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "뒷북",
+      "source": "reports/bulk/connector-resume-reviewer01.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "굽고",
+      "source": "reports/bulk/connector-resume-reviewer01.json",
+      "status": "screened-only"
+    },
+    {
+      "query": "고맙투우사 챌린지",
+      "status": "accepted",
+      "canonical": "thank-you-bullfighter",
+      "source": "reports/bulk/connector-resume-c145.json"
+    },
+    {
+      "query": "아리가투우사",
+      "status": "accepted",
+      "canonical": "thank-you-bullfighter",
+      "source": "reports/bulk/connector-resume-c145.json"
+    },
+    {
+      "query": "아리가토규시",
+      "status": "accepted",
+      "canonical": "thank-you-bullfighter",
+      "source": "reports/bulk/connector-resume-c145.json"
+    },
+    {
+      "query": "고맙투우사",
+      "status": "accepted",
+      "canonical": "thank-you-bullfighter",
+      "source": "reports/bulk/connector-resume-c145.json"
+    },
+    {
+      "query": "리듬게임챌린지",
+      "status": "existing",
+      "canonical": "word-on-beat",
+      "source": "reports/bulk/connector-resume-c145.json"
+    },
+    {
+      "query": "감사합니다람쥐",
+      "status": "unverified",
+      "canonical": null,
+      "source": "reports/bulk/connector-resume-c145.json"
+    },
+    {
+      "query": "라밤바",
+      "status": "unverified",
+      "canonical": null,
+      "source": "reports/bulk/connector-resume-c145.json"
+    },
+    {
+      "query": "책없쾌",
+      "status": "unverified",
+      "canonical": null,
+      "source": "reports/bulk/connector-resume-c145.json"
+    },
+    {
+      "query": "오살힘",
+      "status": "unverified",
+      "canonical": null,
+      "source": "reports/bulk/connector-resume-c145.json"
+    },
+    {
+      "query": "사보필",
+      "status": "unverified",
+      "canonical": null,
+      "source": "reports/bulk/connector-resume-c145.json"
+    },
+    {
+      "query": "동엽이",
+      "status": "unverified",
+      "canonical": null,
+      "source": "reports/bulk/connector-resume-c145.json"
+    },
+    {
+      "query": "과자사꾸",
+      "status": "unverified",
+      "canonical": null,
+      "source": "reports/bulk/connector-resume-c145.json"
+    }
+  ],
+  "semantic_duplicates": [
+    {
+      "query": "영원할 건가 보다",
+      "canonical": "forever-moment"
+    },
+    {
+      "query": "부라는 게 숨긴다고 숨겨지는 것도 아니고",
+      "canonical": "cannot-hide"
+    }
+  ],
+  "note": "고유검색문자열은 고유밈/검증완료수가 아님. 동일뜻의 별칭여러개포함. 최근12개중수록1개,기존1개,나머지미검증."
+}

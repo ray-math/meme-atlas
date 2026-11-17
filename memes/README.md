@@ -72,6 +72,7 @@
 - [고나리](gonari.md)
 - [고도로 발달한 A는 B와 구분할 수 없다](advanced-a-indistinguishable-b.md)
 - [고뤠](gorae.md)
+- [고맙투우사](thank-you-bullfighter.md)
 - [고무짜기](rubber-squeezing.md)
 - [고인물](old-water-expert.md)
 - [고퀄](goqual.md)

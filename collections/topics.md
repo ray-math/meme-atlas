@@ -117,6 +117,7 @@
 - [고급 레스토랑](../memes/fine-restaurant.md)
 - [고나리](../memes/gonari.md)
 - [고도로 발달한 A는 B와 구분할 수 없다](../memes/advanced-a-indistinguishable-b.md)
+- [고맙투우사](../memes/thank-you-bullfighter.md)
 - [고무짜기](../memes/rubber-squeezing.md)
 - [고퀄](../memes/goqual.md)
 - [공방](../memes/gongbang.md)
