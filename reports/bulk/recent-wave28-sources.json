@@ -1,0 +1,170 @@
+{
+  "batch": "recent-wave28",
+  "base_commit": "219359e18969fe4213ac18ff90407a473bd2a128",
+  "candidate_review_count": 20,
+  "candidate_adjustments": [
+    {
+      "from": "지금 장난 나랑 하냐",
+      "to": "장난 나랑 지금 하냐",
+      "reason": "본문에서 확인한 고정 어순으로 조정"
+    },
+    {
+      "from": "전적으로 믿으셔야",
+      "to": "전적으로 저를 믿으셔야 합니다",
+      "reason": "실제 유통 표제로 구체화"
+    }
+  ],
+  "sourceentries": [
+    {
+      "slug": "very-well-done",
+      "title": "아주 칭찬해",
+      "path": "memes/very-well-done.md",
+      "evidence": [
+        {
+          "url": "https://www.osen.co.kr/article/G1110602993",
+          "publisher": "OSEN",
+          "published_date": "2017-03-17",
+          "access": "direct_body",
+          "support": "강호동의 애드리브 칭찬 장면과 다른 예능 자막 사용, PD 인터뷰를 직접 확인했다.",
+          "independent_group": "osen-20170317"
+        },
+        {
+          "url": "https://enews.imbc.com/News/RetrieveNewsInfo/222112",
+          "publisher": "iMBC연예",
+          "published_date": "2017-12-18",
+          "access": "direct_body",
+          "support": "별도 연말 결산에서 한끼줍쇼의 칭찬 나누기 코너에 문구가 사용됨을 확인했다.",
+          "independent_group": "imbc-20171218"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 방송 유래 고정 문구의 사용을 독립 본문으로 확인. 인터넷 최초 기원 주장은 하지 않음.",
+      "review_note": "독립 편집 검토 대기",
+      "source_limits": "방송 유래 유행어이며 인터넷 최초 발화는 주장하지 않는다. 동일 방송 보도자료 두 개가 아니라 자체 취재와 별도 결산이나, 원 방송 영상은 미확인. 기사 제목의 저작권자 표현은 법적 권리 주장으로 채택하지 않았다."
+    },
+    {
+      "slug": "trust-me-completely",
+      "title": "전적으로 저를 믿으셔야 합니다",
+      "path": "memes/trust-me-completely.md",
+      "evidence": [
+        {
+          "url": "https://www.kmib.co.kr/article/20190125500093",
+          "publisher": "국민일보",
+          "published_date": "2019-01-25",
+          "access": "direct_body",
+          "support": "입시 컨설턴트의 설득 문구로 알려진 표현과 증권사 보고서의 대상 치환 패러디를 확인했다.",
+          "independent_group": "kmib-20190125"
+        },
+        {
+          "url": "https://www.segye.com/newsView/20260513508520",
+          "publisher": "세계일보",
+          "published_date": "2026-05-14",
+          "access": "direct_body",
+          "support": "널리 기억된 문구와 실제 방송 대사에 차이가 있다는 보도를 확인했다. 정확한 원대사 귀속을 제한하는 근거다.",
+          "independent_group": "segye-20260514"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 방송 유래 고정 문구의 사용을 독립 본문으로 확인. 인터넷 최초 기원 주장은 하지 않음.",
+      "review_note": "독립 편집 검토 대기",
+      "source_limits": "2019년 기사는 직접 대사로 소개하지만 2026년 보도는 차이를 지적한다. 원 영상 대조는 하지 않았으므로 유통 문구로만 기술한다. 주식 추천 내용과 심리학적 원인 설명은 수록하지 않는다."
+    },
+    {
+      "slug": "are-you-joking-word-order",
+      "title": "장난 나랑 지금 하냐",
+      "path": "memes/are-you-joking-word-order.md",
+      "evidence": [
+        {
+          "url": "https://www.starnewskorea.com/broadcast-show/2016/04/15/2016041505035565637",
+          "publisher": "스타뉴스",
+          "published_date": "2016-04-15",
+          "access": "direct_body",
+          "support": "직접 인터뷰에서 원 질문의 어순을 바꾼 과정과 내부자들 캐릭터의 패러디 관계를 확인했다.",
+          "independent_group": "starnews-20160415"
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20160221_0013910099",
+          "publisher": "뉴시스",
+          "published_date": "2016-02-21",
+          "access": "direct_body",
+          "support": "1대1 방송 소개에서 이병원 캐릭터와 어순 뒤집기 유행어를 확인했다.",
+          "independent_group": "newsis-20160221"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 방송 유래 고정 문구의 사용을 독립 본문으로 확인. 인터넷 최초 기원 주장은 하지 않음.",
+      "review_note": "독립 편집 검토 대기",
+      "source_limits": "뉴시스의 방송 소개와 스타뉴스의 나중 별도 인터뷰를 구별했다. 같은 소개 보도 여러 전재를 추가 근거로 세지 않는다. 영화의 실제 대사가 아니라 개그 패러디임을 명시하며 원 영상과 최초 방송일은 미확인."
+    }
+  ],
+  "held": [
+    {
+      "title": "넌 나에게 모욕감을 줬어",
+      "reason": "최신819 기존 항목과 중복. 신규 작성 제외."
+    },
+    {
+      "title": "살아있네",
+      "reason": "최신819 기존 항목과 중복. 신규 작성 제외."
+    },
+    {
+      "title": "인생은 실전이야",
+      "reason": "일반 문장/단순 인용과 구별할 고정 밈 범위 및 독립 직접 근거 두 개 미충족. 과거 held와 겹칠 수 있어 최초 발굴 수로 주장하지 않음."
+    },
+    {
+      "title": "갈 때까지 가보자",
+      "reason": "일반 문장/단순 인용과 구별할 고정 밈 범위 및 독립 직접 근거 두 개 미충족. 과거 held와 겹칠 수 있어 최초 발굴 수로 주장하지 않음."
+    },
+    {
+      "title": "이러려고",
+      "reason": "정치 풍자 고정형으로 확인되나 이번 안전 묶음 제외. 일반 문구 자체의 신규 밈으로 세지 않음."
+    },
+    {
+      "title": "내가 왕이 될 상인가",
+      "reason": "최신819 기존 항목과 중복. 신규 작성 제외."
+    },
+    {
+      "title": "그것이 알고 싶다",
+      "reason": "일반 문장/단순 인용과 구별할 고정 밈 범위 및 독립 직접 근거 두 개 미충족. 과거 held와 겹칠 수 있어 최초 발굴 수로 주장하지 않음."
+    },
+    {
+      "title": "죽겠네",
+      "reason": "일반 문장/단순 인용과 구별할 고정 밈 범위 및 독립 직접 근거 두 개 미충족. 과거 held와 겹칠 수 있어 최초 발굴 수로 주장하지 않음."
+    },
+    {
+      "title": "앗 뜨거",
+      "reason": "일반 문장/단순 인용과 구별할 고정 밈 범위 및 독립 직접 근거 두 개 미충족. 과거 held와 겹칠 수 있어 최초 발굴 수로 주장하지 않음."
+    },
+    {
+      "title": "왜 이러는 걸까요",
+      "reason": "일반 문장/단순 인용과 구별할 고정 밈 범위 및 독립 직접 근거 두 개 미충족. 과거 held와 겹칠 수 있어 최초 발굴 수로 주장하지 않음."
+    },
+    {
+      "title": "그만 알아보자",
+      "reason": "직접 독립 두 출처 미충족. 월간디시 색인 근거만으로 본문 승격하지 않음."
+    },
+    {
+      "title": "보기 좋은 떡이 먹기도 좋다",
+      "reason": "일반 문장/단순 인용과 구별할 고정 밈 범위 및 독립 직접 근거 두 개 미충족. 과거 held와 겹칠 수 있어 최초 발굴 수로 주장하지 않음."
+    },
+    {
+      "title": "현실은 시궁창",
+      "reason": "최신819 기존 항목과 중복. 신규 작성 제외."
+    },
+    {
+      "title": "그런데 그것이 실제로 일어났습니다",
+      "reason": "최신819 기존 항목과 중복. 신규 작성 제외."
+    },
+    {
+      "title": "웃어야 할지 울어야 할지",
+      "reason": "일반 문장/단순 인용과 구별할 고정 밈 범위 및 독립 직접 근거 두 개 미충족. 과거 held와 겹칠 수 있어 최초 발굴 수로 주장하지 않음."
+    },
+    {
+      "title": "난 둘 다",
+      "reason": "일반 문장/단순 인용과 구별할 고정 밈 범위 및 독립 직접 근거 두 개 미충족. 과거 held와 겹칠 수 있어 최초 발굴 수로 주장하지 않음."
+    },
+    {
+      "title": "선 넘네",
+      "reason": "일반 문장/단순 인용과 구별할 고정 밈 범위 및 독립 직접 근거 두 개 미충족. 과거 held와 겹칠 수 있어 최초 발굴 수로 주장하지 않음."
+    }
+  ]
+}
