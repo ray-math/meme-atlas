@@ -22,7 +22,8 @@ class OtlFingerHeartDraftTests(unittest.TestCase):
         self.index = build_usage_index(ROOT)
 
     def hits(self, index, identity, **kwargs):
-        r = search(index, self.vocab, limit=100, **kwargs)
+        kwargs.setdefault('limit', 100)
+        r = search(index, self.vocab, **kwargs)
         self.assertNotEqual(r['status'], 'unsupported_filter')
         return [h for h in r['results'] if h['entry_id'] == identity]
 
