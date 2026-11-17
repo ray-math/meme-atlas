@@ -20,6 +20,12 @@
           "published_date": "2026-01-04",
           "event_month": "2025-12",
           "verification": "Reported performance use in the article body; performance audio/video not viewed."
+        },
+        {
+          "url": "https://www.cmak.or.kr/board/wordbook/227",
+          "publisher": "한국CM협회",
+          "published_date": "2026-05-06",
+          "verification": "Independent abbreviation and four-action request definition; not corroboration of the performance date."
         }
       ]
     }
@@ -27,6 +33,7 @@
   "limitations": [
     "Only the event/report date sentence is clarified; the exact performance date is not assigned.",
     "The existing 2024 statement and all other canonical content are preserved, not newly reverified.",
-    "No profile promotion or source claim beyond the reported language use is implied."
+    "No profile promotion or source claim beyond the reported language use is implied.",
+    "The performance date comes from the dated Edaily report; the independent definition source confirms meaning, not that event date. Initial importer attempt rejected a single evidence URL before mutation; two-source gate is unchanged."
   ]
 }
