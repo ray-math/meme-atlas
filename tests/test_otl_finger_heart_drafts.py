@@ -49,7 +49,9 @@ class OtlFingerHeartDraftTests(unittest.TestCase):
             self.assertEqual(len(p['usages']), 1)
             u = p['usages'][0]
             self.assertEqual(u['safety'], 'standard')
-            self.assertEqual(u['retrieval_requirements'], {'situations': [situation], 'targets': [target]})
+            expected = {'situations': [situation], 'targets': [target]}
+            if p['entry_id'] == 'otl': expected['intents'] = ['상태설명']
+            self.assertEqual(u['retrieval_requirements'], expected)
             self.assertEqual(u['targets'], [target])
             self.assertEqual(u['situations'], [situation])
             self.assertEqual(u['example']['kind'], 'editorial')
@@ -76,7 +78,8 @@ class OtlFingerHeartDraftTests(unittest.TestCase):
         index = self.provisional()
         for identity, (_, situation, target) in self.SPEC.items():
             for mode in ('lookup', 'recommend'):
-                hits = self.hits(index, identity, mode=mode, situations=[situation], targets=[target])
+                extra = {'intents': ['상태설명']} if identity == 'otl' else {}
+                hits = self.hits(index, identity, mode=mode, situations=[situation], targets=[target], **extra)
                 self.assertEqual(len(hits), 1)
                 self.assertTrue(hits[0]['requires_context_check'])
                 self.assertTrue(hits[0]['retrieval_scope']['explicit_filters_match'])
@@ -86,13 +89,12 @@ class OtlFingerHeartDraftTests(unittest.TestCase):
     def test_provisional_missing_or_wrong_target_blocked(self):
         index = self.provisional()
         for identity, (_, situation, target) in self.SPEC.items():
-            blocked = [
-                {'situations': [situation]},
-                {'targets': [target]},
-                {'situations': [situation, '성과'], 'targets': [target]},
-                {'situations': [situation], 'targets': [target, '상황']},
-                {'situations': [situation], 'targets': ['상황']},
-            ]
+            req = {'situations': [situation], 'targets': [target]}
+            if identity == 'otl': req['intents'] = ['상태설명']
+            blocked = [{k:v for k,v in req.items() if k != missing} for missing in req]
+            blocked.extend([dict(req, situations=[situation, '성과']),
+                            dict(req, targets=[target, '상황']), dict(req, targets=['상황'])])
+            if identity == 'otl': blocked.append(dict(req, intents=['상태설명', '자조']))
             for mode in ('lookup', 'recommend'):
                 for filters in blocked:
                     self.assertFalse(self.hits(index, identity, mode=mode, **filters))
@@ -111,6 +113,20 @@ class OtlFingerHeartDraftTests(unittest.TestCase):
             for word in words:
                 self.assertIn(word, notes)
         # Metadata checks do not infer mental state, actual gestures or consent.
+
+
+    def test_otl_function_gate_prevents_observed_historical_a16_addition(self):
+        import json
+        index = self.provisional()
+        plans = json.loads((ROOT/'eval/regression-v3/audit-plans.json').read_text())
+        plan = next(p for p in plans['plans'] if p['id'] == 'A16')
+        self.assertFalse(self.hits(index, 'otl', **plan['filters']))
+        without_function = copy.deepcopy(index)
+        entry = next(e for e in without_function['entries'] if e['id'] == 'otl')
+        entry['usages'][0]['retrieval_requirements'].pop('intents')
+        self.assertEqual(len(self.hits(without_function, 'otl', **plan['filters'])), 1)
+        self.assertIn('intents', next(e for e in index['entries'] if e['id']=='otl')['usages'][0]['retrieval_requirements'])
+        # This observed candidate addition was not a proven final-answer misrecommendation.
 
 if __name__ == '__main__':
     unittest.main()
