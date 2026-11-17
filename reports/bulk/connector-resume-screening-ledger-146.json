@@ -52,10 +52,11 @@
     "reports/bulk/connector-resume-b196.json",
     "reports/bulk/connector-resume-screening197.json",
     "reports/bulk/connector-resume-holds199.json",
-    "reports/bulk/connector-resume-c200.json"
+    "reports/bulk/connector-resume-c200.json",
+    "reports/bulk/connector-resume-holds201.json"
   ],
-  "query_observations": 838,
-  "distinct_literal_queries": 674,
+  "query_observations": 859,
+  "distinct_literal_queries": 694,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -4447,6 +4448,111 @@
     {
       "query": "웨이비즘",
       "source": "reports/bulk/connector-resume-c200.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "늙크크",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영크크",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도움많이",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "많이받을",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뜨거운줄",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "임성한",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "여단오",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "최고의사진",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도움",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "자기전",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "생각많이",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "helpful",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "before-bed",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이상민",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "간절",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "냉갈",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "피비",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뇌만",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "doctor",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "들쑥",
+      "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김동현",
+      "source": "reports/bulk/connector-resume-holds201.json",
       "status": "screened-see-report"
     }
   ],

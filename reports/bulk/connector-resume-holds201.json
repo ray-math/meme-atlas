@@ -1,0 +1,162 @@
+{
+  "canonical_count": 897,
+  "added": 0,
+  "queries": [
+    "늙크크",
+    "영크크",
+    "도움많이",
+    "많이받을",
+    "뜨거운줄",
+    "임성한",
+    "여단오",
+    "최고의사진",
+    "도움",
+    "자기전",
+    "생각많이",
+    "helpful",
+    "before-bed",
+    "이상민",
+    "간절",
+    "냉갈",
+    "피비",
+    "뇌만",
+    "doctor",
+    "들쑥",
+    "김동현"
+  ],
+  "index_hits": [
+    {
+      "query": "늙크크",
+      "ids": [
+        "old-creator-crew",
+        "young-creator-crew"
+      ]
+    },
+    {
+      "query": "영크크",
+      "ids": [
+        "young-creator-crew"
+      ]
+    },
+    {
+      "query": "도움많이",
+      "ids": []
+    },
+    {
+      "query": "많이받을",
+      "ids": []
+    },
+    {
+      "query": "뜨거운줄",
+      "ids": []
+    },
+    {
+      "query": "임성한",
+      "ids": []
+    },
+    {
+      "query": "여단오",
+      "ids": []
+    },
+    {
+      "query": "최고의사진",
+      "ids": []
+    },
+    {
+      "query": "도움",
+      "ids": [
+        "alien-tech-joke",
+        "come-here-quickly",
+        "favor-right",
+        "gongjoh-cafe",
+        "good-exercise",
+        "hangjun-thinking",
+        "jeommechu",
+        "museon129",
+        "no-room-to-retreat"
+      ]
+    },
+    {
+      "query": "자기전",
+      "ids": []
+    },
+    {
+      "query": "생각많이",
+      "ids": []
+    },
+    {
+      "query": "helpful",
+      "ids": []
+    },
+    {
+      "query": "before-bed",
+      "ids": []
+    },
+    {
+      "query": "이상민",
+      "ids": []
+    },
+    {
+      "query": "간절",
+      "ids": []
+    },
+    {
+      "query": "냉갈",
+      "ids": []
+    },
+    {
+      "query": "피비",
+      "ids": []
+    },
+    {
+      "query": "뇌만",
+      "ids": []
+    },
+    {
+      "query": "doctor",
+      "ids": [
+        "not-doctor-strange"
+      ]
+    },
+    {
+      "query": "들쑥",
+      "ids": []
+    },
+    {
+      "query": "김동현",
+      "ids": [
+        "good-exercise"
+      ]
+    }
+  ],
+  "candidate": "간절스러웠어요",
+  "decision": "hold pending stronger independent direct adaptation",
+  "sources": [
+    {
+      "url": "https://news.coupang.com/archives/60707/?print=pdf",
+      "worker": "PDF page6 heading direct promotional adaptation",
+      "editor": "timeout; not reconfirmed"
+    },
+    {
+      "url": "https://www.xportsnews.com/article/2124598",
+      "verified": "editor article lines104–105 confirms TEO different program title adaptation; actual video page uninspected"
+    },
+    {
+      "url": "https://www.mk.co.kr/news/broadcasting-service/12032937",
+      "worker": "interview reports friends using phrase; messages not directly read"
+    }
+  ],
+  "duplicates": {
+    "도움 많이 된다 / 생각 많이 날 거야": "good-exercise",
+    "늙크크 / 영크크": "existing respective entries"
+  },
+  "reinforcement_only": [
+    "https://maily.so/marsinmarine/posts/e9o08dp4z8w",
+    "https://vakary.stibee.com/p/203"
+  ],
+  "limits": [
+    "One original publisher promotional reuse not two independent direct original uses",
+    "Search mismatches not verified novel candidates",
+    "CI not run"
+  ]
+}
