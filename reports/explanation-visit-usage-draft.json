@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "document_kind": "unregistered_usage_draft",
+  "registration_status": "not_registered",
+  "base_commit": "61b730151a7566a60433d231d3cec79c3f1aecbe",
+  "scope_note": "기존 2항목 각 1용법만 다루는 AI 편집 초안. 등록·검토 승격·실전 정확도 검증 결과가 아니다. 넓은 lookup 후보의 반환을 적합한 추천 성공으로 세지 않는다.",
+  "provenance": "canonical 본문 및 source_sha는 GitHub에서 직접 확인했다. 외부 출처는 별도 조사 담당의 직접 확인 보고를 참고하며 이 작성자가 원문을 직접 재독했다고 주장하지 않는다. 예문은 개인정보 없는 편집 창작이며 위험·안전 분류와 사용 경계는 편집 판단이다.",
+  "proposed_vocabulary": {
+    "intents": [
+      {
+        "label": "해설요청",
+        "aliases": [],
+        "definition": "낯선 용어나 이야기의 배경·맥락을 이해할 수 있도록 풀어 설명해 달라고 요청함. 작업 대행·긴급 구조·개인정보 탐색 요청과 구별한다."
+      },
+      {
+        "label": "방문표시",
+        "aliases": [],
+        "definition": "특정 온라인 게시물을 찾아와 보았다는 흔적을 댓글로 남김. 내용 동의·진실성 인증·작성자 평가를 자동으로 뜻하지 않는다."
+      }
+    ],
+    "situations": [
+      {
+        "label": "화제글방문",
+        "aliases": [],
+        "definition": "뒤늦게 화제가 된 기존 공개 게시물을 찾아와 반응하는 상황. 실제 장소 여행이나 새 게시물 작성과 구별한다."
+      }
+    ]
+  },
+  "profiles": [
+    {
+      "entry_id": "help-speedwagon",
+      "source_sha": "c8bd6618ae8eebb8b974385133ac3a4cfea41e9d",
+      "review_status": "draft",
+      "review_note": "온라인 글의 용어·배경 해설을 요청하는 용법만 주석한다. canonical의 궁금함 표제를 실제 내면 감정으로 자동 전환하지 않아 unknown을 유지한다. 외부 근거는 source_review의 조사 담당 직접 확인 보고를 참고했으며 이번 작성자의 외부 원문 재독은 아니다.",
+      "usages": [
+        {
+          "id": "request-online-context",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "해설요청"
+          ],
+          "situations": [],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "관계의존",
+            "사실오인"
+          ],
+          "safety": "caution",
+          "context": "온라인 공개 글이나 댓글에서 낯선 용어·이야기의 배경을 풀어 설명해 달라고 다른 이용자에게 장난스럽게 청한다. 상대는 설명을 요청받는 행위자이며 전문가 인증이나 답변 의무가 생기지 않는다.",
+          "avoid_when": [
+            "공식 수업·업무 등 격식 있는 질문이 필요한 상황",
+            "의료·안전상 긴급 상황에서 전문적인 도움 대신 밈 답변을 기다리는 경우",
+            "개인의 신상이나 비공개 정보를 찾아 달라는 경우",
+            "설명 대신 작업 대행이나 긴급 구조를 요구하는 경우",
+            "응답하지 않은 상대에게 답변을 강요하는 경우",
+            "온라인이라는 이유만으로 안전하거나 답변이 정확하다고 가정하는 경우"
+          ],
+          "example": {
+            "text": "이 글에서 말하는 세계관 설정이 뭔지 모르겠어요. 배경을 풀어 주실 분 있나요? 도와줘요 스피드웨건!",
+            "kind": "editorial"
+          },
+          "review_note": "상황 라벨을 억지로 추가하지 않았으므로 intent+target 필터 일치만으로 온라인 맥락·적합성이 확인되지는 않는다. caution 기본 추천 제외를 유지하며 조회 뒤 context를 확인해야 한다.",
+          "retrieval_requirements": {
+            "intents": [
+              "해설요청"
+            ],
+            "targets": [
+              "상대"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entry_id": "internet-pilgrimage",
+      "source_sha": "1b1371d5bd9c6f841f6e8990e82c190581ae96c4",
+      "review_status": "draft",
+      "review_note": "기존 공개 화제글을 보았다는 방문 표시만 주석한다. 소원·예언 적중 인증·작성자 평가 파생은 포함하지 않는다. 외부 근거는 source_review의 조사 담당 직접 확인 보고를 참고했으며 이번 작성자의 외부 원문 재독은 아니다.",
+      "usages": [
+        {
+          "id": "mark-public-post-visit",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "방문표시"
+          ],
+          "situations": [
+            "화제글방문"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "사실오인",
+            "공개망신"
+          ],
+          "safety": "caution",
+          "context": "뒤늦게 화제가 된 기존 공개 게시물을 찾아와 읽었다는 흔적을 댓글로 남긴다. 초점은 글 방문이라는 행위이며 글 내용의 진실성·예언성이나 작성자의 가치를 인증하지 않는다.",
+          "avoid_when": [
+            "비공개 글이나 개인 정보가 노출된 자료에 방문을 유도하는 경우",
+            "집단 몰이·괴롭힘·피해 조롱·공개 망신에 가담하는 경우",
+            "방문 댓글을 글 내용의 동의나 사실 확인 증거로 제시하는 경우",
+            "예언의 적중·소원 성취를 보장하는 경우",
+            "실제 장소 여행이나 새 게시물 작성 요청에 적용하는 경우"
+          ],
+          "example": {
+            "text": "뒤늦게 화제가 된 예전 공개 제작 과정을 보고 왔어요. 성지순례 왔습니다.",
+            "kind": "editorial"
+          },
+          "review_note": "몰이와 사실 인증으로 읽힐 가능성을 고려해 보수적으로 caution으로 분류했다. 이는 모든 방문 표시가 유해하다는 사실 판정이 아니다. 필수 상황·대상 일치도 공개성이나 괴롭힘 여부를 검증하지 못한다.",
+          "retrieval_requirements": {
+            "situations": [
+              "화제글방문"
+            ],
+            "targets": [
+              "상황"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "verification_limits": [
+    "외부 출처의 구체적인 범위와 접근 한계는 source_review에 기록한다.",
+    "두 profile 모두 draft이며 실제 조회·추천 노출 또는 reviewed 승격을 승인하지 않는다.",
+    "Python 검색·스키마·회귀 및 CI는 실행하지 않았다."
+  ],
+  "source_review": [
+    {
+      "entry_id": "help-speedwagon",
+      "url": "https://www.khan.co.kr/article/201505192144275/amp",
+      "published_at": "2015-05-19 21:44",
+      "support": "설명 계정 운영자 인터뷰에서 부족한 설명에 문구·태그를 붙여 요청하는 사용을 보도한다.",
+      "limits": "인터뷰 보도이며 답변의 정확성·전문성·의무를 보증하지 않는다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "entry_id": "help-speedwagon",
+      "url": "https://www.ytn.co.kr/_ln/0106_201512042034340071",
+      "published_at": "2015-12-04 20:34",
+      "support": "공식 라디오 속기에서 연구자가 커뮤니티의 용어·배경 해설 요청 사용을 설명한다.",
+      "limits": "오디오와 원댓글은 확인하지 않았다. 연구자 관찰의 속기 자료이며 모든 요청 맥락에 대한 안전 인증이 아니다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "entry_id": "internet-pilgrimage",
+      "url": "https://weekly.khan.co.kr/article/19380",
+      "published_date": "2009-02-24",
+      "support": "화제가 된 옛 사진 기사를 찾은 방문 흔적 댓글과 기자 인터뷰를 다룬다.",
+      "limits": "2001년 최초 사례 주장은 위키 재인용이므로 채택하지 않는다. 이번 예문에 원기사 인물이나 원댓글을 복제하지 않는다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "entry_id": "internet-pilgrimage",
+      "url": "https://news.nate.com/view/20260313n34252",
+      "published_at": "2026-03-15 08:21",
+      "support": "한겨레21 기사 전재 본문에서 화제 글 방문 댓글 놀이를 설명한다.",
+      "limits": "원본은 403이어서 네이트 실제 본문을 읽은 보고다. URL 숫자를 발행일로 삼지 않는다. 원댓글·영상은 확인하지 않았고 새 유튜브 영상 사례는 이번 옛 공개글 용법에 추가하지 않는다.",
+      "access": "researcher_direct_read_report"
+    }
+  ]
+}
