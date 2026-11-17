@@ -803,6 +803,7 @@
 - [느그 서장 남천동 살제?](../memes/your-chief-namcheon.md)
 - [니가 가라 하와이](../memes/you-go-hawaii.md)
 - [니가 좋아 챌린지](../memes/niga-joa-challenge.md)
+- [도비는 자유예요](../memes/dobby-is-free.md)
 - [동작 그만, 밑장빼기냐?](../memes/stop-bottom-dealing.md)
 - [드루와](../memes/deuruwa.md)
 - [라면 먹고 갈래?](../memes/ramen-invitation.md)
