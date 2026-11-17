@@ -1,0 +1,178 @@
+{
+  "base": "9009b2c46f134a79047e52ba086c14d866cb366a",
+  "entries": [
+    {
+      "id": "slow-even-to-template",
+      "sources": [
+        {
+          "url": "https://youtu.be/ut-_ihLdJ8Y?si=-uBCFZRZ0y7aGrzH",
+          "observed": "도구 반환 원페이지 제목 메타데이터: 느리구나... 이 영상을 누르는 것조차. 일반footer외 본문/영상 미확인."
+        },
+        {
+          "url": "https://youtu.be/Oxp9eFV4AxU",
+          "observed": "도구 반환 원페이지 제목 메타데이터: 느리구나, 대피하는 것 조차. 영상 미확인."
+        },
+        {
+          "url": "https://gogumafarm.kr/내가-고구마팜이었으면-이-밈은-꼭-소개하고-싶음-2026/",
+          "observed": "2026-09-21 블리치 대사 및 소방관 제목의 패러디 연결을 본문에서 설명."
+        }
+      ],
+      "evidence_level": "서로 다른 제작자의 제목 텍스트 사용2건. 영상 내용/자막 검증2건이 아님.",
+      "limits": "우정잉 일반 short/watch 주소는 cache miss; 기사에서 연결한 si 파라미터 주소 제목은 회복. 안전교육 내용 미해설."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "흙이 없어",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "흙이없어",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "두더지",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "L을 가져가",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "existing-family",
+      "canonical": "take-the-l"
+    },
+    {
+      "query": "권루트",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "existing-family",
+      "canonical": "take-the-l"
+    },
+    {
+      "query": "STORM",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "existing-family",
+      "canonical": "storm-before-suddenattack"
+    },
+    {
+      "query": "정보",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "내가 아이돌",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "existing-family",
+      "canonical": "if-i-were-idol"
+    },
+    {
+      "query": "하고 싶음",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "existing-family",
+      "canonical": "if-i-were-idol"
+    },
+    {
+      "query": "최고의 히어로",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "existing-family",
+      "canonical": "this-is-my-story-template"
+    },
+    {
+      "query": "느리구나",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "accepted-family-search",
+      "canonical": "slow-even-to-template"
+    },
+    {
+      "query": "쓰러지는",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "accepted-family-search",
+      "canonical": "slow-even-to-template"
+    },
+    {
+      "query": "OO 정보",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "정보 좀",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "엄마 정보",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "아빠 정보",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "다음 화",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "두더지 구출",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "빙글빙글",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "느리",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "accepted-family-search",
+      "canonical": "slow-even-to-template"
+    },
+    {
+      "query": "뱌쿠야",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "accepted-family-search",
+      "canonical": "slow-even-to-template"
+    },
+    {
+      "query": "쿠치키",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "accepted-family-search",
+      "canonical": "slow-even-to-template"
+    },
+    {
+      "query": "slow",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "accepted-family-search",
+      "canonical": "slow-even-to-template"
+    },
+    {
+      "query": "대피",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "accepted-family-search",
+      "canonical": "slow-even-to-template"
+    },
+    {
+      "query": "누르는 것",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "accepted-family-search",
+      "canonical": "slow-even-to-template"
+    },
+    {
+      "query": "것조차",
+      "source": "reports/bulk/connector-resume-b157.json",
+      "status": "accepted-family-search",
+      "canonical": "slow-even-to-template"
+    }
+  ],
+  "checks": {
+    "result_entries": 868,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

@@ -206,6 +206,7 @@
 - [뉴진스의 하입보이요](hype-boy-answer.md)
 - [느그 서장 남천동 살제?](your-chief-namcheon.md)
 - [느낌 아니까](neukkim-anikka.md)
+- [느리구나, ○○하는 것조차](slow-even-to-template.md)
 - [느좋](neujoh.md)
 - [늙크크](old-creator-crew.md)
 - [늦덕](neutdeok.md)
