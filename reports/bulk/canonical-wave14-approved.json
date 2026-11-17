@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "batch_id": "korean-verified-20261117-bulk-wave14",
+  "kind": "Approved public-source metadata; temporary importer input",
+  "review_kind": "Research AI source reading plus separate canonical editorial AI; no human validation",
+  "entries": [
+    {
+      "slug": "jasak",
+      "title": "자삭",
+      "path": "memes/jasak.md",
+      "source_revision": "3e95afa980838d1b1e3f6b0eef6e1ded9428f930",
+      "source_blob_sha": "29c9142f51df68f5201ac352cc60ccf88487f348",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2009100614212315680",
+          "publisher": "아시아경제",
+          "published_date": "2009-10-06",
+          "access": "direct_body",
+          "support": "게시자가 자기 게시물을 직접 지우는 의미를 설명한다.",
+          "independent_group": "아시아경제"
+        },
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1000925898&plink=OLDURL",
+          "publisher": "SBS",
+          "published_date": "2011-06-06",
+          "access": "direct_body",
+          "support": "한국교총 배포 어휘 목록을 소개하며 게시글을 스스로 지우는 표현으로 풀이한다.",
+          "independent_group": "한국교총 배포 어휘집/SBS"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. "
+    },
+    {
+      "slug": "sseobang",
+      "title": "써방",
+      "path": "memes/sseobang.md",
+      "source_revision": "3e95afa980838d1b1e3f6b0eef6e1ded9428f930",
+      "source_blob_sha": "939cd752cc7a6613a94b79be24fe6179323f1d52",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/428",
+          "publisher": "캐릿",
+          "published_date": "2021-07-07",
+          "access": "direct_body",
+          "support": "공개 본문에서 검색 방지를 위해 단어의 표기를 바꾸는 의미를 설명한다.",
+          "independent_group": "캐릿"
+        },
+        {
+          "url": "https://www.slj.co.kr/bbs/board.php?bo_table=special&page=3&wr_id=647",
+          "publisher": "학교도서관저널",
+          "published_date": "2023-07-04",
+          "access": "direct_body",
+          "support": "팬 문화 소개에서 서비스 이름을 다른 표현으로 바꾸는 써방 용법을 설명한다.",
+          "independent_group": "학교도서관저널"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 검색 차단 효과를 기술적으로 검증한 자료는 아니다."
+    },
+    {
+      "slug": "saengka",
+      "title": "생카",
+      "path": "memes/saengka.md",
+      "source_revision": "3e95afa980838d1b1e3f6b0eef6e1ded9428f930",
+      "source_blob_sha": "a8e3a21fa69adcb2f5c751f566c3af324f35dd06",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/W8XZGMwz6M",
+          "publisher": "한겨레",
+          "published_date": "2023-11-24",
+          "access": "direct_body",
+          "support": "생일 카페의 약칭과 팬이 준비하는 공간이라는 의미를 현장 기사에서 설명한다.",
+          "independent_group": "한겨레"
+        },
+        {
+          "url": "https://v.daum.net/v/pJN5gaHEd7",
+          "publisher": "YTN",
+          "published_date": "2024-05-11",
+          "access": "direct_body",
+          "support": "생카의 뜻을 설명하고 역사적 인물 기념 행사 기획자를 별도로 인터뷰한다.",
+          "independent_group": "YTN"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 기사 속 개인 경험·미성년자 정보는 복제하지 않았다."
+    },
+    {
+      "slug": "yeongtong-paenssa",
+      "title": "영통팬싸",
+      "path": "memes/yeongtong-paenssa.md",
+      "source_revision": "3e95afa980838d1b1e3f6b0eef6e1ded9428f930",
+      "source_blob_sha": "d61b1a1c36c65f9b5f13b1c0cd3fe8d2e49286d3",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "evidence": [
+        {
+          "url": "https://sports.khan.co.kr/article/202006240000003/amp",
+          "publisher": "스포츠경향",
+          "published_date": "2020-06-24",
+          "access": "direct_body",
+          "support": "영상통화 팬사인회의 약칭과 비대면 일대일 만남이라는 뜻을 설명한다.",
+          "independent_group": "스포츠경향"
+        },
+        {
+          "url": "https://www.hanteonews.com/en/article/42333",
+          "publisher": "한터뉴스",
+          "published_date": "2022-10-22",
+          "access": "direct_body",
+          "support": "케이팝 용어 연재에서 한국어 표현과 영상통화를 통한 팬사인회 의미를 풀이한다.",
+          "independent_group": "한터뉴스"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 현재 신청 조건·금액·선발 방식은 다루지 않았다."
+    },
+    {
+      "slug": "album-kkang",
+      "title": "앨범깡",
+      "path": "memes/album-kkang.md",
+      "source_revision": "3e95afa980838d1b1e3f6b0eef6e1ded9428f930",
+      "source_blob_sha": "a67582d2468066b29d9882c6c3427e440951e336",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "evidence": [
+        {
+          "url": "https://knup.kangwon.ac.kr/index.php?BID=18164&cm=oxbbs&cmd=view&cp=&mt=content&oxid=10",
+          "publisher": "강대신문",
+          "published_date": "2026-09-14",
+          "access": "direct_body",
+          "support": "굿즈를 얻기 위한 여러 장의 앨범 구매·개봉과 관련 영상의 사용을 설명한다.",
+          "independent_group": "강대신문"
+        },
+        {
+          "url": "https://pdf.channelpnu.pusan.ac.kr/1631/16311631.pdf",
+          "publisher": "부대신문",
+          "published_date": "2022-11-07",
+          "access": "direct_body",
+          "support": "9면 기사에서 원하는 포토카드가 나올 때까지 앨범을 사는 행위로 설명한다.",
+          "independent_group": "부대신문"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 두 기사 모두 반복 구매 쪽에 초점이 있다. 구매를 권유하거나 모든 팬의 소비 동기를 단정하지 않는다."
+    },
+    {
+      "slug": "sanok",
+      "title": "사녹",
+      "path": "memes/sanok.md",
+      "source_revision": "3e95afa980838d1b1e3f6b0eef6e1ded9428f930",
+      "source_blob_sha": "c7f1bb3aa184f5edaab15562e6fc9b1223e1facf",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/202002020924001/amp",
+          "publisher": "경향신문",
+          "published_date": "2020-02-02",
+          "access": "direct_body",
+          "support": "팬덤 용어 목록에서 공개방송과 사전녹화를 구별해 풀이한다.",
+          "independent_group": "경향신문"
+        },
+        {
+          "url": "https://v.daum.net/v/gXu8fbOvCp",
+          "publisher": "한국일보",
+          "published_date": "2018-07-19",
+          "access": "direct_body",
+          "support": "방청 기사에서 사녹은 사전녹화, 공방은 공개방송이라고 각각 설명한다.",
+          "independent_group": "한국일보"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 개별 방송의 현재 일정·방청 조건은 포함하지 않았다."
+    },
+    {
+      "slug": "gongbang",
+      "title": "공방",
+      "path": "memes/gongbang.md",
+      "source_revision": "3e95afa980838d1b1e3f6b0eef6e1ded9428f930",
+      "source_blob_sha": "eb2b77388ec47038ec40c930ac7aac174603edef",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/202002020924001/amp",
+          "publisher": "경향신문",
+          "published_date": "2020-02-02",
+          "access": "direct_body",
+          "support": "팬덤 용어 목록에서 공개방송과 사전녹화를 구별해 풀이한다.",
+          "independent_group": "경향신문"
+        },
+        {
+          "url": "https://v.daum.net/v/gXu8fbOvCp",
+          "publisher": "한국일보",
+          "published_date": "2018-07-19",
+          "access": "direct_body",
+          "support": "방청 기사에서 사녹은 사전녹화, 공방은 공개방송이라고 각각 설명한다.",
+          "independent_group": "한국일보"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 방송 방청 문맥으로 한정하며 입장 권리나 현재 참가 조건을 뜻하지 않는다."
+    },
+    {
+      "slug": "olkon",
+      "title": "올콘",
+      "path": "memes/olkon.md",
+      "source_revision": "3e95afa980838d1b1e3f6b0eef6e1ded9428f930",
+      "source_blob_sha": "bfb51bff67d0b76bac1a74563483dae1fe6e199f",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201906031700001/amp",
+          "publisher": "경향신문",
+          "published_date": "2019-06-03",
+          "access": "direct_body",
+          "support": "콘서트 현장 기사에서 여러 날 열린 모든 회차 관람의 뜻을 설명한다.",
+          "independent_group": "경향신문"
+        },
+        {
+          "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002817842",
+          "publisher": "오마이뉴스",
+          "published_date": "2022-03-14",
+          "access": "direct_body",
+          "support": "시민기자 관람기에서 모든 회차를 본다는 의미를 직접 풀이한다.",
+          "independent_group": "오마이뉴스"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 개인 관람 경험의 세부와 예매 요령은 옮기지 않았다."
+    },
+    {
+      "slug": "insaeng-jjal",
+      "title": "인생짤",
+      "path": "memes/insaeng-jjal.md",
+      "source_revision": "3e95afa980838d1b1e3f6b0eef6e1ded9428f930",
+      "source_blob_sha": "dda98c22787a98fbff14f74bd60a020ecbe57324",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "evidence": [
+        {
+          "url": "https://www.tenasia.co.kr/article/2014080745384",
+          "publisher": "텐아시아",
+          "published_date": "2014-08-07",
+          "access": "direct_body",
+          "support": "인생에서 가장 잘 나온 사진이라는 평가 표현으로 설명한다.",
+          "independent_group": "텐아시아"
+        },
+        {
+          "url": "https://www.yna.co.kr/amp/view/AKR20150325093200005",
+          "publisher": "연합뉴스",
+          "published_date": "2015-03-25",
+          "access": "direct_body",
+          "support": "국립국어원 신어 발표를 소개하며 매우 잘 나온 사진이라는 의미를 설명한다.",
+          "independent_group": "국립국어원 2014 신어 발표/연합뉴스"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 사진 품질의 객관적 순위를 뜻하지 않는다."
+    },
+    {
+      "slug": "namchin-jjal",
+      "title": "남친짤",
+      "path": "memes/namchin-jjal.md",
+      "source_revision": "3e95afa980838d1b1e3f6b0eef6e1ded9428f930",
+      "source_blob_sha": "1863041c714f843c52227e915344d926ae714a38",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "evidence": [
+        {
+          "url": "https://www.tenasia.co.kr/article/2014080745384",
+          "publisher": "텐아시아",
+          "published_date": "2014-08-07",
+          "access": "direct_body",
+          "support": "남자친구처럼 친근한 모습과 사복 사진이라는 사용 맥락을 설명한다.",
+          "independent_group": "텐아시아"
+        },
+        {
+          "url": "https://www.korean.go.kr/common/download.do%3Bfront%3D46DD3CEB55A8772BB47E8A16A019E270?c_file_name=7b465c43-8ae9-4efc-b459-01e5100de6c4.pdf&file_path=reportData&o_file_name=2013_%EC%8B%A0%EC%96%B4%28%EA%B3%B5%EA%B0%9C%29.pdf",
+          "publisher": "국립국어원",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "2013 신어 자료의 남친짤 항목에서 자연스럽게 찍힌 남성 연예인 사진이라는 뜻과 이투뉴스 사용례를 수록한다.",
+          "independent_group": "국립국어원 2013 신어/이투뉴스 용례"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 국립국어원 자료의 정확한 게시일은 확인하지 않아 null로 두었다. 당사자 관계나 사진 이용 허락을 인증하지 않는다."
+    },
+    {
+      "slug": "samgwida",
+      "title": "삼귀다",
+      "path": "memes/samgwida.md",
+      "source_revision": "c8b0b035cb1657534d6733ea4f033d14ba51c5eb",
+      "source_blob_sha": "7407f542414a7c8fe67a9925527b8c92ebb0c0e7",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다.",
+      "evidence": [
+        {
+          "url": "https://www.yuhan.co.kr/Mobile/Introduce/Health/index.asp?Cateid=290&IDX=39789&listUrl=%2FMobile%2FIntroduce%2FHealth%2FSearch%2Findex.asp%3FCateid%3D290%26p%3D49&mode=view&p=49&sm=-1",
+          "publisher": "유한양행 건강의 벗",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "본문에서 2021 대화사전으로 명시. 삼귀다의 정의와 예문 확인.",
+          "independent_group": "yuhan-dialogue-dictionary"
+        },
+        {
+          "url": "https://www.edaily.co.kr/news/read?newsId=01203766632334496",
+          "publisher": "이데일리",
+          "published_date": "2022-05-31",
+          "access": "direct_body",
+          "supports": "본문에서 연애 전 친밀한 관계로 정의하고 SNS 신조어 맥락에 배치.",
+          "independent_group": "edaily-language-feature"
+        }
+      ],
+      "limitations": [
+        "유한양행 페이지의 월일은 확인하지 못했다. 2021년은 본문 연재 이름에 근거한다.",
+        "기존 썸과 의미는 가깝지만 별도 어휘 형식으로 제안하며 최초 창안자를 단정하지 않는다."
+      ]
+    },
+    {
+      "slug": "jjaljup",
+      "title": "짤줍",
+      "path": "memes/jjaljup.md",
+      "source_revision": "c8b0b035cb1657534d6733ea4f033d14ba51c5eb",
+      "source_blob_sha": "7a6994d7d409bbc26f7b91dcc295eef3ee309e74",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다.",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201705152046025",
+          "publisher": "경향신문",
+          "published_date": "2017-05-15",
+          "access": "direct_body",
+          "supports": "사진 수집·저장 행위의 정의와 국내 팬 활동 사례.",
+          "independent_group": "khan-fandom-column"
+        },
+        {
+          "url": "https://www.careet.net/395",
+          "publisher": "캐릿",
+          "published_date": "2021-06-11",
+          "access": "direct_body",
+          "supports": "직접 열린 페이지 제목에서 짤줍 사용. 공개 본문은 오히려 좋아 밈 소개.",
+          "independent_group": "careet-meme-series"
+        },
+        {
+          "url": "https://v.daum.net/v/nLrgYIC9iU",
+          "publisher": "매일경제(Daum 전재)",
+          "published_date": "2017-06-02",
+          "access": "direct_body",
+          "supports": "짤줍 절에서 선호하는 아이돌의 이미지 파일 수집으로 직접 정의하고 별도 팬 인터뷰로 수집 행동을 설명.",
+          "independent_group": "mk-fandom-interview"
+        }
+      ],
+      "limitations": [
+        "캐릿은 공개 제목 및 공개 본문만 확인했다. 유료 부분 미열람. 짤줍 자체의 정의는 경향신문, 2021 사용은 캐릿 제목이 각각 뒷받침한다.",
+        "매일경제와 경향신문은 정치 팬덤이라는 시대 배경이 겹치지만 매일경제의 아이돌 팬 인터뷰와 경향의 지인 일화는 다른 직접 서술이다. 정치인 평가·팬 수 통계는 사용하지 않았다. 두 본문으로 뜻/행동 확인, 2021 지속사용은 캐릿 공개 제목만 뒷받침."
+      ]
+    },
+    {
+      "slug": "sigang",
+      "title": "시강",
+      "path": "memes/sigang.md",
+      "source_revision": "c8b0b035cb1657534d6733ea4f033d14ba51c5eb",
+      "source_blob_sha": "6a9e6b19f97c34ed6b257adbcd2669edfcb53916",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다.",
+      "evidence": [
+        {
+          "url": "https://sports.khan.co.kr/article/202210140800003/amp",
+          "publisher": "스포츠경향",
+          "published_date": "2022-10-14",
+          "access": "direct_body",
+          "supports": "인터뷰 도입부에서 시강을 시선 강탈의 약자로 설명.",
+          "independent_group": "sports-khan-actor-interview"
+        },
+        {
+          "url": "https://v.daum.net/v/20230407155344267?s=print_news",
+          "publisher": "이데일리(Daum 전재)",
+          "published_date": "2023-04-07",
+          "access": "direct_body",
+          "supports": "시강의 축약과 사람·사물·장면의 적용 범위 직접 설명.",
+          "independent_group": "edaily-slang-column"
+        }
+      ],
+      "limitations": [
+        "인터뷰에서의 이름 말장난과 별도 신조어 해설을 구분했다."
+      ]
+    },
+    {
+      "slug": "insaeng-shot",
+      "title": "인생샷",
+      "path": "memes/insaeng-shot.md",
+      "source_revision": "c8b0b035cb1657534d6733ea4f033d14ba51c5eb",
+      "source_blob_sha": "8ab52e682d2848061f379118c3cc746b0f5aa8f3",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20220217062506380",
+          "publisher": "트래비(Daum 전재)",
+          "published_date": "2022-02-17",
+          "access": "direct_body",
+          "supports": "여행에서 인생 사진을 남기는 행동과 SNS 맥락을 소개.",
+          "independent_group": "travie-chuncheon-photo"
+        },
+        {
+          "url": "https://www.hankyung.com/article/2023071475611",
+          "publisher": "한국경제",
+          "published_date": "2023-07-14",
+          "access": "direct_body",
+          "supports": "인생샷을 인생 사진으로 풀고 촬영·소셜미디어 게시 경험을 다룬 책 소개.",
+          "independent_group": "hankyung-photo-book-review"
+        }
+      ],
+      "limitations": [
+        "책 전체나 인터뷰 원문을 읽었다고 주장하지 않으며 확인한 서평과 여행 기사만 활용한다."
+      ]
+    },
+    {
+      "slug": "lovestagram",
+      "title": "럽스타그램",
+      "path": "memes/lovestagram.md",
+      "source_revision": "c8b0b035cb1657534d6733ea4f033d14ba51c5eb",
+      "source_blob_sha": "25536c25b2de22bdd9c2181c0becf259c63059c0",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다.",
+      "evidence": [
+        {
+          "url": "https://www.tenasia.co.kr/article/2015061027234",
+          "publisher": "텐아시아",
+          "published_date": "2015-06-10",
+          "access": "direct_body",
+          "supports": "앨범 소개에서 합성어 구조와 연인들의 SNS 애정 표현 설명.",
+          "independent_group": "tenasia-album-announcement"
+        },
+        {
+          "url": "https://www.mt.co.kr/entertainment/2022/06/25/2022062516355299567",
+          "publisher": "머니투데이",
+          "published_date": "2022-06-25",
+          "access": "direct_body",
+          "supports": "기본 정의와 친구 관계에 대한 비유적 사용을 명시.",
+          "independent_group": "mt-friendship-social-posts"
+        }
+      ],
+      "limitations": [
+        "개인의 연애나 성적 지향을 추정하지 않는다. 실제 인명 및 관계 의혹은 본문에서 제외했다.",
+        "첫 자료는 앨범 발표 보도이며 두 번째는 별도 시점·주체의 게시물 보도다."
+      ]
+    },
+    {
+      "slug": "taste-hit",
+      "title": "취향저격",
+      "path": "memes/taste-hit.md",
+      "source_revision": "c8b0b035cb1657534d6733ea4f033d14ba51c5eb",
+      "source_blob_sha": "d91c76c057c2c573750b6f24c5e503ec930c44ec",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다.",
+      "evidence": [
+        {
+          "url": "https://www.ajunews.com/view/20171219083615886",
+          "publisher": "아주경제",
+          "published_date": "2017-12-20",
+          "access": "direct_body",
+          "supports": "취향에 맞는 상황의 의미와 취저 축약을 직접 설명.",
+          "independent_group": "ajunews-language-video-text"
+        },
+        {
+          "url": "https://www.donga.com/news/Culture/article/all/20221203/116820943/1",
+          "publisher": "동아일보",
+          "published_date": "2022-12-03",
+          "access": "direct_body",
+          "supports": "디지털 언어를 다룬 서평에서 취저와 취향 저격 연결.",
+          "independent_group": "donga-digital-language-book"
+        }
+      ],
+      "limitations": [
+        "아주경제는 영상의 공개 기사 설명문만 읽었으며 영상 재생은 하지 않았다.",
+        "동아일보가 소개한 책 전체와 언급량 원자료는 미검증. 유행 규모나 증가율을 인용하지 않는다."
+      ]
+    },
+    {
+      "slug": "assarabia-colombia",
+      "title": "아싸라비아 콜롬비아",
+      "path": "memes/assarabia-colombia.md",
+      "source_revision": "72bdfe39afa607b490646a04184fac932c57bdb5",
+      "source_blob_sha": "1ba6bedd037b2408fe87c83287dcf73a8247d96a",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 방송 유행어 정리와 공연에서의 반복 사용 보도를 교차 확인.",
+      "evidence": [
+        {
+          "publisher": "뉴스엔",
+          "url": "https://news.nate.com/view/20051212n07189",
+          "published_at": "2005-12-12",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "화상고에서 사용된 인기 표현으로 소개.",
+          "distribution_note": "네이트 헤더는 뉴데일리이나 본문 기자·저작권은 뉴스엔. 동일 기사 전재를 별도 발행 주체로 세지 않음."
+        },
+        {
+          "publisher": "스포츠서울",
+          "url": "https://v.daum.net/v/20261003175100507",
+          "published_at": "2026-10-03",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "공연에서 말장난처럼 외친 실제 사용 및 국내 커뮤니티 공유를 보도."
+        },
+        {
+          "publisher": "시사저널",
+          "url": "https://v.daum.net/v/20250831110115333",
+          "published_at": "2025-08-31",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "익숙한 관용어구로 회자됨과 다른 문화권에서 다르게 해석될 수 있는 맥락."
+        }
+      ],
+      "limitations": [
+        "원방송·공연·SNS 영상 자체를 재생해 확인한 것은 아님.",
+        "발행일과 최초 발생일을 구분하며 최근 관측이나 최신 유행으로 자동 등록하지 않음.",
+        "자체 예문은 실제 발화 기록이 아님.",
+        "출처의 전체 문장·가사·사진·개인정보는 저장하지 않음."
+      ]
+    },
+    {
+      "slug": "adi-adi-challenge",
+      "title": "아디아디아디 챌린지",
+      "path": "memes/adi-adi-challenge.md",
+      "source_revision": "72bdfe39afa607b490646a04184fac932c57bdb5",
+      "source_blob_sha": "7d778e9148bb4bb7e96079228a5af6e9598787f8",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 댄스 크루의 특정 음악·동작 결합 형식과 국내 가수·제작자의 재현을 두 매체가 설명.",
+      "evidence": [
+        {
+          "publisher": "Y magazine / 노블레스미디어인터내셔날",
+          "url": "https://ynoblesse.com/y-y_culture%E2%A0%80%EC%95%84%EB%94%94%EC%95%84%EB%94%94%EC%95%84%EB%94%94-%EC%B1%8C%EB%A6%B0%EC%A7%80%EB%A5%BC-%EC%95%84%EC%8B%9C%EB%82%98%EC%9A%94-%EC%B1%8C%EB%A6%B0%EC%A7%80/",
+          "published_at": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "Funkytown과 아디의 동작·다양한 장소에서 재현하는 형식. 본문에 정확한 발행일 미표시."
+        },
+        {
+          "publisher": "뉴시스 / 튜브가이드",
+          "url": "https://www.newsis.com/video/view/?id=NISX20230516_0002304480",
+          "published_at": "2023-05-17",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "두 이름의 연결, 음악·동작·국내 제작자와 가수의 참여 사례. URL 날짜 대신 본문 등록일 사용."
+        }
+      ],
+      "limitations": [
+        "원방송·공연·SNS 영상 자체를 재생해 확인한 것은 아님.",
+        "발행일과 최초 발생일을 구분하며 최근 관측이나 최신 유행으로 자동 등록하지 않음.",
+        "자체 예문은 실제 발화 기록이 아님.",
+        "출처의 전체 문장·가사·사진·개인정보는 저장하지 않음."
+      ]
+    }
+  ],
+  "limitations": [
+    "Canonical only, no usage promotion.",
+    "Source-body research plus independent stored-text AI editorial review, not original-media universal verification or human validation.",
+    "Roles include definitions, publisher captions/titles, interviews, performances, event accounts and purchase reports. Reprints are not additional independent publishers.",
+    "No current event/entry entitlement, account/action authority, sharing/media rights, real relationship or orientation inference, investment/purchase endorsement, dangerous dance instructions or first-origin/popularity certification.",
+    "인생짤 and 인생샷 overlap as observed lexemes; they are not mutually exclusive photo categories."
+  ]
+}
