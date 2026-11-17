@@ -48,10 +48,11 @@
     "reports/bulk/connector-resume-screening192.json",
     "reports/bulk/connector-resume-c193.json",
     "reports/bulk/connector-resume-holds194.json",
-    "reports/bulk/connector-resume-audit-screening195.json"
+    "reports/bulk/connector-resume-audit-screening195.json",
+    "reports/bulk/connector-resume-b196.json"
   ],
-  "query_observations": 783,
-  "distinct_literal_queries": 629,
+  "query_observations": 791,
+  "distinct_literal_queries": 637,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -4168,6 +4169,46 @@
     {
       "query": "결정장애",
       "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "너만",
+      "source": "reports/bulk/connector-resume-b196.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "없더라",
+      "source": "reports/bulk/connector-resume-b196.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "있음",
+      "source": "reports/bulk/connector-resume-b196.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2016",
+      "source": "reports/bulk/connector-resume-b196.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "튜토리얼",
+      "source": "reports/bulk/connector-resume-b196.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "알로사우루스",
+      "source": "reports/bulk/connector-resume-b196.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감성글귀",
+      "source": "reports/bulk/connector-resume-b196.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "wow",
+      "source": "reports/bulk/connector-resume-b196.json",
       "status": "screened-see-report"
     }
   ],

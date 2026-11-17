@@ -189,6 +189,7 @@
 - [너 인성 문제있어?](attitude-problem.md)
 - [너 임포스터지?](you-impostor.md)
 - [너나 잘하세요](neona-jalhaseyo.md)
+- [너만 없더라](only-you-are-missing.md)
 - [너무해 너무해](neomuhae-neomuhae.md)
 - [넌 계획이 다 있구나](you-have-a-plan.md)
 - [넌 나에게 모욕감을 줬어](you-insulted-me.md)
