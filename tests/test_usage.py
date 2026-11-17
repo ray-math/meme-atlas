@@ -157,7 +157,8 @@ class UsageValidationTests(unittest.TestCase):
                               check=True,capture_output=True,text=True)
         result=json.loads(output.stdout)
         self.assertEqual(result['status'],'matches')
-        self.assertEqual(result['coverage']['annotated_entries'],28)
+        self.assertEqual(result['coverage']['annotated_entries'],len(load_profiles(ROOT)['profiles']))
+        self.assertEqual(result['coverage']['reviewed_entries'],28)
 
     def test_batch_changed_annotated_entry_rolls_back(self):
         import shutil
@@ -208,3 +209,49 @@ class UsageValidationTests(unittest.TestCase):
         u['emotions']=['중립'];self.check(self.data)
         u['emotion_status']='unknown'
         with self.assertRaises(ValueError):self.check(self.data)
+
+class DraftExpansionTests(unittest.TestCase):
+    IDS = {'ubd', 'pro-offended', 'goat', 'pon-eunjeong',
+           'three-lifts-500', 'ohiryeo-joa', 'gabojago'}
+
+    def test_seven_draft_profiles_ten_uses_are_not_promoted(self):
+        data=load_profiles(ROOT)
+        drafts={p['entry_id']:p for p in data['profiles'] if p['entry_id'] in self.IDS}
+        self.assertEqual(set(drafts),self.IDS)
+        self.assertEqual(sum(len(p['usages']) for p in drafts.values()),10)
+        self.assertEqual(sum(p['review_status']=='reviewed' for p in data['profiles']),28)
+        for identity,profile in drafts.items():
+            self.assertEqual(profile['review_status'],'draft')
+            self.assertEqual(profile['source_sha'],blob_sha(ROOT/'memes'/f'{identity}.md'))
+            for usage in profile['usages']:
+                self.assertEqual(usage['emotion_status'],'unknown')
+                self.assertEqual(usage['emotions'],[])
+                self.assertEqual(usage['example']['kind'],'editorial')
+
+    def test_drafts_excluded_from_both_search_modes(self):
+        from build_usage_index import build_usage_index
+        data=build_usage_index(ROOT);vocab=load_vocabulary(ROOT)
+        drafts=[e for e in data['entries'] if e['id'] in self.IDS]
+        for mode in ['lookup','recommend']:
+            for entry in drafts:
+                queries=[{'query':entry['title']}]
+                queries += [{'intents':u['intents']} for u in entry['usages'] if u['intents']]
+                for kwargs in queries:
+                    hits=search(data,vocab,mode=mode,limit=100,**kwargs)['results']
+                    self.assertFalse({h['entry_id'] for h in hits}&self.IDS)
+
+    def test_draft_direct_read_is_explicit_not_a_recommendation(self):
+        from get_entry import get_entry
+        for identity in self.IDS:
+            result=get_entry(ROOT,identity,include_usage=True)
+            self.assertEqual(result['usage_annotation_status'],'draft')
+            self.assertEqual(result['usage_profile']['review_status'],'draft')
+
+    def test_narrow_vocabulary_concepts_have_definitions_not_broad_aliases(self):
+        vocab=load_vocabulary(ROOT)
+        for facet,labels in [('intents',{'수량비유','호칭재전유','긍정적재해석'}),
+                             ('situations',{'도전시작'})]:
+            concepts={c['label']:c for c in vocab['facets'][facet]}
+            for label in labels:
+                self.assertTrue(concepts[label]['definition'])
+                self.assertEqual(concepts[label]['aliases'],[])

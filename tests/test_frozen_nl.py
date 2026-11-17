@@ -32,3 +32,19 @@ class FrozenNaturalLanguageTests(unittest.TestCase):
                         row['retrieval'].pop('coverage', None)
                     return rows
                 self.assertEqual(behavior(frozen), behavior(actual))
+
+    def test_v3_public_regression_behavior_is_preserved(self):
+        # Existing public cases, not a new held-out accuracy estimate.
+        for group in ['audit','editorial']:
+            with self.subTest(group=group):
+                folder=ROOT/'eval/regression-v3'
+                plans=json.loads((folder/f'{group}-plans.json').read_text())['plans']
+                frozen=json.loads((folder/f'{group}-retrieval.json').read_text())
+                actual=replay(plans,ROOT)
+                self.assertEqual(frozen['plans_sha256'],actual['plans_sha256'])
+                def behavior(trace):
+                    rows=json.loads(json.dumps(trace['results']))
+                    for row in rows:
+                        row['retrieval'].pop('coverage',None)
+                    return rows
+                self.assertEqual(behavior(frozen),behavior(actual))

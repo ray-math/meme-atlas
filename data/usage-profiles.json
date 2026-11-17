@@ -1490,6 +1490,380 @@
           "emotion_status": "annotated"
         }
       ]
+    },
+    {
+      "entry_id": "ubd",
+      "source_sha": "934400425c48118130b2470d79118ac13554bd6d",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.mt.co.kr/society/2020/05/06/2020050608413867719 ; https://www.newsis.com/view/NISX20200506_0001015908 . 실제 누적 관객 수와 관용적 17만 단위를 구별한다.",
+      "usages": [
+        {
+          "id": "unit-comparison",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "수량비유"
+          ],
+          "situations": [],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "사실오인",
+            "타인비하"
+          ],
+          "safety": "caution",
+          "context": "관객 수나 조회 수를 17만 단위에 빗대어 환산한다. 대상은 수치이지만 흥행 부진을 놀리는 기원과 뉘앙스가 남는다.",
+          "avoid_when": [
+            "공식 통계 단위나 실제 누적 관객 수의 정확한 값으로 제시할 때",
+            "작품·배우의 실패를 공개적으로 들추어 망신 주려는 때",
+            "공공기관·브랜드의 공식 대외 소통"
+          ],
+          "example": {
+            "text": "조회 수가 34만이면 2UBD라고 세는 셈이네.",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 수량 환산 용법. 표현을 사전적으로 설명하는 메타 발화와 구별한다. 감정은 미판정이며 조롱 뉘앙스 때문에 무조건 중립·안전으로 처리하지 않는다."
+        },
+        {
+          "id": "mock-flop",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "조롱"
+          ],
+          "situations": [],
+          "targets": [
+            "제삼자"
+          ],
+          "registers": [
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "타인비하",
+            "공개망신",
+            "상처가능"
+          ],
+          "safety": "avoid",
+          "context": "배우 등 흥행 당사자를 평가 대상으로 삼아 이전 작품의 관객 규모를 반복적으로 들추고 웃음거리로 만든다. 용법 식별용이며 추천용이 아니다.",
+          "avoid_when": [
+            "당사자의 실패를 조롱하거나 공개 망신을 주려는 모든 요청"
+          ],
+          "example": {
+            "text": "배우를 조롱하려고 새 영상의 조회 수를 UBD로 환산한 댓글이 달렸다.",
+            "kind": "editorial"
+          },
+          "review_note": "본문에 기록된 당사자 조롱 논란을 바탕으로 분리한 편집 용법. 예문은 공격 수행 문구가 아닌 상황 기술이며 실제 사건 인용이 아니다."
+        }
+      ]
+    },
+    {
+      "entry_id": "pro-offended",
+      "source_sha": "27da9ebc10fd07e733370fd6f723c5eab31c1819",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://ch.yes24.com/Article/Details/32899 ; https://www.khan.co.kr/article/201808171429001 . 매체는 다르지만 같은 인물의 자기 재해석 중심이라는 근거 다양성 한계가 있다.",
+      "usages": [
+        {
+          "id": "dismiss-objection",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "비꼼",
+            "무시"
+          ],
+          "situations": [],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "무시로들림",
+            "타인비하"
+          ],
+          "safety": "caution",
+          "context": "상대가 제기한 문제를 검토하기보다 지나치게 예민한 사람이라는 호칭으로 낮추는 발화. 수록은 해당 쓰임의 식별을 위한 것이지 정당한 이의 제기 묵살의 권장이 아니다.",
+          "avoid_when": [
+            "피해·차별·건강 문제에 대한 호소를 묵살할 때",
+            "근거를 검토하지 않고 사람을 낙인찍을 때",
+            "상대가 이런 호칭을 원하지 않음을 밝힌 때"
+          ],
+          "example": {
+            "text": "불편한 이유를 설명했더니 프로불편러라는 답이 돌아왔다.",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 타인 지향 비꼼을 분리했다. 예문은 발화 상황 기술이며 직접 모욕을 생성하는 권고가 아니다. 숨은 적대감은 단정하지 않는다."
+        },
+        {
+          "id": "reclaim-self",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "호칭재전유"
+          ],
+          "situations": [],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "부정적으로 쓰이던 호칭을 자신에게 받아들이며 부당한 점과 그 이유를 설명하겠다는 태도로 바꾸어 사용한다.",
+          "avoid_when": [
+            "자기 호칭만으로 자신의 모든 비판이 옳다고 보증할 때",
+            "다른 사람에게 원치 않는 호칭을 붙일 때"
+          ],
+          "example": {
+            "text": "부당한 점은 이유를 따져 말하는 프로불편러로 살고 싶어.",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 자기 지향 재해석을 호칭재전유로 분류한다. 일반적 자기강조·자기비하와 동일시하지 않는다."
+        }
+      ]
+    },
+    {
+      "entry_id": "goat",
+      "source_sha": "4e171586363e3da2c46dc38ef21a05945ae1d5a2",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://m.news.nate.com/view/20230821n05471 ; https://www.khan.co.kr/article/202504191200015 . 국내 스포츠 찬사 사용에 한정하며 일본 트렌드 소개를 국내 일반 용법으로 확대하지 않는다.",
+      "usages": [
+        {
+          "id": "praise-greatest",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "칭찬"
+          ],
+          "situations": [
+            "성과"
+          ],
+          "targets": [
+            "제삼자"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "탁월한 성과를 낸 선수를 자신이 생각하는 역사상 최고로 높여 부른다. 주관적 평가임을 전제한다.",
+          "avoid_when": [
+            "공인된 객관적 순위인 것처럼 단정할 때",
+            "다른 선수나 팬을 모욕하는 비교의 수단으로 쓸 때"
+          ],
+          "example": {
+            "text": "결정적인 순간마다 해내네. 내가 생각하는 GOAT야.",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 스포츠 찬사 용법만 포함한다. 기쁨·놀람을 자동 부여하지 않고 반어·자기인생 GOAT 파생은 이번 근거 범위에서 제외한다."
+        }
+      ]
+    },
+    {
+      "entry_id": "pon-eunjeong",
+      "source_sha": "a64b178b2813466737f0568836fae1c150d5ec6c",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://v.daum.net/v/20220110174011563 ; https://www.huffingtonpost.kr/article/231986 . 최초 게시자·성씨 일반화는 검증 범위 밖이며 포함하지 않는다.",
+      "usages": [
+        {
+          "id": "expose-fabrication",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "상황평가"
+          ],
+          "situations": [
+            "사실확인후",
+            "말장난"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "사실오인"
+          ],
+          "safety": "caution",
+          "context": "실제 경험이나 진품으로 알려진 이야기·물건이 지어낸 것이거나 가짜임을 확인한 뒤 폰~을 붙여 상황을 표현한다.",
+          "avoid_when": [
+            "의심이나 소문만으로 실존 인물을 거짓말쟁이로 지목할 때",
+            "밈 자체를 사실 확인의 근거로 삼을 때",
+            "원래의 꾸며 낸 이야기를 사실인 것처럼 재유포할 때"
+          ],
+          "example": {
+            "text": "가봤다던 식당이 지어낸 곳이었대. 폰맛집이었네.",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 확장형 폰~ 용법. 예문의 가짜라는 전제는 창작 상황이며 실제 업체나 사람에 대한 주장이 아니다."
+        }
+      ]
+    },
+    {
+      "entry_id": "three-lifts-500",
+      "source_sha": "a4aff4e6e9e186df58af83cc4b8bfcc6090e3556",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.segye.com/newsView/20181005001582 ; https://www.donga.com/news/Culture/article/all/20201102/103754529/9 . 실제 강제 단속 사실이나 단일 최초 기원은 확정하지 않는다.",
+      "usages": [
+        {
+          "id": "mock-qualification",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "약올림"
+          ],
+          "situations": [
+            "가벼운놀림",
+            "새물건"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화"
+          ],
+          "risk_flags": [
+            "관계의존",
+            "사실오인"
+          ],
+          "safety": "caution",
+          "context": "서로 농담을 즐기는 친구 사이에서 새 운동복의 착용 자격이 따로 있는 것처럼 과장한다. 실제 규칙이 아님을 양쪽이 알고 있는 맥락이다.",
+          "avoid_when": [
+            "초보자나 모르는 사람을 공개적으로 망신 줄 때",
+            "실제로 옷차림을 통제하거나 물건을 훼손할 때",
+            "무거운 중량 수행을 압박하거나 위험한 운동을 권할 때",
+            "브랜드 정책이나 법으로 오인할 때"
+          ],
+          "example": {
+            "text": "새 운동복을 보여 주자 친구가 웃으며 3대500 인증부터 하라며 장난쳤다.",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 친구 대상 가상 자격 농담에 한정했다. 운동 능력·실제 중량·건강 상태는 추정하지 않는다. 설명용 메타 발화는 별도 용법으로 만들지 않았다."
+        }
+      ]
+    },
+    {
+      "entry_id": "ohiryeo-joa",
+      "source_sha": "a078606291eef3d6a61a02343002b2aaf9657963",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.joongang.co.kr/article/25059788 ; https://sports.khan.co.kr/article/202205240001003/amp . 긍정적 태도·SNS 조합 사용을 참고하며 최근 유행으로 주장하지 않는다.",
+      "usages": [
+        {
+          "id": "find-upside",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "긍정적재해석"
+          ],
+          "situations": [
+            "기대와현실차이"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "혼잣말",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "자신의 사소한 일정·게임 차질을 인정하면서 그 상황에서 확인할 수 있는 구체적인 이점이나 대안을 찾는다.",
+          "avoid_when": [
+            "타인의 상실·질병·폭력 피해를 좋은 일로 포장할 때",
+            "손해나 고통 자체를 부정할 때",
+            "필요한 문제 해결이나 도움 요청을 막을 때",
+            "근거 없이 좋은 결과가 보장된다고 말할 때"
+          ],
+          "example": {
+            "text": "산책이 취소됐네. 오히려 좋아, 밀린 책 읽을 시간이 생겼어.",
+            "kind": "editorial"
+          },
+          "review_note": "긍정적재해석은 대화 기능이며 실제 기쁨·회복력의 증명이 아니다. 이번 추가 출처가 충분히 다루지 않는 억지 낙관·반어 용법은 보류한다."
+        }
+      ]
+    },
+    {
+      "entry_id": "gabojago",
+      "source_sha": "498075ad797426106b9b62a3450f93dd9549880f",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.joongang.co.kr/article/25059788 ; https://sports.khan.co.kr/article/202205240001003/amp ; https://www.newsis.com/view/NISX20241107_0002950032 . 전재 기사는 별개의 독립 출처로 세지 않았다.",
+      "usages": [
+        {
+          "id": "encourage-challenge",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "응원",
+            "격려"
+          ],
+          "situations": [
+            "도전시작"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "시험·발표 등 도전할 의사가 있는 상대에게 실행을 시작해 보자고 힘을 보탠다. 결과의 성공을 보장하지 않는다.",
+          "avoid_when": [
+            "쉬거나 그만두겠다는 명시적 의사를 무시할 때",
+            "위험 행동·도박·과로를 독려할 때",
+            "합격이나 성공이 보장된다고 말할 때"
+          ],
+          "example": {
+            "text": "발표 준비한 만큼 해보자. 가보자고!",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 권유 기능과 별도 기사의 수험생 응원 실사용을 참고했다. 상대의 긴장이나 발화자의 결의를 필수 정서로 추정하지 않는다."
+        },
+        {
+          "id": "commit-to-start",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "다짐"
+          ],
+          "situations": [
+            "도전시작"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "혼잣말",
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "스스로 선택한 안전하고 가능한 도전을 시작해 보겠다는 자기 지향 다짐이다.",
+          "avoid_when": [
+            "명백한 위험을 무시하고 행동하려는 때",
+            "타인의 참여나 지속을 강요할 때"
+          ],
+          "example": {
+            "text": "첫 글이라 서툴겠지만 한 문단부터 가보자고.",
+            "kind": "editorial"
+          },
+          "review_note": "본문의 권유·다짐 및 도전 실행 쓰임에 근거한 편집 분리다. 자기 다짐과 상대 응원을 같은 대상으로 합치지 않는다."
+        }
+      ]
     }
   ]
 }

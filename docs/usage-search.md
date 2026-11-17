@@ -98,3 +98,11 @@ python -m unittest discover -s tests -v
 - [Out-of-Scope Intent Evaluation, EMNLP 2019](https://aclanthology.org/D19-1131/): 지원하지 않는 요청에 답을 강제하지 않는 평가 원칙을 참고한다.
 - [W3C SKOS Reference](https://www.w3.org/TR/skos-reference/): 대표 개념과 대체 표기의 분리 원칙을 참고한다. 이 JSON을 RDF/SKOS 준수 구현이라 주장하지 않는다.
 - [JSON Schema 2020-12](https://json-schema.org/draft/2020-12): 필수 필드·타입·닫힌 속성 계약에 사용한다. 원본 해시와 어휘 참조는 별도 Python 검사로 검증한다.
+
+## 2026-11-17 초안 확장
+
+현재 브랜치의 본문 348개 중 기존 reviewed 28개/38용법은 그대로 유지한다. UBD·프로불편러·GOAT·폰은정·3대500·오히려 좋아·가보자고에 7개 draft profile/10개 용법을 별도로 작성했다. annotated_entries 35는 reviewed 28과 draft 7의 합계이며, 검토 완료 범위가 35개라는 뜻이 아니다. 아직 주석이 없는 항목은 313개다.
+
+draft는 recommend와 lookup 양쪽에서 제외된다. 본문 조회의 명시적 --usage 옵션으로는 draft 상태와 검토 메모를 읽을 수 있으나, 추천 승인이나 정확도 인증으로 사용하지 않는다. 새 표제의 출처는 [수록 근거](../reports/verified-additions-2026-11-17.md), 기존 두 표제의 추가 근거와 초안 한계는 [초안 검토 메모](../reports/usage-drafts-2026-11-17.md)에 기록했다.
+
+이 초안은 실제 마음을 추정하지 않아 감정은 unknown/[]로 남겼다. 예문과 사용 금지 경계는 AI 편집 판단이며 기사 인용이 아니다. 약한 근거의 오히려 좋아 반어 용법과 일반적인 표현 뜻 설명을 별도 실제 사용 용법으로 늘리는 방식은 제외했다. 구조 검사와 기존 회귀 보존은 초안의 새 자연어 정확도를 입증하지 않는다.
