@@ -31,7 +31,7 @@
 
 응답: id, action, selected_entry_id, selected_usage_id, response, reason, context_check.
 
-context_check는 {assessment: compatible|uncertain|incompatible|not_applicable, evidence_spans: [...], checked_risk_flags: [...], unresolved_conditions: [...]}다. 추천의 evidence_spans는 가상 입력에서 실제로 나온 문자열이어야 한다. 해당하는 위험 라벨을 전부 확인했다고 적는 것만으로 적절성이 입증되지는 않는다. 별도 블라인드 평가자가 답 자체를 판정한다.
+context_check는 {assessment: compatible|uncertain|incompatible|not_applicable, evidence_spans: [...], checked_risk_flags: [...], unresolved_conditions: [...]}다. 추천의 evidence_spans는 가상 입력에서 실제로 나온 문자열이어야 한다. 해당하는 위험 라벨을 전부 확인했다고 적는 것만으로 적절성이 입증되지는 않는다. 블라인드 평가에서는 별도 평가자가 답 자체를 판정한다. 공개 scope 개발 검토는 블라인드 평가로 부르지 않는다.
 
 
 ## v3 추가: 방향·어휘 경계와 사실 보존

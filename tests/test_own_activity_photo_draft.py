@@ -36,7 +36,7 @@ class OwnActivityPhotoDraftTests(unittest.TestCase):
         p = rows[0]
         self.assertEqual(p['source_sha'], self.SHA)
         self.assertEqual(self.SHA, blob_sha(ROOT / 'memes' / 'proof-photo.md'))
-        self.assertEqual(p['review_status'], 'draft')
+        self.assertEqual(p['review_status'], 'reviewed')
         self.assertEqual(len(p['usages']), 1)
         u = p['usages'][0]
         self.assertEqual(u['id'], 'share-own-completed-activity')
@@ -56,13 +56,6 @@ class OwnActivityPhotoDraftTests(unittest.TestCase):
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]['aliases'], [])
             self.assertTrue(rows[0]['definition'].strip())
-
-    def test_draft_hidden_in_both_modes(self):
-        entry = next(e for e in self.index['entries'] if e['id'] == self.ID)
-        for mode in ('lookup', 'recommend'):
-            for filters in (self.REQ, {'query': entry['title']},
-                            dict(self.REQ, query=entry['title'])):
-                self.assertFalse(self.hits(self.index, mode=mode, **filters))
 
     def test_provisional_exact_requirements_return_context_checked_candidate(self):
         index, entry = self.provisional()

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "approved_revision": "abf6c3f3b5a7fa5efebeea705ba8790764ae3cc5",
+  "approved_revision": "119ce0f1d704c621839fc32fe86dfe4e2d57abe2",
   "dictionary_entries": 355,
-  "reviewed_entries": 64,
-  "reviewed_usages": 79,
+  "reviewed_entries": 65,
+  "reviewed_usages": 80,
   "reviewed_entry_ids": [
     "aljaltakkalsen",
     "anmul-angung",
@@ -59,6 +59,7 @@
     "ohiryeo-joa",
     "pon-eunjeong",
     "pro-offended",
+    "proof-photo",
     "real-lol",
     "reality-is-gutter",
     "seongdeok",
@@ -334,6 +335,10 @@
     [
       "pro-offended",
       "reclaim-self"
+    ],
+    [
+      "proof-photo",
+      "share-own-completed-activity"
     ],
     [
       "real-lol",
