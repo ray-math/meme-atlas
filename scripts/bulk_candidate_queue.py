@@ -56,6 +56,49 @@ def validate(envelope):
                 raise ValueError('unsafe dictionary path')
     return rows
 
+
+def adapt(envelope, source_file):
+    if not isinstance(envelope, dict) or type(envelope.get('schema_version')) is not int or envelope['schema_version'] != 1 or not isinstance(envelope.get('candidates'), list):
+        raise ValueError('invalid export envelope')
+    out = copy.deepcopy(envelope)
+    original = {}
+    for r in out['candidates']:
+        if not isinstance(r, dict):
+            raise ValueError('candidate must be object')
+        fields = [f for f in ('id', 'research_id', 'ledger_id') if f in r]
+        if not fields or any(not isinstance(r[f], str) or not r[f].strip() for f in fields):
+            raise ValueError('explicit source ID required')
+        if len({r[f] for f in fields}) != 1:
+            raise ValueError('conflicting ID fields')
+        source_id = r[fields[0]]
+        statuses = [r[f] for f in ('status', 'review_status') if f in r]
+        if not statuses or any(not isinstance(s, str) or s not in STATUSES for s in statuses) or len(set(statuses)) != 1:
+            raise ValueError('invalid/conflicting explicit status; reviewed unsupported')
+        variant = 'id' if 'id' in fields else fields[0]
+        normalized_id = ('reexport:' + hashlib.sha256(str(source_file).encode()).hexdigest()[:16] + ':' + source_id
+                         if variant == 'ledger_id' else source_id)
+        if normalized_id in original:
+            raise ValueError('duplicate source ID')
+        original[normalized_id] = copy.deepcopy(r)
+        r['id'] = normalized_id
+        r['status'] = statuses[0]
+        r['original_source_id'] = source_id
+        r['source_file'] = str(source_file)
+        r['adapter_variant'] = variant
+        if variant != 'id':
+            for field in ('dictionary_paths', 'evidence', 'notes'):
+                r.setdefault(field, [])
+        urls = r.get('source_urls', [])
+        if not isinstance(urls, list):
+            raise ValueError('source_urls must be list')
+        if any(not (isinstance(u, str) and u.strip()) and
+               not (isinstance(u, dict) and isinstance(u.get('url'), str) and u['url'].strip()) for u in urls):
+            raise ValueError('invalid source URL record')
+        r['source_urls'] = [u if isinstance(u, str) else u['url'] for u in urls]
+    validate(out)
+    return out, original
+
+
 def queue(root=ROOT, inputs=None):
     root = Path(root).resolve()
     legacy = (root / 'data/korea-candidates.json').resolve()
@@ -84,10 +127,20 @@ def queue(root=ROOT, inputs=None):
                 if key(name):
                     names.setdefault(key(name), set()).add(target)
     sources, records, ids = [], [], set()
+    legacy_rows = validate(json.loads(legacy.read_text())) if legacy.exists() else []
+    legacy_names = {r['id']: key(r['title']) for r in legacy_rows}
+    source_hashes = {}
     for i, path in enumerate(paths):
         env = json.loads(path.read_text(encoding='utf-8'))
-        rows = validate(env)
-        kind = 'legacy_existing' if path == legacy else 'newly_collected'
+        adapted, originals = adapt(env, path)
+        rows = adapted['candidates']
+        kind = ('legacy_existing' if path == legacy else 'legacy_reexport'
+                if rows and all(r['adapter_variant'] == 'ledger_id' for r in rows) else 'new_source_rows')
+        fingerprint = digest(env)
+        if fingerprint in source_hashes:
+            diagnostics.append({'kind': 'repeated_source_fingerprint', 'path': str(path),
+                                'first_source': source_hashes[fingerprint]})
+        source_hashes.setdefault(fingerprint, str(path))
         source_id = 'input-' + str(i)
         sources.append({'id': source_id, 'path': str(path), 'kind': kind,
                         'sha256': digest(env), 'metadata': {k: copy.deepcopy(v) for k, v in env.items() if k != 'candidates'}})
@@ -95,7 +148,13 @@ def queue(root=ROOT, inputs=None):
             if row['id'] in ids:
                 raise ValueError('duplicate ID across inputs: ' + row['id'])
             ids.add(row['id'])
-            records.append((source_id, kind, row))
+            row_kind = kind
+            if row['adapter_variant'] == 'ledger_id':
+                if legacy_names.get(row['original_source_id']) != key(row['title']):
+                    raise ValueError('unverified legacy reexport identity/title')
+                row_kind = 'legacy_reexport'
+            row['_original_candidate'] = originals[row['id']]
+            records.append((source_id, row_kind, row))
     for _, _, row in records:
         for field in ('parent_id', 'duplicate_of'):
             if row.get(field) and row[field] not in ids:
@@ -120,7 +179,10 @@ def queue(root=ROOT, inputs=None):
         if not normalized:
             diagnostics.append({'id': row['id'], 'kind': 'empty_normalized_name'})
         output.append({'id': row['id'], 'source_id': source_id, 'source_kind': kind,
-                       'candidate': copy.deepcopy(row), 'classification': category,
+                       'original_source_id': row['original_source_id'], 'source_file': row['source_file'],
+                       'original_candidate': copy.deepcopy(row['_original_candidate']),
+                       'candidate': {k: copy.deepcopy(v) for k, v in row.items() if k != '_original_candidate'},
+                       'classification': category,
                        'normalized_keys': normalized, 'existing_paths': matched,
                        'candidate_ids': candidate_matches, 'included_link_verified': verified_included})
         for n in normalized:
@@ -138,10 +200,10 @@ def queue(root=ROOT, inputs=None):
             'canonical_fingerprint': digest(canonical), 'retired_fingerprint': digest(state),
             'counts': counts(output),
             'by_source_kind': {kind: counts([r for r in output if r['source_kind'] == kind])
-                               for kind in ('legacy_existing', 'newly_collected')},
+                               for kind in ('legacy_existing', 'legacy_reexport', 'new_source_rows')},
             'rows': output, 'diagnostics': diagnostics,
             'limitations': ['No semantic duplication, factual accuracy or evidence independence judgment.',
-                            'Newly collected means rows in supplied exports, not verified new memes.',
+                            'new_source_rows are exported observations, not net-new memes or independent evidence.',
                             'Original statuses, IDs and provenance are preserved; no promotion.']}
 
 def main(argv=None):
