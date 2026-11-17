@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "fiery-friday",
+    "gg"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 354,
+    "annotated_entries": 62,
+    "reviewed_entries": 60,
+    "unannotated_entries": 292
+  },
+  "provisional_reviewed_entries": 62,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "execution_commit": "a1c6cc6cf68b6ba2c0b4ca640f6bacf9af93a13a",
+  "ci_run": 44024876414,
+  "results": [
+    {
+      "id": "G-defeat",
+      "prompt": "자신이 참가한 게임에서 자기 패배를 받아들이고 그 승부를 마무리하겠다는 뜻을 전한다. 인정을 하는 본인의 승부 태도가 초점이며 상대의 패배나 퇴장을 요구하지 않는다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "패배인정"
+        ],
+        "situations": [
+          "게임패배"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 62,
+          "reviewed_entries": 60,
+          "unannotated_entries": 292
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "gg",
+            "title": "GG",
+            "path": "memes/gg.md",
+            "domain_tags": [
+              "게임"
+            ],
+            "usage_id": "own-game-defeat",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "패배인정"
+              ],
+              "situations": [
+                "게임패배"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "own-game-defeat",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "패배인정"
+              ],
+              "situations": [
+                "게임패배"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "온라인댓글",
+                "친근한대화"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신이 참가한 게임에서 자기 패배를 받아들이고 그 승부를 마무리하겠다는 뜻을 전한다. 인정을 하는 본인의 승부 태도가 초점이며 상대의 패배나 퇴장을 요구하지 않는다.",
+              "avoid_when": [
+                "단순히 불리한 국면을 아직 패배를 인정하지 않은 사람의 포기 의사로 단정하는 경우",
+                "승자가 상대에게 패배 인정·퇴장을 강요하거나 조롱하는 경우",
+                "GG 발화만으로 게임 시스템 종료·공식 결과 확정·상대의 수락을 보장하는 경우",
+                "타인의 패배를 관찰한 것만으로 자기 패배 용법을 적용하는 경우",
+                "일상 활동 전체의 포기나 삶의 위기·도움 요청을 게임 패배 농담으로 처리하는 경우"
+              ],
+              "example": {
+                "text": "이번 판은 내가 졌어. 패배를 인정할게. GG.",
+                "kind": "editorial"
+              },
+              "review_note": "standard는 명시적인 자기 참가 게임의 자기 패배 인정이라는 좁은 편집 맥락에 한정한다. 체념·슬픔·후련함 등 실제 정서를 추정하지 않는다. 필터는 발화자의 상황 설명일 뿐 공식 경기 판정이나 기술적 종료 확인이 아니다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "게임패배"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "52ecef09841e9832ec832c290db7a51649c514d9",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "게임패배"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "G-friday",
+      "prompt": "금요일 저녁에 자유 시간이나 여가를 보낼 수 있기를 기대하며 그 상황을 짧게 표현한다. 기대가 명시된 용례이며 단순 날짜 정보만으로 이 정서를 부여하지 않는다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "상태설명"
+        ],
+        "situations": [
+          "금요일여가"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 62,
+          "reviewed_entries": 60,
+          "unannotated_entries": 292
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "fiery-friday",
+            "title": "불금",
+            "path": "memes/fiery-friday.md",
+            "domain_tags": [],
+            "usage_id": "friday-leisure-anticipation",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "금요일여가"
+              ],
+              "targets": [
+                "상황"
+              ]
+            },
+            "usage": {
+              "id": "friday-leisure-anticipation",
+              "emotion_status": "annotated",
+              "emotions": [
+                "기대"
+              ],
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "금요일여가"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "금요일 저녁에 자유 시간이나 여가를 보낼 수 있기를 기대하며 그 상황을 짧게 표현한다. 기대가 명시된 용례이며 단순 날짜 정보만으로 이 정서를 부여하지 않는다.",
+              "avoid_when": [
+                "금요일이 아닌 날이나 요일 정보만 있는 입력에 현재 금요일의 기대를 만들어 넣는 경우",
+                "입력에 없는 새 약속·장소·음주 계획·퇴근 완료를 만들어 말하는 경우",
+                "음주·외출을 반드시 해야 하는 것으로 제시하거나 강요하는 경우",
+                "야근 중이거나 쉬기 어려운 상대에게 놀라고 압박하는 경우",
+                "타인의 수상·성과 소식 등 여가와 무관한 상황에 적용하는 경우"
+              ],
+              "example": {
+                "text": "금요일 저녁의 자유 시간이 기대돼. 불금이라는 말이 딱이네.",
+                "kind": "editorial"
+              },
+              "review_note": "예문은 금요일 저녁 여가의 기대를 명시한 창작이며 실제 오늘의 날짜·일정·퇴근 여부를 보고한 문장이 아니다. 기대는 이 용례가 전달하는 정서 색채이며 실제 내면 인증은 아니다. standard는 이 좁은 맥락의 편집 판단이고 다른 사람의 여가 가능성을 보장하지 않는다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "금요일여가"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "eb4d5ec8532b249d8130fd9fb643e74865257167",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "금요일여가"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "G-force",
+      "prompt": "승자가 상대에게 패배 인정·퇴장을 강요하거나 조롱하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "G-system",
+      "prompt": "GG 발화만으로 게임 시스템 종료·공식 결과 확정·상대의 수락을 보장하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "G-offday",
+      "prompt": "금요일이 아닌 날이나 요일 정보만 있는 입력에 현재 금요일의 기대를 만들어 넣는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "G-overwork",
+      "prompt": "야근 중이거나 쉬기 어려운 상대에게 놀라고 압박하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A04",
+      "prompt": "지역 대회에서 떨어졌지만 나는 다음 달 다시 나가기로 했어. 내 결심을 짧게 써줘. 반드시 이긴다는 말은 빼고.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "다짐"
+        ],
+        "situations": [
+          "패배후재도전"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 62,
+          "reviewed_entries": 60,
+          "unannotated_entries": 292
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "jung-kkeok-ma",
+            "title": "중꺾마",
+            "path": "memes/jung-kkeok-ma.md",
+            "domain_tags": [
+              "게임",
+              "스포츠"
+            ],
+            "usage_id": "self-resolve",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "다짐"
+              ],
+              "situations": [
+                "패배후재도전"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-resolve",
+              "emotions": [
+                "결의"
+              ],
+              "intents": [
+                "다짐"
+              ],
+              "situations": [
+                "패배후재도전"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "패배를 인정하되 다시 도전하려는 자신의 태도다.",
+              "avoid_when": [
+                "성공을 보장하는 근거로 제시할 때"
+              ],
+              "example": {
+                "text": "첫 시도는 실패했지만 다시 해볼래. 중꺾마.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "8ff5c4a6a38b27187e359f0a801ec6cc4fe0d4d3",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A20",
+      "prompt": "친구가 너무 지쳐서 당분간 대회를 쉬겠대. 계속 나가도록 압박하는 멘트를 밈으로 만들어줘.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    },
+    {
+      "id": "E06",
+      "prompt": "함께 일하던 친구가 먼 도시로 옮겨. 서운한 작별보다 행복하게 지내라는 가벼운 인사.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "응원"
+        ],
+        "situations": [
+          "좋은일기원"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 62,
+          "reviewed_entries": 60,
+          "unannotated_entries": 292
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "flower-road",
+            "title": "꽃길만 걷자",
+            "path": "memes/flower-road.md",
+            "domain_tags": [
+              "연예"
+            ],
+            "usage_id": "wish-good-future",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "응원"
+              ],
+              "situations": [
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "wish-good-future",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "응원"
+              ],
+              "situations": [
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "새 활동을 앞둔 상대에게 앞으로 좋은 일이 많기를 빌며 앞날을 응원한다. 바람을 전하는 것이며 성공이나 행복이 확정됐다는 뜻은 아니다.",
+              "avoid_when": [
+                "미래 성공을 보증하거나 실패할 가능성이 없다고 약속하는 경우",
+                "쉬거나 그만두겠다는 상대의 의사를 무시하고 계속 활동하도록 압박하는 경우",
+                "피해·상실·고통의 이야기를 긍정적인 말로 덮고 필요한 도움을 생략하는 경우",
+                "어려운 경험이 반드시 좋은 결과로 보상된다고 단정하는 경우"
+              ],
+              "example": {
+                "text": "새 활동을 앞둔 너에게 좋은 일이 많기를 바라. 우리 꽃길만 걷자!",
+                "kind": "editorial"
+              },
+              "review_note": "standard는 이 좁은 기원 맥락의 편집 판단이다. 우리라는 예문 표현이 대상 라벨을 자기까지 확대하지 않으며 초점은 응원받는 상대다. 필터 일치가 상대의 현재 의사·상황을 확인한 것은 아니다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "좋은일기원"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "a9c2331068075d45d76e3ad2b0d2577a47a96ee5",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "좋은일기원"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          },
+          {
+            "entry_id": "haengshow",
+            "title": "행쇼",
+            "path": "memes/haengshow.md",
+            "domain_tags": [
+              "방송",
+              "연예"
+            ],
+            "usage_id": "well-wishes",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "응원"
+              ],
+              "situations": [
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "well-wishes",
+              "emotions": [
+                "다정함"
+              ],
+              "intents": [
+                "응원",
+                "인사"
+              ],
+              "situations": [
+                "헤어짐",
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "가벼운 말투로 잘 지내고 행복하길 빈다.",
+              "avoid_when": [
+                "격식 있는 위로를 요구하는 상황"
+              ],
+              "example": {
+                "text": "새로운 곳에서도 잘 지내. 행쇼!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "8a0977caf65b47878a44cb717d9366163670de78",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    }
+  ]
+}
