@@ -40,7 +40,11 @@ def evaluate(root=ROOT):
         rows.append({'id':plan['id'],'prompt':plan['prompt'],'action':plan['action'],
                      'filters':plan['filters'],'retrieval':result})
     return {'schema_version':1,'execution':'actual Python search over provisional in-memory profiles',
-            'provisional_profiles':sorted(provisional),'results':rows,
+            'provisional_profiles':sorted(provisional),
+            'baseline_coverage':index['coverage'],
+            'provisional_reviewed_entries':sum(e['review_status']=='reviewed' for e in index['entries']),
+            'coverage_interpretation':'per-result coverage is the source baseline, not provisional review counts',
+            'results':rows,
             'limitations':['No new live LLM call in replay. Not independent natural-language accuracy.',
                            'Source profile review statuses are never modified.']}
 

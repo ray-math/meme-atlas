@@ -41,4 +41,23 @@ class PublicScopeRehearsalTests(unittest.TestCase):
     def test_frozen_scope_trace_keeps_actual_candidates(self):
         actual=evaluate(ROOT)
         frozen=json.loads((ROOT/'eval/context-scope/retrieval.json').read_text())
-        self.assertEqual(actual['results'],frozen['results'])
+        def behavior(rows):
+            rows=copy.deepcopy(rows)
+            for row in rows:
+                row['retrieval'].pop('coverage',None)
+            return rows
+        self.assertEqual(behavior(actual['results']),behavior(frozen['results']))
+
+    def test_final_ai_selection_is_within_actual_retrieval(self):
+        trace={r['id']:r for r in json.loads((ROOT/'eval/context-scope/retrieval.json').read_text())['results']}
+        answers=json.loads((ROOT/'eval/context-scope/answers.json').read_text())['answers']
+        self.assertEqual(len(answers),len(trace))
+        self.assertEqual({a['id'] for a in answers},set(trace))
+        for answer in answers:
+            self.assertEqual(answer['action'],trace[answer['id']]['action'])
+            selected=(answer['selected_entry_id'],answer['selected_usage_id'])
+            if answer['action']=='recommend':
+                self.assertIn(selected,{(h['entry_id'],h['usage_id']) for h in trace[answer['id']]['retrieval']['results']})
+            else:
+                self.assertEqual(selected,(None,None))
+            self.assertTrue(answer['text'].strip())

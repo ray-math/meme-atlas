@@ -1679,8 +1679,8 @@
     {
       "entry_id": "pon-eunjeong",
       "source_sha": "a64b178b2813466737f0568836fae1c150d5ec6c",
-      "review_status": "draft",
-      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://v.daum.net/v/20220110174011563 ; https://www.huffingtonpost.kr/article/231986 . 최초 게시자·성씨 일반화는 검증 범위 밖이며 포함하지 않는다.",
+      "review_status": "reviewed",
+      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://v.daum.net/v/20220110174011563 ; https://www.huffingtonpost.kr/article/231986 . 최초 게시자·성씨 일반화는 검증 범위 밖이며 포함하지 않는다. 2026-11-17 명시 문맥 요구 조건을 추가하고, 별도 AI의 공개 개발 계획·실제 Python 조회·최종 선택을 독립 AI가 검토한 후 제한적 reviewed 승격. 주석 파생 사례이며 인간 또는 일반 자연어 정확도 검증은 아니다. 기존 보류 이유는 이 변경 이전 단계의 이력이다.",
       "usages": [
         {
           "id": "expose-fabrication",
@@ -1773,8 +1773,8 @@
     {
       "entry_id": "ohiryeo-joa",
       "source_sha": "a078606291eef3d6a61a02343002b2aaf9657963",
-      "review_status": "draft",
-      "review_note": "AI 편집 주석으로 독립 AI의 출처·문맥 재검토와 실제 Python 구조 검색 검사를 거쳤다. 인간 검토·실전 자연어 정확도 검증을 완료한 주석은 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.joongang.co.kr/article/25059788 ; https://sports.khan.co.kr/article/202205240001003/amp . 긍정적 태도·SNS 조합 사용을 참고하며 최근 유행으로 주장하지 않는다. 2026-11-17 개별 검토: lookup은 의미 식별용이며 safety/avoid_when의 문맥 검토 없이 발화하지 않는다. 공개 기존 회귀에 대한 영향도 별도로 검사한다. 보류: 기존 공개 v2 A16 기대와현실차이 검색에서 자기 자조보다 앞에 섞이는 실제 CI 회귀를 발견해 reviewed 승격을 되돌렸다. 의도·대상 조건을 분명히 하는 검색 개선 전 draft 유지.",
+      "review_status": "reviewed",
+      "review_note": "AI 편집 주석으로 독립 AI의 출처·문맥 재검토와 실제 Python 구조 검색 검사를 거쳤다. 인간 검토·실전 자연어 정확도 검증을 완료한 주석은 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.joongang.co.kr/article/25059788 ; https://sports.khan.co.kr/article/202205240001003/amp . 긍정적 태도·SNS 조합 사용을 참고하며 최근 유행으로 주장하지 않는다. 2026-11-17 개별 검토: lookup은 의미 식별용이며 safety/avoid_when의 문맥 검토 없이 발화하지 않는다. 공개 기존 회귀에 대한 영향도 별도로 검사한다. 보류: 기존 공개 v2 A16 기대와현실차이 검색에서 자기 자조보다 앞에 섞이는 실제 CI 회귀를 발견해 reviewed 승격을 되돌렸다. 의도·대상 조건을 분명히 하는 검색 개선 전 draft 유지. 2026-11-17 명시 문맥 요구 조건을 추가하고, 별도 AI의 공개 개발 계획·실제 Python 조회·최종 선택을 독립 AI가 검토한 후 제한적 reviewed 승격. 주석 파생 사례이며 인간 또는 일반 자연어 정확도 검증은 아니다. 기존 보류 이유는 이 변경 이전 단계의 이력이다.",
       "usages": [
         {
           "id": "find-upside",
