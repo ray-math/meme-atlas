@@ -47,10 +47,11 @@
     "reports/bulk/connector-resume-audit-holds191.json",
     "reports/bulk/connector-resume-screening192.json",
     "reports/bulk/connector-resume-c193.json",
-    "reports/bulk/connector-resume-holds194.json"
+    "reports/bulk/connector-resume-holds194.json",
+    "reports/bulk/connector-resume-audit-screening195.json"
   ],
-  "query_observations": 766,
-  "distinct_literal_queries": 614,
+  "query_observations": 783,
+  "distinct_literal_queries": 629,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -4083,6 +4084,91 @@
       "query": "코르티스",
       "source": "reports/bulk/connector-resume-holds194.json",
       "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "\"너네 지금 과소비야\" 패러디 -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미안 이제 곶감\" NMIXX -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너네 지금 과소비야\" -\"스카프\" -\"남대문\" -\"상인\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아빠 정보\" 밈 -site:instablank.com -site:jjalbang.today -site:gogumafarm.kr",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미안 이제 곶감\" \"패러디\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "NEON",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "네온",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영원할",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "난리자베스",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "윤정아",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갑차기",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "힙합보단",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "체포하겠어",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "L을",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "장시간",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "장시간 비행",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "결정장애",
+      "source": "reports/bulk/connector-resume-audit-screening195.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [
