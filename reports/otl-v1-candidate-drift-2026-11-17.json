@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "execution_commit": "9ec115dfed8dd4dc6c62c2b8fc3e909d9059cdad",
+  "ci_run": 44033114556,
+  "actual_tests": 398,
+  "status": "draft retained; promotion withheld",
+  "drift": [
+    {
+      "set": "regression-v3/audit",
+      "id": "A16",
+      "before": [
+        "reality-is-gutter:expectation-gap"
+      ],
+      "after": [
+        "otl:minor-own-disappointment",
+        "reality-is-gutter:expectation-gap"
+      ]
+    }
+  ],
+  "limits": [
+    "New G-otl plan already distinguishes state description; old A16 plan is broader.",
+    "No historical gold or frozen trace is rewritten.",
+    "A passing structural suite is not zero candidate drift; this report records observed drift."
+  ]
+}
