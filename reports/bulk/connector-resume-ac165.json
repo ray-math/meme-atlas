@@ -1,0 +1,185 @@
+{
+  "base": "d30487049b2e8bc9b6c9dc4eb441a3768c08da4d",
+  "entries": [
+    {
+      "id": "ateez-bad-challenge",
+      "sources": [
+        {
+          "url": "https://v.daum.net/v/20260724103302939",
+          "observed": "2026-07-24 매일경제 본문: 미니 영상 노태문 참여/홍보 문구."
+        },
+        {
+          "url": "https://www.newsen.com/news_view.php?code=100100&uid=202611151905156110",
+          "observed": "2026-11-15 뉴스엔 본문: 지수의 방송 재현·각도/표정 설명과 재시도."
+        }
+      ],
+      "evidence_level": "독립 보도2곳의 별개 참여. 원영상 미시청.",
+      "limits": "북부/남부대공 인물별명과 동일시하지 않음. 조회수·기업실적·기기성능·AI해설 미채택."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "BAD",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "accepted-family-search",
+      "canonical": "ateez-bad-challenge"
+    },
+    {
+      "query": "최산",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "accepted-family-search",
+      "canonical": "ateez-bad-challenge"
+    },
+    {
+      "query": "북부대공",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "accepted-family-search",
+      "canonical": "ateez-bad-challenge"
+    },
+    {
+      "query": "가슴 튕기",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "accepted-family-search",
+      "canonical": "ateez-bad-challenge"
+    },
+    {
+      "query": "배드",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "accepted-family-search",
+      "canonical": "ateez-bad-challenge"
+    },
+    {
+      "query": "캐치캐치",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "주인 박탈",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "Pretty Girl",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "프리티 걸",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "It's Me",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "이츠 미",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "REDRED",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "existing-family",
+      "canonical": "green-green-red-red"
+    },
+    {
+      "query": "레드레드",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "existing-family",
+      "canonical": "green-green-red-red"
+    },
+    {
+      "query": "젬민이",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "제미나이",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "커터칼퇴근",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "커터칼퇴",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "엠비스찬",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "못해솔로",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "할렐야루",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "existing-family",
+      "canonical": "hallelyaru"
+    },
+    {
+      "query": "두존크",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "테무인간",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "과자사꾸",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "줴줴이야",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "existing-family",
+      "canonical": "jwejweiya"
+    },
+    {
+      "query": "미혼앤비혼",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "existing-family",
+      "canonical": "mihon-and-bihon"
+    },
+    {
+      "query": "난리자베스",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "existing-family",
+      "canonical": "nanrijabeth"
+    },
+    {
+      "query": "한풀루언서",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "위쑤시개",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    }
+  ],
+  "rejected_evidence_notes": [
+    "젬민이는 AI별칭/사용자/작성자닉네임 혼재. DC 권장닉네임의 등장을 실제용례로 세지 않음.",
+    "커터칼퇴근 음반제목1건 외 설교스페이스 자료는 명시된 AI초안 예시라 실제재사용 제외.",
+    "농민신문 설명 예문·위픽 같은원고 재게시를 독립실제사용으로 승격하지 않음."
+  ],
+  "checks": {
+    "result_entries": 875,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

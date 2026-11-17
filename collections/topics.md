@@ -887,6 +887,7 @@
 ## 음악
 
 - [1일 1깡](../memes/one-day-one-ggang.md)
+- [BAD 챌린지](../memes/ateez-bad-challenge.md)
 - [ET춤](../memes/jewelry-et-dance.md)
 - [PPAP](../memes/ppap.md)
 - [간 때문이야](../memes/gan-because.md)

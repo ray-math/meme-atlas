@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 19,
-  "query_observations": 308,
-  "distinct_literal_queries": 254,
+  "source_files": 20,
+  "query_observations": 336,
+  "distinct_literal_queries": 277,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -1720,6 +1720,157 @@
       "query": "천장",
       "source": "reports/bulk/connector-resume-a164.json",
       "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "BAD",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "accepted-family-search",
+      "canonical": "ateez-bad-challenge"
+    },
+    {
+      "query": "최산",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "accepted-family-search",
+      "canonical": "ateez-bad-challenge"
+    },
+    {
+      "query": "북부대공",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "accepted-family-search",
+      "canonical": "ateez-bad-challenge"
+    },
+    {
+      "query": "가슴 튕기",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "accepted-family-search",
+      "canonical": "ateez-bad-challenge"
+    },
+    {
+      "query": "배드",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "accepted-family-search",
+      "canonical": "ateez-bad-challenge"
+    },
+    {
+      "query": "캐치캐치",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "주인 박탈",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "Pretty Girl",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "프리티 걸",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "It's Me",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "이츠 미",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "REDRED",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "existing-family",
+      "canonical": "green-green-red-red"
+    },
+    {
+      "query": "레드레드",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "existing-family",
+      "canonical": "green-green-red-red"
+    },
+    {
+      "query": "젬민이",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "제미나이",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "커터칼퇴근",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "커터칼퇴",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "엠비스찬",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "못해솔로",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "할렐야루",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "existing-family",
+      "canonical": "hallelyaru"
+    },
+    {
+      "query": "두존크",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "테무인간",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "과자사꾸",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "줴줴이야",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "existing-family",
+      "canonical": "jwejweiya"
+    },
+    {
+      "query": "미혼앤비혼",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "existing-family",
+      "canonical": "mihon-and-bihon"
+    },
+    {
+      "query": "난리자베스",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "existing-family",
+      "canonical": "nanrijabeth"
+    },
+    {
+      "query": "한풀루언서",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
+    },
+    {
+      "query": "위쑤시개",
+      "source": "reports/bulk/connector-resume-ac165.json",
+      "status": "held-or-excluded"
     }
   ],
   "semantic_duplicates": [
