@@ -1,0 +1,98 @@
+{
+  "batch": "connector-resume-a148",
+  "base": "ffb074735896e7a917d2081ac5eb253afbc27857",
+  "entries": [
+    {
+      "id": "davichi-blanket-turtle",
+      "sources": [
+        {
+          "url": "https://maily.so/trendaword/posts/w6ovxl07zk5",
+          "observed": "2026-10-15 담요 거북이 형식 및 nammae_rent 회의실 후진 장면 구체 보고. 최초 유래는 작성자 추측이므로 미채택."
+        },
+        {
+          "url": "https://gogumafarm.kr/거북아-그-속도론-알고리즘-못-따라가-당장-따라해야/",
+          "observed": "2026-10-20 LG 트윈스 마스코트의 별도 패러디 보고."
+        }
+      ],
+      "evidence_level": "독립 본문 2곳에서 별개 참여 사례 보고. 원영상 직접 열람 아님.",
+      "distinct_reported_usage_events": 2
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "거북이",
+      "source": "reports/bulk/connector-resume-a148.json",
+      "status": "accepted-reported-use",
+      "canonical": "davichi-blanket-turtle",
+      "nonduplicate_partial_match": "swipsaljaebing",
+      "note": "독립 본문 두 곳의 별개 참여 보고"
+    },
+    {
+      "query": "션 오프리",
+      "source": "reports/bulk/connector-resume-a148.json",
+      "status": "held-unverified",
+      "note": "추가 독립 실제 사용 근거 미확인"
+    },
+    {
+      "query": "음식 연금술사",
+      "source": "reports/bulk/connector-resume-a148.json",
+      "status": "held-unverified",
+      "note": "추가 독립 실제 사용 근거 미확인"
+    },
+    {
+      "query": "주차한 곳",
+      "source": "reports/bulk/connector-resume-a148.json",
+      "status": "held-unverified",
+      "note": "추가 독립 실제 사용 근거 미확인"
+    },
+    {
+      "query": "몬스터 캔",
+      "source": "reports/bulk/connector-resume-a148.json",
+      "status": "held-unverified",
+      "note": "추가 독립 실제 사용 근거 미확인"
+    },
+    {
+      "query": "Upside Down",
+      "source": "reports/bulk/connector-resume-a148.json",
+      "status": "held-unverified",
+      "note": "추가 독립 실제 사용 근거 미확인"
+    },
+    {
+      "query": "낮게 나는 비행기",
+      "source": "reports/bulk/connector-resume-a148.json",
+      "status": "held-unverified",
+      "note": "추가 독립 실제 사용 근거 미확인"
+    },
+    {
+      "query": "나이별 반응",
+      "source": "reports/bulk/connector-resume-a148.json",
+      "status": "held-unverified",
+      "note": "추가 독립 실제 사용 근거 미확인"
+    },
+    {
+      "query": "이모지로 이름",
+      "source": "reports/bulk/connector-resume-a148.json",
+      "status": "held-unverified",
+      "note": "추가 독립 실제 사용 근거 미확인"
+    },
+    {
+      "query": "밤편지",
+      "source": "reports/bulk/connector-resume-a148.json",
+      "status": "held-unverified",
+      "note": "추가 독립 실제 사용 근거 미확인"
+    },
+    {
+      "query": "크록하",
+      "source": "reports/bulk/connector-resume-a148.json",
+      "status": "held-unverified",
+      "note": "밤편지와 같은 후보 가족이며 크록하 장르 자체는 신조 밈으로 세지 않음"
+    }
+  ],
+  "checks": {
+    "result_entries": 860,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

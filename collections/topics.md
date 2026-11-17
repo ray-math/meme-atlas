@@ -894,6 +894,7 @@
 - [뉴진스의 하입보이요](../memes/hype-boy-answer.md)
 - [늙크크](../memes/old-creator-crew.md)
 - [다메다메](../memes/dame-dame.md)
+- [다비치 거북이 챌린지](../memes/davichi-blanket-turtle.md)
 - [던질까 말까](../memes/throw-or-not.md)
 - [돌리랑 도트가 제일 좋아](../memes/dolly-dot-song.md)
 - [두둥등장](../memes/dududunga.md)
