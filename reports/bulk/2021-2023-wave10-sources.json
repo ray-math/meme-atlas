@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave10",
+  "baseline_ref": "c4d35db9261434be67a6e83474cd8a79237ff4f3",
+  "review_date": "2026-11-17",
+  "reviewer_type": "AI",
+  "counts": {
+    "screened": 40,
+    "two_source_verified": 6,
+    "written": 6,
+    "baseline_duplicate": 3,
+    "pending_duplicate": 1,
+    "held": 30
+  },
+  "method": "40개를 제목·별칭 및 범위 수준에서 선별했다. 40개 전부를 심층 검증했다는 뜻이 아니다. 본문 작성 6개만 서로 다른 발행 주체와 관측 대상의 직접 본문을 확인했다. 최초 유래와 현재 유행 규모는 주장하지 않는다.",
+  "ci_status": "not_run",
+  "entries": [
+    {
+      "id": "hangmaryeok",
+      "title": "항마력",
+      "path": "memes/hangmaryeok.md",
+      "own_definition": "오글거리거나 민망한 말·연출을 얼마나 견딜 수 있는지 능력치처럼 표현하는 인터넷 은어다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 매체의 실제 표현 사용을 포함한다. 더 오래된 보조 자료는 의미 확인 역할만 한다."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/1899094",
+          "publisher": "이투데이",
+          "published_date": "2020-05-26",
+          "access": "direct_body",
+          "supports": "항마력 테스트의 뜻과 커버 영상 사용",
+          "independent_group": "etoday-yoyomi"
+        },
+        {
+          "url": "https://www.ajunews.com/view/20211011203751628",
+          "publisher": "아주경제",
+          "published_date": "2021-10-16",
+          "access": "direct_body",
+          "supports": "최준 캐릭터를 항마력 테스트로 묘사한 별도 인터뷰",
+          "independent_group": "ajunews-choijun"
+        }
+      ],
+      "limitations": [
+        "두 관측으로 전국적 유행 규모나 최초 생성자를 추정하지 않는다. AI 편집 검토이며 인간 검증 또는 importer 통과를 주장하지 않는다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "661개 기준 title/aliases 및 pilot-state retired metadata에 동일 표제 매치 없음. 관련 칭찬·반응 표현과 뜻을 구별했으며 최종 importer/editor 검토 필요."
+    },
+    {
+      "id": "praise-prison",
+      "title": "칭찬감옥",
+      "path": "memes/praise-prison.md",
+      "own_definition": "칭찬이 계속 쏟아져 빠져나오기 어려운 것처럼 묘사하는 장난스러운 표현이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 매체의 실제 표현 사용을 포함한다. 더 오래된 보조 자료는 의미 확인 역할만 한다."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.fnnews.com/news/202011301356569195",
+          "publisher": "뉴스1(파이낸셜뉴스 전재)",
+          "published_date": "2020-11-30",
+          "access": "direct_body",
+          "supports": "친구들의 지속적인 칭찬을 설명한 라디오 발언",
+          "independent_group": "news1-kai-radio"
+        },
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1006674671",
+          "publisher": "SBS 스포츠머그",
+          "published_date": "2022-03-14",
+          "access": "direct_body",
+          "supports": "스포츠 축하 장면에 붙인 제목 및 기사 설명",
+          "independent_group": "sbs-sports-praise"
+        }
+      ],
+      "limitations": [
+        "SBS는 기사 제목과 본문 설명을 확인했으며 첨부 영상은 재생하지 않았다. 뉴스1 전재는 하나의 원자료로만 계산했다.",
+        "두 관측으로 전국적 유행 규모나 최초 생성자를 추정하지 않는다. AI 편집 검토이며 인간 검증 또는 importer 통과를 주장하지 않는다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "661개 기준 title/aliases 및 pilot-state retired metadata에 동일 표제 매치 없음. 관련 칭찬·반응 표현과 뜻을 구별했으며 최종 importer/editor 검토 필요."
+    },
+    {
+      "id": "gwamolip",
+      "title": "과몰입",
+      "path": "memes/gwamolip.md",
+      "own_definition": "콘텐츠의 인물이나 세계관에 깊이 빠져들어 해석하고 감정을 나누는 팬 활동을 표현하는 말이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 매체의 실제 표현 사용을 포함한다. 더 오래된 보조 자료는 의미 확인 역할만 한다."
+      },
+      "source_urls": [
+        {
+          "url": "https://www3.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01138166628947896",
+          "publisher": "이데일리",
+          "published_date": "2021-02-06",
+          "access": "direct_body",
+          "supports": "온라인 팬들의 세계관 해석과 참여 문화 설명",
+          "independent_group": "edaily-world-fandom"
+        },
+        {
+          "url": "https://www.metroseoul.co.kr/article/20231026500229",
+          "publisher": "메트로신문",
+          "published_date": "2023-10-26",
+          "access": "direct_body",
+          "supports": "제목에서 세계관 과몰입 명시, 본문 팬 경험의 확장 사례",
+          "independent_group": "metro-world-fandom"
+        }
+      ],
+      "limitations": [
+        "두 번째 자료는 제목의 표현과 본문 세계관 경험 사례를 연결한 사용 근거이지 독립 사전 정의는 아니다. 이데일리 원 발행일은 2021-02-06이며 2022-01-19 수정 이력이 있다.",
+        "두 관측으로 전국적 유행 규모나 최초 생성자를 추정하지 않는다. AI 편집 검토이며 인간 검증 또는 importer 통과를 주장하지 않는다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "661개 기준 title/aliases 및 pilot-state retired metadata에 동일 표제 매치 없음. 관련 칭찬·반응 표현과 뜻을 구별했으며 최종 importer/editor 검토 필요."
+    },
+    {
+      "id": "jujeop-comments",
+      "title": "주접댓글",
+      "path": "memes/jujeop-comments.md",
+      "own_definition": "좋아하는 대상에 대한 칭찬을 과장과 말장난으로 꾸민 댓글이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 매체의 실제 표현 사용을 포함한다. 더 오래된 보조 자료는 의미 확인 역할만 한다."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.kmib.co.kr/article/view_amp.asp?arcid=0015605862",
+          "publisher": "국민일보",
+          "published_date": "2021-03-08",
+          "access": "direct_body",
+          "supports": "무대 영상과 재치 있는 팬 댓글의 재유통",
+          "independent_group": "kmib-stage-comments"
+        },
+        {
+          "url": "https://www.webtoonguide.com/ko/board/rds01_interview/15744?page=4",
+          "publisher": "웹툰가이드",
+          "published_date": "2021-08-07",
+          "access": "direct_body",
+          "supports": "작가 인터뷰에서 독자의 주접댓글 및 칭찬 의도 확인",
+          "independent_group": "webtoonguide-author-interview"
+        }
+      ],
+      "limitations": [
+        "두 관측으로 전국적 유행 규모나 최초 생성자를 추정하지 않는다. AI 편집 검토이며 인간 검증 또는 importer 통과를 주장하지 않는다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "661개 기준 title/aliases 및 pilot-state retired metadata에 동일 표제 매치 없음. 관련 칭찬·반응 표현과 뜻을 구별했으며 최종 importer/editor 검토 필요."
+    },
+    {
+      "id": "jeongjuhaeng",
+      "title": "정주행",
+      "path": "memes/jeongjuhaeng.md",
+      "own_definition": "드라마나 웹툰처럼 회차가 있는 콘텐츠를 처음부터 순서대로 보는 일을 뜻한다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 매체의 실제 표현 사용을 포함한다. 더 오래된 보조 자료는 의미 확인 역할만 한다."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.etnews.com/201306100196",
+          "publisher": "전자신문",
+          "published_date": "2013-06-10",
+          "access": "direct_body",
+          "supports": "제목의 정주행과 첫 회부터 연이어 보는 기능 설명",
+          "independent_group": "etnews-daum-app-announcement"
+        },
+        {
+          "url": "https://www.allurekorea.com/2023/03/12/보고-또-보고/",
+          "publisher": "얼루어코리아",
+          "published_date": "2023-03-12",
+          "access": "direct_body",
+          "supports": "과거 드라마를 다시 보는 정주행 용례",
+          "independent_group": "allure-drama-editorial"
+        }
+      ],
+      "limitations": [
+        "두 관측으로 전국적 유행 규모나 최초 생성자를 추정하지 않는다. AI 편집 검토이며 인간 검증 또는 importer 통과를 주장하지 않는다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "661개 기준 title/aliases 및 pilot-state retired metadata에 동일 표제 매치 없음. 관련 칭찬·반응 표현과 뜻을 구별했으며 최종 importer/editor 검토 필요."
+    },
+    {
+      "id": "tear-button",
+      "title": "눈물버튼",
+      "path": "memes/tear-button.md",
+      "own_definition": "보거나 듣기만 해도 울컥하게 만드는 장면·노래·기억을 버튼에 빗댄 표현이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 매체의 실제 표현 사용을 포함한다. 더 오래된 보조 자료는 의미 확인 역할만 한다."
+      },
+      "source_urls": [
+        {
+          "url": "https://joynews24.com/view/wrlted/1395797",
+          "publisher": "조이뉴스24",
+          "published_date": "2021-08-12",
+          "access": "direct_body",
+          "supports": "영상을 보고 눈물을 흘리는 맥락의 표현 사용",
+          "independent_group": "joynews-video-emotion"
+        },
+        {
+          "url": "https://enews.imbc.com/M/Detail/330434",
+          "publisher": "iMBC 연예",
+          "published_date": "2021-11-12",
+          "access": "direct_body",
+          "supports": "정모가 특정 노래를 눈물버튼으로 표현한 라디오 발언",
+          "independent_group": "imbc-jeongmo-radio"
+        }
+      ],
+      "limitations": [
+        "두 관측으로 전국적 유행 규모나 최초 생성자를 추정하지 않는다. AI 편집 검토이며 인간 검증 또는 importer 통과를 주장하지 않는다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "661개 기준 title/aliases 및 pilot-state retired metadata에 동일 표제 매치 없음. 관련 칭찬·반응 표현과 뜻을 구별했으며 최종 importer/editor 검토 필요."
+    }
+  ],
+  "triage": [
+    {
+      "title": "혼코노",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "과거 용례는 발견했으나 이번 기간의 직접 본문 두 출처 조합 미완료."
+    },
+    {
+      "title": "항마력",
+      "status": "written",
+      "existing_matches": [],
+      "reason": "두 독립 직접 본문 확인 및 자체 정의 작성."
+    },
+    {
+      "title": "세젤예",
+      "status": "pending_duplicate",
+      "existing_matches": [],
+      "reason": "다른 담당 recentwave15 pending 중복."
+    },
+    {
+      "title": "주접댓글",
+      "status": "written",
+      "existing_matches": [],
+      "reason": "두 독립 직접 본문 확인 및 자체 정의 작성."
+    },
+    {
+      "title": "과몰입금지",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "과몰입과 별개의 금지 발화 기능. 독립 표현 근거 미완료."
+    },
+    {
+      "title": "과몰입",
+      "status": "written",
+      "existing_matches": [],
+      "reason": "두 독립 직접 본문 확인 및 자체 정의 작성."
+    },
+    {
+      "title": "드립력",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "댓글학원",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "칭찬감옥",
+      "status": "written",
+      "existing_matches": [],
+      "reason": "두 독립 직접 본문 확인 및 자체 정의 작성."
+    },
+    {
+      "title": "인간비타민",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "인간○○",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "얼굴공격",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "미모공격",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "주접떨다",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "일반 낱말 범위가 넓음. 작성한 애정 어린 주접댓글과 무조건 별칭 처리하지 않음."
+    },
+    {
+      "title": "주접짤",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "주접댓글의 이미지 재가공을 별도 항목으로 분리할 독립 근거 부족."
+    },
+    {
+      "title": "광대승천",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "사진 기사 한 본문만 확인. 두 번째 검색 결과를 직접 본문 확인으로 세지 않음."
+    },
+    {
+      "title": "심쿵",
+      "status": "existing_duplicate",
+      "existing_matches": [
+        {
+          "id": "simkung",
+          "title": "심쿵"
+        }
+      ],
+      "reason": "기존 표제 일치."
+    },
+    {
+      "title": "심멎",
+      "status": "existing_duplicate",
+      "existing_matches": [
+        {
+          "id": "simmeot",
+          "title": "심멎"
+        }
+      ],
+      "reason": "기존 표제 일치."
+    },
+    {
+      "title": "입틀막",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "과거 검증 실패로 확정하지 않음. 이번 두 독립 본문 미확보."
+    },
+    {
+      "title": "눈물버튼",
+      "status": "written",
+      "existing_matches": [],
+      "reason": "두 독립 직접 본문 확인 및 자체 정의 작성."
+    },
+    {
+      "title": "웃음버튼",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "기존 웃음벨과 의미 중첩 검토 필요. 별개 항목 분리 보류."
+    },
+    {
+      "title": "현웃",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "과거 검증 실패로 확정하지 않음. 이번 두 독립 본문 미확보."
+    },
+    {
+      "title": "빵터짐",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "오열",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "웃참챌린지",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "여러 영상 형식을 포괄하므로 하나의 특정 챌린지로 정의할 근거 부족."
+    },
+    {
+      "title": "웃참",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "웃참 챌린지와 줄임말 자체를 구별. 이번 검색 자료의 직접 본문 검증 미완료."
+    },
+    {
+      "title": "무표정챌린지",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "표정관리",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "분량도둑",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "분량실종",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "웃음벨",
+      "status": "existing_duplicate",
+      "existing_matches": [
+        {
+          "id": "laugh-bell",
+          "title": "웃음벨"
+        }
+      ],
+      "reason": "기존 표제 일치."
+    },
+    {
+      "title": "숨참고러브다이브",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "가사와 독립 재사용 형식 구분을 뒷받침하는 두 본문 검증 미완료."
+    },
+    {
+      "title": "도리도리댄스",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "제로투댄스",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "이전 성적 원형 범위 보류 유지."
+    },
+    {
+      "title": "롤린역주행",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "곡의 재인기 현상과 독립 표현을 구별. 주접댓글 유통 근거와 중복 확대하지 않음."
+    },
+    {
+      "title": "쁘걸",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "특정 그룹 별명으로만 확인한 단계. 독립 밈 형식 미확인."
+    },
+    {
+      "title": "역주행",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    },
+    {
+      "title": "정주행",
+      "status": "written",
+      "existing_matches": [],
+      "reason": "두 독립 직접 본문 확인 및 자체 정의 작성."
+    },
+    {
+      "title": "핵인싸",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "기존 인싸/아싸의 강조 파생. 독립 항목 분리 근거 부족."
+    },
+    {
+      "title": "아싸가오리",
+      "status": "held",
+      "existing_matches": [],
+      "reason": "표제·범위 수준 선별에서 일반 표현 또는 독립 온라인 용법 미확인. 두 독립 직접 본문 검증을 완료하지 않아 작성하지 않음."
+    }
+  ]
+}
