@@ -586,6 +586,12 @@
       "ids": [
         "jotdaet-gual"
       ]
+    },
+    "korean-verified-20261117-kebake": {
+      "input_hash": "9043fda4bf0ddb19e116dcb02c17e1b23ff77a32636abc1014bf9a917b163486",
+      "ids": [
+        "kebake"
+      ]
     }
   },
   "entries": {
@@ -4255,6 +4261,14 @@
       "body_hash": "eeb624375df595b661b8f1b4addb88464593ff8f2e5669c44bab89ded4641480",
       "scope_type": "korean_usage",
       "scope_basis": "독립 국내 보도 본문에서 축약형 뜻과 한국 인터넷 댓글 사용을 교차 확인했다. 원댓글 직접 관찰이나 최초 창작을 주장하지 않는다.",
+      "tags": []
+    },
+    "kebake": {
+      "title": "케바케",
+      "batch": "korean-verified-20261117-kebake",
+      "body_hash": "be6b20d3bf3de4d925014d5760b57ddc773268d58fd8a54cce5b069f093f3ba7",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 국내 뜻풀이 자료 두 곳에서 한국어 축약과 인터넷·일상 표현 의미를 확인하고, 별도 서평의 책 인용에서 사용을 보강했다. 직접 원댓글·실무대화·최초창작을 검증한 것은 아니다.",
       "tags": []
     }
   }

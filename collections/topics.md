@@ -167,6 +167,7 @@
 - [쩔다](../memes/jjeolda.md)
 - [초딩](../memes/choding.md)
 - [취존](../memes/chwijon.md)
+- [케바케](../memes/kebake.md)
 - [킹리적 갓심](../memes/king-reasonable-suspicion.md)
 - [킹왕짱](../memes/king-wang-jjang.md)
 - [포기하겠습니다](../memes/give-up.md)

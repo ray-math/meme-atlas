@@ -315,6 +315,7 @@
 - [측면 대 측면](side-to-side.md)
 - [친구 아이가](chingu-aiga.md)
 - [카페베네 엔딩](caffebene-ending.md)
+- [케바케](kebake.md)
 - [크리스 크로스](criss-cross.md)
 - [킹리적 갓심](king-reasonable-suspicion.md)
 - [킹받네](kingbatne.md)
