@@ -1,0 +1,433 @@
+{
+  "batch": "recent-wave9",
+  "base_commit": "cb530680944d0ae72366af2411d47d6244badfd2",
+  "sourceentries": [
+    {
+      "slug": "jokenne",
+      "title": "조켄네",
+      "path": "memes/jokenne.md",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=2854&pageidx=3",
+          "publisher": "캐릿",
+          "published_date": "2024-08-06",
+          "access": "direct_body",
+          "support": "발음 표기와 팬들의 요청 용례를 설명.",
+          "independent_group": "캐릿"
+        },
+        {
+          "url": "https://blog.hsad.co.kr/3535",
+          "publisher": "HSAD",
+          "published_date": "2024-08-08",
+          "access": "direct_body",
+          "support": "희망을 붙이는 문장 및 서로 다른 요청 반응을 관찰.",
+          "independent_group": "HSAD"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    },
+    {
+      "slug": "neomeogalgeyo",
+      "title": "넘어갈게요",
+      "path": "memes/neomeogalgeyo.md",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/1399",
+          "publisher": "캐릿",
+          "published_date": "2024-06-19",
+          "access": "direct_body",
+          "support": "공개 본문에서 프로그램과 상황 생략 용법을 확인.",
+          "independent_group": "캐릿"
+        },
+        {
+          "url": "https://maily.so/trendaword/posts/1gz2k80dz3q",
+          "publisher": "트렌드어워드",
+          "published_date": "2024-06-25",
+          "access": "direct_body",
+          "support": "표정·효과음이 붙은 장면과 재연·난처한 상황 용례를 확인.",
+          "independent_group": "트렌드어워드"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    },
+    {
+      "slug": "tteonggaehaetda",
+      "title": "떵개했다",
+      "path": "memes/tteonggaehaetda.md",
+      "evidence": [
+        {
+          "url": "https://blog.hsad.co.kr/3498",
+          "publisher": "HSAD",
+          "published_date": "2024-04-08",
+          "access": "direct_body",
+          "support": "먹방 이름을 동사화한 음식·비유 용법을 설명.",
+          "independent_group": "HSAD"
+        },
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=2493",
+          "publisher": "캐릿",
+          "published_date": "2024-03-12",
+          "access": "direct_body",
+          "support": "맛있게 먹는 뜻과 감동 등을 먹는다는 비유를 관찰.",
+          "independent_group": "캐릿"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    },
+    {
+      "slug": "jaemyae",
+      "title": "잼얘",
+      "path": "memes/jaemyae.md",
+      "evidence": [
+        {
+          "url": "https://blog.hsad.co.kr/3498",
+          "publisher": "HSAD",
+          "published_date": "2024-04-08",
+          "access": "direct_body",
+          "support": "SNS·메신저의 재미있는 이야기 요청을 설명.",
+          "independent_group": "HSAD"
+        },
+        {
+          "url": "https://www.gne.go.kr/magazine/user/bbs/BD_selectBbs.do?q_bbsDocNo=2783143&q_bbsSn=1391",
+          "publisher": "경남교육소식지",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "참여자의 실제 친구 대화에서 해당 약어 사용을 보고. 개인 식별 정보는 사용하지 않음.",
+          "independent_group": "경남교육소식지"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    },
+    {
+      "slug": "gukbap-in-heart",
+      "title": "가슴에 국밥 쏟음",
+      "path": "memes/gukbap-in-heart.md",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=3059&pageidx=1",
+          "publisher": "캐릿",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "감동적 이야기와 훈훈함을 표현하는 사용을 설명.",
+          "independent_group": "캐릿"
+        },
+        {
+          "url": "https://www.mk.co.kr/news/columnists/11235464",
+          "publisher": "매일경제",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "가슴이 뜨거워지는 감정을 나타내는 신조어로 해설. 주변 정치적 내용은 수록하지 않음.",
+          "independent_group": "매일경제"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    },
+    {
+      "slug": "deureongseun",
+      "title": "드렁슨",
+      "path": "memes/deureongseun.md",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=3075&pageidx=3&pageidx=3https://www.careet.net/Newsletter/Detail?id%3D3075",
+          "publisher": "캐릿",
+          "published_date": "2024-11-19",
+          "access": "direct_body",
+          "support": "수면 표현을 포함한 ‘-슨’ 말투 사용을 소개.",
+          "independent_group": "캐릿"
+        },
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=10155&mode=view&page=2&pageSize=12&searchStr=&serboardsort=",
+          "publisher": "인크로스",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "드르렁과 슨의 결합 및 잠든 모습에 쓰는 뜻을 확인.",
+          "independent_group": "인크로스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다. 넓은 -슨 말투 후보에서 양쪽 본문이 겹치는 수면 표현으로 범위를 좁혔다."
+    },
+    {
+      "slug": "who-made-this",
+      "title": "후메잌디스",
+      "path": "memes/who-made-this.md",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=3137&pageidx=1",
+          "publisher": "캐릿",
+          "published_date": "2024-12-17",
+          "access": "direct_body",
+          "support": "질책처럼 시작해 칭찬으로 바뀌는 포맷과 국내 모방을 설명.",
+          "independent_group": "캐릿"
+        },
+        {
+          "url": "https://gogumafarm.kr/밈-몰라도-안-괜찮아-딩딩딩딩딩-2025년-1월-최신-밈-모음/",
+          "publisher": "고구마팜",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "제로베이스원 및 국내 브랜드의 재연·응용을 관찰.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    },
+    {
+      "slug": "nagatgyeong",
+      "title": "나같경",
+      "path": "memes/nagatgyeong.md",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=3375&pageidx=1",
+          "publisher": "캐릿",
+          "published_date": "2025-04-08",
+          "access": "direct_body",
+          "support": "나 같은 경우에는이라는 풀이와 가정적 반응을 제시.",
+          "independent_group": "캐릿"
+        },
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=10331&mode=view&page=1&pageSize=12&searchStr=&serboardsort=",
+          "publisher": "인크로스",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "같은 약어의 뜻과 일상 자기 상황을 설명하는 사용을 소개.",
+          "independent_group": "인크로스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    },
+    {
+      "slug": "oo-sageon",
+      "title": "○○ 사건",
+      "path": "memes/oo-sageon.md",
+      "evidence": [
+        {
+          "url": "https://blog.hsad.co.kr/3498",
+          "publisher": "HSAD",
+          "published_date": "2024-04-08",
+          "access": "direct_body",
+          "support": "사소한 일에 사건이라는 이름을 붙이는 형식을 설명; 기원 불명.",
+          "independent_group": "HSAD"
+        },
+        {
+          "url": "https://gogumafarm.kr/지금-sns를-점령한-사건이다-밈-빠르게-확인하고-사용/",
+          "publisher": "고구마팜",
+          "published_date": "2024-03-18",
+          "access": "direct_body",
+          "support": "캐릭터·팬·브랜드 게시물에서 사건명과 설명의 문장 틀을 관찰.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    },
+    {
+      "slug": "mudo-minati",
+      "title": "무도미나티",
+      "path": "memes/mudo-minati.md",
+      "evidence": [
+        {
+          "url": "https://blog.hsad.co.kr/3543",
+          "publisher": "HSAD",
+          "published_date": "2024-09-05",
+          "access": "direct_body",
+          "support": "없없무와 무도미나티의 관계 및 과거 장면 비교를 설명.",
+          "independent_group": "HSAD"
+        },
+        {
+          "url": "https://sports.khan.co.kr/article/202602231712013",
+          "publisher": "스포츠경향",
+          "published_date": "2026-02-23",
+          "access": "direct_body",
+          "support": "현재 사건에 과거 클립을 연결하는 재해석 관행을 해설; 개인 사생활 사례 제외.",
+          "independent_group": "스포츠경향"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    },
+    {
+      "slug": "round-sun-again",
+      "title": "둥근해 또 떴네",
+      "path": "memes/round-sun-again.md",
+      "evidence": [
+        {
+          "url": "https://blog.hsad.co.kr/3535",
+          "publisher": "HSAD",
+          "published_date": "2024-08-08",
+          "access": "direct_body",
+          "support": "월요일 아침 용례와 합성·재연을 확인.",
+          "independent_group": "HSAD"
+        },
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=10057&mode=view&page=21&pageSize=12&searchStr=&serboardsort=",
+          "publisher": "인크로스",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "게임 영상 문구와 일어나기 싫은 아침 맥락을 설명.",
+          "independent_group": "인크로스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    },
+    {
+      "slug": "yapu",
+      "title": "야푸",
+      "path": "memes/yapu.md",
+      "evidence": [
+        {
+          "url": "https://blog.hsad.co.kr/3610",
+          "publisher": "HSAD",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "야구장 푸드와 SNS 공유 문화를 소개.",
+          "independent_group": "HSAD"
+        },
+        {
+          "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1600&key=20260611.22010002963",
+          "publisher": "국제신문",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "야구 푸드라는 풀이와 관람 먹거리 문화를 보도.",
+          "independent_group": "국제신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다. 고정 짤이 아닌 관람 문화의 약어이므로 사전 수록 범위 편집 판단 필요."
+    },
+    {
+      "slug": "show-off-our-kid",
+      "title": "우리 애 자랑 좀 할게요",
+      "path": "memes/show-off-our-kid.md",
+      "evidence": [
+        {
+          "url": "https://blog.hsad.co.kr/3651",
+          "publisher": "HSAD",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "국내 재연의 역할 구도와 가방·종이접기 사례를 확인.",
+          "independent_group": "HSAD"
+        },
+        {
+          "url": "https://m.nownews.seoul.co.kr/news/lifestyle/trend-watching/2025/06/23/20250623601033",
+          "publisher": "서울신문 나우뉴스",
+          "published_date": "2025-06-23",
+          "access": "direct_body",
+          "support": "해외 원형으로 소개된 취미 자랑·응원 요청 구도를 설명.",
+          "independent_group": "서울신문 나우뉴스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    },
+    {
+      "slug": "kimnaembi-pump-it-up",
+      "title": "김냄비 펌피럽",
+      "path": "memes/kimnaembi-pump-it-up.md",
+      "evidence": [
+        {
+          "url": "https://letter.wepick.kr/post/1324",
+          "publisher": "위픽레터",
+          "published_date": "2025-02-05",
+          "access": "direct_body",
+          "support": "김냄비 영상의 음악적 호명과 온라인 공유를 소개.",
+          "independent_group": "위픽레터"
+        },
+        {
+          "url": "https://stibee.com/api/v1.0/emails/share/uO_SN1jsLZuZeC75_JSaAEvkpi5xsQ8",
+          "publisher": "꼬순다방",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "제작자 인터뷰에서 이름을 음악에 맞춘 영상과 외부 재사용을 확인; 개인·반려동물 사생활 제외.",
+          "independent_group": "꼬순다방"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    },
+    {
+      "slug": "ten-minutes-challenge",
+      "title": "텐미닛 챌린지",
+      "path": "memes/ten-minutes-challenge.md",
+      "evidence": [
+        {
+          "url": "https://www.newsis.com/view/NISX20240517_0002737874",
+          "publisher": "뉴시스",
+          "published_date": "2024-05-17",
+          "access": "direct_body",
+          "support": "해당 곡과 메이크업 전후 영상 형식을 보도; 플랫폼 제공 수치는 채택하지 않음.",
+          "independent_group": "뉴시스"
+        },
+        {
+          "url": "https://press.changwon.ac.kr/news/articleView.html?idxno=3051486",
+          "publisher": "창원대신문",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "별도 문화 기사에서 2000년대풍 메이크업·스타일 변신을 해설.",
+          "independent_group": "창원대신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "review_note": "조사·자체 본문 초안 완료. 별도 편집 및 usage 검증 전.",
+      "source_limits": "원영상·최초 게시물을 직접 검증한 것은 아니다. 최초 기원·현재 유행 규모·매체 사용권은 확정하지 않는다. 확인하지 않은 날짜는 null이다."
+    }
+  ],
+  "held": [
+    {
+      "title": "권력있는 점심",
+      "reason": "독립적인 두 번째 편집 본문 미확보. HSAD 전재·미러는 같은 근거로 취급."
+    },
+    {
+      "title": "구라같은데",
+      "reason": "HSAD 외 검색 결과가 커뮤니티·짤 모음 위주이며 이번 범위에서 독립 편집 본문 두 개를 확보하지 못함."
+    },
+    {
+      "title": "○○는 유명한 ○○임",
+      "reason": "독립 편집 본문 두 개 미확보. 커뮤니티에서 기원 귀속 이의도 발견해 기원 단정 보류."
+    },
+    {
+      "title": "갸루적 사고",
+      "reason": "고구마팜 직접 본문은 확보. HSAD의 두 번째 해당 본문은 확인되지 않아 보류."
+    },
+    {
+      "title": "아이쿠 실수 ㅎㅋ",
+      "reason": "HSAD 및 같은 글 전재 외 독립 근거 미확보."
+    }
+  ]
+}
