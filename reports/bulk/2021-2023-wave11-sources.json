@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave11",
+  "baseline_ref": "1cc4cd4",
+  "baseline_canonical_count": 686,
+  "review_date": "2026-11-17",
+  "reviewer_type": "AI",
+  "counts": {
+    "screened": 40,
+    "written": 6,
+    "baseline_duplicate": 11,
+    "variant_included_in_written_entry": 1,
+    "held": 22
+  },
+  "method": "40개 고정 후보를 표제·별칭·범위로 선별했다. 전체 40개 심층 검증을 주장하지 않는다. 작성 6개는 각각 두 독립 발행 주체의 직접 페이지를 확인했으며 제목상 사용/본문 정의/서평/발표 보도의 역할을 따로 표시했다. 이전 held 반복은 신규 조사 수에 포함하지 않는다.",
+  "ci_status": "not_run",
+  "entries": [
+    {
+      "id": "samgwida",
+      "title": "삼귀다",
+      "path": "memes/samgwida.md",
+      "own_definition": "정식 연인이라고 하기는 이르지만 서로 친밀하게 지내는 관계를 표현하는 말이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.yuhan.co.kr/Mobile/Introduce/Health/index.asp?Cateid=290&IDX=39789&listUrl=%2FMobile%2FIntroduce%2FHealth%2FSearch%2Findex.asp%3FCateid%3D290%26p%3D49&mode=view&p=49&sm=-1",
+          "publisher": "유한양행 건강의 벗",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "본문에서 2021 대화사전으로 명시. 삼귀다의 정의와 예문 확인.",
+          "independent_group": "yuhan-dialogue-dictionary"
+        },
+        {
+          "url": "https://www.edaily.co.kr/news/read?newsId=01203766632334496",
+          "publisher": "이데일리",
+          "published_date": "2022-05-31",
+          "access": "direct_body",
+          "supports": "본문에서 연애 전 친밀한 관계로 정의하고 SNS 신조어 맥락에 배치.",
+          "independent_group": "edaily-language-feature"
+        }
+      ],
+      "limitations": [
+        "유한양행 페이지의 월일은 확인하지 못했다. 2021년은 본문 연재 이름에 근거한다.",
+        "기존 썸과 의미는 가깝지만 별도 어휘 형식으로 제안하며 최초 창안자를 단정하지 않는다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "686 title/aliases 및 retired metadata 대조 동일 표제 없음. 삼귀다/썸, 짤줍/짤방은 유사 뜻·관련 행동이지만 별도 어휘 형식으로 제안. 의미 분리 최종 편집검토 필요."
+    },
+    {
+      "id": "jjaljup",
+      "title": "짤줍",
+      "path": "memes/jjaljup.md",
+      "own_definition": "인터넷에서 마음에 드는 사진이나 짤을 찾아 저장하는 일을 가리키는 말이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.khan.co.kr/article/201705152046025",
+          "publisher": "경향신문",
+          "published_date": "2017-05-15",
+          "access": "direct_body",
+          "supports": "사진 수집·저장 행위의 정의와 국내 팬 활동 사례.",
+          "independent_group": "khan-fandom-column"
+        },
+        {
+          "url": "https://www.careet.net/395",
+          "publisher": "캐릿",
+          "published_date": "2021-06-11",
+          "access": "direct_body",
+          "supports": "직접 열린 페이지 제목에서 짤줍 사용. 공개 본문은 오히려 좋아 밈 소개.",
+          "independent_group": "careet-meme-series"
+        }
+      ],
+      "limitations": [
+        "캐릿은 공개 제목 및 공개 본문만 확인했다. 유료 부분 미열람. 짤줍 자체의 정의는 경향신문, 2021 사용은 캐릿 제목이 각각 뒷받침한다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "686 title/aliases 및 retired metadata 대조 동일 표제 없음. 삼귀다/썸, 짤줍/짤방은 유사 뜻·관련 행동이지만 별도 어휘 형식으로 제안. 의미 분리 최종 편집검토 필요."
+    },
+    {
+      "id": "sigang",
+      "title": "시강",
+      "path": "memes/sigang.md",
+      "own_definition": "‘시선 강탈’을 줄인 말로, 유독 눈길을 끄는 사람이나 사물·장면을 가리킨다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다."
+      },
+      "source_urls": [
+        {
+          "url": "https://sports.khan.co.kr/article/202210140800003/amp",
+          "publisher": "스포츠경향",
+          "published_date": "2022-10-14",
+          "access": "direct_body",
+          "supports": "인터뷰 도입부에서 시강을 시선 강탈의 약자로 설명.",
+          "independent_group": "sports-khan-actor-interview"
+        },
+        {
+          "url": "https://v.daum.net/v/20230407155344267?s=print_news",
+          "publisher": "이데일리(Daum 전재)",
+          "published_date": "2023-04-07",
+          "access": "direct_body",
+          "supports": "시강의 축약과 사람·사물·장면의 적용 범위 직접 설명.",
+          "independent_group": "edaily-slang-column"
+        }
+      ],
+      "limitations": [
+        "인터뷰에서의 이름 말장난과 별도 신조어 해설을 구분했다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "686 title/aliases 및 retired metadata 대조 동일 표제 없음. 삼귀다/썸, 짤줍/짤방은 유사 뜻·관련 행동이지만 별도 어휘 형식으로 제안. 의미 분리 최종 편집검토 필요."
+    },
+    {
+      "id": "insaeng-shot",
+      "title": "인생샷",
+      "path": "memes/insaeng-shot.md",
+      "own_definition": "자신이 특히 마음에 들어 오래 남기고 싶은 잘 나온 사진을 가리키는 표현이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다."
+      },
+      "source_urls": [
+        {
+          "url": "https://v.daum.net/v/20220217062506380",
+          "publisher": "트래비(Daum 전재)",
+          "published_date": "2022-02-17",
+          "access": "direct_body",
+          "supports": "여행에서 인생 사진을 남기는 행동과 SNS 맥락을 소개.",
+          "independent_group": "travie-chuncheon-photo"
+        },
+        {
+          "url": "https://www.hankyung.com/article/2023071475611",
+          "publisher": "한국경제",
+          "published_date": "2023-07-14",
+          "access": "direct_body",
+          "supports": "인생샷을 인생 사진으로 풀고 촬영·소셜미디어 게시 경험을 다룬 책 소개.",
+          "independent_group": "hankyung-photo-book-review"
+        }
+      ],
+      "limitations": [
+        "책 전체나 인터뷰 원문을 읽었다고 주장하지 않으며 확인한 서평과 여행 기사만 활용한다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "686 title/aliases 및 retired metadata 대조 동일 표제 없음. 삼귀다/썸, 짤줍/짤방은 유사 뜻·관련 행동이지만 별도 어휘 형식으로 제안. 의미 분리 최종 편집검토 필요."
+    },
+    {
+      "id": "lovestagram",
+      "title": "럽스타그램",
+      "path": "memes/lovestagram.md",
+      "own_definition": "SNS에 연인과의 애정을 드러내는 사진이나 게시물을 올리는 일을 표현하는 말이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.tenasia.co.kr/article/2015061027234",
+          "publisher": "텐아시아",
+          "published_date": "2015-06-10",
+          "access": "direct_body",
+          "supports": "앨범 소개에서 합성어 구조와 연인들의 SNS 애정 표현 설명.",
+          "independent_group": "tenasia-album-announcement"
+        },
+        {
+          "url": "https://www.mt.co.kr/entertainment/2022/06/25/2022062516355299567",
+          "publisher": "머니투데이",
+          "published_date": "2022-06-25",
+          "access": "direct_body",
+          "supports": "기본 정의와 친구 관계에 대한 비유적 사용을 명시.",
+          "independent_group": "mt-friendship-social-posts"
+        }
+      ],
+      "limitations": [
+        "개인의 연애나 성적 지향을 추정하지 않는다. 실제 인명 및 관계 의혹은 본문에서 제외했다.",
+        "첫 자료는 앨범 발표 보도이며 두 번째는 별도 시점·주체의 게시물 보도다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "686 title/aliases 및 retired metadata 대조 동일 표제 없음. 삼귀다/썸, 짤줍/짤방은 유사 뜻·관련 행동이지만 별도 어휘 형식으로 제안. 의미 분리 최종 편집검토 필요."
+    },
+    {
+      "id": "taste-hit",
+      "title": "취향저격",
+      "path": "memes/taste-hit.md",
+      "own_definition": "어떤 대상이 자신의 취향에 정확히 들어맞아 마음에 든다는 표현이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.ajunews.com/view/20171219083615886",
+          "publisher": "아주경제",
+          "published_date": "2017-12-20",
+          "access": "direct_body",
+          "supports": "취향에 맞는 상황의 의미와 취저 축약을 직접 설명.",
+          "independent_group": "ajunews-language-video-text"
+        },
+        {
+          "url": "https://www.donga.com/news/Culture/article/all/20221203/116820943/1",
+          "publisher": "동아일보",
+          "published_date": "2022-12-03",
+          "access": "direct_body",
+          "supports": "디지털 언어를 다룬 서평에서 취저와 취향 저격 연결.",
+          "independent_group": "donga-digital-language-book"
+        }
+      ],
+      "limitations": [
+        "아주경제는 영상의 공개 기사 설명문만 읽었으며 영상 재생은 하지 않았다.",
+        "동아일보가 소개한 책 전체와 언급량 원자료는 미검증. 유행 규모나 증가율을 인용하지 않는다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "686 title/aliases 및 retired metadata 대조 동일 표제 없음. 삼귀다/썸, 짤줍/짤방은 유사 뜻·관련 행동이지만 별도 어휘 형식으로 제안. 의미 분리 최종 편집검토 필요."
+    }
+  ],
+  "triage": [
+    {
+      "title": "이왜맛",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "맛도리",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "냅다",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 부사의 온라인 특유 형식을 분리할 근거 미완료."
+    },
+    {
+      "title": "삼귀다",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 직접 페이지 확인. 출처별 지원 범위는 entry 참조."
+    },
+    {
+      "title": "횰로",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "덕계못",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "deokgyemot",
+          "title": "덕계못"
+        }
+      ],
+      "reason": "686 표제/별칭 일치."
+    },
+    {
+      "title": "성덕",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "seongdeok",
+          "title": "성덕"
+        }
+      ],
+      "reason": "686 표제/별칭 일치."
+    },
+    {
+      "title": "계탔다",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "갓반인",
+      "status": "held",
+      "matches": [],
+      "reason": "우수한 일반인과 팬덤 외부인 의미가 섞이므로 한 뜻으로 뭉뚱그리지 않고 보류."
+    },
+    {
+      "title": "어덕행덕",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "eodeokhaengdeok",
+          "title": "어덕행덕"
+        }
+      ],
+      "reason": "686 표제/별칭 일치."
+    },
+    {
+      "title": "탈덕",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "taldeok",
+          "title": "탈덕"
+        }
+      ],
+      "reason": "686 표제/별칭 일치."
+    },
+    {
+      "title": "일코",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "ilko",
+          "title": "일코"
+        }
+      ],
+      "reason": "686 표제/별칭 일치."
+    },
+    {
+      "title": "덕통사고",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "deoktongsago",
+          "title": "덕통사고"
+        }
+      ],
+      "reason": "686 표제/별칭 일치."
+    },
+    {
+      "title": "머글",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "muggle-fandom",
+          "title": "머글"
+        }
+      ],
+      "reason": "686 표제/별칭 일치."
+    },
+    {
+      "title": "팬아저",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "fanajeo",
+          "title": "팬아저"
+        }
+      ],
+      "reason": "686 표제/별칭 일치."
+    },
+    {
+      "title": "만반잘부",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "manbanjalbu",
+          "title": "만반잘부"
+        }
+      ],
+      "reason": "686 표제/별칭 일치."
+    },
+    {
+      "title": "댕댕미",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "멍뭉미",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "상메",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "프사",
+      "status": "held",
+      "matches": [],
+      "reason": "두 직접 페이지는 읽었으나 Kpedia 예문이 오프사이드 문자열과 혼재해 보조 근거 신뢰성 보류. 이코노미조선의 심리 추론은 채택하지 않음."
+    },
+    {
+      "title": "움짤",
+      "status": "held",
+      "matches": [],
+      "reason": "기존 짤방과 관계는 있으나 움직이는 이미지라는 별도 형식 근거의 두 직접 확인 미완료."
+    },
+    {
+      "title": "고화질짤",
+      "status": "held",
+      "matches": [],
+      "reason": "화질 수식의 단순 조합. 독립 어휘 형식 근거 부족."
+    },
+    {
+      "title": "짤줍",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 직접 페이지 확인. 출처별 지원 범위는 entry 참조."
+    },
+    {
+      "title": "짤털",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "짤방",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "jjalbang",
+          "title": "짤방"
+        }
+      ],
+      "reason": "686 표제/별칭 일치."
+    },
+    {
+      "title": "배사",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "톡디",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "럽스타그램",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 직접 페이지 확인. 출처별 지원 범위는 entry 참조."
+    },
+    {
+      "title": "먹스타그램",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "셀피",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "셀기꾼",
+      "status": "held",
+      "matches": [],
+      "reason": "표제·범위 선별 단계에서 독립적인 온라인 용법의 두 직접 근거 확보를 완료하지 않아 미작성."
+    },
+    {
+      "title": "인생샷",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 직접 페이지 확인. 출처별 지원 범위는 entry 참조."
+    },
+    {
+      "title": "인생네컷",
+      "status": "held",
+      "matches": [],
+      "reason": "브랜드와 일반 네 컷 사진 용법을 분리할 두 직접 근거 미완료."
+    },
+    {
+      "title": "시강",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 직접 페이지 확인. 출처별 지원 범위는 entry 참조."
+    },
+    {
+      "title": "존재감갑",
+      "status": "held",
+      "matches": [],
+      "reason": "기존 ~갑의 수식 파생. 별도 항목으로 확대하지 않음."
+    },
+    {
+      "title": "취향저격",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 직접 페이지 확인. 출처별 지원 범위는 entry 참조."
+    },
+    {
+      "title": "취저",
+      "status": "included_variant",
+      "matches": [],
+      "reason": "취향저격의 줄임말로 본문에 통합. 별도 항목 생성하지 않음."
+    },
+    {
+      "title": "저격글",
+      "status": "held",
+      "matches": [],
+      "reason": "비판 글과 특정 재사용 밈을 분리할 근거 미완료."
+    },
+    {
+      "title": "손절각",
+      "status": "held",
+      "matches": [],
+      "reason": "기존 ~각 관계와 독립 근거 부족으로 이전 보류 유지. 새 심층 조사 수에 포함하지 않음."
+    },
+    {
+      "title": "광탈",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "gwangtal",
+          "title": "광탈"
+        }
+      ],
+      "reason": "686 표제/별칭 일치."
+    }
+  ]
+}
