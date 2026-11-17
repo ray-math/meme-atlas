@@ -1155,6 +1155,18 @@
         "delicious-zero-calories",
         "its-okay-looked-natural"
       ]
+    },
+    "korean-verified-20261117-bulk-wave20": {
+      "input_hash": "749a9e987a439b4949a4563c2d29666d398f82c1e94b28ced4432ee2a671d71f",
+      "ids": [
+        "acceptance-necklace",
+        "yumeiro-patissiere-challenge",
+        "i-really-like-this-story",
+        "aigo-meaningless",
+        "i-am-still-hungry",
+        "dont-shout-clap",
+        "horizontal-coordinates-ghost"
+      ]
     }
   },
   "entries": {
@@ -9046,6 +9058,65 @@
       "body_hash": "0cd3db6a21a7f9d2880b66c12041f76ad49cd600b5a7df37441e2ff79ad003e0",
       "scope_type": "korean_usage",
       "scope_basis": "독립 자료에서 관찰된 한국어 고정 반응 문구에 한정.",
+      "tags": []
+    },
+    "acceptance-necklace": {
+      "title": "그에게 주어지는 합격 목걸이",
+      "batch": "korean-verified-20261117-bulk-wave20",
+      "body_hash": "109e320d790dc8d01f11a6e117fff35a2ddee810280a4d4a9bb2d067535fc147",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 발행 주체의 관련 직접 본문으로 국내 표현/재사용 형식을 확인. 원미디어 직접 열람과 구분.",
+      "tags": []
+    },
+    "yumeiro-patissiere-challenge": {
+      "title": "꿈빛 파티시엘 챌린지",
+      "batch": "korean-verified-20261117-bulk-wave20",
+      "body_hash": "cb8a3db05a839286a0d03fab34d68e08653b2bf27fffaf0e48fa34ba3d64dd06",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 발행 주체의 관련 직접 본문으로 국내 표현/재사용 형식을 확인. 원미디어 직접 열람과 구분.",
+      "tags": []
+    },
+    "i-really-like-this-story": {
+      "title": "나는 이 이야기를 무척 좋아한다",
+      "batch": "korean-verified-20261117-bulk-wave20",
+      "body_hash": "199ff110a905acb4726d3660f42139b4259928d6fcd8ac2b55e3dddc8bfcd939",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 발행 주체의 관련 직접 본문으로 국내 표현/재사용 형식을 확인. 원미디어 직접 열람과 구분.",
+      "tags": []
+    },
+    "aigo-meaningless": {
+      "title": "아이고 의미없다",
+      "batch": "korean-verified-20261117-bulk-wave20",
+      "body_hash": "c21d74817250d01b6eb9a1916396652e9144c2a827764353379b5602f08f2feb",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 자료에서 확인한 국내 고정 어록·반응 표현의 제한된 뜻.",
+      "tags": []
+    },
+    "i-am-still-hungry": {
+      "title": "나는 아직 배고프다",
+      "aliases": [
+        "난 아직 배고프다"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave20",
+      "body_hash": "9e9d9e436ddae0735002c39dfa0ea2fbc0233d54f8ad05d3a3ef18208ae0e526",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 자료에서 확인한 국내 고정 어록·반응 표현의 제한된 뜻.",
+      "tags": []
+    },
+    "dont-shout-clap": {
+      "title": "소리 지르지 말고 박수 쳐",
+      "batch": "korean-verified-20261117-bulk-wave20",
+      "body_hash": "80487f21683e4edcc31caa44f0fb2cbbcf8d6dfb1fce5321c4e7a944c4603cf0",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 자료에서 확인한 국내 고정 어록·반응 표현의 제한된 뜻.",
+      "tags": []
+    },
+    "horizontal-coordinates-ghost": {
+      "title": "어떻게 지평좌표계로 고정을 하셨죠?",
+      "batch": "korean-verified-20261117-bulk-wave20",
+      "body_hash": "45c1365de5b7ff203457234baa0d447c1a9f8a7860f9ae05294a18819c77c62d",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 방송 관련 질문과 국내 괴담 댓글 재사용을 독립 트렌드 해설 및 당사자 인터뷰 기사 본문으로 확인.",
       "tags": []
     }
   }
