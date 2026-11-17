@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 9,
-  "query_observations": 141,
-  "distinct_literal_queries": 118,
+  "source_files": 10,
+  "query_observations": 153,
+  "distinct_literal_queries": 125,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -805,6 +805,69 @@
       "query": "전업",
       "source": "reports/bulk/connector-resume-b154.json",
       "status": "broad-supporting-query"
+    },
+    {
+      "query": "오살힘",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "accepted-family",
+      "canonical": "osalhim"
+    },
+    {
+      "query": "오늘을 살아갈 힘",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "accepted-family",
+      "canonical": "osalhim"
+    },
+    {
+      "query": "오늘을 살아가는 힘",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "accepted-family",
+      "canonical": "osalhim"
+    },
+    {
+      "query": "사보필",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "사생활 보호 필름",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "무공해",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "무조건 공감해드림",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "야름답다",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과자 사꾸",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과자 사진 꾸미기",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "젬민이",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "테무인간",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
     }
   ],
   "semantic_duplicates": [
