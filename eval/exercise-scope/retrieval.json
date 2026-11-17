@@ -1,0 +1,724 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "hellchang",
+    "jumo-cheer"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 351,
+    "annotated_entries": 46,
+    "reviewed_entries": 44,
+    "unannotated_entries": 305
+  },
+  "provisional_reviewed_entries": 46,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "execution_commit": "ac7217ae8edcc1e3a93ff89fc653288d4ce3a173",
+  "execution_run": 44010658625,
+  "results": [
+    {
+      "id": "X-exercise",
+      "prompt": "숙소나 여가 계획 등 일상의 선택을 운동 기준에 먼저 맞추는 자신의 모습을 거친 자기 호칭으로 과장해 웃어넘긴다. 실제 건강 상태나 중독을 진단하는 상황이 아니다.\n여행 숙소 사진보다 헬스장 운영시간을 먼저 찾는 나, 헬창 다 됐네.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "운동중심생활"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 351,
+          "annotated_entries": 46,
+          "reviewed_entries": 44,
+          "unannotated_entries": 305
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "hellchang",
+            "title": "헬창",
+            "path": "memes/hellchang.md",
+            "domain_tags": [],
+            "usage_id": "self-mock-exercise-focus",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "운동중심생활"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-mock-exercise-focus",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "운동중심생활"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "혼잣말",
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "비속어",
+                "상처가능"
+              ],
+              "safety": "caution",
+              "context": "숙소나 여가 계획 등 일상의 선택을 운동 기준에 먼저 맞추는 자신의 모습을 거친 자기 호칭으로 과장해 웃어넘긴다. 실제 건강 상태나 중독을 진단하는 상황이 아니다.",
+              "avoid_when": [
+                "다른 사람의 운동량이나 근육 크기만 보고 호칭을 붙일 때",
+                "몸이나 외모를 비하하거나 상대를 공개적으로 놀릴 때",
+                "운동 강박·건강 이상·통증에 대한 진지한 상담을 농담으로 대신할 때",
+                "위험한 운동이나 회복을 무시한 과도한 운동을 정당화할 때",
+                "단순히 운동을 한 번 마친 상황만 있을 때",
+                "거친 표현을 원하지 않는 대화나 공식적인 자리"
+              ],
+              "example": {
+                "text": "여행 숙소 사진보다 헬스장 운영시간을 먼저 찾는 나, 헬창 다 됐네.",
+                "kind": "editorial"
+              },
+              "review_note": "자기 생활을 웃음 소재로 삼는 기능을 자조로 분류했으며 실제 재미·만족·중독 여부는 추론하지 않는다. 운동중심생활과 자기 방향을 함께 확인해야 한다. 자기 호칭은 타인에게 같은 말을 붙여도 된다는 허락이 아니다. 예문은 실제 인물이나 여행 계획에 관한 진술이 아니다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "운동중심생활"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "3848d450ff3074caaf3a417695e9533b009822a3",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "운동중심생활"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "J-international",
+      "prompt": "한국 선수·대표팀의 국제 무대 성과나 한국 문화 콘텐츠의 대외적 성취를 확인한 뒤, 주모를 부르는 설정으로 환호를 과장한다. 평가의 초점은 확인된 성취이며 가상의 주모에게 실제 행동을 요청하는 상황이 아니다. 국내 성과에 해외 반응만 덧붙인 경우는 이번 주석 범위에 포함하지 않는다.\n한국 대표팀이 국제 대회 결승에서 역전승했다니. 주모, 여기 한 사발 더!",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "한국관련국제성과"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 351,
+          "annotated_entries": 46,
+          "reviewed_entries": 44,
+          "unannotated_entries": 305
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "jumo-cheer",
+            "title": "주모 드립",
+            "path": "memes/jumo-cheer.md",
+            "domain_tags": [],
+            "usage_id": "cheer-korean-achievement",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "한국관련국제성과"
+              ],
+              "targets": [
+                "상황"
+              ]
+            },
+            "usage": {
+              "id": "cheer-korean-achievement",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "한국관련국제성과",
+                "사실확인후"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인",
+                "타인비하"
+              ],
+              "safety": "caution",
+              "context": "한국 선수·대표팀의 국제 무대 성과나 한국 문화 콘텐츠의 대외적 성취를 확인한 뒤, 주모를 부르는 설정으로 환호를 과장한다. 평가의 초점은 확인된 성취이며 가상의 주모에게 실제 행동을 요청하는 상황이 아니다. 국내 성과에 해외 반응만 덧붙인 경우는 이번 주석 범위에 포함하지 않는다.",
+              "avoid_when": [
+                "아직 확인하지 않은 성과나 소문을 사실로 만들어 전달할 때",
+                "다른 국가·민족·선수·팬을 깎아내릴 때",
+                "개별 성취를 국가나 민족 전체의 우월성 증거로 삼을 때",
+                "실제 술 주문이나 음주 권유가 목적일 때",
+                "아직 결과가 나오지 않은 경기의 응원만 요청할 때",
+                "한국인이라는 점 외에는 관련성이 없는 지인의 사적 성취에 적용할 때",
+                "국내 성과에 해외 반응만 덧붙여 국제 성과로 취급할 때"
+              ],
+              "example": {
+                "text": "한국 대표팀이 국제 대회 결승에서 역전승했다니. 주모, 여기 한 사발 더!",
+                "kind": "editorial"
+              },
+              "review_note": "target상황은 성취를 가리키며 주모가 등장한다는 이유로 target상대를 부여하지 않는다. 감탄 기능과 실제 화자의 기쁨·자부심을 구별하여 unknown을 유지한다. 한국관련국제성과와 상황 방향을 함께 확인해야 한다. 사실확인후는 사용 facet으로 유지하되 retrieval_requirements의 같은 축에 두 조건을 넣지 않았다. 확인된 성과라는 문맥 조건은 별도로 검토해야 하며 검색기 자체가 사실 확인을 완료했다는 뜻이 아니다. 예문은 실제 경기 결과가 아닌 창작 상황이다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "한국관련국제성과"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "6d722b4730098625cf9d04f41da194309599b712",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "한국관련국제성과"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A01",
+      "prompt": "친구가 처음 낸 단편소설이 문학상 후보에 올랐대. 믿기지 않을 만큼 기쁘다는 반응을 단톡에 짧게 보내고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "감탄"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 351,
+          "annotated_entries": 46,
+          "reviewed_entries": 44,
+          "unannotated_entries": 305
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "daebak-reaction",
+            "title": "대박",
+            "path": "memes/daebak-reaction.md",
+            "domain_tags": [],
+            "usage_id": "admire",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "admire",
+              "emotions": [
+                "놀람",
+                "기쁨"
+              ],
+              "intents": [
+                "감탄",
+                "칭찬"
+              ],
+              "situations": [
+                "기대이상",
+                "성과"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "좋은 결과에 호의적으로 반응한다.",
+              "avoid_when": [
+                "피해나 실패를 기뻐하는 것으로 읽힐 때"
+              ],
+              "example": {
+                "text": "첫 발표가 최우수상이라니, 대박!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "956ef9e3e44d4e98dae9ef50a206761bb9110a3a",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "is-this-real",
+            "title": "이거 실화냐",
+            "path": "memes/is-this-real.md",
+            "domain_tags": [],
+            "usage_id": "bewildered",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "bewildered",
+              "emotions": [
+                "놀람",
+                "당혹"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "예상밖실수"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "공개망신"
+              ],
+              "safety": "caution",
+              "context": "뜻밖의 실수나 상황을 황당해한다.",
+              "avoid_when": [
+                "실수한 상대를 공개적으로 망신줄 때"
+              ],
+              "example": {
+                "text": "회의 날짜를 한 달 뒤로 잡았대. 이거 실화냐?",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "a4b2c1fd404b93b838ae6a65e6771d8b1d06f968",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "is-this-real",
+            "title": "이거 실화냐",
+            "path": "memes/is-this-real.md",
+            "domain_tags": [],
+            "usage_id": "pleasant-surprise",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "pleasant-surprise",
+              "emotions": [
+                "놀람",
+                "기쁨"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "기대이상",
+                "성과"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "좋은 결과가 믿기지 않는다는 감탄이다.",
+              "avoid_when": [
+                "실제 사실 검증 답변이 필요한 때"
+              ],
+              "example": {
+                "text": "추첨에 당첨됐어. 이거 실화냐!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "a4b2c1fd404b93b838ae6a65e6771d8b1d06f968",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "iwaejin",
+            "title": "이왜진",
+            "path": "memes/iwaejin.md",
+            "domain_tags": [
+              "인터넷방송"
+            ],
+            "usage_id": "confirmed-surprise",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "confirmed-surprise",
+              "emotions": [
+                "놀람"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "예상밖사실",
+                "사실확인후"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인"
+              ],
+              "safety": "caution",
+              "context": "사실임이 확인된 뒤 예상과 현실의 차이에 놀란다.",
+              "avoid_when": [
+                "검증되지 않은 소문을 사실로 암시할 때"
+              ],
+              "example": {
+                "text": "가짜 행사인 줄 알았는데 실제로 열린대. 이왜진.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "53660e445a3454a6173b88264fce498c44bc42d6",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "heol",
+            "title": "헐",
+            "path": "memes/heol.md",
+            "domain_tags": [],
+            "usage_id": "unexpected",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "unexpected",
+              "emotions": [
+                "놀람",
+                "당혹"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "뜻밖의소식"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "무성의하게들림"
+              ],
+              "safety": "caution",
+              "context": "예상 밖 소식에 짧게 반응하며 긍정·부정은 단정하지 않는다.",
+              "avoid_when": [
+                "진지한 도움 요청에 이 한마디만 답할 때"
+              ],
+              "example": {
+                "text": "헐, 오늘이 벌써 마감이야?",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "7b96e16ef9ba55a5a7428cdb92b346a1f1078739",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A02",
+      "prompt": "내가 매일 같은 빵집 얘기만 한다고 친구들이 웃어. 남을 놀리지 말고 나를 귀엽게 놀리는 말로 받아치고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "반복발언"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 351,
+          "annotated_entries": 46,
+          "reviewed_entries": 44,
+          "unannotated_entries": 305
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "musae-repeat",
+            "title": "~무새",
+            "path": "memes/musae-repeat.md",
+            "domain_tags": [],
+            "usage_id": "self-repeat",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "반복발언"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-repeat",
+              "emotions": [
+                "재미"
+              ],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "반복발언"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "같은 내용의 말이나 요청을 실제로 반복하는 자신을 가볍게 돌아본다.",
+              "avoid_when": [
+                "한 번의 자기모순이나 말 바꾸기만으로 특정 말을 계속 반복했다고 단정할 때"
+              ],
+              "example": {
+                "text": "나 오늘도 여행 얘기만 했네. 여행무새야.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단. 자연어 개발 평가의 과잉 일반화를 보고 반복 조건을 명시함. 최초 본문의 반복 타박 범위를 확장하지 않음.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "d0ce1a349713d6dbe7bc7141f754ffe5da94576a",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A16",
+      "prompt": "내가 하루 만에 방 전체를 정리하려다 책상만 치웠어. 내 거창한 계획과 소박한 현실 차이를 자조하고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "기대와현실차이"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 351,
+          "annotated_entries": 46,
+          "reviewed_entries": 44,
+          "unannotated_entries": 305
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "reality-is-gutter",
+            "title": "현실은 시궁창",
+            "path": "memes/reality-is-gutter.md",
+            "domain_tags": [
+              "영화"
+            ],
+            "usage_id": "expectation-gap",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "기대와현실차이"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "expectation-gap",
+              "emotions": [
+                "실망"
+              ],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "기대와현실차이"
+              ],
+              "targets": [
+                "자기",
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "타인비하"
+              ],
+              "safety": "caution",
+              "context": "자신의 계획과 결과 차이를 과장한다.",
+              "avoid_when": [
+                "타인의 처지나 가치를 깎아내릴 때"
+              ],
+              "example": {
+                "text": "계획은 새벽 운동, 현실은 알람 다섯 번 끄기. 현실은 시궁창.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "0003bb03c71037f5459101fc410374e18bc33599",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A18",
+      "prompt": "친구가 괴롭힘 피해를 자세히 털어놓는데 듣기 길어. 웃긴 밈으로 말을 끊어 줘.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A21",
+      "prompt": "친절하게 택배를 받아 준 이웃이 나랑 사귀고 싶은 게 확실하다고 말할 밈을 줘.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    }
+  ]
+}

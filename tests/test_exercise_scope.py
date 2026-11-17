@@ -43,3 +43,13 @@ class ExerciseScopeTests(unittest.TestCase):
             lookup=search(index,vocab,e['title'],mode='lookup')
             hit=next(h for h in lookup['results'] if h['entry_id']==e['id'])
             self.assertTrue(hit['retrieval_scope']['exact_lookup_only'])
+
+    def test_frozen_python_trace_matches_reexecution(self):
+        from compare_evaluation_expansion import strict_equal
+        frozen=json.loads((ROOT/'eval/exercise-scope/retrieval.json').read_text())
+        actual=evaluate(ROOT)
+        def behavior(rows):
+            rows=copy.deepcopy(rows)
+            for row in rows:row['retrieval'].pop('coverage',None)
+            return rows
+        self.assertTrue(strict_equal(behavior(frozen['results']),behavior(actual['results'])))
