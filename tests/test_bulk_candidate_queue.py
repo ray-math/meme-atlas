@@ -9,7 +9,7 @@ from pathlib import Path
 from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from bulk_candidate_queue import queue, validate, main, dump
+from bulk_candidate_queue import queue, validate, adapt, main, dump
 
 def row(i, title=None, **kw):
     return dict(id=str(i), title=title or 'candidate-' + str(i), status='unreviewed',
@@ -41,7 +41,7 @@ class BulkCandidateQueueTests(unittest.TestCase):
         self.assertEqual(a, self.run_queue())
         self.assertEqual(a['counts']['total'], 600)
         self.assertEqual(a['counts']['needs_research'], 600)
-        self.assertEqual(a['by_source_kind']['newly_collected']['total'], 0)
+        self.assertEqual(a['by_source_kind']['new_source_rows']['total'], 0)
         self.assertEqual(self.path.read_bytes(), before)
     def test_alias_unicode_candidate_duplicate_and_held(self):
         rows = [row('a', 'ＥＸＩＳＴＩＮＧ!'), row('b', '다른말', aliases=['별칭']),
@@ -83,7 +83,7 @@ class BulkCandidateQueueTests(unittest.TestCase):
         self.write([row('b')], extra)
         a = self.run_queue([self.path, extra])
         self.assertEqual(a['by_source_kind']['legacy_existing']['total'], 1)
-        self.assertEqual(a['by_source_kind']['newly_collected']['total'], 1)
+        self.assertEqual(a['by_source_kind']['new_source_rows']['total'], 1)
         self.assertEqual(a['rows'][1]['candidate']['id'], 'b')
         self.assertEqual(a['sources'][1]['metadata']['source']['url'], 'https://example.org/list')
         self.write([row('a')], extra)
@@ -110,6 +110,46 @@ class BulkCandidateQueueTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 main(['--root',str(self.root),'--output',str(self.root/'queue.json')])
         self.assertEqual(json.loads(output.read_text())['counts']['total'], 1)
+
+    def test_research_adapter_rich_urls_and_explicit_ids(self):
+        env = {'schema_version':1, 'candidates':[{
+            'research_id':'r1', 'title':'새 제목', 'aliases':[],
+            'review_status':'unreviewed', 'source_urls':[{'url':'https://example.org/a',
+            'access':'search_index','independent_group':'publisher'}],
+            'evidence_tier':'independent_reporting'}]}
+        before = copy.deepcopy(env)
+        normalized, originals = adapt(env, '/tmp/research.json')
+        self.assertEqual(normalized['candidates'][0]['id'], 'r1')
+        self.assertEqual(originals['r1'], env['candidates'][0])
+        self.assertEqual(env, before)
+        for update in ({'id':'different'}, {'status':'held'}, {'review_status':'reviewed'},
+                       {'aliases':'bad'}, {'source_urls':[{'url':False}]}):
+            bad = copy.deepcopy(env); bad['candidates'][0].update(update)
+            with self.assertRaises(ValueError): adapt(bad, '/tmp/research.json')
+    def test_legacy_reexport_not_new_source_rows(self):
+        self.write([row('legacy1','원제목')])
+        export = Path(self.tmp.name)/'reexport.json'
+        export.write_text(json.dumps({'schema_version':1,'candidates':[
+            {'ledger_id':'legacy1','title':'원제목','status':'unreviewed'}]}))
+        result = self.run_queue([self.path, export])
+        self.assertEqual(result['by_source_kind']['legacy_existing']['total'], 1)
+        self.assertEqual(result['by_source_kind']['legacy_reexport']['total'], 1)
+        self.assertEqual(result['by_source_kind']['new_source_rows']['total'], 0)
+        self.assertEqual(result['rows'][1]['original_source_id'], 'legacy1')
+        self.assertEqual(result['rows'][1]['classification'], 'duplicate_candidate')
+        self.assertEqual(result['rows'][1]['source_file'], str(export.resolve()))
+        bad = json.loads(export.read_text()); bad['candidates'][0]['title']='changed'
+        export.write_text(json.dumps(bad))
+        with self.assertRaises(ValueError): self.run_queue([export])
+    def test_repeated_source_fingerprint_retains_both_provenances(self):
+        self.write([row('legacy1','원제목')])
+        env = {'schema_version':1,'candidates':[{'ledger_id':'legacy1','title':'원제목','status':'unreviewed'}]}
+        a = Path(self.tmp.name)/'a.json'; b = Path(self.tmp.name)/'b.json'
+        a.write_text(json.dumps(env)); b.write_text(json.dumps(env))
+        result = self.run_queue([a,b])
+        self.assertEqual(result['counts']['total'], 2)
+        self.assertEqual(result['by_source_kind']['new_source_rows']['total'], 0)
+        self.assertIn('repeated_source_fingerprint', [d['kind'] for d in result['diagnostics']])
 
 if __name__ == '__main__':
     unittest.main()
