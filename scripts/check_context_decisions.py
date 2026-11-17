@@ -1,7 +1,7 @@
 """Check the auditability of AI context decisions, not their semantic truth."""
 from evaluation_records import ACTIONS, indexed_records, validate_selection
 
-def validate_decisions(plans, retrieval, answers):
+def validate_decisions(plans, retrieval, answers, expected_prompt_version=None):
     try:
         requests=indexed_records(plans, 'plans')
         traces=indexed_records(retrieval, 'results')
@@ -11,10 +11,15 @@ def validate_decisions(plans, retrieval, answers):
     except ValueError as exc:
         return [str(exc)]
     errors=[]
-    if plans.get('prompt_version') is not None and answers.get('prompt_version') != plans['prompt_version']:
+    version=plans.get('prompt_version')
+    if version not in ('contextual-v2','contextual-v3'):
+        errors.append('unsupported or missing prompt version')
+    if expected_prompt_version is not None and version != expected_prompt_version:
+        errors.append('prompt version differs from required evaluation contract')
+    if answers.get('prompt_version') != version:
         errors.append('answer prompt version differs from plan')
     for identity, plan in requests.items():
-        if plan.get('action') not in ACTIONS or not isinstance(plan.get('prompt'), str) or not isinstance(plan.get('filters'), dict):
+        if not isinstance(plan.get('action'),str) or plan.get('action') not in ACTIONS or not isinstance(plan.get('prompt'), str) or not isinstance(plan.get('filters'), dict):
             errors.append(identity+': invalid plan structure')
         for field in ('prompt', 'action', 'filters'):
             if field not in traces[identity] or traces[identity][field] != plan.get(field):
@@ -33,6 +38,9 @@ def validate_decisions(plans, retrieval, answers):
             continue
         if plans.get('prompt_version')=='contextual-v3':
             facts=answer.get('factual_check',{})
+            if not isinstance(facts,dict):
+                errors.append(identity+': invalid factual audit')
+                continue
             if facts.get('unsupported_claims')!=[]:
                 errors.append(identity+': unresolved factual claims')
             claims=facts.get('supported_claims')
@@ -57,6 +65,9 @@ def validate_decisions(plans, retrieval, answers):
         if usage['safety']=='avoid':
             errors.append(identity+': avoid usage recommended')
         context=answer.get('context_check',{})
+        if not isinstance(context,dict):
+            errors.append(identity+': invalid context audit')
+            continue
         if context.get('assessment')!='compatible' or context.get('unresolved_conditions')!=[]:
             errors.append(identity+': unresolved context')
         spans=context.get('evidence_spans')
@@ -76,7 +87,8 @@ if __name__=='__main__':
     from pathlib import Path
     p=argparse.ArgumentParser(description=__doc__)
     for name in ('plans','retrieval','answers'):p.add_argument(name,type=Path)
+    p.add_argument('--expected-prompt-version',choices=('contextual-v2','contextual-v3'))
     args=p.parse_args()
-    errors=validate_decisions(*(json.loads(getattr(args,k).read_text()) for k in ('plans','retrieval','answers')))
+    errors=validate_decisions(*(json.loads(getattr(args,k).read_text()) for k in ('plans','retrieval','answers')), expected_prompt_version=args.expected_prompt_version)
     if errors:p.exit(1,'\n'.join(errors)+'\n')
     print('Context decision records are auditable; this is not semantic or safety certification.')

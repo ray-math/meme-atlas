@@ -18,7 +18,7 @@ def indexed_records(envelope, key):
 
 def validate_selection(answer, hits):
     action = answer.get('action')
-    if action not in ACTIONS:
+    if not isinstance(action, str) or action not in ACTIONS:
         raise ValueError('unsupported answer action')
     entry = answer.get('selected_entry_id')
     usage = answer.get('selected_usage_id')
@@ -28,6 +28,8 @@ def validate_selection(answer, hits):
         raise ValueError('invalid selected usage')
     if action == 'recommend' and (not entry or not usage):
         raise ValueError('recommendation requires an entry and usage')
+    if action == 'lookup' and hits and not entry:
+        raise ValueError('lookup with matches requires an entry or clarification')
     if usage and not entry:
         raise ValueError('usage requires an entry')
     if action in ('clarify', 'abstain') and (entry or usage):

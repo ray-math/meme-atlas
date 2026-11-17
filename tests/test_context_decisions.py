@@ -6,10 +6,10 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from check_context_decisions import validate_decisions
 class ContextDecisionTests(unittest.TestCase):
  def sample(self):
-  return ({'plans':[{'id':'x','prompt':'서로 장난을 즐긴다','action':'recommend','filters':{}}]},
+  return ({'prompt_version':'contextual-v2','plans':[{'id':'x','prompt':'서로 장난을 즐긴다','action':'recommend','filters':{}}]},
           {'results':[{'id':'x','prompt':'서로 장난을 즐긴다','action':'recommend','filters':{},'retrieval':{'results':[{'entry_id':'a','usage_id':'u',
                        'usage':{'safety':'caution','risk_flags':['관계의존']}}]}}]},
-          {'answers':[{'id':'x','action':'recommend','selected_entry_id':'a','selected_usage_id':'u',
+          {'prompt_version':'contextual-v2','answers':[{'id':'x','action':'recommend','selected_entry_id':'a','selected_usage_id':'u',
                        'context_check':{'assessment':'compatible','evidence_spans':['서로 장난을 즐긴다'],
                                         'checked_risk_flags':['관계의존'],'unresolved_conditions':[]}}]})
  def test_auditable_decision(self):
@@ -73,4 +73,19 @@ class ContextDecisionTests(unittest.TestCase):
   self.assertTrue(validate_decisions(*values))
  def test_prompt_version_mismatch_rejected(self):
   values=self.v3sample();values[2]['prompt_version']='contextual-v2'
+  self.assertTrue(validate_decisions(*values))
+
+ def test_both_versions_cannot_downgrade_required_contract(self):
+  values=self.sample()
+  self.assertTrue(validate_decisions(*values,expected_prompt_version='contextual-v3'))
+ def test_missing_prompt_version_rejected(self):
+  values=self.sample();values[0].pop('prompt_version');values[2].pop('prompt_version')
+  self.assertTrue(validate_decisions(*values))
+ def test_null_audit_is_diagnostic_failure(self):
+  values=self.v3sample();values[2]['answers'][0]['factual_check']=None
+  self.assertTrue(validate_decisions(*values))
+  values=self.sample();values[2]['answers'][0]['context_check']=None
+  self.assertTrue(validate_decisions(*values))
+ def test_nontext_action_is_diagnostic_failure(self):
+  values=self.sample();values[2]['answers'][0]['action']=[]
   self.assertTrue(validate_decisions(*values))

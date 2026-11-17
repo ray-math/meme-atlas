@@ -97,3 +97,13 @@ class ScoreContractTests(unittest.TestCase):
         from score_nl_evaluation import score
         values=self.sample();values[0]['schema_version']=True
         with self.assertRaises(ValueError):score(*values)
+
+    def test_lookup_matches_need_entry(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[2]['answers'][0].update(action='lookup',selected_entry_id=None,selected_usage_id=None)
+        with self.assertRaises(ValueError):score(*values)
+    def test_no_match_lookup_may_explain_absence(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[2]['answers'][0].update(action='lookup',selected_entry_id=None,selected_usage_id=None)
+        values[1]['results'][0]['retrieval'].update(status='no_match',results=[])
+        score(*values)
