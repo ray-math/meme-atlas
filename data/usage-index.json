@@ -4,7 +4,7 @@
   "coverage": {
     "dictionary_entries": 348,
     "annotated_entries": 40,
-    "reviewed_entries": 38,
+    "reviewed_entries": 39,
     "unannotated_entries": 308
   },
   "entries": [
@@ -121,8 +121,8 @@
       "path": "memes/carrot-of-course.md",
       "aliases": [],
       "source_sha": "1488b467718d86edacf37a1c29d2848869b1c62a",
-      "review_status": "draft",
-      "review_note": "AI 편집 초안. 본문과 독립 자료를 연구·편집 AI가 확인했다. 인간 검토·실전 정확도 검증이 아니다. https://m.tf.co.kr/read/ogmeta/1006008.htm 은 당연하지를 장난스럽게 바꾼 뜻을 설명한다. 소개된 온라인 연표를 최초 연도 근거로 쓰지 않는다. https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01088966622657184 는 의미와 쓰임을 언급한 메타설명이며 실제 긍정 응답 대화 기록이라고 주장하지 않는다. 사소한 평가 동의로 한정하고 예문·안전 경계는 편집 판단이다.",
+      "review_status": "reviewed",
+      "review_note": "AI 편집 검토. 공개 예문 기반 AI→실제 Python→AI 실행과 독립 의미 검토 후 사소한 평가 동의 용법만 reviewed 처리했다. 기존 A08/E08 v2/v3 네 사례의 후보 추가는 검토된 확장으로 별도 기록하며 원래 gold·trace는 변경하지 않는다. 본문과 독립 자료를 연구·편집 AI가 확인했다. 인간 검토·실전 정확도 검증이 아니다. https://m.tf.co.kr/read/ogmeta/1006008.htm 은 당연하지를 장난스럽게 바꾼 뜻을 설명한다. 소개된 온라인 연표를 최초 연도 근거로 쓰지 않는다. https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01088966622657184 는 의미와 쓰임을 언급한 메타설명이며 실제 긍정 응답 대화 기록이라고 주장하지 않는다. 사소한 평가 동의로 한정하고 예문·안전 경계는 편집 판단이다.",
       "usages": [
         {
           "id": "playful-agreement",
@@ -155,7 +155,7 @@
             "text": "이 그림은 두 색이 잘 어울리지? 당근이지!",
             "kind": "editorial"
           },
-          "review_note": "평가동의는 이 용례의 앞선 평가에 대한 동의이며 모든 예·아니요 질문에 강제하지 않는다. 말장난 형식만으로 실제 기쁨·재미를 추정하지 않는다. 예문은 기사 인용이 아니다. 넓은 동조 검색과 기존 후보 충돌 여부는 아직 검증하지 않아 draft로 보류한다."
+          "review_note": "평가동의는 이 용례의 앞선 평가에 대한 동의이며 모든 예·아니요 질문에 강제하지 않는다. 말장난 형식만으로 실제 기쁨·재미를 추정하지 않는다. 예문은 기사 인용이 아니다. 넓은 동조 검색에서 A08/E08의 후보 추가를 실제 Python으로 확인하고 의미상 적합한 확장으로 별도 검토했다. 원본 평가 기록은 보존하며 해당 네 사례 외 변경을 자동 허용하지 않는다."
         }
       ]
     },
