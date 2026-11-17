@@ -32,3 +32,4 @@
 - [이것은 내가 ○○가 되기까지의 이야기다](../memes/this-is-my-story-template.md)
 - [친한 친구 이름 대기 챌린지](../memes/best-friend-name-challenge.md)
 - [고맙투우사](../memes/thank-you-bullfighter.md)
+- [이모지 뒷모습 공개](../memes/emoji-back-view-reveal.md)
