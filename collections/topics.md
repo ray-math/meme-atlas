@@ -901,6 +901,7 @@
 - [귀여워서 미안해 챌린지](../memes/sorry-for-being-cute.md)
 - [귀요미송](../memes/gwiyomi-song.md)
 - [그린그린 레드레드](../memes/green-green-red-red.md)
+- [꿍싯꿍싯 챌린지](../memes/kkungsit-kkungsit-challenge.md)
 - [나 왜 이 순간이 영원할 것 같지?](../memes/forever-moment.md)
 - [나무 챌린지](../memes/tree-flailing-challenge.md)
 - [나비보벳따우](../memes/nabi-bobettau.md)
@@ -966,6 +967,7 @@
 
 - [○○ 와졌어](../memes/ended-up-here.md)
 - [그럼 다음은 무조건 ○○겠지](../memes/next-trend-wish-template.md)
+- [꿍싯꿍싯 챌린지](../memes/kkungsit-kkungsit-challenge.md)
 - [나무 챌린지](../memes/tree-flailing-challenge.md)
 - [나이별 반응 챌린지](../memes/age-reaction-challenge.md)
 - [난리도 아니햐](../memes/nanrido-aniya-suji.md)

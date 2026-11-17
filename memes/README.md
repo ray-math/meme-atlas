@@ -137,6 +137,7 @@
 - [꾸안꾸](kkuan-kku.md)
 - [꾸웨엑](kkuewek.md)
 - [꿈빛 파티시엘 챌린지](yumeiro-patissiere-challenge.md)
+- [꿍싯꿍싯 챌린지](kkungsit-kkungsit-challenge.md)
 - [낄끼빠빠](kkilkki-ppappa.md)
 - [나 ○○년생 ○○인데](na-born-year-dance.md)
 - [나 꿍꼬또 기싱꿍꼬또](ghost-dream-aegyo.md)

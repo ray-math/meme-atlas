@@ -63,3 +63,4 @@
 - [젓가락 워킹](../memes/chopstick-runway.md)
 - [난리도 아니햐](../memes/nanrido-aniya-suji.md)
 - [○○ 와졌어](../memes/ended-up-here.md)
+- [꿍싯꿍싯 챌린지](../memes/kkungsit-kkungsit-challenge.md)

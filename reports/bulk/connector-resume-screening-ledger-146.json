@@ -35,10 +35,11 @@
     "reports/bulk/connector-resume-a178.json",
     "reports/bulk/connector-resume-b179.json",
     "reports/bulk/connector-resume-c180.json",
-    "reports/bulk/connector-resume-holds181.json"
+    "reports/bulk/connector-resume-holds181.json",
+    "reports/bulk/connector-resume-c182.json"
   ],
-  "query_observations": 568,
-  "distinct_literal_queries": 458,
+  "query_observations": 575,
+  "distinct_literal_queries": 465,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3081,6 +3082,41 @@
       "query": "오디세이",
       "source": "reports/bulk/connector-resume-holds181.json",
       "status": "held-see-report"
+    },
+    {
+      "query": "꿍싯",
+      "source": "reports/bulk/connector-resume-c182.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꿍씻",
+      "source": "reports/bulk/connector-resume-c182.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오츠카레",
+      "source": "reports/bulk/connector-resume-c182.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Otsukare",
+      "source": "reports/bulk/connector-resume-c182.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "HALCALI",
+      "source": "reports/bulk/connector-resume-c182.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "할칼리",
+      "source": "reports/bulk/connector-resume-c182.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "다이죠브",
+      "source": "reports/bulk/connector-resume-c182.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [
@@ -3093,6 +3129,6 @@
       "canonical": "cannot-hide"
     }
   ],
-  "note": "고유검색문자열은 고유밈/검증완료수가 아님. 동일뜻의 별칭여러개포함. 최근12개중수록1개,기존1개,나머지미검증.",
+  "note": "명시 문자열 대조 기록이며 고유 밈 수나 검증 완료 수가 아님.",
   "metric_note": "저장된 명시 대조 문자열의 관측 횟수/문자열 종류. 검색창 질의와 인덱스 대조 표현이 섞여 있으며 검증 밈 수나 전체 연구량을 뜻하지 않음."
 }
