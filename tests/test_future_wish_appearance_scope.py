@@ -22,3 +22,15 @@ class FutureWishAppearanceScopeTests(unittest.TestCase):
         self.assertEqual(rows['A26']['action'],'clarify')
         # Historical candidate drift is measured in the trace, not silently
         # declared an error or allowed expansion before individual review.
+
+    def test_observed_historical_candidate_drift_is_empty(self):
+        self.assertEqual(evaluate(ROOT)['current_baseline_candidate_drift'],[])
+
+    def test_frozen_trace_reexecutes_without_type_drift(self):
+        from compare_evaluation_expansion import strict_equal
+        frozen=json.loads((ROOT/'eval/future-wish-appearance-scope/retrieval.json').read_text())
+        def behavior(rows):
+            rows=copy.deepcopy(rows)
+            for row in rows:row['retrieval'].pop('coverage',None)
+            return rows
+        self.assertTrue(strict_equal(behavior(frozen['results']),behavior(evaluate(ROOT)['results'])))
