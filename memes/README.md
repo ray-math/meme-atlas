@@ -608,6 +608,7 @@
 - [이건 특급 칭찬이야](special-compliment.md)
 - [이건안 이지예](igeon-an-iji-ye.md)
 - [이것 뭐에요](what-is-this-shotaro.md)
+- [이것은 내가 ○○가 되기까지의 이야기다](this-is-my-story-template.md)
 - [이게 나라냐](is-this-a-country.md)
 - [이게 최선입니까](is-this-best.md)
 - [이라이라 챌린지](iraira-challenge.md)

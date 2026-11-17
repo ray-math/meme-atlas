@@ -29,3 +29,4 @@
 - [도비는 자유예요](../memes/dobby-is-free.md)
 - [좋음 좋음 좋음](../memes/rocky-triple-reaction.md)
 - [그린그린 레드레드](../memes/green-green-red-red.md)
+- [이것은 내가 ○○가 되기까지의 이야기다](../memes/this-is-my-story-template.md)

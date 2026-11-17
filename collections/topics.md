@@ -746,6 +746,7 @@
 - [새하얗게 불태워 버렸어](../memes/burned-white.md)
 - [안녕하살법](../memes/annyeonghasalbeop.md)
 - [안녕히 계세요 여러분](../memes/goodbye-everyone.md)
+- [이것은 내가 ○○가 되기까지의 이야기다](../memes/this-is-my-story-template.md)
 - [정의의 이름으로 널 용서하지 않겠다](../memes/in-name-of-justice.md)
 - [종로로 갈까요](../memes/jongno-song-parody.md)
 - [치카 댄스](../memes/chika-dance.md)
