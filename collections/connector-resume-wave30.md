@@ -67,3 +67,4 @@
 - [간바레 챌린지](../memes/ganbare-three-panel-challenge.md)
 - [하지하지마 챌린지](../memes/stop-stop-it-challenge.md)
 - [서울은 여전히 서울이고](../memes/seoul-is-still-seoul.md)
+- [우승 기념 주식 바겐세일](../memes/championship-stock-sale.md)

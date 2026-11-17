@@ -746,6 +746,7 @@
 - [삐끼삐끼 춤](../memes/ppikki-ppikki.md)
 - [영미](../memes/youngmi-call.md)
 - [와칸다 포에버](../memes/wakanda-forever.md)
+- [우승 기념 주식 바겐세일](../memes/championship-stock-sale.md)
 - [운동 많이 된다](../memes/good-exercise.md)
 - [전 그냥 수영만 해요](../memes/i-just-swim.md)
 - [중꺾마](../memes/jung-kkeok-ma.md)
@@ -980,6 +981,7 @@
 - [빅가이 챌린지](../memes/big-guy-arm-illusion.md)
 - [서울은 여전히 서울이고](../memes/seoul-is-still-seoul.md)
 - [스톰 챌린지](../memes/storm-ii-challenge.md)
+- [우승 기념 주식 바겐세일](../memes/championship-stock-sale.md)
 - [일하는 중에 갑자기 몸이 안 좋아졌어요](../memes/suddenly-sick-fan-trip.md)
 - [젓가락 워킹](../memes/chopstick-runway.md)
 - [하지하지마 챌린지](../memes/stop-stop-it-challenge.md)
@@ -1030,6 +1032,7 @@
 
 - [떡락](../memes/tteokrak.md)
 - [떡상](../memes/tteoksang.md)
+- [우승 기념 주식 바겐세일](../memes/championship-stock-sale.md)
 - [존버](../memes/jonbeo.md)
 
 ## 패션

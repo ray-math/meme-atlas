@@ -42,10 +42,11 @@
     "reports/bulk/connector-resume-c185.json",
     "reports/bulk/connector-resume-holds186.json",
     "reports/bulk/connector-resume-holds187.json",
-    "reports/bulk/connector-resume-b188.json"
+    "reports/bulk/connector-resume-b188.json",
+    "reports/bulk/connector-resume-c190.json"
   ],
-  "query_observations": 675,
-  "distinct_literal_queries": 553,
+  "query_observations": 680,
+  "distinct_literal_queries": 558,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3622,6 +3623,31 @@
     {
       "query": "분석적",
       "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "우승",
+      "source": "reports/bulk/connector-resume-c190.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바겐세일",
+      "source": "reports/bulk/connector-resume-c190.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삼성전자",
+      "source": "reports/bulk/connector-resume-c190.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "주식",
+      "source": "reports/bulk/connector-resume-c190.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "할인",
+      "source": "reports/bulk/connector-resume-c190.json",
       "status": "screened-see-report"
     }
   ],

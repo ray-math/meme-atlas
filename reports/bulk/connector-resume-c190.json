@@ -1,0 +1,35 @@
+{
+  "base": "4745ac9c4d3848170aef7b46fbbc5f5e29ab0591",
+  "canonical_before": 893,
+  "canonical_after": 894,
+  "accepted": [
+    "championship-stock-sale"
+  ],
+  "evidence_level": "두 매체 기사 직접열람, 이데일리의 서로다른 제작물2종 보고. 원게시물2건 직접검증 아님.",
+  "explicit_queries": [
+    "우승",
+    "바겐세일",
+    "삼성전자",
+    "주식",
+    "할인"
+  ],
+  "sources": [
+    {
+      "url": "https://www.asiae.co.kr/article/social-general/2026110908034151702",
+      "date": "2026-11-09",
+      "evidence": "165행 할인포스터;173행응답"
+    },
+    {
+      "url": "https://www.edaily.co.kr/news/read?gubun=E&newsid=01092246645644080&parentid=03791686645644080",
+      "date": "2026-11-09",
+      "evidence": "219행AI합성,220행다른작성자의가격표포스터"
+    }
+  ],
+  "dedup": "관련5문자열대조에서 next-trend-wish-template 할인부분일치는 별개 문장형식. 동일포스터 기사반복은 중복처리.",
+  "limits": [
+    "원게시자독립성·최초미확정",
+    "합성문구 실제발언아님",
+    "경기결과·시세·하락원인·투자전망 미사용",
+    "Python/CI미실행"
+  ]
+}
