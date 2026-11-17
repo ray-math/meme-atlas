@@ -16,6 +16,7 @@ class ExplicitContextTests(unittest.TestCase):
         self.index=build_usage_index(ROOT)
         self.vocab=load_vocabulary(ROOT)
         self.entries=[e for e in self.index['entries'] if e['id'] in self.IDS]
+        self.assertEqual({e['id'] for e in self.entries},self.IDS)
         for entry in self.entries:
             entry['review_status']='reviewed'  # isolated copy, never saves/promotes sources
 
@@ -36,6 +37,10 @@ class ExplicitContextTests(unittest.TestCase):
                 self.assertEqual(key in self.ids(result),mode=='lookup' or usage['safety']=='standard')
                 wrong=dict(complete,targets=['자기'])
                 self.assertNotIn(key,self.ids(search(self.index,self.vocab,**wrong)))
+                wrong_situation=dict(complete,situations=['불확실한결과'])
+                self.assertNotIn(key,self.ids(search(self.index,self.vocab,**wrong_situation)))
+                broad_target=dict(complete,targets=required['targets']+['자기'])
+                self.assertNotIn(key,self.ids(search(self.index,self.vocab,**broad_target)))
                 ambiguous=dict(complete,situations=required['situations']+['불확실한결과'])
                 self.assertNotIn(key,self.ids(search(self.index,self.vocab,**ambiguous)))
 
@@ -51,6 +56,7 @@ class ExplicitContextTests(unittest.TestCase):
                 self.assertTrue(hit['requires_context_check'])
                 self.assertNotIn(key,self.ids(search(self.index,self.vocab,query,mode='recommend')))
             self.assertNotIn(key,self.ids(search(self.index,self.vocab,entry['title']+' 추천',mode='lookup')))
+            self.assertNotIn(key,self.ids(search(self.index,self.vocab,entry['title'][:2],mode='lookup')))
 
     def test_exact_lookup_cannot_override_other_gates(self):
         entry=self.entries[0];usage=entry['usages'][0];key=(entry['id'],usage['id'])
