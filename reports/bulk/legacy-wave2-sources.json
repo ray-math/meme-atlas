@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-legacy-wave2",
+  "created_at": "2026-11-17",
+  "base_ref": "b721743fe2f66a7e61558782b009a92d096dba4b",
+  "duplicate_rechecked_ref": "b721743fe2f66a7e61558782b009a92d096dba4b",
+  "purpose": "검증된 기존 후보의 자체 정의 초안. canonical만 검토하며 용법 추천 승격이나 main 병합이 아님.",
+  "discovery": {
+    "kind": "existing_ledger_reexport",
+    "queue": "reports/bulk-candidates-2026-11-17.json",
+    "source": "https://www.namu.moe/w/밈(인터넷%20용어)/대한민국",
+    "note": "원본 나무위키 접근 확인이 아닌 기존 미러 후보대장 발견. 외부 본문 미복제."
+  },
+  "counts": {
+    "canonical_prepared": 10,
+    "new_discoveries": 0
+  },
+  "verification": {
+    "method": "2개 독립 발행주체의 본문 직접 열람. SNS/방송 원본과 이를 설명하는 보도는 구별.",
+    "duplicate_check": "현재 PR37 index386 제목/별칭 정규화 중복0, 신규 경로 충돌0. retired 이름의 파일 없음; 공식 importer retired 검사는 통합자가 재실행.",
+    "ci": "not_run_here; integration runs official importer and CI",
+    "recent_observations": "none; review date is not trend date"
+  },
+  "entries": [
+    {
+      "entry_id": "kungkungtta",
+      "title": "쿵쿵따",
+      "ledger_id": "kr-list-1024",
+      "path": "memes/kungkungtta.md",
+      "source_sha": "65c24a22cbd0946e458be84a0477501c16004fa0",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "놀이 형식과 인터넷 게시판·온라인 게임 확산; 방송 게임과 시청자의 단어 참여를 회고한 독립 문화 글. 현재 인기나 최초 기원을 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "경향신문",
+          "url": "https://www.khan.co.kr/article/200209121600531",
+          "published_at": "2002-09-12",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "놀이 형식과 인터넷 게시판·온라인 게임 확산"
+        },
+        {
+          "publisher": "국립한글박물관",
+          "url": "https://www.hangeul.go.kr/webzine/202205/sub3_3.html",
+          "published_at": null,
+          "published_precision": "2022-05",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "방송 게임과 시청자의 단어 참여를 회고한 독립 문화 글"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·최근 유행 주장 제외. 직접 영상·원 게시물 열람과 보도 본문 열람을 구별. 예문은 독자 창작.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "dibidibidip",
+      "title": "디비디비딥",
+      "ledger_id": "kr-list-0411",
+      "path": "memes/dibidibidip.md",
+      "source_sha": "f7c6b79538238d98e9b62861a255dac4f095a4e0",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "해피선데이 게임 및 유행어 보도; 브랜드가 직접 운영한 온라인 동작 게임 사례. 현재 인기나 최초 기원을 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "스타뉴스",
+          "url": "https://www.starnewskorea.com/sports/2005/12/07/2005120614201359437",
+          "published_at": "2005-12-07",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "해피선데이 게임 및 유행어 보도"
+        },
+        {
+          "publisher": "신한카드",
+          "url": "https://www.shinhancardblog.com/595",
+          "published_at": "2017-11-01",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "브랜드가 직접 운영한 온라인 동작 게임 사례"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·최근 유행 주장 제외. 직접 영상·원 게시물 열람과 보도 본문 열람을 구별. 예문은 독자 창작.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "alien-tech-joke",
+      "title": "외계인 고문",
+      "ledger_id": "kr-list-0807",
+      "path": "memes/alien-tech-joke.md",
+      "source_sha": "9d3f9d2d8a3a812dc289068123d39eafc4fdd80d",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "첨단 제품을 외계인 고문에 빗대는 표현의 의미; 뛰어난 기술에 붙이는 속어라는 설명; 무기 세부 내용 미채택. 현재 인기나 최초 기원을 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "동아사이언스",
+          "url": "https://www.dongascience.com/news/8009",
+          "published_at": "2015-09-04",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "첨단 제품을 외계인 고문에 빗대는 표현의 의미"
+        },
+        {
+          "publisher": "국방홍보원",
+          "url": "https://v.daum.net/v/ctfG1iNqQ4",
+          "published_at": null,
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "뛰어난 기술에 붙이는 속어라는 설명; 무기 세부 내용 미채택"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·최근 유행 주장 제외. 직접 영상·원 게시물 열람과 보도 본문 열람을 구별. 예문은 독자 창작.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "joa-ganeungeoya",
+      "title": "좋아! 가는 거야",
+      "ledger_id": "kr-list-0937",
+      "path": "memes/joa-ganeungeoya.md",
+      "source_sha": "bdf44d2f930ee200c4388bb24f1bb7d27b7fbb1f",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "방송 유행어와 음성 콘텐츠 활용; 다른 방송인의 노홍철 말투·문구 패러디 보도. 현재 인기나 최초 기원을 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "전자신문",
+          "url": "https://www.etnews.com/200509080126?m=1",
+          "published_at": "2005-09-09",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "방송 유행어와 음성 콘텐츠 활용"
+        },
+        {
+          "publisher": "이투데이",
+          "url": "https://www.etoday.co.kr/news/view/1015428",
+          "published_at": "2014-11-08",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "다른 방송인의 노홍철 말투·문구 패러디 보도"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·최근 유행 주장 제외. 직접 영상·원 게시물 열람과 보도 본문 열람을 구별. 예문은 독자 창작.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "slide-to-unlock-parody",
+      "title": "밀어서 잠금해제",
+      "ledger_id": "kr-list-0515",
+      "path": "memes/slide-to-unlock-parody.md",
+      "source_sha": "3bd1a89887aee87dc645b1d27c50b007444ee559",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "사진과 문구 결합 형식 및 커뮤니티 공유 사례; 독립 앱 이용 자료 보도에서 문구·배경 패러디 기능 확인. 현재 인기나 최초 기원을 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "아주경제",
+          "url": "https://www.ajunews.com/view/20110529000012",
+          "published_at": "2011-05-29",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "사진과 문구 결합 형식 및 커뮤니티 공유 사례"
+        },
+        {
+          "publisher": "전자신문",
+          "url": "https://www.etnews.com/201107110010",
+          "published_at": "2011-07-11",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "독립 앱 이용 자료 보도에서 문구·배경 패러디 기능 확인"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·최근 유행 주장 제외. 직접 영상·원 게시물 열람과 보도 본문 열람을 구별. 예문은 독자 창작.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "chulbaal",
+      "title": "출바알",
+      "ledger_id": "kr-list-0992",
+      "path": "memes/chulbaal.md",
+      "source_sha": "15ae3f7c9bb495a42cebab39cc3b567d5cc639c4",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "노래에 재사용한 박명수의 유행어로 설명; 방송을 통해 해당 표현을 배웠다는 인터뷰 발언 보도. 현재 인기나 최초 기원을 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "OSEN",
+          "url": "https://www.osen.co.kr/article/G1107120196",
+          "published_at": "2011-07-12",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "노래에 재사용한 박명수의 유행어로 설명"
+        },
+        {
+          "publisher": "매일경제 스타투데이",
+          "url": "https://www.mk.co.kr/news/hot-issues/10155301",
+          "published_at": "2021-12-29",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "방송을 통해 해당 표현을 배웠다는 인터뷰 발언 보도"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·최근 유행 주장 제외. 직접 영상·원 게시물 열람과 보도 본문 열람을 구별. 예문은 독자 창작.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "kk-text-laughter",
+      "title": "ㅋㅋ",
+      "ledger_id": "kr-list-0999",
+      "path": "memes/kk-text-laughter.md",
+      "source_sha": "ae88d1ac934e0ba6bdc6abf13e34e49017b24b17",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "서평의 한국 온라인 웃음 표기·말투 설명; 공개 SNS의 웃음 표기 실제 사용 보도; 원 SNS 직접 열람 아님. 현재 인기나 최초 기원을 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "경향신문",
+          "url": "https://www.khan.co.kr/article/202206241051001/amp",
+          "published_at": "2022-06-24",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "서평의 한국 온라인 웃음 표기·말투 설명"
+        },
+        {
+          "publisher": "스포츠동아",
+          "url": "https://sports.donga.com/ent/article/all/20160204/76323357/1",
+          "published_at": "2016-02-04",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "공개 SNS의 웃음 표기 실제 사용 보도; 원 SNS 직접 열람 아님"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·최근 유행 주장 제외. 직접 영상·원 게시물 열람과 보도 본문 열람을 구별. 예문은 독자 창작.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "jessica-jingle",
+      "title": "제시카 외동딸 일리노이 시카고",
+      "ledger_id": "kr-list-0920",
+      "path": "memes/jessica-jingle.md",
+      "source_sha": "11d3985c17c22cee5c4fff7c0aef910641af6812",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 관객 댓글에서 해당 노래 문구 재사용 보도; 영화 장면 설명 및 해외 편곡·패러디 확장. 현재 인기나 최초 기원을 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "OSEN",
+          "url": "https://www.osen.co.kr/article/G1111162617",
+          "published_at": "2019-06-13",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "국내 관객 댓글에서 해당 노래 문구 재사용 보도"
+        },
+        {
+          "publisher": "엑스포츠뉴스",
+          "url": "https://v.daum.net/v/NtHXixfeKv",
+          "published_at": "2019-11-11",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "영화 장면 설명 및 해외 편곡·패러디 확장"
+        }
+      ],
+      "limitations": "보도 본문 확인이며 원 영화·방송 영상 직접 시청 아님. 최초·현재 유행 주장 제외. 가사 전문·이미지 미복제. 예문은 독자 창작.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "manners-maketh-man",
+      "title": "매너가 사람을 만든다",
+      "ledger_id": "kr-list-0123",
+      "path": "memes/manners-maketh-man.md",
+      "source_sha": "a8f0cfef5155bf4e6cf6afcd0b46acda5f510e86",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "영화 대사와 국내 광고·방송의 문장 변형 확인; 성적 상세와 영화 개봉 연도 오류 미채택; 일상 매너 풍자 광고의 문구 활용 확인. 현재 인기나 최초 기원을 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "국민일보",
+          "url": "https://www.kmib.co.kr/article/20150831500096",
+          "published_at": "2015-08-31",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "영화 대사와 국내 광고·방송의 문장 변형 확인; 성적 상세와 영화 개봉 연도 오류 미채택"
+        },
+        {
+          "publisher": "조선비즈",
+          "url": "https://biz.chosun.com/site/data/html_dir/2020/09/03/2020090302819.html?outputType=amp",
+          "published_at": "2020-09-04",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "일상 매너 풍자 광고의 문구 활용 확인"
+        }
+      ],
+      "limitations": "보도 본문 확인이며 원 영화·방송 영상 직접 시청 아님. 최초·현재 유행 주장 제외. 가사 전문·이미지 미복제. 예문은 독자 창작.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "ready-shoot-catchphrase",
+      "title": "준비하시고 쏘세요",
+      "ledger_id": "kr-list-0947",
+      "path": "memes/ready-shoot-catchphrase.md",
+      "source_sha": "0b61a939b1a06256d948ad8e251369626bf5ca40",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "옛 방송 구호가 유행어로 기억된다는 역사 보도; 독립 광고문화 칼럼에서 방송 구호의 문화적 재인용. 현재 인기나 최초 기원을 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20150914033400039",
+          "published_at": "2015-09-15",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "옛 방송 구호가 유행어로 기억된다는 역사 보도"
+        },
+        {
+          "publisher": "정책브리핑 위클리공감",
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148773796",
+          "published_at": "2014-02-14",
+          "published_precision": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "독립 광고문화 칼럼에서 방송 구호의 문화적 재인용"
+        }
+      ],
+      "limitations": "보도 본문 확인이며 원 영화·방송 영상 직접 시청 아님. 최초·현재 유행 주장 제외. 가사 전문·이미지 미복제. 예문은 독자 창작. 두 자료는 역사적 방송 유행어의 문화적 재인용이며 현대 온라인 개별 게시물 직접 증거는 아님. 인터넷 전용 의미로 과장하지 않음.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    }
+  ],
+  "held": [
+    {
+      "title": "망했어요",
+      "reason": "iNews24 직접 본문 외 두 번째 독립 발행주체 근거 부족; 위키/개인 설명만으로 보강하지 않음."
+    },
+    {
+      "title": "함정카드 밈",
+      "reason": "여러 매체 기사들이 동일 설문/배포문 문장을 공유하여 독립 증거 두 개로 세지 않음."
+    },
+    {
+      "title": "미안송 / 샤방송 / 삼각함수송",
+      "reason": "이번 탐색에서 정확한 형식과 국내 사용의 독립2본문 검증 미완료; 수량 충족을 위해 추가하지 않음."
+    }
+  ],
+  "excluded": [
+    {
+      "title": "ㅋㅋ루삥뽕",
+      "reason": "다른 수집자 담당, ㅋㅋ 일반 웃음 표지와 구별."
+    },
+    {
+      "title": "GOAT 드립 / 3대500(언더아머 단속반)",
+      "reason": "이미 등록된 의미확장명 중복"
+    }
+  ]
+}
