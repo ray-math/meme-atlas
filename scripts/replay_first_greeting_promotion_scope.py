@@ -7,15 +7,35 @@ from usage_profiles import ROOT, load_vocabulary
 from search_usage import search
 from evaluation_records import indexed_records, ACTIONS
 
+def read_records(root, relative_path, key, *, required_ids=None, exact_ids=None):
+    """Validate this rehearsal's source records without changing their order."""
+    envelope=json.loads((Path(root)/relative_path).read_text())
+    rows=indexed_records(envelope,key)
+    if required_ids is not None and not required_ids.issubset(rows):
+        raise ValueError(relative_path+': missing required IDs '+str(sorted(required_ids-set(rows))))
+    if exact_ids is not None and set(rows)!=exact_ids:
+        raise ValueError(relative_path+': unexpected or missing IDs')
+    for row in rows.values():
+        if not isinstance(row.get('prompt'),str) or not row['prompt'].strip():
+            raise ValueError(relative_path+': prompt must be non-empty text')
+        if key=='plans':
+            if not isinstance(row.get('action'),str) or row['action'] not in ACTIONS:
+                raise ValueError(relative_path+': invalid action')
+            if not isinstance(row.get('filters'),dict):
+                raise ValueError(relative_path+': filters must be an object')
+    return envelope,rows
+
 def evaluate(root=ROOT, enforce_requirements=True):
     if type(enforce_requirements) is not bool:raise ValueError('requirements control must be boolean')
-    envelope=json.loads((Path(root)/'eval/first-greeting-promotion-scope/plans.json').read_text())
-    plans=indexed_records(envelope,'plans')
     expected_ids={'I-first','I-interest','I-formal','I-pressure','W-welcome','A13','A23','A26'}
-    if set(plans)!=expected_ids:
-        raise ValueError('public rehearsal must contain exactly the fixed eight cases')
-    original_inputs=json.loads((Path(root)/'eval/challenge/audit-inputs.json').read_text())['inputs']
-    expected={row['id']:row['prompt'] for row in original_inputs if row['id'] in expected_ids}
+    envelope,plans=read_records(root,'eval/first-greeting-promotion-scope/plans.json',
+                                'plans',exact_ids=expected_ids)
+    if envelope.get('prompt_version')!='contextual-v3':
+        raise ValueError('intro rehearsal requires contextual-v3')
+    source_ids={'A13','A23','A26'}
+    _,original_inputs=read_records(root,'eval/challenge/audit-inputs.json',
+                                  'inputs',required_ids=source_ids)
+    expected={identity:original_inputs[identity]['prompt'] for identity in source_ids}
     index=copy.deepcopy(build_usage_index(root));vocabulary=load_vocabulary(root)
     named={entry['id']:entry for entry in index['entries']}
     for identity,entry_id,uid in [('I-first','manbanjalbu','friendly-first-introduction'),
@@ -24,8 +44,9 @@ def evaluate(root=ROOT, enforce_requirements=True):
         expected[identity]=usage['context']
     expected['I-formal']=named['manbanjalbu']['usages'][0]['avoid_when'][0]
     expected['I-pressure']=named['mangwanbu']['usages'][0]['avoid_when'][0]
-    welcome=json.loads((Path(root)/'eval/welcome-interest-scope/plans.json').read_text())['plans']
-    expected['W-welcome']=next(p['prompt'] for p in welcome if p['id']=='W-welcome')
+    _,welcome=read_records(root,'eval/welcome-interest-scope/plans.json',
+                           'plans',required_ids={'W-welcome'})
+    expected['W-welcome']=welcome['W-welcome']['prompt']
     if any(plan['prompt']!=expected[identity] for identity,plan in plans.items()):
         raise ValueError('public rehearsal prompt differs from its published source')
     provisional={'manbanjalbu','mangwanbu'}
@@ -39,8 +60,6 @@ def evaluate(root=ROOT, enforce_requirements=True):
                 for usage in entry['usages']:usage.pop('retrieval_requirements',None)
     rows=[]
     for plan in plans.values():
-        if plan['action'] not in ACTIONS or not isinstance(plan['filters'],dict):
-            raise ValueError('invalid public rehearsal plan')
         if plan['action'] in ('clarify','abstain'):
             result={'status':'not_searched','reason':plan['action'],'results':[]}
         else:
@@ -54,8 +73,11 @@ def evaluate(root=ROOT, enforce_requirements=True):
     drift=[]
     for source in ['challenge','regression-v3']:
         for group in ['audit','editorial']:
-            historical=json.loads((Path(root)/f'eval/{source}/{group}-plans.json').read_text())['plans']
-            for plan in historical:
+            prefix='A' if group=='audit' else 'E'
+            historical_ids={prefix+str(number).zfill(2) for number in range(1,29)}
+            _,historical=read_records(root,f'eval/{source}/{group}-plans.json',
+                                      'plans',exact_ids=historical_ids)
+            for plan in historical.values():
                 if plan['action'] in ('clarify','abstain'):continue
                 before=search(original,vocabulary,**plan['filters'])
                 after=search(index,vocabulary,**plan['filters'])
