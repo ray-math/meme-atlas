@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "document_kind": "draft_registration_record",
+  "base_commit": "74481c7991f849143ad090b0daf6df856e8deccd",
+  "source_report_commit": "9b09654e0c7f2b95d0a695fe0949e93e22ff573f",
+  "new_profiles": [
+    {
+      "entry_id": "seubuljae",
+      "source_sha": "5425c472be370d7a694ef922ab6c75d773a92bb3",
+      "review_status": "draft",
+      "review_note": "자발적인 사소한 선택과 현재 곤란의 연결을 본인이 명시한 자기 자조만 주석한다. 사실상의 책임이나 심리 상태를 독립 인증하지 않는다. 외부 자료는 source_review의 전달된 조사 보고를 참고했으며 원댓글은 확인하지 않았다. 안전 경계·standard 판정은 좁은 편집 판단이다.",
+      "usages": [
+        {
+          "id": "own-minor-choice-backfire",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "자조"
+          ],
+          "situations": [
+            "자초한곤란"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글",
+            "혼잣말"
+          ],
+          "risk_flags": [
+            "고통축소"
+          ],
+          "safety": "standard",
+          "context": "본인이 자발적으로 한 사소한 선택 때문에 지금 뒤처리가 번거로워졌다고 명시하면서, 자신의 선택을 가볍게 웃어넘기는 표현을 원한다.",
+          "avoid_when": [
+            "자발적 선택이나 현재 곤란과의 연결이 입력에 명시되지 않은 경우",
+            "강요받은 업무나 선택을 본인이 자초한 일로 바꾸는 경우",
+            "타인의 피해를 당연한 결과라며 책임을 떠넘기는 경우",
+            "심각한 자책·고통·도움 요청을 가벼운 농담으로 축소하는 경우",
+            "단순 불운이나 기대와 결과의 차이만으로 자기 책임을 추정하는 경우"
+          ],
+          "example": {
+            "text": "내가 재미있겠다고 종이 장식을 잔뜩 만들자고 해 놓고, 이제 혼자 정리하느라 바쁘네. 이건 스불재다.",
+            "kind": "editorial"
+          },
+          "review_note": "standard는 사소함·자발성·결과 연결이 명시된 자기 농담에 한정한다. 실제 책임·인과관계의 독립 검증이나 심리 진단이 아니다. 다른 사람이 책임을 물어도 된다는 뜻이 아니며 원인·자발성이 불명확하면 확인이 필요하다.",
+          "retrieval_requirements": {
+            "intents": [
+              "자조"
+            ],
+            "situations": [
+              "자초한곤란"
+            ],
+            "targets": [
+              "자기"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "new_vocabulary": {
+    "situations": [
+      {
+        "label": "자초한곤란",
+        "aliases": [],
+        "definition": "본인이 자발적으로 한 사소한 선택이 현재의 곤란으로 이어졌음을 스스로 명시하며 인정하는 상황. 단순한 불운·기대와 결과의 차이·강요된 선택과 구별하며, 태그 자체가 실제 책임이나 인과관계를 입증하지 않는다."
+      }
+    ]
+  },
+  "source_review": [
+    {
+      "url": "https://view.asiae.co.kr/article/2021010709254760318",
+      "published_at": "2021-01-07 14:07",
+      "publisher": "아시아경제",
+      "support": "표현 뜻과 기자 구성 요리 예문.",
+      "limits": "원댓글 관찰 자료가 아니다. 자발성·사소함·강요/피해 제외 조건 전체를 입증한 자료로 취급하지 않는다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "url": "https://news.nate.com/view/20200830n15427",
+      "published_at": "2020-08-30 17:18",
+      "publisher": "서울경제 네이트 전재",
+      "support": "뜻풀이와 편집 요리 예문.",
+      "limits": "원댓글은 확인하지 않았다. 사건 진위나 사용자 책임을 인증하는 자료가 아니다.",
+      "access": "researcher_direct_read_report"
+    }
+  ],
+  "limitations": [
+    "반례 설계는 공개 개발용이며 미노출 평가셋이나 실행 결과가 아니다.",
+    "새 상황은 원인·자발성 구별을 위한 편집 개념이며 실제 책임의 자동 인증이 아니다.",
+    "기존 용법과 공존할 수 있어 의미상 상호배타를 주장하지 않는다.",
+    "등록 profiles·vocabulary·index·tests는 변경하지 않았다.",
+    "Python·검색·CI 실행 및 reviewed 승격은 하지 않았다."
+  ],
+  "verification": {
+    "source_sha_rechecked": true,
+    "python_executed": false,
+    "ci_executed": false,
+    "limits": "한 profile과 한 상황만 추가하며 기존 승인 membership/count와 중앙 fixture는 변경하지 않는다. deepcopy provisional 테스트는 원본 승격이 아니며 실제 자연어 평가·후보 drift 검증은 통합 측에서 수행해야 한다."
+  }
+}
