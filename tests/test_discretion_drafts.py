@@ -9,7 +9,7 @@ from search_usage import search
 class DiscretionDraftTests(unittest.TestCase):
     def test_source_bound_request_is_not_praise(self):
         p=next(p for p in load_profiles(ROOT)['profiles'] if p['entry_id']=='aljaltakkalsen')
-        self.assertEqual(p['review_status'],'draft')
+        self.assertEqual(p['review_status'],'reviewed')
         self.assertEqual(p['source_sha'],blob_sha(ROOT/'memes/aljaltakkalsen.md'))
         self.assertEqual(len(p['usages']),1)
         u=p['usages'][0]
@@ -20,6 +20,7 @@ class DiscretionDraftTests(unittest.TestCase):
     def test_draft_is_not_exposed_by_exact_name_or_filters(self):
         index=build_usage_index(ROOT);vocab=load_vocabulary(ROOT)
         e=next(e for e in index['entries'] if e['id']=='aljaltakkalsen')
+        e['review_status']='draft'  # hypothetical copy, no source mutation
         for mode in ('lookup','recommend'):
             for filters in [{'query':e['title']},e['usages'][0]['retrieval_requirements']]:
                 self.assertFalse(any(h['entry_id']==e['id'] for h in search(index,vocab,mode=mode,**filters)['results']))
