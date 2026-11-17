@@ -545,6 +545,7 @@
 - [여러분 모두 부자되세요](be-rich.md)
 - [여름이었다](it-was-summer.md)
 - [역주행](yeokjuhaeng.md)
+- [연기배틀 챌린지](same-line-acting-challenge.md)
 - [연락 없네 잘 살아](no-reply-live-well.md)
 - [열심히 일한 당신, 떠나라](work-hard-leave.md)
 - [엽기](yeopgi-humor.md)

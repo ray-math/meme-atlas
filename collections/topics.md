@@ -417,6 +417,7 @@
 - [여러분 너무 보고 싶었어](../memes/taeyang-missed-you.md)
 - [여름이었다](../memes/it-was-summer.md)
 - [역주행](../memes/yeokjuhaeng.md)
+- [연기배틀 챌린지](../memes/same-line-acting-challenge.md)
 - [엽기](../memes/yeopgi-humor.md)
 - [영통팬싸](../memes/yeongtong-paenssa.md)
 - [옛날에 ○○가 잇엇은](../memes/once-there-was.md)

@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 6,
-  "query_observations": 101,
-  "distinct_literal_queries": 88,
+  "source_files": 7,
+  "query_observations": 112,
+  "distinct_literal_queries": 94,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -595,6 +595,65 @@
       "source": "reports/bulk/connector-resume-screening-150.json",
       "status": "held-unverified",
       "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "연기배틀",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "accepted-family",
+      "canonical": "same-line-acting-challenge"
+    },
+    {
+      "query": "연기 챌린지",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "accepted-family",
+      "canonical": "same-line-acting-challenge"
+    },
+    {
+      "query": "몇 살이야",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "accepted-family",
+      "canonical": "same-line-acting-challenge"
+    },
+    {
+      "query": "감정 연기",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "accepted-family",
+      "canonical": "same-line-acting-challenge"
+    },
+    {
+      "query": "랜덤 애인",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "애인 소개",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "아무개란",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "눈코뜰새없을인",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "상위 1%",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "오타쿠샷",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "주술 회전샷",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
     }
   ],
   "semantic_duplicates": [

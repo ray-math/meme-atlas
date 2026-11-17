@@ -36,3 +36,4 @@
 - [다비치 거북이 챌린지](../memes/davichi-blanket-turtle.md)
 - [로드스터 AI 패러디](../memes/roadster-ai-parody.md)
 - [밀레니얼 vs 젠지 담당자 비교](../memes/millennial-vs-genz-copy.md)
+- [연기배틀 챌린지](../memes/same-line-acting-challenge.md)
