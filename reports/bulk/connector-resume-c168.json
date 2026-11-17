@@ -1,0 +1,111 @@
+{
+  "base": "b1cccc8cf7f24c1e549defb46af74d95a14d0df6",
+  "entries": [
+    {
+      "id": "love-options-challenge",
+      "sources": [
+        {
+          "url": "https://news.tf.co.kr/read/entertain/2372804.htm",
+          "observed": "2026-10-06 다른안무/음원결합과 후배가수 참여 보도."
+        },
+        {
+          "url": "https://enter.etoday.co.kr/news/view/305048",
+          "observed": "2026-11-11 별도칼럼으로 같은편집 및 참여, 다혜채널2026안무 공개 보도."
+        }
+      ],
+      "evidence_level": "독립편집본문2곳. 겹치는 하츠투하츠편집/후배참여를 보도횟수만큼 중복세지 않음. 원영상미시청.",
+      "limits": "원곡2013/재유행2026 구분. 차트순위/조회수/최초발생 제외."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "그럼 아이스티 4개 주세요",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "색소폰이 커지고 있다",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "이거 제 이모지야",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "existing-family",
+      "canonical": "my-emoji"
+    },
+    {
+      "query": "장 필 쉐도우복싱",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과학자들이 Hi를 밝히다",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "9월 포기하겠습니다",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "existing-family",
+      "canonical": "give-up"
+    },
+    {
+      "query": "죽이세유",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "아무것도 모르는",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "아이워시",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "체포하겠어",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "existing-family",
+      "canonical": "under-arrest"
+    },
+    {
+      "query": "전여친 감자칼",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "existing-family",
+      "canonical": "ex-girlfriend-peeler"
+    },
+    {
+      "query": "능글맞은 개코원숭이",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "이것은 내가",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "existing-family",
+      "canonical": "this-is-my-story-template"
+    },
+    {
+      "query": "게굴댄스",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "연애의 조건",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "accepted-family",
+      "canonical": "love-options-challenge"
+    }
+  ],
+  "held_notes": "아이워시는 캠페인측발표와 이를인용한 기사를 별개실제사용검증으로 세지 않음.",
+  "checks": {
+    "result_entries": 877,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

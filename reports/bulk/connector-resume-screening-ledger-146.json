@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 22,
-  "query_observations": 361,
-  "distinct_literal_queries": 293,
+  "source_files": 23,
+  "query_observations": 376,
+  "distinct_literal_queries": 304,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -2004,6 +2004,87 @@
       "query": "Pretty Girl",
       "source": "reports/bulk/connector-resume-a167.json",
       "status": "held-unverified"
+    },
+    {
+      "query": "그럼 아이스티 4개 주세요",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "색소폰이 커지고 있다",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "이거 제 이모지야",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "existing-family",
+      "canonical": "my-emoji"
+    },
+    {
+      "query": "장 필 쉐도우복싱",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과학자들이 Hi를 밝히다",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "9월 포기하겠습니다",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "existing-family",
+      "canonical": "give-up"
+    },
+    {
+      "query": "죽이세유",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "아무것도 모르는",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "아이워시",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "체포하겠어",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "existing-family",
+      "canonical": "under-arrest"
+    },
+    {
+      "query": "전여친 감자칼",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "existing-family",
+      "canonical": "ex-girlfriend-peeler"
+    },
+    {
+      "query": "능글맞은 개코원숭이",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "이것은 내가",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "existing-family",
+      "canonical": "this-is-my-story-template"
+    },
+    {
+      "query": "게굴댄스",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "연애의 조건",
+      "source": "reports/bulk/connector-resume-c168.json",
+      "status": "accepted-family",
+      "canonical": "love-options-challenge"
     }
   ],
   "semantic_duplicates": [
