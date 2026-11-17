@@ -135,6 +135,7 @@
 - [아이스버킷 챌린지](../memes/ice-bucket-challenge.md)
 - [아햏햏](../memes/ahehheh.md)
 - [안물안궁](../memes/anmul-angung.md)
+- [안습](../memes/anseup.md)
 - [안아줘요](../memes/hug-me-animal.md)
 - [야민정음](../memes/yamin-jeongeum.md)
 - [억까](../memes/eokkka.md)

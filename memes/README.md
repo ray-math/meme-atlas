@@ -223,6 +223,7 @@
 - [안 생겨요](no-partner.md)
 - [안녕히 계세요 여러분](goodbye-everyone.md)
 - [안물안궁](anmul-angung.md)
+- [안습](anseup.md)
 - [안아줘요](hug-me-animal.md)
 - [알빠노](alppano.md)
 - [알잘딱깔센](aljaltakkalsen.md)

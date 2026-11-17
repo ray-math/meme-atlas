@@ -339,3 +339,4 @@
 - [정신승리](../memes/mental-victory.md)
 - [뇌피셜](../memes/noepisyeol.md)
 - [억까](../memes/eokkka.md)
+- [안습](../memes/anseup.md)
