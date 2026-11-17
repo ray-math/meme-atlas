@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave5",
+  "status": "ready_for_independent_editorial_review",
+  "created_at": "2026-11-17",
+  "base_ref": "23c533cb967660e67a2191ce1a90ee0042b97d97",
+  "counts": {
+    "screened": 30,
+    "ready": 5,
+    "held": 24,
+    "duplicate": 1
+  },
+  "entries": [
+    {
+      "entry_id": "fine-restaurant",
+      "title": "고급 레스토랑",
+      "ledger_id": "kr-list-0200",
+      "path": "memes/fine-restaurant.md",
+      "source_sha": "6febc80bf44b4778cb03d67d059d4bd31a0330d3",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "히어로즈 오브 더 스톰을 식당에 빗대어 부르는 농담식 별명. 두 독립 매체의 국내 사용·재연 보도 또는 필자 실사용을 직접 본문으로 확인.",
+      "sources": [
+        {
+          "publisher": "게임톡",
+          "url": "https://v.daum.net/v/20160817215151323?s=print_news",
+          "published_at": "2016-08-17",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "국내 별명과 공식 영상의 관련 문구를 설명하는 보도."
+        },
+        {
+          "publisher": "게임메카",
+          "url": "https://www.gamemeca.com/view.php?gid=1518662",
+          "published_at": "2018-12-26",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "게임을 레스토랑, 개발자를 셰프로 빗대 실제 기사에서 사용."
+        }
+      ],
+      "limitations": "최초 게시물·최초 발명일과 현재 유행 규모는 검증하지 않았다. 영상 직접 재생 및 원댓글 직접 열람은 하지 않았으며 기사 본문·필자 사용을 근거로 한다. 예문은 편집 창작이다.",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "advanced-a-indistinguishable-b",
+      "title": "고도로 발달한 A는 B와 구분할 수 없다",
+      "ledger_id": "kr-list-0203",
+      "path": "memes/advanced-a-indistinguishable-b.md",
+      "source_sha": "da7e7fc4ee8334adad340dc098761ac543c3652b",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "어떤 특성이 극단에 이르면 다른 것처럼 보인다고 과장하는 문장 틀. 두 독립 매체의 국내 사용·재연 보도 또는 필자 실사용을 직접 본문으로 확인.",
+      "sources": [
+        {
+          "publisher": "뉴시스",
+          "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20230530_0002321393",
+          "published_at": "2023-05-31",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "보도된 영상 시청자 반응의 문장 치환."
+        },
+        {
+          "publisher": "Trend A Word",
+          "url": "https://maily.so/trendaword/posts/g1o4g0ewove",
+          "published_at": "2025-11-20",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "뉴스레터 필자가 문장 틀을 변형하여 직접 사용."
+        }
+      ],
+      "limitations": "최초 게시물·최초 발명일과 현재 유행 규모는 검증하지 않았다. 영상 직접 재생 및 원댓글 직접 열람은 하지 않았으며 기사 본문·필자 사용을 근거로 한다. 예문은 편집 창작이다.",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "my-precious",
+      "title": "마이 프레셔스",
+      "ledger_id": "kr-list-0452",
+      "path": "memes/my-precious.md",
+      "source_sha": "e4c16ab2f5d7a0062ca7ca45f009a8065dbe0d52",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "골룸의 목소리와 말투를 흉내 내는 성대모사·패러디 문구. 두 독립 매체의 국내 사용·재연 보도 또는 필자 실사용을 직접 본문으로 확인.",
+      "sources": [
+        {
+          "publisher": "이데일리",
+          "url": "https://v.daum.net/v/20190513153001834",
+          "published_at": "2019-05-13",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "국내 방송 패러디와 기념 공연 재연 취재."
+        },
+        {
+          "publisher": "국민일보",
+          "url": "https://v.daum.net/v/20191119000230970",
+          "published_at": "2019-11-19",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "당사자 회고에서 해당 구호를 반복한 골룸 연기 설명."
+        }
+      ],
+      "limitations": "최초 게시물·최초 발명일과 현재 유행 규모는 검증하지 않았다. 영상 직접 재생 및 원댓글 직접 열람은 하지 않았으며 기사 본문·필자 사용을 근거로 한다. 예문은 편집 창작이다.",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "turn-off-light-ram",
+      "title": "불 좀 꺼줄래?",
+      "ledger_id": "kr-list-0559",
+      "path": "memes/turn-off-light-ram.md",
+      "source_sha": "d71e6bd5b6c51e780bab46386efcc542fdc65998",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "메모리 광고의 진지한 말투와 몸짓을 따라 하는 패러디 문구. 두 독립 매체의 국내 사용·재연 보도 또는 필자 실사용을 직접 본문으로 확인.",
+      "sources": [
+        {
+          "publisher": "쿠키뉴스",
+          "url": "https://sports.news.nate.com/view/20200627n02716",
+          "published_at": "2020-06-27",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "광고 대사와 국내 반복 시청·밈화 보도, 네이트 전재 본문."
+        },
+        {
+          "publisher": "서울경제",
+          "url": "https://news.nate.com/view/20201114n10288?mid=n0000",
+          "published_at": "2020-11-14",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "별도 인터뷰에서 해당 광고 문구 패러디 설명, 네이트 전재 본문."
+        }
+      ],
+      "limitations": "최초 게시물·최초 발명일과 현재 유행 규모는 검증하지 않았다. 영상 직접 재생 및 원댓글 직접 열람은 하지 않았으며 기사 본문·필자 사용을 근거로 한다. 예문은 편집 창작이다.",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "brain-full-power",
+      "title": "두뇌 풀 가동!",
+      "ledger_id": "kr-list-0401",
+      "path": "memes/brain-full-power.md",
+      "source_sha": "325defd6ab75683b1f202b2b2b61cc9f758337b2",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "문제를 열심히 생각하는 모습을 과장된 자막처럼 표현하는 말. 두 독립 매체의 국내 사용·재연 보도 또는 필자 실사용을 직접 본문으로 확인.",
+      "sources": [
+        {
+          "publisher": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20211108116500005",
+          "published_at": "2021-11-09",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "당사자 인터뷰의 본문에서 예능 자막과 온라인 사진 밈 설명."
+        },
+        {
+          "publisher": "뉴시스",
+          "url": "https://www.newsis.com/view/NISX20260401_0003573450",
+          "published_at": "2026-04-01",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "별도 방송 소개에서 해당 장면의 재조명 확인."
+        }
+      ],
+      "limitations": "최초 게시물·최초 발명일과 현재 유행 규모는 검증하지 않았다. 영상 직접 재생 및 원댓글 직접 열람은 하지 않았으며 기사 본문·필자 사용을 근거로 한다. 예문은 편집 창작이다.",
+      "usage_status": "not_annotated"
+    }
+  ],
+  "screening": [
+    {
+      "title": "그거 먹는 건가요",
+      "ledger_id": "kr-list-0234",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "꼭 사라 두 번 사라",
+      "ledger_id": "kr-list-0274",
+      "status": "held",
+      "matches": [],
+      "reason": "찾은 두 매체가 같은 DC 설문 보도여서 독립된 의미·재사용 근거 두 건으로 세지 않음."
+    },
+    {
+      "title": "계획대로",
+      "ledger_id": "kr-list-0198",
+      "status": "held",
+      "matches": [],
+      "reason": "검색에서 위키·개인 블로그·커뮤니티 해설만 확보. 두 독립 출판사의 직접 본문 검증 미충족."
+    },
+    {
+      "title": "망했어요",
+      "ledger_id": "kr-list-0460",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "미안송",
+      "ledger_id": "kr-list-0507",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "샤방송",
+      "ledger_id": "kr-list-0617",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "삼각함수송",
+      "ledger_id": "kr-list-0606",
+      "status": "held",
+      "matches": [],
+      "reason": "국민일보 제작자 관련 기사 후보는 찾았지만 독립된 두 출판사의 직접 본문 확인을 마치지 못함."
+    },
+    {
+      "title": "모기송",
+      "ledger_id": "kr-list-0477",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "비둘기야 먹자",
+      "ledger_id": "kr-list-0569",
+      "status": "held",
+      "matches": [],
+      "reason": "인벤 게임 패러디 기사 후보는 있으나 독립 두 번째 직접 본문 부족."
+    },
+    {
+      "title": "멈뭄미, 고먐미",
+      "ledger_id": "kr-list-0469",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "무수히 많은 악수의 요청이",
+      "ledger_id": "kr-list-0487",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "불만 있냐? 물도 있다.",
+      "ledger_id": "kr-list-0557",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "돈이 될까?",
+      "ledger_id": "kr-list-0391",
+      "status": "held",
+      "matches": [],
+      "reason": "익명 발언을 실존 기업 관계자 발언으로 단정할 근거와 두 독립 직접 본문이 부족해 보류."
+    },
+    {
+      "title": "돌리랑 도트가 제일 좋아",
+      "ledger_id": "kr-list-0394",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "무슨 마약하시길래 이런생각을 했어요?",
+      "ledger_id": "kr-list-0488",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "사랑했나봐",
+      "ledger_id": "kr-list-0596",
+      "status": "held",
+      "matches": [],
+      "reason": "노래 전체와 특정 AI 영상 패러디를 분리할 범위·독립 두 본문 및 기존 항목 의미 중복 검토가 미완료."
+    },
+    {
+      "title": "생선 대가리 카레(이승윤)",
+      "ledger_id": "kr-list-0616",
+      "status": "held",
+      "matches": [],
+      "reason": "방송 장면 보도 후보는 있으나 독립성·재사용 범위 검토 미완료. 건강·개인적 반응을 일반화하지 않음."
+    },
+    {
+      "title": "빅데이터 드립(휴먼드립)",
+      "ledger_id": "kr-list-0572",
+      "status": "held",
+      "matches": [],
+      "reason": "작가 전시 소개 후보와 개인글만으로 두 독립 직접 본문 기준 미충족."
+    },
+    {
+      "title": "부라더 다메요",
+      "ledger_id": "kr-list-0550",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "가정이 무너지고 사회가 무너지고",
+      "ledger_id": "kr-list-0162",
+      "status": "held",
+      "matches": [],
+      "reason": "전자신문 해설 후보 한 건 외 독립 직접 본문 부족."
+    },
+    {
+      "title": "고수와 하수 차이",
+      "ledger_id": "kr-list-0205",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "그런데 짜잔!",
+      "ledger_id": "kr-list-0246",
+      "status": "duplicate",
+      "matches": [
+        "geureonde-jjajan"
+      ],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "가능성의 XX",
+      "ledger_id": "kr-list-0157",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    },
+    {
+      "title": "도쿄올림픽 픽토그램",
+      "ledger_id": "kr-list-0388",
+      "status": "held",
+      "matches": [],
+      "reason": "직접 읽은 코리아넷·뉴시스는 동일 졸업사진 재연 사례에 의존. 별도 국내 재사용 사례 검증이 부족하여 보수적으로 보류."
+    },
+    {
+      "title": "서순 드립",
+      "ledger_id": "kr-list-0620",
+      "status": "held",
+      "matches": [],
+      "reason": "이번 고정 범위 검색에서 위키·커뮤니티·개인 설명과 구별되는 두 독립 출판사의 직접 본문 근거를 확보하지 못함. 표현이 존재하지 않는다는 판정은 아님."
+    }
+  ],
+  "discovery": {
+    "type": "existing_candidate_ledger_from_korean_meme_mirror",
+    "path": "data/korea-candidates.json",
+    "original_namuwiki_access_claimed": false,
+    "new_ledger_ids_created": false
+  },
+  "duplicate_check": {
+    "ref": "23c533cb967660e67a2191ce1a90ee0042b97d97",
+    "index_count": 567,
+    "checked": "Ready 5: title, pilot-state title/aliases including retained records, canonical file paths and related index text inspected. Other 25: exact normalized title/alias matching only; held does not imply full semantic deduplication."
+  },
+  "verification": {
+    "ci_run": false,
+    "derived_files_changed": false,
+    "raw_source_body_stored": false,
+    "main_or_pr37_changed": false,
+    "remote_canonical_readback_all_equal": true
+  }
+}
