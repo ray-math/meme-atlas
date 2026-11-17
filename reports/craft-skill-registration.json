@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "document_kind": "registration_patch_plan",
+  "registration_status": "not_applied",
+  "base_commit": "5167fdbb9eef0e99bc56b307722cc194aec5d559",
+  "source_report_commit": "7245a04b4b303398a81f8a9da1881959da7e14e0",
+  "scope_note": "Append-only proposal, not complete replacement data. Preserve concurrent data and all existing profiles. Two new profiles remain draft; no review promotion, aliases or direct-addressee geumson expansion.",
+  "new_profiles": [
+    {
+      "entry_id": "geumson",
+      "source_sha": "26c1ac81bd49d557ca92e987887e0d91e03c7f0f",
+      "review_status": "draft",
+      "review_note": "제작 솜씨에 대한 제삼자 기사 칭찬을 근거로 좁힌 초안. 직접 상대 칭찬은 이번 자료로 확인하지 못해 포함하지 않는다. 감탄·기쁨 등 실제 감정은 추정하지 않는다. canonical 본문과 source_sha는 GitHub에서 직접 확인했다. 외부 자료는 별도 조사 담당이 원문을 직접 읽은 보고를 참고했으며, 이번 주석 작성자가 외부 원문을 다시 읽었다고 주장하지 않는다. 예문과 적합성·위험 경계는 편집 판단이며 자료가 안전 효과나 실제 내면 감정을 입증한 것은 아니다.",
+      "usages": [
+        {
+          "id": "praise-third-party-craft",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "칭찬"
+          ],
+          "situations": [
+            "작업솜씨평가"
+          ],
+          "targets": [
+            "제삼자"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "제작물의 세부 표현이나 완성도를 보고 그 제작자를 제삼자로 칭찬한다. 평가 초점은 해당 작업의 솜씨이지 인격이나 모든 분야의 능력이 아니다.",
+          "avoid_when": [
+            "직접 상대 호명으로 이번 검증 범위를 자동 확대하는 경우",
+            "결과물만으로 타인의 노력·타고난 재능·경력을 단정하는 경우",
+            "다른 사람의 서툼·부상·장애를 비교하며 깎아내리는 경우",
+            "단순 행운·재산이나 게임·낚시 전반의 능력 평가로 확대하는 경우"
+          ],
+          "example": {
+            "text": "이 미니어처는 작은 창틀까지 섬세하네. 만든 분 정말 금손이다.",
+            "kind": "editorial"
+          },
+          "review_note": "제삼자 제작자 칭찬이라는 좁은 방향만 확인했다. standard는 이 예시 맥락의 편집 분류이며 모든 사용의 안전 보증이 아니다.",
+          "retrieval_requirements": {
+            "situations": [
+              "작업솜씨평가"
+            ],
+            "targets": [
+              "제삼자"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entry_id": "ttongson",
+      "source_sha": "b600701774891b564521e77e0a0db306223a3b99",
+      "review_status": "draft",
+      "review_note": "조경가의 자기 작업 회고 인터뷰와 canonical의 자조 의미를 참고한 초안. 낚시 보도는 자기 방향의 보조 근거만 사용한다. 서툼을 말해도 발화자의 실제 수치심·슬픔을 자동 부여하지 않는다. canonical 본문과 source_sha는 GitHub에서 직접 확인했다. 외부 자료는 별도 조사 담당이 원문을 직접 읽은 보고를 참고했으며, 이번 주석 작성자가 외부 원문을 다시 읽었다고 주장하지 않는다. 예문과 적합성·위험 경계는 편집 판단이며 자료가 안전 효과나 실제 내면 감정을 입증한 것은 아니다.",
+      "usages": [
+        {
+          "id": "self-deprecate-craft",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "자조"
+          ],
+          "situations": [
+            "작업솜씨평가"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "혼잣말",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "비속어",
+            "상처가능"
+          ],
+          "safety": "caution",
+          "context": "자신이 꾸민 작은 정원의 결과가 서툴렀음을 가볍게 낮추어 말한다. 해당 작업의 한 번 또는 한 시기 결과를 웃어넘기는 표현이지 자신의 모든 능력을 부정하는 판정은 아니다.",
+          "avoid_when": [
+            "상대나 제삼자의 솜씨를 낮추어 부르는 경우",
+            "부상·장애나 심각한 손해·고통을 웃음거리로 삼는 경우",
+            "작업 실패를 근거로 자신이나 타인의 가치·재능·노력·경력 전부를 단정하는 경우",
+            "위로나 실질적인 도움이 필요한 상황을 자조로 덮는 경우",
+            "낚시·게임 또는 단순 불운까지 이번 제작 작업 범위의 검증 결과로 확대하는 경우"
+          ],
+          "example": {
+            "text": "작은 정원을 꾸몄는데 배치가 어색하네. 이번에는 내가 똥손이었어. 조금씩 다시 꾸며 봐야겠다.",
+            "kind": "editorial"
+          },
+          "review_note": "창작 예문은 직접 근거가 있는 정원 조성의 자기 방향으로 좁혔다. 개선 언급이 작업 능력 향상 효과를 입증하지 않는다. 비속한 낮춤말이므로 기본 추천에서는 제외해야 한다.",
+          "retrieval_requirements": {
+            "situations": [
+              "작업솜씨평가"
+            ],
+            "targets": [
+              "자기"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "new_vocabulary": {
+    "situations": [
+      {
+        "label": "작업솜씨평가",
+        "aliases": [],
+        "definition": "제작·그림·조리 등 작업의 수행이나 결과를 바탕으로 작업자의 솜씨를 평가하는 상황. 단순 행운·불운, 재산, 인격 또는 모든 분야의 능력 평가와 구별한다."
+      }
+    ]
+  },
+  "test_file": {
+    "path": "tests/test_craft_skill_drafts.py",
+    "source": "\"\"\"Draft registration regression; hypothetical review flags never persist.\"\"\"\nimport copy\nimport sys\nimport unittest\nfrom pathlib import Path\nROOT = Path(__file__).resolve().parents[1]\nsys.path.insert(0, str(ROOT / 'scripts'))\nfrom usage_profiles import load_profiles, load_vocabulary, blob_sha\nfrom build_usage_index import build_usage_index\nfrom search_usage import search\n\nclass CraftSkillDraftTests(unittest.TestCase):\n    SPEC = {\n        'geumson': ('praise-third-party-craft', '제삼자', '칭찬', 'standard',\n                    '26c1ac81bd49d557ca92e987887e0d91e03c7f0f'),\n        'ttongson': ('self-deprecate-craft', '자기', '자조', 'caution',\n                     'b600701774891b564521e77e0a0db306223a3b99'),\n    }\n\n    def setUp(self):\n        self.vocab = load_vocabulary(ROOT)\n        self.index = build_usage_index(ROOT)\n\n    def hits(self, index, identity, **kwargs):\n        result = search(index, self.vocab, limit=100, **kwargs)\n        self.assertNotEqual(result['status'], 'unsupported_filter')\n        return [h for h in result['results'] if h['entry_id'] == identity]\n\n    def test_source_bound_unknown_drafts(self):\n        profiles = [p for p in load_profiles(ROOT)['profiles'] if p['entry_id'] in self.SPEC]\n        self.assertEqual({p['entry_id'] for p in profiles}, set(self.SPEC))\n        for p in profiles:\n            usage_id, target, intent, safety, expected_sha = self.SPEC[p['entry_id']]\n            self.assertEqual(p['source_sha'], expected_sha)\n            self.assertEqual(p['source_sha'], blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))\n            self.assertEqual(p['review_status'], 'draft')\n            self.assertEqual(len(p['usages']), 1)\n            u = p['usages'][0]\n            self.assertEqual(u['id'], usage_id)\n            self.assertEqual(u['emotion_status'], 'unknown')\n            self.assertEqual(u['emotions'], [])\n            self.assertEqual(u['intents'], [intent])\n            self.assertEqual(u['targets'], [target])\n            self.assertEqual(u['situations'], ['작업솜씨평가'])\n            self.assertEqual(u['safety'], safety)\n            self.assertEqual(u['example']['kind'], 'editorial')\n            self.assertEqual(u['retrieval_requirements'],\n                             {'situations': ['작업솜씨평가'], 'targets': [target]})\n\n    def test_vocabulary_is_single_defined_concept_without_aliases(self):\n        concepts = [c for c in self.vocab['facets']['situations'] if c['label'] == '작업솜씨평가']\n        self.assertEqual(len(concepts), 1)\n        self.assertEqual(concepts[0]['aliases'], [])\n        self.assertTrue(concepts[0]['definition'].strip())\n\n    def test_actual_drafts_hidden_in_both_modes(self):\n        for entry in self.index['entries']:\n            if entry['id'] not in self.SPEC:\n                continue\n            requirements = entry['usages'][0]['retrieval_requirements']\n            for mode in ('lookup', 'recommend'):\n                for filters in ({'query': entry['title']}, requirements,\n                                dict(requirements, query=entry['title'])):\n                    with self.subTest(identity=entry['id'], mode=mode, filters=filters):\n                        self.assertFalse(self.hits(self.index, entry['id'], mode=mode, **filters))\n\n    def test_hypothetical_reviewed_exact_gates_and_safety(self):\n        for identity, (usage_id, target, intent, safety, _) in self.SPEC.items():\n            index = copy.deepcopy(self.index)\n            entry = next(e for e in index['entries'] if e['id'] == identity)\n            entry['review_status'] = 'reviewed'\n            requirements = {'situations': ['작업솜씨평가'], 'targets': [target]}\n            blocked = [\n                {'intents': [intent]},\n                {'intents': [intent], 'targets': [target]},\n                {'situations': ['작업솜씨평가']},\n                {'targets': [target]},\n                {'situations': ['작업솜씨평가'], 'targets': ['상대']},\n                {'situations': ['작업솜씨평가', '성과'], 'targets': [target]},\n                {'situations': ['작업솜씨평가'], 'targets': [target, '상대']},\n            ]\n            for mode in ('lookup', 'recommend'):\n                for filters in blocked:\n                    with self.subTest(identity=identity, mode=mode, filters=filters):\n                        self.assertFalse(self.hits(index, identity, mode=mode, **filters))\n            matches = self.hits(index, identity, mode='lookup', **requirements)\n            self.assertEqual(len(matches), 1)\n            self.assertEqual(matches[0]['usage_id'], usage_id)\n            self.assertTrue(matches[0]['retrieval_scope']['explicit_filters_match'])\n            self.assertFalse(matches[0]['retrieval_scope']['exact_lookup_only'])\n            recommended = self.hits(index, identity, mode='recommend', **requirements)\n            self.assertEqual(len(recommended), 1 if safety == 'standard' else 0)\n            if recommended:\n                self.assertEqual(recommended[0]['usage_id'], usage_id)\n            self.assertFalse(self.hits(index, identity, mode='recommend', query=entry['title']))\n            if safety == 'caution':\n                self.assertFalse(self.hits(index, identity, mode='recommend',\n                                          query=entry['title'], **requirements))\n            explanation = self.hits(index, identity, mode='lookup', query=entry['title'])\n            self.assertEqual(len(explanation), 1)\n            self.assertTrue(explanation[0]['retrieval_scope']['exact_lookup_only'])\n\nif __name__ == '__main__':\n    unittest.main()\n"
+  },
+  "verification": {
+    "canonical_sha_rechecked": true,
+    "current_profile_ids_absent": true,
+    "current_situation_label_absent": true,
+    "python_executed": false,
+    "ci_executed": false,
+    "limits": "Current search/build interfaces inspected, but test source has not run. In-memory reviewed flags test structural gates, not semantic correctness, safety or annotation readiness."
+  },
+  "integration_steps": [
+    "Re-read latest canonical hashes and existing IDs/labels; stop on conflicting additions.",
+    "Append new profiles and vocabulary only, preserving all existing concurrent data.",
+    "Install test_file.source at its path and regenerate usage index through the authorized workflow; run schema/source checks and full CI.",
+    "Keep both profiles draft; standard never bypasses review/context requirements. Caution stays excluded from default recommendations."
+  ]
+}
