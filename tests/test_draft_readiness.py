@@ -10,17 +10,19 @@ class DraftReadinessTests(unittest.TestCase):
         result=evaluate(ROOT)
         self.assertEqual(result['total'],10)
         self.assertEqual(result['passed'],10,result['results'])
+        self.assertEqual(result['plan_errors'],[])
 
     def test_selected_reviewed_subset_has_no_candidate_drift(self):
         result=evaluate(ROOT,['ubd','pro-offended','three-lifts-500'])
         self.assertEqual(result['total'],5)
         self.assertEqual(result['passed'],5)
+        self.assertEqual(result['plan_errors'],[])
         self.assertEqual(result['staged_public_candidate_drift'],[])
 
     def test_held_profiles_reproduce_known_contamination(self):
-        for profile,case in [('goat','A01'),('pon-eunjeong','A12'),('ohiryeo-joa','A16')]:
+        for profile,case,source in [('goat','A01','regression-v3/audit'),('pon-eunjeong','A12','regression-v3/audit'),('ohiryeo-joa','A16','challenge/audit')]:
             result=evaluate(ROOT,[profile])
-            self.assertTrue(any(row['id']==case and row['evaluation_set']=='challenge/audit' and any(hit.startswith(profile+':') for hit in row['after']) for row in result['staged_public_candidate_drift']),
+            self.assertTrue(any(row['id']==case and row['evaluation_set']==source and any(hit.startswith(profile+':') for hit in row['after']) for row in result['staged_public_candidate_drift']),
                             (profile,result))
 
     def test_unknown_or_empty_candidates_fail_closed(self):
@@ -39,6 +41,11 @@ class DraftReadinessTests(unittest.TestCase):
             result=subprocess.run(command+args,capture_output=True,text=True)
             self.assertEqual(result.returncode,expected,result.stderr)
             self.assertNotIn('Traceback',result.stderr)
+            if expected in (0,1):
+                import json
+                payload=json.loads(result.stdout)
+                self.assertEqual(payload['plan_errors'],[])
+                self.assertEqual(bool(payload['staged_public_candidate_drift']),expected==1)
 
     def test_missing_or_empty_selected_profile_is_not_partial_success(self):
         import copy
