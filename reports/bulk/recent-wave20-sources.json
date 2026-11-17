@@ -1,0 +1,359 @@
+{
+  "batch": "recent-wave20",
+  "base_commit": "c6ea286ed9aa8e973a3678ad2da2969eff580a27",
+  "candidate_review_count": 30,
+  "sourceentries": [
+    {
+      "slug": "mitdeut",
+      "title": "믿듣",
+      "path": "memes/mitdeut.md",
+      "evidence": [
+        {
+          "url": "https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg_m.aspx?CNTN_CD=A0002640841",
+          "publisher": "오마이스타",
+          "published_date": "2020-05-13",
+          "access": "direct_body",
+          "support": "밴디트 쇼케이스의 목표 수식어를 믿고 듣는·믿고 보는으로 풀어 보도한다.",
+          "independent_group": "오마이스타"
+        },
+        {
+          "url": "https://www.osen.co.kr/article/G1111176446",
+          "publisher": "OSEN",
+          "published_date": "2019-07-01",
+          "access": "direct_body",
+          "support": "별개 여자친구 쇼케이스에서 믿고 보고 듣는다는 수식어를 풀이한다.",
+          "independent_group": "OSEN"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. "
+    },
+    {
+      "slug": "mitbo",
+      "title": "믿보",
+      "path": "memes/mitbo.md",
+      "evidence": [
+        {
+          "url": "https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg_m.aspx?CNTN_CD=A0002640841",
+          "publisher": "오마이스타",
+          "published_date": "2020-05-13",
+          "access": "direct_body",
+          "support": "밴디트 쇼케이스의 목표 수식어를 믿고 듣는·믿고 보는으로 풀어 보도한다.",
+          "independent_group": "오마이스타"
+        },
+        {
+          "url": "https://www.osen.co.kr/article/G1111176446",
+          "publisher": "OSEN",
+          "published_date": "2019-07-01",
+          "access": "direct_body",
+          "support": "별개 여자친구 쇼케이스에서 믿고 보고 듣는다는 수식어를 풀이한다.",
+          "independent_group": "OSEN"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. "
+    },
+    {
+      "slug": "jungkon",
+      "title": "중콘",
+      "path": "memes/jungkon.md",
+      "evidence": [
+        {
+          "url": "https://fannstar.tf.co.kr/fnnews/read/132060",
+          "publisher": "더팩트 팬앤스타",
+          "published_date": "2025-05-29",
+          "access": "direct_body",
+          "support": "첫·중·막콘의 회차 구분과 앙콘의 앙코르 콘서트 축약 의미를 설명한다.",
+          "independent_group": "더팩트 팬앤스타"
+        },
+        {
+          "url": "https://www.soompi.com/article/816387wpp/k-pop-101-korean-fan-lingo-all-k-pop-fans-should-know",
+          "publisher": "Soompi",
+          "published_date": "2016-02-09",
+          "access": "direct_body",
+          "support": "한국 팬카페 관찰을 바탕으로 사흘 이상 공연의 중간 회차를 중콘으로 설명한다.",
+          "independent_group": "Soompi"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 영문 칼럼의 한국 팬카페 관찰 보고이며 원 게시물은 직접 확인하지 않았다."
+    },
+    {
+      "slug": "angkon",
+      "title": "앙콘",
+      "path": "memes/angkon.md",
+      "evidence": [
+        {
+          "url": "https://fannstar.tf.co.kr/fnnews/read/132060",
+          "publisher": "더팩트 팬앤스타",
+          "published_date": "2025-05-29",
+          "access": "direct_body",
+          "support": "첫·중·막콘의 회차 구분과 앙콘의 앙코르 콘서트 축약 의미를 설명한다.",
+          "independent_group": "더팩트 팬앤스타"
+        },
+        {
+          "url": "https://v.daum.net/v/20260705185151723",
+          "publisher": "스포츠투데이",
+          "published_date": "2026-07-05",
+          "access": "direct_body",
+          "support": "앙콘이라고 제목에 쓴 공연을 본문에서 별도 날짜에 열리는 앙코르 콘서트로 설명한다.",
+          "independent_group": "스포츠투데이"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 두 번째 근거는 실제 행사 보도의 제목-본문 대응이며 어휘 사전은 아니다."
+    },
+    {
+      "slug": "seuap",
+      "title": "스압",
+      "path": "memes/seuap.md",
+      "evidence": [
+        {
+          "url": "https://news.nate.com/view/20080214n23453",
+          "publisher": "중앙일보",
+          "published_date": "2008-02-15",
+          "access": "direct_body",
+          "support": "긴 게시물에 붙는 스크롤 압박 경고라는 뜻을 풀이한다.",
+          "independent_group": "중앙일보"
+        },
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1003765094",
+          "publisher": "SBS",
+          "published_date": "2016-09-03",
+          "access": "direct_body",
+          "support": "긴 게시글을 계속 내려 읽는 상황과 스압 주의라는 안내를 설명한다.",
+          "independent_group": "SBS"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. "
+    },
+    {
+      "slug": "umjjal",
+      "title": "움짤",
+      "path": "memes/umjjal.md",
+      "evidence": [
+        {
+          "url": "https://www.journalist.or.kr/news/article.html?no=47925",
+          "publisher": "한국기자협회보",
+          "published_date": "2020-07-09",
+          "access": "direct_body",
+          "support": "움직이는 짤방이라는 풀이와 GIF 이미지·반복재생·뉴스 활용을 직접 설명한다.",
+          "independent_group": "한국기자협회보"
+        },
+        {
+          "url": "https://imnews.imbc.com/replay/2020/nwdesk/article/5769099_32524.html",
+          "publisher": "MBC",
+          "published_date": "2020-05-11",
+          "access": "direct_body",
+          "support": "팬들이 가공하는 움직이는 이미지 영상을 움짤로 부르는 사용을 보여준다.",
+          "independent_group": "MBC"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 형식 정의만 취했으며 특정 영상의 사용 허가나 당시 권리 분쟁 결론을 일반화하지 않았다."
+    },
+    {
+      "slug": "beugeum",
+      "title": "브금",
+      "path": "memes/beugeum.md",
+      "evidence": [
+        {
+          "url": "https://bgmstore.net/about",
+          "publisher": "브금저장소",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "서비스 자체 소개에서 배경음악과 BGM의 한글식 발음이라는 뜻을 설명한다.",
+          "independent_group": "브금저장소"
+        },
+        {
+          "url": "https://www.newdaily.co.kr/svc/article_print.html?no=2012102700035",
+          "publisher": "뉴데일리",
+          "published_date": "2012-10-27",
+          "access": "direct_body",
+          "support": "게시글에 붙이는 음악이라는 사용과 배경음악 약자에서 나온 표현을 설명한다.",
+          "independent_group": "뉴데일리"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 서비스 자체 설명과 별도 매체의 문화 기사를 대조했다. 최초 사용 주체를 확정하지 않았다."
+    },
+    {
+      "slug": "eumwon-kkangpae",
+      "title": "음원깡패",
+      "path": "memes/eumwon-kkangpae.md",
+      "evidence": [
+        {
+          "url": "https://circlechart.kr/page_article/view.circle?idx=7345&sgenre=opinion",
+          "publisher": "써클차트",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "차트 분석 칼럼에서 새 음원으로 차트를 장악하는 가수를 뜻한다고 설명한다.",
+          "independent_group": "써클차트"
+        },
+        {
+          "url": "https://www.xportsnews.com/article/740717",
+          "publisher": "엑스포츠뉴스",
+          "published_date": "2016-06-30",
+          "access": "direct_body",
+          "support": "방송 소개에서 곡마다 차트 상위권을 기록하는 가수의 수식어로 사용한다.",
+          "independent_group": "Mnet 방송 소개/엑스포츠뉴스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 차트 칼럼 본문은 2014년 8월말 상황이나 정확 발행일 미확인. 현재 차트 성적이나 인증 기준을 제시하지 않았다."
+    },
+    {
+      "slug": "gatgi",
+      "title": "갓기",
+      "path": "memes/gatgi.md",
+      "evidence": [
+        {
+          "url": "https://www.inews24.com/view/1521546",
+          "publisher": "아이뉴스24",
+          "published_date": "2022-09-22",
+          "access": "direct_body",
+          "support": "God와 아기의 결합 및 나이에 비해 뛰어난 실력·외모라는 풀이를 제시한다.",
+          "independent_group": "아이뉴스24"
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20221118_0002092431",
+          "publisher": "뉴시스",
+          "published_date": "2022-11-20",
+          "access": "direct_body",
+          "support": "별도 기자 대담에서 어린 나이의 능력·외모에 대한 팬덤 수식어로 설명한다.",
+          "independent_group": "뉴시스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 개별 미성년자의 사례나 신상은 옮기지 않았다. 기사들의 올림픽 기원 주장까지 확정하지 않았다."
+    },
+    {
+      "slug": "jikcam",
+      "title": "직캠",
+      "path": "memes/jikcam.md",
+      "evidence": [
+        {
+          "url": "https://www.allurekorea.com/2018/05/09/%EC%A7%81%EC%BA%A0%EC%9D%98-%EC%8B%9C%EB%8C%80/",
+          "publisher": "얼루어 코리아",
+          "published_date": "2018-05-09",
+          "access": "direct_body",
+          "support": "팬의 직접 촬영에서 방송사의 단체·멤버별 무대 영상으로 넓어진 사용을 설명한다.",
+          "independent_group": "얼루어 코리아"
+        },
+        {
+          "url": "https://m.ch.yes24.com/article/details/48346",
+          "publisher": "예스24 채널예스",
+          "published_date": "2022-03-30",
+          "access": "direct_body",
+          "support": "평론가가 현장 직캠과 방송사 직캠을 구분하고 개인·전체 무대 촬영 형식을 다룬다.",
+          "independent_group": "예스24 채널예스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 개별 원영상을 직접 검증하지 않았으며 촬영·게시 허가 여부를 뜻풀이로 보증하지 않았다."
+    }
+  ],
+  "held": [
+    {
+      "title": "취켓팅",
+      "reason": "기수록 중복."
+    },
+    {
+      "title": "피켓팅",
+      "reason": "기수록 중복."
+    },
+    {
+      "title": "무대장인",
+      "reason": "공연 칭찬 사용은 발견했으나 독립 정의·의미 경계 검증 미완료."
+    },
+    {
+      "title": "표정장인",
+      "reason": "공연 칭찬 사용은 발견했으나 두 독립 본문 대조 미완료."
+    },
+    {
+      "title": "본업존잘",
+      "reason": "설명 후보와 학술 자료 대조 미완료."
+    },
+    {
+      "title": "비담",
+      "reason": "두 매체가 동일한 온라인 신조어 시험표를 사용했을 가능성이 있어 독립성 확정 보류."
+    },
+    {
+      "title": "팬아저",
+      "reason": "기수록 중복."
+    },
+    {
+      "title": "아기상어",
+      "reason": "기존 baby-shark-challenge와 범위 충돌; 노래 전체를 신규 밈으로 자동 확장하지 않음."
+    },
+    {
+      "title": "귀요미송",
+      "reason": "기수록 중복."
+    },
+    {
+      "title": "애교살",
+      "reason": "일반 미용 어휘와 밈 사전 수록 범위 구별 미완료."
+    },
+    {
+      "title": "꿀피부",
+      "reason": "서로 다른 매체의 설명이 동일 화장품 홍보 문안일 가능성이 있어 독립성 미확보."
+    },
+    {
+      "title": "꽃길",
+      "reason": "기수록 중복."
+    },
+    {
+      "title": "입소문",
+      "reason": "일반 어휘를 독립 밈으로 볼 특별한 용법 근거 미확보."
+    },
+    {
+      "title": "짤줍",
+      "reason": "다른 조사자 audit11 검증·통합 예약 중복."
+    },
+    {
+      "title": "짤털",
+      "reason": "이전 보류 대비 독립적인 새 정의 본문 쌍 미확보."
+    },
+    {
+      "title": "데이터주의",
+      "reason": "일반 안내와 독립 밈·표현 범위 구별 및 두 근거 미완료."
+    },
+    {
+      "title": "비지엠",
+      "reason": "브금과 지시 대상은 같지만 일반 외래어 음역까지 별도 신규 항목으로 늘리지 않음."
+    },
+    {
+      "title": "할많하않",
+      "reason": "한 직접 칼럼 확보, 별도 매체 본문 추출은 아직 불완전."
+    },
+    {
+      "title": "알티",
+      "reason": "학술 자료의 직접 해당 본문과 두 번째 자료 접근 검증 미완료."
+    },
+    {
+      "title": "트친",
+      "reason": "학술 자료와 매체의 범위·관계 의미 대조 미완료."
+    }
+  ]
+}
