@@ -598,6 +598,40 @@
       "ids": [
         "sabasa"
       ]
+    },
+    "korean-verified-20261117-bulk-wave1": {
+      "input_hash": "745233d4b7aee87df3262ead55cfdffa8f0b861bd203ed0b82c24173c4166887",
+      "ids": [
+        "chill-guy",
+        "naniga-suki",
+        "italian-brainrot",
+        "hambugi",
+        "do-you-think-i-dont-know",
+        "good-night-ojousama",
+        "heogeodeonggeodeongseu",
+        "galteyateya",
+        "azasu",
+        "tiramisu-cake",
+        "kaelbak",
+        "banmo",
+        "bakbak",
+        "jjajja",
+        "cherry-peace",
+        "but-it-was-fast",
+        "home-protector",
+        "dodoreok-chaewon",
+        "keke-rupingpong",
+        "josammosa-parody",
+        "jjalbang",
+        "troll-play",
+        "heomu-song",
+        "number-song-internet",
+        "brain-map-meme",
+        "jjijjippong",
+        "dotne",
+        "eba",
+        "haek-intensifier"
+      ]
     }
   },
   "entries": {
@@ -4283,6 +4317,265 @@
       "body_hash": "b92639120482e0d4f5614e17ae6e00ca98bc898b59e4d840dff195b117378f94",
       "scope_type": "korean_usage",
       "scope_basis": "독립 국내 기사 두 곳의 직접 본문에서 사람별 차이를 나타내는 축약 뜻과 인터넷·일상 표현의 소개를 확인했다. 기사 구성 대화는 원채팅 관찰로 보지 않는다.",
+      "tags": []
+    },
+    "chill-guy": {
+      "title": "칠 가이",
+      "aliases": [
+        "칠가이",
+        "Chill Guy"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "8a25a09c42d819e858658a5622c5a2d71392f6fe6142f41230fb73ce77816944",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "tags": []
+    },
+    "naniga-suki": {
+      "title": "나니가 스키",
+      "aliases": [
+        "나니가스키",
+        "나니가스키 챌린지"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "3108b1a98939d3a9f1a396de0b0fde68536b3d58a604d82348bf703d75e7e632",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "tags": []
+    },
+    "italian-brainrot": {
+      "title": "이탈리안 브레인롯",
+      "aliases": [
+        "이탈리아 브레인롯"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "ceba0fa426d4eea3949f4927e6860f5cdb2f60a1647d12b83259efde2c6d36fe",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "tags": []
+    },
+    "hambugi": {
+      "title": "햄부기",
+      "aliases": [
+        "햄부기온"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "d724f5bd1ff83aa7f9ea1d148f9f903263f51bb1b69b0b97f2f0e3ed77567e14",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "tags": []
+    },
+    "do-you-think-i-dont-know": {
+      "title": "내가 그걸 모를까",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "17759731cb8989f78ac932ede9f80dd2b073409435b50d1f6c17bd60a50ad84b",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "tags": []
+    },
+    "good-night-ojousama": {
+      "title": "잘자요 아가씨",
+      "aliases": [
+        "야레야레 못 말리는 아가씨"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "8d646dbcfd1e47be63e2ffb03bc6e2b6eb8323918075617822cd5849fe9bbd5a",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "tags": []
+    },
+    "heogeodeonggeodeongseu": {
+      "title": "허거덩거덩스",
+      "aliases": [
+        "리얼 허거덩거덩스한 상황"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "f6c2f77ac933fdbbd2e90821cd075b9e2b3adace4c7518dab5036cc50159ee8a",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "tags": []
+    },
+    "galteyateya": {
+      "title": "갈테야테야",
+      "aliases": [
+        "갈테야테야 ○○에 갈테야"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "cedf83424200fc7d8fe226e5eb6fa7397f0212f629511b34b97ee73164c55d4d",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "tags": []
+    },
+    "azasu": {
+      "title": "아자스",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "9b449b0e224297a931b14bda0de7ecf39f946a971c19fecd1bdffee36855b46a",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "tags": []
+    },
+    "tiramisu-cake": {
+      "title": "티라미수 케이크",
+      "aliases": [
+        "티라미수 케익",
+        "티라미수 케이크 챌린지"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "38150defcec8866c7d337559b2b5c33bfa18f4f2c5ffb520fc2b1ccc90039dba",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "tags": []
+    },
+    "kaelbak": {
+      "title": "캘박",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "07921f32b77befc0ae6c5b9af981527fc0f3174212b2f7ad8786390d90057669",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "tags": []
+    },
+    "banmo": {
+      "title": "반모",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "f06b7d2866ae523063e3d50fa8b680fb43bc30242f1435ed10309cbaa54c9ad7",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "tags": []
+    },
+    "bakbak": {
+      "title": "박박",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "c185788e36f13078f7906f0aa21345f8d3cfc73dd99b670d332d10e859ea45cc",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "tags": []
+    },
+    "jjajja": {
+      "title": "짜짜",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "946b8b676b4b10b53abe62d4b8fc024d7f9f990327adb4cc8e98400c97576b15",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "tags": []
+    },
+    "cherry-peace": {
+      "title": "체리피스",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "95a5761c1b6551b76a2adb97dbeacadcafa810b053b1824bc269ef0a47fe3777",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "tags": []
+    },
+    "but-it-was-fast": {
+      "title": "하지만 빨랐죠",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "dedfcc09303b2d77b1f861f3718b39b9c71c1d082e9812adb7e501356b0e9c12",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "tags": []
+    },
+    "home-protector": {
+      "title": "홈 프로텍터",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "219804fb41e3190c767e734842576b161d05741063fa36f9c43dd55366879c5a",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "tags": []
+    },
+    "dodoreok-chaewon": {
+      "title": "피어나 너 내 도도독",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "57b961db365638dc9cd0a30fe165184b952bf33126c2c3533960244ca1c0bf65",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "tags": []
+    },
+    "keke-rupingpong": {
+      "title": "ㅋㅋ루삥뽕",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "d82a47aa412c79b045517dfe1971387f9e5f0f3e515aa735f3421c16b4f094db",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "tags": []
+    },
+    "josammosa-parody": {
+      "title": "조삼모사 패러디",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "b462970c91d6b067494822ab6a9dbc9353c5f9c014c892b750f811552409dda4",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 컷 형식과 국내 생활 소재 재패러디; 원숭이 대화의 반전 구조와 여러 변형로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "tags": []
+    },
+    "jjalbang": {
+      "title": "짤방",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "e181273eab509ba73b5d8ef08306da4b86cc14b729efa5dc9bc99b3a9031188f",
+      "scope_type": "korean_usage",
+      "scope_basis": "뜻·줄임형·국내 게시판 사용; 독자 질의와 기자 답변을 통한 뜻·메신저 활용로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "tags": []
+    },
+    "troll-play": {
+      "title": "트롤",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "19133aaadb033306eef130770742200c56f822ff53ce13983473cdc28ef54d67",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 게임 은어 설명·고의 방해 용법; 팀워크 방해 뜻과 국내 게임·일상 사용 소개로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "tags": []
+    },
+    "heomu-song": {
+      "title": "허무송",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "2d5466dc32037064ab1ac976272eca73de7aee42e20abd002a87fe8224535ffa",
+      "scope_type": "korean_usage",
+      "scope_basis": "노래 끊기·변형 방식과 국내 온라인 패러디; 독립 포털의 당시 인터넷 유행 검색어 발표로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "tags": []
+    },
+    "number-song-internet": {
+      "title": "숫자송",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "5198e13c11a4e02af593fa5bfb5cb7a1f4b2dad50ee220fa66084815fddfb23c",
+      "scope_type": "korean_usage",
+      "scope_basis": "인터넷송 인기·휴대전화 벨소리 사용; 숫자송과 귀여운 가사·애니메이션 형식 설명로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "tags": []
+    },
+    "brain-map-meme": {
+      "title": "뇌구조 밈",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "6a9a6ce82fd9ff997f3fb8648becacf8a5aef7c3da5189a40d3c6790f5a52499",
+      "scope_type": "korean_usage",
+      "scope_basis": "등장인물 관심사의 구역별 표현·온라인 재패러디; 팬 제작 캐릭터 뇌구조 패러디 존재와 사용로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "tags": []
+    },
+    "jjijjippong": {
+      "title": "찌찌뽕",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "dee46e3f11945f6f3f0b8fdaa5815ce0f1184f7e76817364e09bfee8c596cd55",
+      "scope_type": "korean_usage",
+      "scope_basis": "동시 발화 때 쓰는 말·예능의 실제 사용과 지역 차이; 드라마 등장인물의 동시 발화 뒤 사용 장면로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "tags": []
+    },
+    "dotne": {
+      "title": "돋네",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "f0a9299c6e1419a5771fe8898c78117c5dbac015f91921d3137b6a12c2ae9c39",
+      "scope_type": "korean_usage",
+      "scope_basis": "뜻·앞말 뒤 결합·긍정과 부정 모두의 쓰임; 옛 인터넷 서비스에 대한 국내 댓글 반응 보도로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "tags": []
+    },
+    "eba": {
+      "title": "에바",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "c2d660ef2ad7b18907b8f3aebb8eb637c51b15a5d397f393b059cb973a5b7847",
+      "scope_type": "korean_usage",
+      "scope_basis": "성인 인터뷰의 에바 및 소리 확장 용법 설명; 과도함 지적 의미와 기자 작성 예시로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "tags": []
+    },
+    "haek-intensifier": {
+      "title": "핵~",
+      "batch": "korean-verified-20261117-bulk-wave1",
+      "body_hash": "ea487652b24a3fdb3d91913a6af35b423634e40cc2d1f22309ef93053f81a2f3",
+      "scope_type": "korean_usage",
+      "scope_basis": "핵의 강한 정도 뜻과 여러 결합형 사용; 인터넷 신조어 파생형의 뜻풀이로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
       "tags": []
     }
   }
