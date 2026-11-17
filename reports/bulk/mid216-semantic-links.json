@@ -1,0 +1,2047 @@
+{
+  "schema_version": 1,
+  "report": "mid216-semantic-link-review",
+  "prepared_at": "2026-11-17",
+  "prior_report": {
+    "ref": "3f505716fc6a8c0a942c7a80f67335c60e54b406",
+    "path": "reports/bulk/mid-wave1-10-history.json",
+    "changed": false
+  },
+  "baseline": {
+    "canonical_ref": "1cc4cd4057569353418dbf45cc7bbc108deac54a",
+    "canonical_count": 686,
+    "pending_manifests": [
+      {
+        "batch": "recent16",
+        "ref": "dac8b6a4782483bdba4ff4fbc4e893824af04e5c",
+        "path": "reports/bulk/recent-wave16-sources.json",
+        "blob_sha": "0a3a29a7395ab0f3a1c62d68d4d9d7b5b67bfb54",
+        "count": 11
+      },
+      {
+        "batch": "mid9",
+        "ref": "c5a540753bf6269453265a7f5890a691759e38ca",
+        "path": "reports/bulk/mid-wave9-sources.json",
+        "blob_sha": "4041abf326be972c92de0f42cfb2e37c0fc26453",
+        "count": 6
+      },
+      {
+        "batch": "audit10",
+        "ref": "e60e1f377ff027ea8797ad334ac39f011b4ad215",
+        "path": "reports/bulk/2021-2023-wave10-sources.json",
+        "blob_sha": "cc8b93f6718103b77e3185b8f5617291d487fc34",
+        "count": 6
+      },
+      {
+        "batch": "mid10",
+        "ref": "cc984b34eb96289c5d90ecfa5e6ca73b263eac2f",
+        "path": "reports/bulk/mid-wave10-sources.json",
+        "blob_sha": "5072fb2bfe6097ace0bedcf1a978e7709c19679b",
+        "count": 2
+      },
+      {
+        "batch": "legacy9",
+        "ref": "2b879dfa90cb6e902496a27cba558909e28a5f6f",
+        "path": "reports/bulk/legacy-wave9-sources.json",
+        "blob_sha": "2ff422789e4b6a9ac88b8530cf503071dffbc31e",
+        "count": 4
+      },
+      {
+        "batch": "recent17",
+        "ref": "7c7f8fc69fd70556adae7f2e3720c63ef3e38ae0",
+        "path": "reports/bulk/recent-wave17-sources.json",
+        "blob_sha": "f82a53e890691516571dc48fb53d16642b5901ea",
+        "count": 11
+      }
+    ]
+  },
+  "scope": {
+    "original_rows_without_literal_history": 87,
+    "unmatched_history_records": 27,
+    "new_external_research": false,
+    "new_canonical_writes": false
+  },
+  "counts": {
+    "history_records_reviewed": 27,
+    "history_records_with_relationship": 27,
+    "history_candidate_connections": 29,
+    "equivalent_connections": 21,
+    "related_but_not_equivalent_connections": 8,
+    "original_rows_reviewed": 87,
+    "original_rows_with_any_observation": 86,
+    "original_rows_unresolved": 1,
+    "states_promoted": 0
+  },
+  "interpretation": [
+    "relationship_observed는 등록 완료·중복 삭제·보류 해제 판정이 아니다.",
+    "동일표기/별칭 연결과 상위개체→부분형식 연결을 equivalence 및 relation으로 구분한다.",
+    "아기상어·펭수·유튜브 알고리즘·아마존 익스프레스·깡 등의 넓은 발견 제목은 현재 작성된 부분 형식으로 전체를 처리했다고 간주하지 않는다.",
+    "과거held는 당시 이력 그대로 보존하고 현재canonical 존재는 별도 관찰로만 기록한다.",
+    "unresolved 한 행 외에도 related_but_not_equivalent는 더 넓은 범위가 남아 있을 수 있다. 86개 전체 완료를 뜻하지 않는다."
+  ],
+  "history_connections": [
+    {
+      "history_id": "mid-w1-entries-3",
+      "title": "태보해",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-140",
+          "candidate_title": "태보 해",
+          "relation": "equivalent_spelling",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave1-sources.json",
+            "source_ref": "content/bulk-mid-wave1",
+            "canonical_or_pending_path": "memes/taebo-hae.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        },
+        {
+          "candidate_id": "mid-200",
+          "candidate_title": "절대태보해",
+          "relation": "explicit_alias",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave1-sources.json",
+            "source_ref": "content/bulk-mid-wave1",
+            "canonical_or_pending_path": "memes/taebo-hae.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w1-entries-4",
+      "title": "전국 HandClap 자랑",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-157",
+          "candidate_title": "전국 handclap 자랑",
+          "relation": "case_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave1-sources.json",
+            "source_ref": "content/bulk-mid-wave1",
+            "canonical_or_pending_path": "memes/national-handclap.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w1-entries-6",
+      "title": "아기상어 챌린지",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-042",
+          "candidate_title": "아기상어",
+          "relation": "narrower_format_not_full_equivalence",
+          "equivalence": false,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave1-sources.json",
+            "source_ref": "content/bulk-mid-wave1",
+            "canonical_or_pending_path": "memes/baby-shark-challenge.md",
+            "note": "짧은 뜻풀이와 기존 manifest의 제한된 형식을 연결. 전체 범주와 동일 항목이라는 뜻은 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w2-entries-4",
+      "title": "멈뭄미",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-065",
+          "candidate_title": "멈뭄미, 고먐미",
+          "relation": "component_of_compound_label",
+          "equivalence": false,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave2-sources.json",
+            "source_ref": "content/bulk-mid-wave2",
+            "canonical_or_pending_path": "memes/meommummi.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w2-held-3",
+      "title": "저세상 ○○",
+      "original_record_status": "held",
+      "connections": [
+        {
+          "candidate_id": "mid-081",
+          "candidate_title": "저세상 XX",
+          "relation": "placeholder_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave2-sources.json",
+            "source_ref": "content/bulk-mid-wave2",
+            "canonical_or_pending_path": null,
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w2-held-5",
+      "title": "~좌",
+      "original_record_status": "held",
+      "connections": [
+        {
+          "candidate_id": "mid-161",
+          "candidate_title": "~~좌",
+          "relation": "placeholder_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave2-sources.json",
+            "source_ref": "content/bulk-mid-wave2",
+            "canonical_or_pending_path": null,
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w4-held-4",
+      "title": "편-안/불-편",
+      "original_record_status": "held",
+      "connections": [
+        {
+          "candidate_id": "mid-087",
+          "candidate_title": "편-안, 불-편",
+          "relation": "punctuation_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave4-sources.json",
+            "source_ref": "content/bulk-mid-wave4",
+            "canonical_or_pending_path": null,
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w5-entries-6",
+      "title": "그런데 짜잔",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-052",
+          "candidate_title": "그런데 짜잔!",
+          "relation": "punctuation_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave5-sources.json",
+            "source_ref": "content/bulk-mid-wave5",
+            "canonical_or_pending_path": "memes/geureonde-jjajan.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w5-entries-7",
+      "title": "저세상 텐션",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-081",
+          "candidate_title": "저세상 XX",
+          "relation": "narrower_format_not_full_equivalence",
+          "equivalence": false,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave5-sources.json",
+            "source_ref": "content/bulk-mid-wave5",
+            "canonical_or_pending_path": "memes/jeose-sang-tension.md",
+            "note": "짧은 뜻풀이와 기존 manifest의 제한된 형식을 연결. 전체 범주와 동일 항목이라는 뜻은 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w5-held-10",
+      "title": "~은 사드세요 제발",
+      "original_record_status": "held",
+      "connections": [
+        {
+          "candidate_id": "mid-276",
+          "candidate_title": "~은(는) 사드세요.....제발",
+          "relation": "template_notation_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave5-sources.json",
+            "source_ref": "content/bulk-mid-wave5",
+            "canonical_or_pending_path": null,
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w5-held-13",
+      "title": "서순",
+      "original_record_status": "held",
+      "connections": [
+        {
+          "candidate_id": "mid-077",
+          "candidate_title": "서순 드립",
+          "relation": "label_suffix_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave5-sources.json",
+            "source_ref": "content/bulk-mid-wave5",
+            "canonical_or_pending_path": null,
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w5-held-14",
+      "title": "회사 안 다녀",
+      "original_record_status": "held",
+      "connections": [
+        {
+          "candidate_id": "mid-143",
+          "candidate_title": "회사 안다녀",
+          "relation": "spacing_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave5-sources.json",
+            "source_ref": "content/bulk-mid-wave5",
+            "canonical_or_pending_path": null,
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w5-excluded_duplicates-1",
+      "title": "야 너두",
+      "original_record_status": "excluded_duplicates",
+      "connections": [
+        {
+          "candidate_id": "mid-224",
+          "candidate_title": "야나두",
+          "relation": "brand_to_ad_phrase_not_equivalent",
+          "equivalence": false,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave5-sources.json",
+            "source_ref": "content/bulk-mid-wave5",
+            "canonical_or_pending_path": "memes/ya-neodu.md",
+            "note": "야 너두 원문은 야나두 광고에서 나온 대사임을 명시. 브랜드 전체를 수록한 것은 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w6-entries-2",
+      "title": "응 아니야",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-023",
+          "candidate_title": "응 아니야~",
+          "relation": "punctuation_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave6-sources.json",
+            "source_ref": "content/bulk-mid-wave6",
+            "canonical_or_pending_path": "memes/eung-aniya.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w6-entries-9",
+      "title": "킹갓엠페러제너럴충무공마제스티",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-032",
+          "candidate_title": "킹갓엠페러제너럴충무공마제스티.....",
+          "relation": "punctuation_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave6-sources.json",
+            "source_ref": "content/bulk-mid-wave6",
+            "canonical_or_pending_path": "memes/king-god-emperor.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w6-entries-10",
+      "title": "돈가스 좋아하세요?",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-111",
+          "candidate_title": "돈가스 좋아하세요~?",
+          "relation": "punctuation_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave6-sources.json",
+            "source_ref": "content/bulk-mid-wave6",
+            "canonical_or_pending_path": "memes/donkatsu-like.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w6-entries-11",
+      "title": "아마존 익스프레스 댄스",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-221",
+          "candidate_title": "아마존 익스프레스",
+          "relation": "narrower_format_not_full_equivalence",
+          "equivalence": false,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave6-sources.json",
+            "source_ref": "content/bulk-mid-wave6",
+            "canonical_or_pending_path": "memes/amazon-express-dance.md",
+            "note": "짧은 뜻풀이와 기존 manifest의 제한된 형식을 연결. 전체 범주와 동일 항목이라는 뜻은 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w7-entries-2",
+      "title": "미쳤습니까 휴먼?",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-072",
+          "candidate_title": "빅데이터 드립",
+          "relation": "narrower_format_not_full_equivalence",
+          "equivalence": false,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave7-sources.json",
+            "source_ref": "content/bulk-mid-wave7",
+            "canonical_or_pending_path": "memes/are-you-crazy-human.md",
+            "note": "짧은 뜻풀이와 기존 manifest의 제한된 형식을 연결. 전체 범주와 동일 항목이라는 뜻은 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w7-entries-3",
+      "title": "두둥등장",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-271",
+          "candidate_title": "ㄷㄷㄷㅈ",
+          "relation": "explicit_alias",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave7-sources.json",
+            "source_ref": "content/bulk-mid-wave7",
+            "canonical_or_pending_path": "memes/dududunga.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w7-excluded_duplicates-1",
+      "title": "멈뭄미·고먐미",
+      "original_record_status": "excluded_duplicates",
+      "connections": [
+        {
+          "candidate_id": "mid-065",
+          "candidate_title": "멈뭄미, 고먐미",
+          "relation": "compound_delimiter_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave7-sources.json",
+            "source_ref": "content/bulk-mid-wave7",
+            "canonical_or_pending_path": "memes/meommummi.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w8-entries-3",
+      "title": "류승룡 기모찌",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-046",
+          "candidate_title": "류승룡 기모찌!",
+          "relation": "punctuation_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave8-sources.json",
+            "source_ref": "content/bulk-mid-wave8",
+            "canonical_or_pending_path": "memes/ryuseungryong-gimochi.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w8-entries-5",
+      "title": "펭하",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-194",
+          "candidate_title": "펭수",
+          "relation": "character_to_greeting_not_equivalent",
+          "equivalence": false,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave8-sources.json",
+            "source_ref": "content/bulk-mid-wave8",
+            "canonical_or_pending_path": "memes/peng-ha.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w9-entries-2",
+      "title": "알 수 없는 유튜브 알고리즘",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-183",
+          "candidate_title": "유튜브 알고리즘",
+          "relation": "narrower_format_not_full_equivalence",
+          "equivalence": false,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave9-sources.json",
+            "source_ref": "content/bulk-mid-wave9",
+            "canonical_or_pending_path": "memes/unknown-youtube-algorithm.md",
+            "note": "짧은 뜻풀이와 기존 manifest의 제한된 형식을 연결. 전체 범주와 동일 항목이라는 뜻은 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w9-entries-5",
+      "title": "병진이 형은 나가",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-175",
+          "candidate_title": "병진이 형은 나가.. 뒈지기 싫으면",
+          "relation": "shortened_quote",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave9-sources.json",
+            "source_ref": "content/bulk-mid-wave9",
+            "canonical_or_pending_path": "memes/byeongjin-leave.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w9-entries-6",
+      "title": "미안하다 이거 보여주려고 어그로 끌었다",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-232",
+          "candidate_title": "미안하다 이거 보여주려고 어그로끌었다",
+          "relation": "spacing_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave9-sources.json",
+            "source_ref": "content/bulk-mid-wave9",
+            "canonical_or_pending_path": "memes/sorry-for-clickbait.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w9-review_ledger-7",
+      "title": "니 인생이 레전드다",
+      "original_record_status": "held",
+      "connections": [
+        {
+          "candidate_id": "mid-109",
+          "candidate_title": "니 인생이 레전드다ㅋㅋ",
+          "relation": "laughter_suffix_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave9-sources.json",
+            "source_ref": "content/bulk-mid-wave9",
+            "canonical_or_pending_path": null,
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    },
+    {
+      "history_id": "mid-w10-entries-2",
+      "title": "던질까 말까",
+      "original_record_status": "ready_for_editorial_review",
+      "connections": [
+        {
+          "candidate_id": "mid-168",
+          "candidate_title": "던질까말까",
+          "relation": "spacing_variant",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave10-sources.json",
+            "source_ref": "content/bulk-mid-wave10",
+            "canonical_or_pending_path": "memes/throw-or-not.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        },
+        {
+          "candidate_id": "mid-215",
+          "candidate_title": "오뚝이 다트",
+          "relation": "explicit_alias",
+          "equivalence": true,
+          "evidence": {
+            "source_manifest": "reports/bulk/mid-wave10-sources.json",
+            "source_ref": "content/bulk-mid-wave10",
+            "canonical_or_pending_path": "memes/throw-or-not.md",
+            "note": "기존 표제·별칭·manifest 및 기록된 정의 대조. 신규 외부 검증 아님."
+          }
+        }
+      ],
+      "decision": "relationship_verified_not_status_promotion"
+    }
+  ],
+  "original_rows": [
+    {
+      "candidate_id": "mid-001",
+      "title": "~각",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/gak-situation.md",
+          "title": "~각",
+          "definition": "어떤 일이 벌어질 것 같거나 무엇을 하기에 알맞은 상황임을 나타내는 말붙임. 앞에 행동이나 결과를 넣어 쓴다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-004",
+      "title": "꽃길",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/flower-road.md",
+          "title": "꽃길만 걷자",
+          "definition": "앞으로 좋은 일과 행복이 이어지기를 바라는 말. 상대의 앞날을 꽃이 핀 길에 빗대어 응원한다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-007",
+      "title": "날이 좋아서",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/because-good-day.md",
+          "title": "날이 좋아서",
+          "definition": "날씨나 상황을 나열하며 함께한 시간을 소중하게 회상하는 문장 틀. 조건을 바꿔 넣어 낭만적인 감정이나 익살스러운 반전을 만든다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-010",
+      "title": "디오니소스 밈",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/dionysus-mood-broken.md",
+          "title": "너 때문에 흥이 다 깨져버렸으니까 책임져",
+          "definition": "즐거운 분위기가 끊겼다는 불만을 과장된 대사로 표현하는 밈. 진지하게 책임을 추궁하기보다 익숙한 애니메이션 장면을 재현하는 형식으로 알려졌다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-014",
+      "title": "문송합니다",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/sorry-humanities.md",
+          "title": "문송합니다",
+          "definition": "문과라서 죄송합니다를 줄인 말. 문과 출신이 취업 등에서 어려움을 느끼는 처지를 자조적으로 표현한다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-015",
+      "title": "방구석 여포",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/keyboard-lubu.md",
+          "title": "방구석 여포",
+          "definition": "현실에서의 모습과 달리 온라인에서 유독 거칠고 기세등등하게 말하는 사람을 비꼬는 표현.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-019",
+      "title": "이거 실화냐",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/is-this-real.md",
+          "title": "이거 실화냐",
+          "definition": "놀랍거나 황당해서 믿기 어려운 상황에 진짜냐고 되묻는 감탄. 좋은 일과 당혹스러운 일 모두에 쓸 수 있다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-023",
+      "title": "응 아니야~",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w6-entries-2",
+          "relation": "punctuation_variant",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-027",
+      "title": "있었는데요 없었습니다",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/it-was-gone.md",
+          "title": "있었는데요 없었습니다",
+          "definition": "방금까지 있던 물건이나 돈, 기회가 감쪽같이 사라졌다고 두 문장으로 대비하는 농담. 있었던 사실을 말하자마자 없었다고 뒤집어 빠른 소멸을 강조한다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-032",
+      "title": "킹갓엠페러제너럴충무공마제스티.....",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w6-entries-9",
+          "relation": "punctuation_variant",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-038",
+      "title": "행복회로",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/happy-circuit.md",
+          "title": "행복회로",
+          "definition": "불확실하거나 불리한 현실을 자신에게 유리하게 해석하면서 좋은 결과를 상상하는 태도를 가리키는 말.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-039",
+      "title": "형이 왜 거기서 나와",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/why-are-you-there.md",
+          "title": "형이 왜 거기서 나와",
+          "definition": "그 자리에 있을 줄 몰랐던 대상의 등장에 놀라거나 의아해하는 말",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-041",
+      "title": "PPAP",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/ppap.md",
+          "title": "PPAP",
+          "definition": "펜·사과·파인애플을 든 듯한 동작과 짧은 반복 구절을 따라 하는 노래·춤 패러디. 상상의 물건을 합치는 손동작이 웃음을 만든다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-042",
+      "title": "아기상어",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w1-entries-6",
+          "relation": "narrower_format_not_full_equivalence",
+          "equivalence": false,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-044",
+      "title": "뭣이 중헌디",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/mwosi-jungheondi.md",
+          "title": "뭣이 중헌디",
+          "definition": "무엇이 중요하냐는 뜻의 전라도 말투다. 무엇이 중요한지 몰라서 묻기보다, 상대가 우선순위를 잘못 잡았다고 지적하는 반문에 가깝다. 주장하고 싶은 대상 뒤에 붙이면 그것이 가장 중요하다는 강조가 된다. 영화처럼 목소리를 높일 수도 있지만 글에서는 짧고 능청스러운 설득으로도 쓰인다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-046",
+      "title": "류승룡 기모찌!",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/ryuseungryong-gimochi.md",
+          "title": "류승룡 기모찌",
+          "definition": "오버워치 겐지의 일본어 음성을 익숙한 이름과 소리로 엉뚱하게 받아적은 말장난이다. 실제 번역이 아니라 비슷하게 들린다는 설정을 함께 즐기는 표현이다.",
+          "status_effect": "none"
+        },
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w8-entries-3",
+          "relation": "punctuation_variant",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-050",
+      "title": "가즈아",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/gazua.md",
+          "title": "가즈아",
+          "definition": "가자를 길게 외치는 듯 바꾼 말. 원하는 일이 이루어지기를 빌거나 함께 나아가자는 기세를 올릴 때 쓴다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-051",
+      "title": "갬성",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/gaemseong.md",
+          "title": "갬성",
+          "definition": "감성을 장난스럽게 비튼 표기. 공간이나 사진의 특별한 분위기와 느낌을 가볍게 강조한다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-052",
+      "title": "그런데 짜잔!",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/geureonde-jjajan.md",
+          "title": "그런데 짜잔",
+          "definition": "불가능하다고 하거나 하지 않겠다고 했던 일이 실제로 나타나는 반전을 익살스럽게 알리는 표현이다. 앞선 장담을 뒤집는 결과를 밝히며 능청스럽게 분위기를 전환한다.",
+          "status_effect": "none"
+        },
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w5-entries-6",
+          "relation": "punctuation_variant",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-053",
+      "title": "고인물 드립",
+      "observations": [
+        {
+          "kind": "canonical_semantic_relationship",
+          "path": "memes/old-water-expert.md",
+          "title": "고인물",
+          "relation": "label_suffix_variant",
+          "definition": "한 게임이나 분야에 오래 머물러 지식과 실력이 깊게 쌓인 사람을 비유하는 말.",
+          "history_ids": [],
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-062",
+      "title": "떡상, 떡락",
+      "observations": [
+        {
+          "kind": "canonical_semantic_relationship",
+          "path": "memes/tteoksang.md",
+          "title": "떡상",
+          "relation": "component_of_compound_label",
+          "definition": "‘떡’과 상승을 나타내는 ‘상’을 결합한 표현이다. 가격뿐 아니라 영상의 조회수나 채널의 인기가 빠르게 늘 때도 쓴다. 앞으로 크게 오를 것 같다는 예상에는 ‘떡상각’처럼 변형해 쓰기도 한다.",
+          "history_ids": [],
+          "status_effect": "none"
+        },
+        {
+          "kind": "canonical_semantic_relationship",
+          "path": "memes/tteokrak.md",
+          "title": "떡락",
+          "relation": "component_of_compound_label",
+          "definition": "가격이나 수치가 갑자기 크게 떨어지는 것을 과장해서 부르는 말. 투자 커뮤니티에서 시세의 큰 낙폭을 이야기할 때 쓴다.",
+          "history_ids": [],
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-063",
+      "title": "존버",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/jonbeo.md",
+          "title": "존버",
+          "definition": "비속어 ‘존나’와 버티기를 합친 축약어다. 힘든 시기를 견디거나 원하는 때가 올 때까지 기다리는 태도를 말한다. 투자에서는 가격이 떨어져도 팔지 않고 회복을 기다리는 행동을 가리키기도 한다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-065",
+      "title": "멈뭄미, 고먐미",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w2-entries-4",
+          "relation": "component_of_compound_label",
+          "equivalence": false,
+          "status_effect": "none"
+        },
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w7-excluded_duplicates-1",
+          "relation": "compound_delimiter_variant",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-072",
+      "title": "빅데이터 드립",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w7-entries-2",
+          "relation": "narrower_format_not_full_equivalence",
+          "equivalence": false,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-074",
+      "title": "뽀짝",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/ppojjak.md",
+          "title": "뽀짝",
+          "definition": "작고 사랑스러운 모습을 보고 귀엽다는 감정을 강조하는 표현. 귀염뽀짝·큐티뽀짝처럼 다른 말과 붙여 쓰기도 한다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-076",
+      "title": "상상도 못한 정체",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/sangmottjeong.md",
+          "title": "상상도 못한 정체",
+          "definition": "진짜 놀람을 전하기도 하고, 사소한 반전을 유난스럽게 받아들이는 농담으로도 쓴다. ㄴㅇㄱ는 단순 초성 축약이 아니라 벌어진 입과 서로 다른 방향으로 든 팔을 닮은 문자 그림이다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-084",
+      "title": "탈룰라",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/tallula.md",
+          "title": "탈룰라",
+          "definition": "뜻밖의 사정을 알아차린 뒤 실언을 무마하려고 칭찬이나 변명으로 급전환하는 것",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-085",
+      "title": "투 머치 토커",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/too-much-talker.md",
+          "title": "투 머치 토커",
+          "definition": "말을 길게 이어 가는 사람을 장난스럽게 부르는 표현. 이야기가 좀처럼 끝나지 않는 모습에 초점을 둔다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-086",
+      "title": "트로피카나 스파클링",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/tropicana-dance.md",
+          "title": "트로피카나 스파클링",
+          "definition": "주이가 출연한 광고의 반복 음악과 격렬한 춤을 따라 하거나 다른 영상과 합성하는 밈.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-093",
+      "title": "트로피카나 스파클링",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/tropicana-dance.md",
+          "title": "트로피카나 스파클링",
+          "definition": "주이가 출연한 광고의 반복 음악과 격렬한 춤을 따라 하거나 다른 영상과 합성하는 밈.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-095",
+      "title": "급식체",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/school-slang-style.md",
+          "title": "급식체",
+          "definition": "인터넷 은어와 비슷한 소리의 말을 줄줄이 이어 동의나 감탄을 과장하는 말투. 논리적인 뜻보다 운율과 말장난을 즐긴다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-097",
+      "title": "3대500",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/three-lifts-500.md",
+          "title": "3대500",
+          "definition": "벤치프레스·데드리프트·스쿼트 중량의 합이 500kg여야 특정 운동복을 입을 수 있다는 가상의 규칙을 내세우는 농담. 언더아머를 운동 고수만 입는 옷처럼 과장하는 ‘단속반’ 설정으로 쓰인다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-098",
+      "title": "~~였던것",
+      "observations": [
+        {
+          "kind": "held_history_relationship",
+          "path": null,
+          "title": "였던 것 드립",
+          "relation": "recorded_held_variant",
+          "history_ids": [
+            "mid-w9-review_ledger-4"
+          ],
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-106",
+      "title": "나는 예쁘지 않습니다.",
+      "observations": [
+        {
+          "kind": "held_history_relationship",
+          "path": null,
+          "title": "나는 예쁘지 않습니다",
+          "relation": "recorded_held_punctuation_variant",
+          "history_ids": [
+            "mid-w8-held-10"
+          ],
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-107",
+      "title": "뇌절",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/noejeol.md",
+          "title": "뇌절",
+          "definition": "이미 충분히 한 농담이나 행동을 멈추지 않고 반복하거나 지나치게 늘여 상대를 질리게 하는 것. 처음에는 재미있었어도 적당한 선을 넘었다는 평가가 담긴다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-109",
+      "title": "니 인생이 레전드다ㅋㅋ",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w9-review_ledger-7",
+          "relation": "laughter_suffix_variant",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-111",
+      "title": "돈가스 좋아하세요~?",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w6-entries-10",
+          "relation": "punctuation_variant",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-117",
+      "title": "부먹 vs 찍먹",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/pour-or-dip.md",
+          "title": "부먹 vs 찍먹",
+          "definition": "탕수육 소스를 부어 먹느냐 찍어 먹느냐의 취향 차이를 거창한 편 가르기와 토론처럼 즐기는 밈.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-122",
+      "title": "아이엠그루트",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/i-am-groot.md",
+          "title": "아이엠그루트",
+          "definition": "하고 싶은 말은 있지만 직접 드러내지 않겠다는 뜻으로 캐릭터의 반복 대사를 대신 적는 댓글 밈.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-125",
+      "title": "엄근진",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/stern-serious.md",
+          "title": "엄근진",
+          "definition": "엄격·근엄·진지의 앞글자를 합친 말. 표정이나 분위기가 유난히 진지해 보일 때 장난스럽게 붙인다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-133",
+      "title": "자강두천",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/jagang-ducheon.md",
+          "title": "자강두천",
+          "definition": "‘자존심 강한 두 천재’를 줄인 말이다. 천재라는 칭찬을 그대로 받아들이기보다 문맥을 봐야 한다. 둘 다 실수를 반복하거나 끝까지 지지 않으려 드는 모습을 비꼴 때가 많다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-135",
+      "title": "존맛탱",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/jonmattaeng.md",
+          "title": "존맛탱",
+          "definition": "음식이 아주 맛있다는 뜻을 강하게 표현하는 속어식 칭찬.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-138",
+      "title": "킹리적 갓심",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/king-reasonable-suspicion.md",
+          "title": "킹리적 갓심",
+          "definition": "정황상 그럴듯한 의심이라는 뜻을 킹과 갓으로 과장한 표현.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-140",
+      "title": "태보 해",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/taebo-hae.md",
+          "title": "태보해",
+          "definition": "조혜련의 태보 운동 영상을 활용한 합성물과 함께 퍼진 반복 구호. 실제 운동 지시라기보다 원본 영상의 리듬과 분위기를 떠올리게 하는 장난스러운 문구다.",
+          "status_effect": "none"
+        },
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w1-entries-3",
+          "relation": "equivalent_spelling",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-141",
+      "title": "폰은정",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/pon-eunjeong.md",
+          "title": "폰은정",
+          "definition": "지어낸 이야기를 실제로 있었던 일처럼 말하는 상황을 가리키는 밈. 여기서 나온 ‘폰~’은 실재하지 않거나 진짜가 아닌 대상의 이름 앞에 붙여 쓰는 표현이다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-147",
+      "title": "TMI",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/tmi.md",
+          "title": "TMI",
+          "definition": "상대가 굳이 원하지 않은 세세한 정보나 필요 이상으로 긴 이야기를 가리키는 말.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-153",
+      "title": "야민정음",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/yamin-jeongeum.md",
+          "title": "야민정음",
+          "definition": "글자 모양이 비슷하다는 점을 이용해 한글이나 다른 문자를 바꾸어 쓰는 말장난. 뜻은 읽히지만 표기는 낯선 차이를 즐긴다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-157",
+      "title": "전국 handclap 자랑",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/national-handclap.md",
+          "title": "전국 HandClap 자랑",
+          "definition": "팝 음악 「HandClap」에 「전국노래자랑」의 주제곡과 진행 멘트를 결합한 매시업. 서로 다른 음악·방송의 익숙한 요소가 맞물리는 의외성으로 즐기는 영상·음악 형식이다.",
+          "status_effect": "none"
+        },
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w1-entries-4",
+          "relation": "case_variant",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-170",
+      "title": "라떼는 말이야",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/latte-is-horse.md",
+          "title": "라떼는 말이야",
+          "definition": "자기 시절의 경험을 앞세우는 태도를 비꼬거나 스스로 가볍게 회상하는 말",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-175",
+      "title": "병진이 형은 나가.. 뒈지기 싫으면",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w9-entries-5",
+          "relation": "shortened_quote",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-179",
+      "title": "쌉~",
+      "observations": [
+        {
+          "kind": "canonical_semantic_relationship",
+          "path": "memes/ssap-ganeung.md",
+          "title": "쌉가능",
+          "relation": "one_example_only_not_full_equivalence",
+          "definition": "충분히 가능하다는 뜻을 완전·매우의 느낌으로 세게 강조하는 말.",
+          "history_ids": [],
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-182",
+      "title": "야 너두 ○○ 할 수 있어",
+      "observations": [
+        {
+          "kind": "canonical_semantic_relationship",
+          "path": "memes/ya-neodu.md",
+          "title": "야 너두",
+          "relation": "template_variant",
+          "definition": "질문형으로 쓰면 나도 그렇다는 동질감이 중심이다. 할 수 있어까지 붙이면 상대를 격려하는 원래 광고의 의미가 강해진다. 두 용법은 말끝과 맥락에 따라 구분된다.",
+          "history_ids": [],
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-183",
+      "title": "유튜브 알고리즘",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w9-entries-2",
+          "relation": "narrower_format_not_full_equivalence",
+          "equivalence": false,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-191",
+      "title": "제시카 외동딸 일리노이 시카고",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/jessica-jingle.md",
+          "title": "제시카 외동딸 일리노이 시카고",
+          "definition": "인물 소개를 리듬에 맞춰 외우는 영화 장면을 흉내 낸다. 짧고 반복하기 쉬운 소리를 즐기거나 음악과 영상으로 다시 구성하는 형식이다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-192",
+      "title": "중립기어",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/neutral-gear.md",
+          "title": "중립기어",
+          "definition": "논란의 사실관계가 충분히 드러날 때까지 어느 쪽이 맞는지 판단을 미루겠다는 표현.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-194",
+      "title": "펭수",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w8-entries-5",
+          "relation": "character_to_greeting_not_equivalent",
+          "equivalence": false,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-195",
+      "title": "플렉스",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/flex.md",
+          "title": "플렉스",
+          "definition": "가진 것을 뽐내거나 마음먹고 돈을 쓰는 모습을 나타내는 말. 큰 소비를 했다는 자랑이나 가벼운 자기만족에 쓰인다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-200",
+      "title": "절대태보해",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/taebo-hae.md",
+          "title": "태보해",
+          "definition": "조혜련의 태보 운동 영상을 활용한 합성물과 함께 퍼진 반복 구호. 실제 운동 지시라기보다 원본 영상의 리듬과 분위기를 떠올리게 하는 장난스러운 문구다.",
+          "status_effect": "none"
+        },
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w1-entries-3",
+          "relation": "explicit_alias",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-211",
+      "title": "일본 불매운동",
+      "observations": [
+        {
+          "kind": "held_history_relationship",
+          "path": null,
+          "title": "노 재팬",
+          "relation": "movement_label_related_held",
+          "history_ids": [
+            "mid-w9-review_ledger-13"
+          ],
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-213",
+      "title": "곽철용",
+      "observations": [
+        {
+          "kind": "held_history_relationship",
+          "path": null,
+          "title": "곽철용 밈",
+          "relation": "person_label_related_held",
+          "history_ids": [
+            "mid-w9-review_ledger-12"
+          ],
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-215",
+      "title": "오뚝이 다트",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w10-entries-2",
+          "relation": "explicit_alias",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-221",
+      "title": "아마존 익스프레스",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w6-entries-11",
+          "relation": "narrower_format_not_full_equivalence",
+          "equivalence": false,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-224",
+      "title": "야나두",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w5-excluded_duplicates-1",
+          "relation": "brand_to_ad_phrase_not_equivalent",
+          "equivalence": false,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-225",
+      "title": "관짝소년단",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/coffin-dance.md",
+          "title": "관짝소년단",
+          "definition": "실패나 위기를 예고하는 장면 뒤에 관을 메고 춤추는 공연팀 영상을 붙이는 편집 밈.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-226",
+      "title": "깡",
+      "observations": [
+        {
+          "kind": "canonical_semantic_relationship",
+          "path": "memes/one-day-one-ggang.md",
+          "title": "1일 1깡",
+          "relation": "song_to_challenge_not_equivalent",
+          "definition": "비의 노래 ‘깡’을 하루에 한 번씩 본다는 말에서 나온 감상 놀이. 영상 자체뿐 아니라 댓글의 농담을 읽고 안무와 표정을 흉내 내는 재미까지 묶어 가리킨다.",
+          "history_ids": [],
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-228",
+      "title": "나비보벳따우",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/nabi-bobettau.md",
+          "title": "나비보벳따우",
+          "definition": "동물의 숲의 노래 K.K.하우스에서 들리는 소리를 한글로 옮긴 표현. 정식 가사의 번역이 아니라 들리는 음 자체를 재미있게 따라 하는 밈이다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-232",
+      "title": "미안하다 이거 보여주려고 어그로끌었다",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w9-entries-6",
+          "relation": "spacing_variant",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-233",
+      "title": "ㄹㅇㅋㅋ",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/real-lol.md",
+          "title": "ㄹㅇㅋㅋ",
+          "definition": "진짜라는 뜻의 ㄹㅇ에 웃음을 붙인 짧은 반응. 그대로 동의하기도 하고, 동의하는 척하며 상대를 비꼬기도 한다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-235",
+      "title": "ㅋㅋ",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/kk-text-laughter.md",
+          "title": "ㅋㅋ",
+          "definition": "웃긴 말에 반응하거나 대화를 부드럽게 이어 가려고 쓴다. 문맥에 따라 비웃음으로 읽힐 수도 있으므로 글자 수만으로 상대의 실제 기분이나 의도를 단정할 수는 없다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-236",
+      "title": "ㅋㅋ루삥뽕",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/keke-rupingpong.md",
+          "title": "ㅋㅋ루삥뽕",
+          "definition": "가볍게 웃거나 상대를 놀릴 때 쓴다. 특정 정보를 전달하기보다는 소리의 재미를 살리는 말이다. 진지한 이야기나 실수에 붙이면 비웃는 말로 들릴 수 있다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-239",
+      "title": "인싸",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/insider-outsider.md",
+          "title": "인싸·아싸",
+          "definition": "인싸는 모임에 적극적으로 어울리는 사람을, 아싸는 무리 바깥에 있거나 혼자 지내는 사람을 가리키는 대비되는 표현이다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-240",
+      "title": "아싸 드립",
+      "observations": [
+        {
+          "kind": "canonical_semantic_relationship",
+          "path": "memes/insider-outsider.md",
+          "title": "인싸·아싸",
+          "relation": "component_of_compound_label",
+          "definition": "인싸는 모임에 적극적으로 어울리는 사람을, 아싸는 무리 바깥에 있거나 혼자 지내는 사람을 가리키는 대비되는 표현이다.",
+          "history_ids": [],
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-245",
+      "title": "이왜진",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/iwaejin.md",
+          "title": "이왜진",
+          "definition": "믿기 힘든 일이 정말 일어났음을 알고 놀라거나 어이없어하는 말",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-246",
+      "title": "다메다메",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/dame-dame.md",
+          "title": "다메다메",
+          "definition": "용과 같이의 노래 바보같이에 맞춰 사진 속 얼굴이 립싱크하는 듯 움직이는 합성 영상 밈. 진지한 노래와 부자연스러운 표정의 대비가 웃음을 만든다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-248",
+      "title": "테스형",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/tes-brother.md",
+          "title": "테스형",
+          "definition": "소크라테스를 친한 형처럼 부르며 세상살이의 답답함을 푸념하는 노래의 말투를 재연하는 밈.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-253",
+      "title": "빅맥송",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/big-mac-song.md",
+          "title": "빅맥송",
+          "definition": "빅맥의 재료를 리듬에 맞춰 부르는 광고 노래를 여러 창법과 상황으로 따라 하는 밈.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-254",
+      "title": "PET THE PEEPO",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/pet-the-peepo.md",
+          "title": "펫 더 피포",
+          "definition": "화면 속 손이 캐릭터의 머리를 쓰다듬는 움짤과 영상 형식이다. 우울한 표정이 밝아지는 변형은 다독임이나 애정을 표현하며, 쓰다듬는 대상을 다른 캐릭터로 바꾸기도 한다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-255",
+      "title": "불 좀 꺼줄래?",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/turn-off-light-ram.md",
+          "title": "불 좀 꺼줄래?",
+          "definition": "페이커가 출연한 광고에서 빛나는 메모리를 보여 주기 위해 조명을 꺼 달라고 말하는 장면을 재연하는 표현이다. 평범한 부탁을 광고처럼 진지하게 연기하는 점이 특징이다. 실제로 조명을 꺼 달라는 요청만으로는 이 밈을 쓴 것이라고 볼 수 없다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-256",
+      "title": "사쿠란보",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/sakuranbo-challenge.md",
+          "title": "사쿠란보 챌린지",
+          "definition": "오오츠카 아이의 사쿠란보에 맞춰 발랄한 표정과 손동작을 보여 주거나 각자의 방식으로 춤추는 영상 놀이.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-260",
+      "title": "수상할 정도로 돈이 없는 퍼리",
+      "observations": [],
+      "result": "unresolved",
+      "unresolved_reason": "현재 문서만으로 동일 형식 또는 안전한 범위 연결을 확정하지 않음."
+    },
+    {
+      "candidate_id": "mid-266",
+      "title": "호박고구마",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/pumpkin-sweet-potato.md",
+          "title": "호박고구마",
+          "definition": "말꼬리를 잡히다가 참던 화가 터지는 장면을 흉내 내는 대사 밈. 음식 이름을 갑자기 큰 소리로 외치는 대비가 웃음을 만든다.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-271",
+      "title": "ㄷㄷㄷㅈ",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/dududunga.md",
+          "title": "두둥등장",
+          "definition": "누군가 나타나거나 새로운 것이 공개될 때 효과음을 붙이듯 등장감을 과장하는 표현이다. 초성이나 소리 나는 대로 적은 영문 표기도 함께 쓰인다.",
+          "status_effect": "none"
+        },
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w7-entries-3",
+          "relation": "explicit_alias",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-273",
+      "title": "관짝춤",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/coffin-dance.md",
+          "title": "관짝소년단",
+          "definition": "실패나 위기를 예고하는 장면 뒤에 관을 메고 춤추는 공연팀 영상을 붙이는 편집 밈.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-276",
+      "title": "~은(는) 사드세요.....제발",
+      "observations": [
+        {
+          "kind": "historical_relationship",
+          "history_id": "mid-w5-held-10",
+          "relation": "template_notation_variant",
+          "equivalence": true,
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-285",
+      "title": "테스형!",
+      "observations": [
+        {
+          "kind": "canonical_explicit_title_alias",
+          "path": "memes/tes-brother.md",
+          "title": "테스형",
+          "definition": "소크라테스를 친한 형처럼 부르며 세상살이의 답답함을 푸념하는 노래의 말투를 재연하는 밈.",
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-289",
+      "title": "어몽어스",
+      "observations": [
+        {
+          "kind": "held_history_relationship",
+          "path": null,
+          "title": "어몽어스 유행",
+          "relation": "game_label_related_held",
+          "history_ids": [
+            "mid-w9-review_ledger-22"
+          ],
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    },
+    {
+      "candidate_id": "mid-296",
+      "title": "Pop Cat",
+      "observations": [
+        {
+          "kind": "canonical_semantic_relationship",
+          "path": "memes/popcat-click.md",
+          "title": "팝캣",
+          "relation": "transliteration",
+          "definition": "짧게 입을 움직이는 모습이 반복되는 것이 특징이다. 이를 이용한 웹 게임에서는 화면을 누른 횟수를 국가별로 모아 순위를 겨룬다. 여기서는 고양이 이미지와 클릭 놀이를 가리키며 같은 이름의 금융 상품은 다루지 않는다.",
+          "history_ids": [],
+          "status_effect": "none"
+        }
+      ],
+      "result": "relationship_observed",
+      "unresolved_reason": null
+    }
+  ],
+  "additional_body_reads": [
+    "memes/are-you-crazy-human.md",
+    "memes/meommummi.md",
+    "memes/ya-neodu.md",
+    "memes/popcat-click.md"
+  ],
+  "correction_note": "수상할 정도로 돈이 없는 퍼리는 원후보 topic_url이 몬타나 존스 등장인물을 가리킨다. wave9 돈이 많은 퍼리와 동일한 변형이라고 제목만으로 단정하지 않고 unresolved 유지.",
+  "validation": {
+    "prior_report_unchanged": true,
+    "canonical_unchanged": true,
+    "main_pr_unchanged": true,
+    "ci_run": false
+  }
+}
