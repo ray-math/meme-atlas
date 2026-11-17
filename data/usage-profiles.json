@@ -2924,8 +2924,8 @@
     {
       "entry_id": "help-speedwagon",
       "source_sha": "c8bd6618ae8eebb8b974385133ac3a4cfea41e9d",
-      "review_status": "draft",
-      "review_note": "온라인 글의 용어·배경 해설을 요청하는 용법만 주석한다. canonical의 궁금함 표제를 실제 내면 감정으로 자동 전환하지 않아 unknown을 유지한다. 외부 근거는 source_review의 조사 담당 직접 확인 보고를 참고했으며 이번 작성자의 외부 원문 재독은 아니다.",
+      "review_status": "reviewed",
+      "review_note": "온라인 글의 용어·배경 해설을 요청하는 용법만 주석한다. canonical의 궁금함 표제를 실제 내면 감정으로 자동 전환하지 않아 unknown을 유지한다. 외부 근거는 source_review의 조사 담당 직접 확인 보고를 참고했으며 이번 작성자의 외부 원문 재독은 아니다. 공개주석·정의 유래8입력의 실제Python(48741444), 동결AI답안(03e5df2) 및 별도AI 의미·사실·위험검토로 현재 용법만 검토함. 일반기능 필터가 온라인맥락을 인증하지 않는 한계를 유지하고 caution·기본추천제외·최종문맥검토가 필요함. 독립블라인드/인간정확도나 실제공개성·응답의무·진실성 검증이 아니다.",
       "usages": [
         {
           "id": "request-online-context",
@@ -2974,8 +2974,8 @@
     {
       "entry_id": "internet-pilgrimage",
       "source_sha": "1b1371d5bd9c6f841f6e8990e82c190581ae96c4",
-      "review_status": "draft",
-      "review_note": "기존 공개 화제글을 보았다는 방문 표시만 주석한다. 소원·예언 적중 인증·작성자 평가 파생은 포함하지 않는다. 외부 근거는 source_review의 조사 담당 직접 확인 보고를 참고했으며 이번 작성자의 외부 원문 재독은 아니다.",
+      "review_status": "reviewed",
+      "review_note": "기존 공개 화제글을 보았다는 방문 표시만 주석한다. 소원·예언 적중 인증·작성자 평가 파생은 포함하지 않는다. 외부 근거는 source_review의 조사 담당 직접 확인 보고를 참고했으며 이번 작성자의 외부 원문 재독은 아니다. 공개주석·정의 유래8입력의 실제Python(48741444), 동결AI답안(03e5df2) 및 별도AI 의미·사실·위험검토로 현재 용법만 검토함. 일반기능 필터가 온라인맥락을 인증하지 않는 한계를 유지하고 caution·기본추천제외·최종문맥검토가 필요함. 독립블라인드/인간정확도나 실제공개성·응답의무·진실성 검증이 아니다.",
       "usages": [
         {
           "id": "mark-public-post-visit",

@@ -32,14 +32,14 @@ class ExplanationVisitDraftTests(unittest.TestCase):
         self.assertNotEqual(response['status'], 'unsupported_filter')
         return [h for h in response['results'] if h['entry_id'] == identity]
 
-    def test_source_bound_unknown_caution_drafts(self):
+    def test_source_bound_unknown_caution_reviews(self):
         profiles = [p for p in load_profiles(ROOT)['profiles'] if p['entry_id'] in self.SPEC]
         self.assertEqual({p['entry_id'] for p in profiles}, set(self.SPEC))
         for p in profiles:
             spec = self.SPEC[p['entry_id']]
             self.assertEqual(p['source_sha'], spec['sha'])
             self.assertEqual(p['source_sha'], blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))
-            self.assertEqual(p['review_status'], 'draft')
+            self.assertEqual(p['review_status'], 'reviewed')
             self.assertEqual(len(p['usages']), 1)
             u = p['usages'][0]
             self.assertEqual(u['id'], spec['usage_id'])
@@ -64,17 +64,6 @@ class ExplanationVisitDraftTests(unittest.TestCase):
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]['aliases'], [])
             self.assertTrue(rows[0]['definition'].strip())
-
-    def test_actual_drafts_hidden_in_both_modes(self):
-        for entry in self.index['entries']:
-            if entry['id'] not in self.SPEC:
-                continue
-            req = self.SPEC[entry['id']]['requirements']
-            for mode in ('lookup', 'recommend'):
-                for filters in (req, {'query': entry['title']},
-                                dict(req, query=entry['title'])):
-                    with self.subTest(identity=entry['id'], mode=mode, filters=filters):
-                        self.assertFalse(self.hits(self.index, entry['id'], mode=mode, **filters))
 
     def test_hypothetical_caution_lookup_is_not_recommendation(self):
         for identity, spec in self.SPEC.items():
