@@ -11,7 +11,7 @@ from search_usage import search
 from evaluation_records import ACTIONS, indexed_records
 
 def replay(plans, root=ROOT):
-    indexed_records({'plans': plans}, 'plans')
+    indexed_records({'schema_version':1, 'plans': plans}, 'plans')
     for plan in plans:
         if plan.get('action') not in ACTIONS:
             raise ValueError('unsupported plan action')

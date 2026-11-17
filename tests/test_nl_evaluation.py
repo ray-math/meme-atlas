@@ -36,11 +36,11 @@ class VocabularyContractTests(unittest.TestCase):
 
 class ScoreContractTests(unittest.TestCase):
     def sample(self):
-        return ({'cases':[{'id':'x','expected_action':'recommend','confidence':'high',
+        return ({'schema_version':1,'cases':[{'id':'x','expected_action':'recommend','confidence':'high',
                            'acceptable_entry_ids':['a']}]},
-                {'results':[{'id':'x','retrieval':{'status':'matches','results':[{'entry_id':'a','usage_id':'u'}]}}]},
-                {'answers':[{'id':'x','action':'recommend','selected_entry_id':'a','selected_usage_id':'u'}]},
-                {'judgments':[{'id':'x','action_ok':True,'selection_ok':True,'constraints_ok':True,'unsafe':False}]})
+                {'schema_version':1,'results':[{'id':'x','retrieval':{'status':'matches','results':[{'entry_id':'a','usage_id':'u'}]}}]},
+                {'schema_version':1,'answers':[{'id':'x','action':'recommend','selected_entry_id':'a','selected_usage_id':'u'}]},
+                {'schema_version':1,'judgments':[{'id':'x','action_ok':True,'selection_ok':True,'constraints_ok':True,'unsafe':False}]})
     def test_known_score(self):
         from score_nl_evaluation import score
         report=score(*self.sample())
@@ -84,7 +84,7 @@ class ScoreContractTests(unittest.TestCase):
     def test_empty_evaluation_rejected(self):
         from score_nl_evaluation import score
         with self.assertRaises(ValueError):
-            score({'cases':[]},{'results':[]},{'answers':[]},{'judgments':[]})
+            score({'schema_version':1,'cases':[]},{'schema_version':1,'results':[]},{'schema_version':1,'answers':[]},{'schema_version':1,'judgments':[]})
     def test_unknown_answer_action_rejected(self):
         from score_nl_evaluation import score
         values=self.sample();values[2]['answers'][0]['action']='publish'

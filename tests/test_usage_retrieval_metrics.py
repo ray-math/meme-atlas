@@ -6,8 +6,8 @@ from measure_usage_retrieval import measure
 
 class UsageRetrievalMetricTests(unittest.TestCase):
  def sample(self,usage='wrong',separator=':'):
-  return ({'cases':[{'id':'x','expected_action':'recommend','acceptable_usage_ids':['entry'+separator+'right']}]},
-          {'results':[{'id':'x','retrieval':{'results':[{'entry_id':'entry','usage_id':usage}]}}]})
+  return ({'schema_version':1,'cases':[{'id':'x','expected_action':'recommend','acceptable_usage_ids':['entry'+separator+'right']}]},
+          {'schema_version':1,'results':[{'id':'x','retrieval':{'schema_version':1,'results':[{'entry_id':'entry','usage_id':usage}]}}]})
  def test_same_entry_wrong_usage_is_miss(self):
   result=measure(*self.sample())['groups']['recommendation_requests']
   self.assertEqual(result['recall_hits'],0);self.assertEqual(result['relevant_candidates'],0)

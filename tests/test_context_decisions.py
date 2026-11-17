@@ -6,10 +6,10 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from check_context_decisions import validate_decisions
 class ContextDecisionTests(unittest.TestCase):
  def sample(self):
-  return ({'prompt_version':'contextual-v2','plans':[{'id':'x','prompt':'서로 장난을 즐긴다','action':'recommend','filters':{}}]},
-          {'results':[{'id':'x','prompt':'서로 장난을 즐긴다','action':'recommend','filters':{},'retrieval':{'results':[{'entry_id':'a','usage_id':'u',
+  return ({'schema_version':1,'prompt_version':'contextual-v2','plans':[{'id':'x','prompt':'서로 장난을 즐긴다','action':'recommend','filters':{}}]},
+          {'schema_version':1,'results':[{'id':'x','prompt':'서로 장난을 즐긴다','action':'recommend','filters':{},'retrieval':{'schema_version':1,'results':[{'entry_id':'a','usage_id':'u',
                        'usage':{'safety':'caution','risk_flags':['관계의존']}}]}}]},
-          {'prompt_version':'contextual-v2','answers':[{'id':'x','action':'recommend','selected_entry_id':'a','selected_usage_id':'u',
+          {'schema_version':1,'prompt_version':'contextual-v2','answers':[{'id':'x','action':'recommend','selected_entry_id':'a','selected_usage_id':'u',
                        'context_check':{'assessment':'compatible','evidence_spans':['서로 장난을 즐긴다'],
                                         'checked_risk_flags':['관계의존'],'unresolved_conditions':[]}}]})
  def test_auditable_decision(self):
@@ -60,7 +60,7 @@ class ContextDecisionTests(unittest.TestCase):
    extra=copy.deepcopy(values[index][key][0]);extra['id']='y';values[index][key].append(extra)
   self.assertTrue(validate_decisions(*values))
  def test_empty_everything_rejected(self):
-  self.assertTrue(validate_decisions({'plans':[]},{'results':[]},{'answers':[]}))
+  self.assertTrue(validate_decisions({'schema_version':1,'plans':[]},{'schema_version':1,'results':[]},{'schema_version':1,'answers':[]}))
  def test_unknown_action_rejected(self):
   values=self.sample();values[2]['answers'][0]['action']='publish'
   self.assertTrue(validate_decisions(*values))
@@ -88,4 +88,8 @@ class ContextDecisionTests(unittest.TestCase):
   self.assertTrue(validate_decisions(*values))
  def test_nontext_action_is_diagnostic_failure(self):
   values=self.sample();values[2]['answers'][0]['action']=[]
+  self.assertTrue(validate_decisions(*values))
+
+ def test_missing_schema_version_rejected(self):
+  values=self.sample();values[2].pop('schema_version')
   self.assertTrue(validate_decisions(*values))

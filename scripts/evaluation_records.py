@@ -2,9 +2,8 @@
 ACTIONS = frozenset(('recommend', 'lookup', 'clarify', 'abstain'))
 
 def indexed_records(envelope, key):
-    if isinstance(envelope, dict) and 'schema_version' in envelope:
-        if type(envelope['schema_version']) is not int or envelope['schema_version'] != 1:
-            raise ValueError('unsupported evaluation schema version')
+    if not isinstance(envelope, dict) or type(envelope.get('schema_version')) is not int or envelope['schema_version'] != 1:
+        raise ValueError('unsupported or missing evaluation schema version')
     rows = envelope.get(key) if isinstance(envelope, dict) else None
     if not isinstance(rows, list) or not rows:
         raise ValueError(key + ' must be a non-empty list')
