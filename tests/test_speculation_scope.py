@@ -45,3 +45,12 @@ class SpeculationScopeTests(unittest.TestCase):
         hits=[h for h in result['results'] if h['entry_id']==entry['id']]
         self.assertEqual(len(hits),2)
         self.assertTrue(all(h['retrieval_scope']['exact_lookup_only'] for h in hits))
+
+    def test_frozen_trace_replays_with_type_preserving_comparison(self):
+        from compare_evaluation_expansion import strict_equal
+        frozen=json.loads((ROOT/'eval/speculation-scope/retrieval.json').read_text())
+        def behavior(rows):
+            rows=copy.deepcopy(rows)
+            for row in rows:row['retrieval'].pop('coverage',None)
+            return rows
+        self.assertTrue(strict_equal(behavior(frozen['results']),behavior(evaluate(ROOT)['results'])))
