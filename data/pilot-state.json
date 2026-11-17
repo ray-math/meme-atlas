@@ -532,6 +532,12 @@
         "hellchang",
         "jumo-cheer"
       ]
+    },
+    "korean-verified-20261117-hell-joseon": {
+      "input_hash": "b555524a986185afede36499ade3a95bdcd2bfddca1b4902a2d895c188072378",
+      "ids": [
+        "hell-joseon"
+      ]
     }
   },
   "entries": {
@@ -4161,6 +4167,14 @@
       "body_hash": "bd53a4960bd0d76edf322ad5be8a4561d8764ffc580e3f78cc647fb9f28f72f7",
       "scope_type": "korean_usage",
       "scope_basis": "여성동아와 데일리안의 독립 문화평론 본문에서 국내 온라인 성취 환호의 호명형 밈을 확인했다. 원댓글 직접 열람·현재 재유행·무해성 인증을 주장하지 않는다.",
+      "tags": []
+    },
+    "hell-joseon": {
+      "title": "헬조선",
+      "batch": "korean-verified-20261117-hell-joseon",
+      "body_hash": "0746f40ccbb6f529d9936c1453f4c4fcedf685d56b5a05075f90a8647b95847c",
+      "scope_type": "korean_usage",
+      "scope_basis": "연합뉴스의 뜻풀이·국내 온라인 사용·운영자 인터뷰와 경향신문의 별도 조사 보도를 교차확인했다. 사회구조의 어려움에 대한 비판·자조 표현의 사용 증거이며 국가의 객관적 평가나 화자 내면 진단이 아니다.",
       "tags": []
     }
   }

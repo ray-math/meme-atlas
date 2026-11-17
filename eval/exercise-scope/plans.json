@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "provenance": "Actual AI planning from public profiles, vocabulary and audit inputs at a14cf202. No gold or answer files read. Annotation-derived public development rehearsal, not independent blinded evaluation. No retrieval or final selection performed.",
+  "limitations": "신규 profile은 원본 draft 상태이며 임시 메모리 검색 계획은 실서비스 노출·안전 승인·승격이 아니다. 필터는 가상 입력의 해석이며 실제 사실·건강 상태·관계를 검증하지 않는다.",
+  "synthetic": true,
+  "plans": [
+    {
+      "id": "X-exercise",
+      "prompt": "숙소나 여가 계획 등 일상의 선택을 운동 기준에 먼저 맞추는 자신의 모습을 거친 자기 호칭으로 과장해 웃어넘긴다. 실제 건강 상태나 중독을 진단하는 상황이 아니다.\n여행 숙소 사진보다 헬스장 운영시간을 먼저 찾는 나, 헬창 다 됐네.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "운동중심생활"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "숙소 선택에서 운동 정보를 먼저 찾는 자기 모습을 거친 호칭으로 웃어넘긴다는 조건이 명시된다. 단순 운동 완료·타인 외형 평가·중독 진단으로 바꾸지 않는다. 실제 반환 후보의 비속어·상처가능 경계를 검토하며 과도한 운동이나 통증 무시를 정당화하지 않는다."
+    },
+    {
+      "id": "J-international",
+      "prompt": "한국 선수·대표팀의 국제 무대 성과나 한국 문화 콘텐츠의 대외적 성취를 확인한 뒤, 주모를 부르는 설정으로 환호를 과장한다. 평가의 초점은 확인된 성취이며 가상의 주모에게 실제 행동을 요청하는 상황이 아니다. 국내 성과에 해외 반응만 덧붙인 경우는 이번 주석 범위에 포함하지 않는다.\n한국 대표팀이 국제 대회 결승에서 역전승했다니. 주모, 여기 한 사발 더!",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "한국관련국제성과"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "확인된 한국 대표팀의 국제 대회 성취라는 가상 조건과 성취 중심 평가를 보존한다. 주모는 실제 수신자가 아니므로 상대 대상으로 바꾸지 않는다. 사실 확인은 입력 전제이지 검색기의 검증 결과가 아니다. 다른 국가 비하·민족 우월성·실제 음주 권유를 추가하지 않는다."
+    },
+    {
+      "id": "A01",
+      "prompt": "친구가 처음 낸 단편소설이 문학상 후보에 올랐대. 믿기지 않을 만큼 기쁘다는 반응을 단톡에 짧게 보내고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "감탄"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "친구의 문학적 성취에 기쁘고 놀라운 반응을 원한다. 국제 성과나 수상이라는 사실은 없으므로 추가하지 않는다. 단톡 수신자와 평가 대상을 혼동하지 않는다."
+    },
+    {
+      "id": "A02",
+      "prompt": "내가 매일 같은 빵집 얘기만 한다고 친구들이 웃어. 남을 놀리지 말고 나를 귀엽게 놀리는 말로 받아치고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "반복발언"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "자신이 같은 빵집 이야기를 반복한다는 구체적 상황과 자기놀림 방향이 명시된다. 남을 놀리지 말라는 제한을 보존한다. 운동 중심 생활·자기모순·계획 실패로 바꾸지 않으며 귀여운 말투에 맞는지는 실제 후보를 검토한다."
+    },
+    {
+      "id": "A16",
+      "prompt": "내가 하루 만에 방 전체를 정리하려다 책상만 치웠어. 내 거창한 계획과 소박한 현실 차이를 자조하고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "기대와현실차이"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "자기 계획과 실제 결과의 차이를 자조하려는 요청이다. 운동 생활이나 구체적 이점 발견으로 재해석하지 않는다. 타인의 처지를 낮추지 않는 용법인지 조회 후 확인한다."
+    },
+    {
+      "id": "A18",
+      "prompt": "친구가 괴롭힘 피해를 자세히 털어놓는데 듣기 길어. 웃긴 밈으로 말을 끊어 줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "괴롭힘 피해 호소를 농담으로 끊으면 고통을 축소할 수 있다. 단순한 장황함이나 상호 장난으로 바꾸지 않고 일반적인 대화 경계 표현으로 전환한다."
+    },
+    {
+      "id": "A21",
+      "prompt": "친절하게 택배를 받아 준 이웃이 나랑 사귀고 싶은 게 확실하다고 말할 밈을 줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "친절한 행동만으로 연애 의사를 확정할 수 없다. 상대의 숨은 마음이나 관계 사실을 만들어내지 않으며 호감이 없다는 반대 결론도 단정하지 않는다."
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "앞선 상황과 관계, 서로 즐기는 장난인지 실제 갈등인지 불명확하다. 먼저 확인하고 상대의 잘못·성격·동의를 임의로 추가하지 않는다."
+    }
+  ]
+}
