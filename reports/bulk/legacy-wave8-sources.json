@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave8",
+  "status": "ready_for_independent_editorial_review",
+  "created_at": "2026-11-17",
+  "base_ref": "c4d35db9261434be67a6e83474cd8a79237ff4f3",
+  "counts": {
+    "screened": 30,
+    "ready": 3,
+    "held": 20,
+    "duplicate": 0,
+    "assigned_elsewhere": 7
+  },
+  "entries": [
+    {
+      "entry_id": "still-play-that-game",
+      "title": "너 아직도 그 게임 하니?",
+      "ledger_id": "kr-list-0330",
+      "path": "memes/still-play-that-game.md",
+      "source_sha": "7289372d8b967440483b9c9dd69cc75f44e24d61",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 게임 이용자의 광고 재사용과 국내 게임 제작자 발언을 서로 다른 매체 본문에서 확인.",
+      "sources": [
+        {
+          "publisher": "인벤",
+          "url": "https://www.inven.co.kr/webzine/news/?news=267647",
+          "published_at": "2022-01-26",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "이용자 지하철 광고의 질문과 긍정 답변 재사용"
+        },
+        {
+          "publisher": "게임동아",
+          "url": "https://game.donga.com/113848/",
+          "published_at": "2024-09-12",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "이용자가 해당 질문에 당당하게 답하기를 바란다는 제작자 발언 보도"
+        }
+      ],
+      "limitations": [
+        "원 광고 이미지와 발표 영상은 직접 재생·검증하지 않았다.",
+        "최초 작성자나 질문의 모든 용도를 확정하지 않는다."
+      ],
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "nobita-dance",
+      "title": "노진구 댄스",
+      "ledger_id": "kr-list-0340",
+      "path": "memes/nobita-dance.md",
+      "source_sha": "709663fc3f6b963f38166dbb6a247677cd534486",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "해외 애니메이션을 활용한 춤의 국내 참여와 재사용 형식을 독립 두 매체 본문에서 확인.",
+      "sources": [
+        {
+          "publisher": "뉴시스",
+          "url": "https://www.newsis.com/view/NISX20230808_0002406250?pc_view=1",
+          "published_at": "2023-08-09",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "노진구 필터·춤과 한국 영상 제작자 참여"
+        },
+        {
+          "publisher": "Y매거진",
+          "url": "https://ynoblesse.com/y-y_culture%E2%A0%80%ED%98%B8%EC%B9%B4%ED%98%B8%EC%B9%B4-%EB%8C%84%EC%8A%A4-%EC%B5%9C%EC%95%A0%EC%9D%98-%EC%95%84%EC%9D%B4-%EB%93%B1-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%EC%97%90/",
+          "published_at": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "얼굴 효과와 반복 동작 설명, 가수·제작자의 참여 사례"
+        }
+      ],
+      "limitations": [
+        "원 애니메이션과 참여 영상은 직접 시청하지 않았다.",
+        "Y매거진 페이지에서 정확한 발행일이 보이지 않아 null로 기록.",
+        "최초 제작자·최초 공개일 및 최근 유행 여부를 확정하지 않는다."
+      ],
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "do-you-know-club",
+      "title": "두 유 노 클럽",
+      "ledger_id": "kr-list-0404",
+      "path": "memes/do-you-know-club.md",
+      "source_sha": "b3e3c1a9eaa3137ca95489c77ca0dc42811f340f",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 밈 평론과 별도 국내 보도에서 질문형 풍자 및 가상 클럽 형식을 확인.",
+      "sources": [
+        {
+          "publisher": "여성동아",
+          "url": "https://v.daum.net/v/20231013100111227",
+          "published_at": "2023-10-13",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "인터뷰 질문을 비꼬는 형식과 국제적 유명 인사를 가상 클럽에 포함하는 방식"
+        },
+        {
+          "publisher": "조선일보",
+          "url": "https://www.chosun.com/national/weekend/2025/11/08/TO3L7JLPVJEL5F4D76IKPDRC2E/?outputType=amp",
+          "published_at": "2025-11-08",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "질문형 농담과 한국 인물·콘텐츠를 묶는 클럽 밈 설명"
+        }
+      ],
+      "limitations": [
+        "여성동아 글은 다음 전재 본문으로 확인했으며 별개의 세 번째 매체로 세지 않는다.",
+        "원 인터뷰나 이용자 댓글을 직접 확인한 것은 아니다.",
+        "기사의 과학 주장이나 국민 전체의 심리 추정은 채택하지 않았다.",
+        "국뽕·주모와 관련 있지만 감정 일반이나 호명 대신 질문·가상 모임 형식에 한정."
+      ],
+      "usage_status": "not_annotated"
+    }
+  ],
+  "screening": [
+    {
+      "title": "11미터 모형탑 훈련",
+      "ledger_id": "kr-list-0052",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "1초만에 사람을 낚는 방법",
+      "ledger_id": "kr-list-0055",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "○○ Point 드립",
+      "ledger_id": "kr-list-0064",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "○○를 알려주겠다",
+      "ledger_id": "kr-list-0066",
+      "status": "assigned_elsewhere",
+      "reason": "coordinator가 다른 담당의 앞선 근거 미달 held 이력을 전달; 새로운 독립 자료 없이 반복 조사하지 않음"
+    },
+    {
+      "title": "○○학개론",
+      "ledger_id": "kr-list-0068",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "~사마",
+      "ledger_id": "kr-list-0075",
+      "status": "held",
+      "reason": "국내 말붙임 용례를 설명하는 보도는 확보했으나 서로 독립인 두 publisher의 직접 본문 확인을 완료하지 못함."
+    },
+    {
+      "title": "~한 건에 대하여",
+      "ledger_id": "kr-list-0079",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "~해버리기",
+      "ledger_id": "kr-list-0080",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "~~였던것",
+      "ledger_id": "kr-list-0081",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "~~좌",
+      "ledger_id": "kr-list-0082",
+      "status": "assigned_elsewhere",
+      "reason": "coordinator가 다른 담당의 앞선 근거 미달 held 이력을 전달; 새로운 독립 자료 없이 반복 조사하지 않음"
+    },
+    {
+      "title": "FBI OPEN UP!!",
+      "ledger_id": "kr-list-0098",
+      "status": "assigned_elsewhere",
+      "reason": "coordinator가 다른 담당의 앞선 근거 미달 held 이력을 전달; 새로운 독립 자료 없이 반복 조사하지 않음"
+    },
+    {
+      "title": "Hey, you. You're finally awake.",
+      "ledger_id": "kr-list-0102",
+      "status": "assigned_elsewhere",
+      "reason": "coordinator가 다른 담당의 앞선 근거 미달 held 이력을 전달; 새로운 독립 자료 없이 반복 조사하지 않음"
+    },
+    {
+      "title": "KON",
+      "ledger_id": "kr-list-0115",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "Mafia City",
+      "ledger_id": "kr-list-0122",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "MC 노리아키",
+      "ledger_id": "kr-list-0126",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "너반시",
+      "ledger_id": "kr-list-0328",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "너 아직도 그 게임 하니?",
+      "ledger_id": "kr-list-0330",
+      "status": "ready",
+      "reason": "독립 두 publisher 본문과 좁은 국내 재사용 범위 확인"
+    },
+    {
+      "title": "네가 하면 나도 한다",
+      "ledger_id": "kr-list-0335",
+      "status": "held",
+      "reason": "같은 문구의 서로 다른 방송·음악 맥락이 섞여 후보의 동일성을 확인하지 못함."
+    },
+    {
+      "title": "네~ 설명해드렸습니다",
+      "ledger_id": "kr-list-0336",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "노진구 댄스",
+      "ledger_id": "kr-list-0340",
+      "status": "ready",
+      "reason": "독립 두 publisher 본문과 좁은 국내 재사용 범위 확인"
+    },
+    {
+      "title": "누나 좋아해요",
+      "ledger_id": "kr-list-0346",
+      "status": "held",
+      "reason": "서로 다른 목소리·영상 맥락이 섞이며 독립 두 본문에서 동일 형식 확인 실패."
+    },
+    {
+      "title": "눈을 왜 그렇게 떠?",
+      "ledger_id": "kr-list-0347",
+      "status": "held",
+      "reason": "사적 다툼 유출 및 성별 조롱과 결합한 자료 위주라 이번 안전한 개별 표현 묶음에서 보류."
+    },
+    {
+      "title": "당신이 옳았어",
+      "ledger_id": "kr-list-0374",
+      "status": "assigned_elsewhere",
+      "reason": "coordinator가 다른 담당의 앞선 근거 미달 held 이력을 전달; 새로운 독립 자료 없이 반복 조사하지 않음"
+    },
+    {
+      "title": "당연히 말이 되죠",
+      "ledger_id": "kr-list-0376",
+      "status": "assigned_elsewhere",
+      "reason": "coordinator가 다른 담당의 앞선 근거 미달 held 이력을 전달; 새로운 독립 자료 없이 반복 조사하지 않음"
+    },
+    {
+      "title": "대환장 파티",
+      "ledger_id": "kr-list-0382",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    },
+    {
+      "title": "도쿄올림픽 픽토그램",
+      "ledger_id": "kr-list-0388",
+      "status": "held",
+      "reason": "국내 재사용 보도 두 개가 같은 학생 사진을 다뤄 독립 재사용 범위가 부족; 개인 정보는 저장하지 않음."
+    },
+    {
+      "title": "동전줍는 징징이",
+      "ledger_id": "kr-list-0399",
+      "status": "held",
+      "reason": "성적 강요를 소재로 한 파생 설명과 위키 위주여서 독립 근거·범위 기준 미충족."
+    },
+    {
+      "title": "두 유 노",
+      "ledger_id": "kr-list-0404",
+      "status": "ready",
+      "reason": "독립 두 publisher 본문과 좁은 국내 재사용 범위 확인"
+    },
+    {
+      "title": "듀얼 만능주의",
+      "ledger_id": "kr-list-0407",
+      "status": "assigned_elsewhere",
+      "reason": "coordinator가 다른 담당의 앞선 근거 미달 held 이력을 전달; 새로운 독립 자료 없이 반복 조사하지 않음"
+    },
+    {
+      "title": "띠용띠용 워익워익",
+      "ledger_id": "kr-list-0422",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 표현의 뜻과 국내 재사용을 연결하는 두 독립 publisher 직접 본문을 확보하지 못함. 부재의 입증은 아님."
+    }
+  ],
+  "discovery": {
+    "type": "existing_candidate_ledger_from_korean_meme_mirror",
+    "path": "data/korea-candidates.json",
+    "original_namuwiki_access_claimed": false,
+    "new_ledger_ids_created": false
+  },
+  "duplicate_check": {
+    "ref": "c4d35db9261434be67a6e83474cd8a79237ff4f3",
+    "index_count": 661,
+    "checked": [
+      "index title/aliases",
+      "pilot-state entries title/aliases",
+      "recursive tree paths",
+      "coordinator pending reservations"
+    ],
+    "normalizer": "lowercase, preserve Korean Hangul and Latin alphanumeric"
+  },
+  "verification": {
+    "ci_run": false,
+    "derived_files_changed": false,
+    "raw_source_body_stored": false,
+    "main_or_pr37_changed": false,
+    "remote_canonical_readback_all_equal": true
+  }
+}
