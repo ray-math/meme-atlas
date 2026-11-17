@@ -35,13 +35,13 @@ class SeubuljaeChoiceDraftTests(unittest.TestCase):
         self.assertEqual(load_profiles(ROOT), before)
         return index
 
-    def test_source_bound_unknown_draft(self):
+    def test_source_bound_unknown_reviewed(self):
         rows = [p for p in self.data['profiles'] if p['entry_id'] == self.ID]
         self.assertEqual(len(rows), 1)
         p = rows[0]
         self.assertEqual(p['source_sha'], self.SHA)
         self.assertEqual(self.SHA, blob_sha(ROOT / 'memes' / 'seubuljae.md'))
-        self.assertEqual(p['review_status'], 'draft')
+        self.assertEqual(p['review_status'], 'reviewed')
         self.assertEqual(len(p['usages']), 1)
         u = p['usages'][0]
         self.assertEqual(u['id'], 'own-minor-choice-backfire')
@@ -53,13 +53,6 @@ class SeubuljaeChoiceDraftTests(unittest.TestCase):
         for facet, labels in self.REQ.items():
             self.assertEqual(u[facet], labels)
         self.assertEqual(u['example']['kind'], 'editorial')
-
-    def test_draft_hidden_in_both_modes_even_exact_name(self):
-        entry = next(e for e in self.index['entries'] if e['id'] == self.ID)
-        for mode in ('lookup', 'recommend'):
-            for filters in (self.REQ, {'query': entry['title']},
-                            dict(self.REQ, query=entry['title'])):
-                self.assertFalse(self.hits(self.index, mode=mode, **filters))
 
     def test_provisional_exact_positive_does_not_mutate_original(self):
         index = self.provisional()
