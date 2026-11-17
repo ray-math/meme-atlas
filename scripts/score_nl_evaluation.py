@@ -2,16 +2,15 @@
 import argparse
 import json
 from pathlib import Path
+from evaluation_records import indexed_records, validate_selection
 
 def score(gold, retrieval, answers, judgments):
-    cases={x['id']:x for x in gold['cases']}
-    traces={x['id']:x for x in retrieval['results']}
-    outputs={x['id']:x for x in answers['answers']}
-    decisions={x['id']:x for x in judgments['judgments']}
-    for rows, by_id in [(gold['cases'],cases),(retrieval['results'],traces),
-                        (answers['answers'],outputs),(judgments['judgments'],decisions)]:
-        if len(rows)!=len(by_id) or set(by_id)!=set(cases):
-            raise ValueError('missing/duplicate evaluation case IDs')
+    cases=indexed_records(gold, 'cases')
+    traces=indexed_records(retrieval, 'results')
+    outputs=indexed_records(answers, 'answers')
+    decisions=indexed_records(judgments, 'judgments')
+    if any(set(rows)!=set(cases) for rows in (traces, outputs, decisions)):
+        raise ValueError('missing/extra evaluation case IDs')
     totals={'cases':len(cases),'appropriate':0,'high_confidence_cases':0,'high_confidence_appropriate':0,
             'unsafe_recommendations':0,'answerable_cases':0,'candidate_recall_hits':0,
             'unnecessary_abstentions':0,'unnecessary_clarifications':0,
@@ -38,12 +37,7 @@ def score(gold, retrieval, answers, judgments):
         totals['recommendations']+=answer['action']=='recommend'
         totals['acceptable_recommendations']+=answer['action']=='recommend' and appropriate
         totals['invalid_plans']+=trace['retrieval']['status']=='invalid_plan'
-        if answer.get('selected_entry_id'):
-            pairs={(r['entry_id'],r['usage_id']) for r in trace['retrieval']['results']}
-            ambiguous_lookup=(answer['action']=='lookup' and answer.get('selected_usage_id') is None
-                              and answer['selected_entry_id'] in found)
-            if not ambiguous_lookup and (answer['selected_entry_id'],answer.get('selected_usage_id')) not in pairs:
-                raise ValueError('selected usage was not retrieved: '+identity)
+        validate_selection(answer, trace['retrieval']['results'])
         per_case.append({'id':identity,'appropriate':appropriate,'candidate_recalled':retrieved,
                          'judgment':judgment})
     denominator=totals['high_confidence_cases']

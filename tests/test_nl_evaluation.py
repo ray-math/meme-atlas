@@ -72,3 +72,28 @@ class ScoreContractTests(unittest.TestCase):
         score(*values)
         values[2]['answers'][0]['action']='recommend'
         with self.assertRaises(ValueError):score(*values)
+
+    def test_recommendation_requires_selection(self):
+        from score_nl_evaluation import score
+        for field in ('selected_entry_id','selected_usage_id'):
+            for missing in (False,True):
+                values=self.sample()
+                if missing:values[2]['answers'][0].pop(field)
+                else:values[2]['answers'][0][field]=None
+                with self.assertRaises(ValueError):score(*values)
+    def test_empty_evaluation_rejected(self):
+        from score_nl_evaluation import score
+        with self.assertRaises(ValueError):
+            score({'cases':[]},{'results':[]},{'answers':[]},{'judgments':[]})
+    def test_unknown_answer_action_rejected(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[2]['answers'][0]['action']='publish'
+        with self.assertRaises(ValueError):score(*values)
+    def test_no_selection_action_cannot_select(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[2]['answers'][0]['action']='abstain'
+        with self.assertRaises(ValueError):score(*values)
+    def test_schema_version_rejected(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[0]['schema_version']=True
+        with self.assertRaises(ValueError):score(*values)

@@ -35,3 +35,4 @@ jobs:
       - run: python scripts/score_nl_evaluation.py eval/challenge/editorial-gold.json eval/challenge/editorial-retrieval.json eval/challenge/editorial-answers.json eval/challenge/editorial-judgments.json
       - run: python scripts/replay_nl_queries.py eval/development/v3-fix-plans.json --jsonl
       - run: python scripts/check_context_decisions.py eval/development/v3-fix-plans.json eval/development/v3-fix-retrieval.json eval/development/v3-fix-answers.json
+      - run: python scripts/replay_nl_queries.py eval/regression-v3/audit-plans.json --jsonl

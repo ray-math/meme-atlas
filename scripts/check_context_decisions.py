@@ -1,12 +1,35 @@
 """Check the auditability of AI context decisions, not their semantic truth."""
+from evaluation_records import ACTIONS, indexed_records, validate_selection
+
 def validate_decisions(plans, retrieval, answers):
-    requests={p['id']:p for p in plans['plans']}
-    traces={r['id']:r for r in retrieval['results']}
+    try:
+        requests=indexed_records(plans, 'plans')
+        traces=indexed_records(retrieval, 'results')
+        outputs=indexed_records(answers, 'answers')
+        if set(requests)!=set(traces) or set(requests)!=set(outputs):
+            raise ValueError('missing/extra evaluation case IDs')
+    except ValueError as exc:
+        return [str(exc)]
     errors=[]
+    if plans.get('prompt_version') is not None and answers.get('prompt_version') != plans['prompt_version']:
+        errors.append('answer prompt version differs from plan')
+    for identity, plan in requests.items():
+        if plan.get('action') not in ACTIONS or not isinstance(plan.get('prompt'), str) or not isinstance(plan.get('filters'), dict):
+            errors.append(identity+': invalid plan structure')
+        for field in ('prompt', 'action', 'filters'):
+            if field not in traces[identity] or traces[identity][field] != plan.get(field):
+                errors.append(identity+': plan/trace '+field+' mismatch')
+    if errors:
+        return errors
     for answer in answers['answers']:
         identity=answer['id']
         if identity not in requests or identity not in traces:
             errors.append(identity+': missing request or retrieval')
+            continue
+        try:
+            validate_selection(answer, traces[identity]['retrieval']['results'])
+        except ValueError as exc:
+            errors.append(identity+': '+str(exc))
             continue
         if plans.get('prompt_version')=='contextual-v3':
             facts=answer.get('factual_check',{})

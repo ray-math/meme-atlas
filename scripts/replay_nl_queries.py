@@ -8,8 +8,17 @@ from pathlib import Path
 from usage_profiles import ROOT, load_vocabulary
 from build_usage_index import build_usage_index
 from search_usage import search
+from evaluation_records import ACTIONS, indexed_records
 
 def replay(plans, root=ROOT):
+    indexed_records({'plans': plans}, 'plans')
+    for plan in plans:
+        if plan.get('action') not in ACTIONS:
+            raise ValueError('unsupported plan action')
+        if not isinstance(plan.get('prompt'), str) or not plan['prompt'].strip():
+            raise ValueError('plan prompt must be non-empty text')
+        if not isinstance(plan.get('filters'), dict):
+            raise ValueError('plan filters must be an object')
     index=build_usage_index(root);vocabulary=load_vocabulary(root);results=[]
     seen=set()
     for plan in plans:

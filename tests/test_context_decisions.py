@@ -6,8 +6,8 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from check_context_decisions import validate_decisions
 class ContextDecisionTests(unittest.TestCase):
  def sample(self):
-  return ({'plans':[{'id':'x','prompt':'서로 장난을 즐긴다'}]},
-          {'results':[{'id':'x','retrieval':{'results':[{'entry_id':'a','usage_id':'u',
+  return ({'plans':[{'id':'x','prompt':'서로 장난을 즐긴다','action':'recommend','filters':{}}]},
+          {'results':[{'id':'x','prompt':'서로 장난을 즐긴다','action':'recommend','filters':{},'retrieval':{'results':[{'entry_id':'a','usage_id':'u',
                        'usage':{'safety':'caution','risk_flags':['관계의존']}}]}}]},
           {'answers':[{'id':'x','action':'recommend','selected_entry_id':'a','selected_usage_id':'u',
                        'context_check':{'assessment':'compatible','evidence_spans':['서로 장난을 즐긴다'],
@@ -31,7 +31,7 @@ class ContextDecisionTests(unittest.TestCase):
   self.assertTrue(validate_decisions(*values))
 
  def v3sample(self):
-  values=self.sample();values[0]['prompt_version']='contextual-v3'
+  values=self.sample();values[0]['prompt_version']='contextual-v3';values[2]['prompt_version']='contextual-v3'
   values[2]['answers'][0]['factual_check']={'supported_claims':[{'claim':'상호 장난 관계','evidence_span':'서로 장난을 즐긴다'}],'unsupported_claims':[]}
   return values
  def test_v3_grounded_audit(self):
@@ -45,4 +45,32 @@ class ContextDecisionTests(unittest.TestCase):
   self.assertTrue(validate_decisions(*values))
  def test_v3_unresolved_fact(self):
   values=self.v3sample();values[2]['answers'][0]['factual_check']['unsupported_claims']=['답변 완료']
+  self.assertTrue(validate_decisions(*values))
+
+ def test_empty_answers_rejected(self):
+  values=self.sample();values[2]['answers']=[]
+  self.assertTrue(validate_decisions(*values))
+ def test_duplicate_records_rejected(self):
+  for index,key in ((0,'plans'),(1,'results'),(2,'answers')):
+   values=self.sample();values[index][key].append(copy.deepcopy(values[index][key][0]))
+   self.assertTrue(validate_decisions(*values))
+ def test_missing_answer_rejected(self):
+  values=self.sample()
+  for index,key in ((0,'plans'),(1,'results')):
+   extra=copy.deepcopy(values[index][key][0]);extra['id']='y';values[index][key].append(extra)
+  self.assertTrue(validate_decisions(*values))
+ def test_empty_everything_rejected(self):
+  self.assertTrue(validate_decisions({'plans':[]},{'results':[]},{'answers':[]}))
+ def test_unknown_action_rejected(self):
+  values=self.sample();values[2]['answers'][0]['action']='publish'
+  self.assertTrue(validate_decisions(*values))
+ def test_trace_prompt_action_and_filters_must_match(self):
+  for field,bad in (('prompt','different'),('action','lookup'),('filters',{'mode':'recommend'})):
+   values=self.sample();values[1]['results'][0][field]=bad
+   self.assertTrue(validate_decisions(*values))
+ def test_unknown_version_rejected(self):
+  values=self.sample();values[2]['schema_version']=2
+  self.assertTrue(validate_decisions(*values))
+ def test_prompt_version_mismatch_rejected(self):
+  values=self.v3sample();values[2]['prompt_version']='contextual-v2'
   self.assertTrue(validate_decisions(*values))
