@@ -1,0 +1,32 @@
+{
+  "audited_sha": "855edaeee2454800976e5e1785922911ae405d60",
+  "audited_canonical_count": 892,
+  "ids": [
+    "big-guy-arm-illusion",
+    "tree-flailing-challenge",
+    "chopstick-runway",
+    "nanrido-aniya-suji",
+    "ended-up-here",
+    "kkungsit-kkungsit-challenge",
+    "ganbare-three-panel-challenge",
+    "stop-stop-it-challenge"
+  ],
+  "method": "독립 조사자의 GitHub/웹 읽기와 JavaScript 정합성 검사",
+  "passed": [
+    "8본문 제목·뜻풀이 첫문단·태그·별칭·경로와 index일치",
+    "8본문 search_text 공백정규화 일치",
+    "전체목록 및 추가수록목록 각각1회",
+    "8본문 제목/별칭 전체index 정규화충돌0",
+    "index892 고유ID892 전체목록링크892"
+  ],
+  "sources_review": "8건 출처범위 재확인, 명백한 본문수정 필요오류 없음. 스포츠조선 하지하지마 연도·앨범 오류의심 부분은 수록문미사용.",
+  "excluded": [
+    "893번째 seoul-is-still-seoul은 감사대상아님",
+    "전체892본문 검토아님",
+    "원영상 시청·외부링크 전체유효성·Python/CI 아님"
+  ],
+  "corrections": [
+    "꿍싯과룩스 같은곡 주장은 조사자가 철회. 기존 HALCALI+료 형식과 다른 동명묘사 혼동.",
+    "셋로그는 문자열 무일치를 신규후보로 해석하면 안 되며 split-screen-vlog와 우선 대조."
+  ]
+}
