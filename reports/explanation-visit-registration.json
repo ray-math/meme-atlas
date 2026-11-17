@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "document_kind": "registration_patch_plan",
+  "registration_status": "not_applied",
+  "base_commit": "cfaf1b1141e1a02361b378db02a81950f1f13eab",
+  "source_report_commit": "95b887fa32da3a6ddeb59782c6fc0449e8581b8f",
+  "scope_note": "Append-only draft proposal. Do not replace concurrent registered data. Preserve two draft profiles, no promotion or main merge.",
+  "new_profiles": [
+    {
+      "entry_id": "help-speedwagon",
+      "source_sha": "c8bd6618ae8eebb8b974385133ac3a4cfea41e9d",
+      "review_status": "draft",
+      "review_note": "온라인 글의 용어·배경 해설을 요청하는 용법만 주석한다. canonical의 궁금함 표제를 실제 내면 감정으로 자동 전환하지 않아 unknown을 유지한다. 외부 근거는 source_review의 조사 담당 직접 확인 보고를 참고했으며 이번 작성자의 외부 원문 재독은 아니다.",
+      "usages": [
+        {
+          "id": "request-online-context",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "해설요청"
+          ],
+          "situations": [],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "관계의존",
+            "사실오인"
+          ],
+          "safety": "caution",
+          "context": "온라인 공개 글이나 댓글에서 낯선 용어·이야기의 배경을 풀어 설명해 달라고 다른 이용자에게 장난스럽게 청한다. 상대는 설명을 요청받는 행위자이며 전문가 인증이나 답변 의무가 생기지 않는다.",
+          "avoid_when": [
+            "공식 수업·업무 등 격식 있는 질문이 필요한 상황",
+            "의료·안전상 긴급 상황에서 전문적인 도움 대신 밈 답변을 기다리는 경우",
+            "개인의 신상이나 비공개 정보를 찾아 달라는 경우",
+            "설명 대신 작업 대행이나 긴급 구조를 요구하는 경우",
+            "응답하지 않은 상대에게 답변을 강요하는 경우",
+            "온라인이라는 이유만으로 안전하거나 답변이 정확하다고 가정하는 경우"
+          ],
+          "example": {
+            "text": "이 글에서 말하는 세계관 설정이 뭔지 모르겠어요. 배경을 풀어 주실 분 있나요? 도와줘요 스피드웨건!",
+            "kind": "editorial"
+          },
+          "review_note": "상황 라벨을 억지로 추가하지 않았으므로 intent+target 필터 일치만으로 온라인 맥락·적합성이 확인되지는 않는다. caution 기본 추천 제외를 유지하며 조회 뒤 context를 확인해야 한다.",
+          "retrieval_requirements": {
+            "intents": [
+              "해설요청"
+            ],
+            "targets": [
+              "상대"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entry_id": "internet-pilgrimage",
+      "source_sha": "1b1371d5bd9c6f841f6e8990e82c190581ae96c4",
+      "review_status": "draft",
+      "review_note": "기존 공개 화제글을 보았다는 방문 표시만 주석한다. 소원·예언 적중 인증·작성자 평가 파생은 포함하지 않는다. 외부 근거는 source_review의 조사 담당 직접 확인 보고를 참고했으며 이번 작성자의 외부 원문 재독은 아니다.",
+      "usages": [
+        {
+          "id": "mark-public-post-visit",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "방문표시"
+          ],
+          "situations": [
+            "화제글방문"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "사실오인",
+            "공개망신"
+          ],
+          "safety": "caution",
+          "context": "뒤늦게 화제가 된 기존 공개 게시물을 찾아와 읽었다는 흔적을 댓글로 남긴다. 초점은 글 방문이라는 행위이며 글 내용의 진실성·예언성이나 작성자의 가치를 인증하지 않는다.",
+          "avoid_when": [
+            "비공개 글이나 개인 정보가 노출된 자료에 방문을 유도하는 경우",
+            "집단 몰이·괴롭힘·피해 조롱·공개 망신에 가담하는 경우",
+            "방문 댓글을 글 내용의 동의나 사실 확인 증거로 제시하는 경우",
+            "예언의 적중·소원 성취를 보장하는 경우",
+            "실제 장소 여행이나 새 게시물 작성 요청에 적용하는 경우"
+          ],
+          "example": {
+            "text": "뒤늦게 화제가 된 예전 공개 제작 과정을 보고 왔어요. 성지순례 왔습니다.",
+            "kind": "editorial"
+          },
+          "review_note": "몰이와 사실 인증으로 읽힐 가능성을 고려해 보수적으로 caution으로 분류했다. 이는 모든 방문 표시가 유해하다는 사실 판정이 아니다. 필수 상황·대상 일치도 공개성이나 괴롭힘 여부를 검증하지 못한다.",
+          "retrieval_requirements": {
+            "situations": [
+              "화제글방문"
+            ],
+            "targets": [
+              "상황"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "new_vocabulary": {
+    "intents": [
+      {
+        "label": "해설요청",
+        "aliases": [],
+        "definition": "낯선 용어나 이야기의 배경·맥락을 이해할 수 있도록 풀어 설명해 달라고 요청함. 작업 대행·긴급 구조·개인정보 탐색 요청과 구별한다."
+      },
+      {
+        "label": "방문표시",
+        "aliases": [],
+        "definition": "특정 온라인 게시물을 찾아와 보았다는 흔적을 댓글로 남김. 내용 동의·진실성 인증·작성자 평가를 자동으로 뜻하지 않는다."
+      }
+    ],
+    "situations": [
+      {
+        "label": "화제글방문",
+        "aliases": [],
+        "definition": "뒤늦게 화제가 된 기존 공개 게시물을 찾아와 반응하는 상황. 실제 장소 여행이나 새 게시물 작성과 구별한다."
+      }
+    ]
+  },
+  "test_file": {
+    "path": "tests/test_explanation_visit_drafts.py",
+    "source": "\"\"\"Structural draft regressions, not a natural-language or context-safety evaluation.\"\"\"\nimport copy\nimport sys\nimport unittest\nfrom pathlib import Path\nROOT = Path(__file__).resolve().parents[1]\nsys.path.insert(0, str(ROOT / 'scripts'))\nfrom usage_profiles import load_profiles, load_vocabulary, blob_sha\nfrom build_usage_index import build_usage_index\nfrom search_usage import search\n\nclass ExplanationVisitDraftTests(unittest.TestCase):\n    SPEC = {\n        'help-speedwagon': {\n            'usage_id': 'request-online-context',\n            'sha': 'c8bd6618ae8eebb8b974385133ac3a4cfea41e9d',\n            'requirements': {'intents': ['해설요청'], 'targets': ['상대']},\n        },\n        'internet-pilgrimage': {\n            'usage_id': 'mark-public-post-visit',\n            'sha': '1b1371d5bd9c6f841f6e8990e82c190581ae96c4',\n            'requirements': {'situations': ['화제글방문'], 'targets': ['상황']},\n        },\n    }\n\n    def setUp(self):\n        self.vocab = load_vocabulary(ROOT)\n        self.index = build_usage_index(ROOT)\n\n    def hits(self, index, identity, **kwargs):\n        response = search(index, self.vocab, limit=100, **kwargs)\n        self.assertNotEqual(response['status'], 'unsupported_filter')\n        return [h for h in response['results'] if h['entry_id'] == identity]\n\n    def test_source_bound_unknown_caution_drafts(self):\n        profiles = [p for p in load_profiles(ROOT)['profiles'] if p['entry_id'] in self.SPEC]\n        self.assertEqual({p['entry_id'] for p in profiles}, set(self.SPEC))\n        for p in profiles:\n            spec = self.SPEC[p['entry_id']]\n            self.assertEqual(p['source_sha'], spec['sha'])\n            self.assertEqual(p['source_sha'], blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))\n            self.assertEqual(p['review_status'], 'draft')\n            self.assertEqual(len(p['usages']), 1)\n            u = p['usages'][0]\n            self.assertEqual(u['id'], spec['usage_id'])\n            self.assertEqual(u['emotion_status'], 'unknown')\n            self.assertEqual(u['emotions'], [])\n            self.assertEqual(u['safety'], 'caution')\n            self.assertEqual(u['example']['kind'], 'editorial')\n            self.assertEqual(u['retrieval_requirements'], spec['requirements'])\n            if p['entry_id'] == 'help-speedwagon':\n                self.assertEqual(u['situations'], [])\n                self.assertEqual(u['intents'], ['해설요청'])\n                self.assertEqual(u['targets'], ['상대'])\n            else:\n                self.assertEqual(u['intents'], ['방문표시'])\n                self.assertEqual(u['situations'], ['화제글방문'])\n                self.assertEqual(u['targets'], ['상황'])\n\n    def test_single_defined_vocabulary_without_aliases(self):\n        for facet, label in [('intents', '해설요청'), ('intents', '방문표시'),\n                             ('situations', '화제글방문')]:\n            rows = [c for c in self.vocab['facets'][facet] if c['label'] == label]\n            self.assertEqual(len(rows), 1)\n            self.assertEqual(rows[0]['aliases'], [])\n            self.assertTrue(rows[0]['definition'].strip())\n\n    def test_actual_drafts_hidden_in_both_modes(self):\n        for entry in self.index['entries']:\n            if entry['id'] not in self.SPEC:\n                continue\n            req = self.SPEC[entry['id']]['requirements']\n            for mode in ('lookup', 'recommend'):\n                for filters in (req, {'query': entry['title']},\n                                dict(req, query=entry['title'])):\n                    with self.subTest(identity=entry['id'], mode=mode, filters=filters):\n                        self.assertFalse(self.hits(self.index, entry['id'], mode=mode, **filters))\n\n    def test_hypothetical_caution_lookup_is_not_recommendation(self):\n        for identity, spec in self.SPEC.items():\n            index = copy.deepcopy(self.index)\n            entry = next(e for e in index['entries'] if e['id'] == identity)\n            entry['review_status'] = 'reviewed'\n            req = spec['requirements']\n            matches = self.hits(index, identity, mode='lookup', **req)\n            self.assertEqual(len(matches), 1)\n            self.assertEqual(matches[0]['usage_id'], spec['usage_id'])\n            self.assertTrue(matches[0]['requires_context_check'])\n            self.assertTrue(matches[0]['retrieval_scope']['explicit_filters_match'])\n            self.assertFalse(matches[0]['retrieval_scope']['exact_lookup_only'])\n            for filters in (req, dict(req, query=entry['title']),\n                            {'query': entry['title']}):\n                self.assertFalse(self.hits(index, identity, mode='recommend', **filters))\n            for facet in req:\n                incomplete = {k: v for k, v in req.items() if k != facet}\n                self.assertFalse(self.hits(index, identity, mode='lookup', **incomplete))\n            wrong_target = dict(req, targets=['자기'])\n            broad_target = dict(req, targets=req['targets'] + ['자기'])\n            broad_facet = copy.deepcopy(req)\n            if identity == 'help-speedwagon':\n                broad_facet['intents'].append('칭찬')\n            else:\n                broad_facet['situations'].append('성과')\n            for filters in (wrong_target, broad_target, broad_facet):\n                self.assertFalse(self.hits(index, identity, mode='lookup', **filters))\n            explanation = self.hits(index, identity, mode='lookup', query=entry['title'])\n            self.assertEqual(len(explanation), 1)\n            self.assertTrue(explanation[0]['retrieval_scope']['exact_lookup_only'])\n\n    def test_explanation_filters_do_not_certify_online_context(self):\n        index = copy.deepcopy(self.index)\n        entry = next(e for e in index['entries'] if e['id'] == 'help-speedwagon')\n        entry['review_status'] = 'reviewed'\n        req = self.SPEC['help-speedwagon']['requirements']\n        # Same semantic filters can be supplied for a formal explanation request.\n        # No additional online-situation gate exists. Preserve this limitation.\n        matches = self.hits(index, entry['id'], mode='lookup', **req)\n        self.assertEqual(len(matches), 1)\n        self.assertEqual(matches[0]['retrieval_scope']['required_filters'], req)\n        self.assertTrue(matches[0]['requires_context_check'])\n        self.assertFalse(self.hits(index, entry['id'], mode='recommend', **req))\n\nif __name__ == '__main__':\n    unittest.main()\n"
+  },
+  "context_limit": "해설요청+상대는 일반 공식 해설 요청에도 뜻이 맞는 필터가 될 수 있다. 온라인 여부를 판정하는 별도 상황 게이트는 없으며 추가 게이트를 테스트에서 만들어 내지 않는다. hypothetical reviewed lookup 결과는 맥락 검토가 필요한 후보일 뿐 최종 적합 추천 성공이 아니다. 두 용법 모두 caution으로 기본 추천에서는 제외한다.",
+  "verification": {
+    "canonical_sha_rechecked": true,
+    "current_profile_ids_absent": true,
+    "current_labels_absent": true,
+    "search_interface_rechecked": true,
+    "python_executed": false,
+    "ci_executed": false,
+    "limits": "Tests are unexecuted source proposals. In-memory hypothetical review flags check retrieval gates only, not actual annotation readiness or natural-language safety."
+  },
+  "integration_steps": [
+    "Re-read latest canonical SHAs and registered profile/vocabulary IDs; stop if they conflict.",
+    "Append only the two new profiles and three concepts; preserve all existing data and draft status.",
+    "Install test_file.source and regenerate usage index through the authorized workflow, then execute source/schema checks and full CI.",
+    "Do not infer online context or safe use from filter matches. Read context and avoid_when before any final response."
+  ]
+}
