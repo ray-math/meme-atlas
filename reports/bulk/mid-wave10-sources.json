@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "batch": "mid-wave10",
+  "prepared_at": "2026-11-17",
+  "status": "awaiting_editorial_review",
+  "counts": {
+    "prepared": 2,
+    "newly_researched_candidates": 2,
+    "repeated_held_counted_as_new": 0
+  },
+  "duplicate_check": {
+    "ref": "929a9232",
+    "canonical_count": 686,
+    "index": "data/search-index.json",
+    "title_alias_exact_matches": 0,
+    "meaning_scope": "원216 잔여 재대조. 작품 전체가 아닌 인용 문형과 반복 율동 형식으로 제한."
+  },
+  "entries": [
+    {
+      "id": "waiting-for-someone-like-you",
+      "title": "사실은 오래전부터 당신 같은 XXX를 기다려 왔다우",
+      "aliases": [
+        "당신 같은 남자를 기다려왔다우"
+      ],
+      "tags": [
+        "애니"
+      ],
+      "sources": [
+        {
+          "url": "https://whitefaceone.tistory.com/2282",
+          "publisher": "잼늬 블로그",
+          "published_at": "2021-05-25",
+          "supports": "한국어 대사 문형과 애니메이션 장면 연결",
+          "access": "body_read",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://gogumafarm.kr/트렌드가-바뀌어도-살아남은-고전-인기-밈-총정리-이/",
+          "publisher": "고구마팜",
+          "published_at": null,
+          "supports": "좋아하거나 기다려 온 대상에 대한 주접 문형의 용례 해설",
+          "access": "body_read",
+          "original_media_watched": false
+        }
+      ],
+      "path": "memes/waiting-for-someone-like-you.md",
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립된 한국어 발행 주체 두 곳에서 해당 문형 또는 영상 형식의 국내 활용을 확인했다.",
+      "independence_note": "독립 발행 주체의 해설·취재 본문을 대조했으며 같은 전재를 두 번 계산하지 않았다.",
+      "limits": [
+        "원영상·원작 전체 미열람",
+        "최초 게시자 미확정"
+      ]
+    },
+    {
+      "id": "throw-or-not",
+      "title": "던질까 말까",
+      "aliases": [
+        "오뚝이 다트"
+      ],
+      "tags": [
+        "음악"
+      ],
+      "sources": [
+        {
+          "url": "https://www.khan.co.kr/article/201912211327001",
+          "publisher": "경향신문",
+          "published_at": "2019-12-21",
+          "supports": "동요의 2015년 발표와 2019년 성인 반복 영상 확산",
+          "access": "body_read",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://v.daum.net/v/20191212141404194?s=print_news",
+          "publisher": "서울경제",
+          "published_at": "2019-12-12",
+          "supports": "율동 영상의 반복·패러디 유행과 제작사 인터뷰",
+          "access": "body_read",
+          "original_media_watched": false
+        }
+      ],
+      "path": "memes/throw-or-not.md",
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립된 한국어 발행 주체 두 곳에서 해당 문형 또는 영상 형식의 국내 활용을 확인했다.",
+      "independence_note": "독립 발행 주체의 해설·취재 본문을 대조했으며 같은 전재를 두 번 계산하지 않았다.",
+      "limits": [
+        "원영상·원작 전체 미열람",
+        "최초 게시자 미확정"
+      ]
+    }
+  ],
+  "remaining_review_notes": [
+    "편-안·불-편은 기존 개비스콘 짤의 불편/후련 대비 정의와 겹쳐 새 항목으로 증식하지 않음.",
+    "수상할 정도로 돈이 없는 퍼리는 wave9 원형의 변형 후보로 별도 등록하지 않음.",
+    "wave6~9 기존 held를 이번 신규 조사 수에 포함하지 않음.",
+    "원216에서 새30개 범위를 억지로 만들지 않고 실제 잔여2개만 처리."
+  ],
+  "validation": {
+    "allowed_tags_checked_at": "scripts/frontmatter.py@c4d35db9",
+    "body_external_urls": false,
+    "canonical_footer": true,
+    "personal_data_included": false,
+    "ci_run": false,
+    "original_media_watched": false
+  }
+}
