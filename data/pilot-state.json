@@ -1105,6 +1105,32 @@
         "geukdil",
         "giseungjeon"
       ]
+    },
+    "korean-verified-20261117-bulk-wave17": {
+      "input_hash": "e06b2ab3395be4e4e3cf61d74fe2e9937bbfc06e9b940f95bfc705c019d322b1",
+      "ids": [
+        "halmanhahan",
+        "numulbo",
+        "gapbuntti",
+        "deugaja",
+        "naneun-haengbokhamnida",
+        "geureoseyo-geureom",
+        "aneun-hyeongnim",
+        "i-punch-like-kingkong",
+        "daetmangjinchang",
+        "beondalbeonjum",
+        "padeol-attack",
+        "nailiji",
+        "mujigae-manner",
+        "jyeotjalssa",
+        "nunting",
+        "newbie",
+        "daknunsam",
+        "villain",
+        "jiggle-jiggle-dance",
+        "earth-defense-challenge",
+        "jirida-reaction"
+      ]
     }
   },
   "entries": {
@@ -8701,6 +8727,180 @@
       "body_hash": "72aee82bee43f1c9fbae5f81cacd03c9d37e813ab0257a6ff3c67e9976f5ce03",
       "scope_type": "korean_usage",
       "scope_basis": "이전 시기 정의 자료와 독립된 2022~2023 국내 사용 자료를 교차 확인. 기간 내 처음 생겼다는 주장은 하지 않음.",
+      "tags": []
+    },
+    "halmanhahan": {
+      "title": "할많하않",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "e2e9158d11d7eced6248f6d08bbcdc73c1b4f77558fd8d84ee0499f4bfa76f13",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·응원 표현의 의미와 관찰 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "numulbo": {
+      "title": "누물보",
+      "aliases": [
+        "ㄴㅁㅂ"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "9d0205f5e13b6077a99230c5e3d2aa491700c20f3687b4db0d8091a3c74a7832",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·응원 표현의 의미와 관찰 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "gapbuntti": {
+      "title": "갑분띠",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "b90ad139e76acd53af9a24f2ff586691bfe5f5e4ead628dbebd6091f4ad795a5",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·응원 표현의 의미와 관찰 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "deugaja": {
+      "title": "드가자",
+      "aliases": [
+        "ㄷㄱㅈ"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "a7d0ec2d59810ef34abf9dcef224b6bb6f512e3588dd11ac6af253420c3c6391",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·응원 표현의 의미와 관찰 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "naneun-haengbokhamnida": {
+      "title": "나는 행복합니다",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "bead2301bd8467d11e1a83df0b1e41b691364a5d6f878570f93a2d0beee8fd08",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·응원 표현의 의미와 관찰 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "geureoseyo-geureom": {
+      "title": "그러세요 그럼",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "ff039792891d0f4abcabf47533bdd729f7f72650f24a1fd78b17be118b2d17cc",
+      "scope_type": "korean_usage",
+      "scope_basis": "2023년 국내 뉴스레터의 문형·반응 사용과 별개 발행 주체의 직접 본문 교차 검증.",
+      "tags": []
+    },
+    "aneun-hyeongnim": {
+      "title": "아는 형님이요",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "1ece8f8cbd16c45669fd477a382eb95184a70edd067b3d92b4281365f8b0ebe1",
+      "scope_type": "korean_usage",
+      "scope_basis": "2023년 국내 뉴스레터의 문형·반응 사용과 별개 발행 주체의 직접 본문 교차 검증.",
+      "tags": []
+    },
+    "i-punch-like-kingkong": {
+      "title": "아이 펀치 라이크 킹콩 투 ○○",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "d3374aa54871a0dac85ec3cb3685c81eef86544a4f6b4af2513a35c3e25d8139",
+      "scope_type": "korean_usage",
+      "scope_basis": "2023년 국내 뉴스레터의 문형·반응 사용과 별개 발행 주체의 직접 본문 교차 검증.",
+      "tags": []
+    },
+    "daetmangjinchang": {
+      "title": "댓망진창",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "08eee41587019b7fcf8dc3c676fac7e9cedffbb5f17d30dea5aea2c175dd6248",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 문화·반응 표현의 풀이와 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "beondalbeonjum": {
+      "title": "번달번줌",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "5d1ed38a4528288bd41b713f0cf8fc0a0d7716be3fd24df1a762f95535768ae2",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 문화·반응 표현의 풀이와 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "padeol-attack": {
+      "title": "파덜어택",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "53e136184a96b8f442ee6d83bc8a7b7cc2078928d85d0d96e0db8404a9260ceb",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 문화·반응 표현의 풀이와 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "nailiji": {
+      "title": "나일리지",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "cc30bf18f712fee7d100cc8489f6da10733b634deefbbec56c831ba0ec81ea35",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 문화·반응 표현의 풀이와 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "mujigae-manner": {
+      "title": "무지개매너",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "26e4399aa6893ee2e9e761650a52dfbc680651bbf361224ca3ec2bd45c46c333",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 문화·반응 표현의 풀이와 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "jyeotjalssa": {
+      "title": "졌잘싸",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "437df9bb6702a32153532e318460c388a691aef54d114d357922c8cda23fe8de",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 문화·반응 표현의 풀이와 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "nunting": {
+      "title": "눈팅",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "bc6dd4b4dcecb25b575fce0b323709c7fb7362d790bf961efb041ac2b3922908",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 문화·반응 표현의 풀이와 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "newbie": {
+      "title": "뉴비",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "c8a2fc7aa69fe9bc950a78b5194e12306426dbf1980c36f9ceab893be97f4b03",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 문화·반응 표현의 풀이와 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "daknunsam": {
+      "title": "닥눈삼",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "368a2dccc905507c800db4c2959f76125b5cf8316aab188d3729bfe72130e9d3",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 문화·반응 표현의 풀이와 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "villain": {
+      "title": "빌런",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "4de047196cf2213e8b0393083cae4d169ec40bdd941fa548420a02a969c424ca",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 문화·반응 표현의 풀이와 사용을 두 독립 출처의 직접 본문으로 대조했다.",
+      "tags": []
+    },
+    "jiggle-jiggle-dance": {
+      "title": "지글지글 댄스",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "ea8a6721ed829ea57f5f85ebbdf0bcd082fec4418b3759a6d92c1ddcc986af7e",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 잡지와 독립 트렌드 뉴스레터의 한국 참여 및 춤 형식 직접 설명.",
+      "tags": []
+    },
+    "earth-defense-challenge": {
+      "title": "지구방위대 챌린지",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "183115862e52a022c08c373ac899bbef690c38b7017c5448f4cf6bbfaaa4b12c",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 마케팅 해설과 실제 참여단체의 직접 공지로 형식·사용 확인.",
+      "tags": []
+    },
+    "jirida-reaction": {
+      "title": "지리다",
+      "batch": "korean-verified-20261117-bulk-wave17",
+      "body_hash": "4fe949e33acb2b57b9ff055341c1e563e4f12a52dbeee9d57246ae04ad9bb47a",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 신문 칼럼과 언어문화 에세이에서 뜻과 인터넷 유통을 확인.",
       "tags": []
     }
   }
