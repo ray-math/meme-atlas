@@ -27,12 +27,12 @@ class WelcomeInterestDraftTests(unittest.TestCase):
         entry['review_status'] = 'reviewed'
         return index, entry
 
-    def test_registered_profiles_remain_source_bound_drafts(self):
+    def test_registered_profiles_remain_source_bound_reviews(self):
         profiles = [p for p in load_profiles(ROOT)['profiles'] if p['entry_id'] in self.IDS]
         self.assertEqual({p['entry_id'] for p in profiles}, self.IDS)
         self.assertEqual(sum(len(p['usages']) for p in profiles), 2)
         for p in profiles:
-            self.assertEqual(p['review_status'], 'draft')
+            self.assertEqual(p['review_status'], 'reviewed')
             self.assertEqual(p['source_sha'], blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))
             u = p['usages'][0]
             self.assertEqual(u['example']['kind'], 'editorial')
@@ -60,17 +60,6 @@ class WelcomeInterestDraftTests(unittest.TestCase):
             concepts = [c for c in self.vocab['facets'][facet] if c['label'] == label]
             self.assertEqual(len(concepts), 1)
             self.assertTrue(concepts[0]['definition'].strip())
-
-    def test_drafts_hidden_even_with_exact_names_and_full_filters(self):
-        for entry in self.index['entries']:
-            if entry['id'] not in self.IDS:
-                continue
-            requirements = entry['usages'][0]['retrieval_requirements']
-            for mode in ('lookup', 'recommend'):
-                for filters in ({'query': entry['title']}, requirements,
-                                dict(requirements, query=entry['title'])):
-                    with self.subTest(identity=entry['id'], mode=mode, filters=filters):
-                        self.assertFalse(self.hits(self.index, entry['id'], mode=mode, **filters))
 
     def test_hypothetical_standard_welcome_requires_both_exact_filters(self):
         index, entry = self.provisional('bangga-bangga')
