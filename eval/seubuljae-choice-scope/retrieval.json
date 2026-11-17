@@ -1,0 +1,643 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "seubuljae"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 357,
+    "annotated_entries": 72,
+    "reviewed_entries": 71,
+    "unannotated_entries": 285
+  },
+  "provisional_reviewed_entries": 72,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "results": [
+    {
+      "id": "S-choice",
+      "prompt": "본인이 자발적으로 한 사소한 선택 때문에 지금 뒤처리가 번거로워졌다고 명시하면서, 자신의 선택을 가볍게 웃어넘기는 표현을 원한다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "situations": [
+          "자초한곤란"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 357,
+          "annotated_entries": 72,
+          "reviewed_entries": 71,
+          "unannotated_entries": 285
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "seubuljae",
+            "title": "스불재",
+            "path": "memes/seubuljae.md",
+            "domain_tags": [],
+            "usage_id": "own-minor-choice-backfire",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "자초한곤란"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "own-minor-choice-backfire",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "자초한곤란"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글",
+                "혼잣말"
+              ],
+              "risk_flags": [
+                "고통축소"
+              ],
+              "safety": "standard",
+              "context": "본인이 자발적으로 한 사소한 선택 때문에 지금 뒤처리가 번거로워졌다고 명시하면서, 자신의 선택을 가볍게 웃어넘기는 표현을 원한다.",
+              "avoid_when": [
+                "자발적 선택이나 현재 곤란과의 연결이 입력에 명시되지 않은 경우",
+                "강요받은 업무나 선택을 본인이 자초한 일로 바꾸는 경우",
+                "타인의 피해를 당연한 결과라며 책임을 떠넘기는 경우",
+                "심각한 자책·고통·도움 요청을 가벼운 농담으로 축소하는 경우",
+                "단순 불운이나 기대와 결과의 차이만으로 자기 책임을 추정하는 경우"
+              ],
+              "example": {
+                "text": "내가 재미있겠다고 종이 장식을 잔뜩 만들자고 해 놓고, 이제 혼자 정리하느라 바쁘네. 이건 스불재다.",
+                "kind": "editorial"
+              },
+              "review_note": "standard는 사소함·자발성·결과 연결이 명시된 자기 농담에 한정한다. 실제 책임·인과관계의 독립 검증이나 심리 진단이 아니다. 다른 사람이 책임을 물어도 된다는 뜻이 아니며 원인·자발성이 불명확하면 확인이 필요하다.",
+              "retrieval_requirements": {
+                "intents": [
+                  "자조"
+                ],
+                "situations": [
+                  "자초한곤란"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "5425c472be370d7a694ef922ab6c75d773a92bb3",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "intents": [
+                  "자조"
+                ],
+                "situations": [
+                  "자초한곤란"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "S-missing",
+      "prompt": "자발적 선택이나 현재 곤란과의 연결이 입력에 명시되지 않은 경우",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    },
+    {
+      "id": "S-forced",
+      "prompt": "강요받은 업무나 선택을 본인이 자초한 일로 바꾸는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "S-victim",
+      "prompt": "타인의 피해를 당연한 결과라며 책임을 떠넘기는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "S-serious",
+      "prompt": "심각한 자책·고통·도움 요청을 가벼운 농담으로 축소하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "S-luck",
+      "prompt": "단순 불운이나 기대와 결과의 차이만으로 자기 책임을 추정하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "O-disappointment",
+      "prompt": "본인이 기대한 사소한 일이 어긋나 낙담했다는 반응을 짧은 문자 그림으로 표현하고 싶다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "상태설명"
+        ],
+        "emotions": [
+          "실망"
+        ],
+        "situations": [
+          "기대와현실차이"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 357,
+          "annotated_entries": 72,
+          "reviewed_entries": 71,
+          "unannotated_entries": 285
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "otl",
+            "title": "OTL",
+            "path": "memes/otl.md",
+            "domain_tags": [],
+            "usage_id": "minor-own-disappointment",
+            "score": 80,
+            "matched_facets": {
+              "emotions": [
+                "실망"
+              ],
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "기대와현실차이"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "minor-own-disappointment",
+              "emotion_status": "annotated",
+              "emotions": [
+                "실망"
+              ],
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "기대와현실차이"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글",
+                "혼잣말"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "본인이 기대한 사소한 일이 어긋나 낙담했다는 반응을 짧은 문자 그림으로 표현하고 싶다.",
+              "avoid_when": [
+                "심각한 고통이나 위기·도움 요청을 가벼운 반응으로 축소하는 경우",
+                "다른 사람의 실패를 비웃거나 낙담을 강요하는 경우",
+                "낙담 표현을 실제 포기 결정이나 자기 비하로 자동 해석하는 경우",
+                "문자 그림을 실제로 무릎 꿇거나 엎드리라는 신체 동작 지시로 바꾸는 경우"
+              ],
+              "example": {
+                "text": "기대했던 작은 계획이 어긋났네. 아쉽다 OTL.",
+                "kind": "editorial"
+              },
+              "review_note": "실망은 명시된 용례가 전달하는 정서이며 실제 임상적 심리 상태를 추정하지 않는다. standard는 사소한 자기 낙담이라는 좁은 편집 맥락에 한정한다. 기존 기대와현실차이 필터만으로 사소함·위기 여부가 검증되지는 않는다. 이번 주석은 자기 낙담의 상태설명 용법에 한정하여 해당 기능 필터를 요구한다. OTL의 모든 자조적 쓰임을 부정하지 않는다. 기능을 생략한 상황 중심 질의나 여러 intent를 OR로 묶은 질의에서는 적합한 경우도 누락될 수 있다.",
+              "retrieval_requirements": {
+                "intents": [
+                  "상태설명"
+                ],
+                "situations": [
+                  "기대와현실차이"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "43d0612e03a847a14fb6d5bee5d6625bbf2766a7",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "intents": [
+                  "상태설명"
+                ],
+                "situations": [
+                  "기대와현실차이"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "B-memory",
+      "prompt": "이미 했던 자신의 사소하고 어색한 말이나 행동이 뒤늦게 떠올라 민망하다는 상태를 표현한다. 아직 하지 않은 행동의 미래 후회를 예고하는 용법은 포함하지 않는다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "상태설명"
+        ],
+        "situations": [
+          "과거언행회상"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 357,
+          "annotated_entries": 72,
+          "reviewed_entries": 71,
+          "unannotated_entries": 285
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "blanket-kick",
+            "title": "이불킥",
+            "path": "memes/blanket-kick.md",
+            "domain_tags": [],
+            "usage_id": "remember-embarrassment",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "과거언행회상"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "remember-embarrassment",
+              "emotion_status": "annotated",
+              "emotions": [
+                "민망함"
+              ],
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "과거언행회상"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "혼잣말",
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "이미 했던 자신의 사소하고 어색한 말이나 행동이 뒤늦게 떠올라 민망하다는 상태를 표현한다. 아직 하지 않은 행동의 미래 후회를 예고하는 용법은 포함하지 않는다.",
+              "avoid_when": [
+                "다른 사람의 과거 실수를 공개적으로 들추어 창피하게 만들 때",
+                "심각한 피해 경험을 사소한 창피함으로 축소할 때",
+                "앞으로 민망해질 것이라는 예상만 있고 과거 언행 회상이 없을 때"
+              ],
+              "example": {
+                "text": "어제 처음 인사하면서 이름을 잘못 말했네. 생각하니 이불킥이야.",
+                "kind": "editorial"
+              },
+              "review_note": "본문과 인터뷰에 자기 언행을 나중에 떠올리는 쓰임이 확인된다. 민망함은 용례가 표현하는 색채이지 내면 진단이 아니다. 회상을 자기비하·자조로 강제하지 않는다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "과거언행회상"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "516225b0c58fa59a68f920fa25c6ab0054b25b31",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "과거언행회상"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "R-gap",
+      "prompt": "자신의 계획과 결과 차이를 과장한다.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "기대와현실차이"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 357,
+          "annotated_entries": 72,
+          "reviewed_entries": 71,
+          "unannotated_entries": 285
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "reality-is-gutter",
+            "title": "현실은 시궁창",
+            "path": "memes/reality-is-gutter.md",
+            "domain_tags": [
+              "영화"
+            ],
+            "usage_id": "expectation-gap",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "기대와현실차이"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "expectation-gap",
+              "emotions": [
+                "실망"
+              ],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "기대와현실차이"
+              ],
+              "targets": [
+                "자기",
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "타인비하"
+              ],
+              "safety": "caution",
+              "context": "자신의 계획과 결과 차이를 과장한다.",
+              "avoid_when": [
+                "타인의 처지나 가치를 깎아내릴 때"
+              ],
+              "example": {
+                "text": "계획은 새벽 운동, 현실은 알람 다섯 번 끄기. 현실은 시궁창.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "0003bb03c71037f5459101fc410374e18bc33599",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "U-upside",
+      "prompt": "자신의 사소한 일정·게임 차질을 인정하면서 그 상황에서 확인할 수 있는 구체적인 이점이나 대안을 찾는다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "긍정적재해석"
+        ],
+        "situations": [
+          "구체적이점발견"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 357,
+          "annotated_entries": 72,
+          "reviewed_entries": 71,
+          "unannotated_entries": 285
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "ohiryeo-joa",
+            "title": "오히려 좋아",
+            "path": "memes/ohiryeo-joa.md",
+            "domain_tags": [
+              "게임",
+              "인터넷방송"
+            ],
+            "usage_id": "find-upside",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "긍정적재해석"
+              ],
+              "situations": [
+                "구체적이점발견"
+              ],
+              "targets": [
+                "상황"
+              ]
+            },
+            "usage": {
+              "id": "find-upside",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "긍정적재해석"
+              ],
+              "situations": [
+                "기대와현실차이",
+                "구체적이점발견"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "혼잣말",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신의 사소한 일정·게임 차질을 인정하면서 그 상황에서 확인할 수 있는 구체적인 이점이나 대안을 찾는다.",
+              "avoid_when": [
+                "타인의 상실·질병·폭력 피해를 좋은 일로 포장할 때",
+                "손해나 고통 자체를 부정할 때",
+                "필요한 문제 해결이나 도움 요청을 막을 때",
+                "근거 없이 좋은 결과가 보장된다고 말할 때"
+              ],
+              "example": {
+                "text": "산책이 취소됐네. 오히려 좋아, 밀린 책 읽을 시간이 생겼어.",
+                "kind": "editorial"
+              },
+              "review_note": "긍정적재해석은 대화 기능이며 실제 기쁨·회복력의 증명이 아니다. 이번 추가 출처가 충분히 다루지 않는 억지 낙관·반어 용법은 보류한다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "구체적이점발견"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "a078606291eef3d6a61a02343002b2aaf9657963",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "구체적이점발견"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    }
+  ]
+}

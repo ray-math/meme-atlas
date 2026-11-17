@@ -21,3 +21,24 @@ class SeubuljaeChoiceScopeTests(unittest.TestCase):
         for value in (None,0,1,'false',[],{}):
             with self.assertRaises(ValueError):
                 evaluate(ROOT,enforce_requirements=value)
+
+    def test_observed_candidates_and_boundaries(self):
+        trace=evaluate(ROOT)
+        rows={r['id']:r for r in trace['results']}
+        expected={'S-choice':'seubuljae','O-disappointment':'otl',
+                  'B-memory':'blanket-kick','R-gap':'reality-is-gutter','U-upside':'ohiryeo-joa'}
+        for identity,entry in expected.items():
+            self.assertEqual([h['entry_id'] for h in rows[identity]['retrieval']['results']],[entry])
+        for identity in ('S-missing','S-forced','S-victim','S-serious','S-luck','A26'):
+            self.assertEqual(rows[identity]['retrieval']['status'],'not_searched')
+        self.assertEqual(trace['current_baseline_candidate_drift'],[])
+
+    def test_frozen_trace_reexecutes_without_type_drift(self):
+        import copy
+        from compare_evaluation_expansion import strict_equal
+        frozen=json.loads((ROOT/'eval/seubuljae-choice-scope/retrieval.json').read_text())
+        def behavior(rows):
+            rows=copy.deepcopy(rows)
+            for row in rows:row['retrieval'].pop('coverage',None)
+            return rows
+        self.assertTrue(strict_equal(behavior(frozen['results']),behavior(evaluate(ROOT)['results'])))
