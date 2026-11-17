@@ -1,0 +1,550 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave7",
+  "baseline_ref": "3187a0a20c00f8b187fb6f36e225c6769a8f1394",
+  "reviewed_at": "2026-11-17",
+  "candidate_pool_screened": 42,
+  "canonical_files_written": 10,
+  "held_count": 32,
+  "ci_status": "not_run",
+  "review_method": "AI 후보 제목·중복·범위 선별 42개 중 10개만 두 독립 publisher 본문 확인 완료. 42개 전체가 심층 검증 완료라는 뜻 아님. 원영상 재생·인간 검증 아님. 동일 발표 전재를 독립 관측으로 세지 않음.",
+  "entries": [
+    {
+      "id": "gatseongbi",
+      "title": "갓성비",
+      "path": "memes/gatseongbi.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "own_definition": "‘갓’과 ‘가성비’를 결합한 표현이다. 단순히 싸다는 뜻보다, 지불한 비용에 비해 얻는 것이 매우 좋다는 평가에 가깝다. 객관적인 성능 인증이 아니라 말하는 사람의 강조 표현이다.",
+      "source_urls": [
+        {
+          "url": "https://news.nate.com/view/20210415n20945",
+          "publisher": "서울경제",
+          "published_date": "2021-04-15",
+          "access": "direct_body",
+          "supports": "본문56 강조접두어 갓의 예로 갓성비 사용.",
+          "independent_group": "서울경제"
+        },
+        {
+          "url": "https://dailymedi.com/news/news_view.php?wr_id=877217",
+          "publisher": "데일리메디",
+          "published_date": "2021-11-25",
+          "access": "direct_body",
+          "supports": "본문135 God+가성비 합성과 뜻 설명. 법률 판단·의료기기 추천은 채택하지 않음.",
+          "independent_group": "데일리메디"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "15a2c12f9fc22bff750607c35e231d08881dc5c0",
+        "pilot_state_blob_sha": "dbce4fd9e2b7987cf125445e522188da8250acc9",
+        "pending_coordination": "integration이 최신557 e965066c59698cef25bb1da65e7cc53474a75a1c title/pilot aliases 재대조0 확인."
+      },
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "id": "mateopeop",
+      "title": "맛없없",
+      "path": "memes/mateopeop.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "own_definition": "‘맛이 없을 수 없는’의 줄임말이다. 좋아하는 재료가 함께 들어간 음식이나 잘 어울리는 조합을 보고 맛을 기대할 때 쓴다. 모든 사람의 입맛이 같다는 사실 판단은 아니다.",
+      "source_urls": [
+        {
+          "url": "https://www.cstimes.com/news/articleView.html?idxno=519664",
+          "publisher": "컨슈머타임스",
+          "published_date": "2022-11-21",
+          "access": "direct_body",
+          "supports": "기자의 치킨 시식 리뷰 본문142에서 뜻과 실제 조합 사용.",
+          "independent_group": "컨슈머타임스"
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20230203_0002180531",
+          "publisher": "뉴시스",
+          "published_date": "2023-02-04",
+          "access": "direct_body",
+          "supports": "본문75 뜻 풀이와 여러 다른 제품의 조합 사용. 앞선 치킨 리뷰의 전재 아님.",
+          "independent_group": "뉴시스"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "15a2c12f9fc22bff750607c35e231d08881dc5c0",
+        "pilot_state_blob_sha": "dbce4fd9e2b7987cf125445e522188da8250acc9",
+        "pending_coordination": "integration이 최신557 e965066c59698cef25bb1da65e7cc53474a75a1c title/pilot aliases 재대조0 확인."
+      },
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "id": "jjeopjjeop-baksa",
+      "title": "쩝쩝박사",
+      "path": "memes/jjeopjjeop-baksa.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "own_definition": "음식을 먹는 소리를 떠올리게 하는 ‘쩝쩝’에 ‘박사’를 붙여 척척박사처럼 표현한다. 맛집이나 음식 조합에 밝은 사람에게 쓰며, 음식 먹기를 좋아하는 모습을 가리키기도 한다. 실제 학위나 자격을 뜻하지 않는다.",
+      "source_urls": [
+        {
+          "url": "https://v.daum.net/v/kvtkm7oY8L",
+          "publisher": "아시아경제",
+          "published_date": "2021-10-21",
+          "access": "direct_body",
+          "supports": "신조어 칼럼 본문89·92에서 음식 지식과 척척박사 변형 설명.",
+          "independent_group": "아시아경제"
+        },
+        {
+          "url": "https://www.edaily.co.kr/news/read?newsId=01344806632495544",
+          "publisher": "이데일리",
+          "published_date": "2022-10-22",
+          "access": "direct_body",
+          "supports": "본문218 실제 음식 리뷰 연재명으로 사용. 아시아경제 칼럼과 다른 직접 방문 취재.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "15a2c12f9fc22bff750607c35e231d08881dc5c0",
+        "pilot_state_blob_sha": "dbce4fd9e2b7987cf125445e522188da8250acc9",
+        "pending_coordination": "integration이 최신557 e965066c59698cef25bb1da65e7cc53474a75a1c title/pilot aliases 재대조0 확인."
+      },
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "id": "eoljukko",
+      "title": "얼죽코",
+      "path": "memes/eoljukko.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "own_definition": "‘얼어 죽어도 코트’를 줄인 말이다. 겨울옷 중에서도 코트의 스타일을 좋아한다는 마음을 과장해 드러낸다. 추위를 참아야 한다는 지침이 아니라 옷 취향을 표현하는 농담이다.",
+      "source_urls": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02735526635639424",
+          "publisher": "이데일리",
+          "published_date": "2023-06-07",
+          "access": "direct_body",
+          "supports": "본문237 코트 선호의 축약 표현 설명.",
+          "independent_group": "이데일리"
+        },
+        {
+          "url": "https://www.vogue.co.kr/2022/11/02/더-추워지기-전에-멋-부리기-11월-필수-스타일링-5/",
+          "publisher": "보그 코리아",
+          "published_date": "2022-11-02",
+          "access": "direct_body",
+          "supports": "본문107 코트 스타일링에 얼죽코 실제 사용. 별도 패션 기사.",
+          "independent_group": "보그 코리아"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "15a2c12f9fc22bff750607c35e231d08881dc5c0",
+        "pilot_state_blob_sha": "dbce4fd9e2b7987cf125445e522188da8250acc9",
+        "pending_coordination": "integration이 최신557 e965066c59698cef25bb1da65e7cc53474a75a1c title/pilot aliases 재대조0 확인."
+      },
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "id": "deokgyemot",
+      "title": "덕계못",
+      "path": "memes/deokgyemot.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "own_definition": "‘덕후는 계를 못 탄다’의 줄임말이다. 열심히 좋아하는 팬인데도 정작 직접 만나는 행운은 자신에게 없다고 농담하거나 아쉬워할 때 쓴다. 팬이 실제로 불운해진다는 법칙은 아니다.",
+      "source_urls": [
+        {
+          "url": "https://v.daum.net/v/3IX5yVYxCv",
+          "publisher": "MBN스타",
+          "published_date": "2022-08-22",
+          "access": "direct_body",
+          "supports": "본문98~102 제작발표회 사용과 뜻 설명. 신하균의 오답을 정의로 쓰지 않음.",
+          "independent_group": "MBN스타"
+        },
+        {
+          "url": "https://v.daum.net/v/QncyxBj3cC",
+          "publisher": "이데일리",
+          "published_date": "2023-06-19",
+          "access": "direct_body",
+          "supports": "본문88 팬이 좋아하는 연예인을 만나기 어렵다는 뜻 설명. 동일 제작발표회 전재 아님.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "15a2c12f9fc22bff750607c35e231d08881dc5c0",
+        "pilot_state_blob_sha": "dbce4fd9e2b7987cf125445e522188da8250acc9",
+        "pending_coordination": "integration이 최신557 e965066c59698cef25bb1da65e7cc53474a75a1c title/pilot aliases 재대조0 확인."
+      },
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "id": "kagongjok",
+      "title": "카공족",
+      "path": "memes/kagongjok.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "own_definition": "‘카페에서 공부하는 사람들’을 짧게 부르는 표현이다. 공부 장소를 기준으로 한 말이므로, 그 자체가 민폐를 끼치는 사람이라는 뜻은 아니다.",
+      "source_urls": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "김차경 기획기사. 해당 표현의 뜻 확인. 현재 방역·건강 권고로 사용하지 않음.",
+          "independent_group": "대한민국 정책브리핑"
+        },
+        {
+          "url": "https://imnews.imbc.com/replay/2023/nwtoday/article/6470491_36207.html",
+          "publisher": "MBC",
+          "published_date": "2023-04-04",
+          "access": "direct_body",
+          "supports": "본문43 뜻, 온라인 이용 갈등 맥락. 모든 카공족을 민폐로 일반화하지 않음.",
+          "independent_group": "MBC"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "15a2c12f9fc22bff750607c35e231d08881dc5c0",
+        "pilot_state_blob_sha": "dbce4fd9e2b7987cf125445e522188da8250acc9",
+        "pending_coordination": "integration이 최신557 e965066c59698cef25bb1da65e7cc53474a75a1c title/pilot aliases 재대조0 확인."
+      },
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "id": "ppangji-sullye",
+      "title": "빵지순례",
+      "path": "memes/ppangji-sullye.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "own_definition": "‘빵’과 ‘성지순례’를 합친 표현이다. 관심 있는 빵집을 찾아다니며 빵을 맛보는 활동을 재치 있게 부른다. 종교적 의식이 아니라 먹거리 취향에 따른 방문을 뜻한다.",
+      "source_urls": [
+        {
+          "url": "https://news.nate.com/view/20220507n04496",
+          "publisher": "아시아경제",
+          "published_date": "2022-05-07",
+          "access": "direct_body",
+          "supports": "본문61 빵+성지순례 및 빵집 방문 활동 설명.",
+          "independent_group": "아시아경제"
+        },
+        {
+          "url": "https://news.nate.com/view/20220714n40637?mid=n1101",
+          "publisher": "한국경제",
+          "published_date": "2022-07-15",
+          "access": "direct_body",
+          "supports": "본문43 직접 아는 빵집 방문 취미 사례에 사용. 소비규제 주장은 채택하지 않음.",
+          "independent_group": "한국경제"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "15a2c12f9fc22bff750607c35e231d08881dc5c0",
+        "pilot_state_blob_sha": "dbce4fd9e2b7987cf125445e522188da8250acc9",
+        "pending_coordination": "integration이 최신557 e965066c59698cef25bb1da65e7cc53474a75a1c title/pilot aliases 재대조0 확인."
+      },
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "id": "kosiguk",
+      "title": "코시국",
+      "path": "memes/kosiguk.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "own_definition": "‘코로나’와 ‘시국’을 결합한 표현이다. 당시의 외출이나 여행, 모임 등 생활 환경을 이야기할 때 쓰였다. 현재의 감염 상황이나 방역 조치를 알려 주는 용어는 아니다.",
+      "source_urls": [
+        {
+          "url": "https://v.daum.net/v/20210719050056795?s=print_news",
+          "publisher": "중앙일보",
+          "published_date": "2021-07-19",
+          "access": "direct_body",
+          "supports": "본문33 코로나 시국 축약만 확인. 혐오 표현·개인 사례는 채택하지 않음.",
+          "independent_group": "중앙일보"
+        },
+        {
+          "url": "https://v.daum.net/v/20210809094345901?s=print_news",
+          "publisher": "트래비",
+          "published_date": "2021-08-09",
+          "access": "direct_body",
+          "supports": "본문16·42 코로나 시기 여행 영상 감상 맥락 사용. 별도 여행 필자 글.",
+          "independent_group": "트래비"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "15a2c12f9fc22bff750607c35e231d08881dc5c0",
+        "pilot_state_blob_sha": "dbce4fd9e2b7987cf125445e522188da8250acc9",
+        "pending_coordination": "integration이 최신557 e965066c59698cef25bb1da65e7cc53474a75a1c title/pilot aliases 재대조0 확인."
+      },
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "id": "jipgwan",
+      "title": "집관",
+      "path": "memes/jipgwan.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "own_definition": "‘집’과 ‘직관’을 겹쳐 만든 표현이다. 스포츠 중계를 집에서 즐기는 상황을 현장 관람과 대비해 말한다.",
+      "source_urls": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "김차경 기획기사. 해당 표현의 뜻 확인. 현재 방역·건강 권고로 사용하지 않음.",
+          "independent_group": "대한민국 정책브리핑"
+        },
+        {
+          "url": "https://www.yna.co.kr/view/AKR20210805048600005",
+          "publisher": "연합뉴스",
+          "published_date": "2021-08-08",
+          "access": "direct_body",
+          "supports": "본문80 TV·온라인 스포츠 관람에 집관 사용. 올림픽 방송 평가의 별도 취재.",
+          "independent_group": "연합뉴스"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "15a2c12f9fc22bff750607c35e231d08881dc5c0",
+        "pilot_state_blob_sha": "dbce4fd9e2b7987cf125445e522188da8250acc9",
+        "pending_coordination": "integration이 최신557 e965066c59698cef25bb1da65e7cc53474a75a1c title/pilot aliases 재대조0 확인."
+      },
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "id": "gongseujang",
+      "title": "공스장",
+      "path": "memes/gongseujang.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "own_definition": "‘공원’과 ‘헬스장’을 합친 표현이다. 공원에 마련된 운동기구 공간을 친근하게 가리킨다.",
+      "source_urls": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "김차경 기획기사. 해당 표현의 뜻 확인. 현재 방역·건강 권고로 사용하지 않음.",
+          "independent_group": "대한민국 정책브리핑"
+        },
+        {
+          "url": "https://sports.seoul.go.kr/main/board/10/3942/board_view.do",
+          "publisher": "서울시민 스포츠 기자단",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "본문58의 2021 기자단 자기소개, 본문68 뜻 및 직접 공원 방문기. 정확 발행일 미표시. 중앙정부 기획기사 전재 아님.",
+          "independent_group": "서울시민 스포츠 기자단"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "15a2c12f9fc22bff750607c35e231d08881dc5c0",
+        "pilot_state_blob_sha": "dbce4fd9e2b7987cf125445e522188da8250acc9",
+        "pending_coordination": "integration이 최신557 e965066c59698cef25bb1da65e7cc53474a75a1c title/pilot aliases 재대조0 확인."
+      },
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록.",
+        "서울시민 기자단 발행일 null, 본문 자기소개에만 2021 표기."
+      ]
+    }
+  ],
+  "held": [
+    {
+      "title": "일잘러",
+      "review_depth": "source_or_scope_triage",
+      "reason": "동일 교육과정 발표 전재 외 독립 관측 미확보."
+    },
+    {
+      "title": "혼코노",
+      "review_depth": "source_or_scope_triage",
+      "reason": "앞 묶음의 2개 원문 확인 미완료 유지."
+    },
+    {
+      "title": "오우예씨몬",
+      "review_depth": "source_or_scope_triage",
+      "reason": "두 번째 카드 이미지 뜻 직접 확인 못함."
+    },
+    {
+      "title": "집쿡",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "집공족",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "산스장",
+      "review_depth": "source_or_scope_triage",
+      "reason": "이번은 현장 사용이 더 뚜렷한 공스장만 작성. 산스장은 별도 독립 관측 추가 확인 필요."
+    },
+    {
+      "title": "슬기로운 집콕",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "랜선집사",
+      "review_depth": "source_or_scope_triage",
+      "reason": "발견 자료가 주로 2017~2020. 담당 시기 사용 교차확인 미완료."
+    },
+    {
+      "title": "랜선이모",
+      "review_depth": "source_or_scope_triage",
+      "reason": "발견 자료가 주로 2017~2020. 담당 시기 사용 교차확인 미완료."
+    },
+    {
+      "title": "랜선여행",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "랜선회식",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "홈트",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "홈캉스",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "스라밸",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "워라하",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "갓수",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "가심비",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "소확행",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "언박싱",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "내돈내먹",
+      "review_depth": "source_or_scope_triage",
+      "reason": "음식 리뷰 연재 사용 확보했으나 내돈내산과 분리 범위 및 독립 2본문 미완료."
+    },
+    {
+      "title": "손민수템",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "꾸꾸꾸",
+      "review_depth": "source_or_scope_triage",
+      "reason": "직접 읽은 보그 본문은 꾸며도 꾸질꾸질. 다른 의미와의 관계·독립 2근거 확인 전 보류."
+    },
+    {
+      "title": "꾸꾸",
+      "review_depth": "source_or_scope_triage",
+      "reason": "꾸꾸꾸와 변형·다의성 관계 검증 전 보류."
+    },
+    {
+      "title": "맛잘알",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "뜨죽따",
+      "review_depth": "source_or_scope_triage",
+      "reason": "이데일리 직접 본문 확보. 독립 두 번째 확인 미완료."
+    },
+    {
+      "title": "캠린이",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "등린이",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "금쪽이",
+      "review_depth": "source_or_scope_triage",
+      "reason": "인물 낙인과 일반 반응 표현의 범위 분리 필요."
+    },
+    {
+      "title": "과몰입",
+      "review_depth": "source_or_scope_triage",
+      "reason": "일반 단어와 개별 밈 용법 경계 미해결."
+    },
+    {
+      "title": "대리만족",
+      "review_depth": "source_or_scope_triage",
+      "reason": "일반 개념과 개별 인터넷 유행 표현의 경계 미해결."
+    },
+    {
+      "title": "입덕부정기",
+      "review_depth": "title_and_scope_triage",
+      "reason": "후보·범위 선별 단계. 독립 2개 직접 본문 의미·사용 확인 완료 전이므로 이번 묶음 제외."
+    },
+    {
+      "title": "덕계타",
+      "review_depth": "source_or_scope_triage",
+      "reason": "독립 본문 근거 미확보."
+    }
+  ],
+  "checks": {
+    "canonical_external_urls": false,
+    "main_pr37_data_usage_modified": false
+  }
+}
