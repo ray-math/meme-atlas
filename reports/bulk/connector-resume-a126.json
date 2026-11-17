@@ -1,0 +1,39 @@
+{
+  "batch": "connector-resume-a126",
+  "base": "3f2a80788757b434bcdee665071ca5b0ec60e81f",
+  "candidate": "아기다리 고기다리",
+  "id": "agidari-gogidari",
+  "result": "canonical-added",
+  "independent_usage_events": 3,
+  "sources": [
+    {
+      "url": "https://media.hangulo.net/70",
+      "observed": "2007-04-05 본문34행: 서비스 가입 소식에 직접 적용."
+    },
+    {
+      "url": "https://v.daum.net/v/20160722094645666",
+      "observed": "2016-07-22 평론 본문73~74 및80행: 드라마 방영 기대에 직접 적용. 최초 유행 시기에 관한 전언은 확정하지 않음."
+    },
+    {
+      "url": "https://atrix-developer.tistory.com/3",
+      "observed": "2023-02-10 개발 기록44행: 로그인 기능 구현 완료에 직접 적용."
+    }
+  ],
+  "checks": {
+    "title_alias_collision_count": 0,
+    "remote_base_entries": 829,
+    "result_entries": 830,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  },
+  "additional_candidate_screen": {
+    "screened": 10,
+    "recommended": 1,
+    "already_present": 2,
+    "unverified": 7,
+    "scope": "이번 조사 추가후보만; 누적 후보 수가 아님"
+  },
+  "lost_local_work_recovered": false
+}

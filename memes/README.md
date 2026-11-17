@@ -462,6 +462,7 @@
 - [써방](sseobang.md)
 - [썸](some-romance.md)
 - [쓸쓸비용](loneliness-cost.md)
+- [아기다리 고기다리](agidari-gogidari.md)
 - [아기상어 챌린지](baby-shark-challenge.md)
 - [아는 형님이요](aneun-hyeongnim.md)
 - [아디아디아디 챌린지](adi-adi-challenge.md)
