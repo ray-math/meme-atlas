@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "kind": "approved public-source clarification metadata, not raw collection notes",
+  "source_revision": "55bec3b4f812b5ddd1541594dcf8bb382f89f770",
+  "batch_id": "korean-reviewed-20261117-manban-role-clarification",
+  "review_kind": "AI source and editorial review; not human validation",
+  "entries": [
+    {
+      "slug": "manbanjalbu",
+      "title": "만반잘부",
+      "path": "memes/manbanjalbu.md",
+      "source_blob_sha": "3fad3235e27097e962da377cb15f95420e190f06",
+      "expected_body_hash": "4061205d9d0d1191df659a4f05558de9bee83ebcc8a490296dc243019e576eac",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 첫인사 문구의 음절을 묶어 만든 국내 온라인 인사 표현이다.",
+      "evidence": [
+        {
+          "url": "https://m.joongdo.co.kr/view.php?key=20190508001639038",
+          "publisher": "중도일보",
+          "published_date": "2019-05-09"
+        },
+        {
+          "url": "https://bravo.etoday.co.kr/view/atc_view/18536",
+          "publisher": "브라보마이라이프",
+          "published_date": "2026-02-09"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "The two sources explain meaning and first-meeting use; constructed examples are not raw observed dialogues.",
+    "The role contrast is softened into a possible editorial pairing, not a claim that the previous sentence was false.",
+    "No first inventor, exclusive entrant-only rule, or independently observed host-side usage is established.",
+    "No student identities, private anecdotes or current-popularity claims are copied."
+  ]
+}
