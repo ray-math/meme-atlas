@@ -21,3 +21,5 @@
 - [설득력이... 있어!](../memes/it-is-persuasive.md)
 - [월급루팡](../memes/salary-lupin.md)
 - [텔미 춤 따라하기](../memes/tell-me-dance.md)
+- [일해라 절해라](../memes/work-and-bow.md)
+- [쏘리쏘리 춤 따라하기](../memes/sorry-sorry-dance.md)
