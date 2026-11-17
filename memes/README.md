@@ -227,6 +227,7 @@
 - [닥눈삼](daknunsam.md)
 - [단어 리듬 게임 챌린지](word-on-beat.md)
 - [단어 습득하는 몬스터](word-learning-monster.md)
+- [단어 알지? 싸워](fight-briefing-parody.md)
 - [단언컨대 ~는 가장 완벽한 물질입니다](most-perfect-material.md)
 - [답정너](dapjeongneo.md)
 - [당근을 흔들어주세요](shake-a-carrot.md)

@@ -741,6 +741,7 @@
 - [GOAT](../memes/goat.md)
 - [꼭짓점 댄스](../memes/vertex-dance.md)
 - [내려갈 팀은 내려간다](../memes/down-team-is-down.md)
+- [단어 알지? 싸워](../memes/fight-briefing-parody.md)
 - [삐끼삐끼 춤](../memes/ppikki-ppikki.md)
 - [영미](../memes/youngmi-call.md)
 - [와칸다 포에버](../memes/wakanda-forever.md)
@@ -962,6 +963,7 @@
 - [그럼 다음은 무조건 ○○겠지](../memes/next-trend-wish-template.md)
 - [나이별 반응 챌린지](../memes/age-reaction-challenge.md)
 - [널 좋아하는 마음이 커졌어 막 공룡만 해](../memes/dinosaur-sized-affection.md)
+- [단어 알지? 싸워](../memes/fight-briefing-parody.md)
 - [무례하지 않게 말해 주세요](../memes/say-it-politely-template.md)
 - [일하는 중에 갑자기 몸이 안 좋아졌어요](../memes/suddenly-sick-fan-trip.md)
 

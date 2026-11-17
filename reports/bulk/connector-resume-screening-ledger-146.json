@@ -27,10 +27,11 @@
     "reports/bulk/connector-resume-bc169.json",
     "reports/bulk/connector-resume-b170.json",
     "reports/bulk/connector-resume-audit-screening171.json",
-    "reports/bulk/connector-resume-b172.json"
+    "reports/bulk/connector-resume-b172.json",
+    "reports/bulk/connector-resume-a173.json"
   ],
-  "query_observations": 456,
-  "distinct_literal_queries": 364,
+  "query_observations": 469,
+  "distinct_literal_queries": 375,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -2512,6 +2513,71 @@
     {
       "query": "age-reaction",
       "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "싸워",
+      "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "단어 알지",
+      "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "홍명보",
+      "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "싸워 전술",
+      "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "산불",
+      "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "FIGHT",
+      "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "니가 좋아",
+      "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "로드스터",
+      "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빅가이",
+      "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "BIG GUY",
+      "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빅 가이",
+      "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "원주만두",
+      "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "프랑스",
+      "source": "reports/bulk/connector-resume-a173.json",
       "status": "screened-see-report"
     }
   ],
