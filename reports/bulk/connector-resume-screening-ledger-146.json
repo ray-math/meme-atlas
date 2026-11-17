@@ -32,10 +32,11 @@
     "reports/bulk/connector-resume-c174.json",
     "reports/bulk/connector-resume-a176.json",
     "reports/bulk/connector-resume-holds177.json",
-    "reports/bulk/connector-resume-a178.json"
+    "reports/bulk/connector-resume-a178.json",
+    "reports/bulk/connector-resume-b179.json"
   ],
-  "query_observations": 529,
-  "distinct_literal_queries": 421,
+  "query_observations": 544,
+  "distinct_literal_queries": 436,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -2882,6 +2883,81 @@
     {
       "query": "펜 워킹",
       "source": "reports/bulk/connector-resume-a178.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "어머",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사람 좀",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "난리도",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "해봐서",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감옥",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누가 돌아",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "팔리아",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "난리",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스마일",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "클리닉",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "상담실장",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "난리도아니햐",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "난리도 아니햐",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아니햐",
+      "source": "reports/bulk/connector-resume-b179.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이수지",
+      "source": "reports/bulk/connector-resume-b179.json",
       "status": "screened-see-report"
     }
   ],

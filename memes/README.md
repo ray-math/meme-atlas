@@ -160,6 +160,7 @@
 - [난 대학 시절 묵찌빠를 전공했단 사실](mukjjippa-major.md)
 - [난 파라파라나 춰야겠다](dance-parapara.md)
 - [난 한 놈만 패](one-target-only.md)
+- [난리도 아니햐](nanrido-aniya-suji.md)
 - [난리자베스](nanrijabeth.md)
 - [날 바라바라봐 챌린지](look-at-me-challenge.md)
 - [날이 좋아서](because-good-day.md)

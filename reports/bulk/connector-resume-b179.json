@@ -1,0 +1,47 @@
+{
+  "base_sha": "a69c8da0d0592b7f4a06367de9ba1bc213ceffaa",
+  "canonical_before": 887,
+  "canonical_after": 888,
+  "added": [
+    "nanrido-aniya-suji"
+  ],
+  "sources": [
+    {
+      "url": "https://maily.so/marsinmarine/posts/mjz6kk8yrwk",
+      "date": "2026-05-26",
+      "type": "direct subtitle/editorial application and origin explanation"
+    },
+    {
+      "url": "https://inkdot.kr/20260503_3/",
+      "date_scope": "2026년5월3주 분석; 정확게시일미확인",
+      "type": "reported Chungbuk monorail video parody"
+    }
+  ],
+  "query_strings": [
+    "어머",
+    "사람 좀",
+    "난리도",
+    "해봐서",
+    "감옥",
+    "누가 돌아",
+    "팔리아",
+    "난리",
+    "스마일",
+    "클리닉",
+    "상담실장",
+    "난리도아니햐",
+    "난리도 아니햐",
+    "아니햐",
+    "이수지"
+  ],
+  "limits": [
+    "원영상미시청",
+    "원장/상담실장 혼용으로 직책단정제외",
+    "일반문장 전체로 확장하지않음"
+  ],
+  "held_other": "와졌어:Trend자기제목 사용은 확인; 롬앤 미러 편집자재열람실패로추가보강중",
+  "checks": {
+    "python": "not-run",
+    "ci": "not-run"
+  }
+}
