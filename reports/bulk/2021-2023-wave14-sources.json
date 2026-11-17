@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave14",
+  "baseline_ref": "99e1f31a",
+  "baseline_canonical_count": 772,
+  "review_date": "2026-11-17",
+  "reviewer_type": "AI",
+  "counts": {
+    "screened": 9,
+    "written": 3,
+    "existing_duplicate": 6,
+    "held": 0
+  },
+  "method": "이번에는 2023년 영상발 반응·문형 9개만 좁게 선별했다. 기존 6개 제외 후 신규 3개를 직접 본문으로 검증. 전체 30~50개를 새로 조사했다고 세지 않는다. 킹콩 문형의 두 번째 출처는 2026년 독립 후속 관측이다.",
+  "ci_status": "not_run",
+  "entries": [
+    {
+      "id": "geureoseyo-geureom",
+      "title": "그러세요 그럼",
+      "path": "memes/geureoseyo-geureom.md",
+      "own_definition": "상대의 말에 크게 관여하지 않겠다는 듯 건조하게 답하는 반응 밈이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2023년 국내 뉴스레터의 문형·반응 사용과 별개 발행 주체의 직접 본문 교차 검증."
+      },
+      "source_urls": [
+        {
+          "url": "https://maily.so/trendaword/posts/wjzd5m78o3p",
+          "publisher": "Trend A Word",
+          "published_date": "2023-08-01",
+          "access": "direct_body",
+          "supports": "미용실 ASMR 관련 배경과 건조한 동의의 사용 예.",
+          "independent_group": "trendaword-geureoseyo"
+        },
+        {
+          "url": "https://maily.so/acatch525/posts/8mo5kkeno9p",
+          "publisher": "얼터캐치",
+          "published_date": "2023-10-04",
+          "access": "direct_body",
+          "supports": "랄랄 콘텐츠와 SNS에서의 무관심·포기 반응 설명.",
+          "independent_group": "altercatch-oct2023"
+        }
+      ],
+      "limitations": [
+        "동일 메일리 플랫폼의 별개 발행 뉴스레터이며 편집자·서술·관측 예가 다르다.",
+        "최초 발화 및 원본 영상 전체를 독립 재생 검증하지 않았다.",
+        "2024년 동명 음원 가사를 가져오지 않고 2023년 반응 표현에 한정한다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "772 index 전체 문자열 및 pilot-state 대조 동일 표현 미검출. 인맥 표현은 TV 프로그램 아는 형님과 다름. pending 최종대조 통합 담당 요청."
+    },
+    {
+      "id": "aneun-hyeongnim",
+      "title": "아는 형님이요",
+      "path": "memes/aneun-hyeongnim.md",
+      "own_definition": "지인의 지인을 끝없이 이어 붙여 대단한 인맥이 있는 듯 말하는 과장을 웃음으로 삼는 밈이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2023년 국내 뉴스레터의 문형·반응 사용과 별개 발행 주체의 직접 본문 교차 검증."
+      },
+      "source_urls": [
+        {
+          "url": "https://mobile.newsis.com/view.html?ar_id=NISX20230622_0002348656",
+          "publisher": "뉴시스·튜브가이드",
+          "published_date": "2023-06-26",
+          "access": "direct_body",
+          "supports": "나선욱 콘텐츠 대사, 긴 연결문 변형과 다른 유튜버 모방.",
+          "independent_group": "newsis-tubeguide-aneun"
+        },
+        {
+          "url": "https://maily.so/acatch525/posts/8mo5kkeno9p",
+          "publisher": "얼터캐치",
+          "published_date": "2023-10-04",
+          "access": "direct_body",
+          "supports": "인맥 자랑을 늘어놓는 형식과 풍자 의미.",
+          "independent_group": "altercatch-oct2023"
+        }
+      ],
+      "limitations": [
+        "뉴시스 URL/사진의 6월22일과 기사등록일 6월26일 구별.",
+        "캐릭터의 외모 비하 명칭은 정의에 가져오지 않았다.",
+        "일반 지인 소개나 동명 TV 프로그램과 구분한다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "772 index 전체 문자열 및 pilot-state 대조 동일 표현 미검출. 인맥 표현은 TV 프로그램 아는 형님과 다름. pending 최종대조 통합 담당 요청."
+    },
+    {
+      "id": "i-punch-like-kingkong",
+      "title": "아이 펀치 라이크 킹콩 투 ○○",
+      "path": "memes/i-punch-like-kingkong.md",
+      "own_definition": "과장된 기술 이름처럼 영어 문장을 말하고 마지막에 대상을 넣는 패러디 문형이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2023년 국내 뉴스레터의 문형·반응 사용과 별개 발행 주체의 직접 본문 교차 검증."
+      },
+      "source_urls": [
+        {
+          "url": "https://maily.so/acatch525/posts/8mo5kkeno9p",
+          "publisher": "얼터캐치",
+          "published_date": "2023-10-04",
+          "access": "direct_body",
+          "supports": "2023 방송 배경과 시험·복학 등 비인물 대상 변형의 실제 관측.",
+          "independent_group": "altercatch-oct2023"
+        },
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=10852&mode=view&page=3&pageSize=12&searchStr=&serboardsort=9",
+          "publisher": "인크로스",
+          "published_date": "2026-04-15",
+          "access": "direct_body",
+          "supports": "2023 방송 회고 및 2026 재사용 시점의 독립 관측.",
+          "independent_group": "incross-kingkong-2026"
+        }
+      ],
+      "limitations": [
+        "2023년 직접 동시기 자료 하나와 2026년 독립 후속 관측을 교차 확인. 두 동시기 출처라고 세지 않는다.",
+        "행동을 재현하는 방법이나 실제 폭력 권장은 제공하지 않는다.",
+        "당사자의 실제 관계·심리나 특정 영상 속 신체 접촉의 동의를 추정하지 않는다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "772 index 전체 문자열 및 pilot-state 대조 동일 표현 미검출. 인맥 표현은 TV 프로그램 아는 형님과 다름. pending 최종대조 통합 담당 요청."
+    }
+  ],
+  "triage": [
+    {
+      "title": "그러세요 그럼",
+      "status": "written"
+    },
+    {
+      "title": "아는 형님이요",
+      "status": "written"
+    },
+    {
+      "title": "아이 펀치 라이크 킹콩 투 ○○",
+      "status": "written"
+    },
+    {
+      "title": "피어나 너 내 도도독",
+      "status": "existing_duplicate"
+    },
+    {
+      "title": "가보자고",
+      "status": "existing_duplicate"
+    },
+    {
+      "title": "오히려 좋아",
+      "status": "existing_duplicate"
+    },
+    {
+      "title": "홈 프로텍터",
+      "status": "existing_duplicate"
+    },
+    {
+      "title": "하지만 빨랐죠",
+      "status": "existing_duplicate"
+    },
+    {
+      "title": "내일 봬요 누나",
+      "status": "existing_duplicate"
+    }
+  ]
+}
