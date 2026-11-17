@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "batch": "recent-wave1",
+  "created_at": "2026-11-17",
+  "base_ref": "eval/natural-language-usage",
+  "base_sha": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+  "policy": {
+    "scope": "한국 내 사용이 확인된 최근 관찰 밈. 최초 등장 연도 및 현재 유행 순위 아님.",
+    "independent_publisher_count_per_entry": 2,
+    "read_actual_body": true,
+    "snippet_only_evidence_used": false,
+    "wiki_used_as_canonical_evidence": false,
+    "original_definitions": true,
+    "reviewed_usage_profiles_added": false
+  },
+  "counts": {
+    "independent_reporting_candidates": 40,
+    "canonical_drafted": 12,
+    "two_publisher_body_checked": 12,
+    "held_from_independent_reporting": 28,
+    "canonical_index_compared": 357
+  },
+  "sourceentries": [
+    {
+      "slug": "chill-guy",
+      "title": "칠 가이",
+      "path": "memes/chill-guy.md",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539581",
+          "publisher": "이투데이",
+          "published_date": "2025-12-24",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://gogumafarm.kr/2025년엔-아주-많은-밈이-잇엇슨-올해를-뒤흔든-밈-총/",
+          "publisher": "고구마팜",
+          "published_date": "2025-12-17",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "gogumafarm"
+        }
+      ],
+      "scope_type": "korean_usage_observed",
+      "basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "review_note": "수록 본문 초안 검증 완료. 최신 357개 제목·alias 정규화 exact match 없음. 통합 시 최신 데이터 및 사용 프로필 검증은 별도 필요.",
+      "source_limits": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "naniga-suki",
+      "title": "나니가 스키",
+      "path": "memes/naniga-suki.md",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539581",
+          "publisher": "이투데이",
+          "published_date": "2025-12-24",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://gogumafarm.kr/2025년엔-아주-많은-밈이-잇엇슨-올해를-뒤흔든-밈-총/",
+          "publisher": "고구마팜",
+          "published_date": "2025-12-17",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "gogumafarm"
+        }
+      ],
+      "scope_type": "korean_usage_observed",
+      "basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "review_note": "수록 본문 초안 검증 완료. 최신 357개 제목·alias 정규화 exact match 없음. 통합 시 최신 데이터 및 사용 프로필 검증은 별도 필요.",
+      "source_limits": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "italian-brainrot",
+      "title": "이탈리안 브레인롯",
+      "path": "memes/italian-brainrot.md",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539581",
+          "publisher": "이투데이",
+          "published_date": "2025-12-24",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://gogumafarm.kr/2025년엔-아주-많은-밈이-잇엇슨-올해를-뒤흔든-밈-총/",
+          "publisher": "고구마팜",
+          "published_date": "2025-12-17",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "gogumafarm"
+        }
+      ],
+      "scope_type": "korean_usage_observed",
+      "basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "review_note": "수록 본문 초안 검증 완료. 최신 357개 제목·alias 정규화 exact match 없음. 통합 시 최신 데이터 및 사용 프로필 검증은 별도 필요.",
+      "source_limits": "개별 캐릭터는 동의어가 아니므로 alias 처리하지 않음. 일부 음성에 혐오·종교 모욕이 있다는 가능성 때문에 음성/번역/개별 서사는 수록하지 않고 시각적 형식만 설명."
+    },
+    {
+      "slug": "hambugi",
+      "title": "햄부기",
+      "path": "memes/hambugi.md",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539581",
+          "publisher": "이투데이",
+          "published_date": "2025-12-24",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://www.wikitree.co.kr/articles/1023054",
+          "publisher": "위키트리",
+          "published_date": "2025-02-05",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "wikitree"
+        }
+      ],
+      "scope_type": "korean_usage_observed",
+      "basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "review_note": "수록 본문 초안 검증 완료. 최신 357개 제목·alias 정규화 exact match 없음. 통합 시 최신 데이터 및 사용 프로필 검증은 별도 필요.",
+      "source_limits": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "do-you-think-i-dont-know",
+      "title": "내가 그걸 모를까",
+      "path": "memes/do-you-think-i-dont-know.md",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539581",
+          "publisher": "이투데이",
+          "published_date": "2025-12-24",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://v.daum.net/v/20251007080125858",
+          "publisher": "경기일보 (Daum 게재)",
+          "published_date": "2025-10-07",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "kyeonggi"
+        }
+      ],
+      "scope_type": "korean_usage_observed",
+      "basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "review_note": "수록 본문 초안 검증 완료. 최신 357개 제목·alias 정규화 exact match 없음. 통합 시 최신 데이터 및 사용 프로필 검증은 별도 필요.",
+      "source_limits": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "good-night-ojousama",
+      "title": "잘자요 아가씨",
+      "path": "memes/good-night-ojousama.md",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2432581",
+          "publisher": "이투데이",
+          "published_date": "2024-12-26",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://gogumafarm.kr/밈-바래-다-줄게-2024년-밈-총결산/",
+          "publisher": "고구마팜",
+          "published_date": "2024-12-11",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "gogumafarm"
+        }
+      ],
+      "scope_type": "korean_usage_observed",
+      "basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "review_note": "수록 본문 초안 검증 완료. 최신 357개 제목·alias 정규화 exact match 없음. 통합 시 최신 데이터 및 사용 프로필 검증은 별도 필요.",
+      "source_limits": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "gwenchana-dingdingding",
+      "title": "괜찮아 딩딩딩",
+      "path": "memes/gwenchana-dingdingding.md",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2432581",
+          "publisher": "이투데이",
+          "published_date": "2024-12-26",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://gogumafarm.kr/2025년엔-아주-많은-밈이-잇엇슨-올해를-뒤흔든-밈-총/",
+          "publisher": "고구마팜",
+          "published_date": "2025-12-17",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "gogumafarm"
+        }
+      ],
+      "scope_type": "korean_usage_observed",
+      "basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "review_note": "수록 본문 초안 검증 완료. 최신 357개 제목·alias 정규화 exact match 없음. 통합 시 최신 데이터 및 사용 프로필 검증은 별도 필요.",
+      "source_limits": "스트리머 음성 버전과 7dnight 음악 버전을 구분해 서술. 모든 변형이 동일한 원본 음원이라는 주장은 하지 않음."
+    },
+    {
+      "slug": "heogeodeonggeodeongseu",
+      "title": "허거덩거덩스",
+      "path": "memes/heogeodeonggeodeongseu.md",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/2025년엔-아주-많은-밈이-잇엇슨-올해를-뒤흔든-밈-총/",
+          "publisher": "고구마팜",
+          "published_date": "2025-12-17",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "gogumafarm"
+        },
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=3311&pageidx=1",
+          "publisher": "캐릿",
+          "published_date": "2025-03-11",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "careet"
+        }
+      ],
+      "scope_type": "korean_usage_observed",
+      "basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "review_note": "수록 본문 초안 검증 완료. 최신 357개 제목·alias 정규화 exact match 없음. 통합 시 최신 데이터 및 사용 프로필 검증은 별도 필요.",
+      "source_limits": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "galteyateya",
+      "title": "갈테야테야",
+      "path": "memes/galteyateya.md",
+      "evidence": [
+        {
+          "url": "https://www.kca.go.kr/webzine/board/view?div=kca_2603&linkId=988&menuId=MENU00330",
+          "publisher": "한국소비자원 소비자시대",
+          "published_date": "2026-03",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "kca"
+        },
+        {
+          "url": "https://v.daum.net/v/20251007080125858",
+          "publisher": "경기일보 (Daum 게재)",
+          "published_date": "2025-10-07",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "kyeonggi"
+        }
+      ],
+      "scope_type": "korean_usage_observed",
+      "basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "review_note": "수록 본문 초안 검증 완료. 최신 357개 제목·alias 정규화 exact match 없음. 통합 시 최신 데이터 및 사용 프로필 검증은 별도 필요.",
+      "source_limits": "기원 사연의 실제 발생 여부는 검증되지 않아 역사적 사실로 단정하지 않음. 두 출처의 의지/좌절 설명을 상호배타적 정의로 만들지 않음."
+    },
+    {
+      "slug": "azasu",
+      "title": "아자스",
+      "path": "memes/azasu.md",
+      "evidence": [
+        {
+          "url": "https://www.kca.go.kr/webzine/board/view?div=kca_2603&linkId=988&menuId=MENU00330",
+          "publisher": "한국소비자원 소비자시대",
+          "published_date": "2026-03",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "kca"
+        },
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=10599&mode=view&page=10&pageSize=12&searchStr=&serboardsort=",
+          "publisher": "인크로스",
+          "published_date": "2025-10-15",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "incaz"
+        }
+      ],
+      "scope_type": "korean_usage_observed",
+      "basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "review_note": "수록 본문 초안 검증 완료. 최신 357개 제목·alias 정규화 exact match 없음. 통합 시 최신 데이터 및 사용 프로필 검증은 별도 필요.",
+      "source_limits": "실존 인물 논란·혐의는 포함하지 않음. 비꼼의 기능만 중립 설명. 감사로만 분류하지 않음."
+    },
+    {
+      "slug": "tiramisu-cake",
+      "title": "티라미수 케이크",
+      "path": "memes/tiramisu-cake.md",
+      "evidence": [
+        {
+          "url": "https://www.newsis.com/view/?id=NISX20241205_0002985899",
+          "publisher": "뉴시스",
+          "published_date": "2024-12-16",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "newsis"
+        },
+        {
+          "url": "https://enews.imbc.com/News/RetrieveNewsInfo/435342",
+          "publisher": "iMBC연예",
+          "published_date": "2024-10-31",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "imbc"
+        }
+      ],
+      "scope_type": "korean_usage_observed",
+      "basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "review_note": "수록 본문 초안 검증 완료. 최신 357개 제목·alias 정규화 exact match 없음. 통합 시 최신 데이터 및 사용 프로필 검증은 별도 필요.",
+      "source_limits": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "naya-deulgireum",
+      "title": "나야 들기름",
+      "path": "memes/naya-deulgireum.md",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2432581",
+          "publisher": "이투데이",
+          "published_date": "2024-12-26",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://www.realfoods.co.kr/article/10421388",
+          "publisher": "리얼푸드 / 헤럴드",
+          "published_date": "2025-02-17",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "realfoods"
+        }
+      ],
+      "scope_type": "korean_usage_observed",
+      "basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "review_note": "수록 본문 초안 검증 완료. 최신 357개 제목·alias 정규화 exact match 없음. 통합 시 최신 데이터 및 사용 프로필 검증은 별도 필요.",
+      "source_limits": "모든 나야 ○○ 문장으로 일반화할 파생 근거는 이번 범위에서 확보하지 않음."
+    }
+  ],
+  "held": [
+    {
+      "title": "원영적 사고",
+      "reason": "existing_canonical"
+    },
+    {
+      "title": "희진적 사고",
+      "reason": "sensitive_person_controversy_out_of_scope"
+    },
+    {
+      "title": "이븐하게 익었다",
+      "reason": "positive_negative_variant_scope_requires_review"
+    },
+    {
+      "title": "외모 체크",
+      "reason": "near_duplicate_requires_review"
+    },
+    {
+      "title": "꽁꽁 얼어붙은 한강 위로 고양이가 걸어다닙니다",
+      "reason": "existing_canonical"
+    },
+    {
+      "title": "○○핑",
+      "reason": "two_independent_direct_bodies_not_completed"
+    },
+    {
+      "title": "해피 캣",
+      "reason": "existing_canonical"
+    },
+    {
+      "title": "밤양갱",
+      "reason": "two_independent_direct_bodies_not_completed"
+    },
+    {
+      "title": "첫 번째 레슨",
+      "reason": "two_independent_direct_bodies_not_completed"
+    },
+    {
+      "title": "골반통신",
+      "reason": "existing_canonical"
+    },
+    {
+      "title": "트랄랄레로 트랄라라",
+      "reason": "parent_entry_covers_format_no_separate_alias_or_entry"
+    },
+    {
+      "title": "봄바르디로 크로코딜로",
+      "reason": "parent_entry_covers_format_no_separate_alias_or_entry"
+    },
+    {
+      "title": "퉁퉁퉁 사후르",
+      "reason": "parent_entry_covers_format_no_separate_alias_or_entry"
+    },
+    {
+      "title": "개웃겨서 도티낳음",
+      "reason": "two_independent_direct_bodies_not_completed"
+    },
+    {
+      "title": "이라이라 챌린지",
+      "reason": "two_independent_direct_bodies_not_completed"
+    },
+    {
+      "title": "성기훈 얼음",
+      "reason": "two_independent_direct_bodies_not_completed"
+    },
+    {
+      "title": "매끈매끈하다 매끈매끈한",
+      "reason": "existing_canonical"
+    },
+    {
+      "title": "와우 섹시 푸드",
+      "reason": "sexual_wording_excluded_from_this_wave"
+    },
+    {
+      "title": "알고리즘에 나타나기로 마음먹음",
+      "reason": "two_independent_direct_bodies_not_completed"
+    },
+    {
+      "title": "와 너 정말 핵심을 찔렀어",
+      "reason": "two_independent_direct_bodies_not_completed"
+    },
+    {
+      "title": "누가 내 간식을 먹었을까",
+      "reason": "two_independent_direct_bodies_not_completed"
+    },
+    {
+      "title": "에겐 테토",
+      "reason": "two_independent_direct_bodies_not_completed"
+    },
+    {
+      "title": "귀하게 자란 내가 이런 걸 봐도 될까",
+      "reason": "two_independent_direct_bodies_not_completed"
+    },
+    {
+      "title": "난리자베스",
+      "reason": "existing_canonical"
+    },
+    {
+      "title": "운동 많이 된다",
+      "reason": "existing_canonical"
+    },
+    {
+      "title": "할렐야루",
+      "reason": "existing_canonical"
+    },
+    {
+      "title": "갑차기스러운데",
+      "reason": "existing_canonical"
+    },
+    {
+      "title": "읽지 않음 난 모르는 일",
+      "reason": "existing_canonical"
+    }
+  ]
+}
