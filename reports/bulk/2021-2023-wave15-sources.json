@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave15",
+  "baseline_ref": "2c5041ff",
+  "baseline_canonical_count": 784,
+  "review_date": "2026-11-17",
+  "reviewer_type": "AI",
+  "counts": {
+    "screened": 2,
+    "written": 2,
+    "held": 0
+  },
+  "method": "사전 예약한 고정 표현 2개만 심층 검증. 두 독립 발행 주체의 직접 본문을 확인하되 동일 행사 정보의 중복 관측 수를 부풀리지 않았다.",
+  "ci_status": "not_run",
+  "entries": [
+    {
+      "id": "geureureuk-galg",
+      "title": "그르륵 갉",
+      "path": "memes/geureureuk-galg.md",
+      "own_definition": "편의점 앞 플라스틱 의자를 끄는 소리를 흉내 내며, 그 자리에 앉아 나누는 속 깊은 대화를 떠올리게 하는 밈이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2023년 국내 온라인 용법과 독립 발행 주체의 정의 또는 후속 실제 변용 확인."
+      },
+      "source_urls": [
+        {
+          "url": "https://v.daum.net/v/bMPDlQnXxP",
+          "publisher": "트렌드어워드(Daum 전재)",
+          "published_date": "2023-08-29",
+          "access": "direct_body",
+          "supports": "플라스틱 의자 소리, 진지한 대화 예문 및 커뮤니티 관측.",
+          "independent_group": "trendaword-chair-2023"
+        },
+        {
+          "url": "https://www.i-boss.co.kr/ab-6141-63203",
+          "publisher": "큐레터·아이보스",
+          "published_date": "2023-12-14",
+          "access": "direct_body",
+          "supports": "의자 소리 정의, 진솔한 대화 의미 및 CU 이벤트 회고.",
+          "independent_group": "qletter-review-2023"
+        }
+      ],
+      "limitations": [
+        "두 글의 CU 이벤트 언급은 동일 사건이므로 독립 관측 둘로 합산하지 않았다. 트렌드어워드의 별도 온라인 문맥과 큐레터의 정의·회고를 교차 확인.",
+        "원트윗은 직접 열지 않았고 최초 게시 시점·최초 작성자를 단정하지 않았다.",
+        "2023-08-29는 Daum 검색 표시 및 앞서 확인한 원 뉴스레터 호수 날짜 기준."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "784 index 전체 문자열 및 pilot-state에서 동일 표현 미검출. 그르륵 갉은 드르륵 탁과 구분."
+    },
+    {
+      "id": "samujeogin-taedo",
+      "title": "사무적인 태도 섭섭하네요",
+      "path": "memes/samujeogin-taedo.md",
+      "own_definition": "딱딱하거나 기대보다 무심한 반응에 서운함을 과장해 덧붙이는 반응 문구다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2023년 국내 온라인 용법과 독립 발행 주체의 정의 또는 후속 실제 변용 확인."
+      },
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/고구마팜-사무적인-태도-섭섭하네요-최신-밈-모르겠/",
+          "publisher": "고구마팜",
+          "published_date": "2023-07-21",
+          "access": "direct_body",
+          "supports": "서운함을 가볍게 말하는 SNS 반응 용법 설명.",
+          "independent_group": "gogumafarm-july2023"
+        },
+        {
+          "url": "https://brunch.co.kr/@@cFnV/203",
+          "publisher": "고대문화 편집위원회",
+          "published_date": "2024-12-05",
+          "access": "direct_body",
+          "supports": "필자가 교지 관련 문장으로 직접 변용한 서두의 사용 예.",
+          "independent_group": "komun-meme-essay2024"
+        }
+      ],
+      "limitations": [
+        "두 번째는 2024년 독립 실제 사용이며 2023년 동시기 자료 두 개로 세지 않는다. 본문은 2024년7월 기준을 밝히지만 웹 발행일은 12월5일이다.",
+        "고구마팜이 설명한 익명 혼인신고 글의 실제 사건 여부·작성자·공무원 잘못을 확인하거나 주장하지 않았다.",
+        "고대문화 글의 일반 밈 이론 전체를 근거로 차용하지 않고 해당 표현의 실제 사용만 확인했다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "784 index 전체 문자열 및 pilot-state에서 동일 표현 미검출. 그르륵 갉은 드르륵 탁과 구분."
+    }
+  ]
+}
