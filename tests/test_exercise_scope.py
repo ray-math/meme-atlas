@@ -53,3 +53,8 @@ class ExerciseScopeTests(unittest.TestCase):
             for row in rows:row['retrieval'].pop('coverage',None)
             return rows
         self.assertTrue(strict_equal(behavior(frozen['results']),behavior(actual['results'])))
+
+    def test_final_answers_have_auditable_context_and_facts(self):
+        from check_context_decisions import validate_decisions
+        def read(name):return json.loads((ROOT/'eval/exercise-scope'/name).read_text())
+        self.assertEqual(validate_decisions(read('plans.json'),read('retrieval.json'),read('answers.json'),expected_prompt_version='contextual-v3'),[])
