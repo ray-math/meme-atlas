@@ -93,3 +93,56 @@ jobs:
               'limits':result['limitations']
           },ensure_ascii=False))
           PY
+      - name: Import reviewed public-source canonical additions in a temporary batch
+        run: |
+          python - <<'PY'
+          import hashlib,json,tempfile,sys,urllib.request
+          from pathlib import Path
+          root=Path.cwd()
+          def files():
+              return {p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
+                      for p in root.rglob('*') if p.is_file() and '.git' not in p.parts and '__pycache__' not in p.parts}
+          before=files()
+          sys.path.insert(0,str(root/'scripts'))
+          from frontmatter import read as metadata
+          from pilot_batch import apply
+          manifest=json.loads((root/'reports/bulk/canonical-wave20-approved.json').read_text())
+          if {r['slug'] for r in manifest['entries']}!={"acceptance-necklace","yumeiro-patissiere-challenge","i-really-like-this-story","aigo-meaningless","i-am-still-hungry","dont-shout-clap","horizontal-coordinates-ghost"}:
+              raise ValueError('unexpected canonical batch scope')
+          for row in manifest['entries']:
+              for field in ['slug','title','path','source_revision','source_blob_sha','scope_type','scope_basis','evidence']:
+                  if not row.get(field):raise ValueError('missing source metadata: '+row.get('slug','?')+':'+field)
+          for row in manifest['entries']:
+              if len(row['evidence'])<2 or any(e.get('access')!='direct_body' for e in row['evidence']):
+                  raise ValueError('source evidence access must be normalized before import: '+row['slug'])
+          rows=[]
+          for row in manifest['entries']:
+              url='https://raw.githubusercontent.com/ray-math/meme-atlas/'+row['source_revision']+'/'+row['path']
+              raw=urllib.request.urlopen(url,timeout=30).read()
+              sha=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+              if sha!=row['source_blob_sha']:raise ValueError('source blob differs')
+              content=raw.decode('utf-8')
+              meta=metadata(content)
+              body=content[content.index('# '):]
+              rows.append({'slug':row['slug'],'title':row['title'],'markdown':body,
+                           'tags':meta.get('tags',[]),'aliases':meta.get('aliases',[]),
+                           'operation':'create','reviewed':True,'scope_type':row['scope_type'],
+                           'scope_basis':row['scope_basis'],'evidence':row['evidence']})
+          with tempfile.TemporaryDirectory() as directory:
+              input_path=Path(directory)/'input.json'
+              input_path.write_text(json.dumps(rows,ensure_ascii=False))
+              result=apply(root,input_path,manifest['batch_id'],max_entries=100)
+              replay=apply(root,input_path,manifest['batch_id'],max_entries=100)
+              if result['added']!=7 or result['updated']!=0 or replay['status']!='unchanged':raise ValueError('unexpected import/replay result')
+          print('IMPORT_RESULT='+json.dumps({'first':result,'replay':replay},ensure_ascii=False))
+          after=files()
+          for protected in ['data/korea-candidates.json','data/observations.json','data/latest-selection.json']:
+              if before.get(protected)!=after.get(protected):raise ValueError('protected ledger/observation changed')
+          for path,digest in sorted(after.items()):
+              if before.get(path)==digest:continue
+              content=(root/path).read_text(encoding='utf-8')
+              chunks=[content[i:i+4000] for i in range(0,len(content),4000)]
+              for i,chunk in enumerate(chunks):
+                  print('GENERATED_CHUNK='+json.dumps({'path':path,'part':i,'total':len(chunks),'content':chunk},ensure_ascii=False))
+          PY
+
