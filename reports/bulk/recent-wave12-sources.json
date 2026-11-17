@@ -1,0 +1,382 @@
+{
+  "batch": "recent-wave12",
+  "base_commit": "23c533cb967660e67a2191ce1a90ee0042b97d97",
+  "candidate_review_count": 30,
+  "sourceentries": [
+    {
+      "slug": "eoljukah",
+      "title": "얼죽아",
+      "path": "memes/eoljukah.md",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20210116203436410",
+          "publisher": "스포츠경향",
+          "published_date": "2021-01-16",
+          "access": "direct_body",
+          "support": "신조어 퀴즈에서 아이스커피 취향으로 풀이한다.",
+          "independent_group": "스포츠경향"
+        },
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1007077548",
+          "publisher": "SBS",
+          "published_date": "2023-02-13",
+          "access": "direct_body",
+          "support": "계절과 무관한 차가운 커피 선호를 설명한다. AFP 보도를 소개한 기사다.",
+          "independent_group": "SBS"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 사용이 확인된 팬덤 신조어·생활 말장난. 최초 발생을 주장하지 않음.",
+      "review_note": "본문 대조 초안. 독립 편집 검토 대기.",
+      "source_limits": "SBS의 AFP 인용은 별개 독립 원관측으로 중복 세지 않았다. 다른 시점 방송 퀴즈 보도와 대조. 최초 창안·현재 유행 강도 미확인."
+    },
+    {
+      "slug": "fanajeo",
+      "title": "팬아저",
+      "path": "memes/fanajeo.md",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/QncyxBj3cC",
+          "publisher": "이데일리",
+          "published_date": "2023-06-19",
+          "access": "direct_body",
+          "support": "비팬의 사진·영상 저장을 풀이한다.",
+          "independent_group": "이데일리"
+        },
+        {
+          "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=&key=20181112.99099004748",
+          "publisher": "국제신문",
+          "published_date": "2018-11-12",
+          "access": "direct_body",
+          "support": "신서유기6 퀴즈 속 표현의 뜻을 설명한다.",
+          "independent_group": "국제신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 사용이 확인된 팬덤 신조어·생활 말장난. 최초 발생을 주장하지 않음.",
+      "review_note": "본문 대조 초안. 독립 편집 검토 대기.",
+      "source_limits": "최초 창안·원게시물·원영상과 현재 유행 강도 미확인. 기사 속 개인 경험과 이미지·예문은 복제하지 않음."
+    },
+    {
+      "slug": "ilko",
+      "title": "일코",
+      "path": "memes/ilko.md",
+      "evidence": [
+        {
+          "url": "https://www.tenasia.co.kr/article/2014080745384",
+          "publisher": "텐아시아",
+          "published_date": "2014-08-07",
+          "access": "direct_body",
+          "support": "팬임을 감추는 표현으로 해설한다.",
+          "independent_group": "텐아시아"
+        },
+        {
+          "url": "https://cbiz.chosun.com/svc/bulletin/bulletin_art.html?contid=2015122900559",
+          "publisher": "조선비즈",
+          "published_date": "2015-12-29",
+          "access": "direct_body",
+          "support": "덕후 취향을 숨기는 행동과 줄임말의 관계를 설명한다.",
+          "independent_group": "조선비즈"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 사용이 확인된 팬덤 신조어·생활 말장난. 최초 발생을 주장하지 않음.",
+      "review_note": "본문 대조 초안. 독립 편집 검토 대기.",
+      "source_limits": "최초 창안·원게시물·원영상과 현재 유행 강도 미확인. 기사 속 개인 경험과 이미지·예문은 복제하지 않음."
+    },
+    {
+      "slug": "muggle-fandom",
+      "title": "머글",
+      "path": "memes/muggle-fandom.md",
+      "evidence": [
+        {
+          "url": "https://www.tenasia.co.kr/article/2014080745384",
+          "publisher": "텐아시아",
+          "published_date": "2014-08-07",
+          "access": "direct_body",
+          "support": "비팬을 가리키는 팬덤 용법과 소설 명칭의 관계를 설명한다.",
+          "independent_group": "텐아시아"
+        },
+        {
+          "url": "https://cbiz.chosun.com/svc/bulletin/bulletin_art.html?contid=2015122900559",
+          "publisher": "조선비즈",
+          "published_date": "2015-12-29",
+          "access": "direct_body",
+          "support": "팬덤 외부의 사람을 구분하는 표현으로 사용됨을 설명한다.",
+          "independent_group": "조선비즈"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 사용이 확인된 팬덤 신조어·생활 말장난. 최초 발생을 주장하지 않음.",
+      "review_note": "본문 대조 초안. 독립 편집 검토 대기.",
+      "source_limits": "최초 창안·원게시물·원영상과 현재 유행 강도 미확인. 기사 속 개인 경험과 이미지·예문은 복제하지 않음."
+    },
+    {
+      "slug": "deoktongsago",
+      "title": "덕통사고",
+      "path": "memes/deoktongsago.md",
+      "evidence": [
+        {
+          "url": "https://cbiz.chosun.com/svc/bulletin/bulletin_art.html?contid=2015122900559",
+          "publisher": "조선비즈",
+          "published_date": "2015-12-29",
+          "access": "direct_body",
+          "support": "뜻밖의 계기로 팬이 되는 의미를 해설한다.",
+          "independent_group": "조선비즈"
+        },
+        {
+          "url": "https://sports.khan.co.kr/article/202205161043003/amp",
+          "publisher": "스포츠경향",
+          "published_date": "2022-05-16",
+          "access": "direct_body",
+          "support": "예기치 않은 팬 입문을 사고에 비유해 풀이한다.",
+          "independent_group": "스포츠경향"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 사용이 확인된 팬덤 신조어·생활 말장난. 최초 발생을 주장하지 않음.",
+      "review_note": "본문 대조 초안. 독립 편집 검토 대기.",
+      "source_limits": "최초 창안·원게시물·원영상과 현재 유행 강도 미확인. 기사 속 개인 경험과 이미지·예문은 복제하지 않음."
+    },
+    {
+      "slug": "choechoichacha",
+      "title": "최최차차",
+      "path": "memes/choechoichacha.md",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20210116203436410",
+          "publisher": "스포츠경향",
+          "published_date": "2021-01-16",
+          "access": "direct_body",
+          "support": "놀면 뭐하니 신조어 퀴즈와 표현의 뜻을 설명한다.",
+          "independent_group": "스포츠경향"
+        },
+        {
+          "url": "https://enews.imbc.com/News/RetrieveNewsInfo/311832",
+          "publisher": "iMBC",
+          "published_date": "2021-04-18",
+          "access": "direct_body",
+          "support": "별개의 방송 아는 형님에서 당사자가 표현을 풀이한 장면을 보도한다.",
+          "independent_group": "iMBC"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 사용이 확인된 팬덤 신조어·생활 말장난. 최초 발생을 주장하지 않음.",
+      "review_note": "본문 대조 초안. 독립 편집 검토 대기.",
+      "source_limits": "최초 창안·원게시물·원영상과 현재 유행 강도 미확인. 기사 속 개인 경험과 이미지·예문은 복제하지 않음."
+    },
+    {
+      "slug": "ipdeok",
+      "title": "입덕",
+      "path": "memes/ipdeok.md",
+      "evidence": [
+        {
+          "url": "https://www.tenasia.co.kr/article/2014080745384",
+          "publisher": "텐아시아",
+          "published_date": "2014-08-07",
+          "access": "direct_body",
+          "support": "입문한다는 구성과 팬덤 뜻을 설명한다.",
+          "independent_group": "텐아시아"
+        },
+        {
+          "url": "https://v.daum.net/v/QncyxBj3cC",
+          "publisher": "이데일리",
+          "published_date": "2023-06-19",
+          "access": "direct_body",
+          "support": "열성적으로 좋아하기 시작하는 의미로 해설한다.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 사용이 확인된 팬덤 신조어·생활 말장난. 최초 발생을 주장하지 않음.",
+      "review_note": "본문 대조 초안. 독립 편집 검토 대기.",
+      "source_limits": "최초 창안·원게시물·원영상과 현재 유행 강도 미확인. 기사 속 개인 경험과 이미지·예문은 복제하지 않음."
+    },
+    {
+      "slug": "taldeok",
+      "title": "탈덕",
+      "path": "memes/taldeok.md",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/QncyxBj3cC",
+          "publisher": "이데일리",
+          "published_date": "2023-06-19",
+          "access": "direct_body",
+          "support": "활동을 끝내는 탈덕과 일시 휴식을 구분한다.",
+          "independent_group": "이데일리"
+        },
+        {
+          "url": "https://www.slj.co.kr/bbs/board.php?bo_table=special&page=3&wr_id=647",
+          "publisher": "학교도서관저널",
+          "published_date": "2023-07-04",
+          "access": "direct_body",
+          "support": "탈덕을 팬 활동의 졸업으로 설명하고 휴덕과 구분한다.",
+          "independent_group": "학교도서관저널"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 사용이 확인된 팬덤 신조어·생활 말장난. 최초 발생을 주장하지 않음.",
+      "review_note": "본문 대조 초안. 독립 편집 검토 대기.",
+      "source_limits": "최초 창안·원게시물·원영상과 현재 유행 강도 미확인. 기사 속 개인 경험과 이미지·예문은 복제하지 않음."
+    },
+    {
+      "slug": "deokmate",
+      "title": "덕메",
+      "path": "memes/deokmate.md",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/QncyxBj3cC",
+          "publisher": "이데일리",
+          "published_date": "2023-06-19",
+          "access": "direct_body",
+          "support": "팬 활동을 같이하는 친구와 정보 공유를 설명한다.",
+          "independent_group": "이데일리"
+        },
+        {
+          "url": "https://www.slj.co.kr/bbs/board.php?bo_table=special&page=3&wr_id=647",
+          "publisher": "학교도서관저널",
+          "published_date": "2023-07-04",
+          "access": "direct_body",
+          "support": "덕질을 함께하는 친구라는 뜻을 명시한다.",
+          "independent_group": "학교도서관저널"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 사용이 확인된 팬덤 신조어·생활 말장난. 최초 발생을 주장하지 않음.",
+      "review_note": "본문 대조 초안. 독립 편집 검토 대기.",
+      "source_limits": "최초 창안·원게시물·원영상과 현재 유행 강도 미확인. 기사 속 개인 경험과 이미지·예문은 복제하지 않음."
+    },
+    {
+      "slug": "daengdaengi",
+      "title": "댕댕이",
+      "path": "memes/daengdaengi.md",
+      "evidence": [
+        {
+          "url": "https://www.seoul.co.kr/news/editOpinion/column/find_wordlight/2018/03/22/20180322029013",
+          "publisher": "서울신문",
+          "published_date": "2018-03-21",
+          "access": "direct_body",
+          "support": "멍과 댕의 시각적 유사성을 이용한 표기를 설명한다.",
+          "independent_group": "서울신문"
+        },
+        {
+          "url": "https://www.yna.co.kr/view/AKR20221005132600004",
+          "publisher": "연합뉴스",
+          "published_date": "2022-10-06",
+          "access": "direct_body",
+          "support": "멍멍이와의 대응 및 공공기관 SNS 사용을 보도한다.",
+          "independent_group": "연합뉴스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 사용이 확인된 팬덤 신조어·생활 말장난. 최초 발생을 주장하지 않음.",
+      "review_note": "본문 대조 초안. 독립 편집 검토 대기.",
+      "source_limits": "최초 창안·원게시물·원영상과 현재 유행 강도 미확인. 기사 속 개인 경험과 이미지·예문은 복제하지 않음."
+    },
+    {
+      "slug": "nyangmonite",
+      "title": "냥모나이트",
+      "path": "memes/nyangmonite.md",
+      "evidence": [
+        {
+          "url": "https://www.peoplewatch.co.kr/article/view/ppw201809200016",
+          "publisher": "노트펫 (피플워치 유통)",
+          "published_date": "2018-09-20",
+          "access": "direct_body",
+          "support": "온라인 사진 속 고양이의 둥글게 만 자세를 풀이한다.",
+          "independent_group": "노트펫"
+        },
+        {
+          "url": "https://m.go.seoul.co.kr/news/editOpinion/opinion/2022/11/21/20221121025009?cp=en",
+          "publisher": "서울신문",
+          "published_date": "2022-11-20",
+          "access": "direct_body",
+          "support": "암모나이트와 닮은 고양이 자세를 가리키는 표현으로 설명한다.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "국내 사용이 확인된 팬덤 신조어·생활 말장난. 최초 발생을 주장하지 않음.",
+      "review_note": "본문 대조 초안. 독립 편집 검토 대기.",
+      "source_limits": "최초 창안·원게시물·원영상과 현재 유행 강도 미확인. 기사 속 개인 경험과 이미지·예문은 복제하지 않음."
+    }
+  ],
+  "held": [
+    {
+      "title": "아아",
+      "reason": "이번 고정 조사 범위에서 독립 발행처 두 본문에 의한 충분한 뜻·국내 사용 검증을 완료하지 못함"
+    },
+    {
+      "title": "뜨아",
+      "reason": "이번 고정 조사 범위에서 독립 발행처 두 본문에 의한 충분한 뜻·국내 사용 검증을 완료하지 못함"
+    },
+    {
+      "title": "소확행",
+      "reason": "다른 작성자 예약으로 제외"
+    },
+    {
+      "title": "욜로",
+      "reason": "생활·가치관 용어로서 밈 사전 수록 적합성과 추가 근거 검토 필요"
+    },
+    {
+      "title": "워라밸",
+      "reason": "생활·가치관 용어로서 밈 사전 수록 적합성과 추가 근거 검토 필요"
+    },
+    {
+      "title": "스라밸",
+      "reason": "다른 작성자 예약으로 제외"
+    },
+    {
+      "title": "자낳괴",
+      "reason": "이번 고정 조사 범위에서 독립 발행처 두 본문에 의한 충분한 뜻·국내 사용 검증을 완료하지 못함"
+    },
+    {
+      "title": "관종",
+      "reason": "이번 고정 조사 범위에서 독립 발행처 두 본문에 의한 충분한 뜻·국내 사용 검증을 완료하지 못함"
+    },
+    {
+      "title": "어그로",
+      "reason": "이번 고정 조사 범위에서 독립 발행처 두 본문에 의한 충분한 뜻·국내 사용 검증을 완료하지 못함"
+    },
+    {
+      "title": "덕계못",
+      "reason": "기존 canonical 중복"
+    },
+    {
+      "title": "최애",
+      "reason": "이번 고정 조사 범위에서 독립 발행처 두 본문에 의한 충분한 뜻·국내 사용 검증을 완료하지 못함"
+    },
+    {
+      "title": "차애",
+      "reason": "이번 고정 조사 범위에서 독립 발행처 두 본문에 의한 충분한 뜻·국내 사용 검증을 완료하지 못함"
+    },
+    {
+      "title": "성덕계못",
+      "reason": "독립된 통용 표현인지 확인되지 않음"
+    },
+    {
+      "title": "과몰입",
+      "reason": "이번 고정 조사 범위에서 독립 발행처 두 본문에 의한 충분한 뜻·국내 사용 검증을 완료하지 못함"
+    },
+    {
+      "title": "주접",
+      "reason": "이번 고정 조사 범위에서 독립 발행처 두 본문에 의한 충분한 뜻·국내 사용 검증을 완료하지 못함"
+    },
+    {
+      "title": "앓다",
+      "reason": "이번 고정 조사 범위에서 독립 발행처 두 본문에 의한 충분한 뜻·국내 사용 검증을 완료하지 못함"
+    },
+    {
+      "title": "랜선집사",
+      "reason": "다른 작성자 예약으로 제외"
+    },
+    {
+      "title": "랜선이모",
+      "reason": "다른 작성자 예약으로 제외"
+    },
+    {
+      "title": "냥냥펀치",
+      "reason": "이번 고정 조사 범위에서 독립 발행처 두 본문에 의한 충분한 뜻·국내 사용 검증을 완료하지 못함"
+    }
+  ]
+}
