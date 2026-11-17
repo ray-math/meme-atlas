@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "prompt_version": "contextual-v3",
+  "retrieval_commit": "d160ee6ada500c1c2a739eb3e51db41953c9b8a4",
+  "execution": "Actual AI responses after reading frozen Python lookup candidates; no live model call in CI.",
+  "limitations": [
+    "Public annotation-derived development, not blinded accuracy.",
+    "Caution lookup selections are contextual editorial judgments, not default recommend approvals.",
+    "Hypothetical premises are not independently verified real-world facts."
+  ],
+  "answers": [
+    {
+      "id": "K-inference",
+      "action": "recommend",
+      "selected_entry_id": "king-reasonable-suspicion",
+      "selected_usage_id": "playful-inference",
+      "text": "게임 공지에 별 모양이 계속 나오네. 다음 행사가 별 테마일 거라는 킹리적 갓심. 아직 발표된 건 아니지만."
+    },
+    {
+      "id": "N-criteria",
+      "action": "recommend",
+      "selected_entry_id": "naeronambul",
+      "selected_usage_id": "criticize-double-standard",
+      "text": "같은 사유로 같은 시간만큼 늦었는데 우리 쪽만 예외로 두는 기준은 내로남불이라는 비판을 피하기 어렵겠어."
+    },
+    {
+      "id": "A12",
+      "action": "recommend",
+      "selected_entry_id": "iwaejin",
+      "selected_usage_id": "confirmed-surprise",
+      "text": "신청서 날짜가 잘못된 게 진짜였다니… 이왜진."
+    },
+    {
+      "id": "A19",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "확인되지 않은 소문을 사실처럼 보이게 하는 밈은 피하는 게 좋겠습니다. 확인 전에는 댓글을 보류하세요."
+    },
+    {
+      "id": "A21",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "택배를 받아 준 친절만으로 연애 의사를 확신할 수는 없어요. 그 마음을 확정하는 밈은 피하는 게 좋겠습니다."
+    },
+    {
+      "id": "A23",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "어떤 상황인가요? 서로 즐기는 장난인지, 실제로 갈등이 있는지도 알려 주세요."
+    }
+  ]
+}
