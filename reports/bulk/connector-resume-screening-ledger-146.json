@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 21,
-  "query_observations": 349,
-  "distinct_literal_queries": 287,
+  "source_files": 22,
+  "query_observations": 361,
+  "distinct_literal_queries": 293,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -1936,6 +1936,74 @@
       "query": "\"웃다가 오열\" 챌린지 -site:onmeme.com -site:jjalbang.today",
       "source": "reports/bulk/connector-resume-holds166.json",
       "status": "held-or-broad-query"
+    },
+    {
+      "query": "캐치캐치",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "캐치 캐치",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "catch catch",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "catchy",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "주인 박탈",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "시시따따따",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "내복 챌린지",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "이준",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "이츠 미",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "It's Me",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "프리티 걸",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "Pretty Girl",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "held-unverified"
     }
   ],
   "semantic_duplicates": [

@@ -49,3 +49,4 @@
 - [피라미드에도 악플이 달린다는 사실을 기억하자](../memes/even-pyramids-get-hate.md)
 - [현실판 멧챠 카멜레온](../memes/real-life-meccha-chameleon.md)
 - [BAD 챌린지](../memes/ateez-bad-challenge.md)
+- [캐치캐치 챌린지](../memes/catch-catch-challenge.md)

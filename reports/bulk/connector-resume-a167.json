@@ -1,0 +1,97 @@
+{
+  "base": "6727ab203a6555420f3e3c56e0ad96543ad12d86",
+  "entries": [
+    {
+      "id": "catch-catch-challenge",
+      "sources": [
+        {
+          "url": "https://www.newsen.com/news_view.php?uid=202605231403062510",
+          "observed": "2026-05-23 야구장 이준의 치어리딩 실제 재현."
+        },
+        {
+          "url": "https://v.daum.net/v/20260516203103735",
+          "observed": "2026-05-16 뉴스1: 방송예고 기사이나 김종민 내복쇼츠는 이미 공개됐다고 명시한 부분만 채택."
+        }
+      ],
+      "evidence_level": "독립 기사2곳의 별개 참여 보고. 원영상 미시청.",
+      "limits": "예정방송을 완료로 바꾸지 않음. 내복주체를 이준으로 표기한 충돌기사는 제외. 세밀안무/조회수/최초주장 배제."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "캐치캐치",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "캐치 캐치",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "catch catch",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "catchy",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "주인 박탈",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "시시따따따",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "내복 챌린지",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "이준",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "accepted-family-search",
+      "canonical": "catch-catch-challenge"
+    },
+    {
+      "query": "이츠 미",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "It's Me",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "프리티 걸",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "Pretty Girl",
+      "source": "reports/bulk/connector-resume-a167.json",
+      "status": "held-unverified"
+    }
+  ],
+  "checks": {
+    "result_entries": 876,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}
