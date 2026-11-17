@@ -9,7 +9,7 @@ import importlib
 class BulkScopeBindingMutationTests(unittest.TestCase):
     def test_each_wave_rejects_manifest_and_ledger_scope_mutations(self):
         original=Path.read_text
-        for number in range(1,7):
+        for number in range(1,9):
             module=importlib.import_module(f'test_bulk_wave{number}_canonical_import')
             cls=next(v for v in vars(module).values() if isinstance(v,type) and issubclass(v,unittest.TestCase) and v is not unittest.TestCase)
             guard=cls('test_approved_source_pins_evidence_and_final_body_remain_bound')
