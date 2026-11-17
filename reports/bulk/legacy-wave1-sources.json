@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave1",
+  "created_at": "2026-11-17",
+  "base_ref": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+  "duplicate_rechecked_ref": "c4c8447c9ef554306ce340007ef62c3e2dc1b31f",
+  "purpose": "정식 importer 통합 전 검증된 자체 canonical 소스. 사전 등록·최근 관측·용법 승격이 아님.",
+  "discovery": {
+    "type": "existing_ledger_reexport",
+    "queue": "reports/bulk-candidates-2026-11-17.json",
+    "queue_count": 840,
+    "new_discoveries": 0,
+    "original_wiki_access": "failed",
+    "mirror_list_url": "https://www.namu.moe/w/밈(인터넷%20용어)/대한민국",
+    "note": "기존 대한민국 미러 목록 대장의 제목을 후보로 사용. 미러 설명·이미지·기사 전문은 저장하지 않음."
+  },
+  "counts": {
+    "canonical_sources": 10,
+    "source_body_review_complete": 10,
+    "main_added": 0,
+    "usage_added": 0
+  },
+  "verification": {
+    "method": "각 항목 2개 독립 발행주체의 기사/공식 발표 본문을 직접 열람; 전재는 원 발행주체로 표시",
+    "duplicate_check": "PR37 index357 title/aliases 정규화 정확 중복 0. base tree의 신규 경로 충돌0. 관련어와 확장명 의미 검토. 기존 pilot-state 및 review/candidates에 동일 retired 대상 발견하지 못함; importer 자체 retired 검사는 통합자가 재실행.",
+    "ci": "not_run_here; official importer and CI owned by integration",
+    "recent_observations": "none; historical sources, review date not popularity date"
+  },
+  "entries": [
+    {
+      "entry_id": "josammosa-parody",
+      "title": "조삼모사 패러디",
+      "ledger_id": "kr-list-0930",
+      "path": "memes/josammosa-parody.md",
+      "source_sha": "12006c4a9fbd9b2f1dde240212a9cbb48266269d",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 컷 형식과 국내 생활 소재 재패러디; 원숭이 대화의 반전 구조와 여러 변형로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "경향신문",
+          "url": "https://www.khan.co.kr/article/200606081440421",
+          "published_at": "2006-06-08",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "두 컷 형식과 국내 생활 소재 재패러디"
+        },
+        {
+          "publisher": "동아일보",
+          "url": "https://www.donga.com/news/It/article/all/20060617/8319436/9",
+          "published_at": "2006-06-17",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "원숭이 대화의 반전 구조와 여러 변형"
+        }
+      ],
+      "limitations": "원 만화·빈칸 이미지 직접 재현 없음. 기사에 소개된 변형을 읽었으며 원게시물 직접 열람 아님. 최초 게시일은 수록하지 않음.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "jjalbang",
+      "title": "짤방",
+      "ledger_id": "kr-list-0967",
+      "path": "memes/jjalbang.md",
+      "source_sha": "605f284385d6bcbb2bf56c8f282d8c7a2e871df1",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "뜻·줄임형·국내 게시판 사용; 독자 질의와 기자 답변을 통한 뜻·메신저 활용로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "전자신문",
+          "url": "https://www.etnews.com/201012160073",
+          "published_at": "2010-12-16",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "뜻·줄임형·국내 게시판 사용"
+        },
+        {
+          "publisher": "매일경제",
+          "url": "https://www.mk.co.kr/news/columnists/7184523",
+          "published_at": "2016-01-18",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "독자 질의와 기자 답변을 통한 뜻·메신저 활용"
+        }
+      ],
+      "limitations": "개별 밈 도상이 아닌 온라인 이미지 지칭 표현으로 수록 범위 한정. 원게시판 규정·최초 게시물 직접 확인 아님. 운영 동기와 최초 연도 단정 생략. 이미지 복제 없음.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "troll-play",
+      "title": "트롤",
+      "ledger_id": "kr-list-1046",
+      "path": "memes/troll-play.md",
+      "source_sha": "a93534f298e8c02c897c375eebef9c144268212f",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 게임 은어 설명·고의 방해 용법; 팀워크 방해 뜻과 국내 게임·일상 사용 소개로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "게임조선",
+          "url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=128437",
+          "published_at": "2015-09-15",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "국내 게임 은어 설명·고의 방해 용법"
+        },
+        {
+          "publisher": "게임메카 국민트리",
+          "url": "https://trees.gamemeca.com/view.php?gid=1551813",
+          "published_at": "2019-05-16",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "팀워크 방해 뜻과 국내 게임·일상 사용 소개"
+        }
+      ],
+      "limitations": "게임 방해 행동이라는 좁은 뜻만 수록. 어원·최초 게임·타인의 실제 의도 추정 제외. 원 게임채팅 직접 열람 아닌 독립 기자 설명.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "heomu-song",
+      "title": "허무송",
+      "ledger_id": "kr-list-1120",
+      "path": "memes/heomu-song.md",
+      "source_sha": "c4ebc2956531c7d9575f62b23261c521986629d8",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "노래 끊기·변형 방식과 국내 온라인 패러디; 독립 포털의 당시 인터넷 유행 검색어 발표로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "동아일보·다음 검색본부 기고",
+          "url": "https://www.donga.com/news/Entertainment/article/all/20040520/8063721/1",
+          "published_at": "2004-05-20",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "노래 끊기·변형 방식과 국내 온라인 패러디"
+        },
+        {
+          "publisher": "NAVER",
+          "url": "https://www.navercorp.com/media/pressReleasesDetail?seq=27386",
+          "published_at": "2004-12-23",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "독립 포털의 당시 인터넷 유행 검색어 발표"
+        }
+      ],
+      "limitations": "동아 게재 다음 검색본부 분석실장 설명과 네이버 자체 발표를 각각 직접 읽음. 원 플래시 재생·최초 게시물 확인 아님. 가사 전재 없음.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "number-song-internet",
+      "title": "숫자송",
+      "ledger_id": "kr-list-0645",
+      "path": "memes/number-song-internet.md",
+      "source_sha": "bdadb26863cdaeca6acdfa5d92d201ad5c934da4",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "인터넷송 인기·휴대전화 벨소리 사용; 숫자송과 귀여운 가사·애니메이션 형식 설명로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "아이뉴스24",
+          "url": "https://inews24.com/view/104656",
+          "published_at": "2003-12-07",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "인터넷송 인기·휴대전화 벨소리 사용"
+        },
+        {
+          "publisher": "영남일보",
+          "url": "https://www.yeongnam.com/web/view.php?key=20040512.010141007510001",
+          "published_at": "2004-05-12",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "숫자송과 귀여운 가사·애니메이션 형식 설명"
+        }
+      ],
+      "limitations": "동명 교육용 노래 전체와 분리. 음원·플래시 직접 재생 없음. 가사 내용·작사자·정확 공개일을 추정하지 않음.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "brain-map-meme",
+      "title": "뇌구조 밈",
+      "ledger_id": "kr-list-0341",
+      "path": "memes/brain-map-meme.md",
+      "source_sha": "bf8630e27cbbdaf867129f777af6b07557b58c3f",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "등장인물 관심사의 구역별 표현·온라인 재패러디; 팬 제작 캐릭터 뇌구조 패러디 존재와 사용로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "티브이데일리·네이트 전재",
+          "url": "https://news.nate.com/view/20091203n17328",
+          "published_at": "2009-12-03",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "등장인물 관심사의 구역별 표현·온라인 재패러디"
+        },
+        {
+          "publisher": "iMBC",
+          "url": "https://enews.imbc.com/News/ViewAmp/7668",
+          "published_at": "2010-02-03",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "팬 제작 캐릭터 뇌구조 패러디 존재와 사용"
+        }
+      ],
+      "limitations": "드라마 캐릭터 팬 패러디로 좁힘. 원 팬이미지 복제 없음. 일반인 심리 진단·최초 제작자 추정 제외.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "jjijjippong",
+      "title": "찌찌뽕",
+      "ledger_id": "kr-list-0973",
+      "path": "memes/jjijjippong.md",
+      "source_sha": "fcab4d90e37c360436dd7917aad04ec9d174da19",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "동시 발화 때 쓰는 말·예능의 실제 사용과 지역 차이; 드라마 등장인물의 동시 발화 뒤 사용 장면로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "국민일보",
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0012221621",
+          "published_at": "2018-03-22",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "동시 발화 때 쓰는 말·예능의 실제 사용과 지역 차이"
+        },
+        {
+          "publisher": "iMBC",
+          "url": "https://enews.imbc.com/News/ViewAmp/219091",
+          "published_at": "2017-11-01",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "드라마 등장인물의 동시 발화 뒤 사용 장면"
+        }
+      ],
+      "limitations": "보도된 방송 장면으로 뜻과 사용을 확인. 원 방송 재생 없음. 방송이 최초 발명했다는 주장 없음. 실제 주문 효력·접촉 강요 배제.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "dotne",
+      "title": "돋네",
+      "ledger_id": "kr-list-0392",
+      "path": "memes/dotne.md",
+      "source_sha": "c23af91d10fe5be6875658c4bf6cef2a8fe40d89",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "뜻·앞말 뒤 결합·긍정과 부정 모두의 쓰임; 옛 인터넷 서비스에 대한 국내 댓글 반응 보도로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "전자신문",
+          "url": "https://www.etnews.com/201010210115",
+          "published_at": "2010-10-21",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "뜻·앞말 뒤 결합·긍정과 부정 모두의 쓰임"
+        },
+        {
+          "publisher": "스포츠경향",
+          "url": "https://sports.khan.co.kr/article/201811161517003",
+          "published_at": "2018-11-16",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "옛 인터넷 서비스에 대한 국내 댓글 반응 보도"
+        }
+      ],
+      "limitations": "기사의 실제 댓글 인용을 읽었으며 원 댓글 직접 확인 아님. 특정 연예인 최초 기원설 제외. 쩔다와 의미가 닿지만 앞말 결합 형식은 별도.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "eba",
+      "title": "에바",
+      "ledger_id": "kr-list-0758",
+      "path": "memes/eba.md",
+      "source_sha": "13dd8ce0cbff605bd465f3088693180a606cb334",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "성인 인터뷰의 에바 및 소리 확장 용법 설명; 과도함 지적 의미와 기자 작성 예시로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "동아일보·다음 전재",
+          "url": "https://v.daum.net/v/20171208030148105?s=print_news",
+          "published_at": "2017-12-08",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "성인 인터뷰의 에바 및 소리 확장 용법 설명"
+        },
+        {
+          "publisher": "이데일리",
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03152086619108224",
+          "published_at": "2018-02-07",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "과도함 지적 의미와 기자 작성 예시"
+        }
+      ],
+      "limitations": "동아 성인 인터뷰 뜻 설명 및 이데일리 편집 신조어 대화 확인. 미성년 인터뷰 신상 복제 없음. error+over/오바변형 등 상충 어원 확정 제외.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "haek-intensifier",
+      "title": "핵~",
+      "ledger_id": "kr-list-1112",
+      "path": "memes/haek-intensifier.md",
+      "source_sha": "25fa26be51174850ac97dfa89b2a91a179eeac2e",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "핵의 강한 정도 뜻과 여러 결합형 사용; 인터넷 신조어 파생형의 뜻풀이로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "sources": [
+        {
+          "publisher": "게임조선",
+          "url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=128437",
+          "published_at": "2015-09-15",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "핵의 강한 정도 뜻과 여러 결합형 사용"
+        },
+        {
+          "publisher": "위클리공감·정책브리핑",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148801819",
+          "published_at": "2015-10-13",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "인터넷 신조어 파생형의 뜻풀이"
+        }
+      ],
+      "limitations": "강조형식에 한정, 무기·과학 핵의 일반뜻과 구분. 최초 게임/연도 단정 없음. 예문은 편집 창작. 게임조선 출처의 다른 부정확 어원 미채택.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    }
+  ],
+  "held": [
+    {
+      "title": "작은 하마 이야기",
+      "reason": "이번 조사에서 2개 독립 기사 직접 본문 조건 미충족. 위키·파생영상만으로 통과시키지 않음."
+    },
+    {
+      "title": "평타취",
+      "reason": "이번 묶음에서는 충분한 독립 본문 재검증 미완료; 어원 상충 포함."
+    },
+    {
+      "title": "오지다",
+      "reason": "추가 독립 본문 확인 전 보류."
+    }
+  ],
+  "excluded": [
+    {
+      "title": "GOAT 드립",
+      "reason": "기존 GOAT와 의미 중복"
+    },
+    {
+      "title": "3대500(언더아머 단속반)",
+      "reason": "기존 three-lifts-500와 의미 중복"
+    },
+    {
+      "title": "흠좀무 / 고고씽",
+      "reason": "이번840 기존 대장 큐에 없음. 외부 후보 임의 확장하지 않음."
+    },
+    {
+      "title": "ㅋㅋ루삥뽕",
+      "reason": "meme_audit 예약 연구와 중복 방지"
+    }
+  ]
+}
