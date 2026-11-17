@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "batch_id": "korean-verified-20261117-bulk-wave6",
+  "kind": "Approved public-source metadata; temporary importer input",
+  "review_kind": "Research AI source reading plus separate canonical editorial AI; no human validation",
+  "entries": [
+    {
+      "slug": "academic-consensus",
+      "title": "학계의 정설",
+      "path": "memes/academic-consensus.md",
+      "source_revision": "04c2668e40ddf2ca318a6610b0c5ae7cad7b3edd",
+      "source_blob_sha": "2c265b5da2622ffd8b8781945f43cb99870bc826",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 설명·사용 확인; 최초 발생국가 단정 없음",
+      "evidence": [
+        {
+          "url": "https://whitefaceone.tistory.com/3137",
+          "publisher": "잼늬 블로그",
+          "published_at": "2022-11-12",
+          "access": "direct_body",
+          "supports": "공인된 결론처럼 꾸미는 문장 종결 형식; 기원 추정 미채택",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://v.daum.net/v/HpJpXOQ0ux",
+          "publisher": "조선비즈",
+          "published_at": "2024-01-13",
+          "access": "direct_body",
+          "supports": "유튜브 콘텐츠 댓글의 과장된 실제 용례",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "원영상 직접 열람 없음",
+        "최초 게시물 및 현재 유행 미확인",
+        "AI 추천 적합성 검증 아님"
+      ]
+    },
+    {
+      "slug": "pet-the-peepo",
+      "title": "펫 더 피포",
+      "path": "memes/pet-the-peepo.md",
+      "source_revision": "04c2668e40ddf2ca318a6610b0c5ae7cad7b3edd",
+      "source_blob_sha": "4c354bf67cfc9ae09b76bab43202026474be4c0f",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 설명·사용 확인; 최초 발생국가 단정 없음",
+      "evidence": [
+        {
+          "url": "https://knowyourmeme.com/memes/pet-the-x-petthe-emotes",
+          "publisher": "Know Your Meme",
+          "published_at": "2020-09-17",
+          "access": "direct_body",
+          "supports": "쓰다듬기 형식, 트위치 이모트와 영상 변형; 2024년 갱신",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://whitefaceone.tistory.com/2289",
+          "publisher": "잼늬 블로그",
+          "published_at": "2021-05-28",
+          "access": "direct_body",
+          "supports": "국내 설명의 캐릭터 쓰다듬기와 표정 변화; PET 직역 오류·최초일 주장은 미채택",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "원영상 직접 열람 없음",
+        "최초 게시물 및 현재 유행 미확인",
+        "AI 추천 적합성 검증 아님"
+      ]
+    },
+    {
+      "slug": "chika-dance",
+      "title": "치카 댄스",
+      "path": "memes/chika-dance.md",
+      "source_revision": "04c2668e40ddf2ca318a6610b0c5ae7cad7b3edd",
+      "source_blob_sha": "920373642ecf0a6245ba3f43c238c4c5032a2653",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 설명·사용 확인; 최초 발생국가 단정 없음",
+      "evidence": [
+        {
+          "url": "https://animecorner.me/official-chika-dance-video-surpasses-30-million-views-director-naoya-nakayama-thanks-fans/",
+          "publisher": "Anime Corner",
+          "published_at": "2022-11-19",
+          "access": "direct_body",
+          "supports": "1기 3화 엔딩과 2019년 공개; 무관한 시즌 연도 설명 미채택",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://knowyourmeme.com/memes/chika-dance",
+          "publisher": "Know Your Meme",
+          "published_at": "2019-02-06",
+          "access": "direct_body",
+          "supports": "춤 커버 및 음악 교체 패러디; 2024년 갱신",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://choi-company.tistory.com/14",
+          "publisher": "초이 개인 블로그",
+          "published_at": "2020-11-14",
+          "access": "direct_body",
+          "supports": "한국어 리뷰의 치카 댄스 유행 언급",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "원영상 직접 열람 없음",
+        "최초 게시물 및 현재 유행 미확인",
+        "AI 추천 적합성 검증 아님"
+      ]
+    },
+    {
+      "slug": "sexy-food",
+      "title": "섹시 푸드",
+      "path": "memes/sexy-food.md",
+      "source_revision": "2b09c2e2246009cc8ef47c0da87eaee9bf497147",
+      "source_blob_sha": "b102ff5d23b161356e5142188d80467f430fcf96",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://weekly.donga.com/culture/article/all/11/5436607/1",
+          "publisher": "주간동아",
+          "published_date": "2025-02-10",
+          "access": "direct_body",
+          "support": "워크돌의 해원과 방문객이 맛있는 음식을 이 표현으로 부르는 장면을 보도한다.",
+          "independent_group": "주간동아"
+        },
+        {
+          "url": "https://letter.wepick.kr/post/1298",
+          "publisher": "위픽레터",
+          "published_date": "2025-02-11",
+          "access": "direct_body",
+          "support": "먹음직스러운 음식이라는 의미와 과장된 억양·손짓 형식을 설명한다.",
+          "independent_group": "위픽레터"
+        }
+      ],
+      "limitations": "원 SNS·영상·인터뷰 현장을 직접 검증하지 않았다. 보도된 사용 범위이며 최초 기원·현재 유행 정도·권리 허가를 인증하지 않는다. 날짜 null은 페이지에서 정확한 발행일을 확인하지 못한 경우다."
+    },
+    {
+      "slug": "unfortunate-event",
+      "title": "불미스러운 일이 일어났어요",
+      "path": "memes/unfortunate-event.md",
+      "source_revision": "2b09c2e2246009cc8ef47c0da87eaee9bf497147",
+      "source_blob_sha": "bb14f994c736f40fa5e38ffdb6ac84743122f05c",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://maily.so/trendaword/posts/w6ov6dkpzk5",
+          "publisher": "트렌드어워드",
+          "published_date": "2025-06-10",
+          "access": "direct_body",
+          "support": "강아지 영상의 문구와 당황 표현, 좋은 일을 반전으로 표현하는 용법을 구별한다.",
+          "independent_group": "트렌드어워드"
+        },
+        {
+          "url": "https://gogumafarm.kr/불미스러운-일이-일어났어요-인기-밈이-너무-많아요/",
+          "publisher": "고구마팜",
+          "published_date": "2025-05-28",
+          "access": "direct_body",
+          "support": "동일 영상과 국내 SNS·공식 영상의 긍정적·사소한 상황 응용을 설명한다.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "limitations": "원 SNS·영상·인터뷰 현장을 직접 검증하지 않았다. 보도된 사용 범위이며 최초 기원·현재 유행 정도·권리 허가를 인증하지 않는다. 날짜 null은 페이지에서 정확한 발행일을 확인하지 못한 경우다."
+    },
+    {
+      "slug": "my-black-swan",
+      "title": "나만의 블랙스완",
+      "path": "memes/my-black-swan.md",
+      "source_revision": "2b09c2e2246009cc8ef47c0da87eaee9bf497147",
+      "source_blob_sha": "f9359ff3ef0537488438ef5f3e0eb3ecdddfd43e",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=10102&mode=view&page=9&pageSize=12&searchStr=&serboardsort=9",
+          "publisher": "인크로스",
+          "published_date": "2024-09-04",
+          "access": "direct_body",
+          "support": "나띠의 쪽지 일화와 좋아하는 대상을 부르는 주접 표현 및 팬 영상 사용을 설명한다.",
+          "independent_group": "인크로스"
+        },
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=2913",
+          "publisher": "캐릿",
+          "published_date": "2024-09-03",
+          "access": "direct_body",
+          "support": "올블랙 차림의 나띠가 받은 쪽지 일화에서 알려진 칭찬 밈으로 소개한다.",
+          "independent_group": "캐릿"
+        }
+      ],
+      "limitations": "원 SNS·영상·인터뷰 현장을 직접 검증하지 않았다. 보도된 사용 범위이며 최초 기원·현재 유행 정도·권리 허가를 인증하지 않는다. 날짜 null은 페이지에서 정확한 발행일을 확인하지 못한 경우다."
+    },
+    {
+      "slug": "chocolate-milk-offer",
+      "title": "초코우유 밈",
+      "path": "memes/chocolate-milk-offer.md",
+      "source_revision": "2b09c2e2246009cc8ef47c0da87eaee9bf497147",
+      "source_blob_sha": "eb6d2e551baebf636c7e8ad47068ddea0d447981",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://imnews.imbc.com/original/14f/6629848_29052.html",
+          "publisher": "MBC",
+          "published_date": "2024-08-23",
+          "access": "direct_body",
+          "support": "국내 X에서 초코우유를 권하는 이미지가 칭찬·응원 의미로 사용됨을 설명한다.",
+          "independent_group": "MBC"
+        },
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=2913",
+          "publisher": "캐릿",
+          "published_date": "2024-09-03",
+          "access": "direct_body",
+          "support": "인물·캐릭터 사진에 초코우유를 든 손을 합성하는 형식과 응원 의미를 설명한다.",
+          "independent_group": "캐릿"
+        }
+      ],
+      "limitations": "원 SNS·영상·인터뷰 현장을 직접 검증하지 않았다. 보도된 사용 범위이며 최초 기원·현재 유행 정도·권리 허가를 인증하지 않는다. 날짜 null은 페이지에서 정확한 발행일을 확인하지 못한 경우다."
+    },
+    {
+      "slug": "what-is-this-shotaro",
+      "title": "이것 뭐에요",
+      "path": "memes/what-is-this-shotaro.md",
+      "source_revision": "2b09c2e2246009cc8ef47c0da87eaee9bf497147",
+      "source_blob_sha": "a1a2707bac78495db2b6a3d1cb6412ff992778df",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://blog.hsad.co.kr/3523",
+          "publisher": "HSAD",
+          "published_date": "2024-07-04",
+          "access": "direct_body",
+          "support": "쇼타로의 댓글에서 알려진 표현이며 질문·칭찬·불만에 모두 쓰임을 구분한다.",
+          "independent_group": "HSAD"
+        },
+        {
+          "url": "https://m.etoday.co.kr/news/view/2402250?trc=m_view_joinnews",
+          "publisher": "이투데이",
+          "published_date": "2024-09-20",
+          "access": "direct_body",
+          "support": "팬의 주접 댓글에 쇼타로가 질문한 장면과 황당함을 표현하는 국내 사용을 보도한다.",
+          "independent_group": "이투데이"
+        }
+      ],
+      "limitations": "원 SNS·영상·인터뷰 현장을 직접 검증하지 않았다. 보도된 사용 범위이며 최초 기원·현재 유행 정도·권리 허가를 인증하지 않는다. 날짜 null은 페이지에서 정확한 발행일을 확인하지 못한 경우다."
+    },
+    {
+      "slug": "becomes-oo",
+      "title": "○○가 되",
+      "path": "memes/becomes-oo.md",
+      "source_revision": "2b09c2e2246009cc8ef47c0da87eaee9bf497147",
+      "source_blob_sha": "b22f7e04014019d52ecdd845e9f838996f3e3c05",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://m.etoday.co.kr/news/view/2402250?trc=m_view_joinnews",
+          "publisher": "이투데이",
+          "published_date": "2024-09-20",
+          "access": "direct_body",
+          "support": "귀멸의 칼날 팬 영상 캡처와 의도적 오표기, 카카오프렌즈 이미지 응용을 설명한다.",
+          "independent_group": "이투데이"
+        },
+        {
+          "url": "https://gonggam.korea.kr/newsContentView.es?b_list=9&code_cd=0107030000&content=NC002&mid=a12700000000&nPage=38&news_id=cb6ab964-b3cb-4c4f-9e9e-bf92f1fd77ae&section_id=NCCD_CULTURE",
+          "publisher": "K-공감·어피티",
+          "published_date": "2025-11-07",
+          "access": "direct_body",
+          "support": "상황 표현 뒤에 맞춤법을 바꿔 붙이는 형식을 설명하고 국내 대화 사용을 다룬다.",
+          "independent_group": "K-공감·어피티"
+        }
+      ],
+      "limitations": "원 SNS·영상·인터뷰 현장을 직접 검증하지 않았다. 보도된 사용 범위이며 최초 기원·현재 유행 정도·권리 허가를 인증하지 않는다. 날짜 null은 페이지에서 정확한 발행일을 확인하지 못한 경우다."
+    },
+    {
+      "slug": "chakani-praise",
+      "title": "차카니 몇 개를 먹은 거람",
+      "path": "memes/chakani-praise.md",
+      "source_revision": "2b09c2e2246009cc8ef47c0da87eaee9bf497147",
+      "source_blob_sha": "be74f3f256f198d1606516560f81f070cc117bb6",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=2913",
+          "publisher": "캐릿",
+          "published_date": "2024-09-03",
+          "access": "direct_body",
+          "support": "지식인 문답에서 퍼진 말장난과 친절·선행을 칭찬하는 용례를 소개한다.",
+          "independent_group": "캐릿"
+        },
+        {
+          "url": "https://v.daum.net/v/WKStQl5rw1",
+          "publisher": "트렌드어워드",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "과자 문답과 착한 행동에서 실력·외모 칭찬으로 확장된 사용을 설명한다.",
+          "independent_group": "트렌드어워드"
+        }
+      ],
+      "limitations": "원 SNS·영상·인터뷰 현장을 직접 검증하지 않았다. 보도된 사용 범위이며 최초 기원·현재 유행 정도·권리 허가를 인증하지 않는다. 날짜 null은 페이지에서 정확한 발행일을 확인하지 못한 경우다."
+    },
+    {
+      "slug": "neujoh",
+      "title": "느좋",
+      "path": "memes/neujoh.md",
+      "source_revision": "2b09c2e2246009cc8ef47c0da87eaee9bf497147",
+      "source_blob_sha": "05602ec7854abe01a7d0a5838267f1b43199496d",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://somako.co.kr/9월-z세대-pick-요즘-느좋-인플루언서는-누구/",
+          "publisher": "소마코",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "느낌 좋다는 뜻과 국내 블로그·유튜브 등에서 대상 앞뒤에 붙이는 사용을 설명한다.",
+          "independent_group": "소마코"
+        },
+        {
+          "url": "https://www.hf.go.kr/_res/rgwebzine/webzine_02/newhappy.html",
+          "publisher": "한국주택금융공사",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "느낌 좋다·좋음의 축약과 패션·장소·음악에 대한 사용, 좋느 변형을 소개한다.",
+          "independent_group": "한국주택금융공사"
+        }
+      ],
+      "limitations": "원 SNS·영상·인터뷰 현장을 직접 검증하지 않았다. 보도된 사용 범위이며 최초 기원·현재 유행 정도·권리 허가를 인증하지 않는다. 날짜 null은 페이지에서 정확한 발행일을 확인하지 못한 경우다."
+    },
+    {
+      "slug": "ready-go-complete",
+      "title": "준비 갈 완료",
+      "path": "memes/ready-go-complete.md",
+      "source_revision": "2b09c2e2246009cc8ef47c0da87eaee9bf497147",
+      "source_blob_sha": "7e022aae6a16b09f437cd36ecafc982bb1cf873d",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/GTgJceTNmN",
+          "publisher": "엘르",
+          "published_date": "2024-10-30",
+          "access": "direct_body",
+          "support": "하니 인터뷰의 질문이 원래 표현과 바뀐 어순을 설명하고, 답변은 현장 재사용 경험을 전한다.",
+          "independent_group": "엘르"
+        },
+        {
+          "url": "https://gonggam.korea.kr/newsContentView.es?b_list=9&code_cd=0107030000&content=NC002&mid=a12700000000&nPage=38&news_id=cb6ab964-b3cb-4c4f-9e9e-bf92f1fd77ae&section_id=NCCD_CULTURE",
+          "publisher": "K-공감·어피티",
+          "published_date": "2025-11-07",
+          "access": "direct_body",
+          "support": "국내 대화에서 이 표현이 맞춤법 실수가 아니라 밈으로 쓰이는 사례를 소개한다.",
+          "independent_group": "K-공감·어피티"
+        }
+      ],
+      "limitations": "원 SNS·영상·인터뷰 현장을 직접 검증하지 않았다. 보도된 사용 범위이며 최초 기원·현재 유행 정도·권리 허가를 인증하지 않는다. 날짜 null은 페이지에서 정확한 발행일을 확인하지 못한 경우다."
+    },
+    {
+      "slug": "break-up-who-are-you",
+      "title": "헤어지자고? 너 누군데?",
+      "path": "memes/break-up-who-are-you.md",
+      "source_revision": "2b09c2e2246009cc8ef47c0da87eaee9bf497147",
+      "source_blob_sha": "4453282122e856747ded2502b13e00df0659d4fc",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://letter.wepick.kr/post/2023",
+          "publisher": "위픽레터",
+          "published_date": "2024-10-21",
+          "access": "direct_body",
+          "support": "팬이 소희 사진에 붙인 개그성 문구와 소희의 재연을 설명한다.",
+          "independent_group": "위픽레터"
+        },
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=2929&pageidx=2",
+          "publisher": "캐릿",
+          "published_date": "2024-09-10",
+          "access": "direct_body",
+          "support": "팬들의 이별 상황극 형식과 너 누군데 변형, 다양한 유명인의 응용을 구분한다.",
+          "independent_group": "캐릿"
+        }
+      ],
+      "limitations": "원 SNS·영상·인터뷰 현장을 직접 검증하지 않았다. 보도된 사용 범위이며 최초 기원·현재 유행 정도·권리 허가를 인증하지 않는다. 날짜 null은 페이지에서 정확한 발행일을 확인하지 못한 경우다."
+    }
+  ],
+  "limitations": [
+    "Canonical only, not new usage approval.",
+    "Pet-the-peepo and Chika domestic evidence includes personal blogs; not independent measurement of wide domestic spread.",
+    "Recent-wave8 commit corrected to exact 40-character ref; reviewed manifest blob matches immutable commit.",
+    "No real-person emotional, health, relationship, rights or origin certification."
+  ]
+}
