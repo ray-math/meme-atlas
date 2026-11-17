@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "execution": "actual AI final selection from actual Python provisional search",
+  "source_revision": "2958bac3d0168c54aa8dead396848233173afd7f",
+  "limitations": [
+    "Public annotation-derived development rehearsal; no independent accuracy claim.",
+    "Original earlier ten responses unchanged.",
+    "Provisional use judgments do not publish draft profiles or certify context."
+  ],
+  "answers": [
+    {
+      "id": "P-goat",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "스포츠 선수의 성과를 두고 하는 말인가요?"
+    },
+    {
+      "id": "P-goat-context",
+      "action": "recommend",
+      "selected_entry_id": "goat",
+      "selected_usage_id": "praise-greatest",
+      "text": "결정적인 순간마다 해내네. 내가 생각하는 GOAT야."
+    },
+    {
+      "id": "G-self",
+      "action": "recommend",
+      "selected_entry_id": "gabojago",
+      "selected_usage_id": "encourage-self",
+      "text": "첫 글이라 서툴겠지만 한 문단부터 가보자고."
+    },
+    {
+      "id": "G-other",
+      "action": "recommend",
+      "selected_entry_id": "gabojago",
+      "selected_usage_id": "encourage-challenge",
+      "text": "발표 준비한 만큼 해보자. 가보자고!"
+    },
+    {
+      "id": "A01",
+      "action": "recommend",
+      "selected_entry_id": "daebak-reaction",
+      "selected_usage_id": "admire",
+      "text": "첫 단편소설이 문학상 후보라니, 대박!"
+    },
+    {
+      "id": "A20",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "쉬겠다는 친구를 압박하는 밈 대신 이렇게 말해 보세요. “당분간 쉬고 싶다는 네 뜻을 존중할게.”"
+    },
+    {
+      "id": "A21",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "택배를 받아 준 친절만으로 연애 의사를 확신할 수는 없어요. 그 마음을 확정하는 밈은 피하는 게 좋겠습니다."
+    },
+    {
+      "id": "A28",
+      "action": "recommend",
+      "selected_entry_id": "jonbeo",
+      "selected_usage_id": "keep-going",
+      "text": "게임 기록 연습, 조금 더 존버해 본다."
+    }
+  ]
+}
