@@ -44,6 +44,9 @@ def evaluate(root=ROOT, enforce_requirements=True):
         rows.append({'id':plan['id'],'prompt':plan['prompt'],'action':plan['action'],
                      'filters':plan['filters'],'retrieval':result})
     original=build_usage_index(root)
+    # Fixed pre-promotion comparison even after an explicitly reviewed rollout.
+    for entry in original['entries']:
+        if entry['id'] in provisional:entry['review_status']='draft'
     drift=[]
     for source in ['challenge','regression-v3']:
         for group in ['audit','editorial']:

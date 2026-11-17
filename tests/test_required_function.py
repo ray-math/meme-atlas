@@ -64,3 +64,19 @@ class ResponseRequiredFunctionTests(unittest.TestCase):
         for invalid in (True,False,1.0,'1',None):
             data=copy.deepcopy(load_profiles(ROOT));data['schema_version']=invalid
             with self.assertRaises(ValueError):validate(data,self.vocab,ROOT)
+
+    def test_fixed_public_answers_have_auditable_context_and_facts(self):
+        from check_context_decisions import validate_decisions
+        def read(name):return json.loads((ROOT/'eval/response-scope'/name).read_text())
+        self.assertEqual(validate_decisions(read('plans.json'),read('retrieval.json'),read('answers.json'),expected_prompt_version='contextual-v3'),[])
+        # Structural audit only: semantic judgments are a separate AI review.
+        self.assertEqual({a['id'] for a in read('answers.json')['answers']},
+                         {'T-protest','S-leniency','A01','A14','A17','A18','A20','A23'})
+    def test_corrected_frozen_python_results_replay(self):
+        frozen=json.loads((ROOT/'eval/response-scope/retrieval.json').read_text())
+        current=evaluate(ROOT)
+        def behavior(rows):
+            rows=copy.deepcopy(rows)
+            for row in rows:row['retrieval'].pop('coverage',None)
+            return rows
+        self.assertTrue(strict_equal(behavior(current['results']),behavior(frozen['results'])))
