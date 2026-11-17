@@ -56,6 +56,16 @@ python scripts/get_entry.py real-lol --usage
 
 ### AI 호출 순서
 
+실제 자연어 호출자는 [현재 v3 계약](ai-usage-contract-v3.md)과 [축별 정의](usage-taxonomy.md)를 먼저 읽는다. [평가 보고서](nl-evaluation-results.md)는 원시 검색과 최종 AI 선별을 분리해 측정한다. CLI 자체가 자연어를 해석하거나 모델을 호출하는 것은 아니다.
+
+자기 설명과 상대 제지처럼 유사한 상황 이름이 겹칠 때는 같은 축을 OR로 조회하고, 입력에 명시된 방향만 AND로 제한할 수 있다:
+
+```sh
+python scripts/search_usage.py --situation 과도한설명 --situation 불필요한세부정보 --target 자기 --mode lookup
+```
+
+
+
 1. 사용자의 목적을 확인해 emotion/intent/situation/target/register의 명시 조건으로 바꾼다. 위로 요청과 위로 제공, 자조와 상대 조롱을 구별한다.
 2. 조회인지 실제 사용 추천인지 정한다. 조회 결과를 그대로 발화에 붙이지 않는다.
 3. 검색 결과의 context와 avoid_when을 현재 대화에 대조한다. 관계·상대 동의·부정 조건을 판단할 정보가 없으면 쓰지 않거나 묻는다.

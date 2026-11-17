@@ -505,6 +505,13 @@
         "hurt-twice",
         "tteokrak"
       ]
+    },
+    "korean-verified-20261117-ubd-pro-offended": {
+      "input_hash": "a33e406726a54bb268e82edbafa8325821cc2b4a740a0e76c487f031d6cf889e",
+      "ids": [
+        "ubd",
+        "pro-offended"
+      ]
     }
   },
   "entries": {
@@ -4063,6 +4070,24 @@
       "tags": [
         "투자"
       ]
+    },
+    "ubd": {
+      "title": "UBD",
+      "batch": "korean-verified-20261117-ubd-pro-offended",
+      "body_hash": "b810e775ecb2ee92fef70beb56672434b6e28067cee40d7dafc90194bdacaf23",
+      "scope_type": "korean_origin",
+      "scope_basis": "독립 두 기사 본문에서 국내 관객·조회수 환산 및 조롱 맥락 확인",
+      "tags": [
+        "영화"
+      ]
+    },
+    "pro-offended": {
+      "title": "프로불편러",
+      "batch": "korean-verified-20261117-ubd-pro-offended",
+      "body_hash": "d948ef6407f13b9189dbce9d41b03ea0ac9687daa49a447d158adbfca54955c4",
+      "scope_type": "korean_origin",
+      "scope_basis": "인터뷰와 강연 취재 본문에서 타인 폄하 및 자기긍정적 재해석 확인",
+      "tags": []
     }
   }
 }
