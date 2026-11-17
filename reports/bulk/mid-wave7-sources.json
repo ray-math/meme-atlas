@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "batch": "mid-wave7",
+  "prepared_at": "2026-11-17",
+  "status": "awaiting-independent-editorial-review-and-import",
+  "counts": {
+    "fixed_candidates_reviewed": 30,
+    "prepared": 4,
+    "held": 24,
+    "excluded_duplicates": 1,
+    "excluded_other_worker": 1
+  },
+  "method": "고정 후보 30개 검색 및 범위 검토. 독립 발행자 직접 본문 근거를 확보한 4개만 자체 문장 작성. 원문·가사·개인신상 복사 없음. 검색 요약이나 위키 미러는 검증 근거 수에 포함하지 않음.",
+  "duplicate_check": {
+    "basis": "23c533cb",
+    "canonical_count": 567,
+    "files": [
+      "data/search-index.json",
+      "data/pilot-state.json"
+    ],
+    "method": "전체 title·aliases 및 pilot 자료 대조. 최신 pending 재확인은 편집 단계에서 수행.",
+    "collisions": 0
+  },
+  "entries": [
+    {
+      "id": "eup-eup",
+      "title": "읍읍",
+      "path": "memes/eup-eup.md",
+      "aliases": [],
+      "tags": [],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "sources": [
+        {
+          "url": "https://gall.dcinside.com/board/view/?id=study_listN&no=193&page=1",
+          "publisher": "디시인사이드 월간디시",
+          "published_at": "2016-02",
+          "access": "body_read",
+          "supports": "플랫폼 회고: 말 끊기와 압박을 연기하는 의미",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://dooblog.tistory.com/1715",
+          "publisher": "두두의 덕통사고",
+          "published_at": "2018-06-20",
+          "access": "body_read",
+          "supports": "별도 개인 해설: 메모장 드립과 유사한 우회 반응 용례",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 발행자의 본문을 직접 읽음. 플랫폼 회고·개인 해설·편집 기사·인터뷰의 역할을 구분하고 동일 전재를 중복 계산하지 않음.",
+      "limits": [
+        "최초 작성자·최초 유행 시점 확정 아님",
+        "원영상 직접 열람 없음",
+        "AI 추천 정확도 검증 아님"
+      ]
+    },
+    {
+      "id": "are-you-crazy-human",
+      "title": "미쳤습니까 휴먼?",
+      "path": "memes/are-you-crazy-human.md",
+      "aliases": [
+        "미쳤습니까 휴먼",
+        "빅데이터 드립"
+      ],
+      "tags": [],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "sources": [
+        {
+          "url": "https://www.wikitree.co.kr/articles/486076",
+          "publisher": "위키트리",
+          "published_at": "2019-12-08",
+          "access": "body_read",
+          "supports": "편집 기사: 로봇 말투의 문구와 온라인 사용 의미",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://everymemes.tistory.com/335",
+          "publisher": "밈과드립",
+          "published_at": "2021-08-16",
+          "access": "body_read",
+          "supports": "개인 해설: 제목과 다른 반응을 내놓는 형식 및 놀람 용례",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 발행자의 본문을 직접 읽음. 플랫폼 회고·개인 해설·편집 기사·인터뷰의 역할을 구분하고 동일 전재를 중복 계산하지 않음.",
+      "limits": [
+        "최초 작성자·최초 유행 시점 확정 아님",
+        "원영상 직접 열람 없음",
+        "AI 추천 정확도 검증 아님"
+      ]
+    },
+    {
+      "id": "dududunga",
+      "title": "두둥등장",
+      "path": "memes/dududunga.md",
+      "aliases": [
+        "ㄷㄷㄷㅈ",
+        "DUDUDUNGA"
+      ],
+      "tags": [
+        "게임",
+        "음악",
+        "광고"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "sources": [
+        {
+          "url": "https://v.daum.net/v/20200413180140360?s=print_news",
+          "publisher": "쿠키뉴스",
+          "published_at": "2020-04-13",
+          "access": "body_read",
+          "supports": "직접 인터뷰: TFT 광고와 중계 채팅의 초성·영문 반응",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://everymemes.tistory.com/165",
+          "publisher": "밈과드립",
+          "published_at": "2020-09-06",
+          "access": "body_read",
+          "supports": "개인 해설: 등장 효과음 및 방문·게임 장면 활용",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 발행자의 본문을 직접 읽음. 플랫폼 회고·개인 해설·편집 기사·인터뷰의 역할을 구분하고 동일 전재를 중복 계산하지 않음.",
+      "limits": [
+        "최초 작성자·최초 유행 시점 확정 아님",
+        "원영상 직접 열람 없음",
+        "AI 추천 정확도 검증 아님"
+      ]
+    },
+    {
+      "id": "jongno-song-parody",
+      "title": "종로로 갈까요",
+      "path": "memes/jongno-song-parody.md",
+      "aliases": [],
+      "tags": [
+        "애니",
+        "음악"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "sources": [
+        {
+          "url": "https://www.wikitree.co.kr/articles/320780",
+          "publisher": "위키트리",
+          "published_at": "2017-12-01",
+          "access": "body_read",
+          "supports": "편집 기사: 원곡과 영화 장면의 관계",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://www.imaeil.com/page/view/2020060213562223907",
+          "publisher": "매일신문",
+          "published_at": "2020-06-02",
+          "access": "body_read",
+          "supports": "편집 대담: 고길동 노래 장면의 패러디 확산 언급",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 발행자의 본문을 직접 읽음. 플랫폼 회고·개인 해설·편집 기사·인터뷰의 역할을 구분하고 동일 전재를 중복 계산하지 않음.",
+      "limits": [
+        "최초 작성자·최초 유행 시점 확정 아님",
+        "원영상 직접 열람 없음",
+        "AI 추천 정확도 검증 아님"
+      ]
+    }
+  ],
+  "held": [
+    {
+      "title": "컹스",
+      "reason": "특정 사용 맥락을 뒷받침할 독립 본문 2개 미확보.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "인싸개그",
+      "reason": "넓은 분류명으로 사용되며 독립된 밈 형식으로 볼 근거 부족.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "꺼어억",
+      "reason": "일반 의성어와 특정 반응 밈을 구별할 독립 근거 부족.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "너어는 진짜",
+      "reason": "개인 해설의 기원 설명이 서로 독립적인지 불명확. 인물 원발화 귀속 미확정.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "당신이 옳았어",
+      "reason": "위키·미러 이외의 독립 본문 근거 부족.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "무수히 많은 악수의 요청이",
+      "reason": "개인 사연을 재생산하지 않는 범위에서 독립 근거를 확보하지 못함.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "서순 드립",
+      "reason": "커뮤니티 용례는 발견했지만 기원·형식에 대한 독립 직접 본문 2개 미확보.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "산타벌스",
+      "reason": "목록 표제 외 대상 형식과 출처를 특정하지 못함.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "회사 안다녀",
+      "reason": "특정인에 대한 평가를 복제하지 않고 설명할 독립 근거 부족.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "던질까말까",
+      "reason": "영상 목록·커뮤니티 자료 이외의 독립 본문 교차 확인 미완료.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "듀얼 만능주의",
+      "reason": "개인 해설 외 독립 본문 미확보.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "미야",
+      "reason": "게임 캐릭터 자체와 별도 밈 형식의 범위가 불명확.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "본인 방금 XX 되는 상상함",
+      "reason": "개인 대상 공격 사례를 제외한 독립 근거 미확보.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "압수 드립",
+      "reason": "연령·신체 비하를 배제한 형태 설명 및 독립 근거 부족.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "한글자 드립",
+      "reason": "가성비 댓글 등 인접 형식과 분리할 독립 근거 부족.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "대충 드립",
+      "reason": "검색 자료가 위키·미러에 집중. 독립 직접 본문 2개 미확보.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "쁘악수",
+      "reason": "실제 제목 사용은 있으나 원장면과 확산 관계의 교차 검증 미완료.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "가성비 댓글",
+      "reason": "위키 외 독립 설명 및 한글자 드립과의 범위 구분 미완료.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "자러감 드립",
+      "reason": "일반 문장과 특정 이미지 형식을 구분할 독립 근거 부족.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "야 꿀벌",
+      "reason": "원형의 부적절한 맥락을 재생산하지 않는 범위에서 근거 미확보.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "지이잉",
+      "reason": "개인 비하 맥락을 배제한 독립 출처 검증 미완료.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "의문의 XX행",
+      "reason": "위키·미러 중심. 독립 직접 본문 2개 미확보.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "너굴맨",
+      "reason": "언론 기사 재접근도 본문 추출 실패. 개인 해설만으로 기원·확산을 확정하지 않음.",
+      "status": "held_not_imported"
+    },
+    {
+      "title": "인사하는 제리",
+      "reason": "두 개인 해설을 직접 읽었으나 원장면 및 계통상 독립 검증 부족. 별도 독립 근거 보강 대기.",
+      "status": "held_not_imported"
+    }
+  ],
+  "excluded_duplicates": [
+    {
+      "title": "멈뭄미·고먐미",
+      "canonical_path": "memes/meommummi.md",
+      "reason": "멈뭄미는 기존 항목. 고먐미는 같은 표기놀이에서 분리할 근거 부족."
+    }
+  ],
+  "excluded_other_worker": [
+    {
+      "title": "번역기 드립",
+      "reason": "legacy wave6 담당으로 통합 작업 중복 방지"
+    }
+  ],
+  "validation": {
+    "frontmatter_allowed_tags_checked": true,
+    "external_urls_in_bodies": false,
+    "canonical_footer": true,
+    "personal_data_in_artifacts": false,
+    "local_scripts_or_ci_run": false
+  }
+}
