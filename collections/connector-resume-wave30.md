@@ -45,3 +45,4 @@
 - [구글맵 여행 인증샷](../memes/map-card-travel-photo.md)
 - [야름답다](../memes/yareumdapda.md)
 - [탭탭이](../memes/tiny-hand-tapping.md)
+- [전액 현금으로 매입](../memes/all-cash-small-purchase.md)

@@ -494,6 +494,7 @@
 - [저희는 합의 끝에 이걸 골랐습니다](../memes/we-chose-by-agreement.md)
 - [전방향 미소녀 챌린지](../memes/any-angle-challenge.md)
 - [전북익산](../memes/jeonbuk-iksan.md)
+- [전액 현금으로 매입](../memes/all-cash-small-purchase.md)
 - [점메추](../memes/jeommechu.md)
 - [정신승리](../memes/mental-victory.md)
 - [정주행](../memes/jeongjuhaeng.md)

@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 16,
-  "query_observations": 265,
-  "distinct_literal_queries": 220,
+  "source_files": 17,
+  "query_observations": 267,
+  "distinct_literal_queries": 222,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -1490,6 +1490,18 @@
       "status": "semantic-screening",
       "canonical_family_found": "swings-denial",
       "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "\"전액 현금으로 매입\" \"붕어빵\"",
+      "source": "reports/bulk/connector-resume-editor162.json",
+      "status": "accepted-family-web-query",
+      "canonical": "all-cash-small-purchase"
+    },
+    {
+      "query": "\"전액 현금으로 매입\" \"타코야끼\"",
+      "source": "reports/bulk/connector-resume-editor162.json",
+      "status": "accepted-family-web-query",
+      "canonical": "all-cash-small-purchase"
     }
   ],
   "semantic_duplicates": [

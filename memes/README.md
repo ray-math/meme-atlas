@@ -665,6 +665,7 @@
 - [전국 HandClap 자랑](national-handclap.md)
 - [전방향 미소녀 챌린지](any-angle-challenge.md)
 - [전북익산](jeonbuk-iksan.md)
+- [전액 현금으로 매입](all-cash-small-purchase.md)
 - [전여친 감자칼](ex-girlfriend-peeler.md)
 - [점메추](jeommechu.md)
 - [정신승리](mental-victory.md)
