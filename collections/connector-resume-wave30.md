@@ -27,3 +27,4 @@
 - [회사 밖은 지옥](../memes/outside-the-company-is-hell.md)
 - [ET춤](../memes/jewelry-et-dance.md)
 - [도비는 자유예요](../memes/dobby-is-free.md)
+- [좋음 좋음 좋음](../memes/rocky-triple-reaction.md)

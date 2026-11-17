@@ -673,6 +673,7 @@
 - [좋댓구알](jotdaet-gual.md)
 - [좋못사](johmotsa.md)
 - [좋아! 가는 거야](joa-ganeungeoya.md)
+- [좋음 좋음 좋음](rocky-triple-reaction.md)
 - [주모 드립](jumo-cheer.md)
 - [주불](jubul.md)
 - [주스 흘리는 짤](spilling-juice.md)

@@ -1,0 +1,33 @@
+{
+  "batch": "connector-resume-a140",
+  "base": "ed175909bef188c45b78f49c6052f7463fd06a4d",
+  "entries": [
+    {
+      "id": "rocky-triple-reaction",
+      "independent_usage_events": 2,
+      "sources": [
+        {
+          "url": "https://theqoo.net/movie/4165500295",
+          "observed": "2026-04-15 나눔 감사·신남 세번 반복. 제목/끝 영어반복과 👎 직접확인."
+        },
+        {
+          "url": "https://www.extra.ec/noticia/farandula/titere-rumbo-oscar-rocky-podria-historia-hollywood-152121.html",
+          "observed": "기사본문에 보존된2026-04-19 한국어X사용자 발언: 인형조종영상에 좋음좋음좋음. 기자 자체 한국어아님; X원문 별도미열람."
+        },
+        {
+          "url": "https://www.careet.net/1880",
+          "observed": "2026-04-08 공개본문 형식과 영화개봉후확산 설명. 편집부 예문은 실제사용수 제외."
+        }
+      ],
+      "bounds": "원작/영화 미시청. 최초사용자·첫발생년 단정 없음. Extra 오스카 전망 미채택."
+    }
+  ],
+  "checks": {
+    "result_entries": 854,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

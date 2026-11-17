@@ -823,6 +823,7 @@
 - [어이가 없네](../memes/eoi-eopne.md)
 - [와칸다 포에버](../memes/wakanda-forever.md)
 - [이 안에 배신자가 있다](../memes/traitor-among-us.md)
+- [좋음 좋음 좋음](../memes/rocky-triple-reaction.md)
 - [지금까지 이런 맛은 없었다](../memes/never-this-taste.md)
 - [진실의 방으로](../memes/jinsil-ui-bangeuro.md)
 - [친구 아이가](../memes/chingu-aiga.md)
