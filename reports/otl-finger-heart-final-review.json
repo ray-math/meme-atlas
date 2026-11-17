@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "reviewed_commit": "d76a3ab87ce0b209a3de30555c0de4567e92da1c",
+  "evaluator_kind": "independent AI editorial review; not human validation",
+  "cases": 12,
+  "editorial_blockers": [],
+  "observations": [
+    "4 context-bound recommendations, 7 abstentions, 1 clarification.",
+    "G-heart general gesture method is traced to the retrieved editorial example, not invented as a fact about the requester.",
+    "All eight not-searched rows explicitly preserve that status in reasons.",
+    "A16 caution lookup selection is not default recommendation approval.",
+    "All factual evidence spans are quoted from each request."
+  ],
+  "limitations": [
+    "Public annotation-derived development cases, not new blind or real-world accuracy.",
+    "Reviewer read actual stored Python trace but did not independently execute CI."
+  ]
+}

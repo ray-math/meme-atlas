@@ -46,7 +46,7 @@ class OtlFingerHeartDraftTests(unittest.TestCase):
             sha, situation, target = self.SPEC[p['entry_id']]
             self.assertEqual(p['source_sha'], sha)
             self.assertEqual(sha, blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))
-            self.assertEqual(p['review_status'], 'draft')
+            self.assertEqual(p['review_status'], 'reviewed')
             self.assertEqual(len(p['usages']), 1)
             u = p['usages'][0]
             self.assertEqual(u['safety'], 'standard')
@@ -65,15 +65,6 @@ class OtlFingerHeartDraftTests(unittest.TestCase):
                 self.assertEqual(u['emotion_status'], 'unknown')
                 self.assertEqual(u['emotions'], [])
                 self.assertEqual(u['risk_flags'], ['동의오인', '호감확정오인'])
-
-    def test_actual_drafts_hidden_even_exact_lookup(self):
-        for e in self.index['entries']:
-            if e['id'] not in self.SPEC:
-                continue
-            req = e['usages'][0]['retrieval_requirements']
-            for mode in ('lookup', 'recommend'):
-                for filters in (req, {'query': e['title']}, dict(req, query=e['title'])):
-                    self.assertFalse(self.hits(self.index, e['id'], mode=mode, **filters))
 
     def test_provisional_positive_contains_own_usage_not_exclusive_results(self):
         index = self.provisional()

@@ -3565,8 +3565,8 @@
     {
       "entry_id": "otl",
       "source_sha": "43d0612e03a847a14fb6d5bee5d6625bbf2766a7",
-      "review_status": "draft",
-      "review_note": "canonical 직접 확인. 외부 근거는 iNews24 뜻·기사 예문과 경향 좌절 뜻·몸짓 재연의 조사 보고를 참고했다. 원댓글은 확인하지 않았다. 사소한 자기 낙담의 문자 표현만 다룬다.",
+      "review_status": "reviewed",
+      "review_note": "canonical 직접 확인. 외부 근거는 iNews24 뜻·기사 예문과 경향 좌절 뜻·몸짓 재연의 조사 보고를 참고했다. 원댓글은 확인하지 않았다. 사소한 자기 낙담의 문자 표현만 다룬다. 공개12건의 실제 AI 계획·Python 검색·최종 답안을 별도 AI가 검토했다. OTL의 기존 후보 drift는 원본을 보존하고 상태설명 기능 게이트로 구별했으며 같은 필터의 원인 회귀를 확인했다. 문자·동작 설명을 실제 수행·상대 감정·촬영 동의의 인증으로 보지 않는 좁은 편집 검토다. 새 heldout 또는 실전 정확도를 뜻하지 않는다.",
       "usages": [
         {
           "id": "minor-own-disappointment",
@@ -3619,8 +3619,8 @@
     {
       "entry_id": "finger-heart",
       "source_sha": "fe03b4b0be86e47769ae675729c0217cbf360153",
-      "review_status": "draft",
-      "review_note": "canonical 직접 확인. 외부 근거는 SBS SNS 포즈 보도와 스포츠조선 엄지·검지 교차 및 취재진 인사의 조사 보고를 참고했다. 원 SNS·영상은 확인하지 않았다. 공개 행사 인사의 동작 선택·설명만 다룬다.",
+      "review_status": "reviewed",
+      "review_note": "canonical 직접 확인. 외부 근거는 SBS SNS 포즈 보도와 스포츠조선 엄지·검지 교차 및 취재진 인사의 조사 보고를 참고했다. 원 SNS·영상은 확인하지 않았다. 공개 행사 인사의 동작 선택·설명만 다룬다. 공개12건의 실제 AI 계획·Python 검색·최종 답안을 별도 AI가 검토했다. OTL의 기존 후보 drift는 원본을 보존하고 상태설명 기능 게이트로 구별했으며 같은 필터의 원인 회귀를 확인했다. 문자·동작 설명을 실제 수행·상대 감정·촬영 동의의 인증으로 보지 않는 좁은 편집 검토다. 새 heldout 또는 실전 정확도를 뜻하지 않는다.",
       "usages": [
         {
           "id": "public-event-greeting-gesture",
