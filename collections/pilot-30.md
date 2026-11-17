@@ -341,3 +341,4 @@
 - [억까](../memes/eokkka.md)
 - [안습](../memes/anseup.md)
 - [케바케](../memes/kebake.md)
+- [사바사](../memes/sabasa.md)

@@ -123,6 +123,7 @@
 - [뷁](../memes/bwek.md)
 - [빼박캔트](../memes/ppaebak-cant.md)
 - [뽀짝](../memes/ppojjak.md)
+- [사바사](../memes/sabasa.md)
 - [사이다](../memes/cider-relief.md)
 - [성지순례](../memes/internet-pilgrimage.md)
 - [소울리스좌](../memes/soulless-guide.md)

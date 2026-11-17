@@ -592,6 +592,12 @@
       "ids": [
         "kebake"
       ]
+    },
+    "korean-verified-20261117-sabasa": {
+      "input_hash": "106adf621b1f588a77f68e79599dfc51d6a3af464e6138e16981a4975778dcf2",
+      "ids": [
+        "sabasa"
+      ]
     }
   },
   "entries": {
@@ -4269,6 +4275,14 @@
       "body_hash": "be6b20d3bf3de4d925014d5760b57ddc773268d58fd8a54cce5b069f093f3ba7",
       "scope_type": "korean_usage",
       "scope_basis": "독립 국내 뜻풀이 자료 두 곳에서 한국어 축약과 인터넷·일상 표현 의미를 확인하고, 별도 서평의 책 인용에서 사용을 보강했다. 직접 원댓글·실무대화·최초창작을 검증한 것은 아니다.",
+      "tags": []
+    },
+    "sabasa": {
+      "title": "사바사",
+      "batch": "korean-verified-20261117-sabasa",
+      "body_hash": "b92639120482e0d4f5614e17ae6e00ca98bc898b59e4d840dff195b117378f94",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 국내 기사 두 곳의 직접 본문에서 사람별 차이를 나타내는 축약 뜻과 인터넷·일상 표현의 소개를 확인했다. 기사 구성 대화는 원채팅 관찰로 보지 않는다.",
       "tags": []
     }
   }

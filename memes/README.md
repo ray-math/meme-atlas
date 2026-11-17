@@ -191,6 +191,7 @@
 - [뿌잉뿌잉](bbuing-bbuing.md)
 - [삐끼삐끼 춤](ppikki-ppikki.md)
 - [사딸라](four-dollars.md)
+- [사바사](sabasa.md)
 - [사이다](cider-relief.md)
 - [사쿠란보 챌린지](sakuranbo-challenge.md)
 - [살리단길](sallidan-gil.md)
