@@ -106,8 +106,8 @@ jobs:
           sys.path.insert(0,str(root/'scripts'))
           from frontmatter import read as metadata
           from pilot_batch import apply
-          manifest=json.loads((root/'reports/bulk/canonical-wave3-approved.json').read_text())
-          if {r['slug'] for r in manifest['entries']}!={"kungkungtta","dibidibidip","alien-tech-joke","joa-ganeungeoya","slide-to-unlock-parody","chulbaal","kk-text-laughter","jessica-jingle","manners-maketh-man","ready-shoot-catchphrase","na-moon-hee-first-love","jangchung-pork-song","airplane-feeding","i-didnt-know","popcat-click"}:
+          manifest=json.loads((root/'reports/bulk/canonical-wave4-approved.json').read_text())
+          if {r['slug'] for r in manifest['entries']}!={"sha-sha-sha","tte-kkeol-look","taebo-hae","national-handclap","dionysus-mood-broken","baby-shark-challenge","geu-japchae","baribarista","laughter-spoon","things-i-achieved","bamboo-cloth-song","positive-negative-markers","bam-yang-gang","chipi-chipi-chapa-chapa","gamdasal","gamdajuk","mukjjippa-major","jwi-lola","pedro-raccoon","oompa-loompa-challenge","we-chose-by-agreement","multiplication-dance","pokemon-dance-challenge","look-at-me-challenge","any-angle-challenge","ian-march","national-power-class","appearance-check","rubber-squeezing","dududu-bababa","honestly-i-was-envious","igeon-an-iji-ye"}:
               raise ValueError('unexpected canonical batch scope')
           for row in manifest['entries']:
               for field in ['slug','title','path','source_revision','source_blob_sha','scope_type','scope_basis','evidence']:
@@ -130,7 +130,7 @@ jobs:
               input_path.write_text(json.dumps(rows,ensure_ascii=False))
               result=apply(root,input_path,manifest['batch_id'],max_entries=100)
               replay=apply(root,input_path,manifest['batch_id'],max_entries=100)
-              if result['added']!=15 or result['updated']!=0 or replay['status']!='unchanged':raise ValueError('unexpected import/replay result')
+              if result['added']!=32 or result['updated']!=0 or replay['status']!='unchanged':raise ValueError('unexpected import/replay result')
           print('IMPORT_RESULT='+json.dumps({'first':result,'replay':replay},ensure_ascii=False))
           after=files()
           for protected in ['data/korea-candidates.json','data/observations.json','data/latest-selection.json']:
