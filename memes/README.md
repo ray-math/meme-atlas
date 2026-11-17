@@ -282,6 +282,7 @@
 - [띵곡](dding-gok.md)
 - [띵언](dding-eon.md)
 - [띵작](dding-jak.md)
+- [라따 라따 아라따](ratta-ratta-aratta.md)
 - [라떼는 말이야](latte-is-horse.md)
 - [라면 먹고 갈래?](ramen-invitation.md)
 - [라우럴](raureol.md)
