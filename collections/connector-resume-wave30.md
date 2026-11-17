@@ -42,3 +42,4 @@
 - [오살힘](../memes/osalhim.md)
 - [코 때리고 미안해하는 챌린지](../memes/nose-apology-scuba-challenge.md)
 - [느리구나, ○○하는 것조차](../memes/slow-even-to-template.md)
+- [구글맵 여행 인증샷](../memes/map-card-travel-photo.md)

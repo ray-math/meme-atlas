@@ -129,6 +129,7 @@
 - [괜찮아 딩딩딩](../memes/gwenchana-dingdingding.md)
 - [괜찮아 자연스러웠어](../memes/its-okay-looked-natural.md)
 - [구구단 챌린지](../memes/multiplication-dance.md)
+- [구글맵 여행 인증샷](../memes/map-card-travel-photo.md)
 - [국가권력급](../memes/national-power-class.md)
 - [국룰](../memes/guk-rule.md)
 - [국뽕](../memes/gukppong.md)

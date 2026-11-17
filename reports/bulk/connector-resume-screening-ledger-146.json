@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 12,
-  "query_observations": 197,
-  "distinct_literal_queries": 165,
+  "source_files": 13,
+  "query_observations": 226,
+  "distinct_literal_queries": 194,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -1114,6 +1114,154 @@
       "source": "reports/bulk/connector-resume-b157.json",
       "status": "accepted-family-search",
       "canonical": "slow-even-to-template"
+    },
+    {
+      "query": "AI 티",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "타임스탬프",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "Time Stamp",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "징글벨",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "팔뚝",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "Bicep",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "가득가득",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "팬은 아님",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "멜라토닌",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "스머프",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "매끈",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "existing-family",
+      "canonical": "smooth-smooth"
+    },
+    {
+      "query": "평평",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "띄어쓰기",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "existing-family",
+      "canonical": "why-no-spaces"
+    },
+    {
+      "query": "여백없이",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "빽빽",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "일이얌",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "existing-family",
+      "canonical": "not-allowed-ilyam"
+    },
+    {
+      "query": "전액",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "현금",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "구글맵",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "map-family-or-supporting-query"
+    },
+    {
+      "query": "여행 인증",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "map-family-or-supporting-query"
+    },
+    {
+      "query": "팬은",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "스윙스",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "매입",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "현찰",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "지도",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "map-family-or-supporting-query"
+    },
+    {
+      "query": "인증샷",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "map-family-or-supporting-query"
+    },
+    {
+      "query": "장소명",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "map-family-or-supporting-query"
+    },
+    {
+      "query": "map",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "map-family-or-supporting-query"
+    },
+    {
+      "query": "cash",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
     }
   ],
   "semantic_duplicates": [

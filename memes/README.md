@@ -88,6 +88,7 @@
 - [괜찮아 딩딩딩](gwenchana-dingdingding.md)
 - [괜찮아 자연스러웠어](its-okay-looked-natural.md)
 - [구구단 챌린지](multiplication-dance.md)
+- [구글맵 여행 인증샷](map-card-travel-photo.md)
 - [구아바 망고를 유혹하네](guava-mango-song.md)
 - [국가권력급](national-power-class.md)
 - [국룰](guk-rule.md)
