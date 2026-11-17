@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "reviewed_commit": "0909448fd094a05f498329f3c035c1db963f1920",
+  "frozen_retrieval_commit": "23fcbd78e8b167b1dcd16283bd63eb4385c14e1f",
+  "evaluator_kind": "independent AI editorial review; not human",
+  "original_answer_blob": "0e701be5b5edf6331a2e2f1ca48d91533fca6078",
+  "error": {
+    "id": "C-effort",
+    "field": "reason",
+    "retrieval_status": "not_searched",
+    "issue": "Reason claimed a returned usage boundary although no search was performed in that row.",
+    "scope": "Action, selection, response, context and factual spans judged appropriate. Search provenance narration is inaccurate."
+  },
+  "limitations": [
+    "Public annotation-derived development inputs, not new blind performance.",
+    "Structural validator does not certify semantic truth or provenance claims."
+  ]
+}
