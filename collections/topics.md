@@ -628,6 +628,7 @@
 
 ## 방송
 
+- [○○가 뿔났다](../memes/ppulnatda-title-template.md)
 - [거제 야호](../memes/geoje-yaho.md)
 - [고뤠](../memes/gorae.md)
 - [골든이여라](../memes/golden-iyeora.md)
@@ -675,6 +676,7 @@
 - [이 차는 이제 제 겁니다](../memes/this-car-is-mine.md)
 - [이건 특급 칭찬이야](../memes/special-compliment.md)
 - [이게 최선입니까](../memes/is-this-best.md)
+- [이리 오시오, 냉큼 오시오](../memes/come-here-quickly.md)
 - [잠시만요, 보라언니 ~하고 가실게요](../memes/bora-unni.md)
 - [장난 나랑 지금 하냐](../memes/jangan-narang-jigeum.md)
 - [저세상 텐션](../memes/jeose-sang-tension.md)

@@ -7,3 +7,5 @@
 - [똥덩어리](../memes/ttongdeongeori.md)
 - [허나 거절한다](../memes/but-i-refuse.md)
 - [소수를 세면서 진정하자](../memes/count-primes-and-calm-down.md)
+- [이리 오시오, 냉큼 오시오](../memes/come-here-quickly.md)
+- [○○가 뿔났다](../memes/ppulnatda-title-template.md)
