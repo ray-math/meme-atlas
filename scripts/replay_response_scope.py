@@ -7,7 +7,8 @@ from usage_profiles import ROOT, load_vocabulary
 from search_usage import search
 from evaluation_records import indexed_records, ACTIONS
 
-def evaluate(root=ROOT):
+def evaluate(root=ROOT, enforce_requirements=True):
+    if type(enforce_requirements) is not bool:raise ValueError('requirements control must be boolean')
     envelope=json.loads((Path(root)/'eval/response-scope/plans.json').read_text())
     plans=indexed_records(envelope,'plans')
     expected_ids={'T-protest','S-leniency','A01','A14','A17','A18','A20','A23'}
@@ -30,6 +31,8 @@ def evaluate(root=ROOT):
     for entry in index['entries']:
         if entry['id'] in provisional:
             entry['review_status']='reviewed'
+            if not enforce_requirements:
+                for usage in entry['usages']:usage.pop('retrieval_requirements',None)
     rows=[]
     for plan in plans.values():
         if plan['action'] not in ACTIONS or not isinstance(plan['filters'],dict):
@@ -54,6 +57,7 @@ def evaluate(root=ROOT):
                     drift.append({'set':source+'/'+group,'id':plan['id'],'before':keys(before),'after':keys(after)})
     return {'schema_version':1,'execution':'actual Python search over provisional in-memory profiles',
             'provisional_profiles':sorted(provisional),
+            'requirements_enabled':enforce_requirements,
             'current_baseline_candidate_drift':drift,
             'baseline_coverage':index['coverage'],
             'provisional_reviewed_entries':sum(e['review_status']=='reviewed' for e in index['entries']),

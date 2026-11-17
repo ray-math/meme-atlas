@@ -10,7 +10,7 @@ FACETS = ('emotions', 'intents', 'situations', 'targets', 'registers', 'risk_fla
 PROFILE_KEYS = {'entry_id', 'source_sha', 'review_status', 'review_note', 'usages'}
 USAGE_KEYS = {'id', *FACETS, 'emotion_status', 'safety', 'context', 'avoid_when', 'example', 'review_note'}
 OPTIONAL_USAGE_KEYS = {'retrieval_requirements'}
-REQUIREMENT_FACETS = {'situations', 'targets'}
+REQUIREMENT_FACETS = {'intents', 'situations', 'targets'}
 SAFETY = {'standard', 'caution', 'avoid'}
 SLUG = re.compile(r'[a-z0-9]+(?:-[a-z0-9]+)*')
 
