@@ -62,6 +62,7 @@
 - [갠소](gaenso.md)
 - [갬성](gaemseong.md)
 - [갸루피스](gyaru-peace.md)
+- [거성체조](geoseong-dance.md)
 - [거제 야호](geoje-yaho.md)
 - [겐트위한](genteuwihan.md)
 - [계폭](gyepok.md)

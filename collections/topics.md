@@ -633,6 +633,7 @@
 ## 방송
 
 - [○○가 뿔났다](../memes/ppulnatda-title-template.md)
+- [거성체조](../memes/geoseong-dance.md)
 - [거제 야호](../memes/geoje-yaho.md)
 - [고뤠](../memes/gorae.md)
 - [골든이여라](../memes/golden-iyeora.md)
