@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "prompt_version": "contextual-v3",
+  "source_revision": "c7b058903d1a22b2fa5a6df43d798959c5a5a386",
+  "execution": "Actual AI planning from public profiles and audit inputs; reason summaries paraphrased.",
+  "limitations": [
+    "Public annotation-derived development, not blinded accuracy.",
+    "No gold or answers read in planning; no source articles independently verified by planner.",
+    "Hypothetical context is not real-world fact certification."
+  ],
+  "plans": [
+    {
+      "id": "K-inference",
+      "prompt": "확인한 정황에서 가벼운 사건이나 콘텐츠의 가능성을 추측하면서 표현을 과장한다. 실존 인물의 혐의를 지목하지 않고, 결론이 아직 확인되지 않았음을 유지하는 상황에 한정한다.\n게임 공지에 별 모양이 계속 나오네. 다음 행사가 별 테마일 거라는 킹리적 갓심. 아직 발표된 건 아니지만.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "추측표현"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "Hypothesis from stated clues; keep the conclusion unconfirmed and avoid named-person allegations."
+    },
+    {
+      "id": "N-criteria",
+      "prompt": "비교 가능한 행동과 조건을 확인한 뒤 자기 쪽에는 관대하고 다른 쪽에는 엄격하게 적용되는 기준의 차이를 비판한다. 이번 용법의 평가 중심은 사람 자체가 아니라 구체적인 기준 적용 방식이다.\n같은 사유로 같은 시간만큼 늦었는데 우리 쪽만 예외로 두는 기준은 내로남불이라는 비판을 피하기 어렵겠어.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "기준적용차이"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "Comparable behavior and unequal criteria are explicit hypothetical inputs; evaluate criteria, not a whole person."
+    },
+    {
+      "id": "A12",
+      "prompt": "신청서 날짜가 잘못됐다는 황당한 소식이 공식 공지로 확인됐어. 진짜였다는 놀람을 표현할 말 있어?",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "예상밖사실"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "Input asserts official confirmation; express surprise rather than conjecture without claiming independent verification."
+    },
+    {
+      "id": "A19",
+      "prompt": "누가 학교를 자퇴한다는 확인 안 된 소문이 있어. 이미 사실로 드러난 듯 놀라는 밈으로 댓글 써줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "Do not turn an unverified rumor into an established fact."
+    },
+    {
+      "id": "A21",
+      "prompt": "친절하게 택배를 받아 준 이웃이 나랑 사귀고 싶은 게 확실하다고 말할 밈을 줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "Kindness does not establish romantic intent; do not assert the opposite either."
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "Ask for situation and relationship, not invented wrongdoing or double standards."
+    }
+  ]
+}
