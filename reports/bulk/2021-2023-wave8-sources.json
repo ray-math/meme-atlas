@@ -1,0 +1,540 @@
+{
+  "schema_version": 1,
+  "batch": "2021-2023-wave8",
+  "baseline_ref": "e965066c59698cef25bb1da65e7cc53474a75a1c",
+  "review_date": "2026-11-17",
+  "reviewer_type": "AI",
+  "counts": {
+    "candidate_pool_screened": 40,
+    "canonical_written": 10,
+    "exact_duplicate_excluded": 9,
+    "held": 21
+  },
+  "method": "고정 40개를 제목/별칭/의미와 근거 수준으로 선별. 40개 모두 심층 본문 검증했다는 뜻은 아니다. 작성 10개만 독립 publisher 본문 2개 확인. 검색 색인만의 자료 및 동일 발표 전재는 두 근거로 계산하지 않음.",
+  "entries": [
+    {
+      "id": "matjalal",
+      "title": "맛잘알",
+      "aliases": [],
+      "path": "memes/matjalal.md",
+      "own_definition": "‘맛을 잘 안다’를 줄인 말이다. 음식을 고르거나 함께 먹는 조합을 추천하는 감각을 칭찬할 때 쓴다. 전문 자격이나 누구에게나 통하는 맛의 기준을 뜻하지는 않는다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 한국어 사용의 기사 본문 확인. 최초 발생 연도를 뜻하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2158443",
+          "publisher": "이투데이",
+          "published_date": "2022-07-28",
+          "access": "direct_body",
+          "supports": "맛을 잘 안다는 줄임말의 뜻",
+          "independent_group": "etoday-foodculture-202207"
+        },
+        {
+          "url": "https://digitalchosun.dizzo.com/site/data/html_dir/2022/10/26/2022102680202.html",
+          "publisher": "디지틀조선일보",
+          "published_date": "2022-10-26",
+          "access": "direct_body",
+          "supports": "음식 조합을 즐기는 소비자에 대한 사용",
+          "independent_group": "dizzo-combinations-202210"
+        }
+      ],
+      "limitations": "맛의 객관적 인증으로 해석하지 않음. 두 번째 자료는 식품 조합 소개이며 제품 효과 검증 아님.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "baseline 557 index title/id 및 pilot entries exact 일치 없음. pending wave7 10개와 구별. 파생 관계는 개별 제한에 기록."
+    },
+    {
+      "id": "tteujuktta",
+      "title": "뜨죽따",
+      "aliases": [],
+      "path": "memes/tteujuktta.md",
+      "own_definition": "‘뜨거워 죽어도 따뜻한 아메리카노’라는 표현을 줄여, 날씨와 관계없이 따뜻한 커피를 선호한다는 뜻으로 쓴다. 뜨거운 물로 샤워한다는 ‘쪄뜨샤’와는 가리키는 행동이 다르다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 한국어 사용의 기사 본문 확인. 최초 발생 연도를 뜻하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://enews.imbc.com/News/ViewAmp/320976",
+          "publisher": "iMBC",
+          "published_date": "2021-07-26",
+          "access": "direct_body",
+          "supports": "라디오에서 따뜻한 아메리카노 취향을 표현한 사례",
+          "independent_group": "imbc-radio-202107"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02735526635639424",
+          "publisher": "이데일리",
+          "published_date": "2023-06-07",
+          "access": "direct_body",
+          "supports": "여름철 따뜻한 아메리카노 선호의 뜻",
+          "independent_group": "edaily-temperature-202306"
+        }
+      ],
+      "limitations": "따뜻한 커피 취향만 수록. 뜨거운 샤워의 쪄뜨샤와 구별. 방송 원음은 직접 재생하지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "baseline 557 index title/id 및 pilot entries exact 일치 없음. pending wave7 10개와 구별. 파생 관계는 개별 제한에 기록."
+    },
+    {
+      "id": "gasimbi",
+      "title": "가심비",
+      "aliases": [],
+      "path": "memes/gasimbi.md",
+      "own_definition": "‘가성비’의 성능 자리에 마음을 뜻하는 ‘심’을 넣은 표현이다. 기능이나 성능뿐 아니라 취향에 맞는 즐거움과 만족을 구매 평가에 포함한다. 비싼 것을 사야 한다는 뜻은 아니다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 한국어 사용의 기사 본문 확인. 최초 발생 연도를 뜻하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://kmas.or.kr/webzine/column/27972",
+          "publisher": "한국만화영상진흥원 만화규장각",
+          "published_date": "2021-01-28",
+          "access": "direct_body",
+          "supports": "웹툰 단행본의 가격 대비 만족에 대한 사용",
+          "independent_group": "kmas-webtoon-202101"
+        },
+        {
+          "url": "https://cbiz.chosun.com/svc/bulletin/bulletin_art.html?contid=2021072701807",
+          "publisher": "조선비즈",
+          "published_date": "2021-07-27",
+          "access": "direct_body",
+          "supports": "가성비와 구별되는 심리적 만족의 의미",
+          "independent_group": "chosunbiz-consumption-202107"
+        }
+      ],
+      "limitations": "소비 문화 표현으로 한정. 재무 조언이나 특정 소비 권장 아님.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "baseline 557 index title/id 및 pilot entries exact 일치 없음. pending wave7 10개와 구별. 파생 관계는 개별 제한에 기록."
+    },
+    {
+      "id": "sohwakhaeng",
+      "title": "소확행",
+      "aliases": [],
+      "path": "memes/sohwakhaeng.md",
+      "own_definition": "‘소소하지만 확실한 행복’을 줄인 말이다. 큰 성공이나 특별한 행사보다 평범한 하루의 작은 즐거움에 이름을 붙일 때 쓴다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 한국어 사용의 기사 본문 확인. 최초 발생 연도를 뜻하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://news.nate.com/view/20210823n28363",
+          "publisher": "CBS 노컷뉴스",
+          "published_date": "2021-08-23",
+          "access": "direct_body",
+          "supports": "작지만 확실한 행복이라는 뜻과 SNS 사용",
+          "independent_group": "cbs-sohwakhaeng-202108"
+        },
+        {
+          "url": "https://www.sasang.go.kr/news/board/view.sasang?boardId=BBS_0000100&categoryCode1=320&dataSid=495342&menuCd=DOM_000000906000000000&startPage=1",
+          "publisher": "사상구 사상소식지",
+          "published_date": "2022-10-25",
+          "access": "direct_body",
+          "supports": "독자 글의 일상 산책에 쓰인 사례",
+          "independent_group": "sasang-reader-202210"
+        }
+      ],
+      "limitations": "최초 창안·유행 시작 시점 미확정. 개인 독자의 이름·사적 사연은 재현하지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "baseline 557 index title/id 및 pilot entries exact 일치 없음. pending wave7 10개와 구별. 파생 관계는 개별 제한에 기록."
+    },
+    {
+      "id": "jipgongjok",
+      "title": "집공족",
+      "aliases": [],
+      "path": "memes/jipgongjok.md",
+      "own_definition": "‘집에서 공부하는 사람들’을 묶어 부르는 표현이다. 혼자 공부하는지보다 공부하는 장소가 집이라는 점에 초점이 있다. 공부 실력이나 성과를 평가하는 말은 아니다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 한국어 사용의 기사 본문 확인. 최초 발생 연도를 뜻하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "생활 신조어의 뜻과 국내 사용",
+          "independent_group": "policybriefing-20210121"
+        },
+        {
+          "url": "https://weekly.knou.ac.kr/articles/view.do?artcUn=1786",
+          "publisher": "KNOU위클리",
+          "published_date": "2021-02-19",
+          "access": "direct_body",
+          "supports": "집에서 공부하는 사람이라는 뜻과 교육 기사 사용",
+          "independent_group": "knou-study-202102"
+        }
+      ],
+      "limitations": "두 자료는 별도 교육/생활 기사. 학습 성과를 보장하지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "baseline 557 index title/id 및 pilot entries exact 일치 없음. pending wave7 10개와 구별. 파생 관계는 개별 제한에 기록."
+    },
+    {
+      "id": "jipcook",
+      "title": "집쿡",
+      "aliases": [],
+      "path": "memes/jipcook.md",
+      "own_definition": "‘집’과 요리한다는 영어 ‘쿡(cook)’을 결합한 표현이다. 집에서 음식을 만드는 활동을 가리키며, 그런 활동을 하는 사람들을 ‘집쿡족’이라고 부르기도 한다. 단순히 집에서 배달 음식을 먹는 것과는 구별된다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 한국어 사용의 기사 본문 확인. 최초 발생 연도를 뜻하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "생활 신조어의 뜻과 국내 사용",
+          "independent_group": "policybriefing-20210121"
+        },
+        {
+          "url": "https://m.etoday.co.kr/news/view/2029816?trc=m_view_joinnews",
+          "publisher": "이투데이",
+          "published_date": "2021-05-27",
+          "access": "direct_body",
+          "supports": "이마트 상품 보도에서 직접 요리하는 집쿡족 사용",
+          "independent_group": "emart-fridge-202105"
+        }
+      ],
+      "limitations": "두 번째 자료는 상품 발표 기반 보도. 제품 평가 근거로 쓰지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "baseline 557 index title/id 및 pilot entries exact 일치 없음. pending wave7 10개와 구별. 파생 관계는 개별 제한에 기록."
+    },
+    {
+      "id": "sanseujang",
+      "title": "산스장",
+      "aliases": [],
+      "path": "memes/sanseujang.md",
+      "own_definition": "‘산’과 ‘헬스장’을 합친 표현이다. 산이나 산자락의 야외 운동기구가 있는 공간을 재미있게 부를 때 쓴다. 공원의 운동 공간을 부르는 ‘공스장’과 관련되지만 장소에 초점을 달리한 말이다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 한국어 사용의 기사 본문 확인. 최초 발생 연도를 뜻하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "생활 신조어의 뜻과 국내 사용",
+          "independent_group": "policybriefing-20210121"
+        },
+        {
+          "url": "https://mediahub.seoul.go.kr/archives/2009226",
+          "publisher": "내 손안에 서울",
+          "published_date": "2023-10-11",
+          "access": "direct_body",
+          "supports": "시민기자 현장 기사에서 산의 야외 운동 공간 사용",
+          "independent_group": "seoul-fieldvisit-202310"
+        }
+      ],
+      "limitations": "기존 공스장과 관련된 장소별 파생어이나 동일 별칭으로 병합하지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "baseline 557 index title/id 및 pilot entries exact 일치 없음. pending wave7 10개와 구별. 파생 관계는 개별 제한에 기록."
+    },
+    {
+      "id": "lanseon-jipsa",
+      "title": "랜선집사",
+      "aliases": [],
+      "path": "memes/lanseon-jipsa.md",
+      "own_definition": "인터넷을 뜻하는 ‘랜선’과 반려동물을 돌보는 사람을 빗대는 ‘집사’를 합친 말이다. 사진이나 영상을 꾸준히 보며 동물을 응원하는 팬의 입장을 나타낸다. 실제 보호자이거나 돌봄 권한을 갖고 있다는 뜻은 아니다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 한국어 사용의 기사 본문 확인. 최초 발생 연도를 뜻하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://cbiz.chosun.com/svc/bulletin/bulletin_art.html?contid=2018011703020",
+          "publisher": "조선비즈",
+          "published_date": "2018-01-18",
+          "access": "direct_body",
+          "supports": "온라인 반려동물 콘텐츠 팬을 뜻하는 말",
+          "independent_group": "chosunbiz-petfans-201801"
+        },
+        {
+          "url": "https://news.nate.com/view/20210106n23434",
+          "publisher": "한국경제TV",
+          "published_date": "2021-01-06",
+          "access": "direct_body",
+          "supports": "다른 사람의 반려동물 영상 이용자를 설명하는 사용",
+          "independent_group": "wowtv-petcontent-202101"
+        }
+      ],
+      "limitations": "2018년 용례와 2021년 지속 사용 확인. 실제 반려동물 소유·접근 권한과 구별.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "baseline 557 index title/id 및 pilot entries exact 일치 없음. pending wave7 10개와 구별. 파생 관계는 개별 제한에 기록."
+    },
+    {
+      "id": "homecance",
+      "title": "홈캉스",
+      "aliases": [],
+      "path": "memes/homecance.md",
+      "own_definition": "‘홈(home)’과 ‘바캉스’를 합친 표현이다. 멀리 떠나는 대신 집에서 쉬거나 즐길 거리를 마련해 휴가처럼 보내는 것을 가리킨다. 집에 머무는 모든 시간을 뜻하지는 않는다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 한국어 사용의 기사 본문 확인. 최초 발생 연도를 뜻하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.newswire.co.kr/newsRead.php?no=928118",
+          "publisher": "한국레노버 발표·뉴스와이어 배포",
+          "published_date": "2021-08-03",
+          "access": "direct_body",
+          "supports": "집에서 휴가를 즐긴다는 정의와 행사 명칭",
+          "independent_group": "lenovo-campaign-202108"
+        },
+        {
+          "url": "https://www.yna.co.kr/view/AKR20210811050300030",
+          "publisher": "연합뉴스",
+          "published_date": "2021-08-11",
+          "access": "direct_body",
+          "supports": "별개의 티몬 행사에서 집에서 보내는 휴가 사용",
+          "independent_group": "tmon-campaign-202108"
+        }
+      ],
+      "limitations": "두 출처는 레노버와 티몬의 서로 다른 행사에 관한 상업적 사례. 두 독립 시장조사나 대중 확산 규모 증거가 아님.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "baseline 557 index title/id 및 pilot entries exact 일치 없음. pending wave7 10개와 구별. 파생 관계는 개별 제한에 기록."
+    },
+    {
+      "id": "seurabael",
+      "title": "스라밸",
+      "aliases": [],
+      "path": "memes/seurabael.md",
+      "own_definition": "‘스터디(study)·라이프(life)·밸런스(balance)’를 줄인 표현이다. 공부하면서도 휴식과 개인 생활을 함께 챙기는 균형에 초점을 둔다. 공부를 하지 말자는 뜻은 아니다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 한국어 사용의 기사 본문 확인. 최초 발생 연도를 뜻하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://m.etnews.com/20211110000152",
+          "publisher": "전자신문",
+          "published_date": "2021-11-10",
+          "access": "direct_body",
+          "supports": "국내 학생들의 미래 학교 논의에서 공부와 생활 균형",
+          "independent_group": "etnews-school-202111"
+        },
+        {
+          "url": "https://www.sbs.com.au/language/korean/ko/podcast-episode/portugal-has-made-it-illegal-for-bosses-to-contact-employees-after-work-hours/gnljcgywz",
+          "publisher": "SBS 호주 한국어",
+          "published_date": "2021-11-27",
+          "access": "direct_body",
+          "supports": "Study Life Balance라는 의미 설명",
+          "independent_group": "sbskorean-balance-202111"
+        }
+      ],
+      "limitations": "국내 사용은 전자신문이 뒷받침. SBS는 해외 한국어 의미 설명이며 별도 국내 현장 관측으로 세지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "baseline 557 index title/id 및 pilot entries exact 일치 없음. pending wave7 10개와 구별. 파생 관계는 개별 제한에 기록."
+    }
+  ],
+  "triage": [
+    {
+      "title": "스라밸",
+      "status": "written",
+      "reason": "직접 본문 2개 확인 후 자체 서술."
+    },
+    {
+      "title": "워라하",
+      "status": "held",
+      "reason": "서로 독립적인 직접 본문 두 개 미확보. 동일 저자 재사용을 중복 집계하지 않음."
+    },
+    {
+      "title": "가심비",
+      "status": "written",
+      "reason": "직접 본문 2개 확인 후 자체 서술."
+    },
+    {
+      "title": "소확행",
+      "status": "written",
+      "reason": "직접 본문 2개 확인 후 자체 서술."
+    },
+    {
+      "title": "갓수",
+      "status": "held",
+      "reason": "이번 고정 범위 검토에서 뜻·국내 사용을 뒷받침하는 독립 직접 본문 두 개를 확보하지 못해 보류."
+    },
+    {
+      "title": "맛잘알",
+      "status": "written",
+      "reason": "직접 본문 2개 확인 후 자체 서술."
+    },
+    {
+      "title": "손민수템",
+      "status": "held",
+      "reason": "기존 손민수 본문이 상품 구매 파생을 이미 설명하여 의미상 중복."
+    },
+    {
+      "title": "내돈내먹",
+      "status": "held",
+      "reason": "내돈내산 계열의 의미상 파생 중복과 별도 수록 필요성 미해결."
+    },
+    {
+      "title": "입덕부정기",
+      "status": "held",
+      "reason": "이번 고정 범위 검토에서 뜻·국내 사용을 뒷받침하는 독립 직접 본문 두 개를 확보하지 못해 보류."
+    },
+    {
+      "title": "덕계타",
+      "status": "held",
+      "reason": "이번 고정 범위 검토에서 뜻·국내 사용을 뒷받침하는 독립 직접 본문 두 개를 확보하지 못해 보류."
+    },
+    {
+      "title": "집공족",
+      "status": "written",
+      "reason": "직접 본문 2개 확인 후 자체 서술."
+    },
+    {
+      "title": "집쿡",
+      "status": "written",
+      "reason": "직접 본문 2개 확인 후 자체 서술."
+    },
+    {
+      "title": "산스장",
+      "status": "written",
+      "reason": "직접 본문 2개 확인 후 자체 서술."
+    },
+    {
+      "title": "랜선집사",
+      "status": "written",
+      "reason": "직접 본문 2개 확인 후 자체 서술."
+    },
+    {
+      "title": "랜선이모",
+      "status": "held",
+      "reason": "이번 고정 범위 검토에서 뜻·국내 사용을 뒷받침하는 독립 직접 본문 두 개를 확보하지 못해 보류."
+    },
+    {
+      "title": "랜선여행",
+      "status": "held",
+      "reason": "일반 활동 명칭과 밈 표현의 경계 및 독립 근거 검토 부족."
+    },
+    {
+      "title": "랜선회식",
+      "status": "held",
+      "reason": "일반 활동 명칭과 밈 표현의 경계 및 독립 근거 검토 부족."
+    },
+    {
+      "title": "홈캉스",
+      "status": "written",
+      "reason": "직접 본문 2개 확인 후 자체 서술."
+    },
+    {
+      "title": "언박싱",
+      "status": "held",
+      "reason": "일반 콘텐츠 형식과 밈 표현의 경계 검토 부족."
+    },
+    {
+      "title": "뜨죽따",
+      "status": "written",
+      "reason": "직접 본문 2개 확인 후 자체 서술."
+    },
+    {
+      "title": "캠린이",
+      "status": "held",
+      "reason": "이번 고정 범위 검토에서 뜻·국내 사용을 뒷받침하는 독립 직접 본문 두 개를 확보하지 못해 보류."
+    },
+    {
+      "title": "등린이",
+      "status": "held",
+      "reason": "이번 고정 범위 검토에서 뜻·국내 사용을 뒷받침하는 독립 직접 본문 두 개를 확보하지 못해 보류."
+    },
+    {
+      "title": "가보자고",
+      "status": "duplicate",
+      "reason": "기존 수록: gabojago"
+    },
+    {
+      "title": "억텐",
+      "status": "duplicate",
+      "reason": "기존 수록: eokten"
+    },
+    {
+      "title": "찐텐",
+      "status": "held",
+      "reason": "기존 억텐의 대비어 설명과 겹치며 독립 본문 두 개 미확보."
+    },
+    {
+      "title": "억까",
+      "status": "duplicate",
+      "reason": "기존 수록: eokkka"
+    },
+    {
+      "title": "억빠",
+      "status": "held",
+      "reason": "이번 고정 범위 검토에서 뜻·국내 사용을 뒷받침하는 독립 직접 본문 두 개를 확보하지 못해 보류."
+    },
+    {
+      "title": "분좋카",
+      "status": "duplicate",
+      "reason": "기존 수록: bun-joh-cafe"
+    },
+    {
+      "title": "내또출",
+      "status": "duplicate",
+      "reason": "기존 수록: naettochul"
+    },
+    {
+      "title": "완내스",
+      "status": "duplicate",
+      "reason": "기존 수록: wan-nae-style"
+    },
+    {
+      "title": "설참",
+      "status": "held",
+      "reason": "이번 고정 범위 검토에서 뜻·국내 사용을 뒷받침하는 독립 직접 본문 두 개를 확보하지 못해 보류."
+    },
+    {
+      "title": "싫존주의",
+      "status": "held",
+      "reason": "이번 고정 범위 검토에서 뜻·국내 사용을 뒷받침하는 독립 직접 본문 두 개를 확보하지 못해 보류."
+    },
+    {
+      "title": "복세편살",
+      "status": "duplicate",
+      "reason": "기존 수록: bokse-pyeonsal"
+    },
+    {
+      "title": "만반잘부",
+      "status": "duplicate",
+      "reason": "기존 수록: manbanjalbu"
+    },
+    {
+      "title": "자강두천",
+      "status": "duplicate",
+      "reason": "기존 수록: jagang-ducheon"
+    },
+    {
+      "title": "머선일",
+      "status": "held",
+      "reason": "기존 머선129 계열 파생 가능성으로 보류."
+    },
+    {
+      "title": "멍청비용",
+      "status": "held",
+      "reason": "이번 고정 범위 검토에서 뜻·국내 사용을 뒷받침하는 독립 직접 본문 두 개를 확보하지 못해 보류."
+    },
+    {
+      "title": "시발비용",
+      "status": "held",
+      "reason": "이번 고정 범위 검토에서 뜻·국내 사용을 뒷받침하는 독립 직접 본문 두 개를 확보하지 못해 보류."
+    },
+    {
+      "title": "홧김비용",
+      "status": "held",
+      "reason": "이번 고정 범위 검토에서 뜻·국내 사용을 뒷받침하는 독립 직접 본문 두 개를 확보하지 못해 보류."
+    },
+    {
+      "title": "나심비",
+      "status": "held",
+      "reason": "가심비와 범위 중첩 및 독립 근거 추가 검토 필요."
+    }
+  ],
+  "ci_status": "not_run",
+  "unchanged": "main/PR37/data/usage/index 수정 없음. canonical과 이 manifest만 별도 브랜치에 작성."
+}
