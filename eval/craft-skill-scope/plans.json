@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "source_commit": "7245a04b4b303398a81f8a9da1881959da7e14e0",
+  "provenance": "Actual AI planning from the public craft-skill draft and existing public audit inputs. No gold or answer files read. No search executed or final candidate selected.",
+  "limitations": "공개 주석 파생·기존 공개 입력을 사용한 개발 계획으로 블라인드 일반화 평가가 아니다. 작업솜씨평가는 아직 보고서의 제안 어휘이며 새 두 profile도 미등록 draft이다. 이를 반영한 임시 환경에서 실행할 계획일 뿐 등록·승격·검색 성공을 뜻하지 않는다. recommend는 기본 추천 정책을 적용할 검색 모드이고 lookup은 caution 후보까지 조회 후 문맥을 검토하는 모드이며 안전 승인과 다르다. 필터는 실제 사실·관계·내면을 검증하지 않는다.",
+  "plans": [
+    {
+      "id": "C-praise",
+      "prompt": "제작물의 세부 표현이나 완성도를 보고 그 제작자를 제삼자로 칭찬한다. 평가 초점은 해당 작업의 솜씨이지 인격이나 모든 분야의 능력이 아니다.\n이 미니어처는 작은 창틀까지 섬세하네. 만든 분 정말 금손이다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "칭찬"
+        ],
+        "situations": [
+          "작업솜씨평가"
+        ],
+        "targets": [
+          "제삼자"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "미니어처의 구체적 세부 표현을 보고 만든 분의 해당 작업 솜씨를 제삼자로 칭찬한다. 직접 상대 호명이나 노력·타고난 재능·경력 판정으로 확대하지 않는다. 기본 추천 정책에서 후보를 찾되 실제 문맥을 별도로 검토한다."
+    },
+    {
+      "id": "C-self",
+      "prompt": "자신이 꾸민 작은 정원의 결과가 서툴렀음을 가볍게 낮추어 말한다. 해당 작업의 한 번 또는 한 시기 결과를 웃어넘기는 표현이지 자신의 모든 능력을 부정하는 판정은 아니다.\n작은 정원을 꾸몄는데 배치가 어색하네. 이번에는 내가 똥손이었어. 조금씩 다시 꾸며 봐야겠다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "situations": [
+          "작업솜씨평가"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "자신이 꾸민 정원의 이번 배치를 가볍게 낮추어 말하는 작업 솜씨 자조이다. 자기 전체 가치나 능력의 부정이 아니다. 비속한 자기 낮춤 표현을 포함한 lookup 후보를 문맥 검토하며 기본 recommend 통과나 개선 효과를 주장하지 않는다."
+    },
+    {
+      "id": "C-inference",
+      "prompt": "결과물만으로 타인의 노력·타고난 재능·경력을 단정하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "결과물만으로 타인의 노력·선천적 재능·경력을 단정하는 조건이다. 관찰된 작업의 솜씨 칭찬과 구별해 그런 단정에 밈을 추천하지 않는다. 조건문을 실제 인물의 이력이나 사건으로 바꾸지 않는다."
+    },
+    {
+      "id": "C-harm",
+      "prompt": "부상·장애나 심각한 손해·고통을 웃음거리로 삼는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "부상·장애 또는 심각한 손해·고통을 웃음거리로 만드는 조건은 가벼운 자기 작업 자조와 다르다. 구체적인 부상이나 피해 사실을 추가하지 않고 밈 사용을 보류한다."
+    },
+    {
+      "id": "A01",
+      "prompt": "친구가 처음 낸 단편소설이 문학상 후보에 올랐대. 믿기지 않을 만큼 기쁘다는 반응을 단톡에 짧게 보내고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "감탄"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "문학상 후보 소식에 믿기지 않을 만큼 기쁜 반응을 원하는 것이지 작품의 세부 솜씨를 평가하는 요청이 아니다. 기본 추천 후보에서 긍정 문맥을 검토하며 수상·국제 성과나 작가의 재능을 추가하지 않는다."
+    },
+    {
+      "id": "A16",
+      "prompt": "내가 하루 만에 방 전체를 정리하려다 책상만 치웠어. 내 거창한 계획과 소박한 현실 차이를 자조하고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "situations": [
+          "기대와현실차이"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "계획한 정리 범위와 실제 수행 범위의 차이가 중심이다. 책상만 치웠다는 사실은 정리 솜씨의 서툼을 뜻하지 않아 작업솜씨평가로 바꾸지 않는다. lookup 후보의 거친 어감과 자기 방향을 별도 검토한다."
+    },
+    {
+      "id": "A22",
+      "prompt": "고객사 임원에게 보내는 공식 장애 사과문 끝에 책임을 인정하는 밈 한 줄이 필요해.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "고객사 임원에게 보내는 공식 장애 사과에는 밈을 보류하고 직접적인 책임 인정 표현을 사용한다. 장애 원인이나 복구·보상·재발 방지 약속을 새로 만들지 않는다."
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "어떤 상황인지와 상호 장난 여부가 불명확하다. 앞선 발언과 원하는 반응을 확인하기 전에는 타인의 솜씨·잘못·관계나 내면을 추정해 공격 표현을 선택하지 않는다."
+    }
+  ]
+}
