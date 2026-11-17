@@ -525,6 +525,13 @@
         "pon-eunjeong",
         "three-lifts-500"
       ]
+    },
+    "korean-verified-20261117-hellchang-jumo": {
+      "input_hash": "8c7342d94134fa0ef592a95bb42d32d86c59a216814ac76b775745a3ae1352b8",
+      "ids": [
+        "hellchang",
+        "jumo-cheer"
+      ]
     }
   },
   "entries": {
@@ -4139,6 +4146,22 @@
       "tags": [
         "스포츠"
       ]
+    },
+    "hellchang": {
+      "title": "헬창",
+      "batch": "korean-verified-20261117-hellchang-jumo",
+      "body_hash": "d2a4245b99da617d216d31308966ac61f7c721b240a7f2dbbb54627bd394644c",
+      "scope_type": "korean_usage",
+      "scope_basis": "동아의 국내 자기 호칭·근손실 유머 사용과 이데일리의 국내 운동 신조어 풀이를 교차확인했다. 최초 한국 창작·의학적 진단을 주장하지 않는다.",
+      "tags": []
+    },
+    "jumo-cheer": {
+      "title": "주모 드립",
+      "batch": "korean-verified-20261117-hellchang-jumo",
+      "body_hash": "bd53a4960bd0d76edf322ad5be8a4561d8764ffc580e3f78cc647fb9f28f72f7",
+      "scope_type": "korean_usage",
+      "scope_basis": "여성동아와 데일리안의 독립 문화평론 본문에서 국내 온라인 성취 환호의 호명형 밈을 확인했다. 원댓글 직접 열람·현재 재유행·무해성 인증을 주장하지 않는다.",
+      "tags": []
     }
   }
 }

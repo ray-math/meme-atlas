@@ -333,3 +333,5 @@
 - [GOAT](../memes/goat.md)
 - [폰은정](../memes/pon-eunjeong.md)
 - [3대500](../memes/three-lifts-500.md)
+- [헬창](../memes/hellchang.md)
+- [주모 드립](../memes/jumo-cheer.md)

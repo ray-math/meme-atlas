@@ -155,6 +155,7 @@
 - [읽지 않음 난 모르는 일](../memes/unread-none-of-my-business.md)
 - [있었는데요 없었습니다](../memes/it-was-gone.md)
 - [잉여](../memes/ingyeo.md)
+- [주모 드립](../memes/jumo-cheer.md)
 - [중2병](../memes/chuunibyou.md)
 - [중립기어](../memes/neutral-gear.md)
 - [즐](../memes/jeul.md)
@@ -174,6 +175,7 @@
 - [해피 캣](../memes/happy-cat.md)
 - [행복회로](../memes/happy-circuit.md)
 - [헐](../memes/heol.md)
+- [헬창](../memes/hellchang.md)
 - [형이다(싱하형)](../memes/hyung-ida.md)
 
 ## 방송
