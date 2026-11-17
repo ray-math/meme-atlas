@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "execution_commit": "a1c6cc6cf68b6ba2c0b4ca640f6bacf9af93a13a",
+  "frozen_retrieval_commit": "7e44f0454847b23087595c90b2c57a6ffdaa7616",
+  "provenance": "이번 assistant 턴에서 동결된 공개 plans와 실제 Python retrieval을 읽고 작성한 실제 AI 답안이다. 신규 모델 API 호출·검색 재실행·gold 또는 다른 answers 파일 읽기는 하지 않았다.",
+  "limitations": "제목·예문 없는 긍정 입력도 공개 주석 파생 개발 사례로 독립 블라인드 평가가 아니다. 새 두 profile은 임시 메모리에서 reviewed로 조회되며 원본 draft의 승격이나 실서비스 배포를 뜻하지 않는다. 응답 문구는 가상 문맥의 초안이며 실제 게임·날짜·일정·관계 확인 보고가 아니다. 원문·검색 모드를 유지하고 standard 후보도 context와 avoid_when을 검토했다. 필터는 시스템 종료·공식 판정·상대 수락·여가 확보·내면을 검증하지 않는다.",
+  "answers": [
+    {
+      "id": "G-defeat",
+      "action": "recommend",
+      "selected_entry_id": "gg",
+      "selected_usage_id": "own-game-defeat",
+      "response": "내 패배를 인정할게. GG.",
+      "reason": "자기 참가 게임의 패배 인정이라는 recommend 후보의 좁은 문맥에 맞는다. 승부를 마무리하려는 자기 의사 표현이지 시스템 종료·공식 판정·상대의 수락 보고가 아니며 상대에게 퇴장을 요구하지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "자신이 참가한 게임에서 자기 패배를 받아들이고 그 승부를 마무리하겠다는 뜻을 전한다.",
+          "상대의 패배나 퇴장을 요구하지 않는다."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 자신이 참가한 게임의 자기 패배를 인정하는 문맥이다.",
+            "evidence_span": "자신이 참가한 게임에서 자기 패배를 받아들이고 그 승부를 마무리하겠다는 뜻을 전한다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "G-friday",
+      "action": "recommend",
+      "selected_entry_id": "fiery-friday",
+      "selected_usage_id": "friday-leisure-anticipation",
+      "response": "금요일 저녁엔 여가를 즐길 수 있으면 좋겠다. 불금 기대 중!",
+      "reason": "명시된 금요일 저녁 여가 기대를 표현하는 recommend 후보를 선택한다. 희망·기대로 남겨 실제 오늘의 요일이나 자유 시간 확보를 단정하지 않는다. 퇴근 완료·술·장소·약속·외출 계획은 추가하지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "금요일 저녁에 자유 시간이나 여가를 보낼 수 있기를 기대하며 그 상황을 짧게 표현한다.",
+          "기대가 명시된 용례이며 단순 날짜 정보만으로 이 정서를 부여하지 않는다."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 금요일 저녁 여가를 보낼 수 있기를 기대하는 문맥이다.",
+            "evidence_span": "금요일 저녁에 자유 시간이나 여가를 보낼 수 있기를 기대하며 그 상황을 짧게 표현한다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "G-force",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "상대에게 패배 인정이나 퇴장을 강요하고 조롱하는 용도로는 GG를 권하지 않겠습니다.",
+      "reason": "자기 패배 인정과 타인에 대한 강요는 방향이 다르다. 검색하지 않았으며 조건문을 특정 승자·패자의 실제 사건으로 바꾸지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "승자가 상대에게 패배 인정·퇴장을 강요하거나 조롱하는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 승자가 상대에게 패배 인정·퇴장을 강요하거나 조롱하는 조건이다.",
+            "evidence_span": "승자가 상대에게 패배 인정·퇴장을 강요하거나 조롱하는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "G-system",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "GG라는 말만으로 시스템 종료나 공식 결과, 상대의 수락을 확인했다고 말할 수는 없습니다. 해당 상태는 별도로 확인해야 합니다.",
+      "reason": "밈 발화를 기술적·공식적 확인의 근거로 사용하는 조건이므로 추천을 보류한다. 실제 게임 상태나 상대 반응을 조회하거나 확인했다고 주장하지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "GG 발화만으로 게임 시스템 종료·공식 결과 확정·상대의 수락을 보장하는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 발화만으로 시스템·결과·수락을 보장하려는 조건이다.",
+            "evidence_span": "GG 발화만으로 게임 시스템 종료·공식 결과 확정·상대의 수락을 보장하는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "G-offday",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "요일 정보만으로 여가에 대한 기대를 만들어 넣지는 않겠습니다. 그런 조건에서는 불금 표현을 보류하겠습니다.",
+      "reason": "금요일이 아니거나 요일 정보만 있는 입력에 현재 금요일의 기대를 추가하는 조건이다. 실제 오늘 날짜를 대입하거나 여가 계획·감정을 만들어내지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "금요일이 아닌 날이나 요일 정보만 있는 입력에 현재 금요일의 기대를 만들어 넣는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 근거 없이 현재 금요일의 기대를 만들어 넣는 조건이다.",
+            "evidence_span": "금요일이 아닌 날이나 요일 정보만 있는 입력에 현재 금요일의 기대를 만들어 넣는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "G-overwork",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "야근 중이거나 쉬기 어려운 상대에게 놀라고 압박하는 용도로는 불금 표현을 권하지 않겠습니다.",
+      "reason": "상대의 여가 가능성을 무시하는 압박을 자발적인 여가 기대로 바꾸지 않는다. 조건문에 없는 실제 근무 일정·퇴근 시점·동의는 추가하지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "야근 중이거나 쉬기 어려운 상대에게 놀라고 압박하는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 야근 중이거나 쉬기 어려운 상대를 압박하는 조건이다.",
+            "evidence_span": "야근 중이거나 쉬기 어려운 상대에게 놀라고 압박하는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "A04",
+      "action": "recommend",
+      "selected_entry_id": "jung-kkeok-ma",
+      "selected_usage_id": "self-resolve",
+      "response": "이번엔 떨어졌지만 다음 달 다시 도전한다. 중꺾마.",
+      "reason": "recommend 후보의 패배 후 자기 재도전 다짐에 맞는다. 게임의 종료 의사로 바꾸지 않으며 다음 달 참가 결심만 표현하고 우승·성공을 보장하지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "지역 대회에서 떨어졌지만 나는 다음 달 다시 나가기로 했어.",
+          "반드시 이긴다는 말은 빼고."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 지역 대회 탈락 뒤 다음 달 재참가를 결정했다고 제시한다.",
+            "evidence_span": "지역 대회에서 떨어졌지만 나는 다음 달 다시 나가기로 했어."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "A20",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "쉬겠다는 친구를 압박하는 밈 대신 이렇게 말해 보세요. “당분간 쉬고 싶다는 네 뜻을 존중할게.”",
+      "reason": "친구가 지쳐 쉬겠다는 의사가 명시되어 압박 목적의 밈을 보류한다. 자발적인 재도전 결심으로 뒤집거나 복귀·성공을 약속하지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "친구가 너무 지쳐서 당분간 대회를 쉬겠대.",
+          "계속 나가도록 압박하는 멘트를 밈으로 만들어줘."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력에서 친구가 지쳐 당분간 대회를 쉬겠다고 전한다.",
+            "evidence_span": "친구가 너무 지쳐서 당분간 대회를 쉬겠대."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "A26",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "어떤 상황이고, 어떤 반응을 표현하고 싶은가요?",
+      "reason": "이모지와 느낌표만으로 사건·감정·요청 기능을 확정하지 않고 질문한다.",
+      "context_check": {
+        "assessment": "uncertain",
+        "evidence_spans": [
+          "😶‍🌫️!!!"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": [
+          "구체적인 상황",
+          "표현하려는 반응이나 요청"
+        ]
+      },
+      "factual_check": {
+        "supported_claims": [],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "E06",
+      "action": "recommend",
+      "selected_entry_id": "haengshow",
+      "selected_usage_id": "well-wishes",
+      "response": "새로운 곳에서도 잘 지내. 행쇼!",
+      "reason": "recommend에서 반환된 두 후보 중 가벼운 작별과 행복 기원에 직접 맞는 행쇼를 선택한다. 꽃길의 새 활동 문맥을 이사만으로 복원하지 않는다. 친구의 새 직업·계획·미래 성공이나 행복 확정을 추가하지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "함께 일하던 친구가 먼 도시로 옮겨.",
+          "서운한 작별보다 행복하게 지내라는 가벼운 인사."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 먼 도시로 옮기는 친구에게 행복을 비는 가벼운 인사를 원한다.",
+            "evidence_span": "함께 일하던 친구가 먼 도시로 옮겨. 서운한 작별보다 행복하게 지내라는 가벼운 인사."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    }
+  ]
+}
