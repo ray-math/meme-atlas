@@ -4,7 +4,7 @@
   "coverage": {
     "dictionary_entries": 348,
     "annotated_entries": 35,
-    "reviewed_entries": 33,
+    "reviewed_entries": 35,
     "unannotated_entries": 313
   },
   "entries": [
@@ -251,8 +251,8 @@
         "가 보자고"
       ],
       "source_sha": "498075ad797426106b9b62a3450f93dd9549880f",
-      "review_status": "draft",
-      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.joongang.co.kr/article/25059788 ; https://sports.khan.co.kr/article/202205240001003/amp ; https://www.newsis.com/view/NISX20241107_0002950032 . 전재 기사는 별개의 독립 출처로 세지 않았다. 추가 직접 확인: https://www.cjazit.org/support/tune-up/entry/64/26182?p=72 (2023-03-14 창작자 소개의 자기응원 용법), https://maily.so/jakdamreport/posts/8mo54w71z9p (2025-09-12 현장 작업 전 자기사용 자기보고). 가사는 저장하지 않는다. 자기격려의 존재를 뒷받침하지만 일반 빈도·효과·안전성을 증명하지 않는다.",
+      "review_status": "reviewed",
+      "review_note": "AI 편집 주석이며 인간 검토·실전 적합성 검증을 완료한 주석은 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.joongang.co.kr/article/25059788 ; https://sports.khan.co.kr/article/202205240001003/amp ; https://www.newsis.com/view/NISX20241107_0002950032 . 전재 기사는 별개의 독립 출처로 세지 않았다. 추가 직접 확인: https://www.cjazit.org/support/tune-up/entry/64/26182?p=72 (2023-03-14 창작자 소개의 자기응원 용법), https://maily.so/jakdamreport/posts/8mo54w71z9p (2025-09-12 현장 작업 전 자기사용 자기보고). 가사는 저장하지 않는다. 자기격려의 존재를 뒷받침하지만 일반 빈도·효과·안전성을 증명하지 않는다. 2026-11-17 공개 주석 파생 8건의 실제 AI 계획·Python 조회·최종 답안을 다른 AI가 검토한 뒤 현재 좁힌 용례만 reviewed로 전환했다. 일반 정확도·효과·문맥 안전성을 인증하지 않으며 과거 보류 메모는 변경 이력이다.",
       "usages": [
         {
           "id": "encourage-challenge",
@@ -393,8 +393,8 @@
         "고트"
       ],
       "source_sha": "4e171586363e3da2c46dc38ef21a05945ae1d5a2",
-      "review_status": "draft",
-      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://m.news.nate.com/view/20230821n05471 ; https://www.khan.co.kr/article/202504191200015 . 국내 스포츠 찬사 사용에 한정하며 일본 트렌드 소개를 국내 일반 용법으로 확대하지 않는다.",
+      "review_status": "reviewed",
+      "review_note": "AI 편집 주석이며 인간 검토·실전 적합성 검증을 완료한 주석은 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://m.news.nate.com/view/20230821n05471 ; https://www.khan.co.kr/article/202504191200015 . 국내 스포츠 찬사 사용에 한정하며 일본 트렌드 소개를 국내 일반 용법으로 확대하지 않는다. 2026-11-17 공개 주석 파생 8건의 실제 AI 계획·Python 조회·최종 답안을 다른 AI가 검토한 뒤 현재 좁힌 용례만 reviewed로 전환했다. 일반 정확도·효과·문맥 안전성을 인증하지 않으며 과거 보류 메모는 변경 이력이다.",
       "usages": [
         {
           "id": "praise-greatest",
@@ -1591,7 +1591,7 @@
       ],
       "source_sha": "a64b178b2813466737f0568836fae1c150d5ec6c",
       "review_status": "reviewed",
-      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://v.daum.net/v/20220110174011563 ; https://www.huffingtonpost.kr/article/231986 . 최초 게시자·성씨 일반화는 검증 범위 밖이며 포함하지 않는다. 2026-11-17 명시 문맥 요구 조건을 추가하고, 별도 AI의 공개 개발 계획·실제 Python 조회·최종 선택을 독립 AI가 검토한 후 제한적 reviewed 승격. 주석 파생 사례이며 인간 또는 일반 자연어 정확도 검증은 아니다. 기존 보류 이유는 이 변경 이전 단계의 이력이다.",
+      "review_note": "AI 편집 주석이며 인간 검토·실전 적합성 검증을 완료한 주석은 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://v.daum.net/v/20220110174011563 ; https://www.huffingtonpost.kr/article/231986 . 최초 게시자·성씨 일반화는 검증 범위 밖이며 포함하지 않는다. 2026-11-17 명시 문맥 요구 조건을 추가하고, 별도 AI의 공개 개발 계획·실제 Python 조회·최종 선택을 독립 AI가 검토한 후 제한적 reviewed 승격. 주석 파생 사례이며 인간 또는 일반 자연어 정확도 검증은 아니다. 기존 보류 이유는 이 변경 이전 단계의 이력이다.",
       "usages": [
         {
           "id": "expose-fabrication",
