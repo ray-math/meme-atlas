@@ -3,9 +3,9 @@
   "vocabulary_version": 1,
   "coverage": {
     "dictionary_entries": 348,
-    "annotated_entries": 38,
+    "annotated_entries": 40,
     "reviewed_entries": 38,
-    "unannotated_entries": 310
+    "unannotated_entries": 308
   },
   "entries": [
     {
@@ -111,6 +111,51 @@
           },
           "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
           "emotion_status": "annotated"
+        }
+      ]
+    },
+    {
+      "id": "carrot-of-course",
+      "title": "당근이지",
+      "tags": [],
+      "path": "memes/carrot-of-course.md",
+      "aliases": [],
+      "source_sha": "1488b467718d86edacf37a1c29d2848869b1c62a",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안. 본문과 독립 자료를 연구·편집 AI가 확인했다. 인간 검토·실전 정확도 검증이 아니다. https://m.tf.co.kr/read/ogmeta/1006008.htm 은 당연하지를 장난스럽게 바꾼 뜻을 설명한다. 소개된 온라인 연표를 최초 연도 근거로 쓰지 않는다. https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01088966622657184 는 의미와 쓰임을 언급한 메타설명이며 실제 긍정 응답 대화 기록이라고 주장하지 않는다. 사소한 평가 동의로 한정하고 예문·안전 경계는 편집 판단이다.",
+      "usages": [
+        {
+          "id": "playful-agreement",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "동조"
+          ],
+          "situations": [
+            "평가동의",
+            "말장난"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "앞서 나온 사소한 평가에 실제로 동의하면서 당연하다는 뜻을 친근한 말장난으로 표현한다. 평가 대상이나 내용에 대한 긍정이지 상대 인물 자체에 대한 칭찬은 아니다.",
+          "avoid_when": [
+            "동의할 근거가 없는 사실 주장이나 소문을 확정할 때",
+            "의료·법률·금전 등 중대한 결정의 확인이나 동의를 가벼운 응답으로 대신할 때",
+            "상대의 진지한 고민을 대수롭지 않게 넘기는 말로 들릴 때",
+            "실제로는 동의하지 않으면서 반어적으로 말하려는 때"
+          ],
+          "example": {
+            "text": "이 그림은 두 색이 잘 어울리지? 당근이지!",
+            "kind": "editorial"
+          },
+          "review_note": "평가동의는 이 용례의 앞선 평가에 대한 동의이며 모든 예·아니요 질문에 강제하지 않는다. 말장난 형식만으로 실제 기쁨·재미를 추정하지 않는다. 예문은 기사 인용이 아니다. 넓은 동조 검색과 기존 후보 충돌 여부는 아직 검증하지 않아 draft로 보류한다."
         }
       ]
     },
@@ -2039,6 +2084,56 @@
           },
           "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
           "emotion_status": "annotated"
+        }
+      ]
+    },
+    {
+      "id": "shake-a-carrot",
+      "title": "당근을 흔들어주세요",
+      "tags": [],
+      "path": "memes/shake-a-carrot.md",
+      "aliases": [
+        "당근을 흔들어 주세요"
+      ],
+      "source_sha": "a78e050a486a81548e8a2ae0c5b1496ef60cd9a9",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안. 본문과 독립 공개 자료를 연구·편집 AI가 확인했다. 인간 검토·실전 정확도 검증이 아니다. https://www.osen.co.kr/article/G1110794007 은 진행자가 시청자 반응을 전달한 방송 사례이지 최초 기원이 아니다. https://www.careet.net/256 은 편집자가 독자의 건강과 바쁜 업무에 관해 안부를 묻는 직접 사용 사례다. 실제 감금·강요 또는 내면 상태의 증거로 삼지 않는다. 예문과 안전 경계는 편집 판단이다.",
+      "usages": [
+        {
+          "id": "playful-check-in",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "안부확인"
+          ],
+          "situations": [],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "관계의존",
+            "사실오인",
+            "고통축소"
+          ],
+          "safety": "caution",
+          "context": "뜻밖의 활동이나 잦은 작업 소식을 접한 상대에게 괜찮은지 가볍게 묻고, 곤란하다면 신호를 보내 달라는 설정으로 안부를 확인한다. 실제 감금·강요가 확인된 상황이 아니며 표현을 농담으로 받아들일 문맥인지 별도로 살펴야 한다.",
+          "avoid_when": [
+            "실제 감금·폭력·강요가 의심되거나 긴급한 도움 요청이 있을 때",
+            "상대가 밝힌 심각한 피로·고통·피해를 농담으로 덮을 때",
+            "새 콘텐츠나 방송 출연만으로 강요·착취가 있었다고 단정할 때",
+            "당근 신호만으로 실제 안전 확인이나 지원이 끝났다고 여길 때",
+            "상대가 이런 농담을 원하지 않는다고 밝혔을 때",
+            "답변을 강요하거나 무응답만으로 위험을 확정할 때"
+          ],
+          "example": {
+            "text": "이번 주에도 새 작업 소식이 많네요. 쉬는 시간은 있나요? 없다면 당근을 흔들어주세요.",
+            "kind": "editorial"
+          },
+          "review_note": "신호를 요청받는 상대가 대상이다. 자신의 위로·관심 요청과 반대 방향이다. 자료만으로 상호 놀림이 확인되지 않아 상황 태그를 억지로 붙이지 않았다. 걱정형 표현을 실제 내면 감정과 구별하여 unknown으로 유지한다. 강요·과로가 확인됐다는 전제는 없다."
         }
       ]
     },
