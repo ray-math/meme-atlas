@@ -37,10 +37,11 @@
     "reports/bulk/connector-resume-c180.json",
     "reports/bulk/connector-resume-holds181.json",
     "reports/bulk/connector-resume-c182.json",
-    "reports/bulk/connector-resume-a183.json"
+    "reports/bulk/connector-resume-a183.json",
+    "reports/bulk/connector-resume-hold-audit184.json"
   ],
-  "query_observations": 591,
-  "distinct_literal_queries": 481,
+  "query_observations": 598,
+  "distinct_literal_queries": 488,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3198,6 +3199,41 @@
       "query": "응원",
       "source": "reports/bulk/connector-resume-a183.json",
       "status": "screened-see-report"
+    },
+    {
+      "query": "퇴사",
+      "source": "reports/bulk/connector-resume-hold-audit184.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "resign",
+      "source": "reports/bulk/connector-resume-hold-audit184.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "quit",
+      "source": "reports/bulk/connector-resume-hold-audit184.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "soyeon",
+      "source": "reports/bulk/connector-resume-hold-audit184.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "소연",
+      "source": "reports/bulk/connector-resume-hold-audit184.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "\"퇴사할게여\" \"챌린지\" \"직원\"",
+      "source": "reports/bulk/connector-resume-hold-audit184.json",
+      "status": "held-see-report"
+    },
+    {
+      "query": "\"퇴사할게여\" \"챌린지\" \"공무원\"",
+      "source": "reports/bulk/connector-resume-hold-audit184.json",
+      "status": "held-see-report"
     }
   ],
   "semantic_duplicates": [
