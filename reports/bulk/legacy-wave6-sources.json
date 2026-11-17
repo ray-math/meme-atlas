@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave6",
+  "status": "ready_for_independent_editorial_review",
+  "created_at": "2026-11-17",
+  "base_ref": "38e4f1729a3429c7f847522fda97441aeee68f31",
+  "counts": {
+    "screened": 30,
+    "ready": 6,
+    "held": 12,
+    "duplicate": 10,
+    "assigned_elsewhere": 2
+  },
+  "entries": [
+    {
+      "entry_id": "whos-on-first",
+      "title": "1루수가 누구야",
+      "ledger_id": "kr-list-0054",
+      "path": "memes/whos-on-first.md",
+      "source_sha": "c3fa4a042907a5ff810e54a4fff3ca3e88fdabab",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "평범한 의문사처럼 들리는 이름 때문에 대화가 계속 엇갈리는 말장난. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "sources": [
+        {
+          "publisher": "bnt뉴스",
+          "url": "https://v.daum.net/v/20120418165707366?s=print_news",
+          "published_at": "2012-04-18",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "한국어 애니메이션의 말장난 구조와 온라인 공유 보도."
+        },
+        {
+          "publisher": "OSEN",
+          "url": "https://www.osen.co.kr/article/G1109703183",
+          "published_at": "2013-10-13",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "별도 코미디 프로그램 이름 대소동의 변형 재연 보도."
+        }
+      ],
+      "limitations": "영상·영화 직접 시청 및 원댓글 직접 열람 아님. 기사는 직접 본문으로 확인. 정확한 최초 게시일·최초 창작자·현재 유행 규모를 확정하지 않음. 자체 예문이며 문구를 말한 사람의 실제 감정·의도를 판정하지 않음.",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "will-remember-this",
+      "title": "이 일을 기억할 것입니다",
+      "ledger_id": "kr-list-0077",
+      "path": "memes/will-remember-this.md",
+      "source_sha": "4b5cfb9ee6ca527bb2107c42e962b249e81a63f2",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "인상 깊거나 황당한 일을 게임 안내문처럼 비장하게 기록하는 말. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "sources": [
+        {
+          "publisher": "뉴시스",
+          "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20230516_0002305522",
+          "published_at": "2023-05-22",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "게임 안내문 배경과 국내 댓글의 비장한 반응 용법."
+        },
+        {
+          "publisher": "캐릿",
+          "url": "https://www.careet.net/Newsletter/Detail/1819",
+          "published_at": "2023-05-30",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "공개 뉴스레터의 해설 및 필자의 실제 맺음말 사용."
+        }
+      ],
+      "limitations": "영상·영화 직접 시청 및 원댓글 직접 열람 아님. 기사는 직접 본문으로 확인. 정확한 최초 게시일·최초 창작자·현재 유행 규모를 확정하지 않음. 자체 예문이며 문구를 말한 사람의 실제 감정·의도를 판정하지 않음.",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "let-it-go-parody",
+      "title": "렛잇고 패러디",
+      "ledger_id": "kr-list-0118",
+      "path": "memes/let-it-go-parody.md",
+      "source_sha": "894cd4fffada30f7302f7a6d10b23484cf0c540e",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "겨울왕국 노래의 창법·장면·음악을 바꾸거나 다른 영상에 붙여 즐기는 패러디. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "sources": [
+        {
+          "publisher": "MBC",
+          "url": "https://imnews.imbc.com/replay/2014/nwdesk/article/3414527_30324.html",
+          "published_at": "2014-02-09",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "국내 트로트 버전과 경기 영상 편집, 일반인 패러디 보도."
+        },
+        {
+          "publisher": "스타뉴스",
+          "url": "https://www.starnewskorea.com/movie/2014/02/03/2014020315221099062",
+          "published_at": "2014-02-03",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "국내 온라인 변형과 개그콘서트 장면 재연 사례."
+        }
+      ],
+      "limitations": "영상·영화 직접 시청 및 원댓글 직접 열람 아님. 기사는 직접 본문으로 확인. 정확한 최초 게시일·최초 창작자·현재 유행 규모를 확정하지 않음. 자체 예문이며 문구를 말한 사람의 실제 감정·의도를 판정하지 않음.",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "snow-reporter-parody",
+      "title": "눈사람 기자 패러디",
+      "ledger_id": "kr-list-0521",
+      "path": "memes/snow-reporter-parody.md",
+      "source_sha": "6614906fb5b12604677759d968e5bccfcf0229d2",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "눈을 맞으며 진지하게 현장을 중계하던 기자의 모습을 흉내 내는 패러디. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "sources": [
+        {
+          "publisher": "iMBC",
+          "url": "https://enews.imbc.com/News/ViewAmp/9372",
+          "published_at": "2010-03-10",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "김제동 소셜미디어 영상의 국자 마이크·진지한 중계 재연."
+        },
+        {
+          "publisher": "OSEN",
+          "url": "https://www.osen.co.kr/article/G1101210200",
+          "published_at": "2011-01-21",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "이정의 별도 예능 녹화 재연 및 원 보도 배경."
+        }
+      ],
+      "limitations": "영상·영화 직접 시청 및 원댓글 직접 열람 아님. 기사는 직접 본문으로 확인. 정확한 최초 게시일·최초 창작자·현재 유행 규모를 확정하지 않음. 자체 예문이며 문구를 말한 사람의 실제 감정·의도를 판정하지 않음.",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "oppa-car-dance",
+      "title": "오빠 오빠 차 있어?",
+      "ledger_id": "kr-list-0785",
+      "path": "memes/oppa-car-dance.md",
+      "source_sha": "92449ab6e3e87ed70fe82d183b085223f83e1034",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "반복되는 질문형 노래에 맞춘 몸짓을 따라 하는 영상 패러디. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "sources": [
+        {
+          "publisher": "OSEN",
+          "url": "https://www.osen.co.kr/article/G1112035684",
+          "published_at": "2023-02-04",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "노래 녹음 당사자 인터뷰와 코미디언 패러디 보도."
+        },
+        {
+          "publisher": "마이데일리",
+          "url": "https://v.daum.net/v/20221202214542161?s=print_news",
+          "published_at": "2022-12-02",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "춤 영상 당사자 인터뷰 보도와 반복 가사·동작의 재사용 설명."
+        }
+      ],
+      "limitations": "영상·영화 직접 시청 및 원댓글 직접 열람 아님. 기사는 직접 본문으로 확인. 정확한 최초 게시일·최초 창작자·현재 유행 규모를 확정하지 않음. 자체 예문이며 문구를 말한 사람의 실제 감정·의도를 판정하지 않음.",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "life-not-as-planned",
+      "title": "인생이란 원래 자기 생각대로 되지 않는 법이란다",
+      "ledger_id": "kr-list-0876",
+      "path": "memes/life-not-as-planned.md",
+      "source_sha": "16c438b44504707e359e59a9c493be83814c4648",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "예상과 다른 결과를 인생의 뜻밖의 재미처럼 받아들이며 덧붙이는 문구. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "sources": [
+        {
+          "publisher": "게임조선",
+          "url": "https://www.gamechosun.co.kr/webzine/article/view.php?from=articlelist&no=224270",
+          "published_at": "2026-08-15",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "필자가 예상과 다른 체험 결과를 정리하면서 직접 문구 사용. 도박·구매 권유 내용은 수록하지 않음."
+        },
+        {
+          "publisher": "패스트페이퍼",
+          "url": "https://www.fastpapermag.com/2025/09/18/얘야-인생이란-원래-자기-생각대로-되지않는-법이란/",
+          "published_at": "2025-09-18",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "브랜드 협업 소개 제목에 문장 변형 사용; 공개 본문에서 캐릭터 연결 확인."
+        }
+      ],
+      "limitations": "영상·영화 직접 시청 및 원댓글 직접 열람 아님. 기사는 직접 본문으로 확인. 정확한 최초 게시일·최초 창작자·현재 유행 규모를 확정하지 않음. 자체 예문이며 문구를 말한 사람의 실제 감정·의도를 판정하지 않음.",
+      "usage_status": "not_annotated"
+    }
+  ],
+  "screening": [
+    {
+      "title": "Manners, Maketh, Man",
+      "ledger": "kr-list-0123",
+      "status": "duplicate",
+      "matches": [
+        "coordinator-confirmed-existing-kingsman-phrase"
+      ],
+      "reason": "통합 담당이 legacy wave2에서 매너가 사람을 만든다 기존 수록 확인. 영어 제목만 비교하면 놓치는 의미 중복."
+    },
+    {
+      "title": "숫자송",
+      "ledger": "kr-list-0645",
+      "status": "duplicate",
+      "matches": [
+        "number-song-internet"
+      ],
+      "reason": "최신 pilot-state 제목/별칭에서 기존 항목 확인."
+    },
+    {
+      "title": "디비디비딥",
+      "ledger": "kr-list-0411",
+      "status": "duplicate",
+      "matches": [
+        "dibidibidip"
+      ],
+      "reason": "최신 pilot-state 제목/별칭에서 기존 항목 확인."
+    },
+    {
+      "title": "뇌구조 밈",
+      "ledger": "kr-list-0341",
+      "status": "duplicate",
+      "matches": [
+        "brain-map-meme"
+      ],
+      "reason": "최신 pilot-state 제목/별칭에서 기존 항목 확인."
+    },
+    {
+      "title": "동년배 드립",
+      "ledger": "kr-list-0397",
+      "status": "duplicate",
+      "matches": [
+        "dongnyeonbae-drip"
+      ],
+      "reason": "최신 pilot-state 제목/별칭에서 기존 항목 확인."
+    },
+    {
+      "title": "떼껄룩",
+      "ledger": "kr-list-0415",
+      "status": "duplicate",
+      "matches": [
+        "tte-kkeol-look"
+      ],
+      "reason": "최신 pilot-state 제목/별칭에서 기존 항목 확인."
+    },
+    {
+      "title": "모스카우",
+      "ledger": "kr-list-0478",
+      "status": "held",
+      "reason": "이번 고정 후보 검색에서 위키·개인글과 구별되는 독립 두 출판사 직접 본문 기준 미충족. 부재나 거짓이라는 판정 아님."
+    },
+    {
+      "title": "물음표 드립",
+      "ledger": "kr-list-0499",
+      "status": "held",
+      "reason": "이번 고정 후보 검색에서 위키·개인글과 구별되는 독립 두 출판사 직접 본문 기준 미충족. 부재나 거짓이라는 판정 아님."
+    },
+    {
+      "title": "밀어서 잠금해제",
+      "ledger": "kr-list-0515",
+      "status": "duplicate",
+      "matches": [
+        "slide-to-unlock-parody"
+      ],
+      "reason": "최신 pilot-state 제목/별칭에서 기존 항목 확인."
+    },
+    {
+      "title": "번역기 드립",
+      "ledger": "kr-list-0536",
+      "status": "held",
+      "reason": "이번 고정 후보 검색에서 위키·개인글과 구별되는 독립 두 출판사 직접 본문 기준 미충족. 부재나 거짓이라는 판정 아님."
+    },
+    {
+      "title": "세일러문 챌린지",
+      "ledger": "kr-list-0629",
+      "status": "held",
+      "reason": "개인 그림 참여 게시물은 검색됐으나 두 독립 매체 직접 본문 검증 미충족."
+    },
+    {
+      "title": "슬픈 고양이 댄스",
+      "ledger": "kr-list-0656",
+      "status": "held",
+      "reason": "위키·게시판 결과가 주로 확인돼 독립 직접 본문 두 건을 확보하지 못함."
+    },
+    {
+      "title": "아싸라비아 콜롬비아",
+      "ledger": "kr-list-0695",
+      "status": "held",
+      "reason": "유행어 언급은 찾았으나 정확한 쓰임을 뒷받침하는 두 독립 직접 본문 검증 미완료."
+    },
+    {
+      "title": "어둠의 다크에서 죽음의 데스를 느끼며",
+      "ledger": "kr-list-0738",
+      "status": "held",
+      "reason": "이번 고정 후보 검색에서 위키·개인글과 구별되는 독립 두 출판사 직접 본문 기준 미충족. 부재나 거짓이라는 판정 아님."
+    },
+    {
+      "title": "외계어",
+      "ledger": "kr-list-0806",
+      "status": "duplicate",
+      "matches": [
+        "alien-writing"
+      ],
+      "reason": "최신 pilot-state 제목/별칭에서 기존 항목 확인."
+    },
+    {
+      "title": "외계인 고문",
+      "ledger": "kr-list-0807",
+      "status": "duplicate",
+      "matches": [
+        "alien-tech-joke"
+      ],
+      "reason": "최신 pilot-state 제목/별칭에서 기존 항목 확인."
+    },
+    {
+      "title": "우린 안될 거야 아마",
+      "ledger": "kr-list-0818",
+      "status": "duplicate",
+      "matches": [
+        "we-wont-make-it"
+      ],
+      "reason": "최신 pilot-state 제목/별칭에서 기존 항목 확인."
+    },
+    {
+      "title": "으악 안 돼",
+      "ledger": "kr-list-0833",
+      "status": "held",
+      "reason": "이번 고정 후보 검색에서 위키·개인글과 구별되는 독립 두 출판사 직접 본문 기준 미충족. 부재나 거짓이라는 판정 아님."
+    },
+    {
+      "title": "의문의 XX행",
+      "ledger": "kr-list-0841",
+      "status": "assigned_elsewhere",
+      "reason": "contest_inventory 예약으로 조사하지 않음."
+    },
+    {
+      "title": "이 시국에",
+      "ledger": "kr-list-0859",
+      "status": "assigned_elsewhere",
+      "reason": "통합 담당이 midwave6 수록 진행 확인."
+    },
+    {
+      "title": "인간성기사 뿌뿌뽕",
+      "ledger": "kr-list-0869",
+      "status": "held",
+      "reason": "검색에서 위키·커뮤니티와 독립된 두 출판사 직접 본문을 확보하지 못함."
+    },
+    {
+      "title": "옥동자",
+      "ledger": "kr-list-0792",
+      "status": "held",
+      "reason": "외모 비하 원형에 기대는 용법이어서 이전 보류 유지. 이번 별도 확장 검증하지 않음."
+    },
+    {
+      "title": "오 필승 코리아",
+      "ledger": "kr-list-0791",
+      "status": "held",
+      "reason": "응원가 전체와 개별 패러디를 구분할 두 독립 직접 본문 근거를 이번에 확정하지 못함."
+    },
+    {
+      "title": "아나바다 운동",
+      "ledger": "kr-list-0681",
+      "status": "held",
+      "reason": "절약 운동 자체와 별도 인터넷 재사용 표현의 범위가 혼재. 정치 사건 예시로 우회하여 수록하지 않음."
+    }
+  ],
+  "discovery": {
+    "type": "existing_candidate_ledger_from_korean_meme_mirror",
+    "path": "data/korea-candidates.json",
+    "original_namuwiki_access_claimed": false,
+    "new_ledger_ids_created": false
+  },
+  "duplicate_check": {
+    "ref": "38e4f1729a3429c7f847522fda97441aeee68f31",
+    "index_count": 567,
+    "checked": "Ready 6: latest title/aliases/pilot-state records and git tree path uniqueness; semantic relation to known entries inspected. Other candidates: exact matching plus coordinator reservations, held not full semantic clearance."
+  },
+  "verification": {
+    "ci_run": false,
+    "derived_files_changed": false,
+    "raw_source_body_stored": false,
+    "main_or_pr37_changed": false,
+    "remote_canonical_readback_all_equal": true
+  }
+}
