@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave5",
+  "baseline_commit": "0d062c2d2b7758b45fd26f66154228e95c7a5635",
+  "reviewed_at": "2026-11-17",
+  "canonical_files_written": 10,
+  "ci_status": "not_run",
+  "review_method": "AI가 공개 본문을 읽고 의미·국내 사용을 서로 다른 2 publisher와 대조. 검색 색인/기사 전재를 추가 독립 관측으로 세지 않음. 인간 검증·원영상 재생·usage 승격 아님.",
+  "entries": [
+    {
+      "id": "kkuewek",
+      "title": "꾸웨엑",
+      "path": "memes/kkuewek.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "own_definition": "이미 한 선택이 아쉽다는 말을 장난스럽게 표현한다. 실제 구토를 뜻하는 의성어와는 문맥으로 구별한다.",
+      "source_urls": [
+        {
+          "url": "https://m.news.nate.com/view/20230913n29888?cpcd=&list=recent&mid=e01",
+          "publisher": "뉴스핌",
+          "published_date": "2023-09-13",
+          "access": "direct_body",
+          "supports": "기자 본문에서 꾸웨엑의 후회해 뜻과 오청 일화, 일며들다 및 추구미 뜻 확인. 꾸웨엑·추구미 tvN 유튜브 제목 캡처 설명도 확인. 원 게시물이나 원영상 직접 확인은 아님.",
+          "independent_group": "뉴스핌"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01738406635771280",
+          "publisher": "이데일리",
+          "published_date": "2023-10-09",
+          "access": "direct_body",
+          "supports": "한글날 취재 기사 본문227에 꾸웨엑=후회해, 디토합니다=인정합니다 명시. 원조·정확 유행 규모 근거로 사용하지 않음.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "82576b40f62c12ab0b1556d5de563147872beeae",
+        "pilot_state_blob_sha": "73dfed73dc85315780a5b64727ac12b08331beae",
+        "pending_coordination": "integration에 예약 전달. 479 index 제목/aliases와 pilot-state에 동일 표현 없음."
+      },
+      "limitations": [
+        "후회해 오청 원 게시물 미열람. 최초 기원 단정하지 않고 뉴스핌이 소개한 일화로 한정."
+      ]
+    },
+    {
+      "id": "king-lovely",
+      "title": "킹랑스럽다",
+      "path": "memes/king-lovely.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "own_definition": "‘사랑스럽다’의 앞부분을 강조 표현인 ‘킹’으로 바꾼 말이다. 귀여운 캐릭터나 마음에 드는 모습을 보며 호감을 크게 드러낸다.",
+      "source_urls": [
+        {
+          "url": "https://sports.khan.co.kr/article/202202090800003",
+          "publisher": "스포츠경향",
+          "published_date": "2022-02-09",
+          "access": "direct_body",
+          "supports": "기자 인터뷰 본문111에서 노정의가 킹랑스럽다 댓글을 꼽은 사실 및 강조 뜻 확인.",
+          "independent_group": "스포츠경향"
+        },
+        {
+          "url": "https://news.nate.com/view/20230113n18982",
+          "publisher": "이데일리",
+          "published_date": "2023-01-13",
+          "access": "direct_body",
+          "supports": "언어 칼럼 본문64~66의 킹 강조 방식과 킹랑스럽다 뜻. 앞 인터뷰 전재가 아닌 별도 설명 기사.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "82576b40f62c12ab0b1556d5de563147872beeae",
+        "pilot_state_blob_sha": "73dfed73dc85315780a5b64727ac12b08331beae",
+        "pending_coordination": "integration에 예약 전달. 479 index 제목/aliases와 pilot-state에 동일 표현 없음."
+      },
+      "limitations": [
+        "킹받네·킹정과 동일 alias가 아님. 감탄 표현으로 한정하고 실제 관계 추론 없음."
+      ]
+    },
+    {
+      "id": "jubul",
+      "title": "주불",
+      "path": "memes/jubul.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "own_definition": "‘주소 불러’의 줄임말이다. 선물을 보내는 등 주소가 필요한 대화에서 쓰인다. 가벼운 줄임말이지만 주소를 공개 댓글에 적으라는 뜻까지 포함하는 것은 아니다.",
+      "source_urls": [
+        {
+          "url": "https://www.nocutnews.co.kr/news/5669382",
+          "publisher": "CBS 노컷뉴스",
+          "published_date": "2021-12-07",
+          "access": "direct_body",
+          "supports": "라디오 대담 본문195~198에서 주소 불러 뜻, 비대면 선물 맥락을 설명.",
+          "independent_group": "CBS 노컷뉴스"
+        },
+        {
+          "url": "https://www.insight.co.kr/news/333350",
+          "publisher": "인사이트",
+          "published_date": "2021-04-12",
+          "access": "direct_body",
+          "supports": "MBC 생방송 오늘 아침의 별도 신조어 퀴즈 보도 본문112에 주소 불러로 설명. CBS와 다른 방송 관측.",
+          "independent_group": "인사이트"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "82576b40f62c12ab0b1556d5de563147872beeae",
+        "pilot_state_blob_sha": "73dfed73dc85315780a5b64727ac12b08331beae",
+        "pending_coordination": "integration에 예약 전달. 479 index 제목/aliases와 pilot-state에 동일 표현 없음."
+      },
+      "limitations": [
+        "주소 자체 수집·공유 없음. CBS와 MBC 방송 보도는 서로 다른 관측."
+      ]
+    },
+    {
+      "id": "chugumi",
+      "title": "추구미",
+      "path": "memes/chugumi.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "own_definition": "‘추구하다’와 아름다움을 뜻하는 ‘미(美)’를 합친 표현이다. 옷차림이나 연출, 닮고 싶은 분위기 등을 설명할 때 쓴다. 현재 모습과 반드시 같아야 하는 것은 아니다.",
+      "source_urls": [
+        {
+          "url": "https://m.news.nate.com/view/20230913n29888?cpcd=&list=recent&mid=e01",
+          "publisher": "뉴스핌",
+          "published_date": "2023-09-13",
+          "access": "direct_body",
+          "supports": "기자 본문에서 꾸웨엑의 후회해 뜻과 오청 일화, 일며들다 및 추구미 뜻 확인. 꾸웨엑·추구미 tvN 유튜브 제목 캡처 설명도 확인. 원 게시물이나 원영상 직접 확인은 아님.",
+          "independent_group": "뉴스핌"
+        },
+        {
+          "url": "https://news.nate.com/view/20231228n00587",
+          "publisher": "동아일보",
+          "published_date": "2023-12-28",
+          "access": "direct_body",
+          "supports": "연말 유행어 회고 본문66 추구미 뜻과 SNS 사용, 본문70 디토합니다의 동의 용법 및 뉴진스 곡 연관 설명. Nate는 전재 경로일 뿐 별도 publisher 아님.",
+          "independent_group": "동아일보"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "82576b40f62c12ab0b1556d5de563147872beeae",
+        "pilot_state_blob_sha": "73dfed73dc85315780a5b64727ac12b08331beae",
+        "pending_coordination": "integration에 예약 전달. 479 index 제목/aliases와 pilot-state에 동일 표현 없음."
+      },
+      "limitations": [
+        "최초 생성일 미확인. 타인의 실제 정체성·성격 판정 아님."
+      ]
+    },
+    {
+      "id": "ditto-agree",
+      "title": "디토합니다",
+      "path": "memes/ditto-agree.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "own_definition": "같은 생각이라는 뜻의 ‘디토’에 ‘합니다’를 붙인 말이다. 의견이나 취향에 맞장구칠 때 쓰며, 노래 제목을 떠올리게 하는 말놀이이기도 하다.",
+      "source_urls": [
+        {
+          "url": "https://news.nate.com/view/20231228n00587",
+          "publisher": "동아일보",
+          "published_date": "2023-12-28",
+          "access": "direct_body",
+          "supports": "연말 유행어 회고 본문66 추구미 뜻과 SNS 사용, 본문70 디토합니다의 동의 용법 및 뉴진스 곡 연관 설명. Nate는 전재 경로일 뿐 별도 publisher 아님.",
+          "independent_group": "동아일보"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01738406635771280",
+          "publisher": "이데일리",
+          "published_date": "2023-10-09",
+          "access": "direct_body",
+          "supports": "한글날 취재 기사 본문227에 꾸웨엑=후회해, 디토합니다=인정합니다 명시. 원조·정확 유행 규모 근거로 사용하지 않음.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "82576b40f62c12ab0b1556d5de563147872beeae",
+        "pilot_state_blob_sha": "73dfed73dc85315780a5b64727ac12b08331beae",
+        "pending_coordination": "integration에 예약 전달. 479 index 제목/aliases와 pilot-state에 동일 표현 없음."
+      },
+      "limitations": [
+        "동아일보의 곡 발표연도 표현은 다른 연도 정보와 충돌 가능하여 본문에 발표연도 쓰지 않음."
+      ]
+    },
+    {
+      "id": "swipsaljaebing",
+      "title": "쉽살재빙",
+      "path": "memes/swipsaljaebing.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "own_definition": "거북이의 ‘빙고’에서 삶을 즐겁게 대하는 대목을 줄여 부르는 말이다. 난관을 만나도 기운을 내자는 격려나 스스로를 다독이는 표현으로 쓰인다.",
+      "source_urls": [
+        {
+          "url": "https://www.nocutnews.co.kr/news/5612099",
+          "publisher": "CBS 노컷뉴스",
+          "published_date": "2021-08-23",
+          "access": "direct_body",
+          "supports": "대담 본문243~247에서 거북이 빙고 가사 파생 줄임말과 위로 용법 설명.",
+          "independent_group": "CBS 노컷뉴스"
+        },
+        {
+          "url": "https://v.daum.net/v/20230223004018325?s=print_news",
+          "publisher": "중앙일보",
+          "published_date": "2023-02-23",
+          "access": "direct_body",
+          "supports": "서정민 칼럼이 같은 말의 구성과 긍정 태도 맥락을 설명. 2021 대담 전재가 아님. 가사 원문은 canonical에 인용하지 않음.",
+          "independent_group": "중앙일보"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "82576b40f62c12ab0b1556d5de563147872beeae",
+        "pilot_state_blob_sha": "73dfed73dc85315780a5b64727ac12b08331beae",
+        "pending_coordination": "integration에 예약 전달. 479 index 제목/aliases와 pilot-state에 동일 표현 없음."
+      },
+      "limitations": [
+        "원 노래 직접 재생하지 않음. 가사 전문 및 실제 노랫말 인용 없음. 진지한 고통에 언제나 적절한 위로라는 추천 아님."
+      ]
+    },
+    {
+      "id": "ojeochigo",
+      "title": "오저치고",
+      "path": "memes/ojeochigo.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "own_definition": "‘오늘 저녁 치킨 고(GO)’를 줄인 말이다. 저녁 메뉴로 치킨을 제안하거나 그 계획을 가볍게 알릴 때 쓴다. 메뉴 추천을 막연히 요청하는 말과 달리 먹을 음식이 정해져 있다.",
+      "source_urls": [
+        {
+          "url": "https://www.newsis.com/view/NISX20220321_0001801169",
+          "publisher": "뉴시스",
+          "published_date": "2022-03-23",
+          "access": "direct_body",
+          "supports": "식품업계 기사 본문89에서 오저치고를 오늘 저녁 치킨 GO로 풀어 사용. URL 안 03-21은 발행일로 추정하지 않고 표시 날짜03-23 채택.",
+          "independent_group": "뉴시스"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03109446635512488",
+          "publisher": "이데일리",
+          "published_date": "2023-02-20",
+          "access": "direct_body",
+          "supports": "신조어 풀이·대화 퀴즈 기사 본문203·224~227에서 치킨 메뉴 제안 뜻. 뉴시스 제품 발표의 전재가 아닌 언어 설명.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "82576b40f62c12ab0b1556d5de563147872beeae",
+        "pilot_state_blob_sha": "73dfed73dc85315780a5b64727ac12b08331beae",
+        "pending_coordination": "integration에 예약 전달. 479 index 제목/aliases와 pilot-state에 동일 표현 없음."
+      },
+      "limitations": [
+        "2022 산업 기사의 상품 소개와 2023 언어 칼럼 구별. 실제 구매·식단 추천 아님."
+      ]
+    },
+    {
+      "id": "ilmyeodeulda",
+      "title": "일며들다",
+      "path": "memes/ilmyeodeulda.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "own_definition": "‘일’과 ‘스며들다’를 결합한 말이다. 생활 곳곳에 일이 자리 잡은 모습을 표현하며, 반복되는 직장 생활을 자조적으로 말하는 문맥에서도 쓰인다.",
+      "source_urls": [
+        {
+          "url": "https://m.news.nate.com/view/20230913n29888?cpcd=&list=recent&mid=e01",
+          "publisher": "뉴스핌",
+          "published_date": "2023-09-13",
+          "access": "direct_body",
+          "supports": "기자 본문에서 꾸웨엑의 후회해 뜻과 오청 일화, 일며들다 및 추구미 뜻 확인. 꾸웨엑·추구미 tvN 유튜브 제목 캡처 설명도 확인. 원 게시물이나 원영상 직접 확인은 아님.",
+          "independent_group": "뉴스핌"
+        },
+        {
+          "url": "https://amp.seoul.co.kr/news/editOpinion/opinion/2023/07/12/20230712026002?cp=go",
+          "publisher": "서울신문",
+          "published_date": "2023-07-12",
+          "access": "direct_body",
+          "supports": "김보름 칼럼 본문106에서 일이 삶에 스며드는 뜻과 반복되는 직장인 일상 맥락. 뉴스핌과 별도 필자·글.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "82576b40f62c12ab0b1556d5de563147872beeae",
+        "pilot_state_blob_sha": "73dfed73dc85315780a5b64727ac12b08331beae",
+        "pending_coordination": "integration에 예약 전달. 479 index 제목/aliases와 pilot-state에 동일 표현 없음."
+      },
+      "limitations": [
+        "직장 생활 표현으로만 설명, 정신건강 진단·바람직한 근무 규범 추론 없음."
+      ]
+    },
+    {
+      "id": "jaejil-vibe",
+      "title": "~재질",
+      "path": "memes/jaejil-vibe.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "own_definition": "물건의 소재를 묻는 대신 어떤 분위기나 스타일인지를 말한다. ‘내 재질’처럼 취향에 맞는다는 의미로도 쓴다. 비슷한 느낌을 묘사하는 말이지 실제 성격이나 능력을 확정하는 말은 아니다.",
+      "source_urls": [
+        {
+          "url": "https://www.harpersbazaar.co.kr/article/58084",
+          "publisher": "하퍼스 바자 코리아",
+          "published_date": "2021-08-27",
+          "access": "direct_body",
+          "supports": "퀴즈 정답 본문156에서 제품 소재 아닌 느낌·부류 뜻 확인. 로그인 안내가 있으나 해당 본문 공개 반환됨.",
+          "independent_group": "하퍼스 바자 코리아"
+        },
+        {
+          "url": "https://m.news.nate.com/view/20230315n26506",
+          "publisher": "이데일리",
+          "published_date": "2023-03-15",
+          "access": "direct_body",
+          "supports": "본문45~47에서 재질의 신조어 뜻과 취향 용법 설명. 바자 퀴즈 전재 아님.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "82576b40f62c12ab0b1556d5de563147872beeae",
+        "pilot_state_blob_sha": "73dfed73dc85315780a5b64727ac12b08331beae",
+        "pending_coordination": "integration에 예약 전달. 479 index 제목/aliases와 pilot-state에 동일 표현 없음."
+      },
+      "limitations": [
+        "완내스와 관련되지만 느낌·부류 은유가 별도 의미. 일반 사전 재질 전체 설명으로 확대하지 않음."
+      ]
+    },
+    {
+      "id": "gongjoh-cafe",
+      "title": "공좋카",
+      "path": "memes/gongjoh-cafe.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "own_definition": "공부할 장소를 찾거나 공유할 때 쓰는 표현이다. 자리와 책상, 전원 등 공부에 도움이 되는 조건을 떠올리게 한다. 분위기가 좋다는 ‘분좋카’와는 강조점이 다르다.",
+      "source_urls": [
+        {
+          "url": "https://www.koreajoongangdaily.com/korea/think-english-yojeumdaehwa-sajeon-ep1-geu-jabchae-seubuljae-gongjohka/11828301",
+          "publisher": "Korea JoongAng Daily",
+          "published_date": "2022-12-15",
+          "access": "direct_body",
+          "supports": "자체 언어 소개 본문175~185에서 공부하기 좋은 카페 뜻·공간 조건·예문 확인.",
+          "independent_group": "Korea JoongAng Daily"
+        },
+        {
+          "url": "https://v.daum.net/v/20230313152926880?s=print_news",
+          "publisher": "이데일리",
+          "published_date": "2023-03-13",
+          "access": "direct_body",
+          "supports": "신조어 칼럼 본문30에서 공좋카 뜻과 카공족 사용을 설명. KJD 전재 아님.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "82576b40f62c12ab0b1556d5de563147872beeae",
+        "pilot_state_blob_sha": "73dfed73dc85315780a5b64727ac12b08331beae",
+        "pending_coordination": "integration에 예약 전달. 479 index 제목/aliases와 pilot-state에 동일 표현 없음."
+      },
+      "limitations": [
+        "분좋카와 의미 구별, 상호 alias로 묶지 않음. 실제 매장의 학습·장기체류 허가 뜻 아님."
+      ]
+    }
+  ],
+  "held": [
+    {
+      "title": "영참·설참",
+      "reason": "바자 본문 확인. KOCCA PDF는 검색 색인만 확인되고 직접 열기 실패하여 독립 2본문 미달.",
+      "source_urls": [
+        "https://www.harpersbazaar.co.kr/article/58084",
+        "https://www.kocca.kr/n_content/vol08/vol08_21.pdf"
+      ]
+    },
+    {
+      "title": "어라랍스타",
+      "reason": "이데일리 본문의 감탄사 설명 외 독립 2본문 확인 부족."
+    },
+    {
+      "title": "억빠",
+      "reason": "독립된 2 publisher 직접 본문 근거 확보 부족."
+    },
+    {
+      "title": "싫존주의",
+      "reason": "확보 자료가 주로 2017~2020년의 취향 담론. 현재 2021~2023 묶음에서 개별 밈 사용 범위 추가 검토 필요."
+    }
+  ],
+  "excluded": [
+    {
+      "title": "킹정",
+      "reason": "기존 인정 파생 표현으로 별도 항목 증식하지 않음."
+    }
+  ],
+  "checks": {
+    "canonical_external_urls": false,
+    "main_pr37_data_usage_modified": false
+  }
+}
