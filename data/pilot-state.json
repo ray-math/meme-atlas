@@ -957,6 +957,36 @@
         "simmeot",
         "isaengmang"
       ]
+    },
+    "korean-verified-20261117-bulk-wave12": {
+      "input_hash": "3a99c232ad1c7675b0ed575db2fe23ba0d27f780b14e6eb333b49eb8f860698c",
+      "ids": [
+        "hectopascal-kick",
+        "attack-of-blank",
+        "forbes-selected",
+        "fish-head-curry-reaction",
+        "storm-before-suddenattack",
+        "ryuseungryong-gimochi",
+        "boiru",
+        "peng-ha",
+        "is-this-a-country",
+        "dding-eon",
+        "dding-gok",
+        "dding-jak",
+        "not-ningen",
+        "sejelye",
+        "sejeljal",
+        "glass-mental",
+        "gwangtal",
+        "mental-gap",
+        "menbung",
+        "donggong-jijin",
+        "tte-shot",
+        "brain-freeze-korean",
+        "still-play-that-game",
+        "nobita-dance",
+        "do-you-know-club"
+      ]
     }
   },
   "entries": {
@@ -7490,6 +7520,244 @@
       "body_hash": "710c8545bd6087bddd86def4150f74b9d7a5a40385695b750a5d53fd20ae7f6c",
       "scope_type": "korean_usage",
       "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "tags": []
+    },
+    "hectopascal-kick": {
+      "title": "헥토파스칼 킥",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "2bf5272ef541351c71fdbaa7b6f0a4785912a66b8bd93c336647bf2408c06978",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 드라마 캡처와 자막의 결합 및 국내 온라인 패러디를 독립 두 매체가 설명한다.",
+      "tags": []
+    },
+    "attack-of-blank": {
+      "title": "진격의 ○○",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "21ec96b3dd95f67df633972c85ee8f7b64998f9d04f9426616b1e7cf0c4dfb3f",
+      "scope_type": "korean_usage",
+      "scope_basis": "2013년 국내 유행어 조사 및 국내 게임의 진격의 관우 패러디를 별개 매체 본문에서 확인했다.",
+      "tags": []
+    },
+    "forbes-selected": {
+      "title": "포브스 선정",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "e9aa7681a400da8a1634956e4eda25f327f4f27aa613503283391b36b97a2641",
+      "scope_type": "korean_usage",
+      "scope_basis": "취재대행소 왱의 직접 관계자 취재와 별개 고구마팜의 국내 코미디 콘텐츠 활용 사례 설명을 확인했다.",
+      "tags": []
+    },
+    "fish-head-curry-reaction": {
+      "title": "생선 대가리 카레",
+      "aliases": [
+        "이승윤 카레 표정"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "e6c571ac128f3d889d916871c852b661564349f33ab17c27e8633ee94caf9459",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 기사·직접 인터뷰·제작사 자료에서 확인한 국내 인사·반응·패러디 사용. 최초 발생 국가 단정 아님.",
+      "tags": [
+        "방송",
+        "음식"
+      ]
+    },
+    "storm-before-suddenattack": {
+      "title": "폭풍전야",
+      "aliases": [
+        "폭풍전야 서든어택2"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "0c305a2d3860ebd50aff4d0ff85a17d5ca779150044a309f8a6fb8eadf359c5f",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 기사·직접 인터뷰·제작사 자료에서 확인한 국내 인사·반응·패러디 사용. 최초 발생 국가 단정 아님.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "ryuseungryong-gimochi": {
+      "title": "류승룡 기모찌",
+      "aliases": [
+        "류승룡 기모찌!"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "f60c89b38ae515f578e96bbe55b37c7b9592c3632ed3a6c38f8919b7d05307ba",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 기사·직접 인터뷰·제작사 자료에서 확인한 국내 인사·반응·패러디 사용. 최초 발생 국가 단정 아님.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "boiru": {
+      "title": "보이루",
+      "aliases": [
+        "ㅂㅇㄹ"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "576e47bb6899be1fea822614a7d78bb8139f489b29209a2661bdb413812e6185",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 기사·직접 인터뷰·제작사 자료에서 확인한 국내 인사·반응·패러디 사용. 최초 발생 국가 단정 아님.",
+      "tags": [
+        "인터넷방송"
+      ]
+    },
+    "peng-ha": {
+      "title": "펭하",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "701b5c9d49710a5abff3c414af79387fefe9c4814c93f8173b3f313a0d5c450d",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 기사·직접 인터뷰·제작사 자료에서 확인한 국내 인사·반응·패러디 사용. 최초 발생 국가 단정 아님.",
+      "tags": [
+        "방송"
+      ]
+    },
+    "is-this-a-country": {
+      "title": "이게 나라냐",
+      "aliases": [
+        "이게나라냐"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "1e843275085c93f4ad0ad8166d92bd7598e93b194c0bf00af160b49fd5c17fb2",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 기사·직접 인터뷰·제작사 자료에서 확인한 국내 인사·반응·패러디 사용. 최초 발생 국가 단정 아님.",
+      "tags": [
+        "정치"
+      ]
+    },
+    "dding-eon": {
+      "title": "띵언",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "38f35202728f2d6f9b8e6432885065c793c2ff8072443752ee785fff1fcf7ed8",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "dding-gok": {
+      "title": "띵곡",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "ab3fc72a75c38bd21458c42525a98b86f769522e2ed7c52491f76b8a7a491df3",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "dding-jak": {
+      "title": "띵작",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "6162c4b9fe8aeed05c7fd4702d4a244f93030639b76fd7672b2f7c9b09d0c9b3",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "not-ningen": {
+      "title": "낫닝겐",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "03fafa6403cbc0ec5b39eae202835f650ffa3140857d3c63e4bbc0dd492d1b3e",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "sejelye": {
+      "title": "세젤예",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "b41a65732c4fe6f3bc60c6edea0a73d2a9ec7254848107249e50ae743faed5e3",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "sejeljal": {
+      "title": "세젤잘",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "b7005eaddb95bd736398836fe1269c182e75df0d6cde8c11a71ba39645cb0892",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "glass-mental": {
+      "title": "유리멘탈",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "0aae937697d56fc3b598166eab8180d777b7df5c8967e0ad9bb9d303faa14262",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "gwangtal": {
+      "title": "광탈",
+      "aliases": [
+        "광속탈락"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "8f98a5618da83fbb2933544dfaec13840a7695c4ccabeed14df19aa8339dc440",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "mental-gap": {
+      "title": "멘탈갑",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "cfa7390be752c310bd03da44ed4282aacbc5bc38ea652c3e1ba02bc80cb1c215",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "menbung": {
+      "title": "멘붕",
+      "aliases": [
+        "멘탈 붕괴",
+        "멘탈붕괴"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "c7d226b1d8a7fa71b16dd85e7e9a6c463b5d055374a710cc8ae27e9e63b9a66b",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "donggong-jijin": {
+      "title": "동공지진",
+      "aliases": [
+        "동공 지진"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "ec6fc0489a0987ab693277fb3eff01629d6449d32a9c6c7bd6f26c881d99df7a",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "tte-shot": {
+      "title": "떼샷",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "3d5d6720d0393d62825f9c35265e4863bf28c715838f4ba323b94316143aeaeb",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "brain-freeze-korean": {
+      "title": "뇌정지",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "da255fdbc636ed1f5f4176e5fca1bdd7188035ebd983d00bef7689ff83cb1d00",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 실제 본문에서 정의 또는 국내 사용을 확인한 언어 표현.",
+      "tags": []
+    },
+    "still-play-that-game": {
+      "title": "너 아직도 그 게임 하니?",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "804bb4ec3570bb0654208da9b5d495c41c2c0a0599fb390e27a6e42311dde627",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 게임 이용자의 광고 재사용과 국내 게임 제작자 발언을 서로 다른 매체 본문에서 확인.",
+      "tags": []
+    },
+    "nobita-dance": {
+      "title": "노진구 댄스",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "ac4bfe02d3bf437d044b95cb68fecc63d38709f65b3cfb2e3b574da4b7edce6d",
+      "scope_type": "korean_usage",
+      "scope_basis": "해외 애니메이션을 활용한 춤의 국내 참여와 재사용 형식을 독립 두 매체 본문에서 확인.",
+      "tags": []
+    },
+    "do-you-know-club": {
+      "title": "두 유 노 클럽",
+      "batch": "korean-verified-20261117-bulk-wave12",
+      "body_hash": "42645dab0aff449c63b37d3bd48258b1393aa641081d131b3a854f7e832b465d",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 밈 평론과 별도 국내 보도에서 질문형 풍자 및 가상 클럽 형식을 확인.",
       "tags": []
     }
   }
