@@ -40,10 +40,11 @@
     "reports/bulk/connector-resume-a183.json",
     "reports/bulk/connector-resume-hold-audit184.json",
     "reports/bulk/connector-resume-c185.json",
-    "reports/bulk/connector-resume-holds186.json"
+    "reports/bulk/connector-resume-holds186.json",
+    "reports/bulk/connector-resume-holds187.json"
   ],
-  "query_observations": 629,
-  "distinct_literal_queries": 515,
+  "query_observations": 641,
+  "distinct_literal_queries": 521,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3390,6 +3391,66 @@
     {
       "query": "수고했어",
       "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "라우럴",
+      "source": "reports/bulk/connector-resume-holds187.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "빼난지원금",
+      "source": "reports/bulk/connector-resume-holds187.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "이모지 뒷모습",
+      "source": "reports/bulk/connector-resume-holds187.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "면접 포기하겠습니다",
+      "source": "reports/bulk/connector-resume-holds187.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "삐바삐",
+      "source": "reports/bulk/connector-resume-holds187.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "일하기 전 제 모습이고요",
+      "source": "reports/bulk/connector-resume-holds187.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "연락 없네 잘 살아",
+      "source": "reports/bulk/connector-resume-holds187.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "가슴에 국밥 쏟음",
+      "source": "reports/bulk/connector-resume-holds187.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "진지스칸",
+      "source": "reports/bulk/connector-resume-holds187.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "톤망진창",
+      "source": "reports/bulk/connector-resume-holds187.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "커터칼퇴근",
+      "source": "reports/bulk/connector-resume-holds187.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "동엽이",
+      "source": "reports/bulk/connector-resume-holds187.json",
       "status": "held-or-existing-see-report"
     }
   ],

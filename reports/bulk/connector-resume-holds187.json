@@ -1,0 +1,54 @@
+{
+  "base": "855edaeee2454800976e5e1785922911ae405d60",
+  "canonical_count": 892,
+  "accepted": [],
+  "explicit_queries": [
+    "라우럴",
+    "빼난지원금",
+    "이모지 뒷모습",
+    "면접 포기하겠습니다",
+    "삐바삐",
+    "일하기 전 제 모습이고요",
+    "연락 없네 잘 살아",
+    "가슴에 국밥 쏟음",
+    "진지스칸",
+    "톤망진창",
+    "커터칼퇴근",
+    "동엽이"
+  ],
+  "existing": {
+    "라우럴": "raureol",
+    "빼난지원금": "pepero-aid",
+    "이모지 뒷모습": "emoji-back-view-reveal",
+    "면접 포기하겠습니다": "give-up",
+    "삐바삐": "ppi",
+    "일하기 전 제 모습이고요": "before-working-look",
+    "연락 없네 잘 살아": "no-reply-live-well",
+    "가슴에 국밥 쏟음": "gukbap-in-heart"
+  },
+  "held": [
+    {
+      "candidate": "진지스칸",
+      "source": "https://www.simsimlab.net/t/jinjiskan/",
+      "finding": "재미용 테스트로 적용된 페이지 직접확인. 일반 실제사용2건·신규유행 규모 입증 아님."
+    },
+    {
+      "candidate": "커터칼퇴근",
+      "source": "https://www.news2day.co.kr/article/20260325500196",
+      "finding": "노동문화 분석 기사 존재 확인. 조사자 본문검토에서 사용자 적용 부재, 의미 상충 설명 존재. 보류."
+    },
+    {
+      "candidate": "톤망진창",
+      "finding": "신규목록 외 예전기사 단서 있어 최근기원 단정불가, 추가실제사용 대기."
+    },
+    {
+      "candidate": "동엽이",
+      "finding": "사전·테스트단서 외 독립실제적용 부족."
+    }
+  ],
+  "limits": [
+    "신규본문0",
+    "테스트의 진단 타당성 인정 아님",
+    "Python/CI미실행"
+  ]
+}
