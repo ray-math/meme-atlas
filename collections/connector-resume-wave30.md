@@ -59,3 +59,5 @@
 - [단어 알지? 싸워](../memes/fight-briefing-parody.md)
 - [스톰 챌린지](../memes/storm-ii-challenge.md)
 - [빅가이 챌린지](../memes/big-guy-arm-illusion.md)
+- [나무 챌린지](../memes/tree-flailing-challenge.md)
+- [젓가락 워킹](../memes/chopstick-runway.md)

@@ -31,10 +31,11 @@
     "reports/bulk/connector-resume-a173.json",
     "reports/bulk/connector-resume-c174.json",
     "reports/bulk/connector-resume-a176.json",
-    "reports/bulk/connector-resume-holds177.json"
+    "reports/bulk/connector-resume-holds177.json",
+    "reports/bulk/connector-resume-a178.json"
   ],
-  "query_observations": 519,
-  "distinct_literal_queries": 413,
+  "query_observations": 529,
+  "distinct_literal_queries": 421,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -2832,6 +2833,56 @@
       "query": "마법사 고양이",
       "source": "reports/bulk/connector-resume-holds177.json",
       "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "나무 챌린지",
+      "source": "reports/bulk/connector-resume-a178.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "춤추는 나무",
+      "source": "reports/bulk/connector-resume-a178.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "카더가든",
+      "source": "reports/bulk/connector-resume-a178.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Tree",
+      "source": "reports/bulk/connector-resume-a178.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나무",
+      "source": "reports/bulk/connector-resume-a178.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "젓가락 워킹",
+      "source": "reports/bulk/connector-resume-a178.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "젓가락",
+      "source": "reports/bulk/connector-resume-a178.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "런꾸",
+      "source": "reports/bulk/connector-resume-a178.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "East of Eden",
+      "source": "reports/bulk/connector-resume-a178.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "펜 워킹",
+      "source": "reports/bulk/connector-resume-a178.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [
