@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave3",
+  "baseline_commit": "b721743fe2f66a7e61558782b009a92d096dba4b",
+  "reviewed_at": "2026-11-17",
+  "canonical_files_written": 3,
+  "ci_status": "not_run",
+  "review_method": "AI 직접 본문 대조·독자적 초안. 두 publisher별 근거 역할 구분. 원영상 재생·인간 검증·추천 승인 아님.",
+  "entries": [
+    {
+      "id": "na-moon-hee-first-love",
+      "title": "나문희의 첫사랑",
+      "path": "memes/na-moon-hee-first-love.md",
+      "aliases": [
+        "나문희의 첫사랑 챌린지"
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "2022~2023 국내 유행 형식 설명과 다른 publisher의 취재/활용 본문 대조.",
+      "source_urls": [
+        {
+          "url": "https://v.daum.net/v/20230404120854526",
+          "publisher": "경향신문",
+          "published_date": "2023-04-04",
+          "access": "direct_body",
+          "supports": "스페드 업 음원·들리는 말의 변화·텔미 안무 결합과 국내 유행 설명. Daum 전재는 경향 한 publisher로 계산.",
+          "independent_group": "경향신문"
+        },
+        {
+          "url": "https://news.nate.com/view/20230727n35812?mid=n0000",
+          "publisher": "뉴시스",
+          "published_date": "2023-07-27",
+          "access": "direct_body",
+          "supports": "틱톡 코리아 기자간담회 취재에서 같은 음원의 발음 효과·상반기 재생산 사례를 확인. 플랫폼 발표 인용이며 독립 이용량 측정 아님.",
+          "independent_group": "뉴시스"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "baseline_entries": 386,
+        "canonical_title_or_pilot_alias_match": false,
+        "related_existing_id": null
+      },
+      "limitations": [
+        "원곡 발매연도·최초 제작자 단정 제외",
+        "가사 전문 재현 없음",
+        "2024년 동명 AI 광고와 분리"
+      ]
+    },
+    {
+      "id": "jangchung-pork-song",
+      "title": "장충동 왕족발 보쌈",
+      "path": "memes/jangchung-pork-song.md",
+      "aliases": [
+        "장충동왕족발보쌈"
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "2024-01-10의 한 달 전 유행 회고로 2023년 말 범위를 확인; 후속 국내 현장 재사용 대조.",
+      "source_urls": [
+        {
+          "url": "https://v.daum.net/v/20240110090613072",
+          "publisher": "여성동아",
+          "published_date": "2024-01-10",
+          "access": "direct_body",
+          "supports": "2023년 말로 거슬러가는 한 달 전 유행 설명, 말왕 노래 장면·오케스트라/다른 곡 결합. Daum 전재를 별도 publisher로 세지 않음.",
+          "independent_group": "여성동아"
+        },
+        {
+          "url": "https://www.nocutnews.co.kr/news/6180981",
+          "publisher": "CBS노컷뉴스",
+          "published_date": "2024-07-19",
+          "access": "direct_body",
+          "supports": "현장 기사 사진 설명 L173에서 해당 밈과 말왕 그리기 행사 확인. 음식 품질·매출 인과 주장에는 사용하지 않음.",
+          "independent_group": "CBS노컷뉴스"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "baseline_entries": 386,
+        "canonical_title_or_pilot_alias_match": false,
+        "related_existing_id": null
+      },
+      "limitations": [
+        "2023년 범위는 2024-01-10 기사 내 회고 시점에 근거",
+        "원영상 재생 및 최초 업로드 확인 아님",
+        "상업적 재사용 권리 허가나 업체 추천 아님"
+      ]
+    },
+    {
+      "id": "airplane-feeding",
+      "title": "비행기는 못 참지",
+      "path": "memes/airplane-feeding.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2022~2023 국내 유행 형식 설명과 다른 publisher의 취재/활용 본문 대조.",
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/숏폼-유행-밈-결산/",
+          "publisher": "고구마팜",
+          "published_date": "2023-01-12",
+          "access": "direct_body",
+          "supports": "2022년 결산에서 음식 거절→비행기 흉내→수용 형식 및 변형을 설명.",
+          "independent_group": "고구마팜"
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20230428_0002285218",
+          "publisher": "뉴시스",
+          "published_date": "2023-05-01",
+          "access": "direct_body",
+          "supports": "산업 취재 기사 L83의 팬암 광고 모티브 채택. URL의 4월28일과 실제 등록일 5월1일 구별.",
+          "independent_group": "뉴시스"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "baseline_entries": 386,
+        "canonical_title_or_pilot_alias_match": false,
+        "related_existing_id": "cannot-resist"
+      },
+      "limitations": [
+        "팬암 홍보자료 전재 여러 건을 별도 독립 근거로 세지 않음",
+        "기존 cannot-resist 본문을 직접 읽고 일반 반응 문구와 영상 형식을 분리",
+        "원영상 직접 재생 아님"
+      ]
+    }
+  ],
+  "held": [
+    {
+      "title": "Young한데? 완전 MZ인데요?",
+      "reason": "검색 단계만. 두 publisher 본문 및 세대 고정관념 맥락 추가 검토 전 미작성."
+    },
+    {
+      "title": "토카토카 / 강풍 올백",
+      "reason": "둘째 독립 publisher 본문 확보 전 보류. 수량을 맞추기 위해 gate 완화하지 않음."
+    }
+  ]
+}
