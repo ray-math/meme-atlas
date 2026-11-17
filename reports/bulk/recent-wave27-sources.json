@@ -1,0 +1,166 @@
+{
+  "batch": "recent-wave27",
+  "base_commit": "7658aca207fac6f6f25b1699600c9f9afa5c88b7",
+  "candidate_review_count": 20,
+  "review_count_note": "후보 범위 검토 수이며 신규 발견 성공 수가 아니다. 아이고 의미없다는 타 조사자의 과거 미완 후보 재검토이다.",
+  "candidate_adjustments": [
+    {
+      "from": "일단 박수쳐",
+      "to": "소리 지르지 말고 박수 쳐",
+      "reason": "검색에서 확인한 구체 유행어 형식으로 범위를 수정"
+    }
+  ],
+  "sourceentries": [
+    {
+      "slug": "aigo-meaningless",
+      "title": "아이고 의미없다",
+      "path": "memes/aigo-meaningless.md",
+      "evidence": [
+        {
+          "url": "https://www.osen.co.kr/article/G1109831842",
+          "publisher": "OSEN",
+          "published_date": "2014-04-14",
+          "access": "direct_body",
+          "support": "선배 선배에서 정명훈이 칭찬에 무심하게 답하는 해당 대사와 온라인 패러디를 설명한다.",
+          "independent_group": "osen-20140414"
+        },
+        {
+          "url": "https://www.inews24.com/view/879345",
+          "publisher": "아이뉴스24",
+          "published_date": "2015-01-27",
+          "access": "direct_body",
+          "support": "사이트 이용을 시도해도 진행되지 않는 상황에서 이용자가 해당 표현으로 반응한 사례를 보도한다.",
+          "independent_group": "inews-20150127"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 자료에서 확인한 국내 고정 어록·반응 표현의 제한된 뜻.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "audit13 선별군에 있었던 미완 후보를 새 독립 근거로 재검토한 항목이며 최초 신규 발견으로 세지 않는다. 최초 방송 영상이나 원댓글은 직접 확인하지 않았다."
+    },
+    {
+      "slug": "i-am-still-hungry",
+      "title": "나는 아직 배고프다",
+      "path": "memes/i-am-still-hungry.md",
+      "evidence": [
+        {
+          "url": "https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg.aspx?CNTN_CD=A0002591423",
+          "publisher": "오마이스타",
+          "published_date": "2019-11-30",
+          "access": "direct_body",
+          "support": "히딩크의 성과에 만족하지 않는 어록을 회고하며 제목에 난 아직 배고프다를 쓴다.",
+          "independent_group": "ohmystar-20191130"
+        },
+        {
+          "url": "https://www.mk.co.kr/news/culture/6968994",
+          "publisher": "매일경제",
+          "published_date": "2015-09-23",
+          "access": "direct_body",
+          "support": "화가의 새 실험을 소개하며 같은 문장을 히딩크 어록과 연결해 사용한다.",
+          "independent_group": "mk-20150923"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 자료에서 확인한 국내 고정 어록·반응 표현의 제한된 뜻.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "인터넷 단독 발생 밈이 아닌 국내 재인용 고정 어록이다. 최초 인터뷰 원문과 원어 표현은 확인하지 않았고, 유머나 음식 관련 모든 용법으로 확장하지 않는다."
+    },
+    {
+      "slug": "dont-shout-clap",
+      "title": "소리 지르지 말고 박수 쳐",
+      "path": "memes/dont-shout-clap.md",
+      "evidence": [
+        {
+          "url": "https://www.sportschosun.com/entertainment/2022-12-30/202212300100202780026532",
+          "publisher": "스포츠조선",
+          "published_date": "2022-12-30",
+          "access": "direct_body",
+          "support": "함성 금지 상황에서 나온 서은광 유행어임을 회고하고 이후 함성 허용 공연과 구분한다.",
+          "independent_group": "sportschosun-20221230"
+        },
+        {
+          "url": "https://v.daum.net/v/20220202184029192",
+          "publisher": "엑스포츠뉴스",
+          "published_date": "2022-02-02",
+          "access": "direct_body",
+          "support": "다른 방송 무대에서 서은광의 유행어로 다시 인용한 장면을 설명한다.",
+          "independent_group": "xports-20220202"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 자료에서 확인한 국내 고정 어록·반응 표현의 제한된 뜻.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "서로 다른 행사 보도이며 원공연 영상 전체를 직접 확인하지 않았다. 구체 최초 날짜·말을 바꿀 당시 내면은 단정하지 않는다. 반대 뜻인 소지박쳐는 별칭에서 제외했다."
+    }
+  ],
+  "held": [
+    {
+      "title": "니가 왜 거기서 나와",
+      "reason": "기존 형이 왜 거기서 나와 의미 범위와 중복"
+    },
+    {
+      "title": "아니 그게 아니라",
+      "reason": "일반 문장·표어와 구별되는 인터넷 고정 형식 근거 미확보"
+    },
+    {
+      "title": "중요한 건 마음이지",
+      "reason": "일반 문장·표어와 구별되는 인터넷 고정 형식 근거 미확보"
+    },
+    {
+      "title": "이것이 나의 즐거움",
+      "reason": "일반 문장·표어와 구별되는 인터넷 고정 형식 근거 미확보"
+    },
+    {
+      "title": "주인님 그거 하자",
+      "reason": "성적·신체 비하와 대상화 가능성 포함해 이번 범위에서 제외"
+    },
+    {
+      "title": "내가 고자라니",
+      "reason": "성적·신체 비하와 대상화 가능성 포함해 이번 범위에서 제외"
+    },
+    {
+      "title": "이보시오 의사양반",
+      "reason": "성적·신체 비하와 대상화 가능성 포함해 이번 범위에서 제외"
+    },
+    {
+      "title": "사람이 먼저다",
+      "reason": "일반 문장·표어와 구별되는 인터넷 고정 형식 근거 미확보"
+    },
+    {
+      "title": "내가 누구?",
+      "reason": "위키·일반 사용 후보만으로 독립 본문 2개의 정의 근거 미충족"
+    },
+    {
+      "title": "일단 유명해져라",
+      "reason": "위키·일반 사용 후보만으로 독립 본문 2개의 정의 근거 미충족"
+    },
+    {
+      "title": "해치웠나",
+      "reason": "위키·일반 사용 후보만으로 독립 본문 2개의 정의 근거 미충족"
+    },
+    {
+      "title": "젠장 또 숭배해야만 해",
+      "reason": "위키·일반 사용 후보만으로 독립 본문 2개의 정의 근거 미충족"
+    },
+    {
+      "title": "그동안 즐거웠고",
+      "reason": "위키·일반 사용 후보만으로 독립 본문 2개의 정의 근거 미충족"
+    },
+    {
+      "title": "전설의 시작",
+      "reason": "위키·일반 사용 후보만으로 독립 본문 2개의 정의 근거 미충족"
+    },
+    {
+      "title": "어림도 없지",
+      "reason": "위키·일반 사용 후보만으로 독립 본문 2개의 정의 근거 미충족"
+    },
+    {
+      "title": "세상에 이런 일이",
+      "reason": "일반 문장·표어와 구별되는 인터넷 고정 형식 근거 미확보"
+    },
+    {
+      "title": "너무 잘해주면 안 돼",
+      "reason": "일반 문장·표어와 구별되는 인터넷 고정 형식 근거 미확보"
+    }
+  ]
+}
