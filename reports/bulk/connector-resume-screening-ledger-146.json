@@ -44,10 +44,11 @@
     "reports/bulk/connector-resume-holds187.json",
     "reports/bulk/connector-resume-b188.json",
     "reports/bulk/connector-resume-c190.json",
-    "reports/bulk/connector-resume-audit-holds191.json"
+    "reports/bulk/connector-resume-audit-holds191.json",
+    "reports/bulk/connector-resume-screening192.json"
   ],
-  "query_observations": 698,
-  "distinct_literal_queries": 564,
+  "query_observations": 706,
+  "distinct_literal_queries": 567,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3740,6 +3741,46 @@
       "query": "정보",
       "source": "reports/bulk/connector-resume-audit-holds191.json",
       "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "54000",
+      "source": "reports/bulk/connector-resume-screening192.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "54,000",
+      "source": "reports/bulk/connector-resume-screening192.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오만사천",
+      "source": "reports/bulk/connector-resume-screening192.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "얼데이",
+      "source": "reports/bulk/connector-resume-screening192.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "유우시",
+      "source": "reports/bulk/connector-resume-screening192.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아마겟돈",
+      "source": "reports/bulk/connector-resume-screening192.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한한미일",
+      "source": "reports/bulk/connector-resume-screening192.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "랜덤 애인",
+      "source": "reports/bulk/connector-resume-screening192.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [
