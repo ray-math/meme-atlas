@@ -51,10 +51,11 @@
     "reports/bulk/connector-resume-audit-screening195.json",
     "reports/bulk/connector-resume-b196.json",
     "reports/bulk/connector-resume-screening197.json",
-    "reports/bulk/connector-resume-holds199.json"
+    "reports/bulk/connector-resume-holds199.json",
+    "reports/bulk/connector-resume-c200.json"
   ],
-  "query_observations": 833,
-  "distinct_literal_queries": 669,
+  "query_observations": 838,
+  "distinct_literal_queries": 674,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -4421,6 +4422,31 @@
     {
       "query": "말랑꽈득",
       "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "호신술",
+      "source": "reports/bulk/connector-resume-c200.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "self.defen",
+      "source": "reports/bulk/connector-resume-c200.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "self.protec",
+      "source": "reports/bulk/connector-resume-c200.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "새천년건강체조",
+      "source": "reports/bulk/connector-resume-c200.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "웨이비즘",
+      "source": "reports/bulk/connector-resume-c200.json",
       "status": "screened-see-report"
     }
   ],

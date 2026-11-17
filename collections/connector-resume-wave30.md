@@ -70,3 +70,4 @@
 - [우승 기념 주식 바겐세일](../memes/championship-stock-sale.md)
 - [항준적 사고](../memes/hangjun-thinking.md)
 - [너만 없더라](../memes/only-you-are-missing.md)
+- [○○ 필수 호신술](../memes/everyday-self-defense-parody.md)

@@ -1,0 +1,30 @@
+{
+  "id": "everyday-self-defense-parody",
+  "decision": "publish-bounded-one-family",
+  "canonical_before": 896,
+  "canonical_after": 897,
+  "queries": [
+    "호신술",
+    "self.defen",
+    "self.protec",
+    "새천년건강체조",
+    "웨이비즘"
+  ],
+  "query_mode": "Korean substrings plus regex self.defen/self.protec; none match896 index",
+  "evidence": "One official producer account + separate outlet reporting distinct museum adaptation; not two originals watched",
+  "sources": [
+    "https://www.wonju.go.kr/www/selectBbsNttView.do?bbsNo=145&key=222&nttNo=482090",
+    "https://maily.so/marsinmarine/posts/mjz6kl3lrwk",
+    "https://www.fnnews.com/news/202604101647469637"
+  ],
+  "excluded": {
+    "url": "https://www.ibrandnews.com/news/articleView.html?idxno=12215",
+    "reason": "worker accessed interview, editor403; origin assertion omitted"
+  },
+  "limits": [
+    "Original video playback0",
+    "No physical efficacy claims",
+    "No global-first claim",
+    "CI not run"
+  ]
+}
