@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "batch": "recent-wave2",
+  "created_at": "2026-11-17",
+  "base_sha": "bf82a900d3d1357d5335cca4af2f6630446676d6",
+  "counts": {
+    "canonical_drafted": 10,
+    "two_publisher_body_checked": 10,
+    "canonical_index_compared": 386
+  },
+  "policy": {
+    "read_actual_body": true,
+    "snippet_only_evidence_used": false,
+    "reviewed_usage_profiles_added": false,
+    "first_origin_or_current_trend_claimed": false
+  },
+  "sourceentries": [
+    {
+      "slug": "first-lesson",
+      "title": "첫 번째 레슨",
+      "path": "memes/first-lesson.md",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/z4jLz8phr5",
+          "publisher": "스타뉴스 (Daum 게재)",
+          "published_date": "2025-07-11",
+          "access": "direct_body",
+          "support": "노래의 반복 구절과 추가 레슨을 요구하는 반응, 국내 SNS 재확산 설명.",
+          "independent_group": "starnews"
+        },
+        {
+          "url": "https://www.inven.co.kr/board/party/6374/10",
+          "publisher": "인벤 팟벤",
+          "published_date": "2025-07-07",
+          "access": "direct_body",
+          "support": "레슨 순서에 하고 싶은 말을 넣는 릴스 포맷과 곡의 연결 설명.",
+          "independent_group": "inven"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 공개 본문 두 개를 읽어 의미와 국내 사용을 대조. 동일 기사 전재는 원발행사 하나로 계산.",
+      "review_note": "작성자 근거 검토 완료, 독립 편집/통합 검토 대기. 최신 386개 제목·alias 정규화 정확 일치 없음.",
+      "source_limits": "최초 발생·원영상/원게시글·현재 확산 규모 직접 검증 없음. 기사/분석 본문이 확인하는 사용 범위만 요약."
+    },
+    {
+      "slug": "seong-gihun-freeze",
+      "title": "성기훈 얼음",
+      "path": "memes/seong-gihun-freeze.md",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539581",
+          "publisher": "이투데이",
+          "published_date": "2025-12-24",
+          "access": "direct_body",
+          "support": "제프프의 성기훈 대사 리믹스를 소개.",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://news.nate.com/view/20250117n09141",
+          "publisher": "스포츠서울 (Nate 게재)",
+          "published_date": "2025-01-17",
+          "access": "direct_body",
+          "support": "모로코의 합주 영상과 대사의 음악화, 국내 SNS 사용 보도.",
+          "independent_group": "sportsseoul"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 공개 본문 두 개를 읽어 의미와 국내 사용을 대조. 동일 기사 전재는 원발행사 하나로 계산.",
+      "review_note": "작성자 근거 검토 완료, 독립 편집/통합 검토 대기. 최신 386개 제목·alias 정규화 정확 일치 없음.",
+      "source_limits": "제프프 리믹스와 모로코 합주를 각각 소개한 보도. 단일 최초 제작자를 확정하지 않음. 원영상 직접 확인 없음."
+    },
+    {
+      "slug": "iraira-challenge",
+      "title": "이라이라 챌린지",
+      "path": "memes/iraira-challenge.md",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539581",
+          "publisher": "이투데이",
+          "published_date": "2025-12-24",
+          "access": "direct_body",
+          "support": "짜증 표정의 연기 포맷과 릴스·틱톡 확산 설명.",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=10482&mode=view&page=1&pageSize=12&searchStr=&serboardsort=",
+          "publisher": "인크로스",
+          "published_date": "2025-07-02",
+          "access": "direct_body",
+          "support": "뿔 손동작, 화남 필터 및 국내 참여자 사례 설명.",
+          "independent_group": "incross"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 공개 본문 두 개를 읽어 의미와 국내 사용을 대조. 동일 기사 전재는 원발행사 하나로 계산.",
+      "review_note": "작성자 근거 검토 완료, 독립 편집/통합 검토 대기. 최신 386개 제목·alias 정규화 정확 일치 없음.",
+      "source_limits": "최초 발생·원영상/원게시글·현재 확산 규모 직접 검증 없음. 기사/분석 본문이 확인하는 사용 범위만 요약."
+    },
+    {
+      "slug": "oo-ping",
+      "title": "○○핑",
+      "path": "memes/oo-ping.md",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/밈-바래-다-줄게-2024년-밈-총결산/",
+          "publisher": "고구마팜",
+          "published_date": "2024-12-11",
+          "access": "direct_body",
+          "support": "티니핑 이름 형식을 이용한 상태·특징별 파생 작명 설명.",
+          "independent_group": "gogumafarm"
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20240905_0002877205",
+          "publisher": "뉴시스",
+          "published_date": "2024-09-09",
+          "access": "direct_body",
+          "support": "감정·상태에 따른 캐릭터 작명 및 국내 00핑 유행 보도.",
+          "independent_group": "newsis"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 공개 본문 두 개를 읽어 의미와 국내 사용을 대조. 동일 기사 전재는 원발행사 하나로 계산.",
+      "review_note": "작성자 근거 검토 완료, 독립 편집/통합 검토 대기. 최신 386개 제목·alias 정규화 정확 일치 없음.",
+      "source_limits": "최초 발생·원영상/원게시글·현재 확산 규모 직접 검증 없음. 기사/분석 본문이 확인하는 사용 범위만 요약."
+    },
+    {
+      "slug": "precious-me-watch-this",
+      "title": "귀하게 자란 내가 이런 걸 봐도 될까",
+      "path": "memes/precious-me-watch-this.md",
+      "evidence": [
+        {
+          "url": "https://www.kca.go.kr/webzine/board/view?div=kca_2603&linkId=988&menuId=MENU00330",
+          "publisher": "한국소비자원 소비자시대",
+          "published_date": "2026-03",
+          "access": "direct_body",
+          "support": "보고 싶지 않은 콘텐츠를 보게 될 때의 댓글 용법 설명.",
+          "independent_group": "kca"
+        },
+        {
+          "url": "https://blog.hsad.co.kr/3670",
+          "publisher": "HSAD",
+          "published_date": "2025-09-30",
+          "access": "direct_body",
+          "support": "노래 커버 관련 댓글 맥락과 직장인 문구 변형 소개.",
+          "independent_group": "hsad"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 공개 본문 두 개를 읽어 의미와 국내 사용을 대조. 동일 기사 전재는 원발행사 하나로 계산.",
+      "review_note": "작성자 근거 검토 완료, 독립 편집/통합 검토 대기. 최신 386개 제목·alias 정규화 정확 일치 없음.",
+      "source_limits": "최초 발생·원영상/원게시글·현재 확산 규모 직접 검증 없음. 기사/분석 본문이 확인하는 사용 범위만 요약."
+    },
+    {
+      "slug": "appear-in-algorithm",
+      "title": "알고리즘에 나타나기로 마음먹음",
+      "path": "memes/appear-in-algorithm.md",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/1711",
+          "publisher": "캐릿",
+          "published_date": "2025-08-13",
+          "access": "direct_body",
+          "support": "공개 본문의 자막·춤·관심 요청 포맷과 음원 소개.",
+          "independent_group": "careet"
+        },
+        {
+          "url": "https://gogumafarm.kr/저희는-합의-끝에-이-챌린지로-골랐습니다-알고리즘/",
+          "publisher": "고구마팜",
+          "published_date": "2025-08-11",
+          "access": "direct_body",
+          "support": "동일 포맷의 국내 매장 홍보 사례 및 손동작 설명.",
+          "independent_group": "gogumafarm"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 공개 본문 두 개를 읽어 의미와 국내 사용을 대조. 동일 기사 전재는 원발행사 하나로 계산.",
+      "review_note": "작성자 근거 검토 완료, 독립 편집/통합 검토 대기. 최신 386개 제목·alias 정규화 정확 일치 없음.",
+      "source_limits": "캐릿은 공개된 첫 항목 본문만 사용, 유료 후속 항목 접근하지 않음. 알고리즘 노출 효과·성공률은 보장하지 않음."
+    },
+    {
+      "slug": "i-didnt-know",
+      "title": "몰랐어",
+      "path": "memes/i-didnt-know.md",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=3311&pageidx=1",
+          "publisher": "캐릿",
+          "published_date": "2025-03-11",
+          "access": "direct_body",
+          "support": "놀람 및 알고도 회피하는 용법, 국내 대학 공식 계정 활용 소개.",
+          "independent_group": "careet"
+        },
+        {
+          "url": "https://blog.hsad.co.kr/3600",
+          "publisher": "HSAD",
+          "published_date": "2025-03-13",
+          "access": "direct_body",
+          "support": "루피 이미지·문구 결합과 인물·캐릭터 패러디 설명.",
+          "independent_group": "hsad"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 공개 본문 두 개를 읽어 의미와 국내 사용을 대조. 동일 기사 전재는 원발행사 하나로 계산.",
+      "review_note": "작성자 근거 검토 완료, 독립 편집/통합 검토 대기. 최신 386개 제목·alias 정규화 정확 일치 없음.",
+      "source_limits": "최초 발생·원영상/원게시글·현재 확산 규모 직접 검증 없음. 기사/분석 본문이 확인하는 사용 범위만 요약."
+    },
+    {
+      "slug": "you-nailed-the-point",
+      "title": "와 너 정말 핵심을 찔렀어",
+      "path": "memes/you-nailed-the-point.md",
+      "evidence": [
+        {
+          "url": "https://www.kca.go.kr/webzine/board/view?div=kca_2603&linkId=988&menuId=MENU00330",
+          "publisher": "한국소비자원 소비자시대",
+          "published_date": "2026-03",
+          "access": "direct_body",
+          "support": "과잉 공감 멘트가 화제가 된 표현으로 소개.",
+          "independent_group": "kca"
+        },
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=10590&mode=view&page=2&pageSize=12&searchStr=&serboardsort=",
+          "publisher": "인크로스",
+          "published_date": "2025-09-24",
+          "access": "direct_body",
+          "support": "당연한 말에 대한 반응 및 굵은 글씨 표기와 이미지 패러디 설명.",
+          "independent_group": "incross"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 공개 본문 두 개를 읽어 의미와 국내 사용을 대조. 동일 기사 전재는 원발행사 하나로 계산.",
+      "review_note": "작성자 근거 검토 완료, 독립 편집/통합 검토 대기. 최신 386개 제목·alias 정규화 정확 일치 없음.",
+      "source_limits": "최초 발생·원영상/원게시글·현재 확산 규모 직접 검증 없음. 기사/분석 본문이 확인하는 사용 범위만 요약."
+    },
+    {
+      "slug": "hmh-gmg",
+      "title": "HMH·GMG",
+      "path": "memes/hmh-gmg.md",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/인기-밈-알면-하룰라라-날아서-궁전으로-갈-수도-있어/",
+          "publisher": "고구마팜",
+          "published_date": "2025-07-01",
+          "access": "direct_body",
+          "support": "하면 함·가면 감 풀이와 제안 동의, 웹예능 활용 소개.",
+          "independent_group": "gogumafarm"
+        },
+        {
+          "url": "https://www.esquirekorea.co.kr/article/1883276",
+          "publisher": "에스콰이어 코리아",
+          "published_date": "2025-06-17",
+          "access": "direct_body",
+          "support": "하면 해·가면 가 풀이와 해야 한다면 마다하지 않겠다는 용법 소개.",
+          "independent_group": "esquire"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 공개 본문 두 개를 읽어 의미와 국내 사용을 대조. 동일 기사 전재는 원발행사 하나로 계산.",
+      "review_note": "작성자 근거 검토 완료, 독립 편집/통합 검토 대기. 최신 386개 제목·alias 정규화 정확 일치 없음.",
+      "source_limits": "두 표현을 같은 응답 형식의 묶음 항목으로 기록하되 한다/간다 의미 차이를 유지. 최초 팬 메시지 직접 확인 없음."
+    },
+    {
+      "slug": "harullara",
+      "title": "하룰라라",
+      "path": "memes/harullara.md",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/인기-밈-알면-하룰라라-날아서-궁전으로-갈-수도-있어/",
+          "publisher": "고구마팜",
+          "published_date": "2025-07-01",
+          "access": "direct_body",
+          "support": "하늘나라 변형과 긍정 감탄 용법, 국내 브랜드 사용 소개.",
+          "independent_group": "gogumafarm"
+        },
+        {
+          "url": "https://v.daum.net/v/20251007080125858",
+          "publisher": "경기일보 (Daum 게재)",
+          "published_date": "2025-10-07",
+          "access": "direct_body",
+          "support": "하늘나라 변형 및 기분 좋은 상황의 활용 설명.",
+          "independent_group": "kyeonggi"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 공개 본문 두 개를 읽어 의미와 국내 사용을 대조. 동일 기사 전재는 원발행사 하나로 계산.",
+      "review_note": "작성자 근거 검토 완료, 독립 편집/통합 검토 대기. 최신 386개 제목·alias 정규화 정확 일치 없음.",
+      "source_limits": "저숭라라는 반대 방향의 관련 표현이므로 별칭에 넣지 않음. 최초 게시글·실제 사고는 검증하지 않으며 위험 상황의 일반 권장 표현으로 삼지 않음."
+    }
+  ],
+  "held": [
+    {
+      "title": "누가 내 간식을 먹었을까",
+      "reason": "두 번째 독립 발행처 본문 근거 미확보"
+    }
+  ]
+}
