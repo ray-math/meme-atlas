@@ -49,10 +49,11 @@
     "reports/bulk/connector-resume-c193.json",
     "reports/bulk/connector-resume-holds194.json",
     "reports/bulk/connector-resume-audit-screening195.json",
-    "reports/bulk/connector-resume-b196.json"
+    "reports/bulk/connector-resume-b196.json",
+    "reports/bulk/connector-resume-screening197.json"
   ],
-  "query_observations": 791,
-  "distinct_literal_queries": 637,
+  "query_observations": 814,
+  "distinct_literal_queries": 656,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -4209,6 +4210,121 @@
     {
       "query": "wow",
       "source": "reports/bulk/connector-resume-b196.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"11월\" \"밈\" \"패러디\" site:newsis.com",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"11월\" \"챌린지\" \"패러디\" site:news.nate.com",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"11월\" site:univ20.com",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"따라\" site:brunch.co.kr \"10월\"",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:trendmonitor.co.kr",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:univ20.com",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"11월\" \"콘소메\"",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"11월\" \"응답하라 마케팅\"",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"10월\" \"소마코\"",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로드스터\" \"밈\" \"인크로스\"",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로드스터\" \"밈\" \"쿠쿠\"",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"공식 계정\" \"밈\" -site:instablank.com -site:jjalbang.today -site:mika.co.kr -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"10월\" site:29street.donga.com",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" site:ditoday.com",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스폰지밥\" \"징글벨\" 밈 -site:luckyvicky.moamoang.co.kr -site:jjalbang.today -site:instablank.com",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"AI 티 내는 법\" -site:luckyvicky.moamoang.co.kr",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Time Stamp\" \"밈\" \"영화\"",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "로드스터",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그러시구나",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "AI 티 내는 법",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스폰지밥 징글벨",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Time Stamp",
+      "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "타임스탬프",
+      "source": "reports/bulk/connector-resume-screening197.json",
       "status": "screened-see-report"
     }
   ],
