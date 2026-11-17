@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "source_commit": "63626906ad1f836669410e264719e8ebd3c8fbf4",
+  "provenance": "Actual AI plans authored in this assistant turn from public annotations and existing public inputs. No separate model API call, search execution, final answers, gold or answer-file reading.",
+  "limitations": "표제·예문을 생략해도 공개 주석 파생 개발 평가이며 독립 heldout이 아니다. 제안 어휘를 임시 환경에 반영할 계획이며 원본 draft 승격·실서비스 노출이 아니다. 사진은 실제 제공되거나 관찰되지 않았고 활동 완료·진위·촬영 및 공유 동의도 독립 검증하지 않았다. 사진은 매체이며 자기 경험을 중심 대상으로 구별한다. standard도 문맥 검토가 필요하고 명시적 뜻 조회는 사용 추천이나 특정 댓글 의도 판정이 아니다.",
+  "source_bindings": {
+    "draft": {
+      "commit": "63626906ad1f836669410e264719e8ebd3c8fbf4",
+      "path": "reports/own-activity-photo-draft.json",
+      "inputs": {
+        "P-record": "profiles[entry_id=proof-photo].usages[0].context",
+        "P-other": "profiles[entry_id=proof-photo].usages[0].avoid_when[0]",
+        "P-details": "profiles[entry_id=proof-photo].usages[0].avoid_when[1]",
+        "P-private": "profiles[entry_id=proof-photo].usages[0].avoid_when[3]",
+        "P-consent": "profiles[entry_id=proof-photo].usages[0].avoid_when[4]"
+      }
+    },
+    "existing": {
+      "commit": "5d30ff86b9e8abb1d5d966ebafeac6fae55fc2f3",
+      "inputs": {
+        "A07": "eval/challenge/audit-inputs.json inputs[id=A07].prompt",
+        "A26": "eval/challenge/audit-inputs.json inputs[id=A26].prompt",
+        "E18": "eval/challenge/editorial-inputs.json inputs[id=E18].prompt"
+      }
+    }
+  },
+  "plans": [
+    {
+      "id": "P-record",
+      "prompt": "본인이 마쳤다고 설명한 활동을 기록한 사진을 소개하며 자신의 경험을 공유한다. 사진은 전달 매체이고 표현의 중심은 본인의 경험이다. 기록을 제시하는 목적이지 사진을 독립적으로 검증했다는 뜻은 아니다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "활동기록공유"
+        ],
+        "situations": [
+          "활동기록사진"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "본인이 마쳤다고 설명한 활동의 기록 사진으로 자기 경험을 공유하는 문맥이다. 사진 작품 평가나 타인의 활동 판정과 구별한다. 활동 완료는 입력의 전제로만 유지하고 사진 내용·진위·동의가 확인됐다고 주장하지 않는다. 실제 공유 권한 승인이나 사진 업로드가 아니라 문구 후보의 검토 계획이다."
+    },
+    {
+      "id": "P-other",
+      "prompt": "다른 사람의 사진만 보고 그 사람이 실제 활동을 마쳤다고 확정하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "타인의 사진만으로 실제 활동 완료를 확정하는 조건이다. 자기 경험 공유로 바꾸거나 사진을 독립 검증 수단으로 취급하지 않고 확정 표현을 보류한다."
+    },
+    {
+      "id": "P-details",
+      "prompt": "사진이나 사용자 입력에 없는 메달·장소·인물·구도를 만들어 말하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "사진이나 입력에 없는 세부를 만들어 말하는 조건이 명시된다. 실제 사진을 본 척하거나 메달·장소·인물·구도를 추가하는 추천을 하지 않는다."
+    },
+    {
+      "id": "P-private",
+      "prompt": "민감한 신분증·신체 사진 등을 증거로 요구하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "민감한 신분증·신체 사진 등을 증거로 요구하는 조건은 비민감 자기 활동 기록 공유와 다르다. 증빙 요구를 밈으로 권하지 않고 구체적인 민감 자료나 제출 대상을 추가하지 않는다."
+    },
+    {
+      "id": "P-consent",
+      "prompt": "동의 없는 촬영·공유를 권하거나 개인 정보 노출을 무시하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "동의 없는 촬영·공유 또는 개인정보 노출 무시를 권하는 조건이므로 추천을 보류한다. 자기 활동이라는 이유로 촬영·공유 권한이나 다른 사람의 동의를 추정하지 않는다."
+    },
+    {
+      "id": "A07",
+      "prompt": "며칠 만든 작은 도자기 컵이 완성됐어. 내 작품 사진에 귀엽게 자랑하는 캡션을 달래.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "결과물공유"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "완성한 자기 도자기 컵을 사진과 함께 귀엽게 자랑하는 요청이다. 중심 기능은 결과물 소개이며 사진이 언급됐다는 이유만으로 활동 완료 증빙으로 바꾸지 않는다. 사진을 관찰하거나 작품의 색·구도·품질을 확인했다고 주장하지 않는다."
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "이모지와 느낌표만으로 상황·감정·요청 기능을 확정하지 않는다. 사진이나 활동 사실을 복원하지 않고 원하는 반응과 맥락을 질문한다."
+    },
+    {
+      "id": "E18",
+      "prompt": "사람들이 댓글에 '기둥 뒤에 공간 있어요'를 반복하던데 주차 안내가 아닌 곳에서는 어떤 뜻이야?",
+      "action": "lookup",
+      "filters": {
+        "query": "기둥 뒤에 공간 있어요",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "표현을 직접 지정해 비문자적 의미를 묻는 사전 조회다. 해당 표현을 쓰도록 추천하거나 온라인 해설 요청용 밈을 대신 고르지 않는다. 조회 뒤 일반 의미와 특정 댓글의 실제 의도를 구별하며 반복만으로 상대의 잘못·감정·이해 능력을 단정하지 않는다."
+    }
+  ]
+}
