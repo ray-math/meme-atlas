@@ -16,4 +16,4 @@ tags: ["방송"]
 ## 주의
 진지한 요청에 쓰면 대충 넘기는 듯 들릴 수 있다.
 
-[기본 수록 목록](../collections/pilot-30.md)
+[추가 수록 목록](../collections/connector-resume-wave30.md)

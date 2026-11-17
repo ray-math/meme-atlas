@@ -16,4 +16,4 @@ tags: []
 ## 주의
 불이익을 가정하는 놀이이므로 실제 인물의 피해나 모욕을 조건으로 삼지 않는 편이 좋다.
 
-[기본 수록 목록](../collections/pilot-30.md)
+[추가 수록 목록](../collections/connector-resume-wave30.md)

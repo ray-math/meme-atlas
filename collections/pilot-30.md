@@ -811,5 +811,3 @@
 - [나는 아직 배고프다](../memes/i-am-still-hungry.md)
 - [소리 지르지 말고 박수 쳐](../memes/dont-shout-clap.md)
 - [어떻게 지평좌표계로 고정을 하셨죠?](../memes/horizontal-coordinates-ghost.md)
-- [라따 라따 아라따](../memes/ratta-ratta-aratta.md)
-- [여기 버튼이 있습니다](../memes/here-is-a-button.md)
