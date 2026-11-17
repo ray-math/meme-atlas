@@ -9,14 +9,14 @@ from search_usage import search
 
 class ConjectureCritiqueDraftTests(unittest.TestCase):
     IDS={'king-reasonable-suspicion','naeronambul'}
-    def test_two_narrow_drafts_keep_function_separate_from_truth(self):
+    def test_two_narrow_reviews_keep_function_separate_from_truth(self):
         data=load_profiles(ROOT)['profiles']
         selected=[p for p in data if p['entry_id'] in self.IDS]
         self.assertEqual({p['entry_id'] for p in selected},self.IDS)
         self.assertEqual(sum(len(p['usages']) for p in selected),2)
-        self.assertEqual(sum(p['review_status']=='reviewed' for p in data),39)
+        self.assertEqual(sum(p['review_status']=='reviewed' for p in data),41)
         for profile in selected:
-            self.assertEqual(profile['review_status'],'draft')
+            self.assertEqual(profile['review_status'],'reviewed')
             self.assertEqual(profile['source_sha'],blob_sha(ROOT/'memes'/f"{profile['entry_id']}.md"))
             usage=profile['usages'][0]
             self.assertEqual(usage['emotions'],[])
@@ -31,8 +31,10 @@ class ConjectureCritiqueDraftTests(unittest.TestCase):
                 self.assertEqual(usage['intents'],['비판'])
                 self.assertEqual(usage['situations'],['기준적용차이'])
 
-    def test_drafts_do_not_enter_either_mode(self):
+    def test_unreviewed_copies_do_not_enter_either_mode(self):
         data=build_usage_index(ROOT);vocab=load_vocabulary(ROOT)
+        for entry in data['entries']:
+            if entry['id'] in self.IDS:entry['review_status']='draft'  # copies only
         for entry in data['entries']:
             if entry['id'] not in self.IDS:continue
             for mode in ['lookup','recommend']:

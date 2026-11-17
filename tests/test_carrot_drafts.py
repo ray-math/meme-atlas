@@ -16,7 +16,7 @@ class CarrotDraftTests(unittest.TestCase):
         selected=[p for p in profiles if p['entry_id'] in self.IDS]
         self.assertEqual({p['entry_id'] for p in selected},self.IDS)
         self.assertEqual(sum(len(p['usages']) for p in selected),2)
-        self.assertEqual(sum(p['review_status']=='reviewed' for p in profiles),39)
+        self.assertEqual(sum(p['review_status']=='reviewed' for p in profiles),41)
         for profile in selected:
             expected='reviewed' if profile['entry_id']=='carrot-of-course' else 'draft'
             self.assertEqual(profile['review_status'],expected)
