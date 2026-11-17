@@ -763,6 +763,54 @@
         "ready-go-complete",
         "break-up-who-are-you"
       ]
+    },
+    "korean-verified-20261117-bulk-wave7": {
+      "input_hash": "25215469939da0ed72e864799871b8e112c7b21ffca0c4ffd8b93ea7a3663137",
+      "ids": [
+        "jokenne",
+        "neomeogalgeyo",
+        "tteonggaehaetda",
+        "jaemyae",
+        "gukbap-in-heart",
+        "deureongseun",
+        "who-made-this",
+        "nagatgyeong",
+        "oo-sageon",
+        "mudo-minati",
+        "round-sun-again",
+        "yapu",
+        "show-off-our-kid",
+        "kimnaembi-pump-it-up",
+        "ten-minutes-challenge",
+        "kkuewek",
+        "king-lovely",
+        "jubul",
+        "chugumi",
+        "ditto-agree",
+        "swipsaljaebing",
+        "ojeochigo",
+        "ilmyeodeulda",
+        "jaejil-vibe",
+        "gongjoh-cafe",
+        "korean-preferred-speed",
+        "wakanda-forever",
+        "dongnyeonbae-drip",
+        "da-aneun-saramdeurigumeon",
+        "sul-hanjan-masyeotseumnida",
+        "geureonde-jjajan",
+        "jeose-sang-tension",
+        "annyeonghasalbeop",
+        "jinsil-ui-bangeuro",
+        "wa-sans",
+        "yeogi-eottae-song",
+        "hajyu-speech",
+        "omit-details",
+        "stage-flipped",
+        "himsumjjin",
+        "shuk-shushuk",
+        "dragoon-comment-chain",
+        "i-am-generous"
+      ]
     }
   },
   "entries": {
@@ -5730,6 +5778,416 @@
       "body_hash": "57ba40fe3bb05c7c28024a6194b0ece52f5dc670f8c842de572d08fa5cbdd718",
       "scope_type": "korean_usage",
       "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "jokenne": {
+      "title": "조켄네",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "d459345835b52407d1cf81706cbb5047d07d91588f932209edafbac5b0309161",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "neomeogalgeyo": {
+      "title": "넘어갈게요",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "bf8be85fd526394319dbc1f17f0d47effc37c96fcee1f9d0ce103bacf74f092b",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "tteonggaehaetda": {
+      "title": "떵개했다",
+      "aliases": [
+        "떵개함",
+        "떵개하다"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "59506631d2aae179dfea0a5b57bfc19980c16c279a7279cba97e634c6aa26b45",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "jaemyae": {
+      "title": "잼얘",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "7ccbb16a602b559e3853ddc58d52d55233371bf27f9c2affbbd6ffe243b492f5",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "gukbap-in-heart": {
+      "title": "가슴에 국밥 쏟음",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "3a724eac49d86fbb0ff11be33c9f0e825acad84fd4fc747e42242524f4a28158",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "deureongseun": {
+      "title": "드렁슨",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "dcb800b3fb432767933bb6540d88c6067089ee656d772890e194fe4410db1ec7",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "who-made-this": {
+      "title": "후메잌디스",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "8bd75752cebdfea79aee4f35acbb10cad0f50368eeb602d3b533c82f0d3849dc",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "nagatgyeong": {
+      "title": "나같경",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "f19330abe3b1eeadcb5fa64c9dc059541e601374eb398732ee5ead47275b9a3b",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "oo-sageon": {
+      "title": "○○ 사건",
+      "aliases": [
+        "○○ 사건이다"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "5b014cd94b80ea81ccc7a001f3133809f114faacaa0b7b89f58cf70eb0cb0ae1",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "mudo-minati": {
+      "title": "무도미나티",
+      "aliases": [
+        "없없무",
+        "없는 게 없는 무한도전"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "dd786d99c8cd57390a603ba2cfd88264a4a9bb0bfa0ca2761efc7597867f2eb6",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "round-sun-again": {
+      "title": "둥근해 또 떴네",
+      "aliases": [
+        "둥근해 미친 거 또 떴네"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "dcf92952b88581ee21d108f77c316075af22b3cb61693f0e92cac6e80d5e224a",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "yapu": {
+      "title": "야푸",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "9c6ead973b4a556368c84eac8d4b36042c901d223a3a69f5a32b61b5ad260a27",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "show-off-our-kid": {
+      "title": "우리 애 자랑 좀 할게요",
+      "aliases": [
+        "댓글 예쁘게 써줘"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "a28cc2775fca29b3e4e49d910680db23bdbe4526ea48e48722ee8ddef1191de6",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "kimnaembi-pump-it-up": {
+      "title": "김냄비 펌피럽",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "cd812448dd8d99811aec425d0deb31723489acd05aa33c55670b211c26091bdd",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "ten-minutes-challenge": {
+      "title": "텐미닛 챌린지",
+      "aliases": [
+        "10 Minutes 챌린지"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "cf70540fba424b942d83f8b3eea51dd0b028ba37d9801c9e82d6ec06187cc131",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 직접 읽은 본문에서 표현의 뜻과 국내 사용 맥락을 대조했다.",
+      "tags": []
+    },
+    "kkuewek": {
+      "title": "꾸웨엑",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "c84aeac3122bd10ce86d5e1d091e98d15473276bed0c90ec6560f5524cb881fb",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "tags": []
+    },
+    "king-lovely": {
+      "title": "킹랑스럽다",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "e6b0d9df8ef55e289bd5f8c653afa4c531c84158849fc48bb7207b73fd46c6c2",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "tags": []
+    },
+    "jubul": {
+      "title": "주불",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "8bfa9dc1d32a2131d8cddce46969a9a43c064c09f57766a7d6890fc03c26762b",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "tags": []
+    },
+    "chugumi": {
+      "title": "추구미",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "27765f7d3607875a303efc6c1008c4bd3c27816c1c3638c3d616d643d2cc8d09",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "tags": []
+    },
+    "ditto-agree": {
+      "title": "디토합니다",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "a44d9397adb97dc02934c41052a78ce29b467c9e6e76abddbe9672aa65972eac",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "tags": []
+    },
+    "swipsaljaebing": {
+      "title": "쉽살재빙",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "1a1cc73e10edccb09dbcde30f987b4fcae7692940ef767f2d19ebb8fc1e0e5fe",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "tags": []
+    },
+    "ojeochigo": {
+      "title": "오저치고",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "45e567694158cb5f3f715ee02f38b12f7b3233e946aafb652bf94824aa9f30a2",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "tags": []
+    },
+    "ilmyeodeulda": {
+      "title": "일며들다",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "81d1b9b5c6c6c8caf916719c4c0a16acd69bc0788a1142773ab0ed9ef0821c28",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "tags": []
+    },
+    "jaejil-vibe": {
+      "title": "~재질",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "b29a0a958085486c115f5757d3107c5ffde4db0d28b466c384aeed06a22bc60d",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "tags": []
+    },
+    "gongjoh-cafe": {
+      "title": "공좋카",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "b417e808ffa996b969714801f11639ddc77ceb7ec27cd87b9f07b754fe996f6d",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 사용을 동시대 매체 본문에서 확인. 이 기간 최초로 생긴 말이라는 주장은 아님.",
+      "tags": []
+    },
+    "korean-preferred-speed": {
+      "title": "한국인이 좋아하는 속도",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "3a47f0e762a47768c4d9965b595c0eb42df238c4efb9b44a2afb23d68feccac6",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 또는 한국어에서 해당 표현 형식이 활용된 직접 본문 근거. 최초 기원과 전수 유행 규모는 주장하지 않음.",
+      "tags": []
+    },
+    "wakanda-forever": {
+      "title": "와칸다 포에버",
+      "aliases": [
+        "Wakanda Forever"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "95cbcae65cdda73dff3225ba7057b867f2dd067014612bf95731659e8d9e06b0",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 또는 한국어에서 해당 표현 형식이 활용된 직접 본문 근거. 최초 기원과 전수 유행 규모는 주장하지 않음.",
+      "tags": [
+        "영화",
+        "스포츠"
+      ]
+    },
+    "dongnyeonbae-drip": {
+      "title": "동년배 드립",
+      "aliases": [
+        "내 동년배들"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "184e535df3fcf6be71de681f5a8b0b9a8bc0f7dc20d228034a335167084d80e6",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 또는 한국어에서 해당 표현 형식이 활용된 직접 본문 근거. 최초 기원과 전수 유행 규모는 주장하지 않음.",
+      "tags": []
+    },
+    "da-aneun-saramdeurigumeon": {
+      "title": "다 아는 사람들이구먼",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "fb69a72059a8c24b11883dd8c3af9f5da5c8e9a28c2beb979eab96c309eb8641",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 또는 한국어에서 해당 표현 형식이 활용된 직접 본문 근거. 최초 기원과 전수 유행 규모는 주장하지 않음.",
+      "tags": [
+        "정치"
+      ]
+    },
+    "sul-hanjan-masyeotseumnida": {
+      "title": "술 한잔 마셨습니다",
+      "aliases": [
+        "술 한 잔 마셨습니다"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "4ef3396f9bca4677539a0a013030782cb3a118de007a1194ae76a4dcc724eadc",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 또는 한국어에서 해당 표현 형식이 활용된 직접 본문 근거. 최초 기원과 전수 유행 규모는 주장하지 않음.",
+      "tags": [
+        "연예",
+        "영화"
+      ]
+    },
+    "geureonde-jjajan": {
+      "title": "그런데 짜잔",
+      "aliases": [
+        "그런데 짜잔!",
+        "절대라는 건 없군요"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "2ab760bfa2ffce08bd0f45cfd5951dc9b6dcea24814348bf53305394425de402",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 또는 한국어에서 해당 표현 형식이 활용된 직접 본문 근거. 최초 기원과 전수 유행 규모는 주장하지 않음.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "jeose-sang-tension": {
+      "title": "저세상 텐션",
+      "aliases": [
+        "저 세상 텐션"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "13797bd8173319714b652fc818fff3dbc93b52cbbacbad91a426bfe17de398a6",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 또는 한국어에서 해당 표현 형식이 활용된 직접 본문 근거. 최초 기원과 전수 유행 규모는 주장하지 않음.",
+      "tags": [
+        "방송",
+        "음악"
+      ]
+    },
+    "annyeonghasalbeop": {
+      "title": "안녕하살법",
+      "aliases": [
+        "안녕하살법 받아치기"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "b7fca314907ca3b1a84987676ca2865656f88917ee1bdd0004a6800915349103",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 또는 한국어에서 해당 표현 형식이 활용된 직접 본문 근거. 최초 기원과 전수 유행 규모는 주장하지 않음.",
+      "tags": [
+        "애니",
+        "방송"
+      ]
+    },
+    "jinsil-ui-bangeuro": {
+      "title": "진실의 방으로",
+      "aliases": [
+        "진실의 방"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "e60664aebd3d2053867bb1fb90493e6a4d165ee8eded98cd89e8472f2dc5d4c3",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 또는 한국어에서 해당 표현 형식이 활용된 직접 본문 근거. 최초 기원과 전수 유행 규모는 주장하지 않음.",
+      "tags": [
+        "영화"
+      ]
+    },
+    "wa-sans": {
+      "title": "와 샌즈!",
+      "aliases": [
+        "와! 샌즈",
+        "언더테일 아시는구나!"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "431626c29f0287e7791a55f12f210456a9f186b407eb9ee2ad2f47d37efe9f31",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 또는 한국어에서 해당 표현 형식이 활용된 직접 본문 근거. 최초 기원과 전수 유행 규모는 주장하지 않음.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "yeogi-eottae-song": {
+      "title": "여기어때송",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "4920e380b27458a1c40680e92a4011ac79c080e7592d414eb41ecd11d91f69e5",
+      "scope_type": "korean_usage",
+      "scope_basis": "광고송의 커버·유세윤/송진우 패러디 및 참여행사. 기업발표 기반.; 다른 캠페인에서 위니·배틀그라운드 누사 테마로 광고송 패러디. 기업발표 기반.",
+      "tags": []
+    },
+    "hajyu-speech": {
+      "title": "~하쥬?",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "07b342450d13b203ed92b928ee0772ad121d65acec58809d569708d5213c24c8",
+      "scope_type": "korean_usage",
+      "scope_basis": "백종원 온라인 방송에서 잘 하쥬 발화·소통 말투 보도.; V앱에서 산들이 수박을 썰며 끝내주쥬라는 백종원 말투를 따라 한 구체 사례 보도",
+      "tags": []
+    },
+    "omit-details": {
+      "title": "더 이상의 자세한 설명은 생략한다",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "01ea98f79f7067c8953b3f3aae1d96be41ff9e6a6fb04a19fc321684b65e7bc1",
+      "scope_type": "korean_usage",
+      "scope_basis": "작가 직접 인터뷰; 대털 문장과 광고·공고·영상 재사용 확인. 페이지 날짜 공란.; 대털 연재 보도에서 해당 문장의 인터넷 밈 정체 확인.",
+      "tags": []
+    },
+    "stage-flipped": {
+      "title": "무대를 뒤집어 놓으셨다",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "b7c53ec753cf22093e4e8cc0bfbecaa6264ebdb36d5dcbdb47bee7e15e537791",
+      "scope_type": "korean_usage",
+      "scope_basis": "네이트 전재 본문 직접 읽음; 방송 리액션과 온라인 밈·알바몬 광고 치환.; 다음 전재 본문 직접 읽음; 박미경 본인의 방송 회고.",
+      "tags": []
+    },
+    "himsumjjin": {
+      "title": "힘숨찐",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "8bef98a185028aebbaa0a77e4b75ae23ff36ccd95e2495042bb83f94a6014a59",
+      "scope_type": "korean_usage",
+      "scope_basis": "신조어 칼럼의 대중문화 인물·서사 정의. 대화는 기자 작성 예문.; 더보이즈 콘텐츠 등장어 단어집; 숨긴 능력과 작품 인물 예문.",
+      "tags": []
+    },
+    "shuk-shushuk": {
+      "title": "슉 슈슉",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "552f9dfbd61477fb2613d5575858f03ab90da09d05eb8a8a43aef755fac00186",
+      "scope_type": "korean_usage",
+      "scope_basis": "조각가 직접 취재와 돌하르방 이미지 밈·상업 이용 문제.; 커피 브랜드·충주시의 단어 및 소품 치환 보도.",
+      "tags": []
+    },
+    "dragoon-comment-chain": {
+      "title": "하지만 드라군이 출동하면 어떨까?",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "0fb47522c22ef74b07a8c22bf0c5f2cd362a763d6c74209ef89f43628db738ae",
+      "scope_type": "korean_usage",
+      "scope_basis": "네이트 전재 본문 직접 읽음; 댓글 릴레이 형식과 이름 치환·대화 방해 비판.; 드라군 출동 댓글 놀이 형식 및 만화 연결.",
+      "tags": []
+    },
+    "i-am-generous": {
+      "title": "나는 관대하다",
+      "batch": "korean-verified-20261117-bulk-wave7",
+      "body_hash": "4ec148e464a034b045d6a4ea6557fd8a93b8dd1813f56812ad9334fc8180a585",
+      "scope_type": "korean_usage",
+      "scope_basis": "다음 전재 본문 직접 읽음; 개그전사 300의 대사 반복과 온라인 영화 패러디.; 시청률의 제왕에서 같은 영화 인물·대사 패러디 보도.",
       "tags": []
     }
   }
