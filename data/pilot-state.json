@@ -674,6 +674,43 @@
         "i-didnt-know",
         "popcat-click"
       ]
+    },
+    "korean-verified-20261117-bulk-wave4": {
+      "input_hash": "854cc10399af690aa2ef0160e20727eaa8f8a4ded5442f1da8a47813a75b886b",
+      "ids": [
+        "sha-sha-sha",
+        "tte-kkeol-look",
+        "taebo-hae",
+        "national-handclap",
+        "dionysus-mood-broken",
+        "baby-shark-challenge",
+        "geu-japchae",
+        "baribarista",
+        "laughter-spoon",
+        "things-i-achieved",
+        "bamboo-cloth-song",
+        "positive-negative-markers",
+        "bam-yang-gang",
+        "chipi-chipi-chapa-chapa",
+        "gamdasal",
+        "gamdajuk",
+        "mukjjippa-major",
+        "jwi-lola",
+        "pedro-raccoon",
+        "oompa-loompa-challenge",
+        "we-chose-by-agreement",
+        "multiplication-dance",
+        "pokemon-dance-challenge",
+        "look-at-me-challenge",
+        "any-angle-challenge",
+        "ian-march",
+        "national-power-class",
+        "appearance-check",
+        "rubber-squeezing",
+        "dududu-bababa",
+        "honestly-i-was-envious",
+        "igeon-an-iji-ye"
+      ]
     }
   },
   "entries": {
@@ -4906,6 +4943,325 @@
       "body_hash": "4260fa9d85c1c2419ff4bfd5df41e2272dc21798bffaef05444400c2d5b067e5",
       "scope_type": "korean_usage",
       "scope_basis": "한국 매체의 뜻/형식 소개와 다른 publisher의 실제 사용·분석 또는 국내 관심 자료를 대조했다.",
+      "tags": []
+    },
+    "sha-sha-sha": {
+      "title": "샤샤샤",
+      "aliases": [
+        "샤샤샤~"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "6edf1a15b75a62740dc58112e42445b2dc42e45744e47c1c805b8318a40b49a6",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 공개 보도에서 해당 표현·참여 형식의 사용을 확인했다. 원작권·최초 발생국·최초 게시일을 인증하지 않는다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "tte-kkeol-look": {
+      "title": "떼껄룩",
+      "aliases": [
+        "떼걸룩"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "6ee9fa0b3b47dad4e284096021930202070433d0ffb093c6aa5e7e77771ceb0f",
+      "scope_type": "korean_usage",
+      "scope_basis": "해외 게임 대사의 소리를 한국어 별칭으로 바꾼 국내 용례.",
+      "tags": [
+        "게임"
+      ]
+    },
+    "taebo-hae": {
+      "title": "태보해",
+      "aliases": [
+        "태보 해",
+        "절대 태보해",
+        "절대태보해"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "e69406850bcdc6cb1c4c8deb784eaebf08c029ebee4bb72e62f7b9bf409b2051",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 공개 보도에서 해당 표현·참여 형식의 사용을 확인했다. 원작권·최초 발생국·최초 게시일을 인증하지 않는다.",
+      "tags": [
+        "방송",
+        "음악"
+      ]
+    },
+    "national-handclap": {
+      "title": "전국 HandClap 자랑",
+      "aliases": [
+        "전국 handclap 자랑",
+        "전국 핸드클랩 자랑"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "2f12bed39fd7b92fb20c9ae5beed7148da3f396a1e787b17f0f91b789d868a52",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 공개 보도에서 해당 표현·참여 형식의 사용을 확인했다. 원작권·최초 발생국·최초 게시일을 인증하지 않는다.",
+      "tags": [
+        "음악",
+        "방송"
+      ]
+    },
+    "dionysus-mood-broken": {
+      "title": "너 때문에 흥이 다 깨져버렸으니까 책임져",
+      "aliases": [
+        "디오니소스 밈",
+        "너 때문에 흥이 다 깨졌으니 책임져"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "a65d49d504bbabb62482e45467f230ad0f8abce5079331399c41badba3cc3d2f",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 공개 보도에서 해당 표현·참여 형식의 사용을 확인했다. 원작권·최초 발생국·최초 게시일을 인증하지 않는다.",
+      "tags": [
+        "애니"
+      ]
+    },
+    "baby-shark-challenge": {
+      "title": "아기상어 챌린지",
+      "aliases": [
+        "베이비 샤크 챌린지",
+        "Baby Shark Challenge"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "a699b75600eeb98faef5c110c423db7fbbc42ab5de1ff6572ded6fa5e8b737f1",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 공개 보도에서 해당 표현·참여 형식의 사용을 확인했다. 원작권·최초 발생국·최초 게시일을 인증하지 않는다.",
+      "tags": [
+        "음악"
+      ]
+    },
+    "geu-japchae": {
+      "title": "그 잡채",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "ee504585c0c3276939503502fff1c096938070532753dd6445c560de58b3b092",
+      "scope_type": "korean_usage",
+      "scope_basis": "2022~2023년 국내 기사 본문의 정의와 다른 publisher의 별도 사용·풀이 대조.",
+      "tags": []
+    },
+    "baribarista": {
+      "title": "바리바리스타",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "46a99de3a09cc511483a95bf121efd883eb817df3b2881314b7100b36f213934",
+      "scope_type": "korean_usage",
+      "scope_basis": "2022~2023년 국내 기사 본문의 정의와 다른 publisher의 별도 사용·풀이 대조.",
+      "tags": []
+    },
+    "laughter-spoon": {
+      "title": "웃수저",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "a82f11a2316825011e2dc5b1f69b89098b199db2aea431eafbbe16e8dcb09511",
+      "scope_type": "korean_usage",
+      "scope_basis": "2022~2023년 국내 기사 본문의 정의와 다른 publisher의 별도 사용·풀이 대조.",
+      "tags": []
+    },
+    "things-i-achieved": {
+      "title": "내가 이룬 것들",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "88ddbfc4ae2fb55d8cf4f2de373894af67aa69bf250810d91daddb0ace00e9a4",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체 본문 2개의 정의·국내 사용 근거를 교차 검토한 자체 요약.",
+      "tags": []
+    },
+    "bamboo-cloth-song": {
+      "title": "대나무행주",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "df4cd2a0f174e091c9dc10b6104b5661acc8c51ba2cc2ab84e5b5def891c8785",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체 본문 2개의 정의·국내 사용 근거를 교차 검토한 자체 요약.",
+      "tags": []
+    },
+    "positive-negative-markers": {
+      "title": "미친(positive)",
+      "aliases": [
+        "미쳤다P"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "e699a2d8308a9d1504c42249c0d5f0316c4fcacb367e6aeb96068750ab6c07fd",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체 본문 2개의 정의·국내 사용 근거를 교차 검토한 자체 요약.",
+      "tags": []
+    },
+    "bam-yang-gang": {
+      "title": "밤양갱",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "8b4556d5205be174028986a3a06a2f6b562330d73d0982b0f6814d051eb99a5a",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체 본문 2개의 정의·국내 사용 근거를 교차 검토한 자체 요약.",
+      "tags": []
+    },
+    "chipi-chipi-chapa-chapa": {
+      "title": "치피치피 차파차파",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "734c4be5aad3bd56f9c93ed319e5cecbe65349601787681da00b4d1e3c9803bb",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체 본문 2개의 정의·국내 사용 근거를 교차 검토한 자체 요약.",
+      "tags": []
+    },
+    "gamdasal": {
+      "title": "감다살",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "318edfed69a150e89654375c8714f5d22fbdbb06455dbb9c8a31d87019bcfa78",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체 본문 2개의 정의·국내 사용 근거를 교차 검토한 자체 요약.",
+      "tags": []
+    },
+    "gamdajuk": {
+      "title": "감다죽",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "e93250650cfe0a33c54e13eef6f855d73392dd8966a98f6d7d0135357427ff5f",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체 본문 2개의 정의·국내 사용 근거를 교차 검토한 자체 요약.",
+      "tags": []
+    },
+    "mukjjippa-major": {
+      "title": "난 대학 시절 묵찌빠를 전공했단 사실",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "94c6c8e82a8e0e806df4398c2e20cacdd24bac89b765e90f72c2c532dc475ac1",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체 본문 2개의 정의·국내 사용 근거를 교차 검토한 자체 요약.",
+      "tags": []
+    },
+    "jwi-lola": {
+      "title": "쥐롤라",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "dc968da71a963f39744506cc2f9ada2d591bf47ea619c85d3b81b383d3cd8220",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체 본문 2개의 정의·국내 사용 근거를 교차 검토한 자체 요약.",
+      "tags": []
+    },
+    "pedro-raccoon": {
+      "title": "페드로 라쿤",
+      "aliases": [
+        "라쿤 페드로"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "d29e524e4f315c84adb06ee5ce54eab97337f66b7be011edaf7867db94c4ed79",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체 본문 2개의 정의·국내 사용 근거를 교차 검토한 자체 요약.",
+      "tags": []
+    },
+    "oompa-loompa-challenge": {
+      "title": "움파룸파 챌린지",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "9c1523ff4e98fb87d9508b26c2cf0a941f91a32cadd14589c1556fac44a062e6",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체 본문 2개의 정의·국내 사용 근거를 교차 검토한 자체 요약.",
+      "tags": []
+    },
+    "we-chose-by-agreement": {
+      "title": "저희는 합의 끝에 이걸 골랐습니다",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "1c0ac24e155483b9715a2517e40b2ef575a41bd03d66a69e3ef1649fad652438",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2개의 실제 본문에서 형식과 국내 사용 근거를 교차 검토했다.",
+      "tags": []
+    },
+    "multiplication-dance": {
+      "title": "구구단 챌린지",
+      "aliases": [
+        "케이산도리루 챌린지"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "04533beafdc2704c69ed883a92ab68614f4e72d5ef0c98c0694828d4525eddee",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2개의 실제 본문에서 형식과 국내 사용 근거를 교차 검토했다.",
+      "tags": []
+    },
+    "pokemon-dance-challenge": {
+      "title": "포켓몬 댄스 챌린지",
+      "aliases": [
+        "포켓몬 댄스"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "3739af7f749ba62018e265419fa2333e6b656d39e028f7f749409e84936e93fc",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2개의 실제 본문에서 형식과 국내 사용 근거를 교차 검토했다.",
+      "tags": []
+    },
+    "look-at-me-challenge": {
+      "title": "날 바라바라봐 챌린지",
+      "aliases": [
+        "룩앳미 챌린지",
+        "나를 바라봐 챌린지"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "c866fca853a92fad84e1d407d8993ebe9a129c016f5d7a0a2b175ea3a7ed418e",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2개의 실제 본문에서 형식과 국내 사용 근거를 교차 검토했다.",
+      "tags": []
+    },
+    "any-angle-challenge": {
+      "title": "전방향 미소녀 챌린지",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "f4bb302e3763f72bcd082811050f2c4e1e1f9cde1e70829424c689c2efc81ed3",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2개의 실제 본문에서 형식과 국내 사용 근거를 교차 검토했다.",
+      "tags": []
+    },
+    "ian-march": {
+      "title": "이안 행진곡",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "608ae2fca4ebd69411b53d27e6700606381bda5138bd4dac74eb96e72e9eb6b9",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2개의 실제 본문에서 형식과 국내 사용 근거를 교차 검토했다.",
+      "tags": []
+    },
+    "national-power-class": {
+      "title": "국가권력급",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "f07f8105766c50e99f3d994e7c1f5745e84af9f3b71e982cd9630b28967cd494",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 본문에서 의미·사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "appearance-check": {
+      "title": "외모 체크",
+      "aliases": [
+        "외모 췍",
+        "외모 췤"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "f6db5584f722e92eae525af397c06b6f9e52d7bd9cdbddcf9be6d30b733597d3",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 본문에서 의미·사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "rubber-squeezing": {
+      "title": "고무짜기",
+      "aliases": [
+        "고무짜기 ASMR"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "c7dc13d296c7f9d2cf3022c8df6004a5631aa8254ef557ed6307d74000b43eaa",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 본문에서 의미·사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "dududu-bababa": {
+      "title": "듀듀듀 바바바",
+      "aliases": [
+        "듀듀듀 뱌뱌뱌"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "9fe774c47ceafb002aee2b745c443f65f7fc7343d74276da1df383d9b9db2452",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 본문에서 의미·사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "honestly-i-was-envious": {
+      "title": "사실 넘 부러웠어요",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "e6bcdb21c9aca7d50a47c594cbbf5aaf93fe0da894d629ec64566b5d45f13430",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 본문에서 의미·사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "igeon-an-iji-ye": {
+      "title": "이건안 이지예",
+      "batch": "korean-verified-20261117-bulk-wave4",
+      "body_hash": "5d2169bf541f92eb74612d47ba9426ac8e739a668390b4f0a7841da739ab2397",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 본문에서 의미·사용 형식을 확인한 자체 요약.",
       "tags": []
     }
   }
