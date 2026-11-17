@@ -24,8 +24,8 @@ class BulkWaveFourteenCanonicalImportTests(unittest.TestCase):
         for row in manifest['entries']:
             self.assertGreaterEqual(len({r['url'] for r in row['evidence']}),2)
             self.assertGreaterEqual(len({r['publisher'] for r in row['evidence']}),2)
-            self.assertEqual(len(row['source_revision']),18)
-            self.assertEqual(len(row['source_blob_sha']),18)
+            self.assertEqual(len(row['source_revision']),40)
+            self.assertEqual(len(row['source_blob_sha']),40)
 
     def test_approved_source_pins_evidence_and_final_body_remain_bound(self):
         manifest=json.loads((ROOT/'reports/bulk/canonical-wave14-approved.json').read_text())

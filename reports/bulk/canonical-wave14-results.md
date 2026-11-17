@@ -8,3 +8,7 @@
 - 짤줍 received an additional independent publisher body with definition/use before approval; Careet series-title use remains auxiliary, not a second independent definition. Other sources include glossaries, magazine usage, event accounts, interviews, performance reporting and book reviews; these roles are preserved.
 - No current participation rights, sharing/image rights, account action permissions, purchase endorsement, actual relationship/sexual orientation inference, dangerous movement instruction, first-origin or popularity certification.
 - AI editorial review is not human validation, universal original-media verification or recommendation accuracy testing. Final publication CI pending at this report commit; main unchanged.
+
+## Final test-template correction
+
+Publication CI44059830829 failed one test because adapting the prior 40-entry test to this 18-entry batch also accidentally changed the two SHA-length assertions from40 to18. Restore those two assertions to the required40 characters. Entry-count assertions remain18. Canonical bodies, source metadata, fixed snapshot, importer history and original evaluation artifacts are unchanged. This corrects a test-generation error, not evidence or a failed canonical. Corrected final CI is pending.
