@@ -8,6 +8,7 @@
 - [3대500](three-lifts-500.md)
 - [54000개](54000.md)
 - [AI 삿포로샷](ai-sapporo-shot.md)
+- [ET춤](jewelry-et-dance.md)
 - [GG](gg.md)
 - [GOAT](goat.md)
 - [HMH·GMG](hmh-gmg.md)

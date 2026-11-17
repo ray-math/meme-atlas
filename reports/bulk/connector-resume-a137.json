@@ -1,0 +1,36 @@
+{
+  "batch": "connector-resume-a137",
+  "base": "08aa09ebf18eb77ac4649b605ee4d7685e2be589",
+  "entries": [
+    {
+      "id": "jewelry-et-dance",
+      "independent_usage_events": 2,
+      "sources": [
+        {
+          "url": "https://www.inews24.com/view/wnrd/320828",
+          "observed": "2008-03-27 풀빵닷컴 천의 얼굴 홍이 1인4역 뮤직비디오 패러디. 조회수 제외."
+        },
+        {
+          "url": "https://sports.khan.co.kr/article/200805172119104",
+          "observed": "2008-05-17 공연 후 기사, 아이스쇼 ET춤 재현. 나이·학교·외모 제외."
+        },
+        {
+          "url": "https://www.jjan.kr/article/20080317261971",
+          "observed": "조사자 본문 열람 손가락 동작 확인. 편집자 재열람502, 검색 요약 동작 일치. 연합뉴스 제휴. 승인·수정 날짜 역전 있어 2008년3월로 제한."
+        }
+      ],
+      "bounds": "원영상 미시청. 위2실사용은 편집자 본문 재열람 성공."
+    }
+  ],
+  "screening": {
+    "strings": 10,
+    "note": "ET춤 관련5개 동일대상 검색어 포함. 신규10개로 세지않음."
+  },
+  "checks": {
+    "result_entries": 852,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}
