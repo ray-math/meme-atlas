@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave13",
+  "status": "ready_for_independent_editorial_review",
+  "created_at": "2026-11-17",
+  "base_ref": "5141bdc4b76b949ce716e2b7baaad507975bf909",
+  "counts": {
+    "ledger_range_start": 951,
+    "ledger_range_end": 1000,
+    "index_count": 772,
+    "selected_reviewed": 15,
+    "ready": 3,
+    "held": 12
+  },
+  "entries": [
+    {
+      "entry_id": "jiggle-jiggle-dance",
+      "title": "지글지글 댄스",
+      "ledger_id": "kr-list-0956",
+      "path": "memes/jiggle-jiggle-dance.md",
+      "source_sha": "05a6cbd57a3de8bb3af3c8435ad2952553c5dcee",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 잡지와 독립 트렌드 뉴스레터의 한국 참여 및 춤 형식 직접 설명.",
+      "sources": [
+        {
+          "publisher": "얼루어 코리아",
+          "url": "https://www.allurekorea.com/2022/06/08/블랙핑크-전소미도-참여한-지글지글-챌린지의-정체/",
+          "published_at": "2022-06-08",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "무심한 표정과 안무, 국내 연예인 참여 영상을 소개.",
+          "limitations": "본문의 과장된 팔로워 수·세부 원곡 연대와 제작 순서는 채택하지 않음. 영상 직접 재생 아님."
+        },
+        {
+          "publisher": "Trend A Word",
+          "url": "https://maily.so/trendaword/posts/l8do766dzgq",
+          "published_at": "2022-06-02",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "국내 챌린지 소개와 블랙핑크 참여, 영상 모음과 음악 리믹스 맥락.",
+          "limitations": "본문의 프로그램 국적 표현은 채택하지 않음. 기사 예문을 실제 원댓글로 주장하지 않음."
+        }
+      ],
+      "limitations": [
+        "원영상·원댓글 직접 확인 아님.",
+        "최초 창작자·정확한 발생일·현재 유행세로 일반화하지 않음.",
+        "예문은 편집 창작이며 원출처 인용 아님."
+      ],
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "earth-defense-challenge",
+      "title": "지구방위대 챌린지",
+      "ledger_id": "kr-list-0954",
+      "path": "memes/earth-defense-challenge.md",
+      "source_sha": "c4655810766f8382643b606be8c9ed361a6c6b1e",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 마케팅 해설과 실제 참여단체의 직접 공지로 형식·사용 확인.",
+      "sources": [
+        {
+          "publisher": "고구마팜 / 오픈애즈 게시",
+          "url": "https://www.openads.co.kr/content/contentDetail?contsId=8757",
+          "published_at": "2022-07-27",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "음악 박자에 다수가 앞으로 나가는 형식, 집단별 변형과 음원명.",
+          "limitations": "고구마팜 원문과 오픈애즈는 같은 저작물. 독립 출처 2개로 세지 않음. 마케팅 효과·안전성 단정은 채택하지 않음."
+        },
+        {
+          "publisher": "고도원의 아침편지",
+          "url": "https://m.godowon.com/news/news_view.gdw?no=6951",
+          "published_at": "2022-04-25",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "국내 단체의 실제 참여 공지 및 각자 포즈를 취하는 형식 설명.",
+          "limitations": "실제 참여 주체의 직접 공지로 분류. 영상 직접 재생하지 않았으며 건강·치유 효과나 경찰 사례는 채택하지 않음."
+        }
+      ],
+      "limitations": [
+        "원영상·원댓글 직접 확인 아님.",
+        "최초 창작자·정확한 발생일·현재 유행세로 일반화하지 않음.",
+        "예문은 편집 창작이며 원출처 인용 아님."
+      ],
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "jirida-reaction",
+      "title": "지리다",
+      "ledger_id": "kr-list-0957",
+      "path": "memes/jirida-reaction.md",
+      "source_sha": "8a8c4405f4600cb82a068d94c5154865c78c2488",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 신문 칼럼과 언어문화 에세이에서 뜻과 인터넷 유통을 확인.",
+      "sources": [
+        {
+          "publisher": "영남일보 / 박규완 칼럼",
+          "url": "https://www.yeongnam.com/web/view.php?key=20200520010002724",
+          "published_at": "2020-05-21",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "지리다가 아주 좋다·굉장하다의 의미로 쓰인다고 직접 설명.",
+          "limitations": "URL은20일이나 화면 발행일21일. 기고의 무관한 정치 사례·어원 주장은 채택하지 않음."
+        },
+        {
+          "publisher": "인문360 / 박다온",
+          "url": "https://inmun360.culture.go.kr/content/545.do?cid=2371337&mode=view&page=&parentCid=2396625&parentId=544",
+          "published_at": "2018-04-05",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "급식체에서 널리 쓰이는 개별 표현과 온라인 게시판·SNS 유통을 설명.",
+          "limitations": "기존 단어의 감탄 용법만 수록. 글의 세대·심리 일반화나 최초 발명 주장을 채택하지 않음."
+        }
+      ],
+      "limitations": [
+        "원영상·원댓글 직접 확인 아님.",
+        "최초 창작자·정확한 발생일·현재 유행세로 일반화하지 않음.",
+        "예문은 편집 창작이며 원출처 인용 아님."
+      ],
+      "usage_status": "not_annotated"
+    }
+  ],
+  "screening": [
+    {
+      "title": "지글지글 댄스",
+      "ledger_id": "kr-list-0956",
+      "status": "ready",
+      "reason": "두 독립 발행 주체의 관련 본문을 직접 확인."
+    },
+    {
+      "title": "지구방위대 챌린지",
+      "ledger_id": "kr-list-0954",
+      "status": "ready",
+      "reason": "두 독립 발행 주체의 관련 본문을 직접 확인."
+    },
+    {
+      "title": "지리다",
+      "ledger_id": "kr-list-0957",
+      "status": "ready",
+      "reason": "두 독립 발행 주체의 관련 본문을 직접 확인."
+    },
+    {
+      "ledger_id": "kr-list-0955",
+      "title": "지구 온라인",
+      "status": "held",
+      "reason": "위키와 커뮤니티 게시물 외 두 독립 직접 본문 미확보."
+    },
+    {
+      "ledger_id": "kr-list-0959",
+      "title": "지이잉",
+      "status": "held",
+      "reason": "원 사건 보도만 발견. 직업 비하와 구분된 재사용 형식의 두 독립 근거 미확보."
+    },
+    {
+      "ledger_id": "kr-list-0963",
+      "title": "진짠줄 알더라",
+      "status": "held",
+      "reason": "정치적 반박 보도와 위키 위주로 이번 비민감 범위에서 보류. 원문 맥락을 잘라 일반 의미로 확정하지 않음."
+    },
+    {
+      "ledger_id": "kr-list-0965",
+      "title": "진순이",
+      "status": "held",
+      "reason": "라면 약칭·개인 방송 호칭·사건 등이 혼재하여 목록이 가리키는 형식 미확정."
+    },
+    {
+      "ledger_id": "kr-list-0968",
+      "title": "짤방보이",
+      "status": "held",
+      "reason": "만화 관련 같은 발행처의 두 글은 발견했지만 두 번째 독립 발행 주체의 직접 본문 미확보."
+    },
+    {
+      "ledger_id": "kr-list-0971",
+      "title": "짱구야 아빠를 속인거니?",
+      "status": "held",
+      "reason": "개인 블로그·게시글 위주로 독립 직접 본문 두 곳 미달. 원작 실제 대사라 단정하지 않음."
+    },
+    {
+      "ledger_id": "kr-list-0982",
+      "title": "천상천하 유아독존",
+      "status": "held",
+      "reason": "기존 종교 문구·애니메이션 장면·일반 비유가 섞임. 특정 국내 재사용 형식의 두 독립 직접 본문 미달."
+    },
+    {
+      "ledger_id": "kr-list-0986",
+      "title": "초난강",
+      "status": "held",
+      "reason": "인물 전체와 개별 노래 패러디를 분리할 독립 본문 두 곳 미달."
+    },
+    {
+      "ledger_id": "kr-list-0988",
+      "title": "초성어",
+      "status": "held",
+      "reason": "이미 수록된 개별 반응·줄임말의 상위 분류이므로 별도 단일 밈으로 증식하지 않음."
+    },
+    {
+      "ledger_id": "kr-list-0989",
+      "title": "초코빅송",
+      "status": "held",
+      "reason": "위키 목록 외 노래의 국내 재사용을 교차 확인할 직접 본문 두 곳 미확보."
+    },
+    {
+      "ledger_id": "kr-list-0990",
+      "title": "최근 한 온라인 커뮤니티 게시판에는",
+      "status": "held",
+      "reason": "일반 기사 문장 사용과 그 문장 자체의 패러디를 구별할 독립 두 본문 미확보."
+    },
+    {
+      "ledger_id": "kr-list-0997",
+      "title": "차차핑",
+      "status": "held",
+      "reason": "캐릭터 전체와 특정 분노 장면의 국내 재사용을 구분할 독립 두 본문 미확보."
+    }
+  ],
+  "exclusions": {
+    "existing_semantic_matches": [
+      "즐",
+      "지못미",
+      "진격의 ○○",
+      "진실의 방",
+      "진행시켜",
+      "짤방",
+      "쩔다",
+      "짬에서 나오는 바이브",
+      "찌찌뽕",
+      "참 쉽죠",
+      "첵스 파맛",
+      "초딩",
+      "출바알",
+      "치즈분수",
+      "ㅋㅋ",
+      "ㅋㅋ루삥뽕"
+    ],
+    "scope_note": "성적 표현·어린이/집단 비하·광범위 사건 및 인물 목록은 이번 신규 검토 수에 포함하지 않음. 50행 전체가 신규 조사라는 뜻 아님."
+  },
+  "discovery": {
+    "type": "existing_candidate_ledger_from_korean_meme_mirror",
+    "path": "data/korea-candidates.json",
+    "original_namuwiki_access_claimed": false,
+    "new_ledger_ids_created": false
+  },
+  "duplicate_check": {
+    "ref": "5141bdc4b76b949ce716e2b7baaad507975bf909",
+    "index_count": 772,
+    "checked": [
+      "search-index title/aliases and semantic matches",
+      "pilot-state",
+      "recursive tree paths"
+    ]
+  },
+  "verification": {
+    "ci_run": false,
+    "derived_files_changed": false,
+    "raw_source_body_stored": false,
+    "main_or_pr37_changed": false,
+    "remote_canonical_readback_all_equal": true
+  }
+}
