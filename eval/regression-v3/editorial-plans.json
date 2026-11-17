@@ -1,0 +1,513 @@
+{
+  "schema_version": 1,
+  "model_provenance": "Actual assistant-generated first-pass plans. Exact model identifier and sampling parameters are not exposed. Read only the v3 contract, usage vocabulary, and original 28 editorial inputs at ad827261f7c5194aa943e9b0aba35cf6e55dbfe4. No retrieval, gold, judgments, profiles, index, or previous outputs consulted. Public-dataset regression, not a new or blinded benchmark.",
+  "prompt_version": "contextual-v3",
+  "plans": [
+    {
+      "id": "E01",
+      "prompt": "친한 동생이 취업 준비 끝에 원하던 곳 붙었대. 짧고 신나게 댓글 달 밈 하나.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "칭찬",
+          "감탄"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "타인의 성취에 긍정적으로 반응하는 기능을 OR 조회하고 축하 맥락에 맞는 용법을 검토한다.",
+      "user_constraints": [
+        "친한 동생의 취업 성공",
+        "짧고 신나는 댓글",
+        "밈 하나",
+        "자기 성과 자랑으로 바꾸지 않기"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E02",
+      "prompt": "자전거 처음 조립했는데 잘 굴러가! 단톡에 내 결과물을 귀엽게 자랑하고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "자랑"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "자신이 만든 결과물을 소개하고 자랑하려는 기능이 명시되어 있다.",
+      "user_constraints": [
+        "본인이 처음 조립한 자전거",
+        "잘 굴러가는 결과물",
+        "단톡",
+        "귀여운 자랑"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E03",
+      "prompt": "내가 며칠째 카레 얘기만 했더라. 나 자신을 살짝 놀리는 말 없나?",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "과도한반복",
+          "반복발언"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "반복한 자기 발언을 돌아보는 상황이 명시되어 있어 반복 상황 후보를 OR 조회하고 자기 방향을 보존한다.",
+      "user_constraints": [
+        "며칠째 같은 음식 이야기를 한 자신",
+        "가벼운 자기놀림",
+        "상대를 제지하는 표현으로 바꾸지 않기"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E04",
+      "prompt": "면접 답변보다 오늘 아침 버스 노선 설명을 더 길게 했네. 내가 한 말에 가볍게 덧붙일 표현.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "과도한설명",
+          "불필요한세부정보"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "긴 설명과 세부정보의 어휘 경계를 OR로 탐색하되 자기 말에 덧붙이는 방향은 필수로 유지한다.",
+      "user_constraints": [
+        "자신이 길게 한 버스 노선 설명",
+        "가볍게 덧붙이는 말",
+        "상대 설명을 끊는 방향 금지"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E05",
+      "prompt": "도자기 첫 작품은 깨졌지만 다음 수업에도 가기로 했어. 나 스스로에게 붙일 짧은 다짐.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "다짐"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "실패 뒤 다시 참여하기로 한 자신의 의지를 표현하는 기능이 명확하다.",
+      "user_constraints": [
+        "첫 도자기 작품이 깨짐",
+        "다음 수업에도 가기로 함",
+        "자기 지향",
+        "짧은 다짐"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E06",
+      "prompt": "함께 일하던 친구가 먼 도시로 옮겨. 서운한 작별보다 행복하게 지내라는 가벼운 인사.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "좋은일기원"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "단순 작별보다 앞으로 행복하게 지내기를 바라는 조건이 구체적이다.",
+      "user_constraints": [
+        "함께 일하던 친구의 이주",
+        "서운한 작별보다 행복 기원",
+        "가벼운 인사"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E07",
+      "prompt": "오늘 산 도시락은 직접 먹어보니 가격 대비 반찬도 많고 맛있어. 친구에게 만족스럽다고 말할 표현.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "가성비",
+          "풍성한구성"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "직접 경험한 가격 대비 구성과 맛에 대한 만족이 구체적이므로 관련 상황을 OR로 조회한다.",
+      "user_constraints": [
+        "직접 먹어본 도시락",
+        "가격 대비 많은 반찬과 좋은 맛",
+        "친구에게 만족 표현"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E08",
+      "prompt": "친구가 이번 공연의 조명이 좋았다는데 나도 정확히 같은 생각이야. 빈정거리지 않는 짧은 맞장구.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "동조"
+        ],
+        "exclude_risks": [
+          "반어"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "실제 동의가 명시되어 있어 동조를 조회하고 반어 용법은 제외한다. 반어로 오인될 가능성도 최종 문맥 검토에서 확인한다.",
+      "user_constraints": [
+        "공연 조명이 좋았다는 평가에 진심으로 동의",
+        "빈정거림 금지",
+        "짧은 맞장구"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E09",
+      "prompt": "친한 친구가 오늘 발표를 처음으로 마쳤어. 결과가 기대보다 훨씬 좋았다고 들었고 나도 기뻐. '이게 정말?' 느낌의 반응.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "감탄"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "타인의 좋은 결과에 놀라며 기뻐하는 반응을 조회한다. 결과를 들었다는 것과 독립적으로 사실을 검증했다는 것은 구별한다.",
+      "user_constraints": [
+        "친한 친구의 첫 발표 완료",
+        "기대보다 좋은 결과라고 들음",
+        "기쁜 놀라움",
+        "들은 사실을 검증 완료로 과장하지 않기"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E10",
+      "prompt": "내가 공부 잘한다고 뽐내다가 아주 쉬운 문제 틀림. 나 자신을 웃으며 낮추는 표현 찾아줘.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "자랑과 실수의 대비를 스스로 웃어넘기는 요청이다. 자기 방향을 유지하고 후보마다 이 대비와 맞는지 확인한다.",
+      "user_constraints": [
+        "공부를 잘한다고 뽐낸 뒤 쉬운 문제를 틀린 자신",
+        "웃으며 자기 낮추기",
+        "타인 비하 아님"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E11",
+      "prompt": "채팅에 'ㄹㅇㅋㅋ'가 왔는데 찬성하는 거야, 비웃는 거야? 앞 대화는 못 보여줘.",
+      "action": "lookup",
+      "filters": {
+        "query": "ㄹㅇㅋㅋ",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "명시된 표현의 여러 용법을 조회한다. 앞 대화가 없으므로 특정 의도를 확정하지 않는다.",
+      "user_constraints": [
+        "의미 조회",
+        "앞 대화 제공 불가",
+        "찬성과 비웃음의 가능성을 구분",
+        "숨은 의도 확정 금지"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E12",
+      "prompt": "댓글에서 '중립기어'라는 말을 봤어. 말한 사람이 아무 감정도 없다는 뜻인지 설명해줘.",
+      "action": "lookup",
+      "filters": {
+        "query": "중립기어",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "명시된 표현을 조회해 판단 유보 기능과 실제 감정 상태를 구별한다.",
+      "user_constraints": [
+        "댓글 표현의 의미 설명",
+        "감정이 없다고 단정하지 않기"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E13",
+      "prompt": "'그린라이트'라고 친구들이 그러는데 상대의 동의가 확실하다는 뜻이야?",
+      "action": "lookup",
+      "filters": {
+        "query": "그린라이트",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "명시된 표현의 의미를 조회하고 호감 해석과 상대의 명시적 동의를 구분한다.",
+      "user_constraints": [
+        "의미 설명",
+        "친구들의 해석을 상대의 동의로 확정하지 않기"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E14",
+      "prompt": "게시판에서 '아이엠그루트'만 적은 사람은 무슨 말을 하려던 거야? 그 사람이 쓴 앞뒤 글은 없어.",
+      "action": "lookup",
+      "filters": {
+        "query": "아이엠그루트",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "명시된 표현의 가능한 기능을 조회하되 누락된 앞뒤 글이나 숨긴 발언은 복원하지 않는다.",
+      "user_constraints": [
+        "앞뒤 글 없음",
+        "가능한 의미 구분",
+        "구체적인 숨은 말 단정 금지"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E15",
+      "prompt": "투자 게시판에서 '존버 중'이라는 말의 뜻만 알고 싶어. 나에게 매수나 보유를 추천해 달라는 건 아니야.",
+      "action": "lookup",
+      "filters": {
+        "query": "존버",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "의미 조회라는 범위가 명시되어 있으므로 표현을 검색하되 투자 권유로 전환하지 않는다.",
+      "user_constraints": [
+        "투자 게시판에서의 뜻만 설명",
+        "매수 추천 금지",
+        "보유 추천 금지"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E16",
+      "prompt": "'안아줘요' 짤은 내가 상대를 위로하겠다는 말이야, 내가 위로받고 싶다는 말이야?",
+      "action": "lookup",
+      "filters": {
+        "query": "안아줘요",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "명시된 표현을 조회해 위로 제공과 위로 요청의 방향을 구별한다.",
+      "user_constraints": [
+        "짤의 의미 조회",
+        "나와 상대의 위로 방향 구분"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E17",
+      "prompt": "사극 이야기를 하다가 전개가 '고구마'라는 댓글을 봤어. 음식 얘기는 아닌 것 같은데 뜻만 알려줘.",
+      "action": "lookup",
+      "filters": {
+        "query": "고구마",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "명시된 표현을 조회하고 사극 전개를 평가하는 문맥에 맞춰 설명한다.",
+      "user_constraints": [
+        "사극 전개를 평가하는 댓글",
+        "음식 아닌 비유적 의미",
+        "뜻만 설명"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E18",
+      "prompt": "사람들이 댓글에 '기둥 뒤에 공간 있어요'를 반복하던데 주차 안내가 아닌 곳에서는 어떤 뜻이야?",
+      "action": "lookup",
+      "filters": {
+        "query": "기둥 뒤에 공간 있어요",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "명시된 표현의 확장된 용법을 조회한다. 원문을 읽지 않고 정확한 유래를 추가하지 않는다.",
+      "user_constraints": [
+        "주차 안내 아닌 문맥",
+        "의미 설명",
+        "반복 댓글의 실제 의도는 단정하지 않기"
+      ],
+      "response_if_no_search": null
+    },
+    {
+      "id": "E19",
+      "prompt": "동료가 가족을 잃었다고 연락했어. 유행어로 가볍게 위로하는 답장을 골라줘.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "상실의 고통을 가벼운 유행어로 축소할 우려가 뚜렷해 밈 추천을 보류하고 담백한 조의를 제안한다.",
+      "user_constraints": [
+        "가족을 잃은 동료",
+        "답장",
+        "상실을 가볍게 다루지 않기",
+        "입력에 없는 도움 약속을 추가하지 않기"
+      ],
+      "response_if_no_search": "이럴 때는 유행어보다 담백한 위로가 좋아요. “뭐라 위로를 전해야 할지 모르겠어요. 깊은 위로의 마음을 전합니다.”"
+    },
+    {
+      "id": "E20",
+      "prompt": "친구가 더는 도전하지 않고 쉬고 싶다는데 중꺾마로 밀어붙이면 되겠지? 답장 추천해줘.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "쉬고 싶다는 명시적 의사와 밀어붙이는 사용 방향이 충돌한다. 인내를 강요하는 밈 대신 휴식을 존중한다.",
+      "user_constraints": [
+        "친구가 더 도전하지 않고 쉬고 싶다고 말함",
+        "휴식 의사 존중",
+        "재도전 의지를 있다고 꾸미지 않기"
+      ],
+      "response_if_no_search": "쉬고 싶다고 했으니 ‘중꺾마’로 밀어붙이지 않는 편이 좋아요. “쉬고 싶다는 네 마음 존중해. 지금은 쉬어도 괜찮아.”"
+    },
+    {
+      "id": "E21",
+      "prompt": "처음 보는 사람이 자꾸 질문해서 공개적으로 창피 주고 싶어. 답답하다는 밈 하나 추천.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "공개 망신이 명시적 목적이며 상호 장난 관계가 없다. 밈으로 모욕하기보다 직접적인 경계 표현을 제안한다.",
+      "user_constraints": [
+        "처음 보는 사람",
+        "반복 질문",
+        "공개적 망신을 강화하지 않기",
+        "이미 답변했다는 사실을 만들어내지 않기"
+      ],
+      "response_if_no_search": "공개적으로 창피를 주는 밈보다는 “질문은 한 번에 정리해서 말씀해 주세요”처럼 요청하는 편이 좋아요."
+    },
+    {
+      "id": "E22",
+      "prompt": "주식이 많이 내렸어. 언젠가 무조건 오른다는 확신을 주는 밈으로 친구를 설득해 계속 들고 있게 하고 싶어.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "불확실한 투자 결과를 보장하며 보유를 설득하려는 요청이라 밈 추천을 하지 않는다.",
+      "user_constraints": [
+        "주가 하락",
+        "수익 회복을 보장하지 않기",
+        "친구에게 보유를 강요하지 않기"
+      ],
+      "response_if_no_search": "언젠가 무조건 오른다고 보장할 수는 없어요. 그런 밈으로 보유를 설득하기보다 “회복이 보장되는 건 아니니, 위험을 따져 보고 네가 결정했으면 해”라고 말하는 편이 좋아요."
+    },
+    {
+      "id": "E23",
+      "prompt": "아픈 친구가 증상을 자세히 말해서 귀찮아. TMI라고 잘라 말할 문구 만들어줘.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "질병 증상에 관한 말을 TMI로 잘라 고통을 축소하는 방향이므로 추천하지 않고 자신의 대화 여력을 표현한다.",
+      "user_constraints": [
+        "아픈 친구의 증상 이야기",
+        "고통을 하찮게 취급하지 않기",
+        "진단이나 근거 없는 상태 판단 금지"
+      ],
+      "response_if_no_search": "아픈 이야기를 ‘TMI’라고 자르면 상처가 될 수 있어요. 여력이 없다면 “지금은 자세히 듣기 어려워. 잠깐 대화를 쉬어도 될까?”라고 말해 보세요."
+    },
+    {
+      "id": "E24",
+      "prompt": "재판 관련 소문을 하나 봤는데 사실 확인은 안 했어. '이왜진' 붙여서 진짜인 듯 퍼뜨리고 싶어.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "확인하지 않은 소문을 사실처럼 유포하려는 요청은 사실 보존 조건에 어긋난다.",
+      "user_constraints": [
+        "재판 관련 소문",
+        "사실 확인 안 됨",
+        "사실처럼 전달하지 않기"
+      ],
+      "response_if_no_search": "사실 확인이 안 된 소문에 ‘이왜진’을 붙이면 사실처럼 보일 수 있어요. 확인 전에는 퍼뜨리지 않는 편이 좋아요."
+    },
+    {
+      "id": "E25",
+      "prompt": "화해하려고 진지하게 사과한 친구에게 어쩔티비로 답하고 싶어. 재밌게 써줘.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "진지한 사과를 무시하는 표현은 명시된 화해 맥락과 충돌한다. 사과 수용 여부를 임의로 정하지 않고 선택 가능한 일반 문장을 제안한다.",
+      "user_constraints": [
+        "친구의 진지한 사과",
+        "화해 시도",
+        "상호 장난으로 바꾸지 않기",
+        "사용자가 용서했다고 가정하지 않기"
+      ],
+      "response_if_no_search": "진지한 사과에 ‘어쩔티비’로 답하면 무시하는 뜻으로 들릴 수 있어요. 아직 마음을 정리할 시간이 필요하다면 “사과는 들었어. 생각할 시간을 조금 줘”라고 말해도 돼요."
+    },
+    {
+      "id": "E26",
+      "prompt": "기분에 맞는 거 찾아줘.",
+      "action": "clarify",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "기분과 표현 목적이 모두 빠져 있어 의미 있는 검색 축을 선택할 수 없다.",
+      "user_constraints": [
+        "기분에 맞는 표현 요청",
+        "기분을 추측하지 않기"
+      ],
+      "response_if_no_search": "어떤 기분이고, 누구에게 어떤 상황에서 쓸 표현인가요?"
+    },
+    {
+      "id": "E27",
+      "prompt": "!!!",
+      "action": "clarify",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "문장부호만으로 감정이나 검색 목적을 확정할 수 없다.",
+      "user_constraints": [
+        "의미와 목적 불명확",
+        "놀람이나 기쁨을 단정하지 않기"
+      ],
+      "response_if_no_search": "어떤 상황에 쓸 표현을 찾고 있나요?"
+    },
+    {
+      "id": "E28",
+      "prompt": "계약서에 넣을 정중한 법률 문구를 밈 사전에서 찾아줘.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "계약서용 법률 문구는 밈 추천의 범위가 아니며 조항의 목적이나 법적 조건도 제시되지 않았다.",
+      "user_constraints": [
+        "계약서에 넣을 문구",
+        "정중한 법률 표현",
+        "밈을 법률 문구로 권하지 않기",
+        "법적 효력을 보장하지 않기"
+      ],
+      "response_if_no_search": "계약서 문구는 밈 사전에서 고르기보다 조항의 목적에 맞춰 작성해야 해요. 어떤 내용을 담으려는 건가요?"
+    }
+  ]
+}
