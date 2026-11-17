@@ -1,0 +1,382 @@
+{
+  "batch": "recent-wave16",
+  "base_commit": "c4d35db9261434be67a6e83474cd8a79237ff4f3",
+  "candidate_review_count": 30,
+  "sourceentries": [
+    {
+      "slug": "heum-jom-mu",
+      "title": "흠좀무",
+      "path": "memes/heum-jom-mu.md",
+      "evidence": [
+        {
+          "url": "https://www.dspress.org/news/articleView.html?idxno=2079",
+          "publisher": "덕성여대신문",
+          "published_date": "2008-03-15",
+          "access": "direct_body",
+          "support": "신조어 목록과 풀이에서 무섭다는 반응의 축약형을 확인. 풀이에는 네이버 오픈사전 참조가 명시되어 있다.",
+          "independent_group": "네이버 오픈사전 참조/덕성여대신문"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/200809171756005",
+          "publisher": "경향신문",
+          "published_date": "2008-09-17",
+          "access": "direct_body",
+          "support": "문장 축약의 예로 뜻을 풀어 설명한다.",
+          "independent_group": "경향신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 직접 본문에서 정의와 국내 사용 확인.",
+      "review_note": "독립 편집 검토 대기. 최신661 전체 제목·별칭 비교 일치 없음.",
+      "source_limits": "최초 게시물·정확한 발생 시점과 현재 유행 규모는 확인하지 않았다."
+    },
+    {
+      "slug": "jeongjulnoh",
+      "title": "정줄놓",
+      "path": "memes/jeongjulnoh.md",
+      "evidence": [
+        {
+          "url": "https://www.dspress.org/news/articleView.html?idxno=2079",
+          "publisher": "덕성여대신문",
+          "published_date": "2008-03-15",
+          "access": "direct_body",
+          "support": "정신줄을 놓았다는 축약형 풀이를 제시. 네이버 오픈사전 참조를 밝힌다.",
+          "independent_group": "네이버 오픈사전 참조/덕성여대신문"
+        },
+        {
+          "url": "https://www.gjnews.com/news/view.php?idx=52794",
+          "publisher": "경주신문",
+          "published_date": "2017-03-30",
+          "access": "direct_body",
+          "support": "청소년이 사용하는 줄임말 목록에 정줄놓을 직접 언급한다. 상세 의미는 별도 풀이 출처로 보완했다.",
+          "independent_group": "경주신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 직접 본문에서 정의와 국내 사용 확인.",
+      "review_note": "독립 편집 검토 대기. 최신661 전체 제목·별칭 비교 일치 없음.",
+      "source_limits": "두 번째 출처는 사용 관찰만 지지한다. 최초 기원·의학적 의미는 확인하지 않았다."
+    },
+    {
+      "slug": "solkkamal",
+      "title": "솔까말",
+      "path": "memes/solkkamal.md",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/200809171756005",
+          "publisher": "경향신문",
+          "published_date": "2008-09-17",
+          "access": "direct_body",
+          "support": "솔직히 까놓고 말해서라는 풀이를 제시한다.",
+          "independent_group": "경향신문"
+        },
+        {
+          "url": "https://www.gjnews.com/news/view.php?idx=52794",
+          "publisher": "경주신문",
+          "published_date": "2017-03-30",
+          "access": "direct_body",
+          "support": "솔직하게 말한다는 문장 축약을 신조어 사례로 소개한다.",
+          "independent_group": "경주신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 직접 본문에서 정의와 국내 사용 확인.",
+      "review_note": "독립 편집 검토 대기. 최신661 전체 제목·별칭 비교 일치 없음.",
+      "source_limits": "최초 게시물·정확한 발생 시점과 현재 유행 규모는 확인하지 않았다."
+    },
+    {
+      "slug": "neomsabyeok",
+      "title": "넘사벽",
+      "path": "memes/neomsabyeok.md",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/200809171756005",
+          "publisher": "경향신문",
+          "published_date": "2008-09-17",
+          "access": "direct_body",
+          "support": "비교할 때 더 뛰어난 쪽의 수준을 과장하는 뜻을 명시한다.",
+          "independent_group": "경향신문"
+        },
+        {
+          "url": "https://www.yna.co.kr/view/AKR20161006015600033",
+          "publisher": "연합뉴스",
+          "published_date": "2016-10-06",
+          "access": "direct_body",
+          "support": "방송의 실제 소개 문구와 독보적이라는 뜻을 설명한다.",
+          "independent_group": "연합뉴스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 직접 본문에서 정의와 국내 사용 확인.",
+      "review_note": "독립 편집 검토 대기. 최신661 전체 제목·별칭 비교 일치 없음.",
+      "source_limits": "최초 게시물·정확한 발생 시점과 현재 유행 규모는 확인하지 않았다."
+    },
+    {
+      "slug": "eomchina",
+      "title": "엄친아",
+      "path": "memes/eomchina.md",
+      "evidence": [
+        {
+          "url": "https://www.mk.co.kr/news/contributors/4521737",
+          "publisher": "매일경제",
+          "published_date": "2008-12-14",
+          "access": "direct_body",
+          "support": "엄친아의 축약과 부모의 비교 대상으로 반복 등장하는 맥락을 설명한다.",
+          "independent_group": "매일경제"
+        },
+        {
+          "url": "https://sports.khan.co.kr/article/201103201710003",
+          "publisher": "스포츠경향",
+          "published_date": "2011-03-20",
+          "access": "direct_body",
+          "support": "엄친아을 비교될 만큼 뛰어난 사람을 가리키는 표현으로 소개한다.",
+          "independent_group": "스포츠경향"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 직접 본문에서 정의와 국내 사용 확인.",
+      "review_note": "독립 편집 검토 대기. 최신661 전체 제목·별칭 비교 일치 없음.",
+      "source_limits": "최초 게시물·정확한 발생 시점과 현재 유행 규모는 확인하지 않았다."
+    },
+    {
+      "slug": "eomchinttal",
+      "title": "엄친딸",
+      "path": "memes/eomchinttal.md",
+      "evidence": [
+        {
+          "url": "https://www.mk.co.kr/news/contributors/4521737",
+          "publisher": "매일경제",
+          "published_date": "2008-12-14",
+          "access": "direct_body",
+          "support": "엄친딸의 축약과 부모의 비교 대상으로 반복 등장하는 맥락을 설명한다.",
+          "independent_group": "매일경제"
+        },
+        {
+          "url": "https://sports.khan.co.kr/article/201103201710003",
+          "publisher": "스포츠경향",
+          "published_date": "2011-03-20",
+          "access": "direct_body",
+          "support": "엄친딸을 비교될 만큼 뛰어난 사람을 가리키는 표현으로 소개한다.",
+          "independent_group": "스포츠경향"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 직접 본문에서 정의와 국내 사용 확인.",
+      "review_note": "독립 편집 검토 대기. 최신661 전체 제목·별칭 비교 일치 없음.",
+      "source_limits": "최초 게시물·정확한 발생 시점과 현재 유행 규모는 확인하지 않았다."
+    },
+    {
+      "slug": "chadonam",
+      "title": "차도남",
+      "path": "memes/chadonam.md",
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/amp/view/AKR20101211049600005",
+          "publisher": "연합뉴스",
+          "published_date": "2010-12-16",
+          "access": "direct_body",
+          "support": "차가운 도시 남자라는 풀이와 드라마 캐릭터의 사용을 설명한다.",
+          "independent_group": "연합뉴스"
+        },
+        {
+          "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20110114.22034185821",
+          "publisher": "국제신문",
+          "published_date": "2011-01-13",
+          "access": "direct_body",
+          "support": "인물의 차가운 도시 이미지와 축약형을 설명한다.",
+          "independent_group": "국제신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 직접 본문에서 정의와 국내 사용 확인.",
+      "review_note": "독립 편집 검토 대기. 최신661 전체 제목·별칭 비교 일치 없음.",
+      "source_limits": "기원 귀속이 기사마다 달라 특정 인물·작품을 최초 원조로 단정하지 않았다."
+    },
+    {
+      "slug": "ttadonam",
+      "title": "따도남",
+      "path": "memes/ttadonam.md",
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/amp/view/AKR20101211049600005",
+          "publisher": "연합뉴스",
+          "published_date": "2010-12-16",
+          "access": "direct_body",
+          "support": "따뜻한 도시 남자라는 뜻과 차도남의 관련 표현으로 제시한다.",
+          "independent_group": "연합뉴스"
+        },
+        {
+          "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20110114.22034185821",
+          "publisher": "국제신문",
+          "published_date": "2011-01-13",
+          "access": "direct_body",
+          "support": "캐릭터가 다정하게 행동하는 모습에 붙이는 용법을 설명한다.",
+          "independent_group": "국제신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 직접 본문에서 정의와 국내 사용 확인.",
+      "review_note": "독립 편집 검토 대기. 최신661 전체 제목·별칭 비교 일치 없음.",
+      "source_limits": "최초 게시물·정확한 발생 시점과 현재 유행 규모는 확인하지 않았다."
+    },
+    {
+      "slug": "kkadonam",
+      "title": "까도남",
+      "path": "memes/kkadonam.md",
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/amp/view/AKR20101211049600005",
+          "publisher": "연합뉴스",
+          "published_date": "2010-12-16",
+          "access": "direct_body",
+          "support": "까칠한 도시 남자라는 풀이와 드라마 캐릭터 사용을 제시한다.",
+          "independent_group": "연합뉴스"
+        },
+        {
+          "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20110114.22034185821",
+          "publisher": "국제신문",
+          "published_date": "2011-01-13",
+          "access": "direct_body",
+          "support": "두 가지 풀어쓴 형태와 냉소적·도도한 캐릭터의 묘사 용법을 설명한다.",
+          "independent_group": "국제신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 직접 본문에서 정의와 국내 사용 확인.",
+      "review_note": "독립 편집 검토 대기. 최신661 전체 제목·별칭 비교 일치 없음.",
+      "source_limits": "최초 게시물·정확한 발생 시점과 현재 유행 규모는 확인하지 않았다."
+    },
+    {
+      "slug": "noeseknam",
+      "title": "뇌섹남",
+      "path": "memes/noeseknam.md",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201501251425471/amp",
+          "publisher": "경향신문",
+          "published_date": "2015-01-25",
+          "access": "direct_body",
+          "support": "개성 있는 생각이 매력적이라는 풀이와 방송 기획의 사용을 설명한다.",
+          "independent_group": "경향신문"
+        },
+        {
+          "url": "https://dbr.donga.com/article/view/1303/article_no/7683",
+          "publisher": "DBR",
+          "published_date": "2016-07",
+          "access": "direct_body",
+          "support": "도입부에서 축약형을 풀고 지적 능력에 대한 칭찬으로 사용한다. 필자의 세부 능력 기준은 보편 정의로 옮기지 않았다.",
+          "independent_group": "동아일보"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 직접 본문에서 정의와 국내 사용 확인.",
+      "review_note": "독립 편집 검토 대기. 최신661 전체 제목·별칭 비교 일치 없음.",
+      "source_limits": "최초 게시물·정확한 발생 시점과 현재 유행 규모는 확인하지 않았다."
+    },
+    {
+      "slug": "goqual",
+      "title": "고퀄",
+      "path": "memes/goqual.md",
+      "evidence": [
+        {
+          "url": "https://www.allurekorea.com/2012/11/21/신조어-사전/",
+          "publisher": "얼루어 코리아",
+          "published_date": "2012-11-21",
+          "access": "direct_body",
+          "support": "고 퀄리티의 줄임말이라고 설명한다.",
+          "independent_group": "얼루어 코리아"
+        },
+        {
+          "url": "https://www.yna.co.kr/amp/view/AKR20150421162400033",
+          "publisher": "연합뉴스",
+          "published_date": "2015-04-22",
+          "access": "direct_body",
+          "support": "피규어를 평가하는 SNS 표현으로 고퀄을 직접 설명한다. 보도된 수치나 인과관계는 옮기지 않았다.",
+          "independent_group": "연합뉴스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "서로 다른 발행 주체의 직접 본문에서 정의와 국내 사용 확인.",
+      "review_note": "독립 편집 검토 대기. 최신661 전체 제목·별칭 비교 일치 없음.",
+      "source_limits": "최초 게시물·정확한 발생 시점과 현재 유행 규모는 확인하지 않았다."
+    }
+  ],
+  "held": [
+    {
+      "title": "흑역사",
+      "reason": "설명 기사·학술 후보는 찾았으나 독립된 두 본문 검증 미완료"
+    },
+    {
+      "title": "훈남",
+      "reason": "뜻의 변화에 관한 칼럼·공공 자료 후보 확보, 두 본문 검증 미완료"
+    },
+    {
+      "title": "훈녀",
+      "reason": "훈남 관련어이나 별도 의미 변화 확인 및 두 본문 검증 미완료"
+    },
+    {
+      "title": "츤데레",
+      "reason": "연합뉴스 직접 본문 확인, 한국경제 본문 접근 차단으로 독립 두번째 부족"
+    },
+    {
+      "title": "대인배",
+      "reason": "국립국어원·언론 설명 검색 확보, 인터넷 고유 맥락과 두 직접본문 확인 미완료"
+    },
+    {
+      "title": "소인배",
+      "reason": "기존 일반어와 인터넷 표현의 구분 불충분"
+    },
+    {
+      "title": "병맛",
+      "reason": "비하성 어원·콘텐츠 양식 범위의 별도 검토 필요"
+    },
+    {
+      "title": "잉재",
+      "reason": "얼루어 1본문 확보, 독립 두번째 부족"
+    },
+    {
+      "title": "저퀄",
+      "reason": "언론 풀이 후보 1개, 두 독립본문 미확인"
+    },
+    {
+      "title": "망캐",
+      "reason": "일반 게임 용어와 인물 비하 용법의 범위 및 두번째 근거 미확인"
+    },
+    {
+      "title": "만렙",
+      "reason": "공공 조사·강의 자료 검색 확보, 게임 용어와 비유 용법 검증 미완료"
+    },
+    {
+      "title": "쪼렙",
+      "reason": "축약형 유래 풀이가 자료마다 달라 본문 검증 미완료"
+    },
+    {
+      "title": "득도",
+      "reason": "일반 종교어와 독립 밈 용법 구분 근거 부족"
+    },
+    {
+      "title": "광클",
+      "reason": "연합뉴스 본문 확인, 조선일보 본문 추출 실패로 두번째 근거 미확보"
+    },
+    {
+      "title": "자삭",
+      "reason": "독립 두 출처 본문 및 밈 범위 미확인"
+    },
+    {
+      "title": "폭풍성장",
+      "reason": "생산적인 강조 표현으로 독립 표제 경계와 두본문 미확인"
+    },
+    {
+      "title": "폭풍눈물",
+      "reason": "기존 롬곡 계열과 관계 및 독립 표제 경계 확인 필요"
+    },
+    {
+      "title": "폭풍흡입",
+      "reason": "생산적인 강조 표현으로 독립 표제 경계와 두본문 미확인"
+    },
+    {
+      "title": "짜응",
+      "reason": "표기·어원 및 두 독립본문 미확인"
+    }
+  ]
+}
