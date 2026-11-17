@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave15",
+  "status": "ready_for_independent_editorial_review",
+  "created_at": "2026-11-17",
+  "base_ref": "7658aca207fac6f6f25b1699600c9f9afa5c88b7",
+  "counts": {
+    "explicit_candidate_scope": 5,
+    "ready": 3,
+    "held": 2,
+    "index_count": 814
+  },
+  "discovery": "기존 대한민국 미러 기반 대장 중 정규화 연결 미확인 517행에서 5행만 명시 선별. 517을 미조사 수로 주장하지 않음.",
+  "entries": [
+    {
+      "entry_id": "acceptance-necklace",
+      "title": "그에게 주어지는 합격 목걸이",
+      "ledger_id": "kr-list-0249",
+      "path": "memes/acceptance-necklace.md",
+      "source_sha": "5b53f74464614dc02ac11975ef50db7052465cdd",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 발행 주체의 관련 직접 본문으로 국내 표현/재사용 형식을 확인. 원미디어 직접 열람과 구분.",
+      "sources": [
+        {
+          "publisher": "HSAD",
+          "url": "https://blog.hsad.co.kr/3301?category=1034380",
+          "published_at": "2022-11-10",
+          "supports": "재미있는 드립 성공에 합격 목걸이 짤을 쓰는 기능 설명.",
+          "limitations": "원방송 직접 재생 아님. 본문 문구의 조사 오기는 그대로 옮기지 않음.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        },
+        {
+          "publisher": "고구마팜",
+          "url": "https://gogumafarm.kr/트렌드가-바뀌어도-살아남은-고전-인기-밈-총정리-이/",
+          "published_at": "2025-04-02",
+          "supports": "쇼미더머니 목걸이 장면과 창의적 결과물에 대한 인정·찬사 설명.",
+          "limitations": "브랜드 답변 예시는 매체의 편집 제안으로 실제 소비자 발화가 아님.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        }
+      ],
+      "limitations": [
+        "최초 제작자·발생일·현재 유행 규모 미확정.",
+        "기사의 예문·편집 해설과 원게시물 직접 확인을 구분.",
+        "자체 예문이며 기사 문장 복사 아님."
+      ],
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "yumeiro-patissiere-challenge",
+      "title": "꿈빛 파티시엘 챌린지",
+      "ledger_id": "kr-list-0282",
+      "path": "memes/yumeiro-patissiere-challenge.md",
+      "source_sha": "f9d022cf18ef88afefe4e0358d7845af532fcf5f",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 발행 주체의 관련 직접 본문으로 국내 표현/재사용 형식을 확인. 원미디어 직접 열람과 구분.",
+      "sources": [
+        {
+          "publisher": "코스모폴리탄 코리아",
+          "url": "https://www.cosmopolitan.co.kr/article/61754",
+          "published_at": "2021-12-03",
+          "supports": "오프닝곡에 맞춘 율동 형식과 여러 국내 가수 참여를 직접 설명.",
+          "limitations": "Daum 동일 기사도 읽었으나 한 publisher로 계산. 영상 직접 재생 아님.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        },
+        {
+          "publisher": "인사이트",
+          "url": "https://www.insight.co.kr/news/370051",
+          "published_at": "2021-11-27",
+          "supports": "틱톡 챌린지와 아이유의 라이브·댄스 참여 보도.",
+          "limitations": "학생 창작자 신상·최초 기원은 수록하지 않음. 원영상 직접 재생 아님.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        }
+      ],
+      "limitations": [
+        "최초 제작자·발생일·현재 유행 규모 미확정.",
+        "기사의 예문·편집 해설과 원게시물 직접 확인을 구분.",
+        "자체 예문이며 기사 문장 복사 아님."
+      ],
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "i-really-like-this-story",
+      "title": "나는 이 이야기를 무척 좋아한다",
+      "ledger_id": "kr-list-0293",
+      "path": "memes/i-really-like-this-story.md",
+      "source_sha": "58c9a86bc0fee62e084b6be45a46ae78f9bb7435",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 발행 주체의 관련 직접 본문으로 국내 표현/재사용 형식을 확인. 원미디어 직접 열람과 구분.",
+      "sources": [
+        {
+          "publisher": "퀘이사존",
+          "url": "https://quasarzone.com/bbs/qc_game/views/20343?page=12",
+          "published_at": null,
+          "supports": "게임 기사 본문에서 해당 문장과 옹동스의 연결, 밈으로 재사용되는 현상을 설명.",
+          "limitations": "이미지 경로의 날짜를 기사 발행일로 추정하지 않음. 원웹툰·게임 직접 실행 검증 아님.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        },
+        {
+          "publisher": "아시아투데이",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20250513010005528",
+          "published_at": "2025-05-13",
+          "supports": "온라인에서 문장 속 대상을 바꾼 풍자 형식의 사용을 기자 칼럼이 직접 설명.",
+          "limitations": "민감 사건·개인정보 내용은 본문이나 예문에 재현하지 않음. 원게시물 직접 확인 아님.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        }
+      ],
+      "limitations": [
+        "최초 제작자·발생일·현재 유행 규모 미확정.",
+        "기사의 예문·편집 해설과 원게시물 직접 확인을 구분.",
+        "자체 예문이며 기사 문장 복사 아님."
+      ],
+      "usage_status": "not_annotated"
+    }
+  ],
+  "held": [
+    {
+      "ledger_id": "kr-list-0270",
+      "title": "깨어나세요, 용사여!",
+      "reason": "위키 미러와 파생 설명 외 해당 형식의 두 독립 직접 본문 미확보. 학생 사진·신상은 복제하지 않음."
+    },
+    {
+      "ledger_id": "kr-list-0289",
+      "title": "나노머신 썬",
+      "reason": "개인 해설 1곳과 위키·영상 메타 중심으로 두 독립 직접 본문 미달. 성적 영상 차단 파생은 이번 범위에서 제외."
+    }
+  ],
+  "duplicate_check": {
+    "title_alias_search": "합격/목걸이/꿈빛/파티시엘/나노머신/용사여/이 이야기를 변형 검색",
+    "index_count": 814,
+    "title_alias_matches": [],
+    "manifest_history": "고정 ref 65개 source manifest의 해당 제목 변형 일치 없음; 미조사 자체의 확정은 아님.",
+    "tree_path_matches": [],
+    "pilot_slug_matches": []
+  },
+  "verification": {
+    "ci_run": false,
+    "main_changed": false,
+    "pr37_changed": false,
+    "ledger_changed": false,
+    "usage_changed": false,
+    "generated_artifacts": false
+  }
+}
