@@ -3,7 +3,7 @@
   "batch": "bulk-2021-2023-wave3",
   "baseline_commit": "b721743fe2f66a7e61558782b009a92d096dba4b",
   "reviewed_at": "2026-11-17",
-  "canonical_files_written": 3,
+  "canonical_files_written": 6,
   "ci_status": "not_run",
   "review_method": "AI 직접 본문 대조·독자적 초안. 두 publisher별 근거 역할 구분. 원영상 재생·인간 검증·추천 승인 아님.",
   "entries": [
@@ -120,6 +120,121 @@
         "팬암 홍보자료 전재 여러 건을 별도 독립 근거로 세지 않음",
         "기존 cannot-resist 본문을 직접 읽고 일반 반응 문구와 영상 형식을 분리",
         "원영상 직접 재생 아님"
+      ]
+    },
+    {
+      "id": "geu-japchae",
+      "title": "그 잡채",
+      "path": "memes/geu-japchae.md",
+      "aliases": [
+        "그잡채"
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "2022~2023년 국내 기사 본문의 정의와 다른 publisher의 별도 사용·풀이 대조.",
+      "source_urls": [
+        {
+          "url": "https://weekly.donga.com/culture/article/all/11/3729742/1",
+          "publisher": "주간동아",
+          "published_date": "2022-11-01",
+          "access": "direct_body",
+          "supports": "본문103~105에서 뜻과 영상/홍보 사용 확인. 지면 호수일 10월28일과 웹 입력일 11월1일 구별.",
+          "independent_group": "주간동아"
+        },
+        {
+          "url": "https://www.koreajoongangdaily.com/korea/think-english-yojeumdaehwa-sajeon-ep1-geu-jabchae-seubuljae-gongjohka/11828301",
+          "publisher": "Korea JoongAng Daily",
+          "published_date": "2022-12-15",
+          "access": "direct_body",
+          "supports": "본문134~141 말장난 원리와 황당함 표현 예시 확인.",
+          "independent_group": "Korea JoongAng Daily"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "baseline_entries": 403,
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "c81081d45d6ccb83c761402c5e21911c1f3fa318",
+        "pilot_state_blob_sha": "603cd142c14f318c2b1db807c30851768ab8d5a4"
+      },
+      "limitations": [
+        "최초 사용연도 단정 없음",
+        "긍정 전용 표현으로 오정의하지 않음"
+      ]
+    },
+    {
+      "id": "baribarista",
+      "title": "바리바리스타",
+      "path": "memes/baribarista.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2022~2023년 국내 기사 본문의 정의와 다른 publisher의 별도 사용·풀이 대조.",
+      "source_urls": [
+        {
+          "url": "https://www.xportsnews.com/article/1569114",
+          "publisher": "엑스포츠뉴스",
+          "published_date": "2022-05-08",
+          "access": "direct_body",
+          "supports": "본문115~118 가방에 든 물건이 많다는 말장난, 명시적으로 가상의 글. 실제 배우 일화로 쓰지 않음.",
+          "independent_group": "엑스포츠뉴스"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/202306122109025",
+          "publisher": "경향신문",
+          "published_date": "2023-06-12",
+          "access": "direct_body",
+          "supports": "본문 사진 설명253~254: 수업자료를 들고 이동하는 교사에게 붙은 별명. 원문 현장보도.",
+          "independent_group": "경향신문"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "baseline_entries": 403,
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "c81081d45d6ccb83c761402c5e21911c1f3fa318",
+        "pilot_state_blob_sha": "603cd142c14f318c2b1db807c30851768ab8d5a4"
+      },
+      "limitations": [
+        "인물의 실제 성격·연애심리 추론 없음",
+        "기사 속 가상 직장 대사 전문을 복제하지 않음",
+        "직업 바리스타와 분리"
+      ]
+    },
+    {
+      "id": "laughter-spoon",
+      "title": "웃수저",
+      "path": "memes/laughter-spoon.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2022~2023년 국내 기사 본문의 정의와 다른 publisher의 별도 사용·풀이 대조.",
+      "source_urls": [
+        {
+          "url": "https://www.sportsworldi.com/newsView/20220919503775",
+          "publisher": "스포츠월드",
+          "published_date": "2022-09-19",
+          "access": "direct_body",
+          "supports": "본문87 뜻풀이와 예능 발언 사례 확인. 다른 연예매체 전재를 별도 근거로 세지 않음.",
+          "independent_group": "스포츠월드"
+        },
+        {
+          "url": "https://www.joongang.co.kr/article/25052514",
+          "publisher": "중앙일보",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "본문36~37 팬덤 투표 및 주변에 웃음을 주는 사람 의미 확인. 렌더링된 입력일 값이 비어 정확 발행일 미기록.",
+          "independent_group": "중앙일보"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "baseline_entries": 403,
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "c81081d45d6ccb83c761402c5e21911c1f3fa318",
+        "pilot_state_blob_sha": "603cd142c14f318c2b1db807c30851768ab8d5a4"
+      },
+      "limitations": [
+        "타고난 유머 재능을 실증하는 자료 아님",
+        "공개 데이터셋의 행운 의미와 기원 설명은 본문과 불일치해 채택하지 않음",
+        "중앙일보 정확 날짜 null; 2022년 범위는 스포츠월드 명시일 근거"
       ]
     }
   ],
