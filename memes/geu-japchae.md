@@ -1,0 +1,22 @@
+---
+tags: []
+---
+
+# 그 잡채
+
+‘그 자체’를 음식 이름으로 바꾸어 어떤 특징을 장난스럽게 강조하는 말.
+
+## 뜻풀이
+
+말하고 싶은 특성 뒤에 붙여 그 특성이 두드러진다고 표현한다. ‘자체’와 ‘잡채’의 비슷한 소리를 이용한 말장난이며 실제 음식 이야기는 아니다. 칭찬뿐 아니라 황당함 같은 부정적인 평가에도 붙일 수 있어, 앞에 오는 말에 따라 뜻과 분위기가 달라진다.
+
+> 예시(창작): 오늘 플레이리스트는 포근함 그 잡채야.
+
+## 유래와 확산
+
+주간동아는 2022년 11월 기사에서 영상 제목·자막과 회사 프로모션에 이 표현이 쓰인다고 설명했다. Korea JoongAng Daily는 같은 해 12월 한국 인터넷 유행어를 소개하면서 단어를 바꾸는 원리와 사용 예를 제시했다.
+
+- [주간동아 (2022-11-01)](https://weekly.donga.com/culture/article/all/11/3729742/1)
+- [Korea JoongAng Daily (2022-12-15)](https://www.koreajoongangdaily.com/korea/think-english-yojeumdaehwa-sajeon-ep1-geu-jabchae-seubuljae-gongjohka/11828301)
+
+[기본 수록 목록](../collections/pilot-30.md)
