@@ -1,0 +1,51 @@
+{
+  "base": "25733d983cf0f3279a7dacf67ac447f544b00cca",
+  "canonical_before": 890,
+  "canonical_after": 891,
+  "accepted": [
+    "ganbare-three-panel-challenge"
+  ],
+  "explicit_queries": [
+    "간바레",
+    "간바",
+    "ganbare",
+    "3분할",
+    "세칸",
+    "頑張",
+    "오다마요네즈",
+    "힘내",
+    "저격",
+    "폴라베어",
+    "북극곰",
+    "분실물",
+    "핸드폰",
+    "소시지",
+    "경찰과도둑",
+    "응원"
+  ],
+  "source_urls": [
+    "https://sports.khan.co.kr/article/202603311829003/",
+    "https://dafanew.com/Interview/?idx=171147348&bmode=view",
+    "https://letter.wepick.kr/post/24475"
+  ],
+  "dedup": {
+    "new": "7개 관련 표현 890 index 무일치",
+    "distinct": [
+      "super-power는 발음과 대사 패러디",
+      "taste-hit는 취향 표현"
+    ],
+    "held": [
+      "폴라베어·북극곰: 한국 실제사용 근거 부족",
+      "분실물·핸드폰: 단일 캠페인",
+      "소시지: 상품/인물 화제",
+      "경찰과도둑: 놀이 유행이며 이번 편집 형식과 별개"
+    ]
+  },
+  "limits": [
+    "원영상 미시청",
+    "최초·조회수 미확정",
+    "스포츠경향 명단 중 이름 오류 가능성 있어 범규만 예시",
+    "위픽 산업별 가상 활용안은 실제사례 제외",
+    "Python/CI 미실행"
+  ]
+}

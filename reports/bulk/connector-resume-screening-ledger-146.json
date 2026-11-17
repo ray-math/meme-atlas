@@ -36,10 +36,11 @@
     "reports/bulk/connector-resume-b179.json",
     "reports/bulk/connector-resume-c180.json",
     "reports/bulk/connector-resume-holds181.json",
-    "reports/bulk/connector-resume-c182.json"
+    "reports/bulk/connector-resume-c182.json",
+    "reports/bulk/connector-resume-a183.json"
   ],
-  "query_observations": 575,
-  "distinct_literal_queries": 465,
+  "query_observations": 591,
+  "distinct_literal_queries": 481,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3116,6 +3117,86 @@
     {
       "query": "다이죠브",
       "source": "reports/bulk/connector-resume-c182.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "간바레",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "간바",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "ganbare",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "3분할",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "세칸",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "頑張",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오다마요네즈",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "힘내",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "저격",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "폴라베어",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "북극곰",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "분실물",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "핸드폰",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "소시지",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "경찰과도둑",
+      "source": "reports/bulk/connector-resume-a183.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "응원",
+      "source": "reports/bulk/connector-resume-a183.json",
       "status": "screened-see-report"
     }
   ],

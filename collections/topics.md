@@ -893,6 +893,7 @@
 - [ET춤](../memes/jewelry-et-dance.md)
 - [PPAP](../memes/ppap.md)
 - [간 때문이야](../memes/gan-because.md)
+- [간바레 챌린지](../memes/ganbare-three-panel-challenge.md)
 - [강남스타일 말춤](../memes/gangnam-horse-dance.md)
 - [골든이여라](../memes/golden-iyeora.md)
 - [골반이 멈추지 않아](../memes/pelvis-wont-stop.md)
@@ -966,6 +967,7 @@
 ## 인터넷
 
 - [○○ 와졌어](../memes/ended-up-here.md)
+- [간바레 챌린지](../memes/ganbare-three-panel-challenge.md)
 - [그럼 다음은 무조건 ○○겠지](../memes/next-trend-wish-template.md)
 - [꿍싯꿍싯 챌린지](../memes/kkungsit-kkungsit-challenge.md)
 - [나무 챌린지](../memes/tree-flailing-challenge.md)
