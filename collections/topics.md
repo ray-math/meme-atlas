@@ -810,6 +810,7 @@
 - [이거 제 이모지야](../memes/my-emoji.md)
 - [장원영 ○○](../memes/wonyoung-praise.md)
 - [진행시켜](../memes/jinhaeng-sikyeo.md)
+- [항준적 사고](../memes/hangjun-thinking.md)
 - [행쇼](../memes/haengshow.md)
 
 ## 영화
@@ -985,6 +986,7 @@
 - [일하는 중에 갑자기 몸이 안 좋아졌어요](../memes/suddenly-sick-fan-trip.md)
 - [젓가락 워킹](../memes/chopstick-runway.md)
 - [하지하지마 챌린지](../memes/stop-stop-it-challenge.md)
+- [항준적 사고](../memes/hangjun-thinking.md)
 
 ## 인터넷방송
 

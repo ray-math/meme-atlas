@@ -849,6 +849,7 @@
 - [할많하않](halmanhahan.md)
 - [항공샷](overhead-selfie.md)
 - [항마력](hangmaryeok.md)
+- [항준적 사고](hangjun-thinking.md)
 - [해결했습니다](header-problem-solved.md)
 - [해치웠나?](did-we-get-it.md)
 - [해피 캣](happy-cat.md)

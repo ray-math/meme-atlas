@@ -45,10 +45,11 @@
     "reports/bulk/connector-resume-b188.json",
     "reports/bulk/connector-resume-c190.json",
     "reports/bulk/connector-resume-audit-holds191.json",
-    "reports/bulk/connector-resume-screening192.json"
+    "reports/bulk/connector-resume-screening192.json",
+    "reports/bulk/connector-resume-c193.json"
   ],
-  "query_observations": 706,
-  "distinct_literal_queries": 567,
+  "query_observations": 716,
+  "distinct_literal_queries": 576,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3780,6 +3781,56 @@
     {
       "query": "랜덤 애인",
       "source": "reports/bulk/connector-resume-screening192.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "죽이세유",
+      "source": "reports/bulk/connector-resume-c193.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "귀인 지도",
+      "source": "reports/bulk/connector-resume-c193.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "엄마는 블랙핑크 아빠는 그냥 시민",
+      "source": "reports/bulk/connector-resume-c193.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "퇴직연금이 사람이라면",
+      "source": "reports/bulk/connector-resume-c193.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "장항준적 사고",
+      "source": "reports/bulk/connector-resume-c193.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "항준적 사고",
+      "source": "reports/bulk/connector-resume-c193.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "내 인생이 왜 니 맘에 들어야 하는데요",
+      "source": "reports/bulk/connector-resume-c193.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도로로 말투",
+      "source": "reports/bulk/connector-resume-c193.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "작사가 대한민국 국민",
+      "source": "reports/bulk/connector-resume-c193.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "원영적 사고",
+      "source": "reports/bulk/connector-resume-c193.json",
       "status": "screened-see-report"
     }
   ],
