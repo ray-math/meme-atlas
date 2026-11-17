@@ -1,0 +1,37 @@
+{
+  "batch": "connector-resume-a127",
+  "base": "a13c728f4b2d7e6e630178d1e22d3b0dff946087",
+  "candidate": "똥덩어리",
+  "id": "ttongdeongeori",
+  "result": "canonical-added",
+  "classification": "기존 조사 근거 재열람 후 현재 원격 신규 수록; 소실 로컬 복구나 신규 후보 발견 아님",
+  "sources": [
+    {
+      "url": "https://www.starnewskorea.com/star/2008/10/28/2008102815165168338",
+      "observed": "2008-10-28 UCC 시리즈에 관한 구체 보도. 영상 여러 편은 독립 사건1개로 집계. 원영상 직접시청 아님."
+    },
+    {
+      "url": "https://news.nate.com/view/20090117n05795",
+      "observed": "2009-01-17 기사에 2008-12-25 무한도전 공연의 강마에 대사 패러디 보도. 공연과 기사 날짜 구분. 원방송 직접시청 아님."
+    }
+  ],
+  "independent_usage_events": 2,
+  "bounds": "특정 대사의 패러디만 수록. 강마에 인물 전체·일반 욕설 제외. 똥덩어리 바이러스는 편집 영상 명칭이므로 별칭으로 단정하지 않음.",
+  "checks": {
+    "base_entries": 830,
+    "result_entries": 831,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  },
+  "candidate_screen": {
+    "screened": 15,
+    "worker_recommended": 2,
+    "already_present": 1,
+    "worker_unverified": 12,
+    "editor_accepted": 1,
+    "editor_held": "멋져부러는 일반 사투리/방송 차용 경계 추가 검토"
+  }
+}

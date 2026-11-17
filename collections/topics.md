@@ -645,6 +645,7 @@
 - [누가 기침 소리를 내었는가](../memes/who-coughed.md)
 - [느낌 아니까](../memes/neukkim-anikka.md)
 - [두 번 죽이는 거](../memes/hurt-twice.md)
+- [똥덩어리](../memes/ttongdeongeori.md)
 - [라따 라따 아라따](../memes/ratta-ratta-aratta.md)
 - [레드썬](../memes/red-sun-hypnosis.md)
 - [맑은 눈의 광인](../memes/clear-eyed-eccentric.md)

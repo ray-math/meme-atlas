@@ -275,6 +275,7 @@
 - [떼껄룩](tte-kkeol-look.md)
 - [떼샷](tte-shot.md)
 - [똥 밟았네](stepped-on-poop.md)
+- [똥덩어리](ttongdeongeori.md)
 - [똥손](ttongson.md)
 - [뚫훍송](tunak-song.md)
 - [뜨죽따](tteujuktta.md)
