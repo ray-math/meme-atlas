@@ -106,6 +106,7 @@
 - [그런데 말입니다](but-the-question.md)
 - [그런데 짜잔](geureonde-jjajan.md)
 - [그르륵 갉](geureureuk-galg.md)
+- [그린그린 레드레드](green-green-red-red.md)
 - [그린라이트](green-light-romance.md)
 - [그에게 주어지는 합격 목걸이](acceptance-necklace.md)
 - [극딜](geukdil.md)
