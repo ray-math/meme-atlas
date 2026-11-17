@@ -1,0 +1,842 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "slug": "manrep",
+      "title": "만렙",
+      "path": "memes/manrep.md",
+      "source_revision": "c580947ac5b0be4a593b0f107264992f5421ddaa",
+      "source_blob_sha": "e54d015777f5203c345ef7b73cccd62975769e06",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인·팬덤 표현의 의미와 사용을 독립 발행 주체의 직접 본문에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201206152128205/amp",
+          "publisher": "경향신문",
+          "published_date": "2012-06-15",
+          "access": "direct_body",
+          "support": "게임 캐릭터의 최대 레벨이라는 뜻을 설명한다.",
+          "independent_group": "경향신문"
+        },
+        {
+          "url": "https://www.yna.co.kr/amp/view/AKR20190711143100797",
+          "publisher": "연합뉴스",
+          "published_date": "2019-07-15",
+          "access": "direct_body",
+          "support": "집에서 지내는 활동을 만렙으로 묘사하며 최고 레벨이라고 풀이한다.",
+          "independent_group": "연합뉴스"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. ",
+      "body_hash": "16edf28be7abace358b76c45f22fa2001edfc5ea04b96b9afaf24bb3b4976fd8"
+    },
+    {
+      "slug": "neutdeok",
+      "title": "늦덕",
+      "path": "memes/neutdeok.md",
+      "source_revision": "c580947ac5b0be4a593b0f107264992f5421ddaa",
+      "source_blob_sha": "3888dc8ba49f034a49f22ac74d2b949c621284e0",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인·팬덤 표현의 의미와 사용을 독립 발행 주체의 직접 본문에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://sports.khan.co.kr/article/202205161043003/amp",
+          "publisher": "스포츠경향",
+          "published_date": "2022-05-16",
+          "access": "direct_body",
+          "support": "늦게 덕질에 입문한 팬이라는 설명을 제시한다.",
+          "independent_group": "스포츠경향"
+        },
+        {
+          "url": "https://www.kpinews.kr/newsView/1065605303758879&dt=m&dt=m",
+          "publisher": "KPI뉴스",
+          "published_date": "2019-09-07",
+          "access": "direct_body",
+          "support": "과거 활동 뒤 새로 팬이 된 경우를 다루고 늦다와 덕후의 결합으로 풀이한다.",
+          "independent_group": "KPI뉴스"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. KPI는 실제 본문 접근에 성공한 매개변수 포함 주소를 유지했다.",
+      "body_hash": "d59a4672b66d71bc8871bb53cbdcb124a7500583ad8093f82e54463b363ea32d"
+    },
+    {
+      "slug": "seonpal",
+      "title": "선팔",
+      "path": "memes/seonpal.md",
+      "source_revision": "c580947ac5b0be4a593b0f107264992f5421ddaa",
+      "source_blob_sha": "462daf755fddf170513104f14624ea31de510024",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인·팬덤 표현의 의미와 사용을 독립 발행 주체의 직접 본문에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://securities.miraeasset.com/public/newir/magazine/1560142590191.pdf",
+          "publisher": "미래에셋대우 OBLIGE CLUB",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "2019년 여름호 인쇄면 72~73의 SNS 용어 설명에서 먼저 팔로우하는 행위를 풀이한다.",
+          "independent_group": "미래에셋대우 OBLIGE CLUB"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/201202212036125",
+          "publisher": "경향신문",
+          "published_date": "2012-02-21",
+          "access": "direct_body",
+          "support": "매체 계정 운영 사례에서 먼저 팔로우한 사람에게 응답하는 상황을 설명한다.",
+          "independent_group": "경향신문"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 매거진의 일 단위 발행일은 확인하지 않아 null로 기록했다.",
+      "body_hash": "4c94f8de94763ad61ba636448bb036f79bdeb58a1dbf24ddb983e070bde831f7"
+    },
+    {
+      "slug": "matpal",
+      "title": "맞팔",
+      "path": "memes/matpal.md",
+      "source_revision": "c580947ac5b0be4a593b0f107264992f5421ddaa",
+      "source_blob_sha": "a1e214b1a25c51c6d5202e487152e22ae442afe4",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인·팬덤 표현의 의미와 사용을 독립 발행 주체의 직접 본문에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://securities.miraeasset.com/public/newir/magazine/1560142590191.pdf",
+          "publisher": "미래에셋대우 OBLIGE CLUB",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "2019년 여름호에서 서로 팔로우하는 관계를 맞팔로 설명한다.",
+          "independent_group": "미래에셋대우 OBLIGE CLUB"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/201202212036125",
+          "publisher": "경향신문",
+          "published_date": "2012-02-21",
+          "access": "direct_body",
+          "support": "상대가 먼저 팔로우한 뒤 계정이 응답해 팔로우하는 운영 사례를 보여준다.",
+          "independent_group": "경향신문"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 잡지의 정확한 발행일 미확인.",
+      "body_hash": "e34237e4444d256244d80e15878f748c44d8c94444b4abc077a101def534d6c8"
+    },
+    {
+      "slug": "eonpal",
+      "title": "언팔",
+      "path": "memes/eonpal.md",
+      "source_revision": "c580947ac5b0be4a593b0f107264992f5421ddaa",
+      "source_blob_sha": "d9cd6d652aaf3aa814ecb5bf582e49137639c838",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인·팬덤 표현의 의미와 사용을 독립 발행 주체의 직접 본문에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://securities.miraeasset.com/public/newir/magazine/1560142590191.pdf",
+          "publisher": "미래에셋대우 OBLIGE CLUB",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "SNS 용어 목록에서 언팔로우를 취소 행위로 설명한다.",
+          "independent_group": "미래에셋대우 OBLIGE CLUB"
+        },
+        {
+          "url": "https://www.ytn.co.kr/_ln/0117_202011161344456849",
+          "publisher": "YTN",
+          "published_date": "2020-11-16",
+          "access": "direct_body",
+          "support": "언팔로우의 축약이며 SNS 팔로우 취소라는 뜻을 본문 괄호에서 명시한다.",
+          "independent_group": "YTN"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 보도 속 개인 관계 일화는 재현하지 않았다. 잡지 정확일 미확인.",
+      "body_hash": "14201b3769258bdb4da3451040a3f1c05c6f71a15a6d7934daac314f943c46a1"
+    },
+    {
+      "slug": "dwitsak",
+      "title": "뒷삭",
+      "path": "memes/dwitsak.md",
+      "source_revision": "c580947ac5b0be4a593b0f107264992f5421ddaa",
+      "source_blob_sha": "e87de192270eacd94862148c0f7433cd4340b777",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인·팬덤 표현의 의미와 사용을 독립 발행 주체의 직접 본문에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2009100614212315680",
+          "publisher": "아시아경제",
+          "published_date": "2009-10-06",
+          "access": "direct_body",
+          "support": "상대 몰래 친구를 삭제하는 의미를 설명한다.",
+          "independent_group": "아시아경제"
+        },
+        {
+          "url": "https://m.etnews.com/201002040046",
+          "publisher": "전자신문",
+          "published_date": "2010-02-05",
+          "access": "direct_body",
+          "support": "네이트 신어 소개 기능을 다루며 게임·메신저 친구의 은밀한 삭제를 풀이한다.",
+          "independent_group": "네이트 신어 소개/전자신문"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. ",
+      "body_hash": "10ee42d6c3944eab206dc43d401e8cb700b79114bbd3fd566ca50149874b3c17"
+    },
+    {
+      "slug": "chinsak",
+      "title": "친삭",
+      "path": "memes/chinsak.md",
+      "source_revision": "c580947ac5b0be4a593b0f107264992f5421ddaa",
+      "source_blob_sha": "d9c1c9cb47969574940f905ee040c8da65733f44",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인·팬덤 표현의 의미와 사용을 독립 발행 주체의 직접 본문에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2009100614212315680",
+          "publisher": "아시아경제",
+          "published_date": "2009-10-06",
+          "access": "direct_body",
+          "support": "메신저의 친구 삭제를 친삭이라고 풀이한다.",
+          "independent_group": "아시아경제"
+        },
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1000925898&plink=OLDURL",
+          "publisher": "SBS",
+          "published_date": "2011-06-06",
+          "access": "direct_body",
+          "support": "배포 어휘집에서 메신저·미니홈피 친구 삭제라는 뜻을 제시한다.",
+          "independent_group": "한국교총 배포 어휘집/SBS"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. ",
+      "body_hash": "f58c9dde8801a32ef27869e0f6c12c8070fa8f7e9b1fb5bb2489c83b415804df"
+    },
+    {
+      "slug": "chinchu",
+      "title": "친추",
+      "path": "memes/chinchu.md",
+      "source_revision": "c580947ac5b0be4a593b0f107264992f5421ddaa",
+      "source_blob_sha": "0d2426281c51d693f14fe3e6d948789fb9a01618",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인·팬덤 표현의 의미와 사용을 독립 발행 주체의 직접 본문에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2010041408262194807",
+          "publisher": "아시아경제",
+          "published_date": "2010-04-15",
+          "access": "direct_body",
+          "support": "온라인 친구 등록 관련 문단에서 친구 추가의 축약형이라고 설명한다.",
+          "independent_group": "아시아경제"
+        },
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1000925898&plink=OLDURL",
+          "publisher": "SBS",
+          "published_date": "2011-06-06",
+          "access": "direct_body",
+          "support": "친구 추가라는 뜻을 어휘 목록에서 설명한다.",
+          "independent_group": "한국교총 배포 어휘집/SBS"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. ",
+      "body_hash": "50f78878b7173e9ceccdbc4b8644b68cfe4e6ac542ebcb10ef5ec41f9164e0e3"
+    },
+    {
+      "slug": "gaenso",
+      "title": "갠소",
+      "path": "memes/gaenso.md",
+      "source_revision": "c580947ac5b0be4a593b0f107264992f5421ddaa",
+      "source_blob_sha": "82e888b093f0b3f4f0695e842cdddf9f01cf4adb",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인·팬덤 표현의 의미와 사용을 독립 발행 주체의 직접 본문에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201502181148381",
+          "publisher": "경향신문",
+          "published_date": "2015-02-18",
+          "access": "direct_body",
+          "support": "프로필 공개와 대비해 개인적으로 보관하는 사진 사용 맥락과 뜻을 설명한다.",
+          "independent_group": "경향신문"
+        },
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1000925898&plink=OLDURL",
+          "publisher": "SBS",
+          "published_date": "2011-06-06",
+          "access": "direct_body",
+          "support": "개인 소장이라는 축약 의미를 제시한다.",
+          "independent_group": "한국교총 배포 어휘집/SBS"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. ",
+      "body_hash": "2268f26364328e0f7029516587e9e871eb1d11bdf20b2952454b453acdb7467d"
+    },
+    {
+      "slug": "wanso",
+      "title": "완소",
+      "path": "memes/wanso.md",
+      "source_revision": "c580947ac5b0be4a593b0f107264992f5421ddaa",
+      "source_blob_sha": "18b16ae0f22eb1b173b3bac46e78f3d43433753c",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인·팬덤 표현의 의미와 사용을 독립 발행 주체의 직접 본문에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://mediahub.seoul.go.kr/archives/160031",
+          "publisher": "서울시",
+          "published_date": "2006-07-14",
+          "access": "direct_body",
+          "support": "인터넷 신조어 사례에서 완전 소중한이라는 풀이를 제시한다.",
+          "independent_group": "서울시"
+        },
+        {
+          "url": "https://news.nate.com/view/20260925n01962?mid=n1101",
+          "publisher": "연합뉴스TV",
+          "published_date": "2026-09-25",
+          "access": "direct_body",
+          "support": "과거 온라인 유행어를 돌아보며 완전 소중하다의 축약 의미를 설명한다.",
+          "independent_group": "연합뉴스TV"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. ",
+      "body_hash": "14f2f6cf03fe83f49965432090bf8a737c76857c19c5a4bfc541bfd929fc8d37"
+    },
+    {
+      "slug": "cheotkon",
+      "title": "첫콘",
+      "path": "memes/cheotkon.md",
+      "source_revision": "c580947ac5b0be4a593b0f107264992f5421ddaa",
+      "source_blob_sha": "9247315ddd0883635a6eacf1743f8ba1ff254070",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인·팬덤 표현의 의미와 사용을 독립 발행 주체의 직접 본문에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://fannstar.tf.co.kr/fnnews/read/132060",
+          "publisher": "더팩트 팬앤스타",
+          "published_date": "2025-05-29",
+          "access": "direct_body",
+          "support": "여러 날 열리는 콘서트의 첫 회차라는 의미를 명시한다.",
+          "independent_group": "더팩트 팬앤스타"
+        },
+        {
+          "url": "https://www.soompi.com/article/816387wpp/k-pop-101-korean-fan-lingo-all-k-pop-fans-should-know",
+          "publisher": "Soompi",
+          "published_date": "2016-02-09",
+          "access": "direct_body",
+          "support": "한국 팬카페에서 관찰한 첫콘·막콘을 설명하고 첫 공연을 가리키는 조어를 풀이한다.",
+          "independent_group": "Soompi"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 영문 팬문화 칼럼의 국내 팬카페 관찰 보고와 국내 팬서비스의 용어 설명을 대조했다. 원 게시물은 직접 확인하지 않았다.",
+      "body_hash": "c3bf7f20a3eb14d297bd3cf1991e59938f02452a65ab874f436055ab10dd3a22"
+    },
+    {
+      "slug": "makkon",
+      "title": "막콘",
+      "path": "memes/makkon.md",
+      "source_revision": "c580947ac5b0be4a593b0f107264992f5421ddaa",
+      "source_blob_sha": "430978bd4236397ac88533cef87142b2fe8f64d0",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인·팬덤 표현의 의미와 사용을 독립 발행 주체의 직접 본문에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://fannstar.tf.co.kr/fnnews/read/132060",
+          "publisher": "더팩트 팬앤스타",
+          "published_date": "2025-05-29",
+          "access": "direct_body",
+          "support": "여러 날 열리는 콘서트의 마지막 회차라는 의미를 명시한다.",
+          "independent_group": "더팩트 팬앤스타"
+        },
+        {
+          "url": "https://www.soompi.com/article/816387wpp/k-pop-101-korean-fan-lingo-all-k-pop-fans-should-know",
+          "publisher": "Soompi",
+          "published_date": "2016-02-09",
+          "access": "direct_body",
+          "support": "한국 팬카페에서 관찰한 첫콘·막콘을 설명하고 마지막 공연을 가리키는 조어를 풀이한다.",
+          "independent_group": "Soompi"
+        }
+      ],
+      "limitations": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 영문 팬문화 칼럼의 국내 팬카페 관찰 보고와 국내 팬서비스의 용어 설명을 대조했다. 원 게시물은 직접 확인하지 않았다.",
+      "body_hash": "2bc8ca23cc74a50a9ab765ebabd331d3c9effa65f16bff570ec5299af099dfbc"
+    },
+    {
+      "slug": "lanseon-travel",
+      "title": "랜선여행",
+      "path": "memes/lanseon-travel.md",
+      "source_revision": "b10a9efb063b0be279aefed8b107c7552147a425",
+      "source_blob_sha": "01561c3052a9ec70ce8201d6371c4dd532688cc9",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 기사 본문에서 의미와 사용 확인. 득근의 응원 발화는 2020년 별도 보조 자료.",
+      "evidence": [
+        {
+          "url": "https://www.nongmin.com/article/20210108331843",
+          "publisher": "농민신문",
+          "published_date": "2021-01-11",
+          "access": "direct_body",
+          "supports": "온라인 여행 정의와 기자의 단양 영상 체험.",
+          "independent_group": "nongmin-online-tour"
+        },
+        {
+          "url": "https://v.daum.net/v/20210815220327423?f=p",
+          "publisher": "이데일리(Daum 전재)",
+          "published_date": "2021-08-15",
+          "access": "direct_body",
+          "supports": "라이브 여행 참가자의 별도 경험과 온라인 여행 유형.",
+          "independent_group": "edaily-live-tour"
+        }
+      ],
+      "limitations": [
+        "농민신문 입력일은 본문 2021-01-11 기준이며 URL에 들어 있는 날짜와 구별했다.",
+        "당시 여행 방법의 언어적 의미만 다루며 현재 상품 운영 여부나 가격은 주장하지 않는다."
+      ],
+      "body_hash": "3915b7e2001c9a95b41a97fa5fbffc627b1842d03790da81037cdd5e0f2cc993"
+    },
+    {
+      "slug": "jipkok",
+      "title": "집콕",
+      "path": "memes/jipkok.md",
+      "source_revision": "b10a9efb063b0be279aefed8b107c7552147a425",
+      "source_blob_sha": "23ee67a92bef45569f32c409cd45b1753ae3ecde",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 기사 본문에서 의미와 사용 확인. 득근의 응원 발화는 2020년 별도 보조 자료.",
+      "evidence": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "집콕의 정의와 집콕 놀이·취미 등의 결합형.",
+          "independent_group": "policybriefing-language-review"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/202104041203001/amp",
+          "publisher": "경향신문",
+          "published_date": "2021-04-04",
+          "access": "direct_body",
+          "supports": "외부 활동 자제·집 안 생활이라는 직접 풀이.",
+          "independent_group": "khan-indoor-exercise-patents"
+        }
+      ],
+      "limitations": [
+        "서로 다른 신조어 회고와 특허 보도이며 통계를 합산하지 않았다. 감염·체중·정신 상태 관련 주장을 본문에 옮기지 않았다."
+      ],
+      "body_hash": "86a362641b5367a38f1e2b50245ef1a4acc77ebb6cd69d3e9be313f261012d14"
+    },
+    {
+      "slug": "home-training",
+      "title": "홈트",
+      "path": "memes/home-training.md",
+      "source_revision": "b10a9efb063b0be279aefed8b107c7552147a425",
+      "source_blob_sha": "e9fe4c40ef2ede19e7eb42e815027e05cbc7290b",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 기사 본문에서 의미와 사용 확인. 득근의 응원 발화는 2020년 별도 보조 자료.",
+      "evidence": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "홈트의 원형과 집 운동 의미 명시.",
+          "independent_group": "policybriefing-language-review"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/202104041203001/amp",
+          "publisher": "경향신문",
+          "published_date": "2021-04-04",
+          "access": "direct_body",
+          "supports": "홈트레이닝 풀이 및 온라인·비대면 운동 지원 용례.",
+          "independent_group": "khan-indoor-exercise-patents"
+        }
+      ],
+      "limitations": [
+        "일반 운동 전체가 아니라 온라인 대화에서 쓰는 축약형을 제안한다. 편집자가 사전의 밈 범위를 더 좁히면 보류 가능.",
+        "현재 운동법의 안전성·효과나 의료 조언은 제공하지 않는다."
+      ],
+      "body_hash": "3fee69c8ab409646a63a3e19538ddbda5eebeed5dd9b8c0d3c12c215442fd4e7"
+    },
+    {
+      "slug": "deukgeun",
+      "title": "득근",
+      "path": "memes/deukgeun.md",
+      "source_revision": "b10a9efb063b0be279aefed8b107c7552147a425",
+      "source_blob_sha": "89ba16eb38d9df98452e5c7e628d2e4d4a0ffcbb",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 기사 본문에서 의미와 사용 확인. 득근의 응원 발화는 2020년 별도 보조 자료.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20201102150046779",
+          "publisher": "동아일보(Daum 전재)",
+          "published_date": "2020-11-02",
+          "access": "direct_body",
+          "supports": "운동 밈 문화에서 득근하세요 응원 발화의 실제 사용.",
+          "independent_group": "donga-fitness-memes"
+        },
+        {
+          "url": "https://isplus.com/article/view/isp202309130049",
+          "publisher": "일간스포츠",
+          "published_date": "2023-09-13",
+          "access": "direct_body",
+          "supports": "근육을 얻는다는 직접 뜻풀이와 SNS 운동 문화 맥락.",
+          "independent_group": "isplus-genderless-sports"
+        }
+      ],
+      "limitations": [
+        "동아일보 11월3일 유사 기사는 같은 원자료이므로 별도 독립 출처로 세지 않았다.",
+        "중앙일보 자료도 직접 열었지만 표시 발행일이 없어 핵심 두 출처에서 제외. 영양·운동량·질환 조언과 성별 일반화는 차용하지 않았다."
+      ],
+      "body_hash": "db79645e50afc2b7d38d5b8620f02547981f2c2acf9d33fad9145dfb48b1f32c"
+    },
+    {
+      "slug": "wednesday-dance",
+      "title": "웬즈데이 댄스 챌린지",
+      "path": "memes/wednesday-dance.md",
+      "source_revision": "3f06fbbc461fa17a08cf54352f09ec5f653f9a83",
+      "source_blob_sha": "bd7c1406eadb06c7f1e996a109726c6d331cafd3",
+      "scope_type": "korean_usage",
+      "scope_basis": "해외 원형의 춤 커버 형식과 한국 가수의 참여 사례를 서로 다른 매체 본문으로 확인.",
+      "evidence": [
+        {
+          "publisher": "보그 코리아",
+          "url": "https://www.vogue.co.kr/2022/12/15/%EC%9B%AC%EC%A6%88%EB%8D%B0%EC%9D%B4-%EB%8C%84%EC%8A%A4%EC%97%90-%EB%8F%84%EC%A0%84%ED%95%9C-%EC%B9%B4%EB%B0%80%EB%9D%BC-%EC%B9%B4%EB%B2%A0%EC%9A%94/",
+          "published_at": "2023-01-02",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "무도회 장면의 표정·복고풍 춤과 짧은 영상 커버를 설명.",
+          "date_note": "URL은 2022-12-15이나 페이지 표시 날짜는 2023-01-02. 표시 날짜를 기록하고 최초 발행 시점으로 확정하지 않음."
+        },
+        {
+          "publisher": "한국경제",
+          "url": "https://v.daum.net/v/20250715103644595?s=print_news",
+          "published_at": "2025-07-15",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "세븐틴 멤버의 웬즈데이 챌린지 참여를 명시. 내한 발표와 실제 챌린지 시행일을 동일시하지 않음."
+        }
+      ],
+      "limitations": [
+        "방송·SNS 원영상 직접 재생 아님.",
+        "기사 또는 공개 필자의 사용 설명 범위만 검토. 실제 내면·최초 창작자·최신 유행 단정 없음.",
+        "자체 예문은 편집 창작이며 실제 발화 데이터가 아님.",
+        "주석·최근 관측·후보대장 자동 승격 없음."
+      ],
+      "body_hash": "daf18d4e637e448f326f0ad6a11991ddbc22a7a99a25ba30249df4ff8580dac0"
+    },
+    {
+      "slug": "no-room-to-retreat",
+      "title": "이제는 더 이상 물러날 곳이 없다",
+      "path": "memes/no-room-to-retreat.md",
+      "source_revision": "3f06fbbc461fa17a08cf54352f09ec5f653f9a83",
+      "source_blob_sha": "c7a3e9be3dfa4acd2514bf595ccc702fc465e26d",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 방송 장면의 재현 보도와 독립 뉴스레터 필자의 일상 사용 설명을 확인.",
+      "evidence": [
+        {
+          "publisher": "OSEN",
+          "url": "https://osen.co.kr/article/G1112191813",
+          "published_at": "2023-09-27",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "원방송 장면과 후속 방송 재현을 설명. 안무 표절이나 실제 원조 지위의 증거로 쓰지 않음.",
+          "source_type": "방송 선공개 자료 기반 보도"
+        },
+        {
+          "publisher": "풀칠 뉴스레터",
+          "url": "https://stibee.com/api/v1.0/emails/share/Mx0lZMONaKipl1PtUZwsPWxPHh1P73g",
+          "published_at": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "149호 필자가 해당 짤을 떠올리며 난감한 일상 상황에서 문구를 중얼거리는 쓰임을 직접 설명.",
+          "source_type": "독립 공개 뉴스레터의 자기 사용 서술",
+          "date_note": "본문 정확한 발행일 미확인. 최근이라는 본문 표현을 현재 유행으로 옮기지 않음."
+        }
+      ],
+      "limitations": [
+        "방송·SNS 원영상 직접 재생 아님.",
+        "기사 또는 공개 필자의 사용 설명 범위만 검토. 실제 내면·최초 창작자·최신 유행 단정 없음.",
+        "자체 예문은 편집 창작이며 실제 발화 데이터가 아님.",
+        "주석·최근 관측·후보대장 자동 승격 없음."
+      ],
+      "body_hash": "74c7716e14805ce230f3bf66c912195d34eaa5eb48923ac90e3be1358e4b360c"
+    },
+    {
+      "slug": "mitdeut",
+      "title": "믿듣",
+      "path": "memes/mitdeut.md",
+      "source_revision": "394c05fc216863157d9d1523e6f002f88be489a1",
+      "source_blob_sha": "42220e2bac4fd9217e89f59a60a6c40f314d1204",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg_m.aspx?CNTN_CD=A0002640841",
+          "publisher": "오마이스타",
+          "published_date": "2020-05-13",
+          "access": "direct_body",
+          "support": "밴디트 쇼케이스의 목표 수식어를 믿고 듣는·믿고 보는으로 풀어 보도한다.",
+          "independent_group": "오마이스타"
+        },
+        {
+          "url": "https://www.osen.co.kr/article/G1111176446",
+          "publisher": "OSEN",
+          "published_date": "2019-07-01",
+          "access": "direct_body",
+          "support": "별개 여자친구 쇼케이스에서 믿고 보고 듣는다는 수식어를 풀이한다.",
+          "independent_group": "OSEN"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. ",
+      "body_hash": "31924fcc1492f1b8d864873605ea2062cfa6f1df9a5c0801a8e8453ac2e9427b"
+    },
+    {
+      "slug": "mitbo",
+      "title": "믿보",
+      "path": "memes/mitbo.md",
+      "source_revision": "394c05fc216863157d9d1523e6f002f88be489a1",
+      "source_blob_sha": "d28a6fde431254e247fb4c5261c99b2c2eae73d8",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg_m.aspx?CNTN_CD=A0002640841",
+          "publisher": "오마이스타",
+          "published_date": "2020-05-13",
+          "access": "direct_body",
+          "support": "밴디트 쇼케이스의 목표 수식어를 믿고 듣는·믿고 보는으로 풀어 보도한다.",
+          "independent_group": "오마이스타"
+        },
+        {
+          "url": "https://www.osen.co.kr/article/G1111176446",
+          "publisher": "OSEN",
+          "published_date": "2019-07-01",
+          "access": "direct_body",
+          "support": "별개 여자친구 쇼케이스에서 믿고 보고 듣는다는 수식어를 풀이한다.",
+          "independent_group": "OSEN"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. ",
+      "body_hash": "a38323f862306a9241788a4b0fa04e54f43f7ddb14ccbc7082312bf90db43857"
+    },
+    {
+      "slug": "jungkon",
+      "title": "중콘",
+      "path": "memes/jungkon.md",
+      "source_revision": "394c05fc216863157d9d1523e6f002f88be489a1",
+      "source_blob_sha": "7e61742f6a98666c744be3b77ff28e65a8e37826",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://fannstar.tf.co.kr/fnnews/read/132060",
+          "publisher": "더팩트 팬앤스타",
+          "published_date": "2025-05-29",
+          "access": "direct_body",
+          "support": "첫·중·막콘의 회차 구분과 앙콘의 앙코르 콘서트 축약 의미를 설명한다.",
+          "independent_group": "더팩트 팬앤스타"
+        },
+        {
+          "url": "https://www.soompi.com/article/816387wpp/k-pop-101-korean-fan-lingo-all-k-pop-fans-should-know",
+          "publisher": "Soompi",
+          "published_date": "2016-02-09",
+          "access": "direct_body",
+          "support": "한국 팬카페 관찰을 바탕으로 사흘 이상 공연의 중간 회차를 중콘으로 설명한다.",
+          "independent_group": "Soompi"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 영문 칼럼의 한국 팬카페 관찰 보고이며 원 게시물은 직접 확인하지 않았다.",
+      "body_hash": "8215408e8d45d10069728926ee7817b3c6665bec53bdcfdc7c4596f674163b68"
+    },
+    {
+      "slug": "angkon",
+      "title": "앙콘",
+      "path": "memes/angkon.md",
+      "source_revision": "394c05fc216863157d9d1523e6f002f88be489a1",
+      "source_blob_sha": "d998ad35990b4c8bffcb93a11000465a564f14a5",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://fannstar.tf.co.kr/fnnews/read/132060",
+          "publisher": "더팩트 팬앤스타",
+          "published_date": "2025-05-29",
+          "access": "direct_body",
+          "support": "첫·중·막콘의 회차 구분과 앙콘의 앙코르 콘서트 축약 의미를 설명한다.",
+          "independent_group": "더팩트 팬앤스타"
+        },
+        {
+          "url": "https://v.daum.net/v/20260705185151723",
+          "publisher": "스포츠투데이",
+          "published_date": "2026-07-05",
+          "access": "direct_body",
+          "support": "앙콘이라고 제목에 쓴 공연을 본문에서 별도 날짜에 열리는 앙코르 콘서트로 설명한다.",
+          "independent_group": "스포츠투데이"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 두 번째 근거는 실제 행사 보도의 제목-본문 대응이며 어휘 사전은 아니다.",
+      "body_hash": "ec5dad5394b135c2852c2309dd71acd1503a6f6e60d6a12c79288d7eb4a756ce"
+    },
+    {
+      "slug": "seuap",
+      "title": "스압",
+      "path": "memes/seuap.md",
+      "source_revision": "394c05fc216863157d9d1523e6f002f88be489a1",
+      "source_blob_sha": "65ff63bb8a6bf9be812ad2dfa3b594725ed79ac3",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://news.nate.com/view/20080214n23453",
+          "publisher": "중앙일보",
+          "published_date": "2008-02-15",
+          "access": "direct_body",
+          "support": "긴 게시물에 붙는 스크롤 압박 경고라는 뜻을 풀이한다.",
+          "independent_group": "중앙일보"
+        },
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1003765094",
+          "publisher": "SBS",
+          "published_date": "2016-09-03",
+          "access": "direct_body",
+          "support": "긴 게시글을 계속 내려 읽는 상황과 스압 주의라는 안내를 설명한다.",
+          "independent_group": "SBS"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. ",
+      "body_hash": "94b3a7f623f5fe79fdd1364484fa2a3e75cfeb53d0387aee9177880876100e5e"
+    },
+    {
+      "slug": "umjjal",
+      "title": "움짤",
+      "path": "memes/umjjal.md",
+      "source_revision": "394c05fc216863157d9d1523e6f002f88be489a1",
+      "source_blob_sha": "5fbd0e5a5202e88e485c1821b002ec5b2001523b",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://www.journalist.or.kr/news/article.html?no=47925",
+          "publisher": "한국기자협회보",
+          "published_date": "2020-07-09",
+          "access": "direct_body",
+          "support": "움직이는 짤방이라는 풀이와 GIF 이미지·반복재생·뉴스 활용을 직접 설명한다.",
+          "independent_group": "한국기자협회보"
+        },
+        {
+          "url": "https://imnews.imbc.com/replay/2020/nwdesk/article/5769099_32524.html",
+          "publisher": "MBC",
+          "published_date": "2020-05-11",
+          "access": "direct_body",
+          "support": "팬들이 가공하는 움직이는 이미지 영상을 움짤로 부르는 사용을 보여준다.",
+          "independent_group": "MBC"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 형식 정의만 취했으며 특정 영상의 사용 허가나 당시 권리 분쟁 결론을 일반화하지 않았다.",
+      "body_hash": "eac3e138c6240cb45e6919e0510af706326289aa9c0e61e5b84ff9b8d0256238"
+    },
+    {
+      "slug": "beugeum",
+      "title": "브금",
+      "path": "memes/beugeum.md",
+      "source_revision": "394c05fc216863157d9d1523e6f002f88be489a1",
+      "source_blob_sha": "2ea5e248a5d3f8a6c36108d1f980a6fb5edba7a8",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://bgmstore.net/about",
+          "publisher": "브금저장소",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "서비스 자체 소개에서 배경음악과 BGM의 한글식 발음이라는 뜻을 설명한다.",
+          "independent_group": "브금저장소"
+        },
+        {
+          "url": "https://www.newdaily.co.kr/svc/article_print.html?no=2012102700035",
+          "publisher": "뉴데일리",
+          "published_date": "2012-10-27",
+          "access": "direct_body",
+          "support": "게시글에 붙이는 음악이라는 사용과 배경음악 약자에서 나온 표현을 설명한다.",
+          "independent_group": "뉴데일리"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 서비스 자체 설명과 별도 매체의 문화 기사를 대조했다. 최초 사용 주체를 확정하지 않았다.",
+      "body_hash": "3365764f11b64374019656cca586ea408c323d6b9076672d402b02d9143c91cf"
+    },
+    {
+      "slug": "eumwon-kkangpae",
+      "title": "음원깡패",
+      "path": "memes/eumwon-kkangpae.md",
+      "source_revision": "394c05fc216863157d9d1523e6f002f88be489a1",
+      "source_blob_sha": "a477315b59815a6dd0a66e61334f8471c8719669",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://circlechart.kr/page_article/view.circle?idx=7345&sgenre=opinion",
+          "publisher": "써클차트",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "차트 분석 칼럼에서 새 음원으로 차트를 장악하는 가수를 뜻한다고 설명한다.",
+          "independent_group": "써클차트"
+        },
+        {
+          "url": "https://www.xportsnews.com/article/740717",
+          "publisher": "엑스포츠뉴스",
+          "published_date": "2016-06-30",
+          "access": "direct_body",
+          "support": "방송 소개에서 곡마다 차트 상위권을 기록하는 가수의 수식어로 사용한다.",
+          "independent_group": "Mnet 방송 소개/엑스포츠뉴스"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 차트 칼럼 본문은 2014년 8월말 상황이나 정확 발행일 미확인. 현재 차트 성적이나 인증 기준을 제시하지 않았다.",
+      "body_hash": "6bacc81e9554f08ea6689d7a0647ce2b65b39d7432f02aa070834f59f97cb836"
+    },
+    {
+      "slug": "gatgi",
+      "title": "갓기",
+      "path": "memes/gatgi.md",
+      "source_revision": "394c05fc216863157d9d1523e6f002f88be489a1",
+      "source_blob_sha": "7cd634490446806eae6b77757f7de09d9b2ae956",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://www.inews24.com/view/1521546",
+          "publisher": "아이뉴스24",
+          "published_date": "2022-09-22",
+          "access": "direct_body",
+          "support": "God와 아기의 결합 및 나이에 비해 뛰어난 실력·외모라는 풀이를 제시한다.",
+          "independent_group": "아이뉴스24"
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20221118_0002092431",
+          "publisher": "뉴시스",
+          "published_date": "2022-11-20",
+          "access": "direct_body",
+          "support": "별도 기자 대담에서 어린 나이의 능력·외모에 대한 팬덤 수식어로 설명한다.",
+          "independent_group": "뉴시스"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 개별 미성년자의 사례나 신상은 옮기지 않았다. 기사들의 올림픽 기원 주장까지 확정하지 않았다.",
+      "body_hash": "1729884062d825f5dfba1a9de6c3b6b7ccf4d054717c27f552fb448d28875429"
+    },
+    {
+      "slug": "jikcam",
+      "title": "직캠",
+      "path": "memes/jikcam.md",
+      "source_revision": "394c05fc216863157d9d1523e6f002f88be489a1",
+      "source_blob_sha": "c190c260c6b57feb147ffb79cc21ca84412800bf",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "evidence": [
+        {
+          "url": "https://www.allurekorea.com/2018/05/09/%EC%A7%81%EC%BA%A0%EC%9D%98-%EC%8B%9C%EB%8C%80/",
+          "publisher": "얼루어 코리아",
+          "published_date": "2018-05-09",
+          "access": "direct_body",
+          "support": "팬의 직접 촬영에서 방송사의 단체·멤버별 무대 영상으로 넓어진 사용을 설명한다.",
+          "independent_group": "얼루어 코리아"
+        },
+        {
+          "url": "https://m.ch.yes24.com/article/details/48346",
+          "publisher": "예스24 채널예스",
+          "published_date": "2022-03-30",
+          "access": "direct_body",
+          "support": "평론가가 현장 직캠과 방송사 직캠을 구분하고 개인·전체 무대 촬영 형식을 다룬다.",
+          "independent_group": "예스24 채널예스"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 개별 원영상을 직접 검증하지 않았으며 촬영·게시 허가 여부를 뜻풀이로 보증하지 않았다.",
+      "body_hash": "a408549f70bb76a7e03cbaa122cae8a6a5e4d027f2a37410d414e68ce3912e7e"
+    }
+  ]
+}
