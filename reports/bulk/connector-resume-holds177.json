@@ -1,0 +1,69 @@
+{
+  "base_sha": "416b13d81b954fb06fac1c6c984f3e4c66932b39",
+  "canonical": 885,
+  "new": 0,
+  "query_strings": [
+    "거제",
+    "팔리아치",
+    "박수",
+    "마법사",
+    "이혼",
+    "타누키",
+    "한 단어",
+    "남대문",
+    "스카프",
+    "야르렁",
+    "요들",
+    "모닝콜",
+    "검은 고양이",
+    "타이핑",
+    "고양이",
+    "왕과",
+    "체포하겠어",
+    "배드 챌린지",
+    "전여친 감자칼",
+    "능글맞은 개코원숭이",
+    "이거 제 이모지야",
+    "AI 한 단어",
+    "부모님 나이",
+    "Janice",
+    "Kinda Chic",
+    "퇴사할게여",
+    "팬은 아님",
+    "마법사 고양이"
+  ],
+  "semantic_duplicates": {
+    "야르렁 모닝콜": "yareu-song",
+    "배드 챌린지": "ateez-bad-challenge",
+    "팬은 아님": "swings-denial"
+  },
+  "existing_evidence": [
+    {
+      "url": "https://www.i-boss.co.kr/ab-74668-5824",
+      "canonical": "yareu-song",
+      "evidence": "익산 마룡/서산 해누리 두 별개 적용을 한 칼럼이 설명. 비디오콘사이트 재게시는 같은 출처, 둘로 계수 안 함. 원영상 미시청."
+    }
+  ],
+  "held": [
+    {
+      "candidate": "퇴사할게여",
+      "sources": [
+        "https://www.xportsnews.com/article/2196935",
+        "https://www.news1.kr/videos/24893"
+      ],
+      "evidence": "실제 여러 참여 보도 확인, 같은 공식프로모션 계열이므로 독립 사용자확산 근거 미충족으로 보류."
+    },
+    {
+      "candidate": "검은 고양이/마법사 고양이",
+      "reason": "독립 국내 실제 적용 미확보"
+    },
+    {
+      "candidate": "왕과 사는 남자",
+      "reason": "작품 전체 제외, 구체 말틀 필요"
+    }
+  ],
+  "limits": [
+    "숫자는 검색문자열 기록이며 신규밈수 아님",
+    "Python/CI미실행"
+  ]
+}

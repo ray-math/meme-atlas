@@ -30,10 +30,11 @@
     "reports/bulk/connector-resume-b172.json",
     "reports/bulk/connector-resume-a173.json",
     "reports/bulk/connector-resume-c174.json",
-    "reports/bulk/connector-resume-a176.json"
+    "reports/bulk/connector-resume-a176.json",
+    "reports/bulk/connector-resume-holds177.json"
   ],
-  "query_observations": 491,
-  "distinct_literal_queries": 391,
+  "query_observations": 519,
+  "distinct_literal_queries": 413,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -2691,6 +2692,146 @@
       "query": "원주",
       "source": "reports/bulk/connector-resume-a176.json",
       "status": "screened-see-report"
+    },
+    {
+      "query": "거제",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "팔리아치",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "박수",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "마법사",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "이혼",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "타누키",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "한 단어",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "남대문",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "스카프",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "야르렁",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "요들",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "모닝콜",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "검은 고양이",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "타이핑",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "고양이",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "왕과",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "체포하겠어",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "배드 챌린지",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "전여친 감자칼",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "능글맞은 개코원숭이",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "이거 제 이모지야",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "AI 한 단어",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "부모님 나이",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "Janice",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "Kinda Chic",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "퇴사할게여",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "팬은 아님",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
+    },
+    {
+      "query": "마법사 고양이",
+      "source": "reports/bulk/connector-resume-holds177.json",
+      "status": "held-or-existing-family-see-report"
     }
   ],
   "semantic_duplicates": [
