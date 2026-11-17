@@ -1,0 +1,542 @@
+{
+  "schema_version": 1,
+  "batch": "2021-2023-wave9",
+  "baseline_ref": "23c533cb967660e67a2191ce1a90ee0042b97d97",
+  "review_date": "2026-11-17",
+  "reviewer_type": "AI",
+  "counts": {
+    "candidate_pool_screened": 40,
+    "two_source_body_review_completed": 10,
+    "canonical_written": 10,
+    "baseline_exact_duplicates": 9,
+    "pending_duplicates": 2,
+    "held": 19
+  },
+  "method": "40개를 고정하여 baseline 제목·별칭 및 개념 범위로 선별했다. 전부 심층 검증했다는 뜻이 아니다. 작성 10개는 독립 publisher의 직접 본문 2개를 확인했다. 다른 매체의 동일 원자료 전재는 추가 독립 근거로 세지 않았다.",
+  "entries": [
+    {
+      "id": "gaptongal",
+      "title": "갑통알",
+      "aliases": [],
+      "path": "memes/gaptongal.md",
+      "own_definition": "‘갑자기 통장을 보니 알바를 해야겠다’를 줄였다. 예상보다 적은 잔고를 보고 돈을 벌 필요를 느끼는 순간을 자조적으로 표현한다. 다른 사람의 실제 재산이나 경제적 형편을 판단하는 말은 아니다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.viva100.com/20211113010003867?site_preference=normal",
+          "publisher": "브릿지경제",
+          "published_date": "2021-11-14",
+          "access": "direct_body",
+          "supports": "잔고 확인 후 아르바이트 필요를 느낀다는 뜻",
+          "independent_group": "viva-slang-202111"
+        },
+        {
+          "url": "https://www.newspim.com/news/view/20230919000857",
+          "publisher": "뉴스핌",
+          "published_date": "2023-09-20",
+          "access": "direct_body",
+          "supports": "갑자기 통장 보니 알바해야 될 것 같다는 정의",
+          "independent_group": "newspim-language-202309"
+        }
+      ],
+      "limitations": "재산·경제 상태는 사용자 자료가 아니라 표현의 의미만 다룸. 거시경제 원인이나 세대 전체 심리를 단정하지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "567 canonical index title/id/aliases 및 pilot entries exact 일치 없음. pending 최최차차·입덕 제외; 관련 파생은 본문과 한계에 구별."
+    },
+    {
+      "id": "eolppak-shot",
+      "title": "얼빡샷",
+      "aliases": [],
+      "path": "memes/eolppak-shot.md",
+      "own_definition": "‘얼빡’은 얼굴이 화면에 꽉 들어오는 모습을 가리킨다. 얼빡샷은 배경이나 전신보다 얼굴을 크게 보여 주는 촬영을 뜻한다. 화가 난 얼굴이라는 뜻은 아니다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.20slab.org/Archives/38057",
+          "publisher": "대학내일20대연구소",
+          "published_date": "2021-10-29",
+          "access": "direct_body",
+          "supports": "화면에 얼굴이 가득한 사진·영상 및 팬들의 요청 표현",
+          "independent_group": "univ20-quiz-202110"
+        },
+        {
+          "url": "https://www.osen.co.kr/article/G1112236279",
+          "publisher": "OSEN",
+          "published_date": "2023-12-06",
+          "access": "direct_body",
+          "supports": "별도 영상에서 얼굴만 나오는 샷이라는 설명",
+          "independent_group": "osen-jangvideo-202312"
+        }
+      ],
+      "limitations": "원 영상 직접 재생 아님. OSEN 본문에 명시된 설명만 채택. 최초 생성 시점 미확정.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "567 canonical index title/id/aliases 및 pilot entries exact 일치 없음. pending 최최차차·입덕 제외; 관련 파생은 본문과 한계에 구별."
+    },
+    {
+      "id": "phone-kku",
+      "title": "폰꾸",
+      "aliases": [],
+      "path": "memes/phone-kku.md",
+      "own_definition": "‘폰 꾸미기’를 줄였다. 케이스에 장식을 더하는 외형 꾸미기뿐 아니라 배경 화면이나 위젯 배치를 바꾸는 화면 꾸미기에도 쓴다. 어떤 부분을 꾸몄는지는 문맥으로 구분한다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.yspotlight.co.kr/magazine/mz_trend/detail?id=338",
+          "publisher": "KT Y",
+          "published_date": "2021-07-01",
+          "access": "direct_body",
+          "supports": "위젯과 홈 화면을 취향대로 꾸미는 폰꾸",
+          "independent_group": "kty-screen-202107"
+        },
+        {
+          "url": "https://v.daum.net/v/20211229140003901",
+          "publisher": "한국일보",
+          "published_date": "2021-12-29",
+          "access": "direct_body",
+          "supports": "폰 꾸미기와 브랜드 케이스 협업 사례",
+          "independent_group": "hankook-custom-202112"
+        }
+      ],
+      "limitations": "화면 꾸미기와 케이스 꾸미기 모두 직접 근거 있음. 브랜드 성능·판매량 주장은 수록하지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "567 canonical index title/id/aliases 및 pilot entries exact 일치 없음. pending 최최차차·입덕 제외; 관련 파생은 본문과 한계에 구별."
+    },
+    {
+      "id": "diary-kku",
+      "title": "다꾸",
+      "aliases": [],
+      "path": "memes/diary-kku.md",
+      "own_definition": "‘다이어리 꾸미기’를 줄였다. 기록 내용뿐 아니라 스티커나 테이프, 색과 배치 등을 활용해 페이지를 꾸미는 데 초점을 둔다. 사진을 꾸미는 폴꾸나 사진 보호 케이스를 꾸미는 탑꾸와는 꾸미는 대상이 다르다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.yspotlight.co.kr/magazine/mz_trend/detail?id=338",
+          "publisher": "KT Y",
+          "published_date": "2021-07-01",
+          "access": "direct_body",
+          "supports": "스티커·마스킹 테이프로 다이어리를 꾸미는 의미",
+          "independent_group": "kty-screen-202107"
+        },
+        {
+          "url": "https://news.nate.com/view/20220503n05994?mid=n1101",
+          "publisher": "매경이코노미",
+          "published_date": "2022-05-03",
+          "access": "direct_body",
+          "supports": "다꾸 정의와 SNS 사용 소개",
+          "independent_group": "mkeconomy-kku-202205"
+        }
+      ],
+      "limitations": "관련 위꾸·폴꾸 본문에 다이어리가 언급되지만 별도 정의 항목은 baseline에 없음. 판매량·해시태그 수치를 검증된 규모로 재인용하지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "567 canonical index title/id/aliases 및 pilot entries exact 일치 없음. pending 최최차차·입덕 제외; 관련 파생은 본문과 한계에 구별."
+    },
+    {
+      "id": "toploader-kku",
+      "title": "탑꾸",
+      "aliases": [],
+      "path": "memes/toploader-kku.md",
+      "own_definition": "‘탑로더 꾸미기’를 줄인 말이다. 포토카드 등을 보관하는 케이스에 스티커나 장식 부품을 붙여 꾸민다. 사진 그 자체를 꾸미는 폴꾸와 관련은 있지만 직접 장식하는 대상이 다르다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님."
+      },
+      "source_urls": [
+        {
+          "url": "https://brunch.co.kr/@c05986acb0444b2/12",
+          "publisher": "소매넣기·브런치",
+          "published_date": "2021-09-04",
+          "access": "direct_body",
+          "supports": "탑로더를 스티커와 파츠로 꾸미는 정의 및 에디터 체험",
+          "independent_group": "somae-topkku-202109"
+        },
+        {
+          "url": "https://news.nate.com/view/20220503n05994?mid=n1101",
+          "publisher": "매경이코노미",
+          "published_date": "2022-05-03",
+          "access": "direct_body",
+          "supports": "사진·카드 보호 케이스를 꾸미는 취미와 용어",
+          "independent_group": "mkeconomy-kku-202205"
+        }
+      ],
+      "limitations": "첫 출처는 독립 에디터의 체험 글이지 대표성 있는 조사 아님. 폴꾸와 꾸미는 대상 구별. 케이스 재질을 전체 제품에 일반화하지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "567 canonical index title/id/aliases 및 pilot entries exact 일치 없음. pending 최최차차·입덕 제외; 관련 파생은 본문과 한계에 구별."
+    },
+    {
+      "id": "johmotsa",
+      "title": "좋못사",
+      "aliases": [],
+      "path": "memes/johmotsa.md",
+      "own_definition": "‘좋다 못해 사랑한다’를 줄인 표현이다. 사람이나 작품, 물건 등에 대한 큰 호감을 짧게 드러낸다. 반드시 연애 감정을 고백하는 뜻은 아니다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.cosmopolitan.co.kr/article/48878",
+          "publisher": "코스모폴리탄",
+          "published_date": "2020-09-19",
+          "access": "direct_body",
+          "supports": "좋다 못해 사랑한다는 뜻과 팬 경험 글의 사용",
+          "independent_group": "cosmo-slang-202009"
+        },
+        {
+          "url": "https://blog.joinuskorea.org/2163",
+          "publisher": "조인어스코리아",
+          "published_date": "2021-10-12",
+          "access": "direct_body",
+          "supports": "매우 좋아한다는 한국어 표현 소개",
+          "independent_group": "joinus-slang-202110"
+        }
+      ],
+      "limitations": "2020년 의미 설명과 2021년 한국어 교육 소개를 확인. 별도의 유행 규모 조사 아님.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "567 canonical index title/id/aliases 및 pilot entries exact 일치 없음. pending 최최차차·입덕 제외; 관련 파생은 본문과 한계에 구별."
+    },
+    {
+      "id": "ohawoon",
+      "title": "오하운",
+      "aliases": [],
+      "path": "memes/ohawoon.md",
+      "own_definition": "‘오늘 하루 운동’을 줄였다. 하루 동안 한 운동을 공유하거나 운동하는 일상을 표현할 때 쓴다. 완료 여부를 강조하는 ‘오운완’과 관련되지만 같은 문장을 줄인 말은 아니다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님."
+      },
+      "source_urls": [
+        {
+          "url": "https://v.daum.net/v/20210602001212026",
+          "publisher": "코스모폴리탄",
+          "published_date": "2021-06-02",
+          "access": "direct_body",
+          "supports": "오늘 하루 운동의 뜻과 SNS 해시태그 사용",
+          "independent_group": "cosmo-exercise-202106"
+        },
+        {
+          "url": "https://www.gjnews.com/news/view.php?idx=73901",
+          "publisher": "경주신문",
+          "published_date": "2022-07-07",
+          "access": "direct_body",
+          "supports": "오하운 정의 및 운동 사진 공유 방식",
+          "independent_group": "gyeongju-exercise-202207"
+        }
+      ],
+      "limitations": "기존 오운완과 서로 다른 줄임말. 운동의 신체·정신 건강 효과나 세대 통계는 채택하지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "567 canonical index title/id/aliases 및 pilot entries exact 일치 없음. pending 최최차차·입덕 제외; 관련 파생은 본문과 한계에 구별."
+    },
+    {
+      "id": "overhead-selfie",
+      "title": "항공샷",
+      "aliases": [],
+      "path": "memes/overhead-selfie.md",
+      "own_definition": "SNS 셀카 맥락에서는 위에서 내려다보는 각도를 항공 촬영에 빗대어 부르는 말이다. 얼굴뿐 아니라 옷차림이나 주변이 함께 담기기도 한다. 실제 항공기나 드론으로 찍은 사진이라는 일반적인 뜻과 구별한다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.starnewskorea.com/star/2022/09/01/2022090108271321485",
+          "publisher": "스타뉴스",
+          "published_date": "2022-09-01",
+          "access": "direct_body",
+          "supports": "아이비 셀카를 항공샷으로 부른 사례",
+          "independent_group": "star-ivy-202209"
+        },
+        {
+          "url": "https://dpg.danawa.com/news/view?boardSeq=63&listSeq=5459426&past=Y",
+          "publisher": "다나와 DPG",
+          "published_date": "2023-10-24",
+          "access": "direct_body",
+          "supports": "팔을 위로 뻗어 찍는 구도와 착장 표현",
+          "independent_group": "danawa-selfie-202310"
+        }
+      ],
+      "limitations": "SNS 셀카 구도로만 한정. 다나와의 2021년 임시완 최초 주장 미채택; 제품 추천·촬영 안전 보장 없음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "567 canonical index title/id/aliases 및 pilot entries exact 일치 없음. pending 최최차차·입덕 제외; 관련 파생은 본문과 한계에 구별."
+    },
+    {
+      "id": "aeppaesi",
+      "title": "애빼시",
+      "aliases": [],
+      "path": "memes/aeppaesi.md",
+      "own_definition": "‘애교 빼면 시체’를 줄인 말이다. 애교를 그 사람의 대표적인 특징처럼 강조하는 농담이다. 상대에게 애교를 강요하거나 다른 장점이 없다고 깎아내리는 뜻으로 쓰지 않도록 맥락을 살핀다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.ajunews.com/view/20210117143506717",
+          "publisher": "아주경제",
+          "published_date": "2021-01-17",
+          "access": "direct_body",
+          "supports": "예능 신조어 퀴즈와 애교 빼면 시체라는 풀이",
+          "independent_group": "aju-quiz-202101"
+        },
+        {
+          "url": "https://www.vogue.co.kr/2022/11/21/synergic/",
+          "publisher": "보그 코리아",
+          "published_date": "2022-11-21",
+          "access": "direct_body",
+          "supports": "별도 인터뷰에서 애교가 많은 모습을 이르는 사용",
+          "independent_group": "vogue-younghoon-202211"
+        }
+      ],
+      "limitations": "시체는 관용적 과장으로만 설명. 개인의 실제 심리·성격이나 다른 능력을 단정하지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "567 canonical index title/id/aliases 및 pilot entries exact 일치 없음. pending 최최차차·입덕 제외; 관련 파생은 본문과 한계에 구별."
+    },
+    {
+      "id": "sejelgwi",
+      "title": "세젤귀",
+      "aliases": [],
+      "path": "memes/sejelgwi.md",
+      "own_definition": "‘세상에서 제일 귀엽다’를 줄였다. 좋아하는 사람이나 대상의 귀여움을 과장해 칭찬하는 말이며, 실제 순위를 비교했다는 뜻은 아니다. 예쁨을 강조하는 ‘세젤예’와는 표현하는 특징이 다르다.",
+      "scope": {
+        "kind": "korean_usage",
+        "basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.wkorea.com/2016/10/05/뷰티가-알고-싶다/",
+          "publisher": "더블유 코리아",
+          "published_date": "2016-10-05",
+          "access": "direct_body",
+          "supports": "세상에서 제일 귀엽다는 풀이",
+          "independent_group": "w-slang-201610"
+        },
+        {
+          "url": "https://m.etoday.co.kr/news/view/2065102?trc=m_view_joinnews",
+          "publisher": "이투데이",
+          "published_date": "2021-10-08",
+          "access": "direct_body",
+          "supports": "자동차 소개에서 귀여움을 강조한 국내 사용",
+          "independent_group": "etoday-casper-202110"
+        }
+      ],
+      "limitations": "2016년 뜻풀이와 2021년 물건에 대한 용례 확인. 최초 창안 연도 미확정. 세젤예와 동일 별칭 처리하지 않음.",
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "567 canonical index title/id/aliases 및 pilot entries exact 일치 없음. pending 최최차차·입덕 제외; 관련 파생은 본문과 한계에 구별."
+    }
+  ],
+  "triage": [
+    {
+      "title": "돈쭐",
+      "status": "duplicate",
+      "reason": "기존 donjjul"
+    },
+    {
+      "title": "혼코노",
+      "status": "held",
+      "reason": "선별 후 독립 직접 본문 2개 및 별도 수록 범위를 이번 배치에서 확정하지 못해 보류."
+    },
+    {
+      "title": "불소",
+      "status": "held",
+      "reason": "선별 후 독립 직접 본문 2개 및 별도 수록 범위를 이번 배치에서 확정하지 못해 보류."
+    },
+    {
+      "title": "최최차차",
+      "status": "duplicate",
+      "reason": "integration 확인: recentwave12 pending에 포함."
+    },
+    {
+      "title": "얼빡샷",
+      "status": "written",
+      "reason": "두 독립 본문 검증 완료."
+    },
+    {
+      "title": "항공샷",
+      "status": "written",
+      "reason": "두 독립 본문 검증 완료."
+    },
+    {
+      "title": "항마력",
+      "status": "held",
+      "reason": "2019~2020 의미 자료 발견했으나 이번 시기 국내 사용의 직접 근거 조합 미완료."
+    },
+    {
+      "title": "스불재",
+      "status": "duplicate",
+      "reason": "기존 seubuljae"
+    },
+    {
+      "title": "갑통알",
+      "status": "written",
+      "reason": "두 독립 본문 검증 완료."
+    },
+    {
+      "title": "자만추",
+      "status": "duplicate",
+      "reason": "기존 jaman-chu"
+    },
+    {
+      "title": "인만추",
+      "status": "held",
+      "reason": "자만추 대비 파생과 별도 항목 필요성 미해결."
+    },
+    {
+      "title": "꾸꾸꾸",
+      "status": "held",
+      "reason": "꾸며도 꾸질꾸질/과하게 꾸밈 등 상충 풀이가 있어 보류."
+    },
+    {
+      "title": "폰꾸",
+      "status": "written",
+      "reason": "두 독립 본문 검증 완료."
+    },
+    {
+      "title": "다꾸",
+      "status": "written",
+      "reason": "두 독립 본문 검증 완료."
+    },
+    {
+      "title": "탑꾸",
+      "status": "written",
+      "reason": "두 독립 본문 검증 완료."
+    },
+    {
+      "title": "씰꾸",
+      "status": "held",
+      "reason": "선별 후 독립 직접 본문 2개 및 별도 수록 범위를 이번 배치에서 확정하지 못해 보류."
+    },
+    {
+      "title": "짠테크",
+      "status": "held",
+      "reason": "일반 금융·생활 개념과 밈 표현 경계 검토 필요."
+    },
+    {
+      "title": "무지출챌린지",
+      "status": "held",
+      "reason": "금융 생활 실천과 밈 표현의 경계 및 근거 검토 미완료."
+    },
+    {
+      "title": "거지방",
+      "status": "held",
+      "reason": "조롱·경제 사정 공개가 섞이는 실제 방과 표현의 범위 검토 미완료."
+    },
+    {
+      "title": "디토소비",
+      "status": "held",
+      "reason": "일반 소비 트렌드 개념과 밈 표현의 경계 검토 필요."
+    },
+    {
+      "title": "도파민디톡스",
+      "status": "held",
+      "reason": "건강 개념과 놀이 표현을 구별할 근거 미완료."
+    },
+    {
+      "title": "점프샷",
+      "status": "held",
+      "reason": "일반 촬영 용어와 밈 형식의 경계 미해결."
+    },
+    {
+      "title": "헬시플레저",
+      "status": "held",
+      "reason": "건강·소비 트렌드 개념과 밈 표현의 경계 검토 필요."
+    },
+    {
+      "title": "추구미",
+      "status": "duplicate",
+      "reason": "기존 chugumi"
+    },
+    {
+      "title": "오운완",
+      "status": "duplicate",
+      "reason": "기존 ounwan"
+    },
+    {
+      "title": "오하운",
+      "status": "written",
+      "reason": "두 독립 본문 검증 완료."
+    },
+    {
+      "title": "득근",
+      "status": "held",
+      "reason": "선별 후 독립 직접 본문 2개 및 별도 수록 범위를 이번 배치에서 확정하지 못해 보류."
+    },
+    {
+      "title": "어텐션",
+      "status": "held",
+      "reason": "곡명·일반 영단어와 독립 밈 용례 구별 미완료."
+    },
+    {
+      "title": "레전드네",
+      "status": "held",
+      "reason": "일반 감탄 및 기존 레전드 계열과 정의 중복 검토 미완료."
+    },
+    {
+      "title": "실화소니",
+      "status": "held",
+      "reason": "기존 이거 실화냐 파생 가능성 및 독립 근거 검토 미완료."
+    },
+    {
+      "title": "오저치고",
+      "status": "duplicate",
+      "reason": "기존 ojeochigo"
+    },
+    {
+      "title": "세젤귀",
+      "status": "written",
+      "reason": "두 독립 본문 검증 완료."
+    },
+    {
+      "title": "세젤예",
+      "status": "held",
+      "reason": "뜻풀이 자료는 확인했으나 이번 2021~2023 사용 근거 조합 미완료."
+    },
+    {
+      "title": "애빼시",
+      "status": "written",
+      "reason": "두 독립 본문 검증 완료."
+    },
+    {
+      "title": "좋못사",
+      "status": "written",
+      "reason": "두 독립 본문 검증 완료."
+    },
+    {
+      "title": "웃안웃",
+      "status": "duplicate",
+      "reason": "기존 utan-ut"
+    },
+    {
+      "title": "웃프다",
+      "status": "duplicate",
+      "reason": "기존 utpeuda"
+    },
+    {
+      "title": "주접",
+      "status": "held",
+      "reason": "다른 담당의 보류 범위와 일반어 대비 좁은 용법 확인 전 보류."
+    },
+    {
+      "title": "성덕",
+      "status": "duplicate",
+      "reason": "기존 seongdeok"
+    },
+    {
+      "title": "입덕",
+      "status": "duplicate",
+      "reason": "integration 확인: recentwave12 pending에 포함."
+    }
+  ],
+  "ci_status": "not_run",
+  "unchanged": "main/PR37/data/usage/index 변경 없음."
+}
