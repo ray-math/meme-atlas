@@ -36,3 +36,12 @@ class DiscretionScopeTests(unittest.TestCase):
         self.assertFalse(contains({'intents':['재량요청']}))
         hit=next(h for h in search(index,vocab,entry['title'],mode='lookup')['results'] if h['entry_id']==entry['id'])
         self.assertTrue(hit['retrieval_scope']['exact_lookup_only'])
+
+    def test_frozen_trace_reexecutes_without_type_drift(self):
+        from compare_evaluation_expansion import strict_equal
+        frozen=json.loads((ROOT/'eval/discretion-scope/retrieval.json').read_text())
+        def behavior(rows):
+            rows=copy.deepcopy(rows)
+            for row in rows:row['retrieval'].pop('coverage',None)
+            return rows
+        self.assertTrue(strict_equal(behavior(frozen['results']),behavior(evaluate(ROOT)['results'])))
