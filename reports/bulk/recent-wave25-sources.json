@@ -1,0 +1,175 @@
+{
+  "batch": "recent-wave25",
+  "base_commit": "56ff5ac1586764f477338f2bbce8075d827fe86d",
+  "candidate_review_count": 30,
+  "sourceentries": [
+    {
+      "slug": "burrow",
+      "title": "버로우",
+      "path": "memes/burrow.md",
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2009120711410645763",
+          "publisher": "아시아경제",
+          "published_date": "2009-12-08",
+          "access": "direct_body",
+          "support": "게임 기능이 조용히 하라는 일상 표현으로 확장된 용법을 설명한다. URL 숫자와 달리 본문 입력일은 12월 8일이다.",
+          "independent_group": "asiae-20091208"
+        },
+        {
+          "url": "https://journal.kci.go.kr/snu-ioh/archive/articlePdf?artiId=ART001618569",
+          "publisher": "서울대학교 인문학연구원 인문논총",
+          "published_date": "2011",
+          "access": "direct_body",
+          "support": "장경현의 신조어 연어의 형성 원리 277쪽에서 외부 접촉을 끊는 뜻과 기가 눌려 물러서는 뜻을 구분한다.",
+          "independent_group": "jang2011"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "한국어 온라인 문화 표현의 비유 또는 고정 축약 안내 용법.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "학술 자료의 개인 게시글 예문은 복사하지 않았다. 최초 사용자와 원게임 자료는 직접 확인하지 않았다. 잠수와 완전 동의어로 병합하지 않는다."
+    },
+    {
+      "slug": "seolcham",
+      "title": "설참",
+      "path": "memes/seolcham.md",
+      "evidence": [
+        {
+          "url": "https://gnews.gg.go.kr/news/news_detail.do?number=202010071759427989C109",
+          "publisher": "경기뉴스광장",
+          "published_date": "2020-10-07",
+          "access": "direct_body",
+          "support": "유튜브 이용자 표현을 소개하는 본문에서 설명 참고의 축약이라고 명시한다.",
+          "independent_group": "gyeonggi-20201007"
+        },
+        {
+          "url": "https://tvreport.co.kr/breaking/article/420751/amp/",
+          "publisher": "인플루언서닷컴 / TV리포트 배포",
+          "published_date": "2020-12-24",
+          "access": "direct_body",
+          "support": "신조어 퀴즈 보도에서 설명 참고의 설참이라고 풀이한다. TV리포트와 원제공사는 하나의 출처로 센다.",
+          "independent_group": "influencernews-20201224"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "한국어 온라인 문화 표현의 비유 또는 고정 축약 안내 용법.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "기사의 다른 어휘 오타나 세대 일반화는 채택하지 않았다. 최초 발생 시점이나 특정 플랫폼 전용 표현이라고 단정하지 않는다."
+    }
+  ],
+  "held": [
+    {
+      "title": "웃프다",
+      "reason": "기수록 표제·별칭 중복"
+    },
+    {
+      "title": "웃안웃",
+      "reason": "기수록 표제·별칭 중복"
+    },
+    {
+      "title": "웃수저",
+      "reason": "기수록 표제·별칭 중복"
+    },
+    {
+      "title": "울보",
+      "reason": "일반어·생산적 조합 범위 우선 보류"
+    },
+    {
+      "title": "눙물",
+      "reason": "검색 후보 수준; 두 독립 직접 본문 및 정확한 의미 범위 미확보"
+    },
+    {
+      "title": "현타왔다",
+      "reason": "기존 표제의 파생 또는 의미 중복 가능성으로 제외"
+    },
+    {
+      "title": "존버단",
+      "reason": "기존 표제의 파생 또는 의미 중복 가능성으로 제외"
+    },
+    {
+      "title": "잠수",
+      "reason": "일반어·생산적 조합 범위 우선 보류"
+    },
+    {
+      "title": "런하다",
+      "reason": "검색 후보 수준; 두 독립 직접 본문 및 정확한 의미 범위 미확보"
+    },
+    {
+      "title": "탈주각",
+      "reason": "일반어·생산적 조합 범위 우선 보류"
+    },
+    {
+      "title": "흑역사 생성",
+      "reason": "기존 표제의 파생 또는 의미 중복 가능성으로 제외"
+    },
+    {
+      "title": "손민수",
+      "reason": "기수록 표제·별칭 중복"
+    },
+    {
+      "title": "손민수템",
+      "reason": "기존 표제의 파생 또는 의미 중복 가능성으로 제외"
+    },
+    {
+      "title": "문찐",
+      "reason": "기수록 표제·별칭 중복"
+    },
+    {
+      "title": "문화충격",
+      "reason": "일반어·생산적 조합 범위 우선 보류"
+    },
+    {
+      "title": "갑툭튀",
+      "reason": "기수록 표제·별칭 중복"
+    },
+    {
+      "title": "튀튀",
+      "reason": "검색 후보 수준; 두 독립 직접 본문 및 정확한 의미 범위 미확보"
+    },
+    {
+      "title": "동공지진",
+      "reason": "기수록 표제·별칭 중복"
+    },
+    {
+      "title": "동공팝핀",
+      "reason": "기존 표제의 파생 또는 의미 중복 가능성으로 제외"
+    },
+    {
+      "title": "심쿵",
+      "reason": "기수록 표제·별칭 중복"
+    },
+    {
+      "title": "심멎",
+      "reason": "기수록 표제·별칭 중복"
+    },
+    {
+      "title": "어쩔요",
+      "reason": "검색 후보 수준; 두 독립 직접 본문 및 정확한 의미 범위 미확보"
+    },
+    {
+      "title": "그잡채",
+      "reason": "기수록 표제·별칭 중복"
+    },
+    {
+      "title": "자체발광",
+      "reason": "일반어·생산적 조합 범위 우선 보류"
+    },
+    {
+      "title": "가취가욥",
+      "reason": "검색 후보 수준; 두 독립 직접 본문 및 정확한 의미 범위 미확보"
+    },
+    {
+      "title": "혼돈의 카오스",
+      "reason": "검색 후보 수준; 두 독립 직접 본문 및 정확한 의미 범위 미확보"
+    },
+    {
+      "title": "안물안궁",
+      "reason": "기수록 표제·별칭 중복"
+    },
+    {
+      "title": "잘알",
+      "reason": "검색 후보 수준; 두 독립 직접 본문 및 정확한 의미 범위 미확보"
+    }
+  ]
+}
