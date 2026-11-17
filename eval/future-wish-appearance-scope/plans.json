@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "source_commit": "3b1feb831974152e97f70ede45f5486a7b88fc79",
+  "provenance": "Actual AI planning from the public future-wish-appearance draft contexts and avoid_when conditions plus existing public audit inputs. No gold or answer files read. No search executed or final candidate selected.",
+  "limitations": "긍정 입력에서 표제와 예문을 생략했어도 공개 주석 파생 개발 입력이므로 독립 블라인드 평가가 아니다. 제안 어휘 뜻밖등장을 임시 환경에 반영한다고 가정한다. 원본 두 profile은 draft로 유지하며 등록·승격·실서비스 노출을 뜻하지 않는다. recommend 모드는 기본 추천 정책을 적용할 검색 계획이며 standard도 context와 avoid_when을 별도로 검토한다. 필터는 상대 의사·미래 결과·영상 경위·위험·내면을 검증하지 않는다.",
+  "plans": [
+    {
+      "id": "F-wish",
+      "prompt": "새 활동을 앞둔 상대에게 앞으로 좋은 일이 많기를 빌며 앞날을 응원한다. 바람을 전하는 것이며 성공이나 행복이 확정됐다는 뜻은 아니다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "응원"
+        ],
+        "situations": [
+          "좋은일기원"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "새 활동을 앞둔 상대의 좋은 앞날을 비는 기능과 상대 방향이 명시되어 기본 추천 모드로 탐색한다. 현재 성과에 대한 감탄이나 활동 지속 강요와 구분하며 성공·행복 확정, 실패 불가능, 고통의 보상을 추가하지 않는다."
+    },
+    {
+      "id": "F-appearance",
+      "prompt": "진행 중인 영상 화면에 인물이 불쑥 나타난 장면을 짧게 설명한다. 평가의 초점은 등장 상황이며 등장인물의 가치·의도나 시청자의 내면 반응은 아니다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "상태설명"
+        ],
+        "situations": [
+          "뜻밖등장"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "진행 중인 영상 화면에 인물이 불쑥 나타난 장면 서술이다. 일반적인 뜻밖의 소식이나 사물·실제 장소의 위험한 등장으로 확대하지 않는다. 시청자의 놀람·공포나 등장인물의 의도·가치를 추정하지 않고 후보의 좁은 영상 문맥을 검토한다."
+    },
+    {
+      "id": "F-pressure",
+      "prompt": "쉬거나 그만두겠다는 상대의 의사를 무시하고 계속 활동하도록 압박하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "쉬거나 그만두겠다는 상대 의사를 무시하는 압박 조건이 명시된다. 좋은 앞날을 비는 응원으로 포장하지 않으며 상대가 계속할 의사나 성공 가능성을 만들어내지 않는다."
+    },
+    {
+      "id": "F-danger",
+      "prompt": "부상·사고·위급 상황의 안전 설명이나 도움을 농담으로 대체하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "부상·사고·위급 상황의 안전 설명이나 도움을 농담으로 대체하는 조건이므로 밈을 보류한다. 실제 사고 발생이나 구체적 부상·처치 방법을 추가하지 않으며 단순 영상 장면 서술로 축소하지 않는다."
+    },
+    {
+      "id": "A01",
+      "prompt": "친구가 처음 낸 단편소설이 문학상 후보에 올랐대. 믿기지 않을 만큼 기쁘다는 반응을 단톡에 짧게 보내고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "감탄"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "친구의 첫 단편소설 후보 선정이라는 좋은 소식에 기쁜 반응을 원하는 요청이다. 미래 기원이나 화면 속 불쑥 등장과 구별한다. 기본 추천 후보의 긍정적 문맥을 검토하며 수상·국제 성과·작품 평가를 추가하지 않는다."
+    },
+    {
+      "id": "A20",
+      "prompt": "친구가 너무 지쳐서 당분간 대회를 쉬겠대. 계속 나가도록 압박하는 멘트를 밈으로 만들어줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "친구가 지쳐 당분간 쉬겠다고 한 의사가 명시되는데 계속 참가하도록 압박하려는 요청이다. 응원 밈으로 거절 의사를 덮지 않고 휴식 의사를 존중하는 일반 표현으로 전환한다."
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "어떤 상황과 관계에서 한 방 먹이려는지 불분명하다. 상호 장난인지 실제 갈등인지 확인하기 전에 잘못·감정·의도나 적절한 공격 표현을 추정하지 않는다."
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "이모지와 느낌표만으로 사건·감정·원하는 기능을 확정할 수 없다. 무슨 상황과 반응인지 질문하며 뜻밖등장·놀람·응원으로 임의 분류하지 않는다."
+    }
+  ]
+}
