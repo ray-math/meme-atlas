@@ -9,6 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 FACETS = ('emotions', 'intents', 'situations', 'targets', 'registers', 'risk_flags')
 PROFILE_KEYS = {'entry_id', 'source_sha', 'review_status', 'review_note', 'usages'}
 USAGE_KEYS = {'id', *FACETS, 'emotion_status', 'safety', 'context', 'avoid_when', 'example', 'review_note'}
+OPTIONAL_USAGE_KEYS = {'retrieval_requirements'}
+REQUIREMENT_FACETS = {'situations', 'targets'}
 SAFETY = {'standard', 'caution', 'avoid'}
 SLUG = re.compile(r'[a-z0-9]+(?:-[a-z0-9]+)*')
 
@@ -76,7 +78,7 @@ def validate(data, vocabulary, root=ROOT, check_sources=True):
             raise ValueError('reviewed profile needs usages')
         usage_ids = set()
         for usage in usages:
-            if not isinstance(usage, dict) or set(usage) != USAGE_KEYS:
+            if not isinstance(usage, dict) or not USAGE_KEYS.issubset(usage) or set(usage)-USAGE_KEYS-OPTIONAL_USAGE_KEYS:
                 raise ValueError('invalid usage fields')
             uid = usage['id']
             if not isinstance(uid, str) or not SLUG.fullmatch(uid) or uid in usage_ids:
@@ -85,6 +87,13 @@ def validate(data, vocabulary, root=ROOT, check_sources=True):
             for facet in FACETS:
                 if not strings(usage[facet]) or set(usage[facet]) - allowed[facet]:
                     raise ValueError('unknown/invalid usage facet: ' + facet)
+            if 'retrieval_requirements' in usage:
+                requirements=usage['retrieval_requirements']
+                if not isinstance(requirements,dict) or not requirements or set(requirements)-REQUIREMENT_FACETS:
+                    raise ValueError('invalid retrieval requirements')
+                for facet,values in requirements.items():
+                    if not strings(values) or len(values)!=1 or not set(values).issubset(usage[facet]):
+                        raise ValueError('retrieval requirement must name one existing usage label')
             status = usage['emotion_status']
             if status not in ('annotated', 'unknown', 'not_applicable'):
                 raise ValueError('invalid emotion status')

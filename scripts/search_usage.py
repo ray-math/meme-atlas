@@ -23,7 +23,7 @@ def canonical(values, facet, vocabulary):
     return result
 
 def search(index, vocabulary, query='', *, emotions=(), intents=(), situations=(),
-           targets=(), registers=(), exclude_risks=(), mode='recommend', limit=10):
+           targets=(), registers=(), exclude_risks=(), mode='recommend', limit=10, explain_requirements=False):
     if type(limit) is not int or not 1 <= limit <= 100:
         raise ValueError('limit must be between 1 and 100')
     if mode not in ('recommend', 'lookup'):
@@ -44,7 +44,7 @@ def search(index, vocabulary, query='', *, emotions=(), intents=(), situations=(
     phrase = norm(query)
     if not terms and not any(filters.values()):
         return dict(envelope, status='insufficient_query')
-    hits = []
+    hits = []; requirement_exclusions=[]
     for entry in index['entries']:
         if entry['review_status'] != 'reviewed':
             continue
@@ -59,25 +59,41 @@ def search(index, vocabulary, query='', *, emotions=(), intents=(), situations=(
             matches = [t for t in terms if t in haystack]
             if terms and not matches:
                 continue
+            exact = bool(phrase and phrase in [norm(entry['title']), *map(norm, entry['aliases'])])
+            requirements=usage.get('retrieval_requirements',{})
+            requirements_met=all(filters[f]==set(values) for f,values in requirements.items())
+            exact_lookup_bypass=bool(requirements and not requirements_met and mode=='lookup' and exact)
+            if requirements and not requirements_met and not exact_lookup_bypass:
+                requirement_exclusions.append({'entry_id':entry['id'],'usage_id':usage['id'],
+                                               'required_filters':requirements})
+                continue
             if mode == 'recommend' and usage['safety'] != 'standard':
                 envelope['safety_filtered_count'] += 1
                 continue
             if excluded.intersection(usage['risk_flags']):
                 envelope['risk_filtered_count'] += 1
                 continue
-            exact = phrase and phrase in [norm(entry['title']), *map(norm, entry['aliases'])]
             score = (100 if exact else 0) + 10 * len(matches) + 20 * sum(bool(v) for v in filters.values())
             hits.append({'entry_id': entry['id'], 'title': entry['title'], 'path': entry['path'],
                          'domain_tags': entry['tags'], 'usage_id': usage['id'], 'score': score,
                          'matched_facets': {f: sorted(v.intersection(usage[f])) for f,v in filters.items() if v},
                          'usage': usage, 'review_status': entry['review_status'],
-                         'source_sha': entry['source_sha'], 'requires_context_check': True})
+                         'source_sha': entry['source_sha'], 'requires_context_check': True,
+                         **({'retrieval_scope': {'required_filters':requirements,
+                                                'explicit_filters_match':requirements_met,
+                                                'exact_lookup_only':exact_lookup_bypass,
+                                                'interpretation':'caller-supplied filters, not verified context'}} if requirements else {})})
     hits.sort(key=lambda h: (-h['score'], h['title'], h['entry_id'], h['usage_id']))
     envelope['results'] = hits[:limit]
     envelope['status'] = 'matches' if hits else 'no_match'
     if not hits:
         envelope['reason'] = ('policy_filtered' if envelope['safety_filtered_count'] or envelope['risk_filtered_count']
                               else 'no_matching_reviewed_usage')
+    if explain_requirements:
+        envelope['context_requirements_filtered_count']=len(requirement_exclusions)
+        envelope['context_requirements_excluded']=requirement_exclusions
+        if not hits and requirement_exclusions:
+            envelope['reason']='explicit_context_filters_required'
     return envelope
 
 if __name__ == '__main__':
@@ -85,6 +101,7 @@ if __name__ == '__main__':
     p.add_argument('query', nargs='?', default='', help='optional positive lexical keywords, not a free-form instruction')
     for option in ('emotion', 'intent', 'situation', 'target', 'register', 'exclude-risk'):
         p.add_argument('--'+option, action='append', default=[])
+    p.add_argument('--explain-requirements',action='store_true',help='show missing explicit-context gates; does not infer context')
     p.add_argument('--mode', choices=('recommend', 'lookup'), default='recommend')
     p.add_argument('--limit', type=int, default=10)
     p.add_argument('--root', type=Path, default=ROOT)
@@ -104,7 +121,7 @@ if __name__ == '__main__':
         result = search(index, load_vocabulary(args.root), args.query, emotions=args.emotion,
                         intents=args.intent, situations=args.situation, targets=args.target,
                         registers=args.register, exclude_risks=args.exclude_risk,
-                        mode=args.mode, limit=args.limit)
+                        mode=args.mode, limit=args.limit, explain_requirements=args.explain_requirements)
     except (ValueError, OSError) as exc:
         p.exit(2, str(exc)+'\n')
     print(json.dumps(result, ensure_ascii=False, indent=2))

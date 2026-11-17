@@ -19,10 +19,10 @@ class DraftReadinessTests(unittest.TestCase):
         self.assertEqual(result['plan_errors'],[])
         self.assertEqual(result['staged_public_candidate_drift'],[])
 
-    def test_held_profiles_reproduce_known_contamination(self):
+    def test_explicit_context_gates_prevent_previous_contamination(self):
         for profile,case,source in [('goat','A01','regression-v3/audit'),('pon-eunjeong','A12','regression-v3/audit'),('ohiryeo-joa','A16','challenge/audit')]:
             result=evaluate(ROOT,[profile])
-            self.assertTrue(any(row['id']==case and row['evaluation_set']==source and any(hit.startswith(profile+':') for hit in row['after']) for row in result['staged_public_candidate_drift']),
+            self.assertFalse(any(row['id']==case and row['evaluation_set']==source and any(hit.startswith(profile+':') for hit in row['after']) for row in result['staged_public_candidate_drift']),
                             (profile,result))
 
     def test_unknown_or_empty_candidates_fail_closed(self):
@@ -34,7 +34,8 @@ class DraftReadinessTests(unittest.TestCase):
         import subprocess
         command=[sys.executable,str(ROOT/'scripts/evaluate_draft_readiness.py')]
         for args,expected in [
-            (['--candidate','goat','--fail-on-drift'],1),
+            (['--candidate','gabojago','--fail-on-drift'],1),
+            (['--candidate','goat','--fail-on-drift'],0),
             (['--candidate','ubd','--fail-on-drift'],0),
             (['--candidate','missing-profile','--fail-on-drift'],2),
         ]:

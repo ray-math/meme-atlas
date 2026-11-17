@@ -32,6 +32,7 @@ def evaluate(root=ROOT, candidates=None):
             key=(entry['id'],usage['id'])
             filters={'query':entry['title'],'intents':usage['intents'],
                      'situations':usage['situations'],'targets':usage['targets']}
+            filters.update(usage.get('retrieval_requirements',{}))
             def keys(result):
                 return {(hit['entry_id'],hit['usage_id']) for hit in result['results']}
             lookup=search(staged,vocab,mode='lookup',limit=100,**filters)
