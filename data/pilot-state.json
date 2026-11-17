@@ -1032,6 +1032,29 @@
         "chonggong",
         "poka"
       ]
+    },
+    "korean-verified-20261117-bulk-wave14": {
+      "input_hash": "bfb2623b1cca658633dc1b54a8c1df5ab88c6c1935ec26f42836434b6043b00d",
+      "ids": [
+        "jasak",
+        "sseobang",
+        "saengka",
+        "yeongtong-paenssa",
+        "album-kkang",
+        "sanok",
+        "gongbang",
+        "olkon",
+        "insaeng-jjal",
+        "namchin-jjal",
+        "samgwida",
+        "jjaljup",
+        "sigang",
+        "insaeng-shot",
+        "lovestagram",
+        "taste-hit",
+        "assarabia-colombia",
+        "adi-adi-challenge"
+      ]
     }
   },
   "entries": {
@@ -8158,6 +8181,156 @@
       "body_hash": "c29d94452a1cb7c0235db3aedb7714665c5b78ffa7e35f9595c00592e50de32e",
       "scope_type": "korean_usage",
       "scope_basis": "독립 출처의 실제 본문에서 확인한 한국어 의미 및 국내 관찰 사용. 최초 기원·현재 유행 순위를 인증하지 않음.",
+      "tags": []
+    },
+    "jasak": {
+      "title": "자삭",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "b0812f584fbf9379a57782d21fd27ad4f6ed6bee917266a0e55a3d3eda77c2b7",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "tags": []
+    },
+    "sseobang": {
+      "title": "써방",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "b734cf7ec75888a277e55cab8728513bb4db35ddde6932b326ecf3e3b42da2f3",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "tags": []
+    },
+    "saengka": {
+      "title": "생카",
+      "aliases": [
+        "생일 카페"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "84efc4e2a34b7745a9c7a8c79d408a6e18d432a23971a09d92dc03179a119f23",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "tags": []
+    },
+    "yeongtong-paenssa": {
+      "title": "영통팬싸",
+      "aliases": [
+        "영통 팬싸"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "024b5c9006d5e972ea48474e2540a5da1d2cc4c40099150e2ec835541b1415ea",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "tags": []
+    },
+    "album-kkang": {
+      "title": "앨범깡",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "33a6ea37d37c71574775213a28bd638c2ac5d139b21062dd6e1e6d34d97435a3",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "tags": []
+    },
+    "sanok": {
+      "title": "사녹",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "2b557106f5127c9b0ade02805642890a47d471a29767ee260292aec4c6d9b3c1",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "tags": []
+    },
+    "gongbang": {
+      "title": "공방",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "547fb20a76d0ca56cb3f681f38e2779c4b20bf17e0b5ee4b9aadb08584152800",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "tags": []
+    },
+    "olkon": {
+      "title": "올콘",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "d6c5c7ae0207a849bdeb15a2462537fe15eed466f3dce1c0d46b8085d237f464",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "tags": []
+    },
+    "insaeng-jjal": {
+      "title": "인생짤",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "00841dc38022d5e46a2197bfb81fb56baad82fda06e1b3944c743769e7ab3fbc",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "tags": []
+    },
+    "namchin-jjal": {
+      "title": "남친짤",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "8dfaf914016027669ded97e1600b77246c5c25a554348b63ce2d87c84ddd48d9",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "tags": []
+    },
+    "samgwida": {
+      "title": "삼귀다",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "6e54aeaaa98877d38bb80b4adbfaf589ac2fe899f0d889ca821b46274388905f",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다.",
+      "tags": []
+    },
+    "jjaljup": {
+      "title": "짤줍",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "6a525dd0646244868879669c9ff6dc671b6781afca12b0ea6401683a81dd0d20",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다.",
+      "tags": []
+    },
+    "sigang": {
+      "title": "시강",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "ef068c0343a3c7c2251aba1e67d7957fb9b8263563d247137ce7f051119c4c89",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다.",
+      "tags": []
+    },
+    "insaeng-shot": {
+      "title": "인생샷",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "7c219346082f69f37785d036ef29c271dfafbc7e71248d3e3b599c630b1ff4f2",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다.",
+      "tags": []
+    },
+    "lovestagram": {
+      "title": "럽스타그램",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "7b17c47ad4dd71f043c219e2d4a7fb857e46d337a9398b260296ae4be8e21f40",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다.",
+      "tags": []
+    },
+    "taste-hit": {
+      "title": "취향저격",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "4086cfc303fe0e6d9b6c123bbf45f0bda185eb96d11370fd0d3a39a8514f6c7c",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 공개 페이지에서의 사용과 뜻을 확인. 이전 연도 자료는 정의/과거 사용의 보조 근거이며 최초 유래를 뜻하지 않는다.",
+      "tags": []
+    },
+    "assarabia-colombia": {
+      "title": "아싸라비아 콜롬비아",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "b5e9c8d02bae4ad88e4d7f26dc74e4afe2c1bd24a58a498b9d5c18f34041e83d",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 방송 유행어 정리와 공연에서의 반복 사용 보도를 교차 확인.",
+      "tags": []
+    },
+    "adi-adi-challenge": {
+      "title": "아디아디아디 챌린지",
+      "batch": "korean-verified-20261117-bulk-wave14",
+      "body_hash": "8b7ab6595f0af4722a28813815ec11f1bf749e002c30a21993b890b716a23dfe",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 댄스 크루의 특정 음악·동작 결합 형식과 국내 가수·제작자의 재현을 두 매체가 설명.",
       "tags": []
     }
   }
