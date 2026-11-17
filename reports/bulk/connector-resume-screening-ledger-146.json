@@ -26,10 +26,11 @@
     "reports/bulk/connector-resume-c168.json",
     "reports/bulk/connector-resume-bc169.json",
     "reports/bulk/connector-resume-b170.json",
-    "reports/bulk/connector-resume-audit-screening171.json"
+    "reports/bulk/connector-resume-audit-screening171.json",
+    "reports/bulk/connector-resume-b172.json"
   ],
-  "query_observations": 436,
-  "distinct_literal_queries": 347,
+  "query_observations": 456,
+  "distinct_literal_queries": 364,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -2412,6 +2413,106 @@
       "query": "진돌",
       "source": "reports/bulk/connector-resume-audit-screening171.json",
       "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "54000",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "54,000",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오만",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바나나",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "체포",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "배드",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감자칼",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개코",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나이별",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하지하지마",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "동엽",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "얼렁뚱",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그러시구나",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "봄이구나",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나이대",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "연령",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "연애 상대",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나이에",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "age",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "age-reaction",
+      "source": "reports/bulk/connector-resume-b172.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [
