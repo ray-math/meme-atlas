@@ -85,6 +85,12 @@ def evaluate(root=ROOT, candidates=None):
             'plan_errors':plan_errors,
             'total':len(rows),'passed':sum(r['passed'] for r in rows),'results':rows}
 
+def exit_code(result,fail_on_drift=False):
+    passed=result['total']>0 and result['passed']==result['total'] and not result['plan_errors']
+    if fail_on_drift and result['staged_public_candidate_drift']:
+        passed=False
+    return 0 if passed else 1
+
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--candidate',action='append',help='published profile ID to provisionally review; repeatable')
@@ -96,7 +102,4 @@ if __name__=='__main__':
     except ValueError as exc:
         parser.exit(2,str(exc)+'\n')
     print(json.dumps(result,ensure_ascii=False,indent=2))
-    passed=result['total']>0 and result['passed']==result['total'] and not result['plan_errors']
-    if args.fail_on_drift and result['staged_public_candidate_drift']:
-        passed=False
-    raise SystemExit(0 if passed else 1)
+    raise SystemExit(exit_code(result,args.fail_on_drift))

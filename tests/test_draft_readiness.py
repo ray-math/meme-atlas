@@ -34,7 +34,7 @@ class DraftReadinessTests(unittest.TestCase):
         import subprocess
         command=[sys.executable,str(ROOT/'scripts/evaluate_draft_readiness.py')]
         for args,expected in [
-            (['--candidate','gabojago','--fail-on-drift'],1),
+            (['--candidate','gabojago','--fail-on-drift'],0),
             (['--candidate','goat','--fail-on-drift'],0),
             (['--candidate','ubd','--fail-on-drift'],0),
             (['--candidate','missing-profile','--fail-on-drift'],2),
@@ -86,3 +86,12 @@ class DraftReadinessTests(unittest.TestCase):
             result=evaluate(ROOT,['ubd'])
             self.assertTrue(result['plan_errors'])
             self.assertTrue(all(e['status']=='unsupported_filter' for e in result['plan_errors']))
+
+    def test_exit_gate_rejects_drift_even_when_structural_probes_pass(self):
+        from evaluate_draft_readiness import exit_code
+        clean={'total':1,'passed':1,'plan_errors':[],'staged_public_candidate_drift':[]}
+        self.assertEqual(exit_code(clean,True),0)
+        contaminated=dict(clean,staged_public_candidate_drift=[{'id':'synthetic-unit-only'}])
+        self.assertEqual(exit_code(contaminated,True),1)
+        self.assertEqual(exit_code(contaminated,False),0)
+        self.assertEqual(exit_code(dict(clean,plan_errors=[{'reason':'invalid'}]),False),1)

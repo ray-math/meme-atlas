@@ -29,7 +29,7 @@ class ExplicitContextTests(unittest.TestCase):
             key=(entry['id'],usage['id'])
             for mode in ['lookup','recommend']:
                 filters={'intents':usage['intents'],'mode':mode,'limit':100}
-                for incomplete in [{},{'situations':required['situations']},{'targets':required['targets']}]:
+                for incomplete in [{k:v for k,v in required.items() if k!=missing} for missing in required]:
                     result=search(self.index,self.vocab,**dict(filters,**incomplete))
                     self.assertNotIn(key,self.ids(result))
                 complete=dict(filters,**required)
@@ -39,8 +39,9 @@ class ExplicitContextTests(unittest.TestCase):
                 self.assertNotIn(key,self.ids(search(self.index,self.vocab,**wrong)))
                 wrong_situation=dict(complete,situations=['불확실한결과'])
                 self.assertNotIn(key,self.ids(search(self.index,self.vocab,**wrong_situation)))
-                broad_target=dict(complete,targets=required['targets']+['자기'])
-                self.assertNotIn(key,self.ids(search(self.index,self.vocab,**broad_target)))
+                if 'targets' in required:
+                    broad_target=dict(complete,targets=required['targets']+['자기'])
+                    self.assertNotIn(key,self.ids(search(self.index,self.vocab,**broad_target)))
                 ambiguous=dict(complete,situations=required['situations']+['불확실한결과'])
                 self.assertNotIn(key,self.ids(search(self.index,self.vocab,**ambiguous)))
 

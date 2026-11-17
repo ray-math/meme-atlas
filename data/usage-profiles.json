@@ -1647,6 +1647,7 @@
             "스포츠선수평가"
           ],
           "targets": [
+            "상대",
             "제삼자"
           ],
           "registers": [
@@ -1664,13 +1665,10 @@
             "text": "결정적인 순간마다 해내네. 내가 생각하는 GOAT야.",
             "kind": "editorial"
           },
-          "review_note": "본문의 스포츠 찬사 용법만 포함한다. 기쁨·놀람을 자동 부여하지 않고 반어·자기인생 GOAT 파생은 이번 근거 범위에서 제외한다.",
+          "review_note": "본문의 스포츠 찬사 용법만 포함한다. 기쁨·놀람을 자동 부여하지 않고 반어·자기인생 GOAT 파생은 이번 근거 범위에서 제외한다. 대상 범위는 선수에게 직접 하는 찬사와 다른 사람에게 선수에 관해 말하는 찬사를 함께 표현한다. 직접 수신자 실례의 독립 확인이 아닌 의미에 근거한 편집 판단이다. 관계가 불명확하면 target 필터를 생략하며 제삼자로 추정하지 않는다.",
           "retrieval_requirements": {
             "situations": [
               "스포츠선수평가"
-            ],
-            "targets": [
-              "제삼자"
             ]
           }
         }
@@ -1824,7 +1822,7 @@
       "entry_id": "gabojago",
       "source_sha": "498075ad797426106b9b62a3450f93dd9549880f",
       "review_status": "draft",
-      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.joongang.co.kr/article/25059788 ; https://sports.khan.co.kr/article/202205240001003/amp ; https://www.newsis.com/view/NISX20241107_0002950032 . 전재 기사는 별개의 독립 출처로 세지 않았다.",
+      "review_note": "AI 편집 초안이며 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. b897e3feab448c7e0733cd687916a6995857b022의 본문을 직접 대조했다. 출처 교차 확인은 별도 조사 보고를 참고했다. 예문은 편집 창작이며 safety·risk_flags·avoid_when은 기사에서 입증된 사실이 아닌 문맥별 편집 판단이다. 실제 사용자의 내면 정서는 추정하지 않는다. 조사 근거: https://www.joongang.co.kr/article/25059788 ; https://sports.khan.co.kr/article/202205240001003/amp ; https://www.newsis.com/view/NISX20241107_0002950032 . 전재 기사는 별개의 독립 출처로 세지 않았다. 추가 직접 확인: https://www.cjazit.org/support/tune-up/entry/64/26182?p=72 (2023-03-14 창작자 소개의 자기응원 용법), https://maily.so/jakdamreport/posts/8mo54w71z9p (2025-09-12 현장 작업 전 자기사용 자기보고). 가사는 저장하지 않는다. 자기격려의 존재를 뒷받침하지만 일반 빈도·효과·안전성을 증명하지 않는다.",
       "usages": [
         {
           "id": "encourage-challenge",
@@ -1856,14 +1854,22 @@
             "text": "발표 준비한 만큼 해보자. 가보자고!",
             "kind": "editorial"
           },
-          "review_note": "본문의 권유 기능과 별도 기사의 수험생 응원 실사용을 참고했다. 상대의 긴장이나 발화자의 결의를 필수 정서로 추정하지 않는다."
+          "review_note": "본문의 권유 기능과 별도 기사의 수험생 응원 실사용을 참고했다. 상대의 긴장이나 발화자의 결의를 필수 정서로 추정하지 않는다.",
+          "retrieval_requirements": {
+            "situations": [
+              "도전시작"
+            ],
+            "targets": [
+              "상대"
+            ]
+          }
         },
         {
-          "id": "commit-to-start",
+          "id": "encourage-self",
           "emotion_status": "unknown",
           "emotions": [],
           "intents": [
-            "다짐"
+            "격려"
           ],
           "situations": [
             "도전시작"
@@ -1878,7 +1884,7 @@
           ],
           "risk_flags": [],
           "safety": "standard",
-          "context": "스스로 선택한 안전하고 가능한 도전을 시작해 보겠다는 자기 지향 다짐이다.",
+          "context": "스스로 선택한 과제에 착수하며 자신을 북돋는 자기 지향 격려다. 일상 자기응원 전체가 아니라 안전하고 가능한 활동을 시작하는 좁은 맥락을 다룬다.",
           "avoid_when": [
             "명백한 위험을 무시하고 행동하려는 때",
             "타인의 참여나 지속을 강요할 때"
@@ -1887,7 +1893,15 @@
             "text": "첫 글이라 서툴겠지만 한 문단부터 가보자고.",
             "kind": "editorial"
           },
-          "review_note": "본문의 권유·다짐 및 도전 실행 쓰임에 근거한 편집 분리다. 자기 다짐과 상대 응원을 같은 대상으로 합치지 않는다."
+          "review_note": "CJ문화재단 창작 소개의 자기사용과 작담이 통신의 현장 작업 전 자기격려를 직접 확인했다. 실행 약속으로 단정하지 않고 격려+자기로 기능과 방향을 분리한다. 도전시작 조건과 안전 경계는 좁힌 편집 적용 범위다.",
+          "retrieval_requirements": {
+            "situations": [
+              "도전시작"
+            ],
+            "targets": [
+              "자기"
+            ]
+          }
         }
       ]
     }
