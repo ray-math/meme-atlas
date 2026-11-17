@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave16",
+  "status": "ready_for_independent_editorial_review",
+  "created_at": "2026-11-17",
+  "base_ref": "0f9f30c5eea252a99efa432cf38de3f2b60403e7",
+  "counts": {
+    "explicit_candidate_scope": 5,
+    "ready": 1,
+    "held": 4,
+    "prior_held_researched": 0,
+    "index_count": 814
+  },
+  "discovery": "원대장 자동 미연결 집합에서 고정 표현 5개만 명시 선별. 원본 위키 접근 검증 또는 전체 미조사 판정 아님.",
+  "entries": [
+    {
+      "entry_id": "horizontal-coordinates-ghost",
+      "title": "어떻게 지평좌표계로 고정을 하셨죠?",
+      "ledger_id": "kr-list-0739",
+      "path": "memes/horizontal-coordinates-ghost.md",
+      "source_sha": "bcc01f808ea981f01a568dd3c733dfba7cb773d5",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 방송 관련 질문과 국내 괴담 댓글 재사용을 독립 트렌드 해설 및 당사자 인터뷰 기사 본문으로 확인.",
+      "sources": [
+        {
+          "publisher": "캐릿",
+          "url": "https://www.careet.net/Newsletter/Detail/1777",
+          "published_at": "2023-05-09",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "침착맨·궤도 방송의 지박령 질문과 공포 사연·영상 댓글에 쓰이는 반응 형식.",
+          "limitations": "귀신의 중력·공전 설명은 농담의 가정이며 검증된 과학 사실로 채택하지 않음. 반복 일상 파생은 이번 본문에 추가하지 않음."
+        },
+        {
+          "publisher": "조선일보",
+          "url": "https://www.chosun.com/national/weekend/2025/04/12/IVP2JRHGZ5BXJF47QXTDFIRKQQ/?outputType=amp",
+          "published_at": "2025-04-12",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "당사자 인터뷰 기사의 사진설명에서 같은 질문을 대표 어록 밈으로 직접 설명.",
+          "limitations": "원영상·원댓글 직접 열람 아님. 기사 내 인물의 사생활·세부 학력·수치 등 불필요 내용 제외."
+        }
+      ],
+      "supplementary": [
+        {
+          "publisher": "YTN",
+          "url": "https://www.ytn.co.kr/community/audience_record.php?f=2&id=332&page=2&s_mcd=0001",
+          "access": "direct_body",
+          "published_at": null,
+          "supports": "시청자위원회 기록에서 창시자 표기가 과장이라는 비판과 제작진 응답 확인.",
+          "limitations": "지평좌표계 과학 용어의 발명을 주장하지 않도록 하는 편집 검토 보강; 최초 기원 근거로 사용하지 않음."
+        }
+      ],
+      "limitations": [
+        "공포를 즐기는 패러디와 실제 불안/두려움 대응을 구분.",
+        "정확한 최초 게시일이나 현재 유행 정도는 단정하지 않음.",
+        "예문은 편집 창작이며 원문 복제 아님."
+      ],
+      "usage_status": "not_annotated"
+    }
+  ],
+  "held": [
+    {
+      "ledger_id": "kr-list-0684",
+      "reason": "위키·파생 데이터와 방송사 클립 제목 사용 검색 결과는 있으나 두 독립 직접 본문이 해당 밈의 뜻·재사용을 설명하는 기준에 미달."
+    },
+    {
+      "ledger_id": "kr-list-0755",
+      "reason": "초기 검색에서 실제 가족의 고통·비방과 연결된 원형이 드러나 이번 안전 고정표현 범위에서 중단. 원인물 신상이나 비난은 재현하지 않음."
+    },
+    {
+      "ledger_id": "kr-list-0763",
+      "reason": "개별 게시판 질문과 목록 외 형식의 국내 재사용을 설명할 두 독립 직접 본문 미확보."
+    },
+    {
+      "ledger_id": "kr-list-0800",
+      "reason": "일본어 일반어·캐릭터 대사·영상 메타가 혼재하며 특정 국내 밈 용법의 두 독립 직접 본문 미확보."
+    }
+  ],
+  "duplicate_check": {
+    "index_ref": "0f9f30c5eea252a99efa432cf38de3f2b60403e7",
+    "index_count": 814,
+    "title_alias_pattern": "없어요|엄마도 사람|여기 버튼|와쿠와쿠|지평좌표",
+    "title_alias_matches": [],
+    "history": "고정 ref 65 manifest 제목 이력에 해당 변형 일치 없음. 전체 과거 조사 부재를 단정하지 않음.",
+    "tree_path_matches": [],
+    "pilot_slug_matches": []
+  },
+  "verification": {
+    "ci_run": false,
+    "main_changed": false,
+    "pr37_changed": false,
+    "ledger_changed": false,
+    "usage_changed": false,
+    "generated_artifacts": false
+  }
+}
