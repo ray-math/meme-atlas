@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "proof-photo"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 355,
+    "annotated_entries": 65,
+    "reviewed_entries": 64,
+    "unannotated_entries": 290
+  },
+  "provisional_reviewed_entries": 65,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "execution_commit": "8337b5a0966cbc751bb210983c60b579c9e80aa8",
+  "ci_run": 44027719512,
+  "results": [
+    {
+      "id": "P-record",
+      "prompt": "본인이 마쳤다고 설명한 활동을 기록한 사진을 소개하며 자신의 경험을 공유한다. 사진은 전달 매체이고 표현의 중심은 본인의 경험이다. 기록을 제시하는 목적이지 사진을 독립적으로 검증했다는 뜻은 아니다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "활동기록공유"
+        ],
+        "situations": [
+          "활동기록사진"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 355,
+          "annotated_entries": 65,
+          "reviewed_entries": 64,
+          "unannotated_entries": 290
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "proof-photo",
+            "title": "인증샷",
+            "path": "memes/proof-photo.md",
+            "domain_tags": [],
+            "usage_id": "share-own-completed-activity",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "활동기록공유"
+              ],
+              "situations": [
+                "활동기록사진"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "share-own-completed-activity",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "활동기록공유"
+              ],
+              "situations": [
+                "활동기록사진"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인"
+              ],
+              "safety": "standard",
+              "context": "본인이 마쳤다고 설명한 활동을 기록한 사진을 소개하며 자신의 경험을 공유한다. 사진은 전달 매체이고 표현의 중심은 본인의 경험이다. 기록을 제시하는 목적이지 사진을 독립적으로 검증했다는 뜻은 아니다.",
+              "avoid_when": [
+                "다른 사람의 사진만 보고 그 사람이 실제 활동을 마쳤다고 확정하는 경우",
+                "사진이나 사용자 입력에 없는 메달·장소·인물·구도를 만들어 말하는 경우",
+                "사진을 실제로 보지 않았는데 내용을 관찰한 것처럼 설명하는 경우",
+                "민감한 신분증·신체 사진 등을 증거로 요구하는 경우",
+                "동의 없는 촬영·공유를 권하거나 개인 정보 노출을 무시하는 경우",
+                "사진의 진위·활동 완료를 독립 검증한 것으로 주장하는 경우",
+                "사진 작품의 솜씨 평가나 타인에게 증거 제출을 요구하는 용법으로 확대하는 경우"
+              ],
+              "example": {
+                "text": "활동을 마치고 기록 사진을 남겼어. 내 경험을 공유하는 인증샷이야.",
+                "kind": "editorial"
+              },
+              "review_note": "예문은 사진 관찰 보고가 아니라 개인정보 없는 창작이다. standard는 자기 활동의 비민감 기록을 적법하고 동의된 범위에서 공유한다는 좁은 편집 맥락의 판단이다. 사용자가 제시한 활동 완료 전제를 유지할 수 있지만 실제 사진·진위·촬영 동의가 확인됐다고 주장하지 않는다. 필터 일치만으로 이 조건이 검증되지는 않는다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "활동기록사진"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "54d487149fba2edaa1a166f6f73d61633b1e5c2f",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "활동기록사진"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "P-other",
+      "prompt": "다른 사람의 사진만 보고 그 사람이 실제 활동을 마쳤다고 확정하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "P-details",
+      "prompt": "사진이나 사용자 입력에 없는 메달·장소·인물·구도를 만들어 말하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "P-private",
+      "prompt": "민감한 신분증·신체 사진 등을 증거로 요구하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "P-consent",
+      "prompt": "동의 없는 촬영·공유를 권하거나 개인 정보 노출을 무시하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A07",
+      "prompt": "며칠 만든 작은 도자기 컵이 완성됐어. 내 작품 사진에 귀엽게 자랑하는 캡션을 달래.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "결과물공유"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 355,
+          "annotated_entries": 65,
+          "reviewed_entries": 64,
+          "unannotated_entries": 290
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "look-at-this-hand",
+            "title": "이 손을 봐, 대박임",
+            "path": "memes/look-at-this-hand.md",
+            "domain_tags": [
+              "웹툰"
+            ],
+            "usage_id": "cute-brag",
+            "score": 20,
+            "matched_facets": {
+              "situations": [
+                "결과물공유"
+              ]
+            },
+            "usage": {
+              "id": "cute-brag",
+              "emotions": [
+                "뿌듯함"
+              ],
+              "intents": [
+                "자랑"
+              ],
+              "situations": [
+                "새물건",
+                "결과물공유"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신의 물건이나 결과물을 귀엽고 천진하게 소개한다.",
+              "avoid_when": [
+                "상대의 성과를 깎아내리는 비교 자랑"
+              ],
+              "example": {
+                "text": "이 책장을 봐, 대박임. 내가 조립했다 짱이지.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "17e9c3fafef79ca9d09392647015da56b71599a8",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    },
+    {
+      "id": "E18",
+      "prompt": "사람들이 댓글에 '기둥 뒤에 공간 있어요'를 반복하던데 주차 안내가 아닌 곳에서는 어떤 뜻이야?",
+      "action": "lookup",
+      "filters": {
+        "query": "기둥 뒤에 공간 있어요",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 355,
+          "annotated_entries": 65,
+          "reviewed_entries": 64,
+          "unannotated_entries": 290
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "space-behind-pillar",
+            "title": "기둥 뒤에 공간 있어요",
+            "path": "memes/space-behind-pillar.md",
+            "domain_tags": [],
+            "usage_id": "repeated-explanation",
+            "score": 140,
+            "matched_facets": {},
+            "usage": {
+              "id": "repeated-explanation",
+              "emotions": [
+                "답답함"
+              ],
+              "intents": [
+                "불만표현"
+              ],
+              "situations": [
+                "반복질문",
+                "설명불통"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "무시로들림"
+              ],
+              "safety": "caution",
+              "context": "이미 한 설명이 반복해서 전달되지 않는 답답함을 표현한다.",
+              "avoid_when": [
+                "처음 묻는 사람에게 무시하는 답을 할 때"
+              ],
+              "example": {
+                "text": "안내문에 있다고 계속 설명 중이야. 기둥 뒤에 공간 있어요.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "25a4c799e45d59e0cedd7d10bf709e57db89eb94",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    }
+  ]
+}
