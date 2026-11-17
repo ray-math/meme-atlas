@@ -23,3 +23,4 @@
 - [텔미 춤 따라하기](../memes/tell-me-dance.md)
 - [일해라 절해라](../memes/work-and-bow.md)
 - [쏘리쏘리 춤 따라하기](../memes/sorry-sorry-dance.md)
+- [의자춤](../memes/michyeosseo-chair-dance.md)

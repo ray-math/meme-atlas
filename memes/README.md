@@ -592,6 +592,7 @@
 - [응답하라 ○○](eungdaphara-template.md)
 - [의문세](uimunse.md)
 - [의문의 1승](unexpected-win.md)
+- [의자춤](michyeosseo-chair-dance.md)
 - [이 손을 봐, 대박임](look-at-this-hand.md)
 - [이 시국에](i-siguge.md)
 - [이 안에 너 있다](you-in-here.md)

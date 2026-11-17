@@ -913,6 +913,7 @@
 - [야르송](../memes/yareu-song.md)
 - [영크크](../memes/young-creator-crew.md)
 - [위아원 처하자](../memes/weareone-cheohaja.md)
+- [의자춤](../memes/michyeosseo-chair-dance.md)
 - [재즈가 뭐라고 생각하세요?](../memes/what-is-jazz.md)
 - [저세상 텐션](../memes/jeose-sang-tension.md)
 - [전국 HandClap 자랑](../memes/national-handclap.md)
