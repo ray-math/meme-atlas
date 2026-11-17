@@ -1,0 +1,29 @@
+{
+  "batch": "connector-resume-a143",
+  "base": "34991fb98d6221dbb369feac113d3e5511402102",
+  "entries": [
+    {
+      "id": "best-friend-name-challenge",
+      "sources": [
+        {
+          "url": "https://maily.so/trendaword/posts/10z3724kolw",
+          "observed": "2026-10-14 108~119행 도영 계정의 실제챌린지 소개."
+        },
+        {
+          "url": "https://gogumafarm.kr/거북아-그-속도론-알고리즘-못-따라가-당장-따라해야/",
+          "observed": "2026-10-20 195~198행 3.allganee 학교이름 변형 구체보고."
+        }
+      ],
+      "reported_distinct_usage_events": 2,
+      "evidence_level": "독립 해설본문 직접열람, 원 인스타 영상미열람. 도영 반복보도를 추가집계하지 않음.",
+      "bounds": "특정영상 표정·세부편집순서를 덧붙이지않음. 일반 답정너 항목과구분."
+    }
+  ],
+  "checks": {
+    "result_entries": 857,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

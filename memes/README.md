@@ -738,6 +738,7 @@
 - [친구 아이가](chingu-aiga.md)
 - [친삭](chinsak.md)
 - [친추](chinchu.md)
+- [친한 친구 이름 대기 챌린지](best-friend-name-challenge.md)
 - [칠 가이](chill-guy.md)
 - [칭찬감옥](praise-prison.md)
 - [카공족](kagongjok.md)

@@ -546,6 +546,7 @@
 - [치피치피 차파차파](../memes/chipi-chipi-chapa-chapa.md)
 - [친삭](../memes/chinsak.md)
 - [친추](../memes/chinchu.md)
+- [친한 친구 이름 대기 챌린지](../memes/best-friend-name-challenge.md)
 - [칠 가이](../memes/chill-guy.md)
 - [칭찬감옥](../memes/praise-prison.md)
 - [카공족](../memes/kagongjok.md)
