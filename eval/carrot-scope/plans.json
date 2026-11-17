@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "prompt_version": "contextual-v3",
+  "source_revision": "4c223d575ce3fafc26717994ce323566b8f21b76",
+  "execution": "Actual AI planning; summaries paraphrased. No gold or other answers read in this round.",
+  "limitations": [
+    "Public annotation-derived development, not blinded discovery.",
+    "A request may remain underspecified even when it contains an example.",
+    "No original draft promotion; lookup is candidate exploration."
+  ],
+  "plans": [
+    {
+      "id": "C-agree",
+      "prompt": "앞서 나온 사소한 평가에 실제로 동의하면서 당연하다는 뜻을 친근한 말장난으로 표현한다. 평가 대상이나 내용에 대한 긍정이지 상대 인물 자체에 대한 칭찬은 아니다.\n이 그림은 두 색이 잘 어울리지? 당근이지!",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "동조"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "Explore genuine agreement broadly; do not force title or extra filters to guarantee the draft."
+    },
+    {
+      "id": "C-check-in",
+      "prompt": "뜻밖의 활동이나 잦은 작업 소식을 접한 상대에게 괜찮은지 가볍게 묻고, 곤란하다면 신호를 보내 달라는 설정으로 안부를 확인한다. 실제 감금·강요가 확인된 상황이 아니며 표현을 농담으로 받아들일 문맥인지 별도로 살펴야 한다.\n이번 주에도 새 작업 소식이 많네요. 쉬는 시간은 있나요? 없다면 당근을 흔들어주세요.",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "Other-directed check-in, but joking reception is not established; clarify instead of assuming relationship or safety."
+    },
+    {
+      "id": "A08",
+      "prompt": "친구가 이번 리메이크는 원작보다 편집이 낫대. 나도 정말 같은 생각이야. 비꼬는 뜻 없이 짧게 동의하고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "동조"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "Genuine agreement with an editing assessment; compare returned senses without prioritizing the new draft."
+    },
+    {
+      "id": "A18",
+      "prompt": "친구가 괴롭힘 피해를 자세히 털어놓는데 듣기 길어. 웃긴 밈으로 말을 끊어 줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "Do not interrupt a disclosure of bullying with humor."
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "Ask for context and mutual-joking relationship before classifying."
+    },
+    {
+      "id": "A27",
+      "prompt": "친구가 합격했다가 아니라 탈락했다고 했어. 놀랍고 기쁜 척하지 말고 진지하게 위로하는 밈을 골라줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "Serious comfort after failure, not agreement or assumed renewed participation."
+    }
+  ]
+}
