@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave12",
+  "baseline_ref": "9f88b579",
+  "baseline_canonical_count": 726,
+  "review_date": "2026-11-17",
+  "reviewer_type": "AI",
+  "counts": {
+    "screened": 40,
+    "written": 4,
+    "baseline_duplicate": 2,
+    "held": 34
+  },
+  "method": "40개 범위를 표제·별칭·의미 분리 수준에서 선별. 전부 심층검증한 것으로 세지 않는다. 작성 4개만 두 독립 발행 주체의 실제 본문을 확인했다. 숫자 목표를 위해 일반어와 파생형을 일괄 수록하지 않았다.",
+  "ci_status": "not_run",
+  "entries": [
+    {
+      "id": "lanseon-travel",
+      "title": "랜선여행",
+      "path": "memes/lanseon-travel.md",
+      "own_definition": "실제 목적지로 이동하지 않고 온라인 영상이나 실시간 중계로 여행지를 둘러보는 일을 가리킨다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 기사 본문에서 의미와 사용 확인. 득근의 응원 발화는 2020년 별도 보조 자료."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.nongmin.com/article/20210108331843",
+          "publisher": "농민신문",
+          "published_date": "2021-01-11",
+          "access": "direct_body",
+          "supports": "온라인 여행 정의와 기자의 단양 영상 체험.",
+          "independent_group": "nongmin-online-tour"
+        },
+        {
+          "url": "https://v.daum.net/v/20210815220327423?f=p",
+          "publisher": "이데일리(Daum 전재)",
+          "published_date": "2021-08-15",
+          "access": "direct_body",
+          "supports": "라이브 여행 참가자의 별도 경험과 온라인 여행 유형.",
+          "independent_group": "edaily-live-tour"
+        }
+      ],
+      "limitations": [
+        "농민신문 입력일은 본문 2021-01-11 기준이며 URL에 들어 있는 날짜와 구별했다.",
+        "당시 여행 방법의 언어적 의미만 다루며 현재 상품 운영 여부나 가격은 주장하지 않는다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "726개 index title/aliases 및 pilot-state retired 항목 대조 동일 표제 없음. usage 자동생성 없음."
+    },
+    {
+      "id": "jipkok",
+      "title": "집콕",
+      "path": "memes/jipkok.md",
+      "own_definition": "밖에 나가지 않고 집 안에 머무르는 생활을 짧고 가볍게 표현하는 말이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 기사 본문에서 의미와 사용 확인. 득근의 응원 발화는 2020년 별도 보조 자료."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "집콕의 정의와 집콕 놀이·취미 등의 결합형.",
+          "independent_group": "policybriefing-language-review"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/202104041203001/amp",
+          "publisher": "경향신문",
+          "published_date": "2021-04-04",
+          "access": "direct_body",
+          "supports": "외부 활동 자제·집 안 생활이라는 직접 풀이.",
+          "independent_group": "khan-indoor-exercise-patents"
+        }
+      ],
+      "limitations": [
+        "서로 다른 신조어 회고와 특허 보도이며 통계를 합산하지 않았다. 감염·체중·정신 상태 관련 주장을 본문에 옮기지 않았다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "726개 index title/aliases 및 pilot-state retired 항목 대조 동일 표제 없음. usage 자동생성 없음."
+    },
+    {
+      "id": "home-training",
+      "title": "홈트",
+      "path": "memes/home-training.md",
+      "own_definition": "‘홈 트레이닝’을 줄인 말로, 집에서 하는 운동을 가리킨다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 기사 본문에서 의미와 사용 확인. 득근의 응원 발화는 2020년 별도 보조 자료."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "홈트의 원형과 집 운동 의미 명시.",
+          "independent_group": "policybriefing-language-review"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/202104041203001/amp",
+          "publisher": "경향신문",
+          "published_date": "2021-04-04",
+          "access": "direct_body",
+          "supports": "홈트레이닝 풀이 및 온라인·비대면 운동 지원 용례.",
+          "independent_group": "khan-indoor-exercise-patents"
+        }
+      ],
+      "limitations": [
+        "일반 운동 전체가 아니라 온라인 대화에서 쓰는 축약형을 제안한다. 편집자가 사전의 밈 범위를 더 좁히면 보류 가능.",
+        "현재 운동법의 안전성·효과나 의료 조언은 제공하지 않는다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "726개 index title/aliases 및 pilot-state retired 항목 대조 동일 표제 없음. usage 자동생성 없음."
+    },
+    {
+      "id": "deukgeun",
+      "title": "득근",
+      "path": "memes/deukgeun.md",
+      "own_definition": "근육을 얻거나 키운다는 뜻으로, 운동 성과나 목표를 가볍게 말하는 표현이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2021~2023년 국내 기사 본문에서 의미와 사용 확인. 득근의 응원 발화는 2020년 별도 보조 자료."
+      },
+      "source_urls": [
+        {
+          "url": "https://v.daum.net/v/20201102150046779",
+          "publisher": "동아일보(Daum 전재)",
+          "published_date": "2020-11-02",
+          "access": "direct_body",
+          "supports": "운동 밈 문화에서 득근하세요 응원 발화의 실제 사용.",
+          "independent_group": "donga-fitness-memes"
+        },
+        {
+          "url": "https://isplus.com/article/view/isp202309130049",
+          "publisher": "일간스포츠",
+          "published_date": "2023-09-13",
+          "access": "direct_body",
+          "supports": "근육을 얻는다는 직접 뜻풀이와 SNS 운동 문화 맥락.",
+          "independent_group": "isplus-genderless-sports"
+        }
+      ],
+      "limitations": [
+        "동아일보 11월3일 유사 기사는 같은 원자료이므로 별도 독립 출처로 세지 않았다.",
+        "중앙일보 자료도 직접 열었지만 표시 발행일이 없어 핵심 두 출처에서 제외. 영양·운동량·질환 조언과 성별 일반화는 차용하지 않았다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "726개 index title/aliases 및 pilot-state retired 항목 대조 동일 표제 없음. usage 자동생성 없음."
+    }
+  ],
+  "triage": [
+    {
+      "title": "택포",
+      "status": "held",
+      "matches": [],
+      "reason": "동아 서평 직접 정의 있음. 두 번째 서평은 같은 책 기반이라 독립 근거로 중복 계산하지 않음. 신보 PDF 직접 접근 실패."
+    },
+    {
+      "title": "무배",
+      "status": "held",
+      "matches": [],
+      "reason": "동아 서평 직접 정의 있음. 독립 추가 자료 PDF 접근 실패."
+    },
+    {
+      "title": "쿨거",
+      "status": "held",
+      "matches": [],
+      "reason": "가격 협상 포함 여부의 다의성 관측. 검색 목록만으로 뜻 고정하지 않음."
+    },
+    {
+      "title": "네고",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 협상 용법과 중고거래 은어를 구분할 두 독립 본문 미완료."
+    },
+    {
+      "title": "에눌",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "반택",
+      "status": "held",
+      "matches": [],
+      "reason": "배송 서비스 축약과 서비스명 변경이 얽힘. 블로그·현재 매물만으로 기간 사용 확정하지 않음."
+    },
+    {
+      "title": "끼택",
+      "status": "held",
+      "matches": [],
+      "reason": "브랜드 서비스명 변경이 얽힘. 검색 결과만으로 현행 서비스 안내하지 않음."
+    },
+    {
+      "title": "풀박",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "박풀",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "득템",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "deuktem",
+          "title": "득템"
+        }
+      ],
+      "reason": "최신726 표제/별칭 일치."
+    },
+    {
+      "title": "득근",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 직접 본문 확인."
+    },
+    {
+      "title": "헬린이",
+      "status": "held",
+      "matches": [],
+      "reason": "-린이 공통 형식의 파생. 초보자 의미와 어린이 비하 우려를 구분할 공통 항목 검토 전 개별 수록 보류. 검색 자료만으로 혐오 판정하지 않음."
+    },
+    {
+      "title": "주린이",
+      "status": "held",
+      "matches": [],
+      "reason": "-린이 공통 형식의 파생. 초보자 의미와 어린이 비하 우려를 구분할 공통 항목 검토 전 개별 수록 보류. 검색 자료만으로 혐오 판정하지 않음."
+    },
+    {
+      "title": "코린이",
+      "status": "held",
+      "matches": [],
+      "reason": "-린이 공통 형식의 파생. 초보자 의미와 어린이 비하 우려를 구분할 공통 항목 검토 전 개별 수록 보류. 검색 자료만으로 혐오 판정하지 않음."
+    },
+    {
+      "title": "요린이",
+      "status": "held",
+      "matches": [],
+      "reason": "-린이 공통 형식의 파생. 초보자 의미와 어린이 비하 우려를 구분할 공통 항목 검토 전 개별 수록 보류. 검색 자료만으로 혐오 판정하지 않음."
+    },
+    {
+      "title": "골린이",
+      "status": "held",
+      "matches": [],
+      "reason": "-린이 공통 형식의 파생. 초보자 의미와 어린이 비하 우려를 구분할 공통 항목 검토 전 개별 수록 보류. 검색 자료만으로 혐오 판정하지 않음."
+    },
+    {
+      "title": "등린이",
+      "status": "held",
+      "matches": [],
+      "reason": "-린이 공통 형식의 파생. 초보자 의미와 어린이 비하 우려를 구분할 공통 항목 검토 전 개별 수록 보류. 검색 자료만으로 혐오 판정하지 않음."
+    },
+    {
+      "title": "런린이",
+      "status": "held",
+      "matches": [],
+      "reason": "-린이 공통 형식의 파생. 초보자 의미와 어린이 비하 우려를 구분할 공통 항목 검토 전 개별 수록 보류. 검색 자료만으로 혐오 판정하지 않음."
+    },
+    {
+      "title": "런태기",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "담타",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "새고",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "랜선친구",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "랜선여행",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 직접 본문 확인."
+    },
+    {
+      "title": "랜선응원",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "랜선팬미팅",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "랜선회식",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "랜선이모",
+      "status": "held",
+      "matches": [],
+      "reason": "이전 시기 정의 자료 발견. 2021~2023 직접 관측 미완료."
+    },
+    {
+      "title": "랜선삼촌",
+      "status": "held",
+      "matches": [],
+      "reason": "랜선이모와 관련된 가족 비유 형식. 별도 분리와 기간 근거 미완료."
+    },
+    {
+      "title": "온라인탑골공원",
+      "status": "held",
+      "matches": [],
+      "reason": "2019~2020 근거 다수 발견. 이번 2021~2023 사용의 직접 본문 검증 미완료."
+    },
+    {
+      "title": "탑골가요",
+      "status": "held",
+      "matches": [],
+      "reason": "온라인 탑골공원의 관련 형식. 별도 항목 증식 보류."
+    },
+    {
+      "title": "뉴트로",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "레트로",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "집관",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "jipgwan",
+          "title": "집관"
+        }
+      ],
+      "reason": "최신726 표제/별칭 일치."
+    },
+    {
+      "title": "집콕",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 직접 본문 확인."
+    },
+    {
+      "title": "홈트",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 직접 본문 확인."
+    },
+    {
+      "title": "홈술",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "혼술",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "혼밥",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "혼영",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    },
+    {
+      "title": "혼행",
+      "status": "held",
+      "matches": [],
+      "reason": "일반어·파생형·서비스형 표현의 특유 온라인 용법 또는 두 독립 직접 본문 확보 미완료. 선별 보류이지 검증 실패 확정 아님."
+    }
+  ]
+}
