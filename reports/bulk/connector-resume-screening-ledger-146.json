@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 20,
-  "query_observations": 336,
-  "distinct_literal_queries": 277,
+  "source_files": 21,
+  "query_observations": 349,
+  "distinct_literal_queries": 287,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -1871,6 +1871,71 @@
       "query": "위쑤시개",
       "source": "reports/bulk/connector-resume-ac165.json",
       "status": "held-or-excluded"
+    },
+    {
+      "query": "불법",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "직업",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "수상",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "범죄",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "형편없이",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "나쁘게",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "피곤",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "싫다",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "\"여러분 저 상 받았어요\" \"제거\"",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "\"여러분 저 상 받았어요\" \"2026\"",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "\"제거대상\" \"상 받았어요\" -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "\"처리대상\" \"상\" \"2026\" 밈 -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "\"웃다가 오열\" 챌린지 -site:onmeme.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
     }
   ],
   "semantic_duplicates": [
