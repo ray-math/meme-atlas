@@ -41,3 +41,5 @@ jobs:
       - run: python scripts/measure_usage_retrieval.py eval/challenge/audit-gold.json eval/regression-v3/audit-retrieval.json
       - run: python scripts/measure_usage_retrieval.py eval/challenge/editorial-gold.json eval/challenge/editorial-retrieval.json
       - run: python scripts/measure_usage_retrieval.py eval/challenge/editorial-gold.json eval/regression-v3/editorial-retrieval.json
+      - run: python scripts/check_context_decisions.py eval/regression-v3/audit-plans.json eval/regression-v3/audit-retrieval.json eval/regression-v3/audit-answers.json
+      - run: python scripts/check_context_decisions.py eval/regression-v3/editorial-plans.json eval/regression-v3/editorial-retrieval.json eval/regression-v3/editorial-answers.json
