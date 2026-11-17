@@ -755,6 +755,7 @@
 - [칸쵸깡](kancho-name-hunt.md)
 - [캘박](kaelbak.md)
 - [케바케](kebake.md)
+- [코 때리고 미안해하는 챌린지](nose-apology-scuba-challenge.md)
 - [코시국](kosiguk.md)
 - [쿵쿵따](kungkungtta.md)
 - [크리스 크로스](criss-cross.md)

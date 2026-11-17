@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 10,
-  "query_observations": 153,
-  "distinct_literal_queries": 125,
+  "source_files": 11,
+  "query_observations": 171,
+  "distinct_literal_queries": 142,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -867,6 +867,107 @@
     {
       "query": "테무인간",
       "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "로드스터",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "existing-family",
+      "canonical": "roadster-ai-parody"
+    },
+    {
+      "query": "테슬라",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "existing-family",
+      "canonical": "roadster-ai-parody"
+    },
+    {
+      "query": "이 순간이 영원",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "existing-family",
+      "canonical": "forever-moment"
+    },
+    {
+      "query": "영원할 건가",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "existing-family",
+      "canonical": "forever-moment"
+    },
+    {
+      "query": "오타쿠",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "주술회전",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "어제보다 슬픈 오늘",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "웃다가 오열",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "코 때리고",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "미안해하는",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "스쿠바",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "scuba",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "코 때리기",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "코 때려서 미안해",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "코 땨리고",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "손가락 막대기",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "탭탭",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "tiny hand",
+      "source": "reports/bulk/connector-resume-a156.json",
       "status": "held-unverified"
     }
   ],
