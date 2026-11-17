@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "batch": "bulk-2021-2023-wave11",
-  "baseline_ref": "1cc4cd4",
+  "baseline_ref": "1cc4cd4057569353418dbf45cc7bbc108deac54a",
   "baseline_canonical_count": 686,
   "review_date": "2026-11-17",
   "reviewer_type": "AI",
@@ -74,10 +74,19 @@
           "access": "direct_body",
           "supports": "직접 열린 페이지 제목에서 짤줍 사용. 공개 본문은 오히려 좋아 밈 소개.",
           "independent_group": "careet-meme-series"
+        },
+        {
+          "url": "https://v.daum.net/v/nLrgYIC9iU",
+          "publisher": "매일경제(Daum 전재)",
+          "published_date": "2017-06-02",
+          "access": "direct_body",
+          "supports": "짤줍 절에서 선호하는 아이돌의 이미지 파일 수집으로 직접 정의하고 별도 팬 인터뷰로 수집 행동을 설명.",
+          "independent_group": "mk-fandom-interview"
         }
       ],
       "limitations": [
-        "캐릿은 공개 제목 및 공개 본문만 확인했다. 유료 부분 미열람. 짤줍 자체의 정의는 경향신문, 2021 사용은 캐릿 제목이 각각 뒷받침한다."
+        "캐릿은 공개 제목 및 공개 본문만 확인했다. 유료 부분 미열람. 짤줍 자체의 정의는 경향신문, 2021 사용은 캐릿 제목이 각각 뒷받침한다.",
+        "매일경제와 경향신문은 정치 팬덤이라는 시대 배경이 겹치지만 매일경제의 아이돌 팬 인터뷰와 경향의 지인 일화는 다른 직접 서술이다. 정치인 평가·팬 수 통계는 사용하지 않았다. 두 본문으로 뜻/행동 확인, 2021 지속사용은 캐릿 공개 제목만 뒷받침."
       ],
       "review_status": "ai_editorial_ready_for_import_review",
       "duplicate_hint": "686 title/aliases 및 retired metadata 대조 동일 표제 없음. 삼귀다/썸, 짤줍/짤방은 유사 뜻·관련 행동이지만 별도 어휘 형식으로 제안. 의미 분리 최종 편집검토 필요."
