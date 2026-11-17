@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "source_commit": "a239dab51eff4889d7e6148e3aa3f7e5fc755c35",
+  "provenance": "Actual AI plans authored in this assistant turn from public annotations and existing public inputs; no separate model API invocation, retrieval execution, gold or answer-file reading.",
+  "limitations": "표제·예문을 생략한 긍정 입력도 공개 주석 파생이므로 독립 블라인드 평가가 아니다. 제안 상황 두 개와 관심요청 정의 보완을 반영한 임시 검색을 계획하며 원본 draft 승격·실서비스 노출을 뜻하지 않는다. 기본 recommend와 caution 포함 lookup은 구별하며 모든 후보의 context와 avoid_when을 조회 후 검토해야 한다. 필터는 실제 관계·수용·정당성·내면을 검증하지 않는다.",
+  "source_bindings": {
+    "draft": {
+      "commit": "a239dab51eff4889d7e6148e3aa3f7e5fc755c35",
+      "path": "reports/first-greeting-promotion-draft.json",
+      "inputs": {
+        "I-first": "profiles[entry_id=manbanjalbu].usages[0].context",
+        "I-interest": "profiles[entry_id=mangwanbu].usages[0].context",
+        "I-formal": "profiles[entry_id=manbanjalbu].usages[0].avoid_when[0]",
+        "I-pressure": "profiles[entry_id=mangwanbu].usages[0].avoid_when[0]"
+      }
+    },
+    "existing": {
+      "commit": "3282820941f6aa996ae57841fd120105c5f02f2d",
+      "inputs": {
+        "W-welcome": "eval/welcome-interest-scope/plans.json plans[id=W-welcome].prompt",
+        "A13": "eval/challenge/audit-inputs.json inputs[id=A13].prompt",
+        "A23": "eval/challenge/audit-inputs.json inputs[id=A23].prompt",
+        "A26": "eval/challenge/audit-inputs.json inputs[id=A26].prompt"
+      }
+    }
+  },
+  "plans": [
+    {
+      "id": "I-first",
+      "prompt": "서로 처음 인사를 나누는 친근한 모임에서 반갑고 앞으로 잘 지내자는 뜻을 전한다. 새로 합류한 사람과 맞이하는 사람 중 어느 쪽만의 인사로 고정하지 않는다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "인사"
+        ],
+        "situations": [
+          "첫만남"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "친근한 모임에서 처음 인사를 나누며 앞으로 잘 지내자는 기능이다. 합류자·맞이자 중 한 역할을 임의 지정하지 않고 재회와 구별한다. 반가운 인사 색채를 실제 내면이나 상대의 관계 수용으로 인증하지 않는다."
+    },
+    {
+      "id": "I-interest",
+      "prompt": "새 작품이나 활동의 소식을 소개하며 그 대상에 관심을 기울여 달라고 친근하게 부탁한다. 소개 대상이 본인이 직접 만든 완성품일 필요는 없으며 구매·구독 등 특정 행동을 의무로 요구하지 않는다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "관심요청"
+        ],
+        "situations": [
+          "작품활동소개"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "관심의 초점은 소개하는 작품·활동이므로 상황 대상이다. 듣는 사람이 있다는 이유로 상대를 추가하지 않는다. 자기 위로 요청·직접 제작 완성품 자랑과 구별하며 구매·구독 의무나 홍보 진실성을 부여하지 않는다."
+    },
+    {
+      "id": "I-formal",
+      "prompt": "공식 업무 메일이나 격식 있는 첫 소개가 필요한 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "격식 있는 공식 소개 조건에서는 친근한 줄임말 밈을 보류한다. 구체적 직책·수신자 관계·업무 내용을 만들어내지 않고 정중한 일반 인사로 전환한다."
+    },
+    {
+      "id": "I-pressure",
+      "prompt": "관심 표현을 구매·구독·기부 의무로 바꾸거나 반복해서 압박하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "관심 부탁을 구매·구독·기부 의무나 반복 압박으로 바꾸는 조건이다. 자발적 관심 요청으로 포장하지 않으며 실제 구매 의사나 동의를 추정하지 않는다."
+    },
+    {
+      "id": "W-welcome",
+      "prompt": "직접 만나거나 채팅방 등 대화 공간에 들어온 사람을 귀엽고 친근한 말투로 맞이한다. 첫 만남뿐 아니라 다시 만나는 상황에도 해당한다.\n오랜만에 채팅방에 왔네. 방가방가!",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "만남시작"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "오랜만에 채팅방에 온 사람을 맞이하는 입력이다. 기존 관계의 재회를 첫만남으로 바꾸지 않는다. 기본 추천에서 친근한 맞이 문맥을 검토하며 재회 기간·개인 감정은 추가하지 않는다."
+    },
+    {
+      "id": "A13",
+      "prompt": "오늘 힘들었고 가까운 애인에게 내가 위로받고 싶다는 마음을 귀엽게 보내고 싶어. 상대를 위로하는 말 말고.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "위로받고싶음"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "가까운 애인에게 자신이 위로받고 싶다는 요청이므로 초점은 자기다. 상대를 위로하거나 작품·활동에 관심을 청하는 용법과 구별한다. lookup 후보를 검토하되 친밀함을 신체 접촉 동의나 응답 의무로 간주하지 않는다."
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "상황과 상호 장난 여부가 불분명해 구체적 맥락을 질문한다. 상대의 잘못·관계·감정을 추정해 공격 표현을 선택하지 않는다."
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "이모지와 느낌표만으로 요청 기능·감정·사건을 알 수 없다. 어떤 상황과 반응인지 확인하며 관심 요청이나 인사로 임의 해석하지 않는다."
+    }
+  ]
+}
