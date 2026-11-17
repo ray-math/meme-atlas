@@ -22,3 +22,12 @@ class CraftSkillScopeTests(unittest.TestCase):
         for case in ('A01','A16'):
             self.assertFalse(any(h['entry_id'] in {'geumson','ttongson'} for h in rows[case]['retrieval']['results']))
         self.assertTrue(any(h['entry_id']=='reality-is-gutter' for h in rows['A16']['retrieval']['results']))
+
+    def test_frozen_trace_reexecutes_without_type_drift(self):
+        from compare_evaluation_expansion import strict_equal
+        frozen=json.loads((ROOT/'eval/craft-skill-scope/retrieval.json').read_text())
+        def behavior(rows):
+            rows=copy.deepcopy(rows)
+            for row in rows:row['retrieval'].pop('coverage',None)
+            return rows
+        self.assertTrue(strict_equal(behavior(frozen['results']),behavior(evaluate(ROOT)['results'])))
