@@ -1,0 +1,86 @@
+{
+  "fixed_sha": "3f45d29447b4d4871981cfe8cfe3c57c7dd79ace",
+  "main_sha": "f3cf501549f1c4f8d327ee13c904e9ed85ed2a33",
+  "canonical": 884,
+  "tree_truncated": false,
+  "unique_index_ids": 884,
+  "normalized_cross_id_title_alias_collisions": [],
+  "incremental_body_checks": [
+    {
+      "id": "next-trend-wish-template",
+      "match": true,
+      "links": [
+        "https://maily.so/trendaword/posts/l1zqgxxer5x",
+        "https://gogumafarm.kr/요즘-유행하는-밈-알-수-있도록-기도해-드릴게요-2026년-3/",
+        "../collections/connector-resume-wave30.md"
+      ]
+    },
+    {
+      "id": "say-it-politely-template",
+      "match": true,
+      "links": [
+        "https://gogumafarm.kr/대박삐-삐바삐-밈잘알삐-만들어-주는-2026년-8월-최신-밈/",
+        "https://maily.so/trendaword/posts/8do72wyprgq",
+        "../collections/connector-resume-wave30.md"
+      ]
+    },
+    {
+      "id": "dinosaur-sized-affection",
+      "match": true,
+      "links": [
+        "https://www.incross.com/ko/insight/report.asp?idx=10819&mode=view&page=2&pageSize=12&searchStr=&serboardsort=",
+        "https://gogumafarm.kr/요즘-유행하는-밈-알-수-있도록-기도해-드릴게요-2026년-3/",
+        "../collections/connector-resume-wave30.md"
+      ]
+    },
+    {
+      "id": "suddenly-sick-fan-trip",
+      "match": true,
+      "links": [
+        "https://gogumafarm.kr/요즘-유행하는-밈-알-수-있도록-기도해-드릴게요-2026년-3/",
+        "https://incross.com/ko/insight/report.asp?idx=10830&mode=view",
+        "../collections/connector-resume-wave30.md"
+      ]
+    },
+    {
+      "id": "age-reaction-challenge",
+      "match": true,
+      "links": [
+        "https://maily.so/trendaword/posts/l1zq1gver5x",
+        "https://gogumafarm.kr/거북아-그-속도론-알고리즘-못-따라가-당장-따라해야/",
+        "../collections/connector-resume-wave30.md"
+      ]
+    },
+    {
+      "id": "fight-briefing-parody",
+      "match": true,
+      "links": [
+        "https://www.seoul.co.kr/news/sport/worldcup2026/2026/06/30/20260630500118",
+        "https://news.tf.co.kr/read/soccer/2338125.htm",
+        "../collections/connector-resume-wave30.md"
+      ]
+    },
+    {
+      "id": "storm-ii-challenge",
+      "match": true,
+      "links": [
+        "https://www2.osen.co.kr/article/G1112881260",
+        "https://www.hankyung.com/article/202610016616h",
+        "../collections/connector-resume-wave30.md"
+      ]
+    }
+  ],
+  "coverage": {
+    "dictionary_entries": 884,
+    "annotated_entries": 74,
+    "reviewed_entries": 73,
+    "unannotated_entries": 810
+  },
+  "scope": "877 독립감사 이후 추가7개 원격본문을 다시 읽어 제목/별칭/태그/요약/검색문을 index와 비교. 전체884 정규화 교차ID충돌 검사. main SHA 유지 확인.",
+  "limits": [
+    "Python/CLI/CI 미실행",
+    "기존877 본문을 이번 감사에서 다시 모두 읽지 않음",
+    "외부 링크 URL기록은 유효성 전체검사와 다름",
+    "전체월별/역링크 검사 아님"
+  ]
+}
