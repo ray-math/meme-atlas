@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave13",
+  "baseline_ref": "c6ea286e",
+  "baseline_canonical_count": 744,
+  "review_date": "2026-11-17",
+  "reviewer_type": "AI",
+  "counts": {
+    "screened": 40,
+    "written": 3,
+    "baseline_duplicate": 10,
+    "held": 27
+  },
+  "method": "40개는 범위 선별 수이고 전부 심층검증한 수가 아니다. 작성 3개는 두 독립 본문 확인. 이전 예약·일반어·작품 대사·근거 미완료를 구별하여 수량 목표로 기준을 낮추지 않았다.",
+  "ci_status": "not_run",
+  "entries": [
+    {
+      "id": "daechung-salja",
+      "title": "대충 살자",
+      "path": "memes/daechung-salja.md",
+      "own_definition": "허술하거나 느긋한 모습에 ‘대충 살자, ~처럼’을 붙여 웃음을 만드는 문구형 패러디다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "이전 시기 정의 자료와 독립된 2022~2023 국내 사용 자료를 교차 확인. 기간 내 처음 생겼다는 주장은 하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.khan.co.kr/article/201810130600055",
+          "publisher": "경향신문",
+          "published_date": "2018-10-13",
+          "access": "direct_body",
+          "supports": "사진·장면에 비교문을 붙이는 SNS 시리즈와 상이한 해석 관측.",
+          "independent_group": "khan-daechung-2018"
+        },
+        {
+          "url": "https://gogumafarm.kr/요즘-쓰기-좋은-2022-최신-밈-모음/",
+          "publisher": "고구마팜",
+          "published_date": "2022-11-18",
+          "access": "direct_body",
+          "supports": "2022년 형식 재사용과 변형 소개.",
+          "independent_group": "gogumafarm-memes-2022"
+        }
+      ],
+      "limitations": [
+        "최초 게시물은 직접 열지 않았으며 최초 기원 단정 없음.",
+        "고구마팜의 브랜드 적용 제안은 실제 집행 사례로 취급하지 않았다.",
+        "대충 ○○하는 그림 형식과 별개로 비교문 패러디만 다룬다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "744 index 전체 내용 및 pilot-state에서 동일 표제/별칭 문자열 미검출. 개별 의미 범위 검토, pending 최종대조는 통합 담당 필요."
+    },
+    {
+      "id": "geukdil",
+      "title": "극딜",
+      "path": "memes/geukdil.md",
+      "own_definition": "게임에서 화력을 집중하는 일을 뜻하며, 대화에서는 한 대상을 몰아붙이는 비판이나 놀림을 가리키기도 한다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "이전 시기 정의 자료와 독립된 2022~2023 국내 사용 자료를 교차 확인. 기간 내 처음 생겼다는 주장은 하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.fnnews.com/news/201510071734563603",
+          "publisher": "파이낸셜뉴스",
+          "published_date": "2015-10-07",
+          "access": "direct_body",
+          "supports": "게임 집중 공격과 인터넷 논쟁에서의 확장 의미.",
+          "independent_group": "fnnews-online-language-2015"
+        },
+        {
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0017998265",
+          "publisher": "국민일보",
+          "published_date": "2023-02-27",
+          "access": "direct_body",
+          "supports": "게임 집중 공격과 친구 사이 장난에서의 사용.",
+          "independent_group": "kmib-game-language-2023"
+        }
+      ],
+      "limitations": [
+        "두 기사의 영어 어원 설명은 채택하지 않았다. 국민일보의 다른 게임 용어 정의도 가져오지 않았다.",
+        "별개 연도·취재 문맥의 기사로 동일 보도자료 전재가 아니다.",
+        "친밀성·사실성·안전성 판정 및 usage 프로필을 생성하지 않았다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "744 index 전체 내용 및 pilot-state에서 동일 표제/별칭 문자열 미검출. 개별 의미 범위 검토, pending 최종대조는 통합 담당 필요."
+    },
+    {
+      "id": "giseungjeon",
+      "title": "기승전○○",
+      "path": "memes/giseungjeon.md",
+      "own_definition": "어떤 이야기로 시작해도 결국 특정 주제나 결론으로 돌아간다는 것을 나타내는 말틀이다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "이전 시기 정의 자료와 독립된 2022~2023 국내 사용 자료를 교차 확인. 기간 내 처음 생겼다는 주장은 하지 않음."
+      },
+      "source_urls": [
+        {
+          "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=201704041110503580836",
+          "publisher": "건설경제(현 대한경제)",
+          "published_date": "2017-04-05",
+          "access": "direct_body",
+          "supports": "기승전결의 결을 특정 단어로 바꾸는 구조와 반복 결론 의미.",
+          "independent_group": "dnews-giseungjeon-2017"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01443206632555896",
+          "publisher": "이데일리",
+          "published_date": "2022-12-06",
+          "access": "direct_body",
+          "supports": "방송 구성에 대한 기승전 변형의 실제 사용.",
+          "independent_group": "edaily-showme-2022"
+        }
+      ],
+      "limitations": [
+        "대한경제 날짜는 URL 숫자 아닌 본문 기사입력 2017-04-05 기준.",
+        "이데일리의 참가자 특혜 등 논란은 사실 주장으로 전재하지 않고 표현 사용만 확인.",
+        "기승전치킨은 별도 직접 근거 검증이 끝나지 않아 별칭으로 등록하지 않았다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "744 index 전체 내용 및 pilot-state에서 동일 표제/별칭 문자열 미검출. 개별 의미 범위 검토, pending 최종대조는 통합 담당 필요."
+    }
+  ],
+  "triage": [
+    {
+      "title": "가취가욥",
+      "status": "held",
+      "matches": [],
+      "reason": "검색 후 두 독립 직접 본문 확보 미완료. 위키·블로그만으로 기원 확정하지 않음."
+    },
+    {
+      "title": "대충살자",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 발행 주체 직접 본문 및 2021~2023 국내 사용 확인."
+    },
+    {
+      "title": "아모르파티",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "그건 니 생각이고",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "너나 잘하세요",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "neona-jalhaseyo",
+          "title": "너나 잘하세요"
+        }
+      ],
+      "reason": "744개 표제·별칭 또는 동일 대사 의미 중복."
+    },
+    {
+      "title": "내가 왕이 될 상인가",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "will-i-be-king",
+          "title": "내가 왕이 될 상인가"
+        }
+      ],
+      "reason": "744개 표제·별칭 또는 동일 대사 의미 중복."
+    },
+    {
+      "title": "내가 고자라니",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "묻고 따블로 가",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "mukgo-double",
+          "title": "묻고 더블로 가"
+        }
+      ],
+      "reason": "744개 표제·별칭 또는 동일 대사 의미 중복."
+    },
+    {
+      "title": "나도 순정이 있다",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "이 구역의 미친년은 나야",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "나 이런 사람이야",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "이게 최선입니까",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "is-this-best",
+          "title": "이게 최선입니까"
+        }
+      ],
+      "reason": "744개 표제·별칭 또는 동일 대사 의미 중복."
+    },
+    {
+      "title": "너는 나에게 모욕감을 줬어",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "you-insulted-me",
+          "title": "넌 나에게 모욕감을 줬어"
+        }
+      ],
+      "reason": "744개 표제·별칭 또는 동일 대사 의미 중복."
+    },
+    {
+      "title": "자 이제 시작이야",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "가슴이 웅장해진다",
+      "status": "held",
+      "matches": [],
+      "reason": "검색 후 두 독립 직접 본문 확보 미완료. 위키·블로그만으로 기원 확정하지 않음."
+    },
+    {
+      "title": "이걸 해냅니다",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "그럴 수 있지",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "그럴 수도 있지",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "좋은 말로 할 때",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "절레절레",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "도리도리",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "아이고 의미없다",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "고마해라 마이 묵었다",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "살아있네",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "sara-inne",
+          "title": "살아있네"
+        }
+      ],
+      "reason": "744개 표제·별칭 또는 동일 대사 의미 중복."
+    },
+    {
+      "title": "어이가 없네",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "eoi-eopne",
+          "title": "어이가 없네"
+        }
+      ],
+      "reason": "744개 표제·별칭 또는 동일 대사 의미 중복."
+    },
+    {
+      "title": "그것이 알고 싶다",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "잠시 소란이 있었어요",
+      "status": "held",
+      "matches": [],
+      "reason": "검색 후 두 독립 직접 본문 확보 미완료. 위키·블로그만으로 기원 확정하지 않음."
+    },
+    {
+      "title": "이러려고",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "순살됐네",
+      "status": "held",
+      "matches": [],
+      "reason": "과거 타 담당 예약과 조사 범위 확인 전 보류. 검증 실패로 단정하지 않음."
+    },
+    {
+      "title": "뼈 때리네",
+      "status": "held",
+      "matches": [],
+      "reason": "과거 타 담당 예약과 조사 범위 확인 전 보류. 검증 실패로 단정하지 않음."
+    },
+    {
+      "title": "팩폭",
+      "status": "held",
+      "matches": [],
+      "reason": "과거 타 담당 예약과 조사 범위 확인 전 보류. 검증 실패로 단정하지 않음."
+    },
+    {
+      "title": "극딜",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 발행 주체 직접 본문 및 2021~2023 국내 사용 확인."
+    },
+    {
+      "title": "딜교",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "선빵",
+      "status": "held",
+      "matches": [],
+      "reason": "일반 반응·작품 대사·동작의 독립 온라인 재사용 또는 기간 근거 미검증. 선별 보류이며 모두 심층 조사했다는 의미 아님."
+    },
+    {
+      "title": "역관광",
+      "status": "held",
+      "matches": [],
+      "reason": "발견 자료에 성적 어원 논의가 있어 이번 비민감 묶음에서 제외."
+    },
+    {
+      "title": "멘탈갑",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "mental-gap",
+          "title": "멘탈갑"
+        }
+      ],
+      "reason": "744개 표제·별칭 또는 동일 대사 의미 중복."
+    },
+    {
+      "title": "멘탈붕괴",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "menbung",
+          "title": "멘붕"
+        }
+      ],
+      "reason": "744개 표제·별칭 또는 동일 대사 의미 중복."
+    },
+    {
+      "title": "멘붕",
+      "status": "existing_duplicate",
+      "matches": [
+        {
+          "id": "menbung",
+          "title": "멘붕"
+        }
+      ],
+      "reason": "744개 표제·별칭 또는 동일 대사 의미 중복."
+    },
+    {
+      "title": "기승전",
+      "status": "written",
+      "matches": [],
+      "reason": "두 독립 발행 주체 직접 본문 및 2021~2023 국내 사용 확인."
+    },
+    {
+      "title": "기승전치킨",
+      "status": "held",
+      "matches": [],
+      "reason": "기승전 공통 형식으로 포괄 가능하나 치킨 변형 독립 검증 미완료. 별도 항목 증식 보류."
+    }
+  ]
+}
