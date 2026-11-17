@@ -28,8 +28,19 @@ def search(index, vocabulary, query='', *, emotions=(), intents=(), situations=(
         raise ValueError('limit must be between 1 and 100')
     if mode not in ('recommend', 'lookup'):
         raise ValueError('mode must be recommend or lookup')
-    if index.get('schema_version') != 1 or index.get('vocabulary_version') != 1:
+    if not isinstance(query, str):
+        raise ValueError('query must be a string')
+    if type(explain_requirements) is not bool:
+        raise ValueError('explain_requirements must be boolean')
+    for name, values in (('emotions', emotions), ('intents', intents), ('situations', situations),
+                         ('targets', targets), ('registers', registers), ('exclude_risks', exclude_risks)):
+        if not isinstance(values, (list, tuple)) or any(not isinstance(value, str) for value in values):
+            raise ValueError(name + ' must be a list or tuple of strings')
+    if not isinstance(index, dict) or any(type(index.get(key)) is not int or index[key] != 1
+                                         for key in ('schema_version', 'vocabulary_version')):
         raise ValueError('unsupported usage index version')
+    if not isinstance(vocabulary, dict) or type(vocabulary.get('schema_version')) is not int or vocabulary['schema_version'] != 1:
+        raise ValueError('unsupported vocabulary version')
     envelope = {'schema_version': 1, 'mode': mode, 'coverage': index['coverage'],
                 'interpretation': 'editorial usage candidates; inspect context and avoid_when before speaking',
                 'status': 'no_match', 'results': [], 'safety_filtered_count': 0, 'risk_filtered_count': 0}
