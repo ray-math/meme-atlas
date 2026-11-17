@@ -1,0 +1,37 @@
+{
+  "batch": "connector-resume-c128",
+  "base": "0fb56466498d4bb96ea22a6e37d4b4d9e412c171",
+  "id": "i-just-swim",
+  "classification": "과거 조사 근거 재열람, 현재 원격 신규 수록",
+  "sources": [
+    {
+      "url": "https://www.webtoonguide.com/ko/board/nice/2636",
+      "observed": "2017-03-07 61행 축구웹툰 전그냥득점만해요 패러디와 펠프스 인터뷰 연결. 원웹툰 직접열람 아님."
+    },
+    {
+      "url": "https://www.univ20.com/Magazine/Detail/1508",
+      "observed": "2018-09-07 93~94행 창작습관 논지와 펠프스 고전짤 인용. 진지한 적용이며 조롱으로 분류하지 않음."
+    }
+  ],
+  "bounds": "원방송·원어발언 미확인. 정확한 방송일/최초 번역 주장하지 않음. 원문 미확인 변형 별칭은 생략.",
+  "independent_usage_events": 2,
+  "additional_date_evidence": {
+    "id": "ppulnatda-title-template",
+    "url": "https://www.osen.co.kr/article/G0809130106",
+    "observed": "2008-09-13 당일 기사15~16행, 13일방송 명시. 앞선 본문2008년 범위 보강. 동일 사건의 추가근거로만 집계."
+  },
+  "checks": {
+    "base_entries": 835,
+    "result_entries": 836,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  },
+  "candidate_screen": {
+    "screened": 15,
+    "accepted": 1,
+    "unverified": 14
+  }
+}

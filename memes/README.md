@@ -633,6 +633,7 @@
 - [잼얘](jaemyae.md)
 - [저세상 텐션](jeose-sang-tension.md)
 - [저희는 합의 끝에 이걸 골랐습니다](we-chose-by-agreement.md)
+- [전 그냥 수영만 해요](i-just-swim.md)
 - [전국 HandClap 자랑](national-handclap.md)
 - [전방향 미소녀 챌린지](any-angle-challenge.md)
 - [전북익산](jeonbuk-iksan.md)

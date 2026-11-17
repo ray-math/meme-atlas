@@ -718,6 +718,7 @@
 - [영미](../memes/youngmi-call.md)
 - [와칸다 포에버](../memes/wakanda-forever.md)
 - [운동 많이 된다](../memes/good-exercise.md)
+- [전 그냥 수영만 해요](../memes/i-just-swim.md)
 - [중꺾마](../memes/jung-kkeok-ma.md)
 - [투 머치 토커](../memes/too-much-talker.md)
 - [폼 미쳤다](../memes/form-michyeotda.md)
