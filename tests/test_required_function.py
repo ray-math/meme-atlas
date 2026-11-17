@@ -59,3 +59,8 @@ class ResponseRequiredFunctionTests(unittest.TestCase):
         self.assertEqual(self.keys(rows['S-leniency']['retrieval']),{('criticism-shield','credit-with-leniency')})
         self.assertNotIn(('are-you-t','playful-response-protest'),self.keys(rows['A14']['retrieval']))
         with self.assertRaises(ValueError):evaluate(ROOT,enforce_requirements='false')
+
+    def test_profile_schema_version_is_strict_integer(self):
+        for invalid in (True,False,1.0,'1',None):
+            data=copy.deepcopy(load_profiles(ROOT));data['schema_version']=invalid
+            with self.assertRaises(ValueError):validate(data,self.vocab,ROOT)

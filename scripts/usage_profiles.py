@@ -51,7 +51,7 @@ def load_vocabulary(root=ROOT):
 def validate(data, vocabulary, root=ROOT, check_sources=True):
     """Structural/provenance validation only. Never promotes review status."""
     root = Path(root).resolve()
-    if not isinstance(data, dict) or set(data) != {'schema_version', 'profiles'} or data['schema_version'] != 1 or not isinstance(data['profiles'], list):
+    if not isinstance(data, dict) or set(data) != {'schema_version', 'profiles'} or type(data['schema_version']) is not int or data['schema_version'] != 1 or not isinstance(data['profiles'], list):
         raise ValueError('invalid usage profiles envelope')
     allowed = {f: {c['label'] for c in vocabulary['facets'][f]} for f in FACETS}
     seen = set()
