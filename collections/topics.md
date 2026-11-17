@@ -672,6 +672,7 @@
 - [엣지 있다](../memes/edge-style.md)
 - [왜 이래? 아마추어 같이](../memes/like-an-amateur.md)
 - [으리](../memes/euri.md)
+- [응답하라 ○○](../memes/eungdaphara-template.md)
 - [이 안에 너 있다](../memes/you-in-here.md)
 - [이 차는 이제 제 겁니다](../memes/this-car-is-mine.md)
 - [이건 특급 칭찬이야](../memes/special-compliment.md)

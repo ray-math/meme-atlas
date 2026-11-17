@@ -1,0 +1,36 @@
+{
+  "batch": "connector-resume-a129",
+  "base": "847a64acdfe9066b5aeeba6b8a9930ff0ee7c143",
+  "id": "eungdaphara-template",
+  "classification": "과거 조사 근거 원문 재열람, 현재 원격 신규 수록",
+  "sources": [
+    {
+      "url": "https://www.newswire.co.kr/newsRead.php?no=654181",
+      "observed": "서울시 제공2012-09-27 발표434~438행, 녹화 완료 및 팟캐스트 명칭. 이후 방송 직접재생 아님."
+    },
+    {
+      "url": "https://www.newswire.co.kr/newsRead.php?no=657559",
+      "observed": "인터파크 제공2012-10-16 보도자료439행 G마켓 기획전 명칭. G마켓 자체자료 아님."
+    },
+    {
+      "url": "https://www.yna.co.kr/view/AKR20121206213100005",
+      "observed": "2012-12-10 90~94행 두사건과 드라마 제목 차용 관계 명시. 중복소개므로 추가 독립사건 아님."
+    }
+  ],
+  "independent_usage_events": 2,
+  "bounds": "일반동사 응답하다 전체·정치적 입장 제외. 명칭 사용과 실제방송 공개검증 구분.",
+  "checks": {
+    "base_entries": 836,
+    "result_entries": 837,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  },
+  "candidate_screen": {
+    "screened": 12,
+    "accepted": 1,
+    "unverified": 11
+  }
+}

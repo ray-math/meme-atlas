@@ -579,6 +579,7 @@
 - [음원깡패](eumwon-kkangpae.md)
 - [읍읍](eup-eup.md)
 - [응 아니야](eung-aniya.md)
+- [응답하라 ○○](eungdaphara-template.md)
 - [의문세](uimunse.md)
 - [의문의 1승](unexpected-win.md)
 - [이 손을 봐, 대박임](look-at-this-hand.md)
