@@ -155,6 +155,7 @@
 - [읽지 않음 난 모르는 일](../memes/unread-none-of-my-business.md)
 - [있었는데요 없었습니다](../memes/it-was-gone.md)
 - [잉여](../memes/ingyeo.md)
+- [정신승리](../memes/mental-victory.md)
 - [주모 드립](../memes/jumo-cheer.md)
 - [중2병](../memes/chuunibyou.md)
 - [중립기어](../memes/neutral-gear.md)

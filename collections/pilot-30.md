@@ -336,3 +336,4 @@
 - [헬창](../memes/hellchang.md)
 - [주모 드립](../memes/jumo-cheer.md)
 - [헬조선](../memes/hell-joseon.md)
+- [정신승리](../memes/mental-victory.md)

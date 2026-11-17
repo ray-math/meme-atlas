@@ -538,6 +538,12 @@
       "ids": [
         "hell-joseon"
       ]
+    },
+    "korean-verified-20261117-mental-victory": {
+      "input_hash": "5d4705a8cd061653f42ce56e4d86635312f47df05634f7773ad24398fc821bba",
+      "ids": [
+        "mental-victory"
+      ]
     }
   },
   "entries": {
@@ -4175,6 +4181,14 @@
       "body_hash": "0746f40ccbb6f529d9936c1453f4c4fcedf685d56b5a05075f90a8647b95847c",
       "scope_type": "korean_usage",
       "scope_basis": "연합뉴스의 뜻풀이·국내 온라인 사용·운영자 인터뷰와 경향신문의 별도 조사 보도를 교차확인했다. 사회구조의 어려움에 대한 비판·자조 표현의 사용 증거이며 국가의 객관적 평가나 화자 내면 진단이 아니다.",
+      "tags": []
+    },
+    "mental-victory": {
+      "title": "정신승리",
+      "batch": "korean-verified-20261117-mental-victory",
+      "body_hash": "8049e629943bee6274e5d8c1aeb5db767af00e8cdf09106f6bb86422ea03fd5e",
+      "scope_type": "korean_usage",
+      "scope_basis": "연합뉴스의 언어 칼럼 뜻풀이와 스포츠경향 본문의 SNS 실제 반박 발화 보도를 교차확인했다. 원 SNS 게시물을 직접 열람한 것으로 기록하지 않으며 타자의 실제 심리나 논란의 진위를 판정하지 않는다.",
       "tags": []
     }
   }

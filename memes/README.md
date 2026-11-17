@@ -286,6 +286,7 @@
 - [장원영 ○○](wonyoung-praise.md)
 - [재즈가 뭐라고 생각하세요?](what-is-jazz.md)
 - [전여친 감자칼](ex-girlfriend-peeler.md)
+- [정신승리](mental-victory.md)
 - [정의의 이름으로 널 용서하지 않겠다](in-name-of-justice.md)
 - [제가 한번 먹어보겠습니다](let-me-taste.md)
 - [존맛탱](jonmattaeng.md)
