@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave11",
+  "status": "ready_for_independent_editorial_review",
+  "created_at": "2026-11-17",
+  "base_ref": "9f88b579a55d8e0c1f2b81d40c6d566319eb7c60",
+  "counts": {
+    "ledger_range_start": 821,
+    "ledger_range_end": 900,
+    "index_count": 726,
+    "newly_screened": 22,
+    "ready": 2,
+    "held": 20
+  },
+  "entries": [
+    {
+      "entry_id": "wednesday-dance",
+      "title": "웬즈데이 댄스 챌린지",
+      "ledger_id": "kr-list-0824",
+      "path": "memes/wednesday-dance.md",
+      "source_sha": "bd7c1406eadb06c7f1e996a109726c6d331cafd3",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "해외 원형의 춤 커버 형식과 한국 가수의 참여 사례를 서로 다른 매체 본문으로 확인.",
+      "sources": [
+        {
+          "publisher": "보그 코리아",
+          "url": "https://www.vogue.co.kr/2022/12/15/%EC%9B%AC%EC%A6%88%EB%8D%B0%EC%9D%B4-%EB%8C%84%EC%8A%A4%EC%97%90-%EB%8F%84%EC%A0%84%ED%95%9C-%EC%B9%B4%EB%B0%80%EB%9D%BC-%EC%B9%B4%EB%B2%A0%EC%9A%94/",
+          "published_at": "2023-01-02",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "무도회 장면의 표정·복고풍 춤과 짧은 영상 커버를 설명.",
+          "date_note": "URL은 2022-12-15이나 페이지 표시 날짜는 2023-01-02. 표시 날짜를 기록하고 최초 발행 시점으로 확정하지 않음."
+        },
+        {
+          "publisher": "한국경제",
+          "url": "https://v.daum.net/v/20250715103644595?s=print_news",
+          "published_at": "2025-07-15",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "세븐틴 멤버의 웬즈데이 챌린지 참여를 명시. 내한 발표와 실제 챌린지 시행일을 동일시하지 않음."
+        }
+      ],
+      "limitations": [
+        "방송·SNS 원영상 직접 재생 아님.",
+        "기사 또는 공개 필자의 사용 설명 범위만 검토. 실제 내면·최초 창작자·최신 유행 단정 없음.",
+        "자체 예문은 편집 창작이며 실제 발화 데이터가 아님.",
+        "주석·최근 관측·후보대장 자동 승격 없음."
+      ],
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "no-room-to-retreat",
+      "title": "이제는 더 이상 물러날 곳이 없다",
+      "ledger_id": "kr-list-0864",
+      "path": "memes/no-room-to-retreat.md",
+      "source_sha": "c7a3e9be3dfa4acd2514bf595ccc702fc465e26d",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 방송 장면의 재현 보도와 독립 뉴스레터 필자의 일상 사용 설명을 확인.",
+      "sources": [
+        {
+          "publisher": "OSEN",
+          "url": "https://osen.co.kr/article/G1112191813",
+          "published_at": "2023-09-27",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "원방송 장면과 후속 방송 재현을 설명. 안무 표절이나 실제 원조 지위의 증거로 쓰지 않음.",
+          "source_type": "방송 선공개 자료 기반 보도"
+        },
+        {
+          "publisher": "풀칠 뉴스레터",
+          "url": "https://stibee.com/api/v1.0/emails/share/Mx0lZMONaKipl1PtUZwsPWxPHh1P73g",
+          "published_at": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "149호 필자가 해당 짤을 떠올리며 난감한 일상 상황에서 문구를 중얼거리는 쓰임을 직접 설명.",
+          "source_type": "독립 공개 뉴스레터의 자기 사용 서술",
+          "date_note": "본문 정확한 발행일 미확인. 최근이라는 본문 표현을 현재 유행으로 옮기지 않음."
+        }
+      ],
+      "limitations": [
+        "방송·SNS 원영상 직접 재생 아님.",
+        "기사 또는 공개 필자의 사용 설명 범위만 검토. 실제 내면·최초 창작자·최신 유행 단정 없음.",
+        "자체 예문은 편집 창작이며 실제 발화 데이터가 아님.",
+        "주석·최근 관측·후보대장 자동 승격 없음."
+      ],
+      "usage_status": "not_annotated"
+    }
+  ],
+  "screening": [
+    {
+      "title": "원앙시해자",
+      "ledger_id": "kr-list-0822",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "웬즈데이",
+      "ledger_id": "kr-list-0824",
+      "status": "ready",
+      "reason": "별도 발행 주체 두 곳의 관련 본문 확인."
+    },
+    {
+      "title": "월요일 아침새",
+      "ledger_id": "kr-list-0825",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "유루유리 하지마루요",
+      "ledger_id": "kr-list-0828",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "육군 we 육군",
+      "ledger_id": "kr-list-0830",
+      "status": "held",
+      "reason": "군가 발표·영어 사용 논란 보도는 있으나 반복 패러디의 개별 형식 두 근거 미달."
+    },
+    {
+      "title": "의학적인 근거가 없습니다. 심리적인 안정은 좀 들지는 모르겠죠.",
+      "ledger_id": "kr-list-0831",
+      "status": "held",
+      "reason": "의료 브리핑 자체와 독립된 온라인 반응 형식 구분 및 두 직접 근거 미달. 의학적 결론은 재생산하지 않음."
+    },
+    {
+      "title": "으악 안 돼",
+      "ledger_id": "kr-list-0833",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "응애 드립",
+      "ledger_id": "kr-list-0840",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "이건 마지막 경고요",
+      "ledger_id": "kr-list-0844",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "이건 정말 듣도 보도 못한 발상이군",
+      "ledger_id": "kr-list-0848",
+      "status": "held",
+      "reason": "bnt 실제 반응 보도 후보 한 곳 외 특정 밈 의미를 교차 확인할 두 번째 독립 근거 미달."
+    },
+    {
+      "title": "이궈궈던",
+      "ledger_id": "kr-list-0851",
+      "status": "held",
+      "reason": "인벤 인터뷰 검색 및 페이지 접근은 성공했으나 관련 단락 재조회 502, 별도 발행 주체 두 번째 근거 미달."
+    },
+    {
+      "title": "이러니까 개콘이 망하지",
+      "ledger_id": "kr-list-0852",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "이제는 더 이상 물러날 곳이 없다",
+      "ledger_id": "kr-list-0864",
+      "status": "ready",
+      "reason": "별도 발행 주체 두 곳의 관련 본문 확인."
+    },
+    {
+      "title": "인간성기사 뿌뿌뽕",
+      "ledger_id": "kr-list-0869",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "인권이 라이프",
+      "ledger_id": "kr-list-0871",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "인문학적 변태",
+      "ledger_id": "kr-list-0872",
+      "status": "held",
+      "reason": "위키 외 독립 근거 부족. 개인 게시자의 성적 표현을 복제하지 않음."
+    },
+    {
+      "title": "인주 앨리스",
+      "ledger_id": "kr-list-0878",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "인터넷 야메로",
+      "ledger_id": "kr-list-0881",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "인증 대란",
+      "ledger_id": "kr-list-0879",
+      "status": "held",
+      "reason": "검색된 학력 인증 논쟁과 목록이 지칭하는 원사건의 동일성 불명확. 기존 인증샷과 별개 항목 수록 근거 미달."
+    },
+    {
+      "title": "자 드가자~!",
+      "ledger_id": "kr-list-0893",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "자러감 드립",
+      "ledger_id": "kr-list-0894",
+      "status": "held",
+      "reason": "이번 공개 검색에서 위키·개인 해설·게시판 또는 관련성 낮은 자료 외 두 독립 직접 본문을 확보하지 못함. 부재 자체를 증명하는 판정은 아님."
+    },
+    {
+      "title": "자 이게 클릭이야",
+      "ledger_id": "kr-list-0896",
+      "status": "held",
+      "reason": "이데일리 2011-10-08 본문은 원방송 상황 확인. 세명대 2026-06-12 게시물은 제목과 활동사진 안내만으로 재사용 의미를 확정할 수 없어 두 번째 충분 근거로 인정하지 않음."
+    }
+  ],
+  "dedupe_notes": [
+    "읍읍·응 아니야·인생이란 원래 자기 생각대로 되지 않는 법이란다·으리·인정·인싸아싸·인증샷·잘자 내 꿈꿔 등은 표기 차이를 포함해 기존 수록으로 제외.",
+    "기존 held 작은 하마 이야기와 타 담당 의문의 XX행을 다시 신규 조사로 세지 않음.",
+    "인물명·사건 전체·성적/개인 비하 중심 목록행은 자동 개별 밈으로 확장하지 않음.",
+    "범위 내 미선정 행을 조사 완료나 held로 일괄 표시하지 않음."
+  ],
+  "discovery": {
+    "type": "existing_candidate_ledger_from_korean_meme_mirror",
+    "path": "data/korea-candidates.json",
+    "original_namuwiki_access_claimed": false,
+    "new_ledger_ids_created": false
+  },
+  "duplicate_check": {
+    "ref": "9f88b579a55d8e0c1f2b81d40c6d566319eb7c60",
+    "index_count": 726,
+    "checked": [
+      "search-index title/aliases and semantic title variants",
+      "pilot-state entries",
+      "recursive tree paths",
+      "contest_inventory prior history and coordinator reservations"
+    ]
+  },
+  "verification": {
+    "ci_run": false,
+    "derived_files_changed": false,
+    "raw_source_body_stored": false,
+    "main_or_pr37_changed": false,
+    "remote_canonical_readback_all_equal": true
+  }
+}
