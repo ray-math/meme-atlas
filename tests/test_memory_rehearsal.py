@@ -6,6 +6,7 @@ from pathlib import Path
 from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
+from compare_evaluation_expansion import strict_equal
 from replay_memory_scope import evaluate
 
 class PublicMemoryRehearsalTests(unittest.TestCase):
@@ -44,7 +45,7 @@ class PublicMemoryRehearsalTests(unittest.TestCase):
             rows=copy.deepcopy(rows)
             for row in rows:row['retrieval'].pop('coverage',None)
             return rows
-        self.assertEqual(behavior(actual['results']),behavior(frozen['results']))
+        self.assertTrue(strict_equal(behavior(actual['results']),behavior(frozen['results'])))
         trace={r['id']:r for r in frozen['results']}
         answers=json.loads((ROOT/'eval/memory-scope/answers.json').read_text())['answers']
         self.assertEqual(len(answers),len(trace))
