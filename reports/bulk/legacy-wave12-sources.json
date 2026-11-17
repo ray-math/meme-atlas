@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave12",
+  "status": "ready_for_independent_editorial_review",
+  "created_at": "2026-11-17",
+  "base_ref": "9a4a688bea65d335a2bd3829904d2cc2d718af1e",
+  "counts": {
+    "ledger_range_start": 901,
+    "ledger_range_end": 950,
+    "index_count": 744,
+    "selected_reviewed": 12,
+    "ready": 2,
+    "held": 10
+  },
+  "entries": [
+    {
+      "entry_id": "jeonbuk-iksan",
+      "title": "전북익산",
+      "ledger_id": "kr-list-0911",
+      "path": "memes/jeonbuk-iksan.md",
+      "source_sha": "752a23a13b287f906a06705ae3eebf83917cda56",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "게임 매체의 한국어 몬더그린 별칭 설명과 독립 칼럼의 SNS 재생산 설명을 대조.",
+      "sources": [
+        {
+          "publisher": "국민트리 / 게임메카",
+          "url": "https://trees.gamemeca.com/view.php?gid=1766670",
+          "published_at": "2025-09-29",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "료의 천지패황권 시전 대사가 한국 지명처럼 들리는 말장난과 기술 별칭을 설명."
+        },
+        {
+          "publisher": "위픽레터 / 김우찬",
+          "url": "https://letter.wepick.kr/post/2674",
+          "published_at": "2024-06-19",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "료의 음성을 지명처럼 받아듣고 SNS에서 재생산하는 밈으로 소개.",
+          "source_type": "기고 칼럼",
+          "limitations": "팝업스토어는 구상·제안이며 개최 사실 아님. 같은 필자 브런치 글을 별도 독립 출처로 세지 않음."
+        }
+      ],
+      "limitations": [
+        "원게임 실행·원게시물 직접 확인 아님.",
+        "최초 창작자·발생 연도·최근 유행으로 일반화하지 않음.",
+        "독자적인 예문은 편집 창작. 긴 외부 본문·이미지·개인정보 저장 없음."
+      ],
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "jujak",
+      "title": "주작",
+      "ledger_id": "kr-list-0943",
+      "path": "memes/jujak.md",
+      "source_sha": "47b9f180cb463a79387596db042a89e2e7735738",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 신조어 기사와 독립 인터넷 문화 칼럼이 조작 의미와 온라인 표현 사용을 설명.",
+      "sources": [
+        {
+          "publisher": "아이티투데이 / 현 페이지 디지털투데이",
+          "url": "https://news.nate.com/view/20151205n18797",
+          "published_at": "2015-12-07",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "인터넷 신조어 목록에서 주작을 조작 의미로 설명.",
+          "date_note": "URL은 20151205이나 페이지 기사전송2015-12-07 08:58, 수정09:15. 본문 표기 날짜 사용.",
+          "limitations": "민감 인물·사건 기원 주장은 채택하지 않음. 기사 내 개별 예문을 원댓글로 취급하지 않음."
+        },
+        {
+          "publisher": "동아사이언스",
+          "url": "https://www.dongascience.com/news/14810",
+          "published_at": "2016-11-18",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "조작 뜻과 불신을 과장하는 문장 결합을 설명. 표현과 사실 검증의 구분에 활용.",
+          "limitations": "첫 조회는 헤더 중심이었으나 재조회에서 본문29~56 및 발행일 직접 확인. 저자의 심리 일반화를 모든 사용자 내면의 사실로 채택하지 않음."
+        }
+      ],
+      "limitations": [
+        "원게임 실행·원게시물 직접 확인 아님.",
+        "최초 창작자·발생 연도·최근 유행으로 일반화하지 않음.",
+        "독자적인 예문은 편집 창작. 긴 외부 본문·이미지·개인정보 저장 없음."
+      ],
+      "usage_status": "not_annotated"
+    }
+  ],
+  "screening": [
+    {
+      "title": "전북익산",
+      "ledger_id": "kr-list-0911",
+      "status": "ready",
+      "reason": "두 독립 발행 주체의 관련 본문 직접 확인."
+    },
+    {
+      "title": "주작",
+      "ledger_id": "kr-list-0943",
+      "status": "ready",
+      "reason": "두 독립 발행 주체의 관련 본문 직접 확인."
+    },
+    {
+      "title": "점점 빨라지는 노래",
+      "ledger_id": "kr-list-0912",
+      "status": "held",
+      "reason": "개인 해설·위키·템플릿 목록 외 두 독립 직접 본문 미확보."
+    },
+    {
+      "title": "제로투 회피",
+      "ledger_id": "kr-list-0923",
+      "status": "held",
+      "reason": "위키 외 국내 개별 회피 형식의 독립 두 본문 미확보. 원 춤과 자동 통합하지 않음."
+    },
+    {
+      "title": "인사하는 제리",
+      "ledger_id": "kr-list-0924",
+      "status": "held",
+      "reason": "개인 해설 외 독립 두 직접 본문 미확보."
+    },
+    {
+      "title": "제주도 찐 사투리",
+      "ledger_id": "kr-list-0926",
+      "status": "held",
+      "reason": "위키와 이를 원천으로 한 데이터셋은 독립 근거가 아님. 두 직접 본문 미달."
+    },
+    {
+      "title": "죽습니다 진짜",
+      "ledger_id": "kr-list-0940",
+      "status": "held",
+      "reason": "게시판의 격투기 용어 설명 외 독립 두 본문 미확보."
+    },
+    {
+      "title": "죽음으로 맛있는데!",
+      "ledger_id": "kr-list-0944",
+      "status": "held",
+      "reason": "게임조선의 제목 사용 한 곳은 발견했으나 뜻과 반복 형식을 교차 확인할 두 번째 직접 근거 미달."
+    },
+    {
+      "title": "주작송",
+      "ledger_id": "kr-list-0945",
+      "status": "held",
+      "reason": "서로 다른 노래와 민감 사건이 섞이는 범위이며 독립 두 직접 근거 미확보."
+    },
+    {
+      "title": "조보아씨, 내려와서 이것좀 먹어봐유",
+      "ledger_id": "kr-list-0929",
+      "status": "held",
+      "reason": "위키 외 독립 두 본문 미확보. 일반 시식 장면을 곧바로 해당 밈의 재사용으로 간주하지 않음."
+    },
+    {
+      "title": "잼민이",
+      "ledger_id": "kr-list-0905",
+      "status": "held",
+      "reason": "국내 뜻풀이 근거는 존재하지만 이번 안전 표현 우선 범위에서 어린이 비하 중심 표현은 작성 보류. 출처 부족으로 판정한 것은 아님."
+    },
+    {
+      "title": "제로투",
+      "ledger_id": "kr-list-0922",
+      "status": "held",
+      "reason": "원 캐릭터·춤·회피 파생의 범위와 연령 관련 맥락을 분리하지 않은 채 추가하지 않음. 이번 후보 선정 단계에서 보류."
+    }
+  ],
+  "exclusions": {
+    "prior_held_not_recounted": [
+      "장비를 정지합니다"
+    ],
+    "existing_semantic_matches": [
+      "장충동왕족발보쌈",
+      "재즈가 뭐라고 생각하세요",
+      "제가 한번 먹어보겠습니다",
+      "저세상 텐션",
+      "정신승리",
+      "정의의 이름으로 널 용서하지 않겠다",
+      "제시카 외동딸 일리노이 시카고",
+      "조삼모사 패러디",
+      "태보해",
+      "존맛탱",
+      "좋아! 가는 거야",
+      "주모 드립",
+      "준비하시고 쏘세요",
+      "중2병",
+      "중립기어"
+    ],
+    "scope_note": "범위의 나머지 인물명·사건 전체·개인 사생활·성적/혐오 중심 행을 자동 밈으로 확장하지 않았으며, 미선정 행 모두를 조사 완료로 세지 않음."
+  },
+  "discovery": {
+    "type": "existing_candidate_ledger_from_korean_meme_mirror",
+    "path": "data/korea-candidates.json",
+    "original_namuwiki_access_claimed": false,
+    "new_ledger_ids_created": false
+  },
+  "duplicate_check": {
+    "ref": "9a4a688bea65d335a2bd3829904d2cc2d718af1e",
+    "index_count": 744,
+    "checked": [
+      "search-index title/aliases and semantic matches",
+      "pilot-state entries",
+      "recursive tree paths",
+      "coordinator pending reservations"
+    ]
+  },
+  "verification": {
+    "ci_run": false,
+    "derived_files_changed": false,
+    "raw_source_body_stored": false,
+    "main_or_pr37_changed": false,
+    "remote_canonical_readback_all_equal": true
+  }
+}
