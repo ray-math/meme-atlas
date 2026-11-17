@@ -1,0 +1,8 @@
+{
+  "commit": "abf6c3f3b5a7fa5efebeea705ba8790764ae3cc5",
+  "reviewer": "independent AI editorial review",
+  "cases": 10,
+  "blocking_findings": 0,
+  "limits": "Public annotation-derived development cases, not human or new blind evaluation. Reviewer read saved Python trace but did not independently execute CI.",
+  "retrieval_limit": "E06 raw candidates still require contextual selection; final answer chooses haengshow without inferring a new job/activity."
+}

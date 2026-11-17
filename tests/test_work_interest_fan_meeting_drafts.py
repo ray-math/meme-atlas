@@ -41,7 +41,7 @@ class WorkInterestFanMeetingDraftTests(unittest.TestCase):
             uid, situation, sha = self.SPEC[p['entry_id']]
             self.assertEqual(p['source_sha'], sha)
             self.assertEqual(sha, blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))
-            self.assertEqual(p['review_status'], 'draft')
+            self.assertEqual(p['review_status'], 'reviewed')
             self.assertEqual(len(p['usages']), 1)
             u = p['usages'][0]
             self.assertEqual(u['id'], uid)
@@ -61,15 +61,6 @@ class WorkInterestFanMeetingDraftTests(unittest.TestCase):
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]['aliases'], [])
             self.assertTrue(rows[0]['definition'].strip())
-
-    def test_actual_drafts_hidden_in_both_modes(self):
-        for entry in self.index['entries']:
-            if entry['id'] not in self.SPEC:
-                continue
-            req = entry['usages'][0]['retrieval_requirements']
-            for mode in ('lookup', 'recommend'):
-                for filters in (req, {'query': entry['title']}, dict(req, query=entry['title'])):
-                    self.assertFalse(self.hits(self.index, entry['id'], mode=mode, **filters))
 
     def test_provisional_exact_conditions_return_standard_candidates(self):
         index = self.provisional()
