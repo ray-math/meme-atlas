@@ -5,3 +5,5 @@
 - [해치웠나?](../memes/did-we-get-it.md)
 - [아기다리 고기다리](../memes/agidari-gogidari.md)
 - [똥덩어리](../memes/ttongdeongeori.md)
+- [허나 거절한다](../memes/but-i-refuse.md)
+- [소수를 세면서 진정하자](../memes/count-primes-and-calm-down.md)
