@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "batch": "mid-wave2",
+  "prepared_at": "2026-11-17",
+  "status": "awaiting-independent-editorial-review-and-import",
+  "counts": {
+    "prepared": 5,
+    "held": 5
+  },
+  "method": "서로 다른 발행자의 실제 본문을 열람. 원영상 직접 시청·최초 발생 게시물·현재 유행·AI 추천 적합성을 검증한 것은 아님. 짧은 자체 서술이며 원문 복사 없음.",
+  "duplicate_check": {
+    "basis": "작성 전 eval/natural-language-usage data/pilot-state.json 표제·별칭 조회",
+    "note": "5건 일치 없음. integration이 pending 및 정규화 중복 최종 확인."
+  },
+  "entries": [
+    {
+      "id": "legeno",
+      "title": "레게노",
+      "path": "memes/legeno.md",
+      "aliases": [],
+      "tags": [
+        "유행어"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현.",
+      "sources": [
+        {
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20210120002156098",
+          "publisher": "아시아투데이",
+          "published_at": "2021-01-20",
+          "access": "body_read",
+          "supports": "LEGEND를 잘못 읽은 신조어라는 뜻풀이",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://www.koreajoongangdaily.com/bilingual-news/think-english-yojeumdaehwa-sajeon-ep-2-neo-mwo-dwae-nespa-legeno/11863806",
+          "publisher": "Korea JoongAng Daily",
+          "published_at": "2022-12-23",
+          "access": "body_read",
+          "supports": "국내 게임 방송의 오독 설명과 감탄·반어 용례",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 publisher의 별도 기사 본문 확인. 전재·위키 미러를 두 출처로 계산하지 않음.",
+      "limits": [
+        "최초 게시물 미확인",
+        "원영상 직접 열람 없음",
+        "사용 시 주의는 편집상 권고이며 효과 검증이 아님"
+      ]
+    },
+    {
+      "id": "youngmi-call",
+      "title": "영미",
+      "path": "memes/youngmi-call.md",
+      "aliases": [
+        "영미!",
+        "영미 영미"
+      ],
+      "tags": [
+        "스포츠"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현.",
+      "sources": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20180220069700007",
+          "publisher": "연합뉴스",
+          "published_at": "2018-02-20",
+          "access": "body_read",
+          "supports": "컬링 경기의 팀원 호명과 억양, 온라인 패러디",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1004631761&t=%7Bseek_to_second_number%7D",
+          "publisher": "SBS",
+          "published_at": "2018-02-20",
+          "access": "body_read",
+          "supports": "유행한 영미 외침과 경기 의사소통 설명",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 publisher의 별도 기사 본문 확인. 전재·위키 미러를 두 출처로 계산하지 않음.",
+      "limits": [
+        "최초 게시물 미확인",
+        "원영상 직접 열람 없음",
+        "사용 시 주의는 편집상 권고이며 효과 검증이 아님"
+      ]
+    },
+    {
+      "id": "gunsak-loopy",
+      "title": "군침이 싹 도노",
+      "path": "memes/gunsak-loopy.md",
+      "aliases": [
+        "군싹",
+        "군침이 싹 도네"
+      ],
+      "tags": [
+        "유행어",
+        "캐릭터"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현.",
+      "sources": [
+        {
+          "url": "https://view.asiae.co.kr/article/2021031108560611440",
+          "publisher": "아시아경제",
+          "published_at": "2021-03-11",
+          "access": "body_read",
+          "supports": "군싹의 축약 뜻, 루피 연관과 음식 사진에 대한 반응",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://www.harpersbazaar.co.kr/article/58084",
+          "publisher": "Harper’s BAZAAR Korea",
+          "published_at": "2021-08-27",
+          "access": "body_read",
+          "supports": "군싹의 뜻과 루피 이미지 동반 유행",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://gnews.gg.go.kr/news/news_detail.do?number=202202211700342716C049&s_code=",
+          "publisher": "경기도 뉴스포털",
+          "published_at": "2022-02-21",
+          "access": "body_read",
+          "supports": "도노 형태의 풀어쓰기와 루피 연관",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 publisher의 별도 기사 본문 확인. 전재·위키 미러를 두 출처로 계산하지 않음.",
+      "limits": [
+        "최초 게시물 미확인",
+        "원영상 직접 열람 없음",
+        "사용 시 주의는 편집상 권고이며 효과 검증이 아님"
+      ]
+    },
+    {
+      "id": "meommummi",
+      "title": "멈뭄미",
+      "path": "memes/meommummi.md",
+      "aliases": [
+        "네모네모 멈뭄미"
+      ],
+      "tags": [
+        "동물",
+        "말장난"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현.",
+      "sources": [
+        {
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20180710121711082",
+          "publisher": "노트펫(아시아투데이 게재)",
+          "published_at": "2018-07-10",
+          "access": "body_read",
+          "supports": "네모난 강아지 모습과 멈뭄미·네모네모빔 댓글 사용",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://v.daum.net/v/20190502175902872?s=print_news",
+          "publisher": "한국경제",
+          "published_at": "2019-05-02",
+          "access": "body_read",
+          "supports": "강아지 별칭 멈뭄미의 실제 기사 사용",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://whitefaceone.tistory.com/2747",
+          "publisher": "whitefaceone 개인 블로그",
+          "published_at": "2022-07-08",
+          "access": "body_read",
+          "supports": "둥근 글자를 네모로 치환하는 말장난 설명; 최초 연도 주장 미채택",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "노트펫 기사 재게재와 한국경제의 별도 기사를 각각 확인; 개인 블로그는 보조 의미 설명만.",
+      "limits": [
+        "최초 게시물 미확인",
+        "원영상 직접 열람 없음",
+        "사용 시 주의는 편집상 권고이며 효과 검증이 아님"
+      ]
+    },
+    {
+      "id": "it-was-summer",
+      "title": "여름이었다",
+      "path": "memes/it-was-summer.md",
+      "aliases": [],
+      "tags": [
+        "문장형",
+        "감성"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현.",
+      "sources": [
+        {
+          "url": "https://www.artinsight.co.kr/news/view.php?no=55450",
+          "publisher": "아트인사이트",
+          "published_at": "2021-08-19",
+          "access": "body_read",
+          "supports": "문장 끝에 붙여 문학적 분위기를 만드는 온라인 형식",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://news.tf.co.kr/read/entertain/2218714.htm",
+          "publisher": "더팩트",
+          "published_at": "2025-06-27",
+          "access": "body_read",
+          "supports": "아련한 문장 결말 밈과 동명 노래의 관계",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 publisher의 별도 기사 본문 확인. 전재·위키 미러를 두 출처로 계산하지 않음.",
+      "limits": [
+        "최초 게시물 미확인",
+        "원영상 직접 열람 없음",
+        "사용 시 주의는 편집상 권고이며 효과 검증이 아님"
+      ]
+    }
+  ],
+  "held": [
+    {
+      "title": "안녕하살법",
+      "reason": "서로 다른 개인 블로그 2건 외 신뢰도 높은 보강 근거 미확보"
+    },
+    {
+      "title": "와 샌즈!",
+      "reason": "GameMeca의 복합 어원 설명 확인; 두 번째 독립 본문 근거 부족"
+    },
+    {
+      "title": "저세상 ○○",
+      "reason": "독립된 용례·형식 정의 근거 부족"
+    },
+    {
+      "title": "뼈 맞았어",
+      "reason": "두 독립 본문 근거 부족"
+    },
+    {
+      "title": "~좌",
+      "reason": "기존 본좌와의 형식 구분 및 중복 판정 필요"
+    }
+  ]
+}
