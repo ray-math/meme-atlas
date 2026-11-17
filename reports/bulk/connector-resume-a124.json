@@ -1,0 +1,47 @@
+{
+  "batch": "connector-resume-a124",
+  "base_ref": "50c0a7f55ee65bf26c07dd27d70de743fffd29be",
+  "status": "research_draft_not_canonical",
+  "counts": {
+    "reviewed_candidates": 1,
+    "independent_usage_events": 2,
+    "canonical_added": 0
+  },
+  "duplicate_review": {
+    "remote_title_list_checked": true,
+    "exact_title_match": false,
+    "full_body_alias_review": "pending"
+  },
+  "candidate": {
+    "title": "라따 라따 아라따",
+    "slug": "ratta-ratta-aratta",
+    "scope_type": "korean_usage",
+    "scope_basis": "국내 공공 안내 문구와 학술논문이 채록한 댓글의 독립 사용을 확인.",
+    "evidence": [
+      {
+        "url": "https://mobile.newsis.com/view/NISX20120612_0011183740",
+        "published": "2012-06-12",
+        "finding": "청주시의 열매 채취 금지 안내 현수막에 다른 유행어와 함께 구절을 사용한 보도. 2016은 수정일이다."
+      },
+      {
+        "url": "https://journal.kci.go.kr/kolali/archive/articlePdf?artiId=ART002052579",
+        "published": "2015-11-30",
+        "location": "PDF 14쪽, 인쇄 92쪽, 예문(6)ㄴ",
+        "finding": "2013년 기사에 달린 댓글을 채록해 가상 대화 속 구절 사용을 보여주며 유행어로 분석한다. 원댓글 직접 열람은 아님."
+      }
+    ],
+    "excluded": [
+      {
+        "url": "https://www.khan.co.kr/article/200911091748115",
+        "reason": "야구 코치 신원 서술 오류 가능성에 따른 사건 신뢰 문제. 인명만 생략해 채택하지 않고 제외."
+      }
+    ],
+    "draft_markdown": "# 라따 라따 아라따\n\n## 뜻풀이\n알았다는 대답 앞에 비슷한 소리를 반복해 장난스러운 리듬을 만드는 유행어다. 익숙한 말투로 반응하거나 안내 문구의 분위기를 가볍게 한다.\n\n- 공공 안내 현수막에서는 부탁 문구 뒤에 이 말을 붙였다.\n- 학술논문에 채록된 댓글에서는 가상의 대화를 만들어 대답하는 구절로 썼다.\n\n## 유래와 확산\n개그 유행어로 알려진 구절이 방송 밖의 안내 문구와 온라인 댓글에도 옮겨 쓰였다. 소리를 반복하는 리듬과 알았다는 대답을 결합하는 방식이 특징이다.\n\n## 주의\n진지한 요청에 쓰면 대충 넘기는 듯 들릴 수 있다.\n"
+  },
+  "limitations": [
+    "사전 본문·목차·인덱스에는 아직 반영하지 않았다.",
+    "원격 전체 제목 목록만 대조했으며 별칭 및 본문 중복 최종 검토는 남아 있다.",
+    "기계검사 미실행. 조사 입력 보존을 사전 수록 또는 CI 통과로 보고하지 않는다.",
+    "이 파일은 새로 확인한 범위의 자체 요약이며 사라진 로컬 커밋 복구본이 아니다."
+  ]
+}
