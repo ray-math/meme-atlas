@@ -44,3 +44,4 @@ jobs:
       - run: python scripts/check_context_decisions.py eval/regression-v3/audit-plans.json eval/regression-v3/audit-retrieval.json eval/regression-v3/audit-answers.json --expected-prompt-version contextual-v3
       - run: python scripts/check_context_decisions.py eval/regression-v3/editorial-plans.json eval/regression-v3/editorial-retrieval.json eval/regression-v3/editorial-answers.json --expected-prompt-version contextual-v3
       - run: python scripts/score_nl_evaluation.py eval/challenge/audit-gold.json eval/regression-v3/audit-retrieval.json eval/regression-v3/audit-answers.json eval/regression-v3/audit-judgments.json
+      - run: python scripts/score_nl_evaluation.py eval/challenge/editorial-gold.json eval/regression-v3/editorial-retrieval.json eval/regression-v3/editorial-answers.json eval/regression-v3/editorial-judgments.json
