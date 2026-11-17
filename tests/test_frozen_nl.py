@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from replay_nl_queries import replay
+from compare_evaluation_expansion import compare,load_additions
 
 class FrozenNaturalLanguageTests(unittest.TestCase):
     def test_inputs_plans_and_actual_retrieval_agree(self):
@@ -24,14 +25,11 @@ class FrozenNaturalLanguageTests(unittest.TestCase):
                 actual = replay(plans, ROOT)
                 self.assertEqual(frozen['plans_sha256'], actual['plans_sha256'])
                 # Corpus coverage may grow without changing these case outcomes.
-                # Historical hashes stay in snapshots; gate behavioral drift,
+                # Historical hashes stay in snapshots; gate reviewed case-specific additions and other behavioral drift,
                 # not unrelated inventory growth.
-                def behavior(trace):
-                    rows = json.loads(json.dumps(trace['results']))
-                    for row in rows:
-                        row['retrieval'].pop('coverage', None)
-                    return rows
-                self.assertEqual(behavior(frozen), behavior(actual))
+                compare(frozen['results'],actual['results'],
+                        'holdout' if prefix=='holdout' else 'challenge/'+plan_name.removesuffix('-plans'),
+                        load_additions(ROOT))
 
     def test_v3_public_regression_behavior_is_preserved(self):
         # Existing public cases, not a new held-out accuracy estimate.
@@ -42,9 +40,4 @@ class FrozenNaturalLanguageTests(unittest.TestCase):
                 frozen=json.loads((folder/f'{group}-retrieval.json').read_text())
                 actual=replay(plans,ROOT)
                 self.assertEqual(frozen['plans_sha256'],actual['plans_sha256'])
-                def behavior(trace):
-                    rows=json.loads(json.dumps(trace['results']))
-                    for row in rows:
-                        row['retrieval'].pop('coverage',None)
-                    return rows
-                self.assertEqual(behavior(frozen),behavior(actual))
+                compare(frozen['results'],actual['results'],'regression-v3/'+group,load_additions(ROOT))

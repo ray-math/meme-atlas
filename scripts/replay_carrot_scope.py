@@ -40,14 +40,15 @@ def evaluate(root=ROOT):
             result=search(index,vocabulary,**plan['filters'])
         rows.append({'id':plan['id'],'prompt':plan['prompt'],'action':plan['action'],
                      'filters':plan['filters'],'retrieval':result})
-    original=build_usage_index(root)
     drift=[]
     for source in ['challenge','regression-v3']:
         for group in ['audit','editorial']:
             historical=json.loads((Path(root)/f'eval/{source}/{group}-plans.json').read_text())['plans']
+            frozen=json.loads((Path(root)/f'eval/{source}/{group}-retrieval.json').read_text())['results']
+            frozen_by_id={row['id']:row for row in frozen}
             for plan in historical:
                 if plan['action'] in ('clarify','abstain'):continue
-                before=search(original,vocabulary,**plan['filters'])
+                before=frozen_by_id[plan['id']]['retrieval']
                 after=search(index,vocabulary,**plan['filters'])
                 def keys(value):
                     return [h['entry_id']+':'+h['usage_id'] for h in value['results']]
@@ -57,6 +58,7 @@ def evaluate(root=ROOT):
     return {'schema_version':1,'execution':'actual Python search over provisional in-memory profiles',
             'provisional_profiles':sorted(provisional),
             'historical_candidate_drift':drift,
+            'drift_baseline':'immutable public v2/v3 trace, not the mutable current review state',
             'baseline_coverage':index['coverage'],
             'provisional_reviewed_entries':sum(e['review_status']=='reviewed' for e in index['entries']),
             'coverage_interpretation':'per-result coverage is the source baseline, not provisional review counts',

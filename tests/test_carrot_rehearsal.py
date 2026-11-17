@@ -47,7 +47,17 @@ class PublicCarrotRehearsalTests(unittest.TestCase):
             rows=copy.deepcopy(rows)
             for row in rows:row['retrieval'].pop('coverage',None)
             return rows
-        self.assertEqual(behavior(actual['results']),behavior(frozen['results']))
+        # Preserve the immutable pre-review trace. Only this recorded editorial
+        # note migration is allowed; content, filters and all other fields remain exact.
+        historical=behavior(frozen['results'])
+        old_note="평가동의는 이 용례의 앞선 평가에 대한 동의이며 모든 예·아니요 질문에 강제하지 않는다. 말장난 형식만으로 실제 기쁨·재미를 추정하지 않는다. 예문은 기사 인용이 아니다. 넓은 동조 검색과 기존 후보 충돌 여부는 아직 검증하지 않아 draft로 보류한다."
+        new_note="평가동의는 이 용례의 앞선 평가에 대한 동의이며 모든 예·아니요 질문에 강제하지 않는다. 말장난 형식만으로 실제 기쁨·재미를 추정하지 않는다. 예문은 기사 인용이 아니다. 넓은 동조 검색에서 A08/E08의 후보 추가를 실제 Python으로 확인하고 의미상 적합한 확장으로 별도 검토했다. 원본 평가 기록은 보존하며 해당 네 사례 외 변경을 자동 허용하지 않는다."
+        for row in historical:
+            for hit in row['retrieval']['results']:
+                if hit['entry_id']=='carrot-of-course':
+                    self.assertEqual(hit['usage']['review_note'],old_note)
+                    hit['usage']['review_note']=new_note
+        self.assertEqual(behavior(actual['results']),historical)
         trace={r['id']:r for r in frozen['results']}
         answers=json.loads((ROOT/'eval/carrot-scope/answers.json').read_text())['answers']
         self.assertEqual(len(answers),len(trace))
