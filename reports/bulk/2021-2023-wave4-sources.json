@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave4",
+  "baseline_commit": "e250a4ffba3c878da35920236e0c0a9c9a0099d6",
+  "reviewed_at": "2026-11-17",
+  "canonical_files_written": 6,
+  "ci_status": "not_run",
+  "review_method": "AI 직접 본문 대조와 자체 정의. 인간검증/원영상재생/usage승격 아님. 2개 publisher 근거별 역할 확인, 전재 중복 계산 안함.",
+  "entries": [
+    {
+      "id": "wan-nae-style",
+      "title": "완내스",
+      "path": "memes/wan-nae-style.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님.",
+      "source_urls": [
+        {
+          "url": "https://www.harpersbazaar.co.kr/article/58084",
+          "publisher": "하퍼스 바자 코리아",
+          "published_date": "2021-08-27",
+          "access": "direct_body",
+          "supports": "방송 퀴즈 소개 및 자체 신조어 문제/정답 본문 확인. 로그인 안내는 있으나 필요한 텍스트 본문이 공개 반환됨.",
+          "independent_group": "하퍼스 바자 코리아"
+        },
+        {
+          "url": "https://www.hdec.kr/KR/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=348&NewsType=JOURNAL",
+          "publisher": "현대건설 뉴스룸",
+          "published_date": "2021-08-18",
+          "access": "direct_body",
+          "supports": "자체 신조어 퀴즈와 정답 본문 확인. 오답 보기를 정의로 채택하지 않음.",
+          "independent_group": "현대건설 뉴스룸"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "c81081d45d6ccb83c761402c5e21911c1f3fa318",
+        "pilot_state_blob_sha": "603cd142c14f318c2b1db807c30851768ab8d5a4",
+        "pending_coordination": "integration에 10개 예약 전달 후 군싹만 중복 통지, 제외"
+      },
+      "limitations": [
+        "최초 등장 시점 단정 없음"
+      ]
+    },
+    {
+      "id": "bun-joh-cafe",
+      "title": "분좋카",
+      "path": "memes/bun-joh-cafe.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님.",
+      "source_urls": [
+        {
+          "url": "https://v.daum.net/v/20221009165657393",
+          "publisher": "뉴스1",
+          "published_date": "2022-10-09",
+          "access": "direct_body",
+          "supports": "한글날 신조어 취재 본문97에서 뜻·국내 사용 확인. Daum 전재는 한 publisher로 계산.",
+          "independent_group": "뉴스1"
+        },
+        {
+          "url": "https://www.koreajoongangdaily.com/korea/think-english-yojeumdaehwa-sajeon-ep1-geu-jabchae-seubuljae-gongjohka/11828301",
+          "publisher": "Korea JoongAng Daily",
+          "published_date": "2022-12-15",
+          "access": "direct_body",
+          "supports": "본문181에서 분좋카 뜻을 공좋카와 구별.",
+          "independent_group": "Korea JoongAng Daily"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "c81081d45d6ccb83c761402c5e21911c1f3fa318",
+        "pilot_state_blob_sha": "603cd142c14f318c2b1db807c30851768ab8d5a4",
+        "pending_coordination": "integration에 10개 예약 전달 후 군싹만 중복 통지, 제외"
+      },
+      "limitations": [
+        "실제 카페 추천·품질 인증 아님",
+        "공좋카를 검색 alias로 넣지 않음"
+      ]
+    },
+    {
+      "id": "dang-mo-chi",
+      "title": "당모치",
+      "path": "memes/dang-mo-chi.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님.",
+      "source_urls": [
+        {
+          "url": "https://www.harpersbazaar.co.kr/article/58084",
+          "publisher": "하퍼스 바자 코리아",
+          "published_date": "2021-08-27",
+          "access": "direct_body",
+          "supports": "방송 퀴즈 소개 및 자체 신조어 문제/정답 본문 확인. 로그인 안내는 있으나 필요한 텍스트 본문이 공개 반환됨.",
+          "independent_group": "하퍼스 바자 코리아"
+        },
+        {
+          "url": "https://v.daum.net/v/20221009165657393",
+          "publisher": "뉴스1",
+          "published_date": "2022-10-09",
+          "access": "direct_body",
+          "supports": "한글날 신조어 취재 본문97에서 뜻·국내 사용 확인. Daum 전재는 한 publisher로 계산.",
+          "independent_group": "뉴스1"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "c81081d45d6ccb83c761402c5e21911c1f3fa318",
+        "pilot_state_blob_sha": "603cd142c14f318c2b1db807c30851768ab8d5a4",
+        "pending_coordination": "integration에 10개 예약 전달 후 군싹만 중복 통지, 제외"
+      },
+      "limitations": [
+        "방송 속 오답은 의미로 수록하지 않음"
+      ]
+    },
+    {
+      "id": "naettochul",
+      "title": "내또출",
+      "path": "memes/naettochul.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님.",
+      "source_urls": [
+        {
+          "url": "https://www.nocutnews.co.kr/news/5612099",
+          "publisher": "CBS노컷뉴스",
+          "published_date": "2021-08-23",
+          "access": "direct_body",
+          "supports": "방송 대담249에서 내일 또 출근 풀이와 비애 표현 확인.",
+          "independent_group": "CBS노컷뉴스"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02591206635542008",
+          "publisher": "이데일리",
+          "published_date": "2023-03-10",
+          "access": "direct_body",
+          "supports": "본문232~235 뜻·일요일 및 주말 근무 전날 상황·방송 퀴즈 사례.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "c81081d45d6ccb83c761402c5e21911c1f3fa318",
+        "pilot_state_blob_sha": "603cd142c14f318c2b1db807c30851768ab8d5a4",
+        "pending_coordination": "integration에 10개 예약 전달 후 군싹만 중복 통지, 제외"
+      },
+      "limitations": [
+        "월요병 의학적 설명 채택 안 함",
+        "학생 변형은 다른 명칭과 혼동 가능해 미수록"
+      ]
+    },
+    {
+      "id": "jjomjjomttari",
+      "title": "쫌쫌따리",
+      "path": "memes/jjomjjomttari.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님.",
+      "source_urls": [
+        {
+          "url": "https://enews.imbc.com/Tpl/View/309103",
+          "publisher": "iMBC",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "본문12 뜻 및 닭발 맥락,14 출연자 발언 확인. 페이지에 정확 날짜 미노출.",
+          "independent_group": "iMBC"
+        },
+        {
+          "url": "https://www.hdec.kr/KR/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=348&NewsType=JOURNAL",
+          "publisher": "현대건설 뉴스룸",
+          "published_date": "2021-08-18",
+          "access": "direct_body",
+          "supports": "자체 신조어 퀴즈와 정답 본문 확인. 오답 보기를 정의로 채택하지 않음.",
+          "independent_group": "현대건설 뉴스룸"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "c81081d45d6ccb83c761402c5e21911c1f3fa318",
+        "pilot_state_blob_sha": "603cd142c14f318c2b1db807c30851768ab8d5a4",
+        "pending_coordination": "integration에 10개 예약 전달 후 군싹만 중복 통지, 제외"
+      },
+      "limitations": [
+        "2021년 범위는 현대건설 명시일 기준",
+        "iMBC 정확 발행일 미확인",
+        "최초 원게시물 확인 아님"
+      ]
+    },
+    {
+      "id": "eokten",
+      "title": "억텐",
+      "path": "memes/eokten.md",
+      "aliases": [
+        "억지 텐션"
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님.",
+      "source_urls": [
+        {
+          "url": "https://v.daum.net/v/20201217105906216",
+          "publisher": "아시아경제",
+          "published_date": "2020-12-17",
+          "access": "direct_body",
+          "supports": "본문79/81의 억지 호응 뜻만 사용. 기사 건강 주장 채택하지 않음.",
+          "independent_group": "아시아경제"
+        },
+        {
+          "url": "https://www.hdec.kr/KR/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=348&NewsType=JOURNAL",
+          "publisher": "현대건설 뉴스룸",
+          "published_date": "2021-08-18",
+          "access": "direct_body",
+          "supports": "자체 신조어 퀴즈와 정답 본문 확인. 오답 보기를 정의로 채택하지 않음.",
+          "independent_group": "현대건설 뉴스룸"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "c81081d45d6ccb83c761402c5e21911c1f3fa318",
+        "pilot_state_blob_sha": "603cd142c14f318c2b1db807c30851768ab8d5a4",
+        "pending_coordination": "integration에 10개 예약 전달 후 군싹만 중복 통지, 제외"
+      },
+      "limitations": [
+        "감정·심리 진단 아님",
+        "찐텐과 반대 의미라 alias로 합치지 않음"
+      ]
+    }
+  ],
+  "held": [
+    {
+      "title": "군싹",
+      "reason": "군침이 싹 도노 담당 contest_inventory에 두 출처 전달. 축약 별도 중복생성 안함."
+    },
+    {
+      "title": "공좋카",
+      "reason": "Korea JoongAng Daily 직접본문1, 둘째 독립본문 확인 전 보류. 분좋카와 alias로 합치지 않음."
+    },
+    {
+      "title": "주불",
+      "reason": "CBS 검색자료 있으나 둘째 독립본문 확인 미완료."
+    },
+    {
+      "title": "싫존주의",
+      "reason": "2017~2020 독립근거 충분하지만 현재 묶음과 연대범위 달라 legacy 담당 확인 전 보류. 인터넷 개별 유행표현보다 가치관 용어에 가까워 수록범위도 검토 필요."
+    }
+  ]
+}
