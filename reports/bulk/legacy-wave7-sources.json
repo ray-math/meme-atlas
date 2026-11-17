@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave7",
+  "status": "ready_for_independent_editorial_review",
+  "created_at": "2026-11-17",
+  "base_ref": "362591e71da54110f8992bb15e1edae2af84b279",
+  "counts": {
+    "screened": 30,
+    "ready": 3,
+    "held": 13,
+    "duplicate": 12,
+    "assigned_elsewhere": 2
+  },
+  "entries": [
+    {
+      "entry_id": "hectopascal-kick",
+      "title": "헥토파스칼 킥",
+      "ledger_id": "kr-list-1132",
+      "scope_basis": "국내 드라마 캡처와 자막의 결합 및 국내 온라인 패러디를 독립 두 매체가 설명한다.",
+      "sources": [
+        {
+          "publisher": "오마이뉴스",
+          "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0000724983",
+          "published_at": "2007-09-27",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "단팥빵 발차기 장면·태풍 자막의 결합과 그림·축구·드라마 패러디"
+        },
+        {
+          "publisher": "한국일보",
+          "url": "https://v.daum.net/v/bUj1V0A0UY",
+          "published_at": "2022-09-06",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "강력한 날아차기를 가리키는 밈과 캡처 배경 설명"
+        }
+      ],
+      "limitations": [
+        "원방송·최초 게시물 직접 미확인. 최초 게시자 및 회차 확정 제외.",
+        "실제 폭력을 권하는 표현으로 확장하지 않음."
+      ],
+      "path": "memes/hectopascal-kick.md",
+      "source_sha": "a5a015eb7364cb8e319e4e2d3310d67d3ca78ffb",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "attack-of-blank",
+      "title": "진격의 ○○",
+      "ledger_id": "kr-list-0961",
+      "scope_basis": "2013년 국내 유행어 조사 및 국내 게임의 진격의 관우 패러디를 별개 매체 본문에서 확인했다.",
+      "sources": [
+        {
+          "publisher": "이투데이",
+          "url": "https://www.etoday.co.kr/news/view/793801",
+          "published_at": "2013-09-20",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "진격의 00이 유행어 조사에 포함된 사실"
+        },
+        {
+          "publisher": "게임동아",
+          "url": "https://game.donga.com/67799/",
+          "published_at": "2013-05-28",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "진격의 관우 제목·포스터의 애니메이션 패러디 실제 사례"
+        }
+      ],
+      "limitations": [
+        "원애니메이션·게임 포스터 자체는 직접 시청하지 않음.",
+        "조사 비율로 현재 인기나 전 국민 사용을 일반화하지 않음."
+      ],
+      "path": "memes/attack-of-blank.md",
+      "source_sha": "d199021fb668b7fd4507d7045588605ca0c42ee0",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "forbes-selected",
+      "title": "포브스 선정",
+      "ledger_id": "kr-list-1072",
+      "scope_basis": "취재대행소 왱의 직접 관계자 취재와 별개 고구마팜의 국내 코미디 콘텐츠 활용 사례 설명을 확인했다.",
+      "sources": [
+        {
+          "publisher": "국민일보 취재대행소 왱",
+          "url": "https://v.daum.net/v/cu4ZMiQbRG",
+          "published_at": null,
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "유튜브 제목·댓글의 과장된 가상 순위 형식과 포브스 관계자 인터뷰"
+        },
+        {
+          "publisher": "고구마팜",
+          "url": "https://gogumafarm.kr/트렌드가-바뀌어도-살아남은-고전-인기-밈-총정리-이/",
+          "published_at": "2025-04-02",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "공식 순위와 구별되는 가상 순위 농담, 코미디빅리그 모음집 제목 적용"
+        }
+      ],
+      "limitations": [
+        "왱 페이지의 정확 발행일은 확인 못해 null; 국민일보 원사이트 재열기는 502.",
+        "원댓글·유튜브 영상 직접 재생 아님. 최초 제작자와 현재 유행 정도 미확정.",
+        "공식 순위·인증으로 오인시킬 사용은 제외."
+      ],
+      "path": "memes/forbes-selected.md",
+      "source_sha": "5f15a25709e1a2aa019fefa1501058bf2d01ac3e",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "usage_status": "not_annotated"
+    }
+  ],
+  "screening": [
+    {
+      "title": "제시카 외동딸 일리노이 시카고",
+      "ledger": "kr-list-0920",
+      "matches": [
+        "jessica-jingle"
+      ],
+      "status": "duplicate",
+      "reason": "최신 수록 제목·별칭 또는 기존 경로와 중복."
+    },
+    {
+      "title": "조삼모사 패러디",
+      "ledger": "kr-list-0930",
+      "matches": [
+        "josammosa-parody"
+      ],
+      "status": "duplicate",
+      "reason": "최신 수록 제목·별칭 또는 기존 경로와 중복."
+    },
+    {
+      "title": "좋아! 가는 거야~",
+      "ledger": "kr-list-0937",
+      "matches": [
+        "joa-ganeungeoya"
+      ],
+      "status": "duplicate",
+      "reason": "최신 수록 제목·별칭 또는 기존 경로와 중복."
+    },
+    {
+      "title": "준비하시고 쏘세요",
+      "ledger": "kr-list-0947",
+      "matches": [
+        "ready-shoot-catchphrase"
+      ],
+      "status": "duplicate",
+      "reason": "최신 수록 제목·별칭 또는 기존 경로와 중복."
+    },
+    {
+      "title": "지구 온라인",
+      "ledger": "kr-list-0955",
+      "matches": [],
+      "status": "held",
+      "reason": "이번 검색에서 독립 두 매체의 직접 본문으로 반복 표현의 의미·국내 사용을 확인하지 못함."
+    },
+    {
+      "title": "진격의 ○○",
+      "ledger": "kr-list-0961",
+      "matches": [],
+      "status": "ready",
+      "reason": "두 독립 매체 본문에서 범위 한정 검증 완료."
+    },
+    {
+      "title": "진행시켜",
+      "ledger": "kr-list-0966",
+      "matches": [
+        "jinhaeng-sikyeo"
+      ],
+      "status": "duplicate",
+      "reason": "최신 수록 제목·별칭 또는 기존 경로와 중복."
+    },
+    {
+      "title": "짬에서 나오는 바이브",
+      "ledger": "kr-list-0970",
+      "matches": [
+        "jjam-vibe"
+      ],
+      "status": "duplicate",
+      "reason": "최신 수록 제목·별칭 또는 기존 경로와 중복."
+    },
+    {
+      "title": "찌찌뽕",
+      "ledger": "kr-list-0973",
+      "matches": [
+        "jjijjippong"
+      ],
+      "status": "duplicate",
+      "reason": "최신 수록 제목·별칭 또는 기존 경로와 중복."
+    },
+    {
+      "title": "초코빅송",
+      "ledger": "kr-list-0989",
+      "matches": [],
+      "status": "held",
+      "reason": "독립 두 출처 직접 본문 근거 부족."
+    },
+    {
+      "title": "출바알",
+      "ledger": "kr-list-0992",
+      "matches": [
+        "chulbaal"
+      ],
+      "status": "duplicate",
+      "reason": "최신 수록 제목·별칭 또는 기존 경로와 중복."
+    },
+    {
+      "title": "컹스",
+      "ledger": "kr-list-1008",
+      "matches": [],
+      "status": "assigned_elsewhere",
+      "reason": "contest_inventory wave7 예약으로 인계."
+    },
+    {
+      "title": "쿵쿵따",
+      "ledger": "kr-list-1024",
+      "matches": [
+        "kungkungtta"
+      ],
+      "status": "duplicate",
+      "reason": "최신 수록 제목·별칭 또는 기존 경로와 중복."
+    },
+    {
+      "title": "투명드래곤",
+      "ledger": "kr-list-1043",
+      "matches": [],
+      "status": "held",
+      "reason": "작품 자체와 별개 재사용 문장·형식의 범위 및 두 독립 근거 미확보."
+    },
+    {
+      "title": "특이점 드립",
+      "ledger": "kr-list-1047",
+      "matches": [],
+      "status": "held",
+      "reason": "일반 기술 용어와 구별되는 특정 밈 용법의 두 독립 직접 근거 미확보."
+    },
+    {
+      "title": "펩시맨",
+      "ledger": "kr-list-1065",
+      "matches": [],
+      "status": "held",
+      "reason": "이전 펩시맨 PC통신 시리즈 수록과 관련되며 광고 캐릭터형 별도 재사용 범위를 입증하지 못해 증식 보류."
+    },
+    {
+      "title": "평타취, 상타취",
+      "ledger": "kr-list-1069",
+      "matches": [],
+      "status": "held",
+      "reason": "국립국어원 보고서 검색 결과와 동아사이언스 검색 결과는 있으나 둘의 직접 본문 검증 미완료; 위키 재인용 기원설은 독립 근거 아님."
+    },
+    {
+      "title": "포브스",
+      "ledger": "kr-list-1072",
+      "matches": [],
+      "status": "ready",
+      "reason": "두 독립 매체 본문에서 범위 한정 검증 완료."
+    },
+    {
+      "title": "한본어",
+      "ledger": "kr-list-1101",
+      "matches": [],
+      "status": "held",
+      "reason": "검색 결과는 2026년 일본 내 한국어 혼합 유행 중심; 기존 국내 혼합 말투 후보와 범위 일치 미확인, 전재 중복 다수."
+    },
+    {
+      "title": "한글자 드립",
+      "ledger": "kr-list-1099",
+      "matches": [],
+      "status": "assigned_elsewhere",
+      "reason": "contest_inventory wave7 예약으로 인계."
+    },
+    {
+      "title": "한 잔 해",
+      "ledger": "kr-list-1104",
+      "matches": [],
+      "status": "held",
+      "reason": "이번 검색에서 특정 반복 형식의 뜻·국내 사용을 두 독립 직접 본문으로 확인하지 못함."
+    },
+    {
+      "title": "함정카드 밈",
+      "ledger": "kr-list-1106",
+      "matches": [],
+      "status": "held",
+      "reason": "위키트리 2017-02-28 직접 본문은 KB국민카드 광고임을 확인; 독립 보도 두 곳 요건 미충족."
+    },
+    {
+      "title": "허무송",
+      "ledger": "kr-list-1120",
+      "matches": [
+        "heomu-song"
+      ],
+      "status": "duplicate",
+      "reason": "최신 수록 제목·별칭 또는 기존 경로와 중복."
+    },
+    {
+      "title": "허이짜~",
+      "ledger": "kr-list-1126",
+      "matches": [
+        "heoijja"
+      ],
+      "status": "duplicate",
+      "reason": "최신 수록 제목·별칭 또는 기존 경로와 중복."
+    },
+    {
+      "title": "헥토파스칼 킥",
+      "ledger": "kr-list-1132",
+      "matches": [],
+      "status": "ready",
+      "reason": "두 독립 매체 본문에서 범위 한정 검증 완료."
+    },
+    {
+      "title": "호롤롤로",
+      "ledger": "kr-list-1141",
+      "matches": [],
+      "status": "held",
+      "reason": "YTN 2020-02-19 원 방송사 회고 본문 확인, 별개 독립 출처의 재사용 범위는 미확인."
+    },
+    {
+      "title": "호텔경제학",
+      "ledger": "kr-list-1143",
+      "matches": [],
+      "status": "held",
+      "reason": "정치·경제 주장 소개와 재사용 밈 형식 구별이 부족; 경제 원리의 사실성 주장으로 확대하지 않고 보류."
+    },
+    {
+      "title": "혼모노(진짜)",
+      "ledger": "kr-list-1144",
+      "matches": [],
+      "status": "held",
+      "reason": "팬 대상 비하 용법 후보이나 독립 두 직접 본문 검증 미완료."
+    },
+    {
+      "title": "트롤",
+      "ledger": "kr-list-1046",
+      "matches": [
+        "troll-play"
+      ],
+      "status": "duplicate",
+      "reason": "최신 수록 제목·별칭 또는 기존 경로와 중복."
+    },
+    {
+      "title": "주작",
+      "ledger": "kr-list-0943",
+      "matches": [],
+      "status": "held",
+      "reason": "일반 조작 지칭과 밈으로서의 반복 표현 범위에 대한 독립 두 직접 근거 미확보."
+    }
+  ],
+  "discovery": {
+    "type": "existing_candidate_ledger_from_korean_meme_mirror",
+    "path": "data/korea-candidates.json",
+    "original_namuwiki_access_claimed": false,
+    "new_ledger_ids_created": false
+  },
+  "duplicate_check": {
+    "ref": "362591e71da54110f8992bb15e1edae2af84b279",
+    "index_count": 615,
+    "checked": [
+      "index title/aliases",
+      "pilot-state entries title/aliases",
+      "recursive tree paths",
+      "coordinator pending reservations"
+    ],
+    "retired_note": "별도 retired 목록을 조회했다고 주장하지 않음; pilot-state 현재 항목과 tree를 대조."
+  },
+  "verification": {
+    "ci_run": false,
+    "derived_files_changed": false,
+    "raw_source_body_stored": false,
+    "main_or_pr37_changed": false,
+    "remote_canonical_readback_all_equal": true
+  }
+}
