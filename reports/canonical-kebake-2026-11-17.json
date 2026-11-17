@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "approved public-source metadata, not raw collection notes",
+  "source_revision": "9f6748ad1f85a58aa555e3891e3afc4598476911",
+  "batch_id": "korean-verified-20261117-kebake",
+  "review_kind": "AI source and editorial review; not human validation",
+  "entries": [
+    {
+      "slug": "kebake",
+      "title": "케바케",
+      "path": "memes/kebake.md",
+      "source_blob_sha": "2eb9fbea7118b890b71f996790d4ad980a6be7da",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 국내 뜻풀이 자료 두 곳에서 한국어 축약과 인터넷·일상 표현 의미를 확인하고, 별도 서평의 책 인용에서 사용을 보강했다. 직접 원댓글·실무대화·최초창작을 검증한 것은 아니다.",
+      "evidence": [
+        {
+          "url": "https://www.allurekorea.com/2012/11/21/신조어-사전/",
+          "publisher": "얼루어 코리아",
+          "published_date": "2012-11-21"
+        },
+        {
+          "url": "https://www.donga.com/news/article/all/20180717/91086052/1",
+          "publisher": "동아일보",
+          "published_date": "2018-07-17"
+        },
+        {
+          "url": "https://www.ohmynews.com/NWS_Web/view/at_pg.aspx?CNTN_CD=A0002709736",
+          "publisher": "오마이뉴스",
+          "published_date": "2021-01-10",
+          "support": "Book quotation read in review; not direct book or chat observation."
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Own editorial example is not an observed workplace conversation.",
+    "No origin inventor/year, current popularity or empirical variability guarantee is claimed.",
+    "No existing candidate ledger ID; no identifier or included status fabricated.",
+    "Canonical only; usage annotation needs a separate contextual evaluation.",
+    "Separate AI editorial review of the canonical found no wording blocker; external sources were supplied by the researcher, not reread by that reviewer."
+  ]
+}

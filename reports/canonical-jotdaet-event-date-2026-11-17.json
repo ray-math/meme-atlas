@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "kind": "approved public-source metadata; bounded canonical date clarification",
+  "source_revision": "aaf0dbf3ca17510057a0adce64f5ad81fef7a402",
+  "batch_id": "korean-correction-20261117-jotdaet-event-date",
+  "review_kind": "AI source and editorial review; not human validation",
+  "entries": [
+    {
+      "slug": "jotdaet-gual",
+      "title": "좋댓구알",
+      "path": "memes/jotdaet-gual.md",
+      "source_blob_sha": "0b94016002d8c243787c1191a7b546ab14d5b890",
+      "expected_body_hash": "50a72e5028bd23f9371fa19342038cc2d8bc83de8d58490078aeebe0868988f3",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20260104102804448",
+          "publisher": "이데일리",
+          "published_date": "2026-01-04",
+          "event_month": "2025-12",
+          "verification": "Reported performance use in the article body; performance audio/video not viewed."
+        },
+        {
+          "url": "https://www.cmak.or.kr/board/wordbook/227",
+          "publisher": "한국CM협회",
+          "published_date": "2026-05-06",
+          "verification": "Independent abbreviation and four-action request definition; not corroboration of the performance date."
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Only the event/report date sentence is clarified; the exact performance date is not assigned.",
+    "The existing 2024 statement and all other canonical content are preserved, not newly reverified.",
+    "No profile promotion or source claim beyond the reported language use is implied.",
+    "The performance date comes from the dated Edaily report; the independent definition source confirms meaning, not that event date. Initial importer attempt rejected a single evidence URL before mutation; two-source gate is unchanged."
+  ]
+}

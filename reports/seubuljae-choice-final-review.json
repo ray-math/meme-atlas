@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "reviewed_commit": "000d185556d0a75c2e2586f22f9d15fe2b823335",
+  "evaluator_kind": "independent AI editorial review; not human validation",
+  "cases": 11,
+  "editorial_blockers": [],
+  "outcomes": {
+    "recommend": 3,
+    "abstain": 4,
+    "clarify": 4
+  },
+  "observations": [
+    "S-choice preserves explicit voluntary minor choice and consequence without invented materials or independent responsibility judgment.",
+    "OTL and blanket-kick remain different meanings, not self-caused difficulty by assumption.",
+    "R-gap and U-upside retrieved candidates but final answers asked for missing context; neither is counted as final recommendation success.",
+    "All factual evidence spans are exact request text; six not-searched rows accurately disclose that fact.",
+    "R-gap's additional harm-minimization check is editorial judgment, not a claim that the risk flag came from the returned profile."
+  ],
+  "limitations": [
+    "Public annotation-derived development, not new blind or real-world accuracy.",
+    "Reviewer read stored trace and did not independently execute CI."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "kind": "approved public source metadata, not raw collection notes",
+  "source_revision": "36a23b4645fbff5d771c66b8f607499729f3fd2b",
+  "batch_id": "korean-verified-20261117-mental-victory",
+  "review_kind": "AI source and editorial review; not human validation",
+  "entries": [
+    {
+      "slug": "mental-victory",
+      "title": "정신승리",
+      "path": "memes/mental-victory.md",
+      "source_blob_sha": "f09dcd11037395ee6fdb08cae4fbdb61e1dddf00",
+      "scope_type": "korean_usage",
+      "scope_basis": "연합뉴스의 언어 칼럼 뜻풀이와 스포츠경향 본문의 SNS 실제 반박 발화 보도를 교차확인했다. 원 SNS 게시물을 직접 열람한 것으로 기록하지 않으며 타자의 실제 심리나 논란의 진위를 판정하지 않는다.",
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20260403069500371",
+          "publisher": "연합뉴스",
+          "published_date": "2026-04-03"
+        },
+        {
+          "url": "https://sports.khan.co.kr/article/202209230830003",
+          "publisher": "스포츠경향",
+          "published_date": "2022-09-23"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Reported online language use, not direct inspection of the original SNS post.",
+    "No sensitive personal dispute details, original literary origin, self-mockery or gaming extension imported.",
+    "Historical examples do not establish new popularity. Candidate included-state and latest observations remain unchanged."
+  ]
+}

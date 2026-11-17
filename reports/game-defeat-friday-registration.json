@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "document_kind": "registration_patch_plan",
+  "registration_status": "not_applied",
+  "base_commit": "74ae9b256858549888be90f28a3c0b8b7cb51909",
+  "source_report_commit": "80608ae9e879527625f7028c28bca4decd8272f0",
+  "scope_note": "Append-only proposal for two unreviewed drafts. Preserve the current approved 60-profile specification unchanged; no promotion, PR37 write or main merge.",
+  "new_profiles": [
+    {
+      "entry_id": "gg",
+      "source_sha": "52ecef09841e9832ec832c290db7a51649c514d9",
+      "review_status": "draft",
+      "review_note": "자기 참가 게임의 자기 패배 인정만 주석한다. 일반 종료 인사·승자가 상대에게 퇴장을 강요하는 용법·일상 포기 파생은 이번 범위가 아니다. canonical 본문과 Git blob SHA는 지정 커밋에서 직접 확인했다. 외부 기사 원문은 별도 조사 담당의 직접 확인 보고를 참고했으며 이 작성자가 원문을 재독했다고 주장하지 않는다. 예문·맥락 경계·안전 분류는 편집 판단이며 기사 사실과 구별한다.",
+      "usages": [
+        {
+          "id": "own-game-defeat",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "패배인정"
+          ],
+          "situations": [
+            "게임패배"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "온라인댓글",
+            "친근한대화"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "자신이 참가한 게임에서 자기 패배를 받아들이고 그 승부를 마무리하겠다는 뜻을 전한다. 인정을 하는 본인의 승부 태도가 초점이며 상대의 패배나 퇴장을 요구하지 않는다.",
+          "avoid_when": [
+            "단순히 불리한 국면을 아직 패배를 인정하지 않은 사람의 포기 의사로 단정하는 경우",
+            "승자가 상대에게 패배 인정·퇴장을 강요하거나 조롱하는 경우",
+            "GG 발화만으로 게임 시스템 종료·공식 결과 확정·상대의 수락을 보장하는 경우",
+            "타인의 패배를 관찰한 것만으로 자기 패배 용법을 적용하는 경우",
+            "일상 활동 전체의 포기나 삶의 위기·도움 요청을 게임 패배 농담으로 처리하는 경우"
+          ],
+          "example": {
+            "text": "이번 판은 내가 졌어. 패배를 인정할게. GG.",
+            "kind": "editorial"
+          },
+          "review_note": "standard는 명시적인 자기 참가 게임의 자기 패배 인정이라는 좁은 편집 맥락에 한정한다. 체념·슬픔·후련함 등 실제 정서를 추정하지 않는다. 필터는 발화자의 상황 설명일 뿐 공식 경기 판정이나 기술적 종료 확인이 아니다.",
+          "retrieval_requirements": {
+            "situations": [
+              "게임패배"
+            ],
+            "targets": [
+              "자기"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entry_id": "fiery-friday",
+      "source_sha": "eb4d5ec8532b249d8130fd9fb643e74865257167",
+      "review_status": "draft",
+      "review_note": "금요일 저녁 여가를 기대한다고 명시한 용례에 한해 기대 정서를 주석한다. 단어 하나만으로 실제 화자의 들뜸·휴식 가능성을 추정하지 않는다. canonical 본문과 Git blob SHA는 지정 커밋에서 직접 확인했다. 외부 기사 원문은 별도 조사 담당의 직접 확인 보고를 참고했으며 이 작성자가 원문을 재독했다고 주장하지 않는다. 예문·맥락 경계·안전 분류는 편집 판단이며 기사 사실과 구별한다.",
+      "usages": [
+        {
+          "id": "friday-leisure-anticipation",
+          "emotion_status": "annotated",
+          "emotions": [
+            "기대"
+          ],
+          "intents": [
+            "상태설명"
+          ],
+          "situations": [
+            "금요일여가"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "금요일 저녁에 자유 시간이나 여가를 보낼 수 있기를 기대하며 그 상황을 짧게 표현한다. 기대가 명시된 용례이며 단순 날짜 정보만으로 이 정서를 부여하지 않는다.",
+          "avoid_when": [
+            "금요일이 아닌 날이나 요일 정보만 있는 입력에 현재 금요일의 기대를 만들어 넣는 경우",
+            "입력에 없는 새 약속·장소·음주 계획·퇴근 완료를 만들어 말하는 경우",
+            "음주·외출을 반드시 해야 하는 것으로 제시하거나 강요하는 경우",
+            "야근 중이거나 쉬기 어려운 상대에게 놀라고 압박하는 경우",
+            "타인의 수상·성과 소식 등 여가와 무관한 상황에 적용하는 경우"
+          ],
+          "example": {
+            "text": "금요일 저녁의 자유 시간이 기대돼. 불금이라는 말이 딱이네.",
+            "kind": "editorial"
+          },
+          "review_note": "예문은 금요일 저녁 여가의 기대를 명시한 창작이며 실제 오늘의 날짜·일정·퇴근 여부를 보고한 문장이 아니다. 기대는 이 용례가 전달하는 정서 색채이며 실제 내면 인증은 아니다. standard는 이 좁은 맥락의 편집 판단이고 다른 사람의 여가 가능성을 보장하지 않는다.",
+          "retrieval_requirements": {
+            "situations": [
+              "금요일여가"
+            ],
+            "targets": [
+              "상황"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "new_vocabulary": {
+    "intents": [
+      {
+        "label": "패배인정",
+        "aliases": [],
+        "definition": "자신이 참가한 승부에서 패배를 받아들인다는 뜻을 표현함. 상대에게 패배·퇴장을 강요하거나 모든 활동을 포기하는 기능과 구별한다."
+      }
+    ],
+    "situations": [
+      {
+        "label": "게임패배",
+        "aliases": [],
+        "definition": "자신이 참가한 게임에서 패배를 인정하며 해당 승부를 마무리하는 상황. 단순히 불리한 국면이나 타인의 패배 관찰과 구별한다."
+      },
+      {
+        "label": "금요일여가",
+        "aliases": [],
+        "definition": "금요일 저녁의 자유 시간이나 여가 활동을 즐기거나 기대하는 상황. 단순한 요일 정보와 구별하며 음주·외출을 필수로 뜻하지 않는다."
+      }
+    ]
+  },
+  "test_file": {
+    "path": "tests/test_game_defeat_friday_drafts.py",
+    "source": "\"\"\"Draft structural tests only. Reviewed status changes are in-memory fixtures.\"\"\"\nimport copy\nimport sys\nimport unittest\nfrom pathlib import Path\nROOT = Path(__file__).resolve().parents[1]\nsys.path.insert(0, str(ROOT / 'scripts'))\nfrom usage_profiles import load_profiles, load_vocabulary, blob_sha\nfrom build_usage_index import build_usage_index\nfrom search_usage import search\n\nclass GameDefeatFridayDraftTests(unittest.TestCase):\n    SPEC = {\n        'gg': ('own-game-defeat', '패배인정', '게임패배', '자기',\n               '52ecef09841e9832ec832c290db7a51649c514d9'),\n        'fiery-friday': ('friday-leisure-anticipation', '상태설명', '금요일여가', '상황',\n                        'eb4d5ec8532b249d8130fd9fb643e74865257167'),\n    }\n    def setUp(self):\n        self.profiles = load_profiles(ROOT)['profiles']\n        self.vocab = load_vocabulary(ROOT)\n        self.index = build_usage_index(ROOT)\n\n    def hits(self, index, identity, **kwargs):\n        r = search(index, self.vocab, limit=100, **kwargs)\n        self.assertNotEqual(r['status'], 'unsupported_filter')\n        return [h for h in r['results'] if h['entry_id'] == identity]\n\n    def provisional(self, identity):\n        index = copy.deepcopy(self.index)\n        entry = next(e for e in index['entries'] if e['id'] == identity)\n        entry['review_status'] = 'reviewed'\n        return index, entry\n\n    def test_source_bound_draft_shape_and_emotions(self):\n        selected = [p for p in self.profiles if p['entry_id'] in self.SPEC]\n        self.assertEqual({p['entry_id'] for p in selected}, set(self.SPEC))\n        for p in selected:\n            uid, intent, situation, target, sha = self.SPEC[p['entry_id']]\n            self.assertEqual(p['source_sha'], sha)\n            self.assertEqual(sha, blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))\n            self.assertEqual(p['review_status'], 'draft')\n            self.assertEqual(len(p['usages']), 1)\n            u = p['usages'][0]\n            self.assertEqual(u['id'], uid)\n            self.assertEqual(u['intents'], [intent])\n            self.assertEqual(u['situations'], [situation])\n            self.assertEqual(u['targets'], [target])\n            self.assertEqual(u['safety'], 'standard')\n            self.assertEqual(u['example']['kind'], 'editorial')\n            self.assertEqual(u['retrieval_requirements'],\n                             {'situations': [situation], 'targets': [target]})\n            self.assertEqual(u['emotion_status'], 'unknown' if p['entry_id'] == 'gg' else 'annotated')\n            self.assertEqual(u['emotions'], [] if p['entry_id'] == 'gg' else ['기대'])\n\n    def test_new_concepts_defined_once(self):\n        for facet, label in [('intents', '패배인정'), ('situations', '게임패배'),\n                             ('situations', '금요일여가')]:\n            rows = [c for c in self.vocab['facets'][facet] if c['label'] == label]\n            self.assertEqual(len(rows), 1)\n            self.assertEqual(rows[0]['aliases'], [])\n            self.assertTrue(rows[0]['definition'].strip())\n\n    def test_actual_drafts_hidden(self):\n        for entry in self.index['entries']:\n            if entry['id'] not in self.SPEC:\n                continue\n            req = entry['usages'][0]['retrieval_requirements']\n            for mode in ('lookup', 'recommend'):\n                for filters in (req, {'query': entry['title']}, dict(req, query=entry['title'])):\n                    self.assertFalse(self.hits(self.index, entry['id'], mode=mode, **filters))\n\n    def test_provisional_exact_filters_allow_standard_candidates(self):\n        for identity, (uid, _, situation, target, _) in self.SPEC.items():\n            index, entry = self.provisional(identity)\n            req = {'situations': [situation], 'targets': [target]}\n            for mode in ('lookup', 'recommend'):\n                hits = self.hits(index, identity, mode=mode, **req)\n                self.assertEqual(len(hits), 1)\n                self.assertEqual(hits[0]['usage_id'], uid)\n                self.assertTrue(hits[0]['requires_context_check'])\n                self.assertTrue(hits[0]['retrieval_scope']['explicit_filters_match'])\n            self.assertFalse(self.hits(index, identity, mode='recommend', query=entry['title']))\n            explanation = self.hits(index, identity, mode='lookup', query=entry['title'])\n            self.assertEqual(len(explanation), 1)\n            self.assertTrue(explanation[0]['retrieval_scope']['exact_lookup_only'])\n\n    def test_provisional_missing_broad_or_and_wrong_targets_blocked(self):\n        for identity, (_, intent, situation, target, _) in self.SPEC.items():\n            index, _ = self.provisional(identity)\n            blocked = [\n                {'intents': [intent]},\n                {'intents': [intent], 'targets': [target]},\n                {'situations': [situation]},\n                {'targets': [target]},\n                {'situations': [situation, '성과'], 'targets': [target]},\n                {'situations': [situation], 'targets': [target, '상대']},\n            ]\n            blocked += [{'situations': [situation], 'targets': [wrong]}\n                        for wrong in ('자기', '상대', '제삼자', '상황') if wrong != target]\n            for mode in ('lookup', 'recommend'):\n                for filters in blocked:\n                    self.assertFalse(self.hits(index, identity, mode=mode, **filters))\n\n    def test_contexts_omit_titles_without_changing_examples(self):\n        contexts = {p['entry_id']: p['usages'][0]['context']\n                    for p in self.profiles if p['entry_id'] in self.SPEC}\n        self.assertNotIn('gg', contexts['gg'].casefold())\n        self.assertNotIn('불금', contexts['fiery-friday'])\n        self.assertIn('패배', contexts['gg'])\n        self.assertIn('기대', contexts['fiery-friday'])\n\n    def test_boundaries_retained_not_external_state_guarantees(self):\n        for identity in self.SPEC:\n            index, _ = self.provisional(identity)\n            _, _, situation, target, _ = self.SPEC[identity]\n            hit = self.hits(index, identity, mode='recommend',\n                            situations=[situation], targets=[target])[0]\n            self.assertTrue(hit['requires_context_check'])\n            notes = ' '.join(hit['usage']['avoid_when']) + hit['usage']['review_note']\n            if identity == 'gg':\n                for boundary in ('공식 결과', '상대의 수락', '게임 시스템'):\n                    self.assertIn(boundary, notes)\n            else:\n                for boundary in ('금요일이 아닌', '퇴근', '음주', '날짜'):\n                    self.assertIn(boundary, notes)\n        # These are metadata-preservation assertions, not live game/calendar\n        # validation or proof that a natural-language safety checker worked.\n\nif __name__ == '__main__':\n    unittest.main()\n"
+  },
+  "verification": {
+    "canonical_sha_rechecked": true,
+    "current_profile_ids_absent": true,
+    "current_new_labels_absent": true,
+    "python_executed": false,
+    "ci_executed": false,
+    "test_methods": 7,
+    "limits": "Unexecuted structural test source. Context omits title words but this is not a sealed independent evaluation. Boundary assertions preserve metadata; they do not verify game outcome, opponent acceptance, calendar date or leisure availability."
+  },
+  "integration_steps": [
+    "Recheck latest source hashes, profile IDs and vocabulary labels for conflicts.",
+    "Append only new_profiles and new_vocabulary; preserve all approved 60-profile records and specifications.",
+    "Keep both draft. Install test source and generate the usage index using the authorized workflow, then execute schema/source checks and CI.",
+    "Do not treat hypothetical reviewed filter matches as semantic readiness or external-state verification."
+  ]
+}

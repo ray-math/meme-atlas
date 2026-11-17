@@ -1,0 +1,1327 @@
+{
+  "schema_version": 1,
+  "batch_id": "korean-verified-20261117-bulk-wave11",
+  "kind": "Approved public-source metadata; temporary importer input",
+  "review_kind": "Research AI source reading plus separate canonical editorial AI; no human validation",
+  "entries": [
+    {
+      "slug": "whos-on-first",
+      "title": "1루수가 누구야",
+      "path": "memes/whos-on-first.md",
+      "source_revision": "c288f11b52028a697b908df6b8f400282b7c38c0",
+      "source_blob_sha": "c3fa4a042907a5ff810e54a4fff3ca3e88fdabab",
+      "scope_type": "korean_usage",
+      "scope_basis": "평범한 의문사처럼 들리는 이름 때문에 대화가 계속 엇갈리는 말장난. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "evidence": [
+        {
+          "publisher": "bnt뉴스",
+          "url": "https://v.daum.net/v/20120418165707366?s=print_news",
+          "published_at": "2012-04-18",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "한국어 애니메이션의 말장난 구조와 온라인 공유 보도."
+        },
+        {
+          "publisher": "OSEN",
+          "url": "https://www.osen.co.kr/article/G1109703183",
+          "published_at": "2013-10-13",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "별도 코미디 프로그램 이름 대소동의 변형 재연 보도."
+        }
+      ],
+      "limitations": "영상·영화 직접 시청 및 원댓글 직접 열람 아님. 기사는 직접 본문으로 확인. 정확한 최초 게시일·최초 창작자·현재 유행 규모를 확정하지 않음. 자체 예문이며 문구를 말한 사람의 실제 감정·의도를 판정하지 않음."
+    },
+    {
+      "slug": "will-remember-this",
+      "title": "이 일을 기억할 것입니다",
+      "path": "memes/will-remember-this.md",
+      "source_revision": "c288f11b52028a697b908df6b8f400282b7c38c0",
+      "source_blob_sha": "4b5cfb9ee6ca527bb2107c42e962b249e81a63f2",
+      "scope_type": "korean_usage",
+      "scope_basis": "인상 깊거나 황당한 일을 게임 안내문처럼 비장하게 기록하는 말. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "evidence": [
+        {
+          "publisher": "뉴시스",
+          "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20230516_0002305522",
+          "published_at": "2023-05-22",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "게임 안내문 배경과 국내 댓글의 비장한 반응 용법."
+        },
+        {
+          "publisher": "캐릿",
+          "url": "https://www.careet.net/Newsletter/Detail/1819",
+          "published_at": "2023-05-30",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "공개 뉴스레터의 해설 및 필자의 실제 맺음말 사용."
+        }
+      ],
+      "limitations": "영상·영화 직접 시청 및 원댓글 직접 열람 아님. 기사는 직접 본문으로 확인. 정확한 최초 게시일·최초 창작자·현재 유행 규모를 확정하지 않음. 자체 예문이며 문구를 말한 사람의 실제 감정·의도를 판정하지 않음."
+    },
+    {
+      "slug": "let-it-go-parody",
+      "title": "렛잇고 패러디",
+      "path": "memes/let-it-go-parody.md",
+      "source_revision": "c288f11b52028a697b908df6b8f400282b7c38c0",
+      "source_blob_sha": "894cd4fffada30f7302f7a6d10b23484cf0c540e",
+      "scope_type": "korean_usage",
+      "scope_basis": "겨울왕국 노래의 창법·장면·음악을 바꾸거나 다른 영상에 붙여 즐기는 패러디. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "evidence": [
+        {
+          "publisher": "MBC",
+          "url": "https://imnews.imbc.com/replay/2014/nwdesk/article/3414527_30324.html",
+          "published_at": "2014-02-09",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "국내 트로트 버전과 경기 영상 편집, 일반인 패러디 보도."
+        },
+        {
+          "publisher": "스타뉴스",
+          "url": "https://www.starnewskorea.com/movie/2014/02/03/2014020315221099062",
+          "published_at": "2014-02-03",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "국내 온라인 변형과 개그콘서트 장면 재연 사례."
+        }
+      ],
+      "limitations": "영상·영화 직접 시청 및 원댓글 직접 열람 아님. 기사는 직접 본문으로 확인. 정확한 최초 게시일·최초 창작자·현재 유행 규모를 확정하지 않음. 자체 예문이며 문구를 말한 사람의 실제 감정·의도를 판정하지 않음."
+    },
+    {
+      "slug": "snow-reporter-parody",
+      "title": "눈사람 기자 패러디",
+      "path": "memes/snow-reporter-parody.md",
+      "source_revision": "c288f11b52028a697b908df6b8f400282b7c38c0",
+      "source_blob_sha": "6614906fb5b12604677759d968e5bccfcf0229d2",
+      "scope_type": "korean_usage",
+      "scope_basis": "눈을 맞으며 진지하게 현장을 중계하던 기자의 모습을 흉내 내는 패러디. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "evidence": [
+        {
+          "publisher": "iMBC",
+          "url": "https://enews.imbc.com/News/ViewAmp/9372",
+          "published_at": "2010-03-10",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "김제동 소셜미디어 영상의 국자 마이크·진지한 중계 재연."
+        },
+        {
+          "publisher": "OSEN",
+          "url": "https://www.osen.co.kr/article/G1101210200",
+          "published_at": "2011-01-21",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "이정의 별도 예능 녹화 재연 및 원 보도 배경."
+        }
+      ],
+      "limitations": "영상·영화 직접 시청 및 원댓글 직접 열람 아님. 기사는 직접 본문으로 확인. 정확한 최초 게시일·최초 창작자·현재 유행 규모를 확정하지 않음. 자체 예문이며 문구를 말한 사람의 실제 감정·의도를 판정하지 않음."
+    },
+    {
+      "slug": "oppa-car-dance",
+      "title": "오빠 오빠 차 있어?",
+      "path": "memes/oppa-car-dance.md",
+      "source_revision": "c288f11b52028a697b908df6b8f400282b7c38c0",
+      "source_blob_sha": "92449ab6e3e87ed70fe82d183b085223f83e1034",
+      "scope_type": "korean_usage",
+      "scope_basis": "반복되는 질문형 노래에 맞춘 몸짓을 따라 하는 영상 패러디. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "evidence": [
+        {
+          "publisher": "OSEN",
+          "url": "https://www.osen.co.kr/article/G1112035684",
+          "published_at": "2023-02-04",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "노래 녹음 당사자 인터뷰와 코미디언 패러디 보도."
+        },
+        {
+          "publisher": "마이데일리",
+          "url": "https://v.daum.net/v/20221202214542161?s=print_news",
+          "published_at": "2022-12-02",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "춤 영상 당사자 인터뷰 보도와 반복 가사·동작의 재사용 설명."
+        }
+      ],
+      "limitations": "영상·영화 직접 시청 및 원댓글 직접 열람 아님. 기사는 직접 본문으로 확인. 정확한 최초 게시일·최초 창작자·현재 유행 규모를 확정하지 않음. 자체 예문이며 문구를 말한 사람의 실제 감정·의도를 판정하지 않음."
+    },
+    {
+      "slug": "life-not-as-planned",
+      "title": "인생이란 원래 자기 생각대로 되지 않는 법이란다",
+      "path": "memes/life-not-as-planned.md",
+      "source_revision": "c288f11b52028a697b908df6b8f400282b7c38c0",
+      "source_blob_sha": "16c438b44504707e359e59a9c493be83814c4648",
+      "scope_type": "korean_usage",
+      "scope_basis": "예상과 다른 결과를 인생의 뜻밖의 재미처럼 받아들이며 덧붙이는 문구. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "evidence": [
+        {
+          "publisher": "게임조선",
+          "url": "https://www.gamechosun.co.kr/webzine/article/view.php?from=articlelist&no=224270",
+          "published_at": "2026-08-15",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "필자가 예상과 다른 체험 결과를 정리하면서 직접 문구 사용. 도박·구매 권유 내용은 수록하지 않음."
+        },
+        {
+          "publisher": "패스트페이퍼",
+          "url": "https://www.fastpapermag.com/2025/09/18/얘야-인생이란-원래-자기-생각대로-되지않는-법이란/",
+          "published_at": "2025-09-18",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "브랜드 협업 소개 제목에 문장 변형 사용; 공개 본문에서 캐릭터 연결 확인."
+        }
+      ],
+      "limitations": "영상·영화 직접 시청 및 원댓글 직접 열람 아님. 기사는 직접 본문으로 확인. 정확한 최초 게시일·최초 창작자·현재 유행 규모를 확정하지 않음. 자체 예문이며 문구를 말한 사람의 실제 감정·의도를 판정하지 않음."
+    },
+    {
+      "slug": "deokming-out",
+      "title": "덕밍아웃",
+      "path": "memes/deokming-out.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "847dccff459d1264582978a01054dbe1d77e4383",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://cbiz.chosun.com/svc/bulletin/bulletin_art.html?contid=2015122900559",
+          "publisher": "조선비즈",
+          "published_date": "2015-12-29",
+          "access": "direct_body",
+          "support": "팬 취향을 공개하는 뜻과 말의 구성을 설명한다.",
+          "independent_group": "조선비즈"
+        },
+        {
+          "url": "https://www.rfa.org/korean/weekly_program/ccadcd98-b9ccc138/bravoyouth-02232017082933.html",
+          "publisher": "자유아시아방송",
+          "published_date": "2017-02-23",
+          "access": "direct_body",
+          "support": "덕후임을 밝힌다는 뜻을 방송 대화에서 풀이한다.",
+          "independent_group": "자유아시아방송"
+        }
+      ],
+      "limitations": "국내 용법만 확인. 최초 창안과 원게시물·원영상, 현재 유행 강도 미확인. 기사 속 개인 경험·예문·이미지 복제 없음."
+    },
+    {
+      "slug": "hyudeok",
+      "title": "휴덕",
+      "path": "memes/hyudeok.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "2cd30d5cb28f360e44a0c9d76c15be100ddb754f",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.rfa.org/korean/weekly_program/ccadcd98-b9ccc138/bravoyouth-02232017082933.html",
+          "publisher": "자유아시아방송",
+          "published_date": "2017-02-23",
+          "access": "direct_body",
+          "support": "팬 활동을 쉬는 의미로 설명한다.",
+          "independent_group": "자유아시아방송"
+        },
+        {
+          "url": "https://v.daum.net/v/QncyxBj3cC",
+          "publisher": "이데일리",
+          "published_date": "2023-06-19",
+          "access": "direct_body",
+          "support": "일시 중단과 탈덕의 차이를 설명한다.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "limitations": "국내 용법만 확인. 최초 창안과 원게시물·원영상, 현재 유행 강도 미확인. 기사 속 개인 경험·예문·이미지 복제 없음."
+    },
+    {
+      "slug": "eodeokhaengdeok",
+      "title": "어덕행덕",
+      "path": "memes/eodeokhaengdeok.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "21518d73465079531e54acdeca4cee24172ab817",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://news.nate.com/view/20210110n01882",
+          "publisher": "쿠키뉴스",
+          "published_date": "2021-01-10",
+          "access": "direct_body",
+          "support": "팬 활동 입문 안내에서 뜻을 풀어 사용한다.",
+          "independent_group": "쿠키뉴스"
+        },
+        {
+          "url": "https://www.huffingtonpost.kr/article/76312",
+          "publisher": "허프포스트코리아",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "에세이에서 줄임말의 뜻과 사용을 설명한다.",
+          "independent_group": "허프포스트코리아"
+        }
+      ],
+      "limitations": "국내 용법만 확인. 최초 창안과 원게시물·원영상, 현재 유행 강도 미확인. 기사 속 개인 경험·예문·이미지 복제 없음."
+    },
+    {
+      "slug": "ticket-grapes",
+      "title": "포도알",
+      "path": "memes/ticket-grapes.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "986004d836277f379edb35d101965f05df99ff0f",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.skcareersjournal.com/1350",
+          "publisher": "SK Careers Journal",
+          "published_date": "2019-01-11",
+          "access": "direct_body",
+          "support": "예매 가능한 좌석 표시의 모양과 별칭을 설명한다.",
+          "independent_group": "SK Careers Journal"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03299686635614496",
+          "publisher": "이데일리",
+          "published_date": "2023-05-31",
+          "access": "direct_body",
+          "support": "보라색 선택 가능 좌석을 가리키는 쓰임을 해설한다.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "limitations": "국내 용법만 확인. 최초 창안과 원게시물·원영상, 현재 유행 강도 미확인. 기사 속 개인 경험·예문·이미지 복제 없음."
+    },
+    {
+      "slug": "iseonjwa",
+      "title": "이선좌",
+      "path": "memes/iseonjwa.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "8ac5aba007c002be948dc7877f5eb4827df5eaed",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.skcareersjournal.com/1350",
+          "publisher": "SK Careers Journal",
+          "published_date": "2019-01-11",
+          "access": "direct_body",
+          "support": "좌석 선점 알림의 줄임말을 설명한다.",
+          "independent_group": "SK Careers Journal"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03299686635614496",
+          "publisher": "이데일리",
+          "published_date": "2023-05-31",
+          "access": "direct_body",
+          "support": "예매 과정의 메시지와 표현을 대응시킨다.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "limitations": "국내 용법만 확인. 최초 창안과 원게시물·원영상, 현재 유행 강도 미확인. 기사 속 개인 경험·예문·이미지 복제 없음."
+    },
+    {
+      "slug": "piketing",
+      "title": "피켓팅",
+      "path": "memes/piketing.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "b60a93b5dd4065dfdf6b1a85706979650a261606",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.skcareersjournal.com/1350",
+          "publisher": "SK Careers Journal",
+          "published_date": "2019-01-11",
+          "access": "direct_body",
+          "support": "치열한 공연 예매의 줄임말을 풀이한다.",
+          "independent_group": "SK Careers Journal"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03299686635614496",
+          "publisher": "이데일리",
+          "published_date": "2023-05-31",
+          "access": "direct_body",
+          "support": "피 튀기는 경쟁에 비유한 티켓팅 표현을 설명한다.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "limitations": "국내 용법만 확인. 최초 창안과 원게시물·원영상, 현재 유행 강도 미확인. 기사 속 개인 경험·예문·이미지 복제 없음."
+    },
+    {
+      "slug": "chwiketing",
+      "title": "취켓팅",
+      "path": "memes/chwiketing.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "aad2b1b2b8f371db511cc5981ba01181e9fbffe8",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.skcareersjournal.com/1350",
+          "publisher": "SK Careers Journal",
+          "published_date": "2019-01-11",
+          "access": "direct_body",
+          "support": "취소·미결제로 다시 풀리는 표를 예매하는 뜻을 설명한다.",
+          "independent_group": "SK Careers Journal"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03299686635614496",
+          "publisher": "이데일리",
+          "published_date": "2023-05-31",
+          "access": "direct_body",
+          "support": "취소된 표를 노리는 예매로 풀이한다.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "limitations": "국내 용법만 확인. 최초 창안과 원게시물·원영상, 현재 유행 강도 미확인. 기사 속 개인 경험·예문·이미지 복제 없음."
+    },
+    {
+      "slug": "ticket-helper",
+      "title": "티켓 용병",
+      "path": "memes/ticket-helper.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "09f1078ec702994607a372c00668d6434e45cbf5",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.skcareersjournal.com/1350",
+          "publisher": "SK Careers Journal",
+          "published_date": "2019-01-11",
+          "access": "direct_body",
+          "support": "부탁을 받고 예매에 도전하는 지인을 뜻한다고 설명한다.",
+          "independent_group": "SK Careers Journal"
+        },
+        {
+          "url": "https://www.slj.co.kr/bbs/board.php?bo_table=special&page=3&wr_id=647",
+          "publisher": "학교도서관저널",
+          "published_date": "2023-07-04",
+          "access": "direct_body",
+          "support": "공연 예매에 지인 도움을 구하는 사례에서 용병 표현을 사용한다.",
+          "independent_group": "학교도서관저널"
+        }
+      ],
+      "limitations": "국내 용법만 확인. 최초 창안과 원게시물·원영상, 현재 유행 강도 미확인. 기사 속 개인 경험·예문·이미지 복제 없음."
+    },
+    {
+      "slug": "gulbiseok",
+      "title": "굴비석",
+      "path": "memes/gulbiseok.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "7fdb883f14cf2154fc638aa137c1c5ba9304918a",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://m.joongdo.co.kr/view.php?key=20171018000057474",
+          "publisher": "중도일보",
+          "published_date": "2017-10-18",
+          "access": "direct_body",
+          "support": "팬미팅 매진 반응 속 매달려서라도 보고 싶다는 뜻을 풀이한다.",
+          "independent_group": "중도일보"
+        },
+        {
+          "url": "https://www.slj.co.kr/bbs/board.php?bo_table=special&page=3&wr_id=647",
+          "publisher": "학교도서관저널",
+          "published_date": "2023-07-04",
+          "access": "direct_body",
+          "support": "표를 구하려는 상황에서 천장에 매달린 자리라도 원한다는 과장으로 사용한다.",
+          "independent_group": "학교도서관저널"
+        }
+      ],
+      "limitations": "국내 용법만 확인. 최초 창안과 원게시물·원영상, 현재 유행 강도 미확인. 기사 속 개인 경험·예문·이미지 복제 없음."
+    },
+    {
+      "slug": "gonari",
+      "title": "고나리",
+      "path": "memes/gonari.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "159df38c082abb6e8bfccbf40af378848d184d78",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.tenasia.co.kr/article/2014080745384",
+          "publisher": "텐아시아",
+          "published_date": "2014-08-07",
+          "access": "direct_body",
+          "support": "관리 오타와 간섭·지적의 의미를 설명한다.",
+          "independent_group": "텐아시아"
+        },
+        {
+          "url": "https://www.junsungki.com/magazine/post-detail.do?id=1071",
+          "publisher": "라이나전성기재단",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "관리를 비꼬는 잔소리·간섭의 뜻을 풀이한다.",
+          "independent_group": "라이나전성기재단"
+        }
+      ],
+      "limitations": "국내 용법만 확인. 최초 창안과 원게시물·원영상, 현재 유행 강도 미확인. 기사 속 개인 경험·예문·이미지 복제 없음."
+    },
+    {
+      "slug": "gungyejil",
+      "title": "궁예질",
+      "path": "memes/gungyejil.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "6268fe64fe15f33dde5f0cdc6ccd7bebf455706e",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.tenasia.co.kr/article/2014080745384",
+          "publisher": "텐아시아",
+          "published_date": "2014-08-07",
+          "access": "direct_body",
+          "support": "마음을 읽는 듯 임의로 추측하는 행동을 풀이한다.",
+          "independent_group": "텐아시아"
+        },
+        {
+          "url": "https://www.junsungki.com/magazine/post-detail.do?id=1071",
+          "publisher": "라이나전성기재단",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "근거 없는 판단을 궁예에 비유한 표현으로 설명한다.",
+          "independent_group": "라이나전성기재단"
+        }
+      ],
+      "limitations": "국내 용법만 확인. 최초 창안과 원게시물·원영상, 현재 유행 강도 미확인. 기사 속 개인 경험·예문·이미지 복제 없음."
+    },
+    {
+      "slug": "choeae",
+      "title": "최애",
+      "path": "memes/choeae.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "eadf529a65bdc6804bf240f3cbd4c3dd31c5b316",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.huffingtonpost.kr/article/76312",
+          "publisher": "허프포스트코리아",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "가장 좋아하는 멤버라는 뜻을 풀이한다.",
+          "independent_group": "허프포스트코리아"
+        },
+        {
+          "url": "https://v.daum.net/v/20210116203436410",
+          "publisher": "스포츠경향",
+          "published_date": "2021-01-16",
+          "access": "direct_body",
+          "support": "최최차차 설명에서 최애를 가장 좋아하는 연예인으로 풀이한다.",
+          "independent_group": "스포츠경향"
+        }
+      ],
+      "limitations": "국내 용법만 확인. 최초 창안과 원게시물·원영상, 현재 유행 강도 미확인. 기사 속 개인 경험·예문·이미지 복제 없음."
+    },
+    {
+      "slug": "cat-loaf",
+      "title": "식빵 굽기",
+      "path": "memes/cat-loaf.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "1d50290296b87e8c289b559a8aa1ed75aee05e13",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://m.ohmynews.com/NWS_Web/Mobile/at_pg.aspx?CNTN_CD=A0002341782",
+          "publisher": "오마이뉴스",
+          "published_date": "2017-07-13",
+          "access": "direct_body",
+          "support": "발을 배 밑에 넣은 고양이 자세를 식빵으로 설명한다.",
+          "independent_group": "오마이뉴스"
+        },
+        {
+          "url": "https://m.go.seoul.co.kr/news/editOpinion/opinion/2022/11/21/20221121025009?cp=en",
+          "publisher": "서울신문",
+          "published_date": "2022-11-20",
+          "access": "direct_body",
+          "support": "앞발을 가슴 아래로 넣은 자세와 식빵의 닮음을 설명한다.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "limitations": "동물의 자세·별칭 의미만 수록. 출처의 행동 원인·건강·심리 주장을 검증하거나 수록하지 않음. 최초 발생과 현재 유행 강도 미확인."
+    },
+    {
+      "slug": "baldori",
+      "title": "발도리",
+      "path": "memes/baldori.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "192e51e64578773250524e0cec0666bc47768ee5",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/editOpinion/opinion/2022/11/21/20221121025009?cp=en",
+          "publisher": "서울신문",
+          "published_date": "2022-11-20",
+          "access": "direct_body",
+          "support": "꼬리로 앞발을 감싼 자세를 발도리로 설명한다.",
+          "independent_group": "서울신문"
+        },
+        {
+          "url": "https://www.cat-lab.co.kr/bbs/board.php?bo_table=0301&wr_id=563",
+          "publisher": "캣랩",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "꼬리가 몸을 감싸는 자세에 발도리라는 말을 사용한다.",
+          "independent_group": "캣랩"
+        }
+      ],
+      "limitations": "동물의 자세·별칭 의미만 수록. 출처의 행동 원인·건강·심리 주장을 검증하거나 수록하지 않음. 최초 발생과 현재 유행 강도 미확인."
+    },
+    {
+      "slug": "gaenyangi",
+      "title": "개냥이",
+      "path": "memes/gaenyangi.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "3b1dee2130dc67633f4f0016351e73d9d921984c",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://m.ohmynews.com/NWS_Web/Mobile/at_pg.aspx?CNTN_CD=A0002341782",
+          "publisher": "오마이뉴스",
+          "published_date": "2017-07-13",
+          "access": "direct_body",
+          "support": "개처럼 애교 많고 활발한 고양이라는 별칭을 풀이한다.",
+          "independent_group": "오마이뉴스"
+        },
+        {
+          "url": "https://m.dongascience.com/news/8643",
+          "publisher": "동아사이언스",
+          "published_date": "2015-11-13",
+          "access": "direct_body",
+          "support": "사람을 쫓아다니는 고양이를 가리키는 용법을 확인한다.",
+          "independent_group": "동아사이언스"
+        }
+      ],
+      "limitations": "동물의 자세·별칭 의미만 수록. 출처의 행동 원인·건강·심리 주장을 검증하거나 수록하지 않음. 최초 발생과 현재 유행 강도 미확인."
+    },
+    {
+      "slug": "lap-cat-korean",
+      "title": "무릎냥이",
+      "path": "memes/lap-cat-korean.md",
+      "source_revision": "7c773a37a2cd6a22ea6934355ac153222fb7d85b",
+      "source_blob_sha": "c94d7dc271b9015488291c0c9b88b255d8b8afdf",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://m.ohmynews.com/NWS_Web/Mobile/at_pg.aspx?CNTN_CD=A0002341782",
+          "publisher": "오마이뉴스",
+          "published_date": "2017-07-13",
+          "access": "direct_body",
+          "support": "무릎에 오르는 고양이의 애교를 설명하며 사용한다.",
+          "independent_group": "오마이뉴스"
+        },
+        {
+          "url": "https://m.dongascience.com/news/8643",
+          "publisher": "동아사이언스",
+          "published_date": "2015-11-13",
+          "access": "direct_body",
+          "support": "사람을 따르는 고양이의 별칭으로 개냥이와 함께 사용한다.",
+          "independent_group": "동아사이언스"
+        }
+      ],
+      "limitations": "동물의 자세·별칭 의미만 수록. 출처의 행동 원인·건강·심리 주장을 검증하거나 수록하지 않음. 최초 발생과 현재 유행 강도 미확인."
+    },
+    {
+      "slug": "gaptongal",
+      "title": "갑통알",
+      "path": "memes/gaptongal.md",
+      "source_revision": "f975b3536be4b3873839b2c3a2071f997dd0dded",
+      "source_blob_sha": "101034b6e4a27a46279f5d9873d3fff4de97013f",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "evidence": [
+        {
+          "url": "https://www.viva100.com/20211113010003867?site_preference=normal",
+          "publisher": "브릿지경제",
+          "published_date": "2021-11-14",
+          "access": "direct_body",
+          "supports": "잔고 확인 후 아르바이트 필요를 느낀다는 뜻",
+          "independent_group": "viva-slang-202111"
+        },
+        {
+          "url": "https://www.newspim.com/news/view/20230919000857",
+          "publisher": "뉴스핌",
+          "published_date": "2023-09-20",
+          "access": "direct_body",
+          "supports": "갑자기 통장 보니 알바해야 될 것 같다는 정의",
+          "independent_group": "newspim-language-202309"
+        }
+      ],
+      "limitations": "재산·경제 상태는 사용자 자료가 아니라 표현의 의미만 다룸. 거시경제 원인이나 세대 전체 심리를 단정하지 않음."
+    },
+    {
+      "slug": "eolppak-shot",
+      "title": "얼빡샷",
+      "path": "memes/eolppak-shot.md",
+      "source_revision": "f975b3536be4b3873839b2c3a2071f997dd0dded",
+      "source_blob_sha": "b19fa770b034de60743bad76113e69d1c9064b23",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "evidence": [
+        {
+          "url": "https://www.20slab.org/Archives/38057",
+          "publisher": "대학내일20대연구소",
+          "published_date": "2021-10-29",
+          "access": "direct_body",
+          "supports": "화면에 얼굴이 가득한 사진·영상 및 팬들의 요청 표현",
+          "independent_group": "univ20-quiz-202110"
+        },
+        {
+          "url": "https://www.osen.co.kr/article/G1112236279",
+          "publisher": "OSEN",
+          "published_date": "2023-12-06",
+          "access": "direct_body",
+          "supports": "별도 영상에서 얼굴만 나오는 샷이라는 설명",
+          "independent_group": "osen-jangvideo-202312"
+        }
+      ],
+      "limitations": "원 영상 직접 재생 아님. OSEN 본문에 명시된 설명만 채택. 최초 생성 시점 미확정."
+    },
+    {
+      "slug": "phone-kku",
+      "title": "폰꾸",
+      "path": "memes/phone-kku.md",
+      "source_revision": "f975b3536be4b3873839b2c3a2071f997dd0dded",
+      "source_blob_sha": "7df6f1b55a2b16592f7f79e45c71f0d24e51cb9f",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "evidence": [
+        {
+          "url": "https://www.yspotlight.co.kr/magazine/mz_trend/detail?id=338",
+          "publisher": "KT Y",
+          "published_date": "2021-07-01",
+          "access": "direct_body",
+          "supports": "위젯과 홈 화면을 취향대로 꾸미는 폰꾸",
+          "independent_group": "kty-screen-202107"
+        },
+        {
+          "url": "https://v.daum.net/v/20211229140003901",
+          "publisher": "한국일보",
+          "published_date": "2021-12-29",
+          "access": "direct_body",
+          "supports": "폰 꾸미기와 브랜드 케이스 협업 사례",
+          "independent_group": "hankook-custom-202112"
+        }
+      ],
+      "limitations": "화면 꾸미기와 케이스 꾸미기 모두 직접 근거 있음. 브랜드 성능·판매량 주장은 수록하지 않음."
+    },
+    {
+      "slug": "diary-kku",
+      "title": "다꾸",
+      "path": "memes/diary-kku.md",
+      "source_revision": "f975b3536be4b3873839b2c3a2071f997dd0dded",
+      "source_blob_sha": "856c8ac26ae6c83d5c0e1f22d703033e45320e36",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "evidence": [
+        {
+          "url": "https://www.yspotlight.co.kr/magazine/mz_trend/detail?id=338",
+          "publisher": "KT Y",
+          "published_date": "2021-07-01",
+          "access": "direct_body",
+          "supports": "스티커·마스킹 테이프로 다이어리를 꾸미는 의미",
+          "independent_group": "kty-screen-202107"
+        },
+        {
+          "url": "https://news.nate.com/view/20220503n05994?mid=n1101",
+          "publisher": "매경이코노미",
+          "published_date": "2022-05-03",
+          "access": "direct_body",
+          "supports": "다꾸 정의와 SNS 사용 소개",
+          "independent_group": "mkeconomy-kku-202205"
+        }
+      ],
+      "limitations": "관련 위꾸·폴꾸 본문에 다이어리가 언급되지만 별도 정의 항목은 baseline에 없음. 판매량·해시태그 수치를 검증된 규모로 재인용하지 않음."
+    },
+    {
+      "slug": "toploader-kku",
+      "title": "탑꾸",
+      "path": "memes/toploader-kku.md",
+      "source_revision": "f975b3536be4b3873839b2c3a2071f997dd0dded",
+      "source_blob_sha": "3739eb4dfbf644d912ab7127d26b625808955fe6",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "evidence": [
+        {
+          "url": "https://brunch.co.kr/@c05986acb0444b2/12",
+          "publisher": "소매넣기·브런치",
+          "published_date": "2021-09-04",
+          "access": "direct_body",
+          "supports": "탑로더를 스티커와 파츠로 꾸미는 정의 및 에디터 체험",
+          "independent_group": "somae-topkku-202109"
+        },
+        {
+          "url": "https://news.nate.com/view/20220503n05994?mid=n1101",
+          "publisher": "매경이코노미",
+          "published_date": "2022-05-03",
+          "access": "direct_body",
+          "supports": "사진·카드 보호 케이스를 꾸미는 취미와 용어",
+          "independent_group": "mkeconomy-kku-202205"
+        }
+      ],
+      "limitations": "첫 출처는 독립 에디터의 체험 글이지 대표성 있는 조사 아님. 폴꾸와 꾸미는 대상 구별. 케이스 재질을 전체 제품에 일반화하지 않음."
+    },
+    {
+      "slug": "johmotsa",
+      "title": "좋못사",
+      "path": "memes/johmotsa.md",
+      "source_revision": "f975b3536be4b3873839b2c3a2071f997dd0dded",
+      "source_blob_sha": "b213037715cecac6f56231b961a3f7b7f91b443f",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "evidence": [
+        {
+          "url": "https://www.cosmopolitan.co.kr/article/48878",
+          "publisher": "코스모폴리탄",
+          "published_date": "2020-09-19",
+          "access": "direct_body",
+          "supports": "좋다 못해 사랑한다는 뜻과 팬 경험 글의 사용",
+          "independent_group": "cosmo-slang-202009"
+        },
+        {
+          "url": "https://blog.joinuskorea.org/2163",
+          "publisher": "조인어스코리아",
+          "published_date": "2021-10-12",
+          "access": "direct_body",
+          "supports": "매우 좋아한다는 한국어 표현 소개",
+          "independent_group": "joinus-slang-202110"
+        }
+      ],
+      "limitations": "2020년 의미 설명과 2021년 한국어 교육 소개를 확인. 별도의 유행 규모 조사 아님."
+    },
+    {
+      "slug": "ohawoon",
+      "title": "오하운",
+      "path": "memes/ohawoon.md",
+      "source_revision": "f975b3536be4b3873839b2c3a2071f997dd0dded",
+      "source_blob_sha": "c6054c66ad4af0627f6b00f6e5c250d11578c2f2",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20210602001212026",
+          "publisher": "코스모폴리탄",
+          "published_date": "2021-06-02",
+          "access": "direct_body",
+          "supports": "오늘 하루 운동의 뜻과 SNS 해시태그 사용",
+          "independent_group": "cosmo-exercise-202106"
+        },
+        {
+          "url": "https://www.gjnews.com/news/view.php?idx=73901",
+          "publisher": "경주신문",
+          "published_date": "2022-07-07",
+          "access": "direct_body",
+          "supports": "오하운 정의 및 운동 사진 공유 방식",
+          "independent_group": "gyeongju-exercise-202207"
+        }
+      ],
+      "limitations": "기존 오운완과 서로 다른 줄임말. 운동의 신체·정신 건강 효과나 세대 통계는 채택하지 않음."
+    },
+    {
+      "slug": "overhead-selfie",
+      "title": "항공샷",
+      "path": "memes/overhead-selfie.md",
+      "source_revision": "f975b3536be4b3873839b2c3a2071f997dd0dded",
+      "source_blob_sha": "efa8254b715b1b842a5938a296e8988b61bd4c68",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "evidence": [
+        {
+          "url": "https://www.starnewskorea.com/star/2022/09/01/2022090108271321485",
+          "publisher": "스타뉴스",
+          "published_date": "2022-09-01",
+          "access": "direct_body",
+          "supports": "아이비 셀카를 항공샷으로 부른 사례",
+          "independent_group": "star-ivy-202209"
+        },
+        {
+          "url": "https://dpg.danawa.com/news/view?boardSeq=63&listSeq=5459426&past=Y",
+          "publisher": "다나와 DPG",
+          "published_date": "2023-10-24",
+          "access": "direct_body",
+          "supports": "팔을 위로 뻗어 찍는 구도와 착장 표현",
+          "independent_group": "danawa-selfie-202310"
+        }
+      ],
+      "limitations": "SNS 셀카 구도로만 한정. 다나와의 2021년 임시완 최초 주장 미채택; 제품 추천·촬영 안전 보장 없음."
+    },
+    {
+      "slug": "aeppaesi",
+      "title": "애빼시",
+      "path": "memes/aeppaesi.md",
+      "source_revision": "f975b3536be4b3873839b2c3a2071f997dd0dded",
+      "source_blob_sha": "9e86d20e34fa499ab78146863531592b3e4ba4b8",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "evidence": [
+        {
+          "url": "https://www.ajunews.com/view/20210117143506717",
+          "publisher": "아주경제",
+          "published_date": "2021-01-17",
+          "access": "direct_body",
+          "supports": "예능 신조어 퀴즈와 애교 빼면 시체라는 풀이",
+          "independent_group": "aju-quiz-202101"
+        },
+        {
+          "url": "https://www.vogue.co.kr/2022/11/21/synergic/",
+          "publisher": "보그 코리아",
+          "published_date": "2022-11-21",
+          "access": "direct_body",
+          "supports": "별도 인터뷰에서 애교가 많은 모습을 이르는 사용",
+          "independent_group": "vogue-younghoon-202211"
+        }
+      ],
+      "limitations": "시체는 관용적 과장으로만 설명. 개인의 실제 심리·성격이나 다른 능력을 단정하지 않음."
+    },
+    {
+      "slug": "sejelgwi",
+      "title": "세젤귀",
+      "path": "memes/sejelgwi.md",
+      "source_revision": "f975b3536be4b3873839b2c3a2071f997dd0dded",
+      "source_blob_sha": "a99dc229cabc2ec352d91bd5d8e98644339914e5",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "evidence": [
+        {
+          "url": "https://www.wkorea.com/2016/10/05/뷰티가-알고-싶다/",
+          "publisher": "더블유 코리아",
+          "published_date": "2016-10-05",
+          "access": "direct_body",
+          "supports": "세상에서 제일 귀엽다는 풀이",
+          "independent_group": "w-slang-201610"
+        },
+        {
+          "url": "https://m.etoday.co.kr/news/view/2065102?trc=m_view_joinnews",
+          "publisher": "이투데이",
+          "published_date": "2021-10-08",
+          "access": "direct_body",
+          "supports": "자동차 소개에서 귀여움을 강조한 국내 사용",
+          "independent_group": "etoday-casper-202110"
+        }
+      ],
+      "limitations": "2016년 뜻풀이와 2021년 물건에 대한 용례 확인. 최초 창안 연도 미확정. 세젤예와 동일 별칭 처리하지 않음."
+    },
+    {
+      "slug": "eup-eup",
+      "title": "읍읍",
+      "path": "memes/eup-eup.md",
+      "source_revision": "93fb3a65c1170fa5e536473d6a6b2e2299033e57",
+      "source_blob_sha": "4bad836c002e7e1e31fcf2be4b2511fc7c84e60e",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 플랫폼 회고·기사·개인 해설에서 확인한 국내 사용 및 패러디 형식. 최초 발생 국가를 확정하지 않음.",
+      "evidence": [
+        {
+          "url": "https://gall.dcinside.com/board/view/?id=study_listN&no=193&page=1",
+          "publisher": "디시인사이드 월간디시",
+          "published_at": "2016-02",
+          "access": "direct_body",
+          "supports": "플랫폼 회고: 말 끊기와 압박을 연기하는 의미",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://dooblog.tistory.com/1715",
+          "publisher": "두두의 덕통사고",
+          "published_at": "2018-06-20",
+          "access": "direct_body",
+          "supports": "별도 개인 해설: 메모장 드립과 유사한 우회 반응 용례",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 작성자·최초 유행 시점 확정 아님",
+        "원영상 직접 열람 없음",
+        "AI 추천 정확도 검증 아님"
+      ]
+    },
+    {
+      "slug": "are-you-crazy-human",
+      "title": "미쳤습니까 휴먼?",
+      "path": "memes/are-you-crazy-human.md",
+      "source_revision": "93fb3a65c1170fa5e536473d6a6b2e2299033e57",
+      "source_blob_sha": "e65d17d1fd6cbd067712348f361963b34e385575",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 플랫폼 회고·기사·개인 해설에서 확인한 국내 사용 및 패러디 형식. 최초 발생 국가를 확정하지 않음.",
+      "evidence": [
+        {
+          "url": "https://www.wikitree.co.kr/articles/486076",
+          "publisher": "위키트리",
+          "published_at": "2019-12-08",
+          "access": "direct_body",
+          "supports": "편집 기사: 로봇 말투의 문구와 온라인 사용 의미",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://everymemes.tistory.com/335",
+          "publisher": "밈과드립",
+          "published_at": "2021-08-16",
+          "access": "direct_body",
+          "supports": "개인 해설: 제목과 다른 반응을 내놓는 형식 및 놀람 용례",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 작성자·최초 유행 시점 확정 아님",
+        "원영상 직접 열람 없음",
+        "AI 추천 정확도 검증 아님"
+      ]
+    },
+    {
+      "slug": "dududunga",
+      "title": "두둥등장",
+      "path": "memes/dududunga.md",
+      "source_revision": "93fb3a65c1170fa5e536473d6a6b2e2299033e57",
+      "source_blob_sha": "74909b1eff0c58f8eeab6915b3bcd9b8f3430c85",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 플랫폼 회고·기사·개인 해설에서 확인한 국내 사용 및 패러디 형식. 최초 발생 국가를 확정하지 않음.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20200413180140360?s=print_news",
+          "publisher": "쿠키뉴스",
+          "published_at": "2020-04-13",
+          "access": "direct_body",
+          "supports": "직접 인터뷰: TFT 광고와 중계 채팅의 초성·영문 반응",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://everymemes.tistory.com/165",
+          "publisher": "밈과드립",
+          "published_at": "2020-09-06",
+          "access": "direct_body",
+          "supports": "개인 해설: 등장 효과음 및 방문·게임 장면 활용",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 작성자·최초 유행 시점 확정 아님",
+        "원영상 직접 열람 없음",
+        "AI 추천 정확도 검증 아님"
+      ]
+    },
+    {
+      "slug": "jongno-song-parody",
+      "title": "종로로 갈까요",
+      "path": "memes/jongno-song-parody.md",
+      "source_revision": "93fb3a65c1170fa5e536473d6a6b2e2299033e57",
+      "source_blob_sha": "e6015c9bfd40006072fe24a0a8158247f2924a5b",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 플랫폼 회고·기사·개인 해설에서 확인한 국내 사용 및 패러디 형식. 최초 발생 국가를 확정하지 않음.",
+      "evidence": [
+        {
+          "url": "https://www.wikitree.co.kr/articles/320780",
+          "publisher": "위키트리",
+          "published_at": "2017-12-01",
+          "access": "direct_body",
+          "supports": "편집 기사: 원곡과 영화 장면의 관계",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://www.imaeil.com/page/view/2020060213562223907",
+          "publisher": "매일신문",
+          "published_at": "2020-06-02",
+          "access": "direct_body",
+          "supports": "편집 대담: 고길동 노래 장면의 패러디 확산 언급",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 작성자·최초 유행 시점 확정 아님",
+        "원영상 직접 열람 없음",
+        "AI 추천 정확도 검증 아님"
+      ]
+    },
+    {
+      "slug": "hwatgim-cost",
+      "title": "홧김비용",
+      "path": "memes/hwatgim-cost.md",
+      "source_revision": "f4255f228ec3ab7e3bdc76dd3d64675a80a06c30",
+      "source_blob_sha": "1ca898d0b1dae46f019dbd32ba6b50be7bed5d4d",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.nongmin.com/article/20170715246947",
+          "publisher": "농민신문",
+          "published_date": "2017-07-17",
+          "access": "direct_body",
+          "support": "홧김 소비의 뜻과 비속어 형태의 관계를 설명한다.",
+          "independent_group": "농민신문"
+        },
+        {
+          "url": "https://www.ahnlab.com/ko/contents/content-center/26713",
+          "publisher": "안랩",
+          "published_date": "2017-08-16",
+          "access": "direct_body",
+          "support": "스트레스에 따른 즉흥 지출을 풀이하고 비속어 표현도 함께 소개한다.",
+          "independent_group": "안랩"
+        }
+      ],
+      "limitations": "최초 창안·원게시물·현재 유행 강도 미확인. 경제·심리·의학적 일반화는 수록하지 않음. 기사 예문·개인 경험·이미지 미복제."
+    },
+    {
+      "slug": "loneliness-cost",
+      "title": "쓸쓸비용",
+      "path": "memes/loneliness-cost.md",
+      "source_revision": "f4255f228ec3ab7e3bdc76dd3d64675a80a06c30",
+      "source_blob_sha": "43da8efd78af88199496cc916c73ad985fd6daa9",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.nongmin.com/article/20170715246947",
+          "publisher": "농민신문",
+          "published_date": "2017-07-17",
+          "access": "direct_body",
+          "support": "외로움을 덜기 위한 지출을 풀이한다.",
+          "independent_group": "농민신문"
+        },
+        {
+          "url": "https://ichannela.com/news/detail/000000039324.do",
+          "publisher": "채널A",
+          "published_date": "2017-05-27",
+          "access": "direct_body",
+          "support": "별도 취재 리포트에서 외로움을 달래는 비용으로 소개한다.",
+          "independent_group": "채널A"
+        }
+      ],
+      "limitations": "최초 창안·원게시물·현재 유행 강도 미확인. 경제·심리·의학적 일반화는 수록하지 않음. 기사 예문·개인 경험·이미지 미복제."
+    },
+    {
+      "slug": "mistake-cost",
+      "title": "멍청비용",
+      "path": "memes/mistake-cost.md",
+      "source_revision": "f4255f228ec3ab7e3bdc76dd3d64675a80a06c30",
+      "source_blob_sha": "aa7cf521ce4ebcd68d29eacc46397c9023921393",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.nongmin.com/article/20170715246947",
+          "publisher": "농민신문",
+          "published_date": "2017-07-17",
+          "access": "direct_body",
+          "support": "주의를 기울였으면 피했을 비용을 설명한다.",
+          "independent_group": "농민신문"
+        },
+        {
+          "url": "https://ichannela.com/news/detail/000000039324.do",
+          "publisher": "채널A",
+          "published_date": "2017-05-27",
+          "access": "direct_body",
+          "support": "별도 리포트에서 부주의로 쓴 돈이라는 뜻으로 소개한다.",
+          "independent_group": "채널A"
+        }
+      ],
+      "limitations": "최초 창안·원게시물·현재 유행 강도 미확인. 경제·심리·의학적 일반화는 수록하지 않음. 기사 예문·개인 경험·이미지 미복제."
+    },
+    {
+      "slug": "tangjinjaem",
+      "title": "탕진잼",
+      "path": "memes/tangjinjaem.md",
+      "source_revision": "f4255f228ec3ab7e3bdc76dd3d64675a80a06c30",
+      "source_blob_sha": "0b0a77333dea5a85bacf5023b5108c35b10c3b56",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20161109075146514",
+          "publisher": "한국일보",
+          "published_date": "2016-11-09",
+          "access": "direct_body",
+          "support": "소소하게 소비하는 재미와 말의 결합을 설명한다.",
+          "independent_group": "한국일보"
+        },
+        {
+          "url": "https://ichannela.com/news/detail/000000039324.do",
+          "publisher": "채널A",
+          "published_date": "2017-05-27",
+          "access": "direct_body",
+          "support": "소액 소비를 즐기는 사례를 직접 취재해 표현을 사용한다.",
+          "independent_group": "채널A"
+        }
+      ],
+      "limitations": "최초 창안·원게시물·현재 유행 강도 미확인. 경제·심리·의학적 일반화는 수록하지 않음. 기사 예문·개인 경험·이미지 미복제."
+    },
+    {
+      "slug": "empty-bankbook",
+      "title": "텅장",
+      "path": "memes/empty-bankbook.md",
+      "source_revision": "f4255f228ec3ab7e3bdc76dd3d64675a80a06c30",
+      "source_blob_sha": "10b67a1454f2a6c731052abf3b30512d87fd32af",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20161109075146514",
+          "publisher": "한국일보",
+          "published_date": "2016-11-09",
+          "access": "direct_body",
+          "support": "텅 빈 통장이라는 뜻과 SNS 사용을 설명한다.",
+          "independent_group": "한국일보"
+        },
+        {
+          "url": "https://www.donga.com/news/Culture/article/all/20170130/82637498/1",
+          "publisher": "동아일보",
+          "published_date": "2017-01-30",
+          "access": "direct_body",
+          "support": "돈을 쓴 뒤 통장 잔고가 적다는 상황에서 뜻을 명시한다.",
+          "independent_group": "동아일보"
+        }
+      ],
+      "limitations": "최초 창안·원게시물·현재 유행 강도 미확인. 경제·심리·의학적 일반화는 수록하지 않음. 기사 예문·개인 경험·이미지 미복제."
+    },
+    {
+      "slug": "salary-logout",
+      "title": "월급 로그아웃",
+      "path": "memes/salary-logout.md",
+      "source_revision": "f4255f228ec3ab7e3bdc76dd3d64675a80a06c30",
+      "source_blob_sha": "9c7825b3b6aef9b922c8997ba1e4e6d0908d602b",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20161221132151003",
+          "publisher": "연합뉴스",
+          "published_date": "2016-12-21",
+          "access": "direct_body",
+          "support": "월급 입금 직후 카드값·세금 등으로 나가는 의미를 설명한다.",
+          "independent_group": "연합뉴스"
+        },
+        {
+          "url": "https://www.ahnlab.com/ko/contents/content-center/26713",
+          "publisher": "안랩",
+          "published_date": "2017-08-16",
+          "access": "direct_body",
+          "support": "직장 생활 어휘 해설에서 동일한 비유적 뜻을 확인한다.",
+          "independent_group": "안랩"
+        }
+      ],
+      "limitations": "최초 창안·원게시물·현재 유행 강도 미확인. 경제·심리·의학적 일반화는 수록하지 않음. 기사 예문·개인 경험·이미지 미복제."
+    },
+    {
+      "slug": "deuktem",
+      "title": "득템",
+      "path": "memes/deuktem.md",
+      "source_revision": "f4255f228ec3ab7e3bdc76dd3d64675a80a06c30",
+      "source_blob_sha": "94c08adc3640f59087360947169c9d7a1154a68a",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.etnews.com/201106230066",
+          "publisher": "전자신문",
+          "published_date": "2011-06-23",
+          "access": "direct_body",
+          "support": "득과 아이템의 결합, 게임 밖 획득 상황의 쓰임을 설명한다.",
+          "independent_group": "전자신문"
+        },
+        {
+          "url": "https://m.seoul.co.kr/news/2025/04/06/20250406500082",
+          "publisher": "서울신문",
+          "published_date": "2025-04-06",
+          "access": "direct_body",
+          "support": "SNS에서 물건을 구한 상황에 쓴 표현을 소개하며 뜻을 명시한다.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "limitations": "서울신문은 게임 외 SNS 사용만 뒷받침한다. 게임 어원은 전자신문 해설에 근거하며 최초 발생은 미확인. 정치 사건·개인 거래 정보는 본문에서 제외."
+    },
+    {
+      "slug": "simkung",
+      "title": "심쿵",
+      "path": "memes/simkung.md",
+      "source_revision": "f4255f228ec3ab7e3bdc76dd3d64675a80a06c30",
+      "source_blob_sha": "e068c73c30f65eea0ffd776fd5beb5102f5045bf",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://www.koreadaily.com/article/3695354",
+          "publisher": "미주중앙일보",
+          "published_date": "2015-09-21",
+          "access": "direct_body",
+          "support": "심장이 쿵쾅거리는 느낌을 줄인 인터넷 표현으로 설명한다.",
+          "independent_group": "미주중앙일보"
+        },
+        {
+          "url": "https://www.cstimes.com/news/articleView.html?idxno=187063",
+          "publisher": "컨슈머타임스",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "심장이 뛰는 뜻과 상품 기획전 명칭에 활용된 사례를 설명한다.",
+          "independent_group": "컨슈머타임스"
+        }
+      ],
+      "limitations": "최초 창안·원게시물·현재 유행 강도 미확인. 경제·심리·의학적 일반화는 수록하지 않음. 기사 예문·개인 경험·이미지 미복제."
+    },
+    {
+      "slug": "simmeot",
+      "title": "심멎",
+      "path": "memes/simmeot.md",
+      "source_revision": "f4255f228ec3ab7e3bdc76dd3d64675a80a06c30",
+      "source_blob_sha": "9a16f79e9cb1cee868964990ef884113ae9ee4c4",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?cooper=SBSNEWSPROGRAM&news_id=N1002897840&plink=THUMB",
+          "publisher": "SBS",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "멋짐을 심장이 멎는 상태에 비유한 신어로 설명한다.",
+          "independent_group": "SBS"
+        },
+        {
+          "url": "https://www.cstimes.com/news/articleView.html?idxno=187063",
+          "publisher": "컨슈머타임스",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "관심 상대에게 강하게 반응하는 예와 축약 의미를 해설한다.",
+          "independent_group": "컨슈머타임스"
+        }
+      ],
+      "limitations": "최초 창안·원게시물·현재 유행 강도 미확인. 경제·심리·의학적 일반화는 수록하지 않음. 기사 예문·개인 경험·이미지 미복제."
+    },
+    {
+      "slug": "isaengmang",
+      "title": "이생망",
+      "path": "memes/isaengmang.md",
+      "source_revision": "f4255f228ec3ab7e3bdc76dd3d64675a80a06c30",
+      "source_blob_sha": "f70588d7fdd6d393836125ebb32da018877b6006",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/ggUZFhp60F",
+          "publisher": "스포츠경향",
+          "published_date": "2018-12-28",
+          "access": "direct_body",
+          "support": "줄임말의 뜻과 공부를 포기하고 싶은 상황의 용법을 소개한다.",
+          "independent_group": "스포츠경향"
+        },
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=2929&pageidx=2",
+          "publisher": "캐릿",
+          "published_date": "2024-09-10",
+          "access": "direct_body",
+          "support": "자기 처지를 부정적으로 보는 자조적 밈으로 풀이한다.",
+          "independent_group": "캐릿"
+        }
+      ],
+      "limitations": "최초 창안·원게시물·현재 유행 강도 미확인. 경제·심리·의학적 일반화는 수록하지 않음. 기사 예문·개인 경험·이미지 미복제."
+    }
+  ],
+  "limitations": [
+    "Canonical only; no new usage promotion.",
+    "Evidence roles include fandom glossaries, interviews about shared original media, product announcements, personal experience, platform retrospectives and publisher usage. Two publishers need not represent independent event observations.",
+    "Removed broad Big Data meme alias from the narrower Are-you-crazy-human entry before approval; retained relation description.",
+    "Money, distress, body-response and animal posture expressions are linguistic descriptions, not financial/health/psychological or safety guidance.",
+    "No original-media, prevalence, rights, first-origin or human-validation certification."
+  ]
+}

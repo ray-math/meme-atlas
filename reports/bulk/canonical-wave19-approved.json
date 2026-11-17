@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "batch_id": "korean-verified-20261117-bulk-wave19",
+  "kind": "Approved public-source metadata; temporary importer input",
+  "review_kind": "Research AI source reading plus separate canonical editorial AI; no human validation",
+  "entries": [
+    {
+      "slug": "burrow",
+      "title": "버로우",
+      "path": "memes/burrow.md",
+      "source_revision": "fdc4d456b8cf1d5b5808563767a269a6d38a5578",
+      "source_blob_sha": "76e1d15848ed6102d75cfd67d375570407ffeedc",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 문화 표현의 비유 또는 고정 축약 안내 용법.",
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2009120711410645763",
+          "publisher": "아시아경제",
+          "published_date": "2009-12-08",
+          "access": "direct_body",
+          "support": "게임 기능이 조용히 하라는 일상 표현으로 확장된 용법을 설명한다. URL 숫자와 달리 본문 입력일은 12월 8일이다.",
+          "independent_group": "asiae-20091208"
+        },
+        {
+          "url": "https://journal.kci.go.kr/snu-ioh/archive/articlePdf?artiId=ART001618569",
+          "publisher": "서울대학교 인문학연구원 인문논총",
+          "published_date": "2011",
+          "access": "direct_body",
+          "support": "장경현의 신조어 연어의 형성 원리 277쪽에서 외부 접촉을 끊는 뜻과 기가 눌려 물러서는 뜻을 구분한다.",
+          "independent_group": "jang2011"
+        }
+      ],
+      "limitations": "학술 자료의 개인 게시글 예문은 복사하지 않았다. 최초 사용자와 원게임 자료는 직접 확인하지 않았다. 잠수와 완전 동의어로 병합하지 않는다."
+    },
+    {
+      "slug": "seolcham",
+      "title": "설참",
+      "path": "memes/seolcham.md",
+      "source_revision": "fdc4d456b8cf1d5b5808563767a269a6d38a5578",
+      "source_blob_sha": "ada8fc4e7fb1a4013ca1a36fb6c753e2e140271d",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 문화 표현의 비유 또는 고정 축약 안내 용법.",
+      "evidence": [
+        {
+          "url": "https://gnews.gg.go.kr/news/news_detail.do?number=202010071759427989C109",
+          "publisher": "경기뉴스광장",
+          "published_date": "2020-10-07",
+          "access": "direct_body",
+          "support": "유튜브 이용자 표현을 소개하는 본문에서 설명 참고의 축약이라고 명시한다.",
+          "independent_group": "gyeonggi-20201007"
+        },
+        {
+          "url": "https://tvreport.co.kr/breaking/article/420751/amp/",
+          "publisher": "인플루언서닷컴 / TV리포트 배포",
+          "published_date": "2020-12-24",
+          "access": "direct_body",
+          "support": "신조어 퀴즈 보도에서 설명 참고의 설참이라고 풀이한다. TV리포트와 원제공사는 하나의 출처로 센다.",
+          "independent_group": "influencernews-20201224"
+        }
+      ],
+      "limitations": "기사의 다른 어휘 오타나 세대 일반화는 채택하지 않았다. 최초 발생 시점이나 특정 플랫폼 전용 표현이라고 단정하지 않는다."
+    },
+    {
+      "slug": "judge-i-did-not-laugh",
+      "title": "판사님 저는 웃지 않았습니다",
+      "path": "memes/judge-i-did-not-laugh.md",
+      "source_revision": "a12c82ae86f0d6d825d17490a2783f240cb49296",
+      "source_blob_sha": "76bf52ddafa7997a113e88423a3834fe73038b0a",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 자료에서 관찰된 한국어 고정 반응 문구에 한정.",
+      "evidence": [
+        {
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20151202010001633",
+          "publisher": "아시아투데이",
+          "published_date": "2015-12-04",
+          "access": "direct_body",
+          "support": "비방성 글 아래 웃음을 부인하면서 반응을 드러내는 댓글 형식을 설명한다.",
+          "independent_group": "asiatoday-20151204"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/201604242119025",
+          "publisher": "경향신문",
+          "published_date": "2016-04-24",
+          "access": "direct_body",
+          "support": "정치 풍자 글의 판사님 댓글을 블랙 유머로 관찰한다.",
+          "independent_group": "khan-20160424"
+        }
+      ],
+      "limitations": "기사의 법률 해석과 정치적 평가를 현재 법률 안내나 사용자의 심리로 일반화하지 않는다. 최초 영상·재판과 개별 의혹은 본문에 옮기지 않았다. 판사님 드립 전체를 완전 별칭으로 합치지 않는다."
+    },
+    {
+      "slug": "delicious-zero-calories",
+      "title": "맛있으면 0칼로리",
+      "path": "memes/delicious-zero-calories.md",
+      "source_revision": "a12c82ae86f0d6d825d17490a2783f240cb49296",
+      "source_blob_sha": "4e6236463b3ebd32338a2dac9492bc89eb7e8b07",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 자료에서 관찰된 한국어 고정 반응 문구에 한정.",
+      "evidence": [
+        {
+          "url": "https://www.mk.co.kr/news/hot-issues/11444179",
+          "publisher": "스타투데이",
+          "published_date": "2025-10-17",
+          "access": "direct_body",
+          "support": "최화정의 유행어 및 음식점·광고에서 인용되는 문구로 보도한다.",
+          "independent_group": "mk-20251017"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/201704251635002/amp",
+          "publisher": "헬스경향",
+          "published_date": "2017-04-25",
+          "access": "direct_body",
+          "support": "방송에서 쓰이는 맛있게 먹으면 0칼로리 문구를 우스갯소리로 구분한다.",
+          "independent_group": "healthkhan-20170425"
+        }
+      ],
+      "limitations": "최초 방송은 직접 확인하지 않았다. 기사 속 저작권 설명이나 한방 체질·영양 주장은 채택하지 않았으며, 두 자료는 동일 영상의 전재가 아니다."
+    },
+    {
+      "slug": "its-okay-looked-natural",
+      "title": "괜찮아 자연스러웠어",
+      "path": "memes/its-okay-looked-natural.md",
+      "source_revision": "a12c82ae86f0d6d825d17490a2783f240cb49296",
+      "source_blob_sha": "c74ddf37033db3519039a6d542c5b1518c54e5dd",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 자료에서 관찰된 한국어 고정 반응 문구에 한정.",
+      "evidence": [
+        {
+          "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10007116948",
+          "publisher": "SBS연예뉴스",
+          "published_date": "2015-09-13",
+          "access": "direct_body",
+          "support": "체조 순서를 잊은 장면에 붙은 해당 자막을 직접 설명한다.",
+          "independent_group": "sbs-20150913"
+        },
+        {
+          "url": "https://weverse.io/txt/artist/1-6485",
+          "publisher": "Weverse / TXT 태현 공식 공개 글",
+          "published_date": "2020-12-31",
+          "access": "direct_body",
+          "support": "무대 실수 때 하는 생각을 묻는 공개 문답에 해당 표현을 직접 쓴다.",
+          "independent_group": "txt-taehyun-20201231"
+        }
+      ],
+      "limitations": "두 번째는 언론 재보도가 아닌 공개 당사자 글이다. 두 출처는 서로 다른 장면이며, 최초 웹툰 기원이나 영상 전체는 확인하지 않았다. 노래 가사와 개인적 주변 내용은 복사하지 않았다."
+    }
+  ],
+  "limitations": [
+    "Canonical lexical entries only; no usage promotion or action authorization.",
+    "Research direct source-body readings and separate GitHub-text editorial AI review are not human or original-video verification.",
+    "Two sources can be independent public primary statements and reporting, not necessarily two news publishers. Weverse source is a public first-party text, not second media coverage.",
+    "버로우 is a borrowed reaction metaphor, not proof of motive or a game-control guide; 설참 is an abbreviation request, not current UI instructions.",
+    "Judge joke grants no legal immunity; calorie joke is not nutrition or dietary guidance; natural-looking response does not prove mistakes were unnoticed. No first-origin certification."
+  ]
+}

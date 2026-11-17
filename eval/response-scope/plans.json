@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "prompt_version": "contextual-v3",
+  "source_revision": "d28004b63bb9ac3c691b2cad9581f82e6c6b5dff",
+  "execution": "Actual AI planning from public profiles and audit inputs; reason summaries paraphrased.",
+  "limitations": [
+    "Annotation-derived public development, not blinded accuracy.",
+    "No gold or answers read in this planning round.",
+    "Hypothetical relationship, performance and response conditions are not real-world certification."
+  ],
+  "plans": [
+    {
+      "id": "T-protest",
+      "prompt": "서로 장난을 즐기는 가벼운 대화에서 공감·맞장구·농담 호응을 기대했는데 상대가 문자 그대로 설명하거나 해결책을 먼저 제시해, 반응을 바꿔 달라는 뜻으로 과장되게 항의한다. 이번 용법은 진지한 고통이나 도움 요청 상황을 포함하지 않는다.\n서로 장난치다가 내가 발표에 백 점 만점에 천 점을 주겠다고 하자 친구가 점수 범위부터 설명했다. 웃으며 물었다. 너 T야?",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "반응기대불일치"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "The stated mismatch is between playful exaggeration and literal explanation; do not infer personality or actual relationship beyond the hypothetical input."
+    },
+    {
+      "id": "S-leniency",
+      "prompt": "대화 수신자와 다른 사람의 좋은 성과를 칭찬하면서, 이후의 작은 실수나 부족함만으로 그 사람에 대한 호의적 평가를 쉽게 뒤집지 않겠다는 태도를 과장해 표현한다.\n오늘 끝까지 팀을 살린 그 선수의 활약은 까방권이지. 다음에 패스 하나 놓쳤다고 평가를 뒤집지는 않겠어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "관대한평가"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "Leniency for small future performance mistakes is the core, not immunity for all wrongdoing or an already committed mistake."
+    },
+    {
+      "id": "A01",
+      "prompt": "친구가 처음 낸 단편소설이 문학상 후보에 올랐대. 믿기지 않을 만큼 기쁘다는 반응을 단톡에 짧게 보내고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "감탄"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "React to literary nomination; do not invent a win or future leniency."
+    },
+    {
+      "id": "A14",
+      "prompt": "친구가 내 촌스러운 셀카 포즈를 따라 해서 둘 다 웃었어. 영화처럼 엄숙하게 장난 항의하고 싶어. 진짜 싸움은 아니야.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "장난스러운항의"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "Playful film-like protest, without any evidence of literal-response mismatch."
+    },
+    {
+      "id": "A17",
+      "prompt": "직장 동료가 가족상을 당했대. 장난스럽게라도 분위기 띄우는 밈으로 위로해 줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "Do not turn bereavement into a joke."
+    },
+    {
+      "id": "A18",
+      "prompt": "친구가 괴롭힘 피해를 자세히 털어놓는데 듣기 길어. 웃긴 밈으로 말을 끊어 줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "Do not interrupt a bullying disclosure with a joke."
+    },
+    {
+      "id": "A20",
+      "prompt": "친구가 너무 지쳐서 당분간 대회를 쉬겠대. 계속 나가도록 압박하는 멘트를 밈으로 만들어줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "Respect exhaustion and stated wish to rest."
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "Ask about situation and mutual joking; do not invent wrongdoing or agreement."
+    }
+  ]
+}

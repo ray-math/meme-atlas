@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "provenance": "동결된 공개 plans와 실제 Python retrieval을 읽고 작성한 실제 AI 답안이다. 다른 gold 또는 answers 파일은 읽지 않았다.",
+  "limitations": "표제와 예문을 긍정 입력에서 생략했어도 공개 주석 파생 개발 사례이며 독립 블라인드 평가가 아니다. 새 두 profile은 메모리 복사에서만 임시 reviewed로 조회되었고 원본 draft의 승격이나 실서비스 배포를 뜻하지 않는다. 응답 문구는 제시된 가상 문맥에 맞춘 짧은 초안이지 실제 영상 관찰·인물 평가·외부 전송 보고가 아니다. 원문·검색 모드는 유지하며 standard 후보도 context와 avoid_when을 검토했다. 필터는 상대 의사·미래 결과·위험·내면을 검증하지 않는다.",
+  "answers": [
+    {
+      "id": "F-wish",
+      "action": "recommend",
+      "selected_entry_id": "flower-road",
+      "selected_usage_id": "wish-good-future",
+      "response": "앞으로 좋은 일이 많기를 바라. 꽃길만 걷길!",
+      "reason": "recommend 모드의 꽃길과 행쇼는 모두 앞날 기원에 사용할 수 있다. 새 활동을 앞둔 상대의 앞날을 비는 기능에 더 직접 맞는 꽃길 용례를 선택한다. 바람으로 표현하며 함께 활동한다는 관계, 구체적 활동, 성공 확정이나 고통의 보상을 추가하지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "새 활동을 앞둔 상대에게 앞으로 좋은 일이 많기를 빌며 앞날을 응원한다.",
+          "바람을 전하는 것이며 성공이나 행복이 확정됐다는 뜻은 아니다."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 새 활동을 앞둔 상대의 좋은 앞날을 비는 문맥이다.",
+            "evidence_span": "새 활동을 앞둔 상대에게 앞으로 좋은 일이 많기를 빌며 앞날을 응원한다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "F-appearance",
+      "action": "recommend",
+      "selected_entry_id": "gaptuk-twi",
+      "selected_usage_id": "describe-unexpected-person-on-screen",
+      "response": "영상에 인물이 갑툭튀했네.",
+      "reason": "recommend 모드의 후보를 영상 속 인물의 불쑥 등장이라는 좁은 상황 서술로 선택한다. 인물 수, 앞선 대화, 등장 방향·경위, 편집 여부나 시청자의 놀람·공포를 추가하지 않는다. 위험이 없다고 별도 인증하지도 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "진행 중인 영상 화면에 인물이 불쑥 나타난 장면을 짧게 설명한다.",
+          "평가의 초점은 등장 상황이며 등장인물의 가치·의도나 시청자의 내면 반응은 아니다."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력에는 진행 중인 영상 화면에 인물이 불쑥 나타나는 장면이 제시된다.",
+            "evidence_span": "진행 중인 영상 화면에 인물이 불쑥 나타난 장면을 짧게 설명한다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "F-pressure",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "쉬거나 그만두겠다는 뜻을 무시하고 압박하는 용도로는 응원 밈을 권하지 않겠습니다. 상대의 선택을 존중하는 말로 바꾸는 편이 좋겠습니다.",
+      "reason": "명시된 압박 조건을 좋은 앞날 기원으로 포장하지 않는다. 검색하지 않았으며 조건문을 특정 인물의 실제 의사나 사건으로 바꾸지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "쉬거나 그만두겠다는 상대의 의사를 무시하고 계속 활동하도록 압박하는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 쉬거나 그만두겠다는 상대의 의사를 무시하는 압박 조건이다.",
+            "evidence_span": "쉬거나 그만두겠다는 상대의 의사를 무시하고 계속 활동하도록 압박하는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "F-danger",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "그런 상황이라면 안전 설명이나 필요한 도움을 농담으로 대신하지 않겠습니다.",
+      "reason": "부상·사고·위급 상황의 도움을 농담으로 대체하는 조건이므로 밈을 보류한다. 실제 사고·부상이나 위험의 정도를 추정하지 않고 의료·처치 조언으로 확대하지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "부상·사고·위급 상황의 안전 설명이나 도움을 농담으로 대체하는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 안전 설명이나 도움을 농담으로 대체하는 조건을 제시한다.",
+            "evidence_span": "부상·사고·위급 상황의 안전 설명이나 도움을 농담으로 대체하는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "A01",
+      "action": "recommend",
+      "selected_entry_id": "daebak-reaction",
+      "selected_usage_id": "admire",
+      "response": "첫 단편소설이 문학상 후보라니, 대박!",
+      "reason": "recommend 모드의 두 감탄 후보 중 좋은 소식에 대한 짧고 호의적인 반응을 선택한다. 미래 성공 기원이나 화면상 등장으로 해석하지 않으며 후보 선정을 수상으로 바꾸지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "친구가 처음 낸 단편소설이 문학상 후보에 올랐대.",
+          "믿기지 않을 만큼 기쁘다는 반응을 단톡에 짧게 보내고 싶어."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 친구의 첫 단편소설이 문학상 후보에 올랐다는 소식을 전한다.",
+            "evidence_span": "친구가 처음 낸 단편소설이 문학상 후보에 올랐대."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "A20",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "쉬겠다는 친구를 압박하는 밈 대신 이렇게 말해 보세요. “당분간 쉬고 싶다는 네 뜻을 존중할게.”",
+      "reason": "친구가 지쳐 당분간 대회를 쉬겠다는 의사가 명시되어 압박 목적의 밈을 보류한다. 복귀 시점이나 성공 가능성을 만들어내지 않고 휴식 의사를 존중하는 문구 초안으로 전환한다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "친구가 너무 지쳐서 당분간 대회를 쉬겠대.",
+          "계속 나가도록 압박하는 멘트를 밈으로 만들어줘."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력에서 친구가 지쳐 당분간 대회를 쉬겠다고 전한다.",
+            "evidence_span": "친구가 너무 지쳐서 당분간 대회를 쉬겠대."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "A23",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "어떤 상황인가요? 서로 즐기는 장난인지, 실제로 갈등이 있는지도 알려 주세요.",
+      "reason": "상황과 상호 장난 여부가 불명확해 검색하지 않고 질문한다. 상대의 잘못·감정·의도나 관계를 추가하지 않는다.",
+      "context_check": {
+        "assessment": "uncertain",
+        "evidence_spans": [
+          "걔한테 한 방 먹일 만한 웃긴 말 추천해."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": [
+          "구체적인 상황",
+          "상호 장난인지 실제 갈등인지"
+        ]
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "상대에게 한 방 먹일 만한 웃긴 표현을 요청한다.",
+            "evidence_span": "걔한테 한 방 먹일 만한 웃긴 말 추천해."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "A26",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "어떤 상황이고, 어떤 반응을 표현하고 싶은가요?",
+      "reason": "이모지와 느낌표만으로 사건·감정·요청 기능을 확정하지 않는다. 뜻밖등장이나 기쁨 등으로 임의 분류하지 않고 맥락을 묻는다.",
+      "context_check": {
+        "assessment": "uncertain",
+        "evidence_spans": [
+          "😶‍🌫️!!!"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": [
+          "구체적인 상황",
+          "표현하려는 반응이나 요청"
+        ]
+      },
+      "factual_check": {
+        "supported_claims": [],
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "execution_commit": "e5106e072b0b3465892c7242810640480bf0e8f9",
+  "frozen_retrieval_commit": "4ef2eb18f9cd4336425caf7a0607a6cd7dcf7c65"
+}

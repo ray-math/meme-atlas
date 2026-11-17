@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "document_kind": "registration_patch_plan",
+  "registration_status": "not_applied",
+  "base_commit": "c1dc801e1f7d81bdbf8375f285afeea1724c8ac1",
+  "source_report_commit": "677b3bced8b4ddca3fe899bde2f8931611d35bca",
+  "scope_note": "Append-only two-draft proposal. Do not change approved membership snapshots, counts, existing registered profiles, PR37 or main.",
+  "new_profiles": [
+    {
+      "entry_id": "deogeop-ilchi",
+      "source_sha": "48c9ae497d772bc923b4ff6501f34f04c8f43eb2",
+      "review_status": "draft",
+      "review_note": "본인의 지속적인 관심 분야와 현재 실제 업무의 연결을 설명하는 좁은 용법이다. 자랑·만족·행복을 자동 부여하지 않는다. 지정 커밋의 canonical 본문·source_sha와 현재 vocabulary는 GitHub에서 직접 확인했다. 외부 기사 내용은 별도 조사 담당의 직접 확인 보고를 참고했으며 이번 작성자가 외부 원문을 재독했다고 주장하지 않는다. 예문은 개인정보 없는 편집 창작이며 안전 등급·사용 경계는 편집 판단이다.",
+      "usages": [
+        {
+          "id": "own-interest-became-work",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "상태설명"
+          ],
+          "situations": [
+            "관심사직업연결"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "본인이 오래 관심을 두어 온 분야가 현재 맡고 있는 실제 업무와 이어져 있음을 설명한다. 단순한 여가 활동이나 앞으로의 취업 희망이 아니라 지금의 직업적 연결을 말한다.",
+          "avoid_when": [
+            "취미만 있거나 미래 취업 희망만 있는 사람에게 현재 직업이 됐다고 말하는 경우",
+            "좋아하는 대상을 만났다는 사실만으로 관련 직업을 가졌다고 추정하는 경우",
+            "좋아하는 일이므로 저임금·과로를 감수해야 한다고 압박하는 경우",
+            "이 표현만으로 고소득·안정 고용·전문성·행복을 보증하는 경우"
+          ],
+          "example": {
+            "text": "취미로 만들던 종이 모형을 지금은 전시 제작 업무로 하고 있어. 내 경우는 덕업일치라고 할 수 있겠네.",
+            "kind": "editorial"
+          },
+          "review_note": "standard는 현재 업무 연결이 명시된 자기 설명 맥락의 편집 판단이다. 직업적 연결과 별개인 노동 조건·실제 감정·능력 수준을 추정하지 않는다.",
+          "retrieval_requirements": {
+            "situations": [
+              "관심사직업연결"
+            ],
+            "targets": [
+              "자기"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entry_id": "seongdeok",
+      "source_sha": "339edafb707f77c5bbab18efd48529165cca93a8",
+      "review_status": "draft",
+      "review_note": "자신이 좋아해 온 대상과 바라던 교류를 실제 경험한 자기 설명으로 좁혔다. 공식 마련된 만남은 이번 편집 맥락의 조건이며 모든 사전 용법의 필요조건이라고 주장하지 않는다. 지정 커밋의 canonical 본문·source_sha와 현재 vocabulary는 GitHub에서 직접 확인했다. 외부 기사 내용은 별도 조사 담당의 직접 확인 보고를 참고했으며 이번 작성자가 외부 원문을 재독했다고 주장하지 않는다. 예문은 개인정보 없는 편집 창작이며 안전 등급·사용 경계는 편집 판단이다.",
+      "usages": [
+        {
+          "id": "own-hoped-for-fan-meeting",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "상태설명"
+          ],
+          "situations": [
+            "팬교류성취"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "자신이 팬으로 좋아해 온 대상과 공식적으로 마련된 자리에서 바라던 만남이나 대화를 실제로 경험했음을 설명한다. 아직 이루어지지 않은 바람이나 팬이 아닌 유명인과의 우연한 조우는 이번 범위가 아니다.",
+          "avoid_when": [
+            "팬이 아닌 유명인과 우연히 마주친 일을 팬으로서의 성취로 단정하는 경우",
+            "바라기만 한 만남을 실제 경험한 것처럼 바꾸어 말하는 경우",
+            "사생활 침해나 동의 없는 접근을 찬양하는 경우",
+            "한 번의 만남만으로 상대도 본인의 팬이거나 지속적으로 친밀하다고 추정하는 경우",
+            "교류 경험을 추가 접근·연락에 대한 동의로 해석하는 경우"
+          ],
+          "example": {
+            "text": "오래 좋아한 작가의 공식 독자 행사에서 직접 이야기를 나눴어. 바라던 만남을 이뤘으니 나도 성덕이네.",
+            "kind": "editorial"
+          },
+          "review_note": "standard는 공식적으로 마련된 자리에서 실제 경험한 교류라는 좁은 편집 맥락에 한정한다. 기쁨·자부심·상대의 호감은 자동 주석하지 않는다. 필터만으로 공식성·동의·경험의 진실성을 검증할 수 없다.",
+          "retrieval_requirements": {
+            "situations": [
+              "팬교류성취"
+            ],
+            "targets": [
+              "자기"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "new_vocabulary": {
+    "situations": [
+      {
+        "label": "관심사직업연결",
+        "aliases": [],
+        "definition": "본인이 지속적으로 관심을 두던 분야가 현재 실제 업무나 직업과 연결된 상황. 단순 취미·취업 희망만 있는 경우와 구별한다."
+      },
+      {
+        "label": "팬교류성취",
+        "aliases": [],
+        "definition": "자신이 팬으로서 좋아해 온 대상과 바라던 만남이나 교류를 실제로 경험한 상황. 단순 팬 활동·팬이 아닌 유명인과의 우연한 조우·미래의 만남 희망과 구별한다."
+      }
+    ]
+  },
+  "test_file": {
+    "path": "tests/test_work_interest_fan_meeting_drafts.py",
+    "source": "\"\"\"Structural draft tests, not proof of semantic exclusivity or verified context.\"\"\"\nimport copy\nimport sys\nimport unittest\nfrom pathlib import Path\nROOT = Path(__file__).resolve().parents[1]\nsys.path.insert(0, str(ROOT / 'scripts'))\nfrom usage_profiles import load_profiles, load_vocabulary, blob_sha\nfrom build_usage_index import build_usage_index\nfrom search_usage import search\n\nclass WorkInterestFanMeetingDraftTests(unittest.TestCase):\n    SPEC = {\n        'deogeop-ilchi': ('own-interest-became-work', '관심사직업연결',\n                         '48c9ae497d772bc923b4ff6501f34f04c8f43eb2'),\n        'seongdeok': ('own-hoped-for-fan-meeting', '팬교류성취',\n                     '339edafb707f77c5bbab18efd48529165cca93a8'),\n    }\n\n    def setUp(self):\n        self.profiles = load_profiles(ROOT)['profiles']\n        self.vocab = load_vocabulary(ROOT)\n        self.index = build_usage_index(ROOT)\n\n    def hits(self, index, identity, **kwargs):\n        result = search(index, self.vocab, limit=100, **kwargs)\n        self.assertNotEqual(result['status'], 'unsupported_filter')\n        return [h for h in result['results'] if h['entry_id'] == identity]\n\n    def provisional(self):\n        index = copy.deepcopy(self.index)\n        for entry in index['entries']:\n            if entry['id'] in self.SPEC:\n                entry['review_status'] = 'reviewed'\n        return index\n\n    def test_source_bound_unknown_self_state_drafts(self):\n        selected = [p for p in self.profiles if p['entry_id'] in self.SPEC]\n        self.assertEqual({p['entry_id'] for p in selected}, set(self.SPEC))\n        for p in selected:\n            uid, situation, sha = self.SPEC[p['entry_id']]\n            self.assertEqual(p['source_sha'], sha)\n            self.assertEqual(sha, blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))\n            self.assertEqual(p['review_status'], 'draft')\n            self.assertEqual(len(p['usages']), 1)\n            u = p['usages'][0]\n            self.assertEqual(u['id'], uid)\n            self.assertEqual(u['emotion_status'], 'unknown')\n            self.assertEqual(u['emotions'], [])\n            self.assertEqual(u['intents'], ['상태설명'])\n            self.assertEqual(u['targets'], ['자기'])\n            self.assertEqual(u['situations'], [situation])\n            self.assertEqual(u['safety'], 'standard')\n            self.assertEqual(u['example']['kind'], 'editorial')\n            self.assertEqual(u['retrieval_requirements'],\n                             {'situations': [situation], 'targets': ['자기']})\n\n    def test_two_defined_situations_without_aliases(self):\n        for _, situation, _ in self.SPEC.values():\n            rows = [c for c in self.vocab['facets']['situations'] if c['label'] == situation]\n            self.assertEqual(len(rows), 1)\n            self.assertEqual(rows[0]['aliases'], [])\n            self.assertTrue(rows[0]['definition'].strip())\n\n    def test_actual_drafts_hidden_in_both_modes(self):\n        for entry in self.index['entries']:\n            if entry['id'] not in self.SPEC:\n                continue\n            req = entry['usages'][0]['retrieval_requirements']\n            for mode in ('lookup', 'recommend'):\n                for filters in (req, {'query': entry['title']}, dict(req, query=entry['title'])):\n                    self.assertFalse(self.hits(self.index, entry['id'], mode=mode, **filters))\n\n    def test_provisional_exact_conditions_return_standard_candidates(self):\n        index = self.provisional()\n        for identity, (uid, situation, _) in self.SPEC.items():\n            for mode in ('lookup', 'recommend'):\n                hits = self.hits(index, identity, mode=mode,\n                                 situations=[situation], targets=['자기'])\n                self.assertEqual(len(hits), 1)\n                self.assertEqual(hits[0]['usage_id'], uid)\n                self.assertTrue(hits[0]['retrieval_scope']['explicit_filters_match'])\n                self.assertTrue(hits[0]['requires_context_check'])\n\n    def test_broad_or_and_wrong_targets_blocked_by_current_contract(self):\n        index = self.provisional()\n        both = [v[1] for v in self.SPEC.values()]\n        for identity, (_, situation, _) in self.SPEC.items():\n            blocked = [\n                {'intents': ['상태설명']},\n                {'intents': ['상태설명'], 'targets': ['자기']},\n                {'situations': [situation]},\n                {'targets': ['자기']},\n                {'situations': both, 'targets': ['자기']},\n                {'situations': [situation], 'targets': ['자기', '상대']},\n            ]\n            blocked += [{'situations': [situation], 'targets': [target]}\n                        for target in ('상대', '제삼자', '상황')]\n            for mode in ('lookup', 'recommend'):\n                for filters in blocked:\n                    self.assertFalse(self.hits(index, identity, mode=mode, **filters))\n        # Broad OR fails singleton exact requirements. Real situations can overlap.\n\n    def test_cross_situation_filters_are_profile_scoped_not_mutual_exclusivity(self):\n        index = self.provisional()\n        for identity, (_, situation, _) in self.SPEC.items():\n            other = next(v[1] for key, v in self.SPEC.items() if key != identity)\n            self.assertFalse(self.hits(index, identity, mode='recommend',\n                                      situations=[other], targets=['자기']))\n            self.assertEqual(len(self.hits(index, identity, mode='recommend',\n                                           situations=[situation], targets=['자기'])), 1)\n        # Separate calls may both be appropriate for one real person's experience.\n        # This test checks stored facets only; it asserts no semantic contradiction.\n\n    def test_contexts_do_not_contain_titles(self):\n        for entry in self.index['entries']:\n            if entry['id'] not in self.SPEC:\n                continue\n            context = entry['usages'][0]['context']\n            self.assertNotIn(entry['title'], context)\n            self.assertTrue(context.strip())\n\n    def test_boundary_metadata_preserved_without_certifying_facts(self):\n        index = self.provisional()\n        for identity, (_, situation, _) in self.SPEC.items():\n            hit = self.hits(index, identity, mode='recommend',\n                            situations=[situation], targets=['자기'])[0]\n            text = ' '.join(hit['usage']['avoid_when']) + hit['usage']['review_note']\n            if identity == 'deogeop-ilchi':\n                for word in ('전문성', '저임금', '고소득', '미래 취업'):\n                    self.assertIn(word, text)\n            else:\n                for word in ('동의', '친밀', '사생활', '공식'):\n                    self.assertIn(word, text)\n            self.assertTrue(hit['requires_context_check'])\n        # Metadata preservation is not a job, consent, intimacy or safety check.\n\nif __name__ == '__main__':\n    unittest.main()\n"
+  },
+  "context_limits": [
+    "두 profile 모두 draft이며 등록·reviewed 승격·추천 노출을 승인하지 않는다.",
+    "context에는 표제 표현을 넣지 않았지만 이는 독립 봉인 평가나 실제 자연어 정확도 검증이 아니다.",
+    "두 상황은 실제로 겹칠 수 있다. required facet의 singleton exact-match 때문에 넓은 OR 조회는 차단되지만 의미상 양립 불가능하다는 뜻이 아니다. 각각 좁혀 조회하고 맥락을 검토해야 한다.",
+    "필터는 업무 사실·팬 관계·공식 행사·상호 동의를 인증하지 않는다.",
+    "Python 검색·스키마·회귀·CI는 실행하지 않았다."
+  ],
+  "verification": {
+    "canonical_sha_rechecked": true,
+    "current_profile_ids_absent": true,
+    "current_new_labels_absent": true,
+    "python_executed": false,
+    "ci_executed": false,
+    "test_methods": 8,
+    "limits": "Unexecuted structural tests only. Hypothetical reviewed flags remain in memory. Cross-filter failures reflect narrow profile facets; broad OR failure reflects singleton exact requirements, not semantic mutual exclusivity."
+  },
+  "integration_steps": [
+    "Recheck latest canonical SHAs and conflicts before applying.",
+    "Append only new profiles and situation concepts; preserve all existing approved records and membership specifications.",
+    "Keep both profiles draft. Install test source, regenerate index via the authorized workflow and execute schema/source validation and full CI.",
+    "Do not treat positive candidates or boundary metadata as verification of employment, expertise, official meeting arrangements, intimacy or consent."
+  ]
+}

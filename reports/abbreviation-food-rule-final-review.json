@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "reviewed_commit": "9bb52918e74f9d92a506bf773a550a21917d38a6",
+  "evaluator_kind": "independent AI editorial review; not human validation",
+  "cases": 12,
+  "editorial_blockers": [],
+  "outcomes": {
+    "recommend": 2,
+    "abstain": 8,
+    "clarify": 2
+  },
+  "byeoldajul": {
+    "status_interpretation": "Reviewed meaning, boundaries and caution classification only; default recommendation exclusion retained.",
+    "positive_use_generation": "Not validated in this round; B-abbrev clarification remains unchanged."
+  },
+  "observations": [
+    "F-rule does not invent a food combination, dietary suitability or others' consent.",
+    "A08 selects injeong instead of assuming raw top1 is appropriate.",
+    "Every factual evidence span is quoted from its own request.",
+    "Not-searched rows distinguish prior definition reading from current retrieval."
+  ],
+  "limitations": [
+    "Public annotation-derived development, not new blind or real-world accuracy.",
+    "Reviewer read stored trace and did not independently execute CI."
+  ]
+}

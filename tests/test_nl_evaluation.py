@@ -1,0 +1,121 @@
+import copy
+import json
+import subprocess
+import sys
+import tempfile
+import unittest
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'scripts'))
+from usage_profiles import load_vocabulary
+
+class VocabularyContractTests(unittest.TestCase):
+    def test_current_definitions(self):
+        data=load_vocabulary(ROOT)
+        self.assertEqual(len(data['facet_definitions']),6)
+        self.assertTrue(any('definition' in c for c in data['facets']['intents']))
+    def test_describe_cli_does_not_search(self):
+        result=subprocess.run([sys.executable,str(ROOT/'scripts/search_usage.py'),'--describe-facets'],
+                              capture_output=True,text=True,check=True)
+        self.assertIn('facet_definitions',json.loads(result.stdout))
+        self.assertNotIn('results',json.loads(result.stdout))
+    def test_invalid_vocabulary_definitions(self):
+        base=load_vocabulary(ROOT)
+        cases=[]
+        bad=copy.deepcopy(base);bad['facet_definitions']['intents']='';cases.append(bad)
+        bad=copy.deepcopy(base);bad['facets']['emotions'][0]['definition']=[];cases.append(bad)
+        bad=copy.deepcopy(base);bad['facets']['emotions'][0]['aliases']=['!!!'];cases.append(bad)
+        bad=copy.deepcopy(base);bad['schema_version']=True;cases.append(bad)
+        cases.extend([[], {'schema_version':1,'facets':list(base['facets'])}])
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);(root/'data').mkdir()
+            for value in cases:
+                (root/'data/usage-vocabulary.json').write_text(json.dumps(value))
+                with self.subTest(value=type(value).__name__):
+                    with self.assertRaises(ValueError):load_vocabulary(root)
+
+class ScoreContractTests(unittest.TestCase):
+    def sample(self):
+        return ({'schema_version':1,'cases':[{'id':'x','expected_action':'recommend','confidence':'high',
+                           'acceptable_entry_ids':['a']}]},
+                {'schema_version':1,'results':[{'id':'x','retrieval':{'status':'matches','results':[{'entry_id':'a','usage_id':'u'}]}}]},
+                {'schema_version':1,'answers':[{'id':'x','action':'recommend','selected_entry_id':'a','selected_usage_id':'u'}]},
+                {'schema_version':1,'judgments':[{'id':'x','action_ok':True,'selection_ok':True,'constraints_ok':True,'unsafe':False}]})
+    def test_known_score(self):
+        from score_nl_evaluation import score
+        report=score(*self.sample())
+        self.assertTrue(report['predeclared_gate_passed'])
+        self.assertEqual(report['totals']['candidate_recall_hits'],1)
+    def test_unsafe_never_passes(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[3]['judgments'][0]['unsafe']=True
+        self.assertFalse(score(*values)['predeclared_gate_passed'])
+    def test_fabricated_usage_rejected(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[2]['answers'][0]['selected_usage_id']='invented'
+        with self.assertRaises(ValueError):score(*values)
+    def test_missing_case_rejected(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[3]['judgments']=[]
+        with self.assertRaises(ValueError):score(*values)
+
+    def test_missing_prior_confidence_is_not_failed_gate(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[0]['cases'][0].pop('confidence')
+        report=score(*values)
+        self.assertFalse(report['predeclared_gate_applicable'])
+        self.assertIsNone(report['predeclared_gate_passed'])
+
+    def test_ambiguous_lookup_can_explain_retrieved_entry_without_single_sense(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[2]['answers'][0].update(action='lookup',selected_usage_id=None)
+        score(*values)
+        values[2]['answers'][0]['action']='recommend'
+        with self.assertRaises(ValueError):score(*values)
+
+    def test_recommendation_requires_selection(self):
+        from score_nl_evaluation import score
+        for field in ('selected_entry_id','selected_usage_id'):
+            for missing in (False,True):
+                values=self.sample()
+                if missing:values[2]['answers'][0].pop(field)
+                else:values[2]['answers'][0][field]=None
+                with self.assertRaises(ValueError):score(*values)
+    def test_empty_evaluation_rejected(self):
+        from score_nl_evaluation import score
+        with self.assertRaises(ValueError):
+            score({'schema_version':1,'cases':[]},{'schema_version':1,'results':[]},{'schema_version':1,'answers':[]},{'schema_version':1,'judgments':[]})
+    def test_unknown_answer_action_rejected(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[2]['answers'][0]['action']='publish'
+        with self.assertRaises(ValueError):score(*values)
+    def test_no_selection_action_cannot_select(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[2]['answers'][0]['action']='abstain'
+        with self.assertRaises(ValueError):score(*values)
+    def test_schema_version_rejected(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[0]['schema_version']=True
+        with self.assertRaises(ValueError):score(*values)
+
+    def test_lookup_matches_need_entry(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[2]['answers'][0].update(action='lookup',selected_entry_id=None,selected_usage_id=None)
+        with self.assertRaises(ValueError):score(*values)
+    def test_no_match_lookup_may_explain_absence(self):
+        from score_nl_evaluation import score
+        values=self.sample();values[2]['answers'][0].update(action='lookup',selected_entry_id=None,selected_usage_id=None)
+        values[1]['results'][0]['retrieval'].update(status='no_match',results=[])
+        score(*values)
+
+    def test_explanation_scope_cannot_pass_score_despite_positive_judgments(self):
+        from score_nl_evaluation import score
+        values=self.sample()
+        hit=values[1]['results'][0]['retrieval']['results'][0]
+        hit['retrieval_scope']={'explicit_filters_match':False,'exact_lookup_only':True}
+        with self.assertRaisesRegex(ValueError,'explanation-only'):score(*values)
+        values[2]['answers'][0]['action']='lookup'
+        score(*values)
+        values[2]['answers'][0]['action']='recommend'
+        hit['retrieval_scope']={'explicit_filters_match':True,'exact_lookup_only':False}
+        self.assertTrue(score(*values)['predeclared_gate_passed'])

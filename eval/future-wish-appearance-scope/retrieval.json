@@ -1,0 +1,487 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "flower-road",
+    "gaptuk-twi"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 354,
+    "annotated_entries": 58,
+    "reviewed_entries": 56,
+    "unannotated_entries": 296
+  },
+  "provisional_reviewed_entries": 58,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "execution_commit": "e5106e072b0b3465892c7242810640480bf0e8f9",
+  "ci_run": 44019781043,
+  "results": [
+    {
+      "id": "F-wish",
+      "prompt": "새 활동을 앞둔 상대에게 앞으로 좋은 일이 많기를 빌며 앞날을 응원한다. 바람을 전하는 것이며 성공이나 행복이 확정됐다는 뜻은 아니다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "응원"
+        ],
+        "situations": [
+          "좋은일기원"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 58,
+          "reviewed_entries": 56,
+          "unannotated_entries": 296
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "flower-road",
+            "title": "꽃길만 걷자",
+            "path": "memes/flower-road.md",
+            "domain_tags": [
+              "연예"
+            ],
+            "usage_id": "wish-good-future",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "응원"
+              ],
+              "situations": [
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "wish-good-future",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "응원"
+              ],
+              "situations": [
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "새 활동을 앞둔 상대에게 앞으로 좋은 일이 많기를 빌며 앞날을 응원한다. 바람을 전하는 것이며 성공이나 행복이 확정됐다는 뜻은 아니다.",
+              "avoid_when": [
+                "미래 성공을 보증하거나 실패할 가능성이 없다고 약속하는 경우",
+                "쉬거나 그만두겠다는 상대의 의사를 무시하고 계속 활동하도록 압박하는 경우",
+                "피해·상실·고통의 이야기를 긍정적인 말로 덮고 필요한 도움을 생략하는 경우",
+                "어려운 경험이 반드시 좋은 결과로 보상된다고 단정하는 경우"
+              ],
+              "example": {
+                "text": "새 활동을 앞둔 너에게 좋은 일이 많기를 바라. 우리 꽃길만 걷자!",
+                "kind": "editorial"
+              },
+              "review_note": "standard는 이 좁은 기원 맥락의 편집 판단이다. 우리라는 예문 표현이 대상 라벨을 자기까지 확대하지 않으며 초점은 응원받는 상대다. 필터 일치가 상대의 현재 의사·상황을 확인한 것은 아니다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "좋은일기원"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "a9c2331068075d45d76e3ad2b0d2577a47a96ee5",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "좋은일기원"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          },
+          {
+            "entry_id": "haengshow",
+            "title": "행쇼",
+            "path": "memes/haengshow.md",
+            "domain_tags": [
+              "방송",
+              "연예"
+            ],
+            "usage_id": "well-wishes",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "응원"
+              ],
+              "situations": [
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "well-wishes",
+              "emotions": [
+                "다정함"
+              ],
+              "intents": [
+                "응원",
+                "인사"
+              ],
+              "situations": [
+                "헤어짐",
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "가벼운 말투로 잘 지내고 행복하길 빈다.",
+              "avoid_when": [
+                "격식 있는 위로를 요구하는 상황"
+              ],
+              "example": {
+                "text": "새로운 곳에서도 잘 지내. 행쇼!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "8a0977caf65b47878a44cb717d9366163670de78",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "F-appearance",
+      "prompt": "진행 중인 영상 화면에 인물이 불쑥 나타난 장면을 짧게 설명한다. 평가의 초점은 등장 상황이며 등장인물의 가치·의도나 시청자의 내면 반응은 아니다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "상태설명"
+        ],
+        "situations": [
+          "뜻밖등장"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 58,
+          "reviewed_entries": 56,
+          "unannotated_entries": 296
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "gaptuk-twi",
+            "title": "갑툭튀",
+            "path": "memes/gaptuk-twi.md",
+            "domain_tags": [],
+            "usage_id": "describe-unexpected-person-on-screen",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "뜻밖등장"
+              ],
+              "targets": [
+                "상황"
+              ]
+            },
+            "usage": {
+              "id": "describe-unexpected-person-on-screen",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "뜻밖등장"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "진행 중인 영상 화면에 인물이 불쑥 나타난 장면을 짧게 설명한다. 평가의 초점은 등장 상황이며 등장인물의 가치·의도나 시청자의 내면 반응은 아니다.",
+              "avoid_when": [
+                "일반적으로 뜻밖인 소식·결과에 물리적 또는 화면상 등장 없이 적용하는 경우",
+                "부상·사고·위급 상황의 안전 설명이나 도움을 농담으로 대체하는 경우",
+                "등장인물을 불청객으로 낙인찍거나 외모·정체성을 조롱하는 경우",
+                "영상 문구만으로 실제 등장 경위·편집 여부·시청자 감정을 단정하는 경우",
+                "실제 장소의 위험한 등장이나 사물 등장까지 이번 인물 영상 사례의 검증 범위로 확대하는 경우"
+              ],
+              "example": {
+                "text": "영상에서 두 사람이 이야기하던 중 다른 출연자가 화면 옆으로 갑툭튀했네.",
+                "kind": "editorial"
+              },
+              "review_note": "standard는 무해한 영상 장면 서술로 제한한 편집 판단이며 모든 갑작스러운 등장에 적용되는 안전 인증이 아니다. 새 상황 정의에는 사물도 포함되지만 이 profile의 검증·예문은 인물의 영상 등장만 다룬다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "뜻밖등장"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "ac73b2b6de04f421b6eb41acb8f632084dee3e91",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "뜻밖등장"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "F-pressure",
+      "prompt": "쉬거나 그만두겠다는 상대의 의사를 무시하고 계속 활동하도록 압박하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "F-danger",
+      "prompt": "부상·사고·위급 상황의 안전 설명이나 도움을 농담으로 대체하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A01",
+      "prompt": "친구가 처음 낸 단편소설이 문학상 후보에 올랐대. 믿기지 않을 만큼 기쁘다는 반응을 단톡에 짧게 보내고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "감탄"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 58,
+          "reviewed_entries": 56,
+          "unannotated_entries": 296
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "daebak-reaction",
+            "title": "대박",
+            "path": "memes/daebak-reaction.md",
+            "domain_tags": [],
+            "usage_id": "admire",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "admire",
+              "emotions": [
+                "놀람",
+                "기쁨"
+              ],
+              "intents": [
+                "감탄",
+                "칭찬"
+              ],
+              "situations": [
+                "기대이상",
+                "성과"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "좋은 결과에 호의적으로 반응한다.",
+              "avoid_when": [
+                "피해나 실패를 기뻐하는 것으로 읽힐 때"
+              ],
+              "example": {
+                "text": "첫 발표가 최우수상이라니, 대박!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "956ef9e3e44d4e98dae9ef50a206761bb9110a3a",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "is-this-real",
+            "title": "이거 실화냐",
+            "path": "memes/is-this-real.md",
+            "domain_tags": [],
+            "usage_id": "pleasant-surprise",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "pleasant-surprise",
+              "emotions": [
+                "놀람",
+                "기쁨"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "기대이상",
+                "성과"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "좋은 결과가 믿기지 않는다는 감탄이다.",
+              "avoid_when": [
+                "실제 사실 검증 답변이 필요한 때"
+              ],
+              "example": {
+                "text": "추첨에 당첨됐어. 이거 실화냐!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "a4b2c1fd404b93b838ae6a65e6771d8b1d06f968",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 3,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A20",
+      "prompt": "친구가 너무 지쳐서 당분간 대회를 쉬겠대. 계속 나가도록 압박하는 멘트를 밈으로 만들어줘.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "kind": "approved public-source metadata, not raw collection notes",
+  "source_revision": "35eb949c56b6ef59f022bd6b8b16ff8ec92b881b",
+  "batch_id": "korean-verified-20261117-sabasa",
+  "review_kind": "AI source and editorial review; not human validation",
+  "entries": [
+    {
+      "slug": "sabasa",
+      "title": "사바사",
+      "path": "memes/sabasa.md",
+      "source_blob_sha": "452fc9922e423093cc64963c70f5abebf0ec7326",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 국내 기사 두 곳의 직접 본문에서 사람별 차이를 나타내는 축약 뜻과 인터넷·일상 표현의 소개를 확인했다. 기사 구성 대화는 원채팅 관찰로 보지 않는다.",
+      "evidence": [
+        {
+          "url": "https://www.seoul.co.kr/news/society/2017/10/31/20171031009002",
+          "publisher": "서울신문",
+          "published_date": "2017-10-30"
+        },
+        {
+          "url": "https://v.daum.net/v/20180510091945925?s=print_news",
+          "publisher": "파이낸셜뉴스",
+          "published_date": "2018-05-10"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Article definitions and editorial examples are not independently observed raw conversations.",
+    "No first inventor/date, current popularity, actual individual preference or exception to rules is certified.",
+    "No existing candidate ledger ID; no identifier or included status fabricated.",
+    "Canonical only; usage annotation requires separate contextual evaluation.",
+    "Separate AI editorial review of the canonical found no wording blocker; external sources were supplied by the researcher, not reread by that reviewer."
+  ]
+}

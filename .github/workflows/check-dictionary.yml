@@ -10,8 +10,8 @@ jobs:
   structure:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
         with:
           python-version: '3.12'
       - run: python scripts/check_dictionary.py
@@ -19,3 +19,77 @@ jobs:
       - run: python scripts/usage_profiles.py
       - run: python scripts/build_usage_index.py --check
       - run: python scripts/evaluate_usage.py
+      - run: python scripts/evaluate_draft_readiness.py
+      - run: python scripts/evaluate_draft_readiness.py --candidate ubd --candidate pro-offended --candidate three-lifts-500 --fail-on-drift
+      - run: python scripts/replay_nl_queries.py eval/development/v1-plans.json
+      - run: python scripts/score_nl_evaluation.py eval/development/gold.json eval/development/v1-retrieval.json eval/development/v1-answers.json eval/development/v1-judgments.json
+      - run: python scripts/replay_nl_queries.py eval/development/v2-plans.json
+      - run: python scripts/check_context_decisions.py eval/development/v2-plans.json eval/development/v2-retrieval.json eval/development/v2-answers.json --expected-prompt-version contextual-v2
+      - run: python scripts/score_nl_evaluation.py eval/development/gold.json eval/development/v2-retrieval.json eval/development/v2-answers.json eval/development/v2-judgments.json
+      - run: python scripts/replay_nl_queries.py eval/holdout/plans.json --jsonl
+      - run: python scripts/replay_nl_queries.py eval/challenge/audit-plans.json --jsonl
+      - run: python scripts/replay_nl_queries.py eval/challenge/editorial-plans.json --jsonl
+      - run: python scripts/check_context_decisions.py eval/holdout/plans.json eval/holdout/retrieval.json eval/holdout/answers.json --expected-prompt-version contextual-v2
+      - run: python scripts/check_context_decisions.py eval/challenge/audit-plans.json eval/challenge/audit-retrieval.json eval/challenge/audit-answers.json --expected-prompt-version contextual-v2
+      - run: python scripts/check_context_decisions.py eval/challenge/editorial-plans.json eval/challenge/editorial-retrieval.json eval/challenge/editorial-answers.json --expected-prompt-version contextual-v2
+      - run: python scripts/score_nl_evaluation.py eval/holdout/gold.json eval/holdout/retrieval.json eval/holdout/answers.json eval/holdout/judgments.json
+      - run: python scripts/score_nl_evaluation.py eval/challenge/audit-gold.json eval/challenge/audit-retrieval.json eval/challenge/audit-answers.json eval/challenge/audit-judgments.json
+      - run: python scripts/score_nl_evaluation.py eval/challenge/editorial-gold.json eval/challenge/editorial-retrieval.json eval/challenge/editorial-answers.json eval/challenge/editorial-judgments.json
+      - run: python scripts/replay_nl_queries.py eval/development/v3-fix-plans.json --jsonl
+      - run: python scripts/check_context_decisions.py eval/development/v3-fix-plans.json eval/development/v3-fix-retrieval.json eval/development/v3-fix-answers.json --expected-prompt-version contextual-v3
+      - run: python scripts/replay_nl_queries.py eval/regression-v3/audit-plans.json --jsonl
+      - run: python scripts/replay_nl_queries.py eval/regression-v3/editorial-plans.json --jsonl
+      - run: python scripts/measure_usage_retrieval.py eval/challenge/audit-gold.json eval/challenge/audit-retrieval.json
+      - run: python scripts/measure_usage_retrieval.py eval/challenge/audit-gold.json eval/regression-v3/audit-retrieval.json
+      - run: python scripts/measure_usage_retrieval.py eval/challenge/editorial-gold.json eval/challenge/editorial-retrieval.json
+      - run: python scripts/measure_usage_retrieval.py eval/challenge/editorial-gold.json eval/regression-v3/editorial-retrieval.json
+      - run: python scripts/check_context_decisions.py eval/regression-v3/audit-plans.json eval/regression-v3/audit-retrieval.json eval/regression-v3/audit-answers.json --expected-prompt-version contextual-v3
+      - run: python scripts/check_context_decisions.py eval/regression-v3/editorial-plans.json eval/regression-v3/editorial-retrieval.json eval/regression-v3/editorial-answers.json --expected-prompt-version contextual-v3
+      - run: python scripts/score_nl_evaluation.py eval/challenge/audit-gold.json eval/regression-v3/audit-retrieval.json eval/regression-v3/audit-answers.json eval/regression-v3/audit-judgments.json
+      - run: python scripts/score_nl_evaluation.py eval/challenge/editorial-gold.json eval/regression-v3/editorial-retrieval.json eval/regression-v3/editorial-answers.json eval/regression-v3/editorial-judgments.json
+      - run: python scripts/replay_context_scope.py
+      - run: python scripts/replay_direction_scope.py
+      - run: python scripts/replay_memory_scope.py
+      - run: python scripts/replay_carrot_scope.py
+      - run: python scripts/replay_critique_scope.py
+      - run: python scripts/evaluate_check_in_lookup.py
+      - run: python scripts/replay_response_scope.py
+      - run: python scripts/replay_exercise_scope.py
+      - run: python scripts/replay_speculation_scope.py
+      - run: python scripts/replay_discretion_scope.py
+      - run: python scripts/replay_preference_scope.py
+      - run: python scripts/replay_welcome_interest_scope.py
+      - run: python scripts/replay_craft_skill_scope.py
+      - run: python scripts/replay_explanation_visit_scope.py
+      - run: python scripts/replay_future_wish_appearance_scope.py
+      - run: python scripts/replay_first_greeting_promotion_scope.py
+      - run: python scripts/replay_game_defeat_friday_leisure_scope.py
+      - run: python scripts/replay_work_interest_fan_meeting_scope.py
+      - run: python scripts/replay_own_activity_photo_scope.py
+      - run: python scripts/replay_channel_participation_outfit_scope.py
+      - run: python scripts/replay_otl_finger_heart_scope.py
+      - run: python scripts/replay_abbreviation_food_rule_scope.py
+      - run: python scripts/replay_seubuljae_choice_scope.py
+      - run: python scripts/replay_work_break_scope.py
+      - run: python scripts/replay_parody_turn_scope.py
+      - name: Measure bulk discovery queue without promoting candidates
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+          sys.path.insert(0,'scripts')
+          from bulk_candidate_queue import queue
+          root=Path.cwd()
+          result=queue(root,[root/'data/korea-candidates.json',
+                             root/'research/kr-recent-20261117.json',
+                             root/'research/collections/korean-memes-2021-2023-audit.json',root/'reports/bulk/early-2000-2015-candidates.json',root/'reports/bulk/mid-2016-2020-candidates.json'])
+          print('BULK_QUEUE_SUMMARY='+json.dumps({
+              'canonical_count':result['canonical_count'],
+              'counts':result['counts'],
+              'by_source_kind':result['by_source_kind'],
+              'source_fingerprints':[{'kind':s['kind'],'sha256':s['sha256']} for s in result['sources']],
+              'diagnostic_count':len(result['diagnostics']),
+              'limits':result['limitations']
+          },ensure_ascii=False))
+          PY

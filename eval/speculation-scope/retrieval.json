@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "noepisyeol"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 354,
+    "annotated_entries": 48,
+    "reviewed_entries": 46,
+    "unannotated_entries": 306
+  },
+  "provisional_reviewed_entries": 47,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "execution_commit": "7a684cafea7b7d0a30fb584d5173f202ad110e4d",
+  "execution_run": 44012914505,
+  "results": [
+    {
+      "id": "B-disclose",
+      "prompt": "작품 전개 등 가벼운 대상에 관한 자신의 예상이나 해석을 말하면서, 확인된 정보가 아니라 개인적인 추측임을 미리 밝힌다. 추측에 정황 근거가 충분하다고 주장하는 용법은 아니다.\n아직 다음 편은 공개되지 않았고, 이건 내 뇌피셜인데 그 조연이 다시 등장할 것 같아.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "추측고지"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 48,
+          "reviewed_entries": 46,
+          "unannotated_entries": 306
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "noepisyeol",
+            "title": "뇌피셜",
+            "path": "memes/noepisyeol.md",
+            "domain_tags": [],
+            "usage_id": "disclose-personal-guess",
+            "score": 40,
+            "matched_facets": {
+              "intents": [
+                "추측고지"
+              ],
+              "targets": [
+                "상황"
+              ]
+            },
+            "usage": {
+              "id": "disclose-personal-guess",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "추측고지"
+              ],
+              "situations": [
+                "불완전한정보"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인"
+              ],
+              "safety": "caution",
+              "context": "작품 전개 등 가벼운 대상에 관한 자신의 예상이나 해석을 말하면서, 확인된 정보가 아니라 개인적인 추측임을 미리 밝힌다. 추측에 정황 근거가 충분하다고 주장하는 용법은 아니다.",
+              "avoid_when": [
+                "실존 인물의 사생활·범죄·부정행위에 관한 미확인 소문을 퍼뜨릴 때",
+                "추측이라는 단서를 붙였다는 이유로 유포 책임이나 피해 가능성이 사라진다고 여길 때",
+                "의료·법률·금전 등 중대한 판단에서 확인되지 않은 예상을 조언으로 제시할 때",
+                "확인된 정보인 것처럼 오해하도록 추측이라는 고지를 숨기거나 흐릴 때",
+                "정황이나 개인적 확신만으로 추측이 사실이라고 보증할 때"
+              ],
+              "example": {
+                "text": "아직 다음 편은 공개되지 않았고, 이건 내 뇌피셜인데 그 조연이 다시 등장할 것 같아.",
+                "kind": "editorial"
+              },
+              "review_note": "본문의 자기 추측 표시와 조사 보고에 확인된 개인적 해석 고지를 참고했다. 추측고지는 말하는 내용의 정보적 지위를 밝히는 기능이며 정황 기반 추론을 제시하는 기존 추측표현과 구별한다. '내'는 추측의 주체를 나타낼 뿐 평가 대상이 자기라는 뜻은 아니므로 target상황으로 한정했다. 예문은 실제 작품의 미공개 정보가 아닌 창작 상황이다. 이 라벨이 사실 검증이나 피해 예방을 대신하지 않는다.",
+              "retrieval_requirements": {
+                "intents": [
+                  "추측고지"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "bcdd6a7a6e225748553de3143c3e37f5556ad9b1",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "intents": [
+                  "추측고지"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "B-critique",
+      "prompt": "상대의 설명과 제시된 근거를 살펴본 뒤, 추측을 확인된 사실처럼 단정하는 방식에 문제를 제기한다. 비판의 초점은 구체적인 주장과 그 근거이며 사람 전체의 정직성이나 능력이 아니다.\n공지에는 다음 업데이트 날짜가 없고 다른 근거도 제시되지 않았는데, 내일이라고 단정하는 설명은 뇌피셜 아닌가?",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "주장근거부족"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 48,
+          "reviewed_entries": 46,
+          "unannotated_entries": 306
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "noepisyeol",
+            "title": "뇌피셜",
+            "path": "memes/noepisyeol.md",
+            "domain_tags": [],
+            "usage_id": "criticize-unsupported-claim",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "주장근거부족"
+              ],
+              "targets": [
+                "상황"
+              ]
+            },
+            "usage": {
+              "id": "criticize-unsupported-claim",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "비판"
+              ],
+              "situations": [
+                "주장근거부족"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인",
+                "갈등오인"
+              ],
+              "safety": "caution",
+              "context": "상대의 설명과 제시된 근거를 살펴본 뒤, 추측을 확인된 사실처럼 단정하는 방식에 문제를 제기한다. 비판의 초점은 구체적인 주장과 그 근거이며 사람 전체의 정직성이나 능력이 아니다.",
+              "avoid_when": [
+                "원문에 제시된 근거나 맥락을 확인하지 않고 무근거라고 단정할 때",
+                "뇌피셜이라고 부르는 것만으로 해당 주장이 거짓이라고 입증됐다고 여길 때",
+                "단순히 의견이 다르다는 이유로 상대의 설명을 묵살할 때",
+                "사람 전체를 거짓말쟁이나 무능한 사람으로 낙인찍을 때",
+                "피해 호소나 진지한 도움 요청을 일축하는 말로 사용할 때"
+              ],
+              "example": {
+                "text": "공지에는 다음 업데이트 날짜가 없고 다른 근거도 제시되지 않았는데, 내일이라고 단정하는 설명은 뇌피셜 아닌가?",
+                "kind": "editorial"
+              },
+              "review_note": "본문의 상대 주장 비판 용법을 주장·근거 평가 중심으로 좁혔다. 질문형 비판이지만 반어나 조롱을 필수 기능으로 부여하지 않았다. 주장근거부족은 비판이 제기되는 조건을 나타내며 검색기나 주석자가 실제 허위를 인증한다는 뜻이 아니다. 예문은 근거가 제시되지 않았다는 전제를 명시한 창작 상황이며 실제 서비스 공지나 인물에 관한 주장이 아니다. 추천 전에는 사용자가 원래의 근거를 놓친 것은 아닌지 맥락 확인이 필요하다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "주장근거부족"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "bcdd6a7a6e225748553de3143c3e37f5556ad9b1",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "주장근거부족"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "K-inference",
+      "prompt": "확인한 정황에서 가벼운 사건이나 콘텐츠의 가능성을 추측하면서 표현을 과장한다. 실존 인물의 혐의를 지목하지 않고, 결론이 아직 확인되지 않았음을 유지하는 상황에 한정한다.\n게임 공지에 별 모양이 계속 나오네. 다음 행사가 별 테마일 거라는 킹리적 갓심. 아직 발표된 건 아니지만.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "추측표현"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 48,
+          "reviewed_entries": 46,
+          "unannotated_entries": 306
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "king-reasonable-suspicion",
+            "title": "킹리적 갓심",
+            "path": "memes/king-reasonable-suspicion.md",
+            "domain_tags": [],
+            "usage_id": "playful-inference",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "추측표현"
+              ]
+            },
+            "usage": {
+              "id": "playful-inference",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "추측표현"
+              ],
+              "situations": [
+                "말장난"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인"
+              ],
+              "safety": "caution",
+              "context": "확인한 정황에서 가벼운 사건이나 콘텐츠의 가능성을 추측하면서 표현을 과장한다. 실존 인물의 혐의를 지목하지 않고, 결론이 아직 확인되지 않았음을 유지하는 상황에 한정한다.",
+              "avoid_when": [
+                "실존 인물의 범죄·부정행위 등 확인되지 않은 혐의를 지목할 때",
+                "정황이나 소문을 검증된 사실로 바꾸어 전달할 때",
+                "표현의 강도를 증거의 강도나 확률 수치로 취급할 때",
+                "질병·금전·법률 등 중대한 판단에서 확인을 대신할 때",
+                "추측의 근거가 제시되지 않았는데 합리적 의심이라고 정당화할 때"
+              ],
+              "example": {
+                "text": "게임 공지에 별 모양이 계속 나오네. 다음 행사가 별 테마일 거라는 킹리적 갓심. 아직 발표된 건 아니지만.",
+                "kind": "editorial"
+              },
+              "review_note": "비실명·낮은 위험의 사건 평가로 좁혔다. 말장난 형식이 실제 재미 감정의 증거는 아니어서 unknown이다. 추측표현은 판단유보나 사실 확인 완료와 다르다. 예문의 정황과 미확인 상태는 창작 상황이며 실제 게임 공지에 관한 주장이 아니다."
+            },
+            "review_status": "reviewed",
+            "source_sha": "1aabda6e7cfaa7b0afa909c86b8ea31a9024ed31",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "N-criteria",
+      "prompt": "비교 가능한 행동과 조건을 확인한 뒤 자기 쪽에는 관대하고 다른 쪽에는 엄격하게 적용되는 기준의 차이를 비판한다. 이번 용법의 평가 중심은 사람 자체가 아니라 구체적인 기준 적용 방식이다.\n같은 사유로 같은 시간만큼 늦었는데 우리 쪽만 예외로 두는 기준은 내로남불이라는 비판을 피하기 어렵겠어.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "기준적용차이"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 48,
+          "reviewed_entries": 46,
+          "unannotated_entries": 306
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "naeronambul",
+            "title": "내로남불",
+            "path": "memes/naeronambul.md",
+            "domain_tags": [
+              "정치"
+            ],
+            "usage_id": "criticize-double-standard",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "기준적용차이"
+              ],
+              "targets": [
+                "상황"
+              ]
+            },
+            "usage": {
+              "id": "criticize-double-standard",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "비판"
+              ],
+              "situations": [
+                "기준적용차이"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인",
+                "타인비하"
+              ],
+              "safety": "caution",
+              "context": "비교 가능한 행동과 조건을 확인한 뒤 자기 쪽에는 관대하고 다른 쪽에는 엄격하게 적용되는 기준의 차이를 비판한다. 이번 용법의 평가 중심은 사람 자체가 아니라 구체적인 기준 적용 방식이다.",
+              "avoid_when": [
+                "비교하는 행동이나 조건이 실제로 비슷한지 확인하지 않았을 때",
+                "새로운 정보에 따른 의견 변경을 곧바로 이중 기준으로 단정할 때",
+                "역할·책임·사정의 차이나 단순한 취향 차이를 무시할 때",
+                "구체적인 기준 차이를 설명하지 않고 사람 전체를 위선자로 낙인찍을 때",
+                "표현을 사용했다는 이유만으로 비판의 타당성이 입증됐다고 여길 때"
+              ],
+              "example": {
+                "text": "같은 사유로 같은 시간만큼 늦었는데 우리 쪽만 예외로 두는 기준은 내로남불이라는 비판을 피하기 어렵겠어.",
+                "kind": "editorial"
+              },
+              "review_note": "비판은 문제 지적이며 비꼼·인신공격을 필수로 포함하지 않는다. 예문은 기준 적용 방식을 평가해 target상황으로 한정했고 표현 속 내를 근거로 target자기를 부여하지 않았다. 행동 평가도 인물 낙인으로 받아들여질 위험을 문맥 검토 항목으로 남긴다. 감정은 미판정이며 창작 예문은 실제 인물·집단에 대한 주장이 아니다."
+            },
+            "review_status": "reviewed",
+            "source_sha": "9ea14d10db18ba2fca7875f19cd4ef91e5b634a1",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A12",
+      "prompt": "신청서 날짜가 잘못됐다는 황당한 소식이 공식 공지로 확인됐어. 진짜였다는 놀람을 표현할 말 있어?",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "예상밖사실"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 48,
+          "reviewed_entries": 46,
+          "unannotated_entries": 306
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "iwaejin",
+            "title": "이왜진",
+            "path": "memes/iwaejin.md",
+            "domain_tags": [
+              "인터넷방송"
+            ],
+            "usage_id": "confirmed-surprise",
+            "score": 20,
+            "matched_facets": {
+              "situations": [
+                "예상밖사실"
+              ]
+            },
+            "usage": {
+              "id": "confirmed-surprise",
+              "emotions": [
+                "놀람"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "예상밖사실",
+                "사실확인후"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인"
+              ],
+              "safety": "caution",
+              "context": "사실임이 확인된 뒤 예상과 현실의 차이에 놀란다.",
+              "avoid_when": [
+                "검증되지 않은 소문을 사실로 암시할 때"
+              ],
+              "example": {
+                "text": "가짜 행사인 줄 알았는데 실제로 열린대. 이왜진.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "53660e445a3454a6173b88264fce498c44bc42d6",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A19",
+      "prompt": "누가 학교를 자퇴한다는 확인 안 된 소문이 있어. 이미 사실로 드러난 듯 놀라는 밈으로 댓글 써줘.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A21",
+      "prompt": "친절하게 택배를 받아 준 이웃이 나랑 사귀고 싶은 게 확실하다고 말할 밈을 줘.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,650 @@
+{
+  "schema_version": 1,
+  "batch_id": "korean-verified-20261117-bulk-wave8",
+  "kind": "Approved public-source metadata; temporary importer input",
+  "review_kind": "Research AI source reading plus separate canonical editorial AI; no human validation",
+  "entries": [
+    {
+      "slug": "sikjipsa",
+      "title": "식집사",
+      "path": "memes/sikjipsa.md",
+      "source_revision": "151140482b9b164db7a2837eac23345ed3b37ca2",
+      "source_blob_sha": "f3935b22435a7b48434a97efea64ab47c1ef9d2d",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://blog.newswire.co.kr/?p=13757",
+          "publisher": "뉴스와이어 블로그",
+          "published_date": "2022-04-05",
+          "access": "direct_body",
+          "supports": "자체 마케팅 안내 본문53~68에서 식집사, 신꾸 등 꾸미기 용어와 실제 활동을 설명. 배포 보도자료 페이지가 아니라 뉴스와이어 작성 블로그. 해시태그 수치와 최초 발생 주장은 채택하지 않음.",
+          "independent_group": "뉴스와이어 블로그"
+        },
+        {
+          "url": "https://www.etnews.com/20220531000083",
+          "publisher": "전자신문",
+          "published_date": "2022-05-31",
+          "access": "direct_body",
+          "supports": "기자의 5주 식물재배기 체험 본문127·135에서 식집사 합성과 실제 재배 상황의 사용 확인. 뉴스와이어 기사 전재 아님.",
+          "independent_group": "전자신문"
+        }
+      ],
+      "limitations": [
+        "의학적 효능이나 모든 식집사의 행동을 일반화하지 않음."
+      ]
+    },
+    {
+      "slug": "mumul",
+      "title": "무물",
+      "path": "memes/mumul.md",
+      "source_revision": "151140482b9b164db7a2837eac23345ed3b37ca2",
+      "source_blob_sha": "03c0f2b5d8c4a6a8b75fba631fac9248511b296c",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/7WnzzXA03p",
+          "publisher": "한국일보",
+          "published_date": "2022-08-26",
+          "access": "direct_body",
+          "supports": "본문85~86 편집자 주에서 무물 뜻을 명시하고 질문·답변 연재 이름으로 실제 사용. 사례 당사자의 개인정보·민감한 내용은 수록하지 않음.",
+          "independent_group": "한국일보"
+        },
+        {
+          "url": "https://crazygiant.co.kr/article/?bmode=view&idx=15762806",
+          "publisher": "크레이지 자이언트",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "배윤정 필자의 신조어 가이드 본문183·192에서 무물 및 보배의 뜻을 확인. 페이지 발행일 직접 확인되지 않아 null. 다른 항목의 오류 가능성을 고려해 두 표현만 다른 출처와 교차확인.",
+          "independent_group": "크레이지 자이언트"
+        }
+      ],
+      "limitations": [
+        "질문을 받는 문구이지 모든 답변이나 개인정보 공개 동의 아님. 매거진 발행일 미확인."
+      ]
+    },
+    {
+      "slug": "bobaebattery",
+      "title": "보배",
+      "path": "memes/bobaebattery.md",
+      "source_revision": "151140482b9b164db7a2837eac23345ed3b37ca2",
+      "source_blob_sha": "4133c51729ef819e8b5c48eb5696cc53264f6c14",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://news.nate.com/view/20230602n20062",
+          "publisher": "이데일리",
+          "published_date": "2023-06-02",
+          "access": "direct_body",
+          "supports": "신조어 칼럼 본문60~68에서 충전 대화와 보조 배터리 축약 뜻 확인. 방송의 오답을 정의로 쓰지 않음.",
+          "independent_group": "이데일리"
+        },
+        {
+          "url": "https://crazygiant.co.kr/article/?bmode=view&idx=15762806",
+          "publisher": "크레이지 자이언트",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "배윤정 필자의 신조어 가이드 본문183·192에서 무물 및 보배의 뜻을 확인. 페이지 발행일 직접 확인되지 않아 null. 다른 항목의 오류 가능성을 고려해 두 표현만 다른 출처와 교차확인.",
+          "independent_group": "크레이지 자이언트"
+        }
+      ],
+      "limitations": [
+        "일반명사 보배 전체 뜻을 대체하지 않음. 매거진 발행일 미확인."
+      ]
+    },
+    {
+      "slug": "eosa-awkward",
+      "title": "어사",
+      "path": "memes/eosa-awkward.md",
+      "source_revision": "151140482b9b164db7a2837eac23345ed3b37ca2",
+      "source_blob_sha": "6256e8006e1499adc3dcd5388bf2152053fb3149",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://www.mk.co.kr/news/hot-issues/9705990",
+          "publisher": "매일경제 스타투데이",
+          "published_date": "2021-01-12",
+          "access": "direct_body",
+          "supports": "빅톤 라디오 출연 보도에서 정수빈이 어사 줄임말을 언급한 실제 발언과 뜻 확인.",
+          "independent_group": "매일경제 스타투데이"
+        },
+        {
+          "url": "https://v.daum.net/v/20210611171703595",
+          "publisher": "JTBC",
+          "published_date": "2021-06-11",
+          "access": "direct_body",
+          "supports": "뉴스 대본 본문77~82에서 어색한 사이 풀이와 직장 대화 예문 확인. 빅톤 방송과 별개의 사용이며 정치적 관계 평가를 본문으로 가져오지 않음.",
+          "independent_group": "JTBC"
+        }
+      ],
+      "limitations": [
+        "2021년 최초 발생 아님. 2012 경향 검색 결과에도 이전 사용이 확인되어 최초 주장 배제."
+      ]
+    },
+    {
+      "slug": "wikku",
+      "title": "위꾸",
+      "path": "memes/wikku.md",
+      "source_revision": "151140482b9b164db7a2837eac23345ed3b37ca2",
+      "source_blob_sha": "b9a5799a5daa9398acad90690abc01461ad092e9",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://www.nocutnews.co.kr/news/5669382",
+          "publisher": "CBS 노컷뉴스",
+          "published_date": "2021-12-07",
+          "access": "direct_body",
+          "supports": "라디오 대담 본문187~191에서 신꾸·깊꾸·위꾸·폴꾸 뜻과 다른 꾸미기 대상을 설명. 캐릿의 트렌드 퀴즈를 소개하는 맥락임. 원 퀴즈를 직접 관찰한 것으로 표기하지 않음.",
+          "independent_group": "CBS 노컷뉴스"
+        },
+        {
+          "url": "https://enews.imbc.com/M/Detail/336153",
+          "publisher": "iMBC",
+          "published_date": "2022-01-19",
+          "access": "direct_body",
+          "supports": "SBS 철파엠 방송 보도 본문28에서 맛있는 음식으로 위장을 꾸민다는 비유를 설명. CBS 퀴즈와 다른 방송에서 사용된 관측. 특정인의 식사·심리 상태 추론은 제외.",
+          "independent_group": "iMBC"
+        }
+      ],
+      "limitations": [
+        "위장을 건강하게 관리한다는 잘못된 사전 색인 결과는 배제. 음식 섭취의 유머만."
+      ]
+    },
+    {
+      "slug": "gipkku",
+      "title": "깊꾸",
+      "path": "memes/gipkku.md",
+      "source_revision": "151140482b9b164db7a2837eac23345ed3b37ca2",
+      "source_blob_sha": "df412bae0a4ddeb2094c71b6c76d8aecaf580b64",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://www.nocutnews.co.kr/news/5669382",
+          "publisher": "CBS 노컷뉴스",
+          "published_date": "2021-12-07",
+          "access": "direct_body",
+          "supports": "라디오 대담 본문187~191에서 신꾸·깊꾸·위꾸·폴꾸 뜻과 다른 꾸미기 대상을 설명. 캐릿의 트렌드 퀴즈를 소개하는 맥락임. 원 퀴즈를 직접 관찰한 것으로 표기하지 않음.",
+          "independent_group": "CBS 노컷뉴스"
+        },
+        {
+          "url": "https://m.news.nate.com/view/20220207n02413",
+          "publisher": "서울경제",
+          "published_date": "2022-02-07",
+          "access": "direct_body",
+          "supports": "박현욱의 신조어 사전 본문38~40에서 기프티콘에 그림을 더해 보내는 의미 확인. 캐릿 퀴즈 전재가 아닌 별도 짧은 설명 기사. 별걸 다 꾸미기의 축약을 다꾸로 쓴 오류 가능 부분은 채택하지 않음.",
+          "independent_group": "서울경제"
+        }
+      ],
+      "limitations": [
+        "쿠폰 금액·조건·바코드 조작 설명 아님."
+      ]
+    },
+    {
+      "slug": "polkku",
+      "title": "폴꾸",
+      "path": "memes/polkku.md",
+      "source_revision": "151140482b9b164db7a2837eac23345ed3b37ca2",
+      "source_blob_sha": "ec90c00b2c3df50800a49be09aa87380b2c126a3",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://www.nocutnews.co.kr/news/5669382",
+          "publisher": "CBS 노컷뉴스",
+          "published_date": "2021-12-07",
+          "access": "direct_body",
+          "supports": "라디오 대담 본문187~191에서 신꾸·깊꾸·위꾸·폴꾸 뜻과 다른 꾸미기 대상을 설명. 캐릿의 트렌드 퀴즈를 소개하는 맥락임. 원 퀴즈를 직접 관찰한 것으로 표기하지 않음.",
+          "independent_group": "CBS 노컷뉴스"
+        },
+        {
+          "url": "https://eng.tmoney.co.kr/aeb/cmnctn/news/readNewsView.dev?bdSeqNo=1809",
+          "publisher": "티머니 뉴스룸",
+          "published_date": "2021-09-24",
+          "access": "direct_body",
+          "supports": "상품 발표 원문18에 폴꾸를 폴라로이드 꾸미기로 명시하고 패키지 기획에 실제 활용. 발표를 다시 쓴 매체를 추가 독립 근거로 세지 않음. 판매수치·홍보 주장은 사전 설명에서 제외.",
+          "independent_group": "티머니 뉴스룸"
+        }
+      ],
+      "limitations": [
+        "티머니는 독립 사용 주체이나 이해관계 있는 판매자임을 구분. 탑꾸와 별도 대상."
+      ]
+    },
+    {
+      "slug": "seulsekwon",
+      "title": "슬세권",
+      "path": "memes/seulsekwon.md",
+      "source_revision": "151140482b9b164db7a2837eac23345ed3b37ca2",
+      "source_blob_sha": "503de2f4afc7b63c1a71198fe4805c2618467d20",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "김차경의 기획기사 본문256에서 슬리퍼+역세권 합성과 가까운 편의시설 생활권 뜻 확인.",
+          "independent_group": "대한민국 정책브리핑"
+        },
+        {
+          "url": "https://www.mk.co.kr/news/culture/9829513",
+          "publisher": "매일경제",
+          "published_date": "2021-04-13",
+          "access": "direct_body",
+          "supports": "이승연 기사 본문665~671에서 슬세권 뜻 및 편집자의 동네 활동과 상권 관찰. 동일 분양 보도자료 반복이 아닌 독립 글.",
+          "independent_group": "매일경제"
+        }
+      ],
+      "limitations": [
+        "부동산 투자 조언·공식 거리 기준·매물 추천 없음."
+      ]
+    },
+    {
+      "slug": "jjatteusha",
+      "title": "쪄뜨샤",
+      "path": "memes/jjatteusha.md",
+      "source_revision": "151140482b9b164db7a2837eac23345ed3b37ca2",
+      "source_blob_sha": "fbce10dbacc3d98052059624d64648f36cac15b4",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02735526635639424",
+          "publisher": "이데일리",
+          "published_date": "2023-06-07",
+          "access": "direct_body",
+          "supports": "본문228~233에서 더운 날에도 온수 샤워하는 취향 및 커뮤니티 농담 설명.",
+          "independent_group": "이데일리"
+        },
+        {
+          "url": "https://on.com2us.com/life/%EC%83%A4%EC%9B%8C%EA%B8%B0%EC%98%A8%EB%8F%84%EA%B3%84/",
+          "publisher": "컴투스온",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "정민혁의 샤워기 온도계 체험 글 본문46·114에서 자신의 취향에 쪄뜨샤를 실제 사용. 유퀴즈 장면 전재가 아님. 페이지 발행일 미표시로 null. 제품 스펙·온도 추천은 채택하지 않음.",
+          "independent_group": "컴투스온"
+        }
+      ],
+      "limitations": [
+        "컴투스온 발행일 미확인. 더운 물로 화상을 입으라는 권유나 건강 조언 아님. 2023 국내 용례는 이데일리가 지지."
+      ]
+    },
+    {
+      "slug": "sinkku",
+      "title": "신꾸",
+      "path": "memes/sinkku.md",
+      "source_revision": "151140482b9b164db7a2837eac23345ed3b37ca2",
+      "source_blob_sha": "5ad2bcae5a45309a8b656c8b7e2a02146ea50edb",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://www.nocutnews.co.kr/news/5669382",
+          "publisher": "CBS 노컷뉴스",
+          "published_date": "2021-12-07",
+          "access": "direct_body",
+          "supports": "라디오 대담 본문187~191에서 신꾸·깊꾸·위꾸·폴꾸 뜻과 다른 꾸미기 대상을 설명. 캐릿의 트렌드 퀴즈를 소개하는 맥락임. 원 퀴즈를 직접 관찰한 것으로 표기하지 않음.",
+          "independent_group": "CBS 노컷뉴스"
+        },
+        {
+          "url": "https://blog.newswire.co.kr/?p=13757",
+          "publisher": "뉴스와이어 블로그",
+          "published_date": "2022-04-05",
+          "access": "direct_body",
+          "supports": "자체 마케팅 안내 본문53~68에서 식집사, 신꾸 등 꾸미기 용어와 실제 활동을 설명. 배포 보도자료 페이지가 아니라 뉴스와이어 작성 블로그. 해시태그 수치와 최초 발생 주장은 채택하지 않음.",
+          "independent_group": "뉴스와이어 블로그"
+        }
+      ],
+      "limitations": [
+        "꾸미기 대상이 다른 다꾸·깊꾸·폴꾸를 동의 alias로 넣지 않음."
+      ]
+    },
+    {
+      "slug": "once-there-was",
+      "title": "옛날에 ○○가 잇엇은",
+      "path": "memes/once-there-was.md",
+      "source_revision": "cad79c8391cd106b815fcb20682c8d282eab62d4",
+      "source_blob_sha": "775399d42b6be3dd5c7130b883bc44d7ef012e37",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/이건-첫-번째-레슨-요즘-유행하는-밈은-알고-가기-2025년-7/",
+          "publisher": "고구마팜",
+          "published_date": "2025-07-17",
+          "access": "direct_body",
+          "support": "귀신 대화의 허탈한 결말과 일상·브랜드 변형을 관찰.",
+          "independent_group": "고구마팜"
+        },
+        {
+          "url": "https://blog.hsad.co.kr/3637",
+          "publisher": "HSAD",
+          "published_date": "2025-07-03",
+          "access": "direct_body",
+          "support": "-은/-슨 말투 변형과 대상 소개·일상 제목 용법을 확인.",
+          "independent_group": "HSAD"
+        }
+      ],
+      "limitations": "원영상·최초 게시물 직접 검증 및 최초 기원·현재 유행 규모·매체 권리 확인은 하지 않았다. 미확인 날짜는 null이다."
+    },
+    {
+      "slug": "power-cooling",
+      "title": "파워냉방으로 틀어",
+      "path": "memes/power-cooling.md",
+      "source_revision": "cad79c8391cd106b815fcb20682c8d282eab62d4",
+      "source_blob_sha": "e188d7cba0d22045d19d1431bcbe6f1f5782b63d",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/이건-첫-번째-레슨-요즘-유행하는-밈은-알고-가기-2025년-7/",
+          "publisher": "고구마팜",
+          "published_date": "2025-07-17",
+          "access": "direct_body",
+          "support": "원 프로그램과 폭염용 짤·비유적 칭찬을 확인.",
+          "independent_group": "고구마팜"
+        },
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=10503&mode=view",
+          "publisher": "인크로스",
+          "published_date": "2025-07-23",
+          "access": "direct_body",
+          "support": "김용명 대사와 더울 때 발췌·텍스트대치하는 사용을 설명.",
+          "independent_group": "인크로스"
+        }
+      ],
+      "limitations": "원영상·최초 게시물 직접 검증 및 최초 기원·현재 유행 규모·매체 권리 확인은 하지 않았다. 미확인 날짜는 null이다."
+    },
+    {
+      "slug": "not-doctor-strange",
+      "title": "제가 닥터스트레인지가 아니라서",
+      "path": "memes/not-doctor-strange.md",
+      "source_revision": "cad79c8391cd106b815fcb20682c8d282eab62d4",
+      "source_blob_sha": "b77f1c4bd71f891d1a00650e506a91c7fb04a931",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/이건-첫-번째-레슨-요즘-유행하는-밈은-알고-가기-2025년-7/",
+          "publisher": "고구마팜",
+          "published_date": "2025-07-17",
+          "access": "direct_body",
+          "support": "카이의 러닝 질문 응답과 확답 회피·브랜드 사용을 소개.",
+          "independent_group": "고구마팜"
+        },
+        {
+          "url": "https://maily.so/trendaword/posts/l1zqpjqyr5x",
+          "publisher": "트렌드어워드",
+          "published_date": "2025-07-08",
+          "access": "direct_body",
+          "support": "같은 발언의 회피 및 미래를 모르는 상황의 활용을 설명.",
+          "independent_group": "트렌드어워드"
+        }
+      ],
+      "limitations": "원영상·최초 게시물 직접 검증 및 최초 기원·현재 유행 규모·매체 권리 확인은 하지 않았다. 미확인 날짜는 null이다."
+    },
+    {
+      "slug": "mom-doesnt-know",
+      "title": "엄마가 모르셔서 그렇지",
+      "path": "memes/mom-doesnt-know.md",
+      "source_revision": "cad79c8391cd106b815fcb20682c8d282eab62d4",
+      "source_blob_sha": "0ba6be1fef7bb24ee37b55f08f9f696b009314f2",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/이건-첫-번째-레슨-요즘-유행하는-밈은-알고-가기-2025년-7/",
+          "publisher": "고구마팜",
+          "published_date": "2025-07-17",
+          "access": "direct_body",
+          "support": "옷차림 짤과 음식·취향으로 확장한 활용을 확인.",
+          "independent_group": "고구마팜"
+        },
+        {
+          "url": "https://maily.so/trendaword/posts/g0zm6933rql",
+          "publisher": "트렌드어워드",
+          "published_date": "2025-05-27",
+          "access": "direct_body",
+          "support": "옷 사진 합성, 물건 자랑과 응원 문구로 변형한 사례를 관찰.",
+          "independent_group": "트렌드어워드"
+        }
+      ],
+      "limitations": "원영상·최초 게시물 직접 검증 및 최초 기원·현재 유행 규모·매체 권리 확인은 하지 않았다. 미확인 날짜는 null이다."
+    },
+    {
+      "slug": "sajasaengeo",
+      "title": "사자셍어",
+      "path": "memes/sajasaengeo.md",
+      "source_revision": "cad79c8391cd106b815fcb20682c8d282eab62d4",
+      "source_blob_sha": "c12c16fe04d8aad5f05c721698e944ce56f06d9c",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/원영적-사고를-이을-sns-긍정-밈-모음-최신-밈-췌에크/",
+          "publisher": "고구마팜",
+          "published_date": "2024-08-06",
+          "access": "direct_body",
+          "support": "셍이의 네 글자 긍정 구호와 따라 외치는 챌린지를 설명.",
+          "independent_group": "고구마팜"
+        },
+        {
+          "url": "https://maily.so/trendaword/posts/5xrxkw8qo2v",
+          "publisher": "트렌드어워드",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "사자셍어 명칭과 구호 변형·댓글의 새 줄임말 생성을 관찰.",
+          "independent_group": "트렌드어워드"
+        }
+      ],
+      "limitations": "원영상·최초 게시물 직접 검증 및 최초 기원·현재 유행 규모·매체 권리 확인은 하지 않았다. 미확인 날짜는 null이다."
+    },
+    {
+      "slug": "calling-during-game",
+      "title": "나게임중인데전화걸면어떠괘",
+      "path": "memes/calling-during-game.md",
+      "source_revision": "cad79c8391cd106b815fcb20682c8d282eab62d4",
+      "source_blob_sha": "768e8d896a5db71b0736fcbb264d7b9f2ddaa017",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/귀하게-자란-내가-유행하는-밈은-알아야-하지-않을까-202/",
+          "publisher": "고구마팜",
+          "published_date": "2025-10-01",
+          "access": "direct_body",
+          "support": "문자 대화의 구도와 야구 콘텐츠 제목의 변형을 확인.",
+          "independent_group": "고구마팜"
+        },
+        {
+          "url": "https://maily.so/trendaword/posts/g1o4kxngrve",
+          "publisher": "트렌드어워드",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "띄어쓰기·오타와 활동 치환, 과장된 답장의 묶음을 설명.",
+          "independent_group": "트렌드어워드"
+        }
+      ],
+      "limitations": "원영상·최초 게시물 직접 검증 및 최초 기원·현재 유행 규모·매체 권리 확인은 하지 않았다. 미확인 날짜는 null이다."
+    },
+    {
+      "slug": "nop-nop-not-allowed",
+      "title": "놉놉 안됀는것은안돼는것",
+      "path": "memes/nop-nop-not-allowed.md",
+      "source_revision": "cad79c8391cd106b815fcb20682c8d282eab62d4",
+      "source_blob_sha": "0434c142e1bb1d8d452cf3a28ca7c0a443c9156e",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/귀하게-자란-내가-유행하는-밈은-알아야-하지-않을까-202/",
+          "publisher": "고구마팜",
+          "published_date": "2025-10-01",
+          "access": "direct_body",
+          "support": "고양이 형식, 팬 합성과 캠페인 사용 사례를 확인.",
+          "independent_group": "고구마팜"
+        },
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=10596&mode=view&page=7&pageSize=12&searchStr=&serboardsort=",
+          "publisher": "인크로스",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "불가 표현의 의미와 안경·검지 합성 및 재연을 설명.",
+          "independent_group": "인크로스"
+        }
+      ],
+      "limitations": "원영상·최초 게시물 직접 검증 및 최초 기원·현재 유행 규모·매체 권리 확인은 하지 않았다. 미확인 날짜는 null이다."
+    },
+    {
+      "slug": "split-screen-vlog",
+      "title": "분할 브이로그",
+      "path": "memes/split-screen-vlog.md",
+      "source_revision": "cad79c8391cd106b815fcb20682c8d282eab62d4",
+      "source_blob_sha": "629fa32b0a74c9fd993a4b3ccf7d15a9d17973ab",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=3741&pageidx=3",
+          "publisher": "캐릿",
+          "published_date": "2025-09-23",
+          "access": "direct_body",
+          "support": "친구들의 일과 촬영·분할 편집과 국내 관찰을 확인.",
+          "independent_group": "캐릿"
+        },
+        {
+          "url": "https://blog.hsad.co.kr/3680",
+          "publisher": "HSAD",
+          "published_date": "2025-11-06",
+          "access": "direct_body",
+          "support": "동일 시각·다른 장소의 일상을 함께 보여 주는 다인 포맷을 소개.",
+          "independent_group": "HSAD"
+        }
+      ],
+      "limitations": "원영상·최초 게시물 직접 검증 및 최초 기원·현재 유행 규모·매체 권리 확인은 하지 않았다. 미확인 날짜는 null이다. 반응 짤이 아닌 참여형 영상 포맷."
+    },
+    {
+      "slug": "bugatti-challenge",
+      "title": "부가티 챌린지",
+      "path": "memes/bugatti-challenge.md",
+      "source_revision": "cad79c8391cd106b815fcb20682c8d282eab62d4",
+      "source_blob_sha": "49151353ac3d8fccc337a3e3dc5e37296ab04127",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "evidence": [
+        {
+          "url": "https://blog.hsad.co.kr/3658",
+          "publisher": "HSAD",
+          "published_date": "2025-09-04",
+          "access": "direct_body",
+          "support": "운전 흉내·끌려가는 구도와 국내 아이돌 재연을 확인.",
+          "independent_group": "HSAD"
+        },
+        {
+          "url": "https://www.harpersbazaar.co.kr/article/1893477",
+          "publisher": "하퍼스 바자 코리아",
+          "published_date": "2025-12-15",
+          "access": "direct_body",
+          "support": "같은 곡과 화면 밖으로 당겨지는 형식을 독립적으로 소개.",
+          "independent_group": "하퍼스 바자 코리아"
+        }
+      ],
+      "limitations": "원영상·최초 게시물 직접 검증 및 최초 기원·현재 유행 규모·매체 권리 확인은 하지 않았다. 미확인 날짜는 null이다. 영상 형식 설명이며 끌기 동작의 안전성을 검증하거나 권장하지 않는다."
+    },
+    {
+      "slug": "kancho-name-hunt",
+      "title": "칸쵸깡",
+      "path": "memes/kancho-name-hunt.md",
+      "source_revision": "cad79c8391cd106b815fcb20682c8d282eab62d4",
+      "source_blob_sha": "e1aa63e2e99ae152df680f2e4b8ed1abc82ef85f",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "evidence": [
+        {
+          "url": "https://www.nongmin.com/article/20251020500649",
+          "publisher": "농민신문",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "SNS 인증 관찰과 칸쵸깡 정의를 직접 보도.",
+          "independent_group": "농민신문"
+        },
+        {
+          "url": "https://www.ytn.co.kr/_ln/0134_202509221509451254",
+          "publisher": "YTN",
+          "published_date": "2025-09-22",
+          "access": "direct_body",
+          "support": "연예인·팬의 이름 찾기와 인증샷 공유를 방송 보도.",
+          "independent_group": "YTN"
+        }
+      ],
+      "limitations": "원영상·최초 게시물 직접 검증 및 최초 기원·현재 유행 규모·매체 권리 확인은 하지 않았다. 미확인 날짜는 null이다."
+    },
+    {
+      "slug": "word-on-beat",
+      "title": "단어 리듬 게임 챌린지",
+      "path": "memes/word-on-beat.md",
+      "source_revision": "cad79c8391cd106b815fcb20682c8d282eab62d4",
+      "source_blob_sha": "0102c267ac21aaef732e3ab2b066e230b52becc3",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "evidence": [
+        {
+          "url": "https://letter.wepick.kr/post/24016",
+          "publisher": "위픽레터",
+          "published_date": "2026-01-17",
+          "access": "direct_body",
+          "support": "그림을 박자에 맞춰 읽는 방식과 국내 주제 변형을 관찰.",
+          "independent_group": "위픽레터"
+        },
+        {
+          "url": "https://maily.so/mading/posts/x1zgwm43oqg",
+          "publisher": "마딩",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "비슷한 발음의 단어 및 함안군·팬덤의 변형 사용을 확인.",
+          "independent_group": "마딩"
+        }
+      ],
+      "limitations": "원영상·최초 게시물 직접 검증 및 최초 기원·현재 유행 규모·매체 권리 확인은 하지 않았다. 미확인 날짜는 null이다."
+    },
+    {
+      "slug": "ounwan",
+      "title": "오운완",
+      "path": "memes/ounwan.md",
+      "source_revision": "cad79c8391cd106b815fcb20682c8d282eab62d4",
+      "source_blob_sha": "37d3058e0ec60b962797486596b621929db78faa",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "evidence": [
+        {
+          "url": "https://nl.go.kr/NL/contents/N50603000000.do?id=48959&schBcid=normal0302&schM=view",
+          "publisher": "국립중앙도서관",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "독립 SNS 자료 분석을 통해 약어의 뜻과 인증 사용을 제시.",
+          "independent_group": "국립중앙도서관"
+        },
+        {
+          "url": "https://www.incheon.go.kr/museum/MU060104/2143176",
+          "publisher": "인천광역시립박물관",
+          "published_date": "2023-08-18",
+          "access": "direct_body",
+          "support": "다른 기관이 해당 약어를 풀이하며 실제 운동 프로그램명으로 사용.",
+          "independent_group": "인천광역시립박물관"
+        }
+      ],
+      "limitations": "원영상·최초 게시물 직접 검증 및 최초 기원·현재 유행 규모·매체 권리 확인은 하지 않았다. 미확인 날짜는 null이다. 2024년 이후 신조어로 한정하지 않음. 2023년 사용 기록이 있다."
+    }
+  ],
+  "limitations": [
+    "Canonical only, no new usage approval.",
+    "Sources include corporate blog, product announcement, broadcaster transcript and actual public institutional usage; publisher count is not independent popularity measurement.",
+    "Bugatti is a description of a video format, not safety validation or instructions for physical reproduction.",
+    "Candy-name hunting is described, not a recommendation for repeated purchase. No exercise effect or personal completion is verified."
+  ]
+}

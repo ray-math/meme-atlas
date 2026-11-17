@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "batch_id": "korean-verified-20261117-bulk-wave18",
+  "kind": "Approved public-source metadata; temporary importer input",
+  "review_kind": "Research AI source reading plus separate canonical editorial AI; no human validation",
+  "entries": [
+    {
+      "slug": "geureureuk-galg",
+      "title": "그르륵 갉",
+      "path": "memes/geureureuk-galg.md",
+      "source_revision": "700f1c6a2186b5863937511084785e50db78829d",
+      "source_blob_sha": "ffdab08c5787715c2da828b8f3949bd0abc9dead",
+      "scope_type": "korean_usage",
+      "scope_basis": "2023년 국내 온라인 용법과 독립 발행 주체의 정의 또는 후속 실제 변용 확인.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/bMPDlQnXxP",
+          "publisher": "트렌드어워드(Daum 전재)",
+          "published_date": "2023-08-29",
+          "access": "direct_body",
+          "supports": "플라스틱 의자 소리, 진지한 대화 예문 및 커뮤니티 관측.",
+          "independent_group": "trendaword-chair-2023"
+        },
+        {
+          "url": "https://www.i-boss.co.kr/ab-6141-63203",
+          "publisher": "큐레터·아이보스",
+          "published_date": "2023-12-14",
+          "access": "direct_body",
+          "supports": "의자 소리 정의, 진솔한 대화 의미 및 CU 이벤트 회고.",
+          "independent_group": "qletter-review-2023"
+        }
+      ],
+      "limitations": [
+        "두 글의 CU 이벤트 언급은 동일 사건이므로 독립 관측 둘로 합산하지 않았다. 트렌드어워드의 별도 온라인 문맥과 큐레터의 정의·회고를 교차 확인.",
+        "원트윗은 직접 열지 않았고 최초 게시 시점·최초 작성자를 단정하지 않았다.",
+        "2023-08-29는 Daum 검색 표시 및 앞서 확인한 원 뉴스레터 호수 날짜 기준."
+      ]
+    },
+    {
+      "slug": "samujeogin-taedo",
+      "title": "사무적인 태도 섭섭하네요",
+      "path": "memes/samujeogin-taedo.md",
+      "source_revision": "700f1c6a2186b5863937511084785e50db78829d",
+      "source_blob_sha": "10aca79f73f01186f9cd07b20e67b2531b19dd72",
+      "scope_type": "korean_usage",
+      "scope_basis": "2023년 국내 온라인 용법과 독립 발행 주체의 정의 또는 후속 실제 변용 확인.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/고구마팜-사무적인-태도-섭섭하네요-최신-밈-모르겠/",
+          "publisher": "고구마팜",
+          "published_date": "2023-07-21",
+          "access": "direct_body",
+          "supports": "서운함을 가볍게 말하는 SNS 반응 용법 설명.",
+          "independent_group": "gogumafarm-july2023"
+        },
+        {
+          "url": "https://brunch.co.kr/@@cFnV/203",
+          "publisher": "고대문화 편집위원회",
+          "published_date": "2024-12-05",
+          "access": "direct_body",
+          "supports": "필자가 교지 관련 문장으로 직접 변용한 서두의 사용 예.",
+          "independent_group": "komun-meme-essay2024"
+        }
+      ],
+      "limitations": [
+        "두 번째는 2024년 독립 실제 사용이며 2023년 동시기 자료 두 개로 세지 않는다. 본문은 2024년7월 기준을 밝히지만 웹 발행일은 12월5일이다.",
+        "고구마팜이 설명한 익명 혼인신고 글의 실제 사건 여부·작성자·공무원 잘못을 확인하거나 주장하지 않았다.",
+        "고대문화 글의 일반 밈 이론 전체를 근거로 차용하지 않고 해당 표현의 실제 사용만 확인했다."
+      ]
+    },
+    {
+      "slug": "eve-psyche-and",
+      "title": "이브, 프시케 그리고 ○○",
+      "path": "memes/eve-psyche-and.md",
+      "source_revision": "eea08135d02fd618ec15be9ea6a9b8ac99fd96b4",
+      "source_blob_sha": "ff3eaec36e8947a8b9f2c589b404b514960417e6",
+      "scope_type": "korean_usage",
+      "scope_basis": "2023년 서로 다른 국내 뉴스레터 직접 본문에서 제목 변형 형식과 사용 확인.",
+      "evidence": [
+        {
+          "url": "https://maily.so/trendaword/posts/knrjv4qwrld",
+          "publisher": "Trend A Word",
+          "published_date": "2023-07-06",
+          "access": "direct_body",
+          "supports": "노래 제목의 문형을 유지하며 대상·상황을 바꾸는 두 유형과 실제 게시물 관측.",
+          "independent_group": "trendaword-eve2023"
+        },
+        {
+          "url": "https://www.careet.net/Newsletter/Detail/1972",
+          "publisher": "캐릿",
+          "published_date": "2023-07-18",
+          "access": "direct_body",
+          "supports": "문형 의미 및 댓글·유튜브 제목에 쓰인 변형 소개.",
+          "independent_group": "careet166-eve2023"
+        }
+      ],
+      "limitations": [
+        "원곡 전체 가사 및 안무는 다루지 않고 제목 변형만 설명.",
+        "원 게시물 작성자나 정확한 최초 발생일을 단정하지 않았다.",
+        "각 뉴스레터가 예시를 소개한 사실을 기록하며 광범위한 사용률·현재 유행을 추정하지 않았다."
+      ]
+    },
+    {
+      "slug": "banbaksi-ni-mari-majeum",
+      "title": "반박시 니 말이 맞음",
+      "path": "memes/banbaksi-ni-mari-majeum.md",
+      "source_revision": "f1734cb525e200bb1c1b45bc164e351b0c11e825",
+      "source_blob_sha": "d0b2b9478f804e0f715f9c233785e655ac2e1113",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 문화에서 쓰이는 표현의 정의와 용례에 한정한다.",
+      "evidence": [
+        {
+          "url": "https://www.mk.co.kr/news/contributors/10291657",
+          "publisher": "매일경제",
+          "published_date": "2022-04-16",
+          "access": "direct_body",
+          "support": "글 말미의 고정 문구와 재반박하지 않겠다는 해석을 설명하며 존중으로 읽는 대안도 제시한다.",
+          "independent_group": "mk-jeongjiwoo"
+        },
+        {
+          "url": "https://v.daum.net/v/kipM6z0u2u",
+          "publisher": "한겨레21",
+          "published_date": "2021-10-09",
+          "access": "direct_body",
+          "support": "축약형과 토론에서 물러나는 용법을 논평한다. 필자의 세대 일반화는 채택하지 않는다.",
+          "independent_group": "h21-umkiho"
+        }
+      ],
+      "limitations": "두 칼럼의 해석 차이를 보존한다. 최초 작성자와 모든 사용자의 심리, 원게시물은 검증하지 않았다."
+    },
+    {
+      "slug": "named-user",
+      "title": "네임드",
+      "path": "memes/named-user.md",
+      "source_revision": "f1734cb525e200bb1c1b45bc164e351b0c11e825",
+      "source_blob_sha": "5f18d04adcfeb8c55c7bed01a58c0e4119dbc600",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 문화에서 쓰이는 표현의 정의와 용례에 한정한다.",
+      "evidence": [
+        {
+          "url": "https://fannstar.tf.co.kr/fnnews/read/132445?c=2",
+          "publisher": "팬앤스타",
+          "published_date": "2025-06-05",
+          "access": "direct_body",
+          "support": "덕질 용어 설명에서 커뮤니티 내 인지도 높은 이용자라는 뜻을 제시한다.",
+          "independent_group": "fannstar-132445"
+        },
+        {
+          "url": "https://ierlab.com/wp-content/uploads/2025/08/ierlab_gts_influencer_report.pdf",
+          "publisher": "Influencer Ethnography Research Lab",
+          "published_date": "2025",
+          "access": "direct_body",
+          "support": "42쪽에서 한국 온라인 공동체의 유명 이용자를 named로 부르는 용법을 설명한다. Sohn 외 2018을 인용한 연구 종합이다.",
+          "independent_group": "ierlab-sohn2018"
+        }
+      ],
+      "limitations": "두 번째 자료는 독립 현장 관측 두 건이 아니라 기존 연구를 인용한 보고서이다. 연도만 확인했으며 정확한 월일·게임 원어 기원은 단정하지 않는다."
+    },
+    {
+      "slug": "jonggyeolja",
+      "title": "종결자",
+      "path": "memes/jonggyeolja.md",
+      "source_revision": "f1734cb525e200bb1c1b45bc164e351b0c11e825",
+      "source_blob_sha": "c373ebdcf6ccb512e52e2b18a1fccde61767ad5b",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 문화에서 쓰이는 표현의 정의와 용례에 한정한다.",
+      "evidence": [
+        {
+          "url": "https://sports.khan.co.kr/article/201103202038133",
+          "publisher": "스포츠경향",
+          "published_date": "2011-03-20",
+          "access": "direct_body",
+          "support": "온라인 공동체에서 월등한 능력을 가진 사람을 부르는 용법을 설명한다.",
+          "independent_group": "khan-20110320"
+        },
+        {
+          "url": "https://study.korean.net/servlet/action.app.WeekKorStudAction?p_bdseq=11&p_dispnum=11&p_menuCd=m30404&p_pageno=0&p_process=view&p_tabseq=94",
+          "publisher": "스터디코리안",
+          "published_date": "2012-05-04",
+          "access": "direct_body",
+          "support": "교육 자료 본문에서 최고 수준의 사람·대상과 부정적 극단을 나타내는 용법도 설명한다.",
+          "independent_group": "studykorean-94"
+        }
+      ],
+      "limitations": "최초 읽기에서 교육 자료 본문을 확인했으나 후속 재열기는 시간 초과했다. 두 자료가 전하는 게임 기원 이야기는 독립 원자료 검증이 아니므로 본문에서 제외했다."
+    },
+    {
+      "slug": "meokgeum",
+      "title": "먹금",
+      "path": "memes/meokgeum.md",
+      "source_revision": "f1734cb525e200bb1c1b45bc164e351b0c11e825",
+      "source_blob_sha": "0d4d9611b9d57ca724fe78e692da61022b8e0c4b",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 문화에서 쓰이는 표현의 정의와 용례에 한정한다.",
+      "evidence": [
+        {
+          "url": "https://m.en.seoul.co.kr/news/2018/08/14/20180814500018",
+          "publisher": "서울신문",
+          "published_date": "2018-08-14",
+          "access": "direct_body",
+          "support": "먹이 금지의 축약 및 말·행동에 관심을 주지 말라는 뜻을 명시한다.",
+          "independent_group": "seoul-20180814"
+        },
+        {
+          "url": "https://v.daum.net/v/20250620091006214",
+          "publisher": "엑스포츠뉴스",
+          "published_date": "2025-06-20",
+          "access": "direct_body",
+          "support": "특정 주제에 언급·반응하지 말라는 뜻과 이를 상대에게 썼을 때 문제될 수 있음을 설명한다.",
+          "independent_group": "xports-20250620"
+        }
+      ],
+      "limitations": "서로 다른 시기의 보도에서 용어 뜻만 사용했다. 인물의 사생활·혐의·열애설을 본문에 옮기지 않았고 사실 판단도 하지 않았다. 병먹금과 자동 별칭 병합하지 않는다."
+    },
+    {
+      "slug": "toca-toca-dance",
+      "title": "토카토카 댄스",
+      "path": "memes/toca-toca-dance.md",
+      "source_revision": "84f43a078476fc927b7ffe4a0d75b0be0bc8f048",
+      "source_blob_sha": "e9685c77e41f55963320fc8009500d1491c5c0de",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 트렌드 뉴스레터의 춤 챌린지 소개와 국내 참여자 인터뷰 보도로 국내 사용 확인.",
+      "evidence": [
+        {
+          "publisher": "Trend A Word",
+          "url": "https://maily.so/trendaword/posts/b26b9611",
+          "published_at": "2023-07-13",
+          "supports": "2023년 상반기 댄스 챌린지 소개와 토카토카 전용 해설 연결.",
+          "limitations": "세부 안무·최초 제작자·해외 최초 유행 경로는 확정하지 않음.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        },
+        {
+          "publisher": "뉴시스",
+          "url": "https://mobile.newsis.com/view/NISX20230905_0002438354",
+          "published_at": "2023-09-06",
+          "supports": "직접 인터뷰 기사에서 국내 출연자의 토카토카 춤 챌린지 참여 영상을 설명.",
+          "limitations": "주제인 다른 챌린지의 성적 맥락은 옮기지 않음. 영상 직접 재생 아님.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        }
+      ],
+      "limitations": [
+        "원영상·원댓글 직접 재생/열람을 주장하지 않음.",
+        "최초 발생일이나 현재 유행세를 추정하지 않음.",
+        "예문은 편집 창작."
+      ]
+    },
+    {
+      "slug": "patsu",
+      "title": "팟수",
+      "path": "memes/patsu.md",
+      "source_revision": "84f43a078476fc927b7ffe4a0d75b0be0bc8f048",
+      "source_blob_sha": "ccc09d00e9011d8ac501b6513a967b5fdc363b8a",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 플랫폼 시청자 호칭을 국내 보도와 독립 학술 연구 본문으로 확인.",
+      "evidence": [
+        {
+          "publisher": "매일경제",
+          "url": "https://www.mk.co.kr/news/business/7621889",
+          "published_at": "2016-12-15",
+          "supports": "다음tv팟을 계속 보는 사람을 가리키는 신조어라는 직접 설명.",
+          "limitations": "2016년 서비스 통합 보도의 역사적 맥락이며 현재 플랫폼 상태를 주장하지 않음.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        },
+        {
+          "publisher": "대중서사학회",
+          "url": "https://journal.kci.go.kr/djnar/archive/articlePdf?artiId=ART002850503",
+          "published_at": null,
+          "supports": "박인성의 대중서사연구 28권 2호(2022) 논문 73쪽: 다음팟+백수 결합과 시청자 자기 호칭.",
+          "limitations": "논문의 광범위한 정치·성별·심리 해석은 가져오지 않음. 정확한 발행일 미확인.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        }
+      ],
+      "limitations": [
+        "원영상·원댓글 직접 재생/열람을 주장하지 않음.",
+        "최초 발생일이나 현재 유행세를 추정하지 않음.",
+        "예문은 편집 창작."
+      ]
+    }
+  ],
+  "limitations": [
+    "Canonical lexical entries only; no usage promotion, consent or action authorization.",
+    "Research source-body reading and separate stored-text AI editorial review; not human verification or original-video/comment replay.",
+    "Shared CU event remains one event. Separate newsletter publishers do not prove separate original examples. Later cultural criticism is subsequent use, not contemporaneous second evidence.",
+    "Named-user evidence includes a research synthesis citing Sohn2018, not new fieldwork. Jonggyeolja source had an initial body reading and later timeout; not currently repeatably verified.",
+    "No anonymous incident fact judgment, public-worker blame, employment or psychological inference, copied lyrics, first-origin or current-popularity claims."
+  ]
+}

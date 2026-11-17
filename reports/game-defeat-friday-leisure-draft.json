@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "document_kind": "unregistered_usage_draft",
+  "registration_status": "not_registered",
+  "base_commit": "74ae9b256858549888be90f28a3c0b8b7cb51909",
+  "scope_note": "GG 자기 참가 게임의 패배 인정과 불금의 명시적 금요일 여가 기대 각 1용법만 다루는 draft. 실제 게임 시스템 종료·공식 결과·상대 수락·현재 날짜를 인증하지 않는다.",
+  "provenance": "canonical 본문과 Git blob SHA는 지정 커밋에서 직접 확인했다. 외부 기사 원문은 별도 조사 담당의 직접 확인 보고를 참고했으며 이 작성자가 원문을 재독했다고 주장하지 않는다. 예문·맥락 경계·안전 분류는 편집 판단이며 기사 사실과 구별한다.",
+  "proposed_vocabulary": {
+    "intents": [
+      {
+        "label": "패배인정",
+        "aliases": [],
+        "definition": "자신이 참가한 승부에서 패배를 받아들인다는 뜻을 표현함. 상대에게 패배·퇴장을 강요하거나 모든 활동을 포기하는 기능과 구별한다."
+      }
+    ],
+    "situations": [
+      {
+        "label": "게임패배",
+        "aliases": [],
+        "definition": "자신이 참가한 게임에서 패배를 인정하며 해당 승부를 마무리하는 상황. 단순히 불리한 국면이나 타인의 패배 관찰과 구별한다."
+      },
+      {
+        "label": "금요일여가",
+        "aliases": [],
+        "definition": "금요일 저녁의 자유 시간이나 여가 활동을 즐기거나 기대하는 상황. 단순한 요일 정보와 구별하며 음주·외출을 필수로 뜻하지 않는다."
+      }
+    ]
+  },
+  "source_review": [
+    {
+      "entry_id": "gg",
+      "url": "https://www.gamemeca.com/view.php?gid=76794",
+      "published_date": "2009-03-09",
+      "support": "게임 경기에서 패배 인정으로 쓰인 표현의 보도.",
+      "limits": "영상·원채팅을 확인한 것은 아니다. 참가자 신상·학교·상금 등 개인 정보는 수록하지 않는다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "entry_id": "gg",
+      "url": "https://www.inven.co.kr/webzine/news/?news=21210",
+      "published_date": "2009-05-14",
+      "support": "게임에서의 표현 관행과 뜻 설명.",
+      "limits": "원채팅·영상은 확인하지 않았다. 관행을 모든 게임 시스템의 공식 종료 규칙이나 상대의 수락 보장으로 일반화하지 않는다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "entry_id": "fiery-friday",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148762504",
+      "published_date": "2013-06-19",
+      "support": "광고의 표현 사용과 뜻 설명.",
+      "limits": "영상을 확인하지 않았다. 광고 사용이 모든 사람의 실제 기대·여가 가능성을 입증하지 않는다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "entry_id": "fiery-friday",
+      "url": "https://www.yna.co.kr/view/AKR20150116110200039",
+      "published_date": "2015-01-16",
+      "support": "미디어랩 자료의 의미 설명.",
+      "limits": "카드 세부를 확인하지 않았다. 음주나 외출을 필수 의미로 채택하지 않는다.",
+      "access": "researcher_direct_read_report"
+    }
+  ],
+  "profiles": [
+    {
+      "entry_id": "gg",
+      "source_sha": "52ecef09841e9832ec832c290db7a51649c514d9",
+      "review_status": "draft",
+      "review_note": "자기 참가 게임의 자기 패배 인정만 주석한다. 일반 종료 인사·승자가 상대에게 퇴장을 강요하는 용법·일상 포기 파생은 이번 범위가 아니다. canonical 본문과 Git blob SHA는 지정 커밋에서 직접 확인했다. 외부 기사 원문은 별도 조사 담당의 직접 확인 보고를 참고했으며 이 작성자가 원문을 재독했다고 주장하지 않는다. 예문·맥락 경계·안전 분류는 편집 판단이며 기사 사실과 구별한다.",
+      "usages": [
+        {
+          "id": "own-game-defeat",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "패배인정"
+          ],
+          "situations": [
+            "게임패배"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "온라인댓글",
+            "친근한대화"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "자신이 참가한 게임에서 자기 패배를 받아들이고 그 승부를 마무리하겠다는 뜻을 전한다. 인정을 하는 본인의 승부 태도가 초점이며 상대의 패배나 퇴장을 요구하지 않는다.",
+          "avoid_when": [
+            "단순히 불리한 국면을 아직 패배를 인정하지 않은 사람의 포기 의사로 단정하는 경우",
+            "승자가 상대에게 패배 인정·퇴장을 강요하거나 조롱하는 경우",
+            "GG 발화만으로 게임 시스템 종료·공식 결과 확정·상대의 수락을 보장하는 경우",
+            "타인의 패배를 관찰한 것만으로 자기 패배 용법을 적용하는 경우",
+            "일상 활동 전체의 포기나 삶의 위기·도움 요청을 게임 패배 농담으로 처리하는 경우"
+          ],
+          "example": {
+            "text": "이번 판은 내가 졌어. 패배를 인정할게. GG.",
+            "kind": "editorial"
+          },
+          "review_note": "standard는 명시적인 자기 참가 게임의 자기 패배 인정이라는 좁은 편집 맥락에 한정한다. 체념·슬픔·후련함 등 실제 정서를 추정하지 않는다. 필터는 발화자의 상황 설명일 뿐 공식 경기 판정이나 기술적 종료 확인이 아니다.",
+          "retrieval_requirements": {
+            "situations": [
+              "게임패배"
+            ],
+            "targets": [
+              "자기"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entry_id": "fiery-friday",
+      "source_sha": "eb4d5ec8532b249d8130fd9fb643e74865257167",
+      "review_status": "draft",
+      "review_note": "금요일 저녁 여가를 기대한다고 명시한 용례에 한해 기대 정서를 주석한다. 단어 하나만으로 실제 화자의 들뜸·휴식 가능성을 추정하지 않는다. canonical 본문과 Git blob SHA는 지정 커밋에서 직접 확인했다. 외부 기사 원문은 별도 조사 담당의 직접 확인 보고를 참고했으며 이 작성자가 원문을 재독했다고 주장하지 않는다. 예문·맥락 경계·안전 분류는 편집 판단이며 기사 사실과 구별한다.",
+      "usages": [
+        {
+          "id": "friday-leisure-anticipation",
+          "emotion_status": "annotated",
+          "emotions": [
+            "기대"
+          ],
+          "intents": [
+            "상태설명"
+          ],
+          "situations": [
+            "금요일여가"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "금요일 저녁에 자유 시간이나 여가를 보낼 수 있기를 기대하며 그 상황을 짧게 표현한다. 기대가 명시된 용례이며 단순 날짜 정보만으로 이 정서를 부여하지 않는다.",
+          "avoid_when": [
+            "금요일이 아닌 날이나 요일 정보만 있는 입력에 현재 금요일의 기대를 만들어 넣는 경우",
+            "입력에 없는 새 약속·장소·음주 계획·퇴근 완료를 만들어 말하는 경우",
+            "음주·외출을 반드시 해야 하는 것으로 제시하거나 강요하는 경우",
+            "야근 중이거나 쉬기 어려운 상대에게 놀라고 압박하는 경우",
+            "타인의 수상·성과 소식 등 여가와 무관한 상황에 적용하는 경우"
+          ],
+          "example": {
+            "text": "금요일 저녁의 자유 시간이 기대돼. 불금이라는 말이 딱이네.",
+            "kind": "editorial"
+          },
+          "review_note": "예문은 금요일 저녁 여가의 기대를 명시한 창작이며 실제 오늘의 날짜·일정·퇴근 여부를 보고한 문장이 아니다. 기대는 이 용례가 전달하는 정서 색채이며 실제 내면 인증은 아니다. standard는 이 좁은 맥락의 편집 판단이고 다른 사람의 여가 가능성을 보장하지 않는다.",
+          "retrieval_requirements": {
+            "situations": [
+              "금요일여가"
+            ],
+            "targets": [
+              "상황"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "verification_limits": [
+    "개인 정보나 원문 참가자의 신상·학교·상금은 복제하지 않았다.",
+    "두 profile은 draft이며 등록·승격·추천 노출을 승인하지 않는다.",
+    "필터 일치는 실제 게임 상태·날짜·여가 가능성을 검증하지 않는다. 최종 맥락 확인이 필요하다.",
+    "Python 검색·스키마·회귀·CI는 실행하지 않았다."
+  ]
+}

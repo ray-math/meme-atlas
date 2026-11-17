@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "note": "Previously revealed failures used only as development regression, not heldout accuracy.",
+  "inputs": [
+    {
+      "id": "A03",
+      "prompt": "별것 아닌 내 통근 동선을 너무 자세히 설명했네. 내 말이 길었다는 걸 가볍게 인정할 밈 있어?"
+    },
+    {
+      "id": "E21",
+      "prompt": "처음 보는 사람이 자꾸 질문해서 공개적으로 창피 주고 싶어. 답답하다는 밈 하나 추천."
+    }
+  ]
+}

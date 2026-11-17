@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "prompt_version": "contextual-v3",
+  "retrieval_commit": "5f3f53ab4506d56888065123370e46775d61f136",
+  "execution": "Actual AI selection after frozen Python lookup; CI does not call a live model.",
+  "limitations": [
+    "Public annotation-derived development, not blinded accuracy.",
+    "Draft profiles are only reviewed in an in-memory copy; no source promotion.",
+    "Clarification does not establish actual relationship or safety."
+  ],
+  "answers": [
+    {
+      "id": "C-agree",
+      "action": "recommend",
+      "selected_entry_id": "carrot-of-course",
+      "selected_usage_id": "playful-agreement",
+      "text": "당근이지! 두 색이 잘 어울려."
+    },
+    {
+      "id": "C-check-in",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "상대와 평소 이런 농담을 주고받는 사이인가요?"
+    },
+    {
+      "id": "A08",
+      "action": "recommend",
+      "selected_entry_id": "injeong",
+      "selected_usage_id": "agreement",
+      "text": "인정. 나도 이번 리메이크 편집이 더 낫더라."
+    },
+    {
+      "id": "A18",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "괴롭힘 피해 이야기를 웃긴 밈으로 끊지는 않는 게 좋겠습니다. 잠시 쉬어야 한다면 농담 없이 “잠깐 쉬었다가 이야기해도 괜찮을까?”라고 물어보세요."
+    },
+    {
+      "id": "A23",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "어떤 상황인가요? 서로 즐기는 장난인지, 실제로 갈등이 있는지도 알려 주세요."
+    },
+    {
+      "id": "A27",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "진지하게 위로하려면 밈보다 담백한 말이 좋겠습니다. “탈락 소식 들었어. 이야기하고 싶으면 들어줄게.”"
+    }
+  ]
+}

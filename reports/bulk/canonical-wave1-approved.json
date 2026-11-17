@@ -1,0 +1,858 @@
+{
+  "schema_version": 1,
+  "kind": "Approved public-source metadata; raw importer inputs remain temporary",
+  "batch_id": "korean-verified-20261117-bulk-wave1",
+  "review_kind": "Research AI read source bodies; separate AI read canonical and evidence report; not human validation",
+  "entries": [
+    {
+      "slug": "chill-guy",
+      "title": "칠 가이",
+      "path": "memes/chill-guy.md",
+      "source_revision": "15d52a411a13c8e7b4bace951961afe8001d7b7c",
+      "source_blob_sha": "cddf1d6197edb8bcbb7c7d3640145210b701ff4b",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539581",
+          "publisher": "이투데이",
+          "published_date": "2025-12-24",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://gogumafarm.kr/2025년엔-아주-많은-밈이-잇엇슨-올해를-뒤흔든-밈-총/",
+          "publisher": "고구마팜",
+          "published_date": "2025-12-17",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "gogumafarm"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "naniga-suki",
+      "title": "나니가 스키",
+      "path": "memes/naniga-suki.md",
+      "source_revision": "15d52a411a13c8e7b4bace951961afe8001d7b7c",
+      "source_blob_sha": "66f7647dcbddfb0381fe0fc146f4af8e3d5bba53",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539581",
+          "publisher": "이투데이",
+          "published_date": "2025-12-24",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://gogumafarm.kr/2025년엔-아주-많은-밈이-잇엇슨-올해를-뒤흔든-밈-총/",
+          "publisher": "고구마팜",
+          "published_date": "2025-12-17",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "gogumafarm"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "italian-brainrot",
+      "title": "이탈리안 브레인롯",
+      "path": "memes/italian-brainrot.md",
+      "source_revision": "15d52a411a13c8e7b4bace951961afe8001d7b7c",
+      "source_blob_sha": "daf711f90facdf1265fdcc8cb797dc3ed92ad72d",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539581",
+          "publisher": "이투데이",
+          "published_date": "2025-12-24",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://gogumafarm.kr/2025년엔-아주-많은-밈이-잇엇슨-올해를-뒤흔든-밈-총/",
+          "publisher": "고구마팜",
+          "published_date": "2025-12-17",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "gogumafarm"
+        }
+      ],
+      "limitations": "개별 캐릭터는 동의어가 아니므로 alias 처리하지 않음. 일부 음성에 혐오·종교 모욕이 있다는 가능성 때문에 음성/번역/개별 서사는 수록하지 않고 시각적 형식만 설명."
+    },
+    {
+      "slug": "hambugi",
+      "title": "햄부기",
+      "path": "memes/hambugi.md",
+      "source_revision": "15d52a411a13c8e7b4bace951961afe8001d7b7c",
+      "source_blob_sha": "978f0044b5770ddebe8a99bcc9dd2bf6739d967d",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539581",
+          "publisher": "이투데이",
+          "published_date": "2025-12-24",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://www.wikitree.co.kr/articles/1023054",
+          "publisher": "위키트리",
+          "published_date": "2025-02-05",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "wikitree"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "do-you-think-i-dont-know",
+      "title": "내가 그걸 모를까",
+      "path": "memes/do-you-think-i-dont-know.md",
+      "source_revision": "15d52a411a13c8e7b4bace951961afe8001d7b7c",
+      "source_blob_sha": "ebde617e23850ea35f112407f20e973357853aa8",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539581",
+          "publisher": "이투데이",
+          "published_date": "2025-12-24",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://v.daum.net/v/20251007080125858",
+          "publisher": "경기일보 (Daum 게재)",
+          "published_date": "2025-10-07",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "kyeonggi"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "good-night-ojousama",
+      "title": "잘자요 아가씨",
+      "path": "memes/good-night-ojousama.md",
+      "source_revision": "15d52a411a13c8e7b4bace951961afe8001d7b7c",
+      "source_blob_sha": "4b7f8b7538a7b5d833640cf14a6eb39229dac17c",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "evidence": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2432581",
+          "publisher": "이투데이",
+          "published_date": "2024-12-26",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "etoday"
+        },
+        {
+          "url": "https://gogumafarm.kr/밈-바래-다-줄게-2024년-밈-총결산/",
+          "publisher": "고구마팜",
+          "published_date": "2024-12-11",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "gogumafarm"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "heogeodeonggeodeongseu",
+      "title": "허거덩거덩스",
+      "path": "memes/heogeodeonggeodeongseu.md",
+      "source_revision": "15d52a411a13c8e7b4bace951961afe8001d7b7c",
+      "source_blob_sha": "9f4c549ba1b0542a0bae9af4d2f48c2dfd3d7ada",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/2025년엔-아주-많은-밈이-잇엇슨-올해를-뒤흔든-밈-총/",
+          "publisher": "고구마팜",
+          "published_date": "2025-12-17",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "gogumafarm"
+        },
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=3311&pageidx=1",
+          "publisher": "캐릿",
+          "published_date": "2025-03-11",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "careet"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "galteyateya",
+      "title": "갈테야테야",
+      "path": "memes/galteyateya.md",
+      "source_revision": "15d52a411a13c8e7b4bace951961afe8001d7b7c",
+      "source_blob_sha": "240f37f0d24d0337ffa9657c0bb58ace513d0e07",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "evidence": [
+        {
+          "url": "https://www.kca.go.kr/webzine/board/view?div=kca_2603&linkId=988&menuId=MENU00330",
+          "publisher": "한국소비자원 소비자시대",
+          "published_date": "2026-03",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "kca"
+        },
+        {
+          "url": "https://v.daum.net/v/20251007080125858",
+          "publisher": "경기일보 (Daum 게재)",
+          "published_date": "2025-10-07",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "kyeonggi"
+        }
+      ],
+      "limitations": "기원 사연의 실제 발생 여부는 검증되지 않아 역사적 사실로 단정하지 않음. 두 출처의 의지/좌절 설명을 상호배타적 정의로 만들지 않음."
+    },
+    {
+      "slug": "azasu",
+      "title": "아자스",
+      "path": "memes/azasu.md",
+      "source_revision": "15d52a411a13c8e7b4bace951961afe8001d7b7c",
+      "source_blob_sha": "46883375fb13dbeeda9a0ed0467b4d4fa50691a2",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "evidence": [
+        {
+          "url": "https://www.kca.go.kr/webzine/board/view?div=kca_2603&linkId=988&menuId=MENU00330",
+          "publisher": "한국소비자원 소비자시대",
+          "published_date": "2026-03",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "kca"
+        },
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=10599&mode=view&page=10&pageSize=12&searchStr=&serboardsort=",
+          "publisher": "인크로스",
+          "published_date": "2025-10-15",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "incaz"
+        }
+      ],
+      "limitations": "실존 인물 논란·혐의는 포함하지 않음. 비꼼의 기능만 중립 설명. 감사로만 분류하지 않음."
+    },
+    {
+      "slug": "tiramisu-cake",
+      "title": "티라미수 케이크",
+      "path": "memes/tiramisu-cake.md",
+      "source_revision": "15d52a411a13c8e7b4bace951961afe8001d7b7c",
+      "source_blob_sha": "8e8298cdd747e3e859af95571c9db50cd703516d",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 발행 주체의 본문 두 개를 읽고 공통 범위와 확인된 맥락만 새로 요약함.",
+      "evidence": [
+        {
+          "url": "https://www.newsis.com/view/?id=NISX20241205_0002985899",
+          "publisher": "뉴시스",
+          "published_date": "2024-12-16",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "newsis"
+        },
+        {
+          "url": "https://enews.imbc.com/News/RetrieveNewsInfo/435342",
+          "publisher": "iMBC연예",
+          "published_date": "2024-10-31",
+          "access": "direct_body",
+          "support": "표현의 의미·맥락 및 국내 사용을 본문에서 확인",
+          "independent_group": "imbc"
+        }
+      ],
+      "limitations": "최초 작성자·최초 연도·현재 확산 규모는 단정하지 않음. 외부 이미지·영상·기사 문장 복사 없음."
+    },
+    {
+      "slug": "kaelbak",
+      "title": "캘박",
+      "path": "memes/kaelbak.md",
+      "source_revision": "2901343fbc2f87b2c909e315c23200ef3fbd221f",
+      "source_blob_sha": "f8719c4b9c257f6c0099e7596fb1187fff8df304",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/ksRuA8SuRr",
+          "publisher": "jobsN",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "발행일 본문 미표시. 송영조署名과 뜻풀이 확인.",
+          "independent_group": "jobsN"
+        },
+        {
+          "url": "https://www.kmib.co.kr/article/view_amp.asp?arcid=0016715119",
+          "publisher": "국민일보",
+          "published_date": "2022-01-29",
+          "access": "direct_body",
+          "supports": "본문105~107행의 캘박·점메추·저메추 뜻과 상황.",
+          "independent_group": "국민일보"
+        }
+      ],
+      "limitations": [
+        "최초 제작자·정확한 최초 게시일 미확정",
+        "원 미디어 직접 재생 없이 보도 본문 범위로 작성"
+      ]
+    },
+    {
+      "slug": "banmo",
+      "title": "반모",
+      "path": "memes/banmo.md",
+      "source_revision": "2901343fbc2f87b2c909e315c23200ef3fbd221f",
+      "source_blob_sha": "ddc2cf44538bb00f7605a43981263ef405f720b1",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "evidence": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "본문126~130행의 온라인 표현 뜻풀이.",
+          "independent_group": "서울신문"
+        },
+        {
+          "url": "https://v.daum.net/v/ksRuA8SuRr",
+          "publisher": "jobsN",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "발행일 본문 미표시. 송영조署名과 뜻풀이 확인.",
+          "independent_group": "jobsN"
+        }
+      ],
+      "limitations": [
+        "최초 제작자·정확한 최초 게시일 미확정",
+        "원 미디어 직접 재생 없이 보도 본문 범위로 작성"
+      ]
+    },
+    {
+      "slug": "bakbak",
+      "title": "박박",
+      "path": "memes/bakbak.md",
+      "source_revision": "2901343fbc2f87b2c909e315c23200ef3fbd221f",
+      "source_blob_sha": "0a5d2cdb46092b15eaf702788da8a5e0e6682ba4",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "evidence": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "본문126~130행의 온라인 표현 뜻풀이.",
+          "independent_group": "서울신문"
+        },
+        {
+          "url": "https://v.daum.net/v/ksRuA8SuRr",
+          "publisher": "jobsN",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "발행일 본문 미표시. 송영조署名과 뜻풀이 확인.",
+          "independent_group": "jobsN"
+        }
+      ],
+      "limitations": [
+        "최초 제작자·정확한 최초 게시일 미확정",
+        "원 미디어 직접 재생 없이 보도 본문 범위로 작성"
+      ]
+    },
+    {
+      "slug": "jjajja",
+      "title": "짜짜",
+      "path": "memes/jjajja.md",
+      "source_revision": "2901343fbc2f87b2c909e315c23200ef3fbd221f",
+      "source_blob_sha": "1a581f34726a61e05fa341a0d08f447a95ee5d96",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "evidence": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "본문126~130행의 온라인 표현 뜻풀이.",
+          "independent_group": "서울신문"
+        },
+        {
+          "url": "https://v.daum.net/v/ksRuA8SuRr",
+          "publisher": "jobsN",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "발행일 본문 미표시. 송영조署名과 뜻풀이 확인.",
+          "independent_group": "jobsN"
+        }
+      ],
+      "limitations": [
+        "최초 제작자·정확한 최초 게시일 미확정",
+        "원 미디어 직접 재생 없이 보도 본문 범위로 작성"
+      ]
+    },
+    {
+      "slug": "cherry-peace",
+      "title": "체리피스",
+      "path": "memes/cherry-peace.md",
+      "source_revision": "2901343fbc2f87b2c909e315c23200ef3fbd221f",
+      "source_blob_sha": "9a9039dd4de83bc3defa04c0bc52c5a41e63e3d5",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "evidence": [
+        {
+          "url": "https://ynoblesse.com/y-y_culture%E2%A0%80%EC%9A%94%EC%A6%98-%EC%95%84%EC%9D%B4%EB%8F%8C-%EC%82%AC%EC%A7%84%EC%97%90%EC%84%9C-%EC%9C%A0%ED%96%89%ED%95%98%EA%B3%A0-%EC%9E%88%EB%8A%94-%ED%8F%AC%EC%A6%88%EA%B0%80/",
+          "publisher": "Y magazine",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "발행일 본문 미표시. 본문57~60행에서 동작과 국내 아이돌 활용 소개.",
+          "independent_group": "Y magazine"
+        },
+        {
+          "url": "https://gogumafarm.kr/2022년-밈-최종-정리/",
+          "publisher": "고구마팜",
+          "published_date": "2022-12-13",
+          "access": "direct_body",
+          "supports": "연말 결산에서 체리피스 언급.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "limitations": [
+        "최초 제작자·정확한 최초 게시일 미확정",
+        "원 미디어 직접 재생 없이 보도 본문 범위로 작성"
+      ]
+    },
+    {
+      "slug": "but-it-was-fast",
+      "title": "하지만 빨랐죠",
+      "path": "memes/but-it-was-fast.md",
+      "source_revision": "2901343fbc2f87b2c909e315c23200ef3fbd221f",
+      "source_blob_sha": "f0f321f57b29441d8dfabb44f939a0d160001c75",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "evidence": [
+        {
+          "url": "https://ch.netmarble.com/Contents/Detail?bbs_code=1007&post_seq=3772",
+          "publisher": "넷마블",
+          "published_date": "2023-04-05",
+          "access": "direct_body",
+          "supports": "기업 공식 편집 콘텐츠가 한국어 밈 대화와 반응 의미 설명.",
+          "independent_group": "넷마블"
+        },
+        {
+          "url": "https://gogumafarm.kr/2023-밈-최종-정리-아티클-하나로-끝냅시다/",
+          "publisher": "고구마팜",
+          "published_date": "2023-12-19",
+          "access": "direct_body",
+          "supports": "해당 개별 밈의 표현 형식 및 한국어 활용 소개.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "limitations": [
+        "최초 제작자·정확한 최초 게시일 미확정",
+        "원 미디어 직접 재생 없이 보도 본문 범위로 작성"
+      ]
+    },
+    {
+      "slug": "home-protector",
+      "title": "홈 프로텍터",
+      "path": "memes/home-protector.md",
+      "source_revision": "2901343fbc2f87b2c909e315c23200ef3fbd221f",
+      "source_blob_sha": "f5b09599a3dee52079111851a6a895867ab46f95",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/2023-밈-최종-정리-아티클-하나로-끝냅시다/",
+          "publisher": "고구마팜",
+          "published_date": "2023-12-19",
+          "access": "direct_body",
+          "supports": "해당 개별 밈의 표현 형식 및 한국어 활용 소개.",
+          "independent_group": "고구마팜"
+        },
+        {
+          "url": "https://v.daum.net/v/20240129195901109",
+          "publisher": "한국경제",
+          "published_date": "2024-01-29",
+          "access": "direct_body",
+          "supports": "Daum 제휴 본문. 홈 프로텍터 패러디의 국내 사용. 별개 publisher로 중복 계산하지 않음.",
+          "independent_group": "한국경제"
+        }
+      ],
+      "limitations": [
+        "최초 제작자·정확한 최초 게시일 미확정",
+        "원 미디어 직접 재생 없이 보도 본문 범위로 작성"
+      ]
+    },
+    {
+      "slug": "dodoreok-chaewon",
+      "title": "피어나 너 내 도도독",
+      "path": "memes/dodoreok-chaewon.md",
+      "source_revision": "2901343fbc2f87b2c909e315c23200ef3fbd221f",
+      "source_blob_sha": "0977845676d1b4aea92341477d1b6049e2cfd9b7",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "evidence": [
+        {
+          "url": "https://mobile.newsis.com/view.html?id=NISX20230920_0002457117",
+          "publisher": "뉴시스/튜브가이드",
+          "published_date": "2023-09-23",
+          "access": "direct_body",
+          "supports": "본문 표시 기사등록일 사용. 원장면과 국내 변형 사용 보도.",
+          "independent_group": "뉴시스/튜브가이드"
+        },
+        {
+          "url": "https://www.xportsnews.com/article/1765460",
+          "publisher": "엑스포츠뉴스",
+          "published_date": "2023-08-31",
+          "access": "direct_body",
+          "supports": "SNS 답글에서 도도독을 실제 인용한 별도 사례 보도.",
+          "independent_group": "엑스포츠뉴스"
+        }
+      ],
+      "limitations": [
+        "최초 제작자·정확한 최초 게시일 미확정",
+        "원 미디어 직접 재생 없이 보도 본문 범위로 작성"
+      ]
+    },
+    {
+      "slug": "keke-rupingpong",
+      "title": "ㅋㅋ루삥뽕",
+      "path": "memes/keke-rupingpong.md",
+      "source_revision": "2901343fbc2f87b2c909e315c23200ef3fbd221f",
+      "source_blob_sha": "06af76c1d13ad4251c4b6d945e09c5b2fa8ee68b",
+      "scope_type": "korean_usage",
+      "scope_basis": "서로 다른 publisher 2곳의 한국어 본문에서 해당 표현의 뜻 또는 재사용 맥락을 교차확인했다.",
+      "evidence": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "본문126~130행의 온라인 표현 뜻풀이.",
+          "independent_group": "서울신문"
+        },
+        {
+          "url": "https://www.urimal.org/m/3777",
+          "publisher": "한글문화연대",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "김민서 대학생 기자단 기명 본문. 웃음 유사표현의 장난·약올리기 의미 확인. 본문 발행일 미표시.",
+          "independent_group": "한글문화연대"
+        }
+      ],
+      "limitations": [
+        "최초 제작자·정확한 최초 게시일 미확정",
+        "원 미디어 직접 재생 없이 보도 본문 범위로 작성"
+      ]
+    },
+    {
+      "slug": "josammosa-parody",
+      "title": "조삼모사 패러디",
+      "path": "memes/josammosa-parody.md",
+      "source_revision": "1f229f1b36ba1430aadbf8b61781ce4d7b184464",
+      "source_blob_sha": "12006c4a9fbd9b2f1dde240212a9cbb48266269d",
+      "scope_type": "korean_usage",
+      "scope_basis": "두 컷 형식과 국내 생활 소재 재패러디; 원숭이 대화의 반전 구조와 여러 변형로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "evidence": [
+        {
+          "publisher": "경향신문",
+          "url": "https://www.khan.co.kr/article/200606081440421",
+          "published_at": "2006-06-08",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "두 컷 형식과 국내 생활 소재 재패러디"
+        },
+        {
+          "publisher": "동아일보",
+          "url": "https://www.donga.com/news/It/article/all/20060617/8319436/9",
+          "published_at": "2006-06-17",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "원숭이 대화의 반전 구조와 여러 변형"
+        }
+      ],
+      "limitations": "원 만화·빈칸 이미지 직접 재현 없음. 기사에 소개된 변형을 읽었으며 원게시물 직접 열람 아님. 최초 게시일은 수록하지 않음."
+    },
+    {
+      "slug": "jjalbang",
+      "title": "짤방",
+      "path": "memes/jjalbang.md",
+      "source_revision": "1f229f1b36ba1430aadbf8b61781ce4d7b184464",
+      "source_blob_sha": "605f284385d6bcbb2bf56c8f282d8c7a2e871df1",
+      "scope_type": "korean_usage",
+      "scope_basis": "뜻·줄임형·국내 게시판 사용; 독자 질의와 기자 답변을 통한 뜻·메신저 활용로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "evidence": [
+        {
+          "publisher": "전자신문",
+          "url": "https://www.etnews.com/201012160073",
+          "published_at": "2010-12-16",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "뜻·줄임형·국내 게시판 사용"
+        },
+        {
+          "publisher": "매일경제",
+          "url": "https://www.mk.co.kr/news/columnists/7184523",
+          "published_at": "2016-01-18",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "독자 질의와 기자 답변을 통한 뜻·메신저 활용"
+        }
+      ],
+      "limitations": "개별 밈 도상이 아닌 온라인 이미지 지칭 표현으로 수록 범위 한정. 원게시판 규정·최초 게시물 직접 확인 아님. 운영 동기와 최초 연도 단정 생략. 이미지 복제 없음."
+    },
+    {
+      "slug": "troll-play",
+      "title": "트롤",
+      "path": "memes/troll-play.md",
+      "source_revision": "1f229f1b36ba1430aadbf8b61781ce4d7b184464",
+      "source_blob_sha": "a93534f298e8c02c897c375eebef9c144268212f",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 게임 은어 설명·고의 방해 용법; 팀워크 방해 뜻과 국내 게임·일상 사용 소개로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "evidence": [
+        {
+          "publisher": "게임조선",
+          "url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=128437",
+          "published_at": "2015-09-15",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "국내 게임 은어 설명·고의 방해 용법"
+        },
+        {
+          "publisher": "게임메카 국민트리",
+          "url": "https://trees.gamemeca.com/view.php?gid=1551813",
+          "published_at": "2019-05-16",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "팀워크 방해 뜻과 국내 게임·일상 사용 소개"
+        }
+      ],
+      "limitations": "게임 방해 행동이라는 좁은 뜻만 수록. 어원·최초 게임·타인의 실제 의도 추정 제외. 원 게임채팅 직접 열람 아닌 독립 기자 설명."
+    },
+    {
+      "slug": "heomu-song",
+      "title": "허무송",
+      "path": "memes/heomu-song.md",
+      "source_revision": "1f229f1b36ba1430aadbf8b61781ce4d7b184464",
+      "source_blob_sha": "c4ebc2956531c7d9575f62b23261c521986629d8",
+      "scope_type": "korean_usage",
+      "scope_basis": "노래 끊기·변형 방식과 국내 온라인 패러디; 독립 포털의 당시 인터넷 유행 검색어 발표로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "evidence": [
+        {
+          "publisher": "동아일보·다음 검색본부 기고",
+          "url": "https://www.donga.com/news/Entertainment/article/all/20040520/8063721/1",
+          "published_at": "2004-05-20",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "노래 끊기·변형 방식과 국내 온라인 패러디"
+        },
+        {
+          "publisher": "NAVER",
+          "url": "https://www.navercorp.com/media/pressReleasesDetail?seq=27386",
+          "published_at": "2004-12-23",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "독립 포털의 당시 인터넷 유행 검색어 발표"
+        }
+      ],
+      "limitations": "동아 게재 다음 검색본부 분석실장 설명과 네이버 자체 발표를 각각 직접 읽음. 원 플래시 재생·최초 게시물 확인 아님. 가사 전재 없음."
+    },
+    {
+      "slug": "number-song-internet",
+      "title": "숫자송",
+      "path": "memes/number-song-internet.md",
+      "source_revision": "1f229f1b36ba1430aadbf8b61781ce4d7b184464",
+      "source_blob_sha": "bdadb26863cdaeca6acdfa5d92d201ad5c934da4",
+      "scope_type": "korean_usage",
+      "scope_basis": "인터넷송 인기·휴대전화 벨소리 사용; 숫자송과 귀여운 가사·애니메이션 형식 설명로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "evidence": [
+        {
+          "publisher": "아이뉴스24",
+          "url": "https://inews24.com/view/104656",
+          "published_at": "2003-12-07",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "인터넷송 인기·휴대전화 벨소리 사용"
+        },
+        {
+          "publisher": "영남일보",
+          "url": "https://www.yeongnam.com/web/view.php?key=20040512.010141007510001",
+          "published_at": "2004-05-12",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "숫자송과 귀여운 가사·애니메이션 형식 설명"
+        }
+      ],
+      "limitations": "동명 교육용 노래 전체와 분리. 음원·플래시 직접 재생 없음. 가사 내용·작사자·정확 공개일을 추정하지 않음."
+    },
+    {
+      "slug": "brain-map-meme",
+      "title": "뇌구조 밈",
+      "path": "memes/brain-map-meme.md",
+      "source_revision": "1f229f1b36ba1430aadbf8b61781ce4d7b184464",
+      "source_blob_sha": "bf8630e27cbbdaf867129f777af6b07557b58c3f",
+      "scope_type": "korean_usage",
+      "scope_basis": "등장인물 관심사의 구역별 표현·온라인 재패러디; 팬 제작 캐릭터 뇌구조 패러디 존재와 사용로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "evidence": [
+        {
+          "publisher": "티브이데일리·네이트 전재",
+          "url": "https://news.nate.com/view/20091203n17328",
+          "published_at": "2009-12-03",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "등장인물 관심사의 구역별 표현·온라인 재패러디"
+        },
+        {
+          "publisher": "iMBC",
+          "url": "https://enews.imbc.com/News/ViewAmp/7668",
+          "published_at": "2010-02-03",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "팬 제작 캐릭터 뇌구조 패러디 존재와 사용"
+        }
+      ],
+      "limitations": "드라마 캐릭터 팬 패러디로 좁힘. 원 팬이미지 복제 없음. 일반인 심리 진단·최초 제작자 추정 제외."
+    },
+    {
+      "slug": "jjijjippong",
+      "title": "찌찌뽕",
+      "path": "memes/jjijjippong.md",
+      "source_revision": "1f229f1b36ba1430aadbf8b61781ce4d7b184464",
+      "source_blob_sha": "fcab4d90e37c360436dd7917aad04ec9d174da19",
+      "scope_type": "korean_usage",
+      "scope_basis": "동시 발화 때 쓰는 말·예능의 실제 사용과 지역 차이; 드라마 등장인물의 동시 발화 뒤 사용 장면로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "evidence": [
+        {
+          "publisher": "국민일보",
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0012221621",
+          "published_at": "2018-03-22",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "동시 발화 때 쓰는 말·예능의 실제 사용과 지역 차이"
+        },
+        {
+          "publisher": "iMBC",
+          "url": "https://enews.imbc.com/News/ViewAmp/219091",
+          "published_at": "2017-11-01",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "드라마 등장인물의 동시 발화 뒤 사용 장면"
+        }
+      ],
+      "limitations": "보도된 방송 장면으로 뜻과 사용을 확인. 원 방송 재생 없음. 방송이 최초 발명했다는 주장 없음. 실제 주문 효력·접촉 강요 배제."
+    },
+    {
+      "slug": "dotne",
+      "title": "돋네",
+      "path": "memes/dotne.md",
+      "source_revision": "1f229f1b36ba1430aadbf8b61781ce4d7b184464",
+      "source_blob_sha": "c23af91d10fe5be6875658c4bf6cef2a8fe40d89",
+      "scope_type": "korean_usage",
+      "scope_basis": "뜻·앞말 뒤 결합·긍정과 부정 모두의 쓰임; 옛 인터넷 서비스에 대한 국내 댓글 반응 보도로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "evidence": [
+        {
+          "publisher": "전자신문",
+          "url": "https://www.etnews.com/201010210115",
+          "published_at": "2010-10-21",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "뜻·앞말 뒤 결합·긍정과 부정 모두의 쓰임"
+        },
+        {
+          "publisher": "스포츠경향",
+          "url": "https://sports.khan.co.kr/article/201811161517003",
+          "published_at": "2018-11-16",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "옛 인터넷 서비스에 대한 국내 댓글 반응 보도"
+        }
+      ],
+      "limitations": "기사의 실제 댓글 인용을 읽었으며 원 댓글 직접 확인 아님. 특정 연예인 최초 기원설 제외. 쩔다와 의미가 닿지만 앞말 결합 형식은 별도."
+    },
+    {
+      "slug": "eba",
+      "title": "에바",
+      "path": "memes/eba.md",
+      "source_revision": "1f229f1b36ba1430aadbf8b61781ce4d7b184464",
+      "source_blob_sha": "13dd8ce0cbff605bd465f3088693180a606cb334",
+      "scope_type": "korean_usage",
+      "scope_basis": "성인 인터뷰의 에바 및 소리 확장 용법 설명; 과도함 지적 의미와 기자 작성 예시로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "evidence": [
+        {
+          "publisher": "동아일보·다음 전재",
+          "url": "https://v.daum.net/v/20171208030148105?s=print_news",
+          "published_at": "2017-12-08",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "성인 인터뷰의 에바 및 소리 확장 용법 설명"
+        },
+        {
+          "publisher": "이데일리",
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03152086619108224",
+          "published_at": "2018-02-07",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "과도함 지적 의미와 기자 작성 예시"
+        }
+      ],
+      "limitations": "동아 성인 인터뷰 뜻 설명 및 이데일리 편집 신조어 대화 확인. 미성년 인터뷰 신상 복제 없음. error+over/오바변형 등 상충 어원 확정 제외."
+    },
+    {
+      "slug": "haek-intensifier",
+      "title": "핵~",
+      "path": "memes/haek-intensifier.md",
+      "source_revision": "1f229f1b36ba1430aadbf8b61781ce4d7b184464",
+      "source_blob_sha": "25fa26be51174850ac97dfa89b2a91a179eeac2e",
+      "scope_type": "korean_usage",
+      "scope_basis": "핵의 강한 정도 뜻과 여러 결합형 사용; 인터넷 신조어 파생형의 뜻풀이로 국내 쓰임을 확인. 한국 최초 창작 또는 현재 유행 규모를 주장하지 않음.",
+      "evidence": [
+        {
+          "publisher": "게임조선",
+          "url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=128437",
+          "published_at": "2015-09-15",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "핵의 강한 정도 뜻과 여러 결합형 사용"
+        },
+        {
+          "publisher": "위클리공감·정책브리핑",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148801819",
+          "published_at": "2015-10-13",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "인터넷 신조어 파생형의 뜻풀이"
+        }
+      ],
+      "limitations": "강조형식에 한정, 무기·과학 핵의 일반뜻과 구분. 최초 게임/연도 단정 없음. 예문은 편집 창작. 게임조선 출처의 다른 부정확 어원 미채택."
+    }
+  ],
+  "held": [
+    "gwenchana-dingdingding",
+    "naya-deulgireum",
+    "jeommechu",
+    "taeyang-missed-you"
+  ],
+  "limitations": [
+    "Canonical definitions only, no usage approval or current popularity claim.",
+    "Source publisher independence is editorially checked, not certified by structural CI.",
+    "Recent source scope label korean_usage_observed normalized to repository-supported korean_usage without changing claimed domestic-use evidence."
+  ]
+}

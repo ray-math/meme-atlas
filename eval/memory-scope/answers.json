@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "prompt_version": "contextual-v3",
+  "retrieval_commit": "09c0d335945c6beb90baddc5c4bffacc626e376c",
+  "execution": "Actual AI response after reading frozen Python candidates; not a live model in CI.",
+  "limitations": [
+    "Public annotation-derived development, not blind evaluation.",
+    "Caution lookup selections are contextual editorial judgments, not default recommend-policy approval.",
+    "No human evaluation or general accuracy estimate."
+  ],
+  "answers": [
+    {
+      "id": "P-blanket-kick",
+      "action": "recommend",
+      "selected_entry_id": "blanket-kick",
+      "selected_usage_id": "remember-embarrassment",
+      "text": "어제 처음 인사하면서 이름을 잘못 말했네. 생각하니 이불킥이야."
+    },
+    {
+      "id": "P-goodbye-everyone",
+      "action": "recommend",
+      "selected_entry_id": "goodbye-everyone",
+      "selected_usage_id": "relieved-departure",
+      "text": "오늘 맡은 일 끝냈다. 안녕히 계세요 여러분!\n가벼운 작별 농담으로만 쓰고, 정식 퇴사 통지나 업무 인계를 대신하지는 마세요."
+    },
+    {
+      "id": "P-laugh-bell-scene",
+      "action": "recommend",
+      "selected_entry_id": "laugh-bell",
+      "selected_usage_id": "fond-scene",
+      "text": "그때 강아지가 장난감을 베개처럼 베고 잔 장면, 아직도 내 웃음벨이야."
+    },
+    {
+      "id": "P-laugh-bell-person",
+      "action": "recommend",
+      "selected_entry_id": "laugh-bell",
+      "selected_usage_id": "praise-humor",
+      "text": "그 배우는 말장난을 참 재치 있게 해. 내 웃음벨이야."
+    },
+    {
+      "id": "A10",
+      "action": "recommend",
+      "selected_entry_id": "goguma-frustration",
+      "selected_usage_id": "frustrating-plot",
+      "text": "오해가 계속 안 풀리네. 전개가 고구마야."
+    },
+    {
+      "id": "A17",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "가족상에는 분위기를 띄우는 밈보다 차분한 애도가 좋겠습니다. “삼가 고인의 명복을 빕니다.”"
+    },
+    {
+      "id": "A18",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "괴롭힘 피해 이야기를 웃긴 밈으로 끊지는 않는 게 좋겠습니다. 잠시 쉬어야 한다면 농담 없이 “잠깐 쉬었다가 이야기해도 괜찮을까?”라고 물어보세요."
+    },
+    {
+      "id": "A22",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "공식 장애 사과문에서는 밈 대신 직접 쓰는 편이 좋겠습니다. “이번 장애에 대한 책임을 인정하며 사과드립니다.”"
+    },
+    {
+      "id": "A23",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "어떤 상황인가요? 서로 즐기는 장난인지, 실제로 갈등이 있는지도 알려 주세요."
+    },
+    {
+      "id": "A27",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "text": "진지하게 위로하려면 밈보다 담백한 말이 좋겠습니다. “탈락 소식 들었어. 이야기하고 싶으면 들어줄게.”"
+    }
+  ]
+}

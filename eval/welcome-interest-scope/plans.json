@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "provenance": "Actual AI planning from reports/welcome-interest-draft.json at 27fa341 and existing public challenge inputs. No gold or answer files read. No search executed or final usage selected.",
+  "limitations": "공개 주석 파생 개발 입력이며 블라인드 평가가 아니다. 새 어휘는 보고서의 제안 상태이므로 이를 반영한 임시 메모리 검색 환경에서 검증해야 한다. 원본 draft의 등록·승격·실서비스 노출을 뜻하지 않는다. 모든 검색 계획은 lookup이며 standard도 문맥 검토가 필요하고 caution은 기본 recommend 정책 통과로 취급하지 않는다.",
+  "plans": [
+    {
+      "id": "W-welcome",
+      "prompt": "직접 만나거나 채팅방 등 대화 공간에 들어온 사람을 귀엽고 친근한 말투로 맞이한다. 첫 만남뿐 아니라 다시 만나는 상황에도 해당한다.\n오랜만에 채팅방에 왔네. 방가방가!",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "만남시작"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "채팅방에 들어온 사람을 친근하게 맞이하는 상황과 상대 방향이 명시된다. 첫 만남으로 제한하거나 작별 인사로 바꾸지 않는다. 반가움은 표현의 색채이지 실제 내면 인증이 아니며 standard 후보라도 격식·거절 조건을 검토한다."
+    },
+    {
+      "id": "W-topic",
+      "prompt": "듣지 않아도 되는 사소한 이야기나 정보에 자신이 관심 없음을 짧고 냉정하게 표현한다. 가벼운 놀림을 서로 받아들이는 문맥에서도 무시하는 어감이 남으므로 관계와 현재 주제를 확인해야 한다.\n서로 가벼운 놀림을 즐기던 대화에서 친구가 게임 속 장식품 수집 기록을 길게 늘어놓자, 나는 그 기록에는 관심 없다며 안물안궁이라고 답했다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "관심없음표시"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "사소한 특정 기록에 관심 없다는 기능과 상호 가벼운 놀림이라는 가상 조건이 명시된다. 정보가 길다는 이유만으로 거절을 정당화하지 않고 사람 자체나 모든 발언을 거절하는 방향으로 넓히지 않는다. 조회된 caution 후보의 무시 어감과 현재 주제의 경계를 최종 검토한다."
+    },
+    {
+      "id": "W-formal",
+      "prompt": "공식적이거나 엄숙한 자리에서 격식을 갖춘 인사가 필요할 때",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "격식 있는 인사가 필요한 가상 조건이므로 귀엽고 장난스러운 맞이 밈을 추천하지 않는다. 일반적인 정중한 인사로 전환하며 만남·작별 여부나 수신자 관계를 새로 만들어내지 않는다."
+    },
+    {
+      "id": "W-pain",
+      "prompt": "피해·고통·건강 문제를 털어놓거나 도움을 요청하는 상황일 때",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "피해·고통 또는 도움 요청을 관심 없는 사소한 정보로 축소하지 않는다. 관심없음표시 밈을 보류하며 특정 피해·질병이나 실제 인물의 상태를 추가하지 않는다."
+    },
+    {
+      "id": "A03",
+      "prompt": "별것 아닌 내 통근 동선을 너무 자세히 설명했네. 내 말이 길었다는 걸 가볍게 인정할 밈 있어?",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "과도한설명",
+          "불필요한세부정보"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "자신의 긴 설명을 돌아보는 요청이다. 인접한 설명·세부정보 상황을 같은 축 OR로 탐색하되 자기 방향을 보존해 상대 이야기 거절과 구분한다. 통근 이야기의 길이만으로 타인의 무관심을 추정하지 않으며 실제 후보의 자기 용법을 확인한다."
+    },
+    {
+      "id": "A18",
+      "prompt": "친구가 괴롭힘 피해를 자세히 털어놓는데 듣기 길어. 웃긴 밈으로 말을 끊어 줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "괴롭힘 피해 호소를 농담으로 끊으려는 요청이다. 긴 이야기라는 이유로 사소한 선택적 정보나 상호 장난으로 바꾸지 않는다. 필요하다면 피해를 축소하지 않는 일반적인 대화 경계 표현으로 전환한다."
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "상황·관계·상호 장난 여부가 불명확하다. 앞선 대화와 목적을 묻고 상대의 잘못이나 거절할 특정 주제를 임의로 추가하지 않는다."
+    },
+    {
+      "id": "E06",
+      "prompt": "함께 일하던 친구가 먼 도시로 옮겨. 서운한 작별보다 행복하게 지내라는 가벼운 인사.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "응원"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "떠나는 친구가 행복하게 지내기를 바라는 기능이 중심이다. 새로 들어온 사람을 맞이하는 만남시작이나 자기 업무 종료로 바꾸지 않는다. 친구가 옮기는 이유·기간·이후 계획을 추가하지 않고 실제 후보의 작별 문맥을 검토한다."
+    }
+  ]
+}

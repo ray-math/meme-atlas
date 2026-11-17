@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "kind": "approved public-source correction metadata, not raw collection notes",
+  "source_revision": "4afd9f708e12eb5766a8f8135b16b38f1a4de030",
+  "batch_id": "korean-reviewed-20261117-anmul-provenance",
+  "review_kind": "AI source and editorial review; not human validation",
+  "entries": [
+    {
+      "slug": "anmul-angung",
+      "title": "안물안궁",
+      "path": "memes/anmul-angung.md",
+      "source_blob_sha": "5812b390a182b1b5a63c7d2a79ea66cd84cbe94d",
+      "expected_body_hash": "c2c072b41a5e372f4de91c41ebdf12bad212853f5156458c513ecc908b0ca7ec",
+      "scope_type": "korean_usage",
+      "scope_basis": "2016년·2019년 뜻 설명과 별개 자기 이야기 말머리의 보도·원문사용을 확인했다. 기존2013년 특정기사 참조는 이번 확인하지 못해 연도 단정만 제거했으며 그해자료가 없다고 입증한 것은 아니다. 자기말머리는 독자의 내면을 아는 것이 아니라 관심 없을 수도 있다고 낮추어붙이는 표현으로 정리했다.",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201606092222015",
+          "publisher": "경향신문",
+          "published_date": "2016-06-09"
+        },
+        {
+          "url": "https://bravo.etoday.co.kr/view/atc_view/9823",
+          "publisher": "브라보마이라이프",
+          "published_date": "2019-07-16"
+        },
+        {
+          "url": "https://www.mt.co.kr/index.php/entertainment/2026/11/10/2026111008164216550",
+          "publisher": "머니투데이",
+          "published_date": "2026-11-10"
+        },
+        {
+          "url": "https://schluss.kr/m/1748",
+          "publisher": "개인 블로그 원문 사용",
+          "published_date": "2021-04-17"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "The personal blog establishes its own language use, not authority about general history.",
+    "The reported self-preface is not direct inspection of the original Instagram post.",
+    "No personal details, patient content or recent-popularity observation imported.",
+    "The newly annotated dismissal sense does not automatically cover the self-preface sense."
+  ]
+}

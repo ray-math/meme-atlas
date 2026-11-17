@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "approved public-source metadata, not raw collection notes",
+  "source_revision": "1c061b130d9fdea58d7c652b42eb0805e463ac0a",
+  "batch_id": "korean-verified-20261117-anseup",
+  "review_kind": "AI source and editorial review; not human validation",
+  "entries": [
+    {
+      "slug": "anseup",
+      "title": "안습",
+      "path": "memes/anseup.md",
+      "source_blob_sha": "8e8088c02b805fab627b26aa458f4892817fff72",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 국내 보도 본문에서 축약형 뜻과 한국 인터넷 댓글 사용을 교차 확인했다. 원댓글 직접 관찰이나 최초 창작을 주장하지 않는다.",
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20111006223200017",
+          "publisher": "연합뉴스",
+          "published_date": "2011-10-07"
+        },
+        {
+          "url": "https://www.donga.com/news/amp/all/20071208/8520538/1",
+          "publisher": "동아일보",
+          "published_date": "2007-12-08"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Sources are independently published meaning and domestic-use reports, not directly collected original comments.",
+    "No first inventor, origin year, dictionary-registration or current-popularity claim is included.",
+    "This candidate was researched outside the existing ledger; no ledger ID is fabricated and no included state is promoted.",
+    "No private or sensitive personal details, copied original comments or unverified self-deprecating/game derivatives are included."
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "document_kind": "registration_patch_plan",
+  "registration_status": "not_applied",
+  "base_commit": "3282820941f6aa996ae57841fd120105c5f02f2d",
+  "source_report_commit": "a239dab51eff4889d7e6148e3aa3f7e5fc755c35",
+  "scope_note": "Append-only two-profile draft registration proposal. Promotion in the file name means publicity, not reviewed status. Preserve all concurrent data.",
+  "new_profiles": [
+    {
+      "entry_id": "manbanjalbu",
+      "source_sha": "b633d35e82a8130613431cb1f56dce75cbd9191e",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안이며 실제 내면 감정·홍보의 정당성·상대의 수용을 인증하지 않는다. 예문과 안전 경계는 편집 판단이다. 3282820941f6aa996ae57841fd120105c5f02f2d의 최종 canonical 본문·Git blob SHA를 직접 재확인했다. 외부 기사 원문은 이번 작성자가 재독한 것이 아니라 조사 담당의 직접 확인 보고를 참고했다. 근거는 뜻풀이·자기소개 설명 및 편집 활용 예문이며 raw 발화 검증은 확보하지 못했다. 실제 맞이하는 쪽의 발화를 확인했다고 주장하지 않는다. 역할을 고정하지 않는 정의는 한쪽만 가능하다는 단정을 피하는 것이지 양쪽 실사용을 각각 검증한 결과가 아니다.",
+      "usages": [
+        {
+          "id": "friendly-first-introduction",
+          "emotion_status": "annotated",
+          "emotions": [
+            "반가움"
+          ],
+          "intents": [
+            "인사"
+          ],
+          "situations": [
+            "첫만남"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "서로 처음 인사를 나누는 친근한 모임에서 반갑고 앞으로 잘 지내자는 뜻을 전한다. 새로 합류한 사람과 맞이하는 사람 중 어느 쪽만의 인사로 고정하지 않는다.",
+          "avoid_when": [
+            "공식 업무 메일이나 격식 있는 첫 소개가 필요한 경우",
+            "이미 알고 지내던 사람과의 단순 재회를 첫 만남으로 처리하는 경우",
+            "상대가 원치 않는 친근한 말투나 관계를 강요하는 경우"
+          ],
+          "example": {
+            "text": "오늘 처음 인사하네요. 앞으로 같이 이야기 나눠요. 만반잘부!",
+            "kind": "editorial"
+          },
+          "review_note": "반가움은 인사에 전달되는 정서적 색채이며 실제 발화자의 심리를 입증하지 않는다. 상대는 인사받는 사람이며 입장자·맞이자 역할과 동일하지 않다. 기존 만남시작의 뜻을 바꾸지 않는다.",
+          "retrieval_requirements": {
+            "situations": [
+              "첫만남"
+            ],
+            "targets": [
+              "상대"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entry_id": "mangwanbu",
+      "source_sha": "19fa456c64e6d16353c8735199951436121e2702",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안이며 실제 내면 감정·홍보의 정당성·상대의 수용을 인증하지 않는다. 예문과 안전 경계는 편집 판단이다. 3282820941f6aa996ae57841fd120105c5f02f2d의 최종 canonical 본문·Git blob SHA를 직접 재확인했다. 외부 기사 원문은 이번 작성자가 재독한 것이 아니라 조사 담당의 직접 확인 보고를 참고했다. 작품 관심 부탁은 제작발표회 실제 발화 보도와 뜻·작품 소개 설명을 참고했다. 생중계는 재생하지 않았다.",
+      "usages": [
+        {
+          "id": "request-attention-to-project",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "관심요청"
+          ],
+          "situations": [
+            "작품활동소개"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "새 작품이나 활동의 소식을 소개하며 그 대상에 관심을 기울여 달라고 친근하게 부탁한다. 소개 대상이 본인이 직접 만든 완성품일 필요는 없으며 구매·구독 등 특정 행동을 의무로 요구하지 않는다.",
+          "avoid_when": [
+            "관심 표현을 구매·구독·기부 의무로 바꾸거나 반복해서 압박하는 경우",
+            "홍보 내용의 진실성·정당성·성과를 표현 자체로 인증하는 경우",
+            "공식적 안내나 필요한 상세 정보를 줄임말 하나로 대신하는 경우",
+            "개인적 위로 요청을 작품·활동 홍보 용법으로 뒤집는 경우"
+          ],
+          "example": {
+            "text": "이번 주에 새 공연 소식이 공개됐어요. 어떤 무대인지 소개해 둘게요. 많관부!",
+            "kind": "editorial"
+          },
+          "review_note": "관심의 초점을 소개하는 작품·활동에 두어 target상황으로 한정했다. 요청을 듣는 사람이 있다는 이유로 target상대를 추가하지 않으며 상대 필터만으로는 이 용례가 검색되지 않는 한계를 유지한다. 기존 관심요청의 자기 관심·위로 관련 용법을 배제하는 정의 변경은 하지 않는다.",
+          "retrieval_requirements": {
+            "situations": [
+              "작품활동소개"
+            ],
+            "targets": [
+              "상황"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "new_vocabulary": {
+    "situations": [
+      {
+        "label": "첫만남",
+        "aliases": [],
+        "definition": "서로 처음 인사를 나누며 앞으로의 관계를 시작하는 상황. 새로 합류하는 쪽과 맞이하는 쪽을 고정하지 않으며 기존 관계의 단순 재회와 구별한다."
+      },
+      {
+        "label": "작품활동소개",
+        "aliases": [],
+        "definition": "작품이나 활동의 소식을 소개하며 관심을 청하는 상황. 반드시 자신이 직접 만든 완성품의 공유만을 뜻하지 않는다."
+      }
+    ]
+  },
+  "definition_updates": {
+    "intents": [
+      {
+        "label": "관심요청",
+        "aliases": [],
+        "definition": "자신이나 소개하는 대상에 관심을 기울여 달라고 요청함. 관심의 대상과 요청의 목적은 개별 용법에서 구별하며, 그 자체로 위로·구매·구독 같은 특정 반응을 뜻하지 않는다."
+      }
+    ]
+  },
+  "definition_update_preconditions": {
+    "intents": [
+      {
+        "label": "관심요청",
+        "expected_existing": {
+          "label": "관심요청",
+          "aliases": []
+        },
+        "action": "Add definition to the existing concept, never append a duplicate or exclude existing comfort-related usages."
+      }
+    ]
+  },
+  "test_file": {
+    "path": "tests/test_first_greeting_promotion_drafts.py",
+    "source": "\"\"\"Eight structural registration tests; no real review promotion or semantic evaluation.\"\"\"\nimport copy\nimport sys\nimport unittest\nfrom pathlib import Path\nROOT = Path(__file__).resolve().parents[1]\nsys.path.insert(0, str(ROOT / 'scripts'))\nfrom usage_profiles import load_profiles, load_vocabulary, blob_sha\nfrom build_usage_index import build_usage_index\nfrom search_usage import search\n\nclass FirstGreetingPromotionDraftTests(unittest.TestCase):\n    SPEC = {\n        'manbanjalbu': ('friendly-first-introduction', '첫만남', '상대', '인사',\n                       'b633d35e82a8130613431cb1f56dce75cbd9191e'),\n        'mangwanbu': ('request-attention-to-project', '작품활동소개', '상황', '관심요청',\n                     '19fa456c64e6d16353c8735199951436121e2702'),\n    }\n\n    def setUp(self):\n        self.profiles = load_profiles(ROOT)['profiles']\n        self.vocab = load_vocabulary(ROOT)\n        self.index = build_usage_index(ROOT)\n\n    def hits(self, index, identity, **kwargs):\n        response = search(index, self.vocab, limit=100, **kwargs)\n        self.assertNotEqual(response['status'], 'unsupported_filter')\n        return [r for r in response['results'] if r['entry_id'] == identity]\n\n    def provisional(self, identity):\n        index = copy.deepcopy(self.index)\n        entry = next(e for e in index['entries'] if e['id'] == identity)\n        entry['review_status'] = 'reviewed'\n        return index, entry\n\n    def test_01_source_bound_draft_profiles(self):\n        profiles = [p for p in self.profiles if p['entry_id'] in self.SPEC]\n        self.assertEqual({p['entry_id'] for p in profiles}, set(self.SPEC))\n        for p in profiles:\n            uid, situation, target, intent, sha = self.SPEC[p['entry_id']]\n            self.assertEqual(p['source_sha'], sha)\n            self.assertEqual(sha, blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))\n            self.assertEqual(p['review_status'], 'draft')\n            self.assertEqual(len(p['usages']), 1)\n            u = p['usages'][0]\n            self.assertEqual(u['id'], uid)\n            self.assertEqual(u['safety'], 'standard')\n            self.assertEqual(u['intents'], [intent])\n            self.assertEqual(u['situations'], [situation])\n            self.assertEqual(u['targets'], [target])\n            self.assertEqual(u['example']['kind'], 'editorial')\n            self.assertEqual(u['retrieval_requirements'],\n                             {'situations': [situation], 'targets': [target]})\n\n    def test_02_expressed_welcome_vs_unknown_emotion(self):\n        for p in self.profiles:\n            if p['entry_id'] not in self.SPEC:\n                continue\n            u = p['usages'][0]\n            if p['entry_id'] == 'manbanjalbu':\n                self.assertEqual(u['emotion_status'], 'annotated')\n                self.assertEqual(u['emotions'], ['반가움'])\n            else:\n                self.assertEqual(u['emotion_status'], 'unknown')\n                self.assertEqual(u['emotions'], [])\n\n    def test_03_new_situations_and_existing_meeting_definition(self):\n        for label in ('첫만남', '작품활동소개'):\n            rows = [c for c in self.vocab['facets']['situations'] if c['label'] == label]\n            self.assertEqual(len(rows), 1)\n            self.assertEqual(rows[0]['aliases'], [])\n            self.assertTrue(rows[0]['definition'].strip())\n        existing = next(c for c in self.vocab['facets']['situations'] if c['label'] == '만남시작')\n        self.assertEqual(existing, {\"label\":\"만남시작\",\"aliases\":[],\"definition\":\"만나거나 대화 공간에 등장한 사람을 맞이하는 상황. 처음 만나는 사람에게만 한정하지 않는다.\"})\n\n    def test_04_attention_definition_update_preserves_existing_comfort_usage(self):\n        rows = [c for c in self.vocab['facets']['intents'] if c['label'] == '관심요청']\n        self.assertEqual(len(rows), 1)\n        self.assertEqual(rows[0]['aliases'], [])\n        self.assertEqual(rows[0]['definition'], \"자신이나 소개하는 대상에 관심을 기울여 달라고 요청함. 관심의 대상과 요청의 목적은 개별 용법에서 구별하며, 그 자체로 위로·구매·구독 같은 특정 반응을 뜻하지 않는다.\")\n        hug = next(p for p in self.profiles if p['entry_id'] == 'hug-me-animal')\n        usage = next(u for u in hug['usages'] if u['id'] == 'request-comfort')\n        self.assertEqual(usage['intents'], ['위로요청', '관심요청'])\n\n    def test_05_drafts_hidden_in_both_modes(self):\n        for entry in self.index['entries']:\n            if entry['id'] not in self.SPEC:\n                continue\n            req = entry['usages'][0]['retrieval_requirements']\n            for mode in ('lookup', 'recommend'):\n                for filters in (req, {'query': entry['title']}, dict(req, query=entry['title'])):\n                    self.assertFalse(self.hits(self.index, entry['id'], mode=mode, **filters))\n\n    def test_06_hypothetical_exact_filters_return_standard_candidates(self):\n        for identity, (uid, situation, target, _, _) in self.SPEC.items():\n            index, entry = self.provisional(identity)\n            req = {'situations': [situation], 'targets': [target]}\n            for mode in ('lookup', 'recommend'):\n                matches = self.hits(index, identity, mode=mode, **req)\n                self.assertEqual(len(matches), 1)\n                self.assertEqual(matches[0]['usage_id'], uid)\n                self.assertTrue(matches[0]['retrieval_scope']['explicit_filters_match'])\n                self.assertTrue(matches[0]['requires_context_check'])\n            self.assertFalse(self.hits(index, identity, mode='recommend', query=entry['title']))\n            explanation = self.hits(index, identity, mode='lookup', query=entry['title'])\n            self.assertEqual(len(explanation), 1)\n            self.assertTrue(explanation[0]['retrieval_scope']['exact_lookup_only'])\n\n    def test_07_broad_intent_or_and_missing_filters_blocked(self):\n        for identity, (_, situation, target, intent, _) in self.SPEC.items():\n            index, _ = self.provisional(identity)\n            filters_list = [\n                {'intents': [intent]},\n                {'intents': [intent], 'targets': [target]},\n                {'situations': [situation]},\n                {'targets': [target]},\n                {'situations': [situation, '성과'], 'targets': [target]},\n                {'situations': [situation], 'targets': [target, '자기']},\n            ]\n            for mode in ('lookup', 'recommend'):\n                for filters in filters_list:\n                    self.assertFalse(self.hits(index, identity, mode=mode, **filters))\n\n    def test_08_narrow_first_meeting_and_project_focus(self):\n        greeting, _ = self.provisional('manbanjalbu')\n        project, _ = self.provisional('mangwanbu')\n        for mode in ('lookup', 'recommend'):\n            self.assertFalse(self.hits(greeting, 'manbanjalbu', mode=mode,\n                                      situations=['만남시작'], targets=['상대']))\n            self.assertFalse(self.hits(greeting, 'manbanjalbu', mode=mode,\n                                      situations=['첫만남'], targets=['상황']))\n            # Reader is the addressee, but this profile focuses on the project.\n            self.assertFalse(self.hits(project, 'mangwanbu', mode=mode,\n                                      situations=['작품활동소개'], targets=['상대']))\n\nif __name__ == '__main__':\n    unittest.main()\n"
+  },
+  "context_limits": [
+    "Python 검색·스키마·회귀·CI는 이 보고서 작성에서 실행하지 않았다.",
+    "만반잘부는 뜻 설명·편집 예문 근거이며 실제 양쪽 역할 발화를 각각 확인한 주석이 아니다.",
+    "많관부는 관심의 대상 작품·활동에 target상황을 두어 target상대만으로는 이 용례가 검색되지 않는다.",
+    "standard는 좁은 친근한 소개 맥락의 편집 판단이며 필터 일치가 실제 수용·안전·정당성을 검증하지 않는다.",
+    "등록 전 source SHA와 스키마·vocabulary를 다시 확인하고 draft 상태를 유지해야 한다."
+  ],
+  "verification": {
+    "canonical_sha_rechecked": true,
+    "current_profile_ids_absent": true,
+    "new_situation_labels_absent": true,
+    "existing_attention_definition_absent": true,
+    "test_methods": 8,
+    "python_executed": false,
+    "ci_executed": false,
+    "limits": "Unexecuted test source only. Hypothetical review flags stay in memory and are not semantic approval. First-meeting roles and publicity appropriateness are not verified by matching filters."
+  },
+  "integration_steps": [
+    "Re-read latest canonical hashes, profile IDs, new labels and current 관심요청 concept before applying; stop on conflicts.",
+    "Append only new profiles and two situation concepts. Apply definition_updates to the existing 관심요청 concept without altering aliases or other profiles.",
+    "Keep 만남시작 and existing 위로요청/관심요청 usage unchanged. Keep both new profiles draft.",
+    "Install test source, regenerate index via the authorized workflow and run full schema/source checks and CI."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "kind": "approved public source metadata, not raw collection notes",
+  "source_revision": "0fb6e349afa5109db9145589d5f80eb631c5b2ae",
+  "batch_id": "korean-verified-20261117-hell-joseon",
+  "review_kind": "AI source and editorial review; not human validation",
+  "entries": [
+    {
+      "slug": "hell-joseon",
+      "title": "헬조선",
+      "path": "memes/hell-joseon.md",
+      "source_blob_sha": "2115cfdc2c29ba4387d1f9a1046db17a03173581",
+      "scope_type": "korean_usage",
+      "scope_basis": "연합뉴스의 뜻풀이·국내 온라인 사용·운영자 인터뷰와 경향신문의 별도 조사 보도를 교차확인했다. 사회구조의 어려움에 대한 비판·자조 표현의 사용 증거이며 국가의 객관적 평가나 화자 내면 진단이 아니다.",
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/amp/view/AKR20150916129800033",
+          "publisher": "연합뉴스",
+          "published_date": "2015-09-18"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/201510281430051",
+          "publisher": "경향신문",
+          "published_date": "2015-10-28"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Historical use, not newly observed popularity.",
+    "The reported survey is not direct inspection of its original data; no figures or origin date imported.",
+    "No candidate included-state or latest observation update before main approval."
+  ]
+}

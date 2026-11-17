@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "batch_id": "korean-verified-20261117-bulk-wave16",
+  "kind": "Approved public-source metadata; temporary importer input",
+  "review_kind": "Research AI source reading plus separate canonical editorial AI; no human validation",
+  "entries": [
+    {
+      "slug": "alti",
+      "title": "알티",
+      "path": "memes/alti.md",
+      "source_revision": "992c43310a44a7f48b0147fec2f839577013a483",
+      "source_blob_sha": "1484d5288199858c894e2fe7fb0616fd0d023c05",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "evidence": [
+        {
+          "url": "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+          "publisher": "국립국어원 새국어생활",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "2013년 봄호 43쪽에서 RT의 한글 표기와 다른 사람의 글 전달이라는 뜻을 설명한다.",
+          "independent_group": "이정복 2013 누리소통망과 새말의 형성"
+        },
+        {
+          "url": "https://view.asiae.co.kr/article/2010080415102473206",
+          "publisher": "아시아경제",
+          "published_date": "2010-08-05",
+          "access": "direct_body",
+          "support": "리트윗의 축약 및 자신의 팔로어에게 타인의 글을 전하는 사용을 설명한다.",
+          "independent_group": "아시아경제"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 현행 X의 버튼 이름·사용법은 설명하지 않았다. 학술지 정확일 미확인."
+    },
+    {
+      "slug": "teuchin",
+      "title": "트친",
+      "path": "memes/teuchin.md",
+      "source_revision": "992c43310a44a7f48b0147fec2f839577013a483",
+      "source_blob_sha": "457a2374f8c187d93e153cf17fe25385a2e157df",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "evidence": [
+        {
+          "url": "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+          "publisher": "국립국어원 새국어생활",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "43~44쪽에서 트위터 친구라는 축약형과 서로 구독하는 관계를 설명한다.",
+          "independent_group": "이정복 2013 누리소통망과 새말의 형성"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/201202122213505",
+          "publisher": "경향신문",
+          "published_date": "2012-02-12",
+          "access": "direct_body",
+          "support": "트친을 트위터 친구로 풀고 팔로잉한 계정들을 지칭하는 실제 사용을 보여준다.",
+          "independent_group": "주간경향 취재/경향신문"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 자료 사이 상호 구독과 팔로잉이라는 범위 차이가 있어 항상 맞팔이라는 조건을 넣지 않았다. 개인 계정 관계 목록은 재현하지 않았다."
+    },
+    {
+      "slug": "pechin",
+      "title": "페친",
+      "path": "memes/pechin.md",
+      "source_revision": "992c43310a44a7f48b0147fec2f839577013a483",
+      "source_blob_sha": "426dc5d867da9f607fd3c4e4a6510ba46491035b",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "evidence": [
+        {
+          "url": "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+          "publisher": "국립국어원 새국어생활",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "44쪽에서 페이스북 친구의 축약을 설명한다.",
+          "independent_group": "이정복 2013 누리소통망과 새말의 형성"
+        },
+        {
+          "url": "https://news.bizwatch.co.kr/article/mobile/2018/01/23/0023",
+          "publisher": "비즈워치",
+          "published_date": "2018-01-23",
+          "access": "direct_body",
+          "support": "뉴스피드 설명에서 연결된 이용자를 페친, 즉 페이스북 친구로 풀이한다.",
+          "independent_group": "비즈워치"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 플랫폼 기능의 현재 상태에 대한 사용 안내는 하지 않았다."
+    },
+    {
+      "slug": "tamra",
+      "title": "탐라",
+      "path": "memes/tamra.md",
+      "source_revision": "992c43310a44a7f48b0147fec2f839577013a483",
+      "source_blob_sha": "18d7433aa62511568f92532cc1856383fd516335",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "evidence": [
+        {
+          "url": "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+          "publisher": "국립국어원 새국어생활",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "42~43쪽에서 타임라인·탐라를 SNS 게시글이 올라오는 공간으로 묶어 풀이한다.",
+          "independent_group": "이정복 2013 누리소통망과 새말의 형성"
+        },
+        {
+          "url": "https://www.huffingtonpost.kr/article/74798",
+          "publisher": "허프포스트코리아",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "역사 문제의 탐라를 타임라인으로 읽는 온라인 반응을 보도해 해당 축약의 사용을 보여준다.",
+          "independent_group": "허프포스트코리아"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 두 번째는 댓글 사용의 보도이지 원댓글 직접 확인이 아니다. 사이트 본문에 발행일이 표시되지 않아 null."
+    },
+    {
+      "slug": "gyepok",
+      "title": "계폭",
+      "path": "memes/gyepok.md",
+      "source_revision": "992c43310a44a7f48b0147fec2f839577013a483",
+      "source_blob_sha": "3346820309cb241f6f52fb3b263787b5c53f789f",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "evidence": [
+        {
+          "url": "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+          "publisher": "국립국어원 새국어생활",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "44쪽에서 스스로 해지하거나 신고로 계정이 정지되는 경우를 함께 설명한다.",
+          "independent_group": "이정복 2013 누리소통망과 새말의 형성"
+        },
+        {
+          "url": "https://news.nate.com/view/20160616n24607",
+          "publisher": "스타뉴스",
+          "published_date": "2016-06-16",
+          "access": "direct_body",
+          "support": "SNS 사용자의 계정 삭제 발표를 계폭으로 부르고 계정 폭파·삭제라고 풀이한다.",
+          "independent_group": "스타뉴스"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 개인의 갈등 내용·감정 발화는 옮기지 않았다. 서비스별 삭제·정지 정책을 일반화하지 않았다."
+    },
+    {
+      "slug": "deoksim",
+      "title": "덕심",
+      "path": "memes/deoksim.md",
+      "source_revision": "992c43310a44a7f48b0147fec2f839577013a483",
+      "source_blob_sha": "aed3b8346a31610eb417aaf8c8c9992d1658215a",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "evidence": [
+        {
+          "url": "https://www.kpinews.kr/newsView/1065605303758879&dt=m&dt=m",
+          "publisher": "KPI뉴스",
+          "published_date": "2019-09-07",
+          "access": "direct_body",
+          "support": "늦게 팬이 된 사람들의 관심을 다루며 덕후와 마음의 결합, 팬의 마음으로 풀이한다.",
+          "independent_group": "KPI뉴스"
+        },
+        {
+          "url": "https://www.yna.co.kr/amp/view/AKR20251022155400005",
+          "publisher": "연합뉴스",
+          "published_date": "2025-10-23",
+          "access": "direct_body",
+          "support": "작가 인터뷰에서 장르에 대한 큰 관심과 애정을 덕심이라고 설명한다.",
+          "independent_group": "연합뉴스"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 인터뷰의 사적인 추억이나 작품 줄거리는 재현하지 않았다."
+    },
+    {
+      "slug": "yeokjuhaeng",
+      "title": "역주행",
+      "path": "memes/yeokjuhaeng.md",
+      "source_revision": "992c43310a44a7f48b0147fec2f839577013a483",
+      "source_blob_sha": "89ddd289e88c36804ac80fe4df313b594f60bcbc",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "evidence": [
+        {
+          "url": "https://radio.ytn.co.kr/program/?f=2&id=53680&page=3&s_hcd=01&s_mcd=0300",
+          "publisher": "YTN 라디오",
+          "published_date": "2018-01-10",
+          "access": "direct_body",
+          "support": "발표 당시 주목받지 못한 곡이 나중에 알려져 순위가 상승하는 경우를 설명한다.",
+          "independent_group": "YTN 라디오"
+        },
+        {
+          "url": "https://times.postech.ac.kr/news/articleView.html?idxno=9644",
+          "publisher": "포항공대신문",
+          "published_date": "2017-03-15",
+          "access": "direct_body",
+          "support": "과거 발표곡이 다시 인기를 얻는 은어로 정의하고 여러 재조명 경로를 다룬다.",
+          "independent_group": "포항공대신문"
+        }
+      ],
+      "limitations": "최초 발생·현재 유행 규모는 검증하지 않았다. 가요·음원 맥락으로 한정한다. 최초 유행곡·순위 조작 여부·현재 순위는 주장하지 않았다."
+    },
+    {
+      "slug": "jeonbuk-iksan",
+      "title": "전북익산",
+      "path": "memes/jeonbuk-iksan.md",
+      "source_revision": "292725f8caa58d891424169fa2993c22ece1f74c",
+      "source_blob_sha": "752a23a13b287f906a06705ae3eebf83917cda56",
+      "scope_type": "korean_usage",
+      "scope_basis": "게임 매체의 한국어 몬더그린 별칭 설명과 독립 칼럼의 SNS 재생산 설명을 대조.",
+      "evidence": [
+        {
+          "publisher": "국민트리 / 게임메카",
+          "url": "https://trees.gamemeca.com/view.php?gid=1766670",
+          "published_at": "2025-09-29",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "료의 천지패황권 시전 대사가 한국 지명처럼 들리는 말장난과 기술 별칭을 설명."
+        },
+        {
+          "publisher": "위픽레터 / 김우찬",
+          "url": "https://letter.wepick.kr/post/2674",
+          "published_at": "2024-06-19",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "료의 음성을 지명처럼 받아듣고 SNS에서 재생산하는 밈으로 소개.",
+          "source_type": "기고 칼럼",
+          "limitations": "팝업스토어는 구상·제안이며 개최 사실 아님. 같은 필자 브런치 글을 별도 독립 출처로 세지 않음."
+        }
+      ],
+      "limitations": [
+        "원게임 실행·원게시물 직접 확인 아님.",
+        "최초 창작자·발생 연도·최근 유행으로 일반화하지 않음.",
+        "독자적인 예문은 편집 창작. 긴 외부 본문·이미지·개인정보 저장 없음."
+      ]
+    },
+    {
+      "slug": "jujak",
+      "title": "주작",
+      "path": "memes/jujak.md",
+      "source_revision": "292725f8caa58d891424169fa2993c22ece1f74c",
+      "source_blob_sha": "47b9f180cb463a79387596db042a89e2e7735738",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 신조어 기사와 독립 인터넷 문화 칼럼이 조작 의미와 온라인 표현 사용을 설명.",
+      "evidence": [
+        {
+          "publisher": "아이티투데이 / 현 페이지 디지털투데이",
+          "url": "https://news.nate.com/view/20151205n18797",
+          "published_at": "2015-12-07",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "인터넷 신조어 목록에서 주작을 조작 의미로 설명.",
+          "date_note": "URL은 20151205이나 페이지 기사전송2015-12-07 08:58, 수정09:15. 본문 표기 날짜 사용.",
+          "limitations": "민감 인물·사건 기원 주장은 채택하지 않음. 기사 내 개별 예문을 원댓글로 취급하지 않음."
+        },
+        {
+          "publisher": "동아사이언스",
+          "url": "https://www.dongascience.com/news/14810",
+          "published_at": "2016-11-18",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "조작 뜻과 불신을 과장하는 문장 결합을 설명. 표현과 사실 검증의 구분에 활용.",
+          "limitations": "첫 조회는 헤더 중심이었으나 재조회에서 본문29~56 및 발행일 직접 확인. 저자의 심리 일반화를 모든 사용자 내면의 사실로 채택하지 않음."
+        }
+      ],
+      "limitations": [
+        "원게임 실행·원게시물 직접 확인 아님.",
+        "최초 창작자·발생 연도·최근 유행으로 일반화하지 않음.",
+        "독자적인 예문은 편집 창작. 긴 외부 본문·이미지·개인정보 저장 없음."
+      ]
+    },
+    {
+      "slug": "daechung-salja",
+      "title": "대충 살자",
+      "path": "memes/daechung-salja.md",
+      "source_revision": "7471d1251b4e5dcd8238b84686e336b2cfe94faf",
+      "source_blob_sha": "319c42d6aebb397b890a3d41f94f678182f0ecd2",
+      "scope_type": "korean_usage",
+      "scope_basis": "이전 시기 정의 자료와 독립된 2022~2023 국내 사용 자료를 교차 확인. 기간 내 처음 생겼다는 주장은 하지 않음.",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201810130600055",
+          "publisher": "경향신문",
+          "published_date": "2018-10-13",
+          "access": "direct_body",
+          "supports": "사진·장면에 비교문을 붙이는 SNS 시리즈와 상이한 해석 관측.",
+          "independent_group": "khan-daechung-2018"
+        },
+        {
+          "url": "https://gogumafarm.kr/요즘-쓰기-좋은-2022-최신-밈-모음/",
+          "publisher": "고구마팜",
+          "published_date": "2022-11-18",
+          "access": "direct_body",
+          "supports": "2022년 형식 재사용과 변형 소개.",
+          "independent_group": "gogumafarm-memes-2022"
+        }
+      ],
+      "limitations": [
+        "최초 게시물은 직접 열지 않았으며 최초 기원 단정 없음.",
+        "고구마팜의 브랜드 적용 제안은 실제 집행 사례로 취급하지 않았다.",
+        "대충 ○○하는 그림 형식과 별개로 비교문 패러디만 다룬다."
+      ]
+    },
+    {
+      "slug": "geukdil",
+      "title": "극딜",
+      "path": "memes/geukdil.md",
+      "source_revision": "7471d1251b4e5dcd8238b84686e336b2cfe94faf",
+      "source_blob_sha": "444bf43cbb355d2d27f2364e155ee77c53ab983b",
+      "scope_type": "korean_usage",
+      "scope_basis": "이전 시기 정의 자료와 독립된 2022~2023 국내 사용 자료를 교차 확인. 기간 내 처음 생겼다는 주장은 하지 않음.",
+      "evidence": [
+        {
+          "url": "https://www.fnnews.com/news/201510071734563603",
+          "publisher": "파이낸셜뉴스",
+          "published_date": "2015-10-07",
+          "access": "direct_body",
+          "supports": "게임 집중 공격과 인터넷 논쟁에서의 확장 의미.",
+          "independent_group": "fnnews-online-language-2015"
+        },
+        {
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0017998265",
+          "publisher": "국민일보",
+          "published_date": "2023-02-27",
+          "access": "direct_body",
+          "supports": "게임 집중 공격과 친구 사이 장난에서의 사용.",
+          "independent_group": "kmib-game-language-2023"
+        }
+      ],
+      "limitations": [
+        "두 기사의 영어 어원 설명은 채택하지 않았다. 국민일보의 다른 게임 용어 정의도 가져오지 않았다.",
+        "별개 연도·취재 문맥의 기사로 동일 보도자료 전재가 아니다.",
+        "친밀성·사실성·안전성 판정 및 usage 프로필을 생성하지 않았다."
+      ]
+    },
+    {
+      "slug": "giseungjeon",
+      "title": "기승전○○",
+      "path": "memes/giseungjeon.md",
+      "source_revision": "7471d1251b4e5dcd8238b84686e336b2cfe94faf",
+      "source_blob_sha": "7547c0dbb9ea5c711b1a6168766c0d4ba9ac333a",
+      "scope_type": "korean_usage",
+      "scope_basis": "이전 시기 정의 자료와 독립된 2022~2023 국내 사용 자료를 교차 확인. 기간 내 처음 생겼다는 주장은 하지 않음.",
+      "evidence": [
+        {
+          "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=201704041110503580836",
+          "publisher": "건설경제(현 대한경제)",
+          "published_date": "2017-04-05",
+          "access": "direct_body",
+          "supports": "기승전결의 결을 특정 단어로 바꾸는 구조와 반복 결론 의미.",
+          "independent_group": "dnews-giseungjeon-2017"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01443206632555896",
+          "publisher": "이데일리",
+          "published_date": "2022-12-06",
+          "access": "direct_body",
+          "supports": "방송 구성에 대한 기승전 변형의 실제 사용.",
+          "independent_group": "edaily-showme-2022"
+        }
+      ],
+      "limitations": [
+        "대한경제 날짜는 URL 숫자 아닌 본문 기사입력 2017-04-05 기준.",
+        "이데일리의 참가자 특혜 등 논란은 사실 주장으로 전재하지 않고 표현 사용만 확인.",
+        "기승전치킨은 별도 직접 근거 검증이 끝나지 않아 별칭으로 등록하지 않았다."
+      ]
+    }
+  ],
+  "limitations": [
+    "Canonical only; no usage promotion or action authorization.",
+    "Research source-body reading plus independent stored-text AI editorial review, not human validation or universal original-media verification.",
+    "Shared academic terminology source is one source per entry, not independent field observations. Publisher definitions, reported comments, marketing proposals and actual usage retain separate roles.",
+    "트친 wording corrected to include follow-based connections without requiring reciprocal following or actual interaction. 계폭 covers deletion and suspension without promising permanence or restoration.",
+    "No fact-check certification, actual relationship inference, account actions, aggression/harassment authorization, marketing-event occurrence, first-origin or current-popularity proof."
+  ]
+}

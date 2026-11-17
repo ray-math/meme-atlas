@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "batch_id": "korean-verified-20261117-bulk-wave9",
+  "kind": "Approved public-source metadata; temporary importer input",
+  "review_kind": "Research AI source reading plus separate canonical editorial AI; no human validation",
+  "entries": [
+    {
+      "slug": "gatseongbi",
+      "title": "갓성비",
+      "path": "memes/gatseongbi.md",
+      "source_revision": "badcbafa2e8baa2c2854950536f5109a4f169e99",
+      "source_blob_sha": "08cfa03f245b2126a5f3a25d86d41253aeb77797",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://news.nate.com/view/20210415n20945",
+          "publisher": "서울경제",
+          "published_date": "2021-04-15",
+          "access": "direct_body",
+          "supports": "본문56 강조접두어 갓의 예로 갓성비 사용.",
+          "independent_group": "서울경제"
+        },
+        {
+          "url": "https://dailymedi.com/news/news_view.php?wr_id=877217",
+          "publisher": "데일리메디",
+          "published_date": "2021-11-25",
+          "access": "direct_body",
+          "supports": "본문135 God+가성비 합성과 뜻 설명. 법률 판단·의료기기 추천은 채택하지 않음.",
+          "independent_group": "데일리메디"
+        }
+      ],
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "slug": "mateopeop",
+      "title": "맛없없",
+      "path": "memes/mateopeop.md",
+      "source_revision": "badcbafa2e8baa2c2854950536f5109a4f169e99",
+      "source_blob_sha": "7118a61b2dc5e8b74a5057bd6e5a8cfa03dde1f9",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://www.cstimes.com/news/articleView.html?idxno=519664",
+          "publisher": "컨슈머타임스",
+          "published_date": "2022-11-21",
+          "access": "direct_body",
+          "supports": "기자의 치킨 시식 리뷰 본문142에서 뜻과 실제 조합 사용.",
+          "independent_group": "컨슈머타임스"
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20230203_0002180531",
+          "publisher": "뉴시스",
+          "published_date": "2023-02-04",
+          "access": "direct_body",
+          "supports": "본문75 뜻 풀이와 여러 다른 제품의 조합 사용. 앞선 치킨 리뷰의 전재 아님.",
+          "independent_group": "뉴시스"
+        }
+      ],
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "slug": "jjeopjjeop-baksa",
+      "title": "쩝쩝박사",
+      "path": "memes/jjeopjjeop-baksa.md",
+      "source_revision": "badcbafa2e8baa2c2854950536f5109a4f169e99",
+      "source_blob_sha": "c93845815ee8de210171525a150650dbf924ad8d",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/kvtkm7oY8L",
+          "publisher": "아시아경제",
+          "published_date": "2021-10-21",
+          "access": "direct_body",
+          "supports": "신조어 칼럼 본문89·92에서 음식 지식과 척척박사 변형 설명.",
+          "independent_group": "아시아경제"
+        },
+        {
+          "url": "https://www.edaily.co.kr/news/read?newsId=01344806632495544",
+          "publisher": "이데일리",
+          "published_date": "2022-10-22",
+          "access": "direct_body",
+          "supports": "본문218 실제 음식 리뷰 연재명으로 사용. 아시아경제 칼럼과 다른 직접 방문 취재.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "slug": "eoljukko",
+      "title": "얼죽코",
+      "path": "memes/eoljukko.md",
+      "source_revision": "badcbafa2e8baa2c2854950536f5109a4f169e99",
+      "source_blob_sha": "5998cdd609b24d0b6e937455c31c3063d72bb495",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02735526635639424",
+          "publisher": "이데일리",
+          "published_date": "2023-06-07",
+          "access": "direct_body",
+          "supports": "본문237 코트 선호의 축약 표현 설명.",
+          "independent_group": "이데일리"
+        },
+        {
+          "url": "https://www.vogue.co.kr/2022/11/02/더-추워지기-전에-멋-부리기-11월-필수-스타일링-5/",
+          "publisher": "보그 코리아",
+          "published_date": "2022-11-02",
+          "access": "direct_body",
+          "supports": "본문107 코트 스타일링에 얼죽코 실제 사용. 별도 패션 기사.",
+          "independent_group": "보그 코리아"
+        }
+      ],
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "slug": "deokgyemot",
+      "title": "덕계못",
+      "path": "memes/deokgyemot.md",
+      "source_revision": "badcbafa2e8baa2c2854950536f5109a4f169e99",
+      "source_blob_sha": "65ef6e78c2ba4f488661d97afadd14d166681d5f",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/3IX5yVYxCv",
+          "publisher": "MBN스타",
+          "published_date": "2022-08-22",
+          "access": "direct_body",
+          "supports": "본문98~102 제작발표회 사용과 뜻 설명. 신하균의 오답을 정의로 쓰지 않음.",
+          "independent_group": "MBN스타"
+        },
+        {
+          "url": "https://v.daum.net/v/QncyxBj3cC",
+          "publisher": "이데일리",
+          "published_date": "2023-06-19",
+          "access": "direct_body",
+          "supports": "본문88 팬이 좋아하는 연예인을 만나기 어렵다는 뜻 설명. 동일 제작발표회 전재 아님.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "slug": "kagongjok",
+      "title": "카공족",
+      "path": "memes/kagongjok.md",
+      "source_revision": "badcbafa2e8baa2c2854950536f5109a4f169e99",
+      "source_blob_sha": "0367ee6c57c8e69a2b3504209fbcb64295b9baab",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "김차경 기획기사. 해당 표현의 뜻 확인. 현재 방역·건강 권고로 사용하지 않음.",
+          "independent_group": "대한민국 정책브리핑"
+        },
+        {
+          "url": "https://imnews.imbc.com/replay/2023/nwtoday/article/6470491_36207.html",
+          "publisher": "MBC",
+          "published_date": "2023-04-04",
+          "access": "direct_body",
+          "supports": "본문43 뜻, 온라인 이용 갈등 맥락. 모든 카공족을 민폐로 일반화하지 않음.",
+          "independent_group": "MBC"
+        }
+      ],
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "slug": "ppangji-sullye",
+      "title": "빵지순례",
+      "path": "memes/ppangji-sullye.md",
+      "source_revision": "badcbafa2e8baa2c2854950536f5109a4f169e99",
+      "source_blob_sha": "1b7c5009c78e995b69a72e2c5f9d6284134b14be",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://news.nate.com/view/20220507n04496",
+          "publisher": "아시아경제",
+          "published_date": "2022-05-07",
+          "access": "direct_body",
+          "supports": "본문61 빵+성지순례 및 빵집 방문 활동 설명.",
+          "independent_group": "아시아경제"
+        },
+        {
+          "url": "https://news.nate.com/view/20220714n40637?mid=n1101",
+          "publisher": "한국경제",
+          "published_date": "2022-07-15",
+          "access": "direct_body",
+          "supports": "본문43 직접 아는 빵집 방문 취미 사례에 사용. 소비규제 주장은 채택하지 않음.",
+          "independent_group": "한국경제"
+        }
+      ],
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "slug": "kosiguk",
+      "title": "코시국",
+      "path": "memes/kosiguk.md",
+      "source_revision": "badcbafa2e8baa2c2854950536f5109a4f169e99",
+      "source_blob_sha": "86f2587bea580567abae49b2d126ff55e2adbefb",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20210719050056795?s=print_news",
+          "publisher": "중앙일보",
+          "published_date": "2021-07-19",
+          "access": "direct_body",
+          "supports": "본문33 코로나 시국 축약만 확인. 혐오 표현·개인 사례는 채택하지 않음.",
+          "independent_group": "중앙일보"
+        },
+        {
+          "url": "https://v.daum.net/v/20210809094345901?s=print_news",
+          "publisher": "트래비",
+          "published_date": "2021-08-09",
+          "access": "direct_body",
+          "supports": "본문16·42 코로나 시기 여행 영상 감상 맥락 사용. 별도 여행 필자 글.",
+          "independent_group": "트래비"
+        }
+      ],
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "slug": "jipgwan",
+      "title": "집관",
+      "path": "memes/jipgwan.md",
+      "source_revision": "badcbafa2e8baa2c2854950536f5109a4f169e99",
+      "source_blob_sha": "6368f2ffa04c922fe09b9b998715dad3f9098617",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "김차경 기획기사. 해당 표현의 뜻 확인. 현재 방역·건강 권고로 사용하지 않음.",
+          "independent_group": "대한민국 정책브리핑"
+        },
+        {
+          "url": "https://www.yna.co.kr/view/AKR20210805048600005",
+          "publisher": "연합뉴스",
+          "published_date": "2021-08-08",
+          "access": "direct_body",
+          "supports": "본문80 TV·온라인 스포츠 관람에 집관 사용. 올림픽 방송 평가의 별도 취재.",
+          "independent_group": "연합뉴스"
+        }
+      ],
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록."
+      ]
+    },
+    {
+      "slug": "gongseujang",
+      "title": "공스장",
+      "path": "memes/gongseujang.md",
+      "source_revision": "badcbafa2e8baa2c2854950536f5109a4f169e99",
+      "source_blob_sha": "9ff3b6c156b3c4e3119ff8818e7d83d756468e24",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "evidence": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "김차경 기획기사. 해당 표현의 뜻 확인. 현재 방역·건강 권고로 사용하지 않음.",
+          "independent_group": "대한민국 정책브리핑"
+        },
+        {
+          "url": "https://sports.seoul.go.kr/main/board/10/3942/board_view.do",
+          "publisher": "서울시민 스포츠 기자단",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "본문58의 2021 기자단 자기소개, 본문68 뜻 및 직접 공원 방문기. 정확 발행일 미표시. 중앙정부 기획기사 전재 아님.",
+          "independent_group": "서울시민 스포츠 기자단"
+        }
+      ],
+      "limitations": [
+        "사용 빈도 수치·최초 제작자 확인 없음. 뜻·국내 사용만 수록.",
+        "서울시민 기자단 발행일 null, 본문 자기소개에만 2021 표기."
+      ]
+    }
+  ],
+  "limitations": [
+    "These include online neologisms and activity names, not only fixed humor images.",
+    "Source roles include term explanations, reports, columns and citizen-reporter visit records. No human or original-media validation.",
+    "Historical pandemic, cold-weather preference, food preference and exercise-place descriptions are not medical, safety, fitness or current legal advice.",
+    "Canonical only; usage annotation remains unchanged."
+  ]
+}

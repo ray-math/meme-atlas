@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "kind": "case-specific AI editorial review of candidate additions; not new gold",
+  "review_revision": "197e0028a333a06e2c57f3fd14d0364c40cdfce7",
+  "limitations": [
+    "Public development cases and AI review, not independent human validation.",
+    "Original gold, plans and traces are unchanged.",
+    "Only the exact listed addition is permitted; removals, original ordering, status and other metadata stay exact."
+  ],
+  "additions": [
+    {
+      "evaluation_set": "challenge/audit",
+      "case_id": "A08",
+      "reason": "The prompt explicitly requests genuine agreement with a minor aesthetic assessment. A playful affirmative candidate is compatible; 인정 may remain a better final concise choice. No existing candidate was removed or reordered.",
+      "expected_hit": {
+        "entry_id": "carrot-of-course",
+        "title": "당근이지",
+        "path": "memes/carrot-of-course.md",
+        "domain_tags": [],
+        "usage_id": "playful-agreement",
+        "score": 20,
+        "matched_facets": {
+          "intents": [
+            "동조"
+          ]
+        },
+        "usage": {
+          "id": "playful-agreement",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "동조"
+          ],
+          "situations": [
+            "평가동의",
+            "말장난"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "앞서 나온 사소한 평가에 실제로 동의하면서 당연하다는 뜻을 친근한 말장난으로 표현한다. 평가 대상이나 내용에 대한 긍정이지 상대 인물 자체에 대한 칭찬은 아니다.",
+          "avoid_when": [
+            "동의할 근거가 없는 사실 주장이나 소문을 확정할 때",
+            "의료·법률·금전 등 중대한 결정의 확인이나 동의를 가벼운 응답으로 대신할 때",
+            "상대의 진지한 고민을 대수롭지 않게 넘기는 말로 들릴 때",
+            "실제로는 동의하지 않으면서 반어적으로 말하려는 때"
+          ],
+          "example": {
+            "text": "이 그림은 두 색이 잘 어울리지? 당근이지!",
+            "kind": "editorial"
+          },
+          "review_note": "평가동의는 이 용례의 앞선 평가에 대한 동의이며 모든 예·아니요 질문에 강제하지 않는다. 말장난 형식만으로 실제 기쁨·재미를 추정하지 않는다. 예문은 기사 인용이 아니다. 넓은 동조 검색에서 A08/E08의 후보 추가를 실제 Python으로 확인하고 의미상 적합한 확장으로 별도 검토했다. 원본 평가 기록은 보존하며 해당 네 사례 외 변경을 자동 허용하지 않는다."
+        },
+        "review_status": "reviewed",
+        "source_sha": "1488b467718d86edacf37a1c29d2848869b1c62a",
+        "requires_context_check": true
+      },
+      "expected_position": 1
+    },
+    {
+      "evaluation_set": "challenge/editorial",
+      "case_id": "E08",
+      "reason": "The prompt explicitly requests genuine agreement with a minor aesthetic assessment. A playful affirmative candidate is compatible; 인정 may remain a better final concise choice. No existing candidate was removed or reordered.",
+      "expected_hit": {
+        "entry_id": "carrot-of-course",
+        "title": "당근이지",
+        "path": "memes/carrot-of-course.md",
+        "domain_tags": [],
+        "usage_id": "playful-agreement",
+        "score": 20,
+        "matched_facets": {
+          "intents": [
+            "동조"
+          ]
+        },
+        "usage": {
+          "id": "playful-agreement",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "동조"
+          ],
+          "situations": [
+            "평가동의",
+            "말장난"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "앞서 나온 사소한 평가에 실제로 동의하면서 당연하다는 뜻을 친근한 말장난으로 표현한다. 평가 대상이나 내용에 대한 긍정이지 상대 인물 자체에 대한 칭찬은 아니다.",
+          "avoid_when": [
+            "동의할 근거가 없는 사실 주장이나 소문을 확정할 때",
+            "의료·법률·금전 등 중대한 결정의 확인이나 동의를 가벼운 응답으로 대신할 때",
+            "상대의 진지한 고민을 대수롭지 않게 넘기는 말로 들릴 때",
+            "실제로는 동의하지 않으면서 반어적으로 말하려는 때"
+          ],
+          "example": {
+            "text": "이 그림은 두 색이 잘 어울리지? 당근이지!",
+            "kind": "editorial"
+          },
+          "review_note": "평가동의는 이 용례의 앞선 평가에 대한 동의이며 모든 예·아니요 질문에 강제하지 않는다. 말장난 형식만으로 실제 기쁨·재미를 추정하지 않는다. 예문은 기사 인용이 아니다. 넓은 동조 검색에서 A08/E08의 후보 추가를 실제 Python으로 확인하고 의미상 적합한 확장으로 별도 검토했다. 원본 평가 기록은 보존하며 해당 네 사례 외 변경을 자동 허용하지 않는다."
+        },
+        "review_status": "reviewed",
+        "source_sha": "1488b467718d86edacf37a1c29d2848869b1c62a",
+        "requires_context_check": true
+      },
+      "expected_position": 1
+    },
+    {
+      "evaluation_set": "regression-v3/audit",
+      "case_id": "A08",
+      "reason": "The prompt explicitly requests genuine agreement with a minor aesthetic assessment. A playful affirmative candidate is compatible; 인정 may remain a better final concise choice. No existing candidate was removed or reordered.",
+      "expected_hit": {
+        "entry_id": "carrot-of-course",
+        "title": "당근이지",
+        "path": "memes/carrot-of-course.md",
+        "domain_tags": [],
+        "usage_id": "playful-agreement",
+        "score": 20,
+        "matched_facets": {
+          "intents": [
+            "동조"
+          ]
+        },
+        "usage": {
+          "id": "playful-agreement",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "동조"
+          ],
+          "situations": [
+            "평가동의",
+            "말장난"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "앞서 나온 사소한 평가에 실제로 동의하면서 당연하다는 뜻을 친근한 말장난으로 표현한다. 평가 대상이나 내용에 대한 긍정이지 상대 인물 자체에 대한 칭찬은 아니다.",
+          "avoid_when": [
+            "동의할 근거가 없는 사실 주장이나 소문을 확정할 때",
+            "의료·법률·금전 등 중대한 결정의 확인이나 동의를 가벼운 응답으로 대신할 때",
+            "상대의 진지한 고민을 대수롭지 않게 넘기는 말로 들릴 때",
+            "실제로는 동의하지 않으면서 반어적으로 말하려는 때"
+          ],
+          "example": {
+            "text": "이 그림은 두 색이 잘 어울리지? 당근이지!",
+            "kind": "editorial"
+          },
+          "review_note": "평가동의는 이 용례의 앞선 평가에 대한 동의이며 모든 예·아니요 질문에 강제하지 않는다. 말장난 형식만으로 실제 기쁨·재미를 추정하지 않는다. 예문은 기사 인용이 아니다. 넓은 동조 검색에서 A08/E08의 후보 추가를 실제 Python으로 확인하고 의미상 적합한 확장으로 별도 검토했다. 원본 평가 기록은 보존하며 해당 네 사례 외 변경을 자동 허용하지 않는다."
+        },
+        "review_status": "reviewed",
+        "source_sha": "1488b467718d86edacf37a1c29d2848869b1c62a",
+        "requires_context_check": true
+      },
+      "expected_position": 1
+    },
+    {
+      "evaluation_set": "regression-v3/editorial",
+      "case_id": "E08",
+      "reason": "The prompt explicitly requests genuine agreement with a minor aesthetic assessment. A playful affirmative candidate is compatible; 인정 may remain a better final concise choice. No existing candidate was removed or reordered.",
+      "expected_hit": {
+        "entry_id": "carrot-of-course",
+        "title": "당근이지",
+        "path": "memes/carrot-of-course.md",
+        "domain_tags": [],
+        "usage_id": "playful-agreement",
+        "score": 20,
+        "matched_facets": {
+          "intents": [
+            "동조"
+          ]
+        },
+        "usage": {
+          "id": "playful-agreement",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "동조"
+          ],
+          "situations": [
+            "평가동의",
+            "말장난"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "앞서 나온 사소한 평가에 실제로 동의하면서 당연하다는 뜻을 친근한 말장난으로 표현한다. 평가 대상이나 내용에 대한 긍정이지 상대 인물 자체에 대한 칭찬은 아니다.",
+          "avoid_when": [
+            "동의할 근거가 없는 사실 주장이나 소문을 확정할 때",
+            "의료·법률·금전 등 중대한 결정의 확인이나 동의를 가벼운 응답으로 대신할 때",
+            "상대의 진지한 고민을 대수롭지 않게 넘기는 말로 들릴 때",
+            "실제로는 동의하지 않으면서 반어적으로 말하려는 때"
+          ],
+          "example": {
+            "text": "이 그림은 두 색이 잘 어울리지? 당근이지!",
+            "kind": "editorial"
+          },
+          "review_note": "평가동의는 이 용례의 앞선 평가에 대한 동의이며 모든 예·아니요 질문에 강제하지 않는다. 말장난 형식만으로 실제 기쁨·재미를 추정하지 않는다. 예문은 기사 인용이 아니다. 넓은 동조 검색에서 A08/E08의 후보 추가를 실제 Python으로 확인하고 의미상 적합한 확장으로 별도 검토했다. 원본 평가 기록은 보존하며 해당 네 사례 외 변경을 자동 허용하지 않는다."
+        },
+        "review_status": "reviewed",
+        "source_sha": "1488b467718d86edacf37a1c29d2848869b1c62a",
+        "requires_context_check": true
+      },
+      "expected_position": 1
+    }
+  ]
+}

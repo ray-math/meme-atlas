@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "semantic_source_commit": "5fdddc6ae477c02613a7deaa27a15ebe88e109f0",
+  "prompt_path": "docs/ai-usage-contract-v3.md",
+  "status": "frozen_before_new_holdout_input_release",
+  "development_cases": [
+    "A03",
+    "E21"
+  ],
+  "previous_v2_sets": "preserved unchanged; revealed and no longer fresh heldout for future revisions",
+  "strict_holdout_prompts_seen": false,
+  "strict_holdout_labels_seen": false,
+  "model_provenance": "fresh OpenAI assistant subagent; exact model revision and sampling parameters unavailable"
+}

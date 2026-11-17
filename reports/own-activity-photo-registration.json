@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "document_kind": "registration_patch_plan",
+  "registration_status": "not_applied",
+  "base_commit": "5d30ff86b9e8abb1d5d966ebafeac6fae55fc2f3",
+  "source_report_commit": "63626906ad1f836669410e264719e8ebd3c8fbf4",
+  "scope_note": "Append-only one-profile draft proposal. Preserve approved membership snapshots/counts and all existing records. Do not annotate 안습 or modify PR37/main.",
+  "new_profiles": [
+    {
+      "entry_id": "proof-photo",
+      "source_sha": "54d487149fba2edaa1a166f6f73d61633b1e5c2f",
+      "review_status": "draft",
+      "review_note": "자기 활동을 마쳤다는 설명에 기록 사진을 곁들여 공유하는 용법만 다룬다. 자랑·뿌듯함·성취감은 자동 추정하지 않는다. 사용자 제공의 활동 완료 전제를 유지하는 것과 독립적인 사실 확인은 다르다. 외부 출처는 조사 담당의 직접 확인 보고를 참고한 것이며 이 작성자의 원문 재독은 아니다.",
+      "usages": [
+        {
+          "id": "share-own-completed-activity",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "활동기록공유"
+          ],
+          "situations": [
+            "활동기록사진"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "사실오인"
+          ],
+          "safety": "standard",
+          "context": "본인이 마쳤다고 설명한 활동을 기록한 사진을 소개하며 자신의 경험을 공유한다. 사진은 전달 매체이고 표현의 중심은 본인의 경험이다. 기록을 제시하는 목적이지 사진을 독립적으로 검증했다는 뜻은 아니다.",
+          "avoid_when": [
+            "다른 사람의 사진만 보고 그 사람이 실제 활동을 마쳤다고 확정하는 경우",
+            "사진이나 사용자 입력에 없는 메달·장소·인물·구도를 만들어 말하는 경우",
+            "사진을 실제로 보지 않았는데 내용을 관찰한 것처럼 설명하는 경우",
+            "민감한 신분증·신체 사진 등을 증거로 요구하는 경우",
+            "동의 없는 촬영·공유를 권하거나 개인 정보 노출을 무시하는 경우",
+            "사진의 진위·활동 완료를 독립 검증한 것으로 주장하는 경우",
+            "사진 작품의 솜씨 평가나 타인에게 증거 제출을 요구하는 용법으로 확대하는 경우"
+          ],
+          "example": {
+            "text": "활동을 마치고 기록 사진을 남겼어. 내 경험을 공유하는 인증샷이야.",
+            "kind": "editorial"
+          },
+          "review_note": "예문은 사진 관찰 보고가 아니라 개인정보 없는 창작이다. standard는 자기 활동의 비민감 기록을 적법하고 동의된 범위에서 공유한다는 좁은 편집 맥락의 판단이다. 사용자가 제시한 활동 완료 전제를 유지할 수 있지만 실제 사진·진위·촬영 동의가 확인됐다고 주장하지 않는다. 필터 일치만으로 이 조건이 검증되지는 않는다.",
+          "retrieval_requirements": {
+            "situations": [
+              "활동기록사진"
+            ],
+            "targets": [
+              "자기"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "new_vocabulary": {
+    "intents": [
+      {
+        "label": "활동기록공유",
+        "aliases": [],
+        "definition": "자신이 한 활동이나 경험을 사진 등의 기록으로 보여 주며 공유함. 기록의 진실성 검증이나 타인에게 증거 제출을 요구하는 기능과 구별한다."
+      }
+    ],
+    "situations": [
+      {
+        "label": "활동기록사진",
+        "aliases": [],
+        "definition": "자신이 마친 활동을 보여 주려는 사진을 소개하거나 공유하는 상황. 사진을 직접 제작한 작품으로 평가하는 경우나 사진만으로 타인의 활동을 판정하는 경우와 구별한다."
+      }
+    ]
+  },
+  "test_file": {
+    "path": "tests/test_own_activity_photo_draft.py",
+    "source": "\"\"\"Structural photo-sharing draft tests; metadata checks are not fact verification.\"\"\"\nimport copy\nimport sys\nimport unittest\nfrom pathlib import Path\nROOT = Path(__file__).resolve().parents[1]\nsys.path.insert(0, str(ROOT / 'scripts'))\nfrom usage_profiles import load_profiles, load_vocabulary, blob_sha\nfrom build_usage_index import build_usage_index\nfrom search_usage import search\n\nclass OwnActivityPhotoDraftTests(unittest.TestCase):\n    ID = 'proof-photo'\n    SHA = '54d487149fba2edaa1a166f6f73d61633b1e5c2f'\n    REQ = {'situations': ['활동기록사진'], 'targets': ['자기']}\n\n    def setUp(self):\n        self.profiles = load_profiles(ROOT)['profiles']\n        self.vocab = load_vocabulary(ROOT)\n        self.index = build_usage_index(ROOT)\n\n    def hits(self, index, **kwargs):\n        r = search(index, self.vocab, limit=100, **kwargs)\n        self.assertNotEqual(r['status'], 'unsupported_filter')\n        return [h for h in r['results'] if h['entry_id'] == self.ID]\n\n    def provisional(self):\n        index = copy.deepcopy(self.index)\n        entry = next(e for e in index['entries'] if e['id'] == self.ID)\n        entry['review_status'] = 'reviewed'\n        return index, entry\n\n    def test_source_and_narrow_unknown_draft_shape(self):\n        rows = [p for p in self.profiles if p['entry_id'] == self.ID]\n        self.assertEqual(len(rows), 1)\n        p = rows[0]\n        self.assertEqual(p['source_sha'], self.SHA)\n        self.assertEqual(self.SHA, blob_sha(ROOT / 'memes' / 'proof-photo.md'))\n        self.assertEqual(p['review_status'], 'draft')\n        self.assertEqual(len(p['usages']), 1)\n        u = p['usages'][0]\n        self.assertEqual(u['id'], 'share-own-completed-activity')\n        self.assertEqual(u['emotion_status'], 'unknown')\n        self.assertEqual(u['emotions'], [])\n        self.assertEqual(u['intents'], ['활동기록공유'])\n        self.assertEqual(u['situations'], ['활동기록사진'])\n        self.assertEqual(u['targets'], ['자기'])\n        self.assertEqual(u['safety'], 'standard')\n        self.assertEqual(u['risk_flags'], ['사실오인'])\n        self.assertEqual(u['example']['kind'], 'editorial')\n        self.assertEqual(u['retrieval_requirements'], self.REQ)\n\n    def test_new_concepts_defined_once(self):\n        for facet, label in [('intents', '활동기록공유'), ('situations', '활동기록사진')]:\n            rows = [c for c in self.vocab['facets'][facet] if c['label'] == label]\n            self.assertEqual(len(rows), 1)\n            self.assertEqual(rows[0]['aliases'], [])\n            self.assertTrue(rows[0]['definition'].strip())\n\n    def test_draft_hidden_in_both_modes(self):\n        entry = next(e for e in self.index['entries'] if e['id'] == self.ID)\n        for mode in ('lookup', 'recommend'):\n            for filters in (self.REQ, {'query': entry['title']},\n                            dict(self.REQ, query=entry['title'])):\n                self.assertFalse(self.hits(self.index, mode=mode, **filters))\n\n    def test_provisional_exact_requirements_return_context_checked_candidate(self):\n        index, entry = self.provisional()\n        for mode in ('lookup', 'recommend'):\n            hits = self.hits(index, mode=mode, **self.REQ)\n            self.assertEqual(len(hits), 1)\n            self.assertEqual(hits[0]['usage_id'], 'share-own-completed-activity')\n            self.assertTrue(hits[0]['requires_context_check'])\n            self.assertTrue(hits[0]['retrieval_scope']['explicit_filters_match'])\n        self.assertFalse(self.hits(index, mode='recommend', query=entry['title']))\n        explanation = self.hits(index, mode='lookup', query=entry['title'])\n        self.assertEqual(len(explanation), 1)\n        self.assertTrue(explanation[0]['retrieval_scope']['exact_lookup_only'])\n\n    def test_provisional_missing_or_and_wrong_target_filters_blocked(self):\n        index, _ = self.provisional()\n        blocked = [\n            {'intents': ['활동기록공유']},\n            {'situations': ['활동기록사진']},\n            {'targets': ['자기']},\n            {'situations': ['활동기록사진', '결과물공유'], 'targets': ['자기']},\n            {'situations': ['활동기록사진'], 'targets': ['자기', '상대']},\n        ]\n        blocked += [{'situations': ['활동기록사진'], 'targets': [target]}\n                    for target in ('상대', '제삼자', '상황')]\n        for mode in ('lookup', 'recommend'):\n            for filters in blocked:\n                self.assertFalse(self.hits(index, mode=mode, **filters))\n\n    def test_neighboring_situations_alone_do_not_match(self):\n        index, _ = self.provisional()\n        for situation in ('결과물공유', '작업솜씨평가', '일완료'):\n            for mode in ('lookup', 'recommend'):\n                for filters in ({'situations': [situation]},\n                                {'situations': [situation], 'targets': ['자기']}):\n                    self.assertFalse(self.hits(index, mode=mode, **filters))\n        # This reflects this usage's required facets, not semantic impossibility\n        # of overlapping activities in a real person's experience.\n\n    def test_context_omits_title_and_boundary_metadata_remains(self):\n        index, entry = self.provisional()\n        u = entry['usages'][0]\n        self.assertNotIn(entry['title'], u['context'])\n        boundary = ' '.join(u['avoid_when']) + u['review_note']\n        for term in ('진위', '실제로 보지', '동의', '독립 검증', '메달'):\n            self.assertIn(term, boundary)\n        hit = self.hits(index, mode='recommend', **self.REQ)[0]\n        self.assertTrue(hit['requires_context_check'])\n        self.assertEqual(hit['usage']['risk_flags'], ['사실오인'])\n        # Metadata preservation does not inspect an image or establish truth,\n        # completed activity, consent, identity, location or depicted objects.\n\nif __name__ == '__main__':\n    unittest.main()\n"
+  },
+  "context_limits": [
+    "context에서 표제를 제외했지만 독립 봉인 평가나 실제 자연어 정확도 검증은 아니다.",
+    "사진은 매체이고 자기 경험이 대상이므로 target자기로 좁혔다. 타인 활동 판정이나 증거 제출 요구는 포함하지 않는다.",
+    "필터 일치는 실제 사진 관찰·활동 완료·진위·동의를 검증하지 않는다.",
+    "profile은 draft이며 등록·승격·검색 노출을 승인하지 않는다.",
+    "Python 검색·스키마·회귀·CI는 실행하지 않았다."
+  ],
+  "verification": {
+    "canonical_sha_rechecked": true,
+    "current_profile_id_absent": true,
+    "current_new_labels_absent": true,
+    "test_methods": 7,
+    "python_executed": false,
+    "ci_executed": false,
+    "limits": "Unexecuted structural tests only. Hypothetical reviewed flags remain in memory. Boundary metadata assertions are not image inspection, activity/identity verification, consent confirmation or fact checking."
+  },
+  "integration_steps": [
+    "Recheck canonical hash and conflicting IDs/labels before applying.",
+    "Append only new_profiles and new_vocabulary without replacing concurrent data or changing approved membership specifications.",
+    "Keep profile draft. Install test source, regenerate index through the authorized workflow, then execute schema/source checks and full CI.",
+    "Keep photo observation, factual verification and consent checks separate from candidate retrieval and boundary metadata."
+  ]
+}

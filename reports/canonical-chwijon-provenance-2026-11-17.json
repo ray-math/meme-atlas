@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "approved public-source correction metadata, not raw collection notes",
+  "source_revision": "bf64f0afb94d4b03695ef6d0fa273312ac8d1270",
+  "batch_id": "korean-reviewed-20261117-chwijon-provenance",
+  "review_kind": "AI source and editorial review; not human validation",
+  "entries": [
+    {
+      "slug": "chwijon",
+      "title": "취존",
+      "path": "memes/chwijon.md",
+      "source_blob_sha": "9238454be42e66534051ef40d8c53dbcd6b5faea",
+      "expected_body_hash": "d6d0b20dd8c65ff9a897094638f2e332a1ec0015ed48fa4df05ed928496b0db5",
+      "scope_type": "korean_usage",
+      "scope_basis": "아주경제의 신조어 설명(실제발행2017-12-20)과 연합뉴스의 줄임말 문화 설명(실제송고2018-11-19)을 직접확인했다. 기존2019년 문장의 별도참조는 명시되어 있지 않아 그해자료가 없다고 단정하지 않고 불필요한 연도 단정만 제거했다.",
+      "evidence": [
+        {
+          "url": "https://www.ajunews.com/view/20171219083615886",
+          "publisher": "아주경제",
+          "published_date": "2017-12-20"
+        },
+        {
+          "url": "https://www.yna.co.kr/amp/view/AKR20181116062100797",
+          "publisher": "연합뉴스",
+          "published_date": "2018-11-19"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "The metadata uses page publication dates, not numeric URL dates.",
+    "Removal of an unanchored date does not establish that no 2019 report exists.",
+    "Meaning explanations are not recordings of interpersonal safety or effect. Existing candidate and observation records remain unchanged."
+  ]
+}

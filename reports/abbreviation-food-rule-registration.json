@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "document_kind": "draft_registration_record",
+  "base_commit": "d1c671447ee608f94d7304f51f5288f3fe80eb53",
+  "source_report_commit": "d1e2ca9d1c44f3a887f7e8b66b3b615f68a6f938",
+  "new_profiles": [
+    {
+      "entry_id": "byeoldajul",
+      "source_sha": "c94c9df3584960ea615999812b02468575f824e3",
+      "review_status": "draft",
+      "review_note": "canonical 직접 확인. 외부 근거는 매일경제 칼럼과 중도일보 뜻·기사 예문의 조사 보고를 참고했다. 원채팅은 확인하지 않았다. 표현의 축약 방식에 대한 반응만 주석하며 실제 당황·조롱 의도를 자동 추정하지 않는다.",
+      "usages": [
+        {
+          "id": "react-to-known-abbreviation",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "상황평가"
+          ],
+          "situations": [
+            "축약방식평가"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "관계의존",
+            "타인비하"
+          ],
+          "safety": "caution",
+          "context": "줄임말의 원래 표현이나 뜻을 이미 설명받은 뒤, 그 표현을 그렇게까지 줄인 방식에 가벼운 반응을 보이고 싶다.",
+          "avoid_when": [
+            "아직 뜻을 모르는 사람의 설명 요청을 이해한 뒤의 평가로 바꾸는 경우",
+            "줄임말 사용자의 지능·언어 능력·세대를 깎아내리는 경우",
+            "이해를 돕는 설명 대신 상대를 공개적으로 창피 주는 경우",
+            "상대가 가벼운 핀잔을 원하지 않는데 농담이라고 강요하는 경우"
+          ],
+          "example": {
+            "text": "그 긴 표현을 그렇게 줄인 거였구나. 별다줄이네.",
+            "kind": "editorial"
+          },
+          "review_note": "평가 대상은 표현의 축약 방식이지 사용자 개인이 아니다. 가벼운 핀잔으로 들릴 수 있어 caution으로 판단했다. 기본 recommend에서는 제외하며 lookup 후에도 맥락·조건을 확인해야 한다. 단어 자체가 줄임말이라는 농담 구조를 실제 화자의 자기성찰·조롱 의도로 확정하지 않는다.",
+          "retrieval_requirements": {
+            "situations": [
+              "축약방식평가"
+            ],
+            "targets": [
+              "상황"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entry_id": "guk-rule",
+      "source_sha": "f4809202023fdddc789bbc538ca717942776cbe5",
+      "review_status": "draft",
+      "review_note": "canonical 직접 확인. 외부 근거는 뉴시스 기사와 발행일 미확인 경남교육청 자료의 뜻·음식 예시 조사 보고를 참고했다. 원댓글 및 자료가 인용한 조선일보 원문은 확인하지 않았다. 음식 밖 용법을 부정하지 않고 이번 주석만 음식 조합으로 좁힌다.",
+      "usages": [
+        {
+          "id": "playful-food-preference-rule",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "취향규칙화"
+          ],
+          "situations": [
+            "음식조합취향"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "사실오인",
+            "관계의존"
+          ],
+          "safety": "standard",
+          "context": "이미 제시된 음식 조합에 대한 자신의 선호를 규칙처럼 과장하는 가벼운 문구로 표현하고 싶다.",
+          "avoid_when": [
+            "입력에 없는 음식이나 재료 조합을 임의로 만들어 넣는 경우",
+            "상대의 식이 제한·알레르기·거절을 무시하며 먹도록 강요하는 경우",
+            "자기 선호를 실제 규정·다수의 선호·상대의 동의로 확정하는 경우",
+            "제공되지 않은 영양·건강 효과를 사실처럼 덧붙이는 경우",
+            "음식 밖의 표현 사용이 틀렸다고 이번 주석 범위만으로 판정하는 경우"
+          ],
+          "example": {
+            "text": "앞서 말한 그 조합은 내 취향이지. 나한텐 국룰이야.",
+            "kind": "editorial"
+          },
+          "review_note": "standard는 제시된 음식 조합의 자기 취향을 가볍게 과장하며 상대에게 준수를 요구하지 않는 좁은 편집 맥락의 판단이다. required intent·situation만으로 실제 음식 정보·상대의 수용·식이 조건을 검증하지 않는다. 자기 취향을 말한다는 사실도 피해나 식이 제한을 무시할 권한이 되지 않는다.",
+          "retrieval_requirements": {
+            "intents": [
+              "취향규칙화"
+            ],
+            "situations": [
+              "음식조합취향"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "new_vocabulary": {
+    "intents": [
+      {
+        "label": "취향규칙화",
+        "aliases": [],
+        "definition": "개인적 취향이나 익숙한 선택을 모두에게 통하는 규칙인 것처럼 과장해 표현함. 실제 규정·다수 선호·상대 동의를 인증하거나 준수를 강요하는 기능과 구별한다."
+      }
+    ],
+    "situations": [
+      {
+        "label": "축약방식평가",
+        "aliases": [],
+        "definition": "줄임말의 원래 표현이나 뜻을 알고 얼마나 또는 어떻게 줄였는지 반응하는 상황. 아직 뜻을 몰라 설명을 요청하거나 사용자의 능력을 평가하는 경우와 구별한다."
+      },
+      {
+        "label": "음식조합취향",
+        "aliases": [],
+        "definition": "음식이나 곁들이는 재료의 조합에 관한 선호를 이야기하는 상황. 영양·건강 효과의 검증이나 의무적인 식사 규칙과 구별한다."
+      }
+    ]
+  },
+  "source_review": [
+    {
+      "entry_id": "byeoldajul",
+      "url": "https://www.mk.co.kr/news/contributors/7474545",
+      "published_date": "2016-08-22",
+      "support": "칼럼의 표현 뜻과 말장난 설명.",
+      "limits": "원채팅 관찰 자료가 아니며 모든 화자의 실제 감정을 입증하지 않는다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "entry_id": "byeoldajul",
+      "url": "https://m.joongdo.co.kr/view.php?key=20190422001712154",
+      "published_date": "2019-04-23",
+      "support": "기사의 뜻풀이와 활용 예문.",
+      "limits": "기사 예문을 실제 원대화로 취급하지 않는다. 원채팅은 확인하지 않았다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "entry_id": "guk-rule",
+      "url": "https://mobile.newsis.com/view/NISX20230313_0002224045",
+      "published_date": "2023-03-26",
+      "support": "뜻과 음식 관련 예시 설명.",
+      "limits": "표현 사용이 다수의 선호·건강 효과나 실제 규정의 증거가 되지는 않는다. 원댓글은 확인하지 않았다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "entry_id": "guk-rule",
+      "url": "https://www.gne.go.kr/magazine/user/bbs/BD_selectBbs.do?q_bbsDocNo=2499313&q_bbsSn=1392",
+      "published_date": null,
+      "support": "용어의 뜻과 음식 예시를 소개하는 교육청 자료.",
+      "limits": "발행일은 확인하지 않았다. 원댓글 및 인용된 조선일보 원문은 직접 확인하지 않았다.",
+      "access": "researcher_direct_read_report"
+    }
+  ],
+  "limitations": [
+    "두 profile은 draft이며 실제 등록·vocabulary 변경·승격을 승인하지 않는다.",
+    "별다줄 caution은 기본 추천 제외이며 lookup 결과도 적합성 검증 결과가 아니다.",
+    "국룰의 좁은 자기 선호 맥락은 음식·재료 정보 생성이나 식이 제한·피해 무시를 정당화하지 않는다.",
+    "필터는 입력의 뜻 이해·상대 수용·실제 식이 조건을 검증하지 않는다.",
+    "Python·provisional 검색·회귀·CI는 실행하지 않았다."
+  ],
+  "verification": {
+    "python_executed": false,
+    "ci_executed": false,
+    "source_sha_rechecked": true,
+    "scope": "기존 reviewed 69개/84용법과 승인 명세는 변경하지 않고 draft 두 개만 추가했다. 별다줄 lookup은 조건 평가 후보이며 기본 추천에서 제외한다. 국룰은 명시된 취향·음식 상황으로 좁히고 입력에 없는 음식 조합을 만들어도 된다는 뜻이 아니다."
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "geumson",
+    "ttongson"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 354,
+    "annotated_entries": 54,
+    "reviewed_entries": 52,
+    "unannotated_entries": 300
+  },
+  "provisional_reviewed_entries": 54,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "execution_commit": "5ead76856b6d5f3a9fd0a3b87ad43da1f9084a8f",
+  "ci_run": 44017688577,
+  "results": [
+    {
+      "id": "C-praise",
+      "prompt": "제작물의 세부 표현이나 완성도를 보고 그 제작자를 제삼자로 칭찬한다. 평가 초점은 해당 작업의 솜씨이지 인격이나 모든 분야의 능력이 아니다.\n이 미니어처는 작은 창틀까지 섬세하네. 만든 분 정말 금손이다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "칭찬"
+        ],
+        "situations": [
+          "작업솜씨평가"
+        ],
+        "targets": [
+          "제삼자"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 54,
+          "reviewed_entries": 52,
+          "unannotated_entries": 300
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "geumson",
+            "title": "금손",
+            "path": "memes/geumson.md",
+            "domain_tags": [],
+            "usage_id": "praise-third-party-craft",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "칭찬"
+              ],
+              "situations": [
+                "작업솜씨평가"
+              ],
+              "targets": [
+                "제삼자"
+              ]
+            },
+            "usage": {
+              "id": "praise-third-party-craft",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "칭찬"
+              ],
+              "situations": [
+                "작업솜씨평가"
+              ],
+              "targets": [
+                "제삼자"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "제작물의 세부 표현이나 완성도를 보고 그 제작자를 제삼자로 칭찬한다. 평가 초점은 해당 작업의 솜씨이지 인격이나 모든 분야의 능력이 아니다.",
+              "avoid_when": [
+                "직접 상대 호명으로 이번 검증 범위를 자동 확대하는 경우",
+                "결과물만으로 타인의 노력·타고난 재능·경력을 단정하는 경우",
+                "다른 사람의 서툼·부상·장애를 비교하며 깎아내리는 경우",
+                "단순 행운·재산이나 게임·낚시 전반의 능력 평가로 확대하는 경우"
+              ],
+              "example": {
+                "text": "이 미니어처는 작은 창틀까지 섬세하네. 만든 분 정말 금손이다.",
+                "kind": "editorial"
+              },
+              "review_note": "제삼자 제작자 칭찬이라는 좁은 방향만 확인했다. standard는 이 예시 맥락의 편집 분류이며 모든 사용의 안전 보증이 아니다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "작업솜씨평가"
+                ],
+                "targets": [
+                  "제삼자"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "26c1ac81bd49d557ca92e987887e0d91e03c7f0f",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "작업솜씨평가"
+                ],
+                "targets": [
+                  "제삼자"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "C-self",
+      "prompt": "자신이 꾸민 작은 정원의 결과가 서툴렀음을 가볍게 낮추어 말한다. 해당 작업의 한 번 또는 한 시기 결과를 웃어넘기는 표현이지 자신의 모든 능력을 부정하는 판정은 아니다.\n작은 정원을 꾸몄는데 배치가 어색하네. 이번에는 내가 똥손이었어. 조금씩 다시 꾸며 봐야겠다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "situations": [
+          "작업솜씨평가"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 54,
+          "reviewed_entries": 52,
+          "unannotated_entries": 300
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "ttongson",
+            "title": "똥손",
+            "path": "memes/ttongson.md",
+            "domain_tags": [],
+            "usage_id": "self-deprecate-craft",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "작업솜씨평가"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-deprecate-craft",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "작업솜씨평가"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "혼잣말",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "비속어",
+                "상처가능"
+              ],
+              "safety": "caution",
+              "context": "자신이 꾸민 작은 정원의 결과가 서툴렀음을 가볍게 낮추어 말한다. 해당 작업의 한 번 또는 한 시기 결과를 웃어넘기는 표현이지 자신의 모든 능력을 부정하는 판정은 아니다.",
+              "avoid_when": [
+                "상대나 제삼자의 솜씨를 낮추어 부르는 경우",
+                "부상·장애나 심각한 손해·고통을 웃음거리로 삼는 경우",
+                "작업 실패를 근거로 자신이나 타인의 가치·재능·노력·경력 전부를 단정하는 경우",
+                "위로나 실질적인 도움이 필요한 상황을 자조로 덮는 경우",
+                "낚시·게임 또는 단순 불운까지 이번 제작 작업 범위의 검증 결과로 확대하는 경우"
+              ],
+              "example": {
+                "text": "작은 정원을 꾸몄는데 배치가 어색하네. 이번에는 내가 똥손이었어. 조금씩 다시 꾸며 봐야겠다.",
+                "kind": "editorial"
+              },
+              "review_note": "창작 예문은 직접 근거가 있는 정원 조성의 자기 방향으로 좁혔다. 개선 언급이 작업 능력 향상 효과를 입증하지 않는다. 비속한 낮춤말이므로 기본 추천에서는 제외해야 한다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "작업솜씨평가"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "b600701774891b564521e77e0a0db306223a3b99",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "작업솜씨평가"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "C-inference",
+      "prompt": "결과물만으로 타인의 노력·타고난 재능·경력을 단정하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "C-harm",
+      "prompt": "부상·장애나 심각한 손해·고통을 웃음거리로 삼는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A01",
+      "prompt": "친구가 처음 낸 단편소설이 문학상 후보에 올랐대. 믿기지 않을 만큼 기쁘다는 반응을 단톡에 짧게 보내고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "감탄"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 54,
+          "reviewed_entries": 52,
+          "unannotated_entries": 300
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "daebak-reaction",
+            "title": "대박",
+            "path": "memes/daebak-reaction.md",
+            "domain_tags": [],
+            "usage_id": "admire",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "admire",
+              "emotions": [
+                "놀람",
+                "기쁨"
+              ],
+              "intents": [
+                "감탄",
+                "칭찬"
+              ],
+              "situations": [
+                "기대이상",
+                "성과"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "좋은 결과에 호의적으로 반응한다.",
+              "avoid_when": [
+                "피해나 실패를 기뻐하는 것으로 읽힐 때"
+              ],
+              "example": {
+                "text": "첫 발표가 최우수상이라니, 대박!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "956ef9e3e44d4e98dae9ef50a206761bb9110a3a",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "is-this-real",
+            "title": "이거 실화냐",
+            "path": "memes/is-this-real.md",
+            "domain_tags": [],
+            "usage_id": "pleasant-surprise",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "pleasant-surprise",
+              "emotions": [
+                "놀람",
+                "기쁨"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "기대이상",
+                "성과"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "좋은 결과가 믿기지 않는다는 감탄이다.",
+              "avoid_when": [
+                "실제 사실 검증 답변이 필요한 때"
+              ],
+              "example": {
+                "text": "추첨에 당첨됐어. 이거 실화냐!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "a4b2c1fd404b93b838ae6a65e6771d8b1d06f968",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 3,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A16",
+      "prompt": "내가 하루 만에 방 전체를 정리하려다 책상만 치웠어. 내 거창한 계획과 소박한 현실 차이를 자조하고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "situations": [
+          "기대와현실차이"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 54,
+          "reviewed_entries": 52,
+          "unannotated_entries": 300
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "reality-is-gutter",
+            "title": "현실은 시궁창",
+            "path": "memes/reality-is-gutter.md",
+            "domain_tags": [
+              "영화"
+            ],
+            "usage_id": "expectation-gap",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "기대와현실차이"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "expectation-gap",
+              "emotions": [
+                "실망"
+              ],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "기대와현실차이"
+              ],
+              "targets": [
+                "자기",
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "타인비하"
+              ],
+              "safety": "caution",
+              "context": "자신의 계획과 결과 차이를 과장한다.",
+              "avoid_when": [
+                "타인의 처지나 가치를 깎아내릴 때"
+              ],
+              "example": {
+                "text": "계획은 새벽 운동, 현실은 알람 다섯 번 끄기. 현실은 시궁창.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "0003bb03c71037f5459101fc410374e18bc33599",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A22",
+      "prompt": "고객사 임원에게 보내는 공식 장애 사과문 끝에 책임을 인정하는 밈 한 줄이 필요해.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    }
+  ]
+}

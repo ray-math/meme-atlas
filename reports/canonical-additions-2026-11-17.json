@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "kind": "approved public source metadata, not raw collection notes",
+  "source_revision": "61d9afc0547905813b5e7af62da747e4e2347556",
+  "batch_id": "korean-verified-20261117-hellchang-jumo",
+  "review_kind": "AI source and editorial review; not human validation",
+  "entries": [
+    {
+      "slug": "hellchang",
+      "title": "헬창",
+      "path": "memes/hellchang.md",
+      "source_blob_sha": "1a78915634f8c1c4c7979c371857e42e42ac139d",
+      "scope_type": "korean_usage",
+      "scope_basis": "동아의 국내 자기 호칭·근손실 유머 사용과 이데일리의 국내 운동 신조어 풀이를 교차확인했다. 최초 한국 창작·의학적 진단을 주장하지 않는다.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20201102150046779?s=print_news",
+          "publisher": "동아일보",
+          "published_date": "2020-11-02"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03034006635607608",
+          "publisher": "이데일리",
+          "published_date": "2023-05-10"
+        }
+      ]
+    },
+    {
+      "slug": "jumo-cheer",
+      "title": "주모 드립",
+      "path": "memes/jumo-cheer.md",
+      "source_blob_sha": "0881c2debcabc95b0f2be5d10a97718f3637d726",
+      "scope_type": "korean_usage",
+      "scope_basis": "여성동아와 데일리안의 독립 문화평론 본문에서 국내 온라인 성취 환호의 호명형 밈을 확인했다. 원댓글 직접 열람·현재 재유행·무해성 인증을 주장하지 않는다.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20231013100111227?s=print_news",
+          "publisher": "여성동아",
+          "published_date": "2023-10-13"
+        },
+        {
+          "url": "https://www.dailian.co.kr/news/view/885026",
+          "publisher": "데일리안",
+          "published_date": "2020-04-20"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Historical language-use evidence, not recent trend observations.",
+    "The publications are independent; quoted commentary is not direct access to every original post.",
+    "No candidate ledger included-state or latest observation is promoted before main approval."
+  ]
+}

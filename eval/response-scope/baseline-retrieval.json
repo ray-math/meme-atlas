@@ -1,0 +1,825 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "are-you-t",
+    "criticism-shield"
+  ],
+  "current_baseline_candidate_drift": [
+    {
+      "set": "challenge/audit",
+      "id": "A01",
+      "before": [
+        "daebak-reaction:admire",
+        "cider-relief:satisfying-resolution",
+        "is-this-real:bewildered",
+        "is-this-real:pleasant-surprise",
+        "iwaejin:confirmed-surprise"
+      ],
+      "after": [
+        "criticism-shield:credit-with-leniency",
+        "daebak-reaction:admire",
+        "cider-relief:satisfying-resolution",
+        "is-this-real:bewildered",
+        "is-this-real:pleasant-surprise"
+      ]
+    },
+    {
+      "set": "challenge/audit",
+      "id": "A09",
+      "before": [
+        "you-insulted-me:mock-serious-protest",
+        "kingbatne:amused-irritation"
+      ],
+      "after": [
+        "are-you-t:playful-response-protest",
+        "you-insulted-me:mock-serious-protest",
+        "kingbatne:amused-irritation"
+      ]
+    },
+    {
+      "set": "challenge/audit",
+      "id": "A14",
+      "before": [
+        "you-insulted-me:mock-serious-protest",
+        "kingbatne:amused-irritation"
+      ],
+      "after": [
+        "are-you-t:playful-response-protest",
+        "you-insulted-me:mock-serious-protest",
+        "kingbatne:amused-irritation"
+      ]
+    },
+    {
+      "set": "challenge/editorial",
+      "id": "E01",
+      "before": [
+        "daebak-reaction:admire",
+        "cider-relief:satisfying-resolution",
+        "is-this-real:bewildered",
+        "is-this-real:pleasant-surprise",
+        "iwaejin:confirmed-surprise"
+      ],
+      "after": [
+        "criticism-shield:credit-with-leniency",
+        "daebak-reaction:admire",
+        "cider-relief:satisfying-resolution",
+        "is-this-real:bewildered",
+        "is-this-real:pleasant-surprise"
+      ]
+    },
+    {
+      "set": "regression-v3/audit",
+      "id": "A01",
+      "before": [
+        "daebak-reaction:admire",
+        "cider-relief:satisfying-resolution",
+        "is-this-real:bewildered",
+        "is-this-real:pleasant-surprise",
+        "iwaejin:confirmed-surprise"
+      ],
+      "after": [
+        "criticism-shield:credit-with-leniency",
+        "daebak-reaction:admire",
+        "cider-relief:satisfying-resolution",
+        "is-this-real:bewildered",
+        "is-this-real:pleasant-surprise"
+      ]
+    },
+    {
+      "set": "regression-v3/audit",
+      "id": "A09",
+      "before": [
+        "you-insulted-me:mock-serious-protest",
+        "kingbatne:amused-irritation"
+      ],
+      "after": [
+        "are-you-t:playful-response-protest",
+        "you-insulted-me:mock-serious-protest",
+        "kingbatne:amused-irritation"
+      ]
+    },
+    {
+      "set": "regression-v3/audit",
+      "id": "A14",
+      "before": [
+        "you-insulted-me:mock-serious-protest",
+        "kingbatne:amused-irritation"
+      ],
+      "after": [
+        "are-you-t:playful-response-protest",
+        "you-insulted-me:mock-serious-protest",
+        "kingbatne:amused-irritation"
+      ]
+    },
+    {
+      "set": "regression-v3/editorial",
+      "id": "E01",
+      "before": [
+        "daebak-reaction:admire",
+        "cider-relief:satisfying-resolution",
+        "is-this-real:bewildered",
+        "is-this-real:pleasant-surprise",
+        "iwaejin:confirmed-surprise"
+      ],
+      "after": [
+        "criticism-shield:credit-with-leniency",
+        "daebak-reaction:admire",
+        "cider-relief:satisfying-resolution",
+        "is-this-real:bewildered",
+        "is-this-real:pleasant-surprise"
+      ]
+    }
+  ],
+  "baseline_coverage": {
+    "dictionary_entries": 350,
+    "annotated_entries": 44,
+    "reviewed_entries": 42,
+    "unannotated_entries": 306
+  },
+  "provisional_reviewed_entries": 44,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "execution_commit": "74ed82b09af5bca8e9973649a52eaad976a85816",
+  "execution_run": 44008161810,
+  "results": [
+    {
+      "id": "T-protest",
+      "prompt": "서로 장난을 즐기는 가벼운 대화에서 공감·맞장구·농담 호응을 기대했는데 상대가 문자 그대로 설명하거나 해결책을 먼저 제시해, 반응을 바꿔 달라는 뜻으로 과장되게 항의한다. 이번 용법은 진지한 고통이나 도움 요청 상황을 포함하지 않는다.\n서로 장난치다가 내가 발표에 백 점 만점에 천 점을 주겠다고 하자 친구가 점수 범위부터 설명했다. 웃으며 물었다. 너 T야?",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "반응기대불일치"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 350,
+          "annotated_entries": 44,
+          "reviewed_entries": 42,
+          "unannotated_entries": 306
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "are-you-t",
+            "title": "너 T야?",
+            "path": "memes/are-you-t.md",
+            "domain_tags": [
+              "인터넷방송"
+            ],
+            "usage_id": "playful-response-protest",
+            "score": 20,
+            "matched_facets": {
+              "situations": [
+                "반응기대불일치"
+              ]
+            },
+            "usage": {
+              "id": "playful-response-protest",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "장난스러운항의"
+              ],
+              "situations": [
+                "반응기대불일치"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "관계의존",
+                "타인비하",
+                "사실오인"
+              ],
+              "safety": "caution",
+              "context": "서로 장난을 즐기는 가벼운 대화에서 공감·맞장구·농담 호응을 기대했는데 상대가 문자 그대로 설명하거나 해결책을 먼저 제시해, 반응을 바꿔 달라는 뜻으로 과장되게 항의한다. 이번 용법은 진지한 고통이나 도움 요청 상황을 포함하지 않는다.",
+              "avoid_when": [
+                "상대의 실제 성격 유형이나 공감 능력을 단정할 때",
+                "특정 성격 유형 전체를 무정하거나 결함 있는 집단으로 취급할 때",
+                "상대가 이런 놀림을 원하지 않거나 상호 장난 여부가 불분명할 때",
+                "진지한 고통·피해 호소나 위로 요청을 농담으로 대신할 때",
+                "중요한 사실 설명이나 필요한 도움을 무시하도록 압박할 때"
+              ],
+              "example": {
+                "text": "서로 장난치다가 내가 발표에 백 점 만점에 천 점을 주겠다고 하자 친구가 점수 범위부터 설명했다. 웃으며 물었다. 너 T야?",
+                "kind": "editorial"
+              },
+              "review_note": "과장된 말과 문자적 응답의 엇갈림에 한정했다. 항의의 직접 상대를 target으로 삼았으며 T라는 말만으로 실제 유형을 추론하지 않는다. 반응기대불일치는 대화의 어긋남이지 답변자의 성격·능력 판정이 아니다. 실제 내면 정서는 unknown이며 창작 예문의 상호 장난 조건을 모든 댓글에 자동 적용하지 않는다."
+            },
+            "review_status": "reviewed",
+            "source_sha": "243ecdc39e7d8dcf662aeef6bd0ef89d225558b9",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "S-leniency",
+      "prompt": "대화 수신자와 다른 사람의 좋은 성과를 칭찬하면서, 이후의 작은 실수나 부족함만으로 그 사람에 대한 호의적 평가를 쉽게 뒤집지 않겠다는 태도를 과장해 표현한다.\n오늘 끝까지 팀을 살린 그 선수의 활약은 까방권이지. 다음에 패스 하나 놓쳤다고 평가를 뒤집지는 않겠어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "관대한평가"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 350,
+          "annotated_entries": 44,
+          "reviewed_entries": 42,
+          "unannotated_entries": 306
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "criticism-shield",
+            "title": "까방권",
+            "path": "memes/criticism-shield.md",
+            "domain_tags": [
+              "연예"
+            ],
+            "usage_id": "credit-with-leniency",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "관대한평가"
+              ]
+            },
+            "usage": {
+              "id": "credit-with-leniency",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "칭찬",
+                "관대한평가"
+              ],
+              "situations": [
+                "성과"
+              ],
+              "targets": [
+                "제삼자"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "법적면책오인"
+              ],
+              "safety": "caution",
+              "context": "대화 수신자와 다른 사람의 좋은 성과를 칭찬하면서, 이후의 작은 실수나 부족함만으로 그 사람에 대한 호의적 평가를 쉽게 뒤집지 않겠다는 태도를 과장해 표현한다.",
+              "avoid_when": [
+                "범죄·폭력·차별 등 중대한 잘못의 책임을 면제하려 할 때",
+                "피해자의 호소나 정당한 비판을 막을 때",
+                "과거 성과를 이유로 현재 잘못 자체를 부정할 때",
+                "실제 법적 권리나 무조건적인 면책 약속으로 제시할 때",
+                "확인하지 않은 성과를 사실처럼 꾸며 칭찬할 때"
+              ],
+              "example": {
+                "text": "오늘 끝까지 팀을 살린 그 선수의 활약은 까방권이지. 다음에 패스 하나 놓쳤다고 평가를 뒤집지는 않겠어.",
+                "kind": "editorial"
+              },
+              "review_note": "칭찬과 작은 실수에 대한 호의를 분리해 칭찬·관대한평가를 함께 부여했다. 평가 대상은 수신자가 아닌 제삼자이며 성과 자체의 상황 평가와 구별한다. 범위는 작은 수행 실수이지 책임 면제가 아니다. 실제 감정은 unknown이며 예문은 실제 선수·경기에 관한 주장이 아니다."
+            },
+            "review_status": "reviewed",
+            "source_sha": "64c6589407e927d6c946bcf9803a4c16c7bb6d00",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A01",
+      "prompt": "친구가 처음 낸 단편소설이 문학상 후보에 올랐대. 믿기지 않을 만큼 기쁘다는 반응을 단톡에 짧게 보내고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "감탄"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 350,
+          "annotated_entries": 44,
+          "reviewed_entries": 42,
+          "unannotated_entries": 306
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "daebak-reaction",
+            "title": "대박",
+            "path": "memes/daebak-reaction.md",
+            "domain_tags": [],
+            "usage_id": "admire",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "admire",
+              "emotions": [
+                "놀람",
+                "기쁨"
+              ],
+              "intents": [
+                "감탄",
+                "칭찬"
+              ],
+              "situations": [
+                "기대이상",
+                "성과"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "좋은 결과에 호의적으로 반응한다.",
+              "avoid_when": [
+                "피해나 실패를 기뻐하는 것으로 읽힐 때"
+              ],
+              "example": {
+                "text": "첫 발표가 최우수상이라니, 대박!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "956ef9e3e44d4e98dae9ef50a206761bb9110a3a",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "is-this-real",
+            "title": "이거 실화냐",
+            "path": "memes/is-this-real.md",
+            "domain_tags": [],
+            "usage_id": "bewildered",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "bewildered",
+              "emotions": [
+                "놀람",
+                "당혹"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "예상밖실수"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "공개망신"
+              ],
+              "safety": "caution",
+              "context": "뜻밖의 실수나 상황을 황당해한다.",
+              "avoid_when": [
+                "실수한 상대를 공개적으로 망신줄 때"
+              ],
+              "example": {
+                "text": "회의 날짜를 한 달 뒤로 잡았대. 이거 실화냐?",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "a4b2c1fd404b93b838ae6a65e6771d8b1d06f968",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "is-this-real",
+            "title": "이거 실화냐",
+            "path": "memes/is-this-real.md",
+            "domain_tags": [],
+            "usage_id": "pleasant-surprise",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "pleasant-surprise",
+              "emotions": [
+                "놀람",
+                "기쁨"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "기대이상",
+                "성과"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "좋은 결과가 믿기지 않는다는 감탄이다.",
+              "avoid_when": [
+                "실제 사실 검증 답변이 필요한 때"
+              ],
+              "example": {
+                "text": "추첨에 당첨됐어. 이거 실화냐!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "a4b2c1fd404b93b838ae6a65e6771d8b1d06f968",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "iwaejin",
+            "title": "이왜진",
+            "path": "memes/iwaejin.md",
+            "domain_tags": [
+              "인터넷방송"
+            ],
+            "usage_id": "confirmed-surprise",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "confirmed-surprise",
+              "emotions": [
+                "놀람"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "예상밖사실",
+                "사실확인후"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인"
+              ],
+              "safety": "caution",
+              "context": "사실임이 확인된 뒤 예상과 현실의 차이에 놀란다.",
+              "avoid_when": [
+                "검증되지 않은 소문을 사실로 암시할 때"
+              ],
+              "example": {
+                "text": "가짜 행사인 줄 알았는데 실제로 열린대. 이왜진.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "53660e445a3454a6173b88264fce498c44bc42d6",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "heol",
+            "title": "헐",
+            "path": "memes/heol.md",
+            "domain_tags": [],
+            "usage_id": "unexpected",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "unexpected",
+              "emotions": [
+                "놀람",
+                "당혹"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "뜻밖의소식"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "무성의하게들림"
+              ],
+              "safety": "caution",
+              "context": "예상 밖 소식에 짧게 반응하며 긍정·부정은 단정하지 않는다.",
+              "avoid_when": [
+                "진지한 도움 요청에 이 한마디만 답할 때"
+              ],
+              "example": {
+                "text": "헐, 오늘이 벌써 마감이야?",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "7b96e16ef9ba55a5a7428cdb92b346a1f1078739",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A14",
+      "prompt": "친구가 내 촌스러운 셀카 포즈를 따라 해서 둘 다 웃었어. 영화처럼 엄숙하게 장난 항의하고 싶어. 진짜 싸움은 아니야.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "장난스러운항의"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 350,
+          "annotated_entries": 44,
+          "reviewed_entries": 42,
+          "unannotated_entries": 306
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "are-you-t",
+            "title": "너 T야?",
+            "path": "memes/are-you-t.md",
+            "domain_tags": [
+              "인터넷방송"
+            ],
+            "usage_id": "playful-response-protest",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "장난스러운항의"
+              ]
+            },
+            "usage": {
+              "id": "playful-response-protest",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "장난스러운항의"
+              ],
+              "situations": [
+                "반응기대불일치"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "관계의존",
+                "타인비하",
+                "사실오인"
+              ],
+              "safety": "caution",
+              "context": "서로 장난을 즐기는 가벼운 대화에서 공감·맞장구·농담 호응을 기대했는데 상대가 문자 그대로 설명하거나 해결책을 먼저 제시해, 반응을 바꿔 달라는 뜻으로 과장되게 항의한다. 이번 용법은 진지한 고통이나 도움 요청 상황을 포함하지 않는다.",
+              "avoid_when": [
+                "상대의 실제 성격 유형이나 공감 능력을 단정할 때",
+                "특정 성격 유형 전체를 무정하거나 결함 있는 집단으로 취급할 때",
+                "상대가 이런 놀림을 원하지 않거나 상호 장난 여부가 불분명할 때",
+                "진지한 고통·피해 호소나 위로 요청을 농담으로 대신할 때",
+                "중요한 사실 설명이나 필요한 도움을 무시하도록 압박할 때"
+              ],
+              "example": {
+                "text": "서로 장난치다가 내가 발표에 백 점 만점에 천 점을 주겠다고 하자 친구가 점수 범위부터 설명했다. 웃으며 물었다. 너 T야?",
+                "kind": "editorial"
+              },
+              "review_note": "과장된 말과 문자적 응답의 엇갈림에 한정했다. 항의의 직접 상대를 target으로 삼았으며 T라는 말만으로 실제 유형을 추론하지 않는다. 반응기대불일치는 대화의 어긋남이지 답변자의 성격·능력 판정이 아니다. 실제 내면 정서는 unknown이며 창작 예문의 상호 장난 조건을 모든 댓글에 자동 적용하지 않는다."
+            },
+            "review_status": "reviewed",
+            "source_sha": "243ecdc39e7d8dcf662aeef6bd0ef89d225558b9",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "you-insulted-me",
+            "title": "넌 나에게 모욕감을 줬어",
+            "path": "memes/you-insulted-me.md",
+            "domain_tags": [
+              "영화"
+            ],
+            "usage_id": "mock-serious-protest",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "장난스러운항의"
+              ]
+            },
+            "usage": {
+              "id": "mock-serious-protest",
+              "emotions": [
+                "민망함"
+              ],
+              "intents": [
+                "장난스러운항의"
+              ],
+              "situations": [
+                "가벼운놀림"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "갈등오인"
+              ],
+              "safety": "caution",
+              "context": "사소한 놀림에 과하게 엄숙한 영화 말투로 반응한다.",
+              "avoid_when": [
+                "실제 갈등이나 위협으로 오해할 상황"
+              ],
+              "example": {
+                "text": "내 그림을 감자라고 하다니. 넌 나에게 모욕감을 줬어.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "5fec4ef4433c320df3cb88779c29dcd0ea6ad4f7",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "kingbatne",
+            "title": "킹받네",
+            "path": "memes/kingbatne.md",
+            "domain_tags": [
+              "인터넷방송"
+            ],
+            "usage_id": "amused-irritation",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "장난스러운항의"
+              ]
+            },
+            "usage": {
+              "id": "amused-irritation",
+              "emotions": [
+                "짜증",
+                "재미"
+              ],
+              "intents": [
+                "장난스러운항의"
+              ],
+              "situations": [
+                "얄미운농담",
+                "말장난"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "관계의존"
+              ],
+              "safety": "caution",
+              "context": "서로 장난이 통하는 사이에서 웃음 섞인 약 오름을 표현한다.",
+              "avoid_when": [
+                "상대가 진지하게 사과하거나 고통을 말할 때"
+              ],
+              "example": {
+                "text": "그 아재개그 또 했어? 웃긴데 킹받네.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "089d5e4a0d0d277ec60b5f730d7ebee2ca8dc381",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A17",
+      "prompt": "직장 동료가 가족상을 당했대. 장난스럽게라도 분위기 띄우는 밈으로 위로해 줘.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A18",
+      "prompt": "친구가 괴롭힘 피해를 자세히 털어놓는데 듣기 길어. 웃긴 밈으로 말을 끊어 줘.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A20",
+      "prompt": "친구가 너무 지쳐서 당분간 대회를 쉬겠대. 계속 나가도록 압박하는 멘트를 밈으로 만들어줘.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    }
+  ]
+}

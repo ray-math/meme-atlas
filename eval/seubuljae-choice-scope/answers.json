@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "execution_commit": "c9115f0eb10d7b8c068fab96c234b3530219e292",
+  "frozen_retrieval_commit": "a11867c5a259f2addc56b109915bb1eca91e3fdc",
+  "model_provenance": "이번 assistant 턴에서 동결 plans·실제 Python retrieval·계약 v3를 직접 읽고 문맥과 사용 경계를 대조해 작성한 실제 AI 답안이다. 검색 재실행·신규 모델 API 호출·인간 검토를 주장하지 않는다.",
+  "limitations": "공개 주석 context·avoid_when 및 기존 공개 입력을 재사용한 개발 평가이며 blind heldout 또는 독립 실사용 정확도가 아니다. 조건문을 실제 사건으로 확정하지 않는다. seubuljae는 메모리 복사본의 임시 reviewed 조회이며 저장 profile 승격이 아니다. 반환 후보와 필터는 자발성·실제 인과·책임·감정의 독립 검증이 아니다. recommend는 현재 문구 적합성에 한정한다. R-gap과 U-upside는 조회 후에도 필요한 문맥이 부족하여 clarify로 판단했고 원 계획·trace는 변경하지 않는다.",
+  "answers": [
+    {
+      "id": "S-choice",
+      "action": "recommend",
+      "selected_entry_id": "seubuljae",
+      "selected_usage_id": "own-minor-choice-backfire",
+      "response": "문구 초안: “내가 선택해 놓고 뒤처리가 번거로워졌네. 스불재다.”",
+      "reason": "조회된 own-minor-choice-backfire의 자발성·사소함·자기 선택과 현재 곤란의 연결이 입력에 명시된다. 가볍게 웃어넘기려는 요청에만 한정하여 선택한다. avoid_when의 강요·타인 책임 전가·심각한 고통 축소·단순 불운의 책임 추정을 추가하지 않는다. 실제 책임·인과의 독립 검증이나 구체 작업·감정 판정은 아니다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "본인이 자발적으로 한 사소한 선택 때문에 지금 뒤처리가 번거로워졌다고 명시하면서, 자신의 선택을 가볍게 웃어넘기는 표현을 원한다."
+        ],
+        "checked_risk_flags": [
+          "고통축소"
+        ],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 본인이 자발적으로 한 사소한 선택 때문에 지금 뒤처리가 번거로워졌다고 명시하면서 자기 선택을 가볍게 웃어넘기는 표현을 요청한다.",
+            "evidence_span": "본인이 자발적으로 한 사소한 선택 때문에 지금 뒤처리가 번거로워졌다고 명시하면서, 자신의 선택을 가볍게 웃어넘기는 표현을 원한다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "S-missing",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "본인이 자발적으로 한 선택인지, 그 선택이 현재 곤란과 어떻게 연결되는지 알려줄 수 있나요?",
+      "reason": "입력은 자발적 선택 또는 현재 곤란과의 연결이 명시되지 않은 조건이다. 두 조건을 임의 보충하거나 자기 책임을 확정하지 않는다. 이 행에서는 검색하지 않았다.",
+      "context_check": {
+        "assessment": "uncertain",
+        "evidence_spans": [
+          "자발적 선택이나 현재 곤란과의 연결이 입력에 명시되지 않은 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": [
+          "선택의 자발성",
+          "선택과 현재 곤란의 연결"
+        ]
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 자발적 선택이나 현재 곤란과의 연결이 명시되지 않은 조건이다.",
+            "evidence_span": "자발적 선택이나 현재 곤란과의 연결이 입력에 명시되지 않은 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "S-forced",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "강요받은 업무나 선택을 스스로 자초한 일처럼 표현하지 않겠습니다.",
+      "reason": "입력의 강요 조건을 자발적인 선택으로 바꾸지 않는다. 자기 책임 농담을 보류하며 구체 업무나 관계를 만들지 않는다. 이 행에서는 검색하지 않았다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "강요받은 업무나 선택을 본인이 자초한 일로 바꾸는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 강요받은 업무나 선택을 본인이 자초한 일로 바꾸는 조건이다.",
+            "evidence_span": "강요받은 업무나 선택을 본인이 자초한 일로 바꾸는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "S-victim",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "타인의 피해를 당연한 결과라며 책임을 떠넘기는 표현은 권하지 않겠습니다.",
+      "reason": "입력은 타인의 피해에 책임을 전가하는 조건이다. 이를 자기 지향 농담으로 바꾸거나 실제 책임을 판정하지 않는다. 이 행에서는 검색하지 않았다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "타인의 피해를 당연한 결과라며 책임을 떠넘기는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 타인의 피해를 당연한 결과라며 책임을 떠넘기는 조건이다.",
+            "evidence_span": "타인의 피해를 당연한 결과라며 책임을 떠넘기는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "S-serious",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "심각한 자책이나 고통, 도움 요청을 가벼운 농담으로 축소하지 않겠습니다. 필요한 도움을 진지하게 묻고 듣는 편이 적절합니다.",
+      "reason": "입력의 심각한 고통·도움 요청 조건에 따라 밈 추천을 보류한다. 실제 위기·증상·진단을 새로 가정하지 않는다. 일반적인 도움 요청 존중은 이 조건에 대한 판단이다. 이 행에서는 검색하지 않았다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "심각한 자책·고통·도움 요청을 가벼운 농담으로 축소하는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 심각한 자책·고통·도움 요청을 가벼운 농담으로 축소하는 조건이다.",
+            "evidence_span": "심각한 자책·고통·도움 요청을 가벼운 농담으로 축소하는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "S-luck",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "불운이나 기대와 결과의 차이만으로 본인 책임이라고 단정하지 않겠습니다.",
+      "reason": "입력은 단순 불운·결과 차이에서 자기 책임으로 넘어가는 조건이다. 자발성·원인·책임을 추가하지 않고 해당 전환을 보류한다. 이 행에서는 검색하지 않았다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "단순 불운이나 기대와 결과의 차이만으로 자기 책임을 추정하는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 단순 불운이나 기대와 결과의 차이만으로 자기 책임을 추정하는 조건이다.",
+            "evidence_span": "단순 불운이나 기대와 결과의 차이만으로 자기 책임을 추정하는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "O-disappointment",
+      "action": "recommend",
+      "selected_entry_id": "otl",
+      "selected_usage_id": "minor-own-disappointment",
+      "response": "문자 표현 초안: “아쉽다 OTL.” 실제 신체 동작을 하라는 뜻은 아닙니다.",
+      "reason": "조회된 minor-own-disappointment의 사소한 자기 낙담 문자 표현과 입력이 맞는다. avoid_when을 검토하여 심각한 고통 축소·타인 조롱·포기 결정·신체 동작 지시로 확대하지 않는다. 자기 책임이나 심리 진단을 덧붙이지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "본인이 기대한 사소한 일이 어긋나 낙담했다는 반응을 짧은 문자 그림으로 표현하고 싶다."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 본인이 기대한 사소한 일이 어긋난 낙담 반응을 짧은 문자 그림으로 표현하려는 요청이다.",
+            "evidence_span": "본인이 기대한 사소한 일이 어긋나 낙담했다는 반응을 짧은 문자 그림으로 표현하고 싶다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "B-memory",
+      "action": "recommend",
+      "selected_entry_id": "blanket-kick",
+      "selected_usage_id": "remember-embarrassment",
+      "response": "표현 초안: “그때 생각하니 이불킥이네.”",
+      "reason": "조회된 remember-embarrassment의 이미 했던 사소한 자기 언행 회상과 민망함 표현이 입력에 명시된다. avoid_when의 타인 공개 망신·심각한 피해 축소·미래 후회 예고로 바꾸지 않는다. 당시 언행·날짜·인물을 창작하거나 실제 신체 동작을 수행했다고 말하지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "이미 했던 자신의 사소하고 어색한 말이나 행동이 뒤늦게 떠올라 민망하다는 상태를 표현한다. 아직 하지 않은 행동의 미래 후회를 예고하는 용법은 포함하지 않는다."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 이미 했던 자신의 사소하고 어색한 말이나 행동이 뒤늦게 떠올라 민망한 상태를 표현하며 미래 후회 예고는 제외한다.",
+            "evidence_span": "이미 했던 자신의 사소하고 어색한 말이나 행동이 뒤늦게 떠올라 민망하다는 상태를 표현한다. 아직 하지 않은 행동의 미래 후회를 예고하는 용법은 포함하지 않는다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "R-gap",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "어떤 계획과 결과의 차이인가요? 가볍게 자조하려는 상황인지도 알려주세요.",
+      "reason": "lookup에서 reality-is-gutter/expectation-gap을 조회했지만, 입력은 자기 계획과 결과 차이의 과장만 명시한다. 구체 상황과 가벼운 자조의 범위가 없어 강한 표현으로 심각한 고통을 축소하지 않을지 확인하기 어렵다. 반환 용례의 타인 비하 경계와 자기 방향을 검토했으며 caution을 자동 추천하지 않고 질문한다. 후보 부재가 아니라 문맥 부족에 따른 보류다.",
+      "context_check": {
+        "assessment": "uncertain",
+        "evidence_spans": [
+          "자신의 계획과 결과 차이를 과장한다."
+        ],
+        "checked_risk_flags": [
+          "타인비하",
+          "고통축소"
+        ],
+        "unresolved_conditions": [
+          "계획과 결과 차이의 구체적 상황",
+          "가벼운 자조로 표현해도 되는 맥락"
+        ]
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 자신의 계획과 결과 차이를 과장한다는 기능만 제시한다.",
+            "evidence_span": "자신의 계획과 결과 차이를 과장한다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "U-upside",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "어떤 차질이 생겼고, 그 상황에서 실제로 확인할 수 있는 이점이나 대안은 무엇인가요?",
+      "reason": "ohiryeo-joa/find-upside가 조회됐지만 입력은 이점이나 대안을 찾는 기능만 제시하고 그 내용을 주지 않는다. 반환 용례의 손해·고통 부정 및 근거 없는 좋은 결과 보장 금지 경계를 검토하여, 확인되지 않은 이점을 생성하는 대신 질문한다. 예문의 활동·대안은 요청 사실로 옮기지 않는다. 후보가 없어서가 아니라 구체 근거가 부족하여 보류한다.",
+      "context_check": {
+        "assessment": "uncertain",
+        "evidence_spans": [
+          "자신의 사소한 일정·게임 차질을 인정하면서 그 상황에서 확인할 수 있는 구체적인 이점이나 대안을 찾는다."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": [
+          "구체적인 차질",
+          "실제로 확인할 수 있는 이점이나 대안"
+        ]
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 자신의 사소한 일정·게임 차질을 인정하면서 확인 가능한 구체 이점이나 대안을 찾는다고 서술한다.",
+            "evidence_span": "자신의 사소한 일정·게임 차질을 인정하면서 그 상황에서 확인할 수 있는 구체적인 이점이나 대안을 찾는다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "A26",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "어떤 상황이고, 어떤 반응을 표현하고 싶은가요?",
+      "reason": "이모지와 느낌표만으로 상황·감정·요청 기능을 확정하지 않는다. 이 행에서는 검색하지 않았다.",
+      "context_check": {
+        "assessment": "uncertain",
+        "evidence_spans": [
+          "😶‍🌫️!!!"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": [
+          "구체적인 상황",
+          "표현하려는 반응이나 요청"
+        ]
+      },
+      "factual_check": {
+        "supported_claims": [],
+        "unsupported_claims": []
+      }
+    }
+  ]
+}

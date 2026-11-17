@@ -23,13 +23,24 @@ def canonical(values, facet, vocabulary):
     return result
 
 def search(index, vocabulary, query='', *, emotions=(), intents=(), situations=(),
-           targets=(), registers=(), exclude_risks=(), mode='recommend', limit=10):
+           targets=(), registers=(), exclude_risks=(), mode='recommend', limit=10, explain_requirements=False):
     if type(limit) is not int or not 1 <= limit <= 100:
         raise ValueError('limit must be between 1 and 100')
     if mode not in ('recommend', 'lookup'):
         raise ValueError('mode must be recommend or lookup')
-    if index.get('schema_version') != 1 or index.get('vocabulary_version') != 1:
+    if not isinstance(query, str):
+        raise ValueError('query must be a string')
+    if type(explain_requirements) is not bool:
+        raise ValueError('explain_requirements must be boolean')
+    for name, values in (('emotions', emotions), ('intents', intents), ('situations', situations),
+                         ('targets', targets), ('registers', registers), ('exclude_risks', exclude_risks)):
+        if not isinstance(values, (list, tuple)) or any(not isinstance(value, str) for value in values):
+            raise ValueError(name + ' must be a list or tuple of strings')
+    if not isinstance(index, dict) or any(type(index.get(key)) is not int or index[key] != 1
+                                         for key in ('schema_version', 'vocabulary_version')):
         raise ValueError('unsupported usage index version')
+    if not isinstance(vocabulary, dict) or type(vocabulary.get('schema_version')) is not int or vocabulary['schema_version'] != 1:
+        raise ValueError('unsupported vocabulary version')
     envelope = {'schema_version': 1, 'mode': mode, 'coverage': index['coverage'],
                 'interpretation': 'editorial usage candidates; inspect context and avoid_when before speaking',
                 'status': 'no_match', 'results': [], 'safety_filtered_count': 0, 'risk_filtered_count': 0}
@@ -44,7 +55,7 @@ def search(index, vocabulary, query='', *, emotions=(), intents=(), situations=(
     phrase = norm(query)
     if not terms and not any(filters.values()):
         return dict(envelope, status='insufficient_query')
-    hits = []
+    hits = []; requirement_exclusions=[]
     for entry in index['entries']:
         if entry['review_status'] != 'reviewed':
             continue
@@ -59,25 +70,41 @@ def search(index, vocabulary, query='', *, emotions=(), intents=(), situations=(
             matches = [t for t in terms if t in haystack]
             if terms and not matches:
                 continue
+            exact = bool(phrase and phrase in [norm(entry['title']), *map(norm, entry['aliases'])])
+            requirements=usage.get('retrieval_requirements',{})
+            requirements_met=all(filters[f]==set(values) for f,values in requirements.items())
+            exact_lookup_bypass=bool(requirements and not requirements_met and mode=='lookup' and exact)
+            if requirements and not requirements_met and not exact_lookup_bypass:
+                requirement_exclusions.append({'entry_id':entry['id'],'usage_id':usage['id'],
+                                               'required_filters':requirements})
+                continue
             if mode == 'recommend' and usage['safety'] != 'standard':
                 envelope['safety_filtered_count'] += 1
                 continue
             if excluded.intersection(usage['risk_flags']):
                 envelope['risk_filtered_count'] += 1
                 continue
-            exact = phrase and phrase in [norm(entry['title']), *map(norm, entry['aliases'])]
             score = (100 if exact else 0) + 10 * len(matches) + 20 * sum(bool(v) for v in filters.values())
             hits.append({'entry_id': entry['id'], 'title': entry['title'], 'path': entry['path'],
                          'domain_tags': entry['tags'], 'usage_id': usage['id'], 'score': score,
                          'matched_facets': {f: sorted(v.intersection(usage[f])) for f,v in filters.items() if v},
                          'usage': usage, 'review_status': entry['review_status'],
-                         'source_sha': entry['source_sha'], 'requires_context_check': True})
+                         'source_sha': entry['source_sha'], 'requires_context_check': True,
+                         **({'retrieval_scope': {'required_filters':requirements,
+                                                'explicit_filters_match':requirements_met,
+                                                'exact_lookup_only':exact_lookup_bypass,
+                                                'interpretation':'caller-supplied filters, not verified context'}} if requirements else {})})
     hits.sort(key=lambda h: (-h['score'], h['title'], h['entry_id'], h['usage_id']))
     envelope['results'] = hits[:limit]
     envelope['status'] = 'matches' if hits else 'no_match'
     if not hits:
         envelope['reason'] = ('policy_filtered' if envelope['safety_filtered_count'] or envelope['risk_filtered_count']
                               else 'no_matching_reviewed_usage')
+    if explain_requirements:
+        envelope['context_requirements_filtered_count']=len(requirement_exclusions)
+        envelope['context_requirements_excluded']=requirement_exclusions
+        if not hits and requirement_exclusions:
+            envelope['reason']='explicit_context_filters_required'
     return envelope
 
 if __name__ == '__main__':
@@ -85,10 +112,18 @@ if __name__ == '__main__':
     p.add_argument('query', nargs='?', default='', help='optional positive lexical keywords, not a free-form instruction')
     for option in ('emotion', 'intent', 'situation', 'target', 'register', 'exclude-risk'):
         p.add_argument('--'+option, action='append', default=[])
+    p.add_argument('--explain-requirements',action='store_true',help='show missing explicit-context gates; does not infer context')
     p.add_argument('--mode', choices=('recommend', 'lookup'), default='recommend')
     p.add_argument('--limit', type=int, default=10)
     p.add_argument('--root', type=Path, default=ROOT)
+    p.add_argument('--describe-facets', action='store_true', help='print vocabulary labels and definitions, without searching')
     args = p.parse_args()
+    if args.describe_facets:
+        try:
+            print(json.dumps(load_vocabulary(args.root), ensure_ascii=False, indent=2))
+        except (ValueError, OSError) as exc:
+            p.exit(2, str(exc)+'\n')
+        raise SystemExit(0)
     try:
         index = json.loads((args.root/'data/usage-index.json').read_text(encoding='utf-8'))
         from build_usage_index import build_usage_index
@@ -97,7 +132,7 @@ if __name__ == '__main__':
         result = search(index, load_vocabulary(args.root), args.query, emotions=args.emotion,
                         intents=args.intent, situations=args.situation, targets=args.target,
                         registers=args.register, exclude_risks=args.exclude_risk,
-                        mode=args.mode, limit=args.limit)
+                        mode=args.mode, limit=args.limit, explain_requirements=args.explain_requirements)
     except (ValueError, OSError) as exc:
         p.exit(2, str(exc)+'\n')
     print(json.dumps(result, ensure_ascii=False, indent=2))

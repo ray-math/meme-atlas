@@ -1,0 +1,498 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "jotdaet-gual",
+    "kkuan-kku"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 355,
+    "annotated_entries": 67,
+    "reviewed_entries": 65,
+    "unannotated_entries": 288
+  },
+  "provisional_reviewed_entries": 67,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "results": [
+    {
+      "id": "C-channel",
+      "prompt": "온라인 채널의 활동을 소개하면서 시청자에게 좋아요·댓글·구독·알림 설정의 네 행동을 모두 자발적으로 부탁하는 문구를 원한다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "채널참여요청"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 355,
+          "annotated_entries": 67,
+          "reviewed_entries": 65,
+          "unannotated_entries": 288
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "jotdaet-gual",
+            "title": "좋댓구알",
+            "path": "memes/jotdaet-gual.md",
+            "domain_tags": [
+              "인터넷방송"
+            ],
+            "usage_id": "request-four-channel-actions",
+            "score": 40,
+            "matched_facets": {
+              "intents": [
+                "채널참여요청"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "request-four-channel-actions",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "채널참여요청"
+              ],
+              "situations": [
+                "작품활동소개"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "온라인 채널의 활동을 소개하면서 시청자에게 좋아요·댓글·구독·알림 설정의 네 행동을 모두 자발적으로 부탁하는 문구를 원한다.",
+              "avoid_when": [
+                "한 행동만 요청한 입력에 나머지 세 행동을 임의로 추가하는 경우: 묶음말 대신 요청한 행동만 일반 문구로 표현한다.",
+                "유료 가입·구매·결제를 포함하는 요청으로 확대하는 경우",
+                "참여하지 않는 사람에게 불이익을 주거나 반복적으로 압박하는 경우",
+                "이 표현만으로 실제 클릭·구독·설정 변경 권한이 있다고 판단하는 경우"
+              ],
+              "example": {
+                "text": "채널 소식을 소개하며 네 가지 참여를 모두 부탁하고 싶어요. 원하시면 좋댓구알 부탁드립니다.",
+                "kind": "editorial"
+              },
+              "review_note": "구체 행동을 요청받는 시청자가 초점이므로 target상대다. 같은 채널 소개라도 단순 관심 요청과 다르다. 필터 일치만으로 네 행동 모두에 대한 사용자 의도·자발성·실제 조작 권한을 검증하지 않는다.",
+              "retrieval_requirements": {
+                "intents": [
+                  "채널참여요청"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "8b8824cbe4782f692244f58c32059583acf18754",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "intents": [
+                  "채널참여요청"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "C-outfit",
+      "prompt": "제공된 의복 조합 설명을 바탕으로 차림이 자연스럽고 과하지 않은 인상을 준다고 짧게 표현하고 싶다.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "자연스러운차림"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 355,
+          "annotated_entries": 67,
+          "reviewed_entries": 65,
+          "unannotated_entries": 288
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "kkuan-kku",
+            "title": "꾸안꾸",
+            "path": "memes/kkuan-kku.md",
+            "domain_tags": [
+              "패션"
+            ],
+            "usage_id": "describe-understated-outfit",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "자연스러운차림"
+              ],
+              "targets": [
+                "상황"
+              ]
+            },
+            "usage": {
+              "id": "describe-understated-outfit",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "자연스러운차림"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "제공된 의복 조합 설명을 바탕으로 차림이 자연스럽고 과하지 않은 인상을 준다고 짧게 표현하고 싶다.",
+              "avoid_when": [
+                "사진을 보지 않았는데 직접 관찰했다고 표현하는 경우",
+                "제공되지 않은 품목·색·핏·소재를 생성하거나 예문에 있던 항목을 사용자 차림에 옮겨 붙이는 경우",
+                "실제 준비 시간·가격·노력 또는 성격을 외관으로 단정하는 경우",
+                "의복 설명을 신체·외모 평가나 화장 분석으로 확대하는 경우"
+              ],
+              "example": {
+                "text": "제공된 설명처럼 옷의 조합이 자연스럽고 과하지 않은 느낌이라면, 꾸안꾸 차림이라고 표현할 수 있겠어요.",
+                "kind": "editorial"
+              },
+              "review_note": "차림의 인상에 초점을 두어 target상황이다. 사진을 실제로 보거나 의복의 세부를 확인했다고 주장하지 않는다. 제공 설명과 별개인 실제 노력·비용·성격은 unknown 감정 주석과도 구별하여 추정하지 않는다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "자연스러운차림"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "036c15bb60a6e154e67e33bff8cbc45b5fc7b691",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "자연스러운차림"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "C-one-action",
+      "prompt": "한 행동만 요청한 입력에 나머지 세 행동을 임의로 추가하는 경우: 묶음말 대신 요청한 행동만 일반 문구로 표현한다.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "C-pressure",
+      "prompt": "참여하지 않는 사람에게 불이익을 주거나 반복적으로 압박하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "C-click",
+      "prompt": "이 표현만으로 실제 클릭·구독·설정 변경 권한이 있다고 판단하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "C-unseen",
+      "prompt": "사진을 보지 않았는데 직접 관찰했다고 표현하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "C-details",
+      "prompt": "제공되지 않은 품목·색·핏·소재를 생성하거나 예문에 있던 항목을 사용자 차림에 옮겨 붙이는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "C-effort",
+      "prompt": "실제 준비 시간·가격·노력 또는 성격을 외관으로 단정하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A07",
+      "prompt": "며칠 만든 작은 도자기 컵이 완성됐어. 내 작품 사진에 귀엽게 자랑하는 캡션을 달래.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "결과물공유"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 355,
+          "annotated_entries": 67,
+          "reviewed_entries": 65,
+          "unannotated_entries": 288
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "look-at-this-hand",
+            "title": "이 손을 봐, 대박임",
+            "path": "memes/look-at-this-hand.md",
+            "domain_tags": [
+              "웹툰"
+            ],
+            "usage_id": "cute-brag",
+            "score": 20,
+            "matched_facets": {
+              "situations": [
+                "결과물공유"
+              ]
+            },
+            "usage": {
+              "id": "cute-brag",
+              "emotions": [
+                "뿌듯함"
+              ],
+              "intents": [
+                "자랑"
+              ],
+              "situations": [
+                "새물건",
+                "결과물공유"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신의 물건이나 결과물을 귀엽고 천진하게 소개한다.",
+              "avoid_when": [
+                "상대의 성과를 깎아내리는 비교 자랑"
+              ],
+              "example": {
+                "text": "이 책장을 봐, 대박임. 내가 조립했다 짱이지.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "17e9c3fafef79ca9d09392647015da56b71599a8",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    },
+    {
+      "id": "I-interest",
+      "prompt": "새 작품이나 활동의 소식을 소개하며 그 대상에 관심을 기울여 달라고 친근하게 부탁한다. 소개 대상이 본인이 직접 만든 완성품일 필요는 없으며 구매·구독 등 특정 행동을 의무로 요구하지 않는다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "관심요청"
+        ],
+        "situations": [
+          "작품활동소개"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 355,
+          "annotated_entries": 67,
+          "reviewed_entries": 65,
+          "unannotated_entries": 288
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "mangwanbu",
+            "title": "많관부",
+            "path": "memes/mangwanbu.md",
+            "domain_tags": [],
+            "usage_id": "request-attention-to-project",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "관심요청"
+              ],
+              "situations": [
+                "작품활동소개"
+              ],
+              "targets": [
+                "상황"
+              ]
+            },
+            "usage": {
+              "id": "request-attention-to-project",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "관심요청"
+              ],
+              "situations": [
+                "작품활동소개"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "새 작품이나 활동의 소식을 소개하며 그 대상에 관심을 기울여 달라고 친근하게 부탁한다. 소개 대상이 본인이 직접 만든 완성품일 필요는 없으며 구매·구독 등 특정 행동을 의무로 요구하지 않는다.",
+              "avoid_when": [
+                "관심 표현을 구매·구독·기부 의무로 바꾸거나 반복해서 압박하는 경우",
+                "홍보 내용의 진실성·정당성·성과를 표현 자체로 인증하는 경우",
+                "공식적 안내나 필요한 상세 정보를 줄임말 하나로 대신하는 경우",
+                "개인적 위로 요청을 작품·활동 홍보 용법으로 뒤집는 경우"
+              ],
+              "example": {
+                "text": "이번 주에 새 공연 소식이 공개됐어요. 어떤 무대인지 소개해 둘게요. 많관부!",
+                "kind": "editorial"
+              },
+              "review_note": "관심의 초점을 소개하는 작품·활동에 두어 target상황으로 한정했다. 요청을 듣는 사람이 있다는 이유로 target상대를 추가하지 않으며 상대 필터만으로는 이 용례가 검색되지 않는 한계를 유지한다. 기존 관심요청의 자기 관심·위로 관련 용법을 배제하는 정의 변경은 하지 않는다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "작품활동소개"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "19fa456c64e6d16353c8735199951436121e2702",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "작품활동소개"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    }
+  ]
+}

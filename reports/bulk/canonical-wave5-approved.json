@@ -1,0 +1,926 @@
+{
+  "schema_version": 1,
+  "batch_id": "korean-verified-20261117-bulk-wave5",
+  "kind": "Approved public-source metadata; temporary importer input",
+  "review_kind": "Research AI read independent publisher bodies; separate AI inspected canonical and metadata. Not human/original-media validation.",
+  "entries": [
+    {
+      "slug": "wan-nae-style",
+      "title": "완내스",
+      "path": "memes/wan-nae-style.md",
+      "source_revision": "dae0cca76eac154b172d12c2175b6a899f1ac51d",
+      "source_blob_sha": "bc115c8b31a812e0865e391170dd755cdaf59334",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님.",
+      "evidence": [
+        {
+          "url": "https://www.harpersbazaar.co.kr/article/58084",
+          "publisher": "하퍼스 바자 코리아",
+          "published_date": "2021-08-27",
+          "access": "direct_body",
+          "supports": "방송 퀴즈 소개 및 자체 신조어 문제/정답 본문 확인. 로그인 안내는 있으나 필요한 텍스트 본문이 공개 반환됨.",
+          "independent_group": "하퍼스 바자 코리아"
+        },
+        {
+          "url": "https://www.hdec.kr/KR/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=348&NewsType=JOURNAL",
+          "publisher": "현대건설 뉴스룸",
+          "published_date": "2021-08-18",
+          "access": "direct_body",
+          "supports": "자체 신조어 퀴즈와 정답 본문 확인. 오답 보기를 정의로 채택하지 않음.",
+          "independent_group": "현대건설 뉴스룸"
+        }
+      ],
+      "limitations": [
+        "최초 등장 시점 단정 없음"
+      ]
+    },
+    {
+      "slug": "bun-joh-cafe",
+      "title": "분좋카",
+      "path": "memes/bun-joh-cafe.md",
+      "source_revision": "dae0cca76eac154b172d12c2175b6a899f1ac51d",
+      "source_blob_sha": "bb6c237a28df39a66c3c63906ca881912ea30a1c",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20221009165657393",
+          "publisher": "뉴스1",
+          "published_date": "2022-10-09",
+          "access": "direct_body",
+          "supports": "한글날 신조어 취재 본문97에서 뜻·국내 사용 확인. Daum 전재는 한 publisher로 계산.",
+          "independent_group": "뉴스1"
+        },
+        {
+          "url": "https://www.koreajoongangdaily.com/korea/think-english-yojeumdaehwa-sajeon-ep1-geu-jabchae-seubuljae-gongjohka/11828301",
+          "publisher": "Korea JoongAng Daily",
+          "published_date": "2022-12-15",
+          "access": "direct_body",
+          "supports": "본문181에서 분좋카 뜻을 공좋카와 구별.",
+          "independent_group": "Korea JoongAng Daily"
+        }
+      ],
+      "limitations": [
+        "실제 카페 추천·품질 인증 아님",
+        "공좋카를 검색 alias로 넣지 않음"
+      ]
+    },
+    {
+      "slug": "dang-mo-chi",
+      "title": "당모치",
+      "path": "memes/dang-mo-chi.md",
+      "source_revision": "dae0cca76eac154b172d12c2175b6a899f1ac51d",
+      "source_blob_sha": "9fe684ee9a3cb18e87400418fa2acbea76aff180",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님.",
+      "evidence": [
+        {
+          "url": "https://www.harpersbazaar.co.kr/article/58084",
+          "publisher": "하퍼스 바자 코리아",
+          "published_date": "2021-08-27",
+          "access": "direct_body",
+          "supports": "방송 퀴즈 소개 및 자체 신조어 문제/정답 본문 확인. 로그인 안내는 있으나 필요한 텍스트 본문이 공개 반환됨.",
+          "independent_group": "하퍼스 바자 코리아"
+        },
+        {
+          "url": "https://v.daum.net/v/20221009165657393",
+          "publisher": "뉴스1",
+          "published_date": "2022-10-09",
+          "access": "direct_body",
+          "supports": "한글날 신조어 취재 본문97에서 뜻·국내 사용 확인. Daum 전재는 한 publisher로 계산.",
+          "independent_group": "뉴스1"
+        }
+      ],
+      "limitations": [
+        "방송 속 오답은 의미로 수록하지 않음"
+      ]
+    },
+    {
+      "slug": "naettochul",
+      "title": "내또출",
+      "path": "memes/naettochul.md",
+      "source_revision": "dae0cca76eac154b172d12c2175b6a899f1ac51d",
+      "source_blob_sha": "ad61a575be24288add0ea907b0929e26c64dd4fd",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님.",
+      "evidence": [
+        {
+          "url": "https://www.nocutnews.co.kr/news/5612099",
+          "publisher": "CBS노컷뉴스",
+          "published_date": "2021-08-23",
+          "access": "direct_body",
+          "supports": "방송 대담249에서 내일 또 출근 풀이와 비애 표현 확인.",
+          "independent_group": "CBS노컷뉴스"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02591206635542008",
+          "publisher": "이데일리",
+          "published_date": "2023-03-10",
+          "access": "direct_body",
+          "supports": "본문232~235 뜻·일요일 및 주말 근무 전날 상황·방송 퀴즈 사례.",
+          "independent_group": "이데일리"
+        }
+      ],
+      "limitations": [
+        "월요병 의학적 설명 채택 안 함",
+        "학생 변형은 다른 명칭과 혼동 가능해 미수록"
+      ]
+    },
+    {
+      "slug": "jjomjjomttari",
+      "title": "쫌쫌따리",
+      "path": "memes/jjomjjomttari.md",
+      "source_revision": "dae0cca76eac154b172d12c2175b6a899f1ac51d",
+      "source_blob_sha": "d7e835ad362660c1bc01af0a62984f13ece158cc",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님.",
+      "evidence": [
+        {
+          "url": "https://enews.imbc.com/Tpl/View/309103",
+          "publisher": "iMBC",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "본문12 뜻 및 닭발 맥락,14 출연자 발언 확인. 페이지에 정확 날짜 미노출.",
+          "independent_group": "iMBC"
+        },
+        {
+          "url": "https://www.hdec.kr/KR/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=348&NewsType=JOURNAL",
+          "publisher": "현대건설 뉴스룸",
+          "published_date": "2021-08-18",
+          "access": "direct_body",
+          "supports": "자체 신조어 퀴즈와 정답 본문 확인. 오답 보기를 정의로 채택하지 않음.",
+          "independent_group": "현대건설 뉴스룸"
+        }
+      ],
+      "limitations": [
+        "2021년 범위는 현대건설 명시일 기준",
+        "iMBC 정확 발행일 미확인",
+        "최초 원게시물 확인 아님"
+      ]
+    },
+    {
+      "slug": "eokten",
+      "title": "억텐",
+      "path": "memes/eokten.md",
+      "source_revision": "dae0cca76eac154b172d12c2175b6a899f1ac51d",
+      "source_blob_sha": "b480b537e67cdc71dea33d1df046c2eb659b8b4d",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님.",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/20201217105906216",
+          "publisher": "아시아경제",
+          "published_date": "2020-12-17",
+          "access": "direct_body",
+          "supports": "본문79/81의 억지 호응 뜻만 사용. 기사 건강 주장 채택하지 않음.",
+          "independent_group": "아시아경제"
+        },
+        {
+          "url": "https://www.hdec.kr/KR/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=348&NewsType=JOURNAL",
+          "publisher": "현대건설 뉴스룸",
+          "published_date": "2021-08-18",
+          "access": "direct_body",
+          "supports": "자체 신조어 퀴즈와 정답 본문 확인. 오답 보기를 정의로 채택하지 않음.",
+          "independent_group": "현대건설 뉴스룸"
+        }
+      ],
+      "limitations": [
+        "감정·심리 진단 아님",
+        "찐텐과 반대 의미라 alias로 합치지 않음"
+      ]
+    },
+    {
+      "slug": "duaaaa",
+      "title": "듀아아아",
+      "path": "memes/duaaaa.md",
+      "source_revision": "e11cb874dbd7ca712e3d580abcf4dbe894b3c744",
+      "source_blob_sha": "002839f20f0bf419ac375a9d1f73c218a213d15e",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 실제 본문을 교차 확인한 짧은 자체 정의.",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=3152&pageidx=1",
+          "publisher": "캐릿",
+          "published_date": "2024-12-23",
+          "access": "direct_body",
+          "support": "가나디의 우는 이미지와 흑흑·엉엉처럼 쓰이는 감정 표현을 설명한다.",
+          "independent_group": "careet"
+        },
+        {
+          "url": "https://ilovecharacter.com/news/newsview.php?dt=m&ncode=1065575191549266",
+          "publisher": "아이러브캐릭터",
+          "published_date": "2025-05-01",
+          "access": "direct_body",
+          "support": "슬픔·답답함·감동을 과장하는 의성어와 가나디 이미지의 연결을 설명한다.",
+          "independent_group": "ilovecharacter"
+        }
+      ],
+      "limitations": "원게시물·캐릭터 이미지·노래 원본을 직접 검증하지 않았다. 최초 발생·현재 확산을 단정하지 않고 가사·이미지·원문을 복제하지 않았다. 아이러브캐릭터 자료는 IP사업자 인터뷰를 포함하여 이해관계가 있으며 캐릿의 용법 설명을 함께 대조했다."
+    },
+    {
+      "slug": "dubeok-dubeok",
+      "title": "듀벅듀벅",
+      "path": "memes/dubeok-dubeok.md",
+      "source_revision": "e11cb874dbd7ca712e3d580abcf4dbe894b3c744",
+      "source_blob_sha": "9a7d5bdb2c3e94964b320bc2513a852525420f8b",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 실제 본문을 교차 확인한 짧은 자체 정의.",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/Newsletter/Detail?id=3152&pageidx=1",
+          "publisher": "캐릿",
+          "published_date": "2024-12-23",
+          "access": "direct_body",
+          "support": "터벅터벅의 변형과 가나디 걷는 이미지, 이동·일상 활동 묘사를 설명한다.",
+          "independent_group": "careet"
+        },
+        {
+          "url": "https://ilovecharacter.com/news/newsview.php?dt=m&ncode=1065575191549266",
+          "publisher": "아이러브캐릭터",
+          "published_date": "2025-05-01",
+          "access": "direct_body",
+          "support": "가나디 밈에서 터벅터벅 걸음걸이를 듀벅듀벅으로 표현한다고 설명한다.",
+          "independent_group": "ilovecharacter"
+        }
+      ],
+      "limitations": "원게시물·캐릭터 이미지·노래 원본을 직접 검증하지 않았다. 최초 발생·현재 확산을 단정하지 않고 가사·이미지·원문을 복제하지 않았다. 아이러브캐릭터 자료는 IP사업자 인터뷰를 포함하여 이해관계가 있으며 캐릿의 용법 설명을 함께 대조했다."
+    },
+    {
+      "slug": "header-problem-solved",
+      "title": "해결했습니다",
+      "path": "memes/header-problem-solved.md",
+      "source_revision": "e11cb874dbd7ca712e3d580abcf4dbe894b3c744",
+      "source_blob_sha": "4d46ec8831fe2ed64f5b13e8dab47fcd0ad6a012",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 실제 본문을 교차 확인한 짧은 자체 정의.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/ai-삿포로샷부터-고무짜기까지-지금-안-보면-늦는-2025년-10/",
+          "publisher": "고구마팜",
+          "published_date": "2025-11-04",
+          "access": "direct_body",
+          "support": "헤더 배치 고민 뒤 해결했습니다라고 알리고 프로필에서 결과를 확인하게 하는 형식을 설명한다.",
+          "independent_group": "gogumafarm"
+        },
+        {
+          "url": "https://incross.com/ko/insight/report.asp?idx=10602&mode=view&page=3&pageSize=12&searchStr=&serboardsort=9",
+          "publisher": "인크로스",
+          "published_date": "2025-10-22",
+          "access": "direct_body",
+          "support": "서로 다른 인물 사진의 헤더 문제와 대체사진·변형 편집으로 해결하는 용례를 설명한다.",
+          "independent_group": "incross"
+        }
+      ],
+      "limitations": "원게시물·캐릭터 이미지·노래 원본을 직접 검증하지 않았다. 최초 발생·현재 확산을 단정하지 않고 가사·이미지·원문을 복제하지 않았다."
+    },
+    {
+      "slug": "uimunse",
+      "title": "의문세",
+      "path": "memes/uimunse.md",
+      "source_revision": "e11cb874dbd7ca712e3d580abcf4dbe894b3c744",
+      "source_blob_sha": "c1ad689953ef7ce8db78ec1404c22d2b9c44faf3",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 실제 본문을 교차 확인한 짧은 자체 정의.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/트렌드-너무-빨리-바뀌지만-그래도-최신-밈-업데이/",
+          "publisher": "고구마팜",
+          "published_date": "2024-04-02",
+          "access": "direct_body",
+          "support": "가수 이름·노래를 변형하여 의문이나 당황한 자기 상태를 표현하는 용법을 설명한다.",
+          "independent_group": "gogumafarm"
+        },
+        {
+          "url": "https://maily.so/trendaword/posts/8mo5kq11o9p",
+          "publisher": "트렌드어워드",
+          "published_date": "2024-03-12",
+          "access": "direct_body",
+          "support": "의문이 드는 일상 상황에 이름 말장난과 질문형 문구를 사용하는 사례를 소개한다.",
+          "independent_group": "trendaword"
+        }
+      ],
+      "limitations": "원게시물·캐릭터 이미지·노래 원본을 직접 검증하지 않았다. 최초 발생·현재 확산을 단정하지 않고 가사·이미지·원문을 복제하지 않았다."
+    },
+    {
+      "slug": "legeno",
+      "title": "레게노",
+      "path": "memes/legeno.md",
+      "source_revision": "c2fce0dc03e09a5dd75cf123a21a5603778bd903",
+      "source_blob_sha": "53d49b3170030aa01ca1e650a5b4dfb7029e9a84",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현.",
+      "evidence": [
+        {
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20210120002156098",
+          "publisher": "아시아투데이",
+          "published_at": "2021-01-20",
+          "access": "direct_body",
+          "supports": "LEGEND를 잘못 읽은 신조어라는 뜻풀이",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://www.koreajoongangdaily.com/bilingual-news/think-english-yojeumdaehwa-sajeon-ep-2-neo-mwo-dwae-nespa-legeno/11863806",
+          "publisher": "Korea JoongAng Daily",
+          "published_at": "2022-12-23",
+          "access": "direct_body",
+          "supports": "국내 게임 방송의 오독 설명과 감탄·반어 용례",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 게시물 미확인",
+        "원영상 직접 열람 없음",
+        "사용 시 주의는 편집상 권고이며 효과 검증이 아님"
+      ]
+    },
+    {
+      "slug": "youngmi-call",
+      "title": "영미",
+      "path": "memes/youngmi-call.md",
+      "source_revision": "c2fce0dc03e09a5dd75cf123a21a5603778bd903",
+      "source_blob_sha": "f9f053b43ec290b80d08fe38e0916d7a4bceca27",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현.",
+      "evidence": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20180220069700007",
+          "publisher": "연합뉴스",
+          "published_at": "2018-02-20",
+          "access": "direct_body",
+          "supports": "컬링 경기의 팀원 호명과 억양, 온라인 패러디",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1004631761&t=%7Bseek_to_second_number%7D",
+          "publisher": "SBS",
+          "published_at": "2018-02-20",
+          "access": "direct_body",
+          "supports": "유행한 영미 외침과 경기 의사소통 설명",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 게시물 미확인",
+        "원영상 직접 열람 없음",
+        "사용 시 주의는 편집상 권고이며 효과 검증이 아님"
+      ]
+    },
+    {
+      "slug": "gunsak-loopy",
+      "title": "군침이 싹 도노",
+      "path": "memes/gunsak-loopy.md",
+      "source_revision": "c2fce0dc03e09a5dd75cf123a21a5603778bd903",
+      "source_blob_sha": "243eef74a7b56027e707f7d6bd1eb02db138805d",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현.",
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2021031108560611440",
+          "publisher": "아시아경제",
+          "published_at": "2021-03-11",
+          "access": "direct_body",
+          "supports": "군싹의 축약 뜻, 루피 연관과 음식 사진에 대한 반응",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://www.harpersbazaar.co.kr/article/58084",
+          "publisher": "Harper’s BAZAAR Korea",
+          "published_at": "2021-08-27",
+          "access": "direct_body",
+          "supports": "군싹의 뜻과 루피 이미지 동반 유행",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://gnews.gg.go.kr/news/news_detail.do?number=202202211700342716C049&s_code=",
+          "publisher": "경기도 뉴스포털",
+          "published_at": "2022-02-21",
+          "access": "direct_body",
+          "supports": "도노 형태의 풀어쓰기와 루피 연관",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 게시물 미확인",
+        "원영상 직접 열람 없음",
+        "사용 시 주의는 편집상 권고이며 효과 검증이 아님"
+      ]
+    },
+    {
+      "slug": "meommummi",
+      "title": "멈뭄미",
+      "path": "memes/meommummi.md",
+      "source_revision": "c2fce0dc03e09a5dd75cf123a21a5603778bd903",
+      "source_blob_sha": "9f1ba0bebe15648198a488d37b54e9c9e8a63614",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현.",
+      "evidence": [
+        {
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20180710121711082",
+          "publisher": "노트펫(아시아투데이 게재)",
+          "published_at": "2018-07-10",
+          "access": "direct_body",
+          "supports": "네모난 강아지 모습과 멈뭄미·네모네모빔 댓글 사용",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://v.daum.net/v/20190502175902872?s=print_news",
+          "publisher": "한국경제",
+          "published_at": "2019-05-02",
+          "access": "direct_body",
+          "supports": "강아지 별칭 멈뭄미의 실제 기사 사용",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://whitefaceone.tistory.com/2747",
+          "publisher": "whitefaceone 개인 블로그",
+          "published_at": "2022-07-08",
+          "access": "direct_body",
+          "supports": "둥근 글자를 네모로 치환하는 말장난 설명; 최초 연도 주장 미채택",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 게시물 미확인",
+        "원영상 직접 열람 없음",
+        "사용 시 주의는 편집상 권고이며 효과 검증이 아님"
+      ]
+    },
+    {
+      "slug": "it-was-summer",
+      "title": "여름이었다",
+      "path": "memes/it-was-summer.md",
+      "source_revision": "c2fce0dc03e09a5dd75cf123a21a5603778bd903",
+      "source_blob_sha": "b7b94f660e00a905e168c8f8324c3d83764eb63e",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현.",
+      "evidence": [
+        {
+          "url": "https://www.artinsight.co.kr/news/view.php?no=55450",
+          "publisher": "아트인사이트",
+          "published_at": "2021-08-19",
+          "access": "direct_body",
+          "supports": "문장 끝에 붙여 문학적 분위기를 만드는 온라인 형식",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://news.tf.co.kr/read/entertain/2218714.htm",
+          "publisher": "더팩트",
+          "published_at": "2025-06-27",
+          "access": "direct_body",
+          "supports": "아련한 문장 결말 밈과 동명 노래의 관계",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 게시물 미확인",
+        "원영상 직접 열람 없음",
+        "사용 시 주의는 편집상 권고이며 효과 검증이 아님"
+      ]
+    },
+    {
+      "slug": "hoshitamtam-challenge",
+      "title": "호시탐탐 챌린지",
+      "path": "memes/hoshitamtam-challenge.md",
+      "source_revision": "7a929beb74444453f4703e866a326afbd7f756f2",
+      "source_blob_sha": "51c44613e574ab3792057718b3adfd345688585d",
+      "scope_type": "korean_usage",
+      "scope_basis": "별개 발행 주체 2곳 실제 본문으로 뜻·한국 사용을 검토한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://www.esquirekorea.co.kr/article/1869279",
+          "publisher": "에스콰이어 코리아",
+          "published_date": "2024-08-19",
+          "access": "direct_body",
+          "support": "애니메이션 오프닝 음악과 춤 챌린지의 연결 및 국내 아이돌 참여를 소개한다.",
+          "independent_group": "esquire"
+        },
+        {
+          "url": "https://note.com/tiktok/n/ncf3f09a81440",
+          "publisher": "TikTok Japan 공식 (MarkeZine 타이업 기사 전재)",
+          "published_date": "2024-12-05",
+          "access": "direct_body",
+          "support": "일본어 본문에서 오프닝 인트로 반복 영상과 춤·창작 영상 확산을 설명한다.",
+          "independent_group": "tiktok-markezine"
+        }
+      ],
+      "limitations": "원영상 직접 검증·최초 시점·현재 유행 규모의 인증 아님. 에스콰이어 공개 본문 범위만 사용. TikTok 자료는 타이업 전재로 이해관계가 있으며 일본어 원문을 재독했다. 국내 사용 근거는 에스콰이어이며 일본 자료와 혼동하지 않음."
+    },
+    {
+      "slug": "evenly",
+      "title": "이븐하게",
+      "path": "memes/evenly.md",
+      "source_revision": "7a929beb74444453f4703e866a326afbd7f756f2",
+      "source_blob_sha": "fc27dc76d62f965fd0906bf5a1a50959d290975f",
+      "scope_type": "korean_usage",
+      "scope_basis": "별개 발행 주체 2곳 실제 본문으로 뜻·한국 사용을 검토한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://sports.khan.co.kr/article/202412251558003/",
+          "publisher": "스포츠경향",
+          "published_date": "2024-12-25",
+          "access": "direct_body",
+          "support": "안성재의 음식 심사 장면과 한영 혼용 말투가 패러디로 퍼진 현상을 보도한다.",
+          "independent_group": "khan"
+        },
+        {
+          "url": "https://stock.mk.co.kr/news/view/569927",
+          "publisher": "매일경제",
+          "published_date": "2024-10-28",
+          "access": "direct_body",
+          "support": "보고서 제목에서 잘 익었다와 고르게 되지 않았다는 양방향 변형이 쓰인 사례를 보도한다.",
+          "independent_group": "mk"
+        }
+      ],
+      "limitations": "원영상 직접 검증·최초 시점·현재 유행 규모의 인증 아님. 긍정형과 부정형 문장 전체를 서로 동의어 alias로 합치지 않음. 보고서의 실제 기업 평가나 투자 판단은 인용·인증하지 않음."
+    },
+    {
+      "slug": "ai-sapporo-shot",
+      "title": "AI 삿포로샷",
+      "path": "memes/ai-sapporo-shot.md",
+      "source_revision": "7a929beb74444453f4703e866a326afbd7f756f2",
+      "source_blob_sha": "d7cd555832381ae51026c45994625c1c55c5d996",
+      "scope_type": "korean_usage",
+      "scope_basis": "별개 발행 주체 2곳 실제 본문으로 뜻·한국 사용을 검토한 자체 요약.",
+      "evidence": [
+        {
+          "url": "https://gogumafarm.kr/ai-삿포로샷부터-고무짜기까지-지금-안-보면-늦는-2025년-10/",
+          "publisher": "고구마팜",
+          "published_date": "2025-11-04",
+          "access": "direct_body",
+          "support": "AI 첫눈샷·삿포로샷 명칭과 메이투 필터, 캐릭터·사물로의 응용을 설명한다.",
+          "independent_group": "gogumafarm"
+        },
+        {
+          "url": "https://blog.hsad.co.kr/3680",
+          "publisher": "HSAD",
+          "published_date": "2025-11-06",
+          "access": "direct_body",
+          "support": "눈 배경의 3분할 AI 이미지 및 사람·동물·음식 등에 적용한 사례를 설명한다.",
+          "independent_group": "hsad"
+        }
+      ],
+      "limitations": "원영상 직접 검증·최초 시점·현재 유행 규모의 인증 아님. 당시 이미지 포맷에 대한 설명이며 현재 앱 기능·가격·개인정보처리 보증이나 업로드 권유가 아님."
+    },
+    {
+      "slug": "heoijja",
+      "title": "허이짜~",
+      "path": "memes/heoijja.md",
+      "source_revision": "a7ccbb74fe1fd751d3da6e62b5a213b0929c2cab",
+      "source_blob_sha": "0462b30bdbfa0dafbee5285978d34c6c88634c57",
+      "scope_type": "korean_usage",
+      "scope_basis": "화상고 기합 및 네이버 광고 응용; 시민기자 방송리뷰, 코너의 기합 유행어 및 재현",
+      "evidence": [
+        {
+          "publisher": "경향신문",
+          "url": "https://www.khan.co.kr/article/200504201741591/amp",
+          "published_at": "2005-04-20",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "화상고 기합 및 네이버 광고 응용"
+        },
+        {
+          "publisher": "오마이뉴스",
+          "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0000253715",
+          "published_at": "2005-05-06",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "시민기자 방송리뷰, 코너의 기합 유행어 및 재현"
+        }
+      ],
+      "limitations": "개그 기합 흉내 범위. 실제 무술 동작/효과/건강사실 제외."
+    },
+    {
+      "slug": "jjam-vibe",
+      "title": "짬에서 나오는 바이브",
+      "path": "memes/jjam-vibe.md",
+      "source_revision": "a7ccbb74fe1fd751d3da6e62b5a213b0929c2cab",
+      "source_blob_sha": "7e1f065a34a71a8a57438ab521a68907a2a5044a",
+      "scope_type": "korean_usage",
+      "scope_basis": "노련미 뜻과 인터뷰 연재명 실사용; 스포츠 기사에서 베테랑의 능숙함 칭찬 실사용",
+      "evidence": [
+        {
+          "publisher": "바이라인네트워크",
+          "url": "https://byline.network/2022/12/07_qroad_interview/",
+          "published_at": "2022-12-07",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "노련미 뜻과 인터뷰 연재명 실사용"
+        },
+        {
+          "publisher": "경향신문",
+          "url": "https://www.khan.co.kr/article/202005122111015",
+          "published_at": "2020-05-12",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "스포츠 기사에서 베테랑의 능숙함 칭찬 실사용"
+        }
+      ],
+      "limitations": "최초 쇼미 시즌 기사간 충돌로 기원 확정 제외; 노련미 표현이지 실제 경력 자동 증명 아님."
+    },
+    {
+      "slug": "pepsiman-jokes",
+      "title": "펩시맨 시리즈",
+      "path": "memes/pepsiman-jokes.md",
+      "source_revision": "a7ccbb74fe1fd751d3da6e62b5a213b0929c2cab",
+      "source_blob_sha": "42eb92d5589dddc5ccaba02edc1cc27642bfb42e",
+      "scope_type": "korean_usage",
+      "scope_basis": "PC통신 유머 지면에 펩시맨 시리즈 두 편 수록; PC통신 유머의 펩시맨 시리즈 유행 회고",
+      "evidence": [
+        {
+          "publisher": "전자신문",
+          "url": "https://www.etnews.com/199803280011",
+          "published_at": "1998-03-28",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "PC통신 유머 지면에 펩시맨 시리즈 두 편 수록"
+        },
+        {
+          "publisher": "조선일보",
+          "url": "https://srchdb1.chosun.com/pdf/i_service/pdf_ReadBody.jsp?D=24&ID=9903243504&M=03&Y=1999",
+          "published_at": "1999-03-24",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "PC통신 유머의 펩시맨 시리즈 유행 회고"
+        }
+      ],
+      "limitations": "상품/광고 전반 아닌 펩시맨을 주인공으로 한 텍스트 유머. 기존 유머 전문 복제하지 않음."
+    },
+    {
+      "slug": "we-wont-make-it",
+      "title": "우린 안될 거야 아마",
+      "path": "memes/we-wont-make-it.md",
+      "source_revision": "a7ccbb74fe1fd751d3da6e62b5a213b0929c2cab",
+      "source_blob_sha": "70669818d200907a1e758082a765c479fc24ebd6",
+      "scope_type": "korean_usage",
+      "scope_basis": "반드시 크게 들을 것 감독 인터뷰와 자조 대사 확인; 별도 영화 칼럼이 다큐의 문구를 유행어로 재인용",
+      "evidence": [
+        {
+          "publisher": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20100411001700005",
+          "published_at": "2010-04-11",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "반드시 크게 들을 것 감독 인터뷰와 자조 대사 확인"
+        },
+        {
+          "publisher": "동아사이언스",
+          "url": "https://www.dongascience.com/news/14296",
+          "published_at": "2016-10-20",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "별도 영화 칼럼이 다큐의 문구를 유행어로 재인용"
+        }
+      ],
+      "limitations": "인터넷 원 게시물 직접 열람 아님, 정확한 유행 시작/원 발언 인접 맥락 단정 제외. 타인의 가능성 단정 아님."
+    },
+    {
+      "slug": "igeo-real",
+      "title": "ㅇㄱㄹㅇ",
+      "path": "memes/igeo-real.md",
+      "source_revision": "a7ccbb74fe1fd751d3da6e62b5a213b0929c2cab",
+      "source_blob_sha": "128b2aa39ae599dfe0c4e4a735dcf4810277037b",
+      "scope_type": "korean_usage",
+      "scope_basis": "초성의 확장형과 온라인 댓글 사용 보도; 채팅·커뮤니티 의미와 CU 상품 문구 활용 보도",
+      "evidence": [
+        {
+          "publisher": "뉴스1",
+          "url": "https://news.nate.com/view/20151009n04994",
+          "published_at": "2015-10-09",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "초성의 확장형과 온라인 댓글 사용 보도"
+        },
+        {
+          "publisher": "서울경제",
+          "url": "https://v.daum.net/v/20191009065107540?s=print_news",
+          "published_at": "2019-10-09",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "채팅·커뮤니티 의미와 CU 상품 문구 활용 보도"
+        }
+      ],
+      "limitations": "기사 속 댓글 관찰의 보도이며 원댓글 직접 열람 아님. 최초 작성자/시점 제외. 기존 레알·ㄹㅇㅋㅋ와 관련되나 이거 레알의 독립 문장형."
+    },
+    {
+      "slug": "alien-writing",
+      "title": "외계어",
+      "path": "memes/alien-writing.md",
+      "source_revision": "a7ccbb74fe1fd751d3da6e62b5a213b0929c2cab",
+      "source_blob_sha": "6be0ab6b8c067fb54e1b11eaba105d89f7ac42a7",
+      "scope_type": "korean_usage",
+      "scope_basis": "특수문자·외국문자 혼합 등 형식과 온라인 소설·커뮤니티 사용; 기자의 채팅 관찰과 문자 혼합·자모 띄어쓰기 유형 보도",
+      "evidence": [
+        {
+          "publisher": "아이뉴스24",
+          "url": "https://www.inews24.com/view/125682",
+          "published_at": "2004-10-08",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "특수문자·외국문자 혼합 등 형식과 온라인 소설·커뮤니티 사용"
+        },
+        {
+          "publisher": "매일신문",
+          "url": "https://www.imaeil.com/page/view/2003073114125054437",
+          "published_at": "2003-07-31",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "기자의 채팅 관찰과 문자 혼합·자모 띄어쓰기 유형 보도"
+        }
+      ],
+      "limitations": "미성년 채팅 참여자 이름·나이·지역·원문 및 언어비하 평가 재현하지 않음. 최초 연도/표준규칙 단정 제외. 장식적 표기 범위로 한정."
+    },
+    {
+      "slug": "leek-spin-song",
+      "title": "파돌리기송",
+      "path": "memes/leek-spin-song.md",
+      "source_revision": "a7ccbb74fe1fd751d3da6e62b5a213b0929c2cab",
+      "source_blob_sha": "d4e6e625945ff4a130ef1e16346fef54d47d20db",
+      "scope_type": "korean_usage",
+      "scope_basis": "미쿠 파돌리기송의 의미, LG G5 광고의 재해석 음악과 국내 SNS 반응 보도; 맘스터치 광고의 딥치즈송·댄스 패러디 사례. 기업발표 기반 제품 기사",
+      "evidence": [
+        {
+          "publisher": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/201604020907556800",
+          "published_at": "2016-04-02",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "미쿠 파돌리기송의 의미, LG G5 광고의 재해석 음악과 국내 SNS 반응 보도"
+        },
+        {
+          "publisher": "헤럴드경제",
+          "url": "https://biz.heraldcorp.com/article/1427919",
+          "published_at": "2017-08-23",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "맘스터치 광고의 딥치즈송·댄스 패러디 사례. 기업발표 기반 제품 기사"
+        }
+      ],
+      "limitations": "서로 다른 국내 광고 재사용 2사례. 원영상/원 SNS 직접 재생·열람 아님. G5 광고 음악 자체는 비지 시그널 재해석곡이며 원곡 그대로라 하지 않음. 최초영상/곡기원/가사 전재 제외."
+    },
+    {
+      "slug": "neomuhae-neomuhae",
+      "title": "너무해 너무해",
+      "path": "memes/neomuhae-neomuhae.md",
+      "source_revision": "1d63a8508d3c77ffed099dbed90e280cbdbe2339",
+      "source_blob_sha": "62841878bc8f35aae9592114375378cd2c8b9a89",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 사용 확인",
+      "evidence": [
+        {
+          "url": "https://www.xportsnews.com/article/793179",
+          "publisher": "엑스포츠뉴스",
+          "published_at": "2016-11-24",
+          "access": "direct_body",
+          "supports": "SNS의 짧은 파트 영상과 다현의 너무해 표현 확산",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://enews.imbc.com/M/Detail/324740",
+          "publisher": "iMBC",
+          "published_at": "2021-09-08",
+          "access": "direct_body",
+          "supports": "TT 발표 시기와 포인트 제스처의 인기 회고",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 발생·현재 유행 미확인",
+        "원영상 직접 열람 없음",
+        "AI 추천 정확도 검증 아님"
+      ]
+    },
+    {
+      "slug": "jinhaeng-sikyeo",
+      "title": "진행시켜",
+      "path": "memes/jinhaeng-sikyeo.md",
+      "source_revision": "1d63a8508d3c77ffed099dbed90e280cbdbe2339",
+      "source_blob_sha": "480551fe773692aca1c78a51bb13dc993a3fa500",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 사용 확인",
+      "evidence": [
+        {
+          "url": "https://m.etnews.com/20220623000266",
+          "publisher": "전자신문",
+          "published_at": "2022-06-23",
+          "access": "direct_body",
+          "supports": "이경영과 진행시켜 유행어의 연관",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20230515_0002302732",
+          "publisher": "뉴시스",
+          "published_at": "2023-05-17",
+          "access": "direct_body",
+          "supports": "경영자들 성대모사 콘텐츠의 대표 멘트와 발성",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 발생·현재 유행 미확인",
+        "원영상 직접 열람 없음",
+        "AI 추천 정확도 검증 아님"
+      ]
+    },
+    {
+      "slug": "pre-cracked-egg",
+      "title": "껍질 미리깐 달걀",
+      "path": "memes/pre-cracked-egg.md",
+      "source_revision": "1d63a8508d3c77ffed099dbed90e280cbdbe2339",
+      "source_blob_sha": "7fb0ed19472e7c35fd3270856abc90ef900a1c0b",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 사용 확인",
+      "evidence": [
+        {
+          "url": "https://correctiv.org/faktencheck/medizin-und-gesundheit/2018/11/07/aufgebrochenes-ei-ohne-schale-im-supermarkt-ist-nicht-echt/",
+          "publisher": "CORRECTIV",
+          "published_at": "2018-11-07",
+          "access": "direct_body",
+          "supports": "가상 상품과 실제 식품 오해 구분",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://whitefaceone.tistory.com/2351",
+          "publisher": "잼늬 블로그",
+          "published_at": "2021-06-19",
+          "access": "direct_body",
+          "supports": "한국어 이미지와 마참내 번역 변형",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://obviousplant.com/products/pre-cracked-egg",
+          "publisher": "Obvious Plant",
+          "published_at": null,
+          "access": "direct_body",
+          "supports": "공식 수집품 페이지가 내용물을 장난감 슬라임 달걀로 명시",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 발생·현재 유행 미확인",
+        "원영상 직접 열람 없음",
+        "AI 추천 정확도 검증 아님",
+        "한국어 사용 근거는 개인 블로그 한 곳이며, 해외 팩트체크·공식 상품자료는 작품과 실물 구별 근거다. 국내 편집매체 두 곳의 사용 검증이 아니다.",
+        "마참내 alias는 해당 이미지와 연결된 반응을 가리키며 독립 표현의 모든 쓰임을 동일 의미로 인증하지 않는다."
+      ]
+    },
+    {
+      "slug": "cheese-fountain",
+      "title": "치즈분수",
+      "path": "memes/cheese-fountain.md",
+      "source_revision": "1d63a8508d3c77ffed099dbed90e280cbdbe2339",
+      "source_blob_sha": "a302938acc93b3382521fc01eaa372be8164a1d6",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 사용 확인",
+      "evidence": [
+        {
+          "url": "https://www.insight.co.kr/news/309975",
+          "publisher": "인사이트",
+          "published_at": "2020-10-29",
+          "access": "direct_body",
+          "supports": "테이스티훈 치즈분수 영상 공개와 예상 밖 결과",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        },
+        {
+          "url": "https://knowyourmeme.com/memes/tasty-hoon-cheese-fondue-video",
+          "publisher": "Know Your Meme",
+          "published_at": "2020-10-30",
+          "access": "direct_body",
+          "supports": "해외 공유와 상황 비유 자막 변형; 2025년 갱신",
+          "original_media_watched": false,
+          "original_source_access": "body_read"
+        }
+      ],
+      "limitations": [
+        "최초 발생·현재 유행 미확인",
+        "원영상 직접 열람 없음",
+        "AI 추천 정확도 검증 아님"
+      ]
+    }
+  ],
+  "limitations": [
+    "Canonical definitions only; no usage recommendation promotion.",
+    "Evidence roles vary: domestic language use, historical reporting, primary product records and explanatory material are not interchangeable.",
+    "No claim that every entry has two domestic editorial media observations.",
+    "No current popularity, first-origin, psychological or rights certification."
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "execution": "actual_search_replay_not_llm_inference",
+  "recorded_at": "2026-11-16T15:06:35.521757+00:00",
+  "source_revision": "b1036d80f0a07bdc19b59623199260921f4ac850",
+  "plans_sha256": "bb7b3e16b869e38321e3865472e5dcbcf1cf018e8e31a10effafd76fa8e4cfa7",
+  "index_sha256": "3dbe8e008bbb378f6c8600ed3f49f05b95081982e28de79657ac9c8a17eada5d",
+  "vocabulary_sha256": "39ee3ab64d6b3afc0e91ecd20b8bfa40633e347309e148f42d22aba39a5f4df9",
+  "coverage": {
+    "dictionary_entries": 343,
+    "annotated_entries": 28,
+    "reviewed_entries": 28,
+    "unannotated_entries": 315
+  },
+  "results": [
+    {
+      "id": "A03",
+      "prompt": "별것 아닌 내 통근 동선을 너무 자세히 설명했네. 내 말이 길었다는 걸 가볍게 인정할 밈 있어?",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "과도한설명",
+          "불필요한세부정보"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "tmi",
+            "title": "TMI",
+            "path": "memes/tmi.md",
+            "domain_tags": [],
+            "usage_id": "self-overdetail",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "과도한설명"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-overdetail",
+              "emotions": [],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "과도한설명"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신이 불필요한 설명까지 했다고 가볍게 덧붙인다.",
+              "avoid_when": [],
+              "example": {
+                "text": "내가 아침에 양말 고른 얘기까지 했네. TMI였다.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단. 감정은 본문에서 고정되지 않아 []로 남김(통합 검토).",
+              "emotion_status": "unknown"
+            },
+            "review_status": "reviewed",
+            "source_sha": "f30812b98fd28cb0e8ce61abe59ab707a266ee17",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E21",
+      "prompt": "처음 보는 사람이 자꾸 질문해서 공개적으로 창피 주고 싶어. 답답하다는 밈 하나 추천.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "abstain"
+      }
+    }
+  ]
+}
