@@ -1,0 +1,107 @@
+{
+  "base": "65c5b2f8dd7cfd88812346c7e176571a65adf590",
+  "canonical_count": 895,
+  "accepted": [],
+  "explicit_queries": [
+    "무례",
+    "고맙",
+    "투우",
+    "잘살아",
+    "곶감",
+    "폴리에",
+    "또가고",
+    "지옥같",
+    "트랜지션",
+    "핀란드",
+    "의사결정",
+    "gotgam",
+    "곧감",
+    "미안이제",
+    "더들리",
+    "dudley",
+    "꺼내줘",
+    "polyester",
+    "배경",
+    "한단어",
+    "가고싶",
+    "hell",
+    "OO 정보",
+    "엄마 정보",
+    "아빠 정보",
+    "다음 화 정보",
+    "얼데이드립",
+    "7080",
+    "너네 지금 과소비야",
+    "과소비",
+    "스카프",
+    "ㅋㅋㅋㄹㅌㅅ",
+    "가정용",
+    "털동생",
+    "와비사비",
+    "식스세븐",
+    "67",
+    "암사자",
+    "사자는",
+    "It's Time",
+    "잇츠타임",
+    "그래놀라",
+    "섹시하게",
+    "한한미일",
+    "54000",
+    "이거 제 이모지야",
+    "오디세이",
+    "라우럴",
+    "빼난지원금",
+    "코르티스"
+  ],
+  "held": [
+    {
+      "candidate": "미안 이제 곶감",
+      "sources": [
+        "https://sudamate.com/blog/mian-ije-gotgam-korean-meme/ko",
+        "https://kurve.gg/en/youtube/UC-3VyehryX6o_hyqLkKM6jQ"
+      ],
+      "finding": "편집자 수다메이트와Kurve 열람. NMIXX소개/다른채널제목 단서이나 원영상미시청·throttled. 동작·음원확정없이 보류.",
+      "originals": [
+        "https://www.youtube.com/shorts/wk_KNLjprSg",
+        "https://www.youtube.com/watch?v=FUY0rongwr8"
+      ]
+    },
+    {
+      "candidate": "OO 정보",
+      "finding": "조사자 X원문2개403, 고구마파생설명은독립근거아님.",
+      "sources": [
+        "https://x.com/woon__now/status/2088117327896387732",
+        "https://x.com/gyalubunbun/status/2099084752200577033"
+      ]
+    },
+    {
+      "candidate": "너네 지금 과소비야",
+      "finding": "조사자는 인크로스31156 원상인발화확산확인. 별도차용2건미확보."
+    },
+    {
+      "candidate": "ㅋㅋㅋㄹㅌㅅ",
+      "finding": "캐릿1818 응용설명있으나 X원문0행. 파생마케팅가상예문제외."
+    },
+    {
+      "candidate": "얼데이드립",
+      "finding": "단일채널AI복고편곡소개, 독립고정형식재사용미확인."
+    }
+  ],
+  "existing": [
+    "say-it-politely-template",
+    "thank-you-bullfighter",
+    "no-reply-live-well",
+    "54000",
+    "my-emoji",
+    "odyssey",
+    "raureol",
+    "pepero-aid"
+  ],
+  "other_queries_status": "해외사례/일반표제/부분일치 또는 독립국내실제사용미확보. 문자열을 고유후보/검증수로 세지 않음.",
+  "limits": [
+    "원영상미시청",
+    "조사자보고와편집자열람구분",
+    "Python/CI미실행"
+  ]
+}

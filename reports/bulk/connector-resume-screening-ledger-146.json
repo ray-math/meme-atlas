@@ -46,10 +46,11 @@
     "reports/bulk/connector-resume-c190.json",
     "reports/bulk/connector-resume-audit-holds191.json",
     "reports/bulk/connector-resume-screening192.json",
-    "reports/bulk/connector-resume-c193.json"
+    "reports/bulk/connector-resume-c193.json",
+    "reports/bulk/connector-resume-holds194.json"
   ],
-  "query_observations": 716,
-  "distinct_literal_queries": 576,
+  "query_observations": 766,
+  "distinct_literal_queries": 614,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3832,6 +3833,256 @@
       "query": "원영적 사고",
       "source": "reports/bulk/connector-resume-c193.json",
       "status": "screened-see-report"
+    },
+    {
+      "query": "무례",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "고맙",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "투우",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "잘살아",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "곶감",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "폴리에",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "또가고",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "지옥같",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "트랜지션",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "핀란드",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "의사결정",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "gotgam",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "곧감",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "미안이제",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "더들리",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "dudley",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "꺼내줘",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "polyester",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "배경",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "한단어",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "가고싶",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "hell",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "OO 정보",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "엄마 정보",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "아빠 정보",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "다음 화 정보",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "얼데이드립",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "7080",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "너네 지금 과소비야",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "과소비",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "스카프",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "ㅋㅋㅋㄹㅌㅅ",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "가정용",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "털동생",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "와비사비",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "식스세븐",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "67",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "암사자",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "사자는",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "It's Time",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "잇츠타임",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "그래놀라",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "섹시하게",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "한한미일",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "54000",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "이거 제 이모지야",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "오디세이",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "라우럴",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "빼난지원금",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "코르티스",
+      "source": "reports/bulk/connector-resume-holds194.json",
+      "status": "held-or-existing-see-report"
     }
   ],
   "semantic_duplicates": [
