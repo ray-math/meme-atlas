@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "source_commit": "677b3bced8b4ddca3fe899bde2f8931611d35bca",
+  "provenance": "Actual AI plans authored in this assistant turn from public annotations and existing public inputs. No separate model API call, search execution, final answers, gold or answer-file reading.",
+  "limitations": "표제·예문을 생략해도 공개 주석 파생 개발 평가이며 독립 heldout이 아니다. 새 상황을 반영한 임시 검색 계획으로 원본 draft 승격·실서비스 노출이 아니다. 두 상황은 실제로 겹칠 수 있으며 singleton exact-match 검색 제약은 의미상 배타성을 뜻하지 않는다. 이번 입력이 명시한 조건만 필터링하며 다른 조건이 없다고 단정하지 않는다. standard도 context와 avoid_when 검토가 필요하고 필터는 업무 사실·팬 관계·공식성·동의·내면을 인증하지 않는다.",
+  "source_bindings": {
+    "draft": {
+      "commit": "677b3bced8b4ddca3fe899bde2f8931611d35bca",
+      "path": "reports/work-interest-fan-meeting-draft.json",
+      "inputs": {
+        "K-work": "profiles[entry_id=deogeop-ilchi].usages[0].context",
+        "K-fan": "profiles[entry_id=seongdeok].usages[0].context",
+        "K-workwish": "profiles[entry_id=deogeop-ilchi].usages[0].avoid_when[0]",
+        "K-exploit": "profiles[entry_id=deogeop-ilchi].usages[0].avoid_when[2]",
+        "K-intrude": "profiles[entry_id=seongdeok].usages[0].avoid_when[2]",
+        "K-consent": "profiles[entry_id=seongdeok].usages[0].avoid_when[4]"
+      }
+    },
+    "existing": {
+      "commit": "c1dc801e1f7d81bdbf8375f285afeea1724c8ac1",
+      "inputs": {
+        "A07": "eval/challenge/audit-inputs.json inputs[id=A07].prompt",
+        "A21": "eval/challenge/audit-inputs.json inputs[id=A21].prompt",
+        "A26": "eval/challenge/audit-inputs.json inputs[id=A26].prompt",
+        "E06": "eval/challenge/editorial-inputs.json inputs[id=E06].prompt"
+      }
+    }
+  },
+  "plans": [
+    {
+      "id": "K-work",
+      "prompt": "본인이 오래 관심을 두어 온 분야가 현재 맡고 있는 실제 업무와 이어져 있음을 설명한다. 단순한 여가 활동이나 앞으로의 취업 희망이 아니라 지금의 직업적 연결을 말한다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "상태설명"
+        ],
+        "situations": [
+          "관심사직업연결"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "오래 관심을 둔 분야와 현재 실제 업무의 연결이 명시된 자기 설명이다. 직업적 연결만 좁게 조회하며 팬 교류가 없었다고 단정하지 않는다. 행복·고소득·전문성·노동 조건을 추가하지 않는다."
+    },
+    {
+      "id": "K-fan",
+      "prompt": "자신이 팬으로 좋아해 온 대상과 공식적으로 마련된 자리에서 바라던 만남이나 대화를 실제로 경험했음을 설명한다. 아직 이루어지지 않은 바람이나 팬이 아닌 유명인과의 우연한 조우는 이번 범위가 아니다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "상태설명"
+        ],
+        "situations": [
+          "팬교류성취"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "팬으로 좋아해 온 대상과 공식 자리에서 바라던 만남·대화를 실제 경험했다는 조건이다. 그 자기 경험을 조회하며 관련 직업 유무는 단정하지 않는다. 상호 팬 관계·지속 친밀·추가 접근 동의나 기쁨을 추정하지 않는다."
+    },
+    {
+      "id": "K-workwish",
+      "prompt": "취미만 있거나 미래 취업 희망만 있는 사람에게 현재 직업이 됐다고 말하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "취미나 미래 취업 희망만을 현재 직업으로 바꾸어 말하는 조건이므로 그런 상태 설명 추천을 보류한다. 미확인 직업을 발명하지 않으며 실제 취업을 별도로 확인한 척하지 않는다."
+    },
+    {
+      "id": "K-exploit",
+      "prompt": "좋아하는 일이므로 저임금·과로를 감수해야 한다고 압박하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "좋아하는 일을 이유로 저임금·과로를 감수하도록 압박하는 조건이다. 관심과 직업의 연결을 노동 조건 정당화로 확대하지 않는다."
+    },
+    {
+      "id": "K-intrude",
+      "prompt": "사생활 침해나 동의 없는 접근을 찬양하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "사생활 침해·동의 없는 접근을 찬양하는 조건은 공식 팬 교류 경험과 다르다. 상대의 수용이나 실제 접근 사건을 추가하지 않고 추천을 보류한다."
+    },
+    {
+      "id": "K-consent",
+      "prompt": "교류 경험을 추가 접근·연락에 대한 동의로 해석하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "교류 경험을 추가 접근·연락 동의로 바꾸는 조건이다. 만남 성취와 동의의 범위를 구별하며 추가 동의를 추정하는 추천을 보류한다."
+    },
+    {
+      "id": "A07",
+      "prompt": "며칠 만든 작은 도자기 컵이 완성됐어. 내 작품 사진에 귀엽게 자랑하는 캡션을 달래.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "결과물공유"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "자신이 만든 도자기 컵 완성을 사진과 함께 귀엽게 자랑하려는 결과물 공유다. 작품 제작만으로 직업·오랜 관심 분야·팬 교류를 추정하지 않는다. 사람 자체와 작품 중 평가 초점을 불필요하게 고정하지 않고 실제 후보 문맥을 검토한다."
+    },
+    {
+      "id": "A21",
+      "prompt": "친절하게 택배를 받아 준 이웃이 나랑 사귀고 싶은 게 확실하다고 말할 밈을 줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "택배를 대신 받아 준 친절만으로 교제 의사를 확정하려는 요청이다. 친절·교류를 연애 감정이나 동의 증거로 삼지 않고 확정 표현을 보류한다."
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "이모지와 느낌표만으로 사건·감정·요청 기능을 알 수 없어 맥락을 질문한다. 직업 성취·팬 교류·감탄을 임의 복원하지 않는다."
+    },
+    {
+      "id": "E06",
+      "prompt": "함께 일하던 친구가 먼 도시로 옮겨. 서운한 작별보다 행복하게 지내라는 가벼운 인사.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "응원"
+        ],
+        "situations": [
+          "좋은일기원"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "먼 도시로 옮기는 친구에게 행복을 비는 가벼운 작별 인사다. 함께 일했다는 정보만으로 관심사와 직업 연결이나 팬 관계를 추정하지 않고 미래 성공·행복도 보장하지 않는다."
+    }
+  ]
+}
