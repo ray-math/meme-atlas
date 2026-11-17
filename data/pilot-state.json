@@ -580,6 +580,12 @@
       "ids": [
         "anseup"
       ]
+    },
+    "korean-correction-20261117-jotdaet-event-date": {
+      "input_hash": "53f597040d88c8c44feba5282b4cb23f664b1e08b0b1934082142ae42f768ece",
+      "ids": [
+        "jotdaet-gual"
+      ]
     }
   },
   "entries": {
@@ -1221,8 +1227,8 @@
     },
     "jotdaet-gual": {
       "title": "좋댓구알",
-      "batch": "6",
-      "body_hash": "50a72e5028bd23f9371fa19342038cc2d8bc83de8d58490078aeebe0868988f3",
+      "batch": "korean-correction-20261117-jotdaet-event-date",
+      "body_hash": "5a0fdd7d2553b5bb2407262c11e05e5673b233dd50fc059151f24b6173bef8a1",
       "scope_type": "korean_origin",
       "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
       "tags": [
