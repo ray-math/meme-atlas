@@ -1,0 +1,359 @@
+{
+  "batch": "recent-wave18",
+  "base_commit": "1cc4cd4057569353418dbf45cc7bbc108deac54a",
+  "candidate_review_count": 30,
+  "sourceentries": [
+    {
+      "slug": "jasak",
+      "title": "자삭",
+      "path": "memes/jasak.md",
+      "evidence": [
+        {
+          "url": "https://view.asiae.co.kr/article/2009100614212315680",
+          "publisher": "아시아경제",
+          "published_date": "2009-10-06",
+          "access": "direct_body",
+          "support": "게시자가 자기 게시물을 직접 지우는 의미를 설명한다.",
+          "independent_group": "아시아경제"
+        },
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1000925898&plink=OLDURL",
+          "publisher": "SBS",
+          "published_date": "2011-06-06",
+          "access": "direct_body",
+          "support": "한국교총 배포 어휘 목록을 소개하며 게시글을 스스로 지우는 표현으로 풀이한다.",
+          "independent_group": "한국교총 배포 어휘집/SBS"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. "
+    },
+    {
+      "slug": "sseobang",
+      "title": "써방",
+      "path": "memes/sseobang.md",
+      "evidence": [
+        {
+          "url": "https://www.careet.net/428",
+          "publisher": "캐릿",
+          "published_date": "2021-07-07",
+          "access": "direct_body",
+          "support": "공개 본문에서 검색 방지를 위해 단어의 표기를 바꾸는 의미를 설명한다.",
+          "independent_group": "캐릿"
+        },
+        {
+          "url": "https://www.slj.co.kr/bbs/board.php?bo_table=special&page=3&wr_id=647",
+          "publisher": "학교도서관저널",
+          "published_date": "2023-07-04",
+          "access": "direct_body",
+          "support": "팬 문화 소개에서 서비스 이름을 다른 표현으로 바꾸는 써방 용법을 설명한다.",
+          "independent_group": "학교도서관저널"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 검색 차단 효과를 기술적으로 검증한 자료는 아니다."
+    },
+    {
+      "slug": "saengka",
+      "title": "생카",
+      "path": "memes/saengka.md",
+      "evidence": [
+        {
+          "url": "https://v.daum.net/v/W8XZGMwz6M",
+          "publisher": "한겨레",
+          "published_date": "2023-11-24",
+          "access": "direct_body",
+          "support": "생일 카페의 약칭과 팬이 준비하는 공간이라는 의미를 현장 기사에서 설명한다.",
+          "independent_group": "한겨레"
+        },
+        {
+          "url": "https://v.daum.net/v/pJN5gaHEd7",
+          "publisher": "YTN",
+          "published_date": "2024-05-11",
+          "access": "direct_body",
+          "support": "생카의 뜻을 설명하고 역사적 인물 기념 행사 기획자를 별도로 인터뷰한다.",
+          "independent_group": "YTN"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 기사 속 개인 경험·미성년자 정보는 복제하지 않았다."
+    },
+    {
+      "slug": "yeongtong-paenssa",
+      "title": "영통팬싸",
+      "path": "memes/yeongtong-paenssa.md",
+      "evidence": [
+        {
+          "url": "https://sports.khan.co.kr/article/202006240000003/amp",
+          "publisher": "스포츠경향",
+          "published_date": "2020-06-24",
+          "access": "direct_body",
+          "support": "영상통화 팬사인회의 약칭과 비대면 일대일 만남이라는 뜻을 설명한다.",
+          "independent_group": "스포츠경향"
+        },
+        {
+          "url": "https://www.hanteonews.com/en/article/42333",
+          "publisher": "한터뉴스",
+          "published_date": "2022-10-22",
+          "access": "direct_body",
+          "support": "케이팝 용어 연재에서 한국어 표현과 영상통화를 통한 팬사인회 의미를 풀이한다.",
+          "independent_group": "한터뉴스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 현재 신청 조건·금액·선발 방식은 다루지 않았다."
+    },
+    {
+      "slug": "album-kkang",
+      "title": "앨범깡",
+      "path": "memes/album-kkang.md",
+      "evidence": [
+        {
+          "url": "https://knup.kangwon.ac.kr/index.php?BID=18164&cm=oxbbs&cmd=view&cp=&mt=content&oxid=10",
+          "publisher": "강대신문",
+          "published_date": "2026-09-14",
+          "access": "direct_body",
+          "support": "굿즈를 얻기 위한 여러 장의 앨범 구매·개봉과 관련 영상의 사용을 설명한다.",
+          "independent_group": "강대신문"
+        },
+        {
+          "url": "https://pdf.channelpnu.pusan.ac.kr/1631/16311631.pdf",
+          "publisher": "부대신문",
+          "published_date": "2022-11-07",
+          "access": "direct_body",
+          "support": "9면 기사에서 원하는 포토카드가 나올 때까지 앨범을 사는 행위로 설명한다.",
+          "independent_group": "부대신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 두 기사 모두 반복 구매 쪽에 초점이 있다. 구매를 권유하거나 모든 팬의 소비 동기를 단정하지 않는다."
+    },
+    {
+      "slug": "sanok",
+      "title": "사녹",
+      "path": "memes/sanok.md",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/202002020924001/amp",
+          "publisher": "경향신문",
+          "published_date": "2020-02-02",
+          "access": "direct_body",
+          "support": "팬덤 용어 목록에서 공개방송과 사전녹화를 구별해 풀이한다.",
+          "independent_group": "경향신문"
+        },
+        {
+          "url": "https://v.daum.net/v/gXu8fbOvCp",
+          "publisher": "한국일보",
+          "published_date": "2018-07-19",
+          "access": "direct_body",
+          "support": "방청 기사에서 사녹은 사전녹화, 공방은 공개방송이라고 각각 설명한다.",
+          "independent_group": "한국일보"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 개별 방송의 현재 일정·방청 조건은 포함하지 않았다."
+    },
+    {
+      "slug": "gongbang",
+      "title": "공방",
+      "path": "memes/gongbang.md",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/202002020924001/amp",
+          "publisher": "경향신문",
+          "published_date": "2020-02-02",
+          "access": "direct_body",
+          "support": "팬덤 용어 목록에서 공개방송과 사전녹화를 구별해 풀이한다.",
+          "independent_group": "경향신문"
+        },
+        {
+          "url": "https://v.daum.net/v/gXu8fbOvCp",
+          "publisher": "한국일보",
+          "published_date": "2018-07-19",
+          "access": "direct_body",
+          "support": "방청 기사에서 사녹은 사전녹화, 공방은 공개방송이라고 각각 설명한다.",
+          "independent_group": "한국일보"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 방송 방청 문맥으로 한정하며 입장 권리나 현재 참가 조건을 뜻하지 않는다."
+    },
+    {
+      "slug": "olkon",
+      "title": "올콘",
+      "path": "memes/olkon.md",
+      "evidence": [
+        {
+          "url": "https://www.khan.co.kr/article/201906031700001/amp",
+          "publisher": "경향신문",
+          "published_date": "2019-06-03",
+          "access": "direct_body",
+          "support": "콘서트 현장 기사에서 여러 날 열린 모든 회차 관람의 뜻을 설명한다.",
+          "independent_group": "경향신문"
+        },
+        {
+          "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002817842",
+          "publisher": "오마이뉴스",
+          "published_date": "2022-03-14",
+          "access": "direct_body",
+          "support": "시민기자 관람기에서 모든 회차를 본다는 의미를 직접 풀이한다.",
+          "independent_group": "오마이뉴스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 개인 관람 경험의 세부와 예매 요령은 옮기지 않았다."
+    },
+    {
+      "slug": "insaeng-jjal",
+      "title": "인생짤",
+      "path": "memes/insaeng-jjal.md",
+      "evidence": [
+        {
+          "url": "https://www.tenasia.co.kr/article/2014080745384",
+          "publisher": "텐아시아",
+          "published_date": "2014-08-07",
+          "access": "direct_body",
+          "support": "인생에서 가장 잘 나온 사진이라는 평가 표현으로 설명한다.",
+          "independent_group": "텐아시아"
+        },
+        {
+          "url": "https://www.yna.co.kr/amp/view/AKR20150325093200005",
+          "publisher": "연합뉴스",
+          "published_date": "2015-03-25",
+          "access": "direct_body",
+          "support": "국립국어원 신어 발표를 소개하며 매우 잘 나온 사진이라는 의미를 설명한다.",
+          "independent_group": "국립국어원 2014 신어 발표/연합뉴스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 사진 품질의 객관적 순위를 뜻하지 않는다."
+    },
+    {
+      "slug": "namchin-jjal",
+      "title": "남친짤",
+      "path": "memes/namchin-jjal.md",
+      "evidence": [
+        {
+          "url": "https://www.tenasia.co.kr/article/2014080745384",
+          "publisher": "텐아시아",
+          "published_date": "2014-08-07",
+          "access": "direct_body",
+          "support": "남자친구처럼 친근한 모습과 사복 사진이라는 사용 맥락을 설명한다.",
+          "independent_group": "텐아시아"
+        },
+        {
+          "url": "https://www.korean.go.kr/common/download.do%3Bfront%3D46DD3CEB55A8772BB47E8A16A019E270?c_file_name=7b465c43-8ae9-4efc-b459-01e5100de6c4.pdf&file_path=reportData&o_file_name=2013_%EC%8B%A0%EC%96%B4%28%EA%B3%B5%EA%B0%9C%29.pdf",
+          "publisher": "국립국어원",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "2013 신어 자료의 남친짤 항목에서 자연스럽게 찍힌 남성 연예인 사진이라는 뜻과 이투뉴스 사용례를 수록한다.",
+          "independent_group": "국립국어원 2013 신어/이투뉴스 용례"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "두 독립 출처 본문에서 뜻과 한국어 팬덤·온라인 사용을 대조. 최초·현재 유행은 미인증.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생 시점·현재 유행 규모는 확인하지 않았다. 국립국어원 자료의 정확한 게시일은 확인하지 않아 null로 두었다. 당사자 관계나 사진 이용 허락을 인증하지 않는다."
+    }
+  ],
+  "held": [
+    {
+      "title": "광삭",
+      "reason": "국립국어원 발표를 전하는 기사들은 같은 발표 근거이므로 독립 두 관측으로 세지 않음."
+    },
+    {
+      "title": "저퀄",
+      "reason": "PD저널의 신어 인용 본문은 읽었으나 독립 두 번째 직접 본문이 미확보."
+    },
+    {
+      "title": "대인배",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "만렙",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "쪼렙",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "피셜",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "늦덕",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "겸덕",
+      "reason": "아이보스 칼럼은 직접 읽었으나 캐릿 후보의 해당 부분은 공개 본문에서 확인하지 못함."
+    },
+    {
+      "title": "재입덕",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "입덕부정기",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "입덕요정",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "고영희",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "얼굴천재",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "지구뿌셔",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "실트",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "팬아저",
+      "reason": "기존 전체 검색색인의 canonical 표제와 중복."
+    },
+    {
+      "title": "팬싸",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "해투",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "초동",
+      "reason": "검색·기존 후보를 살펴봤으나 독립 두 직접 본문과 의미 범위를 모두 확인하는 작업은 미완료. 후속 조사 필요."
+    },
+    {
+      "title": "탑꾸",
+      "reason": "기존 전체 검색색인의 canonical 표제와 중복."
+    }
+  ]
+}
