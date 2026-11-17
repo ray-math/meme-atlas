@@ -44,3 +44,8 @@ class OtlFingerHeartScopeTests(unittest.TestCase):
             [{'set':'regression-v3/audit','id':'A16',
               'before':['reality-is-gutter:expectation-gap'],
               'after':['otl:minor-own-disappointment','reality-is-gutter:expectation-gap']}])
+
+    def test_final_answers_have_auditable_context_and_facts(self):
+        from check_context_decisions import validate_decisions
+        def read(name):return json.loads((ROOT/'eval/otl-finger-heart-scope'/name).read_text())
+        self.assertEqual(validate_decisions(read('plans.json'),read('retrieval.json'),read('answers.json'),expected_prompt_version='contextual-v3'),[])
