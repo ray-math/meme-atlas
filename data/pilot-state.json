@@ -518,6 +518,13 @@
       "ids": [
         "goat"
       ]
+    },
+    "korean-verified-20261117-pon-three-lifts": {
+      "input_hash": "d1abafc172bf30dee8607ebb4a7ee170e7cb89bf1ad9453352c0499b9de45144",
+      "ids": [
+        "pon-eunjeong",
+        "three-lifts-500"
+      ]
     }
   },
   "entries": {
@@ -4104,6 +4111,31 @@
       "body_hash": "82b011607b0a323ffb9d9714b3fb3820223f97298d80e036e4e4838d3eab869e",
       "scope_type": "korean_usage",
       "scope_basis": "서울경제 본문 국내사용·팬논쟁 설명 및 경향 한국어칼럼 실제 호명 교차확인",
+      "tags": [
+        "스포츠"
+      ]
+    },
+    "pon-eunjeong": {
+      "title": "폰은정",
+      "aliases": [
+        "폰~"
+      ],
+      "batch": "korean-verified-20261117-pon-three-lifts",
+      "body_hash": "7ab7c05f93799edeb8889d9bfb34b9d35ed0bcc447f536d4097ac2ff5570b3c4",
+      "scope_type": "korean_usage",
+      "scope_basis": "디지털타임스와 허프포스트 본문에서 꾸며낸 이야기 및 폰~ 파생의 국내 사용 교차확인",
+      "tags": []
+    },
+    "three-lifts-500": {
+      "title": "3대500",
+      "aliases": [
+        "3대 500",
+        "언더아머 단속반"
+      ],
+      "batch": "korean-verified-20261117-pon-three-lifts",
+      "body_hash": "a2f1126dc7bc9b3989acbf309c27411df8e0b3669eb4e36d675a23122a2afb96",
+      "scope_type": "korean_usage",
+      "scope_basis": "세계일보와 동아일보 본문에서 국내 가상 운동복 착용자격 농담 및 단속반 설정 교차확인",
       "tags": [
         "스포츠"
       ]

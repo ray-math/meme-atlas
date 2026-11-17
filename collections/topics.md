@@ -165,6 +165,7 @@
 - [킹리적 갓심](../memes/king-reasonable-suspicion.md)
 - [킹왕짱](../memes/king-wang-jjang.md)
 - [포기하겠습니다](../memes/give-up.md)
+- [폰은정](../memes/pon-eunjeong.md)
 - [프로불편러](../memes/pro-offended.md)
 - [하오체](../memes/hao-online-style.md)
 - [하이루](../memes/hairu.md)
@@ -246,6 +247,7 @@
 
 ## 스포츠
 
+- [3대500](../memes/three-lifts-500.md)
 - [GOAT](../memes/goat.md)
 - [꼭짓점 댄스](../memes/vertex-dance.md)
 - [내려갈 팀은 내려간다](../memes/down-team-is-down.md)
