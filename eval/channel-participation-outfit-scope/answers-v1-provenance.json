@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "model_provenance": "이번 assistant 턴에서 동결된 공개 plans와 실제 Python retrieval을 읽고 독립적으로 문맥을 대조해 작성한 실제 AI 답안이다. 신규 모델 API 호출·검색 재실행·gold 또는 다른 answers 파일 읽기는 하지 않았다.",
+  "frozen_retrieval_commit": "23fcbd78e8b167b1dcd16283bd63eb4385c14e1f",
+  "limitations": "공개 주석 context·조건문 및 기존 공개 입력에 대한 개발 평가로 실사용 독립성이나 heldout 성능을 뜻하지 않는다. 조건문을 실제 사건으로 바꾸지 않는다. 새 두 profile은 임시 메모리에서만 reviewed로 조회됐으며 원본 draft 승격·실서비스 배포를 뜻하지 않는다. 응답은 문구 초안 또는 일반 안내다. 실제 사진 관찰·진위·게시 권한·계정 조작 권한은 확인하지 않았고 클릭·구독·설정 변경·게시를 수행하지 않았다. compatible과 미해결 조건 없음은 현재 문구 선택 범위이며 향후 실행 권한 확인 완료가 아니다. 원 plans와 trace는 변경하지 않는다.",
+  "answers": [
+    {
+      "id": "C-channel",
+      "action": "recommend",
+      "selected_entry_id": "jotdaet-gual",
+      "selected_usage_id": "request-four-channel-actions",
+      "response": "문구 초안: “원하시면 좋아요·댓글·구독·알림 설정, 좋댓구알 부탁드립니다!” 실제 클릭이나 설정 변경을 수행하거나 허가받았다는 뜻은 아닙니다.",
+      "reason": "반환 용례의 네 행동을 모두 자발적으로 부탁하는 context와 입력이 맞는다. 자발성을 유지하고 유료 참여·불이익·반복 압박을 추가하지 않는다. 현재 문구 선택은 실제 조작 또는 게시 승인과 별개다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "온라인 채널의 활동을 소개하면서 시청자에게 좋아요·댓글·구독·알림 설정의 네 행동을 모두 자발적으로 부탁하는 문구를 원한다."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 시청자에게 네 행동 모두를 자발적으로 부탁하는 문구를 원한다.",
+            "evidence_span": "온라인 채널의 활동을 소개하면서 시청자에게 좋아요·댓글·구독·알림 설정의 네 행동을 모두 자발적으로 부탁하는 문구를 원한다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "C-outfit",
+      "action": "recommend",
+      "selected_entry_id": "kkuan-kku",
+      "selected_usage_id": "describe-understated-outfit",
+      "response": "표현 초안: “자연스럽고 과하지 않은 꾸안꾸 차림.” 요청에서 말한 인상을 표현한 문구이며 사진을 직접 보고 평가한 것은 아닙니다.",
+      "reason": "반환 용례의 자연스럽고 과하지 않은 의복 인상에 한정한다. 입력은 구체 품목을 제공하지 않으므로 색·핏·소재를 만들지 않는다. 사진 관찰이나 준비 시간·가격·노력·성격·신체 평가를 주장하지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "제공된 의복 조합 설명을 바탕으로 차림이 자연스럽고 과하지 않은 인상을 준다고 짧게 표현하고 싶다."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 의복 설명을 바탕으로 자연스럽고 과하지 않은 인상을 짧게 표현하려는 요청이다.",
+            "evidence_span": "제공된 의복 조합 설명을 바탕으로 차림이 자연스럽고 과하지 않은 인상을 준다고 짧게 표현하고 싶다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "C-one-action",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "한 행동만 요청했다면 네 행동을 묶은 말은 쓰지 않고, 요청한 행동만 표현하겠습니다. 어떤 행동인지는 이 입력에 없어 임의로 정하지 않겠습니다.",
+      "reason": "한 행동 요청에 나머지를 보태는 조건이므로 묶음 밈을 보류한다. 일반적인 참여 부탁을 네 행동 의도로 확대하지 않으며 실제 행동 종류를 복원하지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "한 행동만 요청한 입력에 나머지 세 행동을 임의로 추가하는 경우: 묶음말 대신 요청한 행동만 일반 문구로 표현한다."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 한 행동 요청에 나머지 세 행동을 임의로 추가하는 조건을 제시한다.",
+            "evidence_span": "한 행동만 요청한 입력에 나머지 세 행동을 임의로 추가하는 경우: 묶음말 대신 요청한 행동만 일반 문구로 표현한다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "C-pressure",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "불참에 불이익을 주거나 반복적으로 압박하는 용도로는 참여 요청 밈을 권하지 않겠습니다.",
+      "reason": "입력의 강요 조건을 자발적 부탁으로 바꾸지 않는다. 실제 시청자·제재·반복 사건을 새로 만들지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "참여하지 않는 사람에게 불이익을 주거나 반복적으로 압박하는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 불참자에 대한 불이익 또는 반복 압박 조건이다.",
+            "evidence_span": "참여하지 않는 사람에게 불이익을 주거나 반복적으로 압박하는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "C-click",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "이 표현만으로 실제 클릭·구독·설정 변경 권한이 생기지는 않습니다. 문구 작성과 실제 조작에 대한 허가는 구별해야 합니다.",
+      "reason": "표현을 실행 권한으로 해석하는 조건이므로 보류한다. 실제 계정 작업을 수행하거나 권한이 확인됐다고 주장하지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "이 표현만으로 실제 클릭·구독·설정 변경 권한이 있다고 판단하는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 표현만으로 실제 조작 권한이 있다고 판단하는 조건이다.",
+            "evidence_span": "이 표현만으로 실제 클릭·구독·설정 변경 권한이 있다고 판단하는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "C-unseen",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "보지 않은 사진을 직접 관찰한 것처럼 설명하지 않겠습니다.",
+      "reason": "미열람 관찰 주장을 만드는 조건이므로 밈 추천을 보류한다. 실제 사진이 제공됐다는 사실이나 사진 속 특징도 추가하지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "사진을 보지 않았는데 직접 관찰했다고 표현하는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 보지 않은 사진을 직접 관찰했다고 표현하는 조건이다.",
+            "evidence_span": "사진을 보지 않았는데 직접 관찰했다고 표현하는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "C-details",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "제공되지 않은 품목·색·핏·소재를 만들거나 예문 속 옷을 사용자 차림으로 옮겨 쓰지 않겠습니다.",
+      "reason": "미제공 세부 생성과 예문 사실의 전이를 보류한다. 특정 의복이 실제로 존재하거나 사진에서 확인됐다고 주장하지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "제공되지 않은 품목·색·핏·소재를 생성하거나 예문에 있던 항목을 사용자 차림에 옮겨 붙이는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 제공되지 않은 의복 세부를 생성하거나 예문 항목을 사용자 차림에 옮기는 조건이다.",
+            "evidence_span": "제공되지 않은 품목·색·핏·소재를 생성하거나 예문에 있던 항목을 사용자 차림에 옮겨 붙이는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "C-effort",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "차림의 인상만으로 실제 준비 시간·가격·노력이나 성격을 단정하지 않겠습니다.",
+      "reason": "표현의 자연스러운 인상과 실제 준비 과정·비용·성격은 별개라는 반환 용례의 경계를 적용한다. 구체 수치나 내면을 만들지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "실제 준비 시간·가격·노력 또는 성격을 외관으로 단정하는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 외관으로 실제 시간·가격·노력 또는 성격을 단정하는 조건이다.",
+            "evidence_span": "실제 준비 시간·가격·노력 또는 성격을 외관으로 단정하는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "A07",
+      "action": "recommend",
+      "selected_entry_id": "look-at-this-hand",
+      "selected_usage_id": "cute-brag",
+      "response": "캡션 초안: “이 컵을 봐, 대박임. 내가 만들었다!”",
+      "reason": "반환 용례의 자기 결과물을 귀엽게 소개하는 context와 요청이 맞는다. 입력의 컵 완성 전제와 자랑 목적만 유지하며 사진을 보거나 색·구도·품질을 확인했다고 말하지 않는다. 실제 게시를 승인·실행하는 답이 아니다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "며칠 만든 작은 도자기 컵이 완성됐어. 내 작품 사진에 귀엽게 자랑하는 캡션을 달래."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 자신이 만든 도자기 컵의 완성을 전하며 귀여운 자랑 캡션을 요청한다.",
+            "evidence_span": "며칠 만든 작은 도자기 컵이 완성됐어. 내 작품 사진에 귀엽게 자랑하는 캡션을 달래."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "A26",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "어떤 상황이고, 어떤 반응을 표현하고 싶은가요?",
+      "reason": "이모지와 느낌표만으로 사건·감정·요청 기능을 확정하지 않는다.",
+      "context_check": {
+        "assessment": "uncertain",
+        "evidence_spans": [
+          "😶‍🌫️!!!"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": [
+          "구체적인 상황",
+          "표현하려는 반응이나 요청"
+        ]
+      },
+      "factual_check": {
+        "supported_claims": [],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "I-interest",
+      "action": "recommend",
+      "selected_entry_id": "mangwanbu",
+      "selected_usage_id": "request-attention-to-project",
+      "response": "소개에 덧붙일 짧은 문구: “많관부!”",
+      "reason": "반환 용례의 작품·활동에 대한 일반 관심 부탁에 맞는다. 네 채널 행동을 추가하거나 구매·구독·기부 의무로 바꾸지 않는다. 실제 소개 대상·발표일·성과를 생성하지 않으며 줄임말을 필요한 상세 정보의 대체물로 삼지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "새 작품이나 활동의 소식을 소개하며 그 대상에 관심을 기울여 달라고 친근하게 부탁한다. 소개 대상이 본인이 직접 만든 완성품일 필요는 없으며 구매·구독 등 특정 행동을 의무로 요구하지 않는다."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 작품이나 활동에 관심을 부탁하되 특정 행동을 의무로 요구하지 않는 문맥이다.",
+            "evidence_span": "새 작품이나 활동의 소식을 소개하며 그 대상에 관심을 기울여 달라고 친근하게 부탁한다. 소개 대상이 본인이 직접 만든 완성품일 필요는 없으며 구매·구독 등 특정 행동을 의무로 요구하지 않는다."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    }
+  ]
+}

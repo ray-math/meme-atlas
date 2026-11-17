@@ -187,7 +187,7 @@
       "selected_entry_id": null,
       "selected_usage_id": null,
       "response": "차림의 인상만으로 실제 준비 시간·가격·노력이나 성격을 단정하지 않겠습니다.",
-      "reason": "표현의 자연스러운 인상과 실제 준비 과정·비용·성격은 별개라는 반환 용례의 경계를 적용한다. 구체 수치나 내면을 만들지 않는다.",
+      "reason": "입력은 외관으로 실제 준비 시간·가격·노력 또는 성격을 단정하는 조건이다. 차림의 인상만으로 이런 사실을 확정하지 않으며 구체 수치나 내면을 만들지 않는다. 이 행에서는 검색하지 않았다.",
       "context_check": {
         "assessment": "incompatible",
         "evidence_spans": [
