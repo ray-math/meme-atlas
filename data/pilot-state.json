@@ -562,6 +562,12 @@
       "ids": [
         "chwijon"
       ]
+    },
+    "korean-reviewed-20261117-anmul-provenance": {
+      "input_hash": "4496a46e2ed87e8a1bb5d94e1748d2f45f85aee12aaa1acb33546f25e0fc6191",
+      "ids": [
+        "anmul-angung"
+      ]
     }
   },
   "entries": {
@@ -1177,10 +1183,10 @@
     },
     "anmul-angung": {
       "title": "안물안궁",
-      "batch": "6",
-      "body_hash": "c2c072b41a5e372f4de91c41ebdf12bad212853f5156458c513ecc908b0ca7ec",
-      "scope_type": "korean_origin",
-      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "batch": "korean-reviewed-20261117-anmul-provenance",
+      "body_hash": "f4fa9f7c9bfad1a18121b31133474e873a434b3314b079007113f22cd8b00fb2",
+      "scope_type": "korean_usage",
+      "scope_basis": "2016년·2019년 뜻 설명과 별개 자기 이야기 말머리의 보도·원문사용을 확인했다. 기존2013년 특정기사 참조는 이번 확인하지 못해 연도 단정만 제거했으며 그해자료가 없다고 입증한 것은 아니다. 자기말머리는 독자의 내면을 아는 것이 아니라 관심 없을 수도 있다고 낮추어붙이는 표현으로 정리했다.",
       "tags": []
     },
     "bokse-pyeonsal": {
