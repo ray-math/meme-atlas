@@ -45,7 +45,7 @@ def evaluate(root=ROOT):
                          'passed':all(checks.values())})
     drift=[]
     for group in ['audit','editorial']:
-        plans=json.loads((Path(root)/f'eval/regression-v3/{group}-plans.json').read_text())['plans']
+        plans=json.loads((Path(root)/f'eval/regression-v3/{group}-plans.json').read_text())['plans'] + json.loads((Path(root)/f'eval/challenge/{group}-plans.json').read_text())['plans']
         for plan in plans:
             if plan['action'] in ('clarify','abstain'):
                 continue
