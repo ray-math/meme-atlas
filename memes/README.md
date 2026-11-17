@@ -234,6 +234,7 @@
 - [어서 와, ○○는 처음이지?](welcome-first-time.md)
 - [어이가 없네](eoi-eopne.md)
 - [어쩔티비](eojjeol-tv.md)
+- [억까](eokkka.md)
 - [얼짱](eoljjang.md)
 - [엄근진](stern-serious.md)
 - [엣지 있다](edge-style.md)

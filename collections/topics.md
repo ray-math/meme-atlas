@@ -137,6 +137,7 @@
 - [안물안궁](../memes/anmul-angung.md)
 - [안아줘요](../memes/hug-me-animal.md)
 - [야민정음](../memes/yamin-jeongeum.md)
+- [억까](../memes/eokkka.md)
 - [얼짱](../memes/eoljjang.md)
 - [엄근진](../memes/stern-serious.md)
 - [엽기](../memes/yeopgi-humor.md)

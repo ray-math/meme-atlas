@@ -338,3 +338,4 @@
 - [헬조선](../memes/hell-joseon.md)
 - [정신승리](../memes/mental-victory.md)
 - [뇌피셜](../memes/noepisyeol.md)
+- [억까](../memes/eokkka.md)
