@@ -25,3 +25,9 @@
 원 carrot 개발 trace의 review_note에는 당시 미검증/draft 상태가 남아 있다. 저장된 trace는 바꾸지 않으며 현재 주석의 편집 검토 메모 변경은 회귀 테스트에서 정확한 이전→이후 메모 한 쌍으로만 설명한다. 기타 후보 내용이나 실제 응답은 그대로 비교한다.
 
 기본 recommend는 caution을 여전히 제외한다. lookup 후보와 실제 문맥 판단을 혼동하지 않는다. 원래 평가셋의 정확도 수치를 새 데이터의 정확도로 재인용하거나 재채점하지 않는다.
+
+## 독립 코드 감사 후 보강
+
+동등 비교는 Python의 True == 1 또는 20 == 20.0을 허용하지 않도록 재귀적으로 JSON 값 타입까지 보존한다. registry schema_version도 bool/float가 아닌 정수 1만 허용한다. 원 carrot 개발 trace의 review_note 이행은 C-agree/A08의 carrot-of-course:playful-agreement 정확 두 건만 허용하고 이전·이후 메모 전문을 비교한다.
+
+coverage는 사전·주석 수가 증가할 수 있어 행동 비교에서만 제외한다. 이는 coverage 수치의 정확성을 인증하거나 임의 변경을 승인하는 예외가 아니다. 현재 index는 원본으로 재생성하고 build_usage_index.py --check 및 구조검사로 검증한다. 역사 snapshot의 coverage와 해시는 원래 값으로 남긴다.
