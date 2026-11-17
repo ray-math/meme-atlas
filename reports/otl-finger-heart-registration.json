@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "document_kind": "draft_registration_record",
+  "base_commit": "9c3b30167aeaff27c045d69a7c4dff1baedca5b0",
+  "source_report_commit": "3f981ed741b8e298c3b5f58ec40c1eb495e67512",
+  "new_profiles": [
+    {
+      "entry_id": "otl",
+      "source_sha": "43d0612e03a847a14fb6d5bee5d6625bbf2766a7",
+      "review_status": "draft",
+      "review_note": "canonical 직접 확인. 외부 근거는 iNews24 뜻·기사 예문과 경향 좌절 뜻·몸짓 재연의 조사 보고를 참고했다. 원댓글은 확인하지 않았다. 사소한 자기 낙담의 문자 표현만 다룬다.",
+      "usages": [
+        {
+          "id": "minor-own-disappointment",
+          "emotion_status": "annotated",
+          "emotions": [
+            "실망"
+          ],
+          "intents": [
+            "상태설명"
+          ],
+          "situations": [
+            "기대와현실차이"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글",
+            "혼잣말"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "본인이 기대한 사소한 일이 어긋나 낙담했다는 반응을 짧은 문자 그림으로 표현하고 싶다.",
+          "avoid_when": [
+            "심각한 고통이나 위기·도움 요청을 가벼운 반응으로 축소하는 경우",
+            "다른 사람의 실패를 비웃거나 낙담을 강요하는 경우",
+            "낙담 표현을 실제 포기 결정이나 자기 비하로 자동 해석하는 경우",
+            "문자 그림을 실제로 무릎 꿇거나 엎드리라는 신체 동작 지시로 바꾸는 경우"
+          ],
+          "example": {
+            "text": "기대했던 작은 계획이 어긋났네. 아쉽다 OTL.",
+            "kind": "editorial"
+          },
+          "review_note": "실망은 명시된 용례가 전달하는 정서이며 실제 임상적 심리 상태를 추정하지 않는다. standard는 사소한 자기 낙담이라는 좁은 편집 맥락에 한정한다. 기존 기대와현실차이 필터만으로 사소함·위기 여부가 검증되지는 않는다.",
+          "retrieval_requirements": {
+            "situations": [
+              "기대와현실차이"
+            ],
+            "targets": [
+              "자기"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entry_id": "finger-heart",
+      "source_sha": "fe03b4b0be86e47769ae675729c0217cbf360153",
+      "review_status": "draft",
+      "review_note": "canonical 직접 확인. 외부 근거는 SBS SNS 포즈 보도와 스포츠조선 엄지·검지 교차 및 취재진 인사의 조사 보고를 참고했다. 원 SNS·영상은 확인하지 않았다. 공개 행사 인사의 동작 선택·설명만 다룬다.",
+      "usages": [
+        {
+          "id": "public-event-greeting-gesture",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "인사"
+          ],
+          "situations": [
+            "공개행사인사"
+          ],
+          "targets": [
+            "상대"
+          ],
+          "registers": [
+            "친근한대화"
+          ],
+          "risk_flags": [
+            "동의오인",
+            "호감확정오인"
+          ],
+          "safety": "standard",
+          "context": "공개 행사나 공개 촬영 자리에서 관객·팬·취재진에게 전할 친근한 인사의 손동작을 고르거나 그 만드는 방법을 설명하고 싶다.",
+          "avoid_when": [
+            "동작 설명을 실제 수행 완료나 상대의 반응 확인으로 바꾸는 경우",
+            "공개 행사라는 이유로 실제 촬영·게시 동의가 있다고 단정하는 경우",
+            "동작을 특정인에 대한 연애 감정이나 상호 친밀의 증거로 해석하는 경우",
+            "동작을 원하지 않거나 하기 어려운 사람에게 수행을 강요하는 경우"
+          ],
+          "example": {
+            "text": "행사에서 인사할 동작으로 손가락 하트를 고를 수 있어요. 엄지와 검지를 겹쳐 작은 하트 모양을 만들면 돼요.",
+            "kind": "editorial"
+          },
+          "review_note": "인사를 받는 사람이 대상이므로 target상대다. 실제 내면의 호감·고마움은 추정하지 않는다. standard는 자발적인 인사 동작 설명이라는 좁은 편집 판단이며 촬영·공개 동의나 상대 반응을 보장하지 않는다.",
+          "retrieval_requirements": {
+            "situations": [
+              "공개행사인사"
+            ],
+            "targets": [
+              "상대"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "new_vocabulary": {
+    "situations": [
+      {
+        "label": "공개행사인사",
+        "aliases": [],
+        "definition": "공개 행사나 공개 촬영 자리에서 관객·팬·취재진 등에게 인사를 전하는 상황. 실제 촬영·공개 동의, 특정인과의 관계나 감정을 뜻하지 않는다."
+      }
+    ]
+  },
+  "source_review": [
+    {
+      "entry_id": "otl",
+      "url": "https://www.inews24.com/view/141117",
+      "published_date": "2005-02-25",
+      "support": "문자 표현의 뜻과 기사 예문.",
+      "limits": "원댓글 직접 검증이 아니다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "entry_id": "otl",
+      "url": "https://www.khan.co.kr/article/200608301514471",
+      "published_date": "2006-08-30",
+      "support": "좌절의 뜻과 몸짓 재연 소개.",
+      "limits": "원댓글은 확인하지 않았다. 몸짓 재연 사례가 신체 동작 지시를 정당화하지 않는다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "entry_id": "finger-heart",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1002919864",
+      "published_date": "2015-04-09",
+      "support": "SNS 포즈 사용 보도.",
+      "limits": "원 SNS·영상은 확인하지 않았다. 실제 내면 감정이나 상호 관계 인증이 아니다.",
+      "access": "researcher_direct_read_report"
+    },
+    {
+      "entry_id": "finger-heart",
+      "url": "https://v.daum.net/v/20160704171011742?s=print_news",
+      "published_date": "2016-07-04",
+      "support": "스포츠조선의 엄지·검지 교차 동작과 취재진 인사 보도.",
+      "limits": "원영상은 확인하지 않았다. 촬영·공개 동의나 상대 반응을 확인한 자료로 확대하지 않는다.",
+      "access": "researcher_direct_read_report"
+    }
+  ],
+  "limitations": [
+    "OTL의 기존 범용 기대와현실차이+자기 필터는 다른 용례와 충돌할 수 있다. 일치만으로 적합성이나 후보 독점성을 주장하지 않는다.",
+    "손동작 설명은 실제 수행·상대 반응·촬영 동의 확인이 아니다.",
+    "동의오인·호감확정오인 risk label은 지정 커밋의 vocabulary에 실재함을 확인했다.",
+    "두 profile은 draft이며 아직 provisional 검색 회귀·Python·CI를 실행하지 않았다.",
+    "등록 data/vocabulary·PR37·main 변경이나 승격을 승인하는 보고서가 아니다."
+  ],
+  "verification": {
+    "python_executed": false,
+    "ci_executed": false,
+    "source_sha_rechecked": true,
+    "limits": "두 draft만 추가. 기존 reviewed 67개/82용법과 승인 명세는 변경하지 않는다. 기존 OTL 유사 상황의 A16 등 후보 drift는 통합 측 실제 CI에서 확인해야 하며 0 또는 승격 가능이라고 선결론 내리지 않는다."
+  }
+}
