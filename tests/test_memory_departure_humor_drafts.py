@@ -16,7 +16,7 @@ class MemoryDepartureHumorReviewedTests(unittest.TestCase):
         profiles=[p for p in data['profiles'] if p['entry_id'] in self.IDS]
         self.assertEqual({p['entry_id'] for p in profiles},self.IDS)
         self.assertEqual(sum(len(p['usages']) for p in profiles),4)
-        self.assertEqual(sum(p['review_status']=='reviewed' for p in data['profiles']),42)
+        self.assertEqual(sum(p['review_status']=='reviewed' for p in data['profiles']),44)
         for profile in profiles:
             self.assertEqual(profile['review_status'],'reviewed')
             self.assertEqual(profile['source_sha'],blob_sha(ROOT/'memes'/f"{profile['entry_id']}.md"))

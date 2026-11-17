@@ -9,14 +9,14 @@ from search_usage import search
 
 class ResponseLeniencyDraftTests(unittest.TestCase):
     IDS={'are-you-t','criticism-shield'}
-    def test_two_source_bound_drafts_do_not_diagnose_or_grant_immunity(self):
+    def test_two_source_bound_reviewed_profiles_do_not_diagnose_or_grant_immunity(self):
         profiles=load_profiles(ROOT)['profiles']
         selected=[p for p in profiles if p['entry_id'] in self.IDS]
         self.assertEqual({p['entry_id'] for p in selected},self.IDS)
         self.assertEqual(sum(len(p['usages']) for p in selected),2)
-        self.assertEqual(sum(p['review_status']=='reviewed' for p in profiles),42)
+        self.assertEqual(sum(p['review_status']=='reviewed' for p in profiles),44)
         for profile in selected:
-            self.assertEqual(profile['review_status'],'draft')
+            self.assertEqual(profile['review_status'],'reviewed')
             self.assertEqual(profile['source_sha'],blob_sha(ROOT/'memes'/f"{profile['entry_id']}.md"))
             usage=profile['usages'][0]
             self.assertEqual(usage['emotions'],[])
@@ -33,6 +33,8 @@ class ResponseLeniencyDraftTests(unittest.TestCase):
 
     def test_drafts_do_not_enter_either_mode(self):
         index=build_usage_index(ROOT);vocab=load_vocabulary(ROOT)
+        for entry in index['entries']:
+            if entry['id'] in self.IDS:entry['review_status']='draft'  # hypothetical unreviewed copies
         for entry in index['entries']:
             if entry['id'] not in self.IDS:continue
             for mode in ['lookup','recommend']:

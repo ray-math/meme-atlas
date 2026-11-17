@@ -2263,8 +2263,8 @@
     {
       "entry_id": "are-you-t",
       "source_sha": "243ecdc39e7d8dcf662aeef6bd0ef89d225558b9",
-      "review_status": "draft",
-      "review_note": "AI 편집 초안. canonical 본문과 Git blob SHA를 직접 확인했고 외부 기사 본문은 별도 조사 담당의 직접 확인 보고를 참고했다. 이 주석 작성자가 외부 원문까지 읽었다고 주장하지 않는다. 예문·안전 등급·위험 태그·사용 경계는 편집 판단이며 인간 검토·실전 정확도 검증이 아니다. 뉴시스 https://mobile.newsis.com/view/NISX20230523_0002313264 발행은 2023-05-25이며 URL 날짜로 대체하지 않는다. iMBC https://enews.imbc.com/News/RetrieveNewsInfo/391094 는 2023-08-11 방송 사용 보도다. 상호 장난에서 기대한 호응과 다른 반응에 항의하는 용법만 다루며 진지한 위로 요청·성격 유형 판정으로 확대하지 않는다.",
+      "review_status": "reviewed",
+      "review_note": "AI 편집 초안. canonical 본문과 Git blob SHA를 직접 확인했고 외부 기사 본문은 별도 조사 담당의 직접 확인 보고를 참고했다. 이 주석 작성자가 외부 원문까지 읽었다고 주장하지 않는다. 예문·안전 등급·위험 태그·사용 경계는 편집 판단이며 인간 검토·실전 정확도 검증이 아니다. 뉴시스 https://mobile.newsis.com/view/NISX20230523_0002313264 발행은 2023-05-25이며 URL 날짜로 대체하지 않는다. iMBC https://enews.imbc.com/News/RetrieveNewsInfo/391094 는 2023-08-11 방송 사용 보도다. 상호 장난에서 기대한 호응과 다른 반응에 항의하는 용법만 다루며 진지한 위로 요청·성격 유형 판정으로 확대하지 않는다. 2026-11-17 공개 개발 8건의 실제 Python 조회 및 별도 AI 답안 검토를 거쳐 좁은 용법만 편집 검토했다. 필수 상황/의도와 caution 유지, 인간 검증·새 블라인드 정확도 증거 아님.",
       "usages": [
         {
           "id": "playful-response-protest",
@@ -2313,8 +2313,8 @@
     {
       "entry_id": "criticism-shield",
       "source_sha": "64c6589407e927d6c946bcf9803a4c16c7bb6d00",
-      "review_status": "draft",
-      "review_note": "AI 편집 초안. canonical 본문과 Git blob SHA를 직접 확인했고 외부 기사 본문은 별도 조사 담당의 직접 확인 보고를 참고했다. 이 주석 작성자가 외부 원문까지 읽었다고 주장하지 않는다. 예문·안전 등급·위험 태그·사용 경계는 편집 판단이며 인간 검토·실전 정확도 검증이 아니다. 매일신문 https://www.imaeil.com/page/view/2018070218073493874 (2018-07-02), 국제신문 https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0600&key=20180703.99099000950 (2018-07-03)를 참고했다. 다른 매체지만 같은 월드컵 시기의 사례라 다양성 한계가 있다. 좋은 성과를 칭찬하며 작은 실수만으로 평가를 뒤집지 않겠다는 용법이며 실제 면책 권리나 모든 잘못 면제 약속이 아니다.",
+      "review_status": "reviewed",
+      "review_note": "AI 편집 초안. canonical 본문과 Git blob SHA를 직접 확인했고 외부 기사 본문은 별도 조사 담당의 직접 확인 보고를 참고했다. 이 주석 작성자가 외부 원문까지 읽었다고 주장하지 않는다. 예문·안전 등급·위험 태그·사용 경계는 편집 판단이며 인간 검토·실전 정확도 검증이 아니다. 매일신문 https://www.imaeil.com/page/view/2018070218073493874 (2018-07-02), 국제신문 https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0600&key=20180703.99099000950 (2018-07-03)를 참고했다. 다른 매체지만 같은 월드컵 시기의 사례라 다양성 한계가 있다. 좋은 성과를 칭찬하며 작은 실수만으로 평가를 뒤집지 않겠다는 용법이며 실제 면책 권리나 모든 잘못 면제 약속이 아니다. 2026-11-17 공개 개발 8건의 실제 Python 조회 및 별도 AI 답안 검토를 거쳐 좁은 용법만 편집 검토했다. 필수 상황/의도와 caution 유지, 인간 검증·새 블라인드 정확도 증거 아님.",
       "usages": [
         {
           "id": "credit-with-leniency",

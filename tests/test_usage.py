@@ -158,7 +158,7 @@ class UsageValidationTests(unittest.TestCase):
         result=json.loads(output.stdout)
         self.assertEqual(result['status'],'matches')
         self.assertEqual(result['coverage']['annotated_entries'],len(load_profiles(ROOT)['profiles']))
-        self.assertEqual(result['coverage']['reviewed_entries'],42)
+        self.assertEqual(result['coverage']['reviewed_entries'],44)
 
     def test_batch_changed_annotated_entry_rolls_back(self):
         import shutil
@@ -221,7 +221,7 @@ class DraftExpansionTests(unittest.TestCase):
         drafts={p['entry_id']:p for p in data['profiles'] if p['entry_id'] in self.IDS}
         self.assertEqual(set(drafts),self.IDS)
         self.assertEqual(sum(len(p['usages']) for p in drafts.values()),10)
-        self.assertEqual(sum(p['review_status']=='reviewed' for p in data['profiles']),42)
+        self.assertEqual(sum(p['review_status']=='reviewed' for p in data['profiles']),44)
         for identity,profile in drafts.items():
             self.assertEqual(profile['review_status'],'reviewed' if identity in self.REVIEWED else 'draft')
             self.assertEqual(profile['source_sha'],blob_sha(ROOT/'memes'/f'{identity}.md'))

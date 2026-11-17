@@ -107,3 +107,15 @@ class ScoreContractTests(unittest.TestCase):
         values=self.sample();values[2]['answers'][0].update(action='lookup',selected_entry_id=None,selected_usage_id=None)
         values[1]['results'][0]['retrieval'].update(status='no_match',results=[])
         score(*values)
+
+    def test_explanation_scope_cannot_pass_score_despite_positive_judgments(self):
+        from score_nl_evaluation import score
+        values=self.sample()
+        hit=values[1]['results'][0]['retrieval']['results'][0]
+        hit['retrieval_scope']={'explicit_filters_match':False,'exact_lookup_only':True}
+        with self.assertRaisesRegex(ValueError,'explanation-only'):score(*values)
+        values[2]['answers'][0]['action']='lookup'
+        score(*values)
+        values[2]['answers'][0]['action']='recommend'
+        hit['retrieval_scope']={'explicit_filters_match':True,'exact_lookup_only':False}
+        self.assertTrue(score(*values)['predeclared_gate_passed'])
