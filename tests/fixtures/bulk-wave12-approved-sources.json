@@ -111,17 +111,19 @@
           "url": "https://en.seoul.co.kr/news/entertainment/2021/12/17/20211217500120",
           "publisher": "서울신문",
           "published_at": "2021-12-17",
-          "access": "body_read",
+          "access": "direct_body",
           "supports": "직접 인터뷰: 원방송 경험과 표정 재연",
-          "original_media_watched": false
+          "original_media_watched": false,
+          "original_source_access": "body_read"
         },
         {
           "url": "https://www.xportsnews.com/article/1622084",
           "publisher": "엑스포츠뉴스",
           "published_at": "2022-08-25",
-          "access": "body_read",
+          "access": "direct_body",
           "supports": "별도 SNS 취재: 본인의 재공유와 표정 짤의 인지도",
-          "original_media_watched": false
+          "original_media_watched": false,
+          "original_source_access": "body_read"
         }
       ],
       "limitations": [
@@ -145,17 +147,19 @@
           "url": "https://www.donga.com/news/It/article/all/20231116/122210983/1",
           "publisher": "동아일보 동아경제",
           "published_at": "2023-11-16",
-          "access": "body_read",
+          "access": "direct_body",
           "supports": "업계 발언 보도: 게임대상 수상 소감에서의 재사용",
-          "original_media_watched": false
+          "original_media_watched": false,
+          "original_source_access": "body_read"
         },
         {
           "url": "https://www.gamechosun.co.kr/webzine/article/view.php?from=main&no=223161",
           "publisher": "게임조선",
           "published_at": "2026-07-02",
-          "access": "body_read",
+          "access": "direct_body",
           "supports": "편집 기사: 과거 문구의 맥락과 공식 채널의 자조적 활용",
-          "original_media_watched": false
+          "original_media_watched": false,
+          "original_source_access": "body_read"
         }
       ],
       "limitations": [
@@ -179,17 +183,19 @@
           "url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=155404",
           "publisher": "게임조선",
           "published_at": "2019-05-11",
-          "access": "body_read",
+          "access": "direct_body",
           "supports": "편집 해설: 겐지 음성과 한국어 말장난의 관계",
-          "original_media_watched": false
+          "original_media_watched": false,
+          "original_source_access": "body_read"
         },
         {
           "url": "https://blog.daehong.com/978?category=733886",
           "publisher": "대홍기획",
           "published_at": "2026-09-16",
-          "access": "body_read",
+          "access": "direct_body",
           "supports": "제작사 직접 인터뷰: 기존 밈의 광고 활용 과정",
-          "original_media_watched": false
+          "original_media_watched": false,
+          "original_source_access": "body_read"
         }
       ],
       "limitations": [
@@ -213,17 +219,19 @@
           "url": "https://www.wikitree.co.kr/articles/325544",
           "publisher": "위키트리",
           "published_at": "2018-01-19",
-          "access": "body_read",
+          "access": "direct_body",
           "supports": "직접 인터뷰: 인사말의 구성과 시청자 사용",
-          "original_media_watched": false
+          "original_media_watched": false,
+          "original_source_access": "body_read"
         },
         {
           "url": "https://www.yna.co.kr/amp/view/AKR20230306051200004",
           "publisher": "연합뉴스",
           "published_at": "2023-03-06",
-          "access": "body_read",
+          "access": "direct_body",
           "supports": "별도 보도 본문: 이름과 하이루를 결합한 인사말 설명",
-          "original_media_watched": false
+          "original_media_watched": false,
+          "original_source_access": "body_read"
         }
       ],
       "limitations": [
@@ -247,17 +255,19 @@
           "url": "https://economychosun.com/site/data/html_dir/2019/11/03/2019110300018.html",
           "publisher": "이코노미조선",
           "published_at": "2019-11-03",
-          "access": "body_read",
+          "access": "direct_body",
           "supports": "별도 취재·인터뷰: 인사말의 뜻과 시청자 사용",
-          "original_media_watched": false
+          "original_media_watched": false,
+          "original_source_access": "body_read"
         },
         {
           "url": "https://www.yna.co.kr/view/AKR20191113155300008",
           "publisher": "연합뉴스",
           "published_at": "2019-11-14",
-          "access": "body_read",
+          "access": "direct_body",
           "supports": "편집 기사: 방송 확장 시기의 인사말 유행",
-          "original_media_watched": false
+          "original_media_watched": false,
+          "original_source_access": "body_read"
         }
       ],
       "limitations": [
@@ -281,17 +291,19 @@
           "url": "https://www.seoul.co.kr/news/society/2016/11/28/20161128500049",
           "publisher": "서울신문",
           "published_at": "2016-11-28",
-          "access": "body_read",
+          "access": "direct_body",
           "supports": "편집 기사: 집회 노래와 패러디 영상에서의 확산",
-          "original_media_watched": false
+          "original_media_watched": false,
+          "original_source_access": "body_read"
         },
         {
           "url": "https://www.insight.co.kr/amp/news/273662",
           "publisher": "인사이트",
           "published_at": "2020-03-15",
-          "access": "body_read",
+          "access": "direct_body",
           "supports": "별도 보도: 일상 농담 사용과 정치적 해석의 충돌",
-          "original_media_watched": false
+          "original_media_watched": false,
+          "original_source_access": "body_read"
         }
       ],
       "limitations": [

@@ -7,3 +7,7 @@
 - Usage remains 73 reviewed entries / 88 usages, one draft, 612 unannotated. New canonical bodies are not usage recommendations.
 - Research source-body checks and separate stored-text AI editorial review are not human validation, original-media verification or a new natural-language accuracy measurement. Definition articles, shared media, captions and retrospective commentary retain their distinct evidential roles.
 - Final publication CI is pending at this report commit. Main is unchanged; no merge approval is implied.
+
+## Publication metadata correction
+
+Final CI 44057365365 failed one source-access assertion: the mid8 researcher called direct body reading `body_read`, while the normalized approval schema expects `direct_body`. The six affected entries retain all original source details and add `original_source_access: body_read`; only the equivalent access label is normalized in approved metadata and its fixed snapshot. Canonical bodies, importer ledger/history, original source manifests and tests are unchanged. This is not new evidence or a relaxed gate. The historical importer input hash remains the original applied batch hash. Corrected final CI is pending.
