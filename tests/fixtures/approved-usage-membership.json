@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "approved_revision": "d76a3ab87ce0b209a3de30555c0de4567e92da1c",
+  "approved_revision": "9bb52918e74f9d92a506bf773a550a21917d38a6",
   "dictionary_entries": 356,
-  "reviewed_entries": 69,
-  "reviewed_usages": 84,
+  "reviewed_entries": 71,
+  "reviewed_usages": 86,
   "reviewed_entry_ids": [
     "aljaltakkalsen",
     "anmul-angung",
@@ -11,6 +11,7 @@
     "bangga-bangga",
     "blanket-kick",
     "burned-white",
+    "byeoldajul",
     "carrot-of-course",
     "chwijon",
     "cider-relief",
@@ -31,6 +32,7 @@
     "goguma-frustration",
     "goodbye-everyone",
     "green-light-romance",
+    "guk-rule",
     "haengshow",
     "happy-circuit",
     "hellchang",
@@ -99,6 +101,10 @@
     [
       "burned-white",
       "after-effort"
+    ],
+    [
+      "byeoldajul",
+      "react-to-known-abbreviation"
     ],
     [
       "carrot-of-course",
@@ -187,6 +193,10 @@
     [
       "green-light-romance",
       "romantic-possibility"
+    ],
+    [
+      "guk-rule",
+      "playful-food-preference-rule"
     ],
     [
       "haengshow",
