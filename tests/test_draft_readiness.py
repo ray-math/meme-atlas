@@ -27,3 +27,15 @@ class DraftReadinessTests(unittest.TestCase):
         for candidates in [[],['missing-profile']]:
             with self.assertRaises(ValueError):
                 evaluate(ROOT,candidates)
+
+    def test_cli_exit_codes_cover_drift_and_bad_candidate(self):
+        import subprocess
+        command=[sys.executable,str(ROOT/'scripts/evaluate_draft_readiness.py')]
+        for args,expected in [
+            (['--candidate','goat','--fail-on-drift'],1),
+            (['--candidate','ubd','--fail-on-drift'],0),
+            (['--candidate','missing-profile','--fail-on-drift'],2),
+        ]:
+            result=subprocess.run(command+args,capture_output=True,text=True)
+            self.assertEqual(result.returncode,expected,result.stderr)
+            self.assertNotIn('Traceback',result.stderr)

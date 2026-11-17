@@ -84,6 +84,6 @@ if __name__=='__main__':
         parser.exit(2,str(exc)+'\n')
     print(json.dumps(result,ensure_ascii=False,indent=2))
     passed=result['total']>0 and result['passed']==result['total']
-    if args.fail_on_drift and result['staged_public_v3_candidate_drift']:
+    if args.fail_on_drift and result['staged_public_candidate_drift']:
         passed=False
     raise SystemExit(0 if passed else 1)
