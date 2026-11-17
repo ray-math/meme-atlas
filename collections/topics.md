@@ -960,7 +960,9 @@
 ## 인터넷
 
 - [그럼 다음은 무조건 ○○겠지](../memes/next-trend-wish-template.md)
+- [널 좋아하는 마음이 커졌어 막 공룡만 해](../memes/dinosaur-sized-affection.md)
 - [무례하지 않게 말해 주세요](../memes/say-it-politely-template.md)
+- [일하는 중에 갑자기 몸이 안 좋아졌어요](../memes/suddenly-sick-fan-trip.md)
 
 ## 인터넷방송
 

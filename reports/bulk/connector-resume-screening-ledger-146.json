@@ -24,10 +24,11 @@
     "reports/bulk/connector-resume-holds166.json",
     "reports/bulk/connector-resume-a167.json",
     "reports/bulk/connector-resume-c168.json",
-    "reports/bulk/connector-resume-bc169.json"
+    "reports/bulk/connector-resume-bc169.json",
+    "reports/bulk/connector-resume-b170.json"
   ],
-  "query_observations": 402,
-  "distinct_literal_queries": 328,
+  "query_observations": 411,
+  "distinct_literal_queries": 332,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -2240,6 +2241,51 @@
       "query": "고능한 곡",
       "source": "reports/bulk/connector-resume-bc169.json",
       "status": "editor-screened-see-report"
+    },
+    {
+      "query": "공룡",
+      "source": "reports/bulk/connector-resume-b170.json",
+      "status": "semantic-screened-see-report"
+    },
+    {
+      "query": "커졌어",
+      "source": "reports/bulk/connector-resume-b170.json",
+      "status": "semantic-screened-see-report"
+    },
+    {
+      "query": "좋아하는 마음",
+      "source": "reports/bulk/connector-resume-b170.json",
+      "status": "semantic-screened-see-report"
+    },
+    {
+      "query": "좋아하는 맘",
+      "source": "reports/bulk/connector-resume-b170.json",
+      "status": "semantic-screened-see-report"
+    },
+    {
+      "query": "몸이 안",
+      "source": "reports/bulk/connector-resume-b170.json",
+      "status": "semantic-screened-see-report"
+    },
+    {
+      "query": "명의",
+      "source": "reports/bulk/connector-resume-b170.json",
+      "status": "semantic-screened-see-report"
+    },
+    {
+      "query": "치료",
+      "source": "reports/bulk/connector-resume-b170.json",
+      "status": "semantic-screened-see-report"
+    },
+    {
+      "query": "병원",
+      "source": "reports/bulk/connector-resume-b170.json",
+      "status": "semantic-screened-see-report"
+    },
+    {
+      "query": "의사",
+      "source": "reports/bulk/connector-resume-b170.json",
+      "status": "semantic-screened-see-report"
     }
   ],
   "semantic_duplicates": [
