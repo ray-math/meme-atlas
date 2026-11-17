@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave6",
+  "baseline_ref": "cb530680",
+  "reviewed_at": "2026-11-17",
+  "candidate_pool_reviewed": 13,
+  "canonical_files_written": 10,
+  "ci_status": "not_run",
+  "review_method": "AI 공개 본문 확인 및 서로 다른 2 publisher의 의미·사용 교차검토. 원영상 재생·인간 검증 아님. 동일 발표의 전재는 독립 근거에 추가하지 않음. 날짜 미표시 자료는 null로 보존.",
+  "entries": [
+    {
+      "id": "sikjipsa",
+      "title": "식집사",
+      "path": "memes/sikjipsa.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "own_definition": "‘식물’과 ‘집사’를 합친 표현이다. 반려식물을 기르는 취미와 돌봄을 친근하게 나타내며, 전문 원예 자격을 뜻하지는 않는다.",
+      "source_urls": [
+        {
+          "url": "https://blog.newswire.co.kr/?p=13757",
+          "publisher": "뉴스와이어 블로그",
+          "published_date": "2022-04-05",
+          "access": "direct_body",
+          "supports": "자체 마케팅 안내 본문53~68에서 식집사, 신꾸 등 꾸미기 용어와 실제 활동을 설명. 배포 보도자료 페이지가 아니라 뉴스와이어 작성 블로그. 해시태그 수치와 최초 발생 주장은 채택하지 않음.",
+          "independent_group": "뉴스와이어 블로그"
+        },
+        {
+          "url": "https://www.etnews.com/20220531000083",
+          "publisher": "전자신문",
+          "published_date": "2022-05-31",
+          "access": "direct_body",
+          "supports": "기자의 5주 식물재배기 체험 본문127·135에서 식집사 합성과 실제 재배 상황의 사용 확인. 뉴스와이어 기사 전재 아님.",
+          "independent_group": "전자신문"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "78c953ac8abc72cbeb3ad1087990fdc91879ea72",
+        "pilot_state_blob_sha": "8ab45cc1bdb5459362f1bf84ba2d87d66c36bfe9",
+        "pending_coordination": "integration의 기존12 예약 및 추가 신꾸 예약 통지. 492 canonical/aliases 및 pilot-state 대조에서 동일 제목/alias 없음."
+      },
+      "limitations": [
+        "의학적 효능이나 모든 식집사의 행동을 일반화하지 않음."
+      ]
+    },
+    {
+      "id": "mumul",
+      "title": "무물",
+      "path": "memes/mumul.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "own_definition": "‘무엇이든 물어보세요’를 줄인 말이다. SNS 질문 시간이나 질의응답 콘텐츠를 알릴 때 쓴다. 모든 질문에 답하겠다는 의무나 사생활 공개 동의를 뜻하지는 않는다.",
+      "source_urls": [
+        {
+          "url": "https://v.daum.net/v/7WnzzXA03p",
+          "publisher": "한국일보",
+          "published_date": "2022-08-26",
+          "access": "direct_body",
+          "supports": "본문85~86 편집자 주에서 무물 뜻을 명시하고 질문·답변 연재 이름으로 실제 사용. 사례 당사자의 개인정보·민감한 내용은 수록하지 않음.",
+          "independent_group": "한국일보"
+        },
+        {
+          "url": "https://crazygiant.co.kr/article/?bmode=view&idx=15762806",
+          "publisher": "크레이지 자이언트",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "배윤정 필자의 신조어 가이드 본문183·192에서 무물 및 보배의 뜻을 확인. 페이지 발행일 직접 확인되지 않아 null. 다른 항목의 오류 가능성을 고려해 두 표현만 다른 출처와 교차확인.",
+          "independent_group": "크레이지 자이언트"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "78c953ac8abc72cbeb3ad1087990fdc91879ea72",
+        "pilot_state_blob_sha": "8ab45cc1bdb5459362f1bf84ba2d87d66c36bfe9",
+        "pending_coordination": "integration의 기존12 예약 및 추가 신꾸 예약 통지. 492 canonical/aliases 및 pilot-state 대조에서 동일 제목/alias 없음."
+      },
+      "limitations": [
+        "질문을 받는 문구이지 모든 답변이나 개인정보 공개 동의 아님. 매거진 발행일 미확인."
+      ]
+    },
+    {
+      "id": "bobaebattery",
+      "title": "보배",
+      "path": "memes/bobaebattery.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "own_definition": "‘보조’와 ‘배터리’의 첫 음절을 붙인 표현이다. 휴대전화 충전이나 외출 준비를 이야기하는 문맥에서 쓰인다. 귀하고 소중한 대상을 뜻하는 원래의 ‘보배’와 구별해 읽는다.",
+      "source_urls": [
+        {
+          "url": "https://news.nate.com/view/20230602n20062",
+          "publisher": "이데일리",
+          "published_date": "2023-06-02",
+          "access": "direct_body",
+          "supports": "신조어 칼럼 본문60~68에서 충전 대화와 보조 배터리 축약 뜻 확인. 방송의 오답을 정의로 쓰지 않음.",
+          "independent_group": "이데일리"
+        },
+        {
+          "url": "https://crazygiant.co.kr/article/?bmode=view&idx=15762806",
+          "publisher": "크레이지 자이언트",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "배윤정 필자의 신조어 가이드 본문183·192에서 무물 및 보배의 뜻을 확인. 페이지 발행일 직접 확인되지 않아 null. 다른 항목의 오류 가능성을 고려해 두 표현만 다른 출처와 교차확인.",
+          "independent_group": "크레이지 자이언트"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "78c953ac8abc72cbeb3ad1087990fdc91879ea72",
+        "pilot_state_blob_sha": "8ab45cc1bdb5459362f1bf84ba2d87d66c36bfe9",
+        "pending_coordination": "integration의 기존12 예약 및 추가 신꾸 예약 통지. 492 canonical/aliases 및 pilot-state 대조에서 동일 제목/alias 없음."
+      },
+      "limitations": [
+        "일반명사 보배 전체 뜻을 대체하지 않음. 매거진 발행일 미확인."
+      ]
+    },
+    {
+      "id": "eosa-awkward",
+      "title": "어사",
+      "path": "memes/eosa-awkward.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "own_definition": "‘어색한 사이’의 앞 음절을 딴 말이다. 서로 편하게 대화하기 어려운 관계를 말할 때 쓴다. 사이가 나쁘다거나 다툰 적이 있다는 뜻으로 단정할 수는 없다.",
+      "source_urls": [
+        {
+          "url": "https://www.mk.co.kr/news/hot-issues/9705990",
+          "publisher": "매일경제 스타투데이",
+          "published_date": "2021-01-12",
+          "access": "direct_body",
+          "supports": "빅톤 라디오 출연 보도에서 정수빈이 어사 줄임말을 언급한 실제 발언과 뜻 확인.",
+          "independent_group": "매일경제 스타투데이"
+        },
+        {
+          "url": "https://v.daum.net/v/20210611171703595",
+          "publisher": "JTBC",
+          "published_date": "2021-06-11",
+          "access": "direct_body",
+          "supports": "뉴스 대본 본문77~82에서 어색한 사이 풀이와 직장 대화 예문 확인. 빅톤 방송과 별개의 사용이며 정치적 관계 평가를 본문으로 가져오지 않음.",
+          "independent_group": "JTBC"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "78c953ac8abc72cbeb3ad1087990fdc91879ea72",
+        "pilot_state_blob_sha": "8ab45cc1bdb5459362f1bf84ba2d87d66c36bfe9",
+        "pending_coordination": "integration의 기존12 예약 및 추가 신꾸 예약 통지. 492 canonical/aliases 및 pilot-state 대조에서 동일 제목/alias 없음."
+      },
+      "limitations": [
+        "2021년 최초 발생 아님. 2012 경향 검색 결과에도 이전 사용이 확인되어 최초 주장 배제."
+      ]
+    },
+    {
+      "id": "wikku",
+      "title": "위꾸",
+      "path": "memes/wikku.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "own_definition": "다이어리나 사진을 꾸미듯 위장을 음식으로 꾸민다는 비유다. 실제 장식 행위가 아니라 먹는 즐거움을 가볍게 표현한다.",
+      "source_urls": [
+        {
+          "url": "https://www.nocutnews.co.kr/news/5669382",
+          "publisher": "CBS 노컷뉴스",
+          "published_date": "2021-12-07",
+          "access": "direct_body",
+          "supports": "라디오 대담 본문187~191에서 신꾸·깊꾸·위꾸·폴꾸 뜻과 다른 꾸미기 대상을 설명. 캐릿의 트렌드 퀴즈를 소개하는 맥락임. 원 퀴즈를 직접 관찰한 것으로 표기하지 않음.",
+          "independent_group": "CBS 노컷뉴스"
+        },
+        {
+          "url": "https://enews.imbc.com/M/Detail/336153",
+          "publisher": "iMBC",
+          "published_date": "2022-01-19",
+          "access": "direct_body",
+          "supports": "SBS 철파엠 방송 보도 본문28에서 맛있는 음식으로 위장을 꾸민다는 비유를 설명. CBS 퀴즈와 다른 방송에서 사용된 관측. 특정인의 식사·심리 상태 추론은 제외.",
+          "independent_group": "iMBC"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "78c953ac8abc72cbeb3ad1087990fdc91879ea72",
+        "pilot_state_blob_sha": "8ab45cc1bdb5459362f1bf84ba2d87d66c36bfe9",
+        "pending_coordination": "integration의 기존12 예약 및 추가 신꾸 예약 통지. 492 canonical/aliases 및 pilot-state 대조에서 동일 제목/alias 없음."
+      },
+      "limitations": [
+        "위장을 건강하게 관리한다는 잘못된 사전 색인 결과는 배제. 음식 섭취의 유머만."
+      ]
+    },
+    {
+      "id": "gipkku",
+      "title": "깊꾸",
+      "path": "memes/gipkku.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "own_definition": "‘기프티콘 꾸미기’를 줄인 말이다. 모바일 선물 이미지에 그림이나 장식을 더해 보내는 행위를 가리킨다. 쿠폰의 금액이나 사용 조건을 바꾸는 뜻은 아니다.",
+      "source_urls": [
+        {
+          "url": "https://www.nocutnews.co.kr/news/5669382",
+          "publisher": "CBS 노컷뉴스",
+          "published_date": "2021-12-07",
+          "access": "direct_body",
+          "supports": "라디오 대담 본문187~191에서 신꾸·깊꾸·위꾸·폴꾸 뜻과 다른 꾸미기 대상을 설명. 캐릿의 트렌드 퀴즈를 소개하는 맥락임. 원 퀴즈를 직접 관찰한 것으로 표기하지 않음.",
+          "independent_group": "CBS 노컷뉴스"
+        },
+        {
+          "url": "https://m.news.nate.com/view/20220207n02413",
+          "publisher": "서울경제",
+          "published_date": "2022-02-07",
+          "access": "direct_body",
+          "supports": "박현욱의 신조어 사전 본문38~40에서 기프티콘에 그림을 더해 보내는 의미 확인. 캐릿 퀴즈 전재가 아닌 별도 짧은 설명 기사. 별걸 다 꾸미기의 축약을 다꾸로 쓴 오류 가능 부분은 채택하지 않음.",
+          "independent_group": "서울경제"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "78c953ac8abc72cbeb3ad1087990fdc91879ea72",
+        "pilot_state_blob_sha": "8ab45cc1bdb5459362f1bf84ba2d87d66c36bfe9",
+        "pending_coordination": "integration의 기존12 예약 및 추가 신꾸 예약 통지. 492 canonical/aliases 및 pilot-state 대조에서 동일 제목/alias 없음."
+      },
+      "limitations": [
+        "쿠폰 금액·조건·바코드 조작 설명 아님."
+      ]
+    },
+    {
+      "id": "polkku",
+      "title": "폴꾸",
+      "path": "memes/polkku.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "own_definition": "사진에 장식을 더하는 ‘폴라로이드 꾸미기’를 가리킨다. 다이어리 꾸미기나 사진을 넣는 보호 케이스 꾸미기와 관련은 있지만 꾸미는 대상은 서로 다르다.",
+      "source_urls": [
+        {
+          "url": "https://www.nocutnews.co.kr/news/5669382",
+          "publisher": "CBS 노컷뉴스",
+          "published_date": "2021-12-07",
+          "access": "direct_body",
+          "supports": "라디오 대담 본문187~191에서 신꾸·깊꾸·위꾸·폴꾸 뜻과 다른 꾸미기 대상을 설명. 캐릿의 트렌드 퀴즈를 소개하는 맥락임. 원 퀴즈를 직접 관찰한 것으로 표기하지 않음.",
+          "independent_group": "CBS 노컷뉴스"
+        },
+        {
+          "url": "https://eng.tmoney.co.kr/aeb/cmnctn/news/readNewsView.dev?bdSeqNo=1809",
+          "publisher": "티머니 뉴스룸",
+          "published_date": "2021-09-24",
+          "access": "direct_body",
+          "supports": "상품 발표 원문18에 폴꾸를 폴라로이드 꾸미기로 명시하고 패키지 기획에 실제 활용. 발표를 다시 쓴 매체를 추가 독립 근거로 세지 않음. 판매수치·홍보 주장은 사전 설명에서 제외.",
+          "independent_group": "티머니 뉴스룸"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "78c953ac8abc72cbeb3ad1087990fdc91879ea72",
+        "pilot_state_blob_sha": "8ab45cc1bdb5459362f1bf84ba2d87d66c36bfe9",
+        "pending_coordination": "integration의 기존12 예약 및 추가 신꾸 예약 통지. 492 canonical/aliases 및 pilot-state 대조에서 동일 제목/alias 없음."
+      },
+      "limitations": [
+        "티머니는 독립 사용 주체이나 이해관계 있는 판매자임을 구분. 탑꾸와 별도 대상."
+      ]
+    },
+    {
+      "id": "seulsekwon",
+      "title": "슬세권",
+      "path": "memes/seulsekwon.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "own_definition": "‘슬리퍼’와 ‘역세권’을 결합해 집 근처에서 편의시설을 이용하는 생활권을 표현한다. 정확한 거리 기준이 정해진 공식 구역 이름은 아니다.",
+      "source_urls": [
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148882931",
+          "publisher": "대한민국 정책브리핑",
+          "published_date": "2021-01-21",
+          "access": "direct_body",
+          "supports": "김차경의 기획기사 본문256에서 슬리퍼+역세권 합성과 가까운 편의시설 생활권 뜻 확인.",
+          "independent_group": "대한민국 정책브리핑"
+        },
+        {
+          "url": "https://www.mk.co.kr/news/culture/9829513",
+          "publisher": "매일경제",
+          "published_date": "2021-04-13",
+          "access": "direct_body",
+          "supports": "이승연 기사 본문665~671에서 슬세권 뜻 및 편집자의 동네 활동과 상권 관찰. 동일 분양 보도자료 반복이 아닌 독립 글.",
+          "independent_group": "매일경제"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "78c953ac8abc72cbeb3ad1087990fdc91879ea72",
+        "pilot_state_blob_sha": "8ab45cc1bdb5459362f1bf84ba2d87d66c36bfe9",
+        "pending_coordination": "integration의 기존12 예약 및 추가 신꾸 예약 통지. 492 canonical/aliases 및 pilot-state 대조에서 동일 제목/alias 없음."
+      },
+      "limitations": [
+        "부동산 투자 조언·공식 거리 기준·매물 추천 없음."
+      ]
+    },
+    {
+      "id": "jjatteusha",
+      "title": "쪄뜨샤",
+      "path": "memes/jjatteusha.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "own_definition": "더워도 온수 샤워를 고집한다는 뜻의 줄임말이다. 취향을 우스갯소리로 강조하는 표현이며, 몸에 해로울 만큼 뜨거운 물을 쓰라는 권유는 아니다.",
+      "source_urls": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02735526635639424",
+          "publisher": "이데일리",
+          "published_date": "2023-06-07",
+          "access": "direct_body",
+          "supports": "본문228~233에서 더운 날에도 온수 샤워하는 취향 및 커뮤니티 농담 설명.",
+          "independent_group": "이데일리"
+        },
+        {
+          "url": "https://on.com2us.com/life/%EC%83%A4%EC%9B%8C%EA%B8%B0%EC%98%A8%EB%8F%84%EA%B3%84/",
+          "publisher": "컴투스온",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "정민혁의 샤워기 온도계 체험 글 본문46·114에서 자신의 취향에 쪄뜨샤를 실제 사용. 유퀴즈 장면 전재가 아님. 페이지 발행일 미표시로 null. 제품 스펙·온도 추천은 채택하지 않음.",
+          "independent_group": "컴투스온"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "78c953ac8abc72cbeb3ad1087990fdc91879ea72",
+        "pilot_state_blob_sha": "8ab45cc1bdb5459362f1bf84ba2d87d66c36bfe9",
+        "pending_coordination": "integration의 기존12 예약 및 추가 신꾸 예약 통지. 492 canonical/aliases 및 pilot-state 대조에서 동일 제목/alias 없음."
+      },
+      "limitations": [
+        "컴투스온 발행일 미확인. 더운 물로 화상을 입으라는 권유나 건강 조언 아님. 2023 국내 용례는 이데일리가 지지."
+      ]
+    },
+    {
+      "id": "sinkku",
+      "title": "신꾸",
+      "path": "memes/sinkku.md",
+      "aliases": [],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 자료에서 확인된 국내 신조어 사용. 최초 생성연도 주장 아님.",
+      "own_definition": "‘신발 꾸미기’를 줄인 표현이다. 신발에 액세서리 등을 더해 개성을 표현하는 일을 가리킨다. 신발을 새로 사는 행위 자체와는 다르다.",
+      "source_urls": [
+        {
+          "url": "https://www.nocutnews.co.kr/news/5669382",
+          "publisher": "CBS 노컷뉴스",
+          "published_date": "2021-12-07",
+          "access": "direct_body",
+          "supports": "라디오 대담 본문187~191에서 신꾸·깊꾸·위꾸·폴꾸 뜻과 다른 꾸미기 대상을 설명. 캐릿의 트렌드 퀴즈를 소개하는 맥락임. 원 퀴즈를 직접 관찰한 것으로 표기하지 않음.",
+          "independent_group": "CBS 노컷뉴스"
+        },
+        {
+          "url": "https://blog.newswire.co.kr/?p=13757",
+          "publisher": "뉴스와이어 블로그",
+          "published_date": "2022-04-05",
+          "access": "direct_body",
+          "supports": "자체 마케팅 안내 본문53~68에서 식집사, 신꾸 등 꾸미기 용어와 실제 활동을 설명. 배포 보도자료 페이지가 아니라 뉴스와이어 작성 블로그. 해시태그 수치와 최초 발생 주장은 채택하지 않음.",
+          "independent_group": "뉴스와이어 블로그"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "canonical_title_or_pilot_alias_match": false,
+        "index_blob_sha": "78c953ac8abc72cbeb3ad1087990fdc91879ea72",
+        "pilot_state_blob_sha": "8ab45cc1bdb5459362f1bf84ba2d87d66c36bfe9",
+        "pending_coordination": "integration의 기존12 예약 및 추가 신꾸 예약 통지. 492 canonical/aliases 및 pilot-state 대조에서 동일 제목/alias 없음."
+      },
+      "limitations": [
+        "꾸미기 대상이 다른 다꾸·깊꾸·폴꾸를 동의 alias로 넣지 않음."
+      ]
+    }
+  ],
+  "held": [
+    {
+      "title": "오우예씨몬",
+      "reason": "뉴스핌 직접 본문 확보. 아시아투데이 2023-07-13 카드뉴스는 이미지가 있는 페이지까지 접근했으나 카드 내부 의미를 직접 읽지 못해 독립 두 번째 뜻 근거로 세지 않음.",
+      "source_urls": [
+        "https://news.nate.com/view/20230713n03185",
+        "https://m.news.nate.com/view/20230913n29888"
+      ]
+    },
+    {
+      "title": "일잘러",
+      "reason": "2023 인재개발원 교육과정 발표 및 여러 전재 발견. 동일 발표 반복으로 독립 publisher 수를 늘리지 않고 별도 본문 관측 미확보로 보류.",
+      "source_urls": [
+        "https://www.nhi.go.kr/sharing/newsInfo/Read.htm?ntt_id=6659"
+      ]
+    },
+    {
+      "title": "혼코노",
+      "reason": "2021 캐릭터 소개와 경기도 정책 기사 색인 확보. 두 원문 전체 확인·서로 다른 관측 검토 미완료이므로 이번 본문 묶음에서 보류.",
+      "source_urls": [
+        "https://ilovecharacter.com/news/newsview.php?ncode=1065571815170545"
+      ]
+    }
+  ],
+  "checks": {
+    "canonical_external_urls": false,
+    "main_pr37_data_usage_modified": false
+  }
+}
