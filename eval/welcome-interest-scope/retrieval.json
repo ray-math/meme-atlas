@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "anmul-angung",
+    "bangga-bangga"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 354,
+    "annotated_entries": 52,
+    "reviewed_entries": 50,
+    "unannotated_entries": 302
+  },
+  "provisional_reviewed_entries": 52,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "execution_commit": "a93f5cb34f9e499022a7f511fafe3e4eb600d718",
+  "ci_run": 44016758834,
+  "results": [
+    {
+      "id": "W-welcome",
+      "prompt": "직접 만나거나 채팅방 등 대화 공간에 들어온 사람을 귀엽고 친근한 말투로 맞이한다. 첫 만남뿐 아니라 다시 만나는 상황에도 해당한다.\n오랜만에 채팅방에 왔네. 방가방가!",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "만남시작"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 52,
+          "reviewed_entries": 50,
+          "unannotated_entries": 302
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "bangga-bangga",
+            "title": "방가방가",
+            "path": "memes/bangga-bangga.md",
+            "domain_tags": [],
+            "usage_id": "friendly-welcome",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "만남시작"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "friendly-welcome",
+              "emotion_status": "annotated",
+              "emotions": [
+                "반가움"
+              ],
+              "intents": [
+                "인사"
+              ],
+              "situations": [
+                "만남시작"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "직접 만나거나 채팅방 등 대화 공간에 들어온 사람을 귀엽고 친근한 말투로 맞이한다. 첫 만남뿐 아니라 다시 만나는 상황에도 해당한다.",
+              "avoid_when": [
+                "공식적이거나 엄숙한 자리에서 격식을 갖춘 인사가 필요할 때",
+                "상대가 친근한 말투나 장난스러운 인사를 원하지 않는다고 밝힌 때",
+                "사람을 맞이하는 상황이 아닌데 모든 인사 요청에 기계적으로 적용할 때"
+              ],
+              "example": {
+                "text": "오랜만에 채팅방에 왔네. 방가방가!",
+                "kind": "editorial"
+              },
+              "review_note": "본문의 반가운 맞이 인사를 주석했다. 반가움은 이 용례가 전달하는 정서적 색채이며 실제 화자의 감정을 판정한 결과가 아니다. 맞이하는 사람이 중심 대상이므로 target상대다. 만남시작 조건은 첫 만남만 뜻하지 않으며 다른 인사 표현의 가능 용법을 배제하는 규칙도 아니다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "만남시작"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "04fdc754c613ceee61a4b04c6de5a9f884e65d8f",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "만남시작"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "W-topic",
+      "prompt": "듣지 않아도 되는 사소한 이야기나 정보에 자신이 관심 없음을 짧고 냉정하게 표현한다. 가벼운 놀림을 서로 받아들이는 문맥에서도 무시하는 어감이 남으므로 관계와 현재 주제를 확인해야 한다.\n서로 가벼운 놀림을 즐기던 대화에서 친구가 게임 속 장식품 수집 기록을 길게 늘어놓자, 나는 그 기록에는 관심 없다며 안물안궁이라고 답했다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "관심없음표시"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 52,
+          "reviewed_entries": 50,
+          "unannotated_entries": 302
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "anmul-angung",
+            "title": "안물안궁",
+            "path": "memes/anmul-angung.md",
+            "domain_tags": [],
+            "usage_id": "dismiss-optional-topic",
+            "score": 40,
+            "matched_facets": {
+              "intents": [
+                "관심없음표시"
+              ],
+              "targets": [
+                "상황"
+              ]
+            },
+            "usage": {
+              "id": "dismiss-optional-topic",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "관심없음표시"
+              ],
+              "situations": [],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "관계의존",
+                "무시로들림",
+                "고통축소"
+              ],
+              "safety": "caution",
+              "context": "듣지 않아도 되는 사소한 이야기나 정보에 자신이 관심 없음을 짧고 냉정하게 표현한다. 가벼운 놀림을 서로 받아들이는 문맥에서도 무시하는 어감이 남으므로 관계와 현재 주제를 확인해야 한다.",
+              "avoid_when": [
+                "피해·고통·건강 문제를 털어놓거나 도움을 요청하는 상황일 때",
+                "안전 안내·업무 전달 등 필요한 정보를 듣지 않으려 할 때",
+                "질문하지 않았다는 이유만으로 그 이야기가 원치 않는 정보라고 추정할 때",
+                "사람 자체가 가치 없거나 관심받을 자격이 없다는 뜻으로 사용할 때",
+                "상대가 이런 표현을 원하지 않거나 상호 장난 여부가 불분명할 때",
+                "관심 없는 특정 주제를 넘어 상대의 모든 발언을 막으려 할 때"
+              ],
+              "example": {
+                "text": "서로 가벼운 놀림을 즐기던 대화에서 친구가 게임 속 장식품 수집 기록을 길게 늘어놓자, 나는 그 기록에는 관심 없다며 안물안궁이라고 답했다.",
+                "kind": "editorial"
+              },
+              "review_note": "이번 용법의 초점은 제시된 이야기의 내용이므로 target상황이다. 정보가 길다는 사실만으로 관심없음표시가 적절해지지는 않으며 예문은 화자가 그 특정 내용에 관심 없다고 밝힌 창작 상황이다. 정보 과다를 지적하는 기능이나 모든 대화를 끝내는 기능으로 확장하지 않았다. 말투의 냉정함을 실제 화자의 짜증이나 적대감으로 추정하지 않아 unknown을 유지한다. 예문의 상호 장난 조건은 다른 대화에도 자동 적용되지 않는다.",
+              "retrieval_requirements": {
+                "intents": [
+                  "관심없음표시"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "32aa24e96b73dd0a8a501a4a36aa7bd62301a7ed",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "intents": [
+                  "관심없음표시"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "W-formal",
+      "prompt": "공식적이거나 엄숙한 자리에서 격식을 갖춘 인사가 필요할 때",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "W-pain",
+      "prompt": "피해·고통·건강 문제를 털어놓거나 도움을 요청하는 상황일 때",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A03",
+      "prompt": "별것 아닌 내 통근 동선을 너무 자세히 설명했네. 내 말이 길었다는 걸 가볍게 인정할 밈 있어?",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "과도한설명",
+          "불필요한세부정보"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 52,
+          "reviewed_entries": 50,
+          "unannotated_entries": 302
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "tmi",
+            "title": "TMI",
+            "path": "memes/tmi.md",
+            "domain_tags": [],
+            "usage_id": "self-overdetail",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "과도한설명"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-overdetail",
+              "emotions": [],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "과도한설명"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신이 불필요한 설명까지 했다고 가볍게 덧붙인다.",
+              "avoid_when": [],
+              "example": {
+                "text": "내가 아침에 양말 고른 얘기까지 했네. TMI였다.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단. 감정은 본문에서 고정되지 않아 []로 남김(통합 검토).",
+              "emotion_status": "unknown"
+            },
+            "review_status": "reviewed",
+            "source_sha": "f30812b98fd28cb0e8ce61abe59ab707a266ee17",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A18",
+      "prompt": "친구가 괴롭힘 피해를 자세히 털어놓는데 듣기 길어. 웃긴 밈으로 말을 끊어 줘.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    },
+    {
+      "id": "E06",
+      "prompt": "함께 일하던 친구가 먼 도시로 옮겨. 서운한 작별보다 행복하게 지내라는 가벼운 인사.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "응원"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 52,
+          "reviewed_entries": 50,
+          "unannotated_entries": 302
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "haengshow",
+            "title": "행쇼",
+            "path": "memes/haengshow.md",
+            "domain_tags": [
+              "방송",
+              "연예"
+            ],
+            "usage_id": "well-wishes",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "응원"
+              ]
+            },
+            "usage": {
+              "id": "well-wishes",
+              "emotions": [
+                "다정함"
+              ],
+              "intents": [
+                "응원",
+                "인사"
+              ],
+              "situations": [
+                "헤어짐",
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "가벼운 말투로 잘 지내고 행복하길 빈다.",
+              "avoid_when": [
+                "격식 있는 위로를 요구하는 상황"
+              ],
+              "example": {
+                "text": "새로운 곳에서도 잘 지내. 행쇼!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "8a0977caf65b47878a44cb717d9366163670de78",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    }
+  ]
+}

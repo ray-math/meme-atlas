@@ -21,3 +21,12 @@ class WelcomeInterestScopeTests(unittest.TestCase):
         self.assertTrue(any(h['entry_id']=='haengshow' for h in rows['E06']['retrieval']['results']))
         for case in ('A03','E06'):
             self.assertFalse(any(h['entry_id'] in {'bangga-bangga','anmul-angung'} for h in rows[case]['retrieval']['results']))
+
+    def test_frozen_trace_reexecutes_without_type_drift(self):
+        from compare_evaluation_expansion import strict_equal
+        frozen=json.loads((ROOT/'eval/welcome-interest-scope/retrieval.json').read_text())
+        def behavior(rows):
+            rows=copy.deepcopy(rows)
+            for row in rows:row['retrieval'].pop('coverage',None)
+            return rows
+        self.assertTrue(strict_equal(behavior(frozen['results']),behavior(evaluate(ROOT)['results'])))
