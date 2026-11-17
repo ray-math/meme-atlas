@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 5,
-  "query_observations": 66,
-  "distinct_literal_queries": 61,
+  "source_files": 6,
+  "query_observations": 101,
+  "distinct_literal_queries": 88,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -379,6 +379,222 @@
       "source": "reports/bulk/connector-resume-bc149.json",
       "status": "existing-canonical",
       "canonical": "who-is-back-from-prison"
+    },
+    {
+      "query": "삐에로",
+      "canonical": "ppi",
+      "status": "existing-family",
+      "source": "reports/bulk/connector-resume-screening-150.json"
+    },
+    {
+      "query": "선배삐",
+      "canonical": "ppi",
+      "status": "existing-family",
+      "source": "reports/bulk/connector-resume-screening-150.json"
+    },
+    {
+      "query": "개대박삐",
+      "canonical": "ppi",
+      "status": "existing-family",
+      "source": "reports/bulk/connector-resume-screening-150.json"
+    },
+    {
+      "query": "삐바삐",
+      "canonical": "ppi",
+      "status": "existing-family",
+      "source": "reports/bulk/connector-resume-screening-150.json"
+    },
+    {
+      "query": "정통삐",
+      "canonical": "ppi",
+      "status": "existing-family",
+      "source": "reports/bulk/connector-resume-screening-150.json"
+    },
+    {
+      "query": "밈잘알삐",
+      "canonical": "ppi",
+      "status": "existing-family",
+      "source": "reports/bulk/connector-resume-screening-150.json"
+    },
+    {
+      "query": "번복",
+      "canonical": "give-up",
+      "status": "existing-family",
+      "source": "reports/bulk/connector-resume-screening-150.json"
+    },
+    {
+      "query": "오디세이",
+      "canonical": "odyssey",
+      "status": "existing-family",
+      "source": "reports/bulk/connector-resume-screening-150.json"
+    },
+    {
+      "query": "라을라",
+      "canonical": "raeulla",
+      "status": "existing-family",
+      "source": "reports/bulk/connector-resume-screening-150.json"
+    },
+    {
+      "query": "라우럴",
+      "canonical": "raureol",
+      "status": "existing-family",
+      "source": "reports/bulk/connector-resume-screening-150.json"
+    },
+    {
+      "query": "라우더",
+      "canonical": "raureol",
+      "status": "existing-family",
+      "source": "reports/bulk/connector-resume-screening-150.json"
+    },
+    {
+      "query": "Louder",
+      "canonical": "raureol",
+      "status": "existing-family",
+      "source": "reports/bulk/connector-resume-screening-150.json"
+    },
+    {
+      "query": "나이별 반응",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "연기배틀",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "랜덤 애인",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "체포하겠어",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "existing-family",
+      "canonical": "under-arrest",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "존박 맥도날드",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "existing-family",
+      "canonical": "john-park-mcdonalds-rap",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "얼데이",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "늙크크",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "existing-family",
+      "canonical": "old-creator-crew",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "음식 연금술사",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "션 오프리",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "주차한 곳",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "밤편지",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "몬스터 캔",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "연기 챌린지",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "감정 연기",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "in love with",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "랜덤 연인",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "나이대",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "가격대별",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "조건별",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "배우 도전",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "existing-family",
+      "canonical": "acting-day-one",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "후우웅",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "existing-family",
+      "canonical": "acting-day-one",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "집이 불",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "existing-family",
+      "canonical": "acting-day-one",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
+    },
+    {
+      "query": "몇 살이야",
+      "source": "reports/bulk/connector-resume-screening-150.json",
+      "status": "held-unverified",
+      "note": "부모 최신862 인덱스에 해당 기존 ID 존재 재확인. 보조 문자열은 별도 밈으로 세지 않음."
     }
   ],
   "semantic_duplicates": [
@@ -391,5 +607,6 @@
       "canonical": "cannot-hide"
     }
   ],
-  "note": "고유검색문자열은 고유밈/검증완료수가 아님. 동일뜻의 별칭여러개포함. 최근12개중수록1개,기존1개,나머지미검증."
+  "note": "고유검색문자열은 고유밈/검증완료수가 아님. 동일뜻의 별칭여러개포함. 최근12개중수록1개,기존1개,나머지미검증.",
+  "metric_note": "저장된 명시 대조 문자열의 관측 횟수/문자열 종류. 검색창 질의와 인덱스 대조 표현이 섞여 있으며 검증 밈 수나 전체 연구량을 뜻하지 않음."
 }
