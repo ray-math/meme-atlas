@@ -1,0 +1,73 @@
+{
+  "base_sha": "2ecc8f9dbc6e663661007dfbc8bd8979a48ee1a9",
+  "canonical_before": 877,
+  "canonical_after": 879,
+  "added": [
+    "next-trend-wish-template",
+    "say-it-politely-template"
+  ],
+  "sources": [
+    {
+      "url": "https://maily.so/trendaword/posts/l1zqgxxer5x",
+      "date": "2026-03-06",
+      "evidence": "직접 뉴스레터 자기 적용, 열람 행209–221. 익명 예문 제외."
+    },
+    {
+      "url": "https://gogumafarm.kr/요즘-유행하는-밈-알-수-있도록-기도해-드릴게요-2026년-3/",
+      "date": "2026-03-30",
+      "evidence": "올리브영/스토브 실제 적용 보도. 원X 403, 직접 원문 확인 아님."
+    },
+    {
+      "url": "https://maily.so/trendaword/posts/8do72wyprgq",
+      "date": "2026-09-02",
+      "evidence": "영상/댓글 응답형 해설 및 다른 원문 연결. 원영상 미시청."
+    },
+    {
+      "url": "https://gogumafarm.kr/대박삐-삐바삐-밈잘알삐-만들어-주는-2026년-8월-최신-밈/",
+      "date": "2026-08-26",
+      "evidence": "리챔/뽀로로 실제 적용 보고. 곽범 중복 제외."
+    }
+  ],
+  "query_strings": [
+    "훅훅",
+    "다음은",
+    "동결",
+    "공기업",
+    "남쟈",
+    "심박",
+    "좋은 날",
+    "공룡",
+    "몸이 안",
+    "의사",
+    "병원",
+    "훅",
+    "봄동",
+    "커졌어",
+    "기도",
+    "유행",
+    "무례하지 않게",
+    "연락 없네 잘 살아",
+    "일하기 전 제 모습이고요",
+    "삐에로",
+    "거북이 챌린지",
+    "이불 거북이",
+    "폴리에스터",
+    "멜라토닌 먹고",
+    "마음자로",
+    "고능한 곡"
+  ],
+  "semantic_review": "trend-sensitive-man은 유행 민감한 사람 지칭으로 다음 유행 소망 문장과 다름. ppi는 삐에로 의미 중복. 신체 품평 예문 및 미러 증거는 새 본문에서 제외.",
+  "held": [
+    "폴리에스터",
+    "멜라토닌 먹고",
+    "마음자로",
+    "고능한 곡",
+    "공룡만 해",
+    "몸이 안 좋아졌어요"
+  ],
+  "checks": {
+    "python": "not-run",
+    "ci": "not-run",
+    "remote_readback": "performed after commit; see commit verification"
+  }
+}

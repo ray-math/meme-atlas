@@ -1,8 +1,33 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 23,
-  "query_observations": 376,
-  "distinct_literal_queries": 304,
+  "source_files": [
+    "reports/bulk/connector-resume-latest-priority-139.json",
+    "reports/bulk/connector-resume-reviewer01.json",
+    "reports/bulk/connector-resume-c145.json",
+    "reports/bulk/connector-resume-a148.json",
+    "reports/bulk/connector-resume-bc149.json",
+    "reports/bulk/connector-resume-screening-150.json",
+    "reports/bulk/connector-resume-a152.json",
+    "reports/bulk/connector-resume-c153.json",
+    "reports/bulk/connector-resume-b154.json",
+    "reports/bulk/connector-resume-c155.json",
+    "reports/bulk/connector-resume-a156.json",
+    "reports/bulk/connector-resume-b157.json",
+    "reports/bulk/connector-resume-b158.json",
+    "reports/bulk/connector-resume-c159.json",
+    "reports/bulk/connector-resume-a160.json",
+    "reports/bulk/connector-resume-audit-screening-161.json",
+    "reports/bulk/connector-resume-editor162.json",
+    "reports/bulk/connector-resume-b163.json",
+    "reports/bulk/connector-resume-a164.json",
+    "reports/bulk/connector-resume-ac165.json",
+    "reports/bulk/connector-resume-holds166.json",
+    "reports/bulk/connector-resume-a167.json",
+    "reports/bulk/connector-resume-c168.json",
+    "reports/bulk/connector-resume-bc169.json"
+  ],
+  "query_observations": 402,
+  "distinct_literal_queries": 328,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -2085,6 +2110,136 @@
       "source": "reports/bulk/connector-resume-c168.json",
       "status": "accepted-family",
       "canonical": "love-options-challenge"
+    },
+    {
+      "query": "훅훅",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "다음은",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "동결",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "공기업",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "남쟈",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "심박",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "좋은 날",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "공룡",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "몸이 안",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "의사",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "병원",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "훅",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "봄동",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "커졌어",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "기도",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "유행",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "무례하지 않게",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "연락 없네 잘 살아",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "일하기 전 제 모습이고요",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "삐에로",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "거북이 챌린지",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "이불 거북이",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "폴리에스터",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "멜라토닌 먹고",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "마음자로",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
+    },
+    {
+      "query": "고능한 곡",
+      "source": "reports/bulk/connector-resume-bc169.json",
+      "status": "editor-screened-see-report"
     }
   ],
   "semantic_duplicates": [

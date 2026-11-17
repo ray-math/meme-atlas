@@ -957,6 +957,11 @@
 - [혹시 그거 알아 그대 농협은행](../memes/nonghyup-flirting.md)
 - [힙사사돈 챌린지](../memes/hipsasadon.md)
 
+## 인터넷
+
+- [그럼 다음은 무조건 ○○겠지](../memes/next-trend-wish-template.md)
+- [무례하지 않게 말해 주세요](../memes/say-it-politely-template.md)
+
 ## 인터넷방송
 
 - [○○냥이](../memes/nyang-parody.md)
