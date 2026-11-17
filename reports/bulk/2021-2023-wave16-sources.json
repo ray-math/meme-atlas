@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave16",
+  "baseline_ref": "2c5041ff",
+  "baseline_canonical_count": 784,
+  "review_date": "2026-11-17",
+  "reviewer_type": "AI",
+  "counts": {
+    "deep_reviewed": 3,
+    "written": 1,
+    "held": 2
+  },
+  "method": "예약한 문형 3종 심층 선별. 희망편/절망편은 하나의 대비 형식으로 계산. 기존 held 재검토를 신규 작성으로 세지 않음.",
+  "ci_status": "not_run",
+  "entries": [
+    {
+      "id": "eve-psyche-and",
+      "title": "이브, 프시케 그리고 ○○",
+      "path": "memes/eve-psyche-and.md",
+      "own_definition": "노래 제목의 앞부분을 남기고 마지막 자리에 자신의 상황이나 강조할 대상을 넣는 문구형 패러디다.",
+      "scope": {
+        "korean_usage": true,
+        "basis": "2023년 서로 다른 국내 뉴스레터 직접 본문에서 제목 변형 형식과 사용 확인."
+      },
+      "source_urls": [
+        {
+          "url": "https://maily.so/trendaword/posts/knrjv4qwrld",
+          "publisher": "Trend A Word",
+          "published_date": "2023-07-06",
+          "access": "direct_body",
+          "supports": "노래 제목의 문형을 유지하며 대상·상황을 바꾸는 두 유형과 실제 게시물 관측.",
+          "independent_group": "trendaword-eve2023"
+        },
+        {
+          "url": "https://www.careet.net/Newsletter/Detail/1972",
+          "publisher": "캐릿",
+          "published_date": "2023-07-18",
+          "access": "direct_body",
+          "supports": "문형 의미 및 댓글·유튜브 제목에 쓰인 변형 소개.",
+          "independent_group": "careet166-eve2023"
+        }
+      ],
+      "limitations": [
+        "원곡 전체 가사 및 안무는 다루지 않고 제목 변형만 설명.",
+        "원 게시물 작성자나 정확한 최초 발생일을 단정하지 않았다.",
+        "각 뉴스레터가 예시를 소개한 사실을 기록하며 광범위한 사용률·현재 유행을 추정하지 않았다."
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": "784 index와 pilot-state에서 프시케 및 동형 문구 미검출. pending 최종대조 통합 담당 필요."
+    }
+  ],
+  "triage": [
+    {
+      "title": "이브, 프시케 그리고 ○○",
+      "status": "written"
+    },
+    {
+      "title": "저는 매번 같은 수법으로 당하고 있습니다",
+      "status": "held",
+      "reason": "고구마팜의 긍정적 팬 표현 설명만 직접 확인. 독립 두 번째 본문 미확보."
+    },
+    {
+      "title": "희망편/절망편",
+      "status": "held",
+      "reason": "최근 커뮤니티의 일반 대비 및 인크레더블 영상 분류가 혼재. 2021~2023 고정 문형의 두 독립 직접 본문 미확보; 다른 형식을 임의 통합하지 않음."
+    }
+  ]
+}
