@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 15,
-  "query_observations": 256,
-  "distinct_literal_queries": 213,
+  "source_files": 16,
+  "query_observations": 265,
+  "distinct_literal_queries": 220,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -1427,6 +1427,69 @@
       "source": "reports/bulk/connector-resume-a160.json",
       "status": "existing-family",
       "canonical": "yareu-song"
+    },
+    {
+      "query": "팬은",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "팬아님",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "스윙스",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "호감",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "이성적",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "입덕",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "부정기",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "좋아하는 건",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "반한 건",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
     }
   ],
   "semantic_duplicates": [
