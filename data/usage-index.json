@@ -4,7 +4,7 @@
   "coverage": {
     "dictionary_entries": 355,
     "annotated_entries": 67,
-    "reviewed_entries": 65,
+    "reviewed_entries": 67,
     "unannotated_entries": 288
   },
   "entries": [
@@ -2190,8 +2190,8 @@
       "path": "memes/jotdaet-gual.md",
       "aliases": [],
       "source_sha": "8b8824cbe4782f692244f58c32059583acf18754",
-      "review_status": "draft",
-      "review_note": "정식 importer 출력 b6f46431943fbb590581590ea330a657fc48967d의 날짜 교정된 canonical 본문과 normalized SHA를 직접 재확인했다. source_pending은 해소됐다. 네 행동을 모두 요청하는 좁은 용법이며 safety는 자발적 참여를 전제한 편집 판단이다. 외부 근거는 batch_upgrade의 직접 본문 검증 보고를 참고했으며 이 작성자의 새 원문 열람은 아니다.",
+      "review_status": "reviewed",
+      "review_note": "정식 importer 출력 b6f46431943fbb590581590ea330a657fc48967d의 날짜 교정된 canonical 본문과 normalized SHA를 직접 재확인했다. source_pending은 해소됐다. 네 행동을 모두 요청하는 좁은 용법이며 safety는 자발적 참여를 전제한 편집 판단이다. 외부 근거는 batch_upgrade의 직접 본문 검증 보고를 참고했으며 이 작성자의 새 원문 열람은 아니다. 공개11건의 실제 AI 계획·Python 검색·최종 AI 답안 검토를 수행했다. 원답안 C-effort의 검색하지 않은 행에 대한 출처 설명 오류는 보존하고 reason 한 필드만 교정했다. 기존 공개 후보 drift0과 구조·정보경계 회귀를 확인한 좁은 편집 검토이며 일반 정확도·실제 조작 권한·이미지 관찰 인증이 아니다.",
       "usages": [
         {
           "id": "request-four-channel-actions",
@@ -2519,8 +2519,8 @@
       "path": "memes/kkuan-kku.md",
       "aliases": [],
       "source_sha": "036c15bb60a6e154e67e33bff8cbc45b5fc7b691",
-      "review_status": "draft",
-      "review_note": "제공된 의복 조합 설명의 자연스럽고 과하지 않은 인상을 표현하는 용법이다. 화장·신체 평가로 확장하지 않는다. standard는 이 좁은 정보 범위 안의 편집 판단이다. 외부 근거는 batch_upgrade의 직접 본문 검증 보고를 참고했으며 이 작성자의 새 원문 열람은 아니다.",
+      "review_status": "reviewed",
+      "review_note": "제공된 의복 조합 설명의 자연스럽고 과하지 않은 인상을 표현하는 용법이다. 화장·신체 평가로 확장하지 않는다. standard는 이 좁은 정보 범위 안의 편집 판단이다. 외부 근거는 batch_upgrade의 직접 본문 검증 보고를 참고했으며 이 작성자의 새 원문 열람은 아니다. 공개11건의 실제 AI 계획·Python 검색·최종 AI 답안 검토를 수행했다. 원답안 C-effort의 검색하지 않은 행에 대한 출처 설명 오류는 보존하고 reason 한 필드만 교정했다. 기존 공개 후보 drift0과 구조·정보경계 회귀를 확인한 좁은 편집 검토이며 일반 정확도·실제 조작 권한·이미지 관찰 인증이 아니다.",
       "usages": [
         {
           "id": "describe-understated-outfit",
