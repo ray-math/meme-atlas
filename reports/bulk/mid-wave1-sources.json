@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "batch": "mid-wave1",
+  "prepared_at": "2026-11-17",
+  "status": "awaiting-independent-editorial-review-and-import",
+  "counts": {
+    "prepared": 6,
+    "held": 3
+  },
+  "method": "Two different publishers' page bodies directly read for every prepared entry. No copied source prose, lyrics, screenshots or video assets. Source statements summarized in original wording. Original videos and game scenes not watched directly; primary earliest posts not verified. This is source-backed editorial drafting, not human accuracy validation or recommendation-use approval.",
+  "duplicate_check": {
+    "basis": "PR37 pilot-state entries including titles and aliases read during this task; requested titles absent. Integration also screened pending writes.",
+    "note": "Importer must repeat normalized duplicate checks against its current head."
+  },
+  "entries": [
+    {
+      "id": "sha-sha-sha",
+      "title": "샤샤샤",
+      "path": "memes/sha-sha-sha.md",
+      "aliases": [
+        "샤샤샤~"
+      ],
+      "tags": [
+        "음악"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 표현 또는 국내 창작물에서 비롯된 밈 형식.",
+      "sources": [
+        {
+          "url": "https://www.osen.co.kr/article/G1110404189",
+          "publisher": "OSEN",
+          "published_at": "2016-04-29",
+          "access": "body_read",
+          "supports": "사나의 짧은 발음과 포인트 안무, 초기 반응",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://enews.imbc.com/News/RetrieveNewsInfo/194654",
+          "publisher": "iMBC",
+          "published_at": "2016-12-16",
+          "access": "body_read",
+          "supports": "방송에서 안무를 따라 하는 유행과 귀여움 표현",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 publisher의 별도 본문을 확인. 동일 위키 미러/전재를 이중 계산하지 않음.",
+      "limits": [
+        "원영상 직접 열람 없음",
+        "최초 게시물 미확인",
+        "현재 유행 여부 또는 AI 사용 추천 적합성 검증 아님"
+      ]
+    },
+    {
+      "id": "tte-kkeol-look",
+      "title": "떼껄룩",
+      "path": "memes/tte-kkeol-look.md",
+      "aliases": [
+        "떼걸룩"
+      ],
+      "tags": [
+        "게임",
+        "동물"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "scope_basis": "해외 게임 대사의 소리를 한국어 별칭으로 바꾼 국내 용례.",
+      "sources": [
+        {
+          "url": "https://game.donga.com/110151/",
+          "publisher": "게임동아",
+          "published_at": "2023-12-07",
+          "access": "body_read",
+          "supports": "카짓 상인 대사와 고양이 일반 별칭으로의 확장",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://www.mt.co.kr/amp/tech/2024/08/30/2024082917221217121",
+          "publisher": "머니투데이",
+          "published_at": "2024-08-30",
+          "access": "body_read",
+          "supports": "발음 유래와 친근한 고양이 별칭",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 publisher의 별도 본문을 확인. 동일 위키 미러/전재를 이중 계산하지 않음.",
+      "limits": [
+        "원영상 직접 열람 없음",
+        "최초 게시물 미확인",
+        "현재 유행 여부 또는 AI 사용 추천 적합성 검증 아님"
+      ]
+    },
+    {
+      "id": "taebo-hae",
+      "title": "태보해",
+      "path": "memes/taebo-hae.md",
+      "aliases": [
+        "태보 해",
+        "절대 태보해",
+        "절대태보해"
+      ],
+      "tags": [
+        "방송",
+        "음악"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 표현 또는 국내 창작물에서 비롯된 밈 형식.",
+      "sources": [
+        {
+          "url": "https://bizhankook.com/articles/18022.html",
+          "publisher": "비즈한국",
+          "published_at": "2019-06-26",
+          "access": "body_read",
+          "supports": "태보 합성 영상 구성과 태보해 표현의 커뮤니티 확산",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://www.wikitree.co.kr/articles/798149",
+          "publisher": "위키트리",
+          "published_at": "2022-10-16",
+          "access": "body_read",
+          "supports": "2018년 영상 재조명 및 절대 태보해 문구의 파생",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 publisher의 별도 본문을 확인. 동일 위키 미러/전재를 이중 계산하지 않음.",
+      "limits": [
+        "원영상 직접 열람 없음",
+        "최초 게시물 미확인",
+        "현재 유행 여부 또는 AI 사용 추천 적합성 검증 아님"
+      ]
+    },
+    {
+      "id": "national-handclap",
+      "title": "전국 HandClap 자랑",
+      "path": "memes/national-handclap.md",
+      "aliases": [
+        "전국 handclap 자랑",
+        "전국 핸드클랩 자랑"
+      ],
+      "tags": [
+        "음악",
+        "방송"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 표현 또는 국내 창작물에서 비롯된 밈 형식.",
+      "sources": [
+        {
+          "url": "https://blog.hsad.co.kr/2652",
+          "publisher": "HSAD",
+          "published_at": "2018-11-20",
+          "access": "body_read",
+          "supports": "J.E.B의 전국노래자랑 결합 매시업과 당시 인지도",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://www.genie.co.kr/magazine/subMain?mgz_seq=5982",
+          "publisher": "지니뮤직",
+          "published_at": null,
+          "access": "body_read",
+          "supports": "송해 멘트·주제곡 결합과 반복 영상 확산",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 publisher의 별도 본문을 확인. 동일 위키 미러/전재를 이중 계산하지 않음.",
+      "limits": [
+        "원영상 직접 열람 없음",
+        "최초 게시물 미확인",
+        "현재 유행 여부 또는 AI 사용 추천 적합성 검증 아님"
+      ]
+    },
+    {
+      "id": "dionysus-mood-broken",
+      "title": "너 때문에 흥이 다 깨져버렸으니까 책임져",
+      "path": "memes/dionysus-mood-broken.md",
+      "aliases": [
+        "디오니소스 밈",
+        "너 때문에 흥이 다 깨졌으니 책임져"
+      ],
+      "tags": [
+        "애니메이션"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국어 표현 또는 국내 창작물에서 비롯된 밈 형식.",
+      "sources": [
+        {
+          "url": "https://www.khan.co.kr/article/202001291727001",
+          "publisher": "경향신문",
+          "published_at": "2020-01-29",
+          "access": "body_read",
+          "supports": "올림포스 가디언 장면 및 인터넷 밈으로의 유행",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://blog.speak.com/kr/in-english/expressions/너-때문에-흥이-다-깨졌잖아-흥-깨지마-영어로-표현?amp=1",
+          "publisher": "스픽",
+          "published_at": null,
+          "access": "body_read",
+          "supports": "디오니소스·오르페우스 밈과 분위기 중단의 의미",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 publisher의 별도 본문을 확인. 동일 위키 미러/전재를 이중 계산하지 않음.",
+      "limits": [
+        "원영상 직접 열람 없음",
+        "최초 게시물 미확인",
+        "현재 유행 여부 또는 AI 사용 추천 적합성 검증 아님"
+      ]
+    },
+    {
+      "id": "baby-shark-challenge",
+      "title": "아기상어 챌린지",
+      "path": "memes/baby-shark-challenge.md",
+      "aliases": [
+        "베이비 샤크 챌린지",
+        "Baby Shark Challenge"
+      ],
+      "tags": [
+        "음악"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_origin",
+      "scope_basis": "한국 제작사 콘텐츠의 국제적 챌린지 확산을 다룸.",
+      "sources": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02696166619312896",
+          "publisher": "이데일리",
+          "published_at": "2018-08-31",
+          "access": "body_read",
+          "supports": "노래·율동 챌린지의 인도네시아 및 해외 확산; FT 보도를 인용한 기사",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg.aspx?CNTN_CD=A0002503053",
+          "publisher": "오마이스타",
+          "published_at": "2019-01-11",
+          "access": "body_read",
+          "supports": "유튜브·틱톡 커버와 패러디, 참여형 밈 형식",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "이데일리는 FT 기사 인용 보도, 오마이스타는 김도헌의 별도 음악평론. 동일 전재 2건 아님.",
+      "limits": [
+        "원영상 직접 열람 없음",
+        "최초 게시물 미확인",
+        "현재 유행 여부 또는 AI 사용 추천 적합성 검증 아님"
+      ]
+    }
+  ],
+  "held": [
+    {
+      "title": "항아리 게임",
+      "reason": "현재 확인한 보도는 게임 인지도·코스프레 중심. 독립적인 개별 밈 형식과 두 출처를 충분히 확정하지 못함."
+    },
+    {
+      "title": "너굴맨",
+      "reason": "발견된 설명들의 독립적 근거를 충분히 확인하지 못해 본문 작성 보류."
+    },
+    {
+      "title": "그랜절",
+      "reason": "두 번째 설명 자료에 방송사 오기와 기원 추측이 섞여 있어 추가 신뢰도 검토 필요. 위험동작 안내는 작성하지 않음."
+    }
+  ]
+}
