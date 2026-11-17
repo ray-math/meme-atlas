@@ -16,9 +16,9 @@ class CarrotDraftTests(unittest.TestCase):
         selected=[p for p in profiles if p['entry_id'] in self.IDS]
         self.assertEqual({p['entry_id'] for p in selected},self.IDS)
         self.assertEqual(sum(len(p['usages']) for p in selected),2)
-        self.assertEqual(sum(p['review_status']=='reviewed' for p in profiles),41)
+        self.assertEqual(sum(p['review_status']=='reviewed' for p in profiles),42)
         for profile in selected:
-            expected='reviewed' if profile['entry_id']=='carrot-of-course' else 'draft'
+            expected='reviewed'
             self.assertEqual(profile['review_status'],expected)
             self.assertEqual(profile['source_sha'],blob_sha(ROOT/'memes'/f"{profile['entry_id']}.md"))
             self.assertEqual(get_entry(ROOT,profile['entry_id'],include_usage=True)['usage_annotation_status'],expected)
