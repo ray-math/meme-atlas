@@ -7,6 +7,7 @@ from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 from replay_carrot_scope import evaluate
+from compare_evaluation_expansion import strict_equal
 
 class PublicCarrotRehearsalTests(unittest.TestCase):
     def test_actual_python_candidates_and_missing_relationship(self):
@@ -65,7 +66,7 @@ class PublicCarrotRehearsalTests(unittest.TestCase):
                     hit['usage']['review_note']=new_note
         self.assertEqual(len(migrated),2)
         self.assertEqual(set(migrated),expected_migrations)
-        self.assertEqual(behavior(actual['results']),historical)
+        self.assertTrue(strict_equal(behavior(actual['results']),historical))
         trace={r['id']:r for r in frozen['results']}
         answers=json.loads((ROOT/'eval/carrot-scope/answers.json').read_text())['answers']
         self.assertEqual(len(answers),len(trace))
