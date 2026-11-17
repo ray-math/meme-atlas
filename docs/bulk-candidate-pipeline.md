@@ -82,3 +82,5 @@ Whole-envelope duplicate fingerprints are diagnostic and preserve both source
 occurrences. Per-row source kind drives totals, including mixed envelopes.
 new_source_rows is an observation count, not net-new or independently verified
 content. --check remains order/path-sensitive deterministic replay.
+
+이전 included/duplicate 상태의 연결이 현재 정확 정규화와 맞지 않으면 새 본문 작성 큐로 자동 회수하지 않고 held로 분리한다. 원 상태는 바꾸지 않으며 해당 연결은 사람이 아닌 별도 편집 검토 대상이다. 이 보류는 의미상 중복을 확정하는 판정이 아니다.

@@ -175,7 +175,7 @@ def queue(root=ROOT, inputs=None):
         if row['status'] == 'duplicate' and not matched and not candidate_matches:
             diagnostics.append({'id': row['id'], 'kind': 'unverified_duplicate_status'})
         category = ('duplicate_existing' if matched else 'duplicate_candidate' if candidate_matches
-                    else 'held' if row['status'] == 'held' or not normalized else 'needs_research')
+                    else 'held' if row['status'] in {'held','included','duplicate'} or not normalized else 'needs_research')
         if not normalized:
             diagnostics.append({'id': row['id'], 'kind': 'empty_normalized_name'})
         output.append({'id': row['id'], 'source_id': source_id, 'source_kind': kind,

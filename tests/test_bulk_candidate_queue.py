@@ -63,7 +63,7 @@ class BulkCandidateQueueTests(unittest.TestCase):
         self.write(rows)
         a = self.run_queue()
         self.assertEqual(a['rows'][0]['classification'], 'duplicate_existing')
-        self.assertEqual(a['rows'][1]['classification'], 'needs_research')
+        self.assertEqual(a['rows'][1]['classification'], 'held')
         self.assertIn('stale_included_status', [d['kind'] for d in a['diagnostics']])
         rows[1]['title'] = 'Existing'
         self.write(rows)
@@ -168,6 +168,19 @@ class ExportReviewStatusAdapterTests(unittest.TestCase):
         bad=copy.deepcopy(original)
         bad['candidates'][0]['notes']='not-list'
         with self.assertRaises(ValueError):adapt(bad,'research/export.json')
+
+
+class UnverifiedPriorStateQueueTests(BulkCandidateQueueTests):
+    def test_included_or_duplicate_without_exact_link_is_held_not_new_work(self):
+        records=[row('a','unmatched included'),row('b','unmatched duplicate')]
+        records[0].update(status='included',dictionary_paths=['memes/existing.md'])
+        records[1].update(status='duplicate',duplicate_of='a')
+        self.write(records)
+        result=self.run_queue()
+        self.assertEqual([r['classification'] for r in result['rows']],['held','held'])
+        self.assertEqual([r['candidate']['status'] for r in result['rows']],['included','duplicate'])
+        self.assertEqual(result['counts']['needs_research'],0)
+        self.assertIn('stale_included_status',[d['kind'] for d in result['diagnostics']])
 
 if __name__ == '__main__':
     unittest.main()
