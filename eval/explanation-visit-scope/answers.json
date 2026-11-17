@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "provenance": "동결된 공개 plans와 실제 Python retrieval을 읽고 작성한 실제 AI 답안이다. 다른 gold 또는 answers 파일은 읽지 않았다.",
+  "limitations": "공개 주석·정의 파생 및 기존 공개 입력에 대한 개발 답안으로 독립 블라인드 평가가 아니다. 새 두 profile은 메모리 복사에서만 임시 reviewed로 조회되었으며 원본 draft의 승격이나 실서비스 배포를 뜻하지 않는다. 선택은 제시된 창작 조건 안의 가상 적합성 판단이다. 원문·검색 모드는 유지한다. lookup 후보 반환은 기본 recommend 정책 통과가 아니다. 특히 해설요청+상대 필터는 공식 질문에도 맞을 수 있어 온라인 장난 문맥을 별도로 확인해야 한다. 필터는 공개성·관계·진실성·내면을 검증하지 않는다.",
+  "answers": [
+    {
+      "id": "X-explain",
+      "action": "recommend",
+      "selected_entry_id": "help-speedwagon",
+      "selected_usage_id": "request-online-context",
+      "response": "이 글에서 말하는 세계관 설정이 뭔지 모르겠어요. 배경을 풀어 주실 분 있나요? 도와줘요 스피드웨건!",
+      "reason": "lookup의 caution 후보를 명시된 온라인 공개 글의 장난스러운 배경 해설 요청에 한정해 선택한다. 전문가 인증이나 응답 의무·정확성을 부여하지 않으며 실제 글을 읽거나 설정을 확인했다고 주장하지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "온라인 공개 글이나 댓글에서 낯선 용어·이야기의 배경을 풀어 설명해 달라고 다른 이용자에게 장난스럽게 청한다.",
+          "상대는 설명을 요청받는 행위자이며 전문가 인증이나 답변 의무가 생기지 않는다."
+        ],
+        "checked_risk_flags": [
+          "관계의존",
+          "사실오인"
+        ],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "창작 입력은 온라인 공개 글의 세계관 설정에 대한 배경 해설을 요청하는 예문이다.",
+            "evidence_span": "이 글에서 말하는 세계관 설정이 뭔지 모르겠어요. 배경을 풀어 주실 분 있나요?"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "X-visit",
+      "action": "recommend",
+      "selected_entry_id": "internet-pilgrimage",
+      "selected_usage_id": "mark-public-post-visit",
+      "response": "뒤늦게 화제가 된 예전 공개 제작 과정을 보고 왔어요. 성지순례 왔습니다.",
+      "reason": "lookup의 caution 후보를 기존 공개 글을 읽었다는 방문 표시에 한정한다. 예문의 방문 표현이지 내가 실제 게시물을 방문했다는 보고가 아니다. 내용 동의·사실 확인·예언 적중이나 작성자 가치 평가로 확대하지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "뒤늦게 화제가 된 기존 공개 게시물을 찾아와 읽었다는 흔적을 댓글로 남긴다.",
+          "초점은 글 방문이라는 행위이며 글 내용의 진실성·예언성이나 작성자의 가치를 인증하지 않는다."
+        ],
+        "checked_risk_flags": [
+          "사실오인",
+          "공개망신"
+        ],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "창작 입력은 뒤늦게 화제가 된 기존 공개 제작 과정 글을 보았다는 방문 표현이다.",
+            "evidence_span": "뒤늦게 화제가 된 예전 공개 제작 과정을 보고 왔어요."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "X-formal",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "격식 있는 질문이 필요한 상황이라면 밈 대신 “이 용어나 배경을 설명해 주시겠습니까?”처럼 직접 물어보는 편이 좋겠습니다.",
+      "reason": "공식 질문이라는 조건에 따라 밈을 보류한다. 해설 기능이 같아도 온라인 장난 용법의 적합성은 보장되지 않는다. 특정 수업·업무·수신자의 직책을 추가하지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "공식 수업·업무 등 격식 있는 질문이 필요한 상황"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 격식 있는 질문이 필요한 조건이다.",
+            "evidence_span": "공식 수업·업무 등 격식 있는 질문이 필요한 상황"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "X-urgent",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "그런 긴급 상황이라면 밈 답변을 기다리는 대신 적절한 전문 도움을 직접 요청하는 편이 좋겠습니다.",
+      "reason": "긴급 도움을 밈 해설로 대신하는 조건이므로 검색과 밈 추천을 보류한다. 조건문을 실제 긴급 사건으로 바꾸거나 질환·처치·의료 조언을 생성하지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "의료·안전상 긴급 상황에서 전문적인 도움 대신 밈 답변을 기다리는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 전문적인 도움 대신 밈 답변을 기다리는 긴급 상황의 조건을 제시한다.",
+            "evidence_span": "의료·안전상 긴급 상황에서 전문적인 도움 대신 밈 답변을 기다리는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "X-harass",
+      "action": "abstain",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "집단 몰이나 피해 조롱에 가담하는 상황이라면 방문 밈을 쓰지 않겠습니다.",
+      "reason": "괴롭힘·공개 망신 가담 조건은 중립적인 방문 표시로 바꾸지 않는다. 검색하지 않았으며 특정 피해자·게시물이나 실제 가담 사실을 만들어내지 않는다.",
+      "context_check": {
+        "assessment": "incompatible",
+        "evidence_spans": [
+          "집단 몰이·괴롭힘·피해 조롱·공개 망신에 가담하는 경우"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 집단 몰이·괴롭힘·피해 조롱·공개 망신에 가담하는 조건이다.",
+            "evidence_span": "집단 몰이·괴롭힘·피해 조롱·공개 망신에 가담하는 경우"
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "X-generic",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "해설을 요청하는 기능의 정의로 읽힙니다. 이 정의에 맞는 표현을 찾는 건가요? 그렇다면 어떤 상황과 말투에서 쓸 표현인지 알려 주세요.",
+      "reason": "기능 정의만 제시되어 실제 표현 추천 요청인지도 확정하지 않는다. 온라인 공개 글·댓글이나 장난스러운 말투를 보충하지 않고 질문을 유지한다. 필터를 구성할 수 있다는 이유로 좁은 용례를 추천하지 않는다.",
+      "context_check": {
+        "assessment": "uncertain",
+        "evidence_spans": [
+          "낯선 용어나 이야기의 배경·맥락을 이해할 수 있도록 풀어 설명해 달라고 요청함."
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": [
+          "표현 추천을 요청하는 것인지",
+          "표현을 사용할 환경과 말투"
+        ]
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력은 낯선 용어나 배경·맥락의 해설을 요청하는 기능을 정의한다.",
+            "evidence_span": "낯선 용어나 이야기의 배경·맥락을 이해할 수 있도록 풀어 설명해 달라고 요청함."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "A14",
+      "action": "recommend",
+      "selected_entry_id": "you-insulted-me",
+      "selected_usage_id": "mock-serious-protest",
+      "response": "넌 나에게 모욕감을 줬어.",
+      "reason": "lookup의 두 caution 후보 중 영화처럼 과하게 엄숙한 장난 항의라는 요청에 직접 맞는 후보를 선택한다. 문구는 장난 대사이지 실제 모욕감·민망함을 느꼈다는 사실 판정이 아니다. 킹받네의 약 오름을 새로 추정하지 않는다.",
+      "context_check": {
+        "assessment": "compatible",
+        "evidence_spans": [
+          "친구가 내 촌스러운 셀카 포즈를 따라 해서 둘 다 웃었어.",
+          "영화처럼 엄숙하게 장난 항의하고 싶어.",
+          "진짜 싸움은 아니야."
+        ],
+        "checked_risk_flags": [
+          "갈등오인"
+        ],
+        "unresolved_conditions": []
+      },
+      "factual_check": {
+        "supported_claims": [
+          {
+            "claim": "입력에서 서로 웃은 상황에 영화처럼 엄숙한 장난 항의를 원하며 실제 싸움은 아니라고 명시한다.",
+            "evidence_span": "친구가 내 촌스러운 셀카 포즈를 따라 해서 둘 다 웃었어. 영화처럼 엄숙하게 장난 항의하고 싶어. 진짜 싸움은 아니야."
+          }
+        ],
+        "unsupported_claims": []
+      }
+    },
+    {
+      "id": "A26",
+      "action": "clarify",
+      "selected_entry_id": null,
+      "selected_usage_id": null,
+      "response": "어떤 상황이고, 어떤 반응을 표현하고 싶은가요?",
+      "reason": "이모지와 느낌표만으로 감정·사건·요청 기능을 확정하지 않는다. 검색과 후보 선택 없이 필요한 맥락을 질문한다.",
+      "context_check": {
+        "assessment": "uncertain",
+        "evidence_spans": [
+          "😶‍🌫️!!!"
+        ],
+        "checked_risk_flags": [],
+        "unresolved_conditions": [
+          "구체적인 상황",
+          "표현하려는 반응이나 요청"
+        ]
+      },
+      "factual_check": {
+        "supported_claims": [],
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "execution_commit": "48741444fe8d679b59ee553ae3c9794add590d2f",
+  "frozen_retrieval_commit": "ea7fb20a8aa30ecac71da8dab606370c383c49c5"
+}
