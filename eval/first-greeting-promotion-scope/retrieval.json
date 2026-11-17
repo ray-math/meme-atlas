@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "manbanjalbu",
+    "mangwanbu"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 354,
+    "annotated_entries": 60,
+    "reviewed_entries": 58,
+    "unannotated_entries": 294
+  },
+  "provisional_reviewed_entries": 60,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "execution_commit": "f53b1a9ff242fe13fb23a4cfbb1b273a3b3dec4f",
+  "ci_run": 44022818432,
+  "results": [
+    {
+      "id": "I-first",
+      "prompt": "서로 처음 인사를 나누는 친근한 모임에서 반갑고 앞으로 잘 지내자는 뜻을 전한다. 새로 합류한 사람과 맞이하는 사람 중 어느 쪽만의 인사로 고정하지 않는다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "인사"
+        ],
+        "situations": [
+          "첫만남"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 60,
+          "reviewed_entries": 58,
+          "unannotated_entries": 294
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "manbanjalbu",
+            "title": "만반잘부",
+            "path": "memes/manbanjalbu.md",
+            "domain_tags": [],
+            "usage_id": "friendly-first-introduction",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "인사"
+              ],
+              "situations": [
+                "첫만남"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "friendly-first-introduction",
+              "emotion_status": "annotated",
+              "emotions": [
+                "반가움"
+              ],
+              "intents": [
+                "인사"
+              ],
+              "situations": [
+                "첫만남"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "서로 처음 인사를 나누는 친근한 모임에서 반갑고 앞으로 잘 지내자는 뜻을 전한다. 새로 합류한 사람과 맞이하는 사람 중 어느 쪽만의 인사로 고정하지 않는다.",
+              "avoid_when": [
+                "공식 업무 메일이나 격식 있는 첫 소개가 필요한 경우",
+                "이미 알고 지내던 사람과의 단순 재회를 첫 만남으로 처리하는 경우",
+                "상대가 원치 않는 친근한 말투나 관계를 강요하는 경우"
+              ],
+              "example": {
+                "text": "오늘 처음 인사하네요. 앞으로 같이 이야기 나눠요. 만반잘부!",
+                "kind": "editorial"
+              },
+              "review_note": "반가움은 인사에 전달되는 정서적 색채이며 실제 발화자의 심리를 입증하지 않는다. 상대는 인사받는 사람이며 입장자·맞이자 역할과 동일하지 않다. 기존 만남시작의 뜻을 바꾸지 않는다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "첫만남"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "b633d35e82a8130613431cb1f56dce75cbd9191e",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "첫만남"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "I-interest",
+      "prompt": "새 작품이나 활동의 소식을 소개하며 그 대상에 관심을 기울여 달라고 친근하게 부탁한다. 소개 대상이 본인이 직접 만든 완성품일 필요는 없으며 구매·구독 등 특정 행동을 의무로 요구하지 않는다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "관심요청"
+        ],
+        "situations": [
+          "작품활동소개"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 60,
+          "reviewed_entries": 58,
+          "unannotated_entries": 294
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "mangwanbu",
+            "title": "많관부",
+            "path": "memes/mangwanbu.md",
+            "domain_tags": [],
+            "usage_id": "request-attention-to-project",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "관심요청"
+              ],
+              "situations": [
+                "작품활동소개"
+              ],
+              "targets": [
+                "상황"
+              ]
+            },
+            "usage": {
+              "id": "request-attention-to-project",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "관심요청"
+              ],
+              "situations": [
+                "작품활동소개"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "새 작품이나 활동의 소식을 소개하며 그 대상에 관심을 기울여 달라고 친근하게 부탁한다. 소개 대상이 본인이 직접 만든 완성품일 필요는 없으며 구매·구독 등 특정 행동을 의무로 요구하지 않는다.",
+              "avoid_when": [
+                "관심 표현을 구매·구독·기부 의무로 바꾸거나 반복해서 압박하는 경우",
+                "홍보 내용의 진실성·정당성·성과를 표현 자체로 인증하는 경우",
+                "공식적 안내나 필요한 상세 정보를 줄임말 하나로 대신하는 경우",
+                "개인적 위로 요청을 작품·활동 홍보 용법으로 뒤집는 경우"
+              ],
+              "example": {
+                "text": "이번 주에 새 공연 소식이 공개됐어요. 어떤 무대인지 소개해 둘게요. 많관부!",
+                "kind": "editorial"
+              },
+              "review_note": "관심의 초점을 소개하는 작품·활동에 두어 target상황으로 한정했다. 요청을 듣는 사람이 있다는 이유로 target상대를 추가하지 않으며 상대 필터만으로는 이 용례가 검색되지 않는 한계를 유지한다. 기존 관심요청의 자기 관심·위로 관련 용법을 배제하는 정의 변경은 하지 않는다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "작품활동소개"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "19fa456c64e6d16353c8735199951436121e2702",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "작품활동소개"
+                ],
+                "targets": [
+                  "상황"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "I-formal",
+      "prompt": "공식 업무 메일이나 격식 있는 첫 소개가 필요한 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "I-pressure",
+      "prompt": "관심 표현을 구매·구독·기부 의무로 바꾸거나 반복해서 압박하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "W-welcome",
+      "prompt": "직접 만나거나 채팅방 등 대화 공간에 들어온 사람을 귀엽고 친근한 말투로 맞이한다. 첫 만남뿐 아니라 다시 만나는 상황에도 해당한다.\n오랜만에 채팅방에 왔네. 방가방가!",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "만남시작"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 60,
+          "reviewed_entries": 58,
+          "unannotated_entries": 294
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "bangga-bangga",
+            "title": "방가방가",
+            "path": "memes/bangga-bangga.md",
+            "domain_tags": [],
+            "usage_id": "friendly-welcome",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "만남시작"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "friendly-welcome",
+              "emotion_status": "annotated",
+              "emotions": [
+                "반가움"
+              ],
+              "intents": [
+                "인사"
+              ],
+              "situations": [
+                "만남시작"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "직접 만나거나 채팅방 등 대화 공간에 들어온 사람을 귀엽고 친근한 말투로 맞이한다. 첫 만남뿐 아니라 다시 만나는 상황에도 해당한다.",
+              "avoid_when": [
+                "공식적이거나 엄숙한 자리에서 격식을 갖춘 인사가 필요할 때",
+                "상대가 친근한 말투나 장난스러운 인사를 원하지 않는다고 밝힌 때",
+                "사람을 맞이하는 상황이 아닌데 모든 인사 요청에 기계적으로 적용할 때"
+              ],
+              "example": {
+                "text": "오랜만에 채팅방에 왔네. 방가방가!",
+                "kind": "editorial"
+              },
+              "review_note": "본문의 반가운 맞이 인사를 주석했다. 반가움은 이 용례가 전달하는 정서적 색채이며 실제 화자의 감정을 판정한 결과가 아니다. 맞이하는 사람이 중심 대상이므로 target상대다. 만남시작 조건은 첫 만남만 뜻하지 않으며 다른 인사 표현의 가능 용법을 배제하는 규칙도 아니다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "만남시작"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "04fdc754c613ceee61a4b04c6de5a9f884e65d8f",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "만남시작"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A13",
+      "prompt": "오늘 힘들었고 가까운 애인에게 내가 위로받고 싶다는 마음을 귀엽게 보내고 싶어. 상대를 위로하는 말 말고.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "위로받고싶음"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 60,
+          "reviewed_entries": 58,
+          "unannotated_entries": 294
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "hug-me-animal",
+            "title": "안아줘요",
+            "path": "memes/hug-me-animal.md",
+            "domain_tags": [],
+            "usage_id": "request-comfort",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "위로받고싶음"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "request-comfort",
+              "emotions": [
+                "다정함"
+              ],
+              "intents": [
+                "위로요청",
+                "관심요청"
+              ],
+              "situations": [
+                "위로받고싶음"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "관계의존",
+                "신체접촉동의오인"
+              ],
+              "safety": "caution",
+              "context": "가까운 상대에게 자신이 위로받고 싶다는 뜻을 전한다.",
+              "avoid_when": [
+                "위로를 주는 표현으로 방향을 뒤집어 추천할 때",
+                "친밀하지 않은 관계에서 신체 접촉을 당연시할 때"
+              ],
+              "example": {
+                "text": "오늘 좀 지쳤어. 안아줘요.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단. targets는 발화 수신자가 아니라 위로 수혜자인 자기를 가리킴(통합 재검토).",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "88c673486b935ad7c2e63b23f56568b7e41de0eb",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    }
+  ]
+}
