@@ -10,7 +10,18 @@ from evaluation_records import indexed_records, ACTIONS
 def evaluate(root=ROOT):
     envelope=json.loads((Path(root)/'eval/context-scope/plans.json').read_text())
     plans=indexed_records(envelope,'plans')
+    expected_ids={'P-goat','P-goat-context','P-pon','P-upside','A01','A12','A16','A17','A19','A20'}
+    if set(plans)!=expected_ids:
+        raise ValueError('public rehearsal must contain exactly the fixed ten cases')
+    original_inputs=json.loads((Path(root)/'eval/challenge/audit-inputs.json').read_text())['inputs']
+    expected={row['id']:row['prompt'] for row in original_inputs if row['id'] in expected_ids}
     index=copy.deepcopy(build_usage_index(root));vocabulary=load_vocabulary(root)
+    named={entry['id']:entry for entry in index['entries']}
+    for identity,entry in [('P-goat','goat'),('P-pon','pon-eunjeong'),('P-upside','ohiryeo-joa')]:
+        expected[identity]=named[entry]['usages'][0]['example']['text']
+    expected['P-goat-context']=named['goat']['usages'][0]['context']+'\n'+expected['P-goat']
+    if any(plan['prompt']!=expected[identity] for identity,plan in plans.items()):
+        raise ValueError('public rehearsal prompt differs from its published source')
     provisional={'goat','pon-eunjeong','ohiryeo-joa'}
     found={e['id'] for e in index['entries'] if e['id'] in provisional}
     if found!=provisional:
