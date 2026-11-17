@@ -46,7 +46,7 @@ class ChannelParticipationOutfitDraftTests(unittest.TestCase):
             sha, req = self.SPEC[p['entry_id']]
             self.assertEqual(p['source_sha'], sha)
             self.assertEqual(sha, blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))
-            self.assertEqual(p['review_status'], 'draft')
+            self.assertEqual(p['review_status'], 'reviewed')
             self.assertEqual(len(p['usages']), 1)
             u = p['usages'][0]
             self.assertEqual(u['emotion_status'], 'unknown')
@@ -54,15 +54,6 @@ class ChannelParticipationOutfitDraftTests(unittest.TestCase):
             self.assertEqual(u['safety'], 'standard')
             self.assertEqual(u['retrieval_requirements'], req)
             self.assertEqual(u['example']['kind'], 'editorial')
-
-    def test_drafts_hidden_even_exact_lookup_and_recommend(self):
-        for e in self.index['entries']:
-            if e['id'] not in self.SPEC:
-                continue
-            req = self.SPEC[e['id']][1]
-            for mode in ('lookup', 'recommend'):
-                for filters in (req, {'query': e['title']}, dict(req, query=e['title'])):
-                    self.assertFalse(self.hits(self.index, e['id'], mode=mode, **filters))
 
     def test_provisional_two_explicit_positives_preserve_original_data(self):
         index = self.provisional()

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "evaluator_kind": "independent AI editorial review; not human validation",
+  "original_commit": "0909448fd094a05f498329f3c035c1db963f1920",
+  "corrected_commit": "13fadd51bc516c7e88d25e7a9f1ce710b4673b37",
+  "review_method": "Read plans, actual Python trace and complete answers; no independent execution.",
+  "original_result": {
+    "actions_and_selected_responses": "11 appropriate",
+    "provenance_reason_errors": [
+      "C-effort"
+    ]
+  },
+  "corrected_result": {
+    "editorial_blockers": [],
+    "corrected_field": "C-effort.reason",
+    "other_ten_unchanged": true,
+    "original_blob": "0e701be5b5edf6331a2e2f1ca48d91533fca6078"
+  },
+  "limitations": [
+    "Public annotation-derived AI development review, not new heldout or human performance.",
+    "Original structural CI passed 391 tests but did not detect the semantic search-provenance narration error.",
+    "Wording suitability is separate from actual account manipulation, sharing permission or image observation."
+  ]
+}
