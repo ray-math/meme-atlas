@@ -1131,6 +1131,20 @@
         "earth-defense-challenge",
         "jirida-reaction"
       ]
+    },
+    "korean-verified-20261117-bulk-wave18": {
+      "input_hash": "d0dc59a3a16421c30b0cdf3d53e7b06981cab57dc57bb389a139b7978b7b447b",
+      "ids": [
+        "geureureuk-galg",
+        "samujeogin-taedo",
+        "eve-psyche-and",
+        "banbaksi-ni-mari-majeum",
+        "named-user",
+        "jonggyeolja",
+        "meokgeum",
+        "toca-toca-dance",
+        "patsu"
+      ]
     }
   },
   "entries": {
@@ -8901,6 +8915,81 @@
       "body_hash": "4fe949e33acb2b57b9ff055341c1e563e4f12a52dbeee9d57246ae04ad9bb47a",
       "scope_type": "korean_usage",
       "scope_basis": "독립 신문 칼럼과 언어문화 에세이에서 뜻과 인터넷 유통을 확인.",
+      "tags": []
+    },
+    "geureureuk-galg": {
+      "title": "그르륵 갉",
+      "batch": "korean-verified-20261117-bulk-wave18",
+      "body_hash": "840a3868535732bd0022844d1444e28dd963a56e002fcd0f89ebdc8046dd48b4",
+      "scope_type": "korean_usage",
+      "scope_basis": "2023년 국내 온라인 용법과 독립 발행 주체의 정의 또는 후속 실제 변용 확인.",
+      "tags": []
+    },
+    "samujeogin-taedo": {
+      "title": "사무적인 태도 섭섭하네요",
+      "batch": "korean-verified-20261117-bulk-wave18",
+      "body_hash": "d501c5440a9fa8b9646925c0b7967371626f1604a82338a67c3144a7367d1f2a",
+      "scope_type": "korean_usage",
+      "scope_basis": "2023년 국내 온라인 용법과 독립 발행 주체의 정의 또는 후속 실제 변용 확인.",
+      "tags": []
+    },
+    "eve-psyche-and": {
+      "title": "이브, 프시케 그리고 ○○",
+      "batch": "korean-verified-20261117-bulk-wave18",
+      "body_hash": "f5d1797ca57045ce2b1a8f361c0bae1d567828ce0d554e8d667e8d57cc5ffca4",
+      "scope_type": "korean_usage",
+      "scope_basis": "2023년 서로 다른 국내 뉴스레터 직접 본문에서 제목 변형 형식과 사용 확인.",
+      "tags": []
+    },
+    "banbaksi-ni-mari-majeum": {
+      "title": "반박시 니 말이 맞음",
+      "aliases": [
+        "반박시 니말맞"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave18",
+      "body_hash": "abc1b8e709747eaa3d896f2b8fc7b9ad9d8a7d4c0fb2ebd9bb4eabc9dcfad68e",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 문화에서 쓰이는 표현의 정의와 용례에 한정한다.",
+      "tags": []
+    },
+    "named-user": {
+      "title": "네임드",
+      "batch": "korean-verified-20261117-bulk-wave18",
+      "body_hash": "924295fb3cb140b40be18b74ec88ed86b45befd5be03c9245325346749c4dac5",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 문화에서 쓰이는 표현의 정의와 용례에 한정한다.",
+      "tags": []
+    },
+    "jonggyeolja": {
+      "title": "종결자",
+      "batch": "korean-verified-20261117-bulk-wave18",
+      "body_hash": "d1fe9caf66f747b0a6298a152f144265b385897debc79e9fc118580d80d7204b",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 문화에서 쓰이는 표현의 정의와 용례에 한정한다.",
+      "tags": []
+    },
+    "meokgeum": {
+      "title": "먹금",
+      "batch": "korean-verified-20261117-bulk-wave18",
+      "body_hash": "5a1d6c3a4c4ff018580c1d5a1032c40f18dd240ebb2779bb5715fd1d5dac24a3",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 문화에서 쓰이는 표현의 정의와 용례에 한정한다.",
+      "tags": []
+    },
+    "toca-toca-dance": {
+      "title": "토카토카 댄스",
+      "batch": "korean-verified-20261117-bulk-wave18",
+      "body_hash": "a4736967e19a1ec8ed79086b5301e91fab797322cc478ffbb9d81100024515eb",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 트렌드 뉴스레터의 춤 챌린지 소개와 국내 참여자 인터뷰 보도로 국내 사용 확인.",
+      "tags": []
+    },
+    "patsu": {
+      "title": "팟수",
+      "batch": "korean-verified-20261117-bulk-wave18",
+      "body_hash": "05e4cc1ea05aa17669e4fa66da7bd137db1478727e1ac2b05c545d7360c2efb0",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 플랫폼 시청자 호칭을 국내 보도와 독립 학술 연구 본문으로 확인.",
       "tags": []
     }
   }
