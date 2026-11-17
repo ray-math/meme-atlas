@@ -556,6 +556,12 @@
       "ids": [
         "eokkka"
       ]
+    },
+    "korean-reviewed-20261117-chwijon-provenance": {
+      "input_hash": "a51c18402ca4d4c7dc0f83bcb5d48e51f219e359b15ce55543eb5582eab6ddf9",
+      "ids": [
+        "chwijon"
+      ]
     }
   },
   "entries": {
@@ -1419,10 +1425,10 @@
     },
     "chwijon": {
       "title": "취존",
-      "batch": "8",
-      "body_hash": "d6d0b20dd8c65ff9a897094638f2e332a1ec0015ed48fa4df05ed928496b0db5",
-      "scope_type": "korean_origin",
-      "scope_basis": "한국어 어구를 축약·결합해 국내 온라인 대화에서 독자적인 용법으로 정착한 표현이다.",
+      "batch": "korean-reviewed-20261117-chwijon-provenance",
+      "body_hash": "568802d4ce0b5f052d39eae6453ed0a9a0a4fcb877484f47c57fbfc09846a323",
+      "scope_type": "korean_usage",
+      "scope_basis": "아주경제의 신조어 설명(실제발행2017-12-20)과 연합뉴스의 줄임말 문화 설명(실제송고2018-11-19)을 직접확인했다. 기존2019년 문장의 별도참조는 명시되어 있지 않아 그해자료가 없다고 단정하지 않고 불필요한 연도 단정만 제거했다.",
       "tags": []
     },
     "ppaebak-cant": {
