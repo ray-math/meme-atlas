@@ -83,7 +83,7 @@ jobs:
           root=Path.cwd()
           result=queue(root,[root/'data/korea-candidates.json',
                              root/'research/kr-recent-20261117.json',
-                             root/'research/collections/korean-memes-2021-2023-audit.json'])
+                             root/'research/collections/korean-memes-2021-2023-audit.json',root/'reports/bulk/early-2000-2015-candidates.json'])
           print('BULK_QUEUE_SUMMARY='+json.dumps({
               'canonical_count':result['canonical_count'],
               'counts':result['counts'],
