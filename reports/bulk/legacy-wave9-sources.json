@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave9",
+  "status": "ready_for_independent_editorial_review",
+  "created_at": "2026-11-17",
+  "base_ref": "929a92327e0c93d6f58c7ca5957f1f4a44ab2995",
+  "counts": {
+    "screened": 30,
+    "ready": 4,
+    "held": 24,
+    "duplicate": 1,
+    "assigned_elsewhere": 1
+  },
+  "entries": [
+    {
+      "entry_id": "thats-right-matgoyo",
+      "title": "맞습니다 맞고요",
+      "ledger_id": "kr-list-0461",
+      "path": "memes/thats-right-matgoyo.md",
+      "source_sha": "4d37c9574a0eecff9b73d350cde888017c781ed9",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국의 해당 표현·형식을 독립 두 발행 주체의 직접 읽은 본문에서 확인. 뜻풀이·보도된 재사용의 역할은 sources에 구분.",
+      "sources": [
+        {
+          "publisher": "한국경제 생글생글",
+          "url": "https://sgsg.hankyung.com/article/2006060553881",
+          "published_at": "2006-06-12",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "동의 뜻과 반복 운율, 방송·광고 사용 설명"
+        },
+        {
+          "publisher": "전자신문",
+          "url": "https://m.etnews.com/200302040202",
+          "published_at": "2003-02-05",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "휴대전화 음원 서비스의 유행어 재사용 보도"
+        }
+      ],
+      "limitations": [
+        "기사의 대화 예문은 교육용 예시이며 실제 원댓글로 취급하지 않는다.",
+        "정확한 최초 발화·창작일을 확정하지 않는다."
+      ],
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "gil-ad-remix",
+      "title": "길드립",
+      "ledger_id": "kr-list-0462",
+      "path": "memes/gil-ad-remix.md",
+      "source_sha": "77d9175709e2903f36353ac4cda5a21226291e53",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국의 해당 표현·형식을 독립 두 발행 주체의 직접 읽은 본문에서 확인. 뜻풀이·보도된 재사용의 역할은 sources에 구분.",
+      "sources": [
+        {
+          "publisher": "주간경향",
+          "url": "https://weekly.khan.co.kr/article/201003041046221",
+          "published_at": "2010-03-04",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "광고 캡처를 캐릭터로 변주하는 합성 놀이와 브랜드 담당자 인터뷰"
+        },
+        {
+          "publisher": "전자신문",
+          "url": "https://www.etnews.com/201007150046",
+          "published_at": "2010-07-16",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "길 광고 얼굴 합성을 길드립이라 부르는 국내 쓰임 설명"
+        }
+      ],
+      "limitations": [
+        "이미지와 원 광고를 직접 시청하지 않았으며 이미지 복제·사용 허락을 확인한 것은 아니다.",
+        "신체 조롱 파생, 음주 권유, 매출 효과 및 최초 제작자 주장은 제외했다."
+      ],
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "how-many-rice-grains",
+      "title": "밥알이 몇 개고?",
+      "ledger_id": "kr-list-0529",
+      "path": "memes/how-many-rice-grains.md",
+      "source_sha": "3a09b1b5769f7715af256cb6e9d6c9dbc7d005ec",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국의 해당 표현·형식을 독립 두 발행 주체의 직접 읽은 본문에서 확인. 뜻풀이·보도된 재사용의 역할은 sources에 구분.",
+      "sources": [
+        {
+          "publisher": "쿠키뉴스",
+          "url": "https://www.kukinews.com/article/print/kuk202212020129",
+          "published_at": "2022-12-03",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "드라마의 질문 장면과 인물 맥락"
+        },
+        {
+          "publisher": "한국일보",
+          "url": "https://www.hankookilbo.com/news/article/A2023022214030004559",
+          "published_at": "2023-02-28",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "유튜브 성대모사와 예능 프로그램의 대사 재사용 보도"
+        }
+      ],
+      "limitations": [
+        "드라마와 패러디 영상을 직접 시청한 것이 아니라 기사 본문을 확인했다.",
+        "실제 기업인의 일화는 사전 설명에 채택하지 않았다.",
+        "초밥 수량·조리법을 일반 사실로 확정하지 않는다."
+      ],
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "different-footwork",
+      "title": "보법이 다르다",
+      "ledger_id": "kr-list-0544",
+      "path": "memes/different-footwork.md",
+      "source_sha": "b3ce7a5c66a6c18d07e8d72bbdc294dd82760373",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국의 해당 표현·형식을 독립 두 발행 주체의 직접 읽은 본문에서 확인. 뜻풀이·보도된 재사용의 역할은 sources에 구분.",
+      "sources": [
+        {
+          "publisher": "예스24 채널예스",
+          "url": "https://ch.yes24.com/Article/Details/81092",
+          "published_at": "2025-05-09",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "인터뷰 질문에서 실력이 남다르다는 밈 의미를 직접 풀이"
+        },
+        {
+          "publisher": "일요신문",
+          "url": "https://news.nate.com/view/20260112n34220",
+          "published_at": "2026-01-12",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "독특한 단어 선택을 두고 해당 표현을 쓴 온라인 반응 보도"
+        }
+      ],
+      "limitations": [
+        "일요신문은 네이트 전재 본문으로 읽었으며 원댓글을 직접 확인하지 않았다.",
+        "기사 속 음주·개인 서사는 사전 본문에 옮기지 않았다.",
+        "최초 스트리머·무협 기원을 확정하지 않는다."
+      ],
+      "usage_status": "not_annotated"
+    }
+  ],
+  "screening": [
+    {
+      "title": "란란루",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "러시아식 유머",
+      "status": "held",
+      "reason": "한국 내 해당 도치 유머의 재사용을 설명하는 독립 두 본문 근거 미확보."
+    },
+    {
+      "title": "로우바둑이 드립",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "롯데햄 후라이드 치킨",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "마이야히",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "말씀 중에 죄송합니다",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "망했어요",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "맞습니다 맞고요",
+      "status": "ready",
+      "reason": "독립 두 publisher 본문에서 범위와 국내 쓰임 확인"
+    },
+    {
+      "title": "맥스의 길 광고",
+      "status": "ready",
+      "reason": "독립 두 publisher 본문에서 범위와 국내 쓰임 확인"
+    },
+    {
+      "title": "멈뭄미·고먐미",
+      "status": "duplicate",
+      "reason": "coordinator가 기존 수록 확인; 새로 등록하지 않음"
+    },
+    {
+      "title": "모기송",
+      "status": "held",
+      "reason": "위키와 개인 설명 블로그 위주. 다른 담당의 검증 완료 이력은 확인되지 않음."
+    },
+    {
+      "title": "모스카우",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "모 야메룽다",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "무수히 많은 악수의 요청이",
+      "status": "held",
+      "reason": "위키 중심 검색 결과. 다른 담당은 자신의 최근 고정 범위가 아니므로 보류 이력을 단정할 수 없다고 회신."
+    },
+    {
+      "title": "물음표 드립",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "뭉탱이",
+      "status": "assigned_elsewhere",
+      "reason": "contest_inventory wave9에서 독립 두 본문 부족 held로 회신; 중복 조사 제외"
+    },
+    {
+      "title": "미안송",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "민첩한 하루 되세요",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "밤샌 사람 vs 일찍 일어난 사람",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "밥알이 몇 개고",
+      "status": "ready",
+      "reason": "독립 두 publisher 본문에서 범위와 국내 쓰임 확인"
+    },
+    {
+      "title": "방송 되게 못하네",
+      "status": "held",
+      "reason": "두 보도가 같은 방송의 한 발화를 소개하나 개별 밈으로 반복 재사용되는 형식의 근거가 부족."
+    },
+    {
+      "title": "번역기 드립",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "벽부수기",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "보법이 다르다",
+      "status": "ready",
+      "reason": "독립 두 publisher 본문에서 범위와 국내 쓰임 확인"
+    },
+    {
+      "title": "부라더 다메요",
+      "status": "held",
+      "reason": "스포츠동아 보도 후보를 찾았으나 독립 두 publisher 본문 기준 미충족."
+    },
+    {
+      "title": "부리부리 마신 소환 춤",
+      "status": "held",
+      "reason": "대학신문의 참여 사례 검색 후보는 있으나 두 독립 본문 기준 미달; 다른 담당도 직접 근거 확보 기록이 없다고 확인."
+    },
+    {
+      "title": "불만 있냐 물도 있다",
+      "status": "held",
+      "reason": "검색 선별에서 해당 개별 형식의 뜻과 국내 재사용을 연결할 독립 두 publisher 직접 본문을 확보하지 못함. 존재하지 않는다는 판정이 아님."
+    },
+    {
+      "title": "비둘기야 먹자",
+      "status": "held",
+      "reason": "대학 매체의 직접 회고 본문은 확인했으나 인벤 관련 단락 직접 조회가 반복 502로 실패해 독립 두 본문 기준 미달. 검색발췌를 직접 읽기로 승격하지 않음."
+    },
+    {
+      "title": "빅데이터 드립",
+      "status": "held",
+      "reason": "기존 미쳤습니까 휴먼과 상위 형식 관계이며 동의어로 합치지 않음. 별도 표제를 만들 독립 두 본문 근거 미충족."
+    },
+    {
+      "title": "벽돌할아버지 로봇댄스",
+      "status": "held",
+      "reason": "제작자 소개 보도는 있으나 개별 재사용 형식의 독립 두 본문 근거 미충족."
+    }
+  ],
+  "discovery": {
+    "type": "existing_candidate_ledger_from_korean_meme_mirror",
+    "path": "data/korea-candidates.json",
+    "original_namuwiki_access_claimed": false,
+    "new_ledger_ids_created": false
+  },
+  "duplicate_check": {
+    "ref": "929a92327e0c93d6f58c7ca5957f1f4a44ab2995",
+    "index_count": 686,
+    "checked": [
+      "index title/aliases",
+      "pilot-state entries title/aliases",
+      "recursive tree paths",
+      "coordinator pending reservations"
+    ],
+    "normalizer": "lowercase, preserve Korean Hangul and Latin alphanumeric"
+  },
+  "verification": {
+    "ci_run": false,
+    "derived_files_changed": false,
+    "raw_source_body_stored": false,
+    "main_or_pr37_changed": false,
+    "remote_canonical_readback_all_equal": true
+  }
+}
