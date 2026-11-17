@@ -34,3 +34,5 @@
 - [고맙투우사](../memes/thank-you-bullfighter.md)
 - [이모지 뒷모습 공개](../memes/emoji-back-view-reveal.md)
 - [다비치 거북이 챌린지](../memes/davichi-blanket-turtle.md)
+- [로드스터 AI 패러디](../memes/roadster-ai-parody.md)
+- [밀레니얼 vs 젠지 담당자 비교](../memes/millennial-vs-genz-copy.md)

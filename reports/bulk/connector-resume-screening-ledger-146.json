@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 4,
-  "query_observations": 44,
-  "distinct_literal_queries": 42,
+  "source_files": 5,
+  "query_observations": 66,
+  "distinct_literal_queries": 61,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -248,6 +248,137 @@
       "source": "reports/bulk/connector-resume-a148.json",
       "status": "held-unverified",
       "note": "밤편지와 같은 후보 가족이며 크록하 장르 자체는 신조 밈으로 세지 않음"
+    },
+    {
+      "query": "\"비비고\" \"로드스터\"",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "\"크래미\" \"로드스터\"",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "\"카스\" \"로드스터\"",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "\"로드스터\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "\"크래미\" \"로드스터\" instagram",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "\"비비고\" \"로드스터\" instagram",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "\"광주김치축제\" \"로드스터\" instagram",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "밀레니얼",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "millennial-vs-genz-copy"
+    },
+    {
+      "query": "젠지 소셜팀",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "millennial-vs-genz-copy"
+    },
+    {
+      "query": "세대별 담당자",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "millennial-vs-genz-copy"
+    },
+    {
+      "query": "나 OO년생",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "existing-canonical",
+      "canonical": "na-born-year-dance"
+    },
+    {
+      "query": "자기 직업 불법적으로",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "피라미드에도 악플",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "이런 걸로 피곤",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "남쟈 없냐",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "라을라",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "existing-canonical",
+      "canonical": "raeulla"
+    },
+    {
+      "query": "골든이여라",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "existing-canonical",
+      "canonical": "golden-iyeora"
+    },
+    {
+      "query": "책없쾌",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "오살힘",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "사보필",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과자 사꾸",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "누가 돌아왔게",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "existing-canonical",
+      "canonical": "who-is-back-from-prison"
     }
   ],
   "semantic_duplicates": [
