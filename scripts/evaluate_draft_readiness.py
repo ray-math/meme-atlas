@@ -14,6 +14,11 @@ def evaluate(root=ROOT, candidates=None):
     if not selected or selected-IDS:
         raise ValueError('candidate IDs must be a nonempty subset of the reviewed expansion set')
     original=build_usage_index(root)
+    present={entry['id']:entry for entry in original['entries']}
+    missing=selected-set(present)
+    empty={identity for identity in selected if identity in present and not present[identity]['usages']}
+    if missing or empty:
+        raise ValueError('selected profiles missing or without usages: '+','.join(sorted(missing|empty)))
     vocab=load_vocabulary(root)
     staged=copy.deepcopy(original)
     for entry in staged['entries']:
@@ -38,7 +43,8 @@ def evaluate(root=ROOT, candidates=None):
             checks={'lookup_retrieves_own_usage':key in keys(lookup),
                     'recommend_respects_safety':(key in keys(recommend))==(usage['safety']=='standard'),
                     'opposite_target_does_not_retrieve_same_usage':key not in keys(opposite_result),
-                    'unknown_emotion_not_inferred': all(key not in keys(search(staged,vocab,mode='lookup',limit=100,emotions=[emotion],**filters)) for emotion in ['기쁨','결의']),
+                    'unknown_emotion_contract': usage['emotion_status']=='unknown' and usage['emotions']==[],
+                    'joy_resolve_filters_do_not_match': all(key not in keys(search(staged,vocab,mode='lookup',limit=100,emotions=[emotion],**filters)) for emotion in ['기쁨','결의']),
                     'context_contract_visible':all(h.get('requires_context_check') is True and h['usage']['avoid_when'] and h['usage']['example']['kind']=='editorial' for h in lookup['results']),
                     'actual_draft_is_unpublished':key not in keys(actual) if entry['id'] in {
                         e['id'] for e in original['entries'] if e['review_status']=='draft'} else True}
@@ -47,7 +53,7 @@ def evaluate(root=ROOT, candidates=None):
                          'lookup_candidates':sorted(':'.join(k) for k in keys(lookup)),
                          'recommend_candidates':sorted(':'.join(k) for k in keys(recommend)),
                          'passed':all(checks.values())})
-    drift=[]
+    drift=[];plan_errors=[]
     for group in ['audit','editorial']:
         plans=[]
         for source in ['regression-v3','challenge']:
@@ -58,6 +64,10 @@ def evaluate(root=ROOT, candidates=None):
                 continue
             before=search(original,vocab,**plan['filters'])
             after=search(staged,vocab,**plan['filters'])
+            for phase,result in [('before',before),('after',after)]:
+                if result.get('status') not in ('matches','no_match'):
+                    plan_errors.append({'evaluation_set':plan['evaluation_set'],'id':plan['id'],
+                                        'phase':phase,'status':result.get('status'),'reason':result.get('reason')})
             def hits(result):
                 return [h['entry_id']+':'+h['usage_id'] for h in result['results']]
             if hits(before)!=hits(after):
@@ -70,6 +80,8 @@ def evaluate(root=ROOT, candidates=None):
                            'A pass does not validate source truth, context appropriateness, or generation safety.'],
             'staged_public_candidate_drift':drift,
             'candidate_profiles':sorted(selected),
+            'evaluated_profile_counts':{identity:sum(r['entry_id']==identity for r in rows) for identity in sorted(selected)},
+            'plan_errors':plan_errors,
             'total':len(rows),'passed':sum(r['passed'] for r in rows),'results':rows}
 
 if __name__=='__main__':
@@ -83,7 +95,7 @@ if __name__=='__main__':
     except ValueError as exc:
         parser.exit(2,str(exc)+'\n')
     print(json.dumps(result,ensure_ascii=False,indent=2))
-    passed=result['total']>0 and result['passed']==result['total']
+    passed=result['total']>0 and result['passed']==result['total'] and not result['plan_errors']
     if args.fail_on_drift and result['staged_public_candidate_drift']:
         passed=False
     raise SystemExit(0 if passed else 1)
