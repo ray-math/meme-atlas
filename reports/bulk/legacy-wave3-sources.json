@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave3",
+  "status": "collecting",
+  "created_at": "2026-11-17",
+  "base_ref": "e250a4ffba3c878da35920236e0c0a9c9a0099d6",
+  "purpose": "별도 소스 브랜치 누적. 통합 전 검토용이며 공개 주석이나 최근 관측 승격이 아님.",
+  "counts": {
+    "ready": 4
+  },
+  "entries": [
+    {
+      "entry_id": "heoijja",
+      "title": "허이짜~",
+      "ledger_id": "kr-list-1126",
+      "path": "memes/heoijja.md",
+      "source_sha": "0462b30bdbfa0dafbee5285978d34c6c88634c57",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "화상고 기합 및 네이버 광고 응용; 시민기자 방송리뷰, 코너의 기합 유행어 및 재현",
+      "sources": [
+        {
+          "publisher": "경향신문",
+          "url": "https://www.khan.co.kr/article/200504201741591/amp",
+          "published_at": "2005-04-20",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "화상고 기합 및 네이버 광고 응용"
+        },
+        {
+          "publisher": "오마이뉴스",
+          "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0000253715",
+          "published_at": "2005-05-06",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "시민기자 방송리뷰, 코너의 기합 유행어 및 재현"
+        }
+      ],
+      "limitations": "개그 기합 흉내 범위. 실제 무술 동작/효과/건강사실 제외.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "jjam-vibe",
+      "title": "짬에서 나오는 바이브",
+      "ledger_id": "kr-list-0970",
+      "path": "memes/jjam-vibe.md",
+      "source_sha": "7e1f065a34a71a8a57438ab521a68907a2a5044a",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "노련미 뜻과 인터뷰 연재명 실사용; 스포츠 기사에서 베테랑의 능숙함 칭찬 실사용",
+      "sources": [
+        {
+          "publisher": "바이라인네트워크",
+          "url": "https://byline.network/2022/12/07_qroad_interview/",
+          "published_at": "2022-12-07",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "노련미 뜻과 인터뷰 연재명 실사용"
+        },
+        {
+          "publisher": "경향신문",
+          "url": "https://www.khan.co.kr/article/202005122111015",
+          "published_at": "2020-05-12",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "스포츠 기사에서 베테랑의 능숙함 칭찬 실사용"
+        }
+      ],
+      "limitations": "최초 쇼미 시즌 기사간 충돌로 기원 확정 제외; 노련미 표현이지 실제 경력 자동 증명 아님.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "pepsiman-jokes",
+      "title": "펩시맨 시리즈",
+      "ledger_id": "kr-list-1065",
+      "path": "memes/pepsiman-jokes.md",
+      "source_sha": "42eb92d5589dddc5ccaba02edc1cc27642bfb42e",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "PC통신 유머 지면에 펩시맨 시리즈 두 편 수록; PC통신 유머의 펩시맨 시리즈 유행 회고",
+      "sources": [
+        {
+          "publisher": "전자신문",
+          "url": "https://www.etnews.com/199803280011",
+          "published_at": "1998-03-28",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "PC통신 유머 지면에 펩시맨 시리즈 두 편 수록"
+        },
+        {
+          "publisher": "조선일보",
+          "url": "https://srchdb1.chosun.com/pdf/i_service/pdf_ReadBody.jsp?D=24&ID=9903243504&M=03&Y=1999",
+          "published_at": "1999-03-24",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "PC통신 유머의 펩시맨 시리즈 유행 회고"
+        }
+      ],
+      "limitations": "상품/광고 전반 아닌 펩시맨을 주인공으로 한 텍스트 유머. 기존 유머 전문 복제하지 않음.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "we-wont-make-it",
+      "title": "우린 안될 거야 아마",
+      "ledger_id": "kr-list-0818",
+      "path": "memes/we-wont-make-it.md",
+      "source_sha": "70669818d200907a1e758082a765c479fc24ebd6",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "반드시 크게 들을 것 감독 인터뷰와 자조 대사 확인; 별도 영화 칼럼이 다큐의 문구를 유행어로 재인용",
+      "sources": [
+        {
+          "publisher": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20100411001700005",
+          "published_at": "2010-04-11",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "반드시 크게 들을 것 감독 인터뷰와 자조 대사 확인"
+        },
+        {
+          "publisher": "동아사이언스",
+          "url": "https://www.dongascience.com/news/14296",
+          "published_at": "2016-10-20",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "별도 영화 칼럼이 다큐의 문구를 유행어로 재인용"
+        }
+      ],
+      "limitations": "인터넷 원 게시물 직접 열람 아님, 정확한 유행 시작/원 발언 인접 맥락 단정 제외. 타인의 가능성 단정 아님.",
+      "original_examples": "editorial; no claim of direct user post",
+      "usage_status": "not_annotated"
+    }
+  ],
+  "held": [
+    {
+      "title": "옥동자",
+      "reason": "이번 안전 묶음에서 인물/외모 조롱보다 독립 표현 우선, 미수록."
+    },
+    {
+      "title": "초난강",
+      "reason": "합성 현상의 독립 본문 두 개 미충족."
+    },
+    {
+      "title": "호롤롤로",
+      "reason": "미러 외 독립 재사용 본문 미충족."
+    }
+  ],
+  "verification": {
+    "ci_run": false,
+    "derived_files_changed": false,
+    "raw_source_body_stored": false
+  }
+}
