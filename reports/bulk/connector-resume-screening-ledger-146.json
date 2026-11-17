@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 7,
-  "query_observations": 112,
-  "distinct_literal_queries": 94,
+  "source_files": 8,
+  "query_observations": 124,
+  "distinct_literal_queries": 101,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -654,6 +654,69 @@
       "query": "주술 회전샷",
       "source": "reports/bulk/connector-resume-a152.json",
       "status": "held-unverified"
+    },
+    {
+      "query": "책없쾌",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "accepted-family",
+      "canonical": "chaegeopkwae"
+    },
+    {
+      "query": "책임 없는 쾌락",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "accepted-family",
+      "canonical": "chaegeopkwae"
+    },
+    {
+      "query": "오살힘",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "사보필",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "무공해",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "멜라토닌 먹고 꾸는 꿈",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "Forgot Airpod",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과자 사꾸",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과자 사진 꾸미기",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "자기 직업 불법적으로",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "직업 나쁘게 말하기",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "야르송",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "existing-family",
+      "canonical": "yareu-song"
     }
   ],
   "semantic_duplicates": [

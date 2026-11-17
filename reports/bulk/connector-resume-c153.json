@@ -1,0 +1,92 @@
+{
+  "base": "3e854d9c2aae3959053ba17a8f13ca11b785b4c2",
+  "entries": [
+    {
+      "id": "chaegeopkwae",
+      "sources": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20260721114800011",
+          "observed": "2026-07-22 관객 취재와 책없쾌 SNS 관람 후기 보고."
+        },
+        {
+          "url": "https://weekly.khan.co.kr/article/202608010600021",
+          "observed": "2026-08-01 필자가 야구 관람과 자신의 유튜브 출연 경험에 직접 적용."
+        }
+      ],
+      "evidence_level": "독립 보도1곳+필자의 직접 적용 칼럼1곳. SNS 원문 직접 확인 아님.",
+      "bounds": "최초 탄생/유행량 단정 없음. 정치적 평가를 사실로 전환하지 않음."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "책없쾌",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "accepted-family",
+      "canonical": "chaegeopkwae"
+    },
+    {
+      "query": "책임 없는 쾌락",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "accepted-family",
+      "canonical": "chaegeopkwae"
+    },
+    {
+      "query": "오살힘",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "사보필",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "무공해",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "멜라토닌 먹고 꾸는 꿈",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "Forgot Airpod",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과자 사꾸",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과자 사진 꾸미기",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "자기 직업 불법적으로",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "직업 나쁘게 말하기",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "야르송",
+      "source": "reports/bulk/connector-resume-c153.json",
+      "status": "existing-family",
+      "canonical": "yareu-song"
+    }
+  ],
+  "checks": {
+    "result_entries": 864,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}
