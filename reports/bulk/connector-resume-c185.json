@@ -1,0 +1,52 @@
+{
+  "base": "d2ce4ba76757fee7e80e16bb8d210c1eb235a9f7",
+  "canonical_before": 891,
+  "canonical_after": 892,
+  "accepted": [
+    "stop-stop-it-challenge"
+  ],
+  "explicit_queries": [
+    "하지하지마",
+    "GOT7",
+    "갓세븐",
+    "Stop Stop",
+    "다비치 거북이",
+    "김민 따라하기",
+    "젠모지",
+    "럼펠스틸츠킨",
+    "칠레 밈",
+    "점점 커지는 색소폰",
+    "다 같이 길 막는 중",
+    "폴리에스터 편집",
+    "니콜키드먼 챌린지"
+  ],
+  "sources": [
+    {
+      "url": "https://v.daum.net/v/20260713101241115",
+      "evidence": "83–88행 유겸 개인 SNS 별도 참여",
+      "excluded": "90행 연도/앨범 설명은 자료 충돌 우려 있어 사용하지 않음"
+    },
+    {
+      "url": "https://www.dailian.co.kr/news/view/1714351",
+      "evidence": "109–111행 계훈·동화·제이비 합동 참여",
+      "published": "2026-11-13",
+      "modified": "2026-11-15"
+    }
+  ],
+  "existing": {
+    "candidate": "다비치 거북이",
+    "canonical": "davichi-blanket-turtle"
+  },
+  "held": [
+    "김민 따라하기:형식 분리와 실제참여 필요",
+    "젠모지:도구 기능과 밈 구분 필요",
+    "럼펠스틸츠킨·칠레 밈·점점 커지는 색소폰·다 같이 길 막는 중:독립 한국 사용 부족",
+    "폴리에스터 편집:실제 적용 부족",
+    "니콜키드먼 챌린지:목록 단서뿐"
+  ],
+  "limits": [
+    "원영상 미시청",
+    "세부 동작·최초·규모 미확정",
+    "Python/CI 미실행"
+  ]
+}

@@ -38,10 +38,11 @@
     "reports/bulk/connector-resume-holds181.json",
     "reports/bulk/connector-resume-c182.json",
     "reports/bulk/connector-resume-a183.json",
-    "reports/bulk/connector-resume-hold-audit184.json"
+    "reports/bulk/connector-resume-hold-audit184.json",
+    "reports/bulk/connector-resume-c185.json"
   ],
-  "query_observations": 598,
-  "distinct_literal_queries": 488,
+  "query_observations": 611,
+  "distinct_literal_queries": 500,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3234,6 +3235,71 @@
       "query": "\"퇴사할게여\" \"챌린지\" \"공무원\"",
       "source": "reports/bulk/connector-resume-hold-audit184.json",
       "status": "held-see-report"
+    },
+    {
+      "query": "하지하지마",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "GOT7",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갓세븐",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Stop Stop",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "다비치 거북이",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김민 따라하기",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "젠모지",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "럼펠스틸츠킨",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "칠레 밈",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "점점 커지는 색소폰",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "다 같이 길 막는 중",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "폴리에스터 편집",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "니콜키드먼 챌린지",
+      "source": "reports/bulk/connector-resume-c185.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [

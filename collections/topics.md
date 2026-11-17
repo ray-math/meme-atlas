@@ -960,6 +960,7 @@
 - [텔미 춤 따라하기](../memes/tell-me-dance.md)
 - [트로피카나 스파클링](../memes/tropicana-dance.md)
 - [플렉스](../memes/flex.md)
+- [하지하지마 챌린지](../memes/stop-stop-it-challenge.md)
 - [형이 왜 거기서 나와](../memes/why-are-you-there.md)
 - [혹시 그거 알아 그대 농협은행](../memes/nonghyup-flirting.md)
 - [힙사사돈 챌린지](../memes/hipsasadon.md)
@@ -980,6 +981,7 @@
 - [스톰 챌린지](../memes/storm-ii-challenge.md)
 - [일하는 중에 갑자기 몸이 안 좋아졌어요](../memes/suddenly-sick-fan-trip.md)
 - [젓가락 워킹](../memes/chopstick-runway.md)
+- [하지하지마 챌린지](../memes/stop-stop-it-challenge.md)
 
 ## 인터넷방송
 

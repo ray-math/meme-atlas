@@ -838,6 +838,7 @@
 - [하이루](hairu.md)
 - [하지만 드라군이 출동하면 어떨까?](dragoon-comment-chain.md)
 - [하지만 빨랐죠](but-it-was-fast.md)
+- [하지하지마 챌린지](stop-stop-it-challenge.md)
 - [학계의 정설](academic-consensus.md)
 - [한 뚝배기 하실래예?](one-bowl-please.md)
 - [한국인이 좋아하는 속도](korean-preferred-speed.md)
