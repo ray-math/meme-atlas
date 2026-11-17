@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave17",
+  "status": "ready_for_independent_editorial_review",
+  "created_at": "2026-11-17",
+  "base_ref": "219359e18969fe4213ac18ff90407a473bd2a128",
+  "counts": {
+    "explicit_candidate_scope": 5,
+    "ready": 1,
+    "held": 4,
+    "prior_held_researched": 0,
+    "index_count": 819
+  },
+  "entries": [
+    {
+      "entry_id": "working-on-it-anycall",
+      "title": "어, 작업 중이야",
+      "ledger_id": "kr-list-0748",
+      "path": "memes/working-on-it-anycall.md",
+      "source_sha": "c2a39e4aa91d2acabbd3935f65efdfdd88907996",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 휴대폰 광고의 이중 의미 대답이 국내 광고 회고와 후속 재연 보도에서 확인됨.",
+      "sources": [
+        {
+          "publisher": "전자신문",
+          "url": "https://www.etnews.com/200401060073",
+          "published_at": "2004-01-09",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "사진 촬영 중 전화 대답의 장면과 작업의 이중 의미를 광고 소개 본문에서 설명.",
+          "limitations": "URL의 1월6일과 실제 화면 발행일 1월9일을 구별. 원광고 영상은 직접 재생하지 않음. 배우 사생활 관련 문장은 수록하지 않음."
+        },
+        {
+          "publisher": "아이뉴스24",
+          "url": "https://v.daum.net/v/20220727130050479",
+          "published_at": "2022-07-27",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "빌리 공식 채널의 복고 광고 재연에서 해당 대답과 사진 촬영 장면을 함께 패러디했다고 보도.",
+          "limitations": "다음 전재를 별개 매체로 세지 않음. 자동요약이 아닌 기자 본문을 읽음. 영상 직접 시청 및 원댓글 확인은 하지 않음."
+        },
+        {
+          "publisher": "스포츠경향",
+          "url": "https://sports.khan.co.kr/article/201601211537173/amp",
+          "published_at": "2016-01-21",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17",
+          "supports": "휴대폰 광고 회고에서 대답을 따라 하던 유행어로 설명.",
+          "limitations": "기사의 광범위한 남성 사용 표현은 실측 빈도로 재사용하지 않음. 최초 방영일 단정하지 않음."
+        }
+      ],
+      "limitations": [
+        "일반 업무 보고 전체와 광고 패러디를 구분.",
+        "현재 유행이나 최근 관측으로 등록하지 않음.",
+        "자체 예문이며 실제 발화로 표기하지 않음."
+      ],
+      "usage_status": "not_annotated"
+    }
+  ],
+  "held": [
+    {
+      "ledger_id": "kr-list-0236",
+      "reason": "정확문구 및 줄임형 검색에서 위키 파생과 사용자 댓글 외 두 독립 발행 주체의 의미·재사용 직접 본문을 확보하지 못함."
+    },
+    {
+      "ledger_id": "kr-list-0241",
+      "reason": "기사 검색에 스포츠 사건 관련 재사용과 일반 격려 제목이 섞임. 사건 세부 없이 좁은 형식을 설명할 독립 두 본문 확인에 이르지 못함. 검색 결과를 직접 본문 확인으로 세지 않음."
+    },
+    {
+      "ledger_id": "kr-list-0242",
+      "reason": "드라마 기반 짤과 후대 낚시형 및 평범한 부정문이 혼재. 위키 파생 외 독립 두 본문으로 원형과 쓰임을 연결하지 못함."
+    },
+    {
+      "ledger_id": "kr-list-0318",
+      "reason": "정확문구와 축약 검색에 관련 독립 기사 본문이 확보되지 않음. 부재나 사용 없음의 증명은 아님."
+    }
+  ],
+  "duplicate_check": {
+    "index_ref": "219359e18969fe4213ac18ff90407a473bd2a128",
+    "normalized_title_alias_matches": 0,
+    "new_path_exists": false,
+    "history_reference": "reports/bulk/legacy-ledger-reconciliation-2026-11-17.json",
+    "history_fixed_ref": "92a4d671aadd360144c3fa14afafffbb61ac9002",
+    "history_manifests_checked": 65,
+    "history_exact_candidate_phrase_matches": 0,
+    "note": "미연결 517개를 미조사라고 가정하지 않음. 이번 명시 범위 5개만 조사하며 기존 held 재조사를 새 발굴로 합산하지 않음."
+  },
+  "verification": {
+    "ci_run": false,
+    "main_changed": false,
+    "pr37_changed": false,
+    "ledger_changed": false,
+    "usage_changed": false,
+    "generated_artifacts": false
+  }
+}
