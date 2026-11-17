@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "but-the-question"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 357,
+    "annotated_entries": 74,
+    "reviewed_entries": 73,
+    "unannotated_entries": 283
+  },
+  "provisional_reviewed_entries": 74,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "results": [
+    {
+      "id": "P-turn",
+      "prompt": "이미 제공된 사소한 반전 내용을 꺼내면서, 진지한 시사 진행을 연상시키는 문장으로 이야기의 분위기를 바꾸고 싶다.",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    },
+    {
+      "id": "P-missing",
+      "prompt": "전환 뒤에 이어질 반전 내용이 입력에 없는데 새 사실을 만들어 넣는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "P-official",
+      "prompt": "공식 감사·피해·범죄 의혹을 가벼운 패러디로 다루는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "P-suspect",
+      "prompt": "근거 없는 의심을 새로 만들거나 공개 망신을 주려는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "P-authority",
+      "prompt": "진행 말투를 근거로 사실·책임·권위를 판정하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "P-voice",
+      "prompt": "텍스트 문구를 실제 인물의 음성 재현이나 실제 방송 발화로 주장하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "K-infer",
+      "prompt": "확인한 정황에서 가벼운 사건이나 콘텐츠의 가능성을 추측하면서 표현을 과장한다. 실존 인물의 혐의를 지목하지 않고, 결론이 아직 확인되지 않았음을 유지하는 상황에 한정한다.",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    },
+    {
+      "id": "A14",
+      "prompt": "친구가 내 촌스러운 셀카 포즈를 따라 해서 둘 다 웃었어. 영화처럼 엄숙하게 장난 항의하고 싶어. 진짜 싸움은 아니야.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "장난스러운항의"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 357,
+          "annotated_entries": 74,
+          "reviewed_entries": 73,
+          "unannotated_entries": 283
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "you-insulted-me",
+            "title": "넌 나에게 모욕감을 줬어",
+            "path": "memes/you-insulted-me.md",
+            "domain_tags": [
+              "영화"
+            ],
+            "usage_id": "mock-serious-protest",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "장난스러운항의"
+              ]
+            },
+            "usage": {
+              "id": "mock-serious-protest",
+              "emotions": [
+                "민망함"
+              ],
+              "intents": [
+                "장난스러운항의"
+              ],
+              "situations": [
+                "가벼운놀림"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "갈등오인"
+              ],
+              "safety": "caution",
+              "context": "사소한 놀림에 과하게 엄숙한 영화 말투로 반응한다.",
+              "avoid_when": [
+                "실제 갈등이나 위협으로 오해할 상황"
+              ],
+              "example": {
+                "text": "내 그림을 감자라고 하다니. 넌 나에게 모욕감을 줬어.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "5fec4ef4433c320df3cb88779c29dcd0ea6ad4f7",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "kingbatne",
+            "title": "킹받네",
+            "path": "memes/kingbatne.md",
+            "domain_tags": [
+              "인터넷방송"
+            ],
+            "usage_id": "amused-irritation",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "장난스러운항의"
+              ]
+            },
+            "usage": {
+              "id": "amused-irritation",
+              "emotions": [
+                "짜증",
+                "재미"
+              ],
+              "intents": [
+                "장난스러운항의"
+              ],
+              "situations": [
+                "얄미운농담",
+                "말장난"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "관계의존"
+              ],
+              "safety": "caution",
+              "context": "서로 장난이 통하는 사이에서 웃음 섞인 약 오름을 표현한다.",
+              "avoid_when": [
+                "상대가 진지하게 사과하거나 고통을 말할 때"
+              ],
+              "example": {
+                "text": "그 아재개그 또 했어? 웃긴데 킹받네.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "089d5e4a0d0d277ec60b5f730d7ebee2ca8dc381",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    }
+  ]
+}
