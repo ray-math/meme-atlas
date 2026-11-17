@@ -4,7 +4,7 @@
   "coverage": {
     "dictionary_entries": 354,
     "annotated_entries": 64,
-    "reviewed_entries": 62,
+    "reviewed_entries": 64,
     "unannotated_entries": 290
   },
   "entries": [
@@ -653,8 +653,8 @@
       "path": "memes/deogeop-ilchi.md",
       "aliases": [],
       "source_sha": "48c9ae497d772bc923b4ff6501f34f04c8f43eb2",
-      "review_status": "draft",
-      "review_note": "본인의 지속적인 관심 분야와 현재 실제 업무의 연결을 설명하는 좁은 용법이다. 자랑·만족·행복을 자동 부여하지 않는다. 지정 커밋의 canonical 본문·source_sha와 현재 vocabulary는 GitHub에서 직접 확인했다. 외부 기사 내용은 별도 조사 담당의 직접 확인 보고를 참고했으며 이번 작성자가 외부 원문을 재독했다고 주장하지 않는다. 예문은 개인정보 없는 편집 창작이며 안전 등급·사용 경계는 편집 판단이다.",
+      "review_status": "reviewed",
+      "review_note": "본인의 지속적인 관심 분야와 현재 실제 업무의 연결을 설명하는 좁은 용법이다. 자랑·만족·행복을 자동 부여하지 않는다. 지정 커밋의 canonical 본문·source_sha와 현재 vocabulary는 GitHub에서 직접 확인했다. 외부 기사 내용은 별도 조사 담당의 직접 확인 보고를 참고했으며 이번 작성자가 외부 원문을 재독했다고 주장하지 않는다. 예문은 개인정보 없는 편집 창작이며 안전 등급·사용 경계는 편집 판단이다. 공개 context 기반 10건 실제 Python 검색과 최종 AI 응답, 별도 AI 편집 검토를 거쳐 좁은 용법만 검토했다. 인간·새 블라인드 정확도, 실제 직업 조건·교류의 공식성·동의를 인증하지 않는다.",
       "usages": [
         {
           "id": "own-interest-became-work",
@@ -3343,8 +3343,8 @@
       "path": "memes/seongdeok.md",
       "aliases": [],
       "source_sha": "339edafb707f77c5bbab18efd48529165cca93a8",
-      "review_status": "draft",
-      "review_note": "자신이 좋아해 온 대상과 바라던 교류를 실제 경험한 자기 설명으로 좁혔다. 공식 마련된 만남은 이번 편집 맥락의 조건이며 모든 사전 용법의 필요조건이라고 주장하지 않는다. 지정 커밋의 canonical 본문·source_sha와 현재 vocabulary는 GitHub에서 직접 확인했다. 외부 기사 내용은 별도 조사 담당의 직접 확인 보고를 참고했으며 이번 작성자가 외부 원문을 재독했다고 주장하지 않는다. 예문은 개인정보 없는 편집 창작이며 안전 등급·사용 경계는 편집 판단이다.",
+      "review_status": "reviewed",
+      "review_note": "자신이 좋아해 온 대상과 바라던 교류를 실제 경험한 자기 설명으로 좁혔다. 공식 마련된 만남은 이번 편집 맥락의 조건이며 모든 사전 용법의 필요조건이라고 주장하지 않는다. 지정 커밋의 canonical 본문·source_sha와 현재 vocabulary는 GitHub에서 직접 확인했다. 외부 기사 내용은 별도 조사 담당의 직접 확인 보고를 참고했으며 이번 작성자가 외부 원문을 재독했다고 주장하지 않는다. 예문은 개인정보 없는 편집 창작이며 안전 등급·사용 경계는 편집 판단이다. 공개 context 기반 10건 실제 Python 검색과 최종 AI 응답, 별도 AI 편집 검토를 거쳐 좁은 용법만 검토했다. 인간·새 블라인드 정확도, 실제 직업 조건·교류의 공식성·동의를 인증하지 않는다.",
       "usages": [
         {
           "id": "own-hoped-for-fan-meeting",
