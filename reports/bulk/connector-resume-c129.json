@@ -1,0 +1,33 @@
+{
+  "batch": "connector-resume-c129",
+  "base": "aefa6a4c9c69aea66b1140e4651abcf11438478e",
+  "id": "overwhelming-gratitude",
+  "classification": "과거 조사 후보 근거 재열람, 현재 원격 신규 수록",
+  "sources": [
+    {
+      "url": "https://medico.tistory.com/1615",
+      "observed": "82~88행 자신의 경험에 압도적감사 짤을 사용하며 카이지 출처 명시. 대출조건·금융계산·조언은 미검증이며 수록하지 않음."
+    },
+    {
+      "url": "https://maremaremare.tistory.com/3",
+      "observed": "41~43행 란마 재제작에 감사하며 문구 적용, 카이지 명시. 주변 성적 묘사는 수록하지 않음."
+    }
+  ],
+  "independent_usage_events": 2,
+  "bounds": "같은 플랫폼이나 다른작성자·대상·글. 원작의 최초 발화/한국어최초번역·유행규모 미확정. 일반 감사 모두를 밈으로 간주하지 않음.",
+  "checks": {
+    "base_entries": 837,
+    "result_entries": 838,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  },
+  "candidate_screen": {
+    "screened": 12,
+    "accepted": 1,
+    "already_present": 1,
+    "unverified": 10
+  }
+}
