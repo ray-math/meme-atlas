@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "report": "bounded-10-pair-canonical-meaning-qa",
+  "date": "2026-11-17",
+  "method": "기존 canonical 및 고정 pending 본문의 의미 QA. 최근 외부 출처를 다시 읽은 조사나 최초 유래 검증이 아님.",
+  "canonical_ref": "9f88b579",
+  "canonical_count": 726,
+  "pending_refs": [
+    "3e95afa980838d1b1e3f6b0eef6e1ded9428f930",
+    "c8b0b035cb1657534d6733ea4f033d14ba51c5eb"
+  ],
+  "counts": {
+    "pairs": 10,
+    "same_concept_in_current_definitions": 1,
+    "related_distinct_form": 8,
+    "uncertain": 1
+  },
+  "pairs": [
+    {
+      "pair_id": 1,
+      "label": "인생짤 / 인생샷",
+      "left": {
+        "title": "인생짤",
+        "ref": "3e95afa980838d1b1e3f6b0eef6e1ded9428f930",
+        "path": "memes/insaeng-jjal.md",
+        "read": "pending_full_body"
+      },
+      "right": {
+        "title": "인생샷",
+        "ref": "c8b0b035cb1657534d6733ea4f033d14ba51c5eb",
+        "path": "memes/insaeng-shot.md",
+        "read": "pending_full_body"
+      },
+      "classification": "same_concept_in_current_definitions",
+      "basis": "두 본문 모두 인생에서 손꼽을 만큼 잘 나온 사진을 과장해 칭찬하는 정의다. 팬 문화와 여행 용례 차이만으로 다른 개념임이 입증되지 않는다.",
+      "editorial_note": "통합 검토 우선순위 높음. 원출처 의미범위 재검토 전 삭제·alias 변경은 하지 않음.",
+      "action_taken": "none"
+    },
+    {
+      "pair_id": 2,
+      "label": "짤방 / 짤줍",
+      "left": {
+        "title": "짤방",
+        "path": "memes/jjalbang.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "right": {
+        "title": "짤줍",
+        "ref": "c8b0b035cb1657534d6733ea4f033d14ba51c5eb",
+        "path": "memes/jjaljup.md",
+        "read": "pending_full_body"
+      },
+      "classification": "related_distinct_form",
+      "basis": "짤방은 이미지라는 대상, 짤줍은 이미지를 찾아 저장하는 행동이다. 짤줍 본문이 이 차이를 직접 명시한다.",
+      "editorial_note": "대상과 행동을 별도 검색 의도로 유지.",
+      "action_taken": "none"
+    },
+    {
+      "pair_id": 3,
+      "label": "오하운 / 오운완",
+      "left": {
+        "title": "오하운",
+        "path": "memes/ohawoon.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "right": {
+        "title": "오운완",
+        "path": "memes/ounwan.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "classification": "related_distinct_form",
+      "basis": "운동 일상을 기록하는 말과 운동 완료를 알리는 말이다. 같은 SNS 사진에 붙을 수 있지만 완료 조건이 다르다.",
+      "editorial_note": "동의 alias로 묶지 않음.",
+      "action_taken": "none"
+    },
+    {
+      "pair_id": 4,
+      "label": "폴꾸 / 탑꾸",
+      "left": {
+        "title": "폴꾸",
+        "path": "memes/polkku.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "right": {
+        "title": "탑꾸",
+        "path": "memes/toploader-kku.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "classification": "related_distinct_form",
+      "basis": "꾸미는 대상이 사진 자체와 사진 보호 케이스로 다르다. 두 본문이 상호 차이를 명시한다.",
+      "editorial_note": "상위 꾸미기 관계만 고려.",
+      "action_taken": "none"
+    },
+    {
+      "pair_id": 5,
+      "label": "시강 / 존재감류",
+      "left": {
+        "title": "시강",
+        "ref": "c8b0b035cb1657534d6733ea4f033d14ba51c5eb",
+        "path": "memes/sigang.md",
+        "read": "pending_full_body"
+      },
+      "right": {
+        "title": "존재감류",
+        "path": null,
+        "ref": "9f88b579",
+        "read": "index_search_only_no_named_counterpart"
+      },
+      "classification": "uncertain",
+      "basis": "시강은 눈길을 끄는 사람·사물·장면이라는 정의다. 최신726에서 존재감이라는 별도 표제를 확인하지 못해 두 본문의 동등 비교가 불가능하다.",
+      "editorial_note": "존재감류를 임의의 새 항목처럼 만들거나 동일 개념으로 확정하지 않음.",
+      "action_taken": "none"
+    },
+    {
+      "pair_id": 6,
+      "label": "~각 / 떡상(떡상각)",
+      "left": {
+        "title": "~각",
+        "path": "memes/gak-situation.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "right": {
+        "title": "떡상",
+        "path": "memes/tteoksang.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "classification": "related_distinct_form",
+      "basis": "각은 가능성·타이밍을 붙이는 생산적 형식이다. 떡상은 급상승 사건이며 떡상각은 그 사건에 가능성 접미형식을 적용한 예다.",
+      "editorial_note": "떡상각을 제3의 독립 밈으로 증식할 필요가 있는지는 별도 판단.",
+      "action_taken": "none"
+    },
+    {
+      "pair_id": 7,
+      "label": "다꾸 / 폴꾸",
+      "left": {
+        "title": "다꾸",
+        "path": "memes/diary-kku.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "right": {
+        "title": "폴꾸",
+        "path": "memes/polkku.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "classification": "related_distinct_form",
+      "basis": "기록장 페이지를 꾸미는 일과 폴라로이드 사진을 꾸미는 일은 대상과 결과물이 다르다.",
+      "editorial_note": "관련 취미지만 별도 정의 유지.",
+      "action_taken": "none"
+    },
+    {
+      "pair_id": 8,
+      "label": "레게노 / 폼 미쳤다",
+      "left": {
+        "title": "레게노",
+        "path": "memes/legeno.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "right": {
+        "title": "폼 미쳤다",
+        "path": "memes/form-michyeotda.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "classification": "related_distinct_form",
+      "basis": "두 말 모두 칭찬에 쓰이지만 레게노는 황당한 사건의 반어 평가도 포함하며 폼 미쳤다는 현재 기량·표현력·완성도를 중심으로 한다. 발화 형식도 다르다.",
+      "editorial_note": "감정 태그 유사성이 개념 동일성을 뜻하지 않음.",
+      "action_taken": "none"
+    },
+    {
+      "pair_id": 9,
+      "label": "억텐 / 저세상 텐션",
+      "left": {
+        "title": "억텐",
+        "path": "memes/eokten.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "right": {
+        "title": "저세상 텐션",
+        "path": "memes/jeose-sang-tension.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "classification": "related_distinct_form",
+      "basis": "억텐은 호응의 억지스러움, 저세상 텐션은 흥과 활기의 정도를 평가한다. 억지 여부와 강도는 다른 축이다.",
+      "editorial_note": "사람의 속마음을 추정하는 자동 추천 조건 주의.",
+      "action_taken": "none"
+    },
+    {
+      "pair_id": 10,
+      "label": "인생샷 / 인증샷",
+      "left": {
+        "title": "인생샷",
+        "ref": "c8b0b035cb1657534d6733ea4f033d14ba51c5eb",
+        "path": "memes/insaeng-shot.md",
+        "read": "pending_full_body"
+      },
+      "right": {
+        "title": "인증샷",
+        "path": "memes/proof-photo.md",
+        "ref": "9f88b579",
+        "read": "canonical_full_body"
+      },
+      "classification": "related_distinct_form",
+      "basis": "인생샷은 사진이 잘 나왔다는 평가이고 인증샷은 경험·성취를 증명하려는 목적이다. 한 사진이 둘 다 될 수 있지만 같은 뜻은 아니다.",
+      "editorial_note": "품질 평가와 증명 목적 구분.",
+      "action_taken": "none"
+    }
+  ],
+  "limitations": [
+    "alias 확대·통합·삭제 결정 아님.",
+    "같은 의미 정의라도 형식·출처 차이를 추가로 검토할 수 있다.",
+    "시강의 비교 상대 존재감류는 독립 표제가 없어 불확실 처리."
+  ],
+  "mutations": {
+    "canonical": false,
+    "alias": false,
+    "main": false,
+    "pr": false
+  }
+}
