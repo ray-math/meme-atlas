@@ -1,4 +1,5 @@
 import copy
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -36,3 +37,12 @@ class PreferenceScopeTests(unittest.TestCase):
                 broad=copy.deepcopy(required);broad[axis].append({'intents':'동조','situations':'반복질문','targets':'상대'}[axis]);self.assertFalse(contains(broad))
             hit=next(h for h in search(index,vocab,e['title'],mode='lookup')['results'] if h['entry_id']==e['id'])
             self.assertTrue(hit['retrieval_scope']['exact_lookup_only'])
+
+    def test_frozen_python_trace_reexecutes(self):
+        from compare_evaluation_expansion import strict_equal
+        frozen=json.loads((ROOT/'eval/preference-scope/retrieval.json').read_text())
+        def behavior(rows):
+            rows=copy.deepcopy(rows)
+            for row in rows:row['retrieval'].pop('coverage',None)
+            return rows
+        self.assertTrue(strict_equal(behavior(frozen['results']),behavior(evaluate(ROOT)['results'])))
