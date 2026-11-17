@@ -12,7 +12,7 @@ class NoepisyeolDraftTests(unittest.TestCase):
         profiles=load_profiles(ROOT)['profiles']
         p=next(p for p in profiles if p['entry_id']=='noepisyeol')
         self.assertEqual(p['review_status'],'reviewed')
-        self.assertEqual(sum(p['review_status']=='reviewed' for p in profiles),58)
+        self.assertEqual(sum(p['review_status']=='reviewed' for p in profiles),60)
         self.assertEqual(p['source_sha'],blob_sha(ROOT/'memes/noepisyeol.md'))
         uses={u['id']:u for u in p['usages']}
         self.assertEqual(set(uses),{'disclose-personal-guess','criticize-unsupported-claim'})

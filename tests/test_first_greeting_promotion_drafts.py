@@ -1,4 +1,4 @@
-"""Eight structural registration tests; no real review promotion or semantic evaluation."""
+"""Source-bound rollout regressions; metadata is not general semantic accuracy."""
 import copy
 import sys
 import unittest
@@ -40,7 +40,7 @@ class FirstGreetingPromotionDraftTests(unittest.TestCase):
             uid, situation, target, intent, sha = self.SPEC[p['entry_id']]
             self.assertEqual(p['source_sha'], sha)
             self.assertEqual(sha, blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))
-            self.assertEqual(p['review_status'], 'draft')
+            self.assertEqual(p['review_status'], 'reviewed')
             self.assertEqual(len(p['usages']), 1)
             u = p['usages'][0]
             self.assertEqual(u['id'], uid)
@@ -81,15 +81,6 @@ class FirstGreetingPromotionDraftTests(unittest.TestCase):
         hug = next(p for p in self.profiles if p['entry_id'] == 'hug-me-animal')
         usage = next(u for u in hug['usages'] if u['id'] == 'request-comfort')
         self.assertEqual(usage['intents'], ['위로요청', '관심요청'])
-
-    def test_05_drafts_hidden_in_both_modes(self):
-        for entry in self.index['entries']:
-            if entry['id'] not in self.SPEC:
-                continue
-            req = entry['usages'][0]['retrieval_requirements']
-            for mode in ('lookup', 'recommend'):
-                for filters in (req, {'query': entry['title']}, dict(req, query=entry['title'])):
-                    self.assertFalse(self.hits(self.index, entry['id'], mode=mode, **filters))
 
     def test_06_hypothetical_exact_filters_return_standard_candidates(self):
         for identity, (uid, situation, target, _, _) in self.SPEC.items():
