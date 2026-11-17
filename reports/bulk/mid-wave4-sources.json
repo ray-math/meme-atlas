@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "batch": "mid-wave4",
+  "prepared_at": "2026-11-17",
+  "status": "awaiting-independent-editorial-review-and-import",
+  "counts": {
+    "prepared": 3,
+    "held": 5
+  },
+  "method": "두 개 이상 별도 publisher 본문 직접 확인. 자체 짧은 서술. 원영상은 시청하지 않음.",
+  "duplicate_check": {
+    "basis": "9ad5c572 data/search-index.json 표제·별칭 확인, 일치 없음",
+    "note": "importer에서 pending 중복 최종 확인"
+  },
+  "entries": [
+    {
+      "id": "academic-consensus",
+      "title": "학계의 정설",
+      "path": "memes/academic-consensus.md",
+      "aliases": [
+        "학계의정설"
+      ],
+      "tags": [],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 설명·사용 확인; 최초 발생국가 단정 없음",
+      "sources": [
+        {
+          "url": "https://whitefaceone.tistory.com/3137",
+          "publisher": "잼늬 블로그",
+          "published_at": "2022-11-12",
+          "access": "body_read",
+          "supports": "공인된 결론처럼 꾸미는 문장 종결 형식; 기원 추정 미채택",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://v.daum.net/v/HpJpXOQ0ux",
+          "publisher": "조선비즈",
+          "published_at": "2024-01-13",
+          "access": "body_read",
+          "supports": "유튜브 콘텐츠 댓글의 과장된 실제 용례",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 발행자 본문; 블로그는 한국어 사용·공통 형식만 보조.",
+      "limits": [
+        "원영상 직접 열람 없음",
+        "최초 게시물 및 현재 유행 미확인",
+        "AI 추천 적합성 검증 아님"
+      ]
+    },
+    {
+      "id": "pet-the-peepo",
+      "title": "펫 더 피포",
+      "path": "memes/pet-the-peepo.md",
+      "aliases": [
+        "PET THE PEEPO",
+        "PETTHEPEEPO",
+        "PET THE X"
+      ],
+      "tags": [
+        "인터넷방송"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 설명·사용 확인; 최초 발생국가 단정 없음",
+      "sources": [
+        {
+          "url": "https://knowyourmeme.com/memes/pet-the-x-petthe-emotes",
+          "publisher": "Know Your Meme",
+          "published_at": "2020-09-17",
+          "access": "body_read",
+          "supports": "쓰다듬기 형식, 트위치 이모트와 영상 변형; 2024년 갱신",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://whitefaceone.tistory.com/2289",
+          "publisher": "잼늬 블로그",
+          "published_at": "2021-05-28",
+          "access": "body_read",
+          "supports": "국내 설명의 캐릭터 쓰다듬기와 표정 변화; PET 직역 오류·최초일 주장은 미채택",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 발행자 본문; 블로그는 한국어 사용·공통 형식만 보조.",
+      "limits": [
+        "원영상 직접 열람 없음",
+        "최초 게시물 및 현재 유행 미확인",
+        "AI 추천 적합성 검증 아님"
+      ]
+    },
+    {
+      "id": "chika-dance",
+      "title": "치카 댄스",
+      "path": "memes/chika-dance.md",
+      "aliases": [
+        "치카댄스",
+        "Chika Dance"
+      ],
+      "tags": [
+        "애니",
+        "음악"
+      ],
+      "status": "ready_for_editorial_review",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 설명·사용 확인; 최초 발생국가 단정 없음",
+      "sources": [
+        {
+          "url": "https://animecorner.me/official-chika-dance-video-surpasses-30-million-views-director-naoya-nakayama-thanks-fans/",
+          "publisher": "Anime Corner",
+          "published_at": "2022-11-19",
+          "access": "body_read",
+          "supports": "1기 3화 엔딩과 2019년 공개; 무관한 시즌 연도 설명 미채택",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://knowyourmeme.com/memes/chika-dance",
+          "publisher": "Know Your Meme",
+          "published_at": "2019-02-06",
+          "access": "body_read",
+          "supports": "춤 커버 및 음악 교체 패러디; 2024년 갱신",
+          "original_media_watched": false
+        },
+        {
+          "url": "https://choi-company.tistory.com/14",
+          "publisher": "초이 개인 블로그",
+          "published_at": "2020-11-14",
+          "access": "body_read",
+          "supports": "한국어 리뷰의 치카 댄스 유행 언급",
+          "original_media_watched": false
+        }
+      ],
+      "independence_note": "서로 다른 발행자 본문; 블로그는 한국어 사용·공통 형식만 보조.",
+      "limits": [
+        "원영상 직접 열람 없음",
+        "최초 게시물 및 현재 유행 미확인",
+        "AI 추천 적합성 검증 아님"
+      ]
+    }
+  ],
+  "held": [
+    {
+      "title": "와칸다 포에버",
+      "reason": "국내 기사 직접 열람 실패; 추가 확인 예정"
+    },
+    {
+      "title": "인사하는 제리",
+      "reason": "개인 블로그 두 건 외 원작·독립 근거 보강 필요"
+    },
+    {
+      "title": "기출변형",
+      "reason": "개별 밈 형식과 일반 인터넷 어휘의 경계 검토 및 근거 부족"
+    },
+    {
+      "title": "편-안/불-편",
+      "reason": "조사 중, 충분한 근거 미확보"
+    },
+    {
+      "title": "한국인이 좋아하는 속도",
+      "reason": "최초·형식 설명의 독립성 부족"
+    }
+  ],
+  "excluded_duplicates": []
+}
