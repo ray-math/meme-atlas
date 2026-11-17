@@ -280,6 +280,7 @@
 - [무도미나티](../memes/mudo-minati.md)
 - [무릎냥이](../memes/lap-cat-korean.md)
 - [무물](../memes/mumul.md)
+- [무승부로 하지 않을래?](../memes/call-it-a-draw.md)
 - [무지개매너](../memes/mujigae-manner.md)
 - [문과 vs 이과](../memes/humanities-vs-science.md)
 - [문송합니다](../memes/sorry-humanities.md)

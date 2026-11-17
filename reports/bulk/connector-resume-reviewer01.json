@@ -1,0 +1,33 @@
+{
+  "batch": "connector-resume-reviewer01",
+  "base": "f53e4d5247e3948a2a3ee29fdce3fdaf1a94dec7",
+  "id": "call-it-a-draw",
+  "sources": [
+    {
+      "url": "https://hibal.tistory.com/560",
+      "observed": "2014-10-09 176~180행 환불 방안을 평가하며 카이지대사 직접 인용. 기업사건 사실전체/피해규모 검증으로 확대하지 않음."
+    },
+    {
+      "url": "https://www.webtoonguide.com/ko/board/nice/2636",
+      "observed": "2017-03-07 69행 축구웹툰에서 무승부상황에 카이지패러디 사용 명시. 원웹툰 직접 열람은 아님."
+    }
+  ],
+  "independent_usage_events": 2,
+  "bounds": "수학적 무승부나 일반 질문전체 아님. 두실제사용이 원작 연결을 명시. 최초번역/유행규모는 미확정.",
+  "checks": {
+    "base_entries": 838,
+    "result_entries": 839,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  },
+  "candidate_screen": {
+    "queries_checked": 7,
+    "description": "학개론/한놈/안돼/돌아가/무승부/뒷북/굽고 문자열 대조. 후보 고유개수나 검증완료 개수 아님",
+    "accepted": 1,
+    "existing": "난 한 놈만 패",
+    "deferred": "나머지는 미검증; 안돼돌아가 담당에 독립근거 검토 전달"
+  }
+}

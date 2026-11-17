@@ -12,3 +12,4 @@
 - [전 그냥 수영만 해요](../memes/i-just-swim.md)
 - [응답하라 ○○](../memes/eungdaphara-template.md)
 - [압도적 감사](../memes/overwhelming-gratitude.md)
+- [무승부로 하지 않을래?](../memes/call-it-a-draw.md)

@@ -332,6 +332,7 @@
 - [무도미나티](mudo-minati.md)
 - [무릎냥이](lap-cat-korean.md)
 - [무물](mumul.md)
+- [무승부로 하지 않을래?](call-it-a-draw.md)
 - [무야호](muyaho.md)
 - [무지개매너](mujigae-manner.md)
 - [문과 vs 이과](humanities-vs-science.md)
