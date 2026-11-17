@@ -799,3 +799,8 @@
 - [먹금](../memes/meokgeum.md)
 - [토카토카 댄스](../memes/toca-toca-dance.md)
 - [팟수](../memes/patsu.md)
+- [버로우](../memes/burrow.md)
+- [설참](../memes/seolcham.md)
+- [판사님 저는 웃지 않았습니다](../memes/judge-i-did-not-laugh.md)
+- [맛있으면 0칼로리](../memes/delicious-zero-calories.md)
+- [괜찮아 자연스러웠어](../memes/its-okay-looked-natural.md)

@@ -1145,6 +1145,16 @@
         "toca-toca-dance",
         "patsu"
       ]
+    },
+    "korean-verified-20261117-bulk-wave19": {
+      "input_hash": "b3d6f1e55b0ef6cc265dac67742d0695e7dd107141a8161dbef908dde76cca3d",
+      "ids": [
+        "burrow",
+        "seolcham",
+        "judge-i-did-not-laugh",
+        "delicious-zero-calories",
+        "its-okay-looked-natural"
+      ]
     }
   },
   "entries": {
@@ -8990,6 +9000,52 @@
       "body_hash": "05e4cc1ea05aa17669e4fa66da7bd137db1478727e1ac2b05c545d7360c2efb0",
       "scope_type": "korean_usage",
       "scope_basis": "국내 플랫폼 시청자 호칭을 국내 보도와 독립 학술 연구 본문으로 확인.",
+      "tags": []
+    },
+    "burrow": {
+      "title": "버로우",
+      "aliases": [
+        "버로우 타다"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave19",
+      "body_hash": "cac31f831f5cf942c965f20a9e4da8796ef7eb784a09fdcee4cc2df687940e39",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 문화 표현의 비유 또는 고정 축약 안내 용법.",
+      "tags": []
+    },
+    "seolcham": {
+      "title": "설참",
+      "batch": "korean-verified-20261117-bulk-wave19",
+      "body_hash": "f99cdfb19fa1ae4f4aeb677b0712e706285f24db17a2540c3c664cddf37a8488",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 문화 표현의 비유 또는 고정 축약 안내 용법.",
+      "tags": []
+    },
+    "judge-i-did-not-laugh": {
+      "title": "판사님 저는 웃지 않았습니다",
+      "batch": "korean-verified-20261117-bulk-wave19",
+      "body_hash": "a8c8f9342c71b7d177e9de45ee5393724839418194bc376a0540408a06ee0f03",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 자료에서 관찰된 한국어 고정 반응 문구에 한정.",
+      "tags": []
+    },
+    "delicious-zero-calories": {
+      "title": "맛있으면 0칼로리",
+      "aliases": [
+        "맛있게 먹으면 0칼로리"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave19",
+      "body_hash": "40bd9b0a5d84ed88b636f4f340ab20d5a641d269c7e256c800ab870167ac2d0e",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 자료에서 관찰된 한국어 고정 반응 문구에 한정.",
+      "tags": []
+    },
+    "its-okay-looked-natural": {
+      "title": "괜찮아 자연스러웠어",
+      "batch": "korean-verified-20261117-bulk-wave19",
+      "body_hash": "0cd3db6a21a7f9d2880b66c12041f76ad49cd600b5a7df37441e2ff79ad003e0",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 자료에서 관찰된 한국어 고정 반응 문구에 한정.",
       "tags": []
     }
   }
