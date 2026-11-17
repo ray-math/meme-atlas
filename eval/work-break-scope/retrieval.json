@@ -1,0 +1,589 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "work-hard-leave"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 357,
+    "annotated_entries": 73,
+    "reviewed_entries": 72,
+    "unannotated_entries": 284
+  },
+  "provisional_reviewed_entries": 73,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "results": [
+    {
+      "id": "W-break",
+      "prompt": "맡은 일을 마쳤고 휴가나 쉬기 위한 여행을 가려 한다고 밝힌 상대에게, 광고 같은 힘찬 말투로 잘 쉬고 오라고 권하고 싶다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "휴식권유"
+        ],
+        "situations": [
+          "일마친뒤휴가"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 357,
+          "annotated_entries": 73,
+          "reviewed_entries": 72,
+          "unannotated_entries": 284
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "work-hard-leave",
+            "title": "열심히 일한 당신, 떠나라",
+            "path": "memes/work-hard-leave.md",
+            "domain_tags": [
+              "광고"
+            ],
+            "usage_id": "encourage-willing-post-work-break",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "휴식권유"
+              ],
+              "situations": [
+                "일마친뒤휴가"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "encourage-willing-post-work-break",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "휴식권유"
+              ],
+              "situations": [
+                "일마친뒤휴가"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "의미불명확"
+              ],
+              "safety": "standard",
+              "context": "맡은 일을 마쳤고 휴가나 쉬기 위한 여행을 가려 한다고 밝힌 상대에게, 광고 같은 힘찬 말투로 잘 쉬고 오라고 권하고 싶다.",
+              "avoid_when": [
+                "일 완료나 상대의 휴가 의사가 입력에 명시되지 않은 경우",
+                "해고·퇴사·축출 또는 무단 이탈을 권하는 뜻으로 사용하는 경우",
+                "여행이나 외출을 원하지 않는 상대에게 떠나라고 강요하는 경우",
+                "심각한 소진·고통을 짧은 광고 문구로 덮고 필요한 도움을 생략하는 경우",
+                "충분히 일한 사람만 쉴 자격이 있다는 뜻으로 사용하는 경우",
+                "입력에 없는 휴가 승인·일정·장소·동행을 만들어 말하는 경우"
+              ],
+              "example": {
+                "text": "맡은 일도 마쳤고 휴가를 가려는 거구나. 열심히 일한 당신, 떠나라! 잘 쉬고 와.",
+                "kind": "editorial"
+              },
+              "review_note": "standard는 명시된 일 완료와 자발적 휴가 의사를 바탕으로 한 친근한 권유 맥락의 편집 판단이다. 실제 노동 성과·휴가 승인·안전을 인증하지 않으며 떠나라라는 문구를 해고·퇴사·무단 이탈의 결정으로 판정하지 않는다.",
+              "retrieval_requirements": {
+                "intents": [
+                  "휴식권유"
+                ],
+                "situations": [
+                  "일마친뒤휴가"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "d2173cd9a2226d826fe520919143e32f5aebe3df",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "intents": [
+                  "휴식권유"
+                ],
+                "situations": [
+                  "일마친뒤휴가"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "W-missing",
+      "prompt": "일 완료나 상대의 휴가 의사가 입력에 명시되지 않은 경우",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    },
+    {
+      "id": "W-expel",
+      "prompt": "해고·퇴사·축출 또는 무단 이탈을 권하는 뜻으로 사용하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "W-force",
+      "prompt": "여행이나 외출을 원하지 않는 상대에게 떠나라고 강요하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "W-distress",
+      "prompt": "심각한 소진·고통을 짧은 광고 문구로 덮고 필요한 도움을 생략하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "W-right",
+      "prompt": "충분히 일한 사람만 쉴 자격이 있다는 뜻으로 사용하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "W-invent",
+      "prompt": "입력에 없는 휴가 승인·일정·장소·동행을 만들어 말하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "H-wish",
+      "prompt": "가벼운 말투로 잘 지내고 행복하길 빈다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "인사"
+        ],
+        "situations": [
+          "좋은일기원"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 357,
+          "annotated_entries": 73,
+          "reviewed_entries": 72,
+          "unannotated_entries": 284
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "haengshow",
+            "title": "행쇼",
+            "path": "memes/haengshow.md",
+            "domain_tags": [
+              "방송",
+              "연예"
+            ],
+            "usage_id": "well-wishes",
+            "score": 40,
+            "matched_facets": {
+              "intents": [
+                "인사"
+              ],
+              "situations": [
+                "좋은일기원"
+              ]
+            },
+            "usage": {
+              "id": "well-wishes",
+              "emotions": [
+                "다정함"
+              ],
+              "intents": [
+                "응원",
+                "인사"
+              ],
+              "situations": [
+                "헤어짐",
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "가벼운 말투로 잘 지내고 행복하길 빈다.",
+              "avoid_when": [
+                "격식 있는 위로를 요구하는 상황"
+              ],
+              "example": {
+                "text": "새로운 곳에서도 잘 지내. 행쇼!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "8a0977caf65b47878a44cb717d9366163670de78",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "G-leave",
+      "prompt": "자신이 맡은 일을 끝내고 업무 자리나 부담에서 벗어나 떠나는 순간을 과장된 작별 인사로 표현한다. 상대에게 떠나라고 말하는 용법이나 업무와 무관한 일반 인사와 구별한다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "인사"
+        ],
+        "situations": [
+          "업무에서벗어남"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 357,
+          "annotated_entries": 73,
+          "reviewed_entries": 72,
+          "unannotated_entries": 284
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "goodbye-everyone",
+            "title": "안녕히 계세요 여러분",
+            "path": "memes/goodbye-everyone.md",
+            "domain_tags": [
+              "애니"
+            ],
+            "usage_id": "relieved-departure",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "인사"
+              ],
+              "situations": [
+                "업무에서벗어남"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "relieved-departure",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "인사"
+              ],
+              "situations": [
+                "업무에서벗어남"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "의미불명확"
+              ],
+              "safety": "caution",
+              "context": "자신이 맡은 일을 끝내고 업무 자리나 부담에서 벗어나 떠나는 순간을 과장된 작별 인사로 표현한다. 상대에게 떠나라고 말하는 용법이나 업무와 무관한 일반 인사와 구별한다.",
+              "avoid_when": [
+                "정식 퇴사 통지나 업무 인계의 유일한 메시지로 사용할 때",
+                "진지한 이별이나 상실 상황에 가벼운 작별 농담을 붙일 때",
+                "남아 있는 동료를 무시하거나 필요한 책임을 회피하는 뜻으로 사용할 때",
+                "자기 업무에서 떠나는 상황인지 확인되지 않았을 때"
+              ],
+              "example": {
+                "text": "오늘 맡은 일 끝냈다. 안녕히 계세요 여러분!",
+                "kind": "editorial"
+              },
+              "review_note": "본문의 업무 종료·퇴근 상황에 한정한 편집 용례다. 해방감·홀가분함을 기쁨이나 통쾌함에 억지로 대응하지 않아 unknown이다. 인사의 초점은 떠나는 자기이며 수신자가 있다는 이유만으로 상대를 붙이지 않았다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "업무에서벗어남"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "1ec48f4b6cbb3420cbc5794a073b2ee7154b5dd5",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "업무에서벗어남"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "F-future",
+      "prompt": "새 활동을 앞둔 상대에게 앞으로 좋은 일이 많기를 빌며 앞날을 응원한다. 바람을 전하는 것이며 성공이나 행복이 확정됐다는 뜻은 아니다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "응원"
+        ],
+        "situations": [
+          "좋은일기원"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 357,
+          "annotated_entries": 73,
+          "reviewed_entries": 72,
+          "unannotated_entries": 284
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "flower-road",
+            "title": "꽃길만 걷자",
+            "path": "memes/flower-road.md",
+            "domain_tags": [
+              "연예"
+            ],
+            "usage_id": "wish-good-future",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "응원"
+              ],
+              "situations": [
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "wish-good-future",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "응원"
+              ],
+              "situations": [
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "새 활동을 앞둔 상대에게 앞으로 좋은 일이 많기를 빌며 앞날을 응원한다. 바람을 전하는 것이며 성공이나 행복이 확정됐다는 뜻은 아니다.",
+              "avoid_when": [
+                "미래 성공을 보증하거나 실패할 가능성이 없다고 약속하는 경우",
+                "쉬거나 그만두겠다는 상대의 의사를 무시하고 계속 활동하도록 압박하는 경우",
+                "피해·상실·고통의 이야기를 긍정적인 말로 덮고 필요한 도움을 생략하는 경우",
+                "어려운 경험이 반드시 좋은 결과로 보상된다고 단정하는 경우"
+              ],
+              "example": {
+                "text": "새 활동을 앞둔 너에게 좋은 일이 많기를 바라. 우리 꽃길만 걷자!",
+                "kind": "editorial"
+              },
+              "review_note": "standard는 이 좁은 기원 맥락의 편집 판단이다. 우리라는 예문 표현이 대상 라벨을 자기까지 확대하지 않으며 초점은 응원받는 상대다. 필터 일치가 상대의 현재 의사·상황을 확인한 것은 아니다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "좋은일기원"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "a9c2331068075d45d76e3ad2b0d2577a47a96ee5",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "좋은일기원"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          },
+          {
+            "entry_id": "haengshow",
+            "title": "행쇼",
+            "path": "memes/haengshow.md",
+            "domain_tags": [
+              "방송",
+              "연예"
+            ],
+            "usage_id": "well-wishes",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "응원"
+              ],
+              "situations": [
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "well-wishes",
+              "emotions": [
+                "다정함"
+              ],
+              "intents": [
+                "응원",
+                "인사"
+              ],
+              "situations": [
+                "헤어짐",
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "가벼운 말투로 잘 지내고 행복하길 빈다.",
+              "avoid_when": [
+                "격식 있는 위로를 요구하는 상황"
+              ],
+              "example": {
+                "text": "새로운 곳에서도 잘 지내. 행쇼!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "8a0977caf65b47878a44cb717d9366163670de78",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    }
+  ]
+}
