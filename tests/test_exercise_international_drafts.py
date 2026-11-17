@@ -14,7 +14,7 @@ class ExerciseInternationalDraftTests(unittest.TestCase):
         selected=[p for p in data if p['entry_id'] in self.IDS]
         self.assertEqual({p['entry_id'] for p in selected},self.IDS)
         self.assertEqual(sum(len(p['usages']) for p in selected),2)
-        self.assertEqual(sum(p['review_status']=='reviewed' for p in data),56)
+        self.assertEqual(sum(p['review_status']=='reviewed' for p in data),58)
         for p in selected:
             self.assertEqual(p['review_status'],'reviewed')
             self.assertEqual(p['source_sha'],blob_sha(ROOT/'memes'/f"{p['entry_id']}.md"))
