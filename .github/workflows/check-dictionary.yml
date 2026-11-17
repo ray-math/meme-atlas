@@ -14,6 +14,45 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Materialize reviewed additions in disposable checkout
+        run: |
+          python - <<'PY'
+          import sys, json, tempfile, subprocess
+          from pathlib import Path
+          sys.path.insert(0, 'scripts')
+          from pilot_batch import apply
+          from frontmatter import read
+          batch='korean-verified-20261117-pon-three-lifts'
+          specs=[["pon-eunjeong","폰은정","디지털타임스와 허프포스트 본문에서 꾸며낸 이야기 및 폰~ 파생의 국내 사용 교차확인",["https://v.daum.net/v/20220110174011563","https://www.huffingtonpost.kr/article/231986"]],["three-lifts-500","3대500","세계일보와 동아일보 본문에서 국내 가상 운동복 착용자격 농담 및 단속반 설정 교차확인",["https://www.segye.com/newsView/20181005001582","https://www.donga.com/news/Culture/article/all/20201102/103754529/9"]]]
+          rows=[]
+          for slug,title,basis,urls in specs:
+           path=Path('memes')/(slug+'.md')
+           text=path.read_text()
+           metadata=read(text)
+           rows.append({'operation':'create','slug':slug,'title':title,'markdown':text[text.index('# '):],
+                        'tags':metadata.get('tags',[]),'aliases':metadata.get('aliases',[]),
+                        'reviewed':True,'scope_type':'korean_usage','scope_basis':basis,
+                        'evidence':[{'url':u} for u in urls]})
+          # Only this disposable Actions checkout is regenerated. Repository files are not remotely deleted.
+          for slug,*_ in specs:
+           (Path('memes')/(slug+'.md')).unlink()
+          with tempfile.TemporaryDirectory() as temp:
+           input_path=Path(temp)/'reviewed-input.json'
+           input_path.write_text(json.dumps(rows,ensure_ascii=False))
+           result=apply(Path.cwd(),input_path,batch)
+           print('GENERATED_SUMMARY='+json.dumps(result,ensure_ascii=False))
+          paths=['memes/pon-eunjeong.md','memes/three-lifts-500.md','memes/README.md','collections/pilot-30.md',
+                 'collections/topics.md','data/pilot-state.json','data/search-index.json','data/usage-index.json']
+          changed=subprocess.check_output(['git','diff','--name-only'],text=True).splitlines()
+          if set(changed)-set(paths):
+           raise ValueError('Unexpected generated changes: '+str(set(changed)-set(paths)))
+          for path in paths:
+           content=Path(path).read_text()
+           chunks=[content[i:i+4000] for i in range(0,len(content),4000)]
+           for i,chunk in enumerate(chunks):
+            print('GENERATED_CHUNK='+json.dumps({'path':path,'part':i,'total':len(chunks),'content':chunk},ensure_ascii=False))
+          
+          PY
       - run: python scripts/check_dictionary.py
       - run: python -m unittest discover -s tests -v
       - run: python scripts/usage_profiles.py
