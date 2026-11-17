@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 8,
-  "query_observations": 124,
-  "distinct_literal_queries": 101,
+  "source_files": 9,
+  "query_observations": 141,
+  "distinct_literal_queries": 118,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -717,6 +717,94 @@
       "source": "reports/bulk/connector-resume-c153.json",
       "status": "existing-family",
       "canonical": "yareu-song"
+    },
+    {
+      "query": "무례하지",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "여름이 널",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "일하기 전",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "accepted-family",
+      "canonical": "before-working-look"
+    },
+    {
+      "query": "연락 없네",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "existing-family",
+      "canonical": "no-reply-live-well"
+    },
+    {
+      "query": "잘 살아",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "existing-family",
+      "canonical": "no-reply-live-well"
+    },
+    {
+      "query": "흙이 없어",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "흙이없어",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "전업자녀",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "엄미새",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "두더지",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "입수",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "전후",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "돌려 말",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "출근 전",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "일하기",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "무례",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "전업",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
     }
   ],
   "semantic_duplicates": [

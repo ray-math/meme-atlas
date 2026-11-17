@@ -478,6 +478,7 @@
 - [인증샷](../memes/proof-photo.md)
 - [일며들다](../memes/ilmyeodeulda.md)
 - [일코](../memes/ilko.md)
+- [일하기 전 제 모습이고요](../memes/before-working-look.md)
 - [일해라 절해라](../memes/work-and-bow.md)
 - [읽지 않음 난 모르는 일](../memes/unread-none-of-my-business.md)
 - [입덕](../memes/ipdeok.md)

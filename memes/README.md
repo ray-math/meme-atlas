@@ -637,6 +637,7 @@
 - [인증샷](proof-photo.md)
 - [일며들다](ilmyeodeulda.md)
 - [일코](ilko.md)
+- [일하기 전 제 모습이고요](before-working-look.md)
 - [일해라 절해라](work-and-bow.md)
 - [읽지 않음 난 모르는 일](unread-none-of-my-business.md)
 - [입덕](ipdeok.md)

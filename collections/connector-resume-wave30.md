@@ -38,3 +38,4 @@
 - [밀레니얼 vs 젠지 담당자 비교](../memes/millennial-vs-genz-copy.md)
 - [연기배틀 챌린지](../memes/same-line-acting-challenge.md)
 - [책없쾌](../memes/chaegeopkwae.md)
+- [일하기 전 제 모습이고요](../memes/before-working-look.md)
