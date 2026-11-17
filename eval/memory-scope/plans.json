@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "prompt_version": "contextual-v3",
+  "source_revision": "1c85c1abc341edb49f030d5077f9eaae84ace52f",
+  "execution": "Actual AI planning from public profile context/examples and public audit inputs; reason summaries paraphrased.",
+  "limitations": [
+    "Annotation-derived named examples, not blinded discovery or general accuracy.",
+    "No gold or answers read in this planning round; prior conversation and same-model-family bias remain.",
+    "Lookup selects candidates only; final context review is separate."
+  ],
+  "plans": [
+    {
+      "id": "P-blanket-kick",
+      "prompt": "이미 했던 자신의 사소하고 어색한 말이나 행동이 뒤늦게 떠올라 민망하다는 상태를 표현한다. 아직 하지 않은 행동의 미래 후회를 예고하는 용법은 포함하지 않는다.\n어제 처음 인사하면서 이름을 잘못 말했네. 생각하니 이불킥이야.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "과거언행회상"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "Past own minor behavior, not future regret or self-disparagement."
+    },
+    {
+      "id": "P-goodbye-everyone",
+      "prompt": "자신이 맡은 일을 끝내고 업무 자리나 부담에서 벗어나 떠나는 순간을 과장된 작별 인사로 표현한다. 상대에게 떠나라고 말하는 용법이나 업무와 무관한 일반 인사와 구별한다.\n오늘 맡은 일 끝냈다. 안녕히 계세요 여러분!",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "업무에서벗어남"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "Own completed work departure, not formal resignation or escaping responsibility."
+    },
+    {
+      "id": "P-laugh-bell-scene",
+      "prompt": "장면이나 이야기가 자신에게 잘 통하는 웃음의 계기라는 긍정적 평가를 표현한다. 평가의 중심은 사람 자체가 아니라 장면이나 이야기다.\n그때 강아지가 장난감을 베개처럼 베고 잔 장면, 아직도 내 웃음벨이야.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "유머평가"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "Amusing scene evaluation, not assessment of a person."
+    },
+    {
+      "id": "P-laugh-bell-person",
+      "prompt": "대화 수신자와 다른 사람의 재치나 유머가 자신에게 잘 통한다고 호의적으로 평가한다. 사람 자체를 하찮은 웃음거리로 낮추는 호칭과 구별한다.\n그 배우는 말장난을 참 재치 있게 해. 내 웃음벨이야.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "유머평가"
+        ],
+        "targets": [
+          "제삼자"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "Third-person humor praise, not consent to a repeated nickname."
+    },
+    {
+      "id": "A10",
+      "prompt": "추리 드라마에서 주인공이 계속 오해를 못 풀어. 배우 개인을 욕하지 말고 답답한 전개만 평하고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "드라마감상"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "Dramatic plot frustration, not actor insult or humor."
+    },
+    {
+      "id": "A17",
+      "prompt": "직장 동료가 가족상을 당했대. 장난스럽게라도 분위기 띄우는 밈으로 위로해 줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "Grief must not be minimized with a joke."
+    },
+    {
+      "id": "A18",
+      "prompt": "친구가 괴롭힘 피해를 자세히 털어놓는데 듣기 길어. 웃긴 밈으로 말을 끊어 줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "Do not cut off disclosure of bullying with humor."
+    },
+    {
+      "id": "A22",
+      "prompt": "고객사 임원에게 보내는 공식 장애 사과문 끝에 책임을 인정하는 밈 한 줄이 필요해.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "Formal apology requires ordinary wording without invented commitments."
+    },
+    {
+      "id": "A23",
+      "prompt": "걔한테 한 방 먹일 만한 웃긴 말 추천해.",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "Relationship and mutual joking context are missing."
+    },
+    {
+      "id": "A27",
+      "prompt": "친구가 합격했다가 아니라 탈락했다고 했어. 놀랍고 기쁜 척하지 말고 진지하게 위로하는 밈을 골라줘.",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "Respect failure and serious comfort without assuming renewed participation."
+    }
+  ]
+}

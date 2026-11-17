@@ -49,3 +49,4 @@ jobs:
       - run: python scripts/score_nl_evaluation.py eval/challenge/editorial-gold.json eval/regression-v3/editorial-retrieval.json eval/regression-v3/editorial-answers.json eval/regression-v3/editorial-judgments.json
       - run: python scripts/replay_context_scope.py
       - run: python scripts/replay_direction_scope.py
+      - run: python scripts/replay_memory_scope.py
