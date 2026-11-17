@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "batch": "bulk-2021-2023-wave2",
+  "baseline_commit": "bf82a900d3d1357d5335cca4af2f6630446676d6",
+  "reviewed_at": "2026-11-17",
+  "canonical_files_written": 5,
+  "ci_status": "not_run",
+  "review_method": "AI 직접 본문 대조 및 독자적 초안. 두 publisher는 서로 다른 편집/실사용/자료 근거이며 전재 수를 늘리지 않았다. 인간 검증·원영상 재생·추천 승인 아님.",
+  "entries": [
+    {
+      "id": "see-you-tomorrow-noona",
+      "title": "내일 봬요 누나",
+      "path": "memes/see-you-tomorrow-noona.md",
+      "aliases": [
+        "내봬누"
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 매체의 뜻/형식 소개와 다른 publisher의 실제 사용·분석 또는 국내 관심 자료를 대조했다.",
+      "source_urls": [
+        {
+          "url": "https://www.gqkorea.co.kr/2022/12/02/이거-모르면-아싸-그-잡채-2022년-올해의-k-밈-총-모음/",
+          "publisher": "GQ Korea",
+          "published_date": "2022-12-02",
+          "access": "direct_body",
+          "supports": "원 예능 속 제안 장면과 국내 밈화 소개.",
+          "independent_group": "GQ Korea"
+        },
+        {
+          "url": "https://sports.donga.com/ent/article/all/20221122/116624191/1",
+          "publisher": "스포츠동아",
+          "published_date": "2022-11-22",
+          "access": "direct_body",
+          "supports": "김민교의 SNL 패러디라는 별도 재사용 사례.",
+          "independent_group": "스포츠동아"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "baseline_entries": 386,
+        "canonical_title_or_pilot_alias_match": false
+      },
+      "limitations": [
+        "최초 기원·최근 급증 주장 없음",
+        "원영상/원SNS 미재생",
+        "추천용 usage를 생성하지 않음"
+      ]
+    },
+    {
+      "id": "do-i-look-like",
+      "title": "왜요 제가 __한 사람처럼 보이나요",
+      "path": "memes/do-i-look-like.md",
+      "aliases": [
+        "왜요 제가 __한 사람처럼 생겼나요"
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 매체의 뜻/형식 소개와 다른 publisher의 실제 사용·분석 또는 국내 관심 자료를 대조했다.",
+      "source_urls": [
+        {
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1006563877",
+          "publisher": "SBS 스브스뉴스",
+          "published_date": "2021-12-09",
+          "access": "direct_body",
+          "supports": "방송사 자체 영상 제목에서 문장 틀 실제 사용. 영상을 직접 재생하지 않았음.",
+          "independent_group": "SBS 스브스뉴스"
+        },
+        {
+          "url": "https://gogumafarm.kr/요즘-밈-활용해-센스-있게-sns-운영하기/",
+          "publisher": "고구마팜",
+          "published_date": "2022-11-15",
+          "access": "direct_body",
+          "supports": "문장 틀 의미·교체 예시와 넷플릭스 SNS 활용 소개.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "baseline_entries": 386,
+        "canonical_title_or_pilot_alias_match": false
+      },
+      "limitations": [
+        "최초 기원·최근 급증 주장 없음",
+        "원영상/원SNS 미재생",
+        "추천용 usage를 생성하지 않음"
+      ]
+    },
+    {
+      "id": "popcat-click",
+      "title": "팝캣",
+      "path": "memes/popcat-click.md",
+      "aliases": [
+        "PopCat"
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 매체의 뜻/형식 소개와 다른 publisher의 실제 사용·분석 또는 국내 관심 자료를 대조했다.",
+      "source_urls": [
+        {
+          "url": "https://www.wikitree.co.kr/articles/686075",
+          "publisher": "위키트리",
+          "published_date": null,
+          "access": "direct_body",
+          "supports": "소셜미디어연구소 기획의 팝캣 변형·클릭 놀이·한국 참여 본문. 발행일 정확 재확인 안 됨.",
+          "independent_group": "위키트리"
+        },
+        {
+          "url": "https://blog.google/intl/ko-kr/products/explore-get-answers/2021_12_2021yis/",
+          "publisher": "Google Korea",
+          "published_date": "2021-12-09",
+          "access": "direct_body",
+          "supports": "검색 제공자의 한국 검색 관심 자료. 게임 기능의 독립 검증이나 현재 순위 근거 아님.",
+          "independent_group": "Google Korea"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "baseline_entries": 386,
+        "canonical_title_or_pilot_alias_match": false
+      },
+      "limitations": [
+        "최초 기원·최근 급증 주장 없음",
+        "원영상/원SNS 미재생",
+        "추천용 usage를 생성하지 않음"
+      ]
+    },
+    {
+      "id": "dumb-dumb-challenge",
+      "title": "덤덤 챌린지",
+      "path": "memes/dumb-dumb-challenge.md",
+      "aliases": [
+        "DUMB DUMB 챌린지"
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 매체의 뜻/형식 소개와 다른 publisher의 실제 사용·분석 또는 국내 관심 자료를 대조했다.",
+      "source_urls": [
+        {
+          "url": "https://www.xportsnews.com/article/1459456",
+          "publisher": "엑스포츠뉴스",
+          "published_date": "2021-08-10",
+          "access": "direct_body",
+          "supports": "김세정과 전소미의 실제 안무 재현 영상 보도. 원 SNS 직접 재생 아님.",
+          "independent_group": "엑스포츠뉴스"
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20211202_0001673901",
+          "publisher": "뉴시스",
+          "published_date": "2021-12-05",
+          "access": "direct_body",
+          "supports": "댄스 챌린지 형식과 덤덤·암낫쿨을 별도 트렌드 분석 기사에서 소개.",
+          "independent_group": "뉴시스"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "baseline_entries": 386,
+        "canonical_title_or_pilot_alias_match": false
+      },
+      "limitations": [
+        "최초 기원·최근 급증 주장 없음",
+        "원영상/원SNS 미재생",
+        "추천용 usage를 생성하지 않음"
+      ]
+    },
+    {
+      "id": "im-not-cool-challenge",
+      "title": "암낫쿨 챌린지",
+      "path": "memes/im-not-cool-challenge.md",
+      "aliases": [
+        "I'm Not Cool 챌린지",
+        "암 낫 쿨 챌린지"
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 매체의 뜻/형식 소개와 다른 publisher의 실제 사용·분석 또는 국내 관심 자료를 대조했다.",
+      "source_urls": [
+        {
+          "url": "https://www.newsis.com/view/NISX20211202_0001673901",
+          "publisher": "뉴시스",
+          "published_date": "2021-12-05",
+          "access": "direct_body",
+          "supports": "댄스 챌린지 형식과 덤덤·암낫쿨을 별도 트렌드 분석 기사에서 소개.",
+          "independent_group": "뉴시스"
+        },
+        {
+          "url": "https://m.melon.com/musicstory/detail.htm?mstorySeq=12056",
+          "publisher": "Melon",
+          "published_date": "2022-01-14",
+          "access": "direct_body",
+          "supports": "2021년 포인트 안무 결산. 암낫쿨 춤과 별도 패러디 사례 소개.",
+          "independent_group": "Melon"
+        }
+      ],
+      "review_status": "ai_editorial_ready_for_import_review",
+      "duplicate_hint": {
+        "baseline_entries": 386,
+        "canonical_title_or_pilot_alias_match": false
+      },
+      "limitations": [
+        "최초 기원·최근 급증 주장 없음",
+        "원영상/원SNS 미재생",
+        "추천용 usage를 생성하지 않음"
+      ]
+    }
+  ],
+  "held": [
+    {
+      "title": "킬링미 챌린지",
+      "reason": "추가 본문이 목을 베거나 조르는 모사 동작을 설명. 비민감 묶음에 무검토 포함하지 않음.",
+      "source_urls": [
+        "https://www.tenasia.co.kr/article/2021120332814"
+      ]
+    },
+    {
+      "title": "홍박사님을 아세요",
+      "reason": "성적 이야기·몸동작 맥락. 이번 비민감 묶음 제외, 검색결과만으로 중립 설명 완성하지 않음."
+    },
+    {
+      "title": "토카토카 댄스 / 나문희의 첫사랑 / 강풍 올백",
+      "reason": "일반 블로그와 색인 중심. 이번에 두 독립 publisher 본문 기준 미충족."
+    },
+    {
+      "title": "수상할 정도로 __한 __ / 할 건 해야지",
+      "reason": "확보한 2차 소개의 재전송이 많아 둘째 독립 본문 충분히 확보 전 보류."
+    },
+    {
+      "title": "멈춰!",
+      "reason": "학교폭력 대책의 실효성 주장들이 충돌. 보호·안전 문제와 분리한 용법 편집검토 전 보류."
+    }
+  ]
+}
