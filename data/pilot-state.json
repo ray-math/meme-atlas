@@ -745,6 +745,24 @@
         "pre-cracked-egg",
         "cheese-fountain"
       ]
+    },
+    "korean-verified-20261117-bulk-wave6": {
+      "input_hash": "3cc1e9f1ea6aea059f1eae6a0a1ebb1eb0a5690ddb3467478709ed95046dfcf7",
+      "ids": [
+        "academic-consensus",
+        "pet-the-peepo",
+        "chika-dance",
+        "sexy-food",
+        "unfortunate-event",
+        "my-black-swan",
+        "chocolate-milk-offer",
+        "what-is-this-shotaro",
+        "becomes-oo",
+        "chakani-praise",
+        "neujoh",
+        "ready-go-complete",
+        "break-up-who-are-you"
+      ]
     }
   },
   "entries": {
@@ -5574,6 +5592,145 @@
         "음식",
         "인터넷방송"
       ]
+    },
+    "academic-consensus": {
+      "title": "학계의 정설",
+      "aliases": [
+        "학계의정설"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "dc293f87fd1e7efff3e72667106f6e261a648ef6e217d0ebab6aad9b62348553",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 설명·사용 확인; 최초 발생국가 단정 없음",
+      "tags": []
+    },
+    "pet-the-peepo": {
+      "title": "펫 더 피포",
+      "aliases": [
+        "PET THE PEEPO",
+        "PETTHEPEEPO",
+        "PET THE X"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "705de76453dc9e5a51f077644c7dfe265a9358bef4aa0a099632216f1ad254ed",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 설명·사용 확인; 최초 발생국가 단정 없음",
+      "tags": [
+        "인터넷방송"
+      ]
+    },
+    "chika-dance": {
+      "title": "치카 댄스",
+      "aliases": [
+        "치카댄스",
+        "Chika Dance"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "f698e8146702c6a91505835244706b4d554d1a3e4161413d764fb8c73175ce35",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 설명·사용 확인; 최초 발생국가 단정 없음",
+      "tags": [
+        "애니",
+        "음악"
+      ]
+    },
+    "sexy-food": {
+      "title": "섹시 푸드",
+      "aliases": [
+        "섹시푸드"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "da276c71ff9da56ab86bda134af4166756c4e5d54532d4bc1bae5b6b657364ef",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "unfortunate-event": {
+      "title": "불미스러운 일이 일어났어요",
+      "aliases": [
+        "너무 불미스러운 일이 일어났어요"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "30998fec8c836a85d927c2019f4753de2b867d4a977fdeb7e3c6259b2e15ef03",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "my-black-swan": {
+      "title": "나만의 블랙스완",
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "fb087dac4c9f4fc635cd4ee3cf09b6328936e0758e68706c5e81d78ab2e0a5b0",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "chocolate-milk-offer": {
+      "title": "초코우유 밈",
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "b051408475fdd5b65e6e1dd0cc3acdf58d18e8e92be7678257ff4d51340ee21e",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "what-is-this-shotaro": {
+      "title": "이것 뭐에요",
+      "aliases": [
+        "이것 뭐예요"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "48be05cbb1a058067144abb6b1e773d755088c24516df87a0af6145fdd005fd1",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "becomes-oo": {
+      "title": "○○가 되",
+      "aliases": [
+        "~가 되"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "c349ac92f705f458f23cc0900afd43c0023c81d9196d91ff3ae713edea0c7dd8",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "chakani-praise": {
+      "title": "차카니 몇 개를 먹은 거람",
+      "aliases": [
+        "차카니 밈"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "a64f1d4018f39d918f3b450437be97937fa007815c0bd1b135d6b4ef2ecb83cf",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "neujoh": {
+      "title": "느좋",
+      "aliases": [
+        "좋느"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "b9c01ec4dd495510e61e0a7fb2cf0815b2474d037093f11a96ae5a57b59eb591",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "ready-go-complete": {
+      "title": "준비 갈 완료",
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "a3cdd8d78755df2365b4489a536f5c2e65f28a0d9dab47881523f7a16873a49a",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "tags": []
+    },
+    "break-up-who-are-you": {
+      "title": "헤어지자고? 너 누군데?",
+      "batch": "korean-verified-20261117-bulk-wave6",
+      "body_hash": "57ba40fe3bb05c7c28024a6194b0ece52f5dc670f8c842de572d08fa5cbdd718",
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 공개 본문에서 의미와 국내 사용 형식을 확인한 자체 요약.",
+      "tags": []
     }
   }
 }
