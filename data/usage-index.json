@@ -3,9 +3,9 @@
   "vocabulary_version": 1,
   "coverage": {
     "dictionary_entries": 354,
-    "annotated_entries": 62,
+    "annotated_entries": 64,
     "reviewed_entries": 62,
-    "unannotated_entries": 292
+    "unannotated_entries": 290
   },
   "entries": [
     {
@@ -641,6 +641,58 @@
             ],
             "targets": [
               "상황"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "deogeop-ilchi",
+      "title": "덕업일치",
+      "tags": [],
+      "path": "memes/deogeop-ilchi.md",
+      "aliases": [],
+      "source_sha": "48c9ae497d772bc923b4ff6501f34f04c8f43eb2",
+      "review_status": "draft",
+      "review_note": "본인의 지속적인 관심 분야와 현재 실제 업무의 연결을 설명하는 좁은 용법이다. 자랑·만족·행복을 자동 부여하지 않는다. 지정 커밋의 canonical 본문·source_sha와 현재 vocabulary는 GitHub에서 직접 확인했다. 외부 기사 내용은 별도 조사 담당의 직접 확인 보고를 참고했으며 이번 작성자가 외부 원문을 재독했다고 주장하지 않는다. 예문은 개인정보 없는 편집 창작이며 안전 등급·사용 경계는 편집 판단이다.",
+      "usages": [
+        {
+          "id": "own-interest-became-work",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "상태설명"
+          ],
+          "situations": [
+            "관심사직업연결"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "본인이 오래 관심을 두어 온 분야가 현재 맡고 있는 실제 업무와 이어져 있음을 설명한다. 단순한 여가 활동이나 앞으로의 취업 희망이 아니라 지금의 직업적 연결을 말한다.",
+          "avoid_when": [
+            "취미만 있거나 미래 취업 희망만 있는 사람에게 현재 직업이 됐다고 말하는 경우",
+            "좋아하는 대상을 만났다는 사실만으로 관련 직업을 가졌다고 추정하는 경우",
+            "좋아하는 일이므로 저임금·과로를 감수해야 한다고 압박하는 경우",
+            "이 표현만으로 고소득·안정 고용·전문성·행복을 보증하는 경우"
+          ],
+          "example": {
+            "text": "취미로 만들던 종이 모형을 지금은 전시 제작 업무로 하고 있어. 내 경우는 덕업일치라고 할 수 있겠네.",
+            "kind": "editorial"
+          },
+          "review_note": "standard는 현재 업무 연결이 명시된 자기 설명 맥락의 편집 판단이다. 직업적 연결과 별개인 노동 조건·실제 감정·능력 수준을 추정하지 않는다.",
+          "retrieval_requirements": {
+            "situations": [
+              "관심사직업연결"
+            ],
+            "targets": [
+              "자기"
             ]
           }
         }
@@ -3279,6 +3331,61 @@
           },
           "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
           "emotion_status": "annotated"
+        }
+      ]
+    },
+    {
+      "id": "seongdeok",
+      "title": "성덕",
+      "tags": [
+        "연예"
+      ],
+      "path": "memes/seongdeok.md",
+      "aliases": [],
+      "source_sha": "339edafb707f77c5bbab18efd48529165cca93a8",
+      "review_status": "draft",
+      "review_note": "자신이 좋아해 온 대상과 바라던 교류를 실제 경험한 자기 설명으로 좁혔다. 공식 마련된 만남은 이번 편집 맥락의 조건이며 모든 사전 용법의 필요조건이라고 주장하지 않는다. 지정 커밋의 canonical 본문·source_sha와 현재 vocabulary는 GitHub에서 직접 확인했다. 외부 기사 내용은 별도 조사 담당의 직접 확인 보고를 참고했으며 이번 작성자가 외부 원문을 재독했다고 주장하지 않는다. 예문은 개인정보 없는 편집 창작이며 안전 등급·사용 경계는 편집 판단이다.",
+      "usages": [
+        {
+          "id": "own-hoped-for-fan-meeting",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "상태설명"
+          ],
+          "situations": [
+            "팬교류성취"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [],
+          "safety": "standard",
+          "context": "자신이 팬으로 좋아해 온 대상과 공식적으로 마련된 자리에서 바라던 만남이나 대화를 실제로 경험했음을 설명한다. 아직 이루어지지 않은 바람이나 팬이 아닌 유명인과의 우연한 조우는 이번 범위가 아니다.",
+          "avoid_when": [
+            "팬이 아닌 유명인과 우연히 마주친 일을 팬으로서의 성취로 단정하는 경우",
+            "바라기만 한 만남을 실제 경험한 것처럼 바꾸어 말하는 경우",
+            "사생활 침해나 동의 없는 접근을 찬양하는 경우",
+            "한 번의 만남만으로 상대도 본인의 팬이거나 지속적으로 친밀하다고 추정하는 경우",
+            "교류 경험을 추가 접근·연락에 대한 동의로 해석하는 경우"
+          ],
+          "example": {
+            "text": "오래 좋아한 작가의 공식 독자 행사에서 직접 이야기를 나눴어. 바라던 만남을 이뤘으니 나도 성덕이네.",
+            "kind": "editorial"
+          },
+          "review_note": "standard는 공식적으로 마련된 자리에서 실제 경험한 교류라는 좁은 편집 맥락에 한정한다. 기쁨·자부심·상대의 호감은 자동 주석하지 않는다. 필터만으로 공식성·동의·경험의 진실성을 검증할 수 없다.",
+          "retrieval_requirements": {
+            "situations": [
+              "팬교류성취"
+            ],
+            "targets": [
+              "자기"
+            ]
+          }
         }
       ]
     },

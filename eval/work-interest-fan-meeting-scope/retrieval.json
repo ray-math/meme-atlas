@@ -1,0 +1,560 @@
+{
+  "schema_version": 1,
+  "execution": "actual Python search over provisional in-memory profiles",
+  "provisional_profiles": [
+    "deogeop-ilchi",
+    "seongdeok"
+  ],
+  "requirements_enabled": true,
+  "current_baseline_candidate_drift": [],
+  "baseline_coverage": {
+    "dictionary_entries": 354,
+    "annotated_entries": 64,
+    "reviewed_entries": 62,
+    "unannotated_entries": 290
+  },
+  "provisional_reviewed_entries": 64,
+  "coverage_interpretation": "per-result coverage is the source baseline, not provisional review counts",
+  "limitations": [
+    "No new live LLM call in replay. Not independent natural-language accuracy.",
+    "Source profile review statuses are never modified."
+  ],
+  "execution_commit": "361cceddac8a75f1b33e811dd809036b34b8a344",
+  "ci_run": 44025907769,
+  "results": [
+    {
+      "id": "K-work",
+      "prompt": "본인이 오래 관심을 두어 온 분야가 현재 맡고 있는 실제 업무와 이어져 있음을 설명한다. 단순한 여가 활동이나 앞으로의 취업 희망이 아니라 지금의 직업적 연결을 말한다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "상태설명"
+        ],
+        "situations": [
+          "관심사직업연결"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 64,
+          "reviewed_entries": 62,
+          "unannotated_entries": 290
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "deogeop-ilchi",
+            "title": "덕업일치",
+            "path": "memes/deogeop-ilchi.md",
+            "domain_tags": [],
+            "usage_id": "own-interest-became-work",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "관심사직업연결"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "own-interest-became-work",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "관심사직업연결"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "본인이 오래 관심을 두어 온 분야가 현재 맡고 있는 실제 업무와 이어져 있음을 설명한다. 단순한 여가 활동이나 앞으로의 취업 희망이 아니라 지금의 직업적 연결을 말한다.",
+              "avoid_when": [
+                "취미만 있거나 미래 취업 희망만 있는 사람에게 현재 직업이 됐다고 말하는 경우",
+                "좋아하는 대상을 만났다는 사실만으로 관련 직업을 가졌다고 추정하는 경우",
+                "좋아하는 일이므로 저임금·과로를 감수해야 한다고 압박하는 경우",
+                "이 표현만으로 고소득·안정 고용·전문성·행복을 보증하는 경우"
+              ],
+              "example": {
+                "text": "취미로 만들던 종이 모형을 지금은 전시 제작 업무로 하고 있어. 내 경우는 덕업일치라고 할 수 있겠네.",
+                "kind": "editorial"
+              },
+              "review_note": "standard는 현재 업무 연결이 명시된 자기 설명 맥락의 편집 판단이다. 직업적 연결과 별개인 노동 조건·실제 감정·능력 수준을 추정하지 않는다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "관심사직업연결"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "48c9ae497d772bc923b4ff6501f34f04c8f43eb2",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "관심사직업연결"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "K-fan",
+      "prompt": "자신이 팬으로 좋아해 온 대상과 공식적으로 마련된 자리에서 바라던 만남이나 대화를 실제로 경험했음을 설명한다. 아직 이루어지지 않은 바람이나 팬이 아닌 유명인과의 우연한 조우는 이번 범위가 아니다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "상태설명"
+        ],
+        "situations": [
+          "팬교류성취"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 64,
+          "reviewed_entries": 62,
+          "unannotated_entries": 290
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "seongdeok",
+            "title": "성덕",
+            "path": "memes/seongdeok.md",
+            "domain_tags": [
+              "연예"
+            ],
+            "usage_id": "own-hoped-for-fan-meeting",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "팬교류성취"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "own-hoped-for-fan-meeting",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "팬교류성취"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신이 팬으로 좋아해 온 대상과 공식적으로 마련된 자리에서 바라던 만남이나 대화를 실제로 경험했음을 설명한다. 아직 이루어지지 않은 바람이나 팬이 아닌 유명인과의 우연한 조우는 이번 범위가 아니다.",
+              "avoid_when": [
+                "팬이 아닌 유명인과 우연히 마주친 일을 팬으로서의 성취로 단정하는 경우",
+                "바라기만 한 만남을 실제 경험한 것처럼 바꾸어 말하는 경우",
+                "사생활 침해나 동의 없는 접근을 찬양하는 경우",
+                "한 번의 만남만으로 상대도 본인의 팬이거나 지속적으로 친밀하다고 추정하는 경우",
+                "교류 경험을 추가 접근·연락에 대한 동의로 해석하는 경우"
+              ],
+              "example": {
+                "text": "오래 좋아한 작가의 공식 독자 행사에서 직접 이야기를 나눴어. 바라던 만남을 이뤘으니 나도 성덕이네.",
+                "kind": "editorial"
+              },
+              "review_note": "standard는 공식적으로 마련된 자리에서 실제 경험한 교류라는 좁은 편집 맥락에 한정한다. 기쁨·자부심·상대의 호감은 자동 주석하지 않는다. 필터만으로 공식성·동의·경험의 진실성을 검증할 수 없다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "팬교류성취"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "339edafb707f77c5bbab18efd48529165cca93a8",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "팬교류성취"
+                ],
+                "targets": [
+                  "자기"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "K-workwish",
+      "prompt": "취미만 있거나 미래 취업 희망만 있는 사람에게 현재 직업이 됐다고 말하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "K-exploit",
+      "prompt": "좋아하는 일이므로 저임금·과로를 감수해야 한다고 압박하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "K-intrude",
+      "prompt": "사생활 침해나 동의 없는 접근을 찬양하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "K-consent",
+      "prompt": "교류 경험을 추가 접근·연락에 대한 동의로 해석하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A07",
+      "prompt": "며칠 만든 작은 도자기 컵이 완성됐어. 내 작품 사진에 귀엽게 자랑하는 캡션을 달래.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "결과물공유"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 64,
+          "reviewed_entries": 62,
+          "unannotated_entries": 290
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "look-at-this-hand",
+            "title": "이 손을 봐, 대박임",
+            "path": "memes/look-at-this-hand.md",
+            "domain_tags": [
+              "웹툰"
+            ],
+            "usage_id": "cute-brag",
+            "score": 20,
+            "matched_facets": {
+              "situations": [
+                "결과물공유"
+              ]
+            },
+            "usage": {
+              "id": "cute-brag",
+              "emotions": [
+                "뿌듯함"
+              ],
+              "intents": [
+                "자랑"
+              ],
+              "situations": [
+                "새물건",
+                "결과물공유"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신의 물건이나 결과물을 귀엽고 천진하게 소개한다.",
+              "avoid_when": [
+                "상대의 성과를 깎아내리는 비교 자랑"
+              ],
+              "example": {
+                "text": "이 책장을 봐, 대박임. 내가 조립했다 짱이지.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "17e9c3fafef79ca9d09392647015da56b71599a8",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "A21",
+      "prompt": "친절하게 택배를 받아 준 이웃이 나랑 사귀고 싶은 게 확실하다고 말할 밈을 줘.",
+      "action": "abstain",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "abstain",
+        "results": []
+      }
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "retrieval": {
+        "status": "not_searched",
+        "reason": "clarify",
+        "results": []
+      }
+    },
+    {
+      "id": "E06",
+      "prompt": "함께 일하던 친구가 먼 도시로 옮겨. 서운한 작별보다 행복하게 지내라는 가벼운 인사.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "응원"
+        ],
+        "situations": [
+          "좋은일기원"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "recommend",
+        "coverage": {
+          "dictionary_entries": 354,
+          "annotated_entries": 64,
+          "reviewed_entries": 62,
+          "unannotated_entries": 290
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "flower-road",
+            "title": "꽃길만 걷자",
+            "path": "memes/flower-road.md",
+            "domain_tags": [
+              "연예"
+            ],
+            "usage_id": "wish-good-future",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "응원"
+              ],
+              "situations": [
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "wish-good-future",
+              "emotion_status": "unknown",
+              "emotions": [],
+              "intents": [
+                "응원"
+              ],
+              "situations": [
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "새 활동을 앞둔 상대에게 앞으로 좋은 일이 많기를 빌며 앞날을 응원한다. 바람을 전하는 것이며 성공이나 행복이 확정됐다는 뜻은 아니다.",
+              "avoid_when": [
+                "미래 성공을 보증하거나 실패할 가능성이 없다고 약속하는 경우",
+                "쉬거나 그만두겠다는 상대의 의사를 무시하고 계속 활동하도록 압박하는 경우",
+                "피해·상실·고통의 이야기를 긍정적인 말로 덮고 필요한 도움을 생략하는 경우",
+                "어려운 경험이 반드시 좋은 결과로 보상된다고 단정하는 경우"
+              ],
+              "example": {
+                "text": "새 활동을 앞둔 너에게 좋은 일이 많기를 바라. 우리 꽃길만 걷자!",
+                "kind": "editorial"
+              },
+              "review_note": "standard는 이 좁은 기원 맥락의 편집 판단이다. 우리라는 예문 표현이 대상 라벨을 자기까지 확대하지 않으며 초점은 응원받는 상대다. 필터 일치가 상대의 현재 의사·상황을 확인한 것은 아니다.",
+              "retrieval_requirements": {
+                "situations": [
+                  "좋은일기원"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              }
+            },
+            "review_status": "reviewed",
+            "source_sha": "a9c2331068075d45d76e3ad2b0d2577a47a96ee5",
+            "requires_context_check": true,
+            "retrieval_scope": {
+              "required_filters": {
+                "situations": [
+                  "좋은일기원"
+                ],
+                "targets": [
+                  "상대"
+                ]
+              },
+              "explicit_filters_match": true,
+              "exact_lookup_only": false,
+              "interpretation": "caller-supplied filters, not verified context"
+            }
+          },
+          {
+            "entry_id": "haengshow",
+            "title": "행쇼",
+            "path": "memes/haengshow.md",
+            "domain_tags": [
+              "방송",
+              "연예"
+            ],
+            "usage_id": "well-wishes",
+            "score": 60,
+            "matched_facets": {
+              "intents": [
+                "응원"
+              ],
+              "situations": [
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ]
+            },
+            "usage": {
+              "id": "well-wishes",
+              "emotions": [
+                "다정함"
+              ],
+              "intents": [
+                "응원",
+                "인사"
+              ],
+              "situations": [
+                "헤어짐",
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "가벼운 말투로 잘 지내고 행복하길 빈다.",
+              "avoid_when": [
+                "격식 있는 위로를 요구하는 상황"
+              ],
+              "example": {
+                "text": "새로운 곳에서도 잘 지내. 행쇼!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "8a0977caf65b47878a44cb717d9366163670de78",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    }
+  ]
+}
