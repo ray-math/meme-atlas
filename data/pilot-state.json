@@ -544,6 +544,12 @@
       "ids": [
         "mental-victory"
       ]
+    },
+    "korean-verified-20261117-noepisyeol": {
+      "input_hash": "29c2e824495a987d0b573f3d13393b502380a4359f2dc65d6131a25b6fa173cc",
+      "ids": [
+        "noepisyeol"
+      ]
     }
   },
   "entries": {
@@ -4189,6 +4195,14 @@
       "body_hash": "8049e629943bee6274e5d8c1aeb5db767af00e8cdf09106f6bb86422ea03fd5e",
       "scope_type": "korean_usage",
       "scope_basis": "연합뉴스의 언어 칼럼 뜻풀이와 스포츠경향 본문의 SNS 실제 반박 발화 보도를 교차확인했다. 원 SNS 게시물을 직접 열람한 것으로 기록하지 않으며 타자의 실제 심리나 논란의 진위를 판정하지 않는다.",
+      "tags": []
+    },
+    "noepisyeol": {
+      "title": "뇌피셜",
+      "batch": "korean-verified-20261117-noepisyeol",
+      "body_hash": "caa51cad9f39a57d4cd68bc54308e4cf6f81b3644c81b130619504e9825949e6",
+      "scope_type": "korean_usage",
+      "scope_basis": "매일신문의 뜻풀이와 CBS 공식 인터뷰 속기의 자기추측 표시·상대 주장 비판 발화를 교차확인했다. 음성을 청취한 것은 아니며 방송사의 속기 차이 고지를 존중한다. 민감한 실제 주장 내용은 수록하지 않는다.",
       "tags": []
     }
   }

@@ -91,6 +91,7 @@
 - [나 꿍꼬또 기싱꿍꼬또](../memes/ghost-dream-aegyo.md)
 - [내가 바퀴벌레가 되면 어떡할 거야?](../memes/if-i-become-cockroach.md)
 - [뇌절](../memes/noejeol.md)
+- [뇌피셜](../memes/noepisyeol.md)
 - [다음 이야기가 궁금하면 냐냐냥을 입력하세요](../memes/type-nyanyanya.md)
 - [단어 습득하는 몬스터](../memes/word-learning-monster.md)
 - [답정너](../memes/dapjeongneo.md)

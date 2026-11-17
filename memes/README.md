@@ -94,6 +94,7 @@
 - [넥스트 레벨 디귿춤](next-level-dance.md)
 - [놀기 신청하러 온 거야?](applying-to-play.md)
 - [뇌절](noejeol.md)
+- [뇌피셜](noepisyeol.md)
 - [누가 기침 소리를 내었는가](who-coughed.md)
 - [누가 이렇게 예쁘게 낳았어? 엄마엄마가](mom-mom-made-me.md)
 - [누칼협](nukalhyeop.md)
