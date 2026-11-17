@@ -930,6 +930,7 @@
 - [새삥 챌린지](../memes/saebbing-challenge.md)
 - [샤샤샤](../memes/sha-sha-sha.md)
 - [스웩](../memes/swag.md)
+- [스톰 챌린지](../memes/storm-ii-challenge.md)
 - [슬릭백](../memes/slickback.md)
 - [시건방춤](../memes/arrogant-dance.md)
 - [쏘리쏘리 춤 따라하기](../memes/sorry-sorry-dance.md)
@@ -965,6 +966,7 @@
 - [널 좋아하는 마음이 커졌어 막 공룡만 해](../memes/dinosaur-sized-affection.md)
 - [단어 알지? 싸워](../memes/fight-briefing-parody.md)
 - [무례하지 않게 말해 주세요](../memes/say-it-politely-template.md)
+- [스톰 챌린지](../memes/storm-ii-challenge.md)
 - [일하는 중에 갑자기 몸이 안 좋아졌어요](../memes/suddenly-sick-fan-trip.md)
 
 ## 인터넷방송

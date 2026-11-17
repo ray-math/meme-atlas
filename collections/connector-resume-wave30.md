@@ -57,3 +57,4 @@
 - [일하는 중에 갑자기 몸이 안 좋아졌어요](../memes/suddenly-sick-fan-trip.md)
 - [나이별 반응 챌린지](../memes/age-reaction-challenge.md)
 - [단어 알지? 싸워](../memes/fight-briefing-parody.md)
+- [스톰 챌린지](../memes/storm-ii-challenge.md)

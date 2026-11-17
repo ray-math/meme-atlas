@@ -28,10 +28,11 @@
     "reports/bulk/connector-resume-b170.json",
     "reports/bulk/connector-resume-audit-screening171.json",
     "reports/bulk/connector-resume-b172.json",
-    "reports/bulk/connector-resume-a173.json"
+    "reports/bulk/connector-resume-a173.json",
+    "reports/bulk/connector-resume-c174.json"
   ],
-  "query_observations": 469,
-  "distinct_literal_queries": 375,
+  "query_observations": 477,
+  "distinct_literal_queries": 382,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -2578,6 +2579,46 @@
     {
       "query": "프랑스",
       "source": "reports/bulk/connector-resume-a173.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "STORM",
+      "source": "reports/bulk/connector-resume-c174.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스톰",
+      "source": "reports/bulk/connector-resume-c174.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "군무",
+      "source": "reports/bulk/connector-resume-c174.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "제너레이션",
+      "source": "reports/bulk/connector-resume-c174.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영 린",
+      "source": "reports/bulk/connector-resume-c174.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "복제",
+      "source": "reports/bulk/connector-resume-c174.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "중앙",
+      "source": "reports/bulk/connector-resume-c174.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "표정",
+      "source": "reports/bulk/connector-resume-c174.json",
       "status": "screened-see-report"
     }
   ],

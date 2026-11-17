@@ -470,6 +470,7 @@
 - [스불재](seubuljae.md)
 - [스압](seuap.md)
 - [스웩](swag.md)
+- [스톰 챌린지](storm-ii-challenge.md)
 - [슬릭백](slickback.md)
 - [슬세권](seulsekwon.md)
 - [슬픈 개구리](sad-frog.md)
