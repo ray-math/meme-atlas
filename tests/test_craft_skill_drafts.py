@@ -26,14 +26,14 @@ class CraftSkillDraftTests(unittest.TestCase):
         self.assertNotEqual(result['status'], 'unsupported_filter')
         return [h for h in result['results'] if h['entry_id'] == identity]
 
-    def test_source_bound_unknown_drafts(self):
+    def test_source_bound_unknown_reviews(self):
         profiles = [p for p in load_profiles(ROOT)['profiles'] if p['entry_id'] in self.SPEC]
         self.assertEqual({p['entry_id'] for p in profiles}, set(self.SPEC))
         for p in profiles:
             usage_id, target, intent, safety, expected_sha = self.SPEC[p['entry_id']]
             self.assertEqual(p['source_sha'], expected_sha)
             self.assertEqual(p['source_sha'], blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))
-            self.assertEqual(p['review_status'], 'draft')
+            self.assertEqual(p['review_status'], 'reviewed')
             self.assertEqual(len(p['usages']), 1)
             u = p['usages'][0]
             self.assertEqual(u['id'], usage_id)
@@ -52,17 +52,6 @@ class CraftSkillDraftTests(unittest.TestCase):
         self.assertEqual(len(concepts), 1)
         self.assertEqual(concepts[0]['aliases'], [])
         self.assertTrue(concepts[0]['definition'].strip())
-
-    def test_actual_drafts_hidden_in_both_modes(self):
-        for entry in self.index['entries']:
-            if entry['id'] not in self.SPEC:
-                continue
-            requirements = entry['usages'][0]['retrieval_requirements']
-            for mode in ('lookup', 'recommend'):
-                for filters in ({'query': entry['title']}, requirements,
-                                dict(requirements, query=entry['title'])):
-                    with self.subTest(identity=entry['id'], mode=mode, filters=filters):
-                        self.assertFalse(self.hits(self.index, entry['id'], mode=mode, **filters))
 
     def test_hypothetical_reviewed_exact_gates_and_safety(self):
         for identity, (usage_id, target, intent, safety, _) in self.SPEC.items():

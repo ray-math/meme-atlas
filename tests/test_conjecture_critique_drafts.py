@@ -14,7 +14,7 @@ class ConjectureCritiqueDraftTests(unittest.TestCase):
         selected=[p for p in data if p['entry_id'] in self.IDS]
         self.assertEqual({p['entry_id'] for p in selected},self.IDS)
         self.assertEqual(sum(len(p['usages']) for p in selected),2)
-        self.assertEqual(sum(p['review_status']=='reviewed' for p in data),52)
+        self.assertEqual(sum(p['review_status']=='reviewed' for p in data),54)
         for profile in selected:
             self.assertEqual(profile['review_status'],'reviewed')
             self.assertEqual(profile['source_sha'],blob_sha(ROOT/'memes'/f"{profile['entry_id']}.md"))
