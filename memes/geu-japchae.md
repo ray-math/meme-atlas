@@ -16,7 +16,4 @@ tags: []
 
 주간동아는 2022년 11월 기사에서 영상 제목·자막과 회사 프로모션에 이 표현이 쓰인다고 설명했다. Korea JoongAng Daily는 같은 해 12월 한국 인터넷 유행어를 소개하면서 단어를 바꾸는 원리와 사용 예를 제시했다.
 
-- [주간동아 (2022-11-01)](https://weekly.donga.com/culture/article/all/11/3729742/1)
-- [Korea JoongAng Daily (2022-12-15)](https://www.koreajoongangdaily.com/korea/think-english-yojeumdaehwa-sajeon-ep1-geu-jabchae-seubuljae-gongjohka/11828301)
-
 [기본 수록 목록](../collections/pilot-30.md)
