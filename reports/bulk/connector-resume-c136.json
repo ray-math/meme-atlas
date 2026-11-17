@@ -1,0 +1,34 @@
+{
+  "batch": "connector-resume-c136",
+  "base": "0b2b2701966db384a6d88e65905595d8430eee2b",
+  "entries": [
+    {
+      "id": "outside-the-company-is-hell",
+      "independent_usage_events": 2,
+      "sources": [
+        {
+          "url": "https://brunch.co.kr/@smine/65",
+          "observed": "미생 연결 명시, 회사 밖은 지옥이 아니었다고 자기 경험으로 반박. 표기2021-10-08이나 본문2022현재 있어 수정 가능."
+        },
+        {
+          "url": "https://brunch.co.kr/@hellodaddy2018/59",
+          "observed": "2020-02-25 창업 준비 글 결론에서 고정표현 인용."
+        }
+      ],
+      "bounds": "웃음 목적 패러디2건이 아닌 진지한 인용·반박 재사용2건. 원작 회차·정확 전체 대사 미검증. 창업 조언 채택 아님."
+    }
+  ],
+  "screening": {
+    "strings": 12,
+    "accepted": 1,
+    "note": "나머지는 검증 완료 아님. 반복 검색 포함, 누적 고유후보로 합산 안함."
+  },
+  "checks": {
+    "result_entries": 851,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}
