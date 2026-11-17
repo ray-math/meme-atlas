@@ -25,10 +25,11 @@
     "reports/bulk/connector-resume-a167.json",
     "reports/bulk/connector-resume-c168.json",
     "reports/bulk/connector-resume-bc169.json",
-    "reports/bulk/connector-resume-b170.json"
+    "reports/bulk/connector-resume-b170.json",
+    "reports/bulk/connector-resume-audit-screening171.json"
   ],
-  "query_observations": 411,
-  "distinct_literal_queries": 332,
+  "query_observations": 436,
+  "distinct_literal_queries": 347,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -2286,6 +2287,131 @@
       "query": "의사",
       "source": "reports/bulk/connector-resume-b170.json",
       "status": "semantic-screened-see-report"
+    },
+    {
+      "query": "스윙스",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "반한 건",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "밤티",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "장원영 말랑이",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "장원영",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "원영고치",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "줴줴",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "저라뎃",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "ㅈㅈㅇㅇ",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "숨긴다고",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "37분",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "연락 없네",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "잘 살아",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "L을 가져가",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "권루트",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "전여친 감자칼",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "이거 제 이모지야",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "기도해 드릴게요",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "파라파라",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "베스퍼",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "인어섬",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "진지를 진지하게",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "하지하지마",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "BIG GUY",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
+    },
+    {
+      "query": "진돌",
+      "source": "reports/bulk/connector-resume-audit-screening171.json",
+      "status": "existing-family-or-held-see-report"
     }
   ],
   "semantic_duplicates": [
