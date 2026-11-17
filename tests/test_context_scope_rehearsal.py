@@ -6,6 +6,7 @@ from pathlib import Path
 from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
+from compare_evaluation_expansion import strict_equal
 from replay_context_scope import evaluate
 
 class PublicScopeRehearsalTests(unittest.TestCase):
@@ -46,7 +47,7 @@ class PublicScopeRehearsalTests(unittest.TestCase):
             for row in rows:
                 row['retrieval'].pop('coverage',None)
             return rows
-        self.assertEqual(behavior(actual['results']),behavior(frozen['results']))
+        self.assertTrue(strict_equal(behavior(actual['results']),behavior(frozen['results'])))
 
     def test_final_ai_selection_is_within_actual_retrieval(self):
         trace={r['id']:r for r in json.loads((ROOT/'eval/context-scope/retrieval.json').read_text())['results']}
