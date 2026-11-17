@@ -1088,6 +1088,23 @@
         "gatgi",
         "jikcam"
       ]
+    },
+    "korean-verified-20261117-bulk-wave16": {
+      "input_hash": "2fed53ea17fb377270f379d72e107f19e7900a31a7d261460d41cd1e5849c382",
+      "ids": [
+        "alti",
+        "teuchin",
+        "pechin",
+        "tamra",
+        "gyepok",
+        "deoksim",
+        "yeokjuhaeng",
+        "jeonbuk-iksan",
+        "jujak",
+        "daechung-salja",
+        "geukdil",
+        "giseungjeon"
+      ]
     }
   },
   "entries": {
@@ -8588,6 +8605,102 @@
       "body_hash": "a408549f70bb76a7e03cbaa122cae8a6a5e4d027f2a37410d414e68ce3912e7e",
       "scope_type": "korean_usage",
       "scope_basis": "국내 온라인·팬덤 사용 또는 형식에 관한 직접 설명·관찰을 두 발행 주체에서 대조했다.",
+      "tags": []
+    },
+    "alti": {
+      "title": "알티",
+      "batch": "korean-verified-20261117-bulk-wave16",
+      "body_hash": "a3f5b34ccf70c919223d872668bd293de898a917185929179e8920e559b0927f",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "tags": []
+    },
+    "teuchin": {
+      "title": "트친",
+      "batch": "korean-verified-20261117-bulk-wave16",
+      "body_hash": "61a2ab9671ef6b24d5ed3b2ff592b7bbf959c8d61f316ae99e6f6ca2cad9db4f",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "tags": []
+    },
+    "pechin": {
+      "title": "페친",
+      "batch": "korean-verified-20261117-bulk-wave16",
+      "body_hash": "d79edb3f02e1f0e31ada4e7701d9f408422c8a758b5f8496229b8add7d002c59",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "tags": []
+    },
+    "tamra": {
+      "title": "탐라",
+      "batch": "korean-verified-20261117-bulk-wave16",
+      "body_hash": "50723651c71f8bb784d8515956741e4784584292df10734acdb12b1953c69ead",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "tags": []
+    },
+    "gyepok": {
+      "title": "계폭",
+      "batch": "korean-verified-20261117-bulk-wave16",
+      "body_hash": "96843f60afe77d8c9166e7a26ebc75b9761fa9c290dbc41c99246a93fb30421a",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "tags": []
+    },
+    "deoksim": {
+      "title": "덕심",
+      "batch": "korean-verified-20261117-bulk-wave16",
+      "body_hash": "1545c8b06dd9ce0ad318c77e308ad7aa446874702167ff8552e37ba1a4a07c31",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "tags": []
+    },
+    "yeokjuhaeng": {
+      "title": "역주행",
+      "batch": "korean-verified-20261117-bulk-wave16",
+      "body_hash": "689aab3bcf73d6ff35eb06d6687606420405d7e5502ce1051bbc5b4646a6a0b5",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "tags": []
+    },
+    "jeonbuk-iksan": {
+      "title": "전북익산",
+      "batch": "korean-verified-20261117-bulk-wave16",
+      "body_hash": "dbfad6a3a97320e1bfc04613d37ff3d4f9a5c631f7889774390c376a4df2c5ee",
+      "scope_type": "korean_usage",
+      "scope_basis": "게임 매체의 한국어 몬더그린 별칭 설명과 독립 칼럼의 SNS 재생산 설명을 대조.",
+      "tags": []
+    },
+    "jujak": {
+      "title": "주작",
+      "batch": "korean-verified-20261117-bulk-wave16",
+      "body_hash": "a2519355232ac2b135a474b162abe166558a4a0dd3a61c9271a7aadc766c0bdc",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 신조어 기사와 독립 인터넷 문화 칼럼이 조작 의미와 온라인 표현 사용을 설명.",
+      "tags": []
+    },
+    "daechung-salja": {
+      "title": "대충 살자",
+      "batch": "korean-verified-20261117-bulk-wave16",
+      "body_hash": "ced16e5e1235fafc42007bccda9804577f52ebc1e7f89f0bc3e0eb478f01d20b",
+      "scope_type": "korean_usage",
+      "scope_basis": "이전 시기 정의 자료와 독립된 2022~2023 국내 사용 자료를 교차 확인. 기간 내 처음 생겼다는 주장은 하지 않음.",
+      "tags": []
+    },
+    "geukdil": {
+      "title": "극딜",
+      "batch": "korean-verified-20261117-bulk-wave16",
+      "body_hash": "56954c0400d900d87d52d0e339be5364de59d3f94e015f5c44654df4b2efef60",
+      "scope_type": "korean_usage",
+      "scope_basis": "이전 시기 정의 자료와 독립된 2022~2023 국내 사용 자료를 교차 확인. 기간 내 처음 생겼다는 주장은 하지 않음.",
+      "tags": []
+    },
+    "giseungjeon": {
+      "title": "기승전○○",
+      "batch": "korean-verified-20261117-bulk-wave16",
+      "body_hash": "72aee82bee43f1c9fbae5f81cacd03c9d37e813ab0257a6ff3c67e9976f5ce03",
+      "scope_type": "korean_usage",
+      "scope_basis": "이전 시기 정의 자료와 독립된 2022~2023 국내 사용 자료를 교차 확인. 기간 내 처음 생겼다는 주장은 하지 않음.",
       "tags": []
     }
   }
