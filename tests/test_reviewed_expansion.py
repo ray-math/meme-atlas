@@ -14,7 +14,7 @@ class ReviewedExpansionTests(unittest.TestCase):
                    'retrieval':{'status':'matches','coverage':{'n':1},
                                 'results':[{'entry_id':'old1','usage_id':'one'},
                                            {'entry_id':'old2','usage_id':'two'}]}}]
-        self.hit={'entry_id':'new','usage_id':'one','source_sha':'a'*40}
+        self.hit={'entry_id':'new','usage_id':'one','source_sha':'a'*40,'score':20,'requires_context_check':True}
         self.allow={('test','case','new','one'):{'hit':self.hit,'position':1}}
         self.new=copy.deepcopy(self.old)
         self.new[0]['retrieval']['results'].insert(1,copy.deepcopy(self.hit))
@@ -34,6 +34,8 @@ class ReviewedExpansionTests(unittest.TestCase):
             lambda x:x[0]['retrieval'].update(status='no_match'),
             lambda x:x[0]['retrieval']['results'][1].update(source_sha='b'*40),
             lambda x:x[0].update(prompt='changed'),
+            lambda x:x[0]['retrieval']['results'][1].update(score=20.0),
+            lambda x:x[0]['retrieval']['results'][1].update(requires_context_check=1),
             lambda x:x.append(copy.deepcopy(x[0])),
             lambda x:x.clear(),
         ]
@@ -55,13 +57,15 @@ class ReviewedExpansionTests(unittest.TestCase):
 
     def test_duplicate_or_invalid_registry_rejected(self):
         original=Path.read_text
-        for change in ['duplicate','position','reason']:
+        for change in ['duplicate','position','reason','schema-bool','schema-float']:
             def edited(path,*args,**kwargs):
                 content=original(path,*args,**kwargs)
                 if str(path).endswith('eval/reviewed-expansions.json'):
                     data=json.loads(content)
                     if change=='duplicate':data['additions'].append(copy.deepcopy(data['additions'][0]))
                     elif change=='position':data['additions'][0]['expected_position']=True
+                    elif change=='schema-bool':data['schema_version']=True
+                    elif change=='schema-float':data['schema_version']=1.0
                     else:data['additions'][0]['reason']=''
                     return json.dumps(data)
                 return content

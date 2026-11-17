@@ -4,9 +4,17 @@ import json
 from pathlib import Path
 from evaluation_records import indexed_records
 
+def strict_equal(left,right):
+    if type(left) is not type(right):return False
+    if isinstance(left,dict):
+        return left.keys()==right.keys() and all(strict_equal(left[k],right[k]) for k in left)
+    if isinstance(left,list):
+        return len(left)==len(right) and all(strict_equal(a,b) for a,b in zip(left,right))
+    return left==right
+
 def load_additions(root):
     data=json.loads((Path(root)/'eval/reviewed-expansions.json').read_text())
-    if data.get('schema_version')!=1 or not isinstance(data.get('additions'),list):
+    if not isinstance(data,dict) or type(data.get('schema_version')) is not int or data['schema_version']!=1 or not isinstance(data.get('additions'),list):
         raise ValueError('invalid reviewed expansion registry')
     result={}
     for row in data['additions']:
@@ -50,12 +58,12 @@ def compare(frozen,current,evaluation_set,additions):
             if key in expected:
                 if (hit['entry_id'],hit['usage_id']) in old_keys:
                     raise ValueError('addition already exists in frozen trace')
-                if hit!=expected[key]['hit'] or position!=expected[key]['position']:
+                if not strict_equal(hit,expected[key]['hit']) or position!=expected[key]['position']:
                     raise ValueError('reviewed addition content or position changed')
                 seen.add(key)
             else:retained.append(hit)
         after['retrieval']['results']=retained
-        if before!=after:
+        if not strict_equal(before,after):
             raise ValueError('unreviewed behavioral drift: '+evaluation_set+'/'+identity)
     if seen!=set(expected):raise ValueError('reviewed addition missing from current candidates')
     return {'cases':len(old),'reviewed_additions':len(seen)}
