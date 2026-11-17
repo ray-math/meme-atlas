@@ -398,6 +398,7 @@
 - [어사](../memes/eosa-awkward.md)
 - [억까](../memes/eokkka.md)
 - [억텐](../memes/eokten.md)
+- [언제부터 ~라고 착각한 거지?](../memes/since-when-were-you-under-the-impression.md)
 - [언팔](../memes/eonpal.md)
 - [얼빡샷](../memes/eolppak-shot.md)
 - [얼죽아](../memes/eoljukah.md)

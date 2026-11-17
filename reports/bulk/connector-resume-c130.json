@@ -1,0 +1,36 @@
+{
+  "batch": "connector-resume-c130",
+  "base": "0f07172cc9a2d3e241793757cb5173c4b92d3ca4",
+  "id": "since-when-were-you-under-the-impression",
+  "classification": "과거 후보 근거 회복",
+  "sources": [
+    {
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=maimai1&no=306943&page=1",
+      "observed": "2026-11-12 375~383행 대여취소 서술에 경화수월+언제부터대여를잡았다고생각한거지 적용."
+    },
+    {
+      "url": "https://ridibooks.com/books/297025211",
+      "observed": "2026-04-19 par***리뷰253행 경화수월+언제부터...생각하던거지. 번역결함 검증 아님."
+    },
+    {
+      "url": "https://dailyshot.co/m/reviews/312065",
+      "observed": "14행 언제부터...착각한거지 구조 실제적용. 날짜미표시. 경화수월 상품명 연결, 제품추천/음주권장/가격은 수록하지 않음."
+    }
+  ],
+  "independent_usage_events": 3,
+  "bounds": "생각형2건과 착각형1건 구분. 원작판본·최초번역·최초확산 미확정. 일반질문전체가 아닌 경화수월 연결 반전형식 한정.",
+  "checks": {
+    "base_entries": 841,
+    "result_entries": 842,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  },
+  "candidate_screen": {
+    "screened": 12,
+    "accepted": 1,
+    "unverified": 11
+  }
+}

@@ -516,6 +516,7 @@
 - [어쩔티비](eojjeol-tv.md)
 - [억까](eokkka.md)
 - [억텐](eokten.md)
+- [언제부터 ~라고 착각한 거지?](since-when-were-you-under-the-impression.md)
 - [언팔](eonpal.md)
 - [얼빡샷](eolppak-shot.md)
 - [얼죽아](eoljukah.md)
