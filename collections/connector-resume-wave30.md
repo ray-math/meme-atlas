@@ -13,3 +13,5 @@
 - [응답하라 ○○](../memes/eungdaphara-template.md)
 - [압도적 감사](../memes/overwhelming-gratitude.md)
 - [무승부로 하지 않을래?](../memes/call-it-a-draw.md)
+- [리마리오 더듬이춤](../memes/rimario-antenna-dance.md)
+- [안돼 돌아가](../memes/no-go-back.md)

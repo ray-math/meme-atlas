@@ -1,0 +1,47 @@
+{
+  "batch": "connector-resume-ab130",
+  "base": "f098a70e14a33c1346c33e30da8b2bf1783f06d2",
+  "entries": [
+    {
+      "id": "rimario-antenna-dance",
+      "sources": [
+        {
+          "url": "https://v.daum.net/v/M0JRFujoHD",
+          "observed": "2004-12-28 70~84행 건담모형 춤 패러디 보도. 같은작성자의20일/22일 연속작업은1사건."
+        },
+        {
+          "url": "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N0311713459",
+          "observed": "2005-01-27 20~25행 김승용 골 세리머니 명시."
+        }
+      ],
+      "bounds": "원사진/영상 직접확인 아님. 세부안무·최초창작 추측하지 않음."
+    },
+    {
+      "id": "no-go-back",
+      "sources": [
+        {
+          "url": "https://k1ng-dev.tistory.com/111",
+          "observed": "2023-11-27 66행 오류를 거절말투로 의인화."
+        },
+        {
+          "url": "https://www.gamechosun.co.kr/webzine/article/view.php?bid=12&from=articlelist&no=183574&page=21",
+          "observed": "2022-04-04 210~217행 개발책임자가 기능요청에 대한 가상응답으로 직접 사용."
+        }
+      ],
+      "bounds": "두독립본문의 구체거절말틀만 수록. 기술설명 정확성검증 아님. 최초유래·미성년사건상세 제외. 경제조롱자료·접근실패인벤·다른딩고장면 제외."
+    }
+  ],
+  "checks": {
+    "base_entries": 839,
+    "result_entries": 841,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  },
+  "candidate_screen": {
+    "rimario_search_strings": 12,
+    "description": "문자열 수는 고유후보 수가 아님. 왜죠/키보드팔렸나요는 중복가능으로 별도 합산 금지. no-go-back은별도집중검토."
+  }
+}
