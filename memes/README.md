@@ -848,6 +848,7 @@
 - [헬창](hellchang.md)
 - [현기증 난단 말이에요](dizzy-hurry.md)
 - [현실은 시궁창](reality-is-gutter.md)
+- [현실판 멧챠 카멜레온](real-life-meccha-chameleon.md)
 - [혐대고기](hyumdae-meat.md)
 - [형이 왜 거기서 나와](why-are-you-there.md)
 - [형이다(싱하형)](hyung-ida.md)

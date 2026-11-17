@@ -39,6 +39,7 @@
 - [킹갓엠페러제너럴충무공마제스티](../memes/king-god-emperor.md)
 - [폐인](../memes/paein-online.md)
 - [폭풍전야](../memes/storm-before-suddenattack.md)
+- [현실판 멧챠 카멜레온](../memes/real-life-meccha-chameleon.md)
 
 ## 광고
 
