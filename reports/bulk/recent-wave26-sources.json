@@ -1,0 +1,142 @@
+{
+  "batch": "recent-wave26",
+  "base_commit": "800ae97ee1138ca70a1241be8207f444045d7600",
+  "candidate_review_count": 15,
+  "sourceentries": [
+    {
+      "slug": "judge-i-did-not-laugh",
+      "title": "판사님 저는 웃지 않았습니다",
+      "path": "memes/judge-i-did-not-laugh.md",
+      "evidence": [
+        {
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20151202010001633",
+          "publisher": "아시아투데이",
+          "published_date": "2015-12-04",
+          "access": "direct_body",
+          "support": "비방성 글 아래 웃음을 부인하면서 반응을 드러내는 댓글 형식을 설명한다.",
+          "independent_group": "asiatoday-20151204"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/201604242119025",
+          "publisher": "경향신문",
+          "published_date": "2016-04-24",
+          "access": "direct_body",
+          "support": "정치 풍자 글의 판사님 댓글을 블랙 유머로 관찰한다.",
+          "independent_group": "khan-20160424"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 자료에서 관찰된 한국어 고정 반응 문구에 한정.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "기사의 법률 해석과 정치적 평가를 현재 법률 안내나 사용자의 심리로 일반화하지 않는다. 최초 영상·재판과 개별 의혹은 본문에 옮기지 않았다. 판사님 드립 전체를 완전 별칭으로 합치지 않는다."
+    },
+    {
+      "slug": "delicious-zero-calories",
+      "title": "맛있으면 0칼로리",
+      "path": "memes/delicious-zero-calories.md",
+      "evidence": [
+        {
+          "url": "https://www.mk.co.kr/news/hot-issues/11444179",
+          "publisher": "스타투데이",
+          "published_date": "2025-10-17",
+          "access": "direct_body",
+          "support": "최화정의 유행어 및 음식점·광고에서 인용되는 문구로 보도한다.",
+          "independent_group": "mk-20251017"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/201704251635002/amp",
+          "publisher": "헬스경향",
+          "published_date": "2017-04-25",
+          "access": "direct_body",
+          "support": "방송에서 쓰이는 맛있게 먹으면 0칼로리 문구를 우스갯소리로 구분한다.",
+          "independent_group": "healthkhan-20170425"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 자료에서 관찰된 한국어 고정 반응 문구에 한정.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 방송은 직접 확인하지 않았다. 기사 속 저작권 설명이나 한방 체질·영양 주장은 채택하지 않았으며, 두 자료는 동일 영상의 전재가 아니다."
+    },
+    {
+      "slug": "its-okay-looked-natural",
+      "title": "괜찮아 자연스러웠어",
+      "path": "memes/its-okay-looked-natural.md",
+      "evidence": [
+        {
+          "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10007116948",
+          "publisher": "SBS연예뉴스",
+          "published_date": "2015-09-13",
+          "access": "direct_body",
+          "support": "체조 순서를 잊은 장면에 붙은 해당 자막을 직접 설명한다.",
+          "independent_group": "sbs-20150913"
+        },
+        {
+          "url": "https://weverse.io/txt/artist/1-6485",
+          "publisher": "Weverse / TXT 태현 공식 공개 글",
+          "published_date": "2020-12-31",
+          "access": "direct_body",
+          "support": "무대 실수 때 하는 생각을 묻는 공개 문답에 해당 표현을 직접 쓴다.",
+          "independent_group": "txt-taehyun-20201231"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "독립 자료에서 관찰된 한국어 고정 반응 문구에 한정.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "두 번째는 언론 재보도가 아닌 공개 당사자 글이다. 두 출처는 서로 다른 장면이며, 최초 웹툰 기원이나 영상 전체는 확인하지 않았다. 노래 가사와 개인적 주변 내용은 복사하지 않았다."
+    }
+  ],
+  "held": [
+    {
+      "title": "아무튼 주작임",
+      "reason": "독립 직접 본문 2개로 해당 고정 형식의 의미·사용 범위 미확보"
+    },
+    {
+      "title": "나만 불편해",
+      "reason": "혐오적 대상화 맥락과 표현 범위 추가 검토 필요"
+    },
+    {
+      "title": "오빠 차 뽑았다",
+      "reason": "독립 직접 본문 2개로 해당 고정 형식의 의미·사용 범위 미확보"
+    },
+    {
+      "title": "우리 아이가 달라졌어요",
+      "reason": "독립 직접 본문 2개로 해당 고정 형식의 의미·사용 범위 미확보"
+    },
+    {
+      "title": "오늘부터 우리는",
+      "reason": "일반 문장·작품명과 구별되는 독립 밈 사용 범위 미확보"
+    },
+    {
+      "title": "너의 이름은",
+      "reason": "일반 문장·작품명과 구별되는 독립 밈 사용 범위 미확보"
+    },
+    {
+      "title": "너 자신을 알라",
+      "reason": "일반 문장·작품명과 구별되는 독립 밈 사용 범위 미확보"
+    },
+    {
+      "title": "이 또한 지나가리라",
+      "reason": "일반 문장·작품명과 구별되는 독립 밈 사용 범위 미확보"
+    },
+    {
+      "title": "누가 내 얘기하냐",
+      "reason": "일반 문장·작품명과 구별되는 독립 밈 사용 범위 미확보"
+    },
+    {
+      "title": "왜 슬픈 예감은 틀린 적이 없나",
+      "reason": "독립 직접 본문 2개로 해당 고정 형식의 의미·사용 범위 미확보"
+    },
+    {
+      "title": "너는 다 계획이 있구나",
+      "reason": "기존 넌 계획이 다 있구나와 의미 중복"
+    },
+    {
+      "title": "이게 다 무슨 소용이냐",
+      "reason": "독립 직접 본문 2개로 해당 고정 형식의 의미·사용 범위 미확보"
+    },
+    {
+      "title": "판사님 저는 아무것도 못 봤습니다",
+      "reason": "초기 후보 문장을 근거에서 직접 확인한 판사님 저는 웃지 않았습니다 표제로 정정; 별도 수록하지 않음"
+    }
+  ]
+}
