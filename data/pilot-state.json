@@ -838,6 +838,21 @@
         "word-on-beat",
         "ounwan"
       ]
+    },
+    "korean-verified-20261117-bulk-wave9": {
+      "input_hash": "00e1485d851c48a8be4c28df540676a41b0ff5d2c7b6d0c2d0be4b3048370c0d",
+      "ids": [
+        "gatseongbi",
+        "mateopeop",
+        "jjeopjjeop-baksa",
+        "eoljukko",
+        "deokgyemot",
+        "kagongjok",
+        "ppangji-sullye",
+        "kosiguk",
+        "jipgwan",
+        "gongseujang"
+      ]
     }
   },
   "entries": {
@@ -6424,6 +6439,86 @@
       "body_hash": "38d1352647dcdf538b951c695a675d76645c5cd415ddb173b371442e8f1c7857",
       "scope_type": "korean_usage",
       "scope_basis": "독립 발행자 두 곳의 실제 본문을 대조해 형식·뜻과 국내 사용 맥락을 확인.",
+      "tags": []
+    },
+    "gatseongbi": {
+      "title": "갓성비",
+      "batch": "korean-verified-20261117-bulk-wave9",
+      "body_hash": "5ac9af48288faddccea2962dc67be1464e5e23fdcbf2bd0fa8b18115b1c76aaf",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "tags": []
+    },
+    "mateopeop": {
+      "title": "맛없없",
+      "batch": "korean-verified-20261117-bulk-wave9",
+      "body_hash": "23ebb5aeaadfc62c414112358873a95f270e7567384edc287f1c114e92dda849",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "tags": []
+    },
+    "jjeopjjeop-baksa": {
+      "title": "쩝쩝박사",
+      "batch": "korean-verified-20261117-bulk-wave9",
+      "body_hash": "61399ec2b86ba2aa5ee2684c7373f542577fa660d520d8f90ea891fd4b50d33c",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "tags": []
+    },
+    "eoljukko": {
+      "title": "얼죽코",
+      "batch": "korean-verified-20261117-bulk-wave9",
+      "body_hash": "83128be085694cf59deeb49c2b8226f01810b6d6fb8c543136a938e8910bb142",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "tags": []
+    },
+    "deokgyemot": {
+      "title": "덕계못",
+      "batch": "korean-verified-20261117-bulk-wave9",
+      "body_hash": "9f994100db67bfe5684b7e7fcab29829ea2d87ac6d9b894608dfccece686bbfd",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "tags": []
+    },
+    "kagongjok": {
+      "title": "카공족",
+      "batch": "korean-verified-20261117-bulk-wave9",
+      "body_hash": "e0eec2e81d7011079e0fa1a11aca2d8df1fab05147d3bb3804e41416c2b1a7bb",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "tags": []
+    },
+    "ppangji-sullye": {
+      "title": "빵지순례",
+      "batch": "korean-verified-20261117-bulk-wave9",
+      "body_hash": "22a48e4933271e1ee5b6f0179baf0f4a83ce8765830aa11c4d0a7fb39e93a7d8",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "tags": []
+    },
+    "kosiguk": {
+      "title": "코시국",
+      "batch": "korean-verified-20261117-bulk-wave9",
+      "body_hash": "f5bc49245cd74d5507668e4d32f43d5990aedc2e0bf7af29ddcbfa9990054842",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "tags": []
+    },
+    "jipgwan": {
+      "title": "집관",
+      "batch": "korean-verified-20261117-bulk-wave9",
+      "body_hash": "d837dd74f9ef3d6a34b97e09b79da474f49318504748b31fd09baa062642db02",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
+      "tags": []
+    },
+    "gongseujang": {
+      "title": "공스장",
+      "batch": "korean-verified-20261117-bulk-wave9",
+      "body_hash": "95f937f4f0e182c12676d9bccfc8aab997fdc4f0bf70ae061382daa783b10afa",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 사용 확인. 최초 생성·현재 급증 주장 아님.",
       "tags": []
     }
   }
