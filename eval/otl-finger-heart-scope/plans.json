@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "source_profiles_commit": "442f4faba50f403d58d2f34bed5ce211f74df25b",
+  "model_provenance": "공개 profiles·vocabulary 및 고정 입력을 직접 읽고 이번 assistant 턴에서 작성한 실제 AI 계획이다. 검색 실행·최종 답안 작성·신규 모델 API 호출은 하지 않았다.",
+  "limitations": "공개 주석 context·avoid_when과 기존 공개 입력에서 파생한 개발 평가이며 독립 실사용 또는 blind heldout 평가가 아니다. 경우로 서술한 반례를 실제 사건으로 취급하지 않는다. 제목·예문은 입력에 추가하지 않았고 원본 draft를 승격하지 않는다. 필터는 사실·동의·실제 수행을 검증하지 않으며 standard도 조회 후 문맥 판단이 필요하다.",
+  "source_bindings": {
+    "profiles": {
+      "path": "data/usage-profiles.json",
+      "inputs": {
+        "G-otl": "otl.usages[0].context",
+        "G-heart": "finger-heart.usages[0].context",
+        "G-crisis": "otl.usages[0].avoid_when[0]",
+        "G-mock": "otl.usages[0].avoid_when[1]",
+        "G-body": "otl.usages[0].avoid_when[3]",
+        "G-done": "finger-heart.usages[0].avoid_when[0]",
+        "G-consent": "finger-heart.usages[0].avoid_when[1]",
+        "G-romance": "finger-heart.usages[0].avoid_when[2]",
+        "G-force": "finger-heart.usages[0].avoid_when[3]"
+      }
+    },
+    "existing": {
+      "A16": "eval/challenge/audit-inputs.json inputs[id=A16].prompt",
+      "A26": "eval/challenge/audit-inputs.json inputs[id=A26].prompt",
+      "E06": "eval/challenge/editorial-inputs.json inputs[id=E06].prompt"
+    }
+  },
+  "plans": [
+    {
+      "id": "G-otl",
+      "prompt": "본인이 기대한 사소한 일이 어긋나 낙담했다는 반응을 짧은 문자 그림으로 표현하고 싶다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "상태설명"
+        ],
+        "emotions": [
+          "실망"
+        ],
+        "situations": [
+          "기대와현실차이"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "사소한 자기 기대가 어긋난 낙담 반응의 문자 표현을 찾는다. 명시된 반응을 상태설명과 실망으로 해석하며 자조·포기 결정·신체 동작으로 확대하지 않는다. 특정 후보에 맞추는 제목 검색은 하지 않으며 조회 후 사소함과 자기 방향을 검토해야 한다."
+    },
+    {
+      "id": "G-heart",
+      "prompt": "공개 행사나 공개 촬영 자리에서 관객·팬·취재진에게 전할 친근한 인사의 손동작을 고르거나 그 만드는 방법을 설명하고 싶다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "인사"
+        ],
+        "situations": [
+          "공개행사인사"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "공개 자리에서 상대에게 전할 친근한 인사의 손동작 선택·방법 설명 요청이다. 문자 대사나 실제 수행 완료가 아니며 상대 반응·감정·촬영 및 게시 동의를 추정하지 않는다."
+    },
+    {
+      "id": "G-crisis",
+      "prompt": "심각한 고통이나 위기·도움 요청을 가벼운 반응으로 축소하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "심각한 고통·위기·도움 요청을 가벼운 반응으로 축소하는 조건이다. 밈 추천을 보류하며 실제 위기 사건이나 구체 증상을 만들지 않는다."
+    },
+    {
+      "id": "G-mock",
+      "prompt": "다른 사람의 실패를 비웃거나 낙담을 강요하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "타인의 실패 조롱이나 낙담 강요 조건을 자기의 사소한 실망으로 바꾸지 않고 추천을 보류한다."
+    },
+    {
+      "id": "G-body",
+      "prompt": "문자 그림을 실제로 무릎 꿇거나 엎드리라는 신체 동작 지시로 바꾸는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "문자 그림을 신체 동작 지시로 바꾸는 조건이다. 문자 표현과 실제 동작을 구별하고 무릎 꿇기나 엎드리기를 권하지 않는다."
+    },
+    {
+      "id": "G-done",
+      "prompt": "동작 설명을 실제 수행 완료나 상대의 반응 확인으로 바꾸는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "동작 설명에서 실제 수행 완료나 반응 확인으로 넘어갈 근거가 없다. 수행·관찰을 날조하는 추천을 보류한다."
+    },
+    {
+      "id": "G-consent",
+      "prompt": "공개 행사라는 이유로 실제 촬영·게시 동의가 있다고 단정하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "공개 행사라는 조건은 촬영·게시 동의를 입증하지 않는다. 동의를 확인한 것으로 취급하는 추천을 보류한다."
+    },
+    {
+      "id": "G-romance",
+      "prompt": "동작을 특정인에 대한 연애 감정이나 상호 친밀의 증거로 해석하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "동작만으로 특정인에 대한 연애 감정이나 상호 친밀을 확정하지 않는다. 관계·내면을 추정하는 추천을 보류한다."
+    },
+    {
+      "id": "G-force",
+      "prompt": "동작을 원하지 않거나 하기 어려운 사람에게 수행을 강요하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason_summary": "원하지 않거나 하기 어려운 사람에게 동작을 강요하는 조건이다. 자발적 동작 선택과 구별하고 추천을 보류한다."
+    },
+    {
+      "id": "A16",
+      "prompt": "내가 하루 만에 방 전체를 정리하려다 책상만 치웠어. 내 거창한 계획과 소박한 현실 차이를 자조하고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "situations": [
+          "기대와현실차이"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason_summary": "거창한 자기 계획과 실제 결과의 차이를 자조하려는 기능이 명시된다. 단순 낙담 상태 설명과 구별한다. lookup 후보는 자동 추천 승인으로 보지 않고 자기 지향과 타인 비하 여부를 조회 후 검토한다."
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "reason_summary": "이모지와 느낌표만으로 상황·감정·요청 기능을 확정할 수 없어 원하는 표현과 맥락을 질문한다."
+    },
+    {
+      "id": "E06",
+      "prompt": "함께 일하던 친구가 먼 도시로 옮겨. 서운한 작별보다 행복하게 지내라는 가벼운 인사.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "인사"
+        ],
+        "situations": [
+          "좋은일기원"
+        ],
+        "targets": [
+          "상대"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason_summary": "이사하는 친구가 행복하게 지내길 바라는 가벼운 인사 요청이다. 공개 행사 손동작 요청으로 바꾸지 않고 새 직업·구체 일정·미래 성공을 추정하지 않는다."
+    }
+  ],
+  "source_profiles_branch": "registration/otl-finger-heart",
+  "source_status": "별도 등록 브랜치의 draft profile을 읽은 계획이며 PR 통합·실제 Python 검색·결과·최종 답안은 아직 없다. 동작 설명은 실제 조작·수행·촬영·게시 동의 권한을 뜻하지 않는다."
+}
