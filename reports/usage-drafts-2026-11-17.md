@@ -44,3 +44,14 @@ UBD 2용법, 프로불편러 2용법, 3대500 1용법, 오히려 좋아 1용법�
 ### 기존 v2 회귀에서 추가 발견한 제한
 
 승격 후보를 실제 CI43996056684에서 검사하자 기존 공개 v2 A16의 넓은 기대와현실차이 필터에 오히려 좋아가 자기 자조보다 앞에 섞였다. v3의 자기 대상 필터에서는 없던 변화다. 기존 스냅샷을 고치거나 회귀를 약화하지 않고 오히려 좋아도 draft로 되돌렸다. 최종 단계승격은 UBD·프로불편러·3대500 3profiles/5uses만이며, reviewed31/43uses·draft4/5uses·미주석313이다. 새 reviewed5개 중 standard1·caution3·avoid1이다. 위 4profile 승격 기록은 시도 내역이며 현재 상태가 아니다.
+
+## 다음 반복용 실패 차단 명령
+
+개별 후보를 메모리 안에서만 reviewed로 복사해 실제 Python 검색을 검사할 수 있다. 파일·검토 상태는 변경하지 않는다.
+
+```sh
+python scripts/evaluate_draft_readiness.py --candidate goat --fail-on-drift
+python scripts/evaluate_draft_readiness.py --candidate ubd --candidate pro-offended --candidate three-lifts-500 --fail-on-drift
+```
+
+첫 명령은 현재 공개 질의의 후보 혼입 때문에 실패해야 한다. 두 번째는 이번 제한 승격 집합의 구조 및 공개 v2/v3 후보 보존 검사다. 검사는 기존 공개 데이터만 사용하며, 독립 자연어 평가를 대신하지 않는다. unknown/빈 후보 ID는 오류 처리하고, 전체10용법 기본 실행은 진단 결과를 출력하되 drift 자체를 자동 승인 근거로 삼지 않는다.

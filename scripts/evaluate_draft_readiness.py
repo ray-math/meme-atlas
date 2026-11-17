@@ -1,4 +1,5 @@
 """Structural retrieval probes over published drafts, not natural-language accuracy."""
+import argparse
 import copy
 import json
 from pathlib import Path
@@ -8,16 +9,19 @@ from search_usage import search
 
 IDS = {'ubd','pro-offended','goat','pon-eunjeong','three-lifts-500','ohiryeo-joa','gabojago'}
 
-def evaluate(root=ROOT):
+def evaluate(root=ROOT, candidates=None):
+    selected=set(IDS if candidates is None else candidates)
+    if not selected or selected-IDS:
+        raise ValueError('candidate IDs must be a nonempty subset of the reviewed expansion set')
     original=build_usage_index(root)
     vocab=load_vocabulary(root)
     staged=copy.deepcopy(original)
     for entry in staged['entries']:
-        if entry['id'] in IDS:
+        if entry['id'] in selected:
             entry['review_status']='reviewed'
     rows=[]
     for entry in staged['entries']:
-        if entry['id'] not in IDS:
+        if entry['id'] not in selected:
             continue
         for usage in entry['usages']:
             key=(entry['id'],usage['id'])
@@ -64,10 +68,22 @@ def evaluate(root=ROOT):
             'limitations':['Uses annotation-derived filters, not independent natural-language questions.',
                            'Temporarily marks copies reviewed in memory; never promotes source profiles.',
                            'A pass does not validate source truth, context appropriateness, or generation safety.'],
-            'staged_public_v3_candidate_drift':drift,
+            'staged_public_candidate_drift':drift,
+            'candidate_profiles':sorted(selected),
             'total':len(rows),'passed':sum(r['passed'] for r in rows),'results':rows}
 
 if __name__=='__main__':
-    result=evaluate()
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--candidate',action='append',help='published profile ID to provisionally review; repeatable')
+    parser.add_argument('--fail-on-drift',action='store_true',
+                        help='also fail if existing public v2/v3 candidate lists change')
+    args=parser.parse_args()
+    try:
+        result=evaluate(candidates=args.candidate)
+    except ValueError as exc:
+        parser.exit(2,str(exc)+'\n')
     print(json.dumps(result,ensure_ascii=False,indent=2))
-    raise SystemExit(0 if result['total']==10 and result['passed']==10 else 1)
+    passed=result['total']>0 and result['passed']==result['total']
+    if args.fail_on_drift and result['staged_public_v3_candidate_drift']:
+        passed=False
+    raise SystemExit(0 if passed else 1)
