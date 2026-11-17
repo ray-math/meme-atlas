@@ -330,3 +330,4 @@
 - [떡락](../memes/tteokrak.md)
 - [UBD](../memes/ubd.md)
 - [프로불편러](../memes/pro-offended.md)
+- [GOAT](../memes/goat.md)

@@ -512,6 +512,12 @@
         "ubd",
         "pro-offended"
       ]
+    },
+    "korean-verified-20261117-goat": {
+      "input_hash": "e9b7a36d5caf3165d13b53aeef36a7a3646c74e793836a054ee445d9629a1c57",
+      "ids": [
+        "goat"
+      ]
     }
   },
   "entries": {
@@ -4088,6 +4094,19 @@
       "scope_type": "korean_origin",
       "scope_basis": "인터뷰와 강연 취재 본문에서 타인 폄하 및 자기긍정적 재해석 확인",
       "tags": []
+    },
+    "goat": {
+      "title": "GOAT",
+      "aliases": [
+        "고트"
+      ],
+      "batch": "korean-verified-20261117-goat",
+      "body_hash": "82b011607b0a323ffb9d9714b3fb3820223f97298d80e036e4e4838d3eab869e",
+      "scope_type": "korean_usage",
+      "scope_basis": "서울경제 본문 국내사용·팬논쟁 설명 및 경향 한국어칼럼 실제 호명 교차확인",
+      "tags": [
+        "스포츠"
+      ]
     }
   }
 }

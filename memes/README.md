@@ -5,6 +5,7 @@
 - [1일 1깡](one-day-one-ggang.md)
 - [54000개](54000.md)
 - [GG](gg.md)
+- [GOAT](goat.md)
 - [L을 가져가](take-the-l.md)
 - [OTL](otl.md)
 - [PPAP](ppap.md)
