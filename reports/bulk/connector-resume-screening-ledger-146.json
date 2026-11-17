@@ -50,10 +50,11 @@
     "reports/bulk/connector-resume-holds194.json",
     "reports/bulk/connector-resume-audit-screening195.json",
     "reports/bulk/connector-resume-b196.json",
-    "reports/bulk/connector-resume-screening197.json"
+    "reports/bulk/connector-resume-screening197.json",
+    "reports/bulk/connector-resume-holds199.json"
   ],
-  "query_observations": 814,
-  "distinct_literal_queries": 656,
+  "query_observations": 833,
+  "distinct_literal_queries": 669,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -4325,6 +4326,101 @@
     {
       "query": "타임스탬프",
       "source": "reports/bulk/connector-resume-screening197.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "알로사우루스",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뭐라노",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "티라노",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "미유미유",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "튜토리얼",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "윤정아",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "왜요쌤",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "다이노포스",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "못맞히기",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감자칼",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이거 제 이모지",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누가 돌아왔",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아이스티",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쉐도우복싱",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아무것도 모르는",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "필수 호신술",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아이워시",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "작사가",
+      "source": "reports/bulk/connector-resume-holds199.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "말랑꽈득",
+      "source": "reports/bulk/connector-resume-holds199.json",
       "status": "screened-see-report"
     }
   ],
