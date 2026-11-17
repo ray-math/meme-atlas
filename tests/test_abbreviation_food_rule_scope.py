@@ -14,3 +14,24 @@ class AbbreviationFoodRuleScopeTests(unittest.TestCase):
                           'F-missing','F-force','F-fact','F-health','A08','A26','E22'})
         self.assertTrue(trace['requirements_enabled'])
         # Observe actual caution lookup, abstention and candidate behavior before promotion.
+
+    def test_observed_candidates_and_boundaries(self):
+        trace=evaluate(ROOT)
+        rows={r['id']:r for r in trace['results']}
+        self.assertEqual([h['entry_id'] for h in rows['F-rule']['retrieval']['results']],['guk-rule'])
+        self.assertEqual([h['entry_id'] for h in rows['A08']['retrieval']['results']],['carrot-of-course','injeong'])
+        for identity in ('B-abbrev','B-meaning','B-person','B-public','F-missing','F-force','F-fact','F-health','A26','E22'):
+            self.assertEqual(rows[identity]['retrieval']['status'],'not_searched')
+        self.assertEqual(rows['B-abbrev']['action'],'clarify')
+        self.assertEqual(trace['current_baseline_candidate_drift'],[])
+        # B-abbrev is a clarification, not a successful positive use recommendation.
+
+    def test_frozen_trace_reexecutes_without_type_drift(self):
+        import copy
+        from compare_evaluation_expansion import strict_equal
+        frozen=json.loads((ROOT/'eval/abbreviation-food-rule-scope/retrieval.json').read_text())
+        def behavior(rows):
+            rows=copy.deepcopy(rows)
+            for row in rows:row['retrieval'].pop('coverage',None)
+            return rows
+        self.assertTrue(strict_equal(behavior(frozen['results']),behavior(evaluate(ROOT)['results'])))
