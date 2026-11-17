@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "batch": "legacy-wave14",
+  "status": "ready_for_independent_editorial_review",
+  "created_at": "2026-11-17",
+  "base_ref": "56ff5ac1586764f477338f2bbce8075d827fe86d",
+  "counts": {
+    "range": "ledger IDs 1001–1156 (end); skipped IDs and previously reviewed/existing items excluded",
+    "index_count": 784,
+    "selected_reviewed": 11,
+    "ready": 2,
+    "held": 9
+  },
+  "entries": [
+    {
+      "entry_id": "toca-toca-dance",
+      "title": "토카토카 댄스",
+      "ledger_id": "kr-list-1044",
+      "path": "memes/toca-toca-dance.md",
+      "source_sha": "e9685c77e41f55963320fc8009500d1491c5c0de",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국 트렌드 뉴스레터의 춤 챌린지 소개와 국내 참여자 인터뷰 보도로 국내 사용 확인.",
+      "sources": [
+        {
+          "publisher": "Trend A Word",
+          "url": "https://maily.so/trendaword/posts/b26b9611",
+          "published_at": "2023-07-13",
+          "supports": "2023년 상반기 댄스 챌린지 소개와 토카토카 전용 해설 연결.",
+          "limitations": "세부 안무·최초 제작자·해외 최초 유행 경로는 확정하지 않음.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        },
+        {
+          "publisher": "뉴시스",
+          "url": "https://mobile.newsis.com/view/NISX20230905_0002438354",
+          "published_at": "2023-09-06",
+          "supports": "직접 인터뷰 기사에서 국내 출연자의 토카토카 춤 챌린지 참여 영상을 설명.",
+          "limitations": "주제인 다른 챌린지의 성적 맥락은 옮기지 않음. 영상 직접 재생 아님.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        }
+      ],
+      "limitations": [
+        "원영상·원댓글 직접 재생/열람을 주장하지 않음.",
+        "최초 발생일이나 현재 유행세를 추정하지 않음.",
+        "예문은 편집 창작."
+      ],
+      "usage_status": "not_annotated"
+    },
+    {
+      "entry_id": "patsu",
+      "title": "팟수",
+      "ledger_id": "kr-list-1058",
+      "path": "memes/patsu.md",
+      "source_sha": "ccc09d00e9011d8ac501b6513a967b5fdc363b8a",
+      "remote_readback_equal": true,
+      "reviewed": true,
+      "review_kind": "canonical_scope_and_sources_only",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 플랫폼 시청자 호칭을 국내 보도와 독립 학술 연구 본문으로 확인.",
+      "sources": [
+        {
+          "publisher": "매일경제",
+          "url": "https://www.mk.co.kr/news/business/7621889",
+          "published_at": "2016-12-15",
+          "supports": "다음tv팟을 계속 보는 사람을 가리키는 신조어라는 직접 설명.",
+          "limitations": "2016년 서비스 통합 보도의 역사적 맥락이며 현재 플랫폼 상태를 주장하지 않음.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        },
+        {
+          "publisher": "대중서사학회",
+          "url": "https://journal.kci.go.kr/djnar/archive/articlePdf?artiId=ART002850503",
+          "published_at": null,
+          "supports": "박인성의 대중서사연구 28권 2호(2022) 논문 73쪽: 다음팟+백수 결합과 시청자 자기 호칭.",
+          "limitations": "논문의 광범위한 정치·성별·심리 해석은 가져오지 않음. 정확한 발행일 미확인.",
+          "access": "direct_body",
+          "reviewed_at": "2026-11-17"
+        }
+      ],
+      "limitations": [
+        "원영상·원댓글 직접 재생/열람을 주장하지 않음.",
+        "최초 발생일이나 현재 유행세를 추정하지 않음.",
+        "예문은 편집 창작."
+      ],
+      "usage_status": "not_annotated"
+    }
+  ],
+  "screening": [
+    {
+      "title": "토카토카 댄스",
+      "ledger_id": "kr-list-1044",
+      "status": "ready",
+      "reason": "독립 발행 주체 2곳의 관련 본문 직접 확인."
+    },
+    {
+      "title": "팟수",
+      "ledger_id": "kr-list-1058",
+      "status": "ready",
+      "reason": "독립 발행 주체 2곳의 관련 본문 직접 확인."
+    },
+    {
+      "ledger_id": "kr-list-1004",
+      "title": "캐피탈리즘, 호!",
+      "status": "held",
+      "reason": "게임메카 해설 및 동일 기사 전재는 확인되지만 두 번째 독립 발행 주체 본문 미확보.",
+      "access": "search_or_partial_review_not_qualified"
+    },
+    {
+      "ledger_id": "kr-list-1007",
+      "title": "커다란 자갈돌은 짱돌",
+      "status": "held",
+      "reason": "위키·개인 해설·파생 데이터 외 독립 직접 본문 두 곳 미확보.",
+      "access": "search_or_partial_review_not_qualified"
+    },
+    {
+      "ledger_id": "kr-list-1043",
+      "title": "투명드래곤",
+      "status": "held",
+      "reason": "작품 전체와 국내 반복 표현을 구분하는 독립 직접 본문 두 곳 미확보.",
+      "access": "search_or_partial_review_not_qualified"
+    },
+    {
+      "ledger_id": "kr-list-1094",
+      "title": "하츠네 형돈",
+      "status": "held",
+      "reason": "위키와 영상·개인 해설 위주. 두 독립 직접 본문 미달.",
+      "access": "search_or_partial_review_not_qualified"
+    },
+    {
+      "ledger_id": "kr-list-1101",
+      "title": "한본어",
+      "status": "held",
+      "reason": "드라마 인물 말투 재현에 대한 인터뷰와 일반 혼합 언어 용례를 구분할 필요. 학술 자료 서지 발견만으로 본문 검증 완료라 하지 않음.",
+      "access": "search_or_partial_review_not_qualified"
+    },
+    {
+      "ledger_id": "kr-list-1106",
+      "title": "함정카드 밈",
+      "status": "held",
+      "reason": "광고 활용 기사 검색 결과 외 두 독립 본문 미확보. 게임 전체 뜻으로 확대하지 않음.",
+      "access": "search_or_partial_review_not_qualified"
+    },
+    {
+      "ledger_id": "kr-list-1141",
+      "title": "호롤롤로",
+      "status": "held",
+      "reason": "방송사 회고 보도 발견. 독립 두 번째 본문 미확보 및 비유명 출연자 개인정보 재현 회피.",
+      "access": "search_or_partial_review_not_qualified"
+    },
+    {
+      "ledger_id": "kr-list-1143",
+      "title": "호텔경제학",
+      "status": "held",
+      "reason": "정치·경제적 주장과 풍자 형식을 분리할 추가 검토 필요. 주장 자체를 경제적 사실로 수록하지 않음.",
+      "access": "search_or_partial_review_not_qualified"
+    },
+    {
+      "ledger_id": "kr-list-1156",
+      "title": "홍박사님을 아세요?",
+      "status": "held",
+      "reason": "독립 보도는 존재하지만 성적 원형을 포함하는 범위라 이번 비민감 묶음에서 보류. 근거 부재라고 단정하지 않음.",
+      "access": "search_or_partial_review_not_qualified"
+    }
+  ],
+  "exclusions": {
+    "already_covered_or_prior_held_not_new_review": [
+      "카페베네 엔딩",
+      "펩시맨",
+      "호의가 계속되면",
+      "포브스",
+      "햄부기",
+      "컹스",
+      "뭉탱이",
+      "한글자 드립"
+    ],
+    "selection_only": "전체 인물·작품·사건 및 성적/집단비하 표제를 자동 수록하지 않음. 범위 전체가 신규 조사 완료라는 뜻이 아님.",
+    "pending_history": "다른 담당의 이력 조회 회신에 따라 held 이력 중복은 후속 집계에서 재분리할 수 있음."
+  },
+  "discovery": "기존 data/korea-candidates.json 대한민국 미러 목록 기반 대장. 이번 원본 나무위키 본문 접근 확인 아님.",
+  "duplicate_check": {
+    "index_ref": "56ff5ac1586764f477338f2bbce8075d827fe86d",
+    "index_count": 784,
+    "title_alias_matches": [],
+    "tree_slug_matches": [],
+    "pilot_slug_matches": [],
+    "retired": "pilot-state와 현재 트리에서 신규 slug 충돌 확인 없음."
+  },
+  "verification": {
+    "ci_run": false,
+    "generated_artifacts": false,
+    "main_changed": false,
+    "pr37_changed": false,
+    "ledger_changed": false,
+    "usage_changed": false
+  }
+}
