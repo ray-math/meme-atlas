@@ -10,10 +10,16 @@ from build_usage_index import build_usage_index
 from search_usage import search
 from evaluation_records import ACTIONS, indexed_records
 
+def validate_plan_envelope(envelope):
+    rows=indexed_records(envelope, 'plans')
+    if envelope.get('prompt_version') not in ('baseline-v1','contextual-v2','contextual-v3'):
+        raise ValueError('unsupported or missing prompt version')
+    return list(rows.values())
+
 def replay(plans, root=ROOT):
     indexed_records({'schema_version':1, 'plans': plans}, 'plans')
     for plan in plans:
-        if plan.get('action') not in ACTIONS:
+        if not isinstance(plan.get('action'),str) or plan.get('action') not in ACTIONS:
             raise ValueError('unsupported plan action')
         if not isinstance(plan.get('prompt'), str) or not plan['prompt'].strip():
             raise ValueError('plan prompt must be non-empty text')
@@ -47,7 +53,10 @@ if __name__=='__main__':
     p.add_argument('--jsonl',action='store_true',help='emit one case per log line for larger batches')
     a=p.parse_args()
     plans=json.loads(a.plans.read_text(encoding='utf-8'))
-    trace=replay(plans['plans'],a.root)
+    try:
+        trace=replay(validate_plan_envelope(plans),a.root)
+    except ValueError as exc:
+        p.exit(2,str(exc)+'\n')
     if a.jsonl:
         print('NLMETA='+json.dumps({k:v for k,v in trace.items() if k!='results'},ensure_ascii=False,separators=(',',':')))
         for row in trace['results']:
