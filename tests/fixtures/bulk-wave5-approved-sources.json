@@ -26,7 +26,9 @@
           "supports": "자체 신조어 퀴즈와 정답 본문 확인. 오답 보기를 정의로 채택하지 않음.",
           "independent_group": "현대건설 뉴스룸"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님."
     },
     {
       "slug": "bun-joh-cafe",
@@ -52,7 +54,9 @@
           "supports": "본문181에서 분좋카 뜻을 공좋카와 구별.",
           "independent_group": "Korea JoongAng Daily"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님."
     },
     {
       "slug": "dang-mo-chi",
@@ -78,7 +82,9 @@
           "supports": "한글날 신조어 취재 본문97에서 뜻·국내 사용 확인. Daum 전재는 한 publisher로 계산.",
           "independent_group": "뉴스1"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님."
     },
     {
       "slug": "naettochul",
@@ -104,7 +110,9 @@
           "supports": "본문232~235 뜻·일요일 및 주말 근무 전날 상황·방송 퀴즈 사례.",
           "independent_group": "이데일리"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님."
     },
     {
       "slug": "jjomjjomttari",
@@ -130,7 +138,9 @@
           "supports": "자체 신조어 퀴즈와 정답 본문 확인. 오답 보기를 정의로 채택하지 않음.",
           "independent_group": "현대건설 뉴스룸"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님."
     },
     {
       "slug": "eokten",
@@ -156,7 +166,9 @@
           "supports": "자체 신조어 퀴즈와 정답 본문 확인. 오답 보기를 정의로 채택하지 않음.",
           "independent_group": "현대건설 뉴스룸"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023 국내 매체 또는 기업 편집 본문에 신조어로 소개된 사용·정의를 다른 publisher와 대조. 이 기간 최초 발생이라는 뜻은 아님."
     },
     {
       "slug": "duaaaa",
@@ -182,7 +194,9 @@
           "support": "슬픔·답답함·감동을 과장하는 의성어와 가나디 이미지의 연결을 설명한다.",
           "independent_group": "ilovecharacter"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 실제 본문을 교차 확인한 짧은 자체 정의."
     },
     {
       "slug": "dubeok-dubeok",
@@ -208,7 +222,9 @@
           "support": "가나디 밈에서 터벅터벅 걸음걸이를 듀벅듀벅으로 표현한다고 설명한다.",
           "independent_group": "ilovecharacter"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 실제 본문을 교차 확인한 짧은 자체 정의."
     },
     {
       "slug": "header-problem-solved",
@@ -234,7 +250,9 @@
           "support": "서로 다른 인물 사진의 헤더 문제와 대체사진·변형 편집으로 해결하는 용례를 설명한다.",
           "independent_group": "incross"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 실제 본문을 교차 확인한 짧은 자체 정의."
     },
     {
       "slug": "uimunse",
@@ -260,7 +278,9 @@
           "support": "의문이 드는 일상 상황에 이름 말장난과 질문형 문구를 사용하는 사례를 소개한다.",
           "independent_group": "trendaword"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "독립 발행 주체 2곳의 실제 본문을 교차 확인한 짧은 자체 정의."
     },
     {
       "slug": "legeno",
@@ -288,7 +308,9 @@
           "original_media_watched": false,
           "original_source_access": "body_read"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현."
     },
     {
       "slug": "youngmi-call",
@@ -316,7 +338,9 @@
           "original_media_watched": false,
           "original_source_access": "body_read"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현."
     },
     {
       "slug": "gunsak-loopy",
@@ -353,7 +377,9 @@
           "original_media_watched": false,
           "original_source_access": "body_read"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현."
     },
     {
       "slug": "meommummi",
@@ -390,7 +416,9 @@
           "original_media_watched": false,
           "original_source_access": "body_read"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현."
     },
     {
       "slug": "it-was-summer",
@@ -418,7 +446,9 @@
           "original_media_watched": false,
           "original_source_access": "body_read"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 온라인 사용을 확인한 개별 표현."
     },
     {
       "slug": "hoshitamtam-challenge",
@@ -444,7 +474,9 @@
           "support": "일본어 본문에서 오프닝 인트로 반복 영상과 춤·창작 영상 확산을 설명한다.",
           "independent_group": "tiktok-markezine"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "별개 발행 주체 2곳 실제 본문으로 뜻·한국 사용을 검토한 자체 요약."
     },
     {
       "slug": "evenly",
@@ -470,7 +502,9 @@
           "support": "보고서 제목에서 잘 익었다와 고르게 되지 않았다는 양방향 변형이 쓰인 사례를 보도한다.",
           "independent_group": "mk"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "별개 발행 주체 2곳 실제 본문으로 뜻·한국 사용을 검토한 자체 요약."
     },
     {
       "slug": "ai-sapporo-shot",
@@ -496,7 +530,9 @@
           "support": "눈 배경의 3분할 AI 이미지 및 사람·동물·음식 등에 적용한 사례를 설명한다.",
           "independent_group": "hsad"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "별개 발행 주체 2곳 실제 본문으로 뜻·한국 사용을 검토한 자체 요약."
     },
     {
       "slug": "heoijja",
@@ -522,7 +558,9 @@
           "reviewed_at": "2026-11-17",
           "supports": "시민기자 방송리뷰, 코너의 기합 유행어 및 재현"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "화상고 기합 및 네이버 광고 응용; 시민기자 방송리뷰, 코너의 기합 유행어 및 재현"
     },
     {
       "slug": "jjam-vibe",
@@ -548,7 +586,9 @@
           "reviewed_at": "2026-11-17",
           "supports": "스포츠 기사에서 베테랑의 능숙함 칭찬 실사용"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "노련미 뜻과 인터뷰 연재명 실사용; 스포츠 기사에서 베테랑의 능숙함 칭찬 실사용"
     },
     {
       "slug": "pepsiman-jokes",
@@ -574,7 +614,9 @@
           "reviewed_at": "2026-11-17",
           "supports": "PC통신 유머의 펩시맨 시리즈 유행 회고"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "PC통신 유머 지면에 펩시맨 시리즈 두 편 수록; PC통신 유머의 펩시맨 시리즈 유행 회고"
     },
     {
       "slug": "we-wont-make-it",
@@ -600,7 +642,9 @@
           "reviewed_at": "2026-11-17",
           "supports": "별도 영화 칼럼이 다큐의 문구를 유행어로 재인용"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "반드시 크게 들을 것 감독 인터뷰와 자조 대사 확인; 별도 영화 칼럼이 다큐의 문구를 유행어로 재인용"
     },
     {
       "slug": "igeo-real",
@@ -626,7 +670,9 @@
           "reviewed_at": "2026-11-17",
           "supports": "채팅·커뮤니티 의미와 CU 상품 문구 활용 보도"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "초성의 확장형과 온라인 댓글 사용 보도; 채팅·커뮤니티 의미와 CU 상품 문구 활용 보도"
     },
     {
       "slug": "alien-writing",
@@ -652,7 +698,9 @@
           "reviewed_at": "2026-11-17",
           "supports": "기자의 채팅 관찰과 문자 혼합·자모 띄어쓰기 유형 보도"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "특수문자·외국문자 혼합 등 형식과 온라인 소설·커뮤니티 사용; 기자의 채팅 관찰과 문자 혼합·자모 띄어쓰기 유형 보도"
     },
     {
       "slug": "leek-spin-song",
@@ -678,7 +726,9 @@
           "reviewed_at": "2026-11-17",
           "supports": "맘스터치 광고의 딥치즈송·댄스 패러디 사례. 기업발표 기반 제품 기사"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "미쿠 파돌리기송의 의미, LG G5 광고의 재해석 음악과 국내 SNS 반응 보도; 맘스터치 광고의 딥치즈송·댄스 패러디 사례. 기업발표 기반 제품 기사"
     },
     {
       "slug": "neomuhae-neomuhae",
@@ -706,7 +756,9 @@
           "original_media_watched": false,
           "original_source_access": "body_read"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 사용 확인"
     },
     {
       "slug": "jinhaeng-sikyeo",
@@ -734,7 +786,9 @@
           "original_media_watched": false,
           "original_source_access": "body_read"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 사용 확인"
     },
     {
       "slug": "pre-cracked-egg",
@@ -771,7 +825,9 @@
           "original_media_watched": false,
           "original_source_access": "body_read"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 사용 확인"
     },
     {
       "slug": "cheese-fountain",
@@ -799,7 +855,9 @@
           "original_media_watched": false,
           "original_source_access": "body_read"
         }
-      ]
+      ],
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 사용 확인"
     }
   ]
 }

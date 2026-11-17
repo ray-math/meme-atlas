@@ -38,8 +38,13 @@ class BulkWaveSixCanonicalImportTests(unittest.TestCase):
         self.assertEqual(set(approved),{r['slug'] for r in manifest['entries']})
         for row in manifest['entries']:
             fixed=approved[row['slug']]
-            for key in ['title','path','source_revision','source_blob_sha','evidence']:
+            for key in ['title','path','source_revision','source_blob_sha','evidence','scope_type','scope_basis']:
                 self.assertEqual(row[key],fixed[key])
+            ledger=json.loads((ROOT/'data/pilot-state.json').read_text())
+            for key in ['scope_type','scope_basis']:
+                self.assertIsInstance(fixed[key],str)
+                self.assertTrue(fixed[key].strip())
+                self.assertEqual(row[key],ledger['entries'][row['slug']][key])
             self.assertEqual(digest((ROOT/row['path']).read_text()),fixed['body_hash'])
             for evidence in row['evidence']:
                 self.assertEqual(evidence['access'],'direct_body')
