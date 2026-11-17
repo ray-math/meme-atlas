@@ -72,3 +72,24 @@ jobs:
       - run: python scripts/replay_seubuljae_choice_scope.py
       - run: python scripts/replay_work_break_scope.py
       - run: python scripts/replay_parody_turn_scope.py
+      - name: Measure bulk discovery queue without promoting candidates
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+          sys.path.insert(0,'scripts')
+          from bulk_candidate_queue import queue
+          root=Path.cwd()
+          result=queue(root,[root/'data/korea-candidates.json',
+                             root/'research/kr-recent-20261117.json',
+                             root/'research/collections/korean-memes-2021-2023-audit.json'])
+          print('BULK_QUEUE_SUMMARY='+json.dumps({
+              'canonical_count':result['canonical_count'],
+              'counts':result['counts'],
+              'by_source_kind':result['by_source_kind'],
+              'source_fingerprints':[{'kind':s['kind'],'sha256':s['sha256']} for s in result['sources']],
+              'diagnostic_count':len(result['diagnostics']),
+              'limits':result['limitations']
+          },ensure_ascii=False))
+          PY

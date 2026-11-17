@@ -1,0 +1,3151 @@
+{
+  "schema_version": 1,
+  "collection": "2021–2023 대한민국 사용 밈 발견 후보",
+  "collected_at": "2026-11-17",
+  "baseline_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+  "notes": [
+    "85건은 등록 완료나 독립 검증 완료 수가 아니라 발견 후보 수다.",
+    "direct_body 33건과 미러 색인만 52건을 구분한다. 미러 본문 목록을 실제 열람했지만 access=search_index는 후보색인 역할을 의미한다.",
+    "고구마팜 여러 기사는 동일 independent_group이며 복수 독립 매체로 세지 않는다.",
+    "위키 설명문을 복사하지 않았고 색인 후보 뜻풀이는 null이다.",
+    "기존 사전357건·pilot-state·대한민국 후보대장1091건에 대한 기계적 중복 힌트. 별도 PR 변경은 반영하지 않음."
+  ],
+  "candidates": [
+    {
+      "id": "kr-2021-2023-audit-001",
+      "title": "반모",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072?cp=go&id=20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "own_definition": "반말로 이야기하는 관계나 대화 방식을 짧게 부르는 말.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-002",
+      "title": "반박(반말 모드 박탈)",
+      "aliases": [
+        "반말 모드 박탈"
+      ],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072?cp=go&id=20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "own_definition": "반말로 이야기하던 관계를 거두겠다는 뜻의 축약. 일반적인 반박과 구별해야 한다.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-003",
+      "title": "킹정",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072?cp=go&id=20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "own_definition": "인정한다는 반응을 과장해 표현하는 말.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-004",
+      "title": "꾸꾸꾸",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072?cp=go&id=20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "own_definition": "해당 기사에서는 꾸며도 꾸질꾸질하다는 뜻으로 소개한다. 다른 확장 의미와 구별이 필요하다.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-005",
+      "title": "깔미",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072?cp=go&id=20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "own_definition": "상대를 밉게 평가하는 축약 표현. 인물 공격으로 쓰일 수 있다.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-006",
+      "title": "점메추",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072?cp=go&id=20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "own_definition": "점심 메뉴 추천을 짧게 부탁하는 표현.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-007",
+      "title": "박박",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072?cp=go&id=20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "own_definition": "대박의 일부를 반복해 놀람이나 강도를 강조하는 표현.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-008",
+      "title": "나나",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072?cp=go&id=20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "own_definition": "강조어를 줄이고 반복한 표현으로 기사에 소개된다. 일반 이름과 구별이 필요하다.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-009",
+      "title": "짜짜",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072?cp=go&id=20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "own_definition": "진짜의 뒷부분을 반복해 강조하는 표현.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-010",
+      "title": "캘박",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072?cp=go&id=20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "own_definition": "일정을 달력에 적어 확정한다는 뜻의 축약.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-011",
+      "title": "ㅋㅋ루삥뽕",
+      "aliases": [
+        "크크루삥뽕"
+      ],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://m.go.seoul.co.kr/news/life/2021/12/01/20211201500072?cp=go&id=20211201500072",
+          "publisher": "서울신문",
+          "published_date": "2021-12-01",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "서울신문"
+        }
+      ],
+      "own_definition": "웃음을 나타내는 글자에 장난스러운 소리를 덧붙인 반응.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-1000",
+            "title": "ㅋㅋ루삥뽕",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-012",
+      "title": "제로투 댄스",
+      "aliases": [
+        "제로투 챌린지"
+      ],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://mobile.newsis.com/view/NISX20211202_0001673901",
+          "publisher": "뉴시스",
+          "published_date": "2021-12-05",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "뉴시스"
+        }
+      ],
+      "own_definition": "특정 음악에 맞춘 반복 안무를 따라 하고 변형하는 영상 놀이.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-013",
+      "title": "킬링미 챌린지",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://mobile.newsis.com/view/NISX20211202_0001673901",
+          "publisher": "뉴시스",
+          "published_date": "2021-12-05",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "뉴시스"
+        }
+      ],
+      "own_definition": "청하의 해당 곡 안무를 따라 촬영하는 참여형 영상.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-014",
+      "title": "덤덤 챌린지",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://mobile.newsis.com/view/NISX20211202_0001673901",
+          "publisher": "뉴시스",
+          "published_date": "2021-12-05",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "뉴시스"
+        }
+      ],
+      "own_definition": "전소미의 해당 곡 안무를 따라 촬영하는 참여형 영상.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-015",
+      "title": "암낫쿨 챌린지",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://mobile.newsis.com/view/NISX20211202_0001673901",
+          "publisher": "뉴시스",
+          "published_date": "2021-12-05",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "뉴시스"
+        }
+      ],
+      "own_definition": "현아의 해당 곡 안무를 따라 촬영하는 참여형 영상.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-016",
+      "title": "체리피스",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2022년-밈-최종-정리/",
+          "publisher": "고구마팜",
+          "published_date": "2022-12-13",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "사진을 찍을 때 사용하는 손 포즈로 기사에서 소개된 유행.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-017",
+      "title": "내일 봬요 누나",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2022년-밈-최종-정리/",
+          "publisher": "고구마팜",
+          "published_date": "2022-12-13",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "연애 예능의 대사를 다른 장면에서도 흉내 내는 표현.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-018",
+      "title": "__아티스트",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2022년-밈-최종-정리/",
+          "publisher": "고구마팜",
+          "published_date": "2022-12-13",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "평범한 행동이나 취향에도 아티스트라는 호칭을 붙여 과장하는 형식.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-019",
+      "title": "내 장점이 뭔지 알아",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2022년-밈-최종-정리/",
+          "publisher": "고구마팜",
+          "published_date": "2022-12-13",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "노래의 짧은 구절을 빌려 자신의 장점을 소개하거나 장난치는 형식.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-020",
+      "title": "심각한 수준의 __중독입니다",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2022년-밈-최종-정리/",
+          "publisher": "고구마팜",
+          "published_date": "2022-12-13",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "무언가를 좋아하거나 자주 하는 모습을 과장된 진단처럼 표현하는 틀.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-021",
+      "title": "여기서부터 잔인함",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2022년-밈-최종-정리/",
+          "publisher": "고구마팜",
+          "published_date": "2022-12-13",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "내용이 바뀌는 지점에 경고처럼 괄호 문구를 붙여 웃음을 만드는 형식.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-022",
+      "title": "__ 죽어줄게",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2022년-밈-최종-정리/",
+          "publisher": "고구마팜",
+          "published_date": "2022-12-13",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "상대에게 맞춰 주겠다는 말을 극단적으로 과장하는 반응 틀. 실제 위해 표현과 구분해야 한다.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-023",
+      "title": "왜요 제가 __한 사람처럼 보이나요",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2022년-밈-최종-정리/",
+          "publisher": "고구마팜",
+          "published_date": "2022-12-13",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "특정 경험이나 성과가 드러난다는 상황을 질문 형식으로 과장하는 문장 틀.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-024",
+      "title": "_떤남자 / _떤여자",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2022년-밈-최종-정리/",
+          "publisher": "고구마팜",
+          "published_date": "2022-12-13",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "특정 인물을 직접 지칭하지 않고 일부가 생략된 듯한 말투로 부르는 형식.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-025",
+      "title": "유행 안 타는 __사랑 맥스인데",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/요즘-밈-활용해-센스-있게-sns-운영하기/",
+          "publisher": "고구마팜",
+          "published_date": "2022-11-15",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "제품 이름의 맥스를 감정의 최대치와 연결해 바꾸는 말장난.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-026",
+      "title": "수상할 정도로 __한 __",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/요즘-밈-활용해-센스-있게-sns-운영하기/",
+          "publisher": "고구마팜",
+          "published_date": "2022-11-15",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "대상에게 두드러지는 특징을 수상하다는 말로 과장하는 형식.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-027",
+      "title": "할 건 해야지",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/요즘-밈-활용해-센스-있게-sns-운영하기/",
+          "publisher": "고구마팜",
+          "published_date": "2022-11-15",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "하기 싫거나 힘들어도 해야 할 일은 하자는 반응. 기사에서 김호영의 모습과 연결해 소개한다.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-028",
+      "title": "토슈즈·커리어 가사 패러디",
+      "aliases": [
+        "ANTIFRAGILE 가사 패러디"
+      ],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/요즘-밈-활용해-센스-있게-sns-운영하기/",
+          "publisher": "고구마팜",
+          "published_date": "2022-11-15",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "노래 속 자기 경력 표현을 다른 사람의 이력이나 상황에 맞게 바꾸는 형식.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-029",
+      "title": "비행기는 못 참지",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/숏폼-유행-밈-결산/",
+          "publisher": "고구마팜",
+          "published_date": "2023-01-12",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "음식을 비행기처럼 움직여 먹여 주는 장면을 따라 하거나 반전시키는 영상 놀이.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-030",
+      "title": "피어나 너 내 도도독",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2023-밈-최종-정리-아티클-하나로-끝냅시다/",
+          "publisher": "고구마팜",
+          "published_date": "2023-12-19",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "무대에서 말이 꼬인 장면의 소리를 따라 하거나 다른 상황에 적용하는 반응.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-031",
+      "title": "여러분 너무 보고 싶었어",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2023-밈-최종-정리-아티클-하나로-끝냅시다/",
+          "publisher": "고구마팜",
+          "published_date": "2023-12-19",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "가수가 노래하듯 건넨 인사말을 흉내 내는 형식.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-032",
+      "title": "제 직업은 홈 프로텍터입니다",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2023-밈-최종-정리-아티클-하나로-끝냅시다/",
+          "publisher": "고구마팜",
+          "published_date": "2023-12-19",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "집에 있는 생활을 거창한 직업 이름으로 바꿔 말하는 자기소개.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-033",
+      "title": "하지만 빨랐죠",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://gogumafarm.kr/2023-밈-최종-정리-아티클-하나로-끝냅시다/",
+          "publisher": "고구마팜",
+          "published_date": "2023-12-19",
+          "access": "direct_body",
+          "supports": "국내 매체 본문에 해당 표현 또는 챌린지와 사용 맥락이 소개됨. 최초 원작 게시물 직접 확인 아님.",
+          "independent_group": "고구마팜"
+        }
+      ],
+      "own_definition": "결과의 정확성 대신 속도를 내세우는 반전식 반응.",
+      "scope_basis": "한국어 매체의 사용 소개. 관찰 연도 또는 해당 연말 회고 범위이며 최초 발생 연도가 아니다.",
+      "limitations": [
+        "단일 독립 매체 근거로 추가 검토 필요",
+        "원작 영상·원게시물 직접 확인하지 않음",
+        "유행 강도와 최초 창작자 미확정"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-1092",
+            "title": "하지만 빨랐죠",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-034",
+      "title": "팝캣",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-035",
+      "title": "강아지 경찰 아저씨",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0173",
+            "title": "강아지 경찰 아저씨",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-036",
+      "title": "포브스 드립",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-037",
+      "title": "삼각함수송",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0606",
+            "title": "삼각함수송",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-038",
+      "title": "나 일론 머스크",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-039",
+      "title": "멈춰!",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-040",
+      "title": "마이야히",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0451",
+            "title": "마이야히",
+            "status": "held"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-041",
+      "title": "육군 we 육군",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0830",
+            "title": "육군 we 육군",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-042",
+      "title": "근데 이제 뭐함?",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0253",
+            "title": "근데 이제 뭐함?",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-043",
+      "title": "굿바이 선언",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-044",
+      "title": "샤방송",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0617",
+            "title": "샤방송",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-045",
+      "title": "도쿄올림픽 픽토그램",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0388",
+            "title": "도쿄올림픽 픽토그램",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-046",
+      "title": "커다란 자갈돌은 짱돌",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-1007",
+            "title": "커다란 자갈돌은 짱돌",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-047",
+      "title": "소금소금소금팥팥팥",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0634",
+            "title": "소금소금소금팥팥팥",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-048",
+      "title": "라고 할 뻔",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0426",
+            "title": "라고 할 뻔",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-049",
+      "title": "오니기리 댄스",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0777",
+            "title": "오니기리 댄스",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-050",
+      "title": "개같이 XX",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0175",
+            "title": "개같이 XX",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-051",
+      "title": "요나요나 댄스",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0810",
+            "title": "요나요나 댄스",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-052",
+      "title": "슈퍼 아이돌",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0646",
+            "title": "슈퍼 아이돌",
+            "status": "held"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-053",
+      "title": "사실이 아닙니다!",
+      "aliases": [],
+      "observed_year": 2021,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-054",
+      "title": "미스터 인크레더블 밈",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-055",
+      "title": "곽윤기의 뒷선수 시점",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-056",
+      "title": "쇼트트랙 아이템전",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-057",
+      "title": "지구방위대 챌린지",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0954",
+            "title": "지구방위대 챌린지",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-058",
+      "title": "아이 러브 마이 화자 마자 브라자",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0698",
+            "title": "아이 러브 마이 화자 마자 브라자",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-059",
+      "title": "눗눗",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-060",
+      "title": "모기송",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0477",
+            "title": "모기송",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-061",
+      "title": "점점 빨라지는 노래",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0912",
+            "title": "점점 빨라지는 노래",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-062",
+      "title": "슬픈 고양이 댄스",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0656",
+            "title": "슬픈 고양이 댄스",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-063",
+      "title": "Young한데? 완전 MZ인데요?",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0154",
+            "title": "Young한데? 완전 MZ인데요?",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-064",
+      "title": "제로투 회피",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0923",
+            "title": "제로투 회피",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-065",
+      "title": "짱구야 아빠를 속인거니?",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0971",
+            "title": "짱구야 아빠를 속인거니?",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-066",
+      "title": "오빠 오빠 차 있어?",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0785",
+            "title": "오빠 오빠 차 있어?",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-067",
+      "title": "근데 어쩔건데?",
+      "aliases": [],
+      "observed_year": 2022,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0252",
+            "title": "근데 어쩔건데?",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-068",
+      "title": "토카토카 댄스",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-1044",
+            "title": "토카토카 댄스",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-069",
+      "title": "04년생 클럽춤",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0050",
+            "title": "04년생 클럽춤",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-070",
+      "title": "팅팅송",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-1051",
+            "title": "팅팅송",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-071",
+      "title": "제기랄 또 ~야!",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-072",
+      "title": "나문희의 첫사랑",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0299",
+            "title": "나문희의 첫사랑",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-073",
+      "title": "나이트 댄서",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0302",
+            "title": "나이트 댄서",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-074",
+      "title": "고도로 발달한 A는 B와 구분할 수 없다",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0203",
+            "title": "고도로 발달한 A는 B와 구분할 수 없다",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-075",
+      "title": "뽀삐뽀삐뽀 뽀삐뽀",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-076",
+      "title": "이궈궈던",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0851",
+            "title": "이궈궈던",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-077",
+      "title": "강풍 올백",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0174",
+            "title": "강풍 올백",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-078",
+      "title": "~한 건에 대하여",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0079",
+            "title": "~한 건에 대하여",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-079",
+      "title": "삐에용 부트 댄스",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-080",
+      "title": "홍박사님을 아세요",
+      "aliases": [
+        "홍박사님을 아세요?"
+      ],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-1156",
+            "title": "홍박사님을 아세요?",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-081",
+      "title": "어 맞아맞아 놀랍지만 그건 사실이야",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0742",
+            "title": "어 맞아맞아 놀랍지만 그건 사실이야",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-082",
+      "title": "그쪽도 작업치료과를 아세요?",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-083",
+      "title": "I am신뢰에요~",
+      "aliases": [
+        "I am 신뢰에요"
+      ],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0103",
+            "title": "I am신뢰에요~",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-084",
+      "title": "장충동왕족발보쌈",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [
+          {
+            "id": "kr-list-0902",
+            "title": "장충동왕족발보쌈",
+            "status": "unreviewed"
+          }
+        ],
+        "retired_exact": [],
+        "status": "ledger_known_candidate",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    },
+    {
+      "id": "kr-2021-2023-audit-085",
+      "title": "치피치피 차파차파",
+      "aliases": [],
+      "observed_year": 2023,
+      "source_urls": [
+        {
+          "url": "https://namu.moe/w/밈(인터넷%20용어)/시기별",
+          "publisher": "나무위키 미러 namu.moe",
+          "published_date": null,
+          "access": "search_index",
+          "supports": "미러 연도별 목록에서 후보 제목 및 배치만 확인. 국내 사용·뜻·최초 발생의 독립 근거 아님.",
+          "independent_group": "namu-mirror"
+        }
+      ],
+      "own_definition": null,
+      "scope_basis": "발견 후보만. 연도는 미러 분류이며 검증된 기원 연도가 아니다.",
+      "limitations": [
+        "독립 자료 미검증",
+        "원작 미확인",
+        "의미·위험·국내 사용 검토 전 수록 불가"
+      ],
+      "review_status": "unreviewed",
+      "duplicate_hint": {
+        "basis_commit": "9f1ce9b2316160edf12045fb555e8d89887d4bc5",
+        "canonical_exact": [],
+        "canonical_body_mentions": [],
+        "ledger_exact": [],
+        "retired_exact": [],
+        "status": "no_normalized_title_match",
+        "limits": "정규화 제목·제공 별칭 및 본문 문자열 대조. 의미상 동의표현까지 완전 판정한 것은 아님.",
+        "pilot_alias_matches": []
+      }
+    }
+  ]
+}
