@@ -1,0 +1,8 @@
+{
+  "commit": "cb588b2ef8c3420cc1df2f4b1debc63174b640be",
+  "reviewer": "independent AI editorial review",
+  "cases": 10,
+  "blocking_findings": 0,
+  "limits": "Public annotation-derived development cases, not human or new blind evaluation. Reviewer read saved Python trace, did not independently execute CI.",
+  "retrieval_limit": "E06 returns flower-road and haengshow; final selection chooses haengshow without inventing a new activity or job. Raw candidate inclusion is not final recommendation appropriateness."
+}

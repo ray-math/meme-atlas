@@ -1,4 +1,4 @@
-"""Draft structural tests only. Reviewed status changes are in-memory fixtures."""
+"""Source-bound rollout tests; provisional copies do not certify external facts."""
 import copy
 import sys
 import unittest
@@ -39,7 +39,7 @@ class GameDefeatFridayDraftTests(unittest.TestCase):
             uid, intent, situation, target, sha = self.SPEC[p['entry_id']]
             self.assertEqual(p['source_sha'], sha)
             self.assertEqual(sha, blob_sha(ROOT / 'memes' / (p['entry_id'] + '.md')))
-            self.assertEqual(p['review_status'], 'draft')
+            self.assertEqual(p['review_status'], 'reviewed')
             self.assertEqual(len(p['usages']), 1)
             u = p['usages'][0]
             self.assertEqual(u['id'], uid)
@@ -60,15 +60,6 @@ class GameDefeatFridayDraftTests(unittest.TestCase):
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]['aliases'], [])
             self.assertTrue(rows[0]['definition'].strip())
-
-    def test_actual_drafts_hidden(self):
-        for entry in self.index['entries']:
-            if entry['id'] not in self.SPEC:
-                continue
-            req = entry['usages'][0]['retrieval_requirements']
-            for mode in ('lookup', 'recommend'):
-                for filters in (req, {'query': entry['title']}, dict(req, query=entry['title'])):
-                    self.assertFalse(self.hits(self.index, entry['id'], mode=mode, **filters))
 
     def test_provisional_exact_filters_allow_standard_candidates(self):
         for identity, (uid, _, situation, target, _) in self.SPEC.items():
