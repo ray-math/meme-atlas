@@ -906,6 +906,57 @@
         "daengdaengi",
         "nyangmonite"
       ]
+    },
+    "korean-verified-20261117-bulk-wave11": {
+      "input_hash": "255178a8339363666b00e29fb4fe8d10feef319be056025399544c758395654c",
+      "ids": [
+        "whos-on-first",
+        "will-remember-this",
+        "let-it-go-parody",
+        "snow-reporter-parody",
+        "oppa-car-dance",
+        "life-not-as-planned",
+        "deokming-out",
+        "hyudeok",
+        "eodeokhaengdeok",
+        "ticket-grapes",
+        "iseonjwa",
+        "piketing",
+        "chwiketing",
+        "ticket-helper",
+        "gulbiseok",
+        "gonari",
+        "gungyejil",
+        "choeae",
+        "cat-loaf",
+        "baldori",
+        "gaenyangi",
+        "lap-cat-korean",
+        "gaptongal",
+        "eolppak-shot",
+        "phone-kku",
+        "diary-kku",
+        "toploader-kku",
+        "johmotsa",
+        "ohawoon",
+        "overhead-selfie",
+        "aeppaesi",
+        "sejelgwi",
+        "eup-eup",
+        "are-you-crazy-human",
+        "dududunga",
+        "jongno-song-parody",
+        "hwatgim-cost",
+        "loneliness-cost",
+        "mistake-cost",
+        "tangjinjaem",
+        "empty-bankbook",
+        "salary-logout",
+        "deuktem",
+        "simkung",
+        "simmeot",
+        "isaengmang"
+      ]
     }
   },
   "entries": {
@@ -7037,6 +7088,408 @@
       "body_hash": "122400a15777a76c64e360290759db12768cce8cc741fc218b81777b721343d7",
       "scope_type": "korean_usage",
       "scope_basis": "국내 사용이 확인된 팬덤 신조어·생활 말장난. 최초 발생을 주장하지 않음.",
+      "tags": []
+    },
+    "whos-on-first": {
+      "title": "1루수가 누구야",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "4795954599419597f20177fb08ac28c94692f01e6938c275fed8c3ef469f4ce0",
+      "scope_type": "korean_usage",
+      "scope_basis": "평범한 의문사처럼 들리는 이름 때문에 대화가 계속 엇갈리는 말장난. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "tags": []
+    },
+    "will-remember-this": {
+      "title": "이 일을 기억할 것입니다",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "a3647993c355211842c8fc82058e929b261ad3958810f9ad12cb0ad0579ba0a0",
+      "scope_type": "korean_usage",
+      "scope_basis": "인상 깊거나 황당한 일을 게임 안내문처럼 비장하게 기록하는 말. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "tags": []
+    },
+    "let-it-go-parody": {
+      "title": "렛잇고 패러디",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "b9e952c6195ff5fc8f11b4883790290650cd5c52f103d37464d040c6949ccefb",
+      "scope_type": "korean_usage",
+      "scope_basis": "겨울왕국 노래의 창법·장면·음악을 바꾸거나 다른 영상에 붙여 즐기는 패러디. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "tags": []
+    },
+    "snow-reporter-parody": {
+      "title": "눈사람 기자 패러디",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "f7a43afa7c006e6c1450fa4826caf68971eee4e897cba788882eae1c83af56d0",
+      "scope_type": "korean_usage",
+      "scope_basis": "눈을 맞으며 진지하게 현장을 중계하던 기자의 모습을 흉내 내는 패러디. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "tags": []
+    },
+    "oppa-car-dance": {
+      "title": "오빠 오빠 차 있어?",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "80cd3623ad8849e5ba016c735b282b9f3e8106456c48d0d07bc530257311a8e8",
+      "scope_type": "korean_usage",
+      "scope_basis": "반복되는 질문형 노래에 맞춘 몸짓을 따라 하는 영상 패러디. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "tags": []
+    },
+    "life-not-as-planned": {
+      "title": "인생이란 원래 자기 생각대로 되지 않는 법이란다",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "7a0585ffb6ae3691292f1c3084ba268d82262bff9865e026bc4d698059291c63",
+      "scope_type": "korean_usage",
+      "scope_basis": "예상과 다른 결과를 인생의 뜻밖의 재미처럼 받아들이며 덧붙이는 문구. 국내 언론·전문 매체의 재연 보도 또는 필자의 실제 사용을 확인.",
+      "tags": []
+    },
+    "deokming-out": {
+      "title": "덕밍아웃",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "0bfe50a6ad8730b4f6dcac80b0f90baece974aa0064cc072632c63070b04ffc2",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "hyudeok": {
+      "title": "휴덕",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "32f166fed1981e82cab7196d84ba05899c1deaaef43457fe67e699ea1461fc2b",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "eodeokhaengdeok": {
+      "title": "어덕행덕",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "d53aa4e1795a9d9db49953a51cf361aed9d1d603b3edfd5f54a86dce8b82613e",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "ticket-grapes": {
+      "title": "포도알",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "f2ceb58f81ebffd2b0f551aff2d2946de6fbc5baafb167e5ce9e9f03acc1dceb",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "iseonjwa": {
+      "title": "이선좌",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "0edeb1bad7b6df6e1960ef7b5202981ce827009b3b1919da80115f160b3f8a5a",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "piketing": {
+      "title": "피켓팅",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "70c30b9955d6cd25d7e147748a36167739ec6177d3bb7988b70b887c0a9f2d6b",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "chwiketing": {
+      "title": "취켓팅",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "15a2fb6bcb7dbd75c71385d4fe67b5ae8e2812b725c6e6ad224b2185f367b016",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "ticket-helper": {
+      "title": "티켓 용병",
+      "aliases": [
+        "티켓팅 용병"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "41042277511b80b54ad559f33a9f74750e9308caba98edc031c1ec59a70a2059",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "gulbiseok": {
+      "title": "굴비석",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "f5ecd3ce82da8ec8c2dd36d82be1369c06552c85e84ec98201781b3ca0cd643d",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "gonari": {
+      "title": "고나리",
+      "aliases": [
+        "고나리질"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "d16074afb86f2310ffbf931e68a676dab0e659d8f0cd886a8e75e3d9ea80109f",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "gungyejil": {
+      "title": "궁예질",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "5eb782e09d5592c19cb90282fc21794268d4cb0fda1ea0c6dfd9d7330ecdf6df",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "choeae": {
+      "title": "최애",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "cb0d1e5dd0cadff3fa78c7c9c2652f69e0ebe2493a098709e5cd97ef555af41c",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "cat-loaf": {
+      "title": "식빵 굽기",
+      "aliases": [
+        "식빵 굽는 고양이"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "ac40d6543173ec0acef6a7171c2c68c7425046afddf69d764f42b2e91a89f920",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "baldori": {
+      "title": "발도리",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "301e98932b337f2d530dc38482088c3d8f5dc81c7924002b88410b6cd93451d1",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "gaenyangi": {
+      "title": "개냥이",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "735f510bff5edc4397baca7114604e9c4e33a73a2e85c0cb226d2057f3fbb75d",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "lap-cat-korean": {
+      "title": "무릎냥이",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "0bf86678c76e82c2ff3a88880b976e842aeef85a743d83bb14f3b045fb0b8019",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 팬덤·온라인 말장난과 비유적 별칭의 관찰 사용.",
+      "tags": []
+    },
+    "gaptongal": {
+      "title": "갑통알",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "a41cc55fbb818f7a8adefa8028d2e8b4d1dc889fc2d386f5965379e60dc4d1d2",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "tags": []
+    },
+    "eolppak-shot": {
+      "title": "얼빡샷",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "322b00c2e6ef792f255a3eb1290f81676b8e721a90e02593bd32964ddfafbc2b",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "tags": []
+    },
+    "phone-kku": {
+      "title": "폰꾸",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "b49fa0f04139b2fcfd95659e5c20a564ce159929d072216e4b0076528a3878bf",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "tags": []
+    },
+    "diary-kku": {
+      "title": "다꾸",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "33da7ea8191c74a6fde7c8f1e656aa8b1bfcb1ec0cab635c4b960834003c4bf5",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "tags": []
+    },
+    "toploader-kku": {
+      "title": "탑꾸",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "1e9ead703c700d280e577ca1b9b87cbfde30fc9abac9cdb472dd4b83c355a910",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "tags": []
+    },
+    "johmotsa": {
+      "title": "좋못사",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "783fdccb68159f53c27245069620d39de47f8a642bf3fc96ad6f2c041a181252",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "tags": []
+    },
+    "ohawoon": {
+      "title": "오하운",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "2d0269c596afd60eb2a45a98916944bd3acb8fb660b8579bb7a1022975695bc7",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "tags": []
+    },
+    "overhead-selfie": {
+      "title": "항공샷",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "eb8dc05c95682f629e1f28826f287e9b2224ef8b27747a3c3fe05ed954c9d4ee",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "tags": []
+    },
+    "aeppaesi": {
+      "title": "애빼시",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "f304f40b045cbe11b3ffd4d893632604b8b6b2b36c3c9273ebce2a41515b42ad",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "tags": []
+    },
+    "sejelgwi": {
+      "title": "세젤귀",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "fd36d70265dd0c0b6f1f70e681f81a013d2c75d79510f92f2092adfdcbfffb5c",
+      "scope_type": "korean_usage",
+      "scope_basis": "2021~2023년 국내 한국어 사용 또는 한국어 표현 소개를 확인. 이전 용례와 함께 뜻 검증; 해당 시기에 처음 생겼다는 뜻 아님.",
+      "tags": []
+    },
+    "eup-eup": {
+      "title": "읍읍",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "662a59e284b3e8919542a6cf216daedc3c60fd9ab2b8ec94fbf4bcc765e817b0",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 플랫폼 회고·기사·개인 해설에서 확인한 국내 사용 및 패러디 형식. 최초 발생 국가를 확정하지 않음.",
+      "tags": []
+    },
+    "are-you-crazy-human": {
+      "title": "미쳤습니까 휴먼?",
+      "aliases": [
+        "미쳤습니까 휴먼"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "4f68ba1e35dab2dedaefcd9997e253bcd2109c1320fc81a2a545ff0e015d13ac",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 플랫폼 회고·기사·개인 해설에서 확인한 국내 사용 및 패러디 형식. 최초 발생 국가를 확정하지 않음.",
+      "tags": []
+    },
+    "dududunga": {
+      "title": "두둥등장",
+      "aliases": [
+        "ㄷㄷㄷㅈ",
+        "DUDUDUNGA"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "ab356774d17922b5ab8dacc94c67b53dcafeb02bc0aa4e675f75f5838d5690df",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 플랫폼 회고·기사·개인 해설에서 확인한 국내 사용 및 패러디 형식. 최초 발생 국가를 확정하지 않음.",
+      "tags": [
+        "게임",
+        "음악",
+        "광고"
+      ]
+    },
+    "jongno-song-parody": {
+      "title": "종로로 갈까요",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "7e1e36eb7e371ef7bbd3d66f71311f24d4718bfd761b06737a1574fb6dcd2a24",
+      "scope_type": "korean_usage",
+      "scope_basis": "한국어 플랫폼 회고·기사·개인 해설에서 확인한 국내 사용 및 패러디 형식. 최초 발생 국가를 확정하지 않음.",
+      "tags": [
+        "애니",
+        "음악"
+      ]
+    },
+    "hwatgim-cost": {
+      "title": "홧김비용",
+      "aliases": [
+        "시발비용"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "1bfc26dbe3ec9f1f643da8751a12865801e683af8a5bd9e665a70db812935e19",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "tags": []
+    },
+    "loneliness-cost": {
+      "title": "쓸쓸비용",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "947b9d43b53c7bd686b752af3d30b4b1c80d0e527e055545327283fa676b7db6",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "tags": []
+    },
+    "mistake-cost": {
+      "title": "멍청비용",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "280cdf6fcbd068bc84f21fe59fcc629522dcf65e4df01cd547a1652cd8375d66",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "tags": []
+    },
+    "tangjinjaem": {
+      "title": "탕진잼",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "bbe6027f0356f20ee5209f0165109ba093c11c9234f676ee8a312269de55a4a2",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "tags": []
+    },
+    "empty-bankbook": {
+      "title": "텅장",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "1d7747c2fbfa2961e45441af44136a48335a57247c10b5e150fa9fa064ed6c1a",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "tags": []
+    },
+    "salary-logout": {
+      "title": "월급 로그아웃",
+      "aliases": [
+        "월급로그아웃",
+        "월급님이 로그아웃하셨습니다"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "55c9238a2eda8a8c60a99daef526ce9e13c23a4f6076cc0284a972b440be25c5",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "tags": []
+    },
+    "deuktem": {
+      "title": "득템",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "64974497f4b8cd21f811a73cf237b6b42f425b8401228703545b066e81edd5d6",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "tags": []
+    },
+    "simkung": {
+      "title": "심쿵",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "03f8c5de68ef7cb07c1759ea8b5a898ae86c61c52cc857ab56f0026aa1a27d0b",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "tags": []
+    },
+    "simmeot": {
+      "title": "심멎",
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "6cab8ff762c1451d190b3903fad5b9de08473435f997a5bf2a73471c1866603e",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
+      "tags": []
+    },
+    "isaengmang": {
+      "title": "이생망",
+      "aliases": [
+        "이번 생은 망했다",
+        "이번 생은 망했어"
+      ],
+      "batch": "korean-verified-20261117-bulk-wave11",
+      "body_hash": "710c8545bd6087bddd86def4150f74b9d7a5a40385695b750a5d53fd20ae7f6c",
+      "scope_type": "korean_usage",
+      "scope_basis": "국내 인터넷 반응·소비 자조 표현의 관찰 사용.",
       "tags": []
     }
   }
