@@ -1,0 +1,63 @@
+{
+  "batch": "connector-resume-ac133",
+  "base": "a2a353d57c0bca44c4131856fae1fde5d83cb0da",
+  "entries": [
+    {
+      "id": "salary-lupin",
+      "independent_usage_events": 2,
+      "sources": [
+        {
+          "url": "https://brunch.co.kr/@kwiris/172",
+          "observed": "2021-01-05 팀장 되기 전 자기 희망을 월급루팡으로 표현."
+        },
+        {
+          "url": "https://brunch.co.kr/@ellev/280",
+          "observed": "2021-09-01 시스템 등록 지연으로 일을 못하는 자신을 농담. 고의 태만 아님."
+        },
+        {
+          "url": "https://www.khan.co.kr/article/201107291215501",
+          "observed": "2011-07-29 용어 설명. 최초 기원 주장하지 않음."
+        },
+        {
+          "url": "https://brunch.co.kr/@hansangjin/78",
+          "observed": "월루 줄임말 확인. 인용 SNS를 별도 실제 사례로 세지 않음."
+        }
+      ]
+    },
+    {
+      "id": "tell-me-dance",
+      "independent_usage_events": 2,
+      "sources": [
+        {
+          "url": "https://news.nate.com/view/20071026n03609",
+          "observed": "뉴스엔 2007-10-26 교통경찰 복장 안무 재현."
+        },
+        {
+          "url": "https://v.daum.net/v/M0L4CaUzaD",
+          "observed": "일간스포츠 2007-12-03 제주 방언·한복 단체 춤. 겹치는 경찰 영상 중복 집계 안 함."
+        }
+      ],
+      "bounds": "원 UCC 미시청. 최초 게시자 및 업로드 날짜 미확정."
+    }
+  ],
+  "existing_entry_enrichment": {
+    "id": "no-go-back",
+    "url": "https://news.sbs.co.kr/amp/news.amp?news_id=N1003609470",
+    "observed": "SBS 공식 2016-06-05 인터뷰에 거절 문장·천종호·2013 SBS 스페셜 연결. 최초 사용일 아님. 사건 신상 미수록."
+  },
+  "screening": {
+    "batch_a_strings": 10,
+    "batch_c_strings": 12,
+    "new_canonical": 2,
+    "note": "문자열 수를 고유 신규 밈 수로 합산하지 않음. 월루는 별칭. 맷돌춤·뒷북 보류."
+  },
+  "checks": {
+    "base_entries": 845,
+    "result_entries": 847,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

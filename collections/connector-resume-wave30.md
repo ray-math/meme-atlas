@@ -19,3 +19,5 @@
 - [거성체조](../memes/geoseong-dance.md)
 - [시건방춤](../memes/arrogant-dance.md)
 - [설득력이... 있어!](../memes/it-is-persuasive.md)
+- [월급루팡](../memes/salary-lupin.md)
+- [텔미 춤 따라하기](../memes/tell-me-dance.md)
