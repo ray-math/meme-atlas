@@ -57,3 +57,4 @@ jobs:
       - run: python scripts/replay_exercise_scope.py
       - run: python scripts/replay_speculation_scope.py
       - run: python scripts/replay_discretion_scope.py
+      - run: python scripts/replay_preference_scope.py
