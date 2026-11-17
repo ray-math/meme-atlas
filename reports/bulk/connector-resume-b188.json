@@ -1,0 +1,69 @@
+{
+  "base": "edc44dfbeadf462e41b0cabce52d2f2618dcb113",
+  "canonical_before": 892,
+  "canonical_after": 893,
+  "accepted": [
+    "seoul-is-still-seoul"
+  ],
+  "explicit_queries": [
+    "상동",
+    "빙하기",
+    "북극곰",
+    "스파이더",
+    "코 때",
+    "스쿠바",
+    "찌그러진",
+    "서울은",
+    "부캉",
+    "이모지",
+    "거북",
+    "뽈롱",
+    "나쁜 오리",
+    "캪틴",
+    "달달",
+    "감사드리고",
+    "감스트",
+    "sangdong",
+    "빙하",
+    "ice-age",
+    "bear",
+    "spider",
+    "여전히",
+    "seoul",
+    "치즈볼",
+    "치즈",
+    "공룡 형님",
+    "낭만스팸",
+    "감성스팸",
+    "스팸",
+    "나는여전히",
+    "너는여전히",
+    "트렌드는 여전히",
+    "분석적"
+  ],
+  "sources": [
+    {
+      "url": "https://maily.so/trendaword/posts/1gz27q4xr3q",
+      "date": "2026-01-20",
+      "evidence": "제목의 트렌드 치환. 설명용 가상 용례는 사용사례에서 제외."
+    },
+    {
+      "url": "https://clockworks.tistory.com/47",
+      "date": "2026-02-12",
+      "evidence": "제목의 분석적 치환 및 맺음말의 진로 변형. 합쳐1작성자1사례."
+    }
+  ],
+  "dedup": {
+    "여전히": [
+      "did-we-get-it",
+      "sara-inne",
+      "still-play-that-game"
+    ],
+    "상동호수공원": "okay-thanks-daldal 의미중복. 기계상동검색real-lol은 경계넘은오탐."
+  },
+  "limits": [
+    "최초원문자·작성자·발송경위·스팸여부미확정",
+    "나머지검색문자열은 탐색단계, 검증완료 밈 아님",
+    "Python/CI미실행"
+  ]
+}

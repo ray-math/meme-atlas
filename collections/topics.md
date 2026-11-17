@@ -978,6 +978,7 @@
 - [단어 알지? 싸워](../memes/fight-briefing-parody.md)
 - [무례하지 않게 말해 주세요](../memes/say-it-politely-template.md)
 - [빅가이 챌린지](../memes/big-guy-arm-illusion.md)
+- [서울은 여전히 서울이고](../memes/seoul-is-still-seoul.md)
 - [스톰 챌린지](../memes/storm-ii-challenge.md)
 - [일하는 중에 갑자기 몸이 안 좋아졌어요](../memes/suddenly-sick-fan-trip.md)
 - [젓가락 워킹](../memes/chopstick-runway.md)

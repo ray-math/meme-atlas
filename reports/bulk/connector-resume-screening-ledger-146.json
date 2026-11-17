@@ -41,10 +41,11 @@
     "reports/bulk/connector-resume-hold-audit184.json",
     "reports/bulk/connector-resume-c185.json",
     "reports/bulk/connector-resume-holds186.json",
-    "reports/bulk/connector-resume-holds187.json"
+    "reports/bulk/connector-resume-holds187.json",
+    "reports/bulk/connector-resume-b188.json"
   ],
-  "query_observations": 641,
-  "distinct_literal_queries": 521,
+  "query_observations": 675,
+  "distinct_literal_queries": 553,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3452,6 +3453,176 @@
       "query": "동엽이",
       "source": "reports/bulk/connector-resume-holds187.json",
       "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "상동",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빙하기",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "북극곰",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스파이더",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "코 때",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스쿠바",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "찌그러진",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "서울은",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "부캉",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이모지",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "거북",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뽈롱",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나쁜 오리",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "캪틴",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "달달",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감사드리고",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감스트",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "sangdong",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빙하",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "ice-age",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "bear",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "spider",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "여전히",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "seoul",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "치즈볼",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "치즈",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "공룡 형님",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "낭만스팸",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감성스팸",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스팸",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나는여전히",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "너는여전히",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "트렌드는 여전히",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "분석적",
+      "source": "reports/bulk/connector-resume-b188.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [

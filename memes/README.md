@@ -444,6 +444,7 @@
 - [생선 대가리 카레](fish-head-curry-reaction.md)
 - [생카](saengka.md)
 - [샤샤샤](sha-sha-sha.md)
+- [서울은 여전히 서울이고](seoul-is-still-seoul.md)
 - [선팔](seonpal.md)
 - [설득력이... 있어!](it-is-persuasive.md)
 - [설참](seolcham.md)
