@@ -518,6 +518,7 @@
 - [앨범깡](album-kkang.md)
 - [야 너두](ya-neodu.md)
 - [야르송](yareu-song.md)
+- [야름답다](yareumdapda.md)
 - [야민정음](yamin-jeongeum.md)
 - [야푸](yapu.md)
 - [어덕행덕](eodeokhaengdeok.md)

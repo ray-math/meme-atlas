@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 13,
-  "query_observations": 226,
-  "distinct_literal_queries": 194,
+  "source_files": 14,
+  "query_observations": 236,
+  "distinct_literal_queries": 199,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -1262,6 +1262,59 @@
       "query": "cash",
       "source": "reports/bulk/connector-resume-b158.json",
       "status": "held-or-broad-query"
+    },
+    {
+      "query": "야름답다",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "accepted-family",
+      "canonical": "yareumdapda"
+    },
+    {
+      "query": "야름다운",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "accepted-family",
+      "canonical": "yareumdapda"
+    },
+    {
+      "query": "야름다우신",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "accepted-family",
+      "canonical": "yareumdapda"
+    },
+    {
+      "query": "무공해",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "무조건 공감",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과자 사꾸",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "포장지 놀이",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "나 과자",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "멜라토닌",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "사보필",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
     }
   ],
   "semantic_duplicates": [

@@ -395,6 +395,7 @@
 - [앙콘](../memes/angkon.md)
 - [애빼시](../memes/aeppaesi.md)
 - [앨범깡](../memes/album-kkang.md)
+- [야름답다](../memes/yareumdapda.md)
 - [야민정음](../memes/yamin-jeongeum.md)
 - [야푸](../memes/yapu.md)
 - [어덕행덕](../memes/eodeokhaengdeok.md)
