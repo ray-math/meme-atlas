@@ -39,10 +39,11 @@
     "reports/bulk/connector-resume-c182.json",
     "reports/bulk/connector-resume-a183.json",
     "reports/bulk/connector-resume-hold-audit184.json",
-    "reports/bulk/connector-resume-c185.json"
+    "reports/bulk/connector-resume-c185.json",
+    "reports/bulk/connector-resume-holds186.json"
   ],
-  "query_observations": 611,
-  "distinct_literal_queries": 500,
+  "query_observations": 629,
+  "distinct_literal_queries": 515,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3300,6 +3301,96 @@
       "query": "니콜키드먼 챌린지",
       "source": "reports/bulk/connector-resume-c185.json",
       "status": "screened-see-report"
+    },
+    {
+      "query": "룩스",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "looks",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "아이빔",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "퀵실버",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "Made My Night",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "셋로그",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "setlog",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "저격",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "DDR",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "부모님",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "내 나이",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "같은 나이",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "칠레",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "먼데이",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "줴줴",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "제제",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "오츠카레",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "수고했어",
+      "source": "reports/bulk/connector-resume-holds186.json",
+      "status": "held-or-existing-see-report"
     }
   ],
   "semantic_duplicates": [
