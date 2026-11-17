@@ -29,10 +29,11 @@
     "reports/bulk/connector-resume-audit-screening171.json",
     "reports/bulk/connector-resume-b172.json",
     "reports/bulk/connector-resume-a173.json",
-    "reports/bulk/connector-resume-c174.json"
+    "reports/bulk/connector-resume-c174.json",
+    "reports/bulk/connector-resume-a176.json"
   ],
-  "query_observations": 477,
-  "distinct_literal_queries": 382,
+  "query_observations": 491,
+  "distinct_literal_queries": 391,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -2619,6 +2620,76 @@
     {
       "query": "표정",
       "source": "reports/bulk/connector-resume-c174.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빅가이",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "BIG GUY",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빅 가이",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스펀지밥",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "근육맨",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "팔 근육",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나무 챌린지",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "젓가락 워킹",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "펀치",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삼이렌",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "세이렌",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "STORM",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스톰",
+      "source": "reports/bulk/connector-resume-a176.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "원주",
+      "source": "reports/bulk/connector-resume-a176.json",
       "status": "screened-see-report"
     }
   ],

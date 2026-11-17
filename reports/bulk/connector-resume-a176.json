@@ -1,0 +1,57 @@
+{
+  "base_sha": "02a171ae41156900ca5f04b6effd35006585de8b",
+  "canonical_before": 884,
+  "canonical_after": 885,
+  "added": [
+    "big-guy-arm-illusion"
+  ],
+  "sources": [
+    {
+      "url": "https://theqoo.net/square/4121662725",
+      "date": "2026-03-10",
+      "type": "direct fan commentary on linked official use"
+    },
+    {
+      "url": "https://dafanew.com/Interview/?bmode=view&idx=170894292",
+      "date": "2026-04-16",
+      "type": "filming publisher caption on separate actor use"
+    },
+    {
+      "url": "https://blog.hsad.co.kr/3716",
+      "date": "2026-03-05",
+      "type": "format explanation"
+    }
+  ],
+  "query_strings": [
+    "빅가이",
+    "BIG GUY",
+    "빅 가이",
+    "스펀지밥",
+    "근육맨",
+    "팔 근육",
+    "나무 챌린지",
+    "젓가락 워킹",
+    "펀치",
+    "삼이렌",
+    "세이렌",
+    "STORM",
+    "스톰",
+    "원주"
+  ],
+  "held": [
+    "나무 챌린지",
+    "젓가락 워킹",
+    "삼이렌",
+    "세이렌",
+    "원주:STORM 연관 미확인"
+  ],
+  "limits": [
+    "원영상 미시청",
+    "공식X403",
+    "영화개봉일 최초창작자 수치 제외"
+  ],
+  "checks": {
+    "python": "not-run",
+    "ci": "not-run"
+  }
+}
