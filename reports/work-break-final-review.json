@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "reviewed_commit": "b0bd09a2e7e7e0cd8a1619afcc637ee89f9f01b3",
+  "evaluator_kind": "independent AI editorial review; not human validation",
+  "cases": 11,
+  "editorial_blockers": [],
+  "outcomes": {
+    "recommend": 4,
+    "abstain": 5,
+    "clarify": 2
+  },
+  "observations": [
+    "W-break quotes advertising wording without inferring actual work intensity, entitlement to rest, approved leave or travel details.",
+    "G-leave is bounded wording advice, not an executed resignation or handoff; default caution recommendation exclusion remains.",
+    "F-future considers both flower-road and haengshow, then selects the more direct future-activity wish without treating the other candidate as proven inappropriate.",
+    "All factual evidence spans are exact request text; seven not-searched rows accurately disclose that fact.",
+    "Conditional negative cases are not asserted to be events that happened."
+  ],
+  "limitations": [
+    "Public annotation-derived development, not new blind or real-world accuracy.",
+    "Reviewer read stored trace and did not independently execute CI."
+  ]
+}
