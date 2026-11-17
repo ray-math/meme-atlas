@@ -1,0 +1,290 @@
+{
+  "batch": "recent-wave21",
+  "base_commit": "c6ea286ed9aa8e973a3678ad2da2969eff580a27",
+  "candidate_review_count": 30,
+  "sourceentries": [
+    {
+      "slug": "alti",
+      "title": "알티",
+      "path": "memes/alti.md",
+      "evidence": [
+        {
+          "url": "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+          "publisher": "국립국어원 새국어생활",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "2013년 봄호 43쪽에서 RT의 한글 표기와 다른 사람의 글 전달이라는 뜻을 설명한다.",
+          "independent_group": "이정복 2013 누리소통망과 새말의 형성"
+        },
+        {
+          "url": "https://view.asiae.co.kr/article/2010080415102473206",
+          "publisher": "아시아경제",
+          "published_date": "2010-08-05",
+          "access": "direct_body",
+          "support": "리트윗의 축약 및 자신의 팔로어에게 타인의 글을 전하는 사용을 설명한다.",
+          "independent_group": "아시아경제"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 현행 X의 버튼 이름·사용법은 설명하지 않았다. 학술지 정확일 미확인."
+    },
+    {
+      "slug": "teuchin",
+      "title": "트친",
+      "path": "memes/teuchin.md",
+      "evidence": [
+        {
+          "url": "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+          "publisher": "국립국어원 새국어생활",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "43~44쪽에서 트위터 친구라는 축약형과 서로 구독하는 관계를 설명한다.",
+          "independent_group": "이정복 2013 누리소통망과 새말의 형성"
+        },
+        {
+          "url": "https://www.khan.co.kr/article/201202122213505",
+          "publisher": "경향신문",
+          "published_date": "2012-02-12",
+          "access": "direct_body",
+          "support": "트친을 트위터 친구로 풀고 팔로잉한 계정들을 지칭하는 실제 사용을 보여준다.",
+          "independent_group": "주간경향 취재/경향신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 자료 사이 상호 구독과 팔로잉이라는 범위 차이가 있어 항상 맞팔이라는 조건을 넣지 않았다. 개인 계정 관계 목록은 재현하지 않았다."
+    },
+    {
+      "slug": "pechin",
+      "title": "페친",
+      "path": "memes/pechin.md",
+      "evidence": [
+        {
+          "url": "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+          "publisher": "국립국어원 새국어생활",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "44쪽에서 페이스북 친구의 축약을 설명한다.",
+          "independent_group": "이정복 2013 누리소통망과 새말의 형성"
+        },
+        {
+          "url": "https://news.bizwatch.co.kr/article/mobile/2018/01/23/0023",
+          "publisher": "비즈워치",
+          "published_date": "2018-01-23",
+          "access": "direct_body",
+          "support": "뉴스피드 설명에서 연결된 이용자를 페친, 즉 페이스북 친구로 풀이한다.",
+          "independent_group": "비즈워치"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 플랫폼 기능의 현재 상태에 대한 사용 안내는 하지 않았다."
+    },
+    {
+      "slug": "tamra",
+      "title": "탐라",
+      "path": "memes/tamra.md",
+      "evidence": [
+        {
+          "url": "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+          "publisher": "국립국어원 새국어생활",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "42~43쪽에서 타임라인·탐라를 SNS 게시글이 올라오는 공간으로 묶어 풀이한다.",
+          "independent_group": "이정복 2013 누리소통망과 새말의 형성"
+        },
+        {
+          "url": "https://www.huffingtonpost.kr/article/74798",
+          "publisher": "허프포스트코리아",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "역사 문제의 탐라를 타임라인으로 읽는 온라인 반응을 보도해 해당 축약의 사용을 보여준다.",
+          "independent_group": "허프포스트코리아"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 두 번째는 댓글 사용의 보도이지 원댓글 직접 확인이 아니다. 사이트 본문에 발행일이 표시되지 않아 null."
+    },
+    {
+      "slug": "gyepok",
+      "title": "계폭",
+      "path": "memes/gyepok.md",
+      "evidence": [
+        {
+          "url": "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+          "publisher": "국립국어원 새국어생활",
+          "published_date": null,
+          "access": "direct_body",
+          "support": "44쪽에서 스스로 해지하거나 신고로 계정이 정지되는 경우를 함께 설명한다.",
+          "independent_group": "이정복 2013 누리소통망과 새말의 형성"
+        },
+        {
+          "url": "https://news.nate.com/view/20160616n24607",
+          "publisher": "스타뉴스",
+          "published_date": "2016-06-16",
+          "access": "direct_body",
+          "support": "SNS 사용자의 계정 삭제 발표를 계폭으로 부르고 계정 폭파·삭제라고 풀이한다.",
+          "independent_group": "스타뉴스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 개인의 갈등 내용·감정 발화는 옮기지 않았다. 서비스별 삭제·정지 정책을 일반화하지 않았다."
+    },
+    {
+      "slug": "deoksim",
+      "title": "덕심",
+      "path": "memes/deoksim.md",
+      "evidence": [
+        {
+          "url": "https://www.kpinews.kr/newsView/1065605303758879&dt=m&dt=m",
+          "publisher": "KPI뉴스",
+          "published_date": "2019-09-07",
+          "access": "direct_body",
+          "support": "늦게 팬이 된 사람들의 관심을 다루며 덕후와 마음의 결합, 팬의 마음으로 풀이한다.",
+          "independent_group": "KPI뉴스"
+        },
+        {
+          "url": "https://www.yna.co.kr/amp/view/AKR20251022155400005",
+          "publisher": "연합뉴스",
+          "published_date": "2025-10-23",
+          "access": "direct_body",
+          "support": "작가 인터뷰에서 장르에 대한 큰 관심과 애정을 덕심이라고 설명한다.",
+          "independent_group": "연합뉴스"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 인터뷰의 사적인 추억이나 작품 줄거리는 재현하지 않았다."
+    },
+    {
+      "slug": "yeokjuhaeng",
+      "title": "역주행",
+      "path": "memes/yeokjuhaeng.md",
+      "evidence": [
+        {
+          "url": "https://radio.ytn.co.kr/program/?f=2&id=53680&page=3&s_hcd=01&s_mcd=0300",
+          "publisher": "YTN 라디오",
+          "published_date": "2018-01-10",
+          "access": "direct_body",
+          "support": "발표 당시 주목받지 못한 곡이 나중에 알려져 순위가 상승하는 경우를 설명한다.",
+          "independent_group": "YTN 라디오"
+        },
+        {
+          "url": "https://times.postech.ac.kr/news/articleView.html?idxno=9644",
+          "publisher": "포항공대신문",
+          "published_date": "2017-03-15",
+          "access": "direct_body",
+          "support": "과거 발표곡이 다시 인기를 얻는 은어로 정의하고 여러 재조명 경로를 다룬다.",
+          "independent_group": "포항공대신문"
+        }
+      ],
+      "scope_type": "korean_usage",
+      "basis": "한국어 온라인 관계·축약·비유 표현의 직접 풀이와 독립 관찰을 대조했다.",
+      "review_note": "독립편집검토대기",
+      "source_limits": "최초 발생·현재 유행 규모는 검증하지 않았다. 가요·음원 맥락으로 한정한다. 최초 유행곡·순위 조작 여부·현재 순위는 주장하지 않았다."
+    }
+  ],
+  "held": [
+    {
+      "title": "멘션",
+      "reason": "일반 서비스 기능명·사용자 지칭·일반어 이상의 독립 인터넷문화 용법 검증 미완료."
+    },
+    {
+      "title": "답멘",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "블언블",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "무멘팔",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "인알",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "마음함",
+      "reason": "일반 서비스 기능명·사용자 지칭·일반어 이상의 독립 인터넷문화 용법 검증 미완료."
+    },
+    {
+      "title": "블락",
+      "reason": "일반 서비스 기능명·사용자 지칭·일반어 이상의 독립 인터넷문화 용법 검증 미완료."
+    },
+    {
+      "title": "뮤트",
+      "reason": "일반 서비스 기능명·사용자 지칭·일반어 이상의 독립 인터넷문화 용법 검증 미완료."
+    },
+    {
+      "title": "트위터리안",
+      "reason": "일반 서비스 기능명·사용자 지칭·일반어 이상의 독립 인터넷문화 용법 검증 미완료."
+    },
+    {
+      "title": "선멘",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "선뎀",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "비계",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "본계",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "부계",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "구독계",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "플텍",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "계정주",
+      "reason": "일반 서비스 기능명·사용자 지칭·일반어 이상의 독립 인터넷문화 용법 검증 미완료."
+    },
+    {
+      "title": "떡밥회수",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "성지",
+      "reason": "기존 성지순례의 중심 개념과 겹쳐 별도 신규 표현 근거 미확보."
+    },
+    {
+      "title": "성지순례",
+      "reason": "기수록 중복."
+    },
+    {
+      "title": "정주행",
+      "reason": "기수록 중복."
+    },
+    {
+      "title": "역주행각",
+      "reason": "한국어 축약 또는 문형 후보이나 독립 두 직접 본문과 수록 범위 검증 미완료; 개인 프로필·검색 색인만으로 포함하지 않음."
+    },
+    {
+      "title": "무한반복",
+      "reason": "일반 서비스 기능명·사용자 지칭·일반어 이상의 독립 인터넷문화 용법 검증 미완료."
+    }
+  ]
+}
