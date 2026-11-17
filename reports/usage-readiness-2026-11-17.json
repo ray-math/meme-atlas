@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "kind": "published-data structural retrieval probes",
+  "limitations": [
+    "Uses annotation-derived filters, not independent natural-language questions.",
+    "Temporarily marks copies reviewed in memory; never promotes source profiles.",
+    "A pass does not validate source truth, context appropriateness, or generation safety."
+  ],
+  "staged_public_v3_candidate_drift": [
+    {
+      "id": "A01",
+      "filters": {
+        "intents": [
+          "감탄",
+          "칭찬"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "before": [
+        "daebak-reaction:admire",
+        "cider-relief:satisfying-resolution",
+        "is-this-real:bewildered",
+        "is-this-real:pleasant-surprise",
+        "iwaejin:confirmed-surprise"
+      ],
+      "after": [
+        "goat:praise-greatest",
+        "daebak-reaction:admire",
+        "cider-relief:satisfying-resolution",
+        "is-this-real:bewildered",
+        "is-this-real:pleasant-surprise"
+      ]
+    },
+    {
+      "id": "A04",
+      "filters": {
+        "intents": [
+          "다짐"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "before": [
+        "jonbeo:keep-going",
+        "jung-kkeok-ma:self-resolve"
+      ],
+      "after": [
+        "gabojago:commit-to-start",
+        "jonbeo:keep-going",
+        "jung-kkeok-ma:self-resolve"
+      ]
+    },
+    {
+      "id": "A12",
+      "filters": {
+        "situations": [
+          "예상밖사실",
+          "사실확인후"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "before": [
+        "iwaejin:confirmed-surprise"
+      ],
+      "after": [
+        "iwaejin:confirmed-surprise",
+        "pon-eunjeong:expose-fabrication"
+      ]
+    },
+    {
+      "id": "A27",
+      "filters": {
+        "intents": [
+          "응원",
+          "격려"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "before": [
+        "jung-kkeok-ma:encourage-other",
+        "haengshow:well-wishes"
+      ],
+      "after": [
+        "gabojago:encourage-challenge",
+        "jung-kkeok-ma:encourage-other",
+        "haengshow:well-wishes"
+      ]
+    },
+    {
+      "id": "A28",
+      "filters": {
+        "intents": [
+          "다짐"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "before": [
+        "jonbeo:keep-going",
+        "jung-kkeok-ma:self-resolve"
+      ],
+      "after": [
+        "gabojago:commit-to-start",
+        "jonbeo:keep-going",
+        "jung-kkeok-ma:self-resolve"
+      ]
+    },
+    {
+      "id": "E01",
+      "filters": {
+        "intents": [
+          "칭찬",
+          "감탄"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "before": [
+        "daebak-reaction:admire",
+        "cider-relief:satisfying-resolution",
+        "is-this-real:bewildered",
+        "is-this-real:pleasant-surprise",
+        "iwaejin:confirmed-surprise"
+      ],
+      "after": [
+        "goat:praise-greatest",
+        "daebak-reaction:admire",
+        "cider-relief:satisfying-resolution",
+        "is-this-real:bewildered",
+        "is-this-real:pleasant-surprise"
+      ]
+    },
+    {
+      "id": "E05",
+      "filters": {
+        "intents": [
+          "다짐"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "before": [
+        "jonbeo:keep-going",
+        "jung-kkeok-ma:self-resolve"
+      ],
+      "after": [
+        "gabojago:commit-to-start",
+        "jonbeo:keep-going",
+        "jung-kkeok-ma:self-resolve"
+      ]
+    }
+  ],
+  "total": 10,
+  "passed": 10,
+  "results": [
+    {
+      "entry_id": "gabojago",
+      "usage_id": "encourage-challenge",
+      "filters": {
+        "query": "가보자고",
+        "intents": [
+          "응원",
+          "격려"
+        ],
+        "situations": [
+          "도전시작"
+        ],
+        "targets": [
+          "상대"
+        ]
+      },
+      "safety": "standard",
+      "checks": {
+        "lookup_retrieves_own_usage": true,
+        "recommend_respects_safety": true,
+        "opposite_target_does_not_retrieve_same_usage": true,
+        "unknown_emotion_not_inferred": true,
+        "context_contract_visible": true,
+        "actual_draft_is_unpublished": true
+      },
+      "lookup_candidates": [
+        "gabojago:encourage-challenge"
+      ],
+      "recommend_candidates": [
+        "gabojago:encourage-challenge"
+      ],
+      "passed": true
+    },
+    {
+      "entry_id": "gabojago",
+      "usage_id": "commit-to-start",
+      "filters": {
+        "query": "가보자고",
+        "intents": [
+          "다짐"
+        ],
+        "situations": [
+          "도전시작"
+        ],
+        "targets": [
+          "자기"
+        ]
+      },
+      "safety": "standard",
+      "checks": {
+        "lookup_retrieves_own_usage": true,
+        "recommend_respects_safety": true,
+        "opposite_target_does_not_retrieve_same_usage": true,
+        "unknown_emotion_not_inferred": true,
+        "context_contract_visible": true,
+        "actual_draft_is_unpublished": true
+      },
+      "lookup_candidates": [
+        "gabojago:commit-to-start"
+      ],
+      "recommend_candidates": [
+        "gabojago:commit-to-start"
+      ],
+      "passed": true
+    },
+    {
+      "entry_id": "goat",
+      "usage_id": "praise-greatest",
+      "filters": {
+        "query": "GOAT",
+        "intents": [
+          "칭찬"
+        ],
+        "situations": [
+          "성과"
+        ],
+        "targets": [
+          "제삼자"
+        ]
+      },
+      "safety": "standard",
+      "checks": {
+        "lookup_retrieves_own_usage": true,
+        "recommend_respects_safety": true,
+        "opposite_target_does_not_retrieve_same_usage": true,
+        "unknown_emotion_not_inferred": true,
+        "context_contract_visible": true,
+        "actual_draft_is_unpublished": true
+      },
+      "lookup_candidates": [
+        "goat:praise-greatest"
+      ],
+      "recommend_candidates": [
+        "goat:praise-greatest"
+      ],
+      "passed": true
+    },
+    {
+      "entry_id": "ohiryeo-joa",
+      "usage_id": "find-upside",
+      "filters": {
+        "query": "오히려 좋아",
+        "intents": [
+          "긍정적재해석"
+        ],
+        "situations": [
+          "기대와현실차이"
+        ],
+        "targets": [
+          "상황"
+        ]
+      },
+      "safety": "standard",
+      "checks": {
+        "lookup_retrieves_own_usage": true,
+        "recommend_respects_safety": true,
+        "opposite_target_does_not_retrieve_same_usage": true,
+        "unknown_emotion_not_inferred": true,
+        "context_contract_visible": true,
+        "actual_draft_is_unpublished": true
+      },
+      "lookup_candidates": [
+        "ohiryeo-joa:find-upside"
+      ],
+      "recommend_candidates": [
+        "ohiryeo-joa:find-upside"
+      ],
+      "passed": true
+    },
+    {
+      "entry_id": "pon-eunjeong",
+      "usage_id": "expose-fabrication",
+      "filters": {
+        "query": "폰은정",
+        "intents": [
+          "상황평가"
+        ],
+        "situations": [
+          "사실확인후",
+          "말장난"
+        ],
+        "targets": [
+          "상황"
+        ]
+      },
+      "safety": "caution",
+      "checks": {
+        "lookup_retrieves_own_usage": true,
+        "recommend_respects_safety": true,
+        "opposite_target_does_not_retrieve_same_usage": true,
+        "unknown_emotion_not_inferred": true,
+        "context_contract_visible": true,
+        "actual_draft_is_unpublished": true
+      },
+      "lookup_candidates": [
+        "pon-eunjeong:expose-fabrication"
+      ],
+      "recommend_candidates": [],
+      "passed": true
+    },
+    {
+      "entry_id": "pro-offended",
+      "usage_id": "dismiss-objection",
+      "filters": {
+        "query": "프로불편러",
+        "intents": [
+          "무시"
+        ],
+        "situations": [],
+        "targets": [
+          "상대"
+        ]
+      },
+      "safety": "caution",
+      "checks": {
+        "lookup_retrieves_own_usage": true,
+        "recommend_respects_safety": true,
+        "opposite_target_does_not_retrieve_same_usage": true,
+        "unknown_emotion_not_inferred": true,
+        "context_contract_visible": true,
+        "actual_draft_is_unpublished": true
+      },
+      "lookup_candidates": [
+        "pro-offended:dismiss-objection"
+      ],
+      "recommend_candidates": [],
+      "passed": true
+    },
+    {
+      "entry_id": "pro-offended",
+      "usage_id": "reclaim-self",
+      "filters": {
+        "query": "프로불편러",
+        "intents": [
+          "호칭재전유"
+        ],
+        "situations": [],
+        "targets": [
+          "자기"
+        ]
+      },
+      "safety": "standard",
+      "checks": {
+        "lookup_retrieves_own_usage": true,
+        "recommend_respects_safety": true,
+        "opposite_target_does_not_retrieve_same_usage": true,
+        "unknown_emotion_not_inferred": true,
+        "context_contract_visible": true,
+        "actual_draft_is_unpublished": true
+      },
+      "lookup_candidates": [
+        "pro-offended:reclaim-self"
+      ],
+      "recommend_candidates": [
+        "pro-offended:reclaim-self"
+      ],
+      "passed": true
+    },
+    {
+      "entry_id": "three-lifts-500",
+      "usage_id": "mock-qualification",
+      "filters": {
+        "query": "3대500",
+        "intents": [
+          "약올림"
+        ],
+        "situations": [
+          "가벼운놀림",
+          "새물건"
+        ],
+        "targets": [
+          "상대"
+        ]
+      },
+      "safety": "caution",
+      "checks": {
+        "lookup_retrieves_own_usage": true,
+        "recommend_respects_safety": true,
+        "opposite_target_does_not_retrieve_same_usage": true,
+        "unknown_emotion_not_inferred": true,
+        "context_contract_visible": true,
+        "actual_draft_is_unpublished": true
+      },
+      "lookup_candidates": [
+        "three-lifts-500:mock-qualification"
+      ],
+      "recommend_candidates": [],
+      "passed": true
+    },
+    {
+      "entry_id": "ubd",
+      "usage_id": "unit-comparison",
+      "filters": {
+        "query": "UBD",
+        "intents": [
+          "수량비유"
+        ],
+        "situations": [],
+        "targets": [
+          "상황"
+        ]
+      },
+      "safety": "caution",
+      "checks": {
+        "lookup_retrieves_own_usage": true,
+        "recommend_respects_safety": true,
+        "opposite_target_does_not_retrieve_same_usage": true,
+        "unknown_emotion_not_inferred": true,
+        "context_contract_visible": true,
+        "actual_draft_is_unpublished": true
+      },
+      "lookup_candidates": [
+        "ubd:unit-comparison"
+      ],
+      "recommend_candidates": [],
+      "passed": true
+    },
+    {
+      "entry_id": "ubd",
+      "usage_id": "mock-flop",
+      "filters": {
+        "query": "UBD",
+        "intents": [
+          "조롱"
+        ],
+        "situations": [],
+        "targets": [
+          "제삼자"
+        ]
+      },
+      "safety": "avoid",
+      "checks": {
+        "lookup_retrieves_own_usage": true,
+        "recommend_respects_safety": true,
+        "opposite_target_does_not_retrieve_same_usage": true,
+        "unknown_emotion_not_inferred": true,
+        "context_contract_visible": true,
+        "actual_draft_is_unpublished": true
+      },
+      "lookup_candidates": [
+        "ubd:mock-flop"
+      ],
+      "recommend_candidates": [],
+      "passed": true
+    }
+  ],
+  "source_revision": "9871dcda61f6fd276712c8506ffcbd254031c0de",
+  "execution": "actual Python in GitHub Actions 43995779333; all ten provisionally reviewed only in memory"
+}
