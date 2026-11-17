@@ -3,9 +3,9 @@
   "vocabulary_version": 1,
   "coverage": {
     "dictionary_entries": 350,
-    "annotated_entries": 44,
+    "annotated_entries": 46,
     "reviewed_entries": 44,
-    "unannotated_entries": 306
+    "unannotated_entries": 304
   },
   "entries": [
     {
@@ -930,6 +930,64 @@
       ]
     },
     {
+      "id": "hellchang",
+      "title": "헬창",
+      "tags": [],
+      "path": "memes/hellchang.md",
+      "aliases": [],
+      "source_sha": "3848d450ff3074caaf3a417695e9533b009822a3",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안. a6e398d의 canonical 본문과 Git blob SHA를 직접 확인했다. 외부 기사 원문은 이번 주석 작성에서 다시 읽지 않았으며 별도 조사 담당의 본문 직접 확인 보고를 참고했다. 예문은 편집 창작이고 안전 등급·위험 태그·사용 경계는 편집 판단이다. 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. 동아일보 https://v.daum.net/v/20201102150046779?s=print_news 는 자기 호칭과 자학적 운동 생활 유머를 다루고, 이데일리 https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03034006635607608 은 표현의 뜻을 설명한다. 자기 운동 중심 생활을 웃어넘기는 범위이며 타인 호칭·몸 비하·중독 판정으로 확대하지 않는다.",
+      "usages": [
+        {
+          "id": "self-mock-exercise-focus",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "자조"
+          ],
+          "situations": [
+            "운동중심생활"
+          ],
+          "targets": [
+            "자기"
+          ],
+          "registers": [
+            "혼잣말",
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "비속어",
+            "상처가능"
+          ],
+          "safety": "caution",
+          "context": "숙소나 여가 계획 등 일상의 선택을 운동 기준에 먼저 맞추는 자신의 모습을 거친 자기 호칭으로 과장해 웃어넘긴다. 실제 건강 상태나 중독을 진단하는 상황이 아니다.",
+          "avoid_when": [
+            "다른 사람의 운동량이나 근육 크기만 보고 호칭을 붙일 때",
+            "몸이나 외모를 비하하거나 상대를 공개적으로 놀릴 때",
+            "운동 강박·건강 이상·통증에 대한 진지한 상담을 농담으로 대신할 때",
+            "위험한 운동이나 회복을 무시한 과도한 운동을 정당화할 때",
+            "단순히 운동을 한 번 마친 상황만 있을 때",
+            "거친 표현을 원하지 않는 대화나 공식적인 자리"
+          ],
+          "example": {
+            "text": "여행 숙소 사진보다 헬스장 운영시간을 먼저 찾는 나, 헬창 다 됐네.",
+            "kind": "editorial"
+          },
+          "review_note": "자기 생활을 웃음 소재로 삼는 기능을 자조로 분류했으며 실제 재미·만족·중독 여부는 추론하지 않는다. 운동중심생활과 자기 방향을 함께 확인해야 한다. 자기 호칭은 타인에게 같은 말을 붙여도 된다는 허락이 아니다. 예문은 실제 인물이나 여행 계획에 관한 진술이 아니다.",
+          "retrieval_requirements": {
+            "situations": [
+              "운동중심생활"
+            ],
+            "targets": [
+              "자기"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "heol",
       "title": "헐",
       "tags": [],
@@ -1405,6 +1463,65 @@
           },
           "review_note": "본문의 장기 보유 용법. 정서를 다짐으로 자동 확대하지 않아 [].",
           "emotion_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "jumo-cheer",
+      "title": "주모 드립",
+      "tags": [],
+      "path": "memes/jumo-cheer.md",
+      "aliases": [],
+      "source_sha": "6d722b4730098625cf9d04f41da194309599b712",
+      "review_status": "draft",
+      "review_note": "AI 편집 초안. a6e398d의 canonical 본문과 Git blob SHA를 직접 확인했다. 외부 기사 원문은 이번 주석 작성에서 다시 읽지 않았으며 별도 조사 담당의 본문 직접 확인 보고를 참고했다. 예문은 편집 창작이고 안전 등급·위험 태그·사용 경계는 편집 판단이다. 인간 검토·실전 적합성 검증을 완료한 주석이 아니다. https://v.daum.net/v/20231013100111227?s=print_news 와 https://www.dailian.co.kr/news/view/885026 은 국내 호명형 반응을 설명하는 서로 다른 평론 자료다. 원래 온라인 댓글을 직접 열람한 것으로 기록하지 않는다. 이번 범위는 확인된 한국 관련 국제 성과에 대한 환호이며 모든 주모 용법을 포괄하지 않는다.",
+      "usages": [
+        {
+          "id": "cheer-korean-achievement",
+          "emotion_status": "unknown",
+          "emotions": [],
+          "intents": [
+            "감탄"
+          ],
+          "situations": [
+            "한국관련국제성과",
+            "사실확인후"
+          ],
+          "targets": [
+            "상황"
+          ],
+          "registers": [
+            "친근한대화",
+            "온라인댓글"
+          ],
+          "risk_flags": [
+            "사실오인",
+            "타인비하"
+          ],
+          "safety": "caution",
+          "context": "한국 선수·대표팀의 국제 무대 성과나 한국 문화 콘텐츠의 대외적 성취를 확인한 뒤, 주모를 부르는 설정으로 환호를 과장한다. 평가의 초점은 확인된 성취이며 가상의 주모에게 실제 행동을 요청하는 상황이 아니다. 국내 성과에 해외 반응만 덧붙인 경우는 이번 주석 범위에 포함하지 않는다.",
+          "avoid_when": [
+            "아직 확인하지 않은 성과나 소문을 사실로 만들어 전달할 때",
+            "다른 국가·민족·선수·팬을 깎아내릴 때",
+            "개별 성취를 국가나 민족 전체의 우월성 증거로 삼을 때",
+            "실제 술 주문이나 음주 권유가 목적일 때",
+            "아직 결과가 나오지 않은 경기의 응원만 요청할 때",
+            "한국인이라는 점 외에는 관련성이 없는 지인의 사적 성취에 적용할 때",
+            "국내 성과에 해외 반응만 덧붙여 국제 성과로 취급할 때"
+          ],
+          "example": {
+            "text": "한국 대표팀이 국제 대회 결승에서 역전승했다니. 주모, 여기 한 사발 더!",
+            "kind": "editorial"
+          },
+          "review_note": "target상황은 성취를 가리키며 주모가 등장한다는 이유로 target상대를 부여하지 않는다. 감탄 기능과 실제 화자의 기쁨·자부심을 구별하여 unknown을 유지한다. 한국관련국제성과와 상황 방향을 함께 확인해야 한다. 사실확인후는 사용 facet으로 유지하되 retrieval_requirements의 같은 축에 두 조건을 넣지 않았다. 확인된 성과라는 문맥 조건은 별도로 검토해야 하며 검색기 자체가 사실 확인을 완료했다는 뜻이 아니다. 예문은 실제 경기 결과가 아닌 창작 상황이다.",
+          "retrieval_requirements": {
+            "situations": [
+              "한국관련국제성과"
+            ],
+            "targets": [
+              "상황"
+            ]
+          }
         }
       ]
     },
