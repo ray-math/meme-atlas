@@ -170,7 +170,10 @@ class ExportReviewStatusAdapterTests(unittest.TestCase):
         with self.assertRaises(ValueError):adapt(bad,'research/export.json')
 
 
-class UnverifiedPriorStateQueueTests(BulkCandidateQueueTests):
+class UnverifiedPriorStateQueueTests(unittest.TestCase):
+    setUp=BulkCandidateQueueTests.setUp
+    write=BulkCandidateQueueTests.write
+    run_queue=BulkCandidateQueueTests.run_queue
     def test_included_or_duplicate_without_exact_link_is_held_not_new_work(self):
         records=[row('a','unmatched included'),row('b','unmatched duplicate')]
         records[0].update(status='included',dictionary_paths=['memes/existing.md'])
