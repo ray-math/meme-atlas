@@ -1,0 +1,71 @@
+{
+  "base": "0a128bd1566fed484029361cfc678af871104a15",
+  "canonical_count": 894,
+  "accepted": [],
+  "explicit_queries": [
+    "찌그러진",
+    "치즈볼",
+    "cheese",
+    "squish",
+    "책가방",
+    "빙하기",
+    "빙하",
+    "ice-age",
+    "공원으로 나와",
+    "겨울",
+    "나쁜 오리",
+    "bad-duck",
+    "내가 아이돌",
+    "이것은 내가",
+    "느리구나",
+    "밤티",
+    "STORM",
+    "정보"
+  ],
+  "checks": {
+    "tree_truncated": false,
+    "canonical_paths": 894,
+    "index_entries": 894,
+    "path_sets_equal": true,
+    "main_sha": "f3cf501549f1c4f8d327ee13c904e9ed85ed2a33",
+    "main_unchanged": true
+  },
+  "held": [
+    {
+      "candidate": "찌그러진 치즈볼",
+      "finding": "조사자는 야코·벨키 집계 제목과 리아초이 미러 확보. 원영상 throttled/본문 접근실패. 제목 메타데이터를 편집내용 검증으로 세지 않음.",
+      "urls": [
+        "https://www.youtube.com/shorts/t-Kh5A3q6gk",
+        "https://maehnaim.tistory.com/224"
+      ]
+    },
+    {
+      "candidate": "빙하기 온다",
+      "finding": "조사자는 인크로스 제목 직접차용1건 확인. 매경은 포괄보도, Superchart rewritten summary라 원작성글 직접확인으로 세지 않음.",
+      "urls": [
+        "https://incross.com/ko/insight/report.asp?idx=21104&mode=view&page=1&pageSize=12&searchStr=&serboardsort=9",
+        "https://mksupporters.co.kr/news/18articles57"
+      ]
+    },
+    {
+      "candidate": "나쁜 오리",
+      "finding": "원장면·만든예문뿐. 어린이 신상/행동추적 없이 조사중단."
+    },
+    {
+      "candidate": "OO정보",
+      "finding": "고구마9월21일 설명과X링크 단서. 독립실제사용검토 대기."
+    }
+  ],
+  "existing": [
+    "if-i-were-idol",
+    "this-is-my-story-template",
+    "slow-even-to-template",
+    "bamti",
+    "storm-ii-challenge"
+  ],
+  "scope": "트리/인덱스 경로 대조는 편집자 직접 GitHub읽기·JS검사. 신규보류3가족은 조사자 보고 수준을 명시. 전체본문·영상·CI검사아님.",
+  "limits": [
+    "Python/CI미실행",
+    "신규수록0"
+  ]
+}

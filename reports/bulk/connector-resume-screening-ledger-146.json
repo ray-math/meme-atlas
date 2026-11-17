@@ -43,10 +43,11 @@
     "reports/bulk/connector-resume-holds186.json",
     "reports/bulk/connector-resume-holds187.json",
     "reports/bulk/connector-resume-b188.json",
-    "reports/bulk/connector-resume-c190.json"
+    "reports/bulk/connector-resume-c190.json",
+    "reports/bulk/connector-resume-audit-holds191.json"
   ],
-  "query_observations": 680,
-  "distinct_literal_queries": 558,
+  "query_observations": 698,
+  "distinct_literal_queries": 564,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -3649,6 +3650,96 @@
       "query": "할인",
       "source": "reports/bulk/connector-resume-c190.json",
       "status": "screened-see-report"
+    },
+    {
+      "query": "찌그러진",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "치즈볼",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "cheese",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "squish",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "책가방",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "빙하기",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "빙하",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "ice-age",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "공원으로 나와",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "겨울",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "나쁜 오리",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "bad-duck",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "내가 아이돌",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "이것은 내가",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "느리구나",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "밤티",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "STORM",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
+    },
+    {
+      "query": "정보",
+      "source": "reports/bulk/connector-resume-audit-holds191.json",
+      "status": "held-or-existing-see-report"
     }
   ],
   "semantic_duplicates": [
