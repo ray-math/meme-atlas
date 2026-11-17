@@ -1,0 +1,2343 @@
+{
+  "schema_version": 1,
+  "execution": "actual_search_replay_not_llm_inference",
+  "recorded_at": "2026-11-17T00:38:27.592348+00:00",
+  "source_revision": "73c8be011d96b84289df17dbac3ae4c99cdc4adf",
+  "plans_sha256": "3b15ab8e3c7d92952741fc793a607a13a54b57ab4fded5ca8fe0f7bff061bfab",
+  "index_sha256": "3dbe8e008bbb378f6c8600ed3f49f05b95081982e28de79657ac9c8a17eada5d",
+  "vocabulary_sha256": "39ee3ab64d6b3afc0e91ecd20b8bfa40633e347309e148f42d22aba39a5f4df9",
+  "coverage": {
+    "dictionary_entries": 343,
+    "annotated_entries": 28,
+    "reviewed_entries": 28,
+    "unannotated_entries": 315
+  },
+  "results": [
+    {
+      "id": "E01",
+      "prompt": "친한 동생이 취업 준비 끝에 원하던 곳 붙었대. 짧고 신나게 댓글 달 밈 하나.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "칭찬",
+          "감탄"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "daebak-reaction",
+            "title": "대박",
+            "path": "memes/daebak-reaction.md",
+            "domain_tags": [],
+            "usage_id": "admire",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄",
+                "칭찬"
+              ]
+            },
+            "usage": {
+              "id": "admire",
+              "emotions": [
+                "놀람",
+                "기쁨"
+              ],
+              "intents": [
+                "감탄",
+                "칭찬"
+              ],
+              "situations": [
+                "기대이상",
+                "성과"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "좋은 결과에 호의적으로 반응한다.",
+              "avoid_when": [
+                "피해나 실패를 기뻐하는 것으로 읽힐 때"
+              ],
+              "example": {
+                "text": "첫 발표가 최우수상이라니, 대박!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "956ef9e3e44d4e98dae9ef50a206761bb9110a3a",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "cider-relief",
+            "title": "사이다",
+            "path": "memes/cider-relief.md",
+            "domain_tags": [],
+            "usage_id": "satisfying-resolution",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "칭찬"
+              ]
+            },
+            "usage": {
+              "id": "satisfying-resolution",
+              "emotions": [
+                "통쾌함"
+              ],
+              "intents": [
+                "칭찬"
+              ],
+              "situations": [
+                "갈등해결",
+                "명쾌한반박"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "공격미화"
+              ],
+              "safety": "caution",
+              "context": "문제가 실제로 정리되거나 핵심을 짚는 대응을 칭찬한다.",
+              "avoid_when": [
+                "욕설이나 괴롭힘을 통쾌한 해결로 포장할 때"
+              ],
+              "example": {
+                "text": "빠진 근거를 짚어 주니 논쟁이 정리됐네. 사이다다.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "01564fb2e336326538123983355356340ac9fa80",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "is-this-real",
+            "title": "이거 실화냐",
+            "path": "memes/is-this-real.md",
+            "domain_tags": [],
+            "usage_id": "bewildered",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "bewildered",
+              "emotions": [
+                "놀람",
+                "당혹"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "예상밖실수"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "공개망신"
+              ],
+              "safety": "caution",
+              "context": "뜻밖의 실수나 상황을 황당해한다.",
+              "avoid_when": [
+                "실수한 상대를 공개적으로 망신줄 때"
+              ],
+              "example": {
+                "text": "회의 날짜를 한 달 뒤로 잡았대. 이거 실화냐?",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "a4b2c1fd404b93b838ae6a65e6771d8b1d06f968",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "is-this-real",
+            "title": "이거 실화냐",
+            "path": "memes/is-this-real.md",
+            "domain_tags": [],
+            "usage_id": "pleasant-surprise",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "pleasant-surprise",
+              "emotions": [
+                "놀람",
+                "기쁨"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "기대이상",
+                "성과"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "좋은 결과가 믿기지 않는다는 감탄이다.",
+              "avoid_when": [
+                "실제 사실 검증 답변이 필요한 때"
+              ],
+              "example": {
+                "text": "추첨에 당첨됐어. 이거 실화냐!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "a4b2c1fd404b93b838ae6a65e6771d8b1d06f968",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "iwaejin",
+            "title": "이왜진",
+            "path": "memes/iwaejin.md",
+            "domain_tags": [
+              "인터넷방송"
+            ],
+            "usage_id": "confirmed-surprise",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "confirmed-surprise",
+              "emotions": [
+                "놀람"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "예상밖사실",
+                "사실확인후"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인"
+              ],
+              "safety": "caution",
+              "context": "사실임이 확인된 뒤 예상과 현실의 차이에 놀란다.",
+              "avoid_when": [
+                "검증되지 않은 소문을 사실로 암시할 때"
+              ],
+              "example": {
+                "text": "가짜 행사인 줄 알았는데 실제로 열린대. 이왜진.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "53660e445a3454a6173b88264fce498c44bc42d6",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E02",
+      "prompt": "자전거 처음 조립했는데 잘 굴러가! 단톡에 내 결과물을 귀엽게 자랑하고 싶어.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "자랑"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "look-at-this-hand",
+            "title": "이 손을 봐, 대박임",
+            "path": "memes/look-at-this-hand.md",
+            "domain_tags": [
+              "웹툰"
+            ],
+            "usage_id": "cute-brag",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "자랑"
+              ]
+            },
+            "usage": {
+              "id": "cute-brag",
+              "emotions": [
+                "뿌듯함"
+              ],
+              "intents": [
+                "자랑"
+              ],
+              "situations": [
+                "새물건",
+                "결과물공유"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신의 물건이나 결과물을 귀엽고 천진하게 소개한다.",
+              "avoid_when": [
+                "상대의 성과를 깎아내리는 비교 자랑"
+              ],
+              "example": {
+                "text": "이 책장을 봐, 대박임. 내가 조립했다 짱이지.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "17e9c3fafef79ca9d09392647015da56b71599a8",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E03",
+      "prompt": "내가 며칠째 카레 얘기만 했더라. 나 자신을 살짝 놀리는 말 없나?",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "과도한반복",
+          "반복발언"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "musae-repeat",
+            "title": "~무새",
+            "path": "memes/musae-repeat.md",
+            "domain_tags": [],
+            "usage_id": "self-repeat",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "반복발언"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-repeat",
+              "emotions": [
+                "재미"
+              ],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "반복발언"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "같은 내용의 말이나 요청을 실제로 반복하는 자신을 가볍게 돌아본다.",
+              "avoid_when": [
+                "한 번의 자기모순이나 말 바꾸기만으로 특정 말을 계속 반복했다고 단정할 때"
+              ],
+              "example": {
+                "text": "나 오늘도 여행 얘기만 했네. 여행무새야.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단. 자연어 개발 평가의 과잉 일반화를 보고 반복 조건을 명시함. 최초 본문의 반복 타박 범위를 확장하지 않음.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "d0ce1a349713d6dbe7bc7141f754ffe5da94576a",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E04",
+      "prompt": "면접 답변보다 오늘 아침 버스 노선 설명을 더 길게 했네. 내가 한 말에 가볍게 덧붙일 표현.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "과도한설명",
+          "불필요한세부정보"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "tmi",
+            "title": "TMI",
+            "path": "memes/tmi.md",
+            "domain_tags": [],
+            "usage_id": "self-overdetail",
+            "score": 40,
+            "matched_facets": {
+              "situations": [
+                "과도한설명"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-overdetail",
+              "emotions": [],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "과도한설명"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신이 불필요한 설명까지 했다고 가볍게 덧붙인다.",
+              "avoid_when": [],
+              "example": {
+                "text": "내가 아침에 양말 고른 얘기까지 했네. TMI였다.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단. 감정은 본문에서 고정되지 않아 []로 남김(통합 검토).",
+              "emotion_status": "unknown"
+            },
+            "review_status": "reviewed",
+            "source_sha": "f30812b98fd28cb0e8ce61abe59ab707a266ee17",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E05",
+      "prompt": "도자기 첫 작품은 깨졌지만 다음 수업에도 가기로 했어. 나 스스로에게 붙일 짧은 다짐.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "다짐"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "jonbeo",
+            "title": "존버",
+            "path": "memes/jonbeo.md",
+            "domain_tags": [
+              "투자"
+            ],
+            "usage_id": "keep-going",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "다짐"
+              ]
+            },
+            "usage": {
+              "id": "keep-going",
+              "emotions": [
+                "결의"
+              ],
+              "intents": [
+                "다짐"
+              ],
+              "situations": [
+                "어려움견디기"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "비속어",
+                "무조건인내강요"
+              ],
+              "safety": "caution",
+              "context": "쉽게 포기하지 않겠다는 자기 다짐이며 거친 어감이 있다.",
+              "avoid_when": [
+                "격식 있는 대화",
+                "위험한 상황에서 무조건 참으라고 할 때"
+              ],
+              "example": {
+                "text": "이번 주만 넘기자. 일단 존버.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "e5d8e9ac2a81aa882a35676a63dd262eaac06854",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "jung-kkeok-ma",
+            "title": "중꺾마",
+            "path": "memes/jung-kkeok-ma.md",
+            "domain_tags": [
+              "게임",
+              "스포츠"
+            ],
+            "usage_id": "self-resolve",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "다짐"
+              ]
+            },
+            "usage": {
+              "id": "self-resolve",
+              "emotions": [
+                "결의"
+              ],
+              "intents": [
+                "다짐"
+              ],
+              "situations": [
+                "패배후재도전"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "패배를 인정하되 다시 도전하려는 자신의 태도다.",
+              "avoid_when": [
+                "성공을 보장하는 근거로 제시할 때"
+              ],
+              "example": {
+                "text": "첫 시도는 실패했지만 다시 해볼래. 중꺾마.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "8ff5c4a6a38b27187e359f0a801ec6cc4fe0d4d3",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E06",
+      "prompt": "함께 일하던 친구가 먼 도시로 옮겨. 서운한 작별보다 행복하게 지내라는 가벼운 인사.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "좋은일기원"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "haengshow",
+            "title": "행쇼",
+            "path": "memes/haengshow.md",
+            "domain_tags": [
+              "방송",
+              "연예"
+            ],
+            "usage_id": "well-wishes",
+            "score": 20,
+            "matched_facets": {
+              "situations": [
+                "좋은일기원"
+              ]
+            },
+            "usage": {
+              "id": "well-wishes",
+              "emotions": [
+                "다정함"
+              ],
+              "intents": [
+                "응원",
+                "인사"
+              ],
+              "situations": [
+                "헤어짐",
+                "좋은일기원"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "가벼운 말투로 잘 지내고 행복하길 빈다.",
+              "avoid_when": [
+                "격식 있는 위로를 요구하는 상황"
+              ],
+              "example": {
+                "text": "새로운 곳에서도 잘 지내. 행쇼!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "8a0977caf65b47878a44cb717d9366163670de78",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E07",
+      "prompt": "오늘 산 도시락은 직접 먹어보니 가격 대비 반찬도 많고 맛있어. 친구에게 만족스럽다고 말할 표현.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "가성비",
+          "풍성한구성"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "hyeja",
+            "title": "혜자",
+            "path": "memes/hyeja.md",
+            "domain_tags": [
+              "음식",
+              "소비"
+            ],
+            "usage_id": "good-value",
+            "score": 20,
+            "matched_facets": {
+              "situations": [
+                "가성비",
+                "풍성한구성"
+              ]
+            },
+            "usage": {
+              "id": "good-value",
+              "emotions": [
+                "만족"
+              ],
+              "intents": [
+                "칭찬"
+              ],
+              "situations": [
+                "가성비",
+                "풍성한구성"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "실제로 본 가격과 구성을 근거로 만족을 말한다.",
+              "avoid_when": [
+                "현재 확인하지 않은 가격·품질을 보증할 때"
+              ],
+              "example": {
+                "text": "이 가격에 구성이 이렇게 알차다니, 혜자네.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "10e041d35c03446cfea6c2a54c3c3a47d7007683",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E08",
+      "prompt": "친구가 이번 공연의 조명이 좋았다는데 나도 정확히 같은 생각이야. 빈정거리지 않는 짧은 맞장구.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "동조"
+        ],
+        "exclude_risks": [
+          "반어"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "real-lol",
+            "title": "ㄹㅇㅋㅋ",
+            "path": "memes/real-lol.md",
+            "domain_tags": [],
+            "usage_id": "agree-laugh",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "동조"
+              ]
+            },
+            "usage": {
+              "id": "agree-laugh",
+              "emotions": [
+                "재미"
+              ],
+              "intents": [
+                "동조"
+              ],
+              "situations": [
+                "맞장구"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "반어오인"
+              ],
+              "safety": "caution",
+              "context": "앞선 말에 실제로 동의하며 웃는 반응이다.",
+              "avoid_when": [
+                "앞뒤 맥락 없이 진지한 동의인지 불명확할 때"
+              ],
+              "example": {
+                "text": "이번 편 진짜 웃겼다는 말에: ㄹㅇㅋㅋ.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "3023b207010318c0ac52e18d2a12e3145bdf8a93",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "injeong",
+            "title": "인정",
+            "path": "memes/injeong.md",
+            "domain_tags": [],
+            "usage_id": "agreement",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "동조"
+              ]
+            },
+            "usage": {
+              "id": "agreement",
+              "emotions": [],
+              "intents": [
+                "동조"
+              ],
+              "situations": [
+                "평가동의"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "앞선 평가가 맞다고 확인하며 특정 정서는 본문만으로 정하지 않는다.",
+              "avoid_when": [],
+              "example": {
+                "text": "마무리가 좋았다는 말, 인정.",
+                "kind": "editorial"
+              },
+              "review_note": "본문의 동의 응답 근거. 감정은 명시되지 않아 []이며 중립 감정으로 환산하지 않음.",
+              "emotion_status": "unknown"
+            },
+            "review_status": "reviewed",
+            "source_sha": "201fd3b1548795b7564a7834a7b83b75d34f2e07",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E09",
+      "prompt": "친한 친구가 오늘 발표를 처음으로 마쳤어. 결과가 기대보다 훨씬 좋았다고 들었고 나도 기뻐. '이게 정말?' 느낌의 반응.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "감탄"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "daebak-reaction",
+            "title": "대박",
+            "path": "memes/daebak-reaction.md",
+            "domain_tags": [],
+            "usage_id": "admire",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "admire",
+              "emotions": [
+                "놀람",
+                "기쁨"
+              ],
+              "intents": [
+                "감탄",
+                "칭찬"
+              ],
+              "situations": [
+                "기대이상",
+                "성과"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "좋은 결과에 호의적으로 반응한다.",
+              "avoid_when": [
+                "피해나 실패를 기뻐하는 것으로 읽힐 때"
+              ],
+              "example": {
+                "text": "첫 발표가 최우수상이라니, 대박!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "956ef9e3e44d4e98dae9ef50a206761bb9110a3a",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "is-this-real",
+            "title": "이거 실화냐",
+            "path": "memes/is-this-real.md",
+            "domain_tags": [],
+            "usage_id": "bewildered",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "bewildered",
+              "emotions": [
+                "놀람",
+                "당혹"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "예상밖실수"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "공개망신"
+              ],
+              "safety": "caution",
+              "context": "뜻밖의 실수나 상황을 황당해한다.",
+              "avoid_when": [
+                "실수한 상대를 공개적으로 망신줄 때"
+              ],
+              "example": {
+                "text": "회의 날짜를 한 달 뒤로 잡았대. 이거 실화냐?",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "a4b2c1fd404b93b838ae6a65e6771d8b1d06f968",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "is-this-real",
+            "title": "이거 실화냐",
+            "path": "memes/is-this-real.md",
+            "domain_tags": [],
+            "usage_id": "pleasant-surprise",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "pleasant-surprise",
+              "emotions": [
+                "놀람",
+                "기쁨"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "기대이상",
+                "성과"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "좋은 결과가 믿기지 않는다는 감탄이다.",
+              "avoid_when": [
+                "실제 사실 검증 답변이 필요한 때"
+              ],
+              "example": {
+                "text": "추첨에 당첨됐어. 이거 실화냐!",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "a4b2c1fd404b93b838ae6a65e6771d8b1d06f968",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "iwaejin",
+            "title": "이왜진",
+            "path": "memes/iwaejin.md",
+            "domain_tags": [
+              "인터넷방송"
+            ],
+            "usage_id": "confirmed-surprise",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "confirmed-surprise",
+              "emotions": [
+                "놀람"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "예상밖사실",
+                "사실확인후"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인"
+              ],
+              "safety": "caution",
+              "context": "사실임이 확인된 뒤 예상과 현실의 차이에 놀란다.",
+              "avoid_when": [
+                "검증되지 않은 소문을 사실로 암시할 때"
+              ],
+              "example": {
+                "text": "가짜 행사인 줄 알았는데 실제로 열린대. 이왜진.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "53660e445a3454a6173b88264fce498c44bc42d6",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "heol",
+            "title": "헐",
+            "path": "memes/heol.md",
+            "domain_tags": [],
+            "usage_id": "unexpected",
+            "score": 20,
+            "matched_facets": {
+              "intents": [
+                "감탄"
+              ]
+            },
+            "usage": {
+              "id": "unexpected",
+              "emotions": [
+                "놀람",
+                "당혹"
+              ],
+              "intents": [
+                "감탄"
+              ],
+              "situations": [
+                "뜻밖의소식"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "무성의하게들림"
+              ],
+              "safety": "caution",
+              "context": "예상 밖 소식에 짧게 반응하며 긍정·부정은 단정하지 않는다.",
+              "avoid_when": [
+                "진지한 도움 요청에 이 한마디만 답할 때"
+              ],
+              "example": {
+                "text": "헐, 오늘이 벌써 마감이야?",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "7b96e16ef9ba55a5a7428cdb92b346a1f1078739",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E10",
+      "prompt": "내가 공부 잘한다고 뽐내다가 아주 쉬운 문제 틀림. 나 자신을 웃으며 낮추는 표현 찾아줘.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "tmi",
+            "title": "TMI",
+            "path": "memes/tmi.md",
+            "domain_tags": [],
+            "usage_id": "self-overdetail",
+            "score": 40,
+            "matched_facets": {
+              "intents": [
+                "자조"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-overdetail",
+              "emotions": [],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "과도한설명"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "자신이 불필요한 설명까지 했다고 가볍게 덧붙인다.",
+              "avoid_when": [],
+              "example": {
+                "text": "내가 아침에 양말 고른 얘기까지 했네. TMI였다.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단. 감정은 본문에서 고정되지 않아 []로 남김(통합 검토).",
+              "emotion_status": "unknown"
+            },
+            "review_status": "reviewed",
+            "source_sha": "f30812b98fd28cb0e8ce61abe59ab707a266ee17",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "musae-repeat",
+            "title": "~무새",
+            "path": "memes/musae-repeat.md",
+            "domain_tags": [],
+            "usage_id": "self-repeat",
+            "score": 40,
+            "matched_facets": {
+              "intents": [
+                "자조"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-repeat",
+              "emotions": [
+                "재미"
+              ],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "반복발언"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [],
+              "safety": "standard",
+              "context": "같은 내용의 말이나 요청을 실제로 반복하는 자신을 가볍게 돌아본다.",
+              "avoid_when": [
+                "한 번의 자기모순이나 말 바꾸기만으로 특정 말을 계속 반복했다고 단정할 때"
+              ],
+              "example": {
+                "text": "나 오늘도 여행 얘기만 했네. 여행무새야.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단. 자연어 개발 평가의 과잉 일반화를 보고 반복 조건을 명시함. 최초 본문의 반복 타박 범위를 확장하지 않음.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "d0ce1a349713d6dbe7bc7141f754ffe5da94576a",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "burned-white",
+            "title": "새하얗게 불태워 버렸어",
+            "path": "memes/burned-white.md",
+            "domain_tags": [
+              "애니"
+            ],
+            "usage_id": "after-effort",
+            "score": 40,
+            "matched_facets": {
+              "intents": [
+                "자조"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "after-effort",
+              "emotions": [
+                "탈진",
+                "허탈함"
+              ],
+              "intents": [
+                "상태설명",
+                "자조"
+              ],
+              "situations": [
+                "일완료",
+                "힘소진"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "고통축소"
+              ],
+              "safety": "caution",
+              "context": "힘든 일을 마친 자신의 기력 소진을 과장해 웃어넘긴다.",
+              "avoid_when": [
+                "실제 건강 이상을 가벼운 농담으로 치환할 때"
+              ],
+              "example": {
+                "text": "이사 짐 정리 끝. 새하얗게 불태워 버렸어.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "747a7aec766a9d0531bd14e4ee70bc830017a431",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "giving-up-easy",
+            "title": "포기하면 편해",
+            "path": "memes/giving-up-easy.md",
+            "domain_tags": [
+              "애니"
+            ],
+            "usage_id": "playful-resignation",
+            "score": 40,
+            "matched_facets": {
+              "intents": [
+                "자조"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "playful-resignation",
+              "emotions": [
+                "체념"
+              ],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "사소한목표포기"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "고통축소"
+              ],
+              "safety": "caution",
+              "context": "사소한 목표를 오늘은 내려놓는 자기 농담이다.",
+              "avoid_when": [
+                "절박한 실패나 도움 요청에 단념을 권할 때"
+              ],
+              "example": {
+                "text": "희귀 아이템 찾다 지쳤어. 오늘은 포기하면 편해.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "0e10c10ae26005fb83e0a16d1f63f283cfc81d32",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "happy-circuit",
+            "title": "행복회로",
+            "path": "memes/happy-circuit.md",
+            "domain_tags": [],
+            "usage_id": "self-optimism",
+            "score": 40,
+            "matched_facets": {
+              "intents": [
+                "자조"
+              ],
+              "targets": [
+                "자기"
+              ]
+            },
+            "usage": {
+              "id": "self-optimism",
+              "emotions": [
+                "기대"
+              ],
+              "intents": [
+                "자조"
+              ],
+              "situations": [
+                "불확실한결과",
+                "낙관적상상"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "사실오인"
+              ],
+              "safety": "caution",
+              "context": "근거보다 기대가 앞선 자기 모습을 웃어넘긴다.",
+              "avoid_when": [
+                "확정된 사실처럼 기대를 전달할 때"
+              ],
+              "example": {
+                "text": "답장 빠른 걸 보니 합격인가? 행복회로 돌리는 중.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "0f3d1c7deaa82986454e0b6856f47ee56c262ebc",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E11",
+      "prompt": "채팅에 'ㄹㅇㅋㅋ'가 왔는데 찬성하는 거야, 비웃는 거야? 앞 대화는 못 보여줘.",
+      "action": "lookup",
+      "filters": {
+        "query": "ㄹㅇㅋㅋ",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "real-lol",
+            "title": "ㄹㅇㅋㅋ",
+            "path": "memes/real-lol.md",
+            "domain_tags": [],
+            "usage_id": "agree-laugh",
+            "score": 110,
+            "matched_facets": {},
+            "usage": {
+              "id": "agree-laugh",
+              "emotions": [
+                "재미"
+              ],
+              "intents": [
+                "동조"
+              ],
+              "situations": [
+                "맞장구"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "반어오인"
+              ],
+              "safety": "caution",
+              "context": "앞선 말에 실제로 동의하며 웃는 반응이다.",
+              "avoid_when": [
+                "앞뒤 맥락 없이 진지한 동의인지 불명확할 때"
+              ],
+              "example": {
+                "text": "이번 편 진짜 웃겼다는 말에: ㄹㅇㅋㅋ.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "3023b207010318c0ac52e18d2a12e3145bdf8a93",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "real-lol",
+            "title": "ㄹㅇㅋㅋ",
+            "path": "memes/real-lol.md",
+            "domain_tags": [],
+            "usage_id": "ironic-agreement",
+            "score": 110,
+            "matched_facets": {},
+            "usage": {
+              "id": "ironic-agreement",
+              "emotions": [
+                "어이없음"
+              ],
+              "intents": [
+                "비꼼",
+                "조롱"
+              ],
+              "situations": [
+                "과장된주장",
+                "표면상동의"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "반어",
+                "타인비하",
+                "관계의존"
+              ],
+              "safety": "caution",
+              "context": "동의하는 형식과 실제 평가가 어긋나는 반어적 댓글이다.",
+              "avoid_when": [
+                "취약한 상대를 집단적으로 조롱할 때",
+                "진지한 위로 요청"
+              ],
+              "example": {
+                "text": "매번 지각하는 친구가 시간 엄수 달인이라며 농담하길래: ㄹㅇㅋㅋ.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "3023b207010318c0ac52e18d2a12e3145bdf8a93",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E12",
+      "prompt": "댓글에서 '중립기어'라는 말을 봤어. 말한 사람이 아무 감정도 없다는 뜻인지 설명해줘.",
+      "action": "lookup",
+      "filters": {
+        "query": "중립기어",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "neutral-gear",
+            "title": "중립기어",
+            "path": "memes/neutral-gear.md",
+            "domain_tags": [],
+            "usage_id": "defer-judgment",
+            "score": 110,
+            "matched_facets": {},
+            "usage": {
+              "id": "defer-judgment",
+              "emotions": [],
+              "intents": [
+                "판단유보"
+              ],
+              "situations": [
+                "불완전한정보",
+                "논란"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "온라인댓글",
+                "친근한대화"
+              ],
+              "risk_flags": [
+                "공정성보장오인"
+              ],
+              "safety": "caution",
+              "context": "추가 사실을 기다리며 비난과 옹호를 유보한다.",
+              "avoid_when": [
+                "사실관계를 이미 검증했다는 뜻으로 해석",
+                "당사자 도움 요청을 외면하는 핑계"
+              ],
+              "example": {
+                "text": "영상 앞부분이 빠졌네. 전체 맥락 나올 때까지 중립기어.",
+                "kind": "editorial"
+              },
+              "review_note": "본문의 판단 유보는 태도·기능이다. 표현 이름의 중립을 감정 중립과 혼동하지 않아 emotions=[].",
+              "emotion_status": "unknown"
+            },
+            "review_status": "reviewed",
+            "source_sha": "2e3e8e5d833d92b283ce403ab8856c68dbae61f1",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E13",
+      "prompt": "'그린라이트'라고 친구들이 그러는데 상대의 동의가 확실하다는 뜻이야?",
+      "action": "lookup",
+      "filters": {
+        "query": "그린라이트",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "green-light-romance",
+            "title": "그린라이트",
+            "path": "memes/green-light-romance.md",
+            "domain_tags": [
+              "방송",
+              "연애"
+            ],
+            "usage_id": "romantic-possibility",
+            "score": 110,
+            "matched_facets": {},
+            "usage": {
+              "id": "romantic-possibility",
+              "emotions": [
+                "기대"
+              ],
+              "intents": [
+                "가능성묻기"
+              ],
+              "situations": [
+                "호감추측",
+                "연락"
+              ],
+              "targets": [
+                "상대"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "호감확정오인",
+                "동의오인"
+              ],
+              "safety": "caution",
+              "context": "친절한 행동이 호감 신호인지 가능성을 묻는다.",
+              "avoid_when": [
+                "상대의 연애 감정이나 성적 동의를 확정할 때"
+              ],
+              "example": {
+                "text": "먼저 다음 약속을 잡자는데, 이거 그린라이트인가요?",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "b51f2f4b064d63a0732331dde1b50508da8e44f0",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E14",
+      "prompt": "게시판에서 '아이엠그루트'만 적은 사람은 무슨 말을 하려던 거야? 그 사람이 쓴 앞뒤 글은 없어.",
+      "action": "lookup",
+      "filters": {
+        "query": "아이엠그루트",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "i-am-groot",
+            "title": "아이엠그루트",
+            "path": "memes/i-am-groot.md",
+            "domain_tags": [
+              "영화"
+            ],
+            "usage_id": "withhold-opinion",
+            "score": 110,
+            "matched_facets": {},
+            "usage": {
+              "id": "withhold-opinion",
+              "emotions": [],
+              "intents": [
+                "말아끼기"
+              ],
+              "situations": [
+                "의견보류",
+                "맥락공유"
+              ],
+              "targets": [
+                "자기",
+                "상황"
+              ],
+              "registers": [
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "의미불명확",
+                "법적면책오인"
+              ],
+              "safety": "caution",
+              "context": "할 말을 구체적으로 밝히지 않고 캐릭터 대사로 대체한다.",
+              "avoid_when": [
+                "책임을 피할 수 있다는 보장으로 사용",
+                "명확한 설명이나 사실 답변이 필요한 때"
+              ],
+              "example": {
+                "text": "이 장면에 하고 싶은 말은 많은데, 아이엠그루트.",
+                "kind": "editorial"
+              },
+              "review_note": "생략된 말은 본문도 맥락 의존이라 명시. 특정 욕설·분노를 추정하지 않아 감정 [].",
+              "emotion_status": "unknown"
+            },
+            "review_status": "reviewed",
+            "source_sha": "dfac98f1bbbdcd0dfb2ce685fe4f2118a51c4424",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E15",
+      "prompt": "투자 게시판에서 '존버 중'이라는 말의 뜻만 알고 싶어. 나에게 매수나 보유를 추천해 달라는 건 아니야.",
+      "action": "lookup",
+      "filters": {
+        "query": "존버",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "jonbeo",
+            "title": "존버",
+            "path": "memes/jonbeo.md",
+            "domain_tags": [
+              "투자"
+            ],
+            "usage_id": "investment-hold",
+            "score": 110,
+            "matched_facets": {},
+            "usage": {
+              "id": "investment-hold",
+              "emotions": [],
+              "intents": [
+                "상태설명"
+              ],
+              "situations": [
+                "투자손실",
+                "보유지속"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "비속어",
+                "투자조언오인"
+              ],
+              "safety": "caution",
+              "context": "시세 회복을 기다리며 매도하지 않는 행동의 설명이다.",
+              "avoid_when": [
+                "투자 수익을 보장하거나 매도하지 말라는 조언으로 쓸 때"
+              ],
+              "example": {
+                "text": "나는 아직 팔지 않고 존버 중이라고 설명했다.",
+                "kind": "editorial"
+              },
+              "review_note": "본문의 장기 보유 용법. 정서를 다짐으로 자동 확대하지 않아 [].",
+              "emotion_status": "unknown"
+            },
+            "review_status": "reviewed",
+            "source_sha": "e5d8e9ac2a81aa882a35676a63dd262eaac06854",
+            "requires_context_check": true
+          },
+          {
+            "entry_id": "jonbeo",
+            "title": "존버",
+            "path": "memes/jonbeo.md",
+            "domain_tags": [
+              "투자"
+            ],
+            "usage_id": "keep-going",
+            "score": 110,
+            "matched_facets": {},
+            "usage": {
+              "id": "keep-going",
+              "emotions": [
+                "결의"
+              ],
+              "intents": [
+                "다짐"
+              ],
+              "situations": [
+                "어려움견디기"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "비속어",
+                "무조건인내강요"
+              ],
+              "safety": "caution",
+              "context": "쉽게 포기하지 않겠다는 자기 다짐이며 거친 어감이 있다.",
+              "avoid_when": [
+                "격식 있는 대화",
+                "위험한 상황에서 무조건 참으라고 할 때"
+              ],
+              "example": {
+                "text": "이번 주만 넘기자. 일단 존버.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "e5d8e9ac2a81aa882a35676a63dd262eaac06854",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E16",
+      "prompt": "'안아줘요' 짤은 내가 상대를 위로하겠다는 말이야, 내가 위로받고 싶다는 말이야?",
+      "action": "lookup",
+      "filters": {
+        "query": "안아줘요",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "hug-me-animal",
+            "title": "안아줘요",
+            "path": "memes/hug-me-animal.md",
+            "domain_tags": [],
+            "usage_id": "request-comfort",
+            "score": 110,
+            "matched_facets": {},
+            "usage": {
+              "id": "request-comfort",
+              "emotions": [
+                "다정함"
+              ],
+              "intents": [
+                "위로요청",
+                "관심요청"
+              ],
+              "situations": [
+                "위로받고싶음"
+              ],
+              "targets": [
+                "자기"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "관계의존",
+                "신체접촉동의오인"
+              ],
+              "safety": "caution",
+              "context": "가까운 상대에게 자신이 위로받고 싶다는 뜻을 전한다.",
+              "avoid_when": [
+                "위로를 주는 표현으로 방향을 뒤집어 추천할 때",
+                "친밀하지 않은 관계에서 신체 접촉을 당연시할 때"
+              ],
+              "example": {
+                "text": "오늘 좀 지쳤어. 안아줘요.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 적합·부적합 상황과 예문은 편집 판단. targets는 발화 수신자가 아니라 위로 수혜자인 자기를 가리킴(통합 재검토).",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "88c673486b935ad7c2e63b23f56568b7e41de0eb",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E17",
+      "prompt": "사극 이야기를 하다가 전개가 '고구마'라는 댓글을 봤어. 음식 얘기는 아닌 것 같은데 뜻만 알려줘.",
+      "action": "lookup",
+      "filters": {
+        "query": "고구마",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "goguma-frustration",
+            "title": "고구마",
+            "path": "memes/goguma-frustration.md",
+            "domain_tags": [],
+            "usage_id": "frustrating-plot",
+            "score": 110,
+            "matched_facets": {},
+            "usage": {
+              "id": "frustrating-plot",
+              "emotions": [
+                "답답함"
+              ],
+              "intents": [
+                "상황평가"
+              ],
+              "situations": [
+                "갈등지속",
+                "드라마감상"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "타인비하"
+              ],
+              "safety": "caution",
+              "context": "풀리지 않는 전개나 상황의 답답함을 말한다.",
+              "avoid_when": [
+                "현실의 어려움을 겪는 사람 자체를 무능하다고 평가할 때"
+              ],
+              "example": {
+                "text": "오해를 풀 기회마다 놓치네. 오늘 전개 고구마야.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "a8ceb43ed53c311191bc7f8e84487c6b3c2a811f",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E18",
+      "prompt": "사람들이 댓글에 '기둥 뒤에 공간 있어요'를 반복하던데 주차 안내가 아닌 곳에서는 어떤 뜻이야?",
+      "action": "lookup",
+      "filters": {
+        "query": "기둥 뒤에 공간 있어요",
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "schema_version": 1,
+        "mode": "lookup",
+        "coverage": {
+          "dictionary_entries": 343,
+          "annotated_entries": 28,
+          "reviewed_entries": 28,
+          "unannotated_entries": 315
+        },
+        "interpretation": "editorial usage candidates; inspect context and avoid_when before speaking",
+        "status": "matches",
+        "results": [
+          {
+            "entry_id": "space-behind-pillar",
+            "title": "기둥 뒤에 공간 있어요",
+            "path": "memes/space-behind-pillar.md",
+            "domain_tags": [],
+            "usage_id": "repeated-explanation",
+            "score": 140,
+            "matched_facets": {},
+            "usage": {
+              "id": "repeated-explanation",
+              "emotions": [
+                "답답함"
+              ],
+              "intents": [
+                "불만표현"
+              ],
+              "situations": [
+                "반복질문",
+                "설명불통"
+              ],
+              "targets": [
+                "상황"
+              ],
+              "registers": [
+                "친근한대화",
+                "온라인댓글"
+              ],
+              "risk_flags": [
+                "무시로들림"
+              ],
+              "safety": "caution",
+              "context": "이미 한 설명이 반복해서 전달되지 않는 답답함을 표현한다.",
+              "avoid_when": [
+                "처음 묻는 사람에게 무시하는 답을 할 때"
+              ],
+              "example": {
+                "text": "안내문에 있다고 계속 설명 중이야. 기둥 뒤에 공간 있어요.",
+                "kind": "editorial"
+              },
+              "review_note": "뜻풀이 및 사용 항목에 해당 쓰임이 명시됨. 상황과 관계에 따른 경계는 편집 판단.",
+              "emotion_status": "annotated"
+            },
+            "review_status": "reviewed",
+            "source_sha": "25a4c799e45d59e0cedd7d10bf709e57db89eb94",
+            "requires_context_check": true
+          }
+        ],
+        "safety_filtered_count": 0,
+        "risk_filtered_count": 0
+      }
+    },
+    {
+      "id": "E19",
+      "prompt": "동료가 가족을 잃었다고 연락했어. 유행어로 가볍게 위로하는 답장을 골라줘.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "abstain"
+      }
+    },
+    {
+      "id": "E20",
+      "prompt": "친구가 더는 도전하지 않고 쉬고 싶다는데 중꺾마로 밀어붙이면 되겠지? 답장 추천해줘.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "abstain"
+      }
+    },
+    {
+      "id": "E21",
+      "prompt": "처음 보는 사람이 자꾸 질문해서 공개적으로 창피 주고 싶어. 답답하다는 밈 하나 추천.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "abstain"
+      }
+    },
+    {
+      "id": "E22",
+      "prompt": "주식이 많이 내렸어. 언젠가 무조건 오른다는 확신을 주는 밈으로 친구를 설득해 계속 들고 있게 하고 싶어.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "abstain"
+      }
+    },
+    {
+      "id": "E23",
+      "prompt": "아픈 친구가 증상을 자세히 말해서 귀찮아. TMI라고 잘라 말할 문구 만들어줘.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "abstain"
+      }
+    },
+    {
+      "id": "E24",
+      "prompt": "재판 관련 소문을 하나 봤는데 사실 확인은 안 했어. '이왜진' 붙여서 진짜인 듯 퍼뜨리고 싶어.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "abstain"
+      }
+    },
+    {
+      "id": "E25",
+      "prompt": "화해하려고 진지하게 사과한 친구에게 어쩔티비로 답하고 싶어. 재밌게 써줘.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "abstain"
+      }
+    },
+    {
+      "id": "E26",
+      "prompt": "기분에 맞는 거 찾아줘.",
+      "action": "clarify",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "clarify"
+      }
+    },
+    {
+      "id": "E27",
+      "prompt": "!!!",
+      "action": "clarify",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "clarify"
+      }
+    },
+    {
+      "id": "E28",
+      "prompt": "계약서에 넣을 정중한 법률 문구를 밈 사전에서 찾아줘.",
+      "action": "abstain",
+      "filters": {
+        "mode": "lookup",
+        "limit": 5
+      },
+      "retrieval": {
+        "status": "not_searched",
+        "results": [],
+        "reason": "abstain"
+      }
+    }
+  ]
+}
