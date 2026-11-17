@@ -602,6 +602,7 @@
 - [폰은정](../memes/pon-eunjeong.md)
 - [폴꾸](../memes/polkku.md)
 - [프로불편러](../memes/pro-offended.md)
+- [피라미드에도 악플이 달린다는 사실을 기억하자](../memes/even-pyramids-get-hate.md)
 - [피어나 너 내 도도독](../memes/dodoreok-chaewon.md)
 - [피켓팅](../memes/piketing.md)
 - [하룰라라](../memes/harullara.md)

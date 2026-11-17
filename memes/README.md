@@ -813,6 +813,7 @@
 - [폼 미쳤다](form-michyeotda.md)
 - [프로불편러](pro-offended.md)
 - [플렉스](flex.md)
+- [피라미드에도 악플이 달린다는 사실을 기억하자](even-pyramids-get-hate.md)
 - [피어나 너 내 도도독](dodoreok-chaewon.md)
 - [피켓팅](piketing.md)
 - [하룰라라](harullara.md)

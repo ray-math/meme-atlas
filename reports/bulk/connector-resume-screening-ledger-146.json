@@ -1,8 +1,8 @@
 {
   "scope": "완전한 명시검색어 목록만 복원. 숫자만 있는 배치 제외. 과거소실1771큐복구아님.",
-  "source_files": 17,
-  "query_observations": 267,
-  "distinct_literal_queries": 222,
+  "source_files": 18,
+  "query_observations": 286,
+  "distinct_literal_queries": 240,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -1502,6 +1502,107 @@
       "source": "reports/bulk/connector-resume-editor162.json",
       "status": "accepted-family-web-query",
       "canonical": "all-cash-small-purchase"
+    },
+    {
+      "query": "년생",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "existing-family",
+      "canonical": "na-born-year-dance"
+    },
+    {
+      "query": "피라미드",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "accepted-family",
+      "canonical": "even-pyramids-get-hate"
+    },
+    {
+      "query": "악플",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "accepted-family",
+      "canonical": "even-pyramids-get-hate"
+    },
+    {
+      "query": "직업",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "사이코",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "미동",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "남쟈",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "좋은날",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "하룰라라",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "existing-family",
+      "canonical": "harullara"
+    },
+    {
+      "query": "밀레니얼",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "existing-family",
+      "canonical": "millennial-vs-genz-copy"
+    },
+    {
+      "query": "젠지",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "existing-family",
+      "canonical": "millennial-vs-genz-copy"
+    },
+    {
+      "query": "피곤",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "이런 걸",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "불법",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "명소",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "리뷰",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "감정 없는",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "남자 소개",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "그린",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
     }
   ],
   "semantic_duplicates": [
