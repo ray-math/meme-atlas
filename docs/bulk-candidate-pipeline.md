@@ -45,8 +45,8 @@ retired names). Stale/mismatched linkage is diagnostic, not silent promotion.
 The four exclusive classifications sum to total. indexed counts rows with a
 nonempty normalized key; normalized_matches counts both duplicate classes.
 Source groups distinguish legacy_existing (the repository's default ledger path)
-from newly_collected (other exports). Export rows are **not** verified new memes.
-A legacy queue of 1,091 rows with no export therefore has zero newly_collected rows.
+from new_source_rows (other exports). Export rows are **not** verified new memes.
+A legacy queue of 1,091 rows with no export therefore has zero new_source_rows rows.
 canonical_count is the actual build size, never a fixed 357 assertion.
 Full input-envelope and canonical/state fingerprints detect equal-count replacement.
 --check repeats the read-only build and compares serialized outputs; it does not
@@ -61,3 +61,24 @@ stale status, provenance, same-count changes, strict types and read-only behavio
 No actual Python/CI execution was performed while authoring this branch; CI must
 run before integration. The 10-second synthetic test ceiling is a generous smoke
 guard, not a production benchmark.
+
+## Explicit export adapters (follow-up to initial queue)
+Supports exactly id, research_id or ledger_id identifiers. Conflicting identifiers
+or status/review_status values are errors; reviewed is rejected, never a publishing
+permission. Research/ledger variants may omit dictionary_paths/evidence/notes;
+empty arrays are supplied internally only. aliases remains strictly list[str].
+source_urls supports strings or objects with a nonempty url; full objects remain
+in original_candidate. Evidence tier labels never certify two direct-body,
+independent publishers.
+
+Each output retains original_source_id, source_file and untouched original_candidate.
+Ledger-ID exports are verified against the actual legacy ledger ID and normalized
+title, then counted as legacy_reexport, never new_source_rows. Their internal queue
+ID is path-namespaced so legacy and exported occurrences can coexist without losing
+the original ID. Generic/research duplicate IDs remain errors. Thus 840 reexported
+legacy rows plus 109 research observations are not 949 newly discovered memes.
+
+Whole-envelope duplicate fingerprints are diagnostic and preserve both source
+occurrences. Per-row source kind drives totals, including mixed envelopes.
+new_source_rows is an observation count, not net-new or independently verified
+content. --check remains order/path-sensitive deterministic replay.
