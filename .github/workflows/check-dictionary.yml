@@ -52,3 +52,4 @@ jobs:
       - run: python scripts/replay_memory_scope.py
       - run: python scripts/replay_carrot_scope.py
       - run: python scripts/replay_critique_scope.py
+      - run: python scripts/evaluate_check_in_lookup.py
