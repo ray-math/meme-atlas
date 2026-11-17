@@ -17,3 +17,5 @@
 - [안돼 돌아가](../memes/no-go-back.md)
 - [언제부터 ~라고 착각한 거지?](../memes/since-when-were-you-under-the-impression.md)
 - [거성체조](../memes/geoseong-dance.md)
+- [시건방춤](../memes/arrogant-dance.md)
+- [설득력이... 있어!](../memes/it-is-persuasive.md)

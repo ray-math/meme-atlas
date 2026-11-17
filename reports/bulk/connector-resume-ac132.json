@@ -1,0 +1,49 @@
+{
+  "batch": "connector-resume-ac132",
+  "base": "5df379bd2602e0793201af016fff04ff68a1179e",
+  "entries": [
+    {
+      "id": "arrogant-dance",
+      "sources": [
+        {
+          "url": "https://www.starnewskorea.com/music/2013/04/14/2013041416201942559",
+          "observed": "19~26행 원곡·특징·젠틀맨차용 명시. 안무저작권 일반론과 창작자 단정은 제외."
+        },
+        {
+          "url": "https://www.yna.co.kr/view/AKR20130425170900054",
+          "observed": "2013-04-25 61~68행 젠틀폴과 청사앞 단체춤."
+        },
+        {
+          "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20130429.99002165725",
+          "observed": "2013-04-29 209~215행 경기경찰청 젠틀캅, 축구선수/마스코트 단체춤. 노컷뉴스 제휴기사."
+        }
+      ],
+      "independent_usage_events": 3,
+      "bounds": "원영상 미시청. 범죄/장난 장면 제외. 시건방춤/젠틀맨/아브라카다브라를별도후보3개로 합산하지 않음."
+    },
+    {
+      "id": "it-is-persuasive",
+      "sources": [
+        {
+          "url": "https://www.webtoonguide.com/ko/board/nice/2819",
+          "observed": "2017-05-02 58~59행 축구웹툰 패러디와 요시히코 장면 연결 명시. 원웹툰/원드라마 별도열람아님."
+        },
+        {
+          "url": "https://etoland.co.kr/hit/etohumor07/view/k%EC%BA%85%EC%8A%A4%EC%97%90-%EC%96%B4%EB%A6%B0%EC%9D%B4%EA%B0%80-%EA%B2%BD%EC%B0%B0%EA%B4%80%EC%9C%BC%EB%A1%9C-%EB%B0%9C%ED%83%81%EB%90%9C-%EC%9D%B4%EC%9C%A0-9580528?page=9",
+          "observed": "2026-11-14 20:41 댓글에서 그대충설득력이있어짤 직접호출. 실제이미지 업로드라고 쓰지않음."
+        }
+      ],
+      "independent_usage_events": 2,
+      "bounds": "기존 접근불가로 보류하던 후보를 새공개URL의 직접본문으로 보강. 게시물 이미지 미열람이므로 구체논리 내용 주장하지않음."
+    }
+  ],
+  "checks": {
+    "base_entries": 843,
+    "result_entries": 845,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}
