@@ -4,7 +4,7 @@
   "coverage": {
     "dictionary_entries": 355,
     "annotated_entries": 65,
-    "reviewed_entries": 64,
+    "reviewed_entries": 65,
     "unannotated_entries": 290
   },
   "entries": [
@@ -3208,8 +3208,8 @@
       "path": "memes/proof-photo.md",
       "aliases": [],
       "source_sha": "54d487149fba2edaa1a166f6f73d61633b1e5c2f",
-      "review_status": "draft",
-      "review_note": "자기 활동을 마쳤다는 설명에 기록 사진을 곁들여 공유하는 용법만 다룬다. 자랑·뿌듯함·성취감은 자동 추정하지 않는다. 사용자 제공의 활동 완료 전제를 유지하는 것과 독립적인 사실 확인은 다르다. 외부 출처는 조사 담당의 직접 확인 보고를 참고한 것이며 이 작성자의 원문 재독은 아니다.",
+      "review_status": "reviewed",
+      "review_note": "자기 활동을 마쳤다는 설명에 기록 사진을 곁들여 공유하는 용법만 다룬다. 자랑·뿌듯함·성취감은 자동 추정하지 않는다. 사용자 제공의 활동 완료 전제를 유지하는 것과 독립적인 사실 확인은 다르다. 외부 출처는 조사 담당의 직접 확인 보고를 참고한 것이며 이 작성자의 원문 재독은 아니다. 공개8건 실제 Python 검색과 최종 AI 답안 검토에서 v1 메타데이터 오류2개를 발견해 보존했다. 초안 선택과 실제 공유 권한을 분리하고 요청 인용 계약을 교정한 뒤 validator 불변의 회귀 및 별도 AI 재검토를 통과했다. 이 좁은 표현 선택을 실제 이미지·완료·권한 확인 또는 새 블라인드 정확도로 해석하지 않는다.",
       "usages": [
         {
           "id": "share-own-completed-activity",
