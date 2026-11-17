@@ -568,6 +568,12 @@
       "ids": [
         "anmul-angung"
       ]
+    },
+    "korean-reviewed-20261117-manban-role-clarification": {
+      "input_hash": "ea6681495fdc06839a525ae753e03e3c450b0e1b2c7478dba05260e101286dd6",
+      "ids": [
+        "manbanjalbu"
+      ]
     }
   },
   "entries": {
@@ -963,8 +969,8 @@
     },
     "manbanjalbu": {
       "title": "만반잘부",
-      "batch": "3",
-      "body_hash": "4061205d9d0d1191df659a4f05558de9bee83ebcc8a490296dc243019e576eac",
+      "batch": "korean-reviewed-20261117-manban-role-clarification",
+      "body_hash": "30b008d1ccfd85d5b1d6381bde88b16239bf66956916c30374e1bfd49368f7c6",
       "scope_type": "korean_origin",
       "scope_basis": "한국어 첫인사 문구의 음절을 묶어 만든 국내 온라인 인사 표현이다.",
       "tags": []
