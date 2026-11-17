@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "prompt_version": "contextual-v3",
+  "synthetic": true,
+  "source_profiles_commit": "7c1c3bf21c9f2deb95b38a4b797cba7d875277f6",
+  "model_provenance": "이번 assistant 턴에서 GitHub의 공개 profiles와 vocabulary 및 지정 audit 입력을 직접 읽어 자연어 기능을 대조한 실제 AI 계획이다. 검색·최종 답안·신규 모델 API 호출을 실행하지 않았다.",
+  "limitations": "공개 context·avoid_when 및 기존 공개 입력을 재사용한 development 평가이며 blind heldout이나 독립 실사용 정확도가 아니다. 조건문을 실제 사건으로 확정하지 않는다. 표제·예문은 prompt에 추가하지 않았다. seubuljae는 draft이며 향후 실제 Python에서 복사본을 임시 reviewed로 조회할 예정일 뿐 저장된 profile을 승격하지 않는다. 필터는 실제 자발성·인과·책임·감정을 인증하지 않으며 lookup과 recommend 모두 조회 후 문맥 판단이 필요하다.",
+  "source_bindings": {
+    "profiles": {
+      "path": "data/usage-profiles.json",
+      "inputs": {
+        "S-choice": "seubuljae/own-minor-choice-backfire.context",
+        "S-missing": "seubuljae/own-minor-choice-backfire.avoid_when[0]",
+        "S-forced": "seubuljae/own-minor-choice-backfire.avoid_when[1]",
+        "S-victim": "seubuljae/own-minor-choice-backfire.avoid_when[2]",
+        "S-serious": "seubuljae/own-minor-choice-backfire.avoid_when[3]",
+        "S-luck": "seubuljae/own-minor-choice-backfire.avoid_when[4]",
+        "O-disappointment": "otl/minor-own-disappointment.context",
+        "B-memory": "blanket-kick/remember-embarrassment.context",
+        "R-gap": "reality-is-gutter/expectation-gap.context",
+        "U-upside": "ohiryeo-joa/find-upside.context"
+      }
+    },
+    "existing": {
+      "path": "eval/challenge/audit-inputs.json",
+      "inputs": {
+        "A26": "inputs[id=A26].prompt"
+      }
+    }
+  },
+  "plans": [
+    {
+      "id": "S-choice",
+      "prompt": "본인이 자발적으로 한 사소한 선택 때문에 지금 뒤처리가 번거로워졌다고 명시하면서, 자신의 선택을 가볍게 웃어넘기는 표현을 원한다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "자조"
+        ],
+        "situations": [
+          "자초한곤란"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason": "자발적인 사소한 자기 선택과 현재 번거로운 뒤처리의 연결을 본인이 명시하고 웃어넘기려는 기능이다. 실제 책임·인과를 독립 검증한 것으로 보지 않으며 구체 선택이나 작업을 추가하지 않는다. 조회 후 고통 축소 여부를 별도로 검토한다."
+    },
+    {
+      "id": "S-missing",
+      "prompt": "자발적 선택이나 현재 곤란과의 연결이 입력에 명시되지 않은 경우",
+      "action": "clarify",
+      "filters": {},
+      "reason": "자발성 또는 현재 곤란과의 연결이 없다는 조건이다. 무엇을 스스로 선택했고 어떤 곤란으로 이어졌는지 확인하기 전 자기 책임을 부여하지 않는다."
+    },
+    {
+      "id": "S-forced",
+      "prompt": "강요받은 업무나 선택을 본인이 자초한 일로 바꾸는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason": "강요받은 업무나 선택을 자초한 일로 바꾸는 조건이므로 자기 책임 농담을 보류한다. 강요를 자발성으로 재작성하지 않는다."
+    },
+    {
+      "id": "S-victim",
+      "prompt": "타인의 피해를 당연한 결과라며 책임을 떠넘기는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason": "타인의 피해를 당연한 결과라며 책임을 떠넘기는 조건이다. 자기 지향의 가벼운 농담으로 바꾸지 않고 추천을 보류한다."
+    },
+    {
+      "id": "S-serious",
+      "prompt": "심각한 자책·고통·도움 요청을 가벼운 농담으로 축소하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason": "심각한 자책·고통·도움 요청을 축소하는 조건이므로 밈 추천을 보류한다. 구체 위기나 진단을 만들지 않는다."
+    },
+    {
+      "id": "S-luck",
+      "prompt": "단순 불운이나 기대와 결과의 차이만으로 자기 책임을 추정하는 경우",
+      "action": "abstain",
+      "filters": {},
+      "reason": "단순 불운이나 기대와 결과 차이에서 자기 책임을 추정하는 전환을 보류한다. 실제 자발적 선택과 인과를 추가하지 않는다."
+    },
+    {
+      "id": "O-disappointment",
+      "prompt": "본인이 기대한 사소한 일이 어긋나 낙담했다는 반응을 짧은 문자 그림으로 표현하고 싶다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "상태설명"
+        ],
+        "emotions": [
+          "실망"
+        ],
+        "situations": [
+          "기대와현실차이"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason": "사소한 기대가 어긋난 낙담 반응을 문자로 표현하려는 상태설명이다. 자기 책임·자조·포기 결정이나 실제 신체 동작을 뜻한다고 확대하지 않는다."
+    },
+    {
+      "id": "B-memory",
+      "prompt": "이미 했던 자신의 사소하고 어색한 말이나 행동이 뒤늦게 떠올라 민망하다는 상태를 표현한다. 아직 하지 않은 행동의 미래 후회를 예고하는 용법은 포함하지 않는다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "상태설명"
+        ],
+        "situations": [
+          "과거언행회상"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason": "이미 했던 사소한 자기 언행을 뒤늦게 떠올리는 민망함의 상태설명이다. 현재 뒤처리의 원인이나 미래 후회 예고로 바꾸지 않고 과거 사건 세부를 만들지 않는다."
+    },
+    {
+      "id": "R-gap",
+      "prompt": "자신의 계획과 결과 차이를 과장한다.",
+      "action": "recommend",
+      "filters": {
+        "situations": [
+          "기대와현실차이"
+        ],
+        "targets": [
+          "자기"
+        ],
+        "mode": "lookup",
+        "limit": 5
+      },
+      "reason": "자기 계획과 결과의 차이를 과장하는 기능은 드러나지만 자발적 선택으로 곤란을 초래했다는 인과는 없다. 상황과 자기 방향으로 후보를 조회하며 실제 책임이나 구체 결과를 만들지 않는다. lookup은 자동 사용 승인이 아니므로 caution 후보의 문맥을 별도 검토한다."
+    },
+    {
+      "id": "U-upside",
+      "prompt": "자신의 사소한 일정·게임 차질을 인정하면서 그 상황에서 확인할 수 있는 구체적인 이점이나 대안을 찾는다.",
+      "action": "recommend",
+      "filters": {
+        "intents": [
+          "긍정적재해석"
+        ],
+        "situations": [
+          "구체적이점발견"
+        ],
+        "targets": [
+          "상황"
+        ],
+        "mode": "recommend",
+        "limit": 5
+      },
+      "reason": "사소한 차질을 인정하면서 확인 가능한 이점이나 대안을 찾는 기능이다. 자기 책임을 웃어넘기는 기능과 구별한다. 원문에 구체 대안의 내용은 없으므로 조회 후에도 새 이점·일정·좋은 결과를 창작하지 않고 필요한 경우 확인해야 한다."
+    },
+    {
+      "id": "A26",
+      "prompt": "😶‍🌫️!!!",
+      "action": "clarify",
+      "filters": {},
+      "reason": "이모지와 느낌표만으로 상황·감정·의도·대상을 결정할 수 없어 원하는 맥락과 반응을 질문한다."
+    }
+  ]
+}
