@@ -1,0 +1,73 @@
+{
+  "batch": 402,
+  "base": "f9db413eadd3a853489f063eb97604872126f46c",
+  "canonical_before": 989,
+  "canonical_after": 989,
+  "added": [],
+  "body_audit": {
+    "id": "gaegachi-result-reaction",
+    "passed": true,
+    "required_changes": 0,
+    "final_body_reads": 1,
+    "limits": "부활/멸망두형식한정0175partial타당.기존45행감사에소급포함안함"
+  },
+  "researchA": {
+    "held": [
+      {
+        "title": "소비경향5개",
+        "url": "https://www.cosmopolitan.co.kr/article/1903637",
+        "note": "프루걸시크/듀프코어/리틀트리트/무지출/구독다이어트일반소비경향밈제외"
+      },
+      {
+        "title": "조지러셀T포즈",
+        "url": "https://www.eyesmag.com/posts/164017/f1-instagram-profile-7-",
+        "note": "2026-03-24메타데이터만본문미노출한국재사용미확보"
+      }
+    ],
+    "correction": "swings-denial원문및동일출근사례중복재확인",
+    "queries": [
+      "2026 \"밈\" \"신곡\" site:genie.co.kr",
+      "2026 \"밈\" \"유행\" site:izm.co.kr",
+      "2026 \"밈\" \"패러디\" site:tenasia.co.kr",
+      "2026 \"밈\" \"사용\" site:starnewskorea.com",
+      "\"2026\" \"챌린지\" \"유행\" site:cosmopolitan.co.kr",
+      "\"2026\" \"밈\" site:eyesmag.com",
+      "\"2026\" \"밈\" site:hypebeast.kr",
+      "\"2026\" \"밈\" site:news.mnetplus.world",
+      "\"2026\" \"밈\" \"새로운\" site:fastpapermag.com",
+      "\"2026\" \"밈\" \"챌린지\" site:singleskorea.com",
+      "\"2026\" \"밈\" \"유행\" site:harpersbazaar.co.kr"
+    ]
+  },
+  "editor": {
+    "queries": [
+      "\"마따끄\" \"2026\" site:gall.dcinside.com -inurl:hanavi -inurl:wowclassic",
+      "\"몰?루\" \"2026\" site:gall.dcinside.com -site:namu.moe",
+      "\"몰?루\" \"2026\" -site:namu.moe -site:chatcrawler.app -site:tele.wiki -site:tg.me -수능 -안경 -카메라",
+      "\"몰루\" \"2026\" site:theqoo.net"
+    ],
+    "held": [
+      {
+        "id": "0447",
+        "note": "마따끄는추가검색닉네임과목록뿐기존직접1군유지"
+      },
+      {
+        "id": "0481",
+        "url": "https://gall.dcinside.com/mini/board/view/?id=gongjoon&no=12004&page=1",
+        "note": "2026-10-24재게시원문L351-355재전재명시,735몰?루표기.원작성일불명최근신규독립작성으로세지않음.다른검색은채널명/정치비난/시험보안논쟁채택안함"
+      }
+    ]
+  },
+  "ci": {
+    "report400": {
+      "run": 44251431663,
+      "job": 134622804569,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 108.427,
+      "success": true
+    },
+    "body989": "pending",
+    "new_commit": "pending"
+  }
+}

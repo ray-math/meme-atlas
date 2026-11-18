@@ -228,10 +228,11 @@
     "reports/bulk/connector-resume-wave30-397.json",
     "reports/bulk/connector-resume-wave30-398.json",
     "reports/bulk/connector-resume-wave30-399.json",
-    "reports/bulk/connector-resume-wave30-400.json"
+    "reports/bulk/connector-resume-wave30-400.json",
+    "reports/bulk/connector-resume-wave30-402.json"
   ],
-  "query_observations": 5346,
-  "distinct_literal_queries": 4623,
+  "query_observations": 5361,
+  "distinct_literal_queries": 4638,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -27163,6 +27164,81 @@
     {
       "query": "\"긴빠이\" 밈 사용 -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" \"2026\" site:gall.dcinside.com -inurl:hanavi -inurl:wowclassic",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"몰?루\" \"2026\" site:gall.dcinside.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"몰?루\" \"2026\" -site:namu.moe -site:chatcrawler.app -site:tele.wiki -site:tg.me -수능 -안경 -카메라",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"몰루\" \"2026\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"신곡\" site:genie.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행\" site:izm.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:tenasia.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"사용\" site:starnewskorea.com",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"챌린지\" \"유행\" site:cosmopolitan.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:eyesmag.com",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:hypebeast.kr",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.mnetplus.world",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"새로운\" site:fastpapermag.com",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"챌린지\" site:singleskorea.com",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"유행\" site:harpersbazaar.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-402.json",
       "status": "screened-see-report"
     }
   ],
