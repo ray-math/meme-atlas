@@ -648,6 +648,7 @@
 - [팝캣](../memes/popcat-click.md)
 - [팟수](../memes/patsu.md)
 - [팬아저](../memes/fanajeo.md)
+- [펄~럭](../memes/peolleok-flag-reaction.md)
 - [페드로 라쿤](../memes/pedro-raccoon.md)
 - [페친](../memes/pechin.md)
 - [펩시맨 시리즈](../memes/pepsiman-jokes.md)
