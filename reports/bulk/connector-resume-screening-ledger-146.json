@@ -171,10 +171,11 @@
     "reports/bulk/connector-resume-wave30-339.json",
     "reports/bulk/connector-resume-wave30-340.json",
     "reports/bulk/connector-resume-wave30-341.json",
-    "reports/bulk/connector-resume-wave30-342.json"
+    "reports/bulk/connector-resume-wave30-342.json",
+    "reports/bulk/connector-resume-wave30-343.json"
   ],
-  "query_observations": 3961,
-  "distinct_literal_queries": 3380,
+  "query_observations": 3979,
+  "distinct_literal_queries": 3397,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -20181,6 +20182,96 @@
     {
       "query": "제리|인사하는|대충.*짤",
       "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자러감\" 밈 \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"장비를 정지합니다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인사하는 제리\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"제주도 찐 사투리\"",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조보아씨\" \"2026\" 먹어",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"장비를 정지합니다\" \"2026\" -site:namu.moe -site:kone.gg",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인사하는 제리\" 감사",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자러감 드립\"",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"대충 제리\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"장비를 정지합니다\" \"오류\"",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조보아씨\" \"먹어봐유\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"제리 인사하는 짤\" -site:namu.moe -site:dcinside.com",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"대충 제리\" 감사 -site:dcinside.com -site:kone.gg",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"장비를 정지합니다\" 블로그",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조보아씨\" \"먹어봐유\" \"2026\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내려와서\" \"먹어봐유\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026년 3분기 애니\" \"2부\" \"조보아\"",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조보아씨\" \"2026\" \"철냄비짱\"",
+      "source": "reports/bulk/connector-resume-wave30-343.json",
       "status": "screened-see-report"
     }
   ],

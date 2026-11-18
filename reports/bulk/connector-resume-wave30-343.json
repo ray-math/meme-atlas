@@ -1,0 +1,57 @@
+{
+  "batch": 343,
+  "base": "b98a5d0c64061ea22cb285909f61347a35204d29",
+  "canonical_before": 969,
+  "canonical_after": 969,
+  "added": [],
+  "research": {
+    "base": 967,
+    "candidates": [
+      "0894",
+      "0901",
+      "0924",
+      "0926",
+      "0929"
+    ],
+    "recommended": [
+      "0924"
+    ],
+    "already_published_batch": 342,
+    "held": 4,
+    "queries": [
+      "\"자러감\" 밈 \"2026\"",
+      "\"장비를 정지합니다\" \"2026\"",
+      "\"인사하는 제리\" \"2026\"",
+      "\"제주도 찐 사투리\"",
+      "\"조보아씨\" \"2026\" 먹어",
+      "\"장비를 정지합니다\" \"2026\" -site:namu.moe -site:kone.gg",
+      "\"인사하는 제리\" 감사",
+      "\"자러감 드립\"",
+      "\"대충 제리\" \"2026\" -site:namu.moe",
+      "\"장비를 정지합니다\" \"오류\"",
+      "\"조보아씨\" \"먹어봐유\" -site:namu.moe -site:seore.org",
+      "\"제리 인사하는 짤\" -site:namu.moe -site:dcinside.com",
+      "\"대충 제리\" 감사 -site:dcinside.com -site:kone.gg",
+      "\"장비를 정지합니다\" 블로그"
+    ],
+    "sources": [
+      "https://battlepage.com/??=Battle.Gamegallery.View&no=51018",
+      "https://aion2.gaming.tools/ko/activities/dungeon-320018",
+      "https://www.etoday.co.kr/news/view/2352921?trc=view_joinnews",
+      "https://green7333.tistory.com/168",
+      "https://www.ntdtv.kr/2019/05/320475.html"
+    ],
+    "limits": "Workerread/editorunread. 0901Sep5commentrecollection+fanDBnotofficialreuse;Orbi403Inven/Jjan502.0926Apr22 2024reportnotdirectremixes;avoidprivatevictimdetails.0929old2020Oct10+2019May22uses no recent;NTDdateinconsistency.0894ambiguoussexualresultnotfurtherread. Jerry no newcanoncount after342."
+  },
+  "editor": {
+    "queries": [
+      "\"조보아씨\" \"먹어봐유\" \"2026\" -site:namu.moe -site:seore.org",
+      "\"내려와서\" \"먹어봐유\" \"2026\" -site:namu.moe",
+      "\"2026년 3분기 애니\" \"2부\" \"조보아\"",
+      "\"조보아씨\" \"2026\" \"철냄비짱\""
+    ],
+    "limits": "DCsearchsnippet2026Sep26anime-review reusedphrase, two boardcopies likelysamepost not2uses. Searchpageopenfailed, underlyingnotyetread. No promotedverification."
+  },
+  "note": "Delayed research query log for candidate already published342; not another addition. Snippet notverifiedrecentusage.",
+  "ci": "969 in progress at preparation"
+}
