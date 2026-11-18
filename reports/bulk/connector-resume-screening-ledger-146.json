@@ -65,10 +65,11 @@
     "reports/bulk/connector-resume-screening212.json",
     "reports/bulk/connector-resume-audit-holds213.json",
     "reports/bulk/connector-resume-screening214.json",
-    "reports/bulk/connector-resume-screening215.json"
+    "reports/bulk/connector-resume-screening215.json",
+    "reports/bulk/connector-resume-discovery216.json"
   ],
-  "query_observations": 1028,
-  "distinct_literal_queries": 824,
+  "query_observations": 1034,
+  "distinct_literal_queries": 830,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -5410,6 +5411,36 @@
     {
       "query": "호프",
       "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:news.seoul.go.kr",
+      "source": "reports/bulk/connector-resume-discovery216.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"활용\" site:busan.go.kr",
+      "source": "reports/bulk/connector-resume-discovery216.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:news.suwon.go.kr",
+      "source": "reports/bulk/connector-resume-discovery216.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" \"홍보영상\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-discovery216.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"말투\" \"공식\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-discovery216.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "프랑스|papa|만두",
+      "source": "reports/bulk/connector-resume-discovery216.json",
       "status": "screened-see-report"
     }
   ],
