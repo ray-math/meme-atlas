@@ -523,6 +523,7 @@
 - [이지까까](../memes/easy-kkakka.md)
 - [이탈리안 브레인롯](../memes/italian-brainrot.md)
 - [인간의 욕심은 끝이 없고 같은 실수를 반복한다](../memes/greed-repeats.md)
+- [인사하는 제리](../memes/greeting-jerry.md)
 - [인생샷](../memes/insaeng-shot.md)
 - [인생이란 원래 자기 생각대로 되지 않는 법이란다](../memes/life-not-as-planned.md)
 - [인생짤](../memes/insaeng-jjal.md)

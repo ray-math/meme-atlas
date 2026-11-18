@@ -710,6 +710,7 @@
 - [이탈리안 브레인롯](italian-brainrot.md)
 - [인간 여짜](human-yeojja.md)
 - [인간의 욕심은 끝이 없고 같은 실수를 반복한다](greed-repeats.md)
+- [인사하는 제리](greeting-jerry.md)
 - [인생샷](insaeng-shot.md)
 - [인생이란 원래 자기 생각대로 되지 않는 법이란다](life-not-as-planned.md)
 - [인생짤](insaeng-jjal.md)

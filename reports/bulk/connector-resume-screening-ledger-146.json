@@ -170,10 +170,11 @@
     "reports/bulk/connector-resume-wave30-338.json",
     "reports/bulk/connector-resume-wave30-339.json",
     "reports/bulk/connector-resume-wave30-340.json",
-    "reports/bulk/connector-resume-wave30-341.json"
+    "reports/bulk/connector-resume-wave30-341.json",
+    "reports/bulk/connector-resume-wave30-342.json"
   ],
-  "query_observations": 3940,
-  "distinct_literal_queries": 3359,
+  "query_observations": 3961,
+  "distinct_literal_queries": 3380,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -20075,6 +20076,111 @@
     {
       "query": "바쁘다|바빠|현대사회",
       "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "특이점|singular|고도로",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "틀딱|라떼|노인",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "팅팅|ting",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "파오후|쿰척",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "팩트|사실|팩폭",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "펀쿨섹|fun.cool|섹시",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "펄럭|펄~|국뽕",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "페이크|fake|속였",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "평타|상타|ㅍㅌ|ㅅㅌ",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "폴란드|poland|국가",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "풀발|과민|분노",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "피지컬|프로게이머",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "피에로|광대|조커",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "즐거우세요|즐거",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하루만|기다리면",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하와와|여고생",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하츠네|형돈|미쿠",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "학교폭력|멈춰",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한글.*않|utdaein|왈도",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한본어|일본어|한국어",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "제리|인사하는|대충.*짤",
+      "source": "reports/bulk/connector-resume-wave30-342.json",
       "status": "screened-see-report"
     }
   ],
