@@ -1,0 +1,346 @@
+{
+  "batch": 499,
+  "base": "f15bab354daab2881acc3a02b8fe848d326146d6",
+  "canonical_before": 1623,
+  "canonical_after": 1633,
+  "added": [
+    "obvious-composite-rich-life-pov",
+    "anime-pose-object-summoning-edit",
+    "ai-visualized-pun-performance",
+    "inssa-joke-label",
+    "ippon-manzoku-commercial-remix",
+    "marketpedia-ad-making-anticlimax",
+    "delicious-winter-pear-fan-remix",
+    "godcom-capcom-praise-nickname",
+    "bottle-standing-video-challenge",
+    "dog-face-filter-selfie"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0874",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "inssa-joke-label"
+    },
+    {
+      "id": "kr-list-0986",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "ippon-manzoku-commercial-remix"
+    },
+    {
+      "id": "kr-list-1012",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "delicious-winter-pear-fan-remix"
+    }
+  ],
+  "previous_ci": {
+    "run": 44333046433,
+    "job": 134902248724,
+    "sha": "f15bab354daab2881acc3a02b8fe848d326146d6",
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 174.000s"
+  },
+  "previous_audit": {
+    "status": "pass",
+    "required": 0,
+    "sha": "f15bab354daab2881acc3a02b8fe848d326146d6",
+    "canonical": 1623,
+    "files": 19,
+    "old_bodies_index_unchanged": 1613,
+    "usage_annotations_unchanged": 74,
+    "sources_direct": 13,
+    "notes": "ppi duplicate draft excluded. Three partial mappings only; bone mapped existing not new."
+  },
+  "research": {
+    "A81": {
+      "observations": 20,
+      "recommended": 2,
+      "held": 18,
+      "queries": [
+        "\"이봐요 미친놈씨\" 패러디 -site:namu.moe -site:seore.org",
+        "\"이쿠요\" \"춤\" 밈 -site:namu.moe",
+        "\"이훈이\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"인문학적 변태\" 유래 -site:namu.moe -site:seore.org",
+        "\"인싸개그\" 뜻 -site:namu.moe",
+        "\"인증 대란\" 패러디 -site:namu.moe",
+        "\"칠레아재\" \"택시\" -site:namu.moe",
+        "\"아자핑\" \"하츄핑\" 밈 -site:namu.moe",
+        "\"와플핑\" \"핫케핑\" -site:namu.moe",
+        "\"자러감\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"잘생겨서 안 좋은 점\" -site:namu.moe",
+        "\"홍명보\" \"밈\" 선임 -site:namu.moe",
+        "\"저런\" \"상상하고 싶지도 않네요\" -site:namu.moe -site:seore.org",
+        "\"제 딸을 살해한 놈들을 15년 후에 죽여주세요\" -site:namu.moe",
+        "\"제너럴 조\" 밈 -site:namu.moe",
+        "\"조이는 보이\" -site:namu.moe -site:seore.org",
+        "\"죄송합니다\" \"밈\" 유래 -site:namu.moe",
+        "\"지이잉\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"초난강\" \"패러디\"",
+        "\"초코빅송\" -site:namu.moe -site:seore.org",
+        "\"인싸개그\" -site:namu.moe -site:seore.org -site:wiki -site:youtube.com",
+        "\"잇폰만조쿠\" \"패러디\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "2 historical narrow candidates; personal explainer/review single groups. Ikuyo previous source notnew; 18held."
+    },
+    "A82": {
+      "observations": 20,
+      "recommended": 1,
+      "held": 19,
+      "additional_unmapped_recommendation": 1,
+      "queries": [
+        "\"차차핑\" \"밈\" -site:namu.moe",
+        "\"캡콤은\" \"갓콤으로\" -site:namu.moe",
+        "\"노인전\" \"밈\" -site:namu.moe",
+        "\"맛있는 겨울배\" -site:namu.moe",
+        "\"케경호\" -site:namu.moe -site:alphawiki.org",
+        "\"코리안조커\" 밈 -site:namu.moe",
+        "\"코렁탕\" 뜻 -site:namu.moe",
+        "\"클로저스 성우\" \"패러디\" -site:namu.moe",
+        "\"킹 오브 프리즘\" \"패러디\" 한국",
+        "\"택배 드립\" -site:namu.moe -site:seore.org",
+        "\"파피 플레이타임\" \"밈\" 한국",
+        "\"평온차\" -site:namu.moe -site:seore.org",
+        "\"포켓몬빵\" \"패러디\"",
+        "\"프로게이머 피지컬\" 밈 -site:namu.moe",
+        "\"프라이데이 나이트 펑킨\" \"패러디\" 한국",
+        "\"피에로 드립\" -site:namu.moe -site:seore.org",
+        "\"하츄핑\" \"별명\" 밈",
+        "\"한글자 드립\" -site:namu.moe -site:seore.org",
+        "\"헝그리 정신\" \"밈\" -site:namu.moe",
+        "\"케인\" \"밈\" \"겨울배\" -site:namu.moe -site:alphawiki.org -site:seore.org"
+      ],
+      "notes": "Parent keeps1073 broadpokemonbread held not partial; individualcollage alreadyknown notscopeproof. Godcom separate not1005mapping. Inven217087 workerread,parent502 noadoption."
+    },
+    "B553": {
+      "observations": 20,
+      "recommended": 0,
+      "existing": 12,
+      "held": 5,
+      "excluded": 3,
+      "queries": [
+        "2026 \"말투\" \"패러디\" \"유행\"",
+        "2026 \"밈\" \"댓글\" site:hani.co.kr",
+        "2026 \"밈\" \"문구\" site:khan.co.kr",
+        "\"2026\" \"말투\" \"놀이\" -site:namu.wiki -site:namu.moe",
+        "\"무례하지 않게\" \"다시\" \"릴스\"",
+        "\"색소폰이 커지고\" 밈",
+        "\"Saxophones Getting Louder\" 한국"
+      ],
+      "notes": "POV upper1percent reserved C65 now, not yet verified here. Taeyang selfreenactment booster old family; no broadcast viewed."
+    },
+    "B554": {
+      "observations": 20,
+      "recommended": 0,
+      "existing": 4,
+      "family": 3,
+      "held": 7,
+      "excluded": 6,
+      "queries": [
+        "site.magazine.weverse.io 2026 밈",
+        "site:newsroom.cj.net 2026 밈 패러디",
+        "site:news.samsung.com/kr 2026 밈",
+        "site:magazine.weverse.io/article/view \"2026\" \"밈\"",
+        "site:newsroom.cj.net \"패러디\""
+      ],
+      "notes": "Weverse1997/1786/1995 direct; broad games/stories excluded, overseas patterns not domestic proof. Site typo literal retained."
+    },
+    "B555": {
+      "observations": 14,
+      "recommended": 2,
+      "existing": 2,
+      "held": 10,
+      "queries": [
+        "물병 세우기 챌린지 연예인",
+        "댑 댄스 유행 한국 세리머니",
+        "스냅챗 강아지 필터 연예인",
+        "심포니 돌고래 밈 한국",
+        "\"댑\" \"강다니엘\"",
+        "\"강아지 필터\" \"태연\" -열애 -jpg",
+        "\"물병 세우기\" \"동행\" 2023",
+        "\"댑\" \"2017\" \"춤\"",
+        "\"강아지 필터\" \"수지\"",
+        "\"심포니\" \"돌고래\" \"한국\" 밈 -site:namu.wiki",
+        "\"댑 댄스\" \"유재석\"",
+        "\"댑 댄스\" \"박명수\""
+      ],
+      "notes": "14 actual not20 forced. Historical2; onefestival group. Dog nose/tongue only,noear claim. Dab coughguide notdanceperformance; dolphin title notformatproof."
+    },
+    "C65": {
+      "observations": 20,
+      "recommended": 3,
+      "existing": 6,
+      "held": 11,
+      "queries": [
+        "site.gogumafarm.kr \"2026\" \"밈\" \"11월\"",
+        "site.maily.so \"2026\" \"밈\" \"편집\" \"10월\"",
+        "site:gogumafarm.kr \"2026\" \"7월\" \"트랜지션\"",
+        "site:maily.so \"2026\" \"폴리에스터\"",
+        "site:incross.com \"2026\" \"젠모지\"",
+        "site:gogumafarm.kr 트랜지션 릴스 2026",
+        "site:incross.com 젠모지",
+        "site:careet.net \"폰트\" \"패션\"",
+        "\"상위 1%\" \"POV\" 릴스 합성",
+        "\"오타쿠샷\" 다이닛",
+        "\"아무개란\" \"양도소득세\""
+      ],
+      "notes": "3forms sameJune2editorial not3sources. IG3cachemiss. Generic crafts/single productionsheld. Font/genmoji/polyester queryonly notobservations."
+    },
+    "C66": {
+      "observations": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"마켓피디아\" \"아이폰\" 광고 패러디",
+        "\"뽀로로 내비\" \"릴스\"",
+        "\"공항 검색대\" \"메이크업\" 챌린지",
+        "\"환승연애\" \"로판\" \"2026\"",
+        "\"공항\" \"메이크업\" \"챌린지\" 릴스",
+        "\"공항 검색대\" \"피카쏭\"",
+        "\"뽀로로\" \"내비\" \"밈\"",
+        "\"아이폰으로 찍은\" \"광고\" \"패러디\" 마켓피디아",
+        "\"누추한 곳에 귀한\" \"2026\" 댓글",
+        "\"아이폰\" \"마켓피디아\" \"따라\" 광고",
+        "\"공항\" \"화장\" \"피카쏭\""
+      ],
+      "notes": "Marketpedia samecreator multiplearticles not independentmimics. Other19singleproductions/genericactivities/overseasheld. Brunchcachemiss notsource."
+    },
+    "Parent": {
+      "queries": [
+        "2026 \"11월\" \"밈\" \"패러디\" -site:namu.moe -site:namu.wiki -site:instablank.com -site:yongdev.dev",
+        "2026 \"10월\" \"유행어\" \"댓글\" -site:namu.moe -site:namu.wiki",
+        "2026 \"11월\" \"릴스\" \"유행\" site:incross.com",
+        "\"라우럴\" \"지수\" 넷플릭스",
+        "\"체포하겠어\" \"취뽀하겠어\"",
+        "\"엄마 동결건조\"",
+        "site:gogumafarm.kr \"2026.06.02\"",
+        "\"2026\" \"밈\" \"패러디\" site:magazine.cheil.com",
+        "\"2026\" \"밈\" \"말장난\" site:blog.hsad.co.kr",
+        "\"2026\" \"밈\" \"영상\" site:daehong.com",
+        "2026 밈 재현 site:news.kbs.co.kr",
+        "2026 밈 패러디 site:imnews.imbc.com",
+        "2026 밈 유행 site:news.sbs.co.kr",
+        "\"2026\" \"밈\" \"패러디\" site:kobaco.co.kr",
+        "\"2026\" \"밈\" \"말투\" site:univ20.com",
+        "\"2026\" \"밈\" \"활용\" site:ad.co.kr",
+        "site:blog.hsad.co.kr \"2026\" \"11월\" \"한국 시리즈\"",
+        "site:blog.hsad.co.kr \"2026\" \"07월\"",
+        "\"맛있는 겨울배\" 도네 2021",
+        "\"갓콤\" 스타뉴스 2018",
+        "\"갓콤\" 인벤 2019"
+      ],
+      "existing": [
+        "raureol",
+        "under-arrest",
+        "freeze-dry-affection",
+        "roadster-ai-parody",
+        "ppi"
+      ],
+      "source_booster": [
+        {
+          "id": "roadster-ai-parody",
+          "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6858873_37013.html",
+          "date": "2026-10-19",
+          "notes": "Direct transcript not video; same known family, no new canonical."
+        }
+      ],
+      "held": "Daehong category cachemiss; not promoted from search snippet. KBS robotsblocked; no retries.",
+      "hsad3760": {
+        "url": "https://blog.hsad.co.kr/3760",
+        "date": "2026-07-09",
+        "observations": 8,
+        "existing": 5,
+        "excluded": 3,
+        "notes": "Five fixed forms existing: who-is-back, nose-apology, yareu-song, acting-day-one,tiny-hand. Jellyshoe craft, broad squishy trend, pension advert excluded broad activities/single campaign; no new."
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "obvious-composite-rich-life-pov",
+      "urls": [
+        "https://gogumafarm.kr/연기-챌린지-주술-회전샷-피드를-점령한-릴스-포맷-4가/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "anime-pose-object-summoning-edit",
+      "urls": [
+        "https://gogumafarm.kr/연기-챌린지-주술-회전샷-피드를-점령한-릴스-포맷-4가/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ai-visualized-pun-performance",
+      "urls": [
+        "https://gogumafarm.kr/연기-챌린지-주술-회전샷-피드를-점령한-릴스-포맷-4가/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "inssa-joke-label",
+      "urls": [
+        "https://jyyj.tistory.com/entry/안녕하살법"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ippon-manzoku-commercial-remix",
+      "urls": [
+        "https://ryunan9903.tistory.com/74"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "marketpedia-ad-making-anticlimax",
+      "urls": [
+        "https://www.diarypoint.com/news/articleView.html?idxno=1766",
+        "https://magazine.hankyung.com/business/amp/202604278828b"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "delicious-winter-pear-fan-remix",
+      "urls": [
+        "https://kanetv.tistory.com/entry/케인-도네용-영상-맛있는-겨울배",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2592990801&l=koreana"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "godcom-capcom-praise-nickname",
+      "urls": [
+        "https://www.starnewskorea.com/business-life/2018/10/16/2018101611311793115"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bottle-standing-video-challenge",
+      "urls": [
+        "https://www.mss.go.kr/site/smba/brdcststnVod/brdcststnVodView.do?ctgr_code=C03&searchSeq=ST_000000001175055",
+        "https://www.kroma.co.kr/insights/1bb826ca-bbfd-4ebd-8148-b16941eb86eb"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dog-face-filter-selfie",
+      "urls": [
+        "https://m2.dongascience.com/ko/news/12475"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Ten new bounded entries independently preaudited; original media/apps not viewed.",
+    "1073 remains held; existing Pokemon collage does not verify broad bread phenomenon. 1005 remains held; Godcom separately named.",
+    "Three June2 formats share one editorial source, source-derived wording combined bounded. No main changes, no test weakening."
+  ],
+  "query_observations": 11539,
+  "distinct_literal_queries": 9491,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
