@@ -103,10 +103,11 @@
     "reports/bulk/connector-resume-wave30-258.json",
     "reports/bulk/connector-resume-wave30-259.json",
     "reports/bulk/connector-resume-wave30-260.json",
-    "reports/bulk/connector-resume-wave30-261.json"
+    "reports/bulk/connector-resume-wave30-261.json",
+    "reports/bulk/connector-resume-wave30-262.json"
   ],
-  "query_observations": 1894,
-  "distinct_literal_queries": 1532,
+  "query_observations": 1933,
+  "distinct_literal_queries": 1569,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -9778,6 +9779,201 @@
     {
       "query": "카뮈",
       "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라이크 원이\" \"2026\" -site:bwajuma.club -site:likewoni100.com -site:rescene.org -site:namu.moe -site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"LIKE WONI\" \"AI\" 뉴스",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라이크원이\" 공식",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:magazine.hankyung.com \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:allurekorea.com \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:esquirekorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "WONI",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라이크 원이",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쿵 할게요",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뉴욕 헤럴드",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "다이아몬드",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "H마트",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영포티",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍던씸 챌린지\" site:youtube.com",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍던씸\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍던씸\" site:weverse.io",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"씹던껌 챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껌씹던 챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍던씸\" \"춤\" -site:namu.moe -site:meme-radar-6eq.pages.dev",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍던씸 챌린지\" \"이시우\"",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍던씸\" \"로블록스\"",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"우마무스메 챌린지\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"식품\" \"패러디\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"은행\" \"패러디\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"철도\" \"패러디\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"왁뿌\" \"2026\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하이닉스\" \"조끼\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"생각이 많아지셨나요\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "왁뿌",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "니온",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "미혼",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "성과급",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "조끼",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "생각이 많",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "두 번 물",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "내가 좋냐",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "경찰 부른",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "햄버거",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "킷캣",
+      "source": "reports/bulk/connector-resume-wave30-262.json",
       "status": "screened-see-report"
     }
   ],

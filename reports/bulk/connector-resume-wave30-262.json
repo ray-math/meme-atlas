@@ -1,0 +1,76 @@
+{
+  "batch": 262,
+  "canonical_before": 916,
+  "canonical_after": 917,
+  "added": "hynix-vest-reversal",
+  "evidence": "Two reported production events SNL Apr25/HotIssueJi May5; MT Apr28 and Seoul Aug12 read; original images/videos0; financial forecasts excluded",
+  "ac": {
+    "a": {
+      "queries": [
+        "\"라이크 원이\" \"2026\" -site:bwajuma.club -site:likewoni100.com -site:rescene.org -site:namu.moe -site:inven.co.kr",
+        "\"LIKE WONI\" \"AI\" 뉴스",
+        "\"라이크원이\" 공식",
+        "\"2026\" \"밈\" site:magazine.hankyung.com \"11월\"",
+        "\"2026\" \"밈\" site:allurekorea.com \"11월\"",
+        "\"2026\" \"밈\" site:esquirekorea.co.kr"
+      ],
+      "index_queries": [
+        "WONI",
+        "라이크 원이",
+        "쿵 할게요",
+        "뉴욕 헤럴드",
+        "다이아몬드",
+        "H마트",
+        "영포티"
+      ],
+      "note": "uslab.ai/ko/blog/making-of-like-woni-top-100 Sep3 same chartoperator as likewoni100; not independent music creator. Ppomppu10109694403. Hold."
+    },
+    "c": {
+      "queries": [
+        "\"껍던씸 챌린지\" site:youtube.com",
+        "\"껍던씸\" site:theqoo.net",
+        "\"껍던씸\" site:weverse.io",
+        "\"씹던껌 챌린지\"",
+        "\"껌씹던 챌린지\"",
+        "\"껍던씸\" \"춤\" -site:namu.moe -site:meme-radar-6eq.pages.dev",
+        "\"껍던씸 챌린지\" \"이시우\"",
+        "\"껍던씸\" \"로블록스\"",
+        "\"우마무스메 챌린지\" 2026"
+      ],
+      "note": "HCeXGtq5hvA Jan27 metadata only; Funnationpopular repeats same metadata; originalthrottled. Danceexecution0,hold"
+    }
+  },
+  "b": {
+    "queries": [
+      "2026 \"밈\" \"식품\" \"패러디\" -site:namu.moe -site:instablank.com",
+      "2026 \"밈\" \"은행\" \"패러디\" -site:namu.moe -site:instablank.com",
+      "2026 \"밈\" \"철도\" \"패러디\" -site:namu.moe -site:instablank.com",
+      "\"왁뿌\" \"2026\" -site:namu.moe -site:instablank.com",
+      "\"하이닉스\" \"조끼\" \"밈\" 2026",
+      "\"생각이 많아지셨나요\" \"2026\""
+    ],
+    "index_queries": [
+      "왁뿌",
+      "니온",
+      "미혼",
+      "성과급",
+      "조끼",
+      "생각이 많",
+      "두 번 물",
+      "내가 좋냐",
+      "경찰 부른",
+      "햄버거",
+      "킷캣"
+    ],
+    "holds": [
+      "왁뿌",
+      "생각이 많아지셨나요"
+    ],
+    "duplicate": "mihon-and-bihon"
+  },
+  "metrics": {
+    "query_observations": 1933,
+    "distinct_literal_queries": 1569
+  },
+  "ci": "not run"
+}
