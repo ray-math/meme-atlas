@@ -75,3 +75,4 @@
 - [나 됐어요! ○○ 됐어요!](../memes/i-became-template.md)
 - [생사과가 제일 맛있었어요](../memes/raw-apple-was-best.md)
 - [○○만 원이지만 또 가고 싶은 ○○](../memes/expensive-but-want-again.md)
+- [○○는 완전히 멘탈이 나가버렸습니다](../memes/completely-lost-their-minds.md)

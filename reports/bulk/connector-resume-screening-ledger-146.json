@@ -70,10 +70,11 @@
     "reports/bulk/connector-resume-screening218.json",
     "reports/bulk/connector-resume-audit219.json",
     "reports/bulk/connector-resume-editor-220.json",
-    "reports/bulk/connector-resume-editor-221.json"
+    "reports/bulk/connector-resume-editor-221.json",
+    "reports/bulk/connector-resume-editor-223.json"
   ],
-  "query_observations": 1101,
-  "distinct_literal_queries": 891,
+  "query_observations": 1125,
+  "distinct_literal_queries": 912,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -5780,6 +5781,126 @@
     {
       "query": "airpod",
       "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈을 활용\" \"도서관\"",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" \"박물관\"",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"공식\" \"11월\"",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"박물관\" -site:luckyvicky.moamoang.co.kr",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"거제 야호\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"우체국\"",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"우체국\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"박물관\" \"홍보\"",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"소방서\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"완전히 멘탈이 나가버렸습니다\" -site:luckyvicky.moamoang.co.kr",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"도서관\" \"홍보\"",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디했다\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "거제야호",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "니가좋아",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감옥에서",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라을라",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "동결건조",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "No Roots",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "멘탈이",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "멘탈",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나가버렸",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "장인이",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "유유미미",
+      "source": "reports/bulk/connector-resume-editor-223.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "필재",
+      "source": "reports/bulk/connector-resume-editor-223.json",
       "status": "screened-see-report"
     }
   ],

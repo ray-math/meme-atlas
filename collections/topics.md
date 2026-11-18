@@ -6,6 +6,7 @@
 
 - [54000개](../memes/54000.md)
 - [○○냥이](../memes/nyang-parody.md)
+- [○○는 완전히 멘탈이 나가버렸습니다](../memes/completely-lost-their-minds.md)
 - [딸깍](../memes/click.md)
 - [혐대고기](../memes/hyumdae-meat.md)
 
@@ -977,6 +978,7 @@
 
 - [○○ 와졌어](../memes/ended-up-here.md)
 - [○○ 필수 호신술](../memes/everyday-self-defense-parody.md)
+- [○○는 완전히 멘탈이 나가버렸습니다](../memes/completely-lost-their-minds.md)
 - [○○만 원이지만 또 가고 싶은 ○○](../memes/expensive-but-want-again.md)
 - [간바레 챌린지](../memes/ganbare-three-panel-challenge.md)
 - [간절스러웠어요](../memes/ganjeolseureowosseoyo.md)
