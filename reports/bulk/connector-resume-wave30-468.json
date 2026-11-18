@@ -1,0 +1,326 @@
+{
+  "batch": 468,
+  "base": "50b7976aa533fd7f44da63aebb70a325cfc7f16d",
+  "canonical_before": 1306,
+  "canonical_after": 1317,
+  "added": [
+    "mugonghae-unconditional-empathy-format",
+    "woo-youngwoo-to-the-greeting",
+    "maknagwi-going-out-reluctance-label",
+    "gemmini-ai-consulting-label",
+    "mbtistian-personality-type-label",
+    "dongyeobi-repeat-menu-label",
+    "godbanin-outside-fandom-label",
+    "sumdeutmyeong-private-favorite-song-label",
+    "job-description-crime-briefing-parody",
+    "errdaydrip-retro-ai-music-edit",
+    "taesoon-character-costume-parody"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0816",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "woo-youngwoo-to-the-greeting"
+    }
+  ],
+  "previous_ci": {
+    "run": 44293455792,
+    "job": 134764272590,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 142.040s"
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "mandatory": 0,
+    "new_entries": 6,
+    "prior_entries_unchanged": 1300,
+    "candidate_changes": 2,
+    "mapping_loss": 0,
+    "source_urls_reopened": 11,
+    "media_viewed": 0
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 10,
+      "held": 9,
+      "queries": [
+        "\"우마우마\" 패러디",
+        "\"우연히\" \"밈\"",
+        "\"우영우\" 패러디 인사",
+        "\"원앙시해자\"",
+        "\"유루유리 하지마루요\" 패러디",
+        "\"육군 we 육군\"",
+        "\"의학적인 근거가 없습니다\" 밈",
+        "\"으악 안 돼\" 이병헌 광고",
+        "\"우영우 인사법\" \"따라\" 박진주",
+        "\"으악 안 돼\" \"일간스포츠\"",
+        "\"위대한\" \"밈\"",
+        "\"윌 스미스\" \"패러디\" 한국"
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "recommended": 0,
+      "existing": 15,
+      "held": 5,
+      "queries": [
+        "\"의문의\" \"행\" \"밈\"",
+        "\"이\" \"무료로 해줍니다\" 밈",
+        "\"이건 정말 듣도 보도 못한 발상이군\"",
+        "\"이거 보고 이재명 뽑기로 했다\"",
+        "\"의문의\" \"행\" \"유행어\"",
+        "\"듣도 보도 못한 발상이군\" 유래",
+        "\"음원사재기\" \"밈\"",
+        "\"의문의 연예인행\"",
+        "\"의문의\" \"행\" site:sports.donga.com"
+      ]
+    },
+    "A3": {
+      "count": 20,
+      "recommended": 0,
+      "existing": 13,
+      "held": 7,
+      "queries": [
+        "\"이봐요 미친놈씨\"",
+        "\"이세계물\" \"드립\"",
+        "\"이승우\" \"돼지불백\" 패러디",
+        "\"이제 그만\" \"밈\"",
+        "\"이쿠요\" \"밈\"",
+        "\"이훈이\" \"밈\"",
+        "\"인문학적 변태\"",
+        "\"이세계\" \"낯선 천장\" 패러디",
+        "\"이쿠요 댄스\" 방송",
+        "\"인문학적 변태\" -site:namu.moe -site:seore.org",
+        "\"이제 그만\" \"남현희\" 밈"
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 8,
+      "held": 7,
+      "excluded": 4,
+      "queries": [
+        "2026 \"신조어\" \"밈\" site:newsis.com",
+        "2026 \"밈\" \"유행\" site:imnews.imbc.com",
+        "2026 \"밈\" \"유행\" site:news.kbs.co.kr",
+        "2026 \"밈\" \"현수막\" 대학",
+        "2026 \"신조어\" \"유행어\" \"소개\" -site:namu.moe",
+        "\"무공해\" \"무조건 공감\" 2026",
+        "\"오살힘\" 2026 \"인스타\"",
+        "\"야름답다\" 2026"
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended": 1,
+      "existing_related": 12,
+      "held": 7,
+      "queries": [
+        "2026 밈 \"따라\" \"유행\" site:elle.co.kr",
+        "2026 \"밈\" \"사진\" site:allurekorea.com",
+        "2026 \"밈\" \"챌린지\" site:univ20.com",
+        "\"갓반인\" 2026",
+        "\"갓반인\" 뜻 2025",
+        "\"MBTI\" \"OUTFIT\" 한국 틱톡"
+      ]
+    },
+    "B3": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 11,
+      "held": 3,
+      "excluded": 5,
+      "queries": [
+        "\"태순이\" \"졸업사진\"",
+        "\"태순이\" \"패러디\" 2026",
+        "2026 \"밈\" \"졸업사진\"",
+        "2026 \"패러디\" \"스마일 클리닉\"",
+        "2026 \"밈\" \"포즈\" 매거진",
+        "2026 \"밈\" \"사진\" \"모음\" -site:namu.moe -site:trendage.kr"
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 0,
+      "conditional": 2,
+      "held": 5,
+      "existing": 13,
+      "queries": [
+        "2026 신조어 \"동엽이\" \"엠비스찬\"",
+        "2026 밈 \"11월\" \"새로운\" -site:instablank.com -site:jjalbang.today",
+        "2026 밈 \"뉴스레터\" \"10월\" -site:instablank.com",
+        "\"김풍스럽다\" \"2026\" -site:instablank.com -site:sinjoeo.kr",
+        "\"커터칼퇴\" -site:instablank.com -site:sinjoeo.kr",
+        "\"엠비스찬\" \"나는\" -site:instablank.com",
+        "\"동엽이\" \"엽떡\" \"나는\"",
+        "\"존박\" \"랩 주문\" \"2026\" 기사",
+        "\"김풍스럽다\" -뜻 -신조어 -site:meme100.me -site:instablank.com -site:velog.kr -site:viewtory.kr",
+        "\"동엽이\" \"엽떡\" -뜻 -신조어 -site:sinjoeo.kr -site:instablank.com -site:hanglow.app -site:meme100.me",
+        "\"엠비스찬\" site:brunch.co.kr",
+        "\"커터칼퇴\" site:theqoo.net",
+        "\"못해솔로\" -뜻 -신조어 -site:instablank.com"
+      ]
+    },
+    "C2": {
+      "count": 4,
+      "reexamined": 4,
+      "recommended": 4,
+      "queries": [],
+      "notes": [
+        "Previously held entries, not four newly discovered candidates. Same Simsimlab service one reuse source group; no test execution or shared user results."
+      ]
+    },
+    "C3": {
+      "count": 20,
+      "recommended": 1,
+      "conditional": 2,
+      "existing": 9,
+      "held_excluded": 8,
+      "queries": [
+        "2026 \"밈\" \"11월\" site:20slab.org",
+        "2026 \"밈\" \"10월\" site:harpersbazaar.co.kr",
+        "2026 \"밈\" \"최신\" site:gogumafarm.kr",
+        "\"2026\" \"밈\" \"11월\" site:maily.so/trendaword",
+        "\"2026\" \"밈\" \"11월\" site:minenews.stibee.com",
+        "\"2026\" \"밈\" \"11월\" site:newneek.co",
+        "\"야차\" \"차\" \"2026\" -site:maily.so -site:namu.moe",
+        "\"회크닉\" \"2026\" -site:maily.so",
+        "\"얼데이드립\" -site:maily.so -site:instablank.com",
+        "\"한한미일\" -site:maily.so -site:instablank.com",
+        "\"야차\" \"야외\" \"브랜드\" -site:maily.so",
+        "\"회크닉\" \"다녀\" \"2026\"",
+        "\"모든 걸 찍어 올리는 나\" -site:maily.so",
+        "\"직업\" \"불법 조직\" \"밈\"",
+        "\"자기 직업 불법적으로\" -site:gogumafarm.kr -site:ggmf.smcpage.com",
+        "\"직업 과장 브리핑\""
+      ]
+    },
+    "editor": {
+      "count": 2,
+      "reexamination": 2,
+      "queries": [
+        "\"숨듣명\" \"2026\" -site:namu.moe -site:instablank.com",
+        "\"100문 100답\" \"2026\" \"블로그\" -site:namu.moe",
+        "\"숨듣명\" site:news.sbs.co.kr \"2020\"",
+        "\"100문 100답\" \"취향\" site:univ20.com",
+        "\"태순이\" \"졸업사진\" \"2026\""
+      ],
+      "recommended": 1,
+      "held": 1,
+      "notes": [
+        "숨듣명 selected after source recovery; 100문100답 held because tool result is rewritten summary, not accepted as primary direct source. These reexamine B479 holds, not two newly found unique memes.",
+        "Taesoon editor recheck overlaps B480, not extra candidate observation."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "mugonghae-unconditional-empathy-format",
+      "urls": [
+        "https://v.daum.net/v/P5QntOwaL6",
+        "https://www.careet.net/Newsletter/Detail?id=4317",
+        "https://koreaartnews.com/post/8OgYD2a4"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "woo-youngwoo-to-the-greeting",
+      "urls": [
+        "https://www.etoday.co.kr/news/view/2158523",
+        "https://www.osen.co.kr/article/G1111926142",
+        "https://www.yna.co.kr/amp/view/AKR20220722146500005"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "maknagwi-going-out-reluctance-label",
+      "urls": [
+        "https://www.skyedaily.com/news/news_view.html?ID=296752",
+        "https://www.simsimlab.net/types/slangtype/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gemmini-ai-consulting-label",
+      "urls": [
+        "https://www.newspim.com/news/view/20260122001036",
+        "https://www.simsimlab.net/types/slangtype/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mbtistian-personality-type-label",
+      "urls": [
+        "https://www.asiatoday.co.kr/kn/view.php?key=20260113001414559",
+        "https://www.simsimlab.net/types/slangtype/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dongyeobi-repeat-menu-label",
+      "urls": [
+        "https://www.asiatoday.co.kr/kn/view.php?key=20260113001414559",
+        "https://www.simsimlab.net/t/menu/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "godbanin-outside-fandom-label",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/3717",
+        "https://gall.dcinside.com/mgallery/board/view/?id=squishy&no=70863&t=cv",
+        "https://www.mk.co.kr/news/business/10805563"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sumdeutmyeong-private-favorite-song-label",
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1007264443",
+        "https://www.osen.co.kr/article/G1112804942",
+        "https://music.bugs.co.kr/musicpd/albumview/73732?wl_ref=list_mab_03"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "job-description-crime-briefing-parody",
+      "urls": [
+        "https://gogumafarm.kr/나-고구마팜인데-요즘-뜨는-밈-가져왔다-2026년-6월-최신/",
+        "https://www.simsimlab.net/t/classified/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "errdaydrip-retro-ai-music-edit",
+      "urls": [
+        "https://maily.so/trendaword/posts/wdr98q30olx"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "taesoon-character-costume-parody",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/3824"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Eight 20-observation streams, four label rechecks and two editor rechecks: 166 observations, not 166 unique new memes. Previously held labels and editor rechecks overlap earlier observations; do not report as new discoveries.",
+    "Eleven bounded entries selected; Errdaydrip single-source same-channel series limitation and Taesoon single creator interview limitation explicit. Yacha remains conditional; 100 Q&A rewritten-summary result excluded.",
+    "Simsimlab is one source group for four labels and job briefing; no test execution or user-shared results. Service dates unverified. Dongyeobi expanded service use separated from original narrow meaning; conflicting origin discarded.",
+    "Hidden-song label has broadcast recap, actual 2026 article use and dated Bugs playlist tag. No playback.",
+    "Original1306 preserved; 0816 partial mapping union preserves older links. No main changes or Codex."
+  ],
+  "query_observations": 8616,
+  "distinct_literal_queries": 7398,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
