@@ -132,10 +132,11 @@
     "reports/bulk/connector-resume-wave30-290.json",
     "reports/bulk/connector-resume-wave30-291.json",
     "reports/bulk/connector-resume-wave30-292.json",
-    "reports/bulk/connector-resume-wave30-293.json"
+    "reports/bulk/connector-resume-wave30-293.json",
+    "reports/bulk/connector-resume-wave30-297.json"
   ],
-  "query_observations": 2598,
-  "distinct_literal_queries": 2109,
+  "query_observations": 2621,
+  "distinct_literal_queries": 2132,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -13327,6 +13328,121 @@
     {
       "query": "404",
       "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"방송 되게 못하네\" \"아\" \"진짜\"",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"방송 되게 못하네\" 유래",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site.imbc.com \"방송 되게 못하네\"",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"치킨 바나나\" \"챌린지\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"치킨바나나\" 챌린지 한국",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기가차드\" 2026 광고",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내면의 기가차드\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기가차드\" \"2026\" -site:namu.moe -site:orbi.kr -site:dcinside.com -게임",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기가차드\" \"광고\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"치킨바나나\" \"2026\" -site:bwajuma.club -site:namu.moe -site:dhesy.com",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기가차드\" 브랜드 캠페인",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내면의 기가차드\" 뉴스",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기가차드\" 2025 12",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기가차드\" 2026 칼럼",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"테토\" \"에겐\" \"2026\" 브랜드 밈",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"창팝\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정상화\" \"2026\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"테토\" \"에겐\" \"2026\" site:clip.imbc.com",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"테토\" \"에겐\" \"2026\" site:genie.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"창팝\" \"2026\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정상화\" \"밈\" \"양창섭\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정상화\" \"양창섭\" 2026 -site:namu.moe -site:instablank.com -site:castbox.fm",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"테토\" \"에겐\" \"2026\" \"챌린지\" 방송",
+      "source": "reports/bulk/connector-resume-wave30-297.json",
       "status": "screened-see-report"
     }
   ],

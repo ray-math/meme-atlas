@@ -1003,6 +1003,7 @@
 - [종로로 갈까요](../memes/jongno-song-parody.md)
 - [체포하겠어](../memes/under-arrest.md)
 - [치카 댄스](../memes/chika-dance.md)
+- [치킨바나나 챌린지](../memes/chicken-banana-challenge.md)
 - [캐치캐치 챌린지](../memes/catch-catch-challenge.md)
 - [태보해](../memes/taebo-hae.md)
 - [테스형](../memes/tes-brother.md)

@@ -797,6 +797,7 @@
 - [츤데레](tsundere.md)
 - [치즈분수](cheese-fountain.md)
 - [치카 댄스](chika-dance.md)
+- [치킨바나나 챌린지](chicken-banana-challenge.md)
 - [치피치피 차파차파](chipi-chipi-chapa-chapa.md)
 - [친구 아이가](chingu-aiga.md)
 - [친삭](chinsak.md)
