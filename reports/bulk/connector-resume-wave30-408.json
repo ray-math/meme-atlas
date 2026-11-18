@@ -1,0 +1,42 @@
+{
+  "batch": 408,
+  "base": "8335e9739efaa56944c7a28fc838ea3800a08e25",
+  "canonical": 991,
+  "added": [],
+  "editor": {
+    "queries": [
+      "\"콩쥐야\" \"2026\" -site:filmmakers.co.kr -site:coconut-emoji.tistory.com -site:ayo.pe.kr -site:namu.moe",
+      "\"11미터\" \"모형탑\" 패러디",
+      "\"1초만에 사람을 낚는\" \"2026\"",
+      "\"콩쥐야\" \"조때써\" \"2026\" -site:coconut-emoji.tistory.com -site:issuelink.co.kr",
+      "\"콩쥐야\" \"망했\" \"2026\"",
+      "\"콩쥐야\" \"2026\" site:theqoo.net"
+    ],
+    "results": [
+      {
+        "id": "1020",
+        "note": "coconut공지직접재열람1원작과별개회고;zeta댓글검색단서cachemiss;filmmakers403;Inven5409검색직접문자단서원문재시도;모바일정규URL접근불가및wwwcachemiss,독립두번째근거미확인"
+      },
+      {
+        "id": "0052",
+        "note": "2020Inven댓글요청검색단서최근0;uge집계설명미채택"
+      },
+      {
+        "id": "0055",
+        "note": "위키복제본문만독립0"
+      }
+    ]
+  },
+  "classification_changes": 0,
+  "ci": {
+    "corrected407": {
+      "run": 44253745983,
+      "job": 134630361079,
+      "tests": 495,
+      "seconds": 72.615,
+      "success": true
+    },
+    "new_commit": "pending"
+  },
+  "correction_status": "406의본문해시실패2건은407에서기존승인본문복구후CI통과.보강안은보고서에만보존"
+}

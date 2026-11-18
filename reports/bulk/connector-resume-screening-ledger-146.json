@@ -233,10 +233,11 @@
     "reports/bulk/connector-resume-wave30-403.json",
     "reports/bulk/connector-resume-wave30-404.json",
     "reports/bulk/connector-resume-wave30-406.json",
-    "reports/bulk/connector-resume-wave30-407.json"
+    "reports/bulk/connector-resume-wave30-407.json",
+    "reports/bulk/connector-resume-wave30-408.json"
   ],
-  "query_observations": 5461,
-  "distinct_literal_queries": 4734,
+  "query_observations": 5467,
+  "distinct_literal_queries": 4740,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -27743,6 +27744,36 @@
     {
       "query": "\"LH\" \"내로남불\" 드립",
       "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"콩쥐야\" \"2026\" -site:filmmakers.co.kr -site:coconut-emoji.tistory.com -site:ayo.pe.kr -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-408.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"11미터\" \"모형탑\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-408.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"1초만에 사람을 낚는\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-408.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"콩쥐야\" \"조때써\" \"2026\" -site:coconut-emoji.tistory.com -site:issuelink.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-408.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"콩쥐야\" \"망했\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-408.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"콩쥐야\" \"2026\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-408.json",
       "status": "screened-see-report"
     }
   ],
