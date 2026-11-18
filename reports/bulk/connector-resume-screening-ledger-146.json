@@ -122,10 +122,11 @@
     "reports/bulk/connector-resume-wave30-279.json",
     "reports/bulk/connector-resume-wave30-280.json",
     "reports/bulk/connector-resume-wave30-281.json",
-    "reports/bulk/connector-resume-wave30-282.json"
+    "reports/bulk/connector-resume-wave30-282.json",
+    "reports/bulk/connector-resume-wave30-283.json"
   ],
-  "query_observations": 2351,
-  "distinct_literal_queries": 1908,
+  "query_observations": 2361,
+  "distinct_literal_queries": 1916,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -12082,6 +12083,56 @@
     {
       "query": "\"2026\" \"11월\" \"밈\" \"공식\" -site:instablank.com -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기니우리겠어\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-283.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"룩스 캔 킬\" \"챌린지\" \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-283.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Looks Can Kill\" \"챌린지\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-283.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기니 우리겠어\" -site:mynews60045.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-283.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Looks Can Kill\" \"배이\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-283.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"룩스 캔 킬\" \"11월\" \"챌린지\" -조회수 -1억 -발매 -앨범",
+      "source": "reports/bulk/connector-resume-wave30-283.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"룩스캔킬\" \"챌린지\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-283.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:theqoo.net \"빌런 느낌\" \"배이\"",
+      "source": "reports/bulk/connector-resume-wave30-283.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:theqoo.net \"캔디샵 수이\" \"Looks\"",
+      "source": "reports/bulk/connector-resume-wave30-283.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기니 우리겠어\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-283.json",
       "status": "screened-see-report"
     }
   ],
