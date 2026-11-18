@@ -1,0 +1,173 @@
+{
+  "batch": 337,
+  "base": "75423975fdce6f1b37e39dea1de562d32a048349",
+  "canonical_before": 964,
+  "canonical_after": 964,
+  "added": [],
+  "research_a": {
+    "candidates": [
+      "하겠습니다 안하겠습니다",
+      "고맙투우사",
+      "누가 돌아왔게",
+      "거제 야호",
+      "그린그린",
+      "과자 사꾸",
+      "난리자베스",
+      "갑차기",
+      "이외의 답변",
+      "도티 낳음"
+    ],
+    "existing": [
+      "give-up",
+      "thank-you-bullfighter",
+      "who-is-back-from-prison",
+      "geoje-yaho",
+      "green-green-red-red",
+      "nanrijabeth",
+      "gapchagiseureounde",
+      "type-nyanyanya",
+      "laugh-so-hard-dotty"
+    ],
+    "held": [
+      "과자 사꾸"
+    ],
+    "queries": [
+      "2026 \"밈\" \"직장인\" 유행어",
+      "2026 \"밈\" \"대학생\" \"유행어\"",
+      "2026 \"밈\" \"텍스트\"",
+      "\"과자사꾸\"",
+      "\"과자 사꾸\"",
+      "\"냐냐냥\" \"2026\"",
+      "\"과자\" \"사꾸\" -site:onmeme.com -site:jjalbang.today -site:letter.wepick.kr -site:i-boss.co.kr",
+      "\"과자\" \"사진 꾸미기\" \"네이버페이\"",
+      "\"과자\" \"미래의창\"",
+      "\"과자로 문장\"",
+      "\"과자\" \"사꾸\" site:instagram.com",
+      "\"과자\" \"글자\" \"세븐일레븐\" \"2026\""
+    ],
+    "sources": [
+      "https://letter.wepick.kr/post/23942",
+      "https://www.i-boss.co.kr/ab-74668-5705",
+      "https://www.openads.co.kr/content/contentDetail?contsId=19553"
+    ],
+    "limits": "Workerread3/editorunread. WepickcollectionJan8updatednotorigin. ibossMay18creditsWepickMay7, openadsMay28byWepick recap. Same source family not2independent originals. Videoimage0."
+  },
+  "research_b": {
+    "candidates": [
+      "0750",
+      "0476",
+      "0522",
+      "0767",
+      "0771"
+    ],
+    "conditional": [
+      "0750"
+    ],
+    "held": [
+      "0476",
+      "0522",
+      "0767",
+      "0771"
+    ],
+    "sources": [
+      "https://gall.dcinside.com/mgallery/board/view/?id=lunatalk&no=2291&page=1",
+      "https://gall.dcinside.com/mgallery/board/view/?id=game_nintendo&no=3638252&page=1"
+    ],
+    "queries": [
+      "\"어케했노\" 2026",
+      "\"여자가 말대꾸\" 2026",
+      "\"영포티\" 패러디 2026",
+      "\"명존쎄\" 2026",
+      "\"박씨 꺼져\" 2026",
+      "\"어케했노 시발련\" -site:namu.moe -site:seore.org"
+    ],
+    "limits": "Sameplatform2 distinctdisplayidentifiers/boards/context notverifiedrealpersonindependence. Images0. Inven7356828failed502. Originunknown. Editor unread. Profanity stronggendered insult must notsanitize. 0767 MT2026072714035940170 retrospectiveevent notsamepublicationdate;no minors identityexamined."
+  },
+  "editor": {
+    "queries": [
+      "\"조퇴할게요\" 챌린지",
+      "\"쌍센부\" 밈",
+      "\"쌍쇈부\" -site:creatorrank.co.kr",
+      "\"조퇴할게요\" \"노래\" -site:creatorrank.co.kr",
+      "\"쌍쉔부\" 밈",
+      "\"쌍센부\" 챌린지",
+      "\"조퇴할게요\" \"퇴사할게요\"",
+      "\"쌍쇈부\" 원본"
+    ],
+    "held": [
+      "조퇴할게요",
+      "쌍쇈부"
+    ],
+    "limits": "CreatorRank and Kurve describe same video CRRcQyA0v0Y, not independent uses. Generic January TV reaction and political abbreviation pages unrelated. Podcast transcript apparent song parody not enough to link exact challenge; no originalvideo read.",
+    "original_video_attempt": {
+      "url": "https://www.youtube.com/watch?v=CRRcQyA0v0Y",
+      "result": "Cache miss;notviewed"
+    }
+  },
+  "semantic_audit": {
+    "base": "75423975fdce6f1b37e39dea1de562d32a048349",
+    "rows": [
+      "0851",
+      "0852",
+      "0853",
+      "0854",
+      "0857",
+      "0869",
+      "0872",
+      "0874",
+      "0875",
+      "0881",
+      "0882",
+      "0888",
+      "0892",
+      "0894",
+      "0896",
+      "0897",
+      "0901",
+      "0905",
+      "0912",
+      "0914"
+    ],
+    "unchanged": {
+      "index_not_found": 16,
+      "unclear": 4
+    },
+    "changes": 0,
+    "body_read": [
+      "judge-i-did-not-laugh",
+      "insider-outsider",
+      "oo-ping",
+      "dream-of-me",
+      "good-night-ojousama",
+      "click",
+      "brain-freeze-korean",
+      "choding",
+      "did-it-all-for-you"
+    ],
+    "queries": [
+      "이궈|이거거|거든",
+      "개콘|개그콘|코미디",
+      "개소리|헛소리",
+      "이빨|웃지",
+      "이세계|전생|환생",
+      "성기사|뿌뿌|뽕",
+      "인문학|변태",
+      "인싸|아싸",
+      "인실|인생.*실전",
+      "야메로|인터넷.*그만",
+      "PC방|피시방|꾀죄",
+      "아자핑|하츄핑|핑",
+      "자낳괴|자본주의",
+      "자러|잘자|잘 자",
+      "클릭|딸깍",
+      "하마|작은",
+      "장비|정지",
+      "잼민|초딩|어린이",
+      "빨라지|배속|스페드|sped",
+      "정상화|신창섭|다 해줬"
+    ],
+    "limits": "Scope audit only, no origin/use verification. Broadgenres and characters not specificpatterns. Different word even sameaudience notalias. Did-it-all body does not include normalizationexpression."
+  },
+  "ci": "body964 success65/Python495;report336 in progress at preparation",
+  "coverage": "unchanged, immutable1091 source unchanged"
+}

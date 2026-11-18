@@ -165,10 +165,11 @@
     "reports/bulk/connector-resume-wave30-333.json",
     "reports/bulk/connector-resume-wave30-334.json",
     "reports/bulk/connector-resume-wave30-335.json",
-    "reports/bulk/connector-resume-wave30-336.json"
+    "reports/bulk/connector-resume-wave30-336.json",
+    "reports/bulk/connector-resume-wave30-337.json"
   ],
-  "query_observations": 3764,
-  "distinct_literal_queries": 3192,
+  "query_observations": 3820,
+  "distinct_literal_queries": 3242,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -19190,6 +19191,286 @@
     {
       "query": "응애|아기|애기",
       "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"직장인\" 유행어",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"대학생\" \"유행어\"",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"텍스트\"",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"과자사꾸\"",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"과자 사꾸\"",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"냐냐냥\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"과자\" \"사꾸\" -site:onmeme.com -site:jjalbang.today -site:letter.wepick.kr -site:i-boss.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"과자\" \"사진 꾸미기\" \"네이버페이\"",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"과자\" \"미래의창\"",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"과자로 문장\"",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"과자\" \"사꾸\" site:instagram.com",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"과자\" \"글자\" \"세븐일레븐\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하겠습니다 안하겠습니다",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고맙투우사",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누가 돌아왔게",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "거제 야호",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그린그린",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "과자 사꾸",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "난리자베스",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갑차기",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이외의 답변",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도티 낳음",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어케했노\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"여자가 말대꾸\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"영포티\" 패러디 2026",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"명존쎄\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"박씨 꺼져\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어케했노 시발련\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조퇴할게요\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쌍센부\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쌍쇈부\" -site:creatorrank.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조퇴할게요\" \"노래\" -site:creatorrank.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쌍쉔부\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쌍센부\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조퇴할게요\" \"퇴사할게요\"",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쌍쇈부\" 원본",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이궈|이거거|거든",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개콘|개그콘|코미디",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개소리|헛소리",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이빨|웃지",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이세계|전생|환생",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "성기사|뿌뿌|뽕",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인문학|변태",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인싸|아싸",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인실|인생.*실전",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야메로|인터넷.*그만",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "PC방|피시방|꾀죄",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아자핑|하츄핑|핑",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "자낳괴|자본주의",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "자러|잘자|잘 자",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "클릭|딸깍",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하마|작은",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "장비|정지",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "잼민|초딩|어린이",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빨라지|배속|스페드|sped",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "정상화|신창섭|다 해줬",
+      "source": "reports/bulk/connector-resume-wave30-337.json",
       "status": "screened-see-report"
     }
   ],
