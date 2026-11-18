@@ -212,10 +212,11 @@
     "reports/bulk/connector-resume-wave30-381.json",
     "reports/bulk/connector-resume-wave30-382.json",
     "reports/bulk/connector-resume-wave30-383.json",
-    "reports/bulk/connector-resume-wave30-384.json"
+    "reports/bulk/connector-resume-wave30-384.json",
+    "reports/bulk/connector-resume-wave30-385.json"
   ],
-  "query_observations": 5106,
-  "distinct_literal_queries": 4394,
+  "query_observations": 5117,
+  "distinct_literal_queries": 4405,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -25947,6 +25948,61 @@
     {
       "query": "\"만화 표지\" \"챌린지\"",
       "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"얼음이라 부르기로\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-385.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"지옥참마도\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-385.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"응애\" \"2026\" \"아기\"",
+      "source": "reports/bulk/connector-resume-wave30-385.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인주 앨리스\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-385.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잘생겨서 안 좋은 점\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-385.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부르기로 약속했어요\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-385.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"응애 나\" \"2026\" -site:namu.moe -site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-385.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인주 앨리스\" 제작",
+      "source": "reports/bulk/connector-resume-wave30-385.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부르기로 약속했어요\" -site:namu.moe -site:orbi.kr -site:illusionlive.com",
+      "source": "reports/bulk/connector-resume-wave30-385.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"응애 나\" \"2026\" site:gall.dcinside.com",
+      "source": "reports/bulk/connector-resume-wave30-385.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"울어라 지옥참마도\" 제작 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-385.json",
       "status": "screened-see-report"
     }
   ],

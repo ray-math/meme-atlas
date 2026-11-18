@@ -493,6 +493,7 @@
 - [외모 체크](../memes/appearance-check.md)
 - [우리 애 자랑 좀 할게요](../memes/show-off-our-kid.md)
 - [우린 안될 거야 아마](../memes/we-wont-make-it.md)
+- [울어라 지옥참마도](../memes/cry-hell-sword.md)
 - [움짤](../memes/umjjal.md)
 - [움파룸파 챌린지](../memes/oompa-loompa-challenge.md)
 - [웃수저](../memes/laughter-spoon.md)
