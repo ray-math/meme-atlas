@@ -219,10 +219,11 @@
     "reports/bulk/connector-resume-wave30-388.json",
     "reports/bulk/connector-resume-wave30-389.json",
     "reports/bulk/connector-resume-wave30-390.json",
-    "reports/bulk/connector-resume-wave30-391.json"
+    "reports/bulk/connector-resume-wave30-391.json",
+    "reports/bulk/connector-resume-wave30-392.json"
   ],
-  "query_observations": 5193,
-  "distinct_literal_queries": 4477,
+  "query_observations": 5202,
+  "distinct_literal_queries": 4486,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -26389,6 +26390,51 @@
     {
       "query": "\"기타줄\" \"에반\" \"챌린지\" -site:esquirekorea.co.kr",
       "source": "reports/bulk/connector-resume-wave30-391.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:magazine.musinsa.com",
+      "source": "reports/bulk/connector-resume-wave30-392.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" site:news.kmib.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-392.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" site:publy.co",
+      "source": "reports/bulk/connector-resume-wave30-392.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" \"따라했다\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-392.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"패러디\" \"2026\" \"만들었다\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-392.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"유행어\" \"2026\" \"붙였다\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-392.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"손하트\" \"악수\" \"패러디\" -손예진 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-392.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"분명하다\" \"패러디\" \"2026\" -곽범 -젠슨 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-392.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"손하트 거절\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-392.json",
       "status": "screened-see-report"
     }
   ],

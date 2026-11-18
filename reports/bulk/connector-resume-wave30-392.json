@@ -1,0 +1,203 @@
+{
+  "batch": 392,
+  "base": "ce4d6874685a37ddc0831251f4f792128281ea2d",
+  "canonical_before": 985,
+  "canonical_after": 985,
+  "added": [],
+  "researchA": {
+    "base": "f2b126a3e50bb280a54202e5ee77ea0b2aaa29d5",
+    "held": [
+      {
+        "title": "손하트를 악수로 받기",
+        "url": "https://news.nate.com/view/20260628n13703",
+        "note": "2026-06-28손예진재사용보도1,현빈장면원전이지2재사용아님,원영상0"
+      },
+      {
+        "title": "분명하다 반복 기자회견 말투",
+        "url": "https://v.daum.net/v/20260713164750752",
+        "note": "2026-07-13곽범배송공지기자회견패러디1,원영상0"
+      }
+    ],
+    "duplicates": [
+      "jwejweiya",
+      "good-exercise"
+    ],
+    "queries": [
+      "\"2026\" \"밈\" site:magazine.musinsa.com",
+      "\"2026\" \"패러디\" site:news.kmib.co.kr",
+      "\"2026\" \"유행어\" site:publy.co",
+      "\"밈\" \"2026\" \"따라했다\" -site:instablank.com -site:jjalbang.today",
+      "\"패러디\" \"2026\" \"만들었다\" -site:instablank.com -site:jjalbang.today",
+      "\"유행어\" \"2026\" \"붙였다\" -site:instablank.com -site:jjalbang.today",
+      "\"손하트\" \"악수\" \"패러디\" -손예진 -site:namu.moe",
+      "\"분명하다\" \"패러디\" \"2026\" -곽범 -젠슨 -site:namu.moe",
+      "\"손하트 거절\" \"챌린지\""
+    ],
+    "limits": "기사본문2 각1군,영상사진0;사생활의혹합성제외"
+  },
+  "editor": {
+    "sources_read": 2,
+    "limits": "손하트악수/분명하다기사본문직접읽기재확인,각1재사용보도.신규독립군없어보류."
+  },
+  "semantic_audit": {
+    "sha": "ce4d6874685a37ddc0831251f4f792128281ea2d",
+    "scope": "automatic_title_alias_match positions261-280",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0954",
+        "dictionary_id": "earth-defense-challenge",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0956",
+        "dictionary_id": "jiggle-jiggle-dance",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0957",
+        "dictionary_id": "jirida-reaction",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0958",
+        "dictionary_id": "jimotmi",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0961",
+        "dictionary_id": "attack-of-blank",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0962",
+        "dictionary_id": "jinsil-ui-bangeuro",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0966",
+        "dictionary_id": "jinhaeng-sikyeo",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0967",
+        "dictionary_id": "jjalbang",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0969",
+        "dictionary_id": "jjeolda",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0970",
+        "dictionary_id": "jjam-vibe",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0973",
+        "dictionary_id": "jjijjippong",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0979",
+        "dictionary_id": "easy-isnt-it",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0984",
+        "dictionary_id": "green-onion-chex",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0987",
+        "dictionary_id": "choding",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0992",
+        "dictionary_id": "chulbaal",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0995",
+        "dictionary_id": "cheese-fountain",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0999",
+        "dictionary_id": "kk-text-laughter",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1000",
+        "dictionary_id": "keke-rupingpong",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1024",
+        "dictionary_id": "kungkungtta",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1027",
+        "dictionary_id": "king-god-emperor",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      }
+    ],
+    "bodies_read": 20,
+    "classification_changes": 0,
+    "limits": "제품기계일반아닌놀이/영상형식.외부기원검증0/영상사진0.누적280행278고유본문"
+  },
+  "automatic_audit_cumulative": {
+    "rows": 280,
+    "distinct_rows": 280,
+    "distinct_bodies": 278,
+    "reports": [
+      376,
+      377,
+      379,
+      381,
+      383,
+      384,
+      385,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392
+    ]
+  },
+  "ci": {
+    "report390": {
+      "run": 44248499122,
+      "job": 134613161985,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 60.981
+    },
+    "report391": "pending",
+    "new_commit": "pending"
+  }
+}
