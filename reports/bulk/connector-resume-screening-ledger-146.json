@@ -213,10 +213,11 @@
     "reports/bulk/connector-resume-wave30-382.json",
     "reports/bulk/connector-resume-wave30-383.json",
     "reports/bulk/connector-resume-wave30-384.json",
-    "reports/bulk/connector-resume-wave30-385.json"
+    "reports/bulk/connector-resume-wave30-385.json",
+    "reports/bulk/connector-resume-wave30-386.json"
   ],
-  "query_observations": 5117,
-  "distinct_literal_queries": 4405,
+  "query_observations": 5144,
+  "distinct_literal_queries": 4431,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -26003,6 +26004,141 @@
     {
       "query": "\"울어라 지옥참마도\" 제작 -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-385.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" \"직접\" site:brunch.co.kr -책",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" \"패러디\" site:ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" \"만들었다\" \"공식\" -site:namu.moe -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라우럴\" \"넷플릭스\" 지수",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라우럴\" \"패러디\" -site:enter.trendcuratorj.com",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너구리 소환술\" -site:mendoi-apps.com",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너구리 소환술\" site:x.com",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"일본인 소환술\" 한국 음식",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이지 두 댄스\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"파이널리 어웨이크\"",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마피아 시티\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언캐니\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"mmmm cow\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"늙어가는 인크레더블\" 제작",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이지두댄스\" \"2026\" -site:nogomi-videos.ru",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마피아 시티\" 패러디 만들",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"mmmm cow\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인크레더블\" \"밈\" \"만들\"",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"EZ DO DANCE\" \"패러디\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"따라 했\" -site:namu.moe -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"현수막\" -덕성 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"직접 해\" site:tistory.com -버터런 -주식 -투자",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요즘 애들은 낭만을 몰라\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" \"따라해봤\" -site:namu.moe -site:instagram.com -site:youtube.com",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" \"써먹\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잠시 꺼두셔도 좋습니다\" \"2026\" -한석규 -갤럭시 -폴드 -스님",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요즘 애들은\" \"낭만을 몰라\" -오정세 -꼬깔콘 -site:allsnsrank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-386.json",
       "status": "screened-see-report"
     }
   ],
