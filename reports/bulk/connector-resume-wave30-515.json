@@ -1,0 +1,264 @@
+{
+  "batch": 515,
+  "base": "4310e7dc3a5e291316c792a169468ea3814adf0a",
+  "canonical_before": 1787,
+  "canonical_after": 1797,
+  "added": [
+    "minsiginya-catchphrase",
+    "ani-ani-anidoeo-prohibition-catchphrase",
+    "bongga-playful-sentence-ending",
+    "ending-fairy-stage-closeup",
+    "boneop-jonjal-job-skill-praise",
+    "now-you-can-see-me-reply",
+    "kani-triple-question-template",
+    "chemistry-rapport-chemi",
+    "gwajeupsang-fruity-impression",
+    "industry-reward-reaction"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0813",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "industry-reward-reaction"
+    }
+  ],
+  "previous_ci": {
+    "run_id": 44360467084,
+    "job_id": 135000101188,
+    "status": "success",
+    "steps": 65,
+    "head": "4310e7dc3a5e291316c792a169468ea3814adf0a"
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "required_changes": 0,
+    "head": "4310e7dc3a5e291316c792a169468ea3814adf0a",
+    "readback_files": 19
+  },
+  "research": {
+    "A129": {
+      "observations": 6,
+      "recommendations": 0,
+      "held": 6,
+      "external_bodies_read": 2,
+      "failed_opens": 2,
+      "media_viewed": 0,
+      "queries": [
+        "\"He is\" \"밈\" \"He was\"",
+        "\"KON\" \"밈\" -site:namu.wiki -site:namu.moe",
+        "\"MC 노리아키\" 패러디",
+        "\"팩맨 고스트\" \"밈\"",
+        "\"S stands for\" \"패러디\"",
+        "\"Terrified Noot Noot\" 한국",
+        "\"팩맨\" \"고스트 댄스\"",
+        "\"KON\" \"홍야타\"",
+        "\"블렌드 S\" \"패러디\" -site:namu.moe -site:seore.org -site:namu.wiki",
+        "\"핑구\" \"공포\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"팩맨 고스트 댄스\" -site:namu.moe -site:seore.org",
+        "\"MC노리아키와 리아루 댄스\"",
+        "site:bsod.tistory.com \"불수능 S\"",
+        "\"블렌드\" \"샌안토니오\"",
+        "\"S stands for\" \"직접\" 한국"
+      ],
+      "note": "0101,0115,0126,0134,0144,0145 held; BSOD /52 is exam distorted subtitles not word replacement; Kone reminiscence not verified recreation."
+    },
+    "B605": {
+      "observations": 8,
+      "recommendations": 3,
+      "existing": 3,
+      "held": 2,
+      "external_bodies_read": 6,
+      "media_viewed": 0,
+      "queries": [
+        "2026 \"패러디\" \"유행어\" site:newsis.com -임성한 -허경환 -닥터신",
+        "2026 \"밈\" \"대사\" site:news.kbs.co.kr",
+        "2026 \"유행어\" \"따라\" site:imnews.imbc.com",
+        "\"민식이냐\" \"유행어\"",
+        "\"안돼\" \"김원효\" \"현수막\"",
+        "2026 \"밈\" \"고정 문구\" -site:namu.moe",
+        "\"민식이냐\" \"패러디\" \"2026\"",
+        "\"좋은가봉가\" \"유행어\"",
+        "\"아니아니 아니되오\" \"유행어\""
+      ],
+      "note": "Recommendations minsiginya/ani-ani/bongga historical only. Existing ratta/neukkim/bora. Held generic and haebollakko. Multiple articles not automatically independent origins."
+    },
+    "C119": {
+      "observations": 8,
+      "recommendations": 2,
+      "existing": 1,
+      "held": 5,
+      "external_bodies_read": 4,
+      "failed_opens": 3,
+      "media_viewed": 0,
+      "queries": [
+        "\"엔딩요정\" \"2026\" 뜻",
+        "\"본업존잘\" \"2026\"",
+        "\"숨멎\" \"줄임말\" 기사",
+        "\"엔딩요정\" \"2026\" site:enews.imbc.com",
+        "\"본업존잘\" 기사",
+        "\"숨멎\" \"2026\" site:news.nate.com",
+        "\"엔딩요정\" \"마지막\" site:newsis.com"
+      ],
+      "note": "Ending-fairy recent2026 report; boneop official clip date unknown. Existing simmeot; holds summeot/ipdeok/ending-master/born-to-be/human-vitamin. Failed Fanplus/Nate excluded."
+    },
+    "B606": {
+      "observations": 5,
+      "recommendations": 2,
+      "existing": 1,
+      "held": 2,
+      "external_bodies_read": 5,
+      "media_viewed": 0,
+      "queries": [
+        "2026 \"밈\" \"패러디\" site:news.nate.com \"문장\" -임성한",
+        "2026 \"유행어\" site:biz.heraldcorp.com",
+        "2026 \"밈\" \"말투\" site:news.sbs.co.kr",
+        "\"카니\" \"했니\" \"유행어\"",
+        "\"카니\" \"찼니\" \"2026\"",
+        "\"You Can See Me\" \"김무열\" \"2026\""
+      ],
+      "note": "NowYouCanSeeMe one comment+retrospective; Kani one campaign two verb variants, efficacy omitted; moist adjective existing smooth family; campus question/code signs held."
+    },
+    "C120": {
+      "observations": 10,
+      "recommendations": 2,
+      "existing": 5,
+      "conditional": 1,
+      "held": 2,
+      "external_bodies_read": 5,
+      "failed_opens": 3,
+      "media_viewed": 0,
+      "queries": [
+        "\"2026\" \"덕계못\"",
+        "\"2026\" \"탈룰라\" 반응",
+        "\"2026\" \"억텐\" \"찐텐\"",
+        "\"덕계못\" \"뜻\" 기사",
+        "\"입덕요정\" \"2026\"",
+        "\"과즙상\" \"2026\"",
+        "\"케미\" \"케미스트리\" 뜻 기사",
+        "\"입덕요정\" \"뜻\" 기사",
+        "\"과즙상\" \"뜻\" 기사",
+        "\"케미\" \"2026\" site:enews.imbc.com",
+        "\"과즙상\" 뜻 상큼",
+        "\"입덕요정\" \"팬\" 뜻"
+      ],
+      "note": "chemi/gwajeupsang historical only; ipdeok-fairy conditional not promoted; news print URL failed but normal URL recovered."
+    },
+    "A130": {
+      "observations": 8,
+      "recommendations": 1,
+      "held": 7,
+      "external_bodies_read": 5,
+      "media_viewed": 0,
+      "queries": [
+        "\"왕이되는자\" \"패러디\"",
+        "\"우리 업계에서는 포상입니다\" 기사",
+        "\"우연히\" \"밈\" 광고",
+        "\"의학적인 근거가 없습니다\" \"밈\"",
+        "\"이세계물\" \"드립\" 기사",
+        "\"잘생겨서 안 좋은 점\"",
+        "\"죄송합니다\" \"밈\" 유니세프",
+        "\"직구 금지\" \"패러디\"",
+        "\"업계 포상\" -site:namu.moe -site:seore.org -site:namu.wiki",
+        "\"직구금지\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"의학적인 근거가 없습니다\" -site:namu.moe -site:seore.org",
+        "\"이세계물\" \"트럭\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"업계 포상\" 게임 리뷰 -site:namu.moe -site:seore.org",
+        "\"우리 업계에서는\" \"포상\" 리뷰 -site:namu.moe -site:seore.org"
+      ],
+      "note": "0813 partial only. Personal explanation genealogy wiki-like excluded; Korean press title is textual usage not domestic action.0805/0815/0831/0857/0898/0939/0960 held."
+    }
+  },
+  "sources": [
+    {
+      "id": "minsiginya-catchphrase",
+      "urls": [
+        "https://mobile.newsis.com/view/NISX20120612_0011183740",
+        "https://www.fnnews.com/news/201305050044445365"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ani-ani-anidoeo-prohibition-catchphrase",
+      "urls": [
+        "https://www.headlinejeju.co.kr/news/articleView.html?idxno=147883",
+        "https://mobile.newsis.com/view/NISX20120612_0011183740"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bongga-playful-sentence-ending",
+      "urls": [
+        "https://www.starnewskorea.com/broadcast-show/2013/06/21/2013062109153096096",
+        "https://mobile.newsis.com/view/NISX20131107_0012494702"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ending-fairy-stage-closeup",
+      "urls": [
+        "https://mobile.newsis.com/view/NISX20210421_0001414865",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/509740"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "boneop-jonjal-job-skill-praise",
+      "urls": [
+        "https://v.daum.net/v/UJtOar0g4v",
+        "https://m.mbcplus.com/web/clip/youtubeView.do?seq=73189"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "now-you-can-see-me-reply",
+      "urls": [
+        "https://biz.heraldcorp.com/article/10771073",
+        "https://mobile.newsis.com/view/NISX20260702_0003692499"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kani-triple-question-template",
+      "urls": [
+        "https://www.hugel-inc.com/pr/reczokgdke0pbx0s0",
+        "https://biz.heraldcorp.com/article/10792284"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "chemistry-rapport-chemi",
+      "urls": [
+        "https://weekly.khan.co.kr/article/201510261639361",
+        "https://www.yna.co.kr/view/AKR20160516154800033"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gwajeupsang-fruity-impression",
+      "urls": [
+        "https://lady.khan.co.kr/beauty/article/201601061817171",
+        "https://v.daum.net/v/20240808163559807"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "industry-reward-reaction",
+      "urls": [
+        "https://whitefaceone.tistory.com/2806",
+        "https://www.segye.com/newsView/20231205516242"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "10 bounded entries, three with 2026 textual usage; media0. Independent preaudit passed10; industry-reward no consent inference explicit.",
+    "Overlapping screenings are not unique memes. Historic terms do not require recent proof. Protected bodies/tests untouched;0813partial."
+  ],
+  "query_observations": 13014,
+  "distinct_literal_queries": 10677,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
