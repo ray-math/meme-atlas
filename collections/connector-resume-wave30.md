@@ -173,3 +173,4 @@
 - [인사하는 제리](../memes/greeting-jerry.md)
 - [한잔해](../memes/hanjanhae-positive-reason.md)
 - [말 있죠?](../memes/mal-itjyo-drama-speech.md)
+- [요시 그란도 시즌](../memes/yoshi-grando-season.md)

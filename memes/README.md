@@ -650,6 +650,7 @@
 - [외계어](alien-writing.md)
 - [외계인 고문](alien-tech-joke.md)
 - [외모 체크](appearance-check.md)
+- [요시 그란도 시즌](yoshi-grando-season.md)
 - [우리 애 자랑 좀 할게요](show-off-our-kid.md)
 - [우린 안될 거야 아마](we-wont-make-it.md)
 - [우사기 랩](usagi-rap.md)

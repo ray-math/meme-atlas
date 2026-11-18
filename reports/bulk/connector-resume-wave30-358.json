@@ -1,0 +1,116 @@
+{
+  "batch": 358,
+  "base": "00dcdc9237d546b7b0f908d4c4e2eb157a6804b5",
+  "canonical_before": 971,
+  "canonical_after": 972,
+  "added": [
+    "yoshi-grando-season"
+  ],
+  "research": {
+    "ids": [
+      "0784",
+      "0794",
+      "0800",
+      "0802",
+      "0811"
+    ],
+    "recommended": 1,
+    "held": 4,
+    "queries": [
+      "\"오붕가\" \"2026\"",
+      "\"옴마니반메훔\" 밈 패러디",
+      "\"와쿠와쿠\" \"2026\" 밈",
+      "\"왈랄랄루\" \"2026\"",
+      "\"요시 그란도 시즌\" \"2026\"",
+      "\"왈랄랄루\" -site:namu.moe -site:seore.org",
+      "\"와쿠와쿠\" 아냐 패러디 -site:namu.moe",
+      "\"오붕가\" 한국 게임 -site:namu.moe",
+      "\"요시 그란도 시즌\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"와쿠와쿠\" 챌린지 한국 -site:namu.moe",
+      "\"요시 그란도 시즌\" \"2025\" -site:namu.moe -site:op.gg"
+    ],
+    "editor_index_queries": [
+      "그란도|요시|라지에타"
+    ],
+    "sources": [
+      "https://www.newspim.com/news/view/20240924000080",
+      "https://hysup.tistory.com/740",
+      "https://www.etnews.com/201211010370",
+      "https://v.daum.net/v/20260815081409323"
+    ],
+    "limits": "2024reporttitle via automatedbriefing(originalreportunread)+2025traveldirectprose;both olderthan1year.2012explanation and2026retrospective notadditionalapplications. Originalaudio/images0;noexactphonetictranslation/alternatealiasclaim. Editorread4,2026retrospective notneededcanonical."
+  },
+  "semantic_audit": {
+    "ids": [
+      "0563",
+      "0566",
+      "0567",
+      "0568",
+      "0570",
+      "0574",
+      "0579",
+      "0581",
+      "0587",
+      "0590",
+      "0591",
+      "0595",
+      "0599",
+      "0606",
+      "0607",
+      "0608",
+      "0609",
+      "0610",
+      "0611",
+      "0617"
+    ],
+    "queries": [
+      "붉은 악마|월드컵",
+      "브레드|이발소",
+      "브베",
+      "블랙워|워그레이|디지몬",
+      "비밀친구|비밀 친구",
+      "빈라덴",
+      "빨강|사기맵",
+      "빵뚜아|이낫",
+      "뽐거지|뽐뿌|거지",
+      "삐뽀|티니핑|핑",
+      "벽돌|할아버지|로봇댄스",
+      "사랑의 열매",
+      "사이버펑크|cyberpunk",
+      "삼각함수|수학|사인",
+      "삼도수군|통제사",
+      "삼성걸|삼성|Samsung",
+      "삼일절|사이버 전쟁",
+      "삼일한",
+      "삼체|three.body",
+      "샤방|샤방송"
+    ],
+    "rows": 20,
+    "unclear": 20,
+    "changes": 0,
+    "body_reads": 6,
+    "external_queries": 0,
+    "bodies": [
+      "jung-kkeok-ma",
+      "oo-ping",
+      "hallelyaru",
+      "raeulla",
+      "championship-stock-sale",
+      "aljaltakkalsen"
+    ],
+    "limits": "Worldcup/corporatebrand/characterfranchise overlaps notspecificmeme. 사인 fan-sign nottrigonometry. Unclear not externallyconfirmedabsence."
+  },
+  "ci": {
+    "body971": {
+      "run": 44240386437,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 52.759
+    },
+    "report357": {
+      "run": 44240545735,
+      "status": "in_progress_at_preparation"
+    }
+  }
+}

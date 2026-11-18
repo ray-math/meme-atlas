@@ -815,6 +815,7 @@
 - [삐끼삐끼 춤](../memes/ppikki-ppikki.md)
 - [영미](../memes/youngmi-call.md)
 - [와칸다 포에버](../memes/wakanda-forever.md)
+- [요시 그란도 시즌](../memes/yoshi-grando-season.md)
 - [우승 기념 주식 바겐세일](../memes/championship-stock-sale.md)
 - [운동 많이 된다](../memes/good-exercise.md)
 - [자려고 누웠는데 양의지](../memes/lying-down-yang-euiji.md)

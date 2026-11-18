@@ -186,10 +186,11 @@
     "reports/bulk/connector-resume-wave30-354.json",
     "reports/bulk/connector-resume-wave30-355.json",
     "reports/bulk/connector-resume-wave30-356.json",
-    "reports/bulk/connector-resume-wave30-357.json"
+    "reports/bulk/connector-resume-wave30-357.json",
+    "reports/bulk/connector-resume-wave30-358.json"
   ],
-  "query_observations": 4352,
-  "distinct_literal_queries": 3733,
+  "query_observations": 4384,
+  "distinct_literal_queries": 3765,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -22151,6 +22152,166 @@
     {
       "query": "\"혼모노\" \"2026\" -성해나 -소설 -도서 -site:namu.moe -site:namu.wiki",
       "source": "reports/bulk/connector-resume-wave30-357.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오붕가\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"옴마니반메훔\" 밈 패러디",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"와쿠와쿠\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"왈랄랄루\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요시 그란도 시즌\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"왈랄랄루\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"와쿠와쿠\" 아냐 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오붕가\" 한국 게임 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요시 그란도 시즌\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"와쿠와쿠\" 챌린지 한국 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요시 그란도 시즌\" \"2025\" -site:namu.moe -site:op.gg",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그란도|요시|라지에타",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "붉은 악마|월드컵",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "브레드|이발소",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "브베",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "블랙워|워그레이|디지몬",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "비밀친구|비밀 친구",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빈라덴",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빨강|사기맵",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빵뚜아|이낫",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뽐거지|뽐뿌|거지",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삐뽀|티니핑|핑",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "벽돌|할아버지|로봇댄스",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사랑의 열매",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사이버펑크|cyberpunk",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삼각함수|수학|사인",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삼도수군|통제사",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삼성걸|삼성|Samsung",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삼일절|사이버 전쟁",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삼일한",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삼체|three.body",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "샤방|샤방송",
+      "source": "reports/bulk/connector-resume-wave30-358.json",
       "status": "screened-see-report"
     }
   ],
