@@ -1,0 +1,34 @@
+{
+  "batch": 410,
+  "base": "c8e54e3861ddd77adbaef905fef0ce877d3a03d7",
+  "canonical": 992,
+  "added": [],
+  "final_body_audit_992": {
+    "passed": true,
+    "required_changes": 0,
+    "optional_clarification_applied": "하룰라라동시사용관찰인상제거,감탄기능비교로수정"
+  },
+  "editor_0103": {
+    "source_reads": 2,
+    "sources": [
+      "https://www.hankookilbo.com/news/article/A2023103110180001920",
+      "https://www.civicnews.com/news/articleView.html?idxno=36048"
+    ],
+    "status": "independent_audit_pending",
+    "recent_direct_uses": 0,
+    "original_ad_video_reads": 0
+  },
+  "ci": {
+    "report408": {
+      "run": 44254059619,
+      "job": 134631379975,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 113.138,
+      "success": true
+    },
+    "body992": "in_progress",
+    "new_commit": "pending"
+  },
+  "new_queries": 0
+}
