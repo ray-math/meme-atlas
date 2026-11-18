@@ -1,0 +1,211 @@
+{
+  "batch": 388,
+  "base": "c6813f512168c9e5d0272bf900f7bd4d2104b83c",
+  "canonical_before": 985,
+  "canonical_after": 985,
+  "added": [],
+  "researchA": {
+    "base": "28df59b51822bf2810d43daeaa47e4013ded9088",
+    "held": [
+      {
+        "title": "맥북 네오 영상 재패러디",
+        "url": "https://www.fastpapermag.com/2026/05/11/맥북-네오-영상을-또-패러디한-nct-2026/",
+        "note": "기자추정폰트색상유사1"
+      },
+      {
+        "title": "넷플릭스 다큐멘터리 증인 역할극",
+        "url": "https://www.fastpapermag.com/2026/07/12/내가-넷플릭스-다큐멘터리에-출연한다면/",
+        "note": "해외계정소개,국내적용미확인"
+      },
+      {
+        "title": "클레베르 모르겠어 자막",
+        "url": "https://www.fastpapermag.com/2026/07/10/감독님-번역기-정보-좀요-버리게/",
+        "note": "원감사영상소개,별도실제적용2없음;waldo-style경계추가검토"
+      }
+    ],
+    "queries": [
+      "\"밈\" \"2026\" \"패러디\" site:magazine.cheil.com",
+      "\"밈\" \"2026\" \"직접\" site:allurekorea.com",
+      "\"밈\" \"2026\" \"따라\" site:elle.co.kr",
+      "밈 2026 패러디 site:fastpapermag.com",
+      "밈 2026 site:eyesmag.com",
+      "밈 2026 site:marieclairekorea.com"
+    ],
+    "limits": "본문3영상사진0"
+  },
+  "editor": {
+    "queries": [
+      "\"호우 세리머니\" \"2026\" -호날두 -산토스 -음바페",
+      "\"호우\" \"세리머니\" \"2025\" \"임영웅\"",
+      "\"호우 세리머니\" \"2026\" \"따라\"",
+      "\"호우 세리머니\" \"2025\" \"가수\"",
+      "호날두 세리머니 패러디 한국 2026",
+      "호우 세리머니 임영웅"
+    ],
+    "candidate_id": "kr-list-0143",
+    "sources_read": [
+      "https://mobile.newsis.com/view/NISI20260419_0021251640"
+    ],
+    "failed": [
+      "https://imnews.imbc.com/replay/2024/nwdesk/article/6613813_36516.html"
+    ],
+    "limits": "최근산토스보도1재확인,제목호우표시/본문세리머니,사진발성미검증.2024MBC검색단서원문cachemiss제외.기상호우기부등무관제외.보류유지."
+  },
+  "semantic_audit": {
+    "sha": "c6813f512168c9e5d0272bf900f7bd4d2104b83c",
+    "scope": "automatic_title_alias_match positions181-200",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0675",
+        "dictionary_id": "some-romance",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0680",
+        "dictionary_id": "igeo-real",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0682",
+        "dictionary_id": "goodbye-everyone",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0692",
+        "dictionary_id": "want-to-do-nothing",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0693",
+        "dictionary_id": "any-song-challenge",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0695",
+        "dictionary_id": "assarabia-colombia",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0699",
+        "dictionary_id": "ice-bucket-challenge",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0700",
+        "dictionary_id": "i-am-groot",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0702",
+        "dictionary_id": "azasu",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0705",
+        "dictionary_id": "one-shot-left",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0709",
+        "dictionary_id": "ahehheh",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0712",
+        "dictionary_id": "no-partner",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0713",
+        "dictionary_id": "hug-me-animal",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0717",
+        "dictionary_id": "alppano",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0724",
+        "dictionary_id": "angtal-challenge",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0733",
+        "dictionary_id": "ya-neodu",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0734",
+        "dictionary_id": "yamin-jeongeum",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0739",
+        "dictionary_id": "horizontal-coordinates-ghost",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0745",
+        "dictionary_id": "must-buy-that",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0749",
+        "dictionary_id": "eojjeol-tv",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      }
+    ],
+    "bodies_read": 20,
+    "classification_changes": 0,
+    "limits": "외부기원검증0/영상사진0.누적200행199고유본문"
+  },
+  "automatic_audit_cumulative": {
+    "rows": 200,
+    "distinct_rows": 200,
+    "distinct_bodies": 199,
+    "reports": [
+      376,
+      377,
+      379,
+      381,
+      383,
+      384,
+      385,
+      387,
+      388
+    ]
+  },
+  "ci": {
+    "report386": {
+      "run": 44247769983,
+      "job": 134610777027,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 108.711
+    },
+    "report387": "pending",
+    "new_commit": "pending"
+  }
+}
