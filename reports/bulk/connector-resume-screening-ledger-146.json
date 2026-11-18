@@ -209,10 +209,11 @@
     "reports/bulk/connector-resume-wave30-378.json",
     "reports/bulk/connector-resume-wave30-379.json",
     "reports/bulk/connector-resume-wave30-380.json",
-    "reports/bulk/connector-resume-wave30-381.json"
+    "reports/bulk/connector-resume-wave30-381.json",
+    "reports/bulk/connector-resume-wave30-382.json"
   ],
-  "query_observations": 5059,
-  "distinct_literal_queries": 4348,
+  "query_observations": 5072,
+  "distinct_literal_queries": 4361,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -25709,6 +25710,71 @@
     {
       "query": "\"강풍올백\" \"2026\" \"제작\" -site:namu.moe -site:youtube-rank.com",
       "source": "reports/bulk/connector-resume-wave30-381.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"서순\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"섣불리 판단하면 안되는 이유\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"슈퍼 아이돌\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"실시간으로 상황을 지켜보는\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앗 아아\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"실시간으로 상황을 지켜보는 비와이\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"서순\" \"2026\" \"바뀌\"",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"슈퍼아이돌\" 커버 한국",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"서순\" \"2026\" site:gall.dcinside.com",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앗 아아\" \"2026\" -site:namu.moe -site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"슈퍼 아이돌\" \"105\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"만들어봤\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"챌린지\" \"패러디\" \"11월\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-382.json",
       "status": "screened-see-report"
     }
   ],
