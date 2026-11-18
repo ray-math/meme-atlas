@@ -214,10 +214,11 @@
     "reports/bulk/connector-resume-wave30-383.json",
     "reports/bulk/connector-resume-wave30-384.json",
     "reports/bulk/connector-resume-wave30-385.json",
-    "reports/bulk/connector-resume-wave30-386.json"
+    "reports/bulk/connector-resume-wave30-386.json",
+    "reports/bulk/connector-resume-wave30-387.json"
   ],
-  "query_observations": 5144,
-  "distinct_literal_queries": 4431,
+  "query_observations": 5156,
+  "distinct_literal_queries": 4443,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -26139,6 +26140,66 @@
     {
       "query": "\"요즘 애들은\" \"낭만을 몰라\" -오정세 -꼬깔콘 -site:allsnsrank.com -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-386.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"드러눕기\" \"2026\" 게임",
+      "source": "reports/bulk/connector-resume-wave30-387.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"야 형이야\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-387.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"호우 세리머니\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-387.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"란란루\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-387.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잭 오 챌린지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-387.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"호우 세리머니\" \"2026\" 가수",
+      "source": "reports/bulk/connector-resume-wave30-387.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"●▅▇█▇▆▅▄▇\" \"2026\" -site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-387.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"야 형이야\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-387.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"호우 세리머니\" \"2026\" 손흥민 -호날두",
+      "source": "reports/bulk/connector-resume-wave30-387.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"호우 세리머니\" \"2026\" 임영웅",
+      "source": "reports/bulk/connector-resume-wave30-387.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"눕습니다\" \"2026\" \"●\" -site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-387.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잭오 챌린지\" 한국 제작",
+      "source": "reports/bulk/connector-resume-wave30-387.json",
       "status": "screened-see-report"
     }
   ],

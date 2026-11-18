@@ -1,0 +1,338 @@
+{
+  "batch": 387,
+  "base": "28df59b51822bf2810d43daeaa47e4013ded9088",
+  "canonical_before": 985,
+  "canonical_after": 985,
+  "added": [],
+  "researchB": {
+    "base": "ee3118efb6bd451591201382287d3bfce9000fa2",
+    "recommended": 0,
+    "held": 5,
+    "rows": [
+      {
+        "id": "0069",
+        "note": "2026-11-16인벤퇴근전드러눕기제목노출,PC모바일502"
+      },
+      {
+        "id": "0111",
+        "note": "2026-11-13팟벤야형이야제목본문검색,502"
+      },
+      {
+        "id": "0143",
+        "url": "https://mobile.newsis.com/view/NISI20260419_0021251640",
+        "note": "2026-04-19수원산토스호우세리머니보도1.사진영상0 발성미확인"
+      },
+      {
+        "id": "0431",
+        "note": "위키닉네임목록만"
+      },
+      {
+        "id": "0904",
+        "url": "https://everymemes.tistory.com/366",
+        "note": "2021-10-15해설,자체제작아님.인벤제작후기검색단서502"
+      }
+    ],
+    "queries": [
+      "\"드러눕기\" \"2026\" 게임",
+      "\"야 형이야\" \"2026\"",
+      "\"호우 세리머니\" \"2026\"",
+      "\"란란루\" \"2026\"",
+      "\"잭 오 챌린지\" \"2026\"",
+      "\"호우 세리머니\" \"2026\" 가수",
+      "\"●▅▇█▇▆▅▄▇\" \"2026\" -site:inven.co.kr",
+      "\"야 형이야\" 패러디",
+      "\"호우 세리머니\" \"2026\" 손흥민 -호날두",
+      "\"호우 세리머니\" \"2026\" 임영웅",
+      "\"눕습니다\" \"2026\" \"●\" -site:inven.co.kr",
+      "\"잭오 챌린지\" 한국 제작"
+    ],
+    "limits": "blanket-kick일반서술누워있다가부분문자열은중복아님.사진영상0"
+  },
+  "semantic_audits": [
+    {
+      "sha": "ee3118efb6bd451591201382287d3bfce9000fa2",
+      "scope": "automatic_title_alias_match positions141-160",
+      "rows": [
+        {
+          "candidate_id": "kr-list-0527",
+          "dictionary_id": "bamti",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0529",
+          "dictionary_id": "how-many-rice-grains",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0530",
+          "dictionary_id": "have-you-eaten",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0531",
+          "dictionary_id": "bangga-bangga",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0532",
+          "dictionary_id": "keyboard-lubu",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0535",
+          "dictionary_id": "beoeok",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0537",
+          "dictionary_id": "tiger-is-coming",
+          "semantic_audit_result": "scope_limited_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0544",
+          "dictionary_id": "different-footwork",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0545",
+          "dictionary_id": "boiru",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0547",
+          "dictionary_id": "bonjwa",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0549",
+          "dictionary_id": "trembling-reaction",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0551",
+          "dictionary_id": "not-jealous",
+          "semantic_audit_result": "scope_limited_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0553",
+          "dictionary_id": "pour-or-dip",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0556",
+          "dictionary_id": "fiery-friday",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0559",
+          "dictionary_id": "turn-off-light-ram",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0564",
+          "dictionary_id": "bwek",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0573",
+          "dictionary_id": "big-mac-song",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0577",
+          "dictionary_id": "ppappinom",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0580",
+          "dictionary_id": "bbangkkuddongkku",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0586",
+          "dictionary_id": "ppojjak",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        }
+      ],
+      "bodies_read": 20,
+      "classification_changes": 0,
+      "limits": "0537/0551음악재사용형식한정.외부기원검증0/영상사진0.누적160행159고유본문"
+    },
+    {
+      "sha": "28df59b51822bf2810d43daeaa47e4013ded9088",
+      "scope": "automatic_title_alias_match positions161-180",
+      "rows": [
+        {
+          "candidate_id": "kr-list-0588",
+          "dictionary_id": "bbuing-bbuing",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0589",
+          "dictionary_id": "ppikki-ppikki",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0594",
+          "dictionary_id": "four-dollars",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0598",
+          "dictionary_id": "cider-relief",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0602",
+          "dictionary_id": "sakuranbo-challenge",
+          "semantic_audit_result": "scope_limited_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0612",
+          "dictionary_id": "sangmottjeong",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0615",
+          "dictionary_id": "burned-white",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0626",
+          "dictionary_id": "internet-pilgrimage",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0635",
+          "dictionary_id": "soulless-guide",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0637",
+          "dictionary_id": "finger-heart",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0641",
+          "dictionary_id": "suspiciously-wealthy-furry",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0642",
+          "dictionary_id": "spoon-class",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0644",
+          "dictionary_id": "sul-hanjan-masyeotseumnida",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0645",
+          "dictionary_id": "number-song-internet",
+          "semantic_audit_result": "scope_limited_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0647",
+          "dictionary_id": "shuk-shushuk",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0650",
+          "dictionary_id": "swag",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0654",
+          "dictionary_id": "slickback",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0655",
+          "dictionary_id": "sad-frog",
+          "semantic_audit_result": "scope_limited_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0671",
+          "dictionary_id": "hyung-ida",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        },
+        {
+          "candidate_id": "kr-list-0674",
+          "dictionary_id": "bare-face",
+          "semantic_audit_result": "core_scope_match",
+          "body_read": true
+        }
+      ],
+      "bodies_read": 20,
+      "classification_changes": 0,
+      "limits": "곡전체/학습숫자송전체/페페모든정치파생아님.외부기원검증0/영상사진0"
+    }
+  ],
+  "automatic_audit_cumulative": {
+    "rows": 180,
+    "distinct_rows": 180,
+    "distinct_bodies": 179,
+    "reports": [
+      376,
+      377,
+      379,
+      381,
+      383,
+      384,
+      385,
+      387
+    ]
+  },
+  "ci": {
+    "body985": {
+      "run": 44247554004,
+      "job": 134610065038,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 98.174
+    },
+    "report386": "pending",
+    "new_commit": "pending"
+  }
+}
