@@ -786,6 +786,7 @@
 - [최최차차](choechoichacha.md)
 - [추구미](chugumi.md)
 - [출바알](chulbaal.md)
+- [충칭 오토바이 릴스](chongqing-motorcycle-reels.md)
 - [취존](chwijon.md)
 - [취켓팅](chwiketing.md)
 - [취향저격](taste-hit.md)

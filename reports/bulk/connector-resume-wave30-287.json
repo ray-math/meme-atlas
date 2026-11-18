@@ -1,0 +1,42 @@
+{
+  "batch": 287,
+  "canonical_before": 926,
+  "canonical_after": 927,
+  "added": "chongqing-motorcycle-reels",
+  "queries": [
+    "\"충칭\" \"오토바이\" \"텐\" 2026",
+    "\"충칭\" \"패러디\" \"2026\" -여행 -site:fanplus.co.kr",
+    "\"충칭 오토바이\" 챌린지 한국",
+    "\"곽범\" \"충칭\" \"2026\" 오토바이",
+    "\"텐\" \"충칭 오토바이\" -site:fanplus.co.kr"
+  ],
+  "index_queries": [
+    "충칭",
+    "오토바이",
+    "중경",
+    "바이크",
+    "chongqing",
+    "motorcycle"
+  ],
+  "evidence": {
+    "direct_editor_read": [
+      "https://maily.so/trendaword/posts/e9o08v6lz8w",
+      "https://prd.esquirekorea.co.kr/article/1900031",
+      "https://v.daum.net/v/20260818010738478"
+    ],
+    "distinct_productions_reported": 2,
+    "original_videos_watched": 0,
+    "notes": "Esquire body126 recovered beneath login notice; WISH officialSNS paraphrase. OSEN journalist review of separate KwakBeom production inChina; not domesticshoot. Exact uploaddate and unrelated cosmeticprocedures omitted. Fanplus Korean130394675 recovered byworker only; not neededas primaryevidence."
+  },
+  "dedup": "namchin-jjal originalbody general candidphoto notspecificvideo; go-back-again railbikeexample incidentalnotidentity. Corrects worker's prior bike nohit: unrelated hit exists.",
+  "checks": {
+    "unique_ids": 927,
+    "title_alias_cross_id_collisions": 0,
+    "generator_base_roundtrip": true
+  },
+  "metrics": {
+    "query_observations": 2471,
+    "distinct_literal_queries": 2002
+  },
+  "ci": "not run"
+}

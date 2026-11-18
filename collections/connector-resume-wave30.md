@@ -100,3 +100,4 @@
 - [원츄백 챌린지](../memes/want-you-back-challenge.md)
 - [브리저튼 챌린지](../memes/bridgerton-dance-challenge.md)
 - [후드잡샷](../memes/hood-grab-shot.md)
+- [충칭 오토바이 릴스](../memes/chongqing-motorcycle-reels.md)

@@ -126,10 +126,11 @@
     "reports/bulk/connector-resume-wave30-283.json",
     "reports/bulk/connector-resume-wave30-284.json",
     "reports/bulk/connector-resume-wave30-285.json",
-    "reports/bulk/connector-resume-wave30-286.json"
+    "reports/bulk/connector-resume-wave30-286.json",
+    "reports/bulk/connector-resume-wave30-287.json"
   ],
-  "query_observations": 2460,
-  "distinct_literal_queries": 1995,
+  "query_observations": 2471,
+  "distinct_literal_queries": 2002,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -12631,6 +12632,61 @@
     {
       "query": "say",
       "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"충칭\" \"오토바이\" \"텐\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-287.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"충칭\" \"패러디\" \"2026\" -여행 -site:fanplus.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-287.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"충칭 오토바이\" 챌린지 한국",
+      "source": "reports/bulk/connector-resume-wave30-287.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"곽범\" \"충칭\" \"2026\" 오토바이",
+      "source": "reports/bulk/connector-resume-wave30-287.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"텐\" \"충칭 오토바이\" -site:fanplus.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-287.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "충칭",
+      "source": "reports/bulk/connector-resume-wave30-287.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오토바이",
+      "source": "reports/bulk/connector-resume-wave30-287.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "중경",
+      "source": "reports/bulk/connector-resume-wave30-287.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바이크",
+      "source": "reports/bulk/connector-resume-wave30-287.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "chongqing",
+      "source": "reports/bulk/connector-resume-wave30-287.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "motorcycle",
+      "source": "reports/bulk/connector-resume-wave30-287.json",
       "status": "screened-see-report"
     }
   ],
