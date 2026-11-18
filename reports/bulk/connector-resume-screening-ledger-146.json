@@ -73,10 +73,11 @@
     "reports/bulk/connector-resume-editor-221.json",
     "reports/bulk/connector-resume-editor-223.json",
     "reports/bulk/connector-resume-editor-225.json",
-    "reports/bulk/connector-resume-editor-226.json"
+    "reports/bulk/connector-resume-editor-226.json",
+    "reports/bulk/connector-resume-independent-audit-228.json"
   ],
-  "query_observations": 1166,
-  "distinct_literal_queries": 947,
+  "query_observations": 1168,
+  "distinct_literal_queries": 949,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -6108,6 +6109,16 @@
     {
       "query": "밤으깡",
       "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" \"11월\" \"공식\"",
+      "source": "reports/bulk/connector-resume-independent-audit-228.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"제목\" \"10월\"",
+      "source": "reports/bulk/connector-resume-independent-audit-228.json",
       "status": "screened-see-report"
     }
   ],
