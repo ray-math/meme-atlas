@@ -1,0 +1,328 @@
+{
+  "batch": 463,
+  "base": "c76a2acdac640979a71ea2c878fbc3f45c615ec8",
+  "canonical_before": 1258,
+  "canonical_after": 1268,
+  "added": [
+    "ttakttakhae-eliminated-rap-remix",
+    "full-time-child-vlog-label",
+    "kangaroo-household-kang-labels",
+    "yona-yona-character-audio-edit",
+    "mosi-mosi-chorus-dance-challenge",
+    "lisa-su-zealot-phonetic-reply",
+    "rum-ja-o-ja-re-draft-acronym",
+    "algorithm-uncle-big-three-grouping",
+    "gomyammi-playful-cat-spelling",
+    "janatgoe-money-induced-attitude-label"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0413",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "ttakttakhae-eliminated-rap-remix"
+    },
+    {
+      "id": "kr-list-0810",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "yona-yona-character-audio-edit"
+    },
+    {
+      "id": "kr-list-0443",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "lisa-su-zealot-phonetic-reply"
+    },
+    {
+      "id": "kr-list-0436",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "rum-ja-o-ja-re-draft-acronym"
+    },
+    {
+      "id": "kr-list-0469",
+      "from": "partial",
+      "to": "partial",
+      "dictionary_id": "gomyammi-playful-cat-spelling"
+    },
+    {
+      "id": "kr-list-0892",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "janatgoe-money-induced-attitude-label"
+    },
+    {
+      "id": "kr-list-0385",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_ids": [
+        "dumb-dumb-challenge"
+      ],
+      "reason": "Direct full-body read confirms choreography participation only, not entire song; existing entry mapping recovered."
+    }
+  ],
+  "previous_ci": {
+    "run": 44287778845,
+    "job": 134744805996,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 66.646s"
+  },
+  "previous_audit": {
+    "batch": 462,
+    "mandatory": 0,
+    "new_bodies": 14,
+    "prior_index_rows_unchanged": 1244,
+    "existing_body_changes": 0,
+    "candidate_changes": 10,
+    "prior_mappings_lost": 0,
+    "sources_reopened": 17,
+    "previous_research_sources": 6,
+    "images_videos": 0
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 7,
+      "held": 12,
+      "queries": [
+        "\"독일초딩\" 패러디",
+        "\"동전줍는 징징이\"",
+        "\"동현이의 퍼니박스\" 밈",
+        "\"듀얼 만능주의\"",
+        "\"딱딱해\" 밈 유래",
+        "\"더 마스터를 기억해줘\"",
+        "\"두원공대\" 드립",
+        "\"라이라이차차차\" 유래",
+        "\"딱딱해\" \"리믹스\" 먼치맨 -site:namu.moe -site:seore.org",
+        "\"독일초딩\" 패러디 -site:namu.moe -site:tcatmon.com -site:readonly.wiki",
+        "\"듀얼 만능주의\" -site:namu.moe -site:seore.org",
+        "\"뚝배기\" \"신조어\""
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 3,
+      "held": 15,
+      "queries": [
+        "\"락통령\" 패러디",
+        "\"러시아식 유머\" 밈",
+        "\"럼자오자레\" 뜻",
+        "\"롯데햄 후라이드 치킨\"",
+        "\"리사 수\" 밈",
+        "\"린가동자\" 유래",
+        "\"마따끄\" 뜻",
+        "\"마쁘리에요\"",
+        "\"마이 네임 이즈 찢기\"",
+        "\"막심 센세\" 밈",
+        "\"망했어요\" \"엄재경\" 패러디",
+        "\"루저의 난\" 패러디"
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 11,
+      "held": 7,
+      "excluded": 1,
+      "queries": [
+        "2026 \"밈\" \"댓글\" site:esquirekorea.co.kr",
+        "2026 \"밈\" \"사진\" site:dazedkorea.com",
+        "2026 \"밈\" \"패러디\" site:news.kbs.co.kr",
+        "2026 \"밈\" \"유행\" site:cosmopolitan.co.kr",
+        "\"2026\" \"밈\" \"신조어\" 매거진",
+        "\"2026\" \"릴스\" \"요즘\" 사진 편집",
+        "\"2026\" \"밈\" \"패러디\" \"브랜드\"",
+        "\"엠비스찬\" 밈",
+        "\"얼렁뚱땡이\" \"2026\"",
+        "\"모시모시\" \"챌린지\" \"2026\""
+      ]
+    },
+    "B3": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 5,
+      "held": 9,
+      "excluded": 5,
+      "queries": [
+        "2026 \"밈\" \"별명\" \"유행\" -site:instablank.com -site:sinjoeo.kr",
+        "2026 \"밈\" \"댓글\" site:allurekorea.com",
+        "2026 \"밈\" \"말투\" site:univ20.com",
+        "\"스카프리오\" \"패러디\"",
+        "\"알고리즘 아저씨 3대장\"",
+        "2026 \"밈\" \"사진\" \"챌린지\" -site:instablank.com -site:jjalbang.today -site:namu.moe",
+        "\"사진 20장\" \"밈\" \"2026\"",
+        "\"스카프 아저씨\" \"댓글 놀이\"",
+        "\"스카프리오 패러디\""
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 1,
+      "conditional_held": 2,
+      "existing": 5,
+      "held": 12,
+      "queries": [
+        "\"왕사슴 가이즈\" 유래",
+        "\"요나요나 댄스\" 패러디",
+        "\"우마우마\" \"패러디\" 한국",
+        "\"유루유리 하지마루요\" 밈",
+        "\"우리 업계에서는 포상입니다\" 뜻",
+        "\"원앙시해자\" 드립 유래",
+        "\"우마우마\" \"패러디\" \"게임\"",
+        "\"왕이되는자\" 광고 패러디",
+        "\"우마우마\" site:inven.co.kr",
+        "\"요나요나 댄스\" 제작 -site:namu.moe -site:seore.org",
+        "\"우리 업계에서는 포상\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"원앙시해자\" -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "recommended": 0,
+      "conditional_held": 1,
+      "existing": 7,
+      "held": 12,
+      "queries": [
+        "\"육군 we 육군\" 패러디",
+        "\"응애\" \"드립\" 뜻",
+        "\"의문의\" \"XX행\" 뜻",
+        "\"이건 정말 듣도 보도 못한 발상이군\" 패러디",
+        "\"이봐요 미친놈씨\" 패러디",
+        "\"의학적인 근거가 없습니다\" \"밈\"",
+        "\"의문의\" \"행\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"이건 정말 듣도 보도 못한 발상이군\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"이건 정말 듣도 보도 못한 발상이군\" \"조교\"",
+        "\"의학적인 근거가 없습니다\" 패러디 -site:namu.moe -site:seore.org",
+        "\"이\" \"무료로 해줍니다\" \"밈\"",
+        "\"의문의 연애소설행\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"조교\" \"발상이군\" 동아 2012",
+        "\"의학적인 근거가 없습니다\" \"심리적인\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"이 아이가 배가 부르다는 느낌을 알까요\" 패러디 -site:namu.moe -site:seore.org",
+        "\"의문의 연애소설행\" \"러브크래프트\" -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ]
+    },
+    "editor": {
+      "queries": [
+        "2026 \"11월\" \"밈\" \"브랜드\" -site:instablank.com -site:namu.moe -site:shorti.kr -site:yongdev.dev",
+        "2026 \"10월\" \"밈\" \"새로운\" site:careet.net",
+        "2026 \"11월\" \"밈\" site:univ20.com",
+        "\"캥리갈리\" \"유료캥\"",
+        "\"전업자녀\" \"브이로그\" 2026 -site:careet.net",
+        "\"2026\" \"밈\" \"문자\" -site:instablank.com -site:namu.moe"
+      ],
+      "count": 7,
+      "existing": 5,
+      "held": 0,
+      "items": [
+        "raureol existing",
+        "54000 existing",
+        "ended-up-here existing",
+        "john-park-mcdonalds-rap existing",
+        "pepero-aid existing",
+        "전업자녀 selected source bounded",
+        "유료캥·블루투스캥 selected article+linked self-use"
+      ],
+      "recommended": 2
+    },
+    "inflight_selections": {
+      "count": 2,
+      "recommended": 2,
+      "held": 0,
+      "note": "Only completed selections0469 and0892 counted; remainder of two active20-row groups deferred, not added to observation totals.",
+      "queries": []
+    }
+  },
+  "sources": [
+    {
+      "id": "ttakttakhae-eliminated-rap-remix",
+      "urls": [
+        "https://www.wikitree.co.kr/articles/452621"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "full-time-child-vlog-label",
+      "urls": [
+        "https://www.yna.co.kr/amp/view/AKR20251223123800505",
+        "https://www.careet.net/2017"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kangaroo-household-kang-labels",
+      "urls": [
+        "https://www.careet.net/2017",
+        "https://theqoo.net/square/3941602778"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "yona-yona-character-audio-edit",
+      "urls": [
+        "https://whitefaceone.tistory.com/2569",
+        "https://kyser.tistory.com/5"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mosi-mosi-chorus-dance-challenge",
+      "urls": [
+        "https://enews.imbc.com/News/ViewAmp/507330"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "lisa-su-zealot-phonetic-reply",
+      "urls": [
+        "https://ty66kill.tistory.com/985",
+        "https://admin.businesspost.co.kr/BP?command=mobile_view&num=305280"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "rum-ja-o-ja-re-draft-acronym",
+      "urls": [
+        "https://sports.news.nate.com/view/20240513n18680"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "algorithm-uncle-big-three-grouping",
+      "urls": [
+        "https://www.yna.co.kr/amp/view/AKR20261117133400505"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gomyammi-playful-cat-spelling",
+      "urls": [
+        "https://m.comic.naver.com/challenge/list?titleId=839974",
+        "https://cashwalk.com/local/community/성남시-중원구-중앙동/pet/99204786?from=pet&page=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "janatgoe-money-induced-attitude-label",
+      "urls": [
+        "https://www.koreajoongangdaily.com/bilingual-news/where-beer-tastes-like-cass-kor/10203030",
+        "https://v.daum.net/v/20200125130345112?s=print_news"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "10 source-bounded entries in one checkpoint; 2026 usage evidence separate from historical origin.",
+    "0385 existing Dumb Dumb choreography mapping repaired; not a new canonical entry.",
+    "Research groups are review observations, not deduplicated new meme discoveries."
+  ],
+  "query_observations": 8174,
+  "distinct_literal_queries": 7044,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
