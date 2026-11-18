@@ -1,0 +1,51 @@
+{
+  "batch": 261,
+  "canonical_before": 916,
+  "canonical_after": 916,
+  "a": {
+    "queries": [
+      "\"2026\" \"밈\" \"패러디\" site:newsroom.posco.com",
+      "\"2026\" \"밈\" site:blog.kakaobank.com",
+      "\"2026\" \"밈\" site:brunch.co.kr \"11월\"",
+      "\"like WONI\" \"밈\"",
+      "\"라이크 원이\" \"2026\"",
+      "\"걸그룹 말 한마디에 유튜브에 쏟아진\"",
+      "\"걸그룹 말 한마디에\" \"챠크렐\"",
+      "\"like WONI\" site:youtube.com/watch",
+      "\"라이크 원이\" -site:bwajuma.club -site:likewoni100.com -site:rescene.org -site:namu.moe"
+    ],
+    "index_queries": [
+      "WONI",
+      "라이크"
+    ],
+    "hold": "LIKE WONI",
+    "source": "https://likewoni100.com/",
+    "note": "aggregator only; Brunch body absent; Inven502; no2independentcreatororiginals"
+  },
+  "root": {
+    "queries": [
+      "\"2026\" \"밈\" \"11월\" site:news.nate.com -커닝 -세무 -리트 -초지능",
+      "\"2026\" \"밈\" \"11월\" site:sports.khan.co.kr -커닝 -세무",
+      "\"손현듀\" \"밈\"",
+      "\"하루에 하루만 더\" \"공휴일\" 밈"
+    ],
+    "index_queries": [
+      "손현듀",
+      "하루에 하루만",
+      "공휴일",
+      "싸워",
+      "카뮈"
+    ],
+    "pending": [
+      "손현듀",
+      "공휴일 하루에 하루만 더"
+    ]
+  },
+  "semantic_duplicate": "fight-briefing-parody",
+  "pending_notice": "SonHyeondyu and holiday-song are search leads under worker review, not verified entries",
+  "metrics": {
+    "query_observations": 1894,
+    "distinct_literal_queries": 1532
+  },
+  "ci": "not run"
+}

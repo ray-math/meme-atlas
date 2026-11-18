@@ -102,10 +102,11 @@
     "reports/bulk/connector-resume-wave30-257.json",
     "reports/bulk/connector-resume-wave30-258.json",
     "reports/bulk/connector-resume-wave30-259.json",
-    "reports/bulk/connector-resume-wave30-260.json"
+    "reports/bulk/connector-resume-wave30-260.json",
+    "reports/bulk/connector-resume-wave30-261.json"
   ],
-  "query_observations": 1874,
-  "distinct_literal_queries": 1513,
+  "query_observations": 1894,
+  "distinct_literal_queries": 1532,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -9677,6 +9678,106 @@
     {
       "query": "촬영",
       "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:newsroom.posco.com",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:blog.kakaobank.com",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:brunch.co.kr \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"like WONI\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라이크 원이\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"걸그룹 말 한마디에 유튜브에 쏟아진\"",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"걸그룹 말 한마디에\" \"챠크렐\"",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"like WONI\" site:youtube.com/watch",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라이크 원이\" -site:bwajuma.club -site:likewoni100.com -site:rescene.org -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "WONI",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라이크",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" site:news.nate.com -커닝 -세무 -리트 -초지능",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" site:sports.khan.co.kr -커닝 -세무",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"손현듀\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하루에 하루만 더\" \"공휴일\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "손현듀",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하루에 하루만",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "공휴일",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "싸워",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "카뮈",
+      "source": "reports/bulk/connector-resume-wave30-261.json",
       "status": "screened-see-report"
     }
   ],
