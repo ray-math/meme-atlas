@@ -732,6 +732,7 @@
 - [입덕](ipdeok.md)
 - [있었는데요 없었습니다](it-was-gone.md)
 - [잉여](ingyeo.md)
+- [자 이게 클릭이야](this-is-click.md)
 - [자강두천](jagang-ducheon.md)
 - [자려고 누웠는데 양의지](lying-down-yang-euiji.md)
 - [자만추](jaman-chu.md)

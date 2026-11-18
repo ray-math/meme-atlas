@@ -200,10 +200,11 @@
     "reports/bulk/connector-resume-wave30-369.json",
     "reports/bulk/connector-resume-wave30-370.json",
     "reports/bulk/connector-resume-wave30-371.json",
-    "reports/bulk/connector-resume-wave30-372.json"
+    "reports/bulk/connector-resume-wave30-372.json",
+    "reports/bulk/connector-resume-wave30-373.json"
   ],
-  "query_observations": 4784,
-  "distinct_literal_queries": 4102,
+  "query_observations": 4816,
+  "distinct_literal_queries": 4132,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -24325,6 +24326,166 @@
     {
       "query": "\"봉쥬흐\" \"메흐씨\" \"2026\" -site:incross.com -site:namu.moe -site:youtube-rank.com -site:sotwe.com",
       "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포켓몬\" \"인스타 노트\" 꾸미기",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포켓몬 노트\" 인스타",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Pokenotes\" 한국 인스타",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인스타\" \"포켓몬\" \"노트\" \"해봤\"",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포켓몬\" \"노트\" \"꾸며\" 인스타그램",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포켓몬\" \"인스타 메모\"",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포켓몬\" \"노트\" \"인스타\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포켓몬\" \"노트\" \"인스타\" site:blog.naver.com",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포켓몬\" \"노트\" \"인스타\" site:threads.com",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포켓몬\" \"노트\" \"꾸미기\" -site:incross.com -site:stibee.com -site:namu.moe -site:mixvale.com.br",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포켓몬",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:univ20.com",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목\" site:brunch.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"유행어\" site:news.unn.net",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈을 활용\" -site:incross.com -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행하는 밈\" \"블로그\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"신문\" \"말투\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄마\" \"동결건조\" \"2026\" -site:namu.moe -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"읽기 않음\" -site:namu.moe -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴근\" -site:namu.moe -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"읽지않음\" \"난 모르는 일\" -site:instablank.com -site:jjalnews.com",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴근\" -site:instablank.com -site:jjalnews.com -site:slangdunk.com -site:jigjabi.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이궈궈던\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자 이게 클릭이야\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"작은 하마 이야기\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"점점 빨라지는 노래\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"제로투 회피\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자 이게 클릭이야\" -site:namu.moe -site:semyung.ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이궈궈던\" -site:orbi.kr -site:namu.moe -site:kone.gg",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"작은 하마 이야기\" 패러디 제작",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"점점 빨라지는 노래\" AJR 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"제로투 회피\" 패러디 만들었다",
+      "source": "reports/bulk/connector-resume-wave30-373.json",
       "status": "screened-see-report"
     }
   ],

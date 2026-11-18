@@ -180,3 +180,4 @@
 - [○○에 ○○의 등장이라](../memes/appearance-narrator-template.md)
 - [소문의 낙원 챌린지](../memes/rumors-of-paradise-challenge.md)
 - [이번 엄은 다르다](../memes/this-eom-is-different.md)
+- [자 이게 클릭이야](../memes/this-is-click.md)

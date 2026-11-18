@@ -542,6 +542,7 @@
 - [입덕](../memes/ipdeok.md)
 - [있었는데요 없었습니다](../memes/it-was-gone.md)
 - [잉여](../memes/ingyeo.md)
+- [자 이게 클릭이야](../memes/this-is-click.md)
 - [자삭](../memes/jasak.md)
 - [잘자요 아가씨](../memes/good-night-ojousama.md)
 - [장충동 왕족발 보쌈](../memes/jangchung-pork-song.md)
