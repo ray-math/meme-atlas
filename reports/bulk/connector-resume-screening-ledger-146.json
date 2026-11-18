@@ -188,10 +188,11 @@
     "reports/bulk/connector-resume-wave30-356.json",
     "reports/bulk/connector-resume-wave30-357.json",
     "reports/bulk/connector-resume-wave30-358.json",
-    "reports/bulk/connector-resume-wave30-359.json"
+    "reports/bulk/connector-resume-wave30-359.json",
+    "reports/bulk/connector-resume-wave30-360.json"
   ],
-  "query_observations": 4392,
-  "distinct_literal_queries": 3773,
+  "query_observations": 4404,
+  "distinct_literal_queries": 3782,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -22353,6 +22354,66 @@
     {
       "query": "왕과|왕사남|육신사|역과 사는",
       "source": "reports/bulk/connector-resume-wave30-359.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삼각함수송\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-360.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤방송\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-360.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소금소금소금팥팥팥\"",
+      "source": "reports/bulk/connector-resume-wave30-360.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스너고\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-360.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"슬픈 고양이 댄스\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-360.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스너고\" 뜻",
+      "source": "reports/bulk/connector-resume-wave30-360.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤방송\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-360.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삼각함수송\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-360.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소금소금소금팥팥팥\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-360.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤방송\" 원곡",
+      "source": "reports/bulk/connector-resume-wave30-360.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스너고\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-360.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한번만 더 건드리면\" \"인천외고\"",
+      "source": "reports/bulk/connector-resume-wave30-360.json",
       "status": "screened-see-report"
     }
   ],

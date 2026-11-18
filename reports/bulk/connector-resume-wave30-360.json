@@ -1,0 +1,66 @@
+{
+  "batch": 360,
+  "base": "03080f67861098889bfd83be47c88751ea222212",
+  "canonical_before": 973,
+  "canonical_after": 973,
+  "added": [],
+  "research": {
+    "ids": [
+      "0606",
+      "0617",
+      "0634",
+      "0649",
+      "0656"
+    ],
+    "recommended": 0,
+    "held": 5,
+    "queries": [
+      "\"삼각함수송\" \"2026\"",
+      "\"샤방송\" 패러디",
+      "\"소금소금소금팥팥팥\"",
+      "\"스너고\" \"2026\"",
+      "\"슬픈 고양이 댄스\" \"2026\"",
+      "\"스너고\" 뜻",
+      "\"샤방송\" -site:namu.moe",
+      "\"삼각함수송\" 패러디",
+      "\"소금소금소금팥팥팥\" \"2026\" -site:namu.moe",
+      "\"샤방송\" 원곡",
+      "\"스너고\" -site:namu.moe -site:seore.org"
+    ],
+    "sources": [
+      "https://whitefaceone.tistory.com/2467"
+    ],
+    "limits": "Workerread2021-09-18explanationonly.0606kmibredirect/incompletebody;0617noidentifiedformat;0634no2applications/originclaim;0649Invenmenusthen502;0656FomosAug11snippetdirectfailed,stats/templates notKoreanusage. Imagesvideos0.",
+    "failed_urls": [
+      "https://www.kmib.co.kr/article/20210805500375",
+      "https://www.inven.co.kr/board/maple/2299/1298173",
+      "https://www.fomos.kr/broadcast/article_view?bbs_id=21&indexno=2074699"
+    ]
+  },
+  "independent_audit": {
+    "id": "king-title-wordplay",
+    "head": "03080f67861098889bfd83be47c88751ea222212",
+    "result": "passed,no mandatorycorrections",
+    "body_report_source_reads": 3,
+    "limits": "Three separate producers verified via reporting only,notoriginalmedia. TaxwatchApr29notURLApr28;DalseongMar25reportsMar19release;ShowboxOct22. Titlewordplayonly."
+  },
+  "editor": {
+    "queries": [
+      "\"한번만 더 건드리면\" \"인천외고\""
+    ],
+    "status": "Schoolofficial-list lead read, candidate text boundaries underreview;noaddition"
+  },
+  "ci": {
+    "body972": {
+      "run": 44240729404,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 109.884
+    },
+    "body973": {
+      "run": 44240886247,
+      "status": "in_progress_at_preparation"
+    }
+  }
+}
