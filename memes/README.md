@@ -605,6 +605,7 @@
 - [엄친딸](eomchinttal.md)
 - [엄친아](eomchina.md)
 - [에바](eba.md)
+- [에헤이 조졌네 이거](ehei-messed-up.md)
 - [엣지 있다](edge-style.md)
 - [여기 버튼이 있습니다](here-is-a-button.md)
 - [여기어때송](yeogi-eottae-song.md)

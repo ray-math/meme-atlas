@@ -153,3 +153,5 @@
 - [댓댓 챌린지](../memes/that-that-challenge.md)
 
 - [무너진 밸런스가 캐시템 수요를 만든다](../memes/broken-balance-cash-demand.md)
+
+- [에헤이 조졌네 이거](../memes/ehei-messed-up.md)
