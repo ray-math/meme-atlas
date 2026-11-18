@@ -1,0 +1,302 @@
+{
+  "batch": 529,
+  "base": "52c42d090a87991da6bf83e88100145a8d8bcdc9",
+  "canonical_before": 1928,
+  "canonical_after": 1938,
+  "added": [
+    "paepi-fashion-people-short-label",
+    "jonjal-jonye-appearance-praise-family",
+    "bulso-active-online-communication-short-form",
+    "guchwi-unsubscribe-short-form",
+    "silmul-kkangpae-in-person-appearance-praise",
+    "yerangi-groom-to-be-short-nickname",
+    "teutongryeong-twitter-popularity-nickname",
+    "gogossing-cheerful-go-start-expression",
+    "bangje-chatroom-broadcast-title-short-form",
+    "daeryak-nangam-awkward-situation-expression"
+  ],
+  "candidate_changes": [],
+  "previous_ci": {
+    "run": 44384299899,
+    "job": 135084546375,
+    "sha": "52c42d090a87991da6bf83e88100145a8d8bcdc9",
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 199.255s"
+    ]
+  },
+  "sources": [
+    {
+      "id": "paepi-fashion-people-short-label",
+      "urls": [
+        "https://www.khan.co.kr/article/201704182108005",
+        "https://www.imaeil.com/page/view/2023051611144781576"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jonjal-jonye-appearance-praise-family",
+      "urls": [
+        "https://www.wikitree.co.kr/articles/402849",
+        "https://www.mk.co.kr/news/broadcasting-service/10739558"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bulso-active-online-communication-short-form",
+      "urls": [
+        "https://tvreport.co.kr/breaking/article/242109/",
+        "https://www.insight.co.kr/news/312431"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "guchwi-unsubscribe-short-form",
+      "urls": [
+        "https://www.fnnews.com/news/202004191838188471",
+        "https://www.koreadaily.com/article/20230130180348208"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "silmul-kkangpae-in-person-appearance-praise",
+      "urls": [
+        "https://www.xportsnews.com/article/2183756",
+        "https://www.news1.kr/it-science/mobile/4182646"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "yerangi-groom-to-be-short-nickname",
+      "urls": [
+        "https://www.allurekorea.com/2012/11/21/신조어-사전/",
+        "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202608280515"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "teutongryeong-twitter-popularity-nickname",
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20130309076400005",
+        "https://www.khan.co.kr/article/201601161445131"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gogossing-cheerful-go-start-expression",
+      "urls": [
+        "https://www.imaeil.com/page/view/2007120707354746950",
+        "https://www.koreadaily.com/article/502366",
+        "https://www.imaeil.com/page/view/2013082214491601935"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bangje-chatroom-broadcast-title-short-form",
+      "urls": [
+        "https://www.donga.com/news/Economy/article/all/20200310/100085584/1",
+        "https://ddutto.com/docs/commands/broadcast"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "daeryak-nangam-awkward-situation-expression",
+      "urls": [
+        "https://www.joongang.co.kr/article/2564739",
+        "https://www.khan.co.kr/article/201610072134015"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "query_groups": {
+    "C179": [
+      "\"설참\" \"설명\" 기사",
+      "\"구취\" \"구독 취소\" 기사",
+      "\"실물갑\" \"2026\"",
+      "\"실물깡패\" \"뜻\"",
+      "\"실물깡패\" \"실제로\" 기사",
+      "\"실물갑\" \"2025\" 기사",
+      "\"구취\" \"2026\" \"구독\""
+    ],
+    "B658": [
+      "\"사보필\" \"붙였\" -site:careet.net",
+      "\"사보필\" \"샀\" -site:careet.net",
+      "\"무쉰사\" \"지긁재긁\"",
+      "\"무신사\" \"지그재그\" \"디스전\" 2026",
+      "\"할말하않\" \"2026\"",
+      "\"할말하않\" \"뜻\""
+    ],
+    "B659": [
+      "2026 \"신조어\" \"요즘\" site:allurekorea.com",
+      "2026 \"밈\" \"유행\" site:cosmopolitan.co.kr",
+      "2026 \"유행어\" site:singleskorea.com",
+      "\"2026\" \"신조어\" \"줄임말\" -site:instablank.com -site:slangzone.net -site:namu.wiki",
+      "\"2026\" \"밈\" \"신조어\" site:daehaknaeil.com",
+      "\"2026\" \"유행어\" site:brunch.co.kr",
+      "\"예랑이\" \"2026\"",
+      "\"굿베이\" \"2012\"",
+      "\"트통령\" \"2026\""
+    ],
+    "B660": [
+      "\"부농부농\" \"2026\"",
+      "\"깨빡\" \"2026\"",
+      "\"잉재\" \"잉여\"",
+      "\"굿베이\" -site:namu.wiki -site:namu.moe",
+      "\"부농부농\" \"분위기\" 기사",
+      "\"깨빡나다\" -site:allurekorea.com",
+      "\"망캐\" \"2026\" 기사",
+      "\"트통령\" \"트위터\" 기사"
+    ],
+    "C180": [
+      "\"눈팅\" \"즐팅\" 신조어 신문",
+      "\"방가방가\" \"하이루\" 신문",
+      "\"지못미\" \"안습\" 신조어",
+      "\"즐팅\" \"뜻\" 신문",
+      "\"하이루\" \"방가방가\" -site:kookje.co.kr 신문",
+      "\"젭라\" \"제발\" 신문",
+      "\"고고씽\" \"뜻\" 신문",
+      "\"대략난감\" \"유행어\" 신문",
+      "\"젭라\" site:news.nate.com",
+      "\"대략난감\" \"뜻\" site:newsis.com",
+      "\"고고씽\" site:korea.kr"
+    ],
+    "C181": [
+      "\"고고씽\" site:enews.imbc.com",
+      "\"대략난감\" \"뜻\" 신문",
+      "\"젭라\" \"제발\" 기사",
+      "\"방제\" \"방 제목\" 기사",
+      "\"고고씽\" \"여행\" site:newsis.com",
+      "\"고고씽\" \"여행\" site:imaeil.com",
+      "\"대략난감\" \"신조어\" 기사",
+      "\"젭라\" site:inven.co.kr/webzine/news",
+      "\"대략난감\" site:enews.imbc.com"
+    ],
+    "A175": [
+      "\"동현이의 퍼니박스\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"더 마스터를 기억해줘\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"롯데햄 후라이드 치킨\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"막심 센세(닥터 막심)\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"물음표 드립\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"미안송\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"미야\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"맛나핑\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"바바바바바바\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"박씨 꺼져\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"봇이지 뭐\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"북방코끼리바다표범\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"불티\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"브레드 이발소\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"삐뽀핑\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki"
+    ],
+    "A174": [
+      "\"스카이림\" \"드디어 깨어\" \"패러디\" -site:namu.moe",
+      "\"KON\" \"밈\" \"한국\" -site:namu.moe",
+      "\"마피아 시티\" \"광고 패러디\" -site:namu.moe",
+      "\"팩맨 고스트 댄스\" -site:namu.moe",
+      "\"S stands for\" \"패러디\" -site:namu.moe",
+      "\"원피스는 실재한다\" \"밈\" -site:namu.moe",
+      "\"거룡을 상대한 건\" -site:namu.moe",
+      "\"그건 원작을 경험해 보신\" -site:namu.moe",
+      "\"깨어나세요 용사여\" \"패러디\" -site:namu.moe",
+      "\"나는 애쉬\" \"밈\" -site:namu.moe",
+      "\"나는 예쁘지 않습니다\" -site:namu.moe",
+      "\"설명해드렸습니다\" \"밈\" -site:namu.moe",
+      "site:work.pota.kr \"용사\"",
+      "site:df.nexon.com \"일어나세요 용사여\""
+    ],
+    "A176": [
+      "\"샤방송\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"스너고\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"씽씽이\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"아나바다 운동\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"아로나 댄스\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"아이 러브 마이 화자 마자 브라자\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"안전가족\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"야후! 꾸러기\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"얼리 엑세스 예시를 보여줌\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"오 샹젤리제\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"옴마니반메훔\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"왕사슴 가이즈\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"요! 요요!\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"이봐요 미친놈씨\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"초코빅송\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki"
+    ]
+  },
+  "query_increment": 94,
+  "query_observations": 14444,
+  "distinct_literal_queries": 11836,
+  "screening": {
+    "A174": {
+      "rows": 12,
+      "conditional": 1,
+      "held": 11,
+      "note": "깨어나세요용사여 oneuserexplanation,notcreatorintention."
+    },
+    "A175": {
+      "rows": 15,
+      "held": 15
+    },
+    "A176": {
+      "rows": 15,
+      "conditional": 1,
+      "held": 14,
+      "note": "0855 pending independentaudit; no mapping change."
+    },
+    "B658": {
+      "rows": 8,
+      "existing": 6,
+      "held": 2,
+      "note": "couponcampaign independentauditheld;사보필 actualusemissing"
+    },
+    "B659": {
+      "rows": 15,
+      "recommended": 1,
+      "existing": 5,
+      "held": 9
+    },
+    "B660": {
+      "rechecked_rows": 6,
+      "recommended": 1,
+      "family": 1,
+      "held": 4
+    },
+    "C179": {
+      "rows": 12,
+      "recommended": 2,
+      "existing": 4,
+      "conditional": 1,
+      "held": 5
+    },
+    "C180": {
+      "rows": 18,
+      "recommended": 1,
+      "existing": 12,
+      "family": 1,
+      "held": 4
+    },
+    "C181": {
+      "rows": 10,
+      "recommended": 3,
+      "conditional": 1,
+      "held": 6,
+      "note": "고고씽 repeatsC180,notadditionalfamily"
+    }
+  },
+  "preaudit": {
+    "status": "bounded-pass",
+    "notes": [
+      "First3 previouslypassed and preservedin529recovery.",
+      "구취/실물깡패/예랑이/트통령/고고씽/대략난감 independentPASS.",
+      "방제 officialdocumentation rechecked; Donga initialresearchread but auditor/coordinator laterTollbitfailure. Explicitlynotfullyreproducible."
+    ]
+  },
+  "limits": [
+    "Counts are observations notunique memes. Only94exactrecoveredqueries appended; lostpre-resetquerylists notinvented.14350priorrows retained.",
+    "AIcarreverse exactlyexisting no-time-get-in,notnew.",
+    "무쉰사·지긁재긁 onecampaignheld,notnewgeneralformat.",
+    "All1928priorcanonicalbodies/1091candidate rows preserved.usage74/reviewed73 unchanged.",
+    "Most entrieshistorical; 실물깡패recentreportofpastmeeting,예랑이recenteditorialuse,방제recentdocumentmodifieddate notorigin.",
+    "CI on this newcheckpoint not yetrun; preceding reportSHApassed65/65Python497. No localPython executed."
+  ]
+}
