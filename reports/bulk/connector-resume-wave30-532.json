@@ -1,0 +1,292 @@
+{
+  "batch": 532,
+  "base": "097fc54ee5a98da46618e5227063e3d5d6681117",
+  "canonical_before": 1958,
+  "canonical_after": 1967,
+  "added": [
+    "dongchin-neighborhood-friend-short-form",
+    "dokpamin-reading-pleasure-metaphor",
+    "byeokdolchaek-thick-book-nickname",
+    "conditional-going-to-sleep-title",
+    "silchin-offline-friend-short-form",
+    "teuchinso-twitter-friend-introduction",
+    "odokwan-daily-reading-record-tag",
+    "lanseon-chingu-online-friend-expression",
+    "tarae-connected-social-posts"
+  ],
+  "candidate_changes": [
+    {
+      "candidate_id": "kr-list-0894",
+      "id": "conditional-going-to-sleep-title",
+      "reason": "평가 조건절과 자러감을 결합한 문자 제목만 연결. 동일 플랫폼 별개3게시물,독립저자/원이미지/실제취침/최초/규모 미검증. 원장전체수록아님."
+    }
+  ],
+  "previous_ci": {
+    "sha": "097fc54ee5a98da46618e5227063e3d5d6681117",
+    "run": 44388360373,
+    "job": 135098976773,
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 161.040s"
+    ]
+  },
+  "previous_final_audit": {
+    "status": "PASS",
+    "required": 0,
+    "sha": "097fc54ee5a98da46618e5227063e3d5d6681117",
+    "total": 1958,
+    "files": 18,
+    "oldBodiesUnchanged": 1949,
+    "queryRows": 14631,
+    "distinctLiteralQueries": 11996
+  },
+  "sources": [
+    {
+      "id": "dongchin-neighborhood-friend-short-form",
+      "urls": [
+        "https://www.marieclairekorea.com/culture/lifestyle/2018/07/123270/",
+        "https://sports.khan.co.kr/article/201910171209003"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dokpamin-reading-pleasure-metaphor",
+      "urls": [
+        "https://www.gblib.or.kr/mia/board/notice_view.do?gidx=0001&idx=49441",
+        "https://news.bucheon.go.kr/home/kor/M337742440/board.do?act=detail&idx=cb00d1a0008a85e71a41b8741facbffe19de8b5996b597027ec4d341fbe8600e",
+        "https://bravo.etoday.co.kr/view/atc_view/20140"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "byeokdolchaek-thick-book-nickname",
+      "urls": [
+        "https://www.gblib.or.kr/gangbuk/board/notice_view.do?gidx=0001&idx=52242&pageIndex=1&searchCondition=&searchKeyword=&vidx=1638",
+        "https://bravo.etoday.co.kr/view/atc_view/20140"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "conditional-going-to-sleep-title",
+      "urls": [
+        "https://gall.dcinside.com/mgallery/board/view/?id=sunshine&no=6722438&page=1",
+        "https://gall.dcinside.com/mgallery/board/view/?id=els&no=2574308&page=1",
+        "https://gall.dcinside.com/mgallery/board/view/?id=enban&no=1509401&page=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "silchin-offline-friend-short-form",
+      "urls": [
+        "https://www.khan.co.kr/article/202411020800001",
+        "https://www.openads.co.kr/content/contentDetail?contsId=15964"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "teuchinso-twitter-friend-introduction",
+      "urls": [
+        "https://www.starnewskorea.com/sports/2010/06/24/2010062408133699925",
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01277046625966384"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "odokwan-daily-reading-record-tag",
+      "urls": [
+        "https://www.ddu.ac.kr/bbs/MN000000000111/detail.htm?bbscttSeq=16281",
+        "https://www.flybook.kr/book/1215744",
+        "https://bravo.etoday.co.kr/view/atc_view/20140"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "lanseon-chingu-online-friend-expression",
+      "urls": [
+        "https://www.journalist.or.kr/news/article.html?no=48806",
+        "https://cafe.daangn.com/laenseonchingu/posts/dQ5Dxe2d"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "tarae-connected-social-posts",
+      "urls": [
+        "https://m.news.nate.com/view/20210107n00286",
+        "https://weekly.donga.com/culture/article/all/11/5857915/1"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening": {
+    "C189": {
+      "observations": 11,
+      "recommended": 1,
+      "conditional": 2,
+      "existing_family": 1,
+      "held": 7,
+      "queries": [
+        "\"실친\" \"현실 친구\" 기사",
+        "\"겜친\" \"게임 친구\" 기사",
+        "\"맘친\" \"친구\" 기사",
+        "\"겜친\" \"이대은\" 트루디 2022",
+        "\"랜선친구\" \"2026\" 기사",
+        "\"동친\" \"동네 친구\" 기사"
+      ],
+      "sources": [
+        "https://www.marieclairekorea.com/culture/lifestyle/2018/07/123270/",
+        "https://sports.khan.co.kr/article/201910171209003",
+        "https://www.openads.co.kr/content/contentDetail?contsId=15964",
+        "https://www.4242.or.kr/sub10/view/id/2458"
+      ],
+      "note": "동친actualnickname report+fictionalrelationtitle;실친onegroup conditional;랜선친구service metaphor conditional;4textreads5failed;media0"
+    },
+    "A183": {
+      "observations": 4,
+      "recommended": 0,
+      "held": 4,
+      "queries": [
+        "\"자러감\" \"드립\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"ㅎㄴㅎㄴ\" 뜻 -site:namu.moe -site:seore.org",
+        "\"후라이 똥 튀김\" -site:namu.moe -site:seore.org",
+        "\"와퍼\" \"노래\" \"패러디\" 한국",
+        "\"멋있으면 자러감\"",
+        "\"와퍼\" \"Harder\" 한국 패러디",
+        "\"ㅎㄴㅎㄴ\" \"홍성흔\" -site:namu.moe -site:seore.org -site:yagoonara.com"
+      ],
+      "sources": [
+        "https://gall.dcinside.com/mgallery/board/view/?id=els&no=2574308&page=1",
+        "https://gall.dcinside.com/board/view/?id=monsterhunter&no=5859163"
+      ],
+      "note": "0894conditionalgoingtosleep titleactual1,0528text1 unknownsongderivation.2read2failed;media0. Reviewer used1949; coordinator1958new9 don'taddressthese."
+    },
+    "B668": {
+      "observations": 10,
+      "recommended": 1,
+      "conditional": 1,
+      "existing_family": 5,
+      "held": 3,
+      "queries": [
+        "2026 신조어 \"말\" site:bravo.etoday.co.kr",
+        "2026 \"유행어\" \"댓글\" site:newsis.com",
+        "2026 \"밈\" \"말투\" site:univ20.com",
+        "\"독파민\" 2026 도서관",
+        "\"벽돌책\" 2026 \"독서\""
+      ],
+      "note": "독파민definition1+institutiondirect2;벽돌책definition+institutiondirect1conditional;eventannouncementnotcompletion;media0"
+    },
+    "A184": {
+      "observations": 1,
+      "recommended": 1,
+      "queries": [
+        "\"멋있으면 자러감\"",
+        "\"귀여우면 자러감\"",
+        "\"잘생겼으면 자러감\""
+      ],
+      "sources": [
+        "https://gall.dcinside.com/mgallery/board/view/?id=enban&no=1509401&page=1",
+        "https://gall.dcinside.com/mgallery/board/view/?id=sunshine&no=6722438&page=1",
+        "https://gall.dcinside.com/mgallery/board/view/?id=els&no=2574308&page=1"
+      ],
+      "note": "0894partialproposal conditionaltitletextonly.2newdirect+1prior.3boards sameplatform notverifiedindependentauthors;images0."
+    },
+    "C190": {
+      "observations": 12,
+      "recommended": 2,
+      "existing_family": 6,
+      "conditional": 1,
+      "held": 3,
+      "queries": [
+        "\"실친\" \"현실 친구\" 기사",
+        "\"랜선친구\" \"친구\" site:enews.imbc.com",
+        "\"랜선친구\" \"2026\"",
+        "\"실친\" \"2026\" -site:namu.wiki",
+        "\"랜선친구\" \"뜻\" 기사",
+        "\"랜선친구\" \"2025\" 친구 -웹툰 -만화",
+        "\"랜선친구\" site:enews.imbc.com/News",
+        "\"손민수\" \"덕메\" \"뜻\"",
+        "\"답멘\" \"뜻\" 기사",
+        "\"실친\" \"이벨린\" 경향",
+        "\"블언블\" \"차단\" 기사",
+        "\"트친소\" \"트위터\" 기사",
+        "\"무멘팔\" \"기사\"",
+        "\"팔취\" \"팔로우\" 기사"
+      ],
+      "note": "실친2groups;트친소2010otherintroduce vs2020findfriends distinct. 랜선친구cafe direct+service metaphor conditional. 팔취eonpalfamily. 8externalreads4failed8bodyreads;media0."
+    },
+    "B669": {
+      "observations": 10,
+      "recommended": 1,
+      "existing": 5,
+      "held": 4,
+      "queries": [
+        "2026 \"신조어\" site:lib.go.kr",
+        "2026 \"오독완\" 도서관",
+        "2026 \"신조어\" site:korea.kr"
+      ],
+      "sources": [
+        "https://www.flybook.kr/book/1215744",
+        "https://www.ddu.ac.kr/bbs/MN000000000111/detail.htm?bbscttSeq=16281",
+        "https://bravo.etoday.co.kr/view/atc_view/20140"
+      ],
+      "note": "오독완1user3posts relative dates only+2024institutiontitle+definition; media0. kyosuheadernotarticledate."
+    },
+    "C191": {
+      "observations": 12,
+      "recommended": 2,
+      "existing": 2,
+      "conditional": 4,
+      "held": 4,
+      "queries": [
+        "\"랜선친구\" \"만났다\" 인터뷰",
+        "\"블언블\" \"트위터\" 신문",
+        "\"무멘팔\" \"팔로우\" 기사",
+        "\"선멘\" \"뜻\"",
+        "\"취재원과 신뢰\" \"랜선친구\"",
+        "\"랜선친구\" \"친해\" 인터뷰 -site:namu.moe -site:namu.wiki",
+        "\"무멘팔\" \"2026\" -site:hoonmeme.com",
+        "\"블언블\" \"2026\" -site:hoonmeme.com",
+        "\"맘찍\" \"마음\" 기사",
+        "\"초멘\" \"죄송\" 기사",
+        "\"플텍\" \"비공개\" 기사",
+        "\"타래\" \"트위터\" 신조어"
+      ],
+      "note": "랜선친구interview+cafeownintro;타래2025-09-24(notissue09-19)+2021-01-07reports.4conditionalsame2020blog not4actualuses. 겹트indexonly. media0."
+    },
+    "A185": {
+      "observations": 6,
+      "recommended": 0,
+      "held": 6,
+      "queries": [
+        "\"돈 내놔라 먹튀야\" -site:namu.moe -site:namu.wiki",
+        "\"언캐니\" \"인크레더블\" 밈 한국",
+        "\"빅 나티를 변기에\" -site:namu.moe -site:namu.wiki",
+        "\"인증 대란\" 밈 유행",
+        "\"아자핑\" \"하츄핑\" -site:namu.moe -site:namu.wiki",
+        "\"와플핑\" \"핫케핑\" -site:namu.moe -site:namu.wiki",
+        "\"인크레더블\" \"밈\" \"만들\" 한국",
+        "류중일 장원삼 \"돈\" \"먹튀\""
+      ],
+      "note": "6priorrows.2reads1failed.0571songquotationnotseparatememe;0879retrospectivecertificationarticle2026-09-12(notURL09-10),historicalevent2012notoriginal. media0."
+    }
+  },
+  "query_increment": 58,
+  "query_observations": 14689,
+  "distinct_literal_queries": 12048,
+  "preaudit": {
+    "status": "PASS",
+    "required": 0,
+    "notes": [
+      "9families and0894partial independently audited.",
+      "SharedBravo derivatives limited to brief own definitions; health claims excluded.",
+      "Relative dates andeventannouncements not treated as exactdates/completion."
+    ]
+  },
+  "limits": [
+    "Old1958bodies and original1091candidate source unchanged;coverageonly0894index_not_found→partial.",
+    "Usage74/reviewed73 preserved;main/protectedbodies unchanged.",
+    "Observations are not unique memes. Repeated research separated.",
+    "No original images/videos viewed. Relative dates not converted to exact dates.",
+    "NewcommitCIpending;prior1958 exactSHA65/65Python497success. No localPythonrun."
+  ]
+}
