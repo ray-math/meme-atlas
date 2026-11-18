@@ -1,0 +1,85 @@
+{
+  "batch": 285,
+  "canonical_before": 925,
+  "canonical_after": 926,
+  "added": "hood-grab-shot",
+  "research": {
+    "queries": [
+      "2026 1월 밈 매거진 모음",
+      "2025 12월 밈 매거진 유행어",
+      "2026 1월 밈 site:allurekorea.com",
+      "2025 12월 밈 site:elle.co.kr",
+      "2026 유행어 site:marieclairekorea.com",
+      "2026 1월 밈 site:hsad.tistory.com",
+      "2025 12월 밈 site:cosmopolitan.co.kr",
+      "2026 2월 밈 site:singleskorea.com",
+      "\"후드잡샷\" \"몬스타엑스\"",
+      "\"정신없는\" \"브이로그\" \"2026\"",
+      "\"후드잡샷\" -site:hsad.tistory.com -site:blog.hsad.co.kr -site:instablank.com -site:jjalbang.today",
+      "\"미니 브이로그\" \"2026\" \"제작\""
+    ],
+    "expressions": [
+      "두쫀쿠",
+      "경도",
+      "불닭미역탕면",
+      "후드잡샷",
+      "클리커",
+      "말랑이",
+      "정신없는 숏 브이로그",
+      "파파존스",
+      "나무 챌린지",
+      "봄동비빔밥",
+      "젤리얼먹",
+      "초코무스",
+      "그릭요거트 치즈케이크",
+      "아기 원숭이 펀치",
+      "젓가락",
+      "BIG GUY",
+      "락인"
+    ],
+    "materials_screened": 17,
+    "existing": 3,
+    "recommended": 1,
+    "held_or_out_of_scope": 13,
+    "existing_ids": [
+      "tree-flailing-challenge",
+      "chopstick-runway",
+      "big-guy-arm-illusion"
+    ],
+    "held": "정신없는 가로 브이로그: split-screen-vlog와 형식은 다르나 별개 국내 제작 근거 부족; 음식/장난감/광고 등은 단독 밈 수록 제외",
+    "sources": [
+      "https://www.careet.net/1799",
+      "https://hsad.tistory.com/3698",
+      "https://hsad.tistory.com/3716",
+      "https://www.elle.co.kr/article/1893417",
+      "https://www.mobiinside.co.kr/2026/01/06/v-log-trend/"
+    ],
+    "editor_direct_read": [
+      "https://www.careet.net/1799",
+      "https://hsad.tistory.com/3698"
+    ]
+  },
+  "editor_index_queries": [
+    "죽이세",
+    "호프",
+    "죽여",
+    "kill",
+    "hope",
+    "후드잡",
+    "후드",
+    "hood",
+    "not cute"
+  ],
+  "dedup_note": "후드 검색 all-cash-small-purchase는 후드티 구매 예문일 뿐 다른 형식. 나머지 후보별 무일치. 검색 관측수는 고유 밈 수가 아님.",
+  "evidence": "후드잡샷: 두 소개가 서로 다른 국내 제작을 명시; 원영상 시청0, 최초기원 유보. 화아아악죽이세유: 이전 프로필 클릭으로 미러2 읽기 회복했으나 재직접URL 실패; 이번 본문 추가하지 않음.",
+  "checks": {
+    "unique_ids": 926,
+    "title_alias_cross_id_collisions": 0,
+    "generator_base_roundtrip": true
+  },
+  "metrics": {
+    "query_observations": 2437,
+    "distinct_literal_queries": 1975
+  },
+  "ci": "not run"
+}

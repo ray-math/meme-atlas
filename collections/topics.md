@@ -1034,6 +1034,7 @@
 - [하지하지마 챌린지](../memes/stop-stop-it-challenge.md)
 - [한두 달만 지나면 빙하기 찾아와](../memes/ice-age-coming-outing.md)
 - [항준적 사고](../memes/hangjun-thinking.md)
+- [후드잡샷](../memes/hood-grab-shot.md)
 
 ## 인터넷방송
 

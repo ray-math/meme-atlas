@@ -124,10 +124,11 @@
     "reports/bulk/connector-resume-wave30-281.json",
     "reports/bulk/connector-resume-wave30-282.json",
     "reports/bulk/connector-resume-wave30-283.json",
-    "reports/bulk/connector-resume-wave30-284.json"
+    "reports/bulk/connector-resume-wave30-284.json",
+    "reports/bulk/connector-resume-wave30-285.json"
   ],
-  "query_observations": 2399,
-  "distinct_literal_queries": 1941,
+  "query_observations": 2437,
+  "distinct_literal_queries": 1975,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -12324,6 +12325,196 @@
     {
       "query": "매끈",
       "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 1월 밈 매거진 모음",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2025 12월 밈 매거진 유행어",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 1월 밈 site:allurekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2025 12월 밈 site:elle.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 유행어 site:marieclairekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 1월 밈 site:hsad.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2025 12월 밈 site:cosmopolitan.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 2월 밈 site:singleskorea.com",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"후드잡샷\" \"몬스타엑스\"",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정신없는\" \"브이로그\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"후드잡샷\" -site:hsad.tistory.com -site:blog.hsad.co.kr -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미니 브이로그\" \"2026\" \"제작\"",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "두쫀쿠",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "경도",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "불닭미역탕면",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "후드잡샷",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "클리커",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "말랑이",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "정신없는 숏 브이로그",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "파파존스",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나무 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "봄동비빔밥",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "젤리얼먹",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "초코무스",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그릭요거트 치즈케이크",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아기 원숭이 펀치",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "젓가락",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "BIG GUY",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "락인",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "죽이세",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "호프",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "죽여",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "kill",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "hope",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "후드잡",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "후드",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "hood",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "not cute",
+      "source": "reports/bulk/connector-resume-wave30-285.json",
       "status": "screened-see-report"
     }
   ],
