@@ -210,10 +210,11 @@
     "reports/bulk/connector-resume-wave30-379.json",
     "reports/bulk/connector-resume-wave30-380.json",
     "reports/bulk/connector-resume-wave30-381.json",
-    "reports/bulk/connector-resume-wave30-382.json"
+    "reports/bulk/connector-resume-wave30-382.json",
+    "reports/bulk/connector-resume-wave30-383.json"
   ],
-  "query_observations": 5072,
-  "distinct_literal_queries": 4361,
+  "query_observations": 5085,
+  "distinct_literal_queries": 4374,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -25775,6 +25776,71 @@
     {
       "query": "\"2026\" \"챌린지\" \"패러디\" \"11월\" -site:instablank.com",
       "source": "reports/bulk/connector-resume-wave30-382.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"주작송\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"창팝\" \"2026\" 제작",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"함정카드\" \"2026\" 발동",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"호텔경제학\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"홍박사님을 아세요\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"주작송\" 패러디 제작",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"창팝\" \"2026\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"함정카드 발동\" \"2026\" -site:inven.co.kr -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"주작송\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"홍박사님을 아세요\" \"패러디\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"함정카드\" \"2026\" \"발동\" -site:inven.co.kr -site:namu.moe -유희왕 -쿠키런",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"함정카드 발동\" \"2026\" -site:koreapas.com -site:namu.moe -site:news.nate.com -유희왕 -포켓몬 -쿠키런",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"함정카드\" \"2026\" \"여행\"",
+      "source": "reports/bulk/connector-resume-wave30-383.json",
       "status": "screened-see-report"
     }
   ],

@@ -685,6 +685,7 @@
 - [한잔해](../memes/hanjanhae-positive-reason.md)
 - [할렐야루](../memes/hallelyaru.md)
 - [할많하않](../memes/halmanhahan.md)
+- [함정카드 발동](../memes/trap-card-activated.md)
 - [항공샷](../memes/overhead-selfie.md)
 - [항마력](../memes/hangmaryeok.md)
 - [해결했습니다](../memes/header-problem-solved.md)
