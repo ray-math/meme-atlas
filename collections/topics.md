@@ -82,6 +82,7 @@
 - [HMH·GMG](../memes/hmh-gmg.md)
 - [OTL](../memes/otl.md)
 - [TMI](../memes/tmi.md)
+- [TS 말포이](../memes/ts-malfoy.md)
 - [~각](../memes/gak-situation.md)
 - [~갑](../memes/gap-best.md)
 - [~무새](../memes/musae-repeat.md)
