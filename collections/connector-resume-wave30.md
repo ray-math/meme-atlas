@@ -189,3 +189,4 @@
 - [울어라 지옥참마도](../memes/cry-hell-sword.md)
 - [교토식 화법](../memes/kyoto-style-speech.md)
 - [너어는 진짜](../memes/neoeoneun-jinjja.md)
+- [더러운 입을 놀리느냐](../memes/dirty-mouth-remix.md)

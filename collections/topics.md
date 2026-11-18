@@ -244,6 +244,7 @@
 - [댓망진창](../memes/daetmangjinchang.md)
 - [댕댕이](../memes/daengdaengi.md)
 - [더 이상의 자세한 설명은 생략한다](../memes/omit-details.md)
+- [더러운 입을 놀리느냐](../memes/dirty-mouth-remix.md)
 - [덕계못](../memes/deokgyemot.md)
 - [덕메](../memes/deokmate.md)
 - [덕밍아웃](../memes/deokming-out.md)

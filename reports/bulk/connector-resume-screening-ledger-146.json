@@ -226,10 +226,11 @@
     "reports/bulk/connector-resume-wave30-395.json",
     "reports/bulk/connector-resume-wave30-396.json",
     "reports/bulk/connector-resume-wave30-397.json",
-    "reports/bulk/connector-resume-wave30-398.json"
+    "reports/bulk/connector-resume-wave30-398.json",
+    "reports/bulk/connector-resume-wave30-399.json"
   ],
-  "query_observations": 5289,
-  "distinct_literal_queries": 4570,
+  "query_observations": 5314,
+  "distinct_literal_queries": 4592,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -26876,6 +26877,131 @@
     {
       "query": "\"원작을 경험해\" -site:namu.moe -site:alphawiki.org",
       "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"더러운 입을 놀리느냐\" \"2026\" -site:namu.moe -site:theqoo.net -site:nocutnews.co.kr -site:sbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"더러운 입을 놀리느냐\" \"챌린지\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:ac.kr \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:go.kr \"유튜브\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:or.kr \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" site:blog.naver.com \"도서관\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제작했다\" \"공식\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" \"도서관\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"활용\" \"박물관\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" \"소방\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고양고양이\" \"2026\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"숨은 명곡\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"랩으로 주문하기\" \"공식\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"04년생 클럽춤\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"AI 커버\" \"2026\" 제작 밈",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정권이 내\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어 나가\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미띤\" \"2026\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"04년생 클럽춤\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"UH NARAK\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정권이 내\" -site:namu.moe -site:wiki",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미띤\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정권이내\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"04년생 클럽춤\" 따라",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어 나가\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-399.json",
       "status": "screened-see-report"
     }
   ],
