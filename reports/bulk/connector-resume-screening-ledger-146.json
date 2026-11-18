@@ -55,10 +55,11 @@
     "reports/bulk/connector-resume-c200.json",
     "reports/bulk/connector-resume-holds201.json",
     "reports/bulk/connector-resume-audit-screening202.json",
-    "reports/bulk/connector-resume-holds203.json"
+    "reports/bulk/connector-resume-holds203.json",
+    "reports/bulk/connector-resume-screening205.json"
   ],
-  "query_observations": 889,
-  "distinct_literal_queries": 716,
+  "query_observations": 900,
+  "distinct_literal_queries": 727,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -4705,6 +4706,61 @@
     {
       "query": "버터떡",
       "source": "reports/bulk/connector-resume-holds203.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026.11.18\"",
+      "source": "reports/bulk/connector-resume-screening205.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"챌린지\" \"2026.11.18\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-screening205.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" \"11월\" site:ditoday.com",
+      "source": "reports/bulk/connector-resume-screening205.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로버트 패틴슨\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-screening205.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"11월\" \"2026\" \"밈\" \"편집\" -site:instablank.com -site:jjalbang.today -site:luckyvicky.moamoang.co.kr",
+      "source": "reports/bulk/connector-resume-screening205.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈이 된 로버트패틴슨\"",
+      "source": "reports/bulk/connector-resume-screening205.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"케이팝까지 진출한 로버트\"",
+      "source": "reports/bulk/connector-resume-screening205.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로버트 패틴슨\" \"밈\" -site:issuelink.co.kr",
+      "source": "reports/bulk/connector-resume-screening205.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로버트 패틴슨\" \"캐스팅 되었습니다\"",
+      "source": "reports/bulk/connector-resume-screening205.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로버트패틴슨\" \"밈\" -site:theqoo.net -site:issuelink.co.kr",
+      "source": "reports/bulk/connector-resume-screening205.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로버트 패틴슨\" \"치이카와\"",
+      "source": "reports/bulk/connector-resume-screening205.json",
       "status": "screened-see-report"
     }
   ],
