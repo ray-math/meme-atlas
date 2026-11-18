@@ -100,6 +100,7 @@
 - [○○가 되](../memes/becomes-oo.md)
 - [○○에 ○○의 등장이라](../memes/appearance-narrator-template.md)
 - [○○은 사드세요 제발](../memes/please-buy-it-template.md)
+- [○○이 사람이라면 사귈 수 있을까](../memes/if-it-were-a-person-date.md)
 - [○○핑](../memes/oo-ping.md)
 - [ㄹㅇㅋㅋ](../memes/real-lol.md)
 - [ㅇㄱㄹㅇ](../memes/igeo-real.md)

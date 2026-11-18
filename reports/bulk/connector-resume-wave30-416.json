@@ -1,0 +1,113 @@
+{
+  "batch": 416,
+  "base": "20084aaa931a9446495b019ab03f468c48951f2c",
+  "canonical_before": 997,
+  "canonical_after": 998,
+  "added": [
+    "if-it-were-a-person-date"
+  ],
+  "researchA": {
+    "queries": [
+      "\"사람이라면\" \"사귈\" \"옷\"",
+      "\"사람이라면 사귈 수\"",
+      "\"사람이면\" \"사귈\" \"돌\"",
+      "\"음식이 사람이라면\" \"슈기\"",
+      "\"사람이라면\" \"사귈\" site:youtube.com",
+      "\"사귈 수 있을까\" \"비누\""
+    ],
+    "recommended": "if-it-were-a-person-date",
+    "source_urls": [
+      "https://weekly.donga.com/culture/article/all/11/6137767/1",
+      "https://www.ledesk.co.kr/view.php?uid=15789"
+    ],
+    "supplemental": "https://theqoo.net/square/4148894783",
+    "note": "엔믹스공유게시물은같은제작,YouTubeF4nRz6nWnCA throttled. 창작자원문0영상0.997색인중복없음."
+  },
+  "researchB": {
+    "batch": "b1007",
+    "queries": [
+      "\"뼈 맞았어\" \"2026\"",
+      "\"샤갈\" \"2026\" 밈",
+      "\"스키비디 토일렛\" \"2026\" 한국 패러디",
+      "\"잼민이\" \"2026\" 밈",
+      "\"핫산\" \"2026\" 번역",
+      "\"샤갈\" \"2026\" -site:namu.moe -뜻 -유래 -화가 -전시 -마르크 -신조어 -미술",
+      "\"뼈 맞았어\" -site:namu.moe",
+      "\"스키비디 토일렛\" 한국 제작 패러디",
+      "\"핫산\" \"번역해\" \"2026\"",
+      "\"샤갈\" \"박신양\"",
+      "\"샤갈\" \"샤갈\" site:theqoo.net \"2026\""
+    ],
+    "recommended": {
+      "id": "0613",
+      "title": "샤갈",
+      "sources": [
+        "https://www.xportsnews.com/article/2110838",
+        "https://news.tvchosun.com/site/data/html_dir/2026/07/24/2026072490206.html",
+        "https://www.openads.co.kr/content/contentDetail?contsId=18655"
+      ],
+      "note": "전시홍보02-10보도+다른창작자개사02-11설명. TV조선07-25같은전시홍보중복. 감탄사한정,개사춤별도는smooth-smooth중복. 원영상0미성년정보제외. 최종편집감사대기."
+    },
+    "held": [
+      {
+        "id": "0584",
+        "url": "https://www.tving.com/shorts/VT0000276878",
+        "note": "제목직접 날짜·영상맥락미확정"
+      },
+      {
+        "id": "0652",
+        "note": "국내독립제작2군미확보.italian-brainrot과다름 작품전체밈정의안함"
+      },
+      {
+        "id": "0905",
+        "url": "https://v.daum.net/v/20260226162705140",
+        "note": "2026-02-26해설·예문실제차용아님.AI파생어구분아동낙인제외"
+      },
+      {
+        "id": "1107",
+        "url": "https://gall.dcinside.com/mini/board/view/?id=rtv&no=51",
+        "note": "열렸으나관련본문미확인.이름/호칭불명"
+      }
+    ]
+  },
+  "researchC": {
+    "queries": [
+      "\"비둘기야 먹자\" 패러디",
+      "\"비둘기야 먹자\" 쿠크세이튼",
+      "\"비둘기야 먹자\" 광고"
+    ],
+    "id": "0569",
+    "decision": "held",
+    "source_urls": [
+      "https://www.reddit.com/r/KoreanGameDev/comments/1xlnnqi/",
+      "https://yonseiji.tistory.com/m/94",
+      "https://www.gamechosun.co.kr/webzine/article/view.php?from=main&no=227344"
+    ],
+    "note": "Reddit밈영감자기보고와Steam5395560연결,게임조선동일1제작. 작성자신원미확정,15일전표시만. 교지2025-12-25게시표시,원지면일불명,회고/인용보조아님새제작. 인벤/영상실패,영상0."
+  },
+  "audit998": {
+    "passed_for_scope": true,
+    "index_rows": 997,
+    "source_reads_confirmed": 1,
+    "source": "https://www.ledesk.co.kr/view.php?uid=15789",
+    "limits": "한기사에별개제작2건.원게시물2건직접확인아님.주간동아추정경로2실패후정확URL재확인중,편집자+A정확URL본문확인.",
+    "queries": [
+      "site:weekly.donga.com \"6137767\""
+    ]
+  },
+  "final997audit": {
+    "passed": true,
+    "body_reads": 1,
+    "required_changes": 0
+  },
+  "ci997": {
+    "run": 44256477606,
+    "job": 134639266776,
+    "success": true,
+    "steps": 65,
+    "tests": 495,
+    "seconds": 60.866
+  },
+  "candidate_changes": 0,
+  "ci_new_commit": "pending"
+}

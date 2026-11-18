@@ -240,10 +240,11 @@
     "reports/bulk/connector-resume-wave30-412.json",
     "reports/bulk/connector-resume-wave30-413.json",
     "reports/bulk/connector-resume-wave30-414.json",
-    "reports/bulk/connector-resume-wave30-415.json"
+    "reports/bulk/connector-resume-wave30-415.json",
+    "reports/bulk/connector-resume-wave30-416.json"
   ],
-  "query_observations": 5583,
-  "distinct_literal_queries": 4851,
+  "query_observations": 5604,
+  "distinct_literal_queries": 4872,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -28360,6 +28361,111 @@
     {
       "query": "\"Sea of Love 2025\" 동행축제",
       "source": "reports/bulk/connector-resume-wave30-415.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사람이라면\" \"사귈\" \"옷\"",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사람이라면 사귈 수\"",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사람이면\" \"사귈\" \"돌\"",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"음식이 사람이라면\" \"슈기\"",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사람이라면\" \"사귈\" site:youtube.com",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사귈 수 있을까\" \"비누\"",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뼈 맞았어\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤갈\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스키비디 토일렛\" \"2026\" 한국 패러디",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잼민이\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"핫산\" \"2026\" 번역",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤갈\" \"2026\" -site:namu.moe -뜻 -유래 -화가 -전시 -마르크 -신조어 -미술",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뼈 맞았어\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스키비디 토일렛\" 한국 제작 패러디",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"핫산\" \"번역해\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤갈\" \"박신양\"",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤갈\" \"샤갈\" site:theqoo.net \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"비둘기야 먹자\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"비둘기야 먹자\" 쿠크세이튼",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"비둘기야 먹자\" 광고",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:weekly.donga.com \"6137767\"",
+      "source": "reports/bulk/connector-resume-wave30-416.json",
       "status": "screened-see-report"
     }
   ],
