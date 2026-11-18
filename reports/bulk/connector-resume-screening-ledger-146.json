@@ -224,10 +224,11 @@
     "reports/bulk/connector-resume-wave30-393.json",
     "reports/bulk/connector-resume-wave30-394.json",
     "reports/bulk/connector-resume-wave30-395.json",
-    "reports/bulk/connector-resume-wave30-396.json"
+    "reports/bulk/connector-resume-wave30-396.json",
+    "reports/bulk/connector-resume-wave30-397.json"
   ],
-  "query_observations": 5242,
-  "distinct_literal_queries": 4524,
+  "query_observations": 5265,
+  "distinct_literal_queries": 4547,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -26639,6 +26640,121 @@
     {
       "query": "\"2026\" \"다 아는 내용\" \"유병재\"",
       "source": "reports/bulk/connector-resume-wave30-396.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:elle.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"따라\" site:allurekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"유행어\" \"패러디\" site:newsis.com",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"뉴욕 헤럴드\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"더러운 입을\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"사용했다\" -site:namu.moe -site:mika.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"더러운 입을 놀리느냐\" \"챌린지\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다큰낙타\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"더러운 입을 놀리느냐\" \"리센느\"",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"더러운 입을 놀리느냐\" \"런닝맨\"",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다큰낙타\" site:teamblind.com",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다큰낙타\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나노머신\" \"2026\" \"썬\"",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너어는 진짜\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로우바둑이\" \"2026\" 순위",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뭉탱이\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"능지\" \"2026\" \"뜻\"",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로우바둑이\" \"전투력 측정기\" \"2026\" -site:nhn.com",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너어는 진짜\" \"2026\" -site:kone.gg -site:namu.moe -site:twstalker.com",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나노머신 썬\" 패러디 제작",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로우바둑이\" \"넘지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너어는 진짜\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뭉탱이\" 제작 후기",
+      "source": "reports/bulk/connector-resume-wave30-397.json",
       "status": "screened-see-report"
     }
   ],

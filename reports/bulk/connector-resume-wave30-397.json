@@ -1,0 +1,326 @@
+{
+  "batch": 397,
+  "base": "0505f97339c2be53b2f79c74842cce3b4b6b4705",
+  "canonical_before": 986,
+  "canonical_after": 986,
+  "added": [],
+  "partial_scope_audit": {
+    "sha": "a94f9bec7426587873daadf3069f9816ab5e1bda",
+    "scope": "partial positions21-45",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0521",
+        "dictionary_ids": [
+          "snow-reporter-parody"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0543",
+        "dictionary_ids": [
+          "byeongjin-leave"
+        ],
+        "body_read": true,
+        "result": "core_scene_present_quote_scope_limited"
+      },
+      {
+        "candidate_id": "kr-list-0561",
+        "dictionary_ids": [
+          "not-cool-anymore-template"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0572",
+        "dictionary_ids": [
+          "are-you-crazy-human"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0583",
+        "dictionary_ids": [
+          "bbangsang"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0614",
+        "dictionary_ids": [
+          "saebbing-challenge"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0660",
+        "dictionary_ids": [
+          "hoshitamtam-challenge"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0672",
+        "dictionary_ids": [
+          "ssap-ganeung"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0688",
+        "dictionary_ids": [
+          "amazon-express-dance",
+          "soulless-guide"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0743",
+        "dictionary_ids": [
+          "you-impostor"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0752",
+        "dictionary_ids": [
+          "eoljjang"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0788",
+        "dictionary_ids": [
+          "seong-gihun-freeze"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0824",
+        "dictionary_ids": [
+          "wednesday-dance"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0829",
+        "dictionary_ids": [
+          "unknown-youtube-algorithm",
+          "appear-in-algorithm"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0850",
+        "dictionary_ids": [
+          "jinhaeng-sikyeo"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0909",
+        "dictionary_ids": [
+          "jeose-sang-tension"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0932",
+        "dictionary_ids": [
+          "taebo-hae"
+        ],
+        "body_read": true,
+        "result": "named_work_mentioned_not_fully_described"
+      },
+      {
+        "candidate_id": "kr-list-0988",
+        "dictionary_ids": [
+          "igeo-real",
+          "injeong",
+          "real-lol",
+          "trembling-reaction",
+          "dududunga"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-1001",
+        "dictionary_ids": [
+          "chika-dance"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-1049",
+        "dictionary_ids": [
+          "oo-ping"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-1064",
+        "dictionary_ids": [
+          "turn-off-light-ram"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-1065",
+        "dictionary_ids": [
+          "pepsiman-jokes"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-1066",
+        "dictionary_ids": [
+          "peng-ha"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-1072",
+        "dictionary_ids": [
+          "forbes-selected"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-1150",
+        "dictionary_ids": [
+          "evenly",
+          "naya-deulgireum"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      }
+    ],
+    "bodies_read": 32,
+    "classification_changes": 0,
+    "limits": "0543핵심장면수록/인용제한이지확정누락아님,0932작품명언급있음.남는범위는연결본문범위밖이지사전전체누락확정아님.외부검증0"
+  },
+  "partial_aggregate": {
+    "rows": 45,
+    "distinct_bodies": 57,
+    "classification_changes": 0,
+    "reports": [
+      "reports/bulk/connector-resume-wave30-395.json",
+      "reports/bulk/connector-resume-wave30-397.json"
+    ],
+    "limits": "연결된 본문 범위 감사이며 사전 전체 부재나 외부 사실 정확성 검증이 아니다"
+  },
+  "coverage_correction": "395 snapshot의 automatic_scope_audit 완료 정보와 모순된 오래된 limits 한 문장을 수정. 분류 및 연결 수 변경 없음.",
+  "researchA": {
+    "candidate": "더러운 입을 놀리느냐",
+    "sources": [
+      "https://m.nocutnews.co.kr/news/6518321",
+      "https://programs.sbs.co.kr/programTemplate/amp/vod/runningman/22000632178",
+      "https://theqoo.net/square/4222727162?l=vi"
+    ],
+    "limits": "CBS2026-05-17리믹스설명1+SBS6-28소개문직접차용1+더쿠5-30제3자제목1.영상0 X403.방송요일충돌인용금지.기원미확정,nyanyanya댓글유도와다름",
+    "held": {
+      "title": "다큰낙타",
+      "url": "https://v.daum.net/v/20260709101537661",
+      "note": "2026-07-09해설1 직접사용없음"
+    },
+    "queries": [
+      "2026 \"밈\" \"패러디\" site:elle.co.kr",
+      "2026 \"밈\" \"따라\" site:allurekorea.com",
+      "2026 \"유행어\" \"패러디\" site:newsis.com",
+      "\"2026\" \"뉴욕 헤럴드\" 패러디",
+      "\"2026\" \"더러운 입을\" 패러디",
+      "\"2026\" \"밈\" \"사용했다\" -site:namu.moe -site:mika.co.kr",
+      "\"더러운 입을 놀리느냐\" \"챌린지\" 2026",
+      "\"다큰낙타\" \"2026\"",
+      "\"더러운 입을 놀리느냐\" \"리센느\"",
+      "\"더러운 입을 놀리느냐\" \"런닝맨\"",
+      "\"다큰낙타\" site:teamblind.com",
+      "\"다큰낙타\" site:theqoo.net"
+    ]
+  },
+  "researchB": {
+    "rows": [
+      {
+        "id": "0331",
+        "status": "review_recommended",
+        "sources": [
+          "https://theqoo.net/wonpil/4369605484",
+          "https://theqoo.net/yejun/4386301502",
+          "https://kone.gg/s/somisoft/ashEWFB0b5T399GVrn5z8b"
+        ],
+        "note": "더쿠2026-10-09/10-25 다른대상2글익명독립신원미확인,호감과타박.코네본문무날짜최근날짜미확정"
+      },
+      {
+        "id": "0289",
+        "source": "https://m.heroes.nexon.com/ucc/video/View?page=17&postno=1852",
+        "note": "2024-12-14제작후기1최근아님"
+      },
+      {
+        "id": "0352",
+        "note": "뜻풀이위주비하수집안함"
+      },
+      {
+        "id": "0439",
+        "source": "https://inside.nhn.com/news/949",
+        "note": "2026-06-26공식전투력측정기명명1 동일보도복제독립아님"
+      },
+      {
+        "id": "0500",
+        "note": "팬호칭일반묶음과케인밈동일성불명"
+      }
+    ],
+    "queries": [
+      "\"나노머신\" \"2026\" \"썬\"",
+      "\"너어는 진짜\" \"2026\"",
+      "\"로우바둑이\" \"2026\" 순위",
+      "\"뭉탱이\" \"2026\" 패러디",
+      "\"능지\" \"2026\" \"뜻\"",
+      "\"로우바둑이\" \"전투력 측정기\" \"2026\" -site:nhn.com",
+      "\"너어는 진짜\" \"2026\" -site:kone.gg -site:namu.moe -site:twstalker.com",
+      "\"나노머신 썬\" 패러디 제작",
+      "\"로우바둑이\" \"넘지\" \"2026\"",
+      "\"너어는 진짜\" site:theqoo.net",
+      "\"뭉탱이\" 제작 후기"
+    ],
+    "limits": "영상사진0"
+  },
+  "candidate_decisions": "추천 후보는 편집 검토 대기. 이번 커밋에 신규 본문 없음.",
+  "ci": {
+    "body986": {
+      "run": 44249698695,
+      "tests": 495,
+      "seconds": 57.078,
+      "success": true
+    },
+    "report396": {
+      "run": 44249955583,
+      "job": 134617912657,
+      "tests": 495,
+      "seconds": 71.575,
+      "steps": 65,
+      "success": true
+    },
+    "new_commit": "pending"
+  }
+}
