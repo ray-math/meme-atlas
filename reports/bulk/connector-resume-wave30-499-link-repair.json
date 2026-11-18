@@ -1,0 +1,8 @@
+{
+  "base": "165847d442dde85c61014ecb738ce4cc1a293fe5",
+  "failed_run": 44334475826,
+  "error": "missing related backlink: domain-expansion-imitation-challenge.md",
+  "repair": "Replace new crosslink with plain family description. Existing approved body and tests unchanged; index text unchanged.",
+  "canonical": 1633,
+  "ci": "pending"
+}

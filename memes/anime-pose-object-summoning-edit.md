@@ -20,6 +20,6 @@ tags: []
 
 - [고구마팜, 2026-06-02: 릴스 형식과 실제 제작 사례 설명](https://gogumafarm.kr/연기-챌린지-주술-회전샷-피드를-점령한-릴스-포맷-4가/)
 
-관련 형식: [영역전개 따라 하기 챌린지](domain-expansion-imitation-challenge.md). 자세 모방과 물건 등장 편집은 구별한다.
+관련 형식: 영역전개 따라 하기 챌린지. 자세 모방과 물건 등장 편집은 구별한다.
 
 [추가 수록 목록](../collections/connector-resume-wave30.md)
