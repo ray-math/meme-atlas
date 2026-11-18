@@ -1,0 +1,83 @@
+{
+  "batch": 348,
+  "base": "58f9e0314835f3abc06a06f40091ca6fc45b3a6c",
+  "canonical_before": 969,
+  "canonical_after": 969,
+  "added": [],
+  "research": {
+    "recommended": 0,
+    "existing": 7,
+    "held": 3,
+    "existing_ids": [
+      "seong-gihun-freeze",
+      "gwenchana-dingdingding",
+      "italian-brainrot",
+      "first-lesson",
+      "appear-in-algorithm",
+      "pelvis-wont-stop",
+      "smooth-smooth"
+    ],
+    "held_names": [
+      "지브리 프로필",
+      "라바치킨",
+      "안성재 옷입히기"
+    ],
+    "queries": [
+      "2026 \"밈\" \"시청\" \"패러디\" -site:wonju.go.kr",
+      "2026 \"밈\" \"사보\"",
+      "2026 \"유행어\" \"교지\"",
+      "\"안성재\" \"옷입히기\" \"2026\"",
+      "\"라바 치킨\" \"패러디\" 한국",
+      "\"얼음\" \"제프프\" \"패러디\" 2026",
+      "\"안성재\" \"옷입히기\"",
+      "\"라바치킨\" \"꾸킹\"",
+      "\"안성재\" \"백설공주\""
+    ],
+    "index_queries": [
+      "얼음",
+      "딩딩",
+      "지브리",
+      "브레인",
+      "라바",
+      "lava",
+      "치킨",
+      "첫 번째 레슨",
+      "나타나기로",
+      "영포티",
+      "골반",
+      "매끈",
+      "옷입히기",
+      "옷 입",
+      "안성재",
+      "합성",
+      "사과"
+    ],
+    "sources": [
+      "https://www.nocutnews.co.kr/news/6449523",
+      "https://theqoo.net/square/4034442960",
+      "https://www.sportsworldi.com/newsView/20260305518134",
+      "https://chimhaha.net/humor_user/835409"
+    ],
+    "limits": "Workerread/editorunread. Nocut2025-12-31 retrospective dates not originaluploaddates. Ahn clothes collages:theqoo2025-12-20 repost collection, sportsworld2026-03-05 reports subject reaction to2026-03-04 video(unseen),Chimhaha01.03 yearunknown Instagramrepost. No verifiedtwoindependentcreators. raw-apple-was-best contains SnowWhite/apple subset; avoid duplicate. Imagesunviewed;avoidbodymockery."
+  },
+  "editor": {
+    "source_body_reads": [
+      "https://www.sportsworldi.com/newsView/20260305518134",
+      "https://theqoo.net/square/4034442960"
+    ],
+    "limits": "Confirmed reported clothing-edit spread and collection text, not individual images or two independent creators. Existing SnowWhite/apple subset boundary unresolved for broader item, remain held."
+  },
+  "ci": {
+    "report346": {
+      "run": 44238921607,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 74.565
+    },
+    "report347": {
+      "run": 44239093484,
+      "status": "in_progress_at_preparation"
+    }
+  }
+}

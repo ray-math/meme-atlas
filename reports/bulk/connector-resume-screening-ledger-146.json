@@ -176,10 +176,11 @@
     "reports/bulk/connector-resume-wave30-344.json",
     "reports/bulk/connector-resume-wave30-345.json",
     "reports/bulk/connector-resume-wave30-346.json",
-    "reports/bulk/connector-resume-wave30-347.json"
+    "reports/bulk/connector-resume-wave30-347.json",
+    "reports/bulk/connector-resume-wave30-348.json"
   ],
-  "query_observations": 4087,
-  "distinct_literal_queries": 3496,
+  "query_observations": 4113,
+  "distinct_literal_queries": 3515,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -20816,6 +20817,136 @@
     {
       "query": "조우노아시",
       "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"시청\" \"패러디\" -site:wonju.go.kr",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"사보\"",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"유행어\" \"교지\"",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안성재\" \"옷입히기\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라바 치킨\" \"패러디\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"얼음\" \"제프프\" \"패러디\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안성재\" \"옷입히기\"",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라바치킨\" \"꾸킹\"",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안성재\" \"백설공주\"",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "얼음",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "딩딩",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "지브리",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "브레인",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라바",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "lava",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "치킨",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "첫 번째 레슨",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나타나기로",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영포티",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "골반",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "매끈",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "옷입히기",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "옷 입",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "안성재",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "합성",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사과",
+      "source": "reports/bulk/connector-resume-wave30-348.json",
       "status": "screened-see-report"
     }
   ],
