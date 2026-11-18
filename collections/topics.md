@@ -378,6 +378,7 @@
 - [사이다](../memes/cider-relief.md)
 - [사자셍어](../memes/sajasaengeo.md)
 - [산스장](../memes/sanseujang.md)
+- [살려는 드릴게](../memes/spare-you-parody.md)
 - [삼귀다](../memes/samgwida.md)
 - [생카](../memes/saengka.md)
 - [서울은 여전히 서울이고](../memes/seoul-is-still-seoul.md)

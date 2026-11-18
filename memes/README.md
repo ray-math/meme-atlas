@@ -485,6 +485,7 @@
 - [사자셍어](sajasaengeo.md)
 - [사쿠란보 챌린지](sakuranbo-challenge.md)
 - [산스장](sanseujang.md)
+- [살려는 드릴게](spare-you-parody.md)
 - [살리단길](sallidan-gil.md)
 - [살아있네](sara-inne.md)
 - [삼귀다](samgwida.md)
