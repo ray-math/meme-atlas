@@ -1,0 +1,38 @@
+{
+  "batch": 301,
+  "base": "fe5351b21e4799b35e0785a12d70288ca869f608",
+  "canonical_before": 933,
+  "canonical_after": 934,
+  "added": [
+    "stewardess-hyejeong"
+  ],
+  "candidate": "kr-list-0470",
+  "candidate_status": "previouspartial now core two expressions linked via bravo-yeonjin and stewardess-hyejeong; not all drama expressions",
+  "sources": [
+    {
+      "url": "https://v.daum.net/v/20230320162804558",
+      "publisher": "쿠키뉴스",
+      "date": "2023-03-20",
+      "status": "editor and independent reviewer read mirror article"
+    },
+    {
+      "url": "https://www.osen.co.kr/article/G1112072313",
+      "publisher": "OSEN",
+      "date": "2023-03-31",
+      "status": "editor and independent reviewer read"
+    }
+  ],
+  "limits": "최근1년사용확인0. 원SNS/영상/사진0. 최초/자유직업치환단정X. 앞선1월쿠키403자료대신별도3월본문회복.",
+  "audit": "pass bounded actor-character address, distinct from bravo-yeonjin",
+  "prior_ci": {
+    "sha": "fe5351b21e4799b35e0785a12d70288ca869f608",
+    "run": 44226805287,
+    "steps": 65,
+    "result": "success"
+  },
+  "ci": "newcommit pending",
+  "metrics": {
+    "query_observations": 2646,
+    "distinct_literal_queries": 2157
+  }
+}

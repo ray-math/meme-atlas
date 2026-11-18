@@ -107,3 +107,4 @@
 - [치킨바나나 챌린지](../memes/chicken-banana-challenge.md)
 - [테토·에겐](../memes/teto-egen-types.md)
 - [내면의 기가차드](../memes/inner-gigachad-dialogue.md)
+- [스튜어디스 혜정아](../memes/stewardess-hyejeong.md)

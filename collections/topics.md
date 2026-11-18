@@ -376,6 +376,7 @@
 - [스밍](../memes/seuming.md)
 - [스불재](../memes/seubuljae.md)
 - [스압](../memes/seuap.md)
+- [스튜어디스 혜정아](../memes/stewardess-hyejeong.md)
 - [슬세권](../memes/seulsekwon.md)
 - [슬픈 개구리](../memes/sad-frog.md)
 - [시강](../memes/sigang.md)
