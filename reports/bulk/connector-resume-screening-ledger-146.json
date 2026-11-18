@@ -79,10 +79,11 @@
     "reports/bulk/connector-resume-editor-231.json",
     "reports/bulk/connector-resume-independent-audit-232.json",
     "reports/bulk/connector-resume-screening-233.json",
-    "reports/bulk/connector-resume-screening-235.json"
+    "reports/bulk/connector-resume-screening-235.json",
+    "reports/bulk/connector-resume-editor-audit-236.json"
   ],
-  "query_observations": 1327,
-  "distinct_literal_queries": 1074,
+  "query_observations": 1329,
+  "distinct_literal_queries": 1076,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -6919,6 +6920,16 @@
     {
       "query": "바겐세일",
       "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"보도자료\" \"패러디\" -site:namu.moe -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-editor-audit-236.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"소식지\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-editor-audit-236.json",
       "status": "screened-see-report"
     }
   ],

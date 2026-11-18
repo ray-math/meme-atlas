@@ -1,0 +1,20 @@
+{
+  "queries": [
+    "\"2026\" \"밈\" \"보도자료\" \"패러디\" -site:namu.moe -site:jjalbang.today",
+    "\"2026\" \"유행어\" \"소식지\" -site:namu.moe"
+  ],
+  "rereads": {
+    "love_options": "https://news.tf.co.kr/read/entertain/2372804.htm",
+    "promotional_artifacts": "https://www.bntnews.co.kr/article/view/bnt202610240078"
+  },
+  "result": "Love-options current index already includes both mashup and original choreography; existing. 틀려도되 reports one promotional campaign with 3 different formats, not independent users. No canonical added.",
+  "fixed_sha": "d9da96cd6a10cc872d548fd7c21a545a39e669c2",
+  "canonical": 906,
+  "index": 906,
+  "truncated": false,
+  "missing": [],
+  "extra": [],
+  "main": "f3cf501549f1c4f8d327ee13c904e9ed85ed2a33",
+  "new_canonical": 0,
+  "ci": "not run; tree and text checks only"
+}
