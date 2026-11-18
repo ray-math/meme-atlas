@@ -1,0 +1,574 @@
+{
+  "batch": 451,
+  "base": "ec20068cba11fab7e91ccd6df3e5bbcb995b9ace",
+  "canonical_before": 1127,
+  "canonical_after": 1139,
+  "added": [
+    "brother-dameyo-mixed-subtitle",
+    "buddhist-unity-slogan-parody",
+    "thunderclap-flash-game-parody",
+    "random-partner-introduction-filter",
+    "internet-yamero-character-parody",
+    "jaemmin-derogatory-label",
+    "worlds-smallest-violin-sequence-edit",
+    "yeppeujana-repetition-remix",
+    "blackwargreymon-quote-reaction",
+    "zero-two-dance-format",
+    "zero-two-dodging-parody",
+    "good-go-fast-slogan-irony"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0550",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "brother-dameyo-mixed-subtitle"
+    },
+    {
+      "id": "kr-list-0558",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "buddhist-unity-slogan-parody"
+    },
+    {
+      "id": "kr-list-0539",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "thunderclap-flash-game-parody"
+    },
+    {
+      "id": "kr-list-0881",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "internet-yamero-character-parody"
+    },
+    {
+      "id": "kr-list-0905",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "jaemmin-derogatory-label"
+    },
+    {
+      "id": "kr-list-0912",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "worlds-smallest-violin-sequence-edit"
+    },
+    {
+      "id": "kr-list-0585",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "yeppeujana-repetition-remix"
+    },
+    {
+      "id": "kr-list-0568",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "blackwargreymon-quote-reaction"
+    },
+    {
+      "id": "kr-list-0922",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "zero-two-dance-format"
+    },
+    {
+      "id": "kr-list-0923",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "zero-two-dodging-parody"
+    },
+    {
+      "id": "kr-list-0938",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "good-go-fast-slogan-irony"
+    }
+  ],
+  "previous_ci": {
+    "sha": "ec20068cba11fab7e91ccd6df3e5bbcb995b9ace",
+    "run": 44275928374,
+    "job": 134703901557,
+    "status": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 81.521s"
+  },
+  "previous_audit": {
+    "sha": "ec20068cba11fab7e91ccd6df3e5bbcb995b9ace",
+    "new_bodies": 10,
+    "index_rows": 1127,
+    "prior1117_index_unchanged": true,
+    "source_attempts": 19,
+    "source_bodies": 18,
+    "failed_source": "https://www.inven.co.kr/webzine/news/?news=78372",
+    "required_changes": 0,
+    "optional_changes": 0,
+    "images_videos": 0,
+    "queries": 0,
+    "passed": true
+  },
+  "research": {
+    "ledger20A": {
+      "count": 20,
+      "ids": [
+        "0533",
+        "0534",
+        "0536",
+        "0538",
+        "0539",
+        "0540",
+        "0541",
+        "0542",
+        "0543",
+        "0546",
+        "0548",
+        "0550",
+        "0552",
+        "0554",
+        "0555",
+        "0557",
+        "0558",
+        "0560",
+        "0561",
+        "0563"
+      ],
+      "recommended": [
+        "0550",
+        "0558"
+      ],
+      "conditional": [
+        "0539"
+      ],
+      "partial_maintained": [
+        "0534",
+        "0543",
+        "0561"
+      ],
+      "held": 14,
+      "queries": [
+        "\"부라더 다메요\" 패러디",
+        "\"부리부리 마신\" \"춤\"",
+        "\"불심으로 대동단결\" 패러디",
+        "\"본인 방금\" \"상상함\"",
+        "\"부라더 다메요\" \"SNL\" 히들스턴",
+        "\"방송 되게 못하네\"",
+        "\"번역기 드립\" \"벤\"",
+        "\"불만 있냐\" \"물도 있다\"",
+        "\"봇이지 뭐\"",
+        "\"벽력일섬\" \"패러디\"",
+        "\"벽부수기\" \"밈\"",
+        "\"북방코끼리바다표범\" \"밈\"",
+        "\"북경 정씨\"",
+        "\"불티\" \"밈\"",
+        "\"붉은 악마\" \"밈\"",
+        "\"병진\" \"밈\""
+      ],
+      "sources": {
+        "0550": [
+          "https://sports.donga.com/ent/article/all/20131016/58259720/2",
+          "https://whitefaceone.tistory.com/2352"
+        ],
+        "0558": [
+          "https://www.seoul.co.kr/news/2017/04/09/20170409500001",
+          "https://ichannela.com/program/clip/000000193896.do"
+        ],
+        "0539": [
+          "https://everymemes.tistory.com/336"
+        ]
+      },
+      "notes": [
+        "0550Oct15recorded/Oct16photos/Oct19scheduled;notbroadcastcompletion",
+        "0558Donga2017conflict2000vsSeoul2002excludeDongaorigin",
+        "0539singleblogdescribesspecificreuse;noactualmedia",
+        "0694repeat0533already447notnewrepeat"
+      ]
+    },
+    "ledger20A2": {
+      "count": 20,
+      "ids": [
+        "0565",
+        "0566",
+        "0567",
+        "0568",
+        "0569",
+        "0570",
+        "0571",
+        "0572",
+        "0574",
+        "0576",
+        "0578",
+        "0579",
+        "0581",
+        "0582",
+        "0583",
+        "0584",
+        "0585",
+        "0587",
+        "0590",
+        "0591"
+      ],
+      "recommended": [
+        "0585",
+        "0568"
+      ],
+      "conditional": [
+        "0569"
+      ],
+      "partial_maintained": [
+        "0572",
+        "0583"
+      ],
+      "held": 15,
+      "queries": [
+        "\"비둘기야 먹자\" 패러디",
+        "\"블랙워그레이몬\" \"명령\" 밈",
+        "\"뼈 맞았어\" 유행어",
+        "\"벽돌할아버지\" \"로봇댄스\"",
+        "\"비둘기야 먹자\" \"스니커즈\"",
+        "\"뽀구미\" \"예쁘잖아\" 패러디",
+        "\"빵뚜아 이낫\"",
+        "\"뼈 맞았어\" \"뜻\"",
+        "\"빅 나티를 변기에\"",
+        "\"삐뽀핑\" 밈",
+        "\"브레드 이발소\" 밈 패러디",
+        "\"벽돌할아버지\" 패러디"
+      ],
+      "sources": {
+        "0585": [
+          "https://whitefaceone.tistory.com/2663",
+          "https://theqoo.net/square/3394450586?category=512000937"
+        ],
+        "0568": [
+          "https://bumcrush.tistory.com/64",
+          "https://whitefaceone.tistory.com/2353"
+        ],
+        "0569": [
+          "https://yonseiji.tistory.com/m/94"
+        ]
+      },
+      "notes": [
+        "0585foreignlanguagevideo紹介notAIverified",
+        "0568collectiontextnotimageview;2014firstclaimexcluded",
+        "0569oneviewerrecollectionposted2025-12-25notoriginalprintdate",
+        "0584TVINGtitleonlynotmeaning;0591scheduledperformanceonlysearch"
+      ]
+    },
+    "ledger20C": {
+      "count": 20,
+      "ids": [
+        "0881",
+        "0882",
+        "0883",
+        "0886",
+        "0887",
+        "0888",
+        "0889",
+        "0892",
+        "0894",
+        "0895",
+        "0898",
+        "0904",
+        "0905",
+        "0907",
+        "0908",
+        "0909",
+        "0910",
+        "0912",
+        "0913",
+        "0914"
+      ],
+      "recommended": [
+        "0881",
+        "0905"
+      ],
+      "conditional": [
+        "0912"
+      ],
+      "partial_maintained": [
+        "0909"
+      ],
+      "held": 16,
+      "queries": [
+        "\"인터넷 야메로\" 챌린지 기사",
+        "\"일부러 PC방에는\" 밈",
+        "\"이쯤 가면 막 하자는 거지요\" 패러디",
+        "\"잼민이\" 뜻 유래 기사",
+        "\"잭 오 챌린지\" 기사",
+        "\"정상화\" \"신창섭\" 밈 기사",
+        "\"점점 빨라지는 노래\" 밈",
+        "\"자러감\" 드립",
+        "\"인터넷 야메로\" -site:namu.moe -site:seore.org",
+        "\"잭오\" \"챌린지\" 게임메카",
+        "\"정상화\" \"밈\" site:yna.co.kr",
+        "\"정상화\" \"밈\" site:news1.kr",
+        "\"아자핑\" \"하츄핑\" 밈",
+        "\"잘생겨서 안 좋은 점\" 밈",
+        "\"저런\" \"상상하고 싶지도 않네요\" 밈",
+        "\"적폐\" \"밈\" 게임",
+        "\"와플핑\" \"핫케핑\" 밈",
+        "\"자낳괴 탄생비화\"",
+        "\"일본 대단해\" \"칠레\" 밈",
+        "\"적폐\" 게임 용어 뜻"
+      ],
+      "sources": {
+        "0881": [
+          "https://whitefaceone.tistory.com/3355",
+          "https://subculturer-home.tistory.com/entry/인터넷-야메로-밈-원본원곡-트레틀-배포-니디걸-오버도즈"
+        ],
+        "0905": [
+          "https://www.korea.kr/news/policyNewsView.do?newsId=148917041",
+          "https://www.mt.co.kr/index.php/amp/tech/2024/08/23/2024082207362877817"
+        ],
+        "0912": [
+          "https://whitefaceone.tistory.com/3108"
+        ]
+      },
+      "notes": [
+        "0881tracingtemplateauthorreport+explanation;noimagevideoassetread;nocopyrightpermissionclaim",
+        "0905twodescriptionnot2comments;nochildPII",
+        "0912singleexplanation;notmeasuredtempo",
+        "0914differentfromdiditallforyou"
+      ]
+    },
+    "ledger20C2": {
+      "count": 20,
+      "ids": [
+        "0915",
+        "0917",
+        "0919",
+        "0921",
+        "0922",
+        "0923",
+        "0925",
+        "0926",
+        "0927",
+        "0928",
+        "0929",
+        "0931",
+        "0932",
+        "0933",
+        "0935",
+        "0936",
+        "0938",
+        "0939",
+        "0940",
+        "0941"
+      ],
+      "recommended": [
+        "0922",
+        "0923",
+        "0938"
+      ],
+      "conditional": [
+        "0929",
+        "0926"
+      ],
+      "partial_maintained": [
+        "0932"
+      ],
+      "held": 14,
+      "queries": [
+        "\"제로투\" \"밈\" 춤 유래",
+        "\"제로투 회피\"",
+        "\"조보아씨\" \"먹어봐유\" 밈",
+        "\"좋아 빠르게 가\" 패러디",
+        "\"제로투 댄스\" site:newsis.com",
+        "\"조보아씨\" \"밈\"",
+        "\"좋아 빠르게 가\" \"밈\" 기사",
+        "\"조이는 보이\" 밈",
+        "\"제로투 댄스\" \"2021\" 뉴스",
+        "\"조보아\" \"먹어봐유\" \"패러디\"",
+        "\"제 딸을 살해한 놈들을\" 패러디",
+        "\"죽습니다 진짜\" 밈",
+        "\"조보아씨\" \"내려와서\" 기사",
+        "\"제로투 회피\" \"소맥거핀\"",
+        "\"존나좋군\" 밈 유래",
+        "\"종범\" \"뜻\" \"비하\"",
+        "\"조보아\" \"밈\" \"먹어\"",
+        "\"조보아씨\" \"유행어\"",
+        "\"죄송합니다\" \"밈\" 유래",
+        "\"제주도 찐 사투리\" 밈"
+      ],
+      "sources": {
+        "0922": [
+          "https://koi.inu.ac.kr/pages/?b=B_1_9&bn=2090&m=read&p=21",
+          "https://www.wikitree.co.kr/articles/657261"
+        ],
+        "0923": [
+          "https://whitefaceone.tistory.com/3192"
+        ],
+        "0938": [
+          "https://www.khan.co.kr/article/202205140854001",
+          "https://v.daum.net/v/20241217113507945"
+        ],
+        "0929": [
+          "https://www.ntdtv.kr/2019/05/320475.html"
+        ],
+        "0926": [
+          "https://www.etoday.co.kr/news/view/2352921"
+        ]
+      },
+      "notes": [
+        "0922webzineoriginaltitletypoexcluded;2021actualproductionreport",
+        "0923oneexplanationspecificSomacanimationnotviewed",
+        "0938twoheadlinedirectusesnot2videos",
+        "0929authorimaginedformulaquoteNOTrealutterance;held",
+        "0926disasterdialectbroadscopeheld"
+      ]
+    },
+    "recent20B": {
+      "count": 20,
+      "recommended": [
+        "random-partner-introduction-filter"
+      ],
+      "existing": 5,
+      "excluded": 6,
+      "held": 8,
+      "queries": [
+        "2026 \"챌린지\" \"참여\" site.allurekorea.com/article",
+        "2026 \"챌린지\" \"선보였다\" site.enews.imbc.com -WET -BAD -꺾어",
+        "2026 \"밈\" \"패러디\" site.harpersbazaar.co.kr",
+        "site.maily.so/trendaword/posts \"2026\" \"11\"",
+        "site.gogumafarm.kr \"2026년 11월\" 밈",
+        "site.allurekorea.com \"챌린지\" \"2026.10\"",
+        "\"아일릿\" \"M댄스\" 챌린지",
+        "\"비비\" \"BUMPA\" \"챌린지\"",
+        "\"랜덤 애인 소개\" 챌린지",
+        "\"BUMPA\" \"챌린지\" \"비비\" \"참여\"",
+        "\"랜덤 애인\" \"챌린지\" site.careet.net",
+        "\"범파\" \"챌린지\" 연예"
+      ],
+      "sources": [
+        "https://maily.so/trendaword/posts/d5ryyyk8r1w",
+        "https://www.looplab.co.kr/ko/deck",
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01233286642233208",
+        "https://maily.so/trendaword/posts/wdr98q30olx"
+      ],
+      "notes": [
+        "randompartner1articlemultiplecases,notoriginalIG/video",
+        "M댄스Magneticpotentialoverlap;BUMPAoperatorclaims+Kakaobody0",
+        "excludedproduct/lifestyle6notmemetemplate"
+      ]
+    },
+    "editor": {
+      "queries": [
+        "\"과학자들이 hi\" -site:namu.moe -site:instablank.com -site:meme100.me",
+        "\"아이스티 4개 주세요\" -site:instablank.com",
+        "\"Scientists reveal the hi\" site:theqoo.net",
+        "\"아이스티\" \"죠셉\" 밈"
+      ],
+      "reexamined": [
+        "scientistsHi",
+        "icedtea4"
+      ],
+      "held": 2
+    }
+  },
+  "sources": [
+    {
+      "id": "brother-dameyo-mixed-subtitle",
+      "urls": [
+        "https://sports.donga.com/ent/article/all/20131016/58259720/2",
+        "https://whitefaceone.tistory.com/2352"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "buddhist-unity-slogan-parody",
+      "urls": [
+        "https://www.seoul.co.kr/news/2017/04/09/20170409500001",
+        "https://ichannela.com/program/clip/000000193896.do"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "thunderclap-flash-game-parody",
+      "urls": [
+        "https://everymemes.tistory.com/336"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "random-partner-introduction-filter",
+      "urls": [
+        "https://maily.so/trendaword/posts/d5ryyyk8r1w"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "internet-yamero-character-parody",
+      "urls": [
+        "https://subculturer-home.tistory.com/entry/인터넷-야메로-밈-원본원곡-트레틀-배포-니디걸-오버도즈",
+        "https://whitefaceone.tistory.com/3355"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jaemmin-derogatory-label",
+      "urls": [
+        "https://www.korea.kr/news/policyNewsView.do?newsId=148917041",
+        "https://www.mt.co.kr/index.php/amp/tech/2024/08/23/2024082207362877817"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "worlds-smallest-violin-sequence-edit",
+      "urls": [
+        "https://whitefaceone.tistory.com/3108"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "yeppeujana-repetition-remix",
+      "urls": [
+        "https://whitefaceone.tistory.com/2663",
+        "https://theqoo.net/square/3394450586?category=512000937"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "blackwargreymon-quote-reaction",
+      "urls": [
+        "https://bumcrush.tistory.com/64",
+        "https://whitefaceone.tistory.com/2353"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "zero-two-dance-format",
+      "urls": [
+        "https://www.wikitree.co.kr/articles/657261",
+        "https://koi.inu.ac.kr/pages/?b=B_1_9&bn=2090&m=read&p=21"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "zero-two-dodging-parody",
+      "urls": [
+        "https://whitefaceone.tistory.com/3192"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "good-go-fast-slogan-irony",
+      "urls": [
+        "https://www.khan.co.kr/article/202205140854001",
+        "https://v.daum.net/v/20241217113507945"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "0569viewerrecollectionheld;0926disasterdialectand0929singleauthorimaginedquoteheld.",
+    "Hi/icedtea search did not recover independent Korean use, no addition.",
+    "0539/0912/0923singleexplanationsspecificreuse;musictempo not measured.",
+    "0550recording/publication only notscheduledbroadcastcompletion;0558originyearconflict excluded.",
+    "0881creatorcreditsandcopyrightpermissionnotasserted;0585AIclaimnotadopted."
+  ],
+  "query_observations": 7143,
+  "distinct_literal_queries": 6255,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

@@ -270,8 +270,8 @@
     "reports/bulk/connector-resume-wave30-445.json",
     "reports/bulk/connector-resume-wave30-446.json"
   ],
-  "query_observations": 7059,
-  "distinct_literal_queries": 6181,
+  "query_observations": 7143,
+  "distinct_literal_queries": 6255,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -35769,6 +35769,426 @@
       "query": "\"김민코어\" \"무지개\"",
       "source": "reports/bulk/connector-resume-wave30-450.json",
       "status": "screened-see-report"
+    },
+    {
+      "query": "\"부라더 다메요\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부리부리 마신\" \"춤\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"불심으로 대동단결\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"본인 방금\" \"상상함\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부라더 다메요\" \"SNL\" 히들스턴",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"방송 되게 못하네\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"번역기 드립\" \"벤\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"불만 있냐\" \"물도 있다\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봇이지 뭐\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"벽력일섬\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"벽부수기\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"북방코끼리바다표범\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"북경 정씨\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"불티\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"붉은 악마\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"병진\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"비둘기야 먹자\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"블랙워그레이몬\" \"명령\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뼈 맞았어\" 유행어",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"벽돌할아버지\" \"로봇댄스\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"비둘기야 먹자\" \"스니커즈\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뽀구미\" \"예쁘잖아\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빵뚜아 이낫\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뼈 맞았어\" \"뜻\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빅 나티를 변기에\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삐뽀핑\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"브레드 이발소\" 밈 패러디",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"벽돌할아버지\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인터넷 야메로\" 챌린지 기사",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"일부러 PC방에는\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이쯤 가면 막 하자는 거지요\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잼민이\" 뜻 유래 기사",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잭 오 챌린지\" 기사",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정상화\" \"신창섭\" 밈 기사",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"점점 빨라지는 노래\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자러감\" 드립",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인터넷 야메로\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잭오\" \"챌린지\" 게임메카",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정상화\" \"밈\" site:yna.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정상화\" \"밈\" site:news1.kr",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아자핑\" \"하츄핑\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잘생겨서 안 좋은 점\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"저런\" \"상상하고 싶지도 않네요\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"적폐\" \"밈\" 게임",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"와플핑\" \"핫케핑\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자낳괴 탄생비화\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"일본 대단해\" \"칠레\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"적폐\" 게임 용어 뜻",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"제로투\" \"밈\" 춤 유래",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"제로투 회피\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조보아씨\" \"먹어봐유\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"좋아 빠르게 가\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"제로투 댄스\" site:newsis.com",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조보아씨\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"좋아 빠르게 가\" \"밈\" 기사",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조이는 보이\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"제로투 댄스\" \"2021\" 뉴스",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조보아\" \"먹어봐유\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"제 딸을 살해한 놈들을\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"죽습니다 진짜\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조보아씨\" \"내려와서\" 기사",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"제로투 회피\" \"소맥거핀\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"존나좋군\" 밈 유래",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"종범\" \"뜻\" \"비하\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조보아\" \"밈\" \"먹어\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조보아씨\" \"유행어\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"죄송합니다\" \"밈\" 유래",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"제주도 찐 사투리\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" \"참여\" site.allurekorea.com/article",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" \"선보였다\" site.enews.imbc.com -WET -BAD -꺾어",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site.harpersbazaar.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site.maily.so/trendaword/posts \"2026\" \"11\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site.gogumafarm.kr \"2026년 11월\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site.allurekorea.com \"챌린지\" \"2026.10\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아일릿\" \"M댄스\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"비비\" \"BUMPA\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"랜덤 애인 소개\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"BUMPA\" \"챌린지\" \"비비\" \"참여\"",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"랜덤 애인\" \"챌린지\" site.careet.net",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"범파\" \"챌린지\" 연예",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"과학자들이 hi\" -site:namu.moe -site:instablank.com -site:meme100.me",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아이스티 4개 주세요\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Scientists reveal the hi\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아이스티\" \"죠셉\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-451.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [
@@ -35783,5 +36203,5 @@
   ],
   "note": "명시 문자열 대조 기록이며 고유 밈 수나 검증 완료 수가 아님.",
   "metric_note": "저장된 명시 대조 문자열의 관측 횟수/문자열 종류. 검색창 질의와 인덱스 대조 표현이 섞여 있으며 검증 밈 수나 전체 연구량을 뜻하지 않음.",
-  "distinct_query_strings": 6181
+  "distinct_query_strings": 6255
 }
