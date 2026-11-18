@@ -298,6 +298,7 @@
 - [디스](diss.md)
 - [디토합니다](ditto-agree.md)
 - [따도남](ttadonam.md)
+- [따름 챌린지](ttareum-challenge.md)
 - [딸깍](click.md)
 - [떡락](tteokrak.md)
 - [떡상](tteoksang.md)

@@ -107,10 +107,11 @@
     "reports/bulk/connector-resume-wave30-262.json",
     "reports/bulk/connector-resume-wave30-263.json",
     "reports/bulk/connector-resume-wave30-264.json",
-    "reports/bulk/connector-resume-wave30-265.json"
+    "reports/bulk/connector-resume-wave30-265.json",
+    "reports/bulk/connector-resume-wave30-266.json"
   ],
-  "query_observations": 2010,
-  "distinct_literal_queries": 1639,
+  "query_observations": 2031,
+  "distinct_literal_queries": 1660,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -10362,6 +10363,111 @@
     {
       "query": "빙하기",
       "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"10월\" site:eyesmag.com",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"9월\" site:marieclairekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:allurekorea.com \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.sbs.co.kr \"11월\" -세무 -리트 -커닝 -조폭",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.kbs.co.kr \"10월\" -세무 -리트 -코인",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:imnews.imbc.com \"10월\" -세무 -리트 -코인",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"따름 챌린지\" \"브랜드\"",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"따름 챌린지\" \"공식\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"따름 챌린지\" \"2026\" -site:namu.moe -site:m.namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" site:newsroom.cj.net",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" site:newsroom.hyundai.com",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"따름 챌린지\" \"전현무\" \"양세찬\"",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"따름 챌린지\" site:jtbc.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"따름 챌린지\" \"전현무\" -site:namu.moe -site:bntnews.co.kr -site:jtbc.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"남자병\" \"귀요미송\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"남자병\" \"앙탈\" \"톡파원\"",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "따름",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "따룸",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "널 따라가",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "붐샤카",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나 줘",
+      "source": "reports/bulk/connector-resume-wave30-266.json",
       "status": "screened-see-report"
     }
   ],
