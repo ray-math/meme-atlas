@@ -1,0 +1,42 @@
+{
+  "batch": 359,
+  "base": "5b7f15e8cebcb7d0c700a515ba6fc1cf2c19a1f8",
+  "canonical_before": 972,
+  "canonical_after": 973,
+  "added": [
+    "king-title-wordplay"
+  ],
+  "research": {
+    "recommended": 1,
+    "name": "왕과 사는 남자 제목 바꾸기",
+    "queries": [
+      "\"2026\" \"패러디\" \"제목을\" -site:namu.moe -site:namu.wiki",
+      "\"2026\" \"유행어\" \"따라\" \"공무원\"",
+      "\"2026\" \"밈\" \"문체\" -임성한",
+      "\"역과 사는 남자\" \"폭설\"",
+      "\"왕과 세는 남자\" 관세청 공식",
+      "\"왕과\" \"남자\" \"패러디\" \"2026\" -site:namu.moe -site:namu.wiki -폭설 -관세청 -엄흥도"
+    ],
+    "index_query": "왕과 / 왕사남 / 사는 남자 / 세는 남자 / 육신사 / 역과",
+    "sources": [
+      "https://www.taxwatch.co.kr/article/tax/2026/04/28/0003",
+      "https://sports.donga.com/ent/article/all/20261022/134886928/1",
+      "https://go.seoul.co.kr/news/newsView.php?id=20260325019009"
+    ],
+    "limits": "Worker/editor read3sources.3reportedproducerclusters:Customs왕과세는남자 TaxwatchdisplayApr29(URLApr28);Showbox역과사는남자 Oct22;Dalseong육신사에사는남자 Mar25reportsMar19release. Originaluploads/video/posterimage0. Titlewordreplacementonly notallfilmparodies. Onecandidate not10.",
+    "editor_source_reads": 3
+  },
+  "editor_index_query": "왕과|왕사남|육신사|역과 사는",
+  "approved_scope": "Titlewordreplacement only,3reportedproducerclusters;originalupload/video/poster0",
+  "previous_body_audit": {
+    "id": "yoshi-grando-season",
+    "result": "independent body/report/3sources passed",
+    "limits": "Oldusage2024+2025,notrecentyear;automaticbriefingnotoriginalreport;audio0"
+  },
+  "ci": {
+    "body972": {
+      "run": 44240729404,
+      "status": "in_progress_at_preparation"
+    }
+  }
+}

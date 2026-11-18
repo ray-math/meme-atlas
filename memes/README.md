@@ -645,6 +645,7 @@
 - [완내스](wan-nae-style.md)
 - [완소](wanso.md)
 - [왈도체](waldo-style.md)
+- [왕과 사는 남자 제목 바꾸기](king-title-wordplay.md)
 - [왜 이래? 아마추어 같이](like-an-amateur.md)
 - [왜요 제가 __한 사람처럼 보이나요](do-i-look-like.md)
 - [외계어](alien-writing.md)

@@ -187,10 +187,11 @@
     "reports/bulk/connector-resume-wave30-355.json",
     "reports/bulk/connector-resume-wave30-356.json",
     "reports/bulk/connector-resume-wave30-357.json",
-    "reports/bulk/connector-resume-wave30-358.json"
+    "reports/bulk/connector-resume-wave30-358.json",
+    "reports/bulk/connector-resume-wave30-359.json"
   ],
-  "query_observations": 4384,
-  "distinct_literal_queries": 3765,
+  "query_observations": 4392,
+  "distinct_literal_queries": 3773,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -22312,6 +22313,46 @@
     {
       "query": "샤방|샤방송",
       "source": "reports/bulk/connector-resume-wave30-358.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"제목을\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-359.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"따라\" \"공무원\"",
+      "source": "reports/bulk/connector-resume-wave30-359.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"문체\" -임성한",
+      "source": "reports/bulk/connector-resume-wave30-359.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"역과 사는 남자\" \"폭설\"",
+      "source": "reports/bulk/connector-resume-wave30-359.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"왕과 세는 남자\" 관세청 공식",
+      "source": "reports/bulk/connector-resume-wave30-359.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"왕과\" \"남자\" \"패러디\" \"2026\" -site:namu.moe -site:namu.wiki -폭설 -관세청 -엄흥도",
+      "source": "reports/bulk/connector-resume-wave30-359.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "왕과 / 왕사남 / 사는 남자 / 세는 남자 / 육신사 / 역과",
+      "source": "reports/bulk/connector-resume-wave30-359.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "왕과|왕사남|육신사|역과 사는",
+      "source": "reports/bulk/connector-resume-wave30-359.json",
       "status": "screened-see-report"
     }
   ],
