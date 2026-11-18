@@ -1,0 +1,95 @@
+{
+  "batch": 302,
+  "base": "a76127e3717ab792fbee53a0beeb672558aed960",
+  "canonical_before": 934,
+  "canonical_after": 935,
+  "added": [
+    "earth-online"
+  ],
+  "candidate": "kr-list-0955",
+  "sources": [
+    {
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=fulldive&no=25060",
+      "date": "2026-05-22",
+      "read": "editor+independent reviewer",
+      "kind": "direct reality-as-game complaint"
+    },
+    {
+      "url": "https://www.inven.co.kr/board/lostark/6271/3971234",
+      "date": "2026-08-04",
+      "read": "research worker direct body lines197-213; editor requests502/cachemiss",
+      "kind": "direct weather patch parody",
+      "detail": "게시2026-08-04 07:19, 제목8월지구온라인업데이트안내, 가상업데이트일8/3과구분. 작업자기확보본문재확인, 현재재접속성공아님."
+    }
+  ],
+  "limits": "직접적용2사이트; 공지형식은그중1건. 에디터가인벤직접read했다고주장안함. 최초/유행규모/기상사실로확대X.",
+  "research": {
+    "queries": [
+      "\"나이트 댄서\" \"챌린지\" 2026",
+      "\"나이트댄서\" \"챌린지\" 2025",
+      "\"NIGHT DANCER\" \"챌린지\" 문세윤",
+      "\"나이트댄서\" \"2026\" 춤",
+      "\"나이트 댄서\" \"2025.12\"",
+      "\"NIGHT DANCER\" \"2026\" 챌린지 한국",
+      "\"동명대\" \"나이트댄서\" 총장",
+      "\"NIGHT DANCER\" \"챌린지 결과\" 울산",
+      "\"나이트댄서\" \"2026\" \"챌린지\" -site:namu.moe -site:news.sbs.co.kr",
+      "\"나이트댄서\" \"총장\" 챌린지",
+      "\"나이트 댄서\" \"이수지\" 챌린지",
+      "\"나이트댄서\" \"챌린지\" \"2025\" -site:namu.moe -site:news.sbs.co.kr",
+      "\"나이트댄서 챌린지\" -site:namu.moe -site:tistory.com -site:tu.ac.kr -site:youtube.com",
+      "\"나이트 댄서\" \"챌린지\" \"전현무\"",
+      "\"나이트 댄서\" \"챌린지\" \"김준수\"",
+      "\"나이트댄서\" \"챌린지\" \"한혜진\"",
+      "\"나이트 댄서\" \"챌린지\" \"황민현\"",
+      "\"나이트댄서\" 챌린지 총장",
+      "\"나이트댄서\" 챌린지 2026",
+      "\"요나요나\" \"2026\"",
+      "\"지가\" \"노코노코\" \"2026\"",
+      "\"회사 안다녀\" \"2026\"",
+      "\"하츠네 형돈\" \"2026\"",
+      "\"지구 온라인\" \"2026\" 날씨",
+      "\"노코노코\" \"탓탓\" -site:namu.moe -site:instablank.com",
+      "\"요나요나 댄스\" \"2026\"",
+      "\"하츠네 형돈\" -site:namu.moe -site:instablank.com",
+      "\"지구 온라인\" \"2026\" \"패치\" -site:inven.co.kr"
+    ],
+    "night_dancer": {
+      "status": "hold",
+      "confirmed": "https://www.yna.co.kr/view/AKR20230413151400005",
+      "failed_pages": [
+        "https://www.uc.ac.kr/safety/CMS/Board/Board.do?board_seq=25204&mCode=MN034&mgr_seq=310&mode=view",
+        "https://masscom.tu.ac.kr/taekwondo/index.do"
+      ],
+      "note": "새독립사건본문미확보.2026회고를최근재사용으로세지않음"
+    },
+    "holds": [
+      "kr-list-0953",
+      "kr-list-0810",
+      "kr-list-1094",
+      "kr-list-1129"
+    ],
+    "pinned_body_review": {
+      "meommummi": "wave5 tests body SHA256 fixed; no edits",
+      "ssap_ganeung": "ledger/replay/update expected hash protection; direct per-entry CI fixed test not confirmed; no edits"
+    },
+    "earth_online": {
+      "candidate": "kr-list-0955",
+      "dc_editor_read": true,
+      "inven_worker_read": true,
+      "inven_editor": "502",
+      "status": "pending second direct source recovery"
+    }
+  },
+  "metrics": {
+    "query_observations": 2674,
+    "distinct_literal_queries": 2185
+  },
+  "ci": "newcommit pending",
+  "prior_ci": {
+    "sha": "a76127e3717ab792fbee53a0beeb672558aed960",
+    "run": 44227059049,
+    "job_conclusion": "success",
+    "passed_steps": 65
+  }
+}

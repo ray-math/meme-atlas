@@ -135,10 +135,11 @@
     "reports/bulk/connector-resume-wave30-293.json",
     "reports/bulk/connector-resume-wave30-297.json",
     "reports/bulk/connector-resume-wave30-299.json",
-    "reports/bulk/connector-resume-coverage-300.json"
+    "reports/bulk/connector-resume-coverage-300.json",
+    "reports/bulk/connector-resume-wave30-302.json"
   ],
-  "query_observations": 2646,
-  "distinct_literal_queries": 2157,
+  "query_observations": 2674,
+  "distinct_literal_queries": 2185,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -13570,6 +13571,146 @@
     {
       "query": "\"나이트댄서\" \"문세윤\" 챌린지",
       "source": "reports/bulk/connector-resume-coverage-300.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트 댄서\" \"챌린지\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트댄서\" \"챌린지\" 2025",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"NIGHT DANCER\" \"챌린지\" 문세윤",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트댄서\" \"2026\" 춤",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트 댄서\" \"2025.12\"",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"NIGHT DANCER\" \"2026\" 챌린지 한국",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"동명대\" \"나이트댄서\" 총장",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"NIGHT DANCER\" \"챌린지 결과\" 울산",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트댄서\" \"2026\" \"챌린지\" -site:namu.moe -site:news.sbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트댄서\" \"총장\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트 댄서\" \"이수지\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트댄서\" \"챌린지\" \"2025\" -site:namu.moe -site:news.sbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트댄서 챌린지\" -site:namu.moe -site:tistory.com -site:tu.ac.kr -site:youtube.com",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트 댄서\" \"챌린지\" \"전현무\"",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트 댄서\" \"챌린지\" \"김준수\"",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트댄서\" \"챌린지\" \"한혜진\"",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트 댄서\" \"챌린지\" \"황민현\"",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트댄서\" 챌린지 총장",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트댄서\" 챌린지 2026",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요나요나\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"지가\" \"노코노코\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"회사 안다녀\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하츠네 형돈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"지구 온라인\" \"2026\" 날씨",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노코노코\" \"탓탓\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요나요나 댄스\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하츠네 형돈\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"지구 온라인\" \"2026\" \"패치\" -site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-302.json",
       "status": "screened-see-report"
     }
   ],
