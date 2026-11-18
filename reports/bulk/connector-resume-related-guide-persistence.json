@@ -1,0 +1,7 @@
+{
+  "base": "81667df2aff9b580350fa772e648aed910a94ba8",
+  "purpose": "Keep external related guide discoverable when pilot collection regenerates, without changing fixed approved bodies",
+  "changes": "conditional fixed-path guide appendix; two additional regression tests; all prior tests unchanged",
+  "tests_added": 2,
+  "ci": "pending"
+}

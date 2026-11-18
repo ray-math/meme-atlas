@@ -152,3 +152,29 @@ class PilotTests(unittest.TestCase):
     rows=self.data()[:1];rows[0]['scope_type']='korean_usage';rows[0][field]=value;self.put(rows)
     with self.assertRaisesRegex(ValueError,error):p.apply(self.r,self.input,'unverified-local-use')
     self.assertFalse((self.r/'memes/fixture-0.md').exists())
+
+ def test_related_guide_survives_regeneration_and_replay(self):
+  guide=self.r/'docs/family-comparison-related.md'
+  self.assertTrue(guide.is_file())
+  paths=['memes/eomchina.md','memes/buchinnam-spouse-comparison-shortening.md','docs/family-comparison-related.md']
+  before={name:(self.r/name).read_bytes() for name in paths}
+  old_entries=json.loads((self.r/'data/pilot-state.json').read_text())['entries']
+  link='[가족 비교 호칭 연결](../docs/family-comparison-related.md)'
+  for i in range(2):
+   self.put([self.data()[i]])
+   self.assertEqual(p.apply(self.r,self.input,f'guide-{i}')['added'],1)
+   self.assertEqual((self.r/'collections/pilot-30.md').read_text().count(link),1)
+   for name,body in before.items(): self.assertEqual((self.r/name).read_bytes(),body)
+   current=json.loads((self.r/'data/pilot-state.json').read_text())['entries']
+   for slug,entry in old_entries.items(): self.assertEqual(current[slug],entry)
+  snapshot={f.relative_to(self.r):f.read_bytes() for f in self.r.rglob('*') if f.is_file()}
+  self.assertEqual(p.apply(self.r,self.input,'guide-1')['status'],'unchanged')
+  self.assertEqual({f.relative_to(self.r):f.read_bytes() for f in self.r.rglob('*') if f.is_file()},snapshot)
+
+ def test_missing_related_guide_does_not_emit_link(self):
+  (self.r/'docs/family-comparison-related.md').unlink()
+  entry=self.r/'memes/buchinnam-spouse-comparison-shortening.md'
+  entry.write_text(entry.read_text().split('## 관련 밈',1)[0])
+  self.put(self.data()[:1])
+  self.assertEqual(p.apply(self.r,self.input,'without-guide')['added'],1)
+  self.assertNotIn('family-comparison-related.md',(self.r/'collections/pilot-30.md').read_text())
