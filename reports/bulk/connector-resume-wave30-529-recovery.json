@@ -1,0 +1,91 @@
+{
+  "status": "research-checkpoint-not-canonical-additions",
+  "base": "e9d77e8cd2bb5b316ab89507b7dff5d579cb1cad",
+  "canonical_count": 1928,
+  "ci": {
+    "run": 44382944025,
+    "job": 135079802565,
+    "steps": "65/65",
+    "python": "Ran 497 tests in 108.969s",
+    "conclusion": "success"
+  },
+  "recovery_note": "Execution memory reset twice after batch528. Remote canonical entries and saved ledgers are intact. This file preserves directly reviewed next-batch sources; no missing query rows have been invented or appended.",
+  "reviewed_candidates": [
+    {
+      "id": "paepi-fashion-people-short-label",
+      "title": "패피",
+      "definition": "패션피플을 줄인 호칭이다. 옷차림에 관심이 많고 자신만의 스타일을 보여주는 사람을 가리킬 때 쓴다.",
+      "sources": [
+        [
+          "2017-04-18",
+          "https://www.khan.co.kr/article/201704182108005"
+        ],
+        [
+          "2023-05-16",
+          "https://www.imaeil.com/page/view/2023051611144781576"
+        ]
+      ],
+      "audit": "PASS; independent article definitions and applications; recent1year0; media0; no wealth or appearance ranking."
+    },
+    {
+      "id": "jonjal-jonye-appearance-praise-family",
+      "title": "존잘·존예",
+      "definition": "매우 잘생겼다거나 예쁘다는 감탄을 거친 강조형으로 줄인 말이다. 외모에 대한 주관적인 칭찬이며 비속한 어감이 있다.",
+      "sources": [
+        [
+          "2019-02-10",
+          "https://www.wikitree.co.kr/articles/402849"
+        ],
+        [
+          "2023-05-18",
+          "https://www.mk.co.kr/news/broadcasting-service/10739558"
+        ]
+      ],
+      "audit": "PASS; reported SNS and broadcast, originals0; 존잘 itself appears only in second source. Distinct from job-skill praise. No legal judgment, appearance ranking, mandatory gender distinction;recent0/media0."
+    },
+    {
+      "id": "bulso-active-online-communication-short-form",
+      "title": "불소",
+      "definition": "불타는 소통을 줄여, 온라인 방송이나 SNS에서 댓글과 답변을 활발하게 주고받는 일을 부르는 말이다.",
+      "sources": [
+        [
+          "2020-07-31",
+          "https://tvreport.co.kr/breaking/article/242109/"
+        ],
+        [
+          "2020-12-04",
+          "https://www.insight.co.kr/news/312431"
+        ]
+      ],
+      "audit": "PASS; TVReport is29STREETsyndication, explanatory2groups plus oneauthorapplication. Not2originalcommentgroups. Distinct from instantreply; not chemical fluorine. No response obligation. recent0/media0."
+    }
+  ],
+  "excluded": [
+    {
+      "title": "어서 타·어서 내려 AI 합성 반전",
+      "reason": "Independent full-body audit found exact family already explicit in memes/no-time-get-in.md. Proposed draft removed before publication.",
+      "new_entries": 0
+    }
+  ],
+  "pending_unreviewed": [
+    {
+      "title": "구취",
+      "sources": [
+        "https://www.fnnews.com/news/202004191838188471",
+        "https://www.koreadaily.com/article/20230130180348208"
+      ]
+    },
+    {
+      "title": "실물깡패",
+      "sources": [
+        "https://www.xportsnews.com/article/2183756",
+        "https://www.news1.kr/it-science/mobile/4182646"
+      ]
+    }
+  ],
+  "limits": [
+    "Not a new canonical batch; three drafts pending final integration, two candidates pending coordinator review.",
+    "Do not count this checkpoint as new entries, new unique memes, or a completed coverage audit.",
+    "Main, protected bodies, tests, and generated lists unchanged."
+  ]
+}
