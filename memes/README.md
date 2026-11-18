@@ -593,6 +593,7 @@
 - [어서 와, ○○는 처음이지?](welcome-first-time.md)
 - [어이가 없네](eoi-eopne.md)
 - [어쩔티비](eojjeol-tv.md)
+- [어케했노 시발련ㄴ아](how-did-you-do-that-profane.md)
 - [억까](eokkka.md)
 - [억텐](eokten.md)
 - [언니가 불편해? 언니가 잘할게](unnie-will-do-better.md)

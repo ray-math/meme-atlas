@@ -445,6 +445,7 @@
 - [어덕행덕](../memes/eodeokhaengdeok.md)
 - [어떻게 지평좌표계로 고정을 하셨죠?](../memes/horizontal-coordinates-ghost.md)
 - [어사](../memes/eosa-awkward.md)
+- [어케했노 시발련ㄴ아](../memes/how-did-you-do-that-profane.md)
 - [억까](../memes/eokkka.md)
 - [억텐](../memes/eokten.md)
 - [언니가 불편해? 언니가 잘할게](../memes/unnie-will-do-better.md)

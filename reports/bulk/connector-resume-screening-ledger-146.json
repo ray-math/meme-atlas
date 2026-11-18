@@ -166,10 +166,11 @@
     "reports/bulk/connector-resume-wave30-334.json",
     "reports/bulk/connector-resume-wave30-335.json",
     "reports/bulk/connector-resume-wave30-336.json",
-    "reports/bulk/connector-resume-wave30-337.json"
+    "reports/bulk/connector-resume-wave30-337.json",
+    "reports/bulk/connector-resume-wave30-338.json"
   ],
-  "query_observations": 3820,
-  "distinct_literal_queries": 3242,
+  "query_observations": 3856,
+  "distinct_literal_queries": 3278,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -19471,6 +19472,186 @@
     {
       "query": "정상화|신창섭|다 해줬",
       "source": "reports/bulk/connector-resume-wave30-337.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"백룸\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스핔이\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"시바견\" 밈 \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"sake L\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"박재범 월클라인\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"신격화\" \"sake L\"",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스핔이\" -site:namu.moe -site:namu.wiki 2026",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스핔이\" \"2026\" 뉴스 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"백룸\" \"2026\" \"패러디\" 브랜드",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"월클라인\" 패러디 박재범",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"백룸\" \"563\" 트렌드",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"백룸\" \"다녀\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스핔이\" \"2026\" -site:namu.moe -site:tistory.com -site:tenb.kr -site:talk.op.gg",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스피키 네르지 마세요\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스핔이\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "조보아|내려와|먹어봐",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "조이는|조이|보이",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "좀비|공격받",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "종범|없어요|없었다",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빠르게|좋아 빠",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "죄송|미안",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "항복|선언문",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "죽창",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노코노코|탓탓|호시탐탐",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "지이잉|진동",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "진짠줄|진짜인|속았",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "진지|선비",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "짤방|짤보이",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "짱구|속인",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "찐따|아싸",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "찐찌|버거",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "찰지|엉덩",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "창렬|혜자",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "창팝|신창섭|합성 노래",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "초글링|초딩|저글링",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "어케|어떻게.*했|시발련|해냈|했노",
+      "source": "reports/bulk/connector-resume-wave30-338.json",
       "status": "screened-see-report"
     }
   ],
