@@ -1,0 +1,249 @@
+{
+  "batch": 508,
+  "base": "6a5ac3a339851ce4415ffc000dd94d263af9d021",
+  "canonical_before": 1714,
+  "canonical_after": 1724,
+  "added": [
+    "deo-wida-heat-homophone-scene",
+    "abbey-road-crosswalk-cover-recreation",
+    "naengmu-no-content-marker",
+    "hwiririk-kkubeok-chat-farewell",
+    "choego-playful-chwek-o-spelling",
+    "beongae-online-impromptu-meetup",
+    "most-seureopge-character-imitation",
+    "ekbak-missing-image-expression",
+    "jachu-self-post-recommendation",
+    "banchu-return-recommendation-request"
+  ],
+  "candidate_changes": [],
+  "previous_ci": {
+    "head": "6a5ac3a339851ce4415ffc000dd94d263af9d021",
+    "run": 44350365171,
+    "result": "success",
+    "steps": 65,
+    "python_tests": 497,
+    "seconds": 194.733
+  },
+  "previous_audit": {
+    "result": "PASS",
+    "new_entries": 10,
+    "enrichment": 1,
+    "required_changes": 0,
+    "media_viewed": 0
+  },
+  "research": {
+    "B581": {
+      "observations": 8,
+      "recommended": 1,
+      "existing": 1,
+      "held": 6,
+      "direct": 2,
+      "queries": [
+        "2026 \"패러디\" \"만들었다\" \"홍보\" -site:instablank.com -site:apnews.kr",
+        "2026 \"따라한\" \"장면\" \"패러디\" -site:instablank.com -site:namu.moe",
+        "2026 \"패러디\" \"촬영했다\" -site:instablank.com -site:apnews.kr -정치",
+        "2026 \"밈\" \"소방\" \"영상\"",
+        "\"더 위다\" \"소방관\"",
+        "\"This cutie is\" \"관세청\""
+      ]
+    },
+    "C93": {
+      "observations": 10,
+      "recommended_expressions": 3,
+      "recommended_entries": 2,
+      "existing_family_enrichment": 1,
+      "held": 6,
+      "direct": 3,
+      "queries": [
+        "\"냉무\" \"내용 없음\" 신조어 기사",
+        "\"엑박\" \"이미지\" \"신조어\" 기사",
+        "\"리하이\" \"인사\" 기사",
+        "\"냉무\" site:orbi.kr",
+        "\"리하이\" \"다시\" site:news.nate.com",
+        "\"휘리릭\" \"꾸벅\" \"통신\""
+      ]
+    },
+    "B582": {
+      "observations": 5,
+      "recommended": 1,
+      "existing": 1,
+      "held": 3,
+      "direct": 3,
+      "queries": [
+        "2026 \"밈\" \"재해석\" \"브랜드\" -site:instablank.com -site:apnews.kr",
+        "2026 \"패러디\" \"직접 제작\" \"대학교\"",
+        "2026 \"밈\" \"사진을\" \"따라\" site:allurekorea.com",
+        "2026 \"패러디\" \"재연\" site:enews.imbc.com",
+        "\"애비로드\" \"패러디\" \"2026\"",
+        "\"애비로드\" \"패러디\" \"무한도전\""
+      ]
+    },
+    "C94": {
+      "observations": 6,
+      "recommended": 1,
+      "conditional": 1,
+      "reserved_enrichment": 1,
+      "held": 3,
+      "direct": 3,
+      "queries": [
+        "\"엑박\" \"신조어\" 이미지",
+        "\"번개\" \"통신언어\" 모임",
+        "\"쵝오\" \"최고\" 신조어 기사",
+        "\"엑박\" \"이미지\" site:ohmynews.com",
+        "\"번개\" \"모임\" \"신조어\" 2002"
+      ]
+    },
+    "B583": {
+      "observations": 9,
+      "recommended": 1,
+      "enrichment": 1,
+      "existing": 3,
+      "held": 4,
+      "direct": 3,
+      "queries": [
+        "2026 \"패러디\" \"재현했다\" \"광고\" -site:instablank.com -site:namu.moe",
+        "2026 \"패러디\" \"따라하며\" \"방송\" -site:instablank.com",
+        "2026 \"유행어\" \"바꿔\" \"광고\"",
+        "\"모스트스럽게\" \"패러디\"",
+        "\"모스트스럽게\" \"2026\"",
+        "\"권혁수\" \"캔디\" \"더빙극장\"",
+        "\"모스트스럽게\" \"황석정\" \"뜻\""
+      ]
+    },
+    "C95": {
+      "observations": 3,
+      "recommended": 1,
+      "conditional": 2,
+      "direct": 3,
+      "queries": [
+        "\"엑박\" \"사진이\" site:ohmynews.com",
+        "\"자추\" \"추천\" site:orbi.kr",
+        "\"반추\" \"맞추천\"",
+        "\"엑박\" \"이미지\" \"블로그\" 오류",
+        "\"자추\" \"셀프추천\"",
+        "\"반추\" \"추천\" \"블로그\""
+      ]
+    },
+    "B584": {
+      "observations": 12,
+      "recommended": 0,
+      "existing": 9,
+      "held": 3,
+      "direct": 2,
+      "queries": [
+        "2026 \"패러디\" \"재현\" \"지역\" -site:instablank.com -site:namu.moe",
+        "2026 \"밈\" \"직접 만든\" -site:instablank.com -site:namu.moe",
+        "2026 \"패러디\" \"공식 채널\" \"장면\" -site:instablank.com",
+        "2026 \"패러디\" \"기관\" \"대사\" -site:namu.moe -site:instablank.com",
+        "2026 \"저녁은 내가 할게\" \"생선\"",
+        "\"Dinner is served\" \"밈\" 한국"
+      ]
+    },
+    "A105": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 4,
+      "notes": "마쁘리에요 fan-character labels held pending ordinary meaning beyond isolated character introductions; source observation not adoption",
+      "queries": [
+        "\"더 마스터를 기억해줘\" -site:namu.moe -site:seore.org",
+        "\"롯데햄 후라이드 치킨\" 패러디",
+        "\"마쁘리에요\" -site:namu.moe -site:seore.org",
+        "\"막심\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"미안송\" 패러디",
+        "\"봇이지 뭐\" -site:namu.moe -site:seore.org",
+        "\"마쁘리에요\" \"인사\"",
+        "\"막심 센세\" -site:namu.moe -site:seore.org",
+        "\"미안송\" \"합성\"",
+        "\"롯데햄\" \"로보캅\" 광고 해외"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "deo-wida-heat-homophone-scene",
+      "urls": [
+        "https://www.yna.co.kr/amp/view/AKR20250807146500505"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "abbey-road-crosswalk-cover-recreation",
+      "urls": [
+        "https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg.aspx?CNTN_CD=A0001779109",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/247948"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "naengmu-no-content-marker",
+      "urls": [
+        "https://korean.go.kr/nkview/nknews/200201/42_5.html",
+        "https://www.esquirekorea.co.kr/article/66515"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hwiririk-kkubeok-chat-farewell",
+      "urls": [
+        "https://www.korean.go.kr/nkview/nknews/200206/47_7.html"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "choego-playful-chwek-o-spelling",
+      "urls": [
+        "https://news.mtn.co.kr/news-detail/2023102314101898274",
+        "https://www.sisaweekly.com/news/articleViewAmp.html?idxno=40957"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "beongae-online-impromptu-meetup",
+      "urls": [
+        "https://www.korean.go.kr/nkview/nknews/200206/47_7.html"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "most-seureopge-character-imitation",
+      "urls": [
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10007504252"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ekbak-missing-image-expression",
+      "urls": [
+        "https://gimesoo.tistory.com/269",
+        "https://noljago.cafe24.com/etc/nolja_info.php"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jachu-self-post-recommendation",
+      "urls": [
+        "https://view.asiae.co.kr/article/2009121409380023502"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "banchu-return-recommendation-request",
+      "urls": [
+        "https://view.asiae.co.kr/article/2009121409380023502"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Ten source-bounded entries; historical terms not presented as recent viral discoveries.",
+    "Existing eolmana-joa entry gets source-bounded institutional reuse paragraph only; definition/index unchanged. Two institutional videos count as one production group.",
+    "Permanent related-guide generator CI passed 497 tests; immutable approved bodies remain untouched."
+  ],
+  "query_observations": 12439,
+  "distinct_literal_queries": 10220,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
