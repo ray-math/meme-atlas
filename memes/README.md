@@ -564,6 +564,7 @@
 - [아디아디아디 챌린지](adi-adi-challenge.md)
 - [아마존 익스프레스 댄스](amazon-express-dance.md)
 - [아머드 태종](armored-taejong.md)
+- [아몰랑](amollang-self-reaction.md)
 - [아무것도 안하고 싶다](want-to-do-nothing.md)
 - [아무노래 챌린지](any-song-challenge.md)
 - [아버지 뭐하시노](father-job.md)

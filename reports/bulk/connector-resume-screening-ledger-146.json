@@ -253,10 +253,11 @@
     "reports/bulk/connector-resume-wave30-428.json",
     "reports/bulk/connector-resume-wave30-429.json",
     "reports/bulk/connector-resume-wave30-430.json",
-    "reports/bulk/connector-resume-wave30-431.json"
+    "reports/bulk/connector-resume-wave30-431.json",
+    "reports/bulk/connector-resume-wave30-432.json"
   ],
-  "query_observations": 5837,
-  "distinct_literal_queries": 5092,
+  "query_observations": 5853,
+  "distinct_literal_queries": 5108,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -29643,6 +29644,86 @@
     {
       "query": "\"어둠의 다크\" \"2026\"",
       "source": "reports/bulk/connector-resume-wave30-431.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"말투\" -site:namu.wiki -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"문장\" \"바꿔\"",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"자막\" \"반복\"",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"제목으로\"",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"처하자\" -site:instablank.com -site:moamoang.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"돌아왔게\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"하지 말랬지\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"일하기 전 제 모습\"",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아몰랑\" \"2026\" 후기 -site:inven.co.kr -site:orbi.kr",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앗 아아\" \"2026\" 후기 -site:inven.co.kr -site:orbi.kr",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아몰랑\" \"2026\" site:tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앗... 아아...\" \"2026\" site:tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앗 아아\" \"2026\" 게임 리뷰",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"앗...아아\" \"댓글\" -site:namu.moe -site:inven.co.kr -site:kone.gg",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"따라\" site:news.nate.com -광고 -트럼프 -AI -허경환",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:newsis.com -트럼프 -광고 -정치",
+      "source": "reports/bulk/connector-resume-wave30-432.json",
       "status": "screened-see-report"
     }
   ],

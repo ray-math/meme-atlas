@@ -208,3 +208,4 @@
 - [약속의 2시](../memes/promised-two-oclock.md)
 - [흑우 드립](../memes/black-cow-taunt.md)
 - [활어회 물회 원샷](../memes/raw-fish-one-shot-parody.md)
+- [아몰랑](../memes/amollang-self-reaction.md)
