@@ -1,0 +1,544 @@
+{
+  "batch": 494,
+  "base": "f16add49e029af9bf717218654a7d5b9414bede6",
+  "canonical_before": 1566,
+  "canonical_after": 1580,
+  "added": [
+    "my-song-your-dance-role-reversal",
+    "mwonga-mwongaim-ambiguous-reaction",
+    "pray-for-paris-memorial-tag",
+    "swag-gap-style-difference-label",
+    "okdongja-at-least-like-me-catchphrase",
+    "memnol-idol-profile-roleplay",
+    "ghibli-style-photo-redraw-sharing",
+    "heo-catchphrase-line-relay",
+    "complex-lyric-pose-filter-challenge",
+    "exhuma-face-character-poster-edit",
+    "exhuma-scallion-cat-wordplay",
+    "yellow-ribbon-profile-campaign",
+    "no-japan-boycott-logo",
+    "did-something-youth-self-label"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0139",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "pray-for-paris-memorial-tag"
+    },
+    {
+      "id": "kr-list-0792",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "okdongja-at-least-like-me-catchphrase"
+    },
+    {
+      "id": "kr-list-0338",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "yellow-ribbon-profile-campaign"
+    },
+    {
+      "id": "kr-list-0339",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "no-japan-boycott-logo"
+    }
+  ],
+  "previous_ci": {
+    "sha": "f16add49e029af9bf717218654a7d5b9414bede6",
+    "run": 44323878909,
+    "job": 134869796776,
+    "status": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 115.340s"
+  },
+  "previous_audit": {
+    "sha": "f16add49e029af9bf717218654a7d5b9414bede6",
+    "status": "PASS",
+    "mandatory_fixes": 0,
+    "canonical": 1566,
+    "added": 7,
+    "files": 16,
+    "unchanged_existing_bodies": 1559,
+    "unchanged_index": 1559,
+    "candidate_rows": 1091,
+    "source_urls_opened": 9,
+    "original_media": 0
+  },
+  "research": {
+    "A67": {
+      "observations": 20,
+      "recommended": 0,
+      "held": 19,
+      "existing_scope_review": 1,
+      "notes": "0584 fact-violence-reaction possible scope overlap; no automatic mapping.0540 image motion unverified. Historical candidates no recency requirement.",
+      "queries": [
+        "\"면제겜\" 뜻 -site:namu.moe -site:seore.org",
+        "\"박씨 꺼져\"",
+        "\"박위상태\"",
+        "\"밥 먹을 때 생각나는\" \"후라이\"",
+        "\"방송 되게 못하네\" -site:namu.moe -site:seore.org",
+        "\"벽부수기\" \"밈\"",
+        "\"봇이지 뭐\"",
+        "\"빅 나티를 변기에\"",
+        "\"빨강 사기맵\" -site:namu.moe -site:seore.org",
+        "\"뼈 맞았어\" 유행어",
+        "\"벽돌할아버지\" \"로봇댄스\"",
+        "\"사고 쳤을 때 입 다물고\"",
+        "\"사랑의 열매\" \"밈\"",
+        "\"사이버펑크\" \"밈\" 한국 패러디",
+        "\"사정없이 보내버리겠다\"",
+        "\"삼일절 사이버 전쟁\"",
+        "\"샤방송\"",
+        "\"섊\" 신조어",
+        "\"섣불리 판단하면 안되는 이유\"",
+        "\"세뇌교육\" 밈",
+        "\"뼈 맞았어\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"빨강 사기맵\" 미국 뉴스",
+        "\"벽부수기\" \"이지툰\" -site:namu.moe -site:seore.org",
+        "\"섊\" \"인터넷\" -site:namu.moe -site:seore.org -site:kaikki.org"
+      ]
+    },
+    "A68": {
+      "observations": 20,
+      "recommended": 1,
+      "conditional": 1,
+      "held": 18,
+      "editor_held": 19,
+      "queries": [
+        "\"Mafia City\" 광고 밈 패러디 한국",
+        "\"인크레더블\" \"불쾌\" 밈",
+        "\"팩맨\" \"유령\" \"춤\" 밈",
+        "\"Pink Elephants on Parade\" 밈 한국",
+        "\"Pray For Paris\" 한국 추모 SNS",
+        "\"Sims cat breaking\" 한국",
+        "\"S stands for\" 패러디 한국",
+        "\"Terrified Noot Noot\" 한국 밈",
+        "\"The one piece is real\" 한국 밈",
+        "\"Why so serious\" \"밈\" 한국",
+        "\"X키를 눌러 조의를\"",
+        "\"Zyzz\" \"밈\" 한국",
+        "\"가능성의\" \"밈\"",
+        "\"맨까 새끼들 부들부들하구나\"",
+        "\"개돼지\" \"인터넷\" 용어 비판",
+        "\"거룡을 상대한 건\"",
+        "\"거짓말하지 말아요\" \"죽여버리겠어요\"",
+        "\"건우 엄마 데리고 와\" 패러디",
+        "\"계획대로\" \"데스노트\" 패러디",
+        "\"고만해 미친놈들아\" -site:namu.moe -site:seore.org"
+      ],
+      "query_attempts": 24,
+      "failed_retry_queries": 4,
+      "notes": "0139 memorial bounded pending;0179 generic insult held."
+    },
+    "A69": {
+      "observations": 20,
+      "recommended": 1,
+      "existing_scope_review": 1,
+      "held": 18,
+      "queries": [
+        "\"아이 러브 마이 화자 마자 브라자\"",
+        "\"아카자\" \"밈\" 패러디",
+        "\"안전가족\" 패러디",
+        "\"애는 있습니다\" \"밈\"",
+        "\"야후 꾸러기\" \"밈\"",
+        "\"어나니머스\" \"밈\" 가면",
+        "\"어몽어스 잼민이\"",
+        "\"얼리 엑세스 예시를 보여줌\"",
+        "\"엄마도 사람이야 사람\" 패러디",
+        "\"오 샹젤리제\" 밈",
+        "\"오타쿠가 정치글을\"",
+        "\"오 필승 코리아\" 패러디",
+        "\"옥동자\" \"유행어\" 패러디",
+        "\"옴마니반메훔\" \"밈\"",
+        "\"와퍼\" \"밈\" 패러디",
+        "\"왕사슴 가이즈\"",
+        "\"왕이되는자\" 광고 패러디",
+        "\"요! 요요!\" 밈",
+        "\"우리 업계에서는 포상입니다\" 뜻",
+        "\"우연히\" \"밈\"",
+        "\"우리 업계에서는 포상\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"옥동자\" \"얼굴도\" 유행어",
+        "\"오 샹젤리제\" \"커피새\" -site:namu.moe",
+        "\"안전가족\" \"합성\" -site:namu.moe -site:seore.org -site:tcatmon.com"
+      ]
+    },
+    "A70": {
+      "observations": 20,
+      "recommended": 2,
+      "held": 18,
+      "queries": [
+        "\"귀여운 건 나도 알아\" -site:namu.moe -site:seore.org",
+        "\"그건 원작을 경험해 보신\" -site:namu.moe -site:seore.org",
+        "\"깨어나세요 용사여\" -site:namu.moe -site:seore.org",
+        "\"나는 애쉬\" 밈 -site:namu.moe -site:seore.org",
+        "\"날 내버려둬\" \"밈\"",
+        "\"너 개못하잖아\" -site:namu.moe -site:seore.org",
+        "\"네가 하면 나도 한다\" 밈",
+        "\"네 설명해드렸습니다\"",
+        "\"노란 리본 캠페인\" 의미",
+        "\"노 재팬\" \"로고\" 패러디",
+        "\"다정한부부\" \"밈\"",
+        "\"대기업에 입사한 아들의 깨달음\"",
+        "\"동현이의 퍼니박스\"",
+        "\"두원공대\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"라이라이차차차\" -site:namu.moe -site:seore.org",
+        "\"러시아식 유머\"",
+        "\"린가동자\"",
+        "\"마쁘리에요\"",
+        "\"닥터 막심\" 밈",
+        "\"머니게임\" \"밈\" 유행어",
+        "\"그건 원작을 경험해 보신 분들의 기준\" 인터뷰",
+        "\"노 재팬\" \"로고\" 디자이너"
+      ]
+    },
+    "B535": {
+      "observations": 20,
+      "recommended": 0,
+      "existing": 8,
+      "held": 8,
+      "excluded": 4,
+      "queries": [
+        "2026 \"패러디\" \"직접\" site:etnews.com",
+        "2026 \"밈\" \"만들었다\" site:hani.co.kr",
+        "2026 \"챌린지\" \"놀이\" site:dt.co.kr",
+        "2026 \"밈\" \"제작\" site:univ20.com",
+        "2026 \"챌린지\" \"따라 하는\" site:allurekorea.com",
+        "2026 \"밈\" \"사진\" site:esquirekorea.co.kr",
+        "2026 \"밈\" \"친구\" site:woman.donga.com",
+        "2026 \"패러디\" \"공무원\" 영상",
+        "\"2026\" \"만우절\" \"서로\" \"코스프레\"",
+        "\"코르티스\" \"만우절\" \"따라\"",
+        "\"2026\" \"구황작물\" \"하츠투하츠\""
+      ],
+      "notes": "C48 same AprilFools article duplicated observation not new evidence. Nov17Pocheon johnpark rap existing family."
+    },
+    "B536": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 8,
+      "held": 8,
+      "excluded": 3,
+      "queries": [
+        "2026 \"밈\" \"따라\" site:news.sbs.co.kr",
+        "2026 \"챌린지\" \"재현\" site:imnews.imbc.com",
+        "2026 \"유행\" \"댓글 놀이\"",
+        "2026 \"밈\" \"사진 합성\"",
+        "2026 \"유행\" \"사진\" site:topclass.chosun.com",
+        "2026 \"밈\" site:news.jtbc.co.kr \"따라\"",
+        "2026 \"챌린지\" site:enews.imbc.com \"따라\"",
+        "\"내곡네춤\" \"2026\"",
+        "\"내곡네춤\" \"문별\" \"태권도\""
+      ]
+    },
+    "B537": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 11,
+      "held": 5,
+      "excluded": 3,
+      "queries": [
+        "2026 \"밈\" \"놀이\" \"사진\" 문화",
+        "2026 \"패러디\" \"제작했다\" 지역",
+        "2026 \"챌린지\" \"친구끼리\"",
+        "2026 \"챌린지\" \"재현\" site:daily.hankooki.com",
+        "2026 \"밈\" \"만들어\" site:newsis.com",
+        "2026 \"우정 테스트\" \"베프\" 챌린지",
+        "\"베스트 프렌드\" \"챌린지\" \"2026\" 캐릿",
+        "\"영크크\" \"늙크크\" 2026",
+        "2026 \"사진\" \"놀이\" site:univ20.com",
+        "\"멤놀\" \"2026\"",
+        "\"POV: 2016\" \"은초\"",
+        "\"멤버 놀이\" \"카카오스토리\""
+      ],
+      "notes": "POV2016 corrected existing family, not new. Memnol past participation retrospective published2026."
+    },
+    "B538": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 9,
+      "held": 7,
+      "excluded": 3,
+      "queries": [
+        "2026 \"밈\" \"재현\" site:news.kbs.co.kr",
+        "2026 \"놀이\" \"패러디\" site:hani.co.kr",
+        "2026 \"챌린지\" \"찍었다\" site:newsis.com",
+        "2026 \"밈\" \"패러디\" site:news.nate.com \"사진\"",
+        "2026 \"밈\" \"직접 만든\" -site:namu.moe",
+        "2026 \"챌린지\" \"이색\" \"영상\" 지역",
+        "2026 \"셀레브레이션\" \"챌린지\" \"안무\"",
+        "2026 \"핑키 업\" \"챌린지\" \"동작\"",
+        "2026 \"허경환 유행어 챌린지\""
+      ]
+    },
+    "B539": {
+      "observations": 20,
+      "recommended": 2,
+      "existing": 8,
+      "held": 7,
+      "excluded": 3,
+      "queries": [
+        "2026 \"밈\" \"재현\" site:univ20.com",
+        "2026 \"유행\" \"사진 놀이\" -site:instablank.com -site:namu.moe",
+        "2026 \"밈\" \"패러디\" site:busan.com",
+        "2026 \"밈\" \"댓글\" site:news1.kr \"리뷰\"",
+        "2026 \"밈\" \"유행\" site:khan.co.kr \"놀이\"",
+        "2026 \"유행\" \"놀이\" site:univ20.com/Magazine/Detail",
+        "2026 \"리뷰\" \"회장\" \"밈\" 치킨",
+        "2026 \"사진\" \"패러디\" site:news.nate.com \"만들\"",
+        "\"파묘\" \"고양이\" \"패러디\" 2024",
+        "\"파묘\" \"한자\" \"합성\" \"아이돌\""
+      ],
+      "notes": "Editor corrected jwejweiya from worker-held to existing ID; second Dizzo source not used in body, parent only read SportsKhan."
+    },
+    "C48": {
+      "observations": 20,
+      "existing": 8,
+      "family": 1,
+      "worker_recommended": 1,
+      "editor_held": 11,
+      "queries": [
+        "2026 \"밈\" site:esquirekorea.co.kr",
+        "2026 \"밈\" site:eyesmag.com",
+        "2026 \"밈\" site:allurekorea.com",
+        "\"혼돈의 2개 국어\" \"2026\"",
+        "\"의외로 개 쿨한\" \"밈\"",
+        "\"쿵 할게요\" \"패러디\"",
+        "\"의외로 개쿨한\" 송강",
+        "\"쿵 할게요\" 영식 패러디",
+        "\"혼돈의 2개국어\" 밈"
+      ],
+      "notes": "Kung-halgeyo held: only preview directly read, official video inaccessible. No actual broadcast viewed."
+    },
+    "C49": {
+      "observations": 20,
+      "recommended": 1,
+      "conditional": 1,
+      "existing": 8,
+      "held": 10,
+      "queries": [
+        "2026 밈 site:univ20.com \"유행\"",
+        "2026 밈 site:20slab.org \"11월\"",
+        "2026 밈 site:the-edit.co.kr",
+        "\"학교\" \"폭파\" \"졸업사진\" 2026",
+        "\"스웨그 갭\" 2026",
+        "\"뭔가 뭔가임\" 밈"
+      ],
+      "notes": "Recent1year + historical1 actual title use for mwonga. Swag gap fashion editorial application conditional, no relationships truth claims."
+    },
+    "C50": {
+      "observations": 20,
+      "existing": 12,
+      "held": 8,
+      "recommended": 0,
+      "queries": [
+        "2026 \"밈\" site:tpick.co.kr",
+        "2026 \"밈\" site:univpress.com",
+        "2026 \"밈\" site:news.hidoc.co.kr",
+        "\"이모지\" \"뒷모습\" 2026",
+        "\"줴줴이야\" -site:tpick.co.kr",
+        "\"그래놀라\" \"밈\" 2026",
+        "\"밈\" \"2026\" site:maily.so/marsinmarine \"11월\"",
+        "\"물만난 광어\" -site:tpick.co.kr -site:namu.moe",
+        "\"털동생\" 2026",
+        "\"장도연 츄러스\" -site:tpick.co.kr"
+      ],
+      "notes": "jwejweiya Nov17 Sportschosun actual use proposal retained report only; do not alter pinned old body. Tpick date conflicts not accepted."
+    },
+    "C51": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 13,
+      "held": 6,
+      "queries": [
+        "\"지브리\" \"챗GPT\" \"만들어\" 2026 블로그",
+        "\"밈\" \"2026\" site:magazine.hankyung.com \"유행\"",
+        "\"밈\" \"2026\" site:univpress.com \"챌린지\"",
+        "2026 \"밈\" \"모음\" site:elle.co.kr",
+        "2026 \"밈\" \"모음\" site:cosmopolitan.co.kr",
+        "2026 \"밈\" \"최신\" site:harpersbazaar.co.kr",
+        "2026 \"밈\" \"요즘\" site:news.ssu.ac.kr",
+        "2026 \"밈 모음\" \"9월\" site:gogumafarm.kr",
+        "2026 \"밈 모음\" \"8월\" site:gogumafarm.kr",
+        "\"코르티스\" \"크크\" \"밈\" 바자"
+      ]
+    },
+    "C52": {
+      "observations": 20,
+      "recommended": 0,
+      "existing": 9,
+      "held": 11,
+      "queries": [
+        "2026 \"밈\" \"11월\" site:maily.so",
+        "2026 \"밈\" \"신조어\" site:univ20.com",
+        "2026 \"밈\" \"10월\" site:careet.net",
+        "\"ㅋㅋㅋㄹㅌㅅ\" 밈",
+        "\"먹었음 청년\" \"2026\"",
+        "\"낙엽\" \"점수\" \"2026\" 밈",
+        "\"한한미일\" 2026"
+      ],
+      "notes": "Retracted early laughter initials recommendation: existing body and same source, no addition."
+    },
+    "editor": {
+      "queries": [
+        "\"쿵 할게요\" \"패러디\" -site:namu.wiki",
+        "\"쿵 할게요\" \"따라\"",
+        "\"뭔가 뭔가임\" \"대학내일\"",
+        "\"스웨그 갭\" \"마리끌레르\"",
+        "2026 \"밈\" \"11월\" \"새로운\" -site:tpick.co.kr -site:namu.wiki",
+        "2026 \"밈\" \"유행\" \"10월\" site:careet.net",
+        "2026 \"밈\" \"11월\" site:stibee.com/api/v1.0/emails/share",
+        "2026 \"밈\" \"10월\" site:univ20.com/Magazine",
+        "2026 \"밈\" \"따라\" site:gogumafarm.kr",
+        "\"콤플렉스 챌린지\" \"2024\"",
+        "\"빵빵냥이\" 챌린지",
+        "site:gnews.gg.go.kr \"2014.04.25\" \"리본\"",
+        "site:ichannela.com \"2019-08-09\" \"NO JAPAN\"",
+        "site:businesspost.co.kr \"2019-07-24\" \"노재팬\""
+      ],
+      "notes": "Genie mgz_seq16028 direct L188 official OST inspiration in phrase, undated page; original media0; pending eligibility"
+    },
+    "editorObservations": {
+      "observations": 5,
+      "recommended": 1,
+      "existing": 2,
+      "held": 2,
+      "queries": [],
+      "notes": "Complex lyric pose recovered; lights-off existing493 newletter corroboration only;54000 existing; Bbangcat held single undated explanation; Careet2034 paywall no body."
+    },
+    "partialResearch": {
+      "queries": [],
+      "C53": {
+        "recommendations": 1,
+        "sources": [
+          "https://gall.dcinside.com/board/view/?id=slife&no=813610&page=1",
+          "https://gall.dcinside.com/board/view/?id=toy&no=7875298&page=1"
+        ],
+        "notes": "Full observation tally and queries deferred, no guessed unique count."
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "my-song-your-dance-role-reversal",
+      "urls": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/465583"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mwonga-mwongaim-ambiguous-reaction",
+      "urls": [
+        "https://theqoo.net/muk/3504551732",
+        "https://www.univ20.com/Twenties/Detail/4159"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pray-for-paris-memorial-tag",
+      "urls": [
+        "https://m.seoul.co.kr/news/2015/11/16/20151116500012"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "swag-gap-style-difference-label",
+      "urls": [
+        "https://www.marieclairekorea.com/fashion/fashion_trend/2026/01/swag-gap/",
+        "https://www.univ20.com/Twenties/Detail/4159"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "okdongja-at-least-like-me-catchphrase",
+      "urls": [
+        "https://news.samsungsemiconductor.com/kr/옥동자-정종철이-들려주는-꿈과-나눔-이야기-볼런티/",
+        "https://www.khan.co.kr/article/201905131629001"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "memnol-idol-profile-roleplay",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/4655"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ghibli-style-photo-redraw-sharing",
+      "urls": [
+        "https://blog.genoglobe.com/2025/03/gpt.html?m=0",
+        "https://dubdu.tistory.com/18"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "heo-catchphrase-line-relay",
+      "urls": [
+        "https://sports.khan.co.kr/article/202601201512003/amp"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "complex-lyric-pose-filter-challenge",
+      "urls": [
+        "https://mobile.newsis.com/view_amp.html?ar_id=NISX20241122_0002969359",
+        "https://stibee.com/api/v1.0/emails/share/7RLVi48QvCmxKz_KY-XmLdv1y-_FP6Q"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "exhuma-face-character-poster-edit",
+      "urls": [
+        "https://sports.khan.co.kr/article/202403142100056"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "exhuma-scallion-cat-wordplay",
+      "urls": [
+        "https://sports.khan.co.kr/article/202403142100056"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "yellow-ribbon-profile-campaign",
+      "urls": [
+        "https://gnews.gg.go.kr/news/news_detail.do?number=201404251341577657C076&s_code=C076"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "no-japan-boycott-logo",
+      "urls": [
+        "https://m.businesspost.co.kr/BP?command=mobile_view&num=136688",
+        "https://ichannela.com/news/detail/amp/000000160868.do"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "did-something-youth-self-label",
+      "urls": [
+        "https://www.careet.net/2017",
+        "https://gall.dcinside.com/board/view/?id=toy&no=7875298&page=1",
+        "https://gall.dcinside.com/board/view/?id=slife&no=813610&page=1"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Fourteen original bounded entries; old1566 bodies and index records unchanged.",
+    "Four candidate rows mapped partial only, not entire person/event/movement.",
+    "Historical material separated from recent use. No minimum recency imposed on old ledger candidates.",
+    "Laughter initials recommendation retracted as existing before writing.",
+    "C53 full tally deferred; only directly reopened did-something-youth example sources used. No guessed unique-candidate total.",
+    "Former CI failure remains repaired without weakening tests."
+  ],
+  "query_observations": 10973,
+  "distinct_literal_queries": 9052,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
