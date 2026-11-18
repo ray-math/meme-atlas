@@ -13,3 +13,7 @@ tags: []
 부모의 비교에 대한 풍자와 잘난 사람을 부르는 표현으로 칼럼·대중문화 기사에서 사용된다. 실제 가족 관계를 확인한 호칭은 아니다.
 
 [기본 수록 목록](../collections/pilot-30.md)
+
+## 관련 밈
+
+- [부친남](buchinnam-spouse-comparison-shortening.md)
