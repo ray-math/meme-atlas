@@ -651,6 +651,7 @@
 ## 방송
 
 - [○○가 뿔났다](../memes/ppulnatda-title-template.md)
+- [간절스러웠어요](../memes/ganjeolseureowosseoyo.md)
 - [거성체조](../memes/geoseong-dance.md)
 - [거제 야호](../memes/geoje-yaho.md)
 - [고뤠](../memes/gorae.md)
@@ -973,6 +974,7 @@
 - [○○ 와졌어](../memes/ended-up-here.md)
 - [○○ 필수 호신술](../memes/everyday-self-defense-parody.md)
 - [간바레 챌린지](../memes/ganbare-three-panel-challenge.md)
+- [간절스러웠어요](../memes/ganjeolseureowosseoyo.md)
 - [그럼 다음은 무조건 ○○겠지](../memes/next-trend-wish-template.md)
 - [꿍싯꿍싯 챌린지](../memes/kkungsit-kkungsit-challenge.md)
 - [나무 챌린지](../memes/tree-flailing-challenge.md)
