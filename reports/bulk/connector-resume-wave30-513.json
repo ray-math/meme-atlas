@@ -1,0 +1,338 @@
+{
+  "batch": 513,
+  "base": "b5cb97beea763bbd746e5a4e7847a8dcb2adf35a",
+  "canonical_before": 1767,
+  "canonical_after": 1777,
+  "added": [
+    "russian-reversal-wordplay",
+    "good-weather-to-die-product-substitution",
+    "nojaem-yujaem-kkuljaem-fun-reaction",
+    "honkono-solo-coin-karaoke",
+    "why-so-serious-joker-quote",
+    "kkukkukku-fully-styled-look",
+    "doctor-shin-self-correcting-caption-parody",
+    "gen-z-stare-deadpan-reenactment",
+    "naedon-naesan-self-paid-review",
+    "still-not-doing-it-dokhada-parody"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0435",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "russian-reversal-wordplay"
+    },
+    {
+      "id": "kr-list-0151",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "why-so-serious-joker-quote"
+    }
+  ],
+  "previous_ci": {
+    "run": 44357973812,
+    "job": 134991143592,
+    "status": "completed",
+    "conclusion": "success",
+    "steps": 65,
+    "passed": 65,
+    "python": "Ran 497 tests in 113.191s",
+    "head": "b5cb97beea763bbd746e5a4e7847a8dcb2adf35a"
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "required_changes": 0,
+    "files": 19,
+    "count": 1767,
+    "old_records_preserved": 1757,
+    "source_recovered": "Seoul Shinmun /news/society/ path final auditor direct full text confirmed"
+  },
+  "research": {
+    "A122": {
+      "rows": 6,
+      "recommended": 1,
+      "held": 5,
+      "direct_pages": 2,
+      "failed_pages": 1,
+      "queries": [
+        "\"네가 하면 나도 한다\" 밈",
+        "\"늬픽\" 뜻",
+        "\"당신이 옳았어\" 밈",
+        "\"독일초딩\" 패러디",
+        "\"러시아식 유머\" 뜻",
+        "\"물음표 드립\"",
+        "\"러시아식 유머\" -site:namu.moe -site:seore.org -site:readonly.wiki -site:alphawiki.org -site:uncyclopedia.kr",
+        "\"독일초딩\" 패러디 -site:namu.moe -site:seore.org -site:tcatmon.com",
+        "\"늬픽\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"러시아식 유머\" site:tistory.com",
+        "\"독일초딩\" site:gamemeca.com"
+      ]
+    },
+    "B599": {
+      "observations": 8,
+      "recommended": 1,
+      "existing": 3,
+      "held": 4,
+      "direct_pages": 3,
+      "existing_body_reads": 2,
+      "queries": [
+        "2026 \"밈\" \"말투\" site:allurekorea.com",
+        "2026 \"패러디\" \"문구\" site:daehaknaeil.com",
+        "2026 \"밈\" \"대사\" site:news.samsung.com",
+        "\"2026\" \"밈\" \"유행어\" site:cosmopolitan.co.kr",
+        "\"2026\" \"밈\" \"문구\" site:esquirekorea.co.kr",
+        "\"2026\" \"패러디\" site:newsroom.lguplus.com",
+        "\"2026\" \"패러디\" \"명대사\" 광고 -site:namu.moe",
+        "\"2026\" \"밈\" \"말투\" 매거진 -site:namu.moe",
+        "\"청개구리 가위바위보\" \"규칙\"",
+        "\"죽기 딱 좋은\" \"패러디\" \"2026\""
+      ]
+    },
+    "C111": {
+      "observations": 10,
+      "recommended_expressions": 3,
+      "recommended_entries": 1,
+      "conditional": 1,
+      "existing": 2,
+      "held": 4,
+      "direct_pages": 4,
+      "failed_pages": 1,
+      "existing_body_reads": 1,
+      "queries": [
+        "\"혼코노\" 뜻 기사",
+        "\"유잼\" \"2026\" 기사",
+        "\"노잼\" \"유잼\" 뜻 기사",
+        "\"킹정\" 뜻 기사",
+        "\"노잼\" \"유잼\" \"2026\" 인터뷰"
+      ]
+    },
+    "A123": {
+      "rows": 6,
+      "recommended": 1,
+      "held": 5,
+      "direct_pages": 3,
+      "existing_body_reads": 1,
+      "queries": [
+        "\"드디어 깨어났군\" \"스카이림\" 패러디",
+        "\"원피스는 실재한다\" 패러디",
+        "\"Why so serious\" 밈 한국",
+        "\"가능성의\" \"드립\"",
+        "\"그건 원작을 경험해 보신 분들의 기준인 거고요\"",
+        "\"깨어나세요 용사여\" 패러디",
+        "\"와이 쏘 시리어스\" \"조커\" 패러디",
+        "\"그원경기\" -site:namu.moe -site:seore.org",
+        "\"깨어나세요 용사여\" site:news"
+      ]
+    },
+    "C112": {
+      "observations": 10,
+      "recommended": 1,
+      "existing": 2,
+      "held": 7,
+      "direct_pages": 3,
+      "existing_body_reads": 1,
+      "queries": [
+        "\"갑통알\" 뜻 기사",
+        "\"사못쓰\" 뜻 기사",
+        "\"꾸꾸꾸\" 뜻 기사",
+        "\"꾸꾸꾸\" \"꾸미고\" 기사",
+        "\"퇴준생\" \"2026\""
+      ]
+    },
+    "C113": {
+      "observations": 10,
+      "recommended": 0,
+      "existing": 4,
+      "existing_family": 1,
+      "held": 5,
+      "direct_pages": 1,
+      "failed_pages": 2,
+      "existing_body_reads": 2,
+      "queries": [
+        "\"킹정\" \"인정\" site:news.nate.com",
+        "\"갑분핫\" 뜻 기사",
+        "\"실화냐\" \"뜻\" 기사",
+        "\"팩폭\" \"팩트\" 기사 뜻",
+        "\"킹정\" \"인정\" 인터뷰"
+      ]
+    },
+    "B600": {
+      "observations": 8,
+      "recommended": 1,
+      "existing": 4,
+      "held": 3,
+      "direct_pages": 3,
+      "existing_body_reads": 2,
+      "queries": [
+        "2026 \"밈\" \"유행어\" site:hyundai.com",
+        "2026 \"패러디\" \"대사\" site:lotte.co.kr",
+        "2026 \"말투\" \"유행\" site:news.nate.com -전청조 -김준호 -리센느",
+        "\"2026\" \"패러디\" \"문구\" site:brandbrief.co.kr",
+        "\"2026\" \"유행어\" site:univ20.com",
+        "\"뵙네요\" \"아니구\" 패러디",
+        "\"임성한\" \"영양가 있어\" 패러디",
+        "\"2026\" \"밈\" \"공식\" \"자막\" -site:namu.moe"
+      ]
+    },
+    "A124": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct_pages": 2,
+      "existing_body_reads": 1,
+      "queries": [
+        "\"맛나핑\" 밈",
+        "\"방송 되게 못하네\" 패러디",
+        "\"브레드 이발소\" 밈 패러디",
+        "\"삐뽀핑\" 밈",
+        "\"벽돌할아버지\" 로봇댄스",
+        "\"사랑의 열매\" \"밈\"",
+        "\"사랑의 열매\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"방송 되게 못하네\" \"밈\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "editor_followup": {
+      "queries": [
+        "\"입틀막\" \"놀라\" \"2018\"",
+        "\"2026\" \"밈\" \"새로운\" \"표현\" -site:namu.moe",
+        "\"입틀막\" \"뜻\" -정치 -경호 -카이스트 -KAIST",
+        "\"내돈내산\" 뜻 2026 후기"
+      ]
+    },
+    "C114": {
+      "observations": 9,
+      "recommended": 1,
+      "conditional": 2,
+      "existing": 2,
+      "held": 4,
+      "direct_pages": 4,
+      "failed_pages": 1,
+      "existing_body_reads": 1,
+      "queries": [
+        "2026 신조어 \"도파민\" \"뜻\" -site:sinjoeo.kr -site:hoonmeme.com",
+        "2026 \"밈\" \"추구미\" 신조어 새로운",
+        "\"늙크크\" 이현이",
+        "\"노폰\" \"데이트\" 2026",
+        "\"럭키맥싱\" 한국",
+        "\"젠지 스테어\" 한국 2026",
+        "\"글레이징\" \"밈\" 한국",
+        "\"미덕체\" \"2026\""
+      ]
+    },
+    "B601": {
+      "observations": 8,
+      "recommended": 1,
+      "existing_family": 3,
+      "held": 4,
+      "direct_pages": 4,
+      "failed_pages": 1,
+      "existing_body_reads": 5,
+      "queries": [
+        "2026 \"패러디\" \"유행어\" site:news.kbs.co.kr",
+        "2026 \"밈\" \"따라\" site:magazine.hankyung.com",
+        "2026 \"유행어\" \"문구\" site:biz.chosun.com",
+        "2026 \"패러디\" \"대사\" site:newsroom.cj.net",
+        "\"껄무새\" \"2026\"",
+        "\"독하다 독해\" \"패러디\"",
+        "\"설명할 시간이 없어\" \"2026\""
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "russian-reversal-wordplay",
+      "urls": [
+        "https://blaze006.tistory.com/98"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "good-weather-to-die-product-substitution",
+      "urls": [
+        "https://www.segye.com/newsView/20260504506123?OutUrl=google",
+        "https://v.daum.net/v/ulTr6fUZTT"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nojaem-yujaem-kkuljaem-fun-reaction",
+      "urls": [
+        "https://www.ajunews.com/view/20171222213237212",
+        "https://www.yeongnam.com/web/view.php?key=20230808010000916",
+        "https://v.daum.net/v/20260115155306782"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "honkono-solo-coin-karaoke",
+      "urls": [
+        "https://www.mk.co.kr/news/hot-issues/9203404"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "why-so-serious-joker-quote",
+      "urls": [
+        "https://www.dictionary.com/culture/slang/why-so-serious",
+        "https://m.imbc.com/vod/vodview?broadcastid=1000790102413100000&progcode=1000790100000100000&type=prevod"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kkukkukku-fully-styled-look",
+      "urls": [
+        "https://design.co.kr/article/12598/",
+        "https://v.daum.net/v/20260602083017875",
+        "https://www.wikitree.co.kr/articles/580073"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "doctor-shin-self-correcting-caption-parody",
+      "urls": [
+        "https://news.nate.com/view/20260401n09352"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gen-z-stare-deadpan-reenactment",
+      "urls": [
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01902406642298152",
+        "https://www.nongmin.com/article/20250922500811"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "naedon-naesan-self-paid-review",
+      "urls": [
+        "https://www.yeongnam.com/web/view.php?key=20230208010001100",
+        "https://ekn.kr/web/view.php?key=20260723024335305"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "still-not-doing-it-dokhada-parody",
+      "urls": [
+        "https://news.nate.com/view/20260618n29572",
+        "https://magazine.hankyung.com/business/article/202608030936b"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Ten bounded entries; 2026 applied cases distinguished from older historical terms, not ten newly emerged memes.",
+    "Media views zero; one source family is not multiplied by number of examples or reporting outlets.",
+    "Batch512 final audit recovered Seoul Shinmun exact /news/society/ URL; preaudit access failure resolved.",
+    "Gen Z stare 2025 evidence is outside recent year; no generational psychology or causal/statistical claim.",
+    "꾸꾸꾸 is visibly dressed-up meaning only; 2020 opposite quiz interpretation is kept separate.",
+    "껄무새 semantic duplicate of musae-repeat; no separate entry or approved-body edit.",
+    "No financial claims, forecasts, allegations or transaction advice adopted from finance reporting.",
+    "Candidate groups overlap and re-examine old titles, not summed as unique discoveries."
+  ],
+  "query_observations": 12861,
+  "distinct_literal_queries": 10555,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
