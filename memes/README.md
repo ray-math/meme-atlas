@@ -119,6 +119,7 @@
 - [굴비석](gulbiseok.md)
 - [궁금하면 오백원](curious-500won.md)
 - [궁예질](gungyejil.md)
+- [궁전으로 갈 수도 있어](go-to-palace-reaction.md)
 - [귀여워서 미안해 챌린지](sorry-for-being-cute.md)
 - [귀요미송](gwiyomi-song.md)
 - [귀하게 자란 내가 이런 걸 봐도 될까](precious-me-watch-this.md)

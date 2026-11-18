@@ -151,6 +151,7 @@
 - [국뽕](../memes/gukppong.md)
 - [굴비석](../memes/gulbiseok.md)
 - [궁예질](../memes/gungyejil.md)
+- [궁전으로 갈 수도 있어](../memes/go-to-palace-reaction.md)
 - [귀하게 자란 내가 이런 걸 봐도 될까](../memes/precious-me-watch-this.md)
 - [그 잡채](../memes/geu-japchae.md)
 - [그거 먹는 건가요](../memes/is-that-something-to-eat.md)

@@ -234,10 +234,11 @@
     "reports/bulk/connector-resume-wave30-404.json",
     "reports/bulk/connector-resume-wave30-406.json",
     "reports/bulk/connector-resume-wave30-407.json",
-    "reports/bulk/connector-resume-wave30-408.json"
+    "reports/bulk/connector-resume-wave30-408.json",
+    "reports/bulk/connector-resume-wave30-409.json"
   ],
-  "query_observations": 5467,
-  "distinct_literal_queries": 4740,
+  "query_observations": 5495,
+  "distinct_literal_queries": 4767,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -27774,6 +27775,146 @@
     {
       "query": "\"콩쥐야\" \"2026\" site:theqoo.net",
       "source": "reports/bulk/connector-resume-wave30-408.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:news.unn.net",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"활용\" site:news.unn.net",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"제목\" site:univ20.com",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"인용\" site:brunch.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"유행어\" \"따라\" \"공식\"",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:news.koreadaily.com",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"제목\" site:elle.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행\" site:allurekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"궁전으로 갈 수도 있어\" \"2026\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"디큰 디시\" 한국 챌린지 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"2026\" 패러디 스즈메",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"학개론\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"누워있는\" \"드러눕\" \"2026\" 문자",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"I am 신뢰\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Maxwell cat\" \"2026\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"●▅▇█▇▆▅▄▇\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"학개론\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"I am\" \"신뢰에요\" \"2026\" -엔비디아 -전청조 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"●▅▇█▇▆▅▄▇\" site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"맥스웰 고양이\" 만들기",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"I am 합격\"",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"패러디\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"I am 신뢰에요\" 광고 버거킹",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"눕습니다\" \"2026\" site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"학개론\" \"2026\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"궁전으로 갈 수도 있어\" \"2026\" -site:namu.moe -site:instablank.com -site:music.bugs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"궁전으로 갈수도 있어\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"궁전으로 갈 수도\" site:theqoo.net \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-409.json",
       "status": "screened-see-report"
     }
   ],
