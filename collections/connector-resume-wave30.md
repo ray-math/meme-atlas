@@ -188,3 +188,4 @@
 - [버터런 챌린지](../memes/butter-run-challenge.md)
 - [울어라 지옥참마도](../memes/cry-hell-sword.md)
 - [교토식 화법](../memes/kyoto-style-speech.md)
+- [너어는 진짜](../memes/neoeoneun-jinjja.md)

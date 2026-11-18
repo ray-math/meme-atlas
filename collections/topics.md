@@ -207,6 +207,7 @@
 - [내일 봬요 누나](../memes/see-you-tomorrow-noona.md)
 - [냥모나이트](../memes/nyangmonite.md)
 - [너 아직도 그 게임 하니?](../memes/still-play-that-game.md)
+- [너어는 진짜](../memes/neoeoneun-jinjja.md)
 - [널 좋아하는 마음이 커졌어 막 공룡만 해](../memes/dinosaur-sized-affection.md)
 - [넘사벽](../memes/neomsabyeok.md)
 - [넘어갈게요](../memes/neomeogalgeyo.md)

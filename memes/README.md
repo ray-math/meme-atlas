@@ -219,6 +219,7 @@
 - [너나 잘하세요](neona-jalhaseyo.md)
 - [너만 없더라](only-you-are-missing.md)
 - [너무해 너무해](neomuhae-neomuhae.md)
+- [너어는 진짜](neoeoneun-jinjja.md)
 - [넌 계획이 다 있구나](you-have-a-plan.md)
 - [넌 나에게 모욕감을 줬어](you-insulted-me.md)
 - [널 좋아하는 마음이 커졌어 막 공룡만 해](dinosaur-sized-affection.md)

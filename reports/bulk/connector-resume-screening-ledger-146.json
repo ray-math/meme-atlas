@@ -225,10 +225,11 @@
     "reports/bulk/connector-resume-wave30-394.json",
     "reports/bulk/connector-resume-wave30-395.json",
     "reports/bulk/connector-resume-wave30-396.json",
-    "reports/bulk/connector-resume-wave30-397.json"
+    "reports/bulk/connector-resume-wave30-397.json",
+    "reports/bulk/connector-resume-wave30-398.json"
   ],
-  "query_observations": 5265,
-  "distinct_literal_queries": 4547,
+  "query_observations": 5289,
+  "distinct_literal_queries": 4570,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -26755,6 +26756,126 @@
     {
       "query": "\"뭉탱이\" 제작 후기",
       "source": "reports/bulk/connector-resume-wave30-397.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:news.suwon.go.kr",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행\" site:magazine.hankyung.com",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"따라\" site:woman.donga.com",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"유행어\" site:univ20.com",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:topclass.chosun.com",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.unn.net",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:brunch.co.kr \"제목\"",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:korea.kr \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이제 아줌마 차례\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"월급 좀도둑\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"월급좀도둑\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이제 아줌마 차례\" 세탁기",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개꿀잼몰카\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"원작을 경험해\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"길을 잃었다\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인데 개추 눌렀다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내가 제일 잘 나가\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그건 원작을\" \"기준\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개꿀잼 몰카\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"길을 잃었다\" \"자랑이다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"길을 잃었다\" \"자랑이다\" -site:namu.moe -site:nate.com",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내가 제일 잘 나가\" \"2026\" 광고",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개꿀잼몰카\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"원작을 경험해\" -site:namu.moe -site:alphawiki.org",
+      "source": "reports/bulk/connector-resume-wave30-398.json",
       "status": "screened-see-report"
     }
   ],
