@@ -390,6 +390,7 @@
 - [미쳤습니까 휴먼?](are-you-crazy-human.md)
 - [미친(positive)](positive-negative-markers.md)
 - [미혼 앤 비혼](mihon-and-bihon.md)
+- [민첩한 하루 되세요](nimble-day-greeting.md)
 - [믿듣](mitdeut.md)
 - [믿보](mitbo.md)
 - [밀당](push-pull-romance.md)

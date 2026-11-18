@@ -311,6 +311,7 @@
 - [뭥미](../memes/mwongmi.md)
 - [미쳤습니까 휴먼?](../memes/are-you-crazy-human.md)
 - [미친(positive)](../memes/positive-negative-markers.md)
+- [민첩한 하루 되세요](../memes/nimble-day-greeting.md)
 - [믿듣](../memes/mitdeut.md)
 - [믿보](../memes/mitbo.md)
 - [밀레니얼 vs 젠지 담당자 비교](../memes/millennial-vs-genz-copy.md)

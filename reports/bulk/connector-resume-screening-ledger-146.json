@@ -141,10 +141,11 @@
     "reports/bulk/connector-resume-wave30-305.json",
     "reports/bulk/connector-resume-wave30-306.json",
     "reports/bulk/connector-resume-wave30-307.json",
-    "reports/bulk/connector-resume-wave30-308.json"
+    "reports/bulk/connector-resume-wave30-308.json",
+    "reports/bulk/connector-resume-wave30-309.json"
   ],
-  "query_observations": 2821,
-  "distinct_literal_queries": 2323,
+  "query_observations": 2888,
+  "distinct_literal_queries": 2388,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -14451,6 +14452,341 @@
     {
       "query": "북극곰",
       "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"0+0\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"64 bits\" \"밈\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Dr. Livesey\" 한국 밈",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"street photographer\" \"밈\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인크레더블\" \"언캐니\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"That That\" \"패러디\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가재 가재 바닷가재\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꽁기깅깅\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나나나\" \"솨\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"동그란 맘속에\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"That That\" \"패러디\" 문세윤",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"리브시\" 패러디 한국",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"댓댓\" \"문세윤\" \"딘딘\" 2022",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"동그란 맘속에\" \"패러디\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"64비트\" \"밈\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스트리트 포토그래퍼\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"댓댓\" \"연예대상\" \"2022\" 문세윤 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인크레더블\" \"밈\" \"뜻\" -site:namu.moe -site:mika.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Dr.Livesey\" \"한국\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "0+0",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인간여",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "64 bits",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "리브시",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "livesey",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "street photo",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "언캐니",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "incredible",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "that that",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "댓댓",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바닷가재",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꽁기",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "솨",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "동그란",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "how is",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "64",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "리브",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포토그래퍼",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인크레더블",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "반야",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "레지스틸",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "gunga",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "둘이서",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "채연",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "동그란맘",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그린",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인간|머리.*풀|머리.*푸|강남",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부리부리\" \"소환\" \"춤\" 2026 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부리부리\" \"부기진\" 춤",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부리부리 마신\" 챌린지 -site:namu.moe -site:readonly.wiki",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부리부리\" \"조정현\" 춤",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부리부리\" \"춤\" \"췄\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부리부리\" \"소환춤\" 후기",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무수히 많은 악수\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무지성\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"민첩한 하루 되세요\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뭉탱이\" 2026 패러디",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"벽력일섬\" 2026 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"민첩한 하루 되세요\" -site:namu.moe -site:kurve.gg -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"민첩한 하루\" \"2026\" -site:namu.moe -site:kurve.gg",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그럼 아이스티\" \"4개\"",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍던씸\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나쁜오리\" 밈 -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Remember November\" \"북극곰\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍던씸\" \"챌린지\" -site:meme-radar-6eq.pages.dev -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아이스티 4개\" -site:instablank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나쁜 오리\" \"챌린지\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"리멤버 노벰버\" -site:meme100.me -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-309.json",
       "status": "screened-see-report"
     }
   ],
