@@ -1,0 +1,374 @@
+{
+  "batch": 518,
+  "base": "a62ffae36c34fe66f0c6401dcde8c0ff7462482e",
+  "canonical_before": 1818,
+  "canonical_after": 1828,
+  "added": [
+    "aegiya-gaja-line-parody",
+    "nado-sunjeong-name-substitution",
+    "chakbut-fitting-style",
+    "insaengkae-standout-acting-role",
+    "mungtaengi-yuringgesyung-text-play",
+    "insaengtem-favorite-item",
+    "geureon-geoya-catchphrase",
+    "sin-egeneun-ajik-remaining-parody",
+    "hyunbaek-core-style",
+    "era-will-come-dialogue-reference"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0500",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "mungtaengi-yuringgesyung-text-play"
+    },
+    {
+      "id": "kr-list-0360",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "era-will-come-dialogue-reference"
+    }
+  ],
+  "previous_ci": {
+    "run": 44364354722,
+    "job": 135013962478,
+    "sha": "a62ffae36c34fe66f0c6401dcde8c0ff7462482e",
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 205.309s"
+    ]
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "required_changes": 0,
+    "sha": "a62ffae36c34fe66f0c6401dcde8c0ff7462482e",
+    "files": 20,
+    "entries": 1818,
+    "old_records_unchanged": 1807,
+    "old_bodies_changed": 0,
+    "queries": 13208,
+    "distinct": 10829,
+    "oki_source_final_read_success": true
+  },
+  "research": {
+    "B613": {
+      "observations": 8,
+      "recommendations": 1,
+      "existing": 6,
+      "held": 1,
+      "queries": [
+        "2026 \"패러디\" \"대사\" \"광고\" -백종원 -추노",
+        "2026 \"유행어\" \"따라\" \"말\" -site:namu.wiki -site:namu.moe",
+        "\"패러디\" \"내가 왕이 될 상인가\" 광고",
+        "\"패러디\" \"이 안에\" \"광고\"",
+        "\"패러디\" \"살아있네\" 2026",
+        "\"패러디\" \"너는 나에게\" \"2013\"",
+        "\"패러디\" \"이건 특급\"",
+        "\"패러디\" \"느낌 아니까\"",
+        "\"애기야 가자\" \"패러디\"",
+        "\"전지현\" \"주방기구\" \"패러디\""
+      ]
+    },
+    "A138": {
+      "observations": 8,
+      "recommendations": 1,
+      "held": 7,
+      "queries": [
+        "\"더 마스터를 기억해줘\" -site:namu.moe -site:seore.org",
+        "\"롯데햄 후라이드 치킨\" 밈 -site:namu.moe",
+        "\"뭉탱이\" \"밈\" 기사",
+        "\"미안송\" \"밈\" -site:namu.moe",
+        "\"미쿠미쿠하게 해줄게\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"바바바바바바\" \"밈\" -site:namu.moe",
+        "\"밥 먹을 때 생각나는\" \"후라이\" -site:namu.moe -site:seore.org",
+        "\"사고 쳤을 때\" \"입 다물고\"",
+        "\"미안송\" 패러디 -site:namu.moe -site:seore.org -site:wiki",
+        "\"뭉탱이\" \"유링게슝\" -site:namu.moe -site:seore.org -site:alphawiki.org -site:readonly.wiki",
+        "\"사고 쳤을 때 입 다물고 있어라\" -site:namu.moe -site:seore.org",
+        "\"롯데햄\" \"로보캅\" 광고 기사"
+      ]
+    },
+    "B614": {
+      "observations": 8,
+      "recommendations": 1,
+      "existing": 6,
+      "held": 1,
+      "queries": [
+        "2026 \"유행어\" \"패러디\" \"브랜드\" -추노 -장카설유 -백종원",
+        "\"패러디\" \"너나 잘하세요\" 광고",
+        "\"패러디\" \"밥은 먹고 다니냐\"",
+        "\"패러디\" \"가져\" \"다 가져\"",
+        "\"패러디\" \"나도 순정이 있다\"",
+        "2026 \"말투\" \"유행어\" \"따라했다\""
+      ]
+    },
+    "C128": {
+      "observations": 10,
+      "recommendations": 2,
+      "existing": 2,
+      "conditional": 2,
+      "held": 4,
+      "queries": [
+        "\"차애\" \"뜻\" 기사",
+        "\"착붙\" \"2026\" site:enews.imbc.com",
+        "\"인생캐\" \"2026\" site:enews.imbc.com",
+        "\"인생캐\" \"인생 캐릭터\" \"뜻\"",
+        "\"차애\" \"2026\" site:enews.imbc.com",
+        "\"애착템\" \"인생템\" 뜻"
+      ],
+      "external_bodies_read": 4,
+      "failed_opens": 2,
+      "media_viewed": 0
+    },
+    "A139": {
+      "observations": 8,
+      "recommendations": 0,
+      "held": 8,
+      "external_bodies_read": 1,
+      "empty_pages": 2,
+      "errors": 1,
+      "media_viewed": 0,
+      "queries": [
+        "\"샤방송\" 밈 -site:namu.moe -site:seore.org",
+        "\"세뇌교육\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"스너고\" -site:namu.moe -site:seore.org",
+        "\"아니다 이 악마야\" -site:namu.moe -site:seore.org",
+        "\"아이 러브 마이\" \"화자\" -site:namu.moe -site:seore.org",
+        "\"안전가족\" 패러디 -site:namu.moe -site:seore.org",
+        "\"엄마도 사람이야 사람\" -site:namu.moe -site:seore.org",
+        "\"오 샹젤리제\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"쌍젤리제\" 정읍",
+        "\"아이 러브 마이 화자 마자 브라자\" 유래 -site:namu.moe -site:seore.org",
+        "\"샤방송\" 제작 -site:namu.moe -site:seore.org",
+        "\"세뇌교육\" \"영상\" \"제작\" 밈 -site:namu.moe -site:seore.org"
+      ],
+      "note": "Fontbee265 undated literaluse only, no origin. JeongeupKakao/PDF inaccessible, held."
+    },
+    "C129": {
+      "observations": 10,
+      "recommendations": 1,
+      "conditional": 2,
+      "held": 7,
+      "external_bodies_read": 3,
+      "failed_opens": 9,
+      "queries": [
+        "\"차애\" \"진짜\" 기사",
+        "\"애착템\" \"2026\" site:harpersbazaar.co.kr",
+        "\"인생템\" \"뜻\" 기사",
+        "\"차애\" \"2026\" -site:enews.imbc.com",
+        "\"인생템\" \"2026\" site:harpersbazaar.co.kr",
+        "\"인생템\" \"인생\" \"아이템\" site:news.nate.com",
+        "\"인생템\" \"2026\" \"매거진\"",
+        "\"인생템\" \"인생 최고\" -site:sinjoeo.kr -site:scribd.com",
+        "\"차애\" site:news.nate.com/view/2026"
+      ],
+      "note": "Insaengtem both historical beyond1year; noalcoholrecommendation/productefficacy. Chaae educationalexample not actualfanuse."
+    },
+    "B615": {
+      "observations": 7,
+      "reinforcement": 1,
+      "recommendations": 1,
+      "existing": 1,
+      "held": 5,
+      "queries": [
+        "\"오키오키 오키나와\" \"박보검\"",
+        "\"오키오키 오키나와\" \"박성광\"",
+        "\"유행어\" \"패러디\" \"뭐라고\" 2026",
+        "\"유행어\" \"따라\" \"싸이코러스\"",
+        "\"유행어\" \"그런거야\" \"패러디\"",
+        "\"싸이코러스\" \"패러디\" 광고",
+        "\"그런거야\" \"유행어\" 광고",
+        "\"허이짜\" \"패러디\""
+      ],
+      "note": "Oki alternateOSEN/Nate fullbody corroborates same2015event, no extra production. Final517auditor also recoveredxports; no bodychange required. Geureongeoya SBSoriginalcorner attribution conflicts; excluded from newentry."
+    },
+    "A140": {
+      "observations": 8,
+      "recommendations": 1,
+      "held": 7,
+      "external_bodies_read": 3,
+      "partial_pages": 1,
+      "failed_pages": 1,
+      "queries": [
+        "\"상상하고 싶지도 않네요\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"조이는 보이\" -site:namu.moe -site:seore.org",
+        "\"죄송합니다\" \"케인\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"지이잉\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"크아아악\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"한글자 드립\" -site:namu.moe -site:seore.org",
+        "\"헬테이커\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"모 젠젠\" \"멀쩡\" -site:namu.moe -site:seore.org"
+      ],
+      "note": "1025 researcherinitialInvenread only; editor2reopens502, DCnamingread. Awaiting independent recovery, notyetpromoted.",
+      "editorial_status": "1025 held: editor2Inven502 and auditor desktop/mobilefailed, DCnamingonly not enoughfornewentry."
+    },
+    "editor_followup": {
+      "observations": 0,
+      "queries": [
+        "2026 \"신조어\" \"밈\" \"유행\" -site:namu.wiki -site:namu.moe -site:sinjoeo.kr",
+        "2026 \"밈\" \"패러디\" \"새로운\" site:the-pr.co.kr",
+        "\"폴리에스터\" \"밈\" -site:instablank.com -site:namu.wiki -site:namu.moe",
+        "\"글레이즈\" \"AI\" \"아첨\" -site:cantong.app",
+        "2026 \"밈\" \"직접\" \"만들\" site:korea.kr",
+        "2026 \"밈\" \"패러디\" site:newsroom.hyundai.com",
+        "2026 \"밈\" \"패러디\" \"공식\" -site:namu.wiki -site:namu.moe -site:instablank.com"
+      ],
+      "note": "Discovery only; no candidate proof yet."
+    },
+    "B616": {
+      "observations": 8,
+      "recommendations": 1,
+      "existing": 5,
+      "held": 2,
+      "media_viewed": 0,
+      "queries": [
+        "2026 \"패러디\" \"대사\" \"광고\" -추노 -백종원 -장카설유",
+        "\"패러디\" \"사딸라\" \"2026\"",
+        "\"유행어\" \"우리집\" \"광고\"",
+        "\"패러디\" \"나 잡아봐라\" 광고",
+        "\"패러디\" \"이것은 소리없는 아우성\"",
+        "\"패러디\" \"묻고\" \"따블\" 2026",
+        "\"패러디\" \"신에게는 아직\" 광고",
+        "2026 \"패러디\" \"이러려고\" 광고",
+        "2026 \"유행어\" \"이건 아니\""
+      ],
+      "note": "Remainingtemplate3historicalproductions; recentuse0. Conventionalcatchme/poemsceneheld."
+    },
+    "C130": {
+      "observations": 10,
+      "recommendations": 1,
+      "existing": 3,
+      "conditional": 2,
+      "held": 4,
+      "external_bodies_read": 6,
+      "title_only": 1,
+      "queries": [
+        "2026 11월 밈 말투 신조어 -site:sinjoeo.kr -site:hoonmeme.com",
+        "2026 신조어 \"추구미\" \"추구\" 말투",
+        "\"미덕체\" -site:hoonmeme.com -site:sinjoeo.kr",
+        "\"현백코어\" \"2026\" -site:hankookilbo.com",
+        "\"인형 셀카\" 2026",
+        "\"감티\" \"햄부기\" 기사",
+        "\"숏셜링\" \"2026\""
+      ],
+      "note": "Hyunbaekcore MBCdescription+MarieClaire selfreportedrecreation; noassetinference/noimagesviewed; displayNov4 machinetimestampNov6. KEPCOreferenceCareet notindependentorigin. Shortsocialevent4weeks contradictsinglemeetingdefinition."
+    },
+    "B617": {
+      "observations": 8,
+      "recommendations": 0,
+      "existing": 4,
+      "held": 4,
+      "queries": [
+        "\"글레이즈\" \"밈\"",
+        "\"폴리에스터\" \"밈\"",
+        "2026 \"유행어\" \"패러디\" \"말투\" -site:namu.wiki -site:namu.moe",
+        "\"글레이징\" \"ㅋㅋ\" -site:instablank.com -site:jjalbang.today",
+        "\"폴리에스터\" \"에딧\" -site:instablank.com -site:jjalbang.today -site:tistory.com",
+        "\"빼난지원금\" 유병재",
+        "\"회사 와졌어\"",
+        "\"글레이징\" \"밈\" -site:instablank.com -site:flashget.com",
+        "\"폴리에스터\" \"ㅋㅋ\" \"편집\"",
+        "\"생각이 많아지셨나요\" \"패러디\"",
+        "\"감다살\" \"억텐\" \"유행어\""
+      ],
+      "note": "Glaze domesticcaption1 in same newsletter repost2URLs, historical; editorread both. Polyester foreignuse only. No promotions."
+    }
+  },
+  "sources": [
+    {
+      "id": "aegiya-gaja-line-parody",
+      "urls": [
+        "https://ent.sbs.co.kr/amp/article.do?article_id=E10004623475",
+        "https://www.osen.co.kr/article/G1110411057",
+        "https://enter.etoday.co.kr/news/view/298215"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nado-sunjeong-name-substitution",
+      "urls": [
+        "https://www.yna.co.kr/amp/view/AKR20190925132300005",
+        "https://www.fnnews.com/news/201909300904484103"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "chakbut-fitting-style",
+      "urls": [
+        "https://enews.imbc.com/M/Detail/517671",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/499378"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "insaengkae-standout-acting-role",
+      "urls": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/518131",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/507744"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mungtaengi-yuringgesyung-text-play",
+      "urls": [
+        "https://ssadic.com/뜻/유링게슝/",
+        "https://gall.dcinside.com/mgallery/board/view/?id=kanetv8&no=166419&page=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "insaengtem-favorite-item",
+      "urls": [
+        "https://www.inews24.com/view/1149559",
+        "https://sports.donga.com/ent/article/all/20251027/132640998/1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "geureon-geoya-catchphrase",
+      "urls": [
+        "https://www.etnews.com/200412280179",
+        "https://www.khan.co.kr/article/200412301718071"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sin-egeneun-ajik-remaining-parody",
+      "urls": [
+        "https://www.osen.co.kr/article/G1109910803",
+        "https://www.fnnews.com/news/201408061804053413",
+        "https://www.metroseoul.co.kr/article/2014082200095"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hyunbaek-core-style",
+      "urls": [
+        "https://imnews.imbc.com/original/14f/6857331_32252.html",
+        "https://www.marieclairekorea.com/pinpage/2026/11/moon-gayoung-hyunbaek-core/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "era-will-come-dialogue-reference",
+      "urls": [
+        "https://sports.news.nate.com/view/20230512n00096"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "10 bounded original entries; all10 independent source preauditPASS; old1818records unchanged, oldbodies0changed.",
+    "5 recent textualuses/previews,5historical; no originalmedia viewed.",
+    "0500 partialtextplay and0360 partialsportswriterquotation; firstorigin/politicalpositionnotadopted.",
+    "1025 held: researcherinitialInvenread, editor2and auditorreopensfailed. DCnamingnotnewproduction.",
+    "517 Oki finalindependent auditor recoveredsource; previousfailure historicalrecord retained."
+  ],
+  "query_observations": 13313,
+  "distinct_literal_queries": 10917,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
