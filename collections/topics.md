@@ -118,6 +118,7 @@
 - [갓벽](../memes/gatbyeok.md)
 - [갓생](../memes/gatsaeng.md)
 - [갓성비](../memes/gatseongbi.md)
+- [개같이 부활 / 개같이 멸망](../memes/gaegachi-result-reaction.md)
 - [개냥이](../memes/gaenyangi.md)
 - [개념은 안드로메다로](../memes/sense-to-andromeda.md)
 - [개웃겨서 도티낳음](../memes/laugh-so-hard-dotty.md)

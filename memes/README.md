@@ -73,6 +73,7 @@
 - [갓생](gatsaeng.md)
 - [갓성비](gatseongbi.md)
 - [강남스타일 말춤](gangnam-horse-dance.md)
+- [개같이 부활 / 개같이 멸망](gaegachi-result-reaction.md)
 - [개냥이](gaenyangi.md)
 - [개념은 안드로메다로](sense-to-andromeda.md)
 - [개비스콘 짤](gaviscon-relief.md)
