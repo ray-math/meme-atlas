@@ -1,0 +1,37 @@
+{
+  "batch": 252,
+  "canonical_before": 913,
+  "canonical_after": 914,
+  "added": [
+    "heart-island-address"
+  ],
+  "research": {
+    "queries": [
+      "\"사곡리 산94\" \"2026\"",
+      "\"사곡리 산 94\" 고백",
+      "\"전라남도 여수시 소라면 사곡리\" \"사랑\"",
+      "\"사곡리\" \"산94\" site:ac.kr",
+      "\"사곡리\" \"산94\" \"합니다\" -site:funfun88.tistory.com -site:diarypoint.com",
+      "\"사곡리 산 94\" \"오하빵\""
+    ],
+    "index_queries": [
+      "사곡리",
+      "산94",
+      "모개도",
+      "하트섬",
+      "주소",
+      "고백"
+    ],
+    "note": "Recovered B63 held candidate. Independent actual text2; exact publication dates0,2026event context1,2025Nov uncertain boundary1. Map/images/videos0. Scope reviewer approved attribution-based explanation."
+  },
+  "independent_scope_review": "passed; address-affection wordplay, not map/location verification",
+  "metrics": {
+    "query_observations": 1655,
+    "distinct_literal_queries": 1343
+  },
+  "checks": {
+    "normalized_collisions": 0,
+    "readme_topics_roundtrip": true,
+    "ci": "not run"
+  }
+}

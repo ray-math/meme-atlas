@@ -93,10 +93,11 @@
     "reports/bulk/connector-resume-wave30-247.json",
     "reports/bulk/connector-resume-wave30-249.json",
     "reports/bulk/connector-resume-wave30-250.json",
-    "reports/bulk/connector-resume-wave30-251.json"
+    "reports/bulk/connector-resume-wave30-251.json",
+    "reports/bulk/connector-resume-wave30-252.json"
   ],
-  "query_observations": 1643,
-  "distinct_literal_queries": 1332,
+  "query_observations": 1655,
+  "distinct_literal_queries": 1343,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -8513,6 +8514,66 @@
     {
       "query": "Kinda chic",
       "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사곡리 산94\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-252.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사곡리 산 94\" 고백",
+      "source": "reports/bulk/connector-resume-wave30-252.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"전라남도 여수시 소라면 사곡리\" \"사랑\"",
+      "source": "reports/bulk/connector-resume-wave30-252.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사곡리\" \"산94\" site:ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-252.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사곡리\" \"산94\" \"합니다\" -site:funfun88.tistory.com -site:diarypoint.com",
+      "source": "reports/bulk/connector-resume-wave30-252.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사곡리 산 94\" \"오하빵\"",
+      "source": "reports/bulk/connector-resume-wave30-252.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사곡리",
+      "source": "reports/bulk/connector-resume-wave30-252.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "산94",
+      "source": "reports/bulk/connector-resume-wave30-252.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "모개도",
+      "source": "reports/bulk/connector-resume-wave30-252.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하트섬",
+      "source": "reports/bulk/connector-resume-wave30-252.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "주소",
+      "source": "reports/bulk/connector-resume-wave30-252.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고백",
+      "source": "reports/bulk/connector-resume-wave30-252.json",
       "status": "screened-see-report"
     }
   ],
