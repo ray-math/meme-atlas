@@ -59,10 +59,11 @@
     "reports/bulk/connector-resume-screening205.json",
     "reports/bulk/connector-resume-review207.json",
     "reports/bulk/connector-resume-holds208.json",
-    "reports/bulk/connector-resume-screening209.json"
+    "reports/bulk/connector-resume-screening209.json",
+    "reports/bulk/connector-resume-screening210.json"
   ],
-  "query_observations": 938,
-  "distinct_literal_queries": 762,
+  "query_observations": 956,
+  "distinct_literal_queries": 778,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -4954,6 +4955,96 @@
     {
       "query": "\"쪼아요\" site:tistory.com \"2026\"",
       "source": "reports/bulk/connector-resume-screening209.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쪼아요 쪼아요\" \"그려\"",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쪼아요\" \"만들어\" \"스피키\"",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소핔이가\" 소방 공식",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쪼아요\" \"패러디\" -site:namu.moe -site:dark.namu.moe -site:m.namu.moe -site:d.namu.moe",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쪼아요\" site:gall.dcinside.com \"그렸\"",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쪼아요\" site:youtube.com/watch 소방관",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쪼아요\" \"창작\" -site:namu.moe -site:kone.gg",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쪼아요\" \"패러디\" \"2026\" -site:kone.gg -site:namu.moe -site:d.namu.moe -site:m.namu.moe -site:dark.namu.moe",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"공모전이 쪼아요\"",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쪼아요\" \"청주시\"",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"새로운\" \"11월\" -site:namu.moe -site:instablank.com -site:jjalbang.today -site:luckyvicky.moamoang.co.kr",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목\" \"11월\" site:maily.so",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라우럴",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "louder",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "지수",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "거제",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야흥",
+      "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야-흥",
+      "source": "reports/bulk/connector-resume-screening210.json",
       "status": "screened-see-report"
     }
   ],
