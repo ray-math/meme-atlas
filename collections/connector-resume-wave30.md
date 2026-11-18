@@ -187,3 +187,4 @@
 - [함정카드 발동](../memes/trap-card-activated.md)
 - [버터런 챌린지](../memes/butter-run-challenge.md)
 - [울어라 지옥참마도](../memes/cry-hell-sword.md)
+- [교토식 화법](../memes/kyoto-style-speech.md)

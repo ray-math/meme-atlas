@@ -1,0 +1,240 @@
+{
+  "batch": 395,
+  "base": "40f9a21ba10b83c01503d068629668b708cd540a",
+  "canonical_before": 985,
+  "canonical_after": 986,
+  "added": [
+    "kyoto-style-speech"
+  ],
+  "researchB": {
+    "base": "66b341d7b0360219f8ab0421b9cc527d1449a036",
+    "rows": [
+      {
+        "id": "0218",
+        "status": "review_recommended",
+        "sources": [
+          "https://igm.or.kr/insight/561",
+          "https://bundangchurch.org/2026%EB%85%84-10%EC%9B%94-19%EC%9D%BC-%EB%AC%B5%EC%83%81%EA%B8%80/"
+        ],
+        "note": "2026-06-05피드백논의+2026-10-19소통묵상 텍스트논지적용2,반복영상아님.지역일반화/관광일화사실채택금지"
+      },
+      {
+        "id": "0052",
+        "note": "실제훈련소개와밈구분미확인"
+      },
+      {
+        "id": "0109",
+        "source": "https://v.daum.net/v/20260625113416776",
+        "note": "2026-06-25손아섭본인홍보재사용1,롯데리아집계원문timeout"
+      },
+      {
+        "id": "0147",
+        "note": "공식작품홍보닉네임뿐"
+      },
+      {
+        "id": "0226",
+        "note": "방송제목집계뿐,미성년병역추론금지"
+      }
+    ],
+    "queries": [
+      "\"11미터 모형탑\" \"2026\"",
+      "\"갱기에 집중\" \"2026\"",
+      "\"원피스는 실재한다\" \"2026\"",
+      "\"교토식 화법\" \"2026\"",
+      "\"군필 여고생\" \"2026\" -site:namu.moe",
+      "\"교토식 화법\" \"2026\" 제목 -site:issuelink.co.kr",
+      "\"마 갱기에 집중 안하나\" 롯데리아"
+    ]
+  },
+  "editor": {
+    "sources_read": 2,
+    "limits": "국내글2군논지적용.패러디영상2/대화녹취아님,관광객일화와지역역사일반화미채택"
+  },
+  "ci": {
+    "report393": {
+      "run": 44249179587,
+      "job": 134615379646,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 109.058
+    },
+    "report394": "pending",
+    "new_commit": "pending"
+  },
+  "partial_scope_audit": {
+    "sha": "66b341d7b0360219f8ab0421b9cc527d1449a036",
+    "scope": "partial positions1-20",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0051",
+        "dictionary_ids": [
+          "human-yeojja"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0082",
+        "dictionary_ids": [
+          "khaby-reaction",
+          "soulless-guide"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0089",
+        "dictionary_ids": [
+          "chicken-banana-challenge"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0105",
+        "dictionary_ids": [
+          "down-team-is-down",
+          "lying-down-yang-euiji",
+          "ppikki-ppikki",
+          "naneun-haengbokhamnida"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0118",
+        "dictionary_ids": [
+          "let-it-go-parody"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0125",
+        "dictionary_ids": [
+          "are-you-t"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0146",
+        "dictionary_ids": [
+          "that-that-challenge"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0163",
+        "dictionary_ids": [
+          "attitude-problem"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0169",
+        "dictionary_ids": [
+          "okay-thanks-daldal"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0201",
+        "dictionary_ids": [
+          "jongno-song-parody"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0214",
+        "dictionary_ids": [
+          "mukgo-double",
+          "traitor-among-us"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0227",
+        "dictionary_ids": [
+          "who-coughed",
+          "gungyejil"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0253",
+        "dictionary_ids": [
+          "but-what-now"
+        ],
+        "body_read": true,
+        "result": "core_template_present_scope_and_evidence_distinguish"
+      },
+      {
+        "candidate_id": "kr-list-0257",
+        "dictionary_ids": [
+          "inner-gigachad-dialogue"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0269",
+        "dictionary_ids": [
+          "one-day-one-ggang"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0295",
+        "dictionary_ids": [
+          "fish-head-curry-reaction"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0368",
+        "dictionary_ids": [
+          "did-it-all-for-you"
+        ],
+        "body_read": true,
+        "result": "core_template_present_scope_and_evidence_distinguish"
+      },
+      {
+        "candidate_id": "kr-list-0449",
+        "dictionary_ids": [
+          "look-at-this-hand"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0462",
+        "dictionary_ids": [
+          "gil-ad-remix"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      },
+      {
+        "candidate_id": "kr-list-0469",
+        "dictionary_ids": [
+          "meommummi"
+        ],
+        "body_read": true,
+        "result": "partial_scope_confirmed"
+      }
+    ],
+    "bodies_read": 26,
+    "classification_changes": 0,
+    "limits": "연결본문의미포괄만검사,사전전체부재확정아님.0253편집만화범위/차용의도불확실분리,0368문자말틀핵심있지만합성음악포함여부불명.0469고먐미미설명.외부출처재검증0"
+  }
+}

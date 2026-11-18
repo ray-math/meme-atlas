@@ -222,10 +222,11 @@
     "reports/bulk/connector-resume-wave30-391.json",
     "reports/bulk/connector-resume-wave30-392.json",
     "reports/bulk/connector-resume-wave30-393.json",
-    "reports/bulk/connector-resume-wave30-394.json"
+    "reports/bulk/connector-resume-wave30-394.json",
+    "reports/bulk/connector-resume-wave30-395.json"
   ],
-  "query_observations": 5223,
-  "distinct_literal_queries": 4507,
+  "query_observations": 5230,
+  "distinct_literal_queries": 4512,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -26542,6 +26543,41 @@
     {
       "query": "\"2026\" \"설명좌\"",
       "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"11미터 모형탑\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-395.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"갱기에 집중\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-395.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"원피스는 실재한다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-395.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"교토식 화법\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-395.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"군필 여고생\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-395.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"교토식 화법\" \"2026\" 제목 -site:issuelink.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-395.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마 갱기에 집중 안하나\" 롯데리아",
+      "source": "reports/bulk/connector-resume-wave30-395.json",
       "status": "screened-see-report"
     }
   ],
