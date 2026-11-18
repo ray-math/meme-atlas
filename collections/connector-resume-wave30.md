@@ -94,3 +94,4 @@
 - [앙탈 챌린지](../memes/angtal-challenge.md)
 - [한두 달만 지나면 빙하기 찾아와](../memes/ice-age-coming-outing.md)
 - [따름 챌린지](../memes/ttareum-challenge.md)
+- [붐샤카라카 가방 챌린지](../memes/boomshakalaka-backpack.md)

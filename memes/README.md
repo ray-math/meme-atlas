@@ -422,6 +422,7 @@
 - [불 좀 꺼줄래?](turn-off-light-ram.md)
 - [불금](fiery-friday.md)
 - [불미스러운 일이 일어났어요](unfortunate-event.md)
+- [붐샤카라카 가방 챌린지](boomshakalaka-backpack.md)
 - [뷁](bwek.md)
 - [브금](beugeum.md)
 - [브라우니 물어](brownie-bite.md)

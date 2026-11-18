@@ -109,10 +109,11 @@
     "reports/bulk/connector-resume-wave30-264.json",
     "reports/bulk/connector-resume-wave30-265.json",
     "reports/bulk/connector-resume-wave30-266.json",
-    "reports/bulk/connector-resume-wave30-267.json"
+    "reports/bulk/connector-resume-wave30-267.json",
+    "reports/bulk/connector-resume-wave30-268.json"
   ],
-  "query_observations": 2058,
-  "distinct_literal_queries": 1687,
+  "query_observations": 2068,
+  "distinct_literal_queries": 1697,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -10604,6 +10605,56 @@
     {
       "query": "나락도",
       "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"붐샤카\" \"챌린지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-268.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나 줘 나 줘\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-268.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:univpress.com",
+      "source": "reports/bulk/connector-resume-wave30-268.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"붐샤카라카\" \"챌린지\" -site:jtbc.co.kr -site:imbc.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-268.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:cosmopolitan.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-268.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:harpersbazaar.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-268.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "붐샤",
+      "source": "reports/bulk/connector-resume-wave30-268.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "백팩",
+      "source": "reports/bulk/connector-resume-wave30-268.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "jumpshot",
+      "source": "reports/bulk/connector-resume-wave30-268.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가방",
+      "source": "reports/bulk/connector-resume-wave30-268.json",
       "status": "screened-see-report"
     }
   ],
