@@ -270,8 +270,8 @@
     "reports/bulk/connector-resume-wave30-445.json",
     "reports/bulk/connector-resume-wave30-446.json"
   ],
-  "query_observations": 11766,
-  "distinct_literal_queries": 9675,
+  "query_observations": 11896,
+  "distinct_literal_queries": 9783,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -59304,6 +59304,656 @@
       "query": "\"료 행진곡\" -site:tpick.co.kr -site:instablank.com",
       "source": "reports/bulk/connector-resume-wave30-501.json",
       "status": "screened-see-report"
+    },
+    {
+      "query": "\"아나바다\" \"밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아니다 이 악마야\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아로나 댄스\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아이 러브 마이 화자\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아카자\" \"패러디\" 기사",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안전가족\" \"밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"애는 있습니다\" \"밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"야후 꾸러기\" \"밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"약한 사내다\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어나니머스\" \"밈\" 한국 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어몽어스 잼민이\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"얼리 엑세스 예시를 보여줌\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄마도 사람이야 사람\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오 샹젤리제\" \"밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오 필승 코리아\" \"밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"옴마니반메훔\" \"밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"와퍼\" 밈 패러디 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"왕사슴 가이즈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"왕이되는자\" 밈 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요 요요\" 밈 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:mediahub.seoul.go.kr",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"챌린지\" site:korea.kr",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"유행어\" \"패러디\" site:hani.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" \"유행\" site:gqkorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" \"재현\" site:woman.donga.com",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" \"만드는\" site:cosmopolitan.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 모음 11월 한국",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 공무원 유튜브 패러디 유행어",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"챌린지\" \"경찰\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"페탈\" \"챌린지\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"칠레\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고맙투우사\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"칠레\" \"길쭉\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"칠레 밈\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"페탈\" \"챌린지\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"농푸\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"칠레\" \"축구장\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"칠레\" \"길쭉\" site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"패러디\" \"소방\" 영상",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"울산\" 영상",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소방관\" \"AI 미활용\" 논란",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"옹기축제\" \"항아리 게임\" 홍보",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"한국도로공사\" 영상",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"국립\" 유튜브",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"처음처럼\" 광고",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"짜장면\" 광고",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"공식\" \"리메이크\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뉴욕 헤럴드 트리뷴\" \"패러디\" \"이수근\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아로나 댄스\" \"패러디\" 뉴스",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"이것이\" 광고 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"챌린지\" \"새로운\" \"공무원\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"같이 들을까\" \"패러디\" 광고",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"감기 조심하세요\" \"패러디\" 광고",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:esquirekorea.co.kr \"2026\" \"밈\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:harpersbazaar.co.kr \"2026\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:allurekorea.com \"2026\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뉴욕 헤럴드 트리뷴\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소주바리\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"심포니\" \"돌고래\" \"밈\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뉴욕 헤럴드 트리뷴\" \"김희철\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뉴욕 헤럴드 트리뷴\" \"장도연\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뉴욕 헤럴드 트리뷴\" \"패러디\" -site:seore.org -site:tistory.com -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뉴욕헤럴드트리뷴\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소주바리\" \"이영지\" -site:harpersbazaar.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"심포니 돌핀\" 한국 팬",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"우리 업계에서는 포상입니다\" 기사",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"육군 we 육군\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"의학적인 근거가 없습니다\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"의문의\" \"행\" \"유행어\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"업계에서는 포상\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"의문의\" \"행\" site:game.donga.com",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이건 정말 듣도 보도 못한 발상이군\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이봐요 미친놈씨\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이세계물\" \"드립\" 기사 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이쿠요\" 춤 기사 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"일본 대단해\" 칠레 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자러감\" \"드립\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"와플핑\" \"핫케핑\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아자핑\" \"하츄핑\" 밈 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"우연히\" \"밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"의문의\" \"행\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"채점하는 조교의 기분\" \"2012\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"듣도 보도 못한 발상이군\" -site:namu.moe -site:seore.org -site:readonly.wiki -site:tcatmon.com",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"패러디\" \"제작\" \"시청\" 유튜브",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"패러디\" \"영상\" \"공사\" 홍보",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"재현\" \"대학교\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아침이 왔다잖아\" 알라미",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"야릇트\" 알라미",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포천\" \"패러디 랩\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아침이 왔다잖아\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포천가득\" \"존박\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"야릇트\" \"야르송\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뉴욕 헤럴드 트리뷴\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뉴욕 헤럴드 트리뷴\" \"김희철\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뉴욕 헤럴드 트리뷴\" \"장도연\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뉴욕 헤럴드 트리뷴\" \"무한도전\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뉴욕 헤럴드 트리뷴\" \"패러디\" -site:seore.org -site:wiki* -site:readonly.wiki",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "추억 인터넷 유행어 \"뷁\" \"즐\" \"아햏햏\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"당근이지\" 유행어 광고",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"올레\" 광고 \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"차도남\" 뜻 유행어",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "올레 광고 패러디 2009",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뉴욕 헤럴드 트리뷴\" 장근석 패러디 방송",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잘생겨서 안 좋은 점\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"지이잉\" 밈 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"초코빅송\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"차차핑\" 밈 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"초코빅\" \"노래\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"천안문\" \"삭제\" \"은어\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"죄송합니다\" \"밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"저런\" \"상상하고 싶지도 않네요\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"초코빅송\" 패러디 켈로그",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"천안문\" \"게시글 삭제\" 기사",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"저런\" \"어찌될까요\" 밈 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"패러디\" \"직접 제작\" \"밈\" -site:theslangverse.com",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"패러디\" site:i-award.or.kr/Social/Assess",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" \"직접\" site:prain.com",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"홀씨\" \"챌린지\" \"두꺼비\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"홀씨 챌린지\" 아이유 2024",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"파파라껍\" \"그리기\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "광고 유행어 \"패러디\" \"따라\" 2005 2006",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"니들이 게맛을 알아\" 패러디 광고",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"비비디 바비디 부\" 패러디 유행어",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"침대는 과학\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"선영아 사랑해\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"국물이 끝내줘요\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"침대는 가구가\" \"패러디\" 광고",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잠시 꺼두셔도\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"묻지도 따지지도\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"집 나가면 개고생\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-502.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [
@@ -59318,5 +59968,5 @@
   ],
   "note": "명시 문자열 대조 기록이며 고유 밈 수나 검증 완료 수가 아님.",
   "metric_note": "저장된 명시 대조 문자열의 관측 횟수/문자열 종류. 검색창 질의와 인덱스 대조 표현이 섞여 있으며 검증 밈 수나 전체 연구량을 뜻하지 않음.",
-  "distinct_query_strings": 9675
+  "distinct_query_strings": 9783
 }
