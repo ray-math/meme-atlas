@@ -1,0 +1,104 @@
+{
+  "batch": 421,
+  "base": "3d67d288b986cec0ad2e87224c51ae18668735fd",
+  "canonical_before": 1000,
+  "canonical_after": 1000,
+  "added": [],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" \"유행\" site:cosmopolitan.co.kr",
+      "2026 \"밈\" \"따라\" site:singleskorea.com",
+      "2026 \"밈\" \"패러디\" site:gqkorea.co.kr",
+      "2026 \"밈\" \"챌린지\" site:esquirekorea.co.kr",
+      "\"2026\" \"밈\" \"신조어\" -site:namu.wiki -site:meme100.me",
+      "\"2026\" \"챌린지\" \"신종\"",
+      "\"2026\" \"밈\" \"댓글\" \"유행\"",
+      "\"2026\" \"밈\" \"직접 만들어\""
+    ],
+    "screened": 10,
+    "existing": [
+      "young-creator-crew",
+      "green-green-red-red",
+      "geoje-yaho",
+      "yareu-song",
+      "shagal-interjection",
+      "unbalance-challenge",
+      "niga-joa-challenge",
+      "click"
+    ],
+    "held": [
+      "바로이맛아닙니까",
+      "아미르퇴사이후이야기"
+    ],
+    "sources": [
+      "https://www.mk.co.kr/news/culture/12115349",
+      "https://www.etnews.com/20260429000045",
+      "https://www.careet.net/2017"
+    ],
+    "note": "매경08-03은unbalance기존Nate전재와중복.전자04-29기고아미르국내제작미확보.캐릿10-27언급량사용수아님.전업자녀기존보류새발견계수0.뒤4질의recency365."
+  },
+  "researchB": {
+    "queries": [
+      "\"가챠걸\" \"2026\"",
+      "\"방송 되게 못하네\" \"2026\"",
+      "\"불만 있냐\" \"물도 있다\"",
+      "\"악으로 깡으로 버텨라\" \"2026\"",
+      "\"이러니까 개콘이 망하지\" \"2026\"",
+      "\"방송 되게 못하네\" -site:namu.moe -site:seore.org",
+      "\"불만 있냐 물도 있다\" -site:namu.moe -site:op.gg",
+      "\"가챠걸\" 패러디 -site:namu.moe -웹툰",
+      "\"불만 있냐\" \"물도\" 패러디",
+      "\"가챠걸\" \"준비됐나요\" 패러디 -site:namu.moe"
+    ],
+    "rows": [
+      "0189",
+      "0533",
+      "0557",
+      "0710",
+      "0852"
+    ],
+    "recommended": 0,
+    "held": 5,
+    "source": {
+      "url": "https://www.osen.co.kr/article/G1111359411",
+      "date": "2020-05-23",
+      "note": "0533방송발언1,최근차용/최초아님.원장0694중복가능유지"
+    },
+    "failures": [
+      "https://www.inven.co.kr/board/wow/6567/23602",
+      "https://www.inven.co.kr/board/aion2/6451/23740?iskin=aion2"
+    ],
+    "note": "0710둘다502검색단서만,스킨중복계수0.가챠걸동명웹툰제외.0557가사재게시독립사례아님.0852논쟁댓글미확인."
+  },
+  "editor": {
+    "queries": [
+      "\"홀드랏\" \"2026\"",
+      "\"자아\" \"없\" \"2026\" 밈 -site:namu.moe",
+      "\"홀드랏\" 밈 -거래 -주식",
+      "\"홀리몰리\" \"2026\" 패러디 -site:namu.moe"
+    ],
+    "note": "홀드랏은무관거래용어결과,자아검색은미러/일반문헌혼재.새독립사용근거0,미러날짜전용안함.추가홀드랏은기존SK단일날짜불명만,홀리몰리는아웃송/일반감탄사/과카몰리확장혼재.집계사이트·성적이미지결과미채택,확정0."
+  },
+  "sample_audit": {
+    "head": "3d67d288b986cec0ad2e87224c51ae18668735fd",
+    "report_reads": 1,
+    "body_reads": 4,
+    "rows": [
+      "kr-list-0103",
+      "kr-list-0835",
+      "kr-list-0605",
+      "kr-list-0613"
+    ],
+    "passed": true,
+    "classification_changes": 0,
+    "note": "요청4행샘플만.부분50전체재감사아님.P는의미범위와자료한계운영분류,포함I도모든파생기원검증완료뜻아님."
+  },
+  "candidate_changes": 0,
+  "ci420": {
+    "run": 44258199156,
+    "job": 134644874701,
+    "status": "last observed in_progress"
+  },
+  "coverage_basis": "reports/bulk/connector-resume-coverage-current-419.json",
+  "ci_new_commit": "pending"
+}

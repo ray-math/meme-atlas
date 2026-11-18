@@ -244,10 +244,11 @@
     "reports/bulk/connector-resume-wave30-416.json",
     "reports/bulk/connector-resume-wave30-417.json",
     "reports/bulk/connector-resume-wave30-418.json",
-    "reports/bulk/connector-resume-wave30-420.json"
+    "reports/bulk/connector-resume-wave30-420.json",
+    "reports/bulk/connector-resume-wave30-421.json"
   ],
-  "query_observations": 5650,
-  "distinct_literal_queries": 4917,
+  "query_observations": 5672,
+  "distinct_literal_queries": 4939,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -28699,6 +28700,116 @@
     {
       "query": "\"2026\" \"오늘 내 세상이 무너졌어\"",
       "source": "reports/bulk/connector-resume-wave30-420.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행\" site:cosmopolitan.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"따라\" site:singleskorea.com",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:gqkorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"챌린지\" site:esquirekorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"신조어\" -site:namu.wiki -site:meme100.me",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"챌린지\" \"신종\"",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"댓글\" \"유행\"",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"직접 만들어\"",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가챠걸\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"방송 되게 못하네\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"불만 있냐\" \"물도 있다\"",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"악으로 깡으로 버텨라\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이러니까 개콘이 망하지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"방송 되게 못하네\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"불만 있냐 물도 있다\" -site:namu.moe -site:op.gg",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가챠걸\" 패러디 -site:namu.moe -웹툰",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"불만 있냐\" \"물도\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가챠걸\" \"준비됐나요\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"홀드랏\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자아\" \"없\" \"2026\" 밈 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"홀드랏\" 밈 -거래 -주식",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"홀리몰리\" \"2026\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-421.json",
       "status": "screened-see-report"
     }
   ],
