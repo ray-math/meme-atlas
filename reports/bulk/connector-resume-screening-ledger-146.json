@@ -87,10 +87,11 @@
     "reports/bulk/connector-resume-wave30-241.json",
     "reports/bulk/connector-resume-wave30-242.json",
     "reports/bulk/connector-resume-wave30-243.json",
-    "reports/bulk/connector-resume-wave30-244.json"
+    "reports/bulk/connector-resume-wave30-244.json",
+    "reports/bulk/connector-resume-wave30-245.json"
   ],
-  "query_observations": 1502,
-  "distinct_literal_queries": 1215,
+  "query_observations": 1507,
+  "distinct_literal_queries": 1220,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -7802,6 +7803,31 @@
     {
       "query": "밸리 걸",
       "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"사내\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-245.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"전시\" \"제목\"",
+      "source": "reports/bulk/connector-resume-wave30-245.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:magazine.cheil.com",
+      "source": "reports/bulk/connector-resume-wave30-245.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:brandbrief.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-245.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" site:design.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-245.json",
       "status": "screened-see-report"
     }
   ],
