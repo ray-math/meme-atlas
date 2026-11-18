@@ -131,10 +131,11 @@
     "reports/bulk/connector-resume-wave30-289.json",
     "reports/bulk/connector-resume-wave30-290.json",
     "reports/bulk/connector-resume-wave30-291.json",
-    "reports/bulk/connector-resume-wave30-292.json"
+    "reports/bulk/connector-resume-wave30-292.json",
+    "reports/bulk/connector-resume-wave30-293.json"
   ],
-  "query_observations": 2567,
-  "distinct_literal_queries": 2083,
+  "query_observations": 2598,
+  "distinct_literal_queries": 2109,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -13171,6 +13172,161 @@
     {
       "query": "where-you",
       "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"챌린지\" site:cosmopolitan.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:arena.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:eyesmag.com",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" site:fastpapermag.com -남편 -WYA",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:arenakorea.com",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하하더\" \"챌린지\" -site:fastpapermag.com",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Dracula\" \"챌린지\" \"앤톤\"",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"턱선\" \"사과\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"모시모시\" \"챌린지\" 2026 -site:fastpapermag.com",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Dracula\" \"챌린지\" 제니 2026 -site:fastpapermag.com",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"턱선으로 사과\" -site:fastpapermag.com",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하하더",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하루에 하루만 더",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "ADDICTED",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Dracula",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "드라큘라",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "REDRED",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "RED RED",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "레드레드",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도가니",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "턱선",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "톡투미",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "앙탈",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "닉주디",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "모시모시",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "mosi",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사사네",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "키코에테루",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "다이죠부",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "BAD",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "404",
+      "source": "reports/bulk/connector-resume-wave30-293.json",
       "status": "screened-see-report"
     }
   ],
