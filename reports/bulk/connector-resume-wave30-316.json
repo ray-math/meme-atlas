@@ -1,0 +1,79 @@
+{
+  "batch": 316,
+  "base": "ddd562dc58edd1b985fc1488a6c926e5b25f0903",
+  "canonical_before": 949,
+  "canonical_after": 950,
+  "added": [
+    "armored-taejong"
+  ],
+  "sources": [
+    {
+      "url": "https://aikive.com/watch?v=01a0d8db583570e1a861d08fa2d43a4d",
+      "date": "2026-09-25",
+      "kind": "creator description"
+    },
+    {
+      "url": "https://zeta-ai.io/ko/plots/b05665d8-d26f-437d-8af6-320fad483a63/profile",
+      "date": "2025-02-21",
+      "kind": "creator description"
+    }
+  ],
+  "verification": {
+    "editor_source_read": 2,
+    "independent_auditor_source_read": 2,
+    "distinct_creation_accounts": 2,
+    "recent_year_dated_examples": 1,
+    "video_viewed": 0,
+    "chat_executed": 0,
+    "origin_confirmed": false
+  },
+  "semantic_audit": {
+    "reviewed_rows": 20,
+    "partial_connections_added": 3,
+    "editor_related_bodies_read": 4,
+    "changes": [
+      [
+        "0689",
+        "included",
+        [
+          "armored-taejong"
+        ],
+        "독립 창작 소개 2군을 근거로 가상 SF 설정만 수록"
+      ],
+      [
+        "0572",
+        "partial",
+        [
+          "are-you-crazy-human"
+        ],
+        "빅데이터 드립 중 로봇 반응 문구만 수록"
+      ],
+      [
+        "0988",
+        "partial",
+        [
+          "igeo-real",
+          "injeong"
+        ],
+        "초성어 전체가 아닌 두 반응 표기 사례"
+      ],
+      [
+        "1049",
+        "partial",
+        [
+          "oo-ping"
+        ],
+        "캐릭터 이름의 별명 만들기 형식만 수록"
+      ]
+    ]
+  },
+  "coverage_counts": {
+    "index_not_found": 329,
+    "partial": 40,
+    "unclear": 338,
+    "automatic_title_alias_match": 328,
+    "included": 52,
+    "candidate_repeat": 4
+  },
+  "limits": "별도 계정의 창작 설명이며 실명 신원 독립성은 미검증. 신규 본문 1개와 부분연결 3행을 구분. 원본 후보 스냅샷 유지. 최신 CI 대기."
+}

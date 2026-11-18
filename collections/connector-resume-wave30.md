@@ -131,3 +131,5 @@
 - [근데 이제 뭐함?](../memes/but-what-now.md)
 
 - [아니 없어요 그냥](../memes/no-there-is-none.md)
+
+- [아머드 태종](../memes/armored-taejong.md)
