@@ -1,0 +1,75 @@
+{
+  "batch": 322,
+  "base": "2f46f9a42bd47dd83f6d27120d6a9dc8ba519f84",
+  "canonical_before": 952,
+  "canonical_after": 953,
+  "added": [
+    "nod-if-you-understood"
+  ],
+  "research": {
+    "candidates": [
+      "0479",
+      "0487",
+      "0488",
+      "0502",
+      "0526",
+      "0546",
+      "0708",
+      "0716",
+      "0737",
+      "0757"
+    ],
+    "recommended": [
+      "0502",
+      "0716"
+    ],
+    "held": 8,
+    "queries": [
+      "\"모 야메룽다\" 2026",
+      "\"무수히 많은 악수의 요청\" 2026",
+      "\"무슨 마약하시길래\" 2026",
+      "\"뭔가 행복하지 않았지\" 2026",
+      "\"밤샌 사람\" \"일찍 일어난\" 2026",
+      "\"본인 방금\" \"상상함\" 2026",
+      "\"아파트\" \"챌린지\" 2026 한국",
+      "\"알아들었으면 끄덕여\" 2026",
+      "\"영국맛을 살려야지\" 2026",
+      "\"영역 전개\" 패러디 2026"
+    ],
+    "sources0716": [
+      "https://www.newsis.com/view/NISX20230327_0002242289",
+      "https://news.sbs.co.kr/news/endPage.do?news_id=N1007281846",
+      "https://oneroommaking.com/product/detail.html?cate_no=1692&display_group=1&product_no=8501"
+    ],
+    "sources0502": [
+      "https://gall.dcinside.com/mgallery/board/view/?id=endfield&no=863984&page=1",
+      "https://gall.dcinside.com/mgallery/board/view/?id=umamusme&no=3460569&t=cv"
+    ],
+    "limits": "0502 same platform, separate boards, author independence unverified, second title only. 0716 recent dated0."
+  },
+  "verification": {
+    "editor_source_read0716": 3,
+    "independent_auditor_source_read0716": 3,
+    "reported_reuse_events": 2,
+    "direct_commercial_text": 1,
+    "recent_dated_use": 0,
+    "video_viewed": 0
+  },
+  "held0502": {
+    "decision": "hold",
+    "reason": "same platform, author independence unconfirmed, second example title only. Orbi full search text returned but open403; no promotion"
+  },
+  "coverage_counts": {
+    "index_not_found": 327,
+    "partial": 40,
+    "unclear": 337,
+    "automatic_title_alias_match": 328,
+    "included": 55,
+    "candidate_repeat": 4
+  },
+  "metrics": {
+    "observations": 3229,
+    "distinct": 2711
+  },
+  "limits": "Older snapshot omission recovery, not2026newmeme. Original snapshot unchanged. CI pending."
+}

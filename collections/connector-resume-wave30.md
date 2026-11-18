@@ -137,3 +137,5 @@
 - [~한 건에 대하여](../memes/about-that-time-template.md)
 
 - [꼭 사라 두 번 사라](../memes/buy-it-buy-it-twice.md)
+
+- [알아들었으면 끄덕여](../memes/nod-if-you-understood.md)

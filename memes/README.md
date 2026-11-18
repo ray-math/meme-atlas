@@ -561,6 +561,7 @@
 - [알고리즘에 나타나기로 마음먹음](appear-in-algorithm.md)
 - [알빠노](alppano.md)
 - [알새우칩](shrimp-chips-magnolia.md)
+- [알아들었으면 끄덕여](nod-if-you-understood.md)
 - [알잘딱깔센](aljaltakkalsen.md)
 - [알티](alti.md)
 - [암낫쿨 챌린지](im-not-cool-challenge.md)

@@ -424,6 +424,7 @@
 - [알 수 없는 유튜브 알고리즘](../memes/unknown-youtube-algorithm.md)
 - [알고리즘에 나타나기로 마음먹음](../memes/appear-in-algorithm.md)
 - [알새우칩](../memes/shrimp-chips-magnolia.md)
+- [알아들었으면 끄덕여](../memes/nod-if-you-understood.md)
 - [알티](../memes/alti.md)
 - [암낫쿨 챌린지](../memes/im-not-cool-challenge.md)
 - [압도적 감사](../memes/overwhelming-gratitude.md)

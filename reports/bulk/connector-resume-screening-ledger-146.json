@@ -150,10 +150,11 @@
     "reports/bulk/connector-resume-wave30-315.json",
     "reports/bulk/connector-resume-wave30-317.json",
     "reports/bulk/connector-resume-wave30-319.json",
-    "reports/bulk/connector-resume-wave30-321.json"
+    "reports/bulk/connector-resume-wave30-321.json",
+    "reports/bulk/connector-resume-wave30-322.json"
   ],
-  "query_observations": 3219,
-  "distinct_literal_queries": 2701,
+  "query_observations": 3229,
+  "distinct_literal_queries": 2711,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -16450,6 +16451,56 @@
     {
       "query": "hmh",
       "source": "reports/bulk/connector-resume-wave30-321.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"모 야메룽다\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-322.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무수히 많은 악수의 요청\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-322.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무슨 마약하시길래\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-322.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뭔가 행복하지 않았지\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-322.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밤샌 사람\" \"일찍 일어난\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-322.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"본인 방금\" \"상상함\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-322.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아파트\" \"챌린지\" 2026 한국",
+      "source": "reports/bulk/connector-resume-wave30-322.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"알아들었으면 끄덕여\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-322.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"영국맛을 살려야지\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-322.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"영역 전개\" 패러디 2026",
+      "source": "reports/bulk/connector-resume-wave30-322.json",
       "status": "screened-see-report"
     }
   ],
