@@ -134,10 +134,11 @@
     "reports/bulk/connector-resume-wave30-292.json",
     "reports/bulk/connector-resume-wave30-293.json",
     "reports/bulk/connector-resume-wave30-297.json",
-    "reports/bulk/connector-resume-wave30-299.json"
+    "reports/bulk/connector-resume-wave30-299.json",
+    "reports/bulk/connector-resume-coverage-300.json"
   ],
-  "query_observations": 2634,
-  "distinct_literal_queries": 2145,
+  "query_observations": 2646,
+  "distinct_literal_queries": 2157,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -13509,6 +13510,66 @@
     {
       "query": "\"4MST3rmw\"",
       "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"덤덤\" \"밈\" 소미",
+      "source": "reports/bulk/connector-resume-coverage-300.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"04년생 클럽춤\" 유래",
+      "source": "reports/bulk/connector-resume-coverage-300.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꾸래핑\" 밈",
+      "source": "reports/bulk/connector-resume-coverage-300.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트 댄서\" \"챌린지\" 한국",
+      "source": "reports/bulk/connector-resume-coverage-300.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꾸래핑\" \"사쿠라\"",
+      "source": "reports/bulk/connector-resume-coverage-300.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"덤덤\" \"밈\" \"레드벨벳\"",
+      "source": "reports/bulk/connector-resume-coverage-300.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"FBI OPEN UP\" 한국 밈",
+      "source": "reports/bulk/connector-resume-coverage-300.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꾸래핑 티니핑",
+      "source": "reports/bulk/connector-resume-coverage-300.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"덤덤\" \"밈\" \"Dumb\"",
+      "source": "reports/bulk/connector-resume-coverage-300.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"덤덤\" \"mazie\" 밈",
+      "source": "reports/bulk/connector-resume-coverage-300.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꾸래핑\" \"화난\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-coverage-300.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트댄서\" \"문세윤\" 챌린지",
+      "source": "reports/bulk/connector-resume-coverage-300.json",
       "status": "screened-see-report"
     }
   ],

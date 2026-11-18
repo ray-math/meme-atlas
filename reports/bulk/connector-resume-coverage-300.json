@@ -1,0 +1,94 @@
+{
+  "batch": 300,
+  "base": "ba893bc94cd4a519ec56c050f606d5dc6763126f",
+  "canonical": 933,
+  "projection": {
+    "snapshot_report": "reports/bulk/connector-resume-coverage-296.json",
+    "canonical": 933,
+    "rows": 759,
+    "counts": {
+      "included": 37,
+      "partial": 35,
+      "index_not_found": 332,
+      "unclear": 355
+    },
+    "changes": [
+      {
+        "id": "kr-list-0089",
+        "from": "index_not_found",
+        "to": "partial",
+        "dictionary": "chicken-banana-challenge"
+      },
+      {
+        "id": "kr-list-1039",
+        "from": "index_not_found",
+        "to": "included",
+        "dictionary": "teto-egen-types"
+      },
+      {
+        "id": "kr-list-0320",
+        "from": "index_not_found",
+        "to": "included",
+        "dictionary": "inner-gigachad-dialogue"
+      },
+      {
+        "id": "kr-list-0257",
+        "from": "index_not_found",
+        "to": "partial",
+        "dictionary": "inner-gigachad-dialogue"
+      },
+      {
+        "id": "kr-list-0050",
+        "from": "unclear",
+        "to": "index_not_found",
+        "evidence": "https://everymemes.tistory.com/636",
+        "note": "한 설명본문만 확인; 실제사용반복 미검증; 출생연도자기소개와 다름"
+      },
+      {
+        "id": "kr-list-0302",
+        "from": "unclear",
+        "to": "index_not_found",
+        "evidence": "https://www.yna.co.kr/view/AKR20230413151400005",
+        "note": "imase NIGHT DANCER 챌린지로 대상좁힘; 독립 기사1군, 바로발행아님"
+      }
+    ],
+    "note": "원장 status 자체 미변경. 별도검토보고 현재투영이며 전체유행/파생수록을 뜻하지않음."
+  },
+  "unchanged_unclear": [
+    {
+      "id": "kr-list-0385",
+      "note": "mazie 애니메이션밈 단서; 원영상열람실패. 전소미와 연결금지"
+    },
+    {
+      "id": "kr-list-0283",
+      "note": "꾸래핑 캐릭터재사용 추정만; 본문402,확정안함"
+    },
+    {
+      "id": "kr-list-0098",
+      "note": "영어급습음원설명은 확인됐으나 한국실제사용미확보"
+    }
+  ],
+  "queries": [
+    "\"덤덤\" \"밈\" 소미",
+    "\"04년생 클럽춤\" 유래",
+    "\"꾸래핑\" 밈",
+    "\"나이트 댄서\" \"챌린지\" 한국",
+    "\"꾸래핑\" \"사쿠라\"",
+    "\"덤덤\" \"밈\" \"레드벨벳\"",
+    "\"FBI OPEN UP\" 한국 밈",
+    "꾸래핑 티니핑",
+    "\"덤덤\" \"밈\" \"Dumb\"",
+    "\"덤덤\" \"mazie\" 밈",
+    "\"꾸래핑\" \"화난\" -site:namu.moe -site:seore.org",
+    "\"나이트댄서\" \"문세윤\" 챌린지"
+  ],
+  "metrics": {
+    "query_observations": 2646,
+    "distinct_literal_queries": 2157
+  },
+  "limits": "5행 재검토, 신규본문0. 최근1년사용확인0. 미발견수증가는 신규누락발생이 아니라 불명대상2개범위정리.",
+  "followup_hyejeong": {
+    "kukinews_editor": "403; no new publication based on this read",
+    "osen_editor": "2023-03-31 usage report read; recentyear0"
+  }
+}
