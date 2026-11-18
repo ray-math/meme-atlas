@@ -177,10 +177,11 @@
     "reports/bulk/connector-resume-wave30-345.json",
     "reports/bulk/connector-resume-wave30-346.json",
     "reports/bulk/connector-resume-wave30-347.json",
-    "reports/bulk/connector-resume-wave30-348.json"
+    "reports/bulk/connector-resume-wave30-348.json",
+    "reports/bulk/connector-resume-wave30-349.json"
   ],
-  "query_observations": 4113,
-  "distinct_literal_queries": 3515,
+  "query_observations": 4133,
+  "distinct_literal_queries": 3534,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -20947,6 +20948,106 @@
     {
       "query": "사과",
       "source": "reports/bulk/connector-resume-wave30-348.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "들어올|들어 올",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "1557|페이커|T1",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "알려주겠다|알려 드|교수",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사마|아가씨|오죠",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "였던|었던 것",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "창렬|인생.*창|혐오",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "FBI|open up|체포|문 열",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "he is|히 이즈|그는",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "MH세대|MZ|세대",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가면라이더|변신",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "일론|머스크",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감스트",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "맨까|부들부들",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "거시기",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고토|히토리|봇치",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "곤룡포",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "공산|소련|러시아",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "귀멸|탄지로|젠이츠|네즈코",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그런 거 없|그런건 없|그런 건 없",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김도|마즈피플|마즈",
+      "source": "reports/bulk/connector-resume-wave30-349.json",
       "status": "screened-see-report"
     }
   ],
