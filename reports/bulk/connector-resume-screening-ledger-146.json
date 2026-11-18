@@ -115,10 +115,11 @@
     "reports/bulk/connector-resume-wave30-271.json",
     "reports/bulk/connector-resume-wave30-272.json",
     "reports/bulk/connector-resume-wave30-273.json",
-    "reports/bulk/connector-resume-wave30-275.json"
+    "reports/bulk/connector-resume-wave30-275.json",
+    "reports/bulk/connector-resume-wave30-276.json"
   ],
-  "query_observations": 2237,
-  "distinct_literal_queries": 1814,
+  "query_observations": 2253,
+  "distinct_literal_queries": 1824,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -11505,6 +11506,86 @@
     {
       "query": "\"2026\" \"밈\" \"박물관\" 챌린지",
       "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:univ20.com",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"챌린지\" site:kyungnam.ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:magazine.cheil.com",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" \"보도자료\"",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"챌린지\" \"브리저튼\"",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"도서관\"",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"브리저튼 챌린지\" -site:namu.moe -site:d.namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하이신스\" \"춤\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "브리저튼",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하이신스",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "보리저튼",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Bridgerton",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "브리저튼",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하이신스",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "보리저튼",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "bridgerton",
+      "source": "reports/bulk/connector-resume-wave30-276.json",
       "status": "screened-see-report"
     }
   ],

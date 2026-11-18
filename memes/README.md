@@ -427,6 +427,7 @@
 - [뷁](bwek.md)
 - [브금](beugeum.md)
 - [브라우니 물어](brownie-bite.md)
+- [브리저튼 챌린지](bridgerton-dance-challenge.md)
 - [비행기는 못 참지](airplane-feeding.md)
 - [빅가이 챌린지](big-guy-arm-illusion.md)
 - [빅맥송](big-mac-song.md)
