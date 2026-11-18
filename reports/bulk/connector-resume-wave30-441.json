@@ -1,0 +1,331 @@
+{
+  "batch": 441,
+  "base": "fe517fad4e0fe4537eb18b7fe8bf27980661d298",
+  "canonical_before": 1017,
+  "canonical_after": 1023,
+  "added": [
+    "sorry-to-interrupt-world-class",
+    "mujiseong-action-prefix",
+    "mittin-spelling",
+    "werent-you-happy-before",
+    "empty-food-box",
+    "name-gwaengjanghada"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0457",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "sorry-to-interrupt-world-class"
+    },
+    {
+      "id": "kr-list-0490",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "mujiseong-action-prefix"
+    },
+    {
+      "id": "kr-list-0505",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "mittin-spelling"
+    },
+    {
+      "id": "kr-list-0502",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "werent-you-happy-before"
+    },
+    {
+      "id": "kr-list-0575",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "empty-food-box"
+    },
+    {
+      "id": "kr-list-0217",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "name-gwaengjanghada"
+    }
+  ],
+  "research": {
+    "pending441A": {
+      "queries": [
+        "2026 \"패러디했다\" \"밈\" -site:komki.co.kr -site:shorti.ai",
+        "2026 \"패러디한\" \"공무원\" -site:komki.co.kr",
+        "2025 12월 \"따라\" \"밈\" \"홍보영상\"",
+        "2026 \"밈\" \"재현\" \"브랜드\" -site:shorti.ai -site:komki.co.kr",
+        "2026 \"패러디\" \"도서관\" -site:namu.moe",
+        "2026 \"밈\" \"박물관\" \"영상\"",
+        "2026 \"패러디\" \"대학\" \"홍보영상\"",
+        "2026 \"패러디\" \"밈\" \"식품\" -site:instablank.com -site:komki.co.kr",
+        "2026 \"패러디\" \"밈\" \"경찰\" -site:instablank.com -site:komki.co.kr",
+        "2026 \"패러디\" \"홍보\" \"철도\"",
+        "2026 \"패러디\" \"홍보\" \"소방\"",
+        "2026 \"패러디\" \"은행\" \"광고\"",
+        "2026 \"패러디\" \"밈\" \"편의점\" -site:instablank.com -site:komki.co.kr"
+      ],
+      "count": 20,
+      "existing": [
+        "under-arrest",
+        "john-park-mcdonalds-rap"
+      ],
+      "held": [
+        "OO없는자모두유죄",
+        "분석말고일단타라",
+        "고양이섀도복싱",
+        "괴담식박물관",
+        "인외굿즈",
+        "숨은참외",
+        "강유미책낙서",
+        "공무원페이크다큐",
+        "늑구탈출귀환",
+        "쥬터뷰말벌",
+        "명화건강캠페인",
+        "티키틱후회의노래대학",
+        "KCC문명충돌대학",
+        "파묘대학",
+        "시그널대학",
+        "야나두대학",
+        "해명시험풀이생중계",
+        "OO출입금지"
+      ],
+      "recommended": 0,
+      "sources": [
+        {
+          "url": "https://www.seoul.co.kr/news/economy/finance/2026/06/19/20260619500061",
+          "note": "책제목/차량합성다른2형식각1군"
+        },
+        {
+          "url": "https://www.ajunews.com/view/20261106215131685",
+          "note": "실제입력11-08 서울시소재들,요청9월이후별도단서"
+        },
+        {
+          "url": "https://www.viva100.com/article/20261117500600",
+          "note": "11-17기사,11-12촬영/14게시존박포천응용기존"
+        },
+        {
+          "url": "https://mobile.newsis.com/view/NISX20251107_0003394278",
+          "note": "2025-11-09기사365일밖쥬터뷰소방패러디1군"
+        },
+        {
+          "url": "https://v.daum.net/v/20260320163128772",
+          "note": "03-20책낙서풍자차용은관객해석"
+        }
+      ],
+      "note": "출입금지asiae2026063010023076441본문0줄,대학humanrights.skhu.ac.kr소개뿐개별미확인.20개검증완료아님."
+    },
+    "pending441B": {
+      "queries": [
+        "\"말씀 중에 죄송합니다\" 밈",
+        "\"망했어요\" \"김태형\"",
+        "\"나락송\" 유행",
+        "\"어 나가\" 밈",
+        "\"명존쎄\" 유행어 기사",
+        "\"모스카우\" 패러디 한국",
+        "\"모 야메룽다\" 패러디",
+        "\"무수히 많은 악수\"",
+        "\"무슨 마약하시길래\" 기사",
+        "\"무지성\" \"신조어\"",
+        "\"무츠키 댄스\"",
+        "\"뭉탱이\" 밈 기사",
+        "\"뭔가 행복하지 않았지\"",
+        "\"미띤\" 유행어",
+        "\"미쿠미쿠하게 해줄게\" 패러디 한국",
+        "\"박씨 꺼져\"",
+        "\"밤 샌 사람\" \"일찍\""
+      ],
+      "rows": 20,
+      "recommended": [
+        "0505"
+      ],
+      "existing": [
+        "0530:have-you-eaten"
+      ],
+      "held": [
+        "0457",
+        "0459",
+        "0460",
+        "0464",
+        "0465",
+        "0472",
+        "0476",
+        "0478",
+        "0479",
+        "0487",
+        "0488",
+        "0490",
+        "0491",
+        "0500",
+        "0502",
+        "0517",
+        "0522",
+        "0526"
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikitree.co.kr/articles/325544",
+          "note": "2018-01-19미띤직접인터뷰"
+        },
+        {
+          "url": "https://naeiledu.co.kr/26572",
+          "note": "2018-04-18교육해설앞인터뷰재인용독립원전2아님"
+        },
+        {
+          "url": "https://chimhaha.net/internet/634068",
+          "note": "2024-12-03뭉탱이커뮤니티설명1군영상미시청"
+        },
+        {
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=endfield&no=863984&page=1",
+          "note": "2026-11-12행복하지않았지변형직접1군"
+        },
+        {
+          "url": "https://news.nate.com/view/20200809n20677",
+          "note": "실제표시2020-08-12명존쎄이모티콘중단직접,폭력맥락보류"
+        }
+      ],
+      "note": "0457후속MBC공식검토중. 위험집단비하/성적범주는분류보류. 인벤161587 502,더쿠1365538349이미지미열람."
+    },
+    "pending441followupA": {
+      "count": 20,
+      "recommended": [
+        "0575",
+        "0217"
+      ],
+      "possible_existing": [
+        "0286"
+      ],
+      "held": [
+        "0540",
+        "0595",
+        "0611",
+        "0757",
+        "0374",
+        "0190",
+        "0239",
+        "0290",
+        "0318",
+        "0242",
+        "0305",
+        "0833",
+        "0279",
+        "0364",
+        "0407",
+        "0568",
+        "0590"
+      ],
+      "queries": [
+        "\"빈 찬합\" 패러디",
+        "\"영역 전개\" 패러디 광고",
+        "\"벽부수기\" 밈",
+        "\"삐뽀핑\" 밈",
+        "\"영역전개\" 챌린지",
+        "\"빈 찬합\" -site:namu.moe -site:novelpia.com",
+        "\"꽈찌쭈\" 패러디",
+        "\"나가있어\" 황정민 패러디",
+        "\"거룡을 상대한\" -site:namu.moe",
+        "\"그들의 연회에\" -site:namu.moe",
+        "\"나는 개인이오\" -site:namu.moe",
+        "\"내 식사를 방해할\" -site:namu.moe",
+        "\"사랑의 열매\" \"밈\"",
+        "\"삼체\" \"밈\" 패러디",
+        "\"당신이 옳았어\" 밈",
+        "\"굉장하다\" \"밈\"",
+        "\"그런 거 없다\" 밈 -site:namu.moe",
+        "\"난 아무렇지 않지 않아\" 패러디",
+        "\"으악 안 돼\" 이병헌 광고",
+        "\"듀얼 만능주의\" -site:namu.moe",
+        "\"블랙워그레이몬\" \"밈\" -site:namu.moe",
+        "\"다 부질없는 개뻘짓이다\" -site:namu.moe",
+        "\"삼체\" \"하삼\" 신조어",
+        "\"사랑의 열매\" \"밈\" -site:namu.moe -site:onmeme.com"
+      ]
+    },
+    "pending441followupB": {
+      "recommended": [
+        "0457",
+        "0490"
+      ],
+      "held": [
+        "0502"
+      ],
+      "queries": [
+        "site:etoday.co.kr \"무지성\" \"2022-06-13\"",
+        "\"20220315n04398\"",
+        "\"뭔가 행복하지 않았지\" \"2020\"",
+        "\"뭔가 행복하지 않았지\" \"2021\"",
+        "site:mt.co.kr \"무지성\" \"2022.03.15\"",
+        "\"뭔가 행복하지 않았지\" -site:namu.moe -site:dcinside.com -site:inven.co.kr -site:seore.org"
+      ]
+    },
+    "pending441followupC": {
+      "recommendations": [
+        "0505",
+        "0502"
+      ],
+      "queries": [
+        "\"뭔가 행복하지 않았지\" 밈",
+        "\"뭔가 행복하지 않았지\" 해설",
+        "\"뭔가 행복하지 않았지\" -site:namu.moe -site:dcinside.com -site:inven.co.kr",
+        "\"뭔가 행복하지 않았지\" \"패러디\" 기사",
+        "\"뭔가 행복하지 않았지\" 뜻 블로그"
+      ]
+    },
+    "pending441recentB": {
+      "count": 20,
+      "existing": 7,
+      "held": 13,
+      "recommended": 0,
+      "queries": [
+        "2026 밈 트렌드 9월 10월 매거진",
+        "2026 밈 11월 신조어 대학내일",
+        "site.hsad \"2026\" \"밈\"",
+        "\"2026\" \"밈\" \"매거진\" -site:instablank.com -site:namu.moe",
+        "\"그럼 아이스티 4개\" 한국 2026",
+        "\"박수\" \"검은 고양이\" 밈",
+        "\"그르 먼데이\"",
+        "\"Kinda chic\" 한국",
+        "\"그르 먼데이\" -site:instablank.com",
+        "\"몽땅거침없이순풍감자별\" -site:instablank.com"
+      ],
+      "note": "20 triaged not all deeply validated; 2026-10-10 Isplus channel interview not independent meme reuse; the-pr62299 403."
+    }
+  },
+  "editor_queries": [
+    "\"말씀 중에 죄송합니다\" \"손웅정\" \"리믹스\"",
+    "\"마따끄\" \"캐릿\"",
+    "\"럼자오자레\" \"게임메카\"",
+    "\"말씀 중에 죄송합니다\" \"월드클래스\" \"패러디\" -site:namu.moe -site:namu.wiki",
+    "\"손웅정\" \"리믹스\" \"유행\"",
+    "\"밤 샌 사람\" \"일찍 일어난\" \"밈\"",
+    "\"무지성\" \"신조어\" \"기사\" -site:namu.moe"
+  ],
+  "previous_audit": {
+    "sha": "fe517fad4e0fe4537eb18b7fe8bf27980661d298",
+    "body_reads": 9,
+    "extra_source_reads": 8,
+    "passed": true,
+    "required_changes": 0,
+    "note": "먹bread제목1해설1,오빠나몰라같은인물활동,내세상2021해설+2026텍스트,로우바둑이2019+2026공식,대한민국같은장면2보도,뜌땨한전문자료partial,돈이될까동아앞선직접판독/재접속제한정확,앗아아댓글날짜불명partial,첫눈2023+2025구분.색인전체목록CI검증아님."
+  },
+  "previous_ci": {
+    "run": 44265111537,
+    "job": 134667594840,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "85.925"
+  },
+  "limits": [
+    "Query observations are not unique candidates or memes.",
+    "Six validated historical/recent candidates batched; 10–20 target not forced by unverified additions.",
+    "Original videos and images not watched; source-dependent limits stated in each body.",
+    "Current CI pending. Main unchanged. No Codex."
+  ],
+  "prepublication_audit": {
+    "scope": 6,
+    "required_change": "Removed unsupported specific surprise/absurdity function from mittin definition",
+    "status": "scope-review ongoing; full body post-save review pending"
+  }
+}
