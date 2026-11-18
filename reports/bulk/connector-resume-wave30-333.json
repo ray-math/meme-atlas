@@ -1,0 +1,128 @@
+{
+  "batch": 333,
+  "base": "c9aca40c6da383ca3bebdde31a6874dd88944453",
+  "canonical_before": 962,
+  "canonical_after": 962,
+  "added": [],
+  "research": {
+    "candidates": [
+      "0554",
+      "0563",
+      "0566",
+      "0583",
+      "0595",
+      "0597",
+      "0614",
+      "0616",
+      "0625",
+      "0638"
+    ],
+    "existing": [
+      "0583",
+      "0597",
+      "0614",
+      "0616"
+    ],
+    "held": 6,
+    "recommended": 0,
+    "queries": [
+      "\"새삥\" 챌린지 2026",
+      "\"생선 대가리 카레\" 2026",
+      "\"빵상\" 2026 패러디",
+      "\"북경 정씨\" 2026",
+      "\"붉은 악마\" \"밈\" 2026",
+      "\"브레드 이발소\" \"밈\" 2026",
+      "\"사랑의 열매\" \"밈\" 2026",
+      "\"사실은 오래전부터\" \"기다려왔다우\"",
+      "\"성윤모\" 2026 패러디",
+      "\"손흥민 표정\" 밈 2026",
+      "\"새삥 챌린지\" \"2026\" -site:namu.moe -site:ranktube.co.kr",
+      "\"기다려왔다우\" \"2026\"",
+      "\"포토이즘\" \"기다려왔다우\"",
+      "\"붉은 악마\" 패러디 \"2026\""
+    ],
+    "supplement": {
+      "id": "waiting-for-someone-like-you",
+      "sources": [
+        "https://teapaw.org/photoism_kr/status/2118267080319422916",
+        "https://brain-nim.tistory.com/140"
+      ],
+      "limits": "Researcherread mirrorNov5recent1 originalX403;2024bookreviewdirect1. Samsung2025userreviewdirect1 longURLinworkerreport. Editorverificationpending; no newcanonical.",
+      "editor_read": [
+        "https://brain-nim.tistory.com/140"
+      ],
+      "editor_failed": [
+        "https://teapaw.org/photoism_kr/status/2118267080319422916"
+      ]
+    }
+  },
+  "editor": {
+    "queries": [
+      "\"샤갈\" \"2026\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"샤갈\" \"2026\" \"오늘\" -화가 -전시 -미술 -작품 -그림 -site:namu.moe -site:seore.org",
+      "\"샤갈\" site:theqoo.net \"2026.11\"",
+      "\"쌰갈\" site:tistory.com \"2026\"",
+      "\"샤갈\" site:weolbu.com",
+      "\"샤갈\" site:theqoo.net",
+      "\"쌰갈\" site:orbi.kr",
+      "\"쌰갈\" site:gall.dcinside.com \"2026.11\""
+    ],
+    "candidate": "0613",
+    "status": "held",
+    "limits": "Recent Orbi search texts found but editor direct opens failed; other results include artist/poem homonyms and nicknames. Do not count as independently verified direct use. No publication."
+  },
+  "audit": {
+    "ref": "c9aca40c6da383ca3bebdde31a6874dd88944453",
+    "reviewed": 20,
+    "related_bodies_read": 14,
+    "changes": 0,
+    "ids": [
+      "0673",
+      "0683",
+      "0691",
+      "0694",
+      "0696",
+      "0697",
+      "0704",
+      "0706",
+      "0710",
+      "0711",
+      "0718",
+      "0720",
+      "0721",
+      "0722",
+      "0738",
+      "0747",
+      "0755",
+      "0766",
+      "0771",
+      "0780"
+    ],
+    "index_queries": [
+      "선비|훈계",
+      "악마|아니다",
+      "아몰랑|몰라",
+      "방송.*못|못하네",
+      "꿈|깨어",
+      "페리시치|탓",
+      "아재|아저씨",
+      "진짜요|정말",
+      "악으로|깡으로|버텨",
+      "안물|요다",
+      "알파|테토|기가차드",
+      "압수|내놔",
+      "앗|아아",
+      "기모|기분",
+      "어둠|다크|데스",
+      "세상.*무너|무너졌",
+      "엄마|사람이야",
+      "거짓말|거짓",
+      "영포티|포티|40대",
+      "오또케|어떡해|오빠야",
+      "악마|선비|아몰랑|페리시치|아재|아저씨|압수|다크|데스|영포티|오또케|악으로|깡으로",
+      "존버|해병|꼰대|꼰|틀딱|라떼|꿈.*반전"
+    ],
+    "limits": "17index_not_found3unclear maintained. 0694vs0533 possiblecandidateoverlap notresolved orrecounted."
+  },
+  "ci": "962 CI44235407840 in_progress at preparation. No newcanonical."
+}
