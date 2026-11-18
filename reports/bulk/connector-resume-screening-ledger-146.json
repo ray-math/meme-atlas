@@ -72,10 +72,11 @@
     "reports/bulk/connector-resume-editor-220.json",
     "reports/bulk/connector-resume-editor-221.json",
     "reports/bulk/connector-resume-editor-223.json",
-    "reports/bulk/connector-resume-editor-225.json"
+    "reports/bulk/connector-resume-editor-225.json",
+    "reports/bulk/connector-resume-editor-226.json"
   ],
-  "query_observations": 1147,
-  "distinct_literal_queries": 929,
+  "query_observations": 1166,
+  "distinct_literal_queries": 947,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -6012,6 +6013,101 @@
     {
       "query": "머리를",
       "source": "reports/bulk/connector-resume-editor-225.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"보고서\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목\" \"대학\"",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"공식 블로그\"",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"멜라토닌 먹고 꾸는 꿈\" -site:luckyvicky.moamoang.co.kr -site:namu.moe",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하이파이브 챌린지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밤으깡\" \"2026\"",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"멜라토닌\" \"꿈 같다\" -site:instablank.com -site:luckyvicky.moamoang.co.kr -site:namu.moe -site:imginn.com",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"멜라토닌 먹고\" \"꿈\" site:chimhaha.net",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"멜라토닌 먹고\" \"꿈\" site:orbi.kr",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "멜라토닌",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "멜라",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "melatonin",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꿈같",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개꿈",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하이파이브",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "GUAP",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "프리티걸",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이별로부터",
+      "source": "reports/bulk/connector-resume-editor-226.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "밤으깡",
+      "source": "reports/bulk/connector-resume-editor-226.json",
       "status": "screened-see-report"
     }
   ],

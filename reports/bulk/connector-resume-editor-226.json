@@ -1,0 +1,43 @@
+{
+  "base": "74ffc60ab4a4008f00d860f586d9d34e8f779753",
+  "canonical_before": 903,
+  "canonical_after": 904,
+  "added": [
+    "melatonin-dream"
+  ],
+  "queries": [
+    "\"2026\" \"밈\" \"보고서\" -site:namu.moe",
+    "\"2026\" \"밈\" \"제목\" \"대학\"",
+    "\"2026\" \"패러디\" \"공식 블로그\"",
+    "\"멜라토닌 먹고 꾸는 꿈\" -site:luckyvicky.moamoang.co.kr -site:namu.moe",
+    "\"하이파이브 챌린지\" \"2026\"",
+    "\"밤으깡\" \"2026\"",
+    "\"멜라토닌\" \"꿈 같다\" -site:instablank.com -site:luckyvicky.moamoang.co.kr -site:namu.moe -site:imginn.com",
+    "\"멜라토닌 먹고\" \"꿈\" site:chimhaha.net",
+    "\"멜라토닌 먹고\" \"꿈\" site:orbi.kr",
+    "멜라토닌",
+    "멜라",
+    "melatonin",
+    "꿈같",
+    "개꿈",
+    "하이파이브",
+    "GUAP",
+    "프리티걸",
+    "이별로부터",
+    "밤으깡"
+  ],
+  "direct_application_sources": 2,
+  "reported_review_sources": 1,
+  "editor_reread_pages": 4,
+  "limits": [
+    "MMM date unconfirmed",
+    "exhibition date not webpage publication",
+    "no dose/efficacy/medical claims",
+    "original videos unviewed"
+  ],
+  "holds": [
+    "하이파이브/GUAP/프리티걸/이별로부터: direct original uses not established",
+    "밤으깡: person/channel umbrella excluded"
+  ],
+  "ci": "not run"
+}
