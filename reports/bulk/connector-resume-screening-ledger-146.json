@@ -181,10 +181,11 @@
     "reports/bulk/connector-resume-wave30-349.json",
     "reports/bulk/connector-resume-wave30-350.json",
     "reports/bulk/connector-resume-wave30-351.json",
-    "reports/bulk/connector-resume-wave30-352.json"
+    "reports/bulk/connector-resume-wave30-352.json",
+    "reports/bulk/connector-resume-wave30-353.json"
   ],
-  "query_observations": 4252,
-  "distinct_literal_queries": 3634,
+  "query_observations": 4262,
+  "distinct_literal_queries": 3644,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -21646,6 +21647,56 @@
     {
       "query": "\"함정카드 발동\" \"2026\" -메이플 -유희왕 -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-352.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"투명드래곤\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-353.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한본어\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-353.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한 잔 해\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-353.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"헬테이커\" 패러디 \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-353.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"호롤롤로\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-353.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한잔해\" \"했잖아\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-353.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"투명드래곤\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-353.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"헬테이커\" 춤 패러디 한국",
+      "source": "reports/bulk/connector-resume-wave30-353.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"했잖아 한잔해\" -site:namu.moe -site:readonly.wiki",
+      "source": "reports/bulk/connector-resume-wave30-353.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"호롤롤로\" 밈 유래",
+      "source": "reports/bulk/connector-resume-wave30-353.json",
       "status": "screened-see-report"
     }
   ],
