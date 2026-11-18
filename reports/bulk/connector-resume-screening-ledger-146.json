@@ -227,10 +227,11 @@
     "reports/bulk/connector-resume-wave30-396.json",
     "reports/bulk/connector-resume-wave30-397.json",
     "reports/bulk/connector-resume-wave30-398.json",
-    "reports/bulk/connector-resume-wave30-399.json"
+    "reports/bulk/connector-resume-wave30-399.json",
+    "reports/bulk/connector-resume-wave30-400.json"
   ],
-  "query_observations": 5314,
-  "distinct_literal_queries": 4592,
+  "query_observations": 5346,
+  "distinct_literal_queries": 4623,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -27002,6 +27003,166 @@
     {
       "query": "\"어 나가\" 패러디 -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-399.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"따라\" site:news.seoul.go.kr",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"유행어\" site:univ20.com",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:designplusmag.com",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"몰?루\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"망했어요\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"몰?루\" \"2026\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" \"2026\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"몰?루\" site:bluearchive.nexon.com",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" \"2026\" -site:namu.moe -site:chhez.org -site:theseed.io",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"밈\" site:news.kbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제작\" site:news.kmib.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"문구\" site:hani.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"따라\" site:news.jtbc.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 \"라밤바\"",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"직접\" site:cosmopolitan.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:arena.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"인사\" site:marieclairekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라밤바\" \"2026\" \"패러디\" -site:instablank.com -site:jjalbang.today -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"팬은 아님\" \"스윙스\" 2026 -site:instablank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이거 제 이모지야\" -site:instablank.com -site:jjalbang.today -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목으로\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"긴빠이\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아몰랑\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개같이 부활\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이거 다 거짓말인 거 아시죠\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"K-\" \"밈\" \"2026\" 표현",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아몰랑\" \"2026\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"긴빠이\" \"2026\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개같이 멸망\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아몰랑\" 사용 2026 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"긴빠이\" 밈 사용 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-400.json",
       "status": "screened-see-report"
     }
   ],
