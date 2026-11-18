@@ -133,10 +133,11 @@
     "reports/bulk/connector-resume-wave30-291.json",
     "reports/bulk/connector-resume-wave30-292.json",
     "reports/bulk/connector-resume-wave30-293.json",
-    "reports/bulk/connector-resume-wave30-297.json"
+    "reports/bulk/connector-resume-wave30-297.json",
+    "reports/bulk/connector-resume-wave30-299.json"
   ],
-  "query_observations": 2621,
-  "distinct_literal_queries": 2132,
+  "query_observations": 2634,
+  "distinct_literal_queries": 2145,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -13443,6 +13444,71 @@
     {
       "query": "\"테토\" \"에겐\" \"2026\" \"챌린지\" 방송",
       "source": "reports/bulk/connector-resume-wave30-297.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고먐미\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스튜어디스 혜정아\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쌉인정\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고먐미\" 고양이 네모",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스튜어디스 혜정아\" 패러디 전현무",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쌉인정\" site.ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쌉소름\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고먐미\" \"네모\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쌉인정\" \"2026\" -site:inven.co.kr -site:quizby.me -site:slangdunk.com -site:shinzoer.com",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스튜어디스 혜정아\" \"2025\"",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"루나톡\" \"56106\"",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"caveduck\" \"f3cf285c-e564-4efd-8616-88a50f3c7613\"",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"4MST3rmw\"",
+      "source": "reports/bulk/connector-resume-wave30-299.json",
       "status": "screened-see-report"
     }
   ],

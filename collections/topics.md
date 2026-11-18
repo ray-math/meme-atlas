@@ -187,6 +187,7 @@
 - [내가 바퀴벌레가 되면 어떡할 거야?](../memes/if-i-become-cockroach.md)
 - [내가 이룬 것들](../memes/things-i-achieved.md)
 - [내또출](../memes/naettochul.md)
+- [내면의 기가차드](../memes/inner-gigachad-dialogue.md)
 - [내일 봬요 누나](../memes/see-you-tomorrow-noona.md)
 - [냥모나이트](../memes/nyangmonite.md)
 - [너 아직도 그 게임 하니?](../memes/still-play-that-game.md)

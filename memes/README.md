@@ -192,6 +192,7 @@
 - [내또출](naettochul.md)
 - [내려갈 팀은 내려간다](down-team-is-down.md)
 - [내로남불](naeronambul.md)
+- [내면의 기가차드](inner-gigachad-dialogue.md)
 - [내일 봬요 누나](see-you-tomorrow-noona.md)
 - [냥모나이트](nyangmonite.md)
 - [너 T야?](are-you-t.md)
