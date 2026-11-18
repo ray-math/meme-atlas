@@ -1,0 +1,60 @@
+{
+  "batch": 249,
+  "canonical_before": 911,
+  "canonical_after": 912,
+  "added": [
+    "secret-study-campaign"
+  ],
+  "research": {
+    "queries": [
+      "site.korea.kr 2026 \"밈\"",
+      "site.ac.kr 2026 \"밈\" \"제목\"",
+      "\"2026\" \"밈\" \"사보\"",
+      "\"2026\" \"밈\" \"뉴스레터\" \"말투\" -site:namu.moe -site:instablank.com -site:jjalbang.today",
+      "\"교권보호국 감독관\" -\"참교육\" -\"진기주\" -\"임한림\" -\"김무열\" -site:namu.moe -site:namu.wiki",
+      "\"누락도 락\" 2026",
+      "\"뒷공부\" \"2026\"",
+      "\"뒷공부\" \"2026\" \"사절\" -site:onmeme.com",
+      "\"뒷공부\" \"2026\" \"근절\" -site:onmeme.com",
+      "\"뒷공부 근절\" -site:namu.wiki -site:onmeme.com -site:maily.so -site:pixai.art",
+      "\"뒷공부 사절\" -site:tu.ac.kr -site:onmeme.com"
+    ],
+    "index_queries": [
+      "누락",
+      "락이다",
+      "뒷공부",
+      "무례하지",
+      "시민",
+      "폴리에스터",
+      "타임스탬프",
+      "지옥 같은",
+      "교권",
+      "감독관",
+      "임한림",
+      "블랙핑크",
+      "누락도",
+      "뒷공부",
+      "뒷 공부",
+      "몰래 공부",
+      "몰래공부",
+      "근절",
+      "사절",
+      "공부 안"
+    ],
+    "candidate": "뒷공부 근절 캠페인",
+    "evidence": "TU TIMES6/9 event NAME1; Megastudy7/6 joking comment1; Trendaword4/30 meaning explainer1; videos0. Independent scope review passed. Do not expose commenter personal/education details. Not actually prohibiting study or real comment campaign."
+  },
+  "independent_scope_review": "passed; event name1 + joking comment1 + meaning explanation1",
+  "prior_audit": {
+    "little_captain_dance": "final body passed, not whole-index audit"
+  },
+  "metrics": {
+    "query_observations": 1593,
+    "distinct_literal_queries": 1290
+  },
+  "checks": {
+    "normalized_collisions": 0,
+    "readme_topics_roundtrip": true,
+    "ci": "not run"
+  }
+}

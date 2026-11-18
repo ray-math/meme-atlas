@@ -90,10 +90,11 @@
     "reports/bulk/connector-resume-wave30-244.json",
     "reports/bulk/connector-resume-wave30-245.json",
     "reports/bulk/connector-resume-wave30-246.json",
-    "reports/bulk/connector-resume-wave30-247.json"
+    "reports/bulk/connector-resume-wave30-247.json",
+    "reports/bulk/connector-resume-wave30-249.json"
   ],
-  "query_observations": 1562,
-  "distinct_literal_queries": 1264,
+  "query_observations": 1593,
+  "distinct_literal_queries": 1290,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -8105,6 +8106,161 @@
     {
       "query": "오라",
       "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site.korea.kr 2026 \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site.ac.kr 2026 \"밈\" \"제목\"",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"사보\"",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"뉴스레터\" \"말투\" -site:namu.moe -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"교권보호국 감독관\" -\"참교육\" -\"진기주\" -\"임한림\" -\"김무열\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"누락도 락\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뒷공부\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뒷공부\" \"2026\" \"사절\" -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뒷공부\" \"2026\" \"근절\" -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뒷공부 근절\" -site:namu.wiki -site:onmeme.com -site:maily.so -site:pixai.art",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뒷공부 사절\" -site:tu.ac.kr -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누락",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "락이다",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뒷공부",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "무례하지",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "시민",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "폴리에스터",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "타임스탬프",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "지옥 같은",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "교권",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감독관",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "임한림",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "블랙핑크",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누락도",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뒷공부",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뒷 공부",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "몰래 공부",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "몰래공부",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "근절",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사절",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "공부 안",
+      "source": "reports/bulk/connector-resume-wave30-249.json",
       "status": "screened-see-report"
     }
   ],

@@ -280,6 +280,7 @@
 - [두둥등장](dududunga.md)
 - [두바이 딱딱 강정](dubai-hard-gangjeong.md)
 - [둥근해 또 떴네](round-sun-again.md)
+- [뒷공부 근절 캠페인](secret-study-campaign.md)
 - [뒷삭](dwitsak.md)
 - [듀듀듀 바바바](dududu-bababa.md)
 - [듀벅듀벅](dubeok-dubeok.md)

@@ -998,6 +998,7 @@
 - [너만 없더라](../memes/only-you-are-missing.md)
 - [널 좋아하는 마음이 커졌어 막 공룡만 해](../memes/dinosaur-sized-affection.md)
 - [단어 알지? 싸워](../memes/fight-briefing-parody.md)
+- [뒷공부 근절 캠페인](../memes/secret-study-campaign.md)
 - [멜라토닌 먹고 꾸는 꿈 같다](../memes/melatonin-dream.md)
 - [무례하지 않게 말해 주세요](../memes/say-it-politely-template.md)
 - [빅가이 챌린지](../memes/big-guy-arm-illusion.md)
