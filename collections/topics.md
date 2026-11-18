@@ -329,6 +329,7 @@
 - [밀레니얼 vs 젠지 담당자 비교](../memes/millennial-vs-genz-copy.md)
 - [밀어서 잠금해제](../memes/slide-to-unlock-parody.md)
 - [바리바리스타](../memes/baribarista.md)
+- [바쁘다 바빠 현대사회](../memes/busy-busy-modern-life.md)
 - [박박](../memes/bakbak.md)
 - [반모](../memes/banmo.md)
 - [반박시 니 말이 맞음](../memes/banbaksi-ni-mari-majeum.md)

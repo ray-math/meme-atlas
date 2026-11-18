@@ -410,6 +410,7 @@
 - [밀레니얼 vs 젠지 담당자 비교](millennial-vs-genz-copy.md)
 - [밀어서 잠금해제](slide-to-unlock-parody.md)
 - [바리바리스타](baribarista.md)
+- [바쁘다 바빠 현대사회](busy-busy-modern-life.md)
 - [박박](bakbak.md)
 - [반모](banmo.md)
 - [반박시 니 말이 맞음](banbaksi-ni-mari-majeum.md)

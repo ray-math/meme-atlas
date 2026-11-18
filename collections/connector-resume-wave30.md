@@ -167,3 +167,5 @@
 - [폭룡적](../memes/pokryongjeok.md)
 
 - [월요일 아침새](../memes/monday-morning-bird.md)
+
+- [바쁘다 바빠 현대사회](../memes/busy-busy-modern-life.md)

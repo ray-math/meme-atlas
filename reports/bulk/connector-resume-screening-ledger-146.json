@@ -169,10 +169,11 @@
     "reports/bulk/connector-resume-wave30-337.json",
     "reports/bulk/connector-resume-wave30-338.json",
     "reports/bulk/connector-resume-wave30-339.json",
-    "reports/bulk/connector-resume-wave30-340.json"
+    "reports/bulk/connector-resume-wave30-340.json",
+    "reports/bulk/connector-resume-wave30-341.json"
   ],
-  "query_observations": 3913,
-  "distinct_literal_queries": 3334,
+  "query_observations": 3940,
+  "distinct_literal_queries": 3359,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -19939,6 +19940,141 @@
     {
       "query": "투명|드래곤",
       "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"보도자료\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"대학신문\" 유행",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"도서\" 제목 패러디",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"신조어\" \"신문\" -site:sinjoeo.kr -site:meme100.me -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"주접\"",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"직장\" \"제목\"",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"짜증나\" \"positive\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"장카설유\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"바쁘다 바빠 현대사회\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"바쁘다 바빠 현대사회\" 밈 유래",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"해당 글에 이미 아멘\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "positive",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "장카설유",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바쁘다바빠",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아멘",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "보법",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김장조끼",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감튀",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "볼꾸",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "캐디는",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야르",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바쁘",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "현대사회",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감자튀김",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "조끼",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "볼펜",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바쁘다|바빠|현대사회",
+      "source": "reports/bulk/connector-resume-wave30-341.json",
       "status": "screened-see-report"
     }
   ],
