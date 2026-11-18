@@ -60,10 +60,11 @@
     "reports/bulk/connector-resume-review207.json",
     "reports/bulk/connector-resume-holds208.json",
     "reports/bulk/connector-resume-screening209.json",
-    "reports/bulk/connector-resume-screening210.json"
+    "reports/bulk/connector-resume-screening210.json",
+    "reports/bulk/connector-resume-audit211.json"
   ],
-  "query_observations": 956,
-  "distinct_literal_queries": 778,
+  "query_observations": 958,
+  "distinct_literal_queries": 780,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -5045,6 +5046,16 @@
     {
       "query": "야-흥",
       "source": "reports/bulk/connector-resume-screening210.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"요즘\" site:univ20.com",
+      "source": "reports/bulk/connector-resume-audit211.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:20slab.org",
+      "source": "reports/bulk/connector-resume-audit211.json",
       "status": "screened-see-report"
     }
   ],
