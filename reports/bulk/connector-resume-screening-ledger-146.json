@@ -144,10 +144,11 @@
     "reports/bulk/connector-resume-wave30-308.json",
     "reports/bulk/connector-resume-wave30-309.json",
     "reports/bulk/connector-resume-wave30-310.json",
-    "reports/bulk/connector-resume-wave30-312.json"
+    "reports/bulk/connector-resume-wave30-312.json",
+    "reports/bulk/connector-resume-wave30-313.json"
   ],
-  "query_observations": 2987,
-  "distinct_literal_queries": 2485,
+  "query_observations": 2995,
+  "distinct_literal_queries": 2488,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -15284,6 +15285,46 @@
     {
       "query": "린가드",
       "source": "reports/bulk/connector-resume-wave30-312.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "mmmm",
+      "source": "reports/bulk/connector-resume-wave30-313.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오티스",
+      "source": "reports/bulk/connector-resume-wave30-313.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가챠걸",
+      "source": "reports/bulk/connector-resume-wave30-313.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "미운푸리",
+      "source": "reports/bulk/connector-resume-wave30-313.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "건우 엄마",
+      "source": "reports/bulk/connector-resume-wave30-313.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "귀여운 건",
+      "source": "reports/bulk/connector-resume-wave30-313.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건우 엄마 데려와\" 패러디 2026 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-313.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"귀여운 건 나도 알아\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-313.json",
       "status": "screened-see-report"
     }
   ],
