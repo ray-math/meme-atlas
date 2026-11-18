@@ -1,0 +1,131 @@
+{
+  "batch": 352,
+  "base": "2dcba2df99707a1486f1c45883cc96283ec8d519",
+  "canonical_before": 969,
+  "canonical_after": 969,
+  "added": [],
+  "recent_research": {
+    "candidates": 10,
+    "recommended": 0,
+    "existing": 6,
+    "overlap_held": 2,
+    "source_held": 2,
+    "queries": [
+      "2026 \"밈\" \"편집\" \"유행\" 매거진",
+      "2026 \"밈\" \"패러디\" \"공식\" 11월",
+      "\"감옥에서 누가 돌아왔게\" -site:luckyvicky.moamoang.co.kr",
+      "\"왕과 세는 남자\" 관세청",
+      "\"거제 야호\" \"공식\"",
+      "\"야르렁\" \"익산\"",
+      "\"야르렁\" \"서산\"",
+      "\"야르렁\" 모닝콜 2026"
+    ],
+    "index_queries": [
+      "로드스터",
+      "왕과",
+      "봄이구나",
+      "니가 좋아",
+      "거제야호",
+      "거제",
+      "팔리아치",
+      "핀란드",
+      "셋로그",
+      "좋다",
+      "67",
+      "야르렁",
+      "감옥",
+      "감정 연기",
+      "bad",
+      "항준",
+      "요들",
+      "으르렁",
+      "same-line"
+    ],
+    "sources": [
+      "https://www.i-boss.co.kr/ab-74668-5824",
+      "https://www.yna.co.kr/view/AKR20261020084800505",
+      "https://www.i-boss.co.kr/ab-74668-5400"
+    ],
+    "limits": "Workerread/editorunread. Videocon2026-07-14 crosspost is same source family;institution uses reported not originalverified. Yareu alarm and emotion acting overlap existing bodies. Iksan/Seosan Instagramblocked;Finland Asiatoday502. Imagesvideos0;AI-marked cards excluded."
+  },
+  "semantic_audit": {
+    "ids": [
+      "0353",
+      "0358",
+      "0359",
+      "0360",
+      "0364",
+      "0367",
+      "0371",
+      "0372",
+      "0374",
+      "0377",
+      "0387",
+      "0389",
+      "0390",
+      "0399",
+      "0400",
+      "0403",
+      "0405",
+      "0406",
+      "0413",
+      "0423"
+    ],
+    "queries": [
+      "늬픽",
+      "닌자|몰살",
+      "범인|배신자|임포스터",
+      "노무현|시대가 오",
+      "부질없|뻘짓",
+      "다정한부부|부부",
+      "닭장",
+      "닭팔이",
+      "당신이 옳|네가 옳|맞았",
+      "대기업|입사|깨달음",
+      "도지|doge",
+      "독도|킥",
+      "독일|초딩|키보드",
+      "동전|징징이",
+      "동현|퍼니박스",
+      "두원|공대",
+      "두창",
+      "뒤질랜드",
+      "딱딱해|딱딱",
+      "마스터|기억해"
+    ],
+    "rows": 20,
+    "unclear": 20,
+    "changes": 0,
+    "body_reads": 10,
+    "limits": "Different couple/channel/person not matched by commonname. General theme or ordinary adverb in body not target meme. Unclear does not mean definitely absent."
+  },
+  "editor": {
+    "queries": [
+      "\"홍박사님을 아세요\" \"2026\" -site:namu.moe",
+      "\"햄최몇\" \"2026\" -site:namu.moe",
+      "\"함정카드\" \"2026\" \"발동\" -site:namu.moe",
+      "\"햄최몇\" \"2026\" -영수증 -조롱 -직원 -site:namu.moe",
+      "\"함정카드 발동\" \"2026\" -메이플 -유희왕 -site:namu.moe"
+    ],
+    "candidates": [
+      "1156 홍박사님을 아세요",
+      "1113 햄최몇",
+      "1106 함정카드"
+    ],
+    "recommended": 0,
+    "limits": "Recent marriage name references not independent dance adaptations. Voda weddingclip cachemiss, video unseen. 햄최몇 recentreceipt incident reported by multiple outlets all same event, not multiple usages;bodyshaming risk. 함정카드 game-related literal/cardjournalism insufficient for nongame adaptation. NateJTBC open returned page shell: find 줄임말 no match, so article detail only search snippet, not full body verified. CookieTCG Nate open cachemiss.",
+    "sources": [
+      "https://news.nate.com/view/20260706n27957",
+      "https://news.nate.com/view/20260428n03934"
+    ]
+  },
+  "ci": {
+    "report349": {
+      "run": 44239351755,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 69.674
+    }
+  }
+}
