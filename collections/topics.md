@@ -989,6 +989,7 @@
 - [간바레 챌린지](../memes/ganbare-three-panel-challenge.md)
 - [간절스러웠어요](../memes/ganjeolseureowosseoyo.md)
 - [그럼 다음은 무조건 ○○겠지](../memes/next-trend-wish-template.md)
+- [꼬마 선장 춤](../memes/little-captain-dance.md)
 - [꿍싯꿍싯 챌린지](../memes/kkungsit-kkungsit-challenge.md)
 - [나 됐어요! ○○ 됐어요!](../memes/i-became-template.md)
 - [나무 챌린지](../memes/tree-flailing-challenge.md)

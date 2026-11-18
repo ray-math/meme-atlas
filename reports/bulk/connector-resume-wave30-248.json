@@ -1,0 +1,25 @@
+{
+  "batch": 248,
+  "canonical_before": 910,
+  "canonical_after": 911,
+  "added": [
+    "little-captain-dance"
+  ],
+  "evidence": {
+    "independent_domestic_participation_reports": 2,
+    "additional_2026_revival_post": 1,
+    "original_videos_images": 0,
+    "scope_review": "passed; dance only, not all aura-farming",
+    "limits": "2025 Korean participation predates current one-year window; 2026 sources revival only. KOCCA mirror not independent; ITZY same example not doubled. No minor identities."
+  },
+  "metrics": {
+    "query_observations": 1562,
+    "distinct_literal_queries": 1264,
+    "note": "No new search rows; source recovery/audit of prior candidate."
+  },
+  "checks": {
+    "normalized_collisions": 0,
+    "readme_topics_roundtrip": true,
+    "ci": "not run"
+  }
+}

@@ -84,3 +84,4 @@
 - [식스 세븐](../memes/six-seven.md)
 - [이지까까](../memes/easy-kkakka.md)
 - [RUDE! 나레이션 패러디](../memes/rude-narration.md)
+- [꼬마 선장 춤](../memes/little-captain-dance.md)
