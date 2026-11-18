@@ -189,10 +189,11 @@
     "reports/bulk/connector-resume-wave30-357.json",
     "reports/bulk/connector-resume-wave30-358.json",
     "reports/bulk/connector-resume-wave30-359.json",
-    "reports/bulk/connector-resume-wave30-360.json"
+    "reports/bulk/connector-resume-wave30-360.json",
+    "reports/bulk/connector-resume-wave30-361.json"
   ],
-  "query_observations": 4404,
-  "distinct_literal_queries": 3782,
+  "query_observations": 4438,
+  "distinct_literal_queries": 3815,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -22414,6 +22415,176 @@
     {
       "query": "\"한번만 더 건드리면\" \"인천외고\"",
       "source": "reports/bulk/connector-resume-wave30-360.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한 번만 더 건드리면\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내가 누군지 알게 해줄게\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"공식 블로그\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한 번만 더 건드리면\" \"소방\"",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한 번만 더 건드리면\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한번만 더 건드리면\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:marine.gwnu.ac.kr \"동상 수상작\"",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:korea.kr \"진짜 한 번만 더 건드리면\"",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한 번만 더 건드리면\" \"밈\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "건드리",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누군지",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라을라",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "체포하",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "주문랩",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "설거지|퐁퐁",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "성괴|성형",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "성윤모|신병",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "4대 16|16세",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "세뇌|교육",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "소련|국가",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "소금|팥팥",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "속보|breaking",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쇼트트랙|편파|곽윤기",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "수박도|수박",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스까|덮밥",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스너고",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스윗중남|짱탄",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스핔|스피키",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "시바견|doge|도지",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "식객민우|식객",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "신안",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "신창섭|창섭|다 해줬",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "실장석|참피",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "심기체",
+      "source": "reports/bulk/connector-resume-wave30-361.json",
       "status": "screened-see-report"
     }
   ],
