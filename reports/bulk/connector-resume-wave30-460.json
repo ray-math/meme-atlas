@@ -1,0 +1,395 @@
+{
+  "batch": 460,
+  "base": "8159345d72599870d4263c3706c9b06c28993928",
+  "canonical_before": 1225,
+  "canonical_after": 1236,
+  "added": [
+    "teacher-or-noona-choice-dialogue",
+    "happy-song-cover-challenge",
+    "dramatic-suit-transformation-parody",
+    "your-blank-replaced-be-grateful",
+    "borzoi-let-me-help-parody",
+    "blackboard-circle-recreation",
+    "chek-rap-parody",
+    "ai-character-song-cover",
+    "kiss-seongmun-fan-reaction",
+    "extreme-eye-closeup-selfie",
+    "distanced-logo-parody"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-1118",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "dramatic-suit-transformation-parody"
+    },
+    {
+      "id": "kr-list-0536",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "your-blank-replaced-be-grateful"
+    },
+    {
+      "id": "kr-list-0096",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "borzoi-let-me-help-parody"
+    },
+    {
+      "id": "kr-list-1152",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "blackboard-circle-recreation"
+    },
+    {
+      "id": "kr-list-1155",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "chek-rap-parody"
+    },
+    {
+      "id": "kr-list-0085",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "ai-character-song-cover"
+    },
+    {
+      "id": "kr-list-0113",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "kiss-seongmun-fan-reaction"
+    },
+    {
+      "id": "kr-list-0604",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "distanced-logo-parody"
+    }
+  ],
+  "previous_ci": {
+    "run": 44284344482,
+    "job": 134733011680,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 132.949s"
+  },
+  "previous_audit": {
+    "batch": 459,
+    "sha": "8159345d72599870d4263c3706c9b06c28993928",
+    "result": "pass",
+    "required_fixes": 0,
+    "new_bodies": 12,
+    "index_count": 1225,
+    "prior1213_unchanged": true,
+    "mapping1021_1022": "same partial family",
+    "images_videos": 0
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"하루만 기다리면\" \"나와요\" 밈",
+        "\"하츠네 형돈\"",
+        "\"한글 써지지 않다\"",
+        "\"한글자 드립\"",
+        "\"핫산\" 밈 뜻",
+        "\"회사 안다녀\" 밈",
+        "\"호라\" \"멀쩡하자나\"",
+        "\"하츠네 형돈\" -site:namu.moe",
+        "\"하츠네 형돈\" 패러디 -site:namu.moe",
+        "\"호라\" \"멀쩡하자나\" -site:namu.moe -site:wiki",
+        "\"할 말이 없네\" 밈",
+        "\"헬테이커\" 팬아트 한국",
+        "\"하츄핑\" \"패러디\"",
+        "\"해명이\" \"밈\"",
+        "\"황시\" \"밈\"",
+        "\"向天再借五百年\" 한국 밈",
+        "\"하츠네형돈\" \"정형돈\"",
+        "\"허경영\" \"밈\" \"눈빛\"",
+        "\"헝그리 정신\" \"밈\"",
+        "\"하루만 기다리면\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "recommended": 3,
+      "held": 17,
+      "queries": [
+        "\"호텔경제학\" 밈",
+        "\"흑드라군\"",
+        "\"힙통령\" \"패러디\"",
+        "\"흔한 여고생들의 뻘짓\"",
+        "\"11미터 모형탑\" 패러디",
+        "\"1초만에 사람을 낚는 방법\"",
+        "\"64 bits\" \"밈\"",
+        "\"학개론\" \"패러디\"",
+        "\"AI 커버\" \"밈\"",
+        "\"AK47\" \"패러디\"",
+        "\"Dr. Livesey\" 한국 밈",
+        "\"street photographer\" 한국 밈",
+        "\"didn't i do it for you\" 한국 밈",
+        "\"EZ DO DANCE\" \"밈\"",
+        "\"FBI OPEN UP\" 한국",
+        "\"He is\" \"밈\"",
+        "\"finally awake\" 한국 패러디",
+        "\"K-\" 접두사 패러디",
+        "\"학개론\" \"패러디\" \"건축학개론\"",
+        "\"황금마티즈\" 뜻"
+      ]
+    },
+    "A3": {
+      "count": 20,
+      "recommended": 2,
+      "conditional_held": 1,
+      "existing": 1,
+      "held": 16,
+      "queries": [
+        "\"김헌곤 유니버스\"",
+        "\"음탕지찬\"",
+        "\"키스성문\"",
+        "\"ㅎㄴㅎㄴ\" 야구",
+        "\"KON\" 밈",
+        "\"ketsu drum\" 한국",
+        "\"Mafia City\" \"패러디\"",
+        "\"Maxwell Cat\" \"밈\"",
+        "\"MC 노리아키\" 밈",
+        "\"인크레더블\" \"밈\"",
+        "\"mmmm cow\" 밈",
+        "\"Nyan Cat\" \"패러디\"",
+        "\"PAC-MAN ghost dance\"",
+        "\"Pink Elephants on Parade\" 밈",
+        "\"Pray For Paris\" 밈",
+        "\"Sims cat breaking\"",
+        "\"S stands for\" \"패러디\"",
+        "\"Terrified Noot Noot\" 한국",
+        "\"The one piece is real\" 한국"
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 10,
+      "held": 8,
+      "queries": [
+        "2026 \"밈\" \"따라\" site:allurekorea.com",
+        "2026 \"밈\" \"패러디\" site:univ20.com",
+        "2026 \"밈\" \"챌린지\" site:elle.co.kr",
+        "\"밈\" \"2026.11\" \"챌린지\" -site:instablank.com -site:onmeme.com",
+        "\"내가 선생이야 누나야\" 패러디",
+        "\"2026\" \"밈\" \"셀카\" -site:instablank.com"
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 5,
+      "held": 1,
+      "excluded": 13,
+      "queries": [
+        "\"전여친\" \"감자칼\" \"2026\"",
+        "\"감자칼\" site:maily.so/trendaword",
+        "\"감자칼\" site:careet.net",
+        "\"2026\" \"밈\" \"패러디\" site:news.sbs.co.kr",
+        "\"2026\" \"밈\" \"재현\" site:imnews.imbc.com",
+        "\"2026\" \"밈\" \"따라\" site:news.kbs.co.kr",
+        "2026 밈 \"직원\" \"패러디\" -트럼프 -머스크 -란란루",
+        "2026 밈 \"대학생\" \"챌린지\" -site:instablank.com",
+        "2026 \"밈\" \"인형\" \"사진\" -site:instablank.com",
+        "\"wow okay\" \"챌린지\" 한국",
+        "\"Soundgo\" \"챌린지\""
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 1,
+      "conditional_held": 2,
+      "existing_partial": 5,
+      "held": 12,
+      "queries": [
+        "\"번역기 드립\" \"대체\"",
+        "\"벽부수기\" \"이지툰\"",
+        "\"봇이지 뭐\" 밈",
+        "\"부리부리\" \"춤\" 패러디",
+        "\"당신의\" \"대체되었다\" \"밈\"",
+        "\"본인 방금\" \"상상함\" 뜻",
+        "\"불만 있냐\" \"물도 있다\" 패러디",
+        "\"불티\" \"밈\" 전영록",
+        "\"대체되었다\" \"번역기\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"불만 있냐\" \"물도\" 기사",
+        "\"본인 방금\" site:news.blizzard.com",
+        "\"벽부수기\" 이지툰 패러디 -site:namu.moe -site:seore.org -site:alphawiki.org",
+        "\"대체되었다\" \"항상 감사하십시오\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"불만 있냐\" \"물도 있다\" -site:namu.moe -site:seore.org",
+        "\"본인 방금\" \"상상함\" \"와우\"",
+        "\"북방코끼리바다표범\" \"밈\""
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "recommended": 0,
+      "conditional_held": 1,
+      "existing_partial": 4,
+      "held": 15,
+      "queries": [
+        "\"비둘기야 먹자\" 패러디 유행",
+        "\"뼈 맞았어\" \"밈\"",
+        "\"벽돌\" \"할아버지\" \"로봇댄스\"",
+        "\"빵뚜아 이낫\"",
+        "\"뼈 맞았어\" 신조어 뜻",
+        "\"벽돌 할아버지\" 춤",
+        "\"빨강 사기맵\" 유래",
+        "\"사고 쳤을 때\" \"입 다물고\"",
+        "\"뼈 맞았어\" \"팩트\" 기사",
+        "\"빅 나티를 변기에\" 패러디",
+        "\"비둘기야 먹자\" \"스니커즈\" 광고",
+        "\"사고 쳤을 때\" \"심슨\" -site:namu.moe -site:seore.org",
+        "\"뼈 맞았어\" site:news.nate.com",
+        "\"사고 쳤을 때 입 다물고\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"빨강 사기맵\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"사랑의 열매\" \"밈\""
+      ]
+    },
+    "C3": {
+      "count": 20,
+      "recommended": 1,
+      "conditional_held": 1,
+      "existing_partial": 6,
+      "held": 12,
+      "queries": [
+        "\"사카밤바스피스\" \"밈\" 박물관",
+        "\"삼각함수송\" 국민일보",
+        "\"섊\" 신조어",
+        "\"샤방송\" 유행",
+        "\"샤방송\" 뜻 유래 -site:namu.moe -site:seore.org",
+        "\"사정없이 보내버리겠다\" 패러디",
+        "\"서로 깨물었을 때 반응\" 밈",
+        "\"사회적 거리두기\" \"밈\" 로고",
+        "\"삼각함수송\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"샤방송\" -site:namu.moe -site:seore.org -site:alphawiki.org",
+        "\"사회적 거리두기\" \"로고\" \"패러디\"",
+        "\"삼성걸\" \"팬아트\"",
+        "\"삼각함수송\" \"2021\" \"왱\" site:v.daum.net",
+        "\"사카밤바스피스\" \"패러디\" -site:namu.moe -site:seore.org -site:alphawiki.org",
+        "\"섣불리 판단하면 안되는 이유\" 밈",
+        "\"삼도수군통제사\" \"드립\""
+      ]
+    },
+    "editor": {
+      "count": 0,
+      "queries": [
+        "2026 11월 한국 밈 유행 새로운 챌린지 -site:namu.moe -site:instablank.com",
+        "2026 \"밈\" \"11월\" site:careet.net",
+        "\"전여친\" \"감자칼\" 밈",
+        "\"전남친\" \"감자칼\" 2026",
+        "site.careet.net \"2026\" \"10 /\" \"밈\"",
+        "site:univ20.com \"2026\" \"11\" \"밈\"",
+        "site:careet.net \"2026\" \"11\" \"이주의 밈\"",
+        "site:careet.net \"2026\" \"10\" \"이주의 밈\""
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "teacher-or-noona-choice-dialogue",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail?id=3042&pageidx=1",
+        "https://www.i-boss.co.kr/ab-74668-3957"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "happy-song-cover-challenge",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/2452"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dramatic-suit-transformation-parody",
+      "urls": [
+        "https://www.newsis.com/video/view/?id=NISX20230328_0002244182"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "your-blank-replaced-be-grateful",
+      "urls": [
+        "https://v.daum.net/v/20250215173900043",
+        "https://dirac-eq.tistory.com/225"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "borzoi-let-me-help-parody",
+      "urls": [
+        "https://h0sadama.tistory.com/entry/Let-me-do-it-for-you-밈-뜻-완벽-정리-밈감님"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "blackboard-circle-recreation",
+      "urls": [
+        "https://www.insight.co.kr/news/349814"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "chek-rap-parody",
+      "urls": [
+        "https://www.etnews.com/20150114000015?m=1",
+        "https://www.osen.co.kr/article/G1110535984"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ai-character-song-cover",
+      "urls": [
+        "https://magazine.beattitude.kr/essay/kimkyoungsoo3/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kiss-seongmun-fan-reaction",
+      "urls": [
+        "https://www.yna.co.kr/amp/view/AKR20220714081000007"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "extreme-eye-closeup-selfie",
+      "urls": [
+        "https://www.hankyung.com/article/2025102245397"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "distanced-logo-parody",
+      "urls": [
+        "https://www.esquirekorea.co.kr/article/45554",
+        "https://v.daum.net/v/jLlLxBZOGW"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "160 expression-review observations, not lifetime unique discoveries. Eleven bounded historical entries; no newly verified recent-year entry this batch. AI-character article publication date unverified. 0129 explanation-only kept held; 0540/0546/0569/0601 conditional held. Latest Careet2034 paywall only teaser read, not evidence for entries.",
+    "Direct text use, creator self-report and journalistic description separated. No image/video inspected."
+  ],
+  "query_observations": 7895,
+  "distinct_literal_queries": 6833,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ],
+  "review_observations": {
+    "total": 160,
+    "selected_expression_rows": 11,
+    "selected_families": 11,
+    "existing_or_partial": 31,
+    "excluded": 13,
+    "held": 105,
+    "unique_across_lifetime": null
+  }
+}
