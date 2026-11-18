@@ -83,6 +83,7 @@
 - [HMH·GMG](../memes/hmh-gmg.md)
 - [I am 신뢰에요](../memes/i-am-korean-mixed-template.md)
 - [OTL](../memes/otl.md)
+- [Sea of Love 재패러디](../memes/sea-of-love-reparody.md)
 - [TMI](../memes/tmi.md)
 - [TS 말포이](../memes/ts-malfoy.md)
 - [~각](../memes/gak-situation.md)

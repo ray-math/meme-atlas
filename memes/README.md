@@ -22,6 +22,7 @@
 - [PPAP](ppap.md)
 - [Queen never cry](queen-never-cry.md)
 - [RUDE! 나레이션 패러디](rude-narration.md)
+- [Sea of Love 재패러디](sea-of-love-reparody.md)
 - [TMI](tmi.md)
 - [TS 말포이](ts-malfoy.md)
 - [UBD](ubd.md)

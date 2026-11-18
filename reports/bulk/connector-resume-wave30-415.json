@@ -1,0 +1,106 @@
+{
+  "batch": 415,
+  "base": "67e96cc330631c33061b2922ae29113b697e04d2",
+  "canonical_before": 996,
+  "canonical_after": 997,
+  "added": [
+    "sea-of-love-reparody"
+  ],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" \"패러디\" site:news.korea.ac.kr",
+      "2026 \"밈\" \"챌린지\" site:snunews.com",
+      "2026 \"밈\" \"유행\" site:harpersbazaar.co.kr",
+      "2026 \"밈\" \"따라\" site:elle.co.kr",
+      "2026 \"내돈내땀\"",
+      "2026 \"힙사사돈\" \"챌린지\"",
+      "2026 \"밈\" site:news.kyobobook.co.kr",
+      "2026 \"밈\" site:news.hidoc.co.kr",
+      "\"Who is guilty\" \"챌린지\" \"2026\"",
+      "\"폭주기니\" \"2026\""
+    ],
+    "screened": 10,
+    "existing": [
+      "hipsasadon",
+      "iraira-challenge",
+      "show-off-our-kid",
+      "bugatti-challenge",
+      "first-lesson",
+      "chill-guy"
+    ],
+    "held": [
+      "Wait/Maps",
+      "Who is Guilty?",
+      "폭주기니",
+      "내돈내땀"
+    ],
+    "sources": [
+      "https://www.harpersbazaar.co.kr/article/1893477",
+      "https://www.ledesk.co.kr/view.php?uid=14834",
+      "https://enews.imbc.com/News/RetrieveNewsInfo/495392",
+      "https://www.elle.co.kr/article/1901453",
+      "https://enews.imbc.com/News/RetrieveNewsInfo/508887",
+      "https://weekly.donga.com/culture/article/all/11/6137767/1"
+    ],
+    "note": "회고게시일≠각참여일. 힙사사돈본문동일. 폭주기니춤/쇼핑별명동일미확정,내돈내땀동일계정. 후속○○사람이라면사귈수있을까는미대조·1계정설명,집계제외."
+  },
+  "researchB": {
+    "queries": [
+      "\"먹bread\" \"2026\"",
+      "\"비둘기야 먹자\" \"2026\"",
+      "\"이빨 보이지마\" \"2026\"",
+      "\"예쁘잖아\" 밈 \"2026\"",
+      "\"섊\" \"2026\"",
+      "\"비둘기야 먹자\" -site:namu.moe -site:op.gg -site:steamdb.info -site:seore.org",
+      "\"먹bread 긴장해라\" -site:namu.moe -site:hanglow.app",
+      "\"뽀구미\" \"예쁘잖아\" 패러디 -site:namu.moe",
+      "\"이빨 보이지마\" 패러디 -site:namu.moe"
+    ],
+    "rows": [
+      "0467",
+      "0569",
+      "0585",
+      "0618",
+      "0854"
+    ],
+    "recommended": 0,
+    "held": 5,
+    "note": "먹bread해설/닉네임,뽀구미원창작자/외모조롱제외,섊단독욕설은밈검증아님,오르비78453512 403 MS2026게시연도아님.",
+    "source": {
+      "url": "https://www.gamechosun.co.kr/webzine/article/view.php?from=main&no=227344",
+      "date": "2026-11-08",
+      "scope": "비둘기야먹자구구구구 게임명명보도1. UCC의도적차용미확정,실행0. 인벤256407 502,조아라1022536 JS,스팀5395560불가."
+    }
+  },
+  "editor": {
+    "queries": [
+      "\"Sea of Love\" \"피식대학\" 패러디 동작",
+      "\"Sea of Love\" \"진주무관\" 패러디",
+      "\"Sea of Love 2025\" 동행축제"
+    ],
+    "source": "https://www.etoday.co.kr/news/view/2500808?trc=main_list_news",
+    "date": "2025-08-28",
+    "note": "최근1년밖, 피식대학 재현형식 설명 보조. 최근보도와 제작시점분리."
+  },
+  "audit": {
+    "passed": true,
+    "source_reads": 3,
+    "index_rows": 996,
+    "production_groups": 2,
+    "scope": "기관자기보고1+별개지자체제작보도1.양주시2025-08-20공개는기사귀속,최근신규제작아님.원영상0.원곡커버전체/고정안무/최초자포괄안함."
+  },
+  "final996audit": {
+    "passed": true,
+    "body_reads": 1,
+    "required_changes": 0
+  },
+  "ci996": {
+    "run": 44256125306,
+    "job": 134638124380,
+    "success": true,
+    "tests": 495,
+    "seconds": 79.104
+  },
+  "candidate_changes": 0,
+  "ci_new_commit": "pending"
+}
