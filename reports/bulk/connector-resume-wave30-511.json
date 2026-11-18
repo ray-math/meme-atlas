@@ -1,0 +1,358 @@
+{
+  "batch": 511,
+  "base": "30c2389ed87c0e54a3160a78a0f8e0edb159f21a",
+  "canonical_before": 1746,
+  "canonical_after": 1757,
+  "added": [
+    "sims-cat-break-dancing-parody",
+    "ppakgong-intensive-study-slang",
+    "daetsseuni-comment-author-initial",
+    "japanese-show-korean-fansub-parody",
+    "hyeomsaeng-weary-daily-life",
+    "hyeonmangjinchang-disrupted-daily-life",
+    "hyeonsaeng-real-daily-life",
+    "malneomsim-harsh-words-reaction",
+    "daetlympic-first-come-fan-comments",
+    "jyana-comic-sentence-ending",
+    "drink-this-and-date-me-confession-parody"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0142",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "sims-cat-break-dancing-parody"
+    }
+  ],
+  "previous_ci": {
+    "head": "30c2389ed87c0e54a3160a78a0f8e0edb159f21a",
+    "run": 44354128042,
+    "job": 134977500165,
+    "conclusion": "success",
+    "steps": 65,
+    "passed": 65,
+    "python": [
+      "Ran 497 tests in 104.092s"
+    ]
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "required_changes": 0,
+    "entries": 1746,
+    "files": 20
+  },
+  "research": {
+    "B590": {
+      "observations": 7,
+      "recommended": 1,
+      "existing": 2,
+      "held": 4,
+      "direct": 2,
+      "queries": [
+        "2026 \"패러디\" \"따라 말\" -site:namu.wiki",
+        "2026 \"밈\" \"재현\" site:news.kbs.co.kr",
+        "2026 \"패러디\" \"제작\" site:news.jtbc.co.kr",
+        "2026 \"패러디했다\" \"대사\" site:enews.imbc.com",
+        "2026 \"따라 했다\" \"말투\" site:osen.co.kr",
+        "2026 \"패러디\" \"대사\" site:ent.sbs.co.kr",
+        "\"걸로체\" \"패러디\" \"광고\"",
+        "\"2026\" \"하는 걸로\" \"장동건\"",
+        "\"걸로체\" \"패러디\" -site:namu.moe -site:namu.wiki",
+        "\"내 안에 너 있다\" \"패러디\" \"2026\""
+      ],
+      "editorial_correction": "추천 내 안에 너 있다 기존 you-in-here 동일 가족으로 신규 제외"
+    },
+    "A112": {
+      "rows": 6,
+      "recommended": 1,
+      "held": 5,
+      "direct": 2,
+      "queries": [
+        "\"노리아키\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"팩맨\" \"고스트\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"Pink Elephants on Parade\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"Sims cat\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"S stands for\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"Terrified Noot Noot\" 한국 -site:namu.moe -site:seore.org"
+      ]
+    },
+    "C103": {
+      "observations": 7,
+      "recommended": 2,
+      "existing": 1,
+      "held": 4,
+      "direct": 3,
+      "failed": 1,
+      "queries": [
+        "\"빡공\" \"빡세게 공부\"",
+        "\"주접킹\" site:enews.imbc.com",
+        "\"댓쓴이\" \"뜻\"",
+        "\"현생\" \"현실 생활\" 신조어",
+        "\"혐생\" 뜻 기사"
+      ]
+    },
+    "A113": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 3,
+      "queries": [
+        "\"날 내버려둬\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"내 식사를 방해할 생각인가\" -site:namu.moe -site:seore.org",
+        "\"너 개못하잖아\" -site:namu.moe -site:seore.org",
+        "\"누나 좋아해요\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"당연히 말이 되죠\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"동현이의 퍼니박스\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "B591": {
+      "observations": 7,
+      "recommended": 1,
+      "existing": 1,
+      "held": 5,
+      "direct": 2,
+      "queries": [
+        "2026 \"패러디\" \"시늉\" \"대사\"",
+        "2026 \"유행어\" \"따라하며\" -site:namu.moe",
+        "2026 \"밈\" \"상황극\" site:enews.imbc.com",
+        "2026 \"패러디\" \"따라\" site:busan.com",
+        "2026 \"패러디\" \"말투\" site:newsis.com",
+        "2026 \"유행어\" \"재현\" site:sports.khan.co.kr",
+        "\"사내뷰공업\" \"자막\" \"패러디\" \"2026\"",
+        "\"일본 예능\" \"패러디\" \"자막\" -site:namu.moe -site:namu.wiki"
+      ]
+    },
+    "A114": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 1,
+      "failed": 3,
+      "queries": [
+        "\"미쿠미쿠하게 해줄게\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"바바바바바바\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"밤 샌 사람\" \"일찍\" -site:namu.moe -site:seore.org",
+        "\"벽부수기\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"북방코끼리바다표범\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"불티\" \"밈\" 패러디 -site:namu.moe -site:seore.org"
+      ]
+    },
+    "editor_followup": {
+      "queries": [
+        "2026 신조어 \"쌉가능\" \"폼\" 밈",
+        "2026 \"밈\" \"드립\" \"유래\" 11월",
+        "\"미쿠미쿠하게 해줄게\" \"아이린\"",
+        "\"껍던씸\" -site:namu.wiki -site:meme100.me",
+        "\"전여친\" \"감자칼\" 2026 기사",
+        "\"하카나이\" \"아조\" 기사",
+        "\"현생\" \"뜻\" site:hani.co.kr",
+        "\"현생\" \"현실 생활\" -site:namu.wiki -site:sites.google.com -site:namu.moe"
+      ],
+      "notes": "Discovery only; no new adopted candidate. Inven retry502; search snippets not promoted to verified.",
+      "existing_rechecks": [
+        "kkeopdeonssim-relay-dance",
+        "ex-girlfriend-peeler"
+      ]
+    },
+    "C104": {
+      "observations": 7,
+      "recommended": 2,
+      "conditional": 1,
+      "existing": 1,
+      "held": 3,
+      "direct": 5,
+      "failed": 1,
+      "queries": [
+        "\"현생\" \"현실 생활\" site:news.nate.com",
+        "\"혐생\" \"혐오스러운\" -site:shindonga.donga.com",
+        "\"주접킹\" \"애정\" site:enews.imbc.com",
+        "\"현생\" \"현실 생활\" 인터뷰",
+        "\"현망진창\" 신조어 기사"
+      ]
+    },
+    "A115": {
+      "rows": 6,
+      "recommended": 0,
+      "existing": 1,
+      "held": 5,
+      "direct": 1,
+      "failed": 1,
+      "existing_body_reads": 1,
+      "queries": [
+        "\"식객민우\" \"유래\" -site:namu.moe -site:seore.org",
+        "\"심기체론\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"씽씽이\" \"패러디\" 김연아",
+        "\"아니다 이 악마야\" -site:namu.moe -site:seore.org",
+        "\"아카자\" \"패러디\" \"농구공\"",
+        "\"옴마니반메훔\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"심기체론\" 게임 -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"아카자\" \"농구공\" 밈 -site:namu.moe -site:seore.org"
+      ]
+    },
+    "B592": {
+      "observations": 4,
+      "recommended": 0,
+      "existing": 3,
+      "held": 1,
+      "direct": 2,
+      "queries": [
+        "2026 \"패러디\" \"재현했다\" site:news1.kr",
+        "2026 \"패러디\" \"제작했다\" site:newsis.com",
+        "2026 \"유행어\" \"바꿔\" site:enews.imbc.com"
+      ]
+    },
+    "C105": {
+      "observations": 8,
+      "recommended": 2,
+      "conditional": 1,
+      "existing": 3,
+      "held": 2,
+      "direct": 5,
+      "failed": 2,
+      "queries": [
+        "\"혼틈\" \"뜻\" 기사",
+        "\"댓림픽\" \"댓글\" 기사",
+        "\"말넘심\" \"말이\" 기사",
+        "\"댓림픽\" 선착순 기사",
+        "\"혼틈\" \"혼란을 틈타\" 뉴스",
+        "\"혼틈\" \"셀카\" site:enews.imbc.com",
+        "\"혼틈\" \"셀카\" 기사",
+        "\"댓림픽\" site:weverse.io"
+      ]
+    },
+    "B593": {
+      "observations": 5,
+      "recommended": 2,
+      "existing": 1,
+      "held": 2,
+      "direct": 5,
+      "queries": [
+        "2026 \"패러디\" \"대사\" \"공공기관\"",
+        "2026 \"유행어\" \"따라하며\" \"광고\"",
+        "2026 \"패러디\" \"재현\" site:enews.imbc.com",
+        "2026 \"패러디\" \"말투\" \"제작\"",
+        "2026 \"이거 마시면\" \"패러디\"",
+        "2026 \"쟈나\" \"김준호\""
+      ]
+    },
+    "A116": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 2,
+      "failed": 1,
+      "queries": [
+        "\"거룡을 상대한 건\" -site:namu.moe -site:seore.org",
+        "\"거짓말하지 말아요\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"건우 엄마 데리고 와\" 패러디 -site:namu.moe -site:seore.org",
+        "\"고만해 미친놈들아\" -site:namu.moe -site:seore.org",
+        "\"그들의 연회에\" -site:namu.moe -site:seore.org",
+        "\"나는 예쁘지 않습니다\" -site:namu.moe -site:seore.org"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "sims-cat-break-dancing-parody",
+      "urls": [
+        "https://megatonjang.tistory.com/1053",
+        "https://everymemes.tistory.com/540"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ppakgong-intensive-study-slang",
+      "urls": [
+        "https://it.donga.com/18854/",
+        "https://v.daum.net/v/EaYgDftEW1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "daetsseuni-comment-author-initial",
+      "urls": [
+        "https://v.daum.net/v/20191009065107540?s=print_news"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "japanese-show-korean-fansub-parody",
+      "urls": [
+        "https://mobile.newsis.com/view/NISX20240718_0002816619"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hyeomsaeng-weary-daily-life",
+      "urls": [
+        "https://v.daum.net/v/APnfm7yYsB",
+        "https://antiegg.kr/20259/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hyeonmangjinchang-disrupted-daily-life",
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20160205164139"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hyeonsaeng-real-daily-life",
+      "urls": [
+        "https://v.daum.net/v/20260226162905254"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "malneomsim-harsh-words-reaction",
+      "urls": [
+        "https://www.insight.co.kr/news/116316",
+        "https://v.daum.net/v/Qs2hYJWIvQ"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "daetlympic-first-come-fan-comments",
+      "urls": [
+        "https://www.starnewskorea.com/star/2015/09/20/2015091817021697566"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jyana-comic-sentence-ending",
+      "urls": [
+        "https://www.ytn.co.kr/_ln/0117_201711221022522168",
+        "https://news.nate.com/view/20260425n03225"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "drink-this-and-date-me-confession-parody",
+      "urls": [
+        "https://enews.imbc.com/News/ViewAmp/236246",
+        "https://www5.osen.co.kr/article/G1112288400"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Eleven bounded entries; media viewed zero. Recent 2026 applications only hyeonsaeng, malneomsim and jyana (the latter a broadcast preview), not newly coined in 2026. Remaining entries historical.",
+    "Independent preaudit excluded nae-ane-neo-itta-dialogue-parody as same family as you-in-here; B590 original recommendation is not adoption. No existing pinned body edited.",
+    "B591 corrected from 8 observations/6 held to 7 observations/5 held; no fabricated missing candidate. Groups overlap across rechecks; their sums are not distinct candidate counts.",
+    "kr-list-0142 Sims cat breaking changes unclear to included; two personal explainers, not two primary creators. Conflicting audio chronology excluded.",
+    "ppakgong two articles share Donga publisher family; undated second page reports video upload2020-12-23, not publication date. daetsseuni one explanatory article only.",
+    "Fansub one production recreation reported in2024, not all Japanese shows or all fansubs. Hyeomsaeng health/causal generalizations excluded; hyeonmangjinchang2016-02-06 input,02-09 modified, not URLdate.",
+    "Malneomsim Insight date inversion explicitly disclosed; Newsen2026body independently read. Jy ana source private-life claims and ownership/origin disputes excluded.",
+    "Daetlympic2015 historical process, not current event rules. Drink confession two productions2018/2024, no actual consent or drinking-pressure implications.",
+    "Parent Inven source recovery retries failed502, remains held. Conditional hyeonsaeng recovered by BNT2026 article; hontteum remains held.",
+    "All previous1746 index rows/bodies and approved usage annotations preserved; permanent related-guide generator and tests unchanged.",
+    "Independent preaudit PASS11 required0. OSEN parent directly read but auditor retry cache miss; audit independently read iMBC filming/preview text, not finished broadcast. Both source-access statuses distinguished."
+  ],
+  "query_observations": 12661,
+  "distinct_literal_queries": 10397,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
