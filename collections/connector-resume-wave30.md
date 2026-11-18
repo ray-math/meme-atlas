@@ -191,3 +191,4 @@
 - [너어는 진짜](../memes/neoeoneun-jinjja.md)
 - [더러운 입을 놀리느냐](../memes/dirty-mouth-remix.md)
 - [개같이 부활 / 개같이 멸망](../memes/gaegachi-result-reaction.md)
+- [몰?루](../memes/molru-text-reaction.md)

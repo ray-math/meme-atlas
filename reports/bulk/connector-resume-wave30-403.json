@@ -1,0 +1,135 @@
+{
+  "batch": 403,
+  "base": "403480a1993f3aa3115f61343257ff6a5a322a5c",
+  "canonical_before": 989,
+  "canonical_after": 990,
+  "added": [
+    "molru-text-reaction"
+  ],
+  "editor": {
+    "queries": [
+      "\"2026\" \"마따끄\" -site:namu.moe -site:issuelink.co.kr -site:gall.dcinside.com -site:inven.co.kr -site:chhez.org",
+      "\"몰?루\" \"2026\" 게임 후기 -site:namu.moe -site:tele.wiki -site:tg.me",
+      "\"몰?루\" \"2026\" 후기 도시락 -site:tele.wiki -site:chatcrawler.app",
+      "\"몰?루\" \"2026\" \"맛\" -site:namu.moe -site:tg.me -site:tele.wiki"
+    ],
+    "candidate": {
+      "id": "0481",
+      "sources": [
+        "https://etoland.co.kr/hit/rescene/view/%EC%9B%90%EC%9D%B4-%EB%8F%84%EC%8B%9C%EB%9D%BD-%EB%A8%B9%EC%96%B4%EB%B4%84-9585625",
+        "https://gall.dcinside.com/mini/board/view/?id=gongjoon&no=12004&page=1"
+      ],
+      "note": "11-16도시락가격이유모름본문직접1+10-24재전재글진위모름1(원작성일불명).원캐릭터기원0.오르비풀이후기cachemiss.추가닉네임/정치비난/집계미채택"
+    },
+    "status": "independent_audit_passed_bounded_text"
+  },
+  "independent_candidate_audit": {
+    "passed": true,
+    "source_reads": 2,
+    "related_body_reads": 3,
+    "limits": "최근직접작성1+원작성일불명재전재1.두최근독립작성으로세지않음.문자범위만partial"
+  },
+  "researchA": {
+    "held": [
+      {
+        "title": "친구가 선물로만 대답한다",
+        "url": "https://iubs.tv/front/movie/movieM2_1.do?pageIndex=57",
+        "note": "검색9-3제목vs직접11-10다른영상동적페이지"
+      },
+      {
+        "title": "의정부시복지어때",
+        "url": "https://iubs.tv/front/movie/movieView.do?pageIndex=45",
+        "note": "직접11-17다른영상,기존yeogi-eottae-song관련단서만"
+      },
+      {
+        "title": "102호차빼",
+        "note": "suto2025-11-27~12-03집계뿐원문없음"
+      },
+      {
+        "title": "유진밈",
+        "url": "https://www.news1.kr/industry/general-industry/6319339",
+        "note": "기업인스타툰명밈형식아님,동일10-14발표보도,본문누락"
+      },
+      {
+        "title": "의정부45편",
+        "url": "https://k1b.ujbcl.go.kr/cms/mntsViewer.do?mntsId=5438",
+        "note": "타임아웃구체형식없음후보수미포함"
+      }
+    ],
+    "queries": [
+      "2026 \"밈\" \"패러디\" \"공식\" \"박물관\"",
+      "2026 \"밈\" \"패러디\" \"도서관\"",
+      "2026 \"밈\" \"챌린지\" \"소방서\"",
+      "2026 \"밈\" \"활용\" \"공사\"",
+      "2026 \"밈\" \"패러디\" \"의정부\"",
+      "2026 \"밈\" \"앗티\"",
+      "2026 \"유진밈\"",
+      "2026 \"밈\" \"공식\" \"한국전력\"",
+      "\"유진밈\" site:eugenegroup.co.kr",
+      "\"의정부시\" \"2026\" \"패러디\" -site:namu.moe -site:work.00data.kr",
+      "\"친구가 선물로만 대답한다\"",
+      "\"102호\" \"차 빼\" \"패러디\" 2026"
+    ]
+  },
+  "researchB": {
+    "rows": [
+      {
+        "id": "0780",
+        "url": "https://imnews.imbc.com/replay/2022/nwtoday/article/6341911_35752.html",
+        "note": "2022-02-16여성비하맥락중립귀여운말투로순화안함"
+      },
+      {
+        "id": "0787",
+        "note": "사전뜻풀이외최근적용0"
+      },
+      {
+        "id": "0844",
+        "url": "https://www.inven.co.kr/board/maple/2297/343398?iskin=maple&my=opi",
+        "note": "최근게임조정요구검색단서원문502"
+      },
+      {
+        "id": "0882",
+        "sources": [
+          "https://m.inven.co.kr/board/lostark/6271/4192408",
+          "https://www.inven.co.kr/board/lostark/6271/4148721?vtype=pc"
+        ],
+        "note": "검색게임명치환2원문502독립불명"
+      },
+      {
+        "id": "0953",
+        "url": "https://maily.so/trendaword/posts/8do7qj4ergq",
+        "note": "2024-08-15해설+자체변형1군최근아님"
+      }
+    ],
+    "queries": [
+      "\"오또케 오또케\" \"2026\"",
+      "\"오지다\" \"2026\" 유행어",
+      "\"이건 마지막 경고요\" \"2026\"",
+      "\"꾀죄죄하게 입고\" \"2026\"",
+      "\"지가\" \"노코노코\" \"탓탓\" \"2026\"",
+      "\"오또케 오또케\" 패러디 -site:namu.moe",
+      "\"이건 마지막 경고요\" \"2026\" -site:inven.co.kr -site:issuelink.co.kr",
+      "\"꾀죄죄하게 입고\" \"2026\" -site:inven.co.kr",
+      "\"지가못해놓고\" \"2026\" -site:namu.moe",
+      "\"노코노코\" \"탓탓\" -site:namu.moe",
+      "\"오지고 지리고\" \"2026\""
+    ]
+  },
+  "candidate_change": {
+    "id": "kr-list-0481",
+    "from": "index_not_found",
+    "to": "partial"
+  },
+  "ci": {
+    "body989": {
+      "run": 44251681500,
+      "job": 134623644118,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 74.327,
+      "success": true
+    },
+    "report402": "pending",
+    "new_commit": "pending"
+  }
+}

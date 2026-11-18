@@ -229,10 +229,11 @@
     "reports/bulk/connector-resume-wave30-398.json",
     "reports/bulk/connector-resume-wave30-399.json",
     "reports/bulk/connector-resume-wave30-400.json",
-    "reports/bulk/connector-resume-wave30-402.json"
+    "reports/bulk/connector-resume-wave30-402.json",
+    "reports/bulk/connector-resume-wave30-403.json"
   ],
-  "query_observations": 5361,
-  "distinct_literal_queries": 4638,
+  "query_observations": 5388,
+  "distinct_literal_queries": 4664,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -27239,6 +27240,141 @@
     {
       "query": "\"2026\" \"밈\" \"유행\" site:harpersbazaar.co.kr",
       "source": "reports/bulk/connector-resume-wave30-402.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"마따끄\" -site:namu.moe -site:issuelink.co.kr -site:gall.dcinside.com -site:inven.co.kr -site:chhez.org",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"몰?루\" \"2026\" 게임 후기 -site:namu.moe -site:tele.wiki -site:tg.me",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"몰?루\" \"2026\" 후기 도시락 -site:tele.wiki -site:chatcrawler.app",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"몰?루\" \"2026\" \"맛\" -site:namu.moe -site:tg.me -site:tele.wiki",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"공식\" \"박물관\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"도서관\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"챌린지\" \"소방서\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"활용\" \"공사\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"의정부\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"앗티\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"유진밈\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"공식\" \"한국전력\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"유진밈\" site:eugenegroup.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"의정부시\" \"2026\" \"패러디\" -site:namu.moe -site:work.00data.kr",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"친구가 선물로만 대답한다\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"102호\" \"차 빼\" \"패러디\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오또케 오또케\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오지다\" \"2026\" 유행어",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이건 마지막 경고요\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꾀죄죄하게 입고\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"지가\" \"노코노코\" \"탓탓\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오또케 오또케\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이건 마지막 경고요\" \"2026\" -site:inven.co.kr -site:issuelink.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꾀죄죄하게 입고\" \"2026\" -site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"지가못해놓고\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노코노코\" \"탓탓\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오지고 지리고\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-403.json",
       "status": "screened-see-report"
     }
   ],
