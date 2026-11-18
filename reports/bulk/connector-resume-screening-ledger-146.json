@@ -175,10 +175,11 @@
     "reports/bulk/connector-resume-wave30-343.json",
     "reports/bulk/connector-resume-wave30-344.json",
     "reports/bulk/connector-resume-wave30-345.json",
-    "reports/bulk/connector-resume-wave30-346.json"
+    "reports/bulk/connector-resume-wave30-346.json",
+    "reports/bulk/connector-resume-wave30-347.json"
   ],
-  "query_observations": 4040,
-  "distinct_literal_queries": 3457,
+  "query_observations": 4087,
+  "distinct_literal_queries": 3496,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -20580,6 +20581,241 @@
     {
       "query": "\"겨울배\" 패러디 -site:namu.moe -site:alphawiki.org",
       "source": "reports/bulk/connector-resume-wave30-346.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하루만 기다리면\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하츠네 형돈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한글 써지지 않다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"회사 안다녀\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"젠젠 멀쩡\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하츠네 형돈\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"utdaein\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"젠젠 멀쩡하자나\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"호라 모 젠젠\" \"2026\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한글 써지지\" -site:namu.moe -site:everymemes.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"퇴비쌓기올리기\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "0\\+0|인간 여|한로로",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "chicken|치킨바나나|바나나",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "let.?it.?go|렛잇고|겨울왕국",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "기가차드|gigachad",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "1일.*깡|깡 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "병진|뒈지기",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "불협화음|안 멋져|이찬혁",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "새삥|바타",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "시카노|호시탐탐|사슴 아이",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "얼짱|얼굴.*짱",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "웬즈데이|wednesday",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이경영|진행시켜",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "저세상|저 세상",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "태보|조혜련",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "초성|ㅇㅈ|ㅇㄱㄹㅇ|ㄹㅇㅋㅋ",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "카구야|치카",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "티니핑|○○핑|OO핑",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "펩시맨|pepsiman",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "펭수|펭하",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포브스|forbes",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"2026년 11월\" -site:namu.moe -site:sinjoeo.kr",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"대학\" \"패러디\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그럼 아이스티 4개\" \"2026\" -site:instablank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"능글맞은 개코원숭이\" -site:yongdev.dev",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"북극곰\" \"2026\" \"밈\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조우노아시\" 게임 \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아이스티 4개\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"북극곰\" \"November\" 한국 밈",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"능글맞은\" \"개코원숭이\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아이스티",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감자칼",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개코",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이모지",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "체포",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "북극곰",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "조우노아시",
+      "source": "reports/bulk/connector-resume-wave30-347.json",
       "status": "screened-see-report"
     }
   ],

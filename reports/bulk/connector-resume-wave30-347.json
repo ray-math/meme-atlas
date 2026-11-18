@@ -1,0 +1,144 @@
+{
+  "batch": 347,
+  "base": "c369e19624a1f9fd3de58a508f2f8011675025d1",
+  "canonical_before": 969,
+  "canonical_after": 969,
+  "added": [],
+  "research": {
+    "ids": [
+      "1087",
+      "1094",
+      "1098",
+      "1129",
+      "1140"
+    ],
+    "recommended": 0,
+    "held": 5,
+    "queries": [
+      "\"하루만 기다리면\" 밈",
+      "\"하츠네 형돈\" \"2026\"",
+      "\"한글 써지지 않다\" \"2026\"",
+      "\"회사 안다녀\" \"2026\"",
+      "\"젠젠 멀쩡\" \"2026\"",
+      "\"하츠네 형돈\" -site:namu.moe",
+      "\"utdaein\" -site:namu.moe",
+      "\"젠젠 멀쩡하자나\" -site:namu.moe",
+      "\"호라 모 젠젠\" \"2026\" -site:namu.moe -site:seore.org",
+      "\"한글 써지지\" -site:namu.moe -site:everymemes.tistory.com",
+      "\"퇴비쌓기올리기\" -site:namu.moe"
+    ],
+    "sources": [
+      "https://www.illusionlive.com/seomong/?bmode=view&idx=58953449",
+      "https://theqoo.net/square/1834020406",
+      "https://everymemes.tistory.com/410"
+    ],
+    "limits": "Workerread/editorunread. 1087 old2024 adaptation;recentOrbi403,imagesunviewed;avoidselfharm depiction.1094 old2021 compilation,linkedvideosunviewed.1098 historical2021 explanation,notnewapplication.1129 generalworktalk/personalmockery no boundeduse.1140 wiki/mirrors notindependent."
+  },
+  "editor": {
+    "queries": [
+      "\"2026\" \"밈\" \"2026년 11월\" -site:namu.moe -site:sinjoeo.kr",
+      "\"2026\" \"밈\" \"대학\" \"패러디\" -site:namu.moe",
+      "\"그럼 아이스티 4개\" \"2026\" -site:instablank.com -site:namu.moe",
+      "\"능글맞은 개코원숭이\" -site:yongdev.dev",
+      "\"북극곰\" \"2026\" \"밈\" site:theqoo.net",
+      "\"조우노아시\" 게임 \"2026\"",
+      "\"아이스티 4개\" 밈",
+      "\"북극곰\" \"November\" 한국 밈",
+      "\"능글맞은\" \"개코원숭이\" 밈"
+    ],
+    "index_queries": [
+      "아이스티",
+      "감자칼",
+      "개코",
+      "이모지",
+      "체포",
+      "북극곰",
+      "조우노아시"
+    ],
+    "existing": [
+      "ex-girlfriend-peeler",
+      "my-emoji",
+      "under-arrest"
+    ],
+    "held": [
+      "아이스티4개",
+      "능글맞은개코원숭이",
+      "Remember November2026",
+      "조우노아시"
+    ],
+    "limits": "Search snippets only; aggregator descriptions and game reviews do not independently establish Korean applied meme usage. No body read, audiovisual inspection or canonical promotion in this pass."
+  },
+  "semantic_audit": {
+    "ids": [
+      "0051",
+      "0089",
+      "0118",
+      "0257",
+      "0269",
+      "0543",
+      "0561",
+      "0614",
+      "0660",
+      "0752",
+      "0824",
+      "0850",
+      "0909",
+      "0932",
+      "0988",
+      "1001",
+      "1049",
+      "1065",
+      "1066",
+      "1072"
+    ],
+    "queries": [
+      "0\\+0|인간 여|한로로",
+      "chicken|치킨바나나|바나나",
+      "let.?it.?go|렛잇고|겨울왕국",
+      "기가차드|gigachad",
+      "1일.*깡|깡 챌린지",
+      "병진|뒈지기",
+      "불협화음|안 멋져|이찬혁",
+      "새삥|바타",
+      "시카노|호시탐탐|사슴 아이",
+      "얼짱|얼굴.*짱",
+      "웬즈데이|wednesday",
+      "이경영|진행시켜",
+      "저세상|저 세상",
+      "태보|조혜련",
+      "초성|ㅇㅈ|ㅇㄱㄹㅇ|ㄹㅇㅋㅋ",
+      "카구야|치카",
+      "티니핑|○○핑|OO핑",
+      "펩시맨|pepsiman",
+      "펭수|펭하",
+      "포브스|forbes"
+    ],
+    "rows": 20,
+    "partial": 20,
+    "classification_changes": 0,
+    "body_reads": 25,
+    "mapping_additions": [
+      "real-lol",
+      "trembling-reaction",
+      "dududunga"
+    ],
+    "editor_reads": 3,
+    "limits": "Specific format not full song/work/person coverage. No external source revalidation of existing bodies."
+  },
+  "ci": {
+    "report344": {
+      "run": 44238677647,
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 108.204,
+      "conclusion": "success"
+    },
+    "report345": {
+      "run": 44238792089,
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 51.901,
+      "conclusion": "success"
+    }
+  }
+}
