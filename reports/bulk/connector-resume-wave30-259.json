@@ -1,0 +1,41 @@
+{
+  "batch": 259,
+  "canonical_before": 916,
+  "canonical_after": 916,
+  "queries": [
+    "\"2026\" \"밈\" site:magazine.hankyung.com \"11월\"",
+    "\"2026\" \"밈\" site:20slab.org \"10월\"",
+    "\"2026\" \"밈\" site:univ20.com \"11월\" -site:onmeme.com",
+    "\"2026\" \"밈\" \"11월\" site:elle.co.kr",
+    "\"2026\" \"밈\" \"11월\" site:harpersbazaar.co.kr",
+    "\"2026\" \"밈\" \"11월\" site:cosmopolitan.co.kr",
+    "\"2026\" \"밈\" \"수능\" -site:namu.wiki -site:namu.moe -site:jjalbang.today -site:onmeme.com",
+    "\"2026\" \"밈\" \"수험생\" -site:namu.wiki -site:namu.moe"
+  ],
+  "index_queries": [
+    "리트냥이",
+    "편입냥이",
+    "세무냥이",
+    "초지능"
+  ],
+  "audit": {
+    "sha": "8b46ad8e0a92325f8a2385f51cdff51a0d26f4da",
+    "truncated": false,
+    "count": 916,
+    "missing": 0,
+    "extra": 0
+  },
+  "john_park_search_text_check": "matches after origin-only reinforcement",
+  "semantic_duplicate": "nyang-parody; examined full existing body; no added aliases targeting other examinees",
+  "risk_review": {
+    "source": "https://www.yna.co.kr/view/AKR20261116107100505",
+    "date": "2026-11-17",
+    "result": "source distinguishes suspicion from fact; no promotion of person-targeted allegations; existing caution retained"
+  },
+  "search_limits": "fashion magazine Nov2026 searches empty; other domains mainly generic/event listings, not evidence of absence",
+  "metrics": {
+    "query_observations": 1808,
+    "distinct_literal_queries": 1467
+  },
+  "ci": "not run"
+}

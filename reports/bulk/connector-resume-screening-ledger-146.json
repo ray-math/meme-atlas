@@ -100,10 +100,11 @@
     "reports/bulk/connector-resume-wave30-255.json",
     "reports/bulk/connector-resume-wave30-256.json",
     "reports/bulk/connector-resume-wave30-257.json",
-    "reports/bulk/connector-resume-wave30-258.json"
+    "reports/bulk/connector-resume-wave30-258.json",
+    "reports/bulk/connector-resume-wave30-259.json"
   ],
-  "query_observations": 1796,
-  "distinct_literal_queries": 1455,
+  "query_observations": 1808,
+  "distinct_literal_queries": 1467,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -9285,6 +9286,66 @@
     {
       "query": "정보",
       "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:magazine.hankyung.com \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-259.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:20slab.org \"10월\"",
+      "source": "reports/bulk/connector-resume-wave30-259.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:univ20.com \"11월\" -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-259.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" site:elle.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-259.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" site:harpersbazaar.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-259.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" site:cosmopolitan.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-259.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"수능\" -site:namu.wiki -site:namu.moe -site:jjalbang.today -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-259.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"수험생\" -site:namu.wiki -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-259.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "리트냥이",
+      "source": "reports/bulk/connector-resume-wave30-259.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "편입냥이",
+      "source": "reports/bulk/connector-resume-wave30-259.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "세무냥이",
+      "source": "reports/bulk/connector-resume-wave30-259.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "초지능",
+      "source": "reports/bulk/connector-resume-wave30-259.json",
       "status": "screened-see-report"
     }
   ],
