@@ -203,10 +203,11 @@
     "reports/bulk/connector-resume-wave30-372.json",
     "reports/bulk/connector-resume-wave30-373.json",
     "reports/bulk/connector-resume-wave30-374.json",
-    "reports/bulk/connector-resume-wave30-375.json"
+    "reports/bulk/connector-resume-wave30-375.json",
+    "reports/bulk/connector-resume-wave30-376.json"
   ],
-  "query_observations": 4948,
-  "distinct_literal_queries": 4250,
+  "query_observations": 4969,
+  "distinct_literal_queries": 4271,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -25148,6 +25149,111 @@
     {
       "query": "우정잉",
       "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마이야히\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"모스카우\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무츠키 댄스\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무수히 많은 악수의 요청\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미쿠미쿠하게 해줄게\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무수한 악수의 요청\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무츠키 댄스\" 만들",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"모스카우\" 패러디 제작",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무수히 많은 악수\" -site:namu.moe -site:ilbe.com -site:eqlstore.com",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마이야히\" \"패러디\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무츠키 댄스\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무수히 많은 악수의 요청\" -site:namu.moe -site:inven.co.kr -site:ilbe.com -site:eqlstore.com -site:piajoa.pe.kr",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무수한 악수\" 브랜드 협업",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"로스트 미\" \"해봤\"",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"챗GPT\" \"독설\" \"블로그\"",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"나와 내 직업\" \"캐리커처\" 후기",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로스트미\" \"2026\" 후기",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"roast me\" \"2026\" site:tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"캐리커처\" \"2026\" \"해봤\" 챗",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"roast me\" \"2026\" \"해봤다\" -site:journal0624.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로스트\" \"2026\" \"챗GPT\" \"해봤\"",
+      "source": "reports/bulk/connector-resume-wave30-376.json",
       "status": "screened-see-report"
     }
   ],
