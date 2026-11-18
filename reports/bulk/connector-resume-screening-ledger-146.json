@@ -162,10 +162,11 @@
     "reports/bulk/connector-resume-wave30-330.json",
     "reports/bulk/connector-resume-wave30-331.json",
     "reports/bulk/connector-resume-wave30-332.json",
-    "reports/bulk/connector-resume-wave30-333.json"
+    "reports/bulk/connector-resume-wave30-333.json",
+    "reports/bulk/connector-resume-wave30-334.json"
   ],
-  "query_observations": 3670,
-  "distinct_literal_queries": 3107,
+  "query_observations": 3701,
+  "distinct_literal_queries": 3134,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -18717,6 +18718,161 @@
     {
       "query": "존버|해병|꼰대|꼰|틀딱|라떼|꿈.*반전",
       "source": "reports/bulk/connector-resume-wave30-333.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 \"11월\" 챌린지 -site:maily.so -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"10월\" site:esquirekorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:fastpapermag.com",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"NEON 챌린지\" \"옹성우\"",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"NEON 챌린지\" \"원희\"",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"NEON 챌린지\" \"2026\" -site:cutmarketing.app -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"충주시\" \"네온\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"네온 챌린지\" 써니",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"NEON\" \"챌린지\" site:news.nate.com",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"NEON\" \"챌린지\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"네온\" \"미미미누\" \"SBS\"",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"NEON\" \"챌린지\" \"충주맨\"",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미미미누\" \"네온\" site:sbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"NEON\" \"챌린지\" site:dispatch.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "NEON",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "네온",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "니온",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "A2O",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "내이모지",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "내이모찌",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "체포하겠어",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이순간이영원",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "L을가져가",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "귀농",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "허무주의",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "펭귄",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "nihilist",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "댑",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "dab",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "번역기",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "젠슨황",
+      "source": "reports/bulk/connector-resume-wave30-334.json",
       "status": "screened-see-report"
     }
   ],

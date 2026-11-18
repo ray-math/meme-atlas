@@ -15,6 +15,7 @@
 - [GOAT](goat.md)
 - [HMH·GMG](hmh-gmg.md)
 - [L을 가져가](take-the-l.md)
+- [NEON 페어 챌린지](neon-pair-challenge.md)
 - [OTL](otl.md)
 - [PPAP](ppap.md)
 - [Queen never cry](queen-never-cry.md)

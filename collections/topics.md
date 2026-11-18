@@ -854,6 +854,7 @@
 
 ## 연예
 
+- [NEON 페어 챌린지](../memes/neon-pair-challenge.md)
 - [가보자고](../memes/gabojago.md)
 - [갸루피스](../memes/gyaru-peace.md)
 - [그건 절대 안 되는 일이얌](../memes/not-allowed-ilyam.md)
@@ -960,6 +961,7 @@
 - [1일 1깡](../memes/one-day-one-ggang.md)
 - [BAD 챌린지](../memes/ateez-bad-challenge.md)
 - [ET춤](../memes/jewelry-et-dance.md)
+- [NEON 페어 챌린지](../memes/neon-pair-challenge.md)
 - [PPAP](../memes/ppap.md)
 - [RUDE! 나레이션 패러디](../memes/rude-narration.md)
 - [WYA 챌린지](../memes/where-you-at-challenge.md)

@@ -1,0 +1,94 @@
+{
+  "batch": 334,
+  "base": "5cd263f3533703f796d2a143d538f220e855d639",
+  "canonical_before": 962,
+  "canonical_after": 963,
+  "added": [
+    "neon-pair-challenge"
+  ],
+  "research": {
+    "candidates": [
+      "NEON페어챌린지",
+      "이거내이모지야",
+      "체포하겠어",
+      "영원할것같지",
+      "L을가져가",
+      "한소희귀농광고",
+      "허무주의펭귄",
+      "댑67조합",
+      "클레베르감독번역자막",
+      "젠슨황AI패러디"
+    ],
+    "recommended": [
+      "NEON페어챌린지"
+    ],
+    "existing": 4,
+    "held": 5,
+    "queries": [
+      "2026 밈 \"11월\" 챌린지 -site:maily.so -site:namu.moe",
+      "2026 \"밈\" \"10월\" site:esquirekorea.co.kr",
+      "2026 \"밈\" site:fastpapermag.com",
+      "\"NEON 챌린지\" \"옹성우\"",
+      "\"NEON 챌린지\" \"원희\"",
+      "\"NEON 챌린지\" \"2026\" -site:cutmarketing.app -site:namu.moe",
+      "\"충주시\" \"네온\" 챌린지",
+      "\"네온 챌린지\" 써니",
+      "\"NEON\" \"챌린지\" site:news.nate.com",
+      "\"NEON\" \"챌린지\" site:theqoo.net",
+      "\"네온\" \"미미미누\" \"SBS\"",
+      "\"NEON\" \"챌린지\" \"충주맨\"",
+      "\"미미미누\" \"네온\" site:sbs.co.kr",
+      "\"NEON\" \"챌린지\" site:dispatch.co.kr"
+    ],
+    "index_queries": [
+      "NEON",
+      "네온",
+      "니온",
+      "A2O",
+      "내이모지",
+      "내이모찌",
+      "체포하겠어",
+      "이순간이영원",
+      "L을가져가",
+      "귀농",
+      "허무주의",
+      "펭귄",
+      "nihilist",
+      "댑",
+      "dab",
+      "번역기",
+      "젠슨황"
+    ],
+    "sources": [
+      "https://blog.hsad.co.kr/3798",
+      "https://theqoo.net/square/4388296003",
+      "https://gall.dcinside.com/mgallery/board/view/?id=mimiohmygirl&no=82577&page=1"
+    ],
+    "audit": {
+      "read": 3,
+      "shared_posts": 2,
+      "original_video_viewed": 0,
+      "dates": "2026-10-27 and2026-11-11 shareddatesnotproduction",
+      "partial_overlap": "mihon-and-bihon alreadymentionsintroAIparody; newentryscopepairedchoreographyonly; editorneedreadbeforedecision",
+      "limits": "Sameactualdanceexecution not visuallycompared. Metadata sharedtextonly."
+    }
+  },
+  "editor": {
+    "read_sources": 3,
+    "read_overlap": "memes/mihon-and-bihon.md",
+    "decision": "Separate intro paired dance from chorus mondegreen. Partial overlap acknowledged; existing body unchanged.",
+    "source_types": "1 explanation +2 shared posts naming different participant combinations",
+    "original_videos_viewed": 0,
+    "limits": "Shared dates are not production dates. No visual comparison or origin/scale verification."
+  },
+  "previous_ci": {
+    "sha": "5cd263f3533703f796d2a143d538f220e855d639",
+    "run": 44235662218,
+    "conclusion": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": 104.489
+  },
+  "ci": "new commit pending",
+  "coverage": "1091 source rows immutable; classification counts unchanged; new discovery outside original rows"
+}
