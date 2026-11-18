@@ -205,10 +205,11 @@
     "reports/bulk/connector-resume-wave30-374.json",
     "reports/bulk/connector-resume-wave30-375.json",
     "reports/bulk/connector-resume-wave30-376.json",
-    "reports/bulk/connector-resume-wave30-377.json"
+    "reports/bulk/connector-resume-wave30-377.json",
+    "reports/bulk/connector-resume-wave30-378.json"
   ],
-  "query_observations": 4980,
-  "distinct_literal_queries": 4279,
+  "query_observations": 5004,
+  "distinct_literal_queries": 4301,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -25310,6 +25311,126 @@
     {
       "query": "한단어",
       "source": "reports/bulk/connector-resume-wave30-377.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"AI 압수수색\" \"해봤\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"챗GPT\" \"압수수색\" 후기",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"직접 써\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라우럴\" 지수 패러디",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오디세이\" \"디저트\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"선크림 아저씨\" 패러디 2026",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스카프 아저씨\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"선크림 아저씨\" \"따라\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사지 마\" \"스카프\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:82cook.com \"스카프 아저씨 입담으로 댓글 놀이\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:82cook.com \"스카프리오 패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"동그란 맘속에 피어난\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"띠용띠용\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"럼자오자레\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"망했어요\" \"2026\" \"엄재경\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"띠용띠용 워익워익\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"럼자오자레\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"동그란 맘속에 피어난\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"망했어요\" \"김태형\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" -site:namu.moe -site:inven.co.kr -site:issuelink.co.kr \"2026\" \"없으니\"",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" \"2026\" -site:namu.moe -site:inven.co.kr -site:issuelink.co.kr -site:kone.gg -site:gall.dcinside.com",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" site:maily.so",
+      "source": "reports/bulk/connector-resume-wave30-378.json",
       "status": "screened-see-report"
     }
   ],
