@@ -91,3 +91,5 @@
 - [자려고 누웠는데 양의지](../memes/lying-down-yang-euiji.md)
 - [언니가 불편해? 언니가 잘할게](../memes/unnie-will-do-better.md)
 - [하이닉스 조끼](../memes/hynix-vest-reversal.md)
+- [앙탈 챌린지](../memes/angtal-challenge.md)
+- [한두 달만 지나면 빙하기 찾아와](../memes/ice-age-coming-outing.md)

@@ -106,10 +106,11 @@
     "reports/bulk/connector-resume-wave30-261.json",
     "reports/bulk/connector-resume-wave30-262.json",
     "reports/bulk/connector-resume-wave30-263.json",
-    "reports/bulk/connector-resume-wave30-264.json"
+    "reports/bulk/connector-resume-wave30-264.json",
+    "reports/bulk/connector-resume-wave30-265.json"
   ],
-  "query_observations": 1970,
-  "distinct_literal_queries": 1604,
+  "query_observations": 2010,
+  "distinct_literal_queries": 1639,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -10161,6 +10162,206 @@
     {
       "query": "\"혼자 보고 살아왔을\"",
       "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" site:eyesmag.com",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" site:marieclairekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"2026\" site:elle.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뒤집기샷\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뒤집기샷\" -site:marieclairekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뒤집기샷\" 코르티스 -site:careet.net -site:marieclairekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뒤집기 샷\" 사진 \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앙탈 챌린지\" \"혜리\" \"성훈\"",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앙탈 챌린지\" \"2026\" \"박명수\"",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앙탈 챌린지\" \"2026\" \"MBC\" -site:namu.moe -site:m.namu.moe -site:d.namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앙탈 챌린지\" \"혜리\" -site:namu.moe -site:m.namu.moe -site:d.namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "OVERDRIVE",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "투어스",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "앙탈",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뒤집기",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "광각",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"출판사\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"박람회\" \"패러디\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"항공사\" \"패러디\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" \"새로운\" -site:namu.moe -site:instablank.com -site:edaily.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"가을\" \"브랜드\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빙하기 온다\" \"2026\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빙하기 찾아와\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"지금이 막차야\" \"빙하기\"",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바나나",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "54000",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빙하기",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "백반",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "모기",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "존버",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갓생",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노답",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "랜덤박스",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "어장관리",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "공원으로",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한강으로",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "날씨가 얼마나",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "공룡",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "추워",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빙하기",
+      "source": "reports/bulk/connector-resume-wave30-265.json",
       "status": "screened-see-report"
     }
   ],

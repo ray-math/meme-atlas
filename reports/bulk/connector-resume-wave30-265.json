@@ -1,0 +1,75 @@
+{
+  "batch": 265,
+  "canonical_before": 917,
+  "canonical_after": 919,
+  "added": [
+    "angtal-challenge",
+    "ice-age-coming-outing"
+  ],
+  "a": {
+    "queries": [
+      "\"밈\" \"2026\" site:eyesmag.com",
+      "\"밈\" \"2026\" site:marieclairekorea.com",
+      "\"밈\" \"2026\" site:elle.co.kr",
+      "\"뒤집기샷\" \"2026\"",
+      "\"뒤집기샷\" -site:marieclairekorea.com",
+      "\"뒤집기샷\" 코르티스 -site:careet.net -site:marieclairekorea.com",
+      "\"뒤집기 샷\" 사진 \"2026\"",
+      "\"앙탈 챌린지\" \"혜리\" \"성훈\"",
+      "\"앙탈 챌린지\" \"2026\" \"박명수\"",
+      "\"앙탈 챌린지\" \"2026\" \"MBC\" -site:namu.moe -site:m.namu.moe -site:d.namu.moe",
+      "\"앙탈 챌린지\" \"혜리\" -site:namu.moe -site:m.namu.moe -site:d.namu.moe"
+    ],
+    "index_queries": [
+      "OVERDRIVE",
+      "투어스",
+      "앙탈",
+      "뒤집기",
+      "광각"
+    ],
+    "hold": "뒤집기샷 Careet4184 appliedCortis1; MarieClaire2026/05/photo-2 explainer not2specific executions"
+  },
+  "b": {
+    "queries": [
+      "2026 \"밈\" \"출판사\" -site:namu.moe -site:instablank.com",
+      "2026 \"밈\" \"박람회\" \"패러디\" -site:namu.moe",
+      "2026 \"밈\" \"항공사\" \"패러디\" -site:namu.moe",
+      "\"2026\" \"밈\" \"11월\" \"새로운\" -site:namu.moe -site:instablank.com -site:edaily.co.kr",
+      "\"2026\" \"밈\" \"가을\" \"브랜드\" -site:namu.moe -site:instablank.com",
+      "\"빙하기 온다\" \"2026\" -site:instablank.com",
+      "\"빙하기 찾아와\" -site:namu.moe",
+      "\"지금이 막차야\" \"빙하기\""
+    ],
+    "index_queries": [
+      "바나나",
+      "54000",
+      "빙하기",
+      "백반",
+      "모기",
+      "존버",
+      "갓생",
+      "노답",
+      "랜덤박스",
+      "어장관리",
+      "공원으로",
+      "한강으로",
+      "날씨가 얼마나",
+      "공룡",
+      "추워",
+      "빙하기"
+    ],
+    "sources": [
+      "https://maily.so/trendaword/posts/e9o036m4o8w",
+      "https://www.incross.com/ko/insight/report.asp?idx=21104&mode=view&page="
+    ]
+  },
+  "evidence": {
+    "angtal": "interview retrospective1+separate official cliptext1+format explainer; originalvideo0; preview thirdcase excluded frombody",
+    "iceage": "two publisher text applications direct; external videos0, originunverified"
+  },
+  "metrics": {
+    "query_observations": 2010,
+    "distinct_literal_queries": 1639
+  },
+  "ci": "not run"
+}
