@@ -729,6 +729,7 @@
 
 ## 소비
 
+- [○○만 원이지만 또 가고 싶은 ○○](../memes/expensive-but-want-again.md)
 - [껍질 미리깐 달걀](../memes/pre-cracked-egg.md)
 - [돈쭐](../memes/donjjul.md)
 - [등골 브레이커](../memes/back-breaker.md)
@@ -868,6 +869,7 @@
 
 ## 음식
 
+- [○○만 원이지만 또 가고 싶은 ○○](../memes/expensive-but-want-again.md)
 - [군침이 싹 도노](../memes/gunsak-loopy.md)
 - [깻잎 논쟁](../memes/perilla-leaf-debate.md)
 - [낭낭하다](../memes/nangnang.md)
@@ -975,6 +977,7 @@
 
 - [○○ 와졌어](../memes/ended-up-here.md)
 - [○○ 필수 호신술](../memes/everyday-self-defense-parody.md)
+- [○○만 원이지만 또 가고 싶은 ○○](../memes/expensive-but-want-again.md)
 - [간바레 챌린지](../memes/ganbare-three-panel-challenge.md)
 - [간절스러웠어요](../memes/ganjeolseureowosseoyo.md)
 - [그럼 다음은 무조건 ○○겠지](../memes/next-trend-wish-template.md)

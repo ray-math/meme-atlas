@@ -1,0 +1,52 @@
+{
+  "base": "fd580a697136b6b18fd2f6e7c145b9089981d7d7",
+  "canonical_before": 900,
+  "canonical_after": 901,
+  "added": [
+    "expensive-but-want-again"
+  ],
+  "direct_reuse_texts": 2,
+  "newsletter_own_title": 1,
+  "source_urls": [
+    "https://ticket.interpark.com/DaeHakNo/Community/Review_Read.asp?bbsno=10&no=6202721",
+    "https://gall.dcinside.com/mgallery/board/view/?id=tenbagger&no=8521301&page=1",
+    "https://maily.so/trendaword/posts/x1zg5693oqg"
+  ],
+  "queries": [
+    "67만원",
+    "에어팟",
+    "안나오면",
+    "나타나기로",
+    "도파가키",
+    "고맙투우사",
+    "과자사꾸",
+    "젓가락",
+    "골반통신",
+    "도티",
+    "핑퐁",
+    "도파민파티",
+    "또가고",
+    "만원이지만",
+    "쌉가능",
+    "가고싶은",
+    "입덧",
+    "웃겨서",
+    "earpod",
+    "airpod"
+  ],
+  "semantic_duplicates": {
+    "나타나기로": "appear-in-algorithm",
+    "고맙투우사": "thank-you-bullfighter",
+    "젓가락": "chopstick-runway",
+    "골반통신": "pelvis-wont-stop",
+    "쌉가능": "ssap-ganeung"
+  },
+  "semantic_check": "10 price-related index rows inspected; none same template",
+  "limits": [
+    "original videos and images not viewed",
+    "not a 2026 coinage claim",
+    "first date unknown",
+    "same-author repost not independent"
+  ],
+  "ci": "not run"
+}

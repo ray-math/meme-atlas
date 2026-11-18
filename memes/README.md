@@ -32,6 +32,7 @@
 - [○○가 되](becomes-oo.md)
 - [○○가 뿔났다](ppulnatda-title-template.md)
 - [○○냥이](nyang-parody.md)
+- [○○만 원이지만 또 가고 싶은 ○○](expensive-but-want-again.md)
 - [○○핑](oo-ping.md)
 - [ㄹㅇㅋㅋ](real-lol.md)
 - [ㅇㄱㄹㅇ](igeo-real.md)

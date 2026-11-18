@@ -69,10 +69,11 @@
     "reports/bulk/connector-resume-discovery216.json",
     "reports/bulk/connector-resume-screening218.json",
     "reports/bulk/connector-resume-audit219.json",
-    "reports/bulk/connector-resume-editor-220.json"
+    "reports/bulk/connector-resume-editor-220.json",
+    "reports/bulk/connector-resume-editor-221.json"
   ],
-  "query_observations": 1081,
-  "distinct_literal_queries": 876,
+  "query_observations": 1101,
+  "distinct_literal_queries": 891,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -5679,6 +5680,106 @@
     {
       "query": "흑백요리사",
       "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "67만원",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "에어팟",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "안나오면",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나타나기로",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도파가키",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고맙투우사",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "과자사꾸",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "젓가락",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "골반통신",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도티",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "핑퐁",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도파민파티",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "또가고",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "만원이지만",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쌉가능",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가고싶은",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "입덧",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "웃겨서",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "earpod",
+      "source": "reports/bulk/connector-resume-editor-221.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "airpod",
+      "source": "reports/bulk/connector-resume-editor-221.json",
       "status": "screened-see-report"
     }
   ],
