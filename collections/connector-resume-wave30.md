@@ -119,3 +119,7 @@
 - [CHRISTIAN 패러디](../memes/christian-parody.md)
 
 - [민첩한 하루 되세요](../memes/nimble-day-greeting.md)
+
+- [나나나 솨](../memes/nanana-swa.md)
+
+- [개웃겨서 도티낳음](../memes/laugh-so-hard-dotty.md)

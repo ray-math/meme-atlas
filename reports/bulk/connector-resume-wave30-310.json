@@ -1,0 +1,118 @@
+{
+  "batch": 310,
+  "base": "dd9371295bba91f555e2224ca4ac7c9c402aff19",
+  "canonical_before": 943,
+  "canonical_after": 945,
+  "added": [
+    "nanana-swa",
+    "laugh-so-hard-dotty"
+  ],
+  "nana": {
+    "candidate": "0288",
+    "sources": [
+      "https://www.knn.co.kr/tv/special/vods/157/279282",
+      "https://newsway.co.kr/news/view?ud=2016010723351323525"
+    ],
+    "editor_read": true,
+    "dates": [
+      "2025-09-05",
+      "2016-01-07"
+    ],
+    "limits": "KNNpublicationnotperformance date; Newsway singerrecollectionnotjournalistobservation; video0 recentyear0"
+  },
+  "dotty": {
+    "candidate": "0182",
+    "editor_read": true,
+    "sources": [
+      "https://poomang.com/detail/dotty_test",
+      "https://centipedeman.itch.io/soonpoongdotty",
+      "https://www.etoday.co.kr/news/view/2539581"
+    ],
+    "limits": "Poomangdateunknown;itch2025-09-27,etoday2025-12-24modified25. Actualgame/testexecution0,recentyearcreation0confirmed,recollection1; originnotconfirmed"
+  },
+  "research_A": {
+    "reviewed": [
+      "0053",
+      "0064",
+      "0101",
+      "0144",
+      "0149",
+      "0157",
+      "0182",
+      "0190",
+      "0220",
+      "0241"
+    ],
+    "recommended": "0182",
+    "proposals": {
+      "index_not_found": [
+        "0149",
+        "0241"
+      ]
+    },
+    "sources": {
+      "0182": [
+        "https://poomang.com/detail/us6lgp",
+        "https://centipedeman.itch.io/soonpoongdotty",
+        "https://www.etoday.co.kr/news/view/2539581"
+      ],
+      "0149": [
+        "https://www.gamemeca.com/view.php?gid=1782601",
+        "https://gall.dcinside.com/mgallery/board/view/?id=hogwartslegacy&no=43935&page=1"
+      ],
+      "0241": [
+        "https://ggoltebba.tistory.com/59",
+        "https://mhnse.com/news/articleView.html?idxno=171508"
+      ]
+    },
+    "queries": [
+      "\"1. 들어올린다\" 밈",
+      "\"Point\" \"드립\" 밈",
+      "\"He is\" \"밈\" 한국",
+      "\"S stands for\" 한국 패러디",
+      "\"TS 말포이\" -site:namu.moe",
+      "\"가능성의\" \"밈\" -site:namu.moe",
+      "\"개웃겨서 도티낳음\" 2026",
+      "\"거룡을 상대한\" -site:namu.moe",
+      "\"구찌보이\" 밈 -site:namu.moe",
+      "\"그래 열심히 하자\" 밈 -site:namu.moe",
+      "\"도티낳음\" \"2026\" -site:namu.moe -site:wepick.kr",
+      "\"가능성의 짐승\" 밈 -site:namu.moe",
+      "\"도티낳음\" site:theqoo.net \"2026\"",
+      "\"도티 낳음\" 테스트 공모전 -site:namu.moe",
+      "\"Point 드립\" -site:namu.moe -site:seore.org",
+      "\"TS 말포이\" \"제작\" -site:namu.moe -site:issuelink.co.kr"
+    ],
+    "index_queries": [
+      "들어올",
+      "들어 올",
+      "point",
+      "he is",
+      "stands for",
+      "말포이",
+      "가능성",
+      "도티",
+      "사자심",
+      "거룡",
+      "구찌",
+      "열심히 하자"
+    ],
+    "limits": "0182Poomangundatedowncreation;itch2025-09-27outsideyear;etoday2025-12-24modified25recollectionnotcurrentapplication. 0149DC2026-10-20ownmod1+GameMeca2026-10-29description;no2creations. 0241Tistory2012-02-27ownparody1,MHN403. Editor not readyet,allunaccepted."
+  },
+  "editor_queries": [
+    "\"민첩한 하루 되세요\" \"2026\" -site:namu.moe -site:kurve.gg",
+    "\"개웃겨서 도티낳음\" \"2026\" -site:namu.moe -site:wepick.kr"
+  ],
+  "nimble_extra": "Tikita2026-08-22published2026-09-20modified ownfictionalchatstory read; nottrueoriginalincident/legalclaim. imginnxikersnotoriginalunverified.",
+  "audit": "both entries independent source+index943 review passed; no videos or game execution",
+  "classification_proposals_not_applied": [
+    "0149",
+    "0241",
+    "previous A unaccepted scope proposals"
+  ],
+  "metrics": {
+    "observations": 2918,
+    "distinct": 2417
+  },
+  "ci": "pending"
+}
