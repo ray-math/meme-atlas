@@ -148,10 +148,11 @@
     "reports/bulk/connector-resume-wave30-313.json",
     "reports/bulk/connector-resume-wave30-314.json",
     "reports/bulk/connector-resume-wave30-315.json",
-    "reports/bulk/connector-resume-wave30-317.json"
+    "reports/bulk/connector-resume-wave30-317.json",
+    "reports/bulk/connector-resume-wave30-319.json"
   ],
-  "query_observations": 3134,
-  "distinct_literal_queries": 2623,
+  "query_observations": 3183,
+  "distinct_literal_queries": 2672,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -16023,6 +16024,251 @@
     {
       "query": "귀멸|최애|제로.?투|하츠네|형돈|케인|심영|아재|펄.?럭",
       "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건에 대하여\" \"밈\" -site:namu.moe -슬라임 -site:note.com",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"시험 시작 1시간 전인 건에 대하여\"",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건에 대하여\" \"2026\" \"브이로그\"",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Nyan Cat\" \"한국\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Yee\" \"밈\" \"2026\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가정이 무너지고\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"간디\" \"유혈사태\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개노답 삼형제\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"거짓말하지 말아요\" \"죽여버리겠어요\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"계획대로\" \"밈\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그러면 죽어요\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나는 개인이오\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"네가 하면 나도 한다\" 밈 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"냥캣\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"간디\" \"유혈사태\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나는 개인이오\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그러면 죽어요\" \"패러디\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"계획대로\" \"데스노트\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "nyan",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "냥캣",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "yee",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가정이무너",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사회가무너",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "간디",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "유혈",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개노답",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삼형제",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "거짓말하지말",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "계획대로",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그러면죽",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나는개인",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "네가하면",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "hmh",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빅데이터\" \"휴먼\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빈 찬합\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뽀구미\" \"예쁘잖아\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사이버펑크\" \"2077\" 밈 한국 2026",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사탄\" \"실직\" 2026 밈",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삼체\" 2026 밈",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"수박도\" 드립 2026",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"시그마\" 밈 2026 한국",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"씽씽이\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아시발꿈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미쳤습니까 휴먼\" 2026 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빈 찬합\" 패러디 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아시발꿈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"수박도\" \"박수\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삼체\" \"해주삼\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뽀구미\" \"예쁘잖아 캠페인\"",
+      "source": "reports/bulk/connector-resume-wave30-319.json",
       "status": "screened-see-report"
     }
   ],
