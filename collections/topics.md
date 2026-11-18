@@ -611,6 +611,7 @@
 - [쫌쫌따리](../memes/jjomjjomttari.md)
 - [찌찌뽕](../memes/jjijjippong.md)
 - [차도남](../memes/chadonam.md)
+- [차원달라병](../memes/chawon-dalla-byeong.md)
 - [차카니 몇 개를 먹은 거람](../memes/chakani-praise.md)
 - [책없쾌](../memes/chaegeopkwae.md)
 - [첫 번째 레슨](../memes/first-lesson.md)

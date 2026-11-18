@@ -830,6 +830,7 @@
 - [쫌쫌따리](jjomjjomttari.md)
 - [찌찌뽕](jjijjippong.md)
 - [차도남](chadonam.md)
+- [차원달라병](chawon-dalla-byeong.md)
 - [차카니 몇 개를 먹은 거람](chakani-praise.md)
 - [참 쉽죠?](easy-isnt-it.md)
 - [책없쾌](chaegeopkwae.md)

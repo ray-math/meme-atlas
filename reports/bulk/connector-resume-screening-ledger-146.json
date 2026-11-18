@@ -236,10 +236,11 @@
     "reports/bulk/connector-resume-wave30-407.json",
     "reports/bulk/connector-resume-wave30-408.json",
     "reports/bulk/connector-resume-wave30-409.json",
-    "reports/bulk/connector-resume-wave30-411.json"
+    "reports/bulk/connector-resume-wave30-411.json",
+    "reports/bulk/connector-resume-wave30-412.json"
   ],
-  "query_observations": 5503,
-  "distinct_literal_queries": 4775,
+  "query_observations": 5513,
+  "distinct_literal_queries": 4784,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -27956,6 +27957,56 @@
     {
       "query": "\"차원달라병\" \"2026\" \"제목\"",
       "source": "reports/bulk/connector-resume-wave30-411.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"차원달라병\" \"2026\" -site:issuelink.co.kr -site:waglenet.com -site:news.nate.com -악뮤",
+      "source": "reports/bulk/connector-resume-wave30-412.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"차원달라병\" site:brunch.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-412.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"차원달라병\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-412.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"차원달라병\" \"인천\"",
+      "source": "reports/bulk/connector-resume-wave30-412.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가정이 무너지고\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-412.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개노답 삼형제\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-412.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개꿀잼몰카\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-412.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가정이 무너지고 사회가\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-412.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개꿀잼몰카\" \"2026\" -site:novawiki.app -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-412.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개노답 삼형제\" \"2026\" -site:allsnsrank.com -site:issuelink.co.kr -site:orbi.kr",
+      "source": "reports/bulk/connector-resume-wave30-412.json",
       "status": "screened-see-report"
     }
   ],
