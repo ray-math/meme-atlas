@@ -1,0 +1,74 @@
+{
+  "batch": 351,
+  "base": "129269e6bca821c6f5ee95d7dcc1529c82d84939",
+  "canonical_before": 969,
+  "canonical_after": 969,
+  "added": [],
+  "semantic_audit": {
+    "ids": [
+      "0279",
+      "0286",
+      "0290",
+      "0292",
+      "0294",
+      "0295",
+      "0303",
+      "0305",
+      "0308",
+      "0317",
+      "0318",
+      "0322",
+      "0324",
+      "0328",
+      "0329",
+      "0332",
+      "0334",
+      "0336",
+      "0346",
+      "0347"
+    ],
+    "queries": [
+      "꽈찌|로스트|행복할",
+      "나가있어|나가 있어|병진",
+      "개인이오|개인이요",
+      "애쉬|ashe",
+      "예쁘지|아름답지",
+      "자연인|이승윤|윤택",
+      "나여|백종원",
+      "아무렇지|괜찮",
+      "내버려|날 놔",
+      "내 거|욕 볼래",
+      "식사를 방해|식사|먹방",
+      "도키도키|냐아아",
+      "개못하|못하잖",
+      "너반시|반드시",
+      "쌓여|쌓였",
+      "너의.*은|너의 이름",
+      "넣을게|넣는다",
+      "설명해드렸|설명해 드렸",
+      "누나 좋아|누나|연하",
+      "눈을 왜|그렇게 떠"
+    ],
+    "rows": 20,
+    "before": {
+      "unclear": 20
+    },
+    "after": {
+      "partial": 1,
+      "unclear": 19
+    },
+    "body_reads": 10,
+    "editor_body_reads": 1,
+    "external_queries": 0,
+    "change": {
+      "candidate_id": "kr-list-0295",
+      "title": "나는 자연인이다",
+      "classification": "partial",
+      "dictionary_ids": [
+        "fish-head-curry-reaction"
+      ],
+      "reason": "Existing body directly identifies I Am a Natural Person food-scene reaction image; not complete program meme scope. Editor body reread351."
+    },
+    "limits": "Exact named program-to-specific-scene partial link only. No new usage research or broad theme matching."
+  }
+}
