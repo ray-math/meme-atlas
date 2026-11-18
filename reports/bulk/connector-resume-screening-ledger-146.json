@@ -260,10 +260,11 @@
     "reports/bulk/connector-resume-wave30-435.json",
     "reports/bulk/connector-resume-wave30-436.json",
     "reports/bulk/connector-resume-wave30-437.json",
-    "reports/bulk/connector-resume-wave30-438.json"
+    "reports/bulk/connector-resume-wave30-438.json",
+    "reports/bulk/connector-resume-wave30-439.json"
   ],
-  "query_observations": 5959,
-  "distinct_literal_queries": 5207,
+  "query_observations": 5981,
+  "distinct_literal_queries": 5225,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -30260,6 +30261,116 @@
     {
       "query": "\"너무 고마우시다\" site:x.com",
       "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:brunch.co.kr \"내가\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:yozm.wishket.com",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:ditoday.com",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:platum.kr",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"따라 써\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"바꿔 썼\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"내 블로그\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"댓글로 달\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"동전\" \"징징\" 밈 \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사탄\" \"실직\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"야후\" \"꾸러기\" 밈 \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"충격과 공포다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"천상천하 유아독존\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"동전줍는 징징이\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"충격과 공포다\" \"2026\" -site:issuelink.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사탄도\" \"2026\" 울고",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"X키를 눌러\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고수와 하수\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너굴맨\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조의를 표하십시오\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너굴맨이\" \"2026\" \"처리\"",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고수와 하수\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-439.json",
       "status": "screened-see-report"
     }
   ],
