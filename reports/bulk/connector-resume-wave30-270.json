@@ -1,0 +1,33 @@
+{
+  "batch": 270,
+  "canonical_before": 922,
+  "canonical_after": 922,
+  "added": [],
+  "independent_audit": {
+    "id": "narak-is-rock",
+    "sha": "5ffe4dd3034c5ebcec0287363f05f142d43eca40",
+    "result": "pass",
+    "index": 922,
+    "unique_ids": 922,
+    "readme": 922,
+    "manual_links": 96,
+    "body_index_fields": "title aliases tags summary search_text path match",
+    "sources_directly_read": 3,
+    "queries": 0,
+    "note": "March4 online registration versus March5 print distinguished; KBS editorial text not Kim Changwan quote; no2026origin claim; brand event images not directly verified"
+  },
+  "tree_check": {
+    "sha": "5ffe4dd3034c5ebcec0287363f05f142d43eca40",
+    "truncated": false,
+    "body_files": 922,
+    "index": 922,
+    "missing": 0,
+    "extra": 0
+  },
+  "metrics": {
+    "query_observations": 2116,
+    "distinct_literal_queries": 1724,
+    "note": "unchanged; direct URL audit not search query or unique candidate count"
+  },
+  "ci": "not run"
+}
