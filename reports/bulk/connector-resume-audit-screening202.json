@@ -1,0 +1,24 @@
+{
+  "queries": [
+    "\"간절스러웠어요\" \"2026\" -site:xportsnews.com -site:mk.co.kr -site:news.coupang.com -site:instablank.com -site:jjalbang.today",
+    "\"간절스러웠어요\" site:theqoo.net",
+    "\"간절스러웠어요\" site:maily.so"
+  ],
+  "leads": [
+    "https://theqoo.net/square/4133181760",
+    "https://www.newsen.com/news_view_prt.php?uid=202604270910291910"
+  ],
+  "status": "direct titles read, candidate still awaiting review; no canonical addition",
+  "canonical_count": 897,
+  "audit": {
+    "fixed_sha": "b4d9b5962f5e1dd15d738b9c75b47672cc47b8d9",
+    "id": "everyday-self-defense-parody",
+    "result": "Independent all index fields/body match; unique897, manual71, entrylink1. Sources reread; original videos0 and source-origin limits accurate; no corrections"
+  },
+  "lead_limits": [
+    "Theqoo title direct adaptation but body images not inspected",
+    "Newsen headline direct editorial adaptation to ratings; numerical ratings not promoted to dictionary facts",
+    "TEO title only article verified",
+    "Coupang editor timeout"
+  ]
+}

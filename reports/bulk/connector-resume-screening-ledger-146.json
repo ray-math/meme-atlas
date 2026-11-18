@@ -53,10 +53,11 @@
     "reports/bulk/connector-resume-screening197.json",
     "reports/bulk/connector-resume-holds199.json",
     "reports/bulk/connector-resume-c200.json",
-    "reports/bulk/connector-resume-holds201.json"
+    "reports/bulk/connector-resume-holds201.json",
+    "reports/bulk/connector-resume-audit-screening202.json"
   ],
-  "query_observations": 859,
-  "distinct_literal_queries": 694,
+  "query_observations": 862,
+  "distinct_literal_queries": 697,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -4553,6 +4554,21 @@
     {
       "query": "김동현",
       "source": "reports/bulk/connector-resume-holds201.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"간절스러웠어요\" \"2026\" -site:xportsnews.com -site:mk.co.kr -site:news.coupang.com -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-audit-screening202.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"간절스러웠어요\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-audit-screening202.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"간절스러웠어요\" site:maily.so",
+      "source": "reports/bulk/connector-resume-audit-screening202.json",
       "status": "screened-see-report"
     }
   ],
