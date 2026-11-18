@@ -1,0 +1,517 @@
+{
+  "batch": 448,
+  "base": "2d381beaaf2d511f6e234916abe6d3fbd3dfb57c",
+  "canonical_before": 1092,
+  "canonical_after": 1106,
+  "added": [
+    "an-mureobwatda-yoda-chant",
+    "akkkangbeo-endure-command",
+    "something-ui-apbak-template",
+    "apt-dance-challenge",
+    "cry-out-loud-tears-challenge",
+    "birthday-wish-dance-challenge",
+    "magnetic-finger-dance-challenge",
+    "i-am-the-best-title-wordplay",
+    "dark-dark-bilingual-tautology",
+    "domain-expansion-imitation-challenge",
+    "someone-talks-back-template",
+    "neo-goso-pointing-poster-parody",
+    "your-life-is-legend-bait-template",
+    "kkeokkeo-dance-challenge"
+  ],
+  "edited": [
+    "memes/ssipseonbi-insult.md",
+    "memes/simyeong-scene-remix.md"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0711",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "an-mureobwatda-yoda-chant"
+    },
+    {
+      "id": "kr-list-0710",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "akkkangbeo-endure-command"
+    },
+    {
+      "id": "kr-list-0719",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "something-ui-apbak-template"
+    },
+    {
+      "id": "kr-list-0708",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "apt-dance-challenge"
+    },
+    {
+      "id": "kr-list-0316",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "i-am-the-best-title-wordplay"
+    },
+    {
+      "id": "kr-list-0738",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "dark-dark-bilingual-tautology"
+    },
+    {
+      "id": "kr-list-0757",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "domain-expansion-imitation-challenge"
+    },
+    {
+      "id": "kr-list-0767",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "someone-talks-back-template"
+    },
+    {
+      "id": "kr-list-0325",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "neo-goso-pointing-poster-parody"
+    },
+    {
+      "id": "kr-list-0356",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "your-life-is-legend-bait-template"
+    },
+    {
+      "id": "kr-list-0314",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "simyeong-scene-remix"
+    },
+    {
+      "id": "kr-list-0286",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "byeongjin-leave"
+    }
+  ],
+  "previous_ci": {
+    "sha": "2d381beaaf2d511f6e234916abe6d3fbd3dfb57c",
+    "run": 44272997849,
+    "job": 134694006191,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "120.398"
+  },
+  "previous_failure": {
+    "sha": "d9a1d18aae294c969205dba7b11ac678d06d8389",
+    "run": 44272723170,
+    "job": 134693082135,
+    "error": "missing related backlink: jinjichung.md",
+    "python_tests": "notreached",
+    "fix": "2d381beaaf2d511f6e234916abe6d3fbd3dfb57c"
+  },
+  "previous_audit": {
+    "sha": "d9a1d18aae294c969205dba7b11ac678d06d8389",
+    "body_reads": 15,
+    "index_rows": 1092,
+    "matched_entries": 15,
+    "prior1077unchanged": true,
+    "source_reopens": 12,
+    "previous_source_reads": 10,
+    "images_videos": 0,
+    "queries": 0,
+    "blocking_changes": 0,
+    "clarification": "ssipseonbi firstsentence subject ambiguity; nextbatch correction",
+    "passed": true,
+    "latest_link_fix": "2d381beaaf2d511f6e234916abe6d3fbd3dfb57c"
+  },
+  "sources": [
+    {
+      "id": "an-mureobwatda-yoda-chant",
+      "urls": [
+        "https://hiphopplaya.com/g2/bbs/board.php?bo_table=freetalk&wr_id=3147738",
+        "https://maily.so/trendaword/posts/xyow3x11r28"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "akkkangbeo-endure-command",
+      "urls": [
+        "https://everymemes.tistory.com/338",
+        "https://v.daum.net/v/PUpAC2hV4G"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "something-ui-apbak-template",
+      "urls": [
+        "https://www.joongang.co.kr/article/114768",
+        "https://journal.kci.go.kr/snu-ioh/archive/articlePdf?artiId=ART001618569"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "apt-dance-challenge",
+      "urls": [
+        "https://www.wkorea.com/2024/10/29/apt-챌린지에-빠진-셀럽들/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "cry-out-loud-tears-challenge",
+      "urls": [
+        "https://enews.imbc.com/News/ViewAmp/519945",
+        "https://enter.etoday.co.kr/news/view/303234"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "birthday-wish-dance-challenge",
+      "urls": [
+        "https://enews.imbc.com/News/ViewAmp/522340"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "magnetic-finger-dance-challenge",
+      "urls": [
+        "https://enter.etoday.co.kr/news/view/259821",
+        "https://www.dispatch.co.kr/2340608"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "i-am-the-best-title-wordplay",
+      "urls": [
+        "https://v.daum.net/v/M0N8xc5wxD",
+        "https://www.xportsnews.com/article/245791"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dark-dark-bilingual-tautology",
+      "urls": [
+        "https://v.daum.net/v/M0OsA7x6qD",
+        "https://myengman.wordpress.com/2016/10/21/6%EB%B0%95-7%EC%9D%BC-%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80-%EC%9E%90%EC%9C%A0%EC%97%AC%ED%96%89-%EB%8B%A4%EC%84%AF%EC%A7%B8-%EB%82%A0-2-toguchi-port/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "domain-expansion-imitation-challenge",
+      "urls": [
+        "https://www.etoday.co.kr/news/view/2590959"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "someone-talks-back-template",
+      "urls": [
+        "https://www.mt.co.kr/politics/2021/12/04/2021120317213343379",
+        "https://whitefaceone.tistory.com/2566"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "neo-goso-pointing-poster-parody",
+      "urls": [
+        "https://www.ohmynews.com/NWS_Web/view/at_pg.aspx?CNTN_CD=A0002144695",
+        "https://www.newdaily.co.kr/site/data/html/2015/10/14/2015101400112.html"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "your-life-is-legend-bait-template",
+      "urls": [
+        "https://forum.blackdesertm.com/Board/Detail?boardNo=12&contentNo=176828",
+        "https://edmblackbox.tistory.com/763"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kkeokkeo-dance-challenge",
+      "urls": [
+        "https://v.daum.net/v/20260919232310283",
+        "https://enter.etoday.co.kr/news/view/303593"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "research": {
+    "ledger20A": {
+      "count": 20,
+      "recommended": [
+        "0314",
+        "0316"
+      ],
+      "existing_partial": [
+        {
+          "id": "0286",
+          "dictionary_id": "byeongjin-leave"
+        }
+      ],
+      "held": 17,
+      "queries": [
+        "\"꽈찌쭈\" 패러디 기사",
+        "\"꾸래핑\"",
+        "\"나 XX인데 개추\"",
+        "\"나가있어\" \"패러디\"",
+        "\"나노머신 썬\"",
+        "\"나는 개인이오\"",
+        "\"나는 애쉬\" 밈",
+        "\"나는 예쁘지 않습니다\" 밈",
+        "\"나여 백종원\"",
+        "\"난 아무렇지 않지 않아\" 패러디",
+        "\"날 내버려둬\" 밈",
+        "\"내가 고자라니\" 패러디 기사",
+        "\"내가 제일 잘 나가\" 패러디",
+        "\"내 거에 올라온 네 욕 볼래\"",
+        "\"내 식사를 방해할 생각인가\"",
+        "\"냐아아 도키도키시테타\""
+      ],
+      "sources": {
+        "goja": [
+          "https://www.newdaily.co.kr/site/data/html/2013/10/06/2013100600019.html",
+          "https://www.tenasia.co.kr/article/2022020762804"
+        ],
+        "best": [
+          "https://v.daum.net/v/M0N8xc5wxD",
+          "https://www.xportsnews.com/article/245791"
+        ],
+        "existing": [
+          "https://www.fnnews.com/news/201909010800483735"
+        ]
+      }
+    },
+    "ledger20A2": {
+      "count": 20,
+      "recommended": [
+        "0325",
+        "0347",
+        "0356"
+      ],
+      "held": 17,
+      "editor_hold": [
+        "0347"
+      ],
+      "queries": [
+        "\"너 개못하잖아\"",
+        "\"너 고소\" \"패러디\"",
+        "\"너반시\"",
+        "\"너의 XX은\"",
+        "\"네가 하면 나도 한다\" \"무한도전\"",
+        "\"네 설명해드렸습니다\"",
+        "\"누나 나 죽어\" 기사",
+        "\"누나 좋아해요\" 밈",
+        "\"눈을 왜 그렇게 떠\" 패러디",
+        "\"뉴진스럽다\" 기사",
+        "\"능지\" 유행어",
+        "\"늬픽\"",
+        "\"니 인생이 레전드다\"",
+        "\"닌자 몰살 소설\"",
+        "\"누가 범인일까\" 밈",
+        "\"노무현의 시대가 오겠어요\" 패러디"
+      ],
+      "sources": [
+        "https://www.ohmynews.com/NWS_Web/view/at_pg.aspx?CNTN_CD=A0002144695",
+        "https://www.newdaily.co.kr/site/data/html/2015/10/14/2015101400112.html",
+        "https://www.etoday.co.kr/news/view/1098496",
+        "https://www.ajunews.com/view/20150329144254031",
+        "https://forum.blackdesertm.com/Board/Detail?boardNo=12&contentNo=176828",
+        "https://edmblackbox.tistory.com/763"
+      ]
+    },
+    "ledger20C": {
+      "count": 20,
+      "recommended": [
+        "0711",
+        "0710",
+        "0719"
+      ],
+      "conditional": [
+        "0708"
+      ],
+      "held": 16,
+      "queries": [
+        "\"압수\" \"드립\" 유래",
+        "\"안 물어봤다\" \"요다\" 밈",
+        "\"애는 있습니다\" 밈",
+        "\"약한 사내다\" 밈",
+        "\"악으로 깡으로 버텨라\" 기사",
+        "\"안전가족\" 밈",
+        "\"애는 있습니다\" \"최현석\"",
+        "\"압수\" \"드립\" 광고",
+        "\"압수 드립\" -site:namu.moe -site:dcinside.com",
+        "\"애는 있습니다\" \"차승원\"",
+        "\"안 물어봤다 요다야\" -site:namu.moe -site:dcinside.com",
+        "\"약한 사내다\" -site:namu.moe -site:namu.wiki",
+        "\"아카자\" \"밈\" 기사",
+        "\"알파메일\" \"밈\" 기사",
+        "\"압박\" \"신조어\"",
+        "\"안톤 오노\" \"패러디\"",
+        "\"아냐\" \"표정\" \"밈\"",
+        "\"애니프사\" \"밈\" 기사",
+        "\"야후 꾸러기\" \"밈\"",
+        "\"애는 있습니다\" 밈 -site:namu.moe",
+        "\"앙카 존\" \"댄스\" -site:namu.moe",
+        "\"애새끼들\" \"밈\" -site:namu.moe",
+        "\"야 XX\" \"밈\" -site:namu.moe",
+        "\"야 기분 좋다\" \"밈\" -site:namu.moe",
+        "\"애자\" \"비하\" 인터넷",
+        "\"애기공룡 둘리\" 인터뷰 밈",
+        "\"악깡버\" \"칼럼\"",
+        "\"압수\" \"드립\" \"게임\"",
+        "\"아파트\" \"챌린지\" 로제 안무 2024",
+        "\"애는 있습니다\" 유행어",
+        "\"약한 사내다\" \"패러디\" -site:namu.moe",
+        "\"악깡버\" \"충주\""
+      ],
+      "sources": {
+        "yoda": [
+          "https://hiphopplaya.com/g2/bbs/board.php?bo_table=freetalk&wr_id=3147738",
+          "https://maily.so/trendaword/posts/xyow3x11r28"
+        ],
+        "ak": [
+          "https://everymemes.tistory.com/338",
+          "https://v.daum.net/v/PUpAC2hV4G"
+        ],
+        "pressure": [
+          "https://www.joongang.co.kr/article/114768",
+          "https://journal.kci.go.kr/snu-ioh/archive/articlePdf?artiId=ART001618569"
+        ],
+        "apt": [
+          "https://www.wkorea.com/2024/10/29/apt-챌린지에-빠진-셀럽들/"
+        ]
+      }
+    },
+    "ledger20C2": {
+      "count": 20,
+      "recommended": [
+        "0738",
+        "0757",
+        "0767"
+      ],
+      "editorial_pending": [
+        "0771",
+        "0766"
+      ],
+      "held": 15,
+      "queries": [
+        "\"얘들아\" \"영국맛\"",
+        "\"어둠의 다크에서\" 기사",
+        "\"엄마도 사람이야\" 밈",
+        "\"에어맨이 쓰러지지 않아\" 기사",
+        "\"영국맛을\" -site:namu.moe -site:seore.org",
+        "\"어둠의 다크\" -site:namu.moe -site:seore.org",
+        "\"어 작업중이야\" -site:namu.moe",
+        "\"에어맨\" \"패러디\" 인벤",
+        "어둠의 다크에서 죽음의 데스를 느끼며 유래",
+        "영국맛 살려야지 밈",
+        "\"영포티\" \"밈\" 기사",
+        "\"영역 전개\" \"밈\" 기사",
+        "\"어둠의 다크에서\"",
+        "\"영국맛을 살려야지\"",
+        "\"영역 전개\" \"챌린지\"",
+        "\"여러분 이거 다 거짓말\" 패러디",
+        "\"여자가\" \"말대꾸\" 밈",
+        "\"오니기리 댄스\"",
+        "\"어나니머스\" \"밈\"",
+        "\"어둠의 메갈리안\" 기사",
+        "\"어몽어스 잼민이\" 밈",
+        "\"얼리 엑세스 예시를 보여줌\"",
+        "\"엉덩국\" 밈 인터뷰",
+        "\"엄준식\" 밈 뜻",
+        "\"엠생\" 뜻 기사",
+        "\"여자 아이돌 파이터 랭킹\"",
+        "\"ㅗㅜㅑ\" 뜻",
+        "\"오다 에이치로\" \"사망설\" 밈",
+        "\"영역전개\" 챌린지 한국",
+        "\"엠생\" \"뜻\"",
+        "\"여러분 이거 다 거짓말인 거 아시죠\" \"개그\"",
+        "\"영역전개\" \"챌린지\" \"기사\"",
+        "\"어 작업중이야\" \"광고\"",
+        "\"영국맛\" \"도미노\" \"광고\""
+      ],
+      "deferred_sources": {
+        "youngforty": [
+          "https://www.yna.co.kr/view/AKR20260118017200009",
+          "https://www.khan.co.kr/article/202511021000001"
+        ],
+        "lies": [
+          "https://www.mk.co.kr/news/culture/5078729",
+          "https://m.yes24.com/goods/detail/35426533"
+        ]
+      }
+    },
+    "recent20B": {
+      "count": 20,
+      "recommended": [
+        "cry-out-loud-tears-challenge",
+        "birthday-wish-dance-challenge",
+        "magnetic-finger-dance-challenge"
+      ],
+      "existing": 3,
+      "held": 11,
+      "excluded": 3,
+      "queries": [
+        "site.allurekorea.com 2026 \"챌린지\" \"참여\"",
+        "site.elle.co.kr 2026 \"챌린지\" \"참여\"",
+        "site.enews.imbc.com 2026 \"챌린지\" \"따라\" \"러브식\"",
+        "\"챌린지\" \"2026\" \"얼루어\"",
+        "\"챌린지\" \"2026\" \"엘르\" 댄스",
+        "\"Hysteric\" \"챌린지\" 이브 이서",
+        "\"Lovesick\" \"챌린지\" 채령 규진",
+        "\"로이킴\" \"눈물 챌린지\" 2026",
+        "\"2026\" \"마그네틱\" \"챌린지\" 참여",
+        "\"2026\" \"첫 사랑니\" \"챌린지\"",
+        "\"2026\" \"긴 소원\" \"챌린지\"",
+        "\"2026\" \"마그네틱\" \"챌린지\" 배우",
+        "\"2026\" \"긴 소원\" \"살림남\" 챌린지",
+        "\"2026\" \"NEON\" \"챌린지\" 티빙",
+        "\"마그네틱\" \"챌린지\" \"손가락\" 배우",
+        "\"긴 소원\" \"챌린지\" \"은가은\"",
+        "\"눈물 챌린지\" \"로이킴\" 따라"
+      ],
+      "sources": [
+        "https://enews.imbc.com/News/ViewAmp/519945",
+        "https://enter.etoday.co.kr/news/view/303234",
+        "https://enews.imbc.com/News/ViewAmp/522340",
+        "https://enter.etoday.co.kr/news/view/259821",
+        "https://www.dispatch.co.kr/2340608"
+      ]
+    },
+    "recent20B2": {
+      "count": 20,
+      "literal_candidates": 21,
+      "recommended": [
+        "kkeokkeo-dance-challenge"
+      ],
+      "existing": 14,
+      "held": 5,
+      "queries": [
+        "site.enews.imbc.com 2026 \"챌린지\" \"함께\" \"키스오브라이프\"",
+        "site.allurekorea.com 2026 \"챌린지\" 춤",
+        "site.elle.co.kr 2026 \"챌린지\" 스타",
+        "에이티즈 \"Drip\" \"챌린지\" 2026",
+        "영탁 \"꺾어\" \"챌린지\" 안무",
+        "\"드라큘라\" \"챌린지\" 제니 참여",
+        "\"GRLS\" \"챌린지\" 참여",
+        "\"Drip\" \"챌린지\" \"지수\" 2026"
+      ],
+      "note": "twoaliases ttareum=oneformat;21stringsnot21memes"
+    }
+  },
+  "query_observations": 6850,
+  "distinct_literal_queries": 6005,
+  "limits": [
+    "screeninggroups include repeatedcandidates; not120unique newmemes.",
+    "0314recommendation changedtoexistingpartialafter1077->1092update; no duplicatebody.",
+    "0347editoriallyheld privateconflictcontext;0771and0766 remainpending.",
+    "1092firstCIfailed missingbacklink; fixed2d381be passed65steps495Python. New1106CIpending.",
+    "All sourcebounds inbodies; tears2articles samebroadcast; longwishpreview; magnetic2026retrospective notnewproduction.",
+    "No mainchanges, no Codex."
+  ]
+}
