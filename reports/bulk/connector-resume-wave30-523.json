@@ -1,0 +1,354 @@
+{
+  "batch": 523,
+  "base": "d8e1358318bb1685794f127a91bdf01c173503ab",
+  "canonical_before": 1868,
+  "canonical_after": 1878,
+  "added": [
+    "geunjagam-groundless-confidence",
+    "bolmae-growing-charm-abbreviation",
+    "yeopgrade-sideways-device-change",
+    "muhaeryeok-comforting-charm-label",
+    "munsintem-frequently-worn-item",
+    "hwitturumatturu-versatile-fashion-usage",
+    "gaechwi-personal-taste-abbreviation",
+    "hungry-spirit-dialogue-sampling",
+    "hotel-economics-circulation-story-parody",
+    "gajaembi-price-to-fun-value"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-1131",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "hungry-spirit-dialogue-sampling"
+    },
+    {
+      "id": "kr-list-1143",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "hotel-economics-circulation-story-parody"
+    }
+  ],
+  "previous_ci": {
+    "run": 44372983668,
+    "job": 135044510984,
+    "sha": "d8e1358318bb1685794f127a91bdf01c173503ab",
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 212.338s"
+    ]
+  },
+  "previous_final_audit": {
+    "result": "PASS",
+    "required": 0,
+    "sha": "d8e1358318bb1685794f127a91bdf01c173503ab",
+    "files": 19,
+    "count": 1868
+  },
+  "sources": [
+    {
+      "id": "geunjagam-groundless-confidence",
+      "urls": [
+        "https://www.rfa.org/korean/weekly_program/young_generation/youngyou-08252011111925.html",
+        "https://v.daum.net/v/20260104115220220"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bolmae-growing-charm-abbreviation",
+      "urls": [
+        "https://v.daum.net/v/bsPjRl2uRJ",
+        "https://www.newsen.com/news_view.php?code=100100&uid=202610220605491710"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "yeopgrade-sideways-device-change",
+      "urls": [
+        "https://news.sktelecom.com/126408",
+        "https://quasarzone.com/bbs/qf_vga/views/7136142"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "muhaeryeok-comforting-charm-label",
+      "urls": [
+        "https://v.daum.net/v/fvETaaCnve",
+        "https://v.daum.net/v/20260406060107372"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "munsintem-frequently-worn-item",
+      "urls": [
+        "https://v.daum.net/v/20240709111902733?f=p",
+        "https://www.sportschosun.com/entertainment/2026-01-15/202601150100086360011640"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hwitturumatturu-versatile-fashion-usage",
+      "urls": [
+        "https://www.hankookilbo.com/news/article/A2026061609320005150"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gaechwi-personal-taste-abbreviation",
+      "urls": [
+        "https://health.chosun.com/site/data/html_dir/2014/09/25/2014092503524.html",
+        "https://v.daum.net/v/20260525073308989"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hungry-spirit-dialogue-sampling",
+      "urls": [
+        "https://www.gokams.or.kr/artnews_upload/사례로 보는 저작권_공연예술편_텍스트.pdf"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hotel-economics-circulation-story-parody",
+      "urls": [
+        "https://www.hankyung.com/article/2025052660427"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gajaembi-price-to-fun-value",
+      "urls": [
+        "https://gtn.co.kr/mobile/news_view.asp?news_seq=80545",
+        "https://harim.com/main/?menu=51&mode=view&no=3175&pno=4"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening": {
+    "groups": [
+      {
+        "id": "B630",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 9,
+        "held": 2
+      },
+      {
+        "id": "B631",
+        "observations": 12,
+        "recommended": 2,
+        "existing": 8,
+        "held": 2
+      },
+      {
+        "id": "C150",
+        "observations": 12,
+        "research_recommended": 2,
+        "editorial_recommended": 1,
+        "existing": 2,
+        "conditional": 1,
+        "held": 8
+      },
+      {
+        "id": "C151",
+        "observations": 12,
+        "recommended": 2,
+        "existing": 2,
+        "conditional": 1,
+        "held": 7
+      },
+      {
+        "id": "B632",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 10,
+        "held": 1
+      },
+      {
+        "id": "A154",
+        "observations": 12,
+        "recommended": 0,
+        "held": 12
+      },
+      {
+        "id": "A155",
+        "observations": 12,
+        "recommended": 2,
+        "held": 10
+      },
+      {
+        "id": "C152",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 2,
+        "conditional": 2,
+        "held": 7
+      }
+    ],
+    "note": "96 repeated/variant expression observations, not 96 unique discoveries. 웃음버튼 excluded after independent semantic audit because laugh-bell already covers it. C151/C152 include4 repeated observations. Conditional items not verified inclusions."
+  },
+  "source_ledger_audits": [
+    {
+      "id": "A154",
+      "ids": [
+        "0723",
+        "0744",
+        "0786",
+        "0797",
+        "0803",
+        "0812",
+        "0830",
+        "0831",
+        "0855",
+        "0857",
+        "0866",
+        "0894"
+      ],
+      "held": 12,
+      "note": "Separate 이쿠요댄스 suggestion held: one personal explanation, media0 and relation to0866 unclear. No source-row classification changes."
+    },
+    {
+      "id": "A155",
+      "ids": [
+        "0939",
+        "0959",
+        "0989",
+        "1005",
+        "1019",
+        "1041",
+        "1083",
+        "1099",
+        "1103",
+        "1131",
+        "1140",
+        "1143"
+      ],
+      "held": 10,
+      "partial": 2,
+      "note": "1131 bounded dialogue-sampling case question;1143 story-substitution examples from one article. Others remain unverified."
+    }
+  ],
+  "query_groups": {
+    "B630": [
+      "\"2026\" \"신조어\" \"근자감\"",
+      "\"2026\" \"유행어\" \"광클\"",
+      "\"2026\" \"밈\" \"문화\" \"말투\"",
+      "\"근자감\" \"2026\" 인터뷰",
+      "\"떡실신\" \"2026\" 예능",
+      "\"근자감\" \"줄임말\" 방송"
+    ],
+    "B631": [
+      "\"2026\" \"유행어\" \"신문\" \"말\" -site:sinjoeo.kr -site:hurumor.com",
+      "\"2026\" \"패러디\" \"문구\" \"브랜드\"",
+      "\"옆그레이드\" \"2026\"",
+      "\"볼매\" \"2026\" 인터뷰",
+      "\"갈비\" \"갈수록 비호감\"",
+      "\"볼매\" \"2026\" \"매력\" 인터뷰",
+      "\"옆그레이드\" 신조어",
+      "\"쩌리\" \"2026\" \"뜻\""
+    ],
+    "C150": [
+      "\"웃음버튼\" \"2026\" \"보기만\"",
+      "\"눈물버튼\" \"2026\"",
+      "\"댕청미\" \"2026\"",
+      "\"잔망미\" \"2026\"",
+      "\"웃음버튼\" \"2026\" 예능",
+      "\"잔망미\" \"뜻\" 중앙일보",
+      "\"무해력\" \"2026\"",
+      "\"웃음버튼\" \"눌린\" site:enews.imbc.com",
+      "\"잔망미\" \"잔망스럽\" 기사"
+    ],
+    "C151": [
+      "\"문신템\" \"2026\"",
+      "\"교복템\" \"2026\"",
+      "\"쟁임템\" \"2026\"",
+      "\"휘뚜루마뚜루\" \"2026\" 뜻",
+      "\"문신템\" \"뜻\" 패션",
+      "\"보부상\" \"2026\" 가방 신조어",
+      "\"휘뚜루마뚜루\" \"2026\" site:elle.co.kr",
+      "\"어느새 달라진 휘뚜루마뚜루\""
+    ],
+    "B632": [
+      "\"2026\" \"유행어\" \"급\" \"신문\"",
+      "\"2026\" \"신조어\" \"인터뷰\" -site:namu.moe -site:sinjoeo.kr",
+      "\"개취\" \"2026\" 인터뷰",
+      "\"개취\" \"개인의 취향\" 신조어",
+      "\"빵터지다\" 신조어"
+    ],
+    "A154": [
+      "\"앙카 존 댄스\" -site:namu.moe -site:seore.org",
+      "\"어몽어스 잼민이\" -site:namu.moe -site:seore.org",
+      "\"오 샹젤리제\" 밈 패러디 -site:namu.moe",
+      "\"와퍼\" \"밈\" \"버거킹\" -site:namu.moe",
+      "\"왕사슴 가이즈\" -site:namu.moe -site:seore.org",
+      "\"요! 요요!\" 밈 -site:namu.moe",
+      "\"육군 we 육군\" -site:namu.moe -site:seore.org",
+      "\"의학적인 근거가 없습니다\" \"밈\" -site:namu.moe",
+      "\"이봐요 미친놈씨\" -site:namu.moe -site:seore.org",
+      "\"이세계물 드립\" -site:namu.moe -site:seore.org",
+      "\"이쿠요\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"자러감 드립\" -site:namu.moe -site:seore.org",
+      "\"이쿠요 댄스\" 가비",
+      "\"자러감\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"의학적인 근거가 없습니다\" -site:namu.moe -site:seore.org",
+      "\"오 샹젤리제\" \"커피새\"",
+      "\"이쿠요\" \"E:ku\" 춤",
+      "\"이쿠요 댄스\" -site:everymemes.tistory.com -site:namu.moe -site:seore.org",
+      "\"앙카\" \"댄스\" 뜻 -site:namu.moe -site:seore.org",
+      "\"어몽어스 잼민이\" 패러디 -site:namu.moe"
+    ],
+    "A155": [
+      "\"죄송합니다\" \"밈\" \"유래\" -site:namu.moe -site:seore.org",
+      "\"지이잉\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"초코빅송\" -site:namu.moe -site:seore.org",
+      "\"캡콤은 개껌이 아니라\" -site:namu.moe -site:seore.org",
+      "\"코렁탕\" -site:namu.moe -site:seore.org -site:wiki",
+      "\"택배 드립\" -site:namu.moe -site:seore.org",
+      "\"피에로 드립\" -site:namu.moe -site:seore.org",
+      "\"한글자 드립\" -site:namu.moe -site:seore.org",
+      "\"할 말이 없네\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"헝그리 정신\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"호라\" \"멀쩡하자나\" -site:namu.moe -site:seore.org",
+      "\"호텔경제학\" -site:namu.moe -site:seore.org",
+      "\"초코빅\" \"노래\"",
+      "\"지이잉\" \"드립\" -site:namu.moe -site:seore.org",
+      "\"헝그리 정신\" \"패러디\"",
+      "\"코렁탕\" site:hani.co.kr",
+      "\"헝그리 정신\" \"송강호\" \"패러디\" -site:namu.moe -site:seore.org",
+      "\"헝그리 정신\" \"성대모사\"",
+      "\"코렁탕\" \"풍자\" 신문",
+      "\"호텔경제학\" \"밈\" 패러디",
+      "\"헝그리\" \"송강호\" \"김수로\"",
+      "\"헝그리 정신\" \"넘버3\" 패러디",
+      "\"홍준표 한바퀴 돌자\"",
+      "\"피에로 드립\" \"하면 그만\""
+    ],
+    "C152": [
+      "\"인간비타민\" \"2026\"",
+      "\"인간햇살\" \"2026\"",
+      "\"가잼비\" \"2026\"",
+      "\"나심비\" \"2026\"",
+      "\"인간비타민\" \"2026\" site:enews.imbc.com",
+      "\"교복템\" 뜻 기사",
+      "\"보부상\" \"물건을 많이\" \"2026\""
+    ]
+  },
+  "query_increment": 87,
+  "query_observations": 13700,
+  "distinct_literal_queries": 11237,
+  "preaudit": {
+    "status": "PASS",
+    "accepted": 10,
+    "rejected_as_existing": [
+      "웃음버튼"
+    ],
+    "note": "PDF publication date independently reopened at P104 L8227:2015-02."
+  },
+  "limits": [
+    "Old1868 index records and all old bodies unchanged.",
+    "Media0. No original recordings, videos, photos or screenshot verification claimed.",
+    "Source observations and query strings are not counts of new verified memes.",
+    "No Codex or main changes. Current commit CI pending until separately observed."
+  ]
+}
