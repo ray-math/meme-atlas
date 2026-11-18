@@ -57,10 +57,11 @@
     "reports/bulk/connector-resume-audit-screening202.json",
     "reports/bulk/connector-resume-holds203.json",
     "reports/bulk/connector-resume-screening205.json",
-    "reports/bulk/connector-resume-review207.json"
+    "reports/bulk/connector-resume-review207.json",
+    "reports/bulk/connector-resume-holds208.json"
   ],
-  "query_observations": 902,
-  "distinct_literal_queries": 729,
+  "query_observations": 935,
+  "distinct_literal_queries": 759,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -4772,6 +4773,171 @@
     {
       "query": "\"스피키\" \"쪼아요\" 소방관 2026",
       "source": "reports/bulk/connector-resume-review207.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스핔",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쪼아요",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쪼와",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스피키",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "spiki",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "spooky",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "트릭컬",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "모르는개",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마음자로",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한단어",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "모든걸",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "배우도전",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "멀리갈리",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "난리자베스",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이게나라냐",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "살아남",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "모의고사",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "상책",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "산책",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "unknown-dog",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "strange-dog",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "walking",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:news.sbs.co.kr",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"챌린지\" \"유행\" site:imnews.imbc.com \"11\"",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" site:eyesmag.com",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"변형\" \"공공기관\"",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" \"관광공사\"",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" \"소방\"",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소핔이가 쪼아요\" -site:namu.moe -site:d.namu.moe -site:m.namu.moe",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"새로운\" site:news.kbs.co.kr",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스피키가\" \"쪼아요\" 패러디",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소핔\" \"기자\"",
+      "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스피키\" \"소방관\" \"2026\" -site:namu.moe -site:d.namu.moe",
+      "source": "reports/bulk/connector-resume-holds208.json",
       "status": "screened-see-report"
     }
   ],
