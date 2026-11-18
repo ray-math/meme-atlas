@@ -197,6 +197,7 @@
 - [내 마음속에 저장](save-in-my-heart.md)
 - [내 아를 낳아도](nae-areul.md)
 - [내가 그걸 모를까](do-you-think-i-dont-know.md)
+- [내가 너를 어떻게 대했는지 그려줘](draw-how-i-treated-you.md)
 - [내가 바퀴벌레가 되면 어떡할 거야?](if-i-become-cockroach.md)
 - [내가 아이돌이었으면 이 파트는 꼭 하고 싶음](if-i-were-idol.md)
 - [내가 왕이 될 상인가](will-i-be-king.md)

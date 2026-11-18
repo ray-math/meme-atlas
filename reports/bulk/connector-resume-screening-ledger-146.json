@@ -202,10 +202,11 @@
     "reports/bulk/connector-resume-wave30-371.json",
     "reports/bulk/connector-resume-wave30-372.json",
     "reports/bulk/connector-resume-wave30-373.json",
-    "reports/bulk/connector-resume-wave30-374.json"
+    "reports/bulk/connector-resume-wave30-374.json",
+    "reports/bulk/connector-resume-wave30-375.json"
   ],
-  "query_observations": 4878,
-  "distinct_literal_queries": 4185,
+  "query_observations": 4948,
+  "distinct_literal_queries": 4250,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -24797,6 +24798,356 @@
     {
       "query": "숫자",
       "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목을\" -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"따서\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"자막\" \"공식\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"11월\" \"북극곰\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"폴라베어\" \"밈\" -site:t-stock.tistory.com -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"북극곰\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"북극곰\" site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Remember November\" \"2026\" site:dcinside.com",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026년 11월\" \"밈\" site:fmkorea.com",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026년 11월\" \"밈\" site:ruliweb.com",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노래하는 북극곰\" -site:namu.moe -site:instablank.com -site:mendoi-apps.com -site:jjalnews.com",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:magazine.hankyung.com",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"직접\" site:brunch.co.kr -루팡 -포브스",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"제목\" site:news.kbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"그동안 나를\" \"그림\"",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"내가 너를\" \"대했는지\" 그림",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"최재운\" 그림",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "treated",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "대했",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "대하는",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그려",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그림",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이미지",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "chatgpt",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "gpt",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "AI",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"북극곰\" \"November\" \"2026\" 한국 밈 -site:oraclip.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"영국맛을 살려야지\" \"2026\" -site:ryunan9903.tistory.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"영국맛을 살려야지\" site:gall.dcinside.com \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"영국맛을 살려야지\" site:blog.naver.com \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"영국맛을 살려야지\" site:maily.so",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "리처드",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "거룡",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "거북",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "유방",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "거짓말",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "죽여",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포터",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "경북",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고누리",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "공항",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "과로사",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "굉장",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "구찌",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그 XX",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그건 니가",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "연회",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "정신을",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "죽어요",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "열심히",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그런건",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그런 건",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "게이야",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "근하하",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "긴또깡",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김대기",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꺼어억",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꽈추",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "적절",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "대기",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "루리",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노력",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "웃음",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "기절",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "없다",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "죽",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "구찌보이",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김도",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "침착",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "우정잉",
+      "source": "reports/bulk/connector-resume-wave30-375.json",
       "status": "screened-see-report"
     }
   ],
