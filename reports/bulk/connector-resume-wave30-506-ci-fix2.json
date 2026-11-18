@@ -1,0 +1,10 @@
+{
+  "previous_fix": "d007d83707bec694ffea98af8619735a03639631",
+  "run": 44347365421,
+  "tests": 495,
+  "errors": 15,
+  "cause": "pilot_batch regenerates pilot-30 from pilot-state, removing unregistered buchinnam row; direct collection dependency fails staged regression",
+  "fix": "restore pilot membership; use separate related guide linked from pilot and buchinnam; no fixed body or test changes",
+  "limitation": "pilot generator can omit appended guide navigation on a later pilot regeneration; guide and buchinnam link remain; generation persistence not claimed",
+  "ci": "pending"
+}

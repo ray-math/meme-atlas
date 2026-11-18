@@ -24,4 +24,4 @@ tags: []
 
 ## 관련 밈
 
-- 엄친아와의 관계는 [비교 호칭 목록](../collections/pilot-30.md#비교-호칭)에서 확인할 수 있다.
+- 엄친아와의 관계는 [가족 비교 호칭 연결](../guides/family-comparison-related.md)에서 확인할 수 있다.
