@@ -1003,6 +1003,7 @@
 - [서울은 여전히 서울이고](../memes/seoul-is-still-seoul.md)
 - [소 잃고 뇌 약간 고치기](../memes/fix-brain-a-little.md)
 - [스톰 챌린지](../memes/storm-ii-challenge.md)
+- [식스 세븐](../memes/six-seven.md)
 - [우승 기념 주식 바겐세일](../memes/championship-stock-sale.md)
 - [인간 여짜](../memes/human-yeojja.md)
 - [일하는 중에 갑자기 몸이 안 좋아졌어요](../memes/suddenly-sick-fan-trip.md)

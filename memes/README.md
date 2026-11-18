@@ -494,6 +494,7 @@
 - [시강](sigang.md)
 - [시건방춤](arrogant-dance.md)
 - [식빵 굽기](cat-loaf.md)
+- [식스 세븐](six-seven.md)
 - [식집사](sikjipsa.md)
 - [신꾸](sinkku.md)
 - [심멎](simmeot.md)

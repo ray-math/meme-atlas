@@ -81,3 +81,4 @@
 - [가난하게 컸어?](../memes/did-you-grow-up-poor.md)
 - [소 잃고 뇌 약간 고치기](../memes/fix-brain-a-little.md)
 - [우사기 랩](../memes/usagi-rap.md)
+- [식스 세븐](../memes/six-seven.md)
