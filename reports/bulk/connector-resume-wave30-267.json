@@ -1,0 +1,58 @@
+{
+  "batch": 267,
+  "canonical_before": 920,
+  "canonical_after": 920,
+  "queries": [
+    "\"2026\" \"밈\" site:newsroom.coupang.com",
+    "\"2026\" \"밈\" site:blog.oliveyoung.com",
+    "\"2026\" \"밈\" site:newsroom.spc.co.kr",
+    "\"2026\" \"밈\" \"브랜드\" site:newsroom.hyundai.com",
+    "\"2026\" \"밈\" site:blog.hanabank.com",
+    "\"2026\" \"밈\" site:news.samsung.com/kr \"패러디\"",
+    "2026 \"밈\" \"전시\" \"제목\" -site:namu.moe -site:instablank.com",
+    "2026 \"밈\" \"축제\" \"문구\" -site:namu.moe -site:instablank.com",
+    "2026 \"밈\" \"편의점\" \"문구\" -site:namu.moe -site:instablank.com",
+    "\"이번 엄은 다르다\" \"2026\"",
+    "\"비락도 락이다\" \"2026\"",
+    "\"스크립 둔\" 한국",
+    "\"이번 엄은 다르다\" \"톤핏선\"",
+    "\"이번 엄은 다르다\" \"자두\"",
+    "\"이번 엄은 다르다\" site:theqoo.net",
+    "\"이번 엄은 다르다\" \"안녕자두야\"",
+    "\"이번 엄은 다르다\" site:youtube.com",
+    "\"이번 엄은 다르다\" site:inven.co.kr"
+  ],
+  "index_queries": [
+    "이번 엄",
+    "엄은",
+    "스크립",
+    "브로 다운",
+    "김천",
+    "양주",
+    "내리실 문",
+    "비락",
+    "나락도"
+  ],
+  "audit919": {
+    "sha": "b2cbc4b7ad8796f1b5d366bc4d8aa8a47f83f471",
+    "result": "both passed body/index/README/manual;919unique IDs,manual93; source limitations correct,originalvideos0"
+  },
+  "audit920": {
+    "sha": "f20989dcf996d341704f37ced91c5a26bb9be948",
+    "result": "passed body/index/README/manual;920uniqueIDs/manual94; articlevsoriginalvideo limits correct"
+  },
+  "hold": {
+    "candidate": "이번 엄은 다르다",
+    "sources": [
+      "https://incross.com/ko/insight/report.asp?idx=11053&mode=view&page=",
+      "https://erinn.kr/codex/rune/0fxqo0gpwpzau"
+    ],
+    "note": "IncrossAug19explainer + ErinnOct13Nov7 game-review retransmission1family, not independent originals2. Jadu/title and Tonefitad searchonly; X403. umjun existing slug not established"
+  },
+  "root_search": "six corporate newsroom queries empty, not proof of absence",
+  "metrics": {
+    "query_observations": 2058,
+    "distinct_literal_queries": 1687
+  },
+  "ci": "not run"
+}

@@ -108,10 +108,11 @@
     "reports/bulk/connector-resume-wave30-263.json",
     "reports/bulk/connector-resume-wave30-264.json",
     "reports/bulk/connector-resume-wave30-265.json",
-    "reports/bulk/connector-resume-wave30-266.json"
+    "reports/bulk/connector-resume-wave30-266.json",
+    "reports/bulk/connector-resume-wave30-267.json"
   ],
-  "query_observations": 2031,
-  "distinct_literal_queries": 1660,
+  "query_observations": 2058,
+  "distinct_literal_queries": 1687,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -10468,6 +10469,141 @@
     {
       "query": "나 줘",
       "source": "reports/bulk/connector-resume-wave30-266.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:newsroom.coupang.com",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:blog.oliveyoung.com",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:newsroom.spc.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"브랜드\" site:newsroom.hyundai.com",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:blog.hanabank.com",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.samsung.com/kr \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"전시\" \"제목\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"축제\" \"문구\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"편의점\" \"문구\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이번 엄은 다르다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"비락도 락이다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스크립 둔\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이번 엄은 다르다\" \"톤핏선\"",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이번 엄은 다르다\" \"자두\"",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이번 엄은 다르다\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이번 엄은 다르다\" \"안녕자두야\"",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이번 엄은 다르다\" site:youtube.com",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이번 엄은 다르다\" site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이번 엄",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "엄은",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스크립",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "브로 다운",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김천",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "양주",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "내리실 문",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "비락",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나락도",
+      "source": "reports/bulk/connector-resume-wave30-267.json",
       "status": "screened-see-report"
     }
   ],
