@@ -1,0 +1,74 @@
+{
+  "batch": 324,
+  "base": "f8cbbda112012cc6c9fd4d7f43bfe910746f87e6",
+  "canonical_before": 953,
+  "canonical_after": 955,
+  "added": [
+    "not-cool-anymore-template",
+    "no-time-get-in"
+  ],
+  "research": {
+    "candidates": [
+      "0557",
+      "0562",
+      "0569",
+      "0600",
+      "0605",
+      "0621",
+      "0623",
+      "0659",
+      "0683",
+      "0691"
+    ],
+    "recommended": [
+      "0562",
+      "0623"
+    ],
+    "held": 8,
+    "queries": [
+      "\"뭔가 행복하지 않았지\" -site:dcinside.com -site:namu.moe -site:seore.org -site:inven.co.kr",
+      "\"뭔가 행복하지 않았지\" site:tistory.com",
+      "\"뭔가 행복하지 않았지\" site:theqoo.net",
+      "\"불만 있냐\" \"물도\" 2026",
+      "\"어느새부터\" \"안 멋져\" 2026 -site:namu.moe",
+      "\"비둘기야 먹자\" 2026",
+      "\"사정없이 보내버리겠다\" 2026",
+      "\"살려는 드릴게\" 2026",
+      "\"섣불리 판단하면 안되는 이유\" 2026",
+      "\"설명할 시간이 없어\" \"빨리 타\" 2026",
+      "\"오락하는데 이유\" 2026",
+      "\"아니다 이 악마야\" 2026",
+      "\"아몰랑\" 2026"
+    ],
+    "note": "0502 Orbi search body only/open403; remainsheld. Two new recommendations pending editor/auditor complete reading."
+  },
+  "verification": {
+    "editor_read": 4,
+    "independent_auditor_read": 4,
+    "not_cool": {
+      "direct_titles": 2,
+      "recent_publication_date": 1,
+      "recent_sermon_title_date": 1
+    },
+    "no_time": {
+      "reported_image_reuse_group": 1,
+      "direct_document_heading": 1,
+      "recent_dated_groups": 2,
+      "pdf": "extracted text page2 only"
+    },
+    "video_viewed": 0
+  },
+  "coverage_counts": {
+    "index_not_found": 325,
+    "partial": 40,
+    "unclear": 337,
+    "automatic_title_alias_match": 328,
+    "included": 57,
+    "candidate_repeat": 4
+  },
+  "metrics": {
+    "observations": 3265,
+    "distinct": 2747
+  },
+  "limits": "No political/financial claims adopted. Original snapshot unchanged.953 CI65steps495tests success;955pending."
+}

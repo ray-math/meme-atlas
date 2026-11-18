@@ -139,3 +139,7 @@
 - [꼭 사라 두 번 사라](../memes/buy-it-buy-it-twice.md)
 
 - [알아들었으면 끄덕여](../memes/nod-if-you-understood.md)
+
+- [어느새부터 ○○는 안 멋져](../memes/not-cool-anymore-template.md)
+
+- [설명할 시간이 없어 빨리 타](../memes/no-time-get-in.md)

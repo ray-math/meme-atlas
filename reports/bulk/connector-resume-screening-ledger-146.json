@@ -152,10 +152,11 @@
     "reports/bulk/connector-resume-wave30-319.json",
     "reports/bulk/connector-resume-wave30-321.json",
     "reports/bulk/connector-resume-wave30-322.json",
-    "reports/bulk/connector-resume-wave30-323.json"
+    "reports/bulk/connector-resume-wave30-323.json",
+    "reports/bulk/connector-resume-wave30-324.json"
   ],
-  "query_observations": 3252,
-  "distinct_literal_queries": 2734,
+  "query_observations": 3265,
+  "distinct_literal_queries": 2747,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -16617,6 +16618,71 @@
     {
       "query": "나가있어",
       "source": "reports/bulk/connector-resume-wave30-323.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뭔가 행복하지 않았지\" -site:dcinside.com -site:namu.moe -site:seore.org -site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뭔가 행복하지 않았지\" site:tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뭔가 행복하지 않았지\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"불만 있냐\" \"물도\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어느새부터\" \"안 멋져\" 2026 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"비둘기야 먹자\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사정없이 보내버리겠다\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"살려는 드릴게\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"섣불리 판단하면 안되는 이유\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"설명할 시간이 없어\" \"빨리 타\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오락하는데 이유\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아니다 이 악마야\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아몰랑\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-324.json",
       "status": "screened-see-report"
     }
   ],
