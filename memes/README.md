@@ -655,6 +655,7 @@
 - [이왜진](iwaejin.md)
 - [이제는 더 이상 물러날 곳이 없다](no-room-to-retreat.md)
 - [이탈리안 브레인롯](italian-brainrot.md)
+- [인간 여짜](human-yeojja.md)
 - [인간의 욕심은 끝이 없고 같은 실수를 반복한다](greed-repeats.md)
 - [인생샷](insaeng-shot.md)
 - [인생이란 원래 자기 생각대로 되지 않는 법이란다](life-not-as-planned.md)
