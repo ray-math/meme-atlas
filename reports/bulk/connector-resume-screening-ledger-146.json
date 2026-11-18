@@ -211,10 +211,11 @@
     "reports/bulk/connector-resume-wave30-380.json",
     "reports/bulk/connector-resume-wave30-381.json",
     "reports/bulk/connector-resume-wave30-382.json",
-    "reports/bulk/connector-resume-wave30-383.json"
+    "reports/bulk/connector-resume-wave30-383.json",
+    "reports/bulk/connector-resume-wave30-384.json"
   ],
-  "query_observations": 5085,
-  "distinct_literal_queries": 4374,
+  "query_observations": 5106,
+  "distinct_literal_queries": 4394,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -25841,6 +25842,111 @@
     {
       "query": "\"함정카드\" \"2026\" \"여행\"",
       "source": "reports/bulk/connector-resume-wave30-383.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"따라\" site:news.kbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:news.sbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"공식\" site:imnews.imbc.com",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"패러디\" \"공무원\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"인스타그램\" \"2026.11\" -site:instablank.com -site:namu.moe -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"충남\" \"얼린 특산물\" ASMR",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빵에 발라\" \"AI\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"버터런\" \"해봤\"",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"버터런\" \"참여\" 한국 2026",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"충남\" \"빵에\" \"ASMR\"",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"서산시청소년수련관\" \"버터런\"",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"버터런\" \"직접\" \"후기\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:imbc.com \"버터런\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"서산시청소년수련관\" \"생크림\"",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"따라해\" \"직접\"",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"도서관\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"대학\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"만화책 표지\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"만화책 표지\" \"단체사진\"",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"So\" \"Who are they\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"만화 표지\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-384.json",
       "status": "screened-see-report"
     }
   ],

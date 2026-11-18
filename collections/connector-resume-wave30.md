@@ -185,3 +185,4 @@
 - [AI 한 단어 챌린지](../memes/ai-one-word-challenge.md)
 - [안 나오면 쳐들어간다 × It's Me](../memes/come-out-its-me-remix.md)
 - [함정카드 발동](../memes/trap-card-activated.md)
+- [버터런 챌린지](../memes/butter-run-challenge.md)

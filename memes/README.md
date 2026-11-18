@@ -429,6 +429,7 @@
 - [배우 도전 1일차](acting-day-one.md)
 - [버로우](burrow.md)
 - [버억](beoeok.md)
+- [버터런 챌린지](butter-run-challenge.md)
 - [번달번줌](beondalbeonjum.md)
 - [범 내려온다](tiger-is-coming.md)
 - [별다줄](byeoldajul.md)
