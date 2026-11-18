@@ -1,0 +1,24 @@
+{
+  "base": "34560b9dcdd202459505a5603cfd3cf7bfb91a68",
+  "reason": "Restore requested clickable navigation with reciprocal links rather than plaintext-only workaround.",
+  "changes": [
+    "Restore anime-pose-object-summoning-edit link to domain-expansion-imitation-challenge.",
+    "Add reciprocal related-format link at end of domain-expansion-imitation-challenge; no definition/history/caution/source changes."
+  ],
+  "approved_usage_entries_modified": 0,
+  "tests_modified": 0,
+  "index_changed": false,
+  "canonical_count": 1633,
+  "previous_ci": {
+    "sha": "34560b9dcdd202459505a5603cfd3cf7bfb91a68",
+    "run_id": 44334708209,
+    "job_id": 134908129015,
+    "status": "success",
+    "steps": 65,
+    "passed": 65,
+    "python": [
+      "Ran 495 tests in 156.091s"
+    ]
+  },
+  "validation": "Full CI will rerun on this commit; not yet reported as passed."
+}

@@ -22,4 +22,6 @@ tags: []
 
 - [이투데이의 숏폼 참여 설명: 2026년 6월 5일](https://www.etoday.co.kr/news/view/2590959)
 
+관련 형식: [오타쿠샷 물건 소환 편집](anime-pose-object-summoning-edit.md). 자세 모방과 물건 등장 편집은 구별한다.
+
 [추가 수록 목록](../collections/connector-resume-wave30.md)
