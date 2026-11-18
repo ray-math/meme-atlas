@@ -1,0 +1,43 @@
+{
+  "batch": 346,
+  "base": "035fbc34b2eb30ebcdb11395ad117ad5e0e91e52",
+  "canonical_before": 969,
+  "canonical_after": 969,
+  "added": [],
+  "research": {
+    "ids": [
+      "1003",
+      "1004",
+      "1007",
+      "1012",
+      "1040"
+    ],
+    "recommended": 0,
+    "held": 5,
+    "queries": [
+      "\"카페인 과다복용 맨\"",
+      "\"캐피탈리즘 호\" \"2026\"",
+      "\"커다란 자갈돌은 짱돌\"",
+      "\"맛있는 겨울배\" \"2026\"",
+      "\"텟카이\" \"2026\"",
+      "\"텟카이\" 밈 -site:namu.moe",
+      "\"맛있는 겨울배\" -site:namu.moe",
+      "\"커다란 자갈돌은 짱돌\" \"2026\" -site:namu.moe",
+      "\"카페인 과다복용 맨\" \"2026\"",
+      "\"텟카이\" \"2026\" -유튜브 -수익 -조회수 -site:namu.moe -site:ranktube.co.kr -site:allsnsrank.com",
+      "\"커다란 자갈돌은 짱돌\" 패러디 -site:namu.moe -site:huggingface.co",
+      "\"겨울배\" 패러디 -site:namu.moe -site:alphawiki.org"
+    ],
+    "sources": [
+      "https://bokuterror.bandcamp.com/track/-",
+      "https://orbi.kr/00079217550",
+      "https://whitefaceone.tistory.com/2588",
+      "https://edmkorea.com/sub/legend.php?page=4&type=2022",
+      "https://m.hungryapp.co.kr/bbs/bbs_view.php?bcode=nyankorangers&pid=6263",
+      "https://joblesskorea.com/193"
+    ],
+    "limits": "Workerread/editorunread. 1003 creator metadata2021 no independent reuse;1004 Aug16 2026 comic review not applied slogan;1007 2022 explanation+track metadata, no audio listening or recent reuse;1012 2021 fan explanation,repeated same user signature not independent;1040 2020 explanation,2026 same-name channel stats not reuse."
+  },
+  "ci": "344 and345 in_progress at preparation;969 body passed65 steps/495 tests",
+  "note": "No new entries; only examined sources and limits retained. No immutable candidate mutation."
+}

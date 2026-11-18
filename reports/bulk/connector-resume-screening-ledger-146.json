@@ -174,10 +174,11 @@
     "reports/bulk/connector-resume-wave30-342.json",
     "reports/bulk/connector-resume-wave30-343.json",
     "reports/bulk/connector-resume-wave30-344.json",
-    "reports/bulk/connector-resume-wave30-345.json"
+    "reports/bulk/connector-resume-wave30-345.json",
+    "reports/bulk/connector-resume-wave30-346.json"
   ],
-  "query_observations": 4028,
-  "distinct_literal_queries": 3446,
+  "query_observations": 4040,
+  "distinct_literal_queries": 3457,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -20519,6 +20520,66 @@
     {
       "query": "흑백요리사|이븐|들기름|안성재|최강록",
       "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"카페인 과다복용 맨\"",
+      "source": "reports/bulk/connector-resume-wave30-346.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"캐피탈리즘 호\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-346.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커다란 자갈돌은 짱돌\"",
+      "source": "reports/bulk/connector-resume-wave30-346.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"맛있는 겨울배\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-346.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"텟카이\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-346.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"텟카이\" 밈 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-346.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"맛있는 겨울배\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-346.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커다란 자갈돌은 짱돌\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-346.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"카페인 과다복용 맨\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-346.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"텟카이\" \"2026\" -유튜브 -수익 -조회수 -site:namu.moe -site:ranktube.co.kr -site:allsnsrank.com",
+      "source": "reports/bulk/connector-resume-wave30-346.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커다란 자갈돌은 짱돌\" 패러디 -site:namu.moe -site:huggingface.co",
+      "source": "reports/bulk/connector-resume-wave30-346.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"겨울배\" 패러디 -site:namu.moe -site:alphawiki.org",
+      "source": "reports/bulk/connector-resume-wave30-346.json",
       "status": "screened-see-report"
     }
   ],
