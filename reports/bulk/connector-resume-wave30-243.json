@@ -1,0 +1,84 @@
+{
+  "batch": 243,
+  "canonical_before": 909,
+  "canonical_after": 909,
+  "added": [],
+  "worker_reports": {
+    "a": {
+      "queries": [
+        "\"2026\" \"밈\" \"11월\" \"출판\"",
+        "\"2026\" \"밈\" \"뉴스레터\" \"요즘\" -site:namu.moe -site:instablank.com",
+        "\"2026\" \"밈\" \"도서관\" -site:namu.moe -site:instablank.com",
+        "\"2026\" \"밈\" \"사보\" -site:incross.com",
+        "\"No Roots\" \"2026\" \"밈\"",
+        "\"노루츠\" \"2026\"",
+        "\"PPT 여우\" 밈",
+        "\"No Roots\" \"밈\" \"도서관\"",
+        "\"No Roots\" \"밈\" 한국 -site:namu.moe -site:namu.wiki",
+        "\"노루츠\" 패러디",
+        "\"혐대고기\" -site:mynews60045.tistory.com -site:namu.moe"
+      ],
+      "index_queries": [
+        "No Roots",
+        "노루츠",
+        "노 루츠",
+        "뿌리",
+        "피피티",
+        "여우",
+        "혐대고기",
+        "운동 많이 된다",
+        "늙크크",
+        "윤정",
+        "파워냉방",
+        "사고방식",
+        "도서관",
+        "그는 누구인가",
+        "폴대"
+      ],
+      "holds": {
+        "No Roots": "YES24 2025-11-20 textbook TOC confirms educational adoption only; Defense Daily article inaccessible, snippet excluded. Exact format/second original missing.",
+        "PPT 여우": "Character report only, independent reusable format absent."
+      },
+      "sources": [
+        "https://www.yes24.com/product/goods/165252165",
+        "https://kookbang.dema.mil.kr/newsWeb/m/20260423/3/ATCE_CTGR_0010040000/view.do",
+        "https://minenews.stibee.com/p/595"
+      ]
+    },
+    "b": {
+      "queries": [
+        "2026 \"유행어\" \"따라\" \"11월\" -site:namu.wiki -site:namu.moe",
+        "2026 \"밈\" \"패러디\" \"박물관\"",
+        "\"스텔라\" \"밈\" \"said\"",
+        "\"You know what he said to me\" \"2026\"",
+        "\"스텔라\" \"베일리\" \"밈\"",
+        "\"핀란드 대사관\" \"밈\"",
+        "\"스카프 아저씨\" \"패러디\"",
+        "\"스카프 아저씨 입담으로 댓글 놀이\"",
+        "\"스텔라\" \"밈\" \"올데이프로젝트\""
+      ],
+      "index_queries": [
+        "스텔라",
+        "said",
+        "핀란드",
+        "라우럴",
+        "L을"
+      ],
+      "holds": {
+        "stella": "One reported ALLDAY PROJECT reuse, no original/second independent use",
+        "scarf": "Newspim report only, no two concrete originals, prior overspending hold; harassment/crowding concerns",
+        "finland": "Foreign event Korean reporting only"
+      },
+      "sources": [
+        "https://www.harpersbazaar.co.kr/article/1905258",
+        "https://www.newspim.com/news/view/20261105001279"
+      ]
+    }
+  },
+  "note": "Read-only research reports, held leads not canonical or verified meme count. Existing broad substring matches are not semantic duplicates by themselves.",
+  "metrics": {
+    "query_observations": 1473,
+    "distinct_literal_queries": 1193
+  },
+  "ci": "not run"
+}

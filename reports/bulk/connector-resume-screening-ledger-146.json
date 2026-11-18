@@ -85,10 +85,11 @@
     "reports/bulk/connector-resume-wave30-238.json",
     "reports/bulk/connector-resume-wave30-240.json",
     "reports/bulk/connector-resume-wave30-241.json",
-    "reports/bulk/connector-resume-wave30-242.json"
+    "reports/bulk/connector-resume-wave30-242.json",
+    "reports/bulk/connector-resume-wave30-243.json"
   ],
-  "query_observations": 1433,
-  "distinct_literal_queries": 1160,
+  "query_observations": 1473,
+  "distinct_literal_queries": 1193,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -7455,6 +7456,206 @@
     {
       "query": "도가니",
       "source": "reports/bulk/connector-resume-wave30-242.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" \"출판\"",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"뉴스레터\" \"요즘\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"도서관\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"사보\" -site:incross.com",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"No Roots\" \"2026\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노루츠\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"PPT 여우\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"No Roots\" \"밈\" \"도서관\"",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"No Roots\" \"밈\" 한국 -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노루츠\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"혐대고기\" -site:mynews60045.tistory.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "No Roots",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노루츠",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노 루츠",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뿌리",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "피피티",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "여우",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "혐대고기",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "운동 많이 된다",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "늙크크",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "윤정",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "파워냉방",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사고방식",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도서관",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그는 누구인가",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "폴대",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"유행어\" \"따라\" \"11월\" -site:namu.wiki -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"박물관\"",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스텔라\" \"밈\" \"said\"",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"You know what he said to me\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스텔라\" \"베일리\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"핀란드 대사관\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스카프 아저씨\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스카프 아저씨 입담으로 댓글 놀이\"",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스텔라\" \"밈\" \"올데이프로젝트\"",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스텔라",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "said",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "핀란드",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라우럴",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "L을",
+      "source": "reports/bulk/connector-resume-wave30-243.json",
       "status": "screened-see-report"
     }
   ],
