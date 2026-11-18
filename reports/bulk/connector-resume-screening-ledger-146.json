@@ -250,10 +250,11 @@
     "reports/bulk/connector-resume-wave30-423.json",
     "reports/bulk/connector-resume-wave30-425.json",
     "reports/bulk/connector-resume-wave30-427.json",
-    "reports/bulk/connector-resume-wave30-428.json"
+    "reports/bulk/connector-resume-wave30-428.json",
+    "reports/bulk/connector-resume-wave30-429.json"
   ],
-  "query_observations": 5770,
-  "distinct_literal_queries": 5034,
+  "query_observations": 5797,
+  "distinct_literal_queries": 5057,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -29305,6 +29306,141 @@
     {
       "query": "\"상의 하의 트위스트\" \"2026\" 후기",
       "source": "reports/bulk/connector-resume-wave30-428.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:news.unn.net",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:munhwa.com",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행\" site:news.sbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"제목\" site:library.kr",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:allurekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:elle.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:esquirekorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:marieclairekorea.com -boysgroup",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내돈내땀\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고독한 사우너\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쿵 할게요\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봄동 비빔밥\" \"패러디\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"거룡을 상대한\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그들의 연회에\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나는 개인이오\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내 식사를 방해할\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"당신이 옳았어\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그들의 연회에\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내 식사를 방해할 생각인가\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"거룡을 상대한\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"연회에 저는\"",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"당신이 옳았어\" \"2026\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사자심왕 리처드였어\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"X키를 눌러\" \"2026\" -site:namu.moe -site:kone.gg",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"F를 눌러\" \"2026\" 조의 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조의를 표하십시오\" \"2026\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조의를 표하십시오\" \"2026\" site:gall.dcinside.com",
+      "source": "reports/bulk/connector-resume-wave30-429.json",
       "status": "screened-see-report"
     }
   ],
