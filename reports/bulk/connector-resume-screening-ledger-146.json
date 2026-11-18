@@ -112,10 +112,11 @@
     "reports/bulk/connector-resume-wave30-267.json",
     "reports/bulk/connector-resume-wave30-268.json",
     "reports/bulk/connector-resume-wave30-269.json",
-    "reports/bulk/connector-resume-wave30-271.json"
+    "reports/bulk/connector-resume-wave30-271.json",
+    "reports/bulk/connector-resume-wave30-272.json"
   ],
-  "query_observations": 2147,
-  "distinct_literal_queries": 1747,
+  "query_observations": 2179,
+  "distinct_literal_queries": 1769,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -11052,6 +11053,166 @@
     {
       "query": "쇼미더땃쥐",
       "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:20slab.org 2026 \"밈\" \"11\"",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:genie.co.kr/magazine 2026 \"밈\" \"10\"",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"지자체\" 패러디 10월",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"뉴스레터\" \"끓여\"",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"원츄백 챌린지\" 2026 한국",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언발란스\" \"2026\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "언발란스",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "언.*발.*란.*스",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "허경환",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "원츄백",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "I Want You Back",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "원.*츄.*백",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포사이스",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "엔싱크",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바로 이 맛",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "낋여",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김천",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "니가 좋아",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야르",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "로드스터",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스톰",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "거제",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영크크",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "늙크크",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"흙이없어\" 2026 -site:incross.com -site:minenews.stibee.com",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"흙이 없어\" \"밈\" -site:incross.com",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"흙이없어흙이없어\" -site:incross.com -site:stibee.com",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"흙이 없어\" \"두더지\" -site:incross.com -site:stibee.com",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"흙이없어\" \"타임라인\"",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"흙이없어\" \"두더지\" \"2026\" -site:incross.com -site:stibee.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "언.?발.?란.?스",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "허경환",
+      "source": "reports/bulk/connector-resume-wave30-272.json",
       "status": "screened-see-report"
     }
   ],

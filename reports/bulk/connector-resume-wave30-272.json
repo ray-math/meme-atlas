@@ -1,0 +1,69 @@
+{
+  "batch": 272,
+  "canonical_before": 922,
+  "canonical_after": 923,
+  "added": "unbalance-challenge",
+  "research_c": {
+    "queries": [
+      "site:20slab.org 2026 \"밈\" \"11\"",
+      "site:genie.co.kr/magazine 2026 \"밈\" \"10\"",
+      "2026 \"밈\" \"지자체\" 패러디 10월",
+      "2026 \"밈\" \"뉴스레터\" \"끓여\"",
+      "\"원츄백 챌린지\" 2026 한국",
+      "\"언발란스\" \"2026\" \"챌린지\""
+    ],
+    "index_queries": [
+      "언발란스",
+      "언.*발.*란.*스",
+      "허경환",
+      "원츄백",
+      "I Want You Back",
+      "원.*츄.*백",
+      "포사이스",
+      "엔싱크",
+      "바로 이 맛",
+      "낋여",
+      "김천",
+      "니가 좋아",
+      "야르",
+      "로드스터",
+      "스톰",
+      "거제",
+      "영크크",
+      "늙크크"
+    ],
+    "recommended": "언발란스 챌린지",
+    "sources": [
+      "https://www.kyungnam.ac.kr/bbs/cc/1467/199304/artclView.do",
+      "https://clip.imbc.com/m/ClipPlay/S01_478347260",
+      "https://news.nate.com/view/20260803n27175?mid=n1101"
+    ],
+    "note": "official independent production descriptions2; videos0; choreography/audio not observed; origin unverified; Wantyouback hold"
+  },
+  "research_b": {
+    "queries": [
+      "\"흙이없어\" 2026 -site:incross.com -site:minenews.stibee.com",
+      "\"흙이 없어\" \"밈\" -site:incross.com",
+      "\"흙이없어흙이없어\" -site:incross.com -site:stibee.com",
+      "\"흙이 없어\" \"두더지\" -site:incross.com -site:stibee.com",
+      "\"흙이없어\" \"타임라인\"",
+      "\"흙이없어\" \"두더지\" \"2026\" -site:incross.com -site:stibee.com -site:namu.moe"
+    ],
+    "note": "hold: IG DZwTi7wzCvQ throttled; X2089657919445107102 and2089744765613216059 403; xitter.cf/jjangmuki profile one ambiguous repeat/yearunknown; originals0"
+  },
+  "index_queries": [
+    "언.?발.?란.?스",
+    "허경환"
+  ],
+  "evidence": "two independent official production descriptions directly read; video/choreography/audio verification0; Aug19 report date not original upload; originnotclaimed",
+  "checks": {
+    "unique_ids": 923,
+    "title_alias_cross_id_collisions": 0,
+    "generator_base_roundtrip": true
+  },
+  "metrics": {
+    "query_observations": 2179,
+    "distinct_literal_queries": 1769
+  },
+  "ci": "not run"
+}
