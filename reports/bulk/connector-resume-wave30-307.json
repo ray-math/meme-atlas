@@ -1,0 +1,122 @@
+{
+  "batch": 307,
+  "base": "a38b470a87742e2bf58c2326d1f379a957825a0d",
+  "canonical_before": 941,
+  "canonical_after": 942,
+  "added": [
+    "christian-parody"
+  ],
+  "research_A": {
+    "queries": [
+      "\"CHRISTIAN\" \"밈\" 한국",
+      "\"chip\" \"밈\" 고양이",
+      "\"camel singing maliali song\" 한국",
+      "\"mmmm cow\" 밈",
+      "\"PAC-MAN ghost dance\" 한국",
+      "\"Sims cat breaking\" 한국",
+      "\"강아지 경찰 아저씨\" \"챌린지\"",
+      "\"가챠걸\" 밈 2026",
+      "\"건우 엄마 데리고 와\" 밈",
+      "\"귀여운 건 나도 알아\" 밈",
+      "\"CHRISTIAN\" \"지올팍\" \"패러디\"",
+      "\"강아지 경찰 아저씨\" 밈 -site:namu.moe",
+      "\"건우 엄마\" \"데려와\" -site:namu.moe -site:seore.org",
+      "\"귀여운 건 나도 알아\" \"2026\" -site:namu.moe",
+      "\"chip\" \"감자칩\" 밈 -site:namu.moe -site:mika.co.kr",
+      "\"건우 엄마 데려와\" 패러디 -site:namu.moe -site:seore.org",
+      "\"지올팍\" \"곽윤기\" \"패러디\""
+    ],
+    "index_queries": [
+      "christian",
+      "지올팍",
+      "크리스천",
+      "크리스찬",
+      "chip",
+      "감자칩",
+      "maliali",
+      "낙타",
+      "mmmm",
+      "오티스",
+      "pac-man",
+      "팩맨",
+      "sims",
+      "심즈",
+      "강아지 경찰",
+      "노노카",
+      "가챠걸",
+      "트릭스터",
+      "건우",
+      "귀여운 건",
+      "요술공주"
+    ],
+    "reviewed": [
+      "0088",
+      "0090",
+      "0092",
+      "0130",
+      "0134",
+      "0142",
+      "0173",
+      "0189",
+      "0195",
+      "0229"
+    ],
+    "recommendation": {
+      "id": "0088",
+      "sources": [
+        "https://www.newsis.com/view/NISX20230417_0002270024",
+        "https://inside.ampm.co.kr/insight/1504"
+      ],
+      "dates": [
+        "2023-04-18",
+        "2023-04-28"
+      ],
+      "scope": "ZiorPark CHRISTIAN parody, ownlyricsnotcopied; publicationApr18vsURLApr17; writernameunstableignore"
+    },
+    "classification_proposals": {
+      "index_not_found": [
+        "0088",
+        "0130",
+        "0189",
+        "0195",
+        "0229"
+      ],
+      "unclear": [
+        "0090",
+        "0092",
+        "0134",
+        "0142",
+        "0173"
+      ]
+    },
+    "sources": {
+      "0130": "https://whitefaceone.tistory.com/2312",
+      "0189": "https://whitefaceone.tistory.com/2798",
+      "0195": "https://v.daum.net/v/20260408153440235",
+      "0229": "https://hyojason.tistory.com/64"
+    },
+    "limits": "recentindependentreuse2groups none. Editor has not yet read. 0195 source actor quote is originalnotparody."
+  },
+  "audit": "editor and independent reviewer opened 2 source articles; index941 duplicate checked",
+  "limits": "原영상0 이미지0 최근1년0. 5개분류제안 중0088만수록반영, 나머지제안미반영.",
+  "coverage_correction": "0629 was unclear, not index_not_found. Exact row recomputation supersedes mistaken projected tally.",
+  "coverage_counts": {
+    "index_not_found": 326,
+    "unclear": 353,
+    "automatic_title_alias_match": 328,
+    "included": 46,
+    "partial": 34,
+    "candidate_repeat": 4
+  },
+  "metrics": {
+    "observations": 2792,
+    "distinct": 2302
+  },
+  "prior_ci": {
+    "sha": "a38b470a87742e2bf58c2326d1f379a957825a0d",
+    "run": 44228470257,
+    "steps_passed": 65,
+    "python_tests_passed": 495
+  },
+  "ci": "newcommit pending"
+}

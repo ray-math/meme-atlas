@@ -9,6 +9,7 @@
 - [54000개](54000.md)
 - [AI 삿포로샷](ai-sapporo-shot.md)
 - [BAD 챌린지](ateez-bad-challenge.md)
+- [CHRISTIAN 패러디](christian-parody.md)
 - [ET춤](jewelry-et-dance.md)
 - [GG](gg.md)
 - [GOAT](goat.md)

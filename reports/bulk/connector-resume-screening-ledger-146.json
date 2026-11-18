@@ -139,10 +139,11 @@
     "reports/bulk/connector-resume-wave30-302.json",
     "reports/bulk/connector-resume-wave30-304.json",
     "reports/bulk/connector-resume-wave30-305.json",
-    "reports/bulk/connector-resume-wave30-306.json"
+    "reports/bulk/connector-resume-wave30-306.json",
+    "reports/bulk/connector-resume-wave30-307.json"
   ],
-  "query_observations": 2754,
-  "distinct_literal_queries": 2264,
+  "query_observations": 2792,
+  "distinct_literal_queries": 2302,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -14114,6 +14115,196 @@
     {
       "query": "\"어둠의 다크\" -site:namu.moe -site:namu.wiki",
       "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"CHRISTIAN\" \"밈\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"chip\" \"밈\" 고양이",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"camel singing maliali song\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"mmmm cow\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"PAC-MAN ghost dance\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Sims cat breaking\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"강아지 경찰 아저씨\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가챠걸\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건우 엄마 데리고 와\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"귀여운 건 나도 알아\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"CHRISTIAN\" \"지올팍\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"강아지 경찰 아저씨\" 밈 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건우 엄마\" \"데려와\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"귀여운 건 나도 알아\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"chip\" \"감자칩\" 밈 -site:namu.moe -site:mika.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건우 엄마 데려와\" 패러디 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"지올팍\" \"곽윤기\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "christian",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "지올팍",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "크리스천",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "크리스찬",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "chip",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감자칩",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "maliali",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "낙타",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "mmmm",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오티스",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "pac-man",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "팩맨",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "sims",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "심즈",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "강아지 경찰",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노노카",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가챠걸",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "트릭스터",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "건우",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "귀여운 건",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "요술공주",
+      "source": "reports/bulk/connector-resume-wave30-307.json",
       "status": "screened-see-report"
     }
   ],

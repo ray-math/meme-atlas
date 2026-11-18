@@ -115,3 +115,5 @@
 - [라고 할 뻔](../memes/almost-said-that.md)
 - [곽윤기 뒷선수 시점](../memes/kwak-yoon-gy-back-view.md)
 - [세일러문 리드로우](../memes/sailor-moon-redraw.md)
+
+- [CHRISTIAN 패러디](../memes/christian-parody.md)
