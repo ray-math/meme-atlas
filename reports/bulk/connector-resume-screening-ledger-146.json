@@ -94,10 +94,11 @@
     "reports/bulk/connector-resume-wave30-249.json",
     "reports/bulk/connector-resume-wave30-250.json",
     "reports/bulk/connector-resume-wave30-251.json",
-    "reports/bulk/connector-resume-wave30-252.json"
+    "reports/bulk/connector-resume-wave30-252.json",
+    "reports/bulk/connector-resume-wave30-253.json"
   ],
-  "query_observations": 1655,
-  "distinct_literal_queries": 1343,
+  "query_observations": 1677,
+  "distinct_literal_queries": 1359,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -8574,6 +8575,116 @@
     {
       "query": "고백",
       "source": "reports/bulk/connector-resume-wave30-252.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"사보\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"공식 블로그\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"뉴스레터\" \"11월\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노력이 숲으로\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"눈 가리고 야옹\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"발여자\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노력이 숲으로 돌아갔다\" -site:namu.moe -site:namu.wiki -site:careet.net",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"눈 가리고 야옹\" \"2026\" -site:lib.nyj.go.kr -site:xitter.cf -맞춤법 -site:careet.net -site:namu.wiki -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노력이 숲으로 돌아갔다\" \"2026\" \"블로그\"",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노력이 숲으로 돌아갔다\" \"천리포\"",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"눈 가리고 야옹\" site:youtube.com \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노력이 숲으로 돌아갔다\" -site:chollipo.org -site:careet.net -site:sotwe.com -site:instalker.org -site:twstalker.com -site:namu.moe -site:namu.wiki -site:jes10334.tistory.com -site:fixmenow.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"눈가리고 야옹\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노력이 숲으로\" site:brunch.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한한미일",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "국장님",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감자칼",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노력이 숲",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "눈 가리고 야옹",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "발여자",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빼난지원금",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오디세이",
+      "source": "reports/bulk/connector-resume-wave30-253.json",
       "status": "screened-see-report"
     }
   ],

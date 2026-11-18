@@ -1,0 +1,47 @@
+{
+  "batch": 253,
+  "canonical_before": 914,
+  "canonical_after": 914,
+  "research": {
+    "queries": [
+      "2026 \"밈\" \"사보\" -site:instablank.com -site:jjalbang.today",
+      "2026 \"밈\" \"공식 블로그\" -site:instablank.com -site:jjalbang.today",
+      "2026 \"밈\" \"뉴스레터\" \"11월\" -site:instablank.com -site:jjalbang.today",
+      "\"노력이 숲으로\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "\"눈 가리고 야옹\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "\"발여자\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "\"노력이 숲으로 돌아갔다\" -site:namu.moe -site:namu.wiki -site:careet.net",
+      "\"눈 가리고 야옹\" \"2026\" -site:lib.nyj.go.kr -site:xitter.cf -맞춤법 -site:careet.net -site:namu.wiki -site:namu.moe",
+      "\"노력이 숲으로 돌아갔다\" \"2026\" \"블로그\"",
+      "\"노력이 숲으로 돌아갔다\" \"천리포\"",
+      "\"눈 가리고 야옹\" site:youtube.com \"2026\"",
+      "\"노력이 숲으로 돌아갔다\" -site:chollipo.org -site:careet.net -site:sotwe.com -site:instalker.org -site:twstalker.com -site:namu.moe -site:namu.wiki -site:jes10334.tistory.com -site:fixmenow.tistory.com",
+      "\"눈가리고 야옹\" \"2026\"",
+      "\"노력이 숲으로\" site:brunch.co.kr"
+    ],
+    "index_queries": [
+      "한한미일",
+      "국장님",
+      "감자칼",
+      "노력이 숲",
+      "눈 가리고 야옹",
+      "발여자",
+      "빼난지원금",
+      "오디세이"
+    ],
+    "recommended": 0,
+    "holds": "Chollipo live feed lacks phrase; cached search not new direct body. Eye-cat no new recent independent use. 발여자 Mindle174938694 search quote explains original typo, not reuse.",
+    "source": "https://www.mindle.org/column/?bmode=view&idx=174938694"
+  },
+  "audit": {
+    "target": "heart-island-address",
+    "sha": "e4f0041ec00ef6fce5a7c64ce08fced33be59458",
+    "result": "passed body/index; exact publication dates0 and maps0 explicit",
+    "unique_ids": 914
+  },
+  "metrics": {
+    "query_observations": 1677,
+    "distinct_literal_queries": 1359
+  },
+  "ci": "not run"
+}
