@@ -99,10 +99,11 @@
     "reports/bulk/connector-resume-wave30-254.json",
     "reports/bulk/connector-resume-wave30-255.json",
     "reports/bulk/connector-resume-wave30-256.json",
-    "reports/bulk/connector-resume-wave30-257.json"
+    "reports/bulk/connector-resume-wave30-257.json",
+    "reports/bulk/connector-resume-wave30-258.json"
   ],
-  "query_observations": 1773,
-  "distinct_literal_queries": 1438,
+  "query_observations": 1796,
+  "distinct_literal_queries": 1455,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -9169,6 +9170,121 @@
     {
       "query": "박물관",
       "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.samsung.com/kr",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:blog.hyosung.com",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:skcareersjournal.com",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:go.kr",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" \"뉴스레터\" -site:namu.moe -site:gogumafarm.kr -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"랩으로 주문하기\" \"패러디\" \"2026\" -site:namu.moe -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"존박\" \"논산딸기\"",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"엄마 정보\" \"아빠 정보\"",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" \"다음화 정보\"",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"OO 정보\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"동생 정보\" \"2026\" -site:maily.so -site:medium.com",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄마정보\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아빠 정보\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "존박",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "랩으로",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빼난",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오디세이",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한한미일",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "늑구",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "여우",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "주문",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "정보",
+      "source": "reports/bulk/connector-resume-wave30-258.json",
       "status": "screened-see-report"
     }
   ],
