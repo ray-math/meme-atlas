@@ -1,0 +1,454 @@
+{
+  "batch": 488,
+  "base": "577756a12149bb1f822e8eb2379d1c7bfaec0267",
+  "canonical_before": 1516,
+  "canonical_after": 1525,
+  "added": [
+    "iris-candy-kiss-scene-parody",
+    "mh-generation-online-self-label",
+    "jukseumnida-jinjja-fighter-quote-label",
+    "ssingssing-ad-song-dance-parody",
+    "world-literature-cover-local-parody",
+    "ddongkkochung-homophobic-slur",
+    "myeolchi-kong-political-photo-challenge",
+    "tattoo-body-food-stereotype-slur",
+    "meatspin-deceptive-link-label"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0128",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "mh-generation-online-self-label"
+    },
+    {
+      "id": "kr-list-0940",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "jukseumnida-jinjja-fighter-quote-label"
+    },
+    {
+      "id": "kr-list-0416",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "ddongkkochung-homophobic-slur"
+    },
+    {
+      "id": "kr-list-0475",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "myeolchi-kong-political-photo-challenge"
+    },
+    {
+      "id": "kr-list-0497",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "tattoo-body-food-stereotype-slur"
+    },
+    {
+      "id": "kr-list-0510",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "meatspin-deceptive-link-label"
+    }
+  ],
+  "previous_ci": {
+    "sha": "577756a12149bb1f822e8eb2379d1c7bfaec0267",
+    "run": 44314592340,
+    "job": 134837251197,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 164.411s"
+  },
+  "previous_audit": {
+    "sha": "577756a12149bb1f822e8eb2379d1c7bfaec0267",
+    "result": "pass",
+    "mandatory_fixes": 0,
+    "canonical": 1516,
+    "old_index_records_preserved": 1508,
+    "old_body_changes": 0,
+    "candidate_changes": 6,
+    "mapping_loss": 0,
+    "source_urls_reopened": 15,
+    "media": 0,
+    "CI": "separate"
+  },
+  "research": {
+    "A53": {
+      "count": 20,
+      "recommended": 0,
+      "held": 20,
+      "queries": [
+        "\"샤방송\" 패러디",
+        "\"섊\" \"뜻\"",
+        "\"서로 깨물었을 때 반응\"",
+        "\"섣불리 판단하면 안되는 이유\"",
+        "\"아나바다\" \"밈\"",
+        "\"아니다 이 악마야\" -site:namu.moe -site:seore.org",
+        "\"아로나 댄스\" -site:namu.moe -site:seore.org",
+        "\"아이 러브 마이 화자 마자 브라자\"",
+        "\"아카자\" \"패러디\"",
+        "\"안전가족\" \"패러디\"",
+        "\"애는 있습니다\" 밈",
+        "\"애새끼들\" \"밈\"",
+        "\"야 XX\" \"밈\"",
+        "\"야 기분 좋다\" 패러디 -site:namu.moe -site:seore.org",
+        "\"야후 꾸러기\" 패러디",
+        "\"약한 사내다\" \"아스달\"",
+        "\"어나니머스\" \"밈\"",
+        "\"어둠의 메갈리안\"",
+        "\"어몽어스 잼민이\"",
+        "\"얼리 엑세스 예시를 보여줌\"",
+        "\"엄마도 사람이야 사람\"",
+        "\"오 샹젤리제\" 밈 패러디",
+        "\"오타쿠가 정치글을\"",
+        "\"오 필승 코리아\" 패러디",
+        "\"두원공대\" \"드립\" \"비하\" -site:namu.moe -site:seore.org",
+        "\"아이 러브 마이\" \"화자\" \"무한도전\"",
+        "\"약한 사내다\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"아로나 댄스\" -site:namu.moe -site:seore.org -site:inven.co.kr",
+        "\"아니다 이 악마야\" \"게임\" -site:namu.moe -site:seore.org",
+        "\"약한 사내다\" \"패러디\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "First4queries abandoned overlap C30,not part20reviewedrows.4external3failedincludingextra0403.0619/0627notfurtherpursued.Media0;4textsourcesdo not establish narrower reuse."
+    },
+    "A54": {
+      "count": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"초난강\" \"패러디\" 기사",
+        "\"초코빅송\"",
+        "\"와플핑\" \"핫케핑\"",
+        "\"아자핑\" \"하츄핑\"",
+        "\"인싸개그\" \"뜻\"",
+        "\"인증 대란\" 패러디",
+        "\"잘생겨서 안 좋은 점\"",
+        "\"죽습니다 진짜\" \"밈\"",
+        "\"자러감\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"지이잉\" 밈 -site:namu.moe -site:seore.org",
+        "\"차차핑\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"초난강\" \"개그\" \"패러디\"",
+        "\"황인수\" \"죽습니다 진짜\" -site:namu.moe -site:seore.org -site:dcinside.com",
+        "\"초난강\" \"합성사진\" -site:namu.moe -site:seore.org",
+        "\"저런\" \"상상하고 싶지도 않네요\" -site:namu.moe -site:seore.org",
+        "\"천상천하 유아독존\" \"밈\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "3external readable, BNTzero-linesexcluded.20ledgerrechecks notnewdiscoveries.0683extra rereadnotnew.0986repostorigin/dateunclear.Media0."
+    },
+    "A55": {
+      "count": 15,
+      "recommended": 0,
+      "held": 15,
+      "queries": [
+        "\"평온차\" -site:namu.moe -site:seore.org",
+        "\"케경호\" -site:namu.moe -site:seore.org",
+        "\"흑드라군\" -site:namu.moe -site:seore.org",
+        "\"헬테이커\" \"팬아트\" 기사",
+        "헬테이커 팬아트 게임메카",
+        "\"헬테이커\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"흑드라군\" \"지금이니\" -site:namu.moe -site:seore.org",
+        "\"평온차\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"헬테이커\" \"패러디\" site:tistory.com",
+        "\"평온차\" \"밍꼬발랄\"",
+        "\"코리안조커\" -site:namu.moe -site:seore.org",
+        "\"호라\" \"젠젠\" \"멀쩡\" -site:namu.moe -site:seore.org",
+        "\"하츄핑\" \"별명\" \"윈터\"",
+        "\"헝그리 정신\" \"밈\"",
+        "\"할 말이 없네\" \"밈\"",
+        "\"클로저스\" \"성우\" \"패러디\""
+      ],
+      "notes": "15 historical rows notnew;1103 may songreference, searchonly held.2 directdocs3failedattempts2docs."
+    },
+    "B520": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 10,
+      "held": 5,
+      "excluded": 4,
+      "queries": [
+        "2026 \"밈\" \"공유\" site:designplus.co.kr",
+        "2026 \"놀이\" \"SNS\" site:univ20.com",
+        "2026 \"유행\" \"사진\" site:cosmopolitan.co.kr",
+        "2026 \"패러디\" \"사진\" site:enews.imbc.com",
+        "2026 \"챌린지\" \"따라\" site:news.jtbc.co.kr",
+        "2026 \"놀이\" \"밈\" site:news.nate.com",
+        "\"사탕 키스\" \"패러디\" -독박 -장동민 -2026",
+        "\"정문어택\" \"2026\" 네이즈"
+      ],
+      "notes": "Candy scene2009preview1+2026completedreport1 not2completed. Jeongmunattack promotionalformat held;media0;no family/minor details copied."
+    },
+    "B521": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 3,
+      "held": 9,
+      "excluded": 7,
+      "queries": [
+        "2026 \"챌린지\" \"직접\" site:ac.kr",
+        "2026 \"밈\" \"제작\" site:go.kr",
+        "2026 \"패러디\" \"만들어\" site:blog.hsad.co.kr",
+        "2026 \"패러디\" \"촬영했습니다\"",
+        "2026 \"밈\" \"만들어봤\" ",
+        "2026 \"챌린지\" \"홍보\" \"패러디\" -공모 -용역 -제안서",
+        "\"정준하\" \"어휴젠\"",
+        "\"씽씽\" \"고희진\" 세레모니",
+        "2026 \"패러디\" \"제작 후기\" -공모 -용역",
+        "2026 \"밈\" \"촬영\" site:news.samsung.com/kr",
+        "2026 \"패러디\" site:newsroom.lg.co.kr",
+        "2026 \"패러디\" site:blog.hyundai.co.kr"
+      ],
+      "notes": "Recentnew0;historical1. Adcreatorretrospective+viewerreview overlapJunha sameevent,not2productions. 제주productiondateonly7/31notyear. Media0."
+    },
+    "B522": {
+      "count": 20,
+      "recommended": 1,
+      "held": 7,
+      "excluded": 12,
+      "queries": [
+        "2026 \"패러디\" \"만들었습니다\" -공모 -모집",
+        "2026 \"챌린지\" \"찍었습니다\" -모집",
+        "2026 \"밈\" \"제작기\"",
+        "\"고양고양이\" \"폭풍의 정발산\"",
+        "\"민음사\" \"패러디\" \"2026\"",
+        "2026 \"제작 후기\" \"릴스\"",
+        "\"혹시 당근이세요\" \"패러디\" 2026",
+        "\"버거킹\" \"유해진이란 어부\""
+      ],
+      "notes": "Worldliteraturecover1 admitted; date displays conflict; originalIG0."
+    },
+    "C33": {
+      "count": 20,
+      "recommended": 1,
+      "conditional": 2,
+      "held": 17,
+      "editor_final": {
+        "published_candidate": 1,
+        "held": 19
+      },
+      "queries": [
+        "\"Maxwell Cat\" 한국 밈",
+        "\"Mafia City\" 광고 패러디 한국",
+        "\"언캐니\" 밈 인크레더블 기사",
+        "\"스카이림\" \"드디어\" \"밈\"",
+        "\"김헌곤 유니버스\" -site:namu.moe",
+        "\"돈 내놔라 먹튀야\" -site:namu.moe",
+        "\"음탕지찬\" -site:namu.moe",
+        "\"MH세대\" 밈 -site:namu.moe",
+        "\"He is\" \"밈\" 한국",
+        "\"ㅎㄴㅎㄴ\" 밈 -site:namu.moe",
+        "\"KON\" \"밈\" -site:namu.moe",
+        "\"MC 노리아키\" 패러디 -site:namu.moe",
+        "\"PAC-MAN ghost dance\" 한국",
+        "\"Pink Elephants on Parade\" 밈 한국",
+        "\"Sims cat breaking\" 한국",
+        "\"S stands for\" 패러디 한국",
+        "\"Pray For Paris\" 한국 프로필",
+        "\"Terrified Noot Noot\" 한국",
+        "\"The one piece is real\" 한국 패러디",
+        "\"X키를 눌러\" \"조의\" -site:namu.moe -site:orbi.kr -site:inven.co.kr",
+        "\"스카이림\" \"오프닝\" \"패러디\" site:gamemeca.com",
+        "\"맥스웰\" \"고양이\" \"밈\" -site:namu.moe",
+        "\"핑구\" \"공포\" \"밈\" -site:namu.moe",
+        "\"마피아 시티\" \"광고\" \"패러디\" -site:namu.moe"
+      ],
+      "notes": "6external2existingbody1YTfailure. Maxwell overlapsHappyCat scope,Pariscommemorative not admitted humor/remix scope. Media0."
+    },
+    "C34": {
+      "count": 20,
+      "recommended": 0,
+      "held": 20,
+      "queries": [
+        "\"김도\" \"마즈피플\" 인터뷰",
+        "\"꾸래핑\" 뜻",
+        "\"내 거에 올라온 네 욕 볼래\"",
+        "\"네가 하면 나도 한다\" 패러디 -site:namu.moe",
+        "\"나는 예쁘지 않습니다\" 밈 -site:namu.moe",
+        "\"내 식사를 방해할 생각인가\" -site:namu.moe",
+        "\"나여 백종원\" -site:namu.moe",
+        "\"너 개못하잖아\" 기사",
+        "\"게이포터\" 밈 설명 -site:namu.moe",
+        "\"경북대 에타\" 밈 해설 -site:namu.moe",
+        "\"고누리\" \"밈\" 인터뷰",
+        "\"공산주의 유머\" 소련 농담 기사",
+        "\"과로사\" 스트리머 유행어 기사",
+        "\"그 XX\" 밈 표현 -site:namu.moe",
+        "\"긴또깡\" 유행어 비판",
+        "\"꽈추형\" 별명 유래 인터뷰",
+        "\"날 내버려둬\" \"밈\" -site:namu.moe",
+        "\"너반시\" 뜻 -site:namu.moe",
+        "\"너 쌓여있잖아\" 뜻 -site:namu.moe",
+        "\"넣을게\" \"밈\" 해설 -site:namu.moe",
+        "\"마즈피플\" \"김도\" site:inven.co.kr",
+        "\"내 거에 올라온\" \"박명수\" -site:namu.moe",
+        "\"꾸래핑\" \"밈\" -site:namu.moe",
+        "\"너 개못하잖아\" \"유행\" -site:namu.moe"
+      ],
+      "notes": "4readableexternal;Fomos rewritten summary excluded and canonicalURLfailed.20ledgerrechecks not20confirmedmissing.Media0."
+    },
+    "C35": {
+      "count": 19,
+      "recommended": 4,
+      "held": 15,
+      "queries": [
+        "\"면제겜\" 뜻 -site:namu.moe",
+        "\"멸공 챌린지\" 패러디",
+        "\"방송 되게 못하네\" 유행어",
+        "\"봇이지 뭐\" 뜻",
+        "\"두창\" \"혐오표현\"",
+        "\"똥꼬충\" \"혐오\" 뜻",
+        "\"크레이지 핫레즈\" 유래 -site:namu.moe",
+        "\"만희물\" 패러디 -site:namu.moe",
+        "\"메스가키\" \"뜻\" 비판 -site:namu.moe",
+        "\"문크 예거\" 패러디 기사",
+        "\"문신돼지국밥육수충\" 비하",
+        "\"민주에몽\" 뜻 -site:namu.moe",
+        "\"맛나핑\" 밈 뜻",
+        "\"박씨 꺼져\" 유행어 -site:namu.moe",
+        "\"박위상태\" 표현 -site:namu.moe",
+        "\"밥 먹을 때 생각나는\" \"후라이\"",
+        "\"베트남론\" 혐오 표현 기사",
+        "\"벽부수기\" 밈 뜻",
+        "\"미트스핀\" 인터넷 낚시 기사"
+      ],
+      "notes": "4 bounded accepted; editio editor403 excluded from article, forum meaning only."
+    },
+    "editorResearch": {
+      "count": 3,
+      "existing": 3,
+      "queries": [
+        "2026 \"밈\" \"따라 하는\" \"댓글\" -site:namu.moe -site:seore.org",
+        "2026 \"유행\" \"릴스\" \"말투\" -site:namu.moe -site:seore.org",
+        "\"씽씽송\" \"어휴젠\" 광고 담당자",
+        "\"씽씽\" \"패러디\" \"2009\" 제일기획",
+        "2026 \"밈\" \"11월\" \"사진\" -site:namu.moe -site:seore.org -site:minshoki.com",
+        "2026 \"11월\" \"챌린지\" \"재현\" 한국"
+      ],
+      "observations": [
+        {
+          "term": "멘탈이 나가버렸습니다",
+          "id": "completely-lost-their-minds",
+          "source": "https://www.jjalbang.today/jjalstoryview/14",
+          "status": "direct explanatory text, no new canonical"
+        },
+        {
+          "term": "L을 가져가",
+          "id": "take-the-l",
+          "status": "index comparison only"
+        },
+        {
+          "term": "윤정아",
+          "id": "yunjeong-yunjeong",
+          "status": "index comparison only"
+        }
+      ],
+      "notes": "No new discovery or source reliability upgrade claimed for aggregator snippets. Media0. Two extraqueries corroboration search ssingssing; SportsDonga cachemiss excluded. No extra candidate counted."
+    }
+  },
+  "sources": [
+    {
+      "id": "iris-candy-kiss-scene-parody",
+      "urls": [
+        "https://sports.khan.co.kr/article/200911061956513",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/499699"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mh-generation-online-self-label",
+      "urls": [
+        "https://v.daum.net/v/UB7rWlkLES",
+        "https://v.daum.net/v/20260705214613687"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jukseumnida-jinjja-fighter-quote-label",
+      "urls": [
+        "https://www.mk.co.kr/news/sports/11449893",
+        "https://gall.dcinside.com/mgallery/board/view/?id=mma&no=350722"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ssingssing-ad-song-dance-parody",
+      "urls": [
+        "https://www.ad.co.kr/journal/column/show.do?ukey=66004",
+        "https://fmpenter.com/128"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "world-literature-cover-local-parody",
+      "urls": [
+        "https://sibf.minumsa.com/오늘의귀여움x민음사/",
+        "https://inabooth.io/ko/insights/september-2026-industry-news"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ddongkkochung-homophobic-slur",
+      "urls": [
+        "https://www.khan.co.kr/article/201602131507531"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "myeolchi-kong-political-photo-challenge",
+      "urls": [
+        "https://www.khan.co.kr/article/202201091242001",
+        "https://v.daum.net/v/20220115190002500?s=print_news"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "tattoo-body-food-stereotype-slur",
+      "urls": [
+        "https://forum.blackdesertm.com/Board/Detail?boardNo=12&contentNo=311161"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "meatspin-deceptive-link-label",
+      "urls": [
+        "https://www.koreadaily.com/article/1029969"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "All existing1516 bodies unchanged; original prose; media0.",
+    "Worldliterature dates differ by access; no firstdate claim.",
+    "Tattoo stereotype fashioncolumn editor403 excluded; forumdirect meaningonly.",
+    "Mapping audit same221titlepool not221semantic reviews."
+  ],
+  "query_observations": 10322,
+  "distinct_literal_queries": 8561,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ],
+  "existing_mapping_changes": [
+    {
+      "candidate_id": "kr-list-0581",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "pangtoa-inat-game-character-parody",
+      "scope": "game-model transformed-character scenario only"
+    },
+    {
+      "candidate_id": "kr-list-0565",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "jyuji-sexual-slang-term",
+      "scope": "jyuji only, not other pairedword"
+    }
+  ],
+  "reason_only_changes": [
+    {
+      "id": "kr-list-1103",
+      "previous": "general",
+      "new": "Possible song-related reaction phrase in search evidence; direct source not verified, remains held."
+    }
+  ]
+}
