@@ -1,0 +1,68 @@
+{
+  "batch": 420,
+  "base": "7202c8da7d3071d0f22cffbd796675b7592fd46d",
+  "canonical_before": 1000,
+  "canonical_after": 1000,
+  "added": [],
+  "editor": {
+    "queries": [
+      "\"2026\" \"밈\" \"패러디\" site:magazine.cheil.com",
+      "\"2026\" \"밈\" \"유행\" site:trendmonitor.co.kr",
+      "\"2026\" \"밈\" \"챌린지\" site:univtomorrow.com",
+      "\"2026\" \"드디어 깨어\" \"스카이림\" 패러디",
+      "\"2026\" \"EZ DO DANCE\" 패러디",
+      "\"2026\" \"Dr. Livesey\" 한국 밈"
+    ],
+    "held": [
+      {
+        "id": "0102",
+        "note": "최근국내직접패러디미확보"
+      },
+      {
+        "id": "0097",
+        "note": "위키단서/원곡공연/외국회고,국내독립직접차용미확보"
+      },
+      {
+        "id": "0094",
+        "note": "해외GIF/위키/한국어게임평가2024검색단서만,최근국내2군미확보"
+      }
+    ],
+    "note": "기업/연구매체3질의무결과.위키본문복사/신규검증근거사용0."
+  },
+  "researchC": {
+    "queries": [
+      "\"2026\" \"어제 내 세상이 무너졌어\" -site:miniweb.imbc.com",
+      "\"2026\" \"오늘 내 세상이 무너졌어\""
+    ],
+    "id": "0747",
+    "decision": "held",
+    "new_verified": 0,
+    "note": "인벤7304485기본/검색query502,orbi77610355기본/한글slug403.2URL4실패,검색단서검증승격0.성별조롱극단꼬리문장채택안함.기존명확1+의도불명1유지."
+  },
+  "final1000audit": {
+    "passed": true,
+    "body_reads": 1,
+    "required_changes": 0,
+    "direct_groups": 2,
+    "preview_groups": 1,
+    "media": 0
+  },
+  "ci1000": {
+    "run": 44257818569,
+    "job": 134643633068,
+    "success": true,
+    "steps": 65,
+    "tests": 495,
+    "seconds": 110.246
+  },
+  "ci418": {
+    "run": 44257598345,
+    "job": 134642912001,
+    "success": true,
+    "tests": 495,
+    "seconds": 79.518
+  },
+  "candidate_changes": 0,
+  "coverage_basis": "reports/bulk/connector-resume-coverage-current-419.json",
+  "ci_new_commit": "pending"
+}

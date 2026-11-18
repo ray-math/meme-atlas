@@ -243,10 +243,11 @@
     "reports/bulk/connector-resume-wave30-415.json",
     "reports/bulk/connector-resume-wave30-416.json",
     "reports/bulk/connector-resume-wave30-417.json",
-    "reports/bulk/connector-resume-wave30-418.json"
+    "reports/bulk/connector-resume-wave30-418.json",
+    "reports/bulk/connector-resume-wave30-420.json"
   ],
-  "query_observations": 5642,
-  "distinct_literal_queries": 4909,
+  "query_observations": 5650,
+  "distinct_literal_queries": 4917,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -28658,6 +28659,46 @@
     {
       "query": "\"2026\" \"밈\" \"유행\" site:design.co.kr",
       "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:magazine.cheil.com",
+      "source": "reports/bulk/connector-resume-wave30-420.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"유행\" site:trendmonitor.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-420.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"챌린지\" site:univtomorrow.com",
+      "source": "reports/bulk/connector-resume-wave30-420.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"드디어 깨어\" \"스카이림\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-420.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"EZ DO DANCE\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-420.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"Dr. Livesey\" 한국 밈",
+      "source": "reports/bulk/connector-resume-wave30-420.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"어제 내 세상이 무너졌어\" -site:miniweb.imbc.com",
+      "source": "reports/bulk/connector-resume-wave30-420.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"오늘 내 세상이 무너졌어\"",
+      "source": "reports/bulk/connector-resume-wave30-420.json",
       "status": "screened-see-report"
     }
   ],
