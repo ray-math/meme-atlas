@@ -119,10 +119,11 @@
     "reports/bulk/connector-resume-wave30-276.json",
     "reports/bulk/connector-resume-wave30-277.json",
     "reports/bulk/connector-resume-wave30-278.json",
-    "reports/bulk/connector-resume-wave30-279.json"
+    "reports/bulk/connector-resume-wave30-279.json",
+    "reports/bulk/connector-resume-wave30-280.json"
   ],
-  "query_observations": 2295,
-  "distinct_literal_queries": 1856,
+  "query_observations": 2312,
+  "distinct_literal_queries": 1873,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -11799,6 +11800,91 @@
     {
       "query": "\"커터칼 퇴근\" 2026",
       "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:genie.co.kr/magazine 2026 \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:clip.imbc.com 2026 \"밈\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:clip.imbc.com/ \"2026\" \"밈\" -챌린지",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"바이브 체크\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한국 망하는 시나리오\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "올아워즈 VCF 2025 2026 9월",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"바이브 체크\" \"2026\" -site:slangify.me -니퍼트 -장원영 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"토론토\" \"밈\" \"2026\" 안유진",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바이브 체크",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Vibe Check",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "레슨",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "lesson",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "토론토",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스키비디",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "skibidi",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "신돈",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "수박주스",
+      "source": "reports/bulk/connector-resume-wave30-280.json",
       "status": "screened-see-report"
     }
   ],

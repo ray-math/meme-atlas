@@ -1,0 +1,48 @@
+{
+  "batch": 280,
+  "canonical_before": 925,
+  "canonical_after": 925,
+  "added": [],
+  "research_c": {
+    "queries": [
+      "site:genie.co.kr/magazine 2026 \"밈\"",
+      "site:clip.imbc.com 2026 \"밈\" \"챌린지\"",
+      "site:clip.imbc.com/ \"2026\" \"밈\" -챌린지",
+      "\"바이브 체크\" \"2026\" 밈",
+      "\"한국 망하는 시나리오\" 밈",
+      "올아워즈 VCF 2025 2026 9월",
+      "\"바이브 체크\" \"2026\" -site:slangify.me -니퍼트 -장원영 -site:namu.moe",
+      "\"토론토\" \"밈\" \"2026\" 안유진"
+    ],
+    "index_queries": [
+      "바이브 체크",
+      "Vibe Check",
+      "레슨",
+      "lesson",
+      "토론토",
+      "스키비디",
+      "skibidi",
+      "신돈",
+      "수박주스"
+    ],
+    "sources": [
+      "https://www.genie.co.kr/magazine/subMain?ctid=1&mgz_seq=15560&pg=1",
+      "https://v.daum.net/v/20260926151203919",
+      "https://clip.imbc.com/m/ClipPlay/S01_480792313"
+    ],
+    "note": "vibecheck hold: albumcreation2025Septoutsideyear, Sep24,2026MLBteamapplication report1; same scene syndication not multiple; otherleadsunverified; firstlessonduplicate"
+  },
+  "tree_check": {
+    "sha": "c4b96b0ea9076ed5d37c7bfa5f06a4f111ea263e",
+    "truncated": false,
+    "bodies": 925,
+    "index": 925,
+    "missing": 0,
+    "extra": 0
+  },
+  "metrics": {
+    "query_observations": 2312,
+    "distinct_literal_queries": 1873
+  },
+  "ci": "not run"
+}
