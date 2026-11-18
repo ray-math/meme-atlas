@@ -1,0 +1,366 @@
+{
+  "batch": 442,
+  "base": "7c37470457c70eac51582d35295329b2d45ae704",
+  "canonical_before": 1023,
+  "canonical_after": 1033,
+  "added": [
+    "gwangsu-mosquito-song",
+    "stop-the-equipment",
+    "little-hippo-story",
+    "keongseu-reaction",
+    "school-violence-stop-parody",
+    "haemchoemyeot",
+    "hong-doctor-challenge",
+    "sem-online-ending",
+    "i-wash-challenge",
+    "sam-online-ending"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0477",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "gwangsu-mosquito-song"
+    },
+    {
+      "id": "kr-list-0901",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "stop-the-equipment"
+    },
+    {
+      "id": "kr-list-0897",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "little-hippo-story"
+    },
+    {
+      "id": "kr-list-1008",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "keongseu-reaction"
+    },
+    {
+      "id": "kr-list-1096",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "school-violence-stop-parody"
+    },
+    {
+      "id": "kr-list-1113",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "haemchoemyeot"
+    },
+    {
+      "id": "kr-list-1156",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "hong-doctor-challenge"
+    },
+    {
+      "id": "kr-list-0632",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "sem-online-ending"
+    },
+    {
+      "id": "kr-list-0611",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "sam-online-ending"
+    }
+  ],
+  "research": {
+    "pending442A": {
+      "rows": [
+        "0432",
+        "0441",
+        "0444",
+        "0453",
+        "0455",
+        "0477",
+        "0486",
+        "0499",
+        "0501",
+        "0507",
+        "0509",
+        "0516",
+        "0520",
+        "0524",
+        "0534",
+        "0536",
+        "0539",
+        "0555",
+        "0591",
+        "0601"
+      ],
+      "recommended": [
+        "0477"
+      ],
+      "held": 19,
+      "queries": [
+        "\"락통령\" 패러디",
+        "\"롯데햄 후라이드 치킨\" 광고 밈",
+        "\"린가동자\" 밈",
+        "\"마쁘리에요\"",
+        "\"막심 센세\" -site:namu.moe",
+        "\"모기송\" 패러디",
+        "\"무대뽀\" 밈",
+        "\"물음표 드립\" -site:namu.moe",
+        "\"뭐이악\" -site:namu.moe",
+        "\"미안송\" 패러디",
+        "\"미야\" \"밈\" -site:namu.moe",
+        "\"맛나핑\" \"패러디\" -site:namu.moe",
+        "\"바바바바바바\" 밈",
+        "\"박재범\" \"월클라인\" 패러디",
+        "\"백룸\" 한국 패러디",
+        "\"번역기 드립\" -site:namu.moe",
+        "\"벽력일섬\" 패러디",
+        "\"북방코끼리바다표범\" 밈",
+        "\"벽돌할아버지\" 로봇댄스",
+        "\"사카밤바스피스\" 한국 밈",
+        "\"월클라인\" \"패러디\" \"피식\"",
+        "\"뭐이악\" \"뭐\" \"악\"",
+        "\"모기송\" \"아모기파티\""
+      ],
+      "note": "20 normalized no literal match not proof of semantic absence. Mosquito two articles read, videos0. what-ik one fan comment plus commentary insufficient second use; world-class-line SBS2023 and OSEN2024 bounded relation unclear."
+    },
+    "pending442A2": {
+      "recommended": [
+        "0632"
+      ],
+      "count": 20,
+      "held": 19,
+      "queries": [
+        "\"사정없이 보내버리겠다\" 패러디",
+        "\"삼각함수송\" 패러디",
+        "\"삼도수군통제사\" 밈",
+        "\"샤방송\" 패러디",
+        "\"섊\" 유행어",
+        "\"서로 깨물었을 때 반응\"",
+        "\"서순\" \"드립\" 사용",
+        "\"섣불리 판단하면 안되는 이유\"",
+        "\"세뇌교육\" 밈 노래",
+        "\"셈체\" 사용",
+        "\"소금소금소금팥팥팥\"",
+        "\"수박도\" 드립",
+        "\"스까듭밥\" 패러디",
+        "\"스너고\" 밈",
+        "\"스핔이\" 밈",
+        "\"슬픈 고양이 댄스\" 패러디",
+        "\"실패작 소녀\" 패러디 한국",
+        "\"아라아라\" 밈",
+        "\"아모캣\" 밈",
+        "\"아 방송 되게 못하네\"",
+        "\"삼각함수송\" \"패러디\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"셈체\" \"2005\"",
+        "\"서순\" \"패러디\" -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ],
+      "note": "sem cultural explanations2 not actual dialogue2; digitaljustice dates mixed2005/2016; triangle-song Careetalt-text falsepositive excluded, kmib rewritten-summary excluded; candidate0619 sexualized minors risk no details collected."
+    },
+    "pending442B": {
+      "count": 20,
+      "existing": [
+        "neon-pair-challenge",
+        "my-emoji",
+        "under-arrest",
+        "forever-moment",
+        "take-the-l",
+        "jo-ta",
+        "six-seven",
+        "who-is-back-from-prison"
+      ],
+      "held": 12,
+      "recommended": 0,
+      "queries": [
+        "2026 11월 밈 트렌드 신조어 매거진 -site:instablank.com",
+        "2026 9월 10월 밈 챌린지 대학 매거진 -site:instablank.com",
+        "\"NEON\" \"챌린지\" \"써니\" 2026",
+        "\"L을 가져가\" 밈",
+        "\"에이아이돌\" \"세탁\" 2026"
+      ],
+      "sources": [
+        "https://blog.hsad.co.kr/3798?category=1034380",
+        "https://humanscience.smu.ac.kr/newspaper/culture.do?article.offset=0&articleLimit=10&articleNo=768762&mode=view",
+        "https://www.lge.co.kr/story/newsroom/236165",
+        "https://shorti.kr/explore"
+      ],
+      "note": "20 triaged not all deeply verified. Shorti platform descriptions not confirmed Korean reuse; LGofficial campaign several participants not independent source count. Followup loosens unnecessary outside-ad requirement while retaining actual imitation evidence."
+    },
+    "pending442B2": {
+      "count": 20,
+      "recommended": [
+        "i-wash-challenge"
+      ],
+      "existing": 12,
+      "held": 7,
+      "queries": [
+        "\"아이워시\" \"챌린지\" 최예나",
+        "\"에이아이돌\" \"효진초이\"",
+        "\"2026\" \"밈\" \"8월\" 매거진 -site:instablank.com",
+        "\"아이워시\" \"최예나\" 챌린지 영상",
+        "\"연락 없네 잘 살아\" \"에이블리\"",
+        "\"taptap.e\" \"손가락\"",
+        "\"아이워시\" \"챌린지\" site:youtube.com",
+        "\"I WASH\" \"YENA\" challenge"
+      ],
+      "note": "Official2026-08-31 and independent interview2026-11-05 but samecampaign informants; adoutside requirement removed. No videos."
+    },
+    "pending442C": {
+      "count": 20,
+      "recommended": [
+        "0897",
+        "0901",
+        "1008",
+        "1096",
+        "1113",
+        "1156"
+      ],
+      "held": 14,
+      "queries": [
+        "\"우마우마\" \"유행\" 기사",
+        "\"유루유리 하지마루요\" 패러디",
+        "\"으악 안돼\" \"이병헌\" 밈",
+        "\"의문의\" \"행\" \"드립\"",
+        "\"이러니까 개콘이 망하지\" 기사",
+        "\"인간성기사 뿌뿌뽕\" 기사",
+        "\"작은 하마 이야기\" 패러디 기사",
+        "\"장비를 정지합니다\" 패러디 기사",
+        "\"조보아씨\" \"유행어\"",
+        "\"주작송\" 기사",
+        "\"짱구야 아빠를 속인거니\" 패러디",
+        "\"충격과 공포다\" \"기사\"",
+        "\"캐피탈리즘 호\" 게임 리뷰",
+        "\"컹스\" 유행어 뜻",
+        "\"한화의 김성근 감독님 사랑해\" 밈 기사",
+        "\"탈모르파티\" \"패러디\" 기사",
+        "\"텟카이\" 밈 기사",
+        "\"학교폭력 멈춰\" 패러디 기사",
+        "\"햄최몇\" 뜻 기사",
+        "\"홍박사님을 아세요\" 챌린지 기사",
+        "\"탈모르파티\" 패러디",
+        "\"학교폭력 멈춰\" 밈 유래",
+        "\"뿌뿌뽕\" 기사",
+        "\"텟카이\" 유행어"
+      ],
+      "sources": [
+        {
+          "id": "0901",
+          "urls": [
+            "https://m.hungryapp.co.kr/news/news_view.php?durl=YmNvZGU9bmV3cyZwaWQ9MzY5NzQmdXNlcj0%3D",
+            "https://whitefaceone.tistory.com/2309"
+          ],
+          "note": "firstdateunknown+2021-06-02; concrete composites explained, no videos"
+        },
+        {
+          "id": "0897",
+          "urls": [
+            "https://www.etoday.co.kr/news/view/578828"
+          ],
+          "note": "2012-05-01 one report of twist structure and variants; image0"
+        },
+        {
+          "id": "1008",
+          "urls": [
+            "https://www.wikitree.co.kr/articles/325544",
+            "https://naeiledu.co.kr/26572"
+          ],
+          "note": "2018 interview1+requotation1; bad situation substitution only"
+        },
+        {
+          "id": "1096",
+          "urls": [
+            "https://www.etoday.co.kr/news/view/2003150"
+          ],
+          "note": "2021-03-11 report1, 2014campaign reemergence; narrow chant scene, no video"
+        },
+        {
+          "id": "1113",
+          "urls": [
+            "https://www.fnnews.com/news/202607060752148864"
+          ],
+          "note": "2026-07-06 08:13 News1 syndication1, meaning explicit; AIillustration notreceiptproof"
+        },
+        {
+          "id": "1156",
+          "urls": [
+            "https://enews.imbc.com/News/RetrieveNewsInfo/394668",
+            "https://www.xportsnews.com/article/1774364"
+          ],
+          "note": "2023-09-17 interview+2023-09-25Yerin participation; Jungkookmentionedphrase notdance; lyricsnotcopied"
+        }
+      ]
+    }
+  },
+  "editor_source_reads": [
+    {
+      "url": "https://www.xportsnews.com/article/1240438",
+      "read": "2020-02-25 lines100–104 dancer parody report"
+    },
+    {
+      "url": "https://www.cineplay.co.kr/ko-kr/articles/9955",
+      "read": "2020-07-21 lines65–85 separate edits reported"
+    },
+    {
+      "url": "https://www.etoday.co.kr/news/view/578828",
+      "read": "2012-05-01 lines144–151 twist story and several parodies; one reporting cluster"
+    },
+    {
+      "url": "https://www.etoday.co.kr/news/view/2003150",
+      "read": "2021-03-11 lines140–150 2014campaignclip rediscovered as meme; no direct reenactment proof, requested wording reduction"
+    },
+    {
+      "url": "https://www.fnnews.com/news/202607060752148864",
+      "read": "2026-07-06 lines132–146 meaning explicit; News1syndication single cluster; AIillustration not originalreceipt"
+    },
+    {
+      "url": "https://enews.imbc.com/News/RetrieveNewsInfo/394668",
+      "read": "2023-09-17 interview lines9–17; dance challenge reported, sexual implication context excluded except caution"
+    },
+    {
+      "url": "https://www.xportsnews.com/article/1774364",
+      "read": "2023-09-25 lines100–105 Yerin participation reported; source describes easy repeated dance, not footage read"
+    },
+    {
+      "url": "https://www.wikitree.co.kr/articles/325544",
+      "read": "lines115–120 keongseu bad situation substitution self-report; no surprise-emotion extrapolation"
+    }
+  ],
+  "previous_ci": {
+    "run": 44266164411,
+    "job": 134671098591,
+    "status": "success",
+    "python_tests": 495,
+    "seconds": "80.941",
+    "steps": 65
+  },
+  "previous_full_body_audit": {
+    "sha": "7c37470457c70eac51582d35295329b2d45ae704",
+    "body_reads": 6,
+    "passed": true,
+    "required_changes": 0,
+    "limits": "Full six GitHub bodies read. Derived files not audited by independent worker; current CI passed. Some external reopens failed noted separately."
+  },
+  "previous_scope_audit": {
+    "base": "7c37470457c70eac51582d35295329b2d45ae704",
+    "scope_count": 6,
+    "required_fix": "mittin specific emotions removed before save",
+    "full_text_audit": "pending",
+    "queries": [
+      "site:allurekorea.com \"강해린 이상하다\" 2023",
+      "site:news.tvchosun.com \"2024102290276\""
+    ],
+    "limits": "Audit reopens DCbleach677567/DCyurucam266147 failed, TVChosun unavailable; earlier direct source readings retained separately."
+  },
+  "prepublication_audit": {
+    "sam": "Independent Asiae read confirms separate ending style; second source editor read only",
+    "school_stop": "Removed unsupported reenactment assertion; clip recirculation only"
+  },
+  "limits": [
+    "Ten items batched, derived files updated once.",
+    "Single explanatory report can support narrow historical meaning, not two independent uses.",
+    "Video/image viewing0; all evidentiary limits in bodies.",
+    "Current CI pending; main unchanged; no Codex."
+  ]
+}
