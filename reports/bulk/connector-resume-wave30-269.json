@@ -1,0 +1,123 @@
+{
+  "batch": 269,
+  "canonical_before": 921,
+  "canonical_after": 922,
+  "added": "narak-is-rock",
+  "independent_audit": {
+    "entry": "boomshakalaka-backpack",
+    "sha": "a8ce6fa863733e6d91246723605d8b09b0bac04d",
+    "result": "pass",
+    "index": 921,
+    "unique_ids": 921,
+    "readme": 921,
+    "manual_links": 95,
+    "queries": 0,
+    "source_url_reads": 2,
+    "original_videos": 0
+  },
+  "research_b": {
+    "queries": [
+      "2026 \"밈\" \"도서관\" \"유행\"",
+      "2026 \"밈\" \"이번\" \"브랜드\" \"11월\"",
+      "\"늙크크\" 2026",
+      "\"전여친 감자칼\" 2026",
+      "\"능글맞은 개코원숭이\" 밈",
+      "\"회사\" \"조금씩 부수기\" 2026",
+      "\"비락도 락이다\" 부산 2026",
+      "\"도 락이다\" \"2026\" -비락 -site:namu.moe -site:instablank.com",
+      "\"나락도 락이다\" 2026 제목"
+    ],
+    "index_queries": [
+      "늙크크",
+      "영크크",
+      "감자칼",
+      "능글",
+      "회사 부수",
+      "연애의 조건",
+      "NEON",
+      "네온",
+      "나락도",
+      "락이다",
+      "비락",
+      "부수기",
+      "부시기",
+      "office-break",
+      "개코원숭이"
+    ],
+    "candidate": "나락도 락이다",
+    "sources": [
+      "https://www.kbmaeil.com/article/20260302500509",
+      "https://v.daum.net/v/20260831140438680",
+      "https://www.20slab.org/Archives/39172",
+      "https://theqoo.net/rockandband/4298485368",
+      "https://www.gamechosun.co.kr/webzine/article/view.php?bid=17&from=articlelist&no=223181&page=21"
+    ],
+    "note": "two independent editorial directuses March4/Aug31; not KimChangwan quote; Birakcampaign article+eyewitness same campaign; originnot2026; holds baboon/officebreaking"
+  },
+  "research_c": {
+    "queries": [
+      "site:maily.so/trendaword \"26.11\" 밈",
+      "site:gogumafarm.kr \"2026년 11월\" 밈",
+      "\"얼데이드립\" 2026 -site:maily.so",
+      "\"오디세이\" \"디저트\" 2026 -site:maily.so",
+      "\"얼데이드립\" 뉴스",
+      "\"7080 버전\" \"2026\" \"밈\"",
+      "\"한한미일\" 2026 밈"
+    ],
+    "index_queries": [
+      "존박",
+      "맥도날드",
+      "라우럴",
+      "빼난",
+      "오디세이",
+      "디저트",
+      "얼데이",
+      "7080",
+      "한한미일",
+      "야차",
+      "랜덤 애인",
+      "치와와",
+      "누룽쥐"
+    ],
+    "duplicates": [
+      "john-park-mcdonalds-rap",
+      "raureol",
+      "pepero-aid",
+      "odyssey"
+    ],
+    "holds": "eolday singlechannel; November11 correction Yushi->Sakuya; Hanhanmiil nickname; outdoor tea lifestyle; randomloverpreviousreservation; chihuahua/nurungjwi notverified",
+    "sources": [
+      "https://maily.so/trendaword/posts/wdr98q30olx",
+      "https://maily.so/trendaword/posts/wdr98q59olx",
+      "https://maily.so/trendaword/posts/xyowy388z28"
+    ]
+  },
+  "index_queries": [
+    "락이다",
+    "나락",
+    "rock",
+    "호락"
+  ],
+  "evidence": {
+    "direct_editorial_applications": 2,
+    "reported_brand_application": 1,
+    "source_reads": [
+      "https://www.kbmaeil.com/article/20260302500509",
+      "https://v.daum.net/v/20260831140438680",
+      "https://www.20slab.org/Archives/39172"
+    ],
+    "original_event_images_videos": 0,
+    "note": "2026 reuse, not 2026 origin. Not Kim Changwan quote. Same brand campaign eyewitness not counted separately."
+  },
+  "checks": {
+    "index": 922,
+    "unique_ids": 922,
+    "title_alias_cross_id_collisions": 0,
+    "generator_base_roundtrip": true
+  },
+  "metrics": {
+    "query_observations": 2116,
+    "distinct_literal_queries": 1724
+  },
+  "ci": "not run"
+}

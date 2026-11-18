@@ -110,10 +110,11 @@
     "reports/bulk/connector-resume-wave30-265.json",
     "reports/bulk/connector-resume-wave30-266.json",
     "reports/bulk/connector-resume-wave30-267.json",
-    "reports/bulk/connector-resume-wave30-268.json"
+    "reports/bulk/connector-resume-wave30-268.json",
+    "reports/bulk/connector-resume-wave30-269.json"
   ],
-  "query_observations": 2068,
-  "distinct_literal_queries": 1697,
+  "query_observations": 2116,
+  "distinct_literal_queries": 1724,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -10655,6 +10656,246 @@
     {
       "query": "가방",
       "source": "reports/bulk/connector-resume-wave30-268.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"도서관\" \"유행\"",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"이번\" \"브랜드\" \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"늙크크\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"전여친 감자칼\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"능글맞은 개코원숭이\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"회사\" \"조금씩 부수기\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"비락도 락이다\" 부산 2026",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"도 락이다\" \"2026\" -비락 -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나락도 락이다\" 2026 제목",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "늙크크",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영크크",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감자칼",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "능글",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "회사 부수",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "연애의 조건",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "NEON",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "네온",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나락도",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "락이다",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "비락",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "부수기",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "부시기",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "office-break",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개코원숭이",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:maily.so/trendaword \"26.11\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:gogumafarm.kr \"2026년 11월\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"얼데이드립\" 2026 -site:maily.so",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오디세이\" \"디저트\" 2026 -site:maily.so",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"얼데이드립\" 뉴스",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"7080 버전\" \"2026\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한한미일\" 2026 밈",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "존박",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "맥도날드",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라우럴",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빼난",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오디세이",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "디저트",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "얼데이",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "7080",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한한미일",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야차",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "랜덤 애인",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "치와와",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누룽쥐",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "락이다",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나락",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "rock",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "호락",
+      "source": "reports/bulk/connector-resume-wave30-269.json",
       "status": "screened-see-report"
     }
   ],
