@@ -270,8 +270,8 @@
     "reports/bulk/connector-resume-wave30-445.json",
     "reports/bulk/connector-resume-wave30-446.json"
   ],
-  "query_observations": 8616,
-  "distinct_literal_queries": 7398,
+  "query_observations": 8686,
+  "distinct_literal_queries": 7456,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -43554,6 +43554,356 @@
       "query": "\"태순이\" \"졸업사진\" \"2026\"",
       "source": "reports/bulk/connector-resume-wave30-468.json",
       "status": "screened-see-report"
+    },
+    {
+      "query": "\"인싸개그\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인실좆\" 유행어",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인주 앨리스\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인증 대란\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"일부러 PC방에는\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"일본 대단해\" 택시",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아자핑\" \"하츄핑\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"와플핑\" \"핫케핑\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자러감\" 드립",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이쿠요 댄스\" 따라",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이쿠요 댄스\" -site:namu.moe -site:seore.org -site:everymemes.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이쿠요\" 챌린지 아스터",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인실좆\" site:hani.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인싸개그\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"모션캡처로 직접 추는 이쿠요 댄스\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인실좆\" \"칼럼\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아자핑\" \"하츄핑\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"와플핑\" \"핫케핑\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자러감\" 드립",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"일부러 PC방에는\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"일본 대단해\" 택시",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인증 대란\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"셋로그\" 2026 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"셋로그\" \"참여\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스마일 클리닉\" \"따라\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"놀이\" \"밈\" \"대학생\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" \"화면 분할\" -셋로그 -site:onmeme.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"단체사진\" \"유행\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 11월 밈 신조어 site:maily.so/trendaword",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 11월 밈 site:gogumafarm.kr",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 9월 최신 site:gogumafarm.kr",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 8월 최신 site:gogumafarm.kr",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 7월 최신 site:20slab.org",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"분명 불법적인 일을\" 밈 -site:gogumafarm.kr",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아빠 정보\" \"밈\" -site:gogumafarm.kr",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다음 화 정보\" -site:gogumafarm.kr",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이쿠요 댄스\" \"따라\" -site:namu.moe -site:everymemes.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이쿠요\" \"댄스\" \"기사\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이쿠요\" \"챌린지\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"E: ku\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"100문 100답\" \"블로그\" \"2026\" -site:xelonary.com -site:yes24.com -site:wimouniv.com -site:oldpc.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"백문백답\" \"써봤다\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"백문백답\" site:tistory.com \"취미\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"100문 100답\" \"일상\" site:brunch.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잘생겨서 안 좋은 점\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"잭 오 챌린지\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"저런\" \"상상하고 싶지도 않네요\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정상화\" \"창팝\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정상수\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"적폐\" \"인터넷\" 신조어",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"홍명보\" \"선임\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"졸업\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"사진 놀이\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"신조어\" \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빼난지원금\" 유병재",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"난리자베스\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄마 동결건조\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"석가머니\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"AI 중계샷\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"주먹자로\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:incross.com \"2026\" \"밈\" \"10월\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:hsad.tistory.com \"2026\" \"9월\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:maily.so/trendaword \"2026\" \"11월 17\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"후드잡샷\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정신없는\" \"브이로그\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄마는 블랙핑크\" \"아빠\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"정신없는 숏 브이로그\" -site:adic.co.kr -site:ad.co.kr -site:hsad.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빠르게\" \"브이로그\" \"2026\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가로형 브이로그\" \"빠른\"",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"브이로그\" \"검정\" \"빠른\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-469.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [
@@ -43568,5 +43918,5 @@
   ],
   "note": "명시 문자열 대조 기록이며 고유 밈 수나 검증 완료 수가 아님.",
   "metric_note": "저장된 명시 대조 문자열의 관측 횟수/문자열 종류. 검색창 질의와 인덱스 대조 표현이 섞여 있으며 검증 밈 수나 전체 연구량을 뜻하지 않음.",
-  "distinct_query_strings": 7398
+  "distinct_query_strings": 7456
 }

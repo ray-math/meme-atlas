@@ -1,0 +1,251 @@
+{
+  "batch": 469,
+  "base": "76dae5c848eb059a87a3ee0ce74f696457f4644d",
+  "canonical_before": 1317,
+  "canonical_after": 1322,
+  "added": [
+    "setlog-color-motion-group-vlog",
+    "ai-fictional-seized-items-image",
+    "hundred-questions-self-introduction-chain",
+    "dont-speak-informally-broadcast-quote",
+    "rapid-landscape-mini-vlog"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0913",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "dont-speak-informally-broadcast-quote"
+    }
+  ],
+  "previous_ci": {
+    "run": 44294623343,
+    "job": 134768292711,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 102.512s"
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "mandatory": 0,
+    "new_entries": 11,
+    "prior_entries_unchanged": 1306,
+    "candidate_changes": 1,
+    "mapping_loss": 0,
+    "source_urls_reopened": 21,
+    "media_viewed": 0
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "existing": 10,
+      "held": 10,
+      "recommended": 0,
+      "additional_recheck": 1,
+      "queries": [
+        "\"인싸개그\"",
+        "\"인실좆\" 유행어",
+        "\"인주 앨리스\" 패러디",
+        "\"인증 대란\" 밈",
+        "\"일부러 PC방에는\"",
+        "\"일본 대단해\" 택시",
+        "\"아자핑\" \"하츄핑\"",
+        "\"와플핑\" \"핫케핑\"",
+        "\"자러감\" 드립",
+        "\"이쿠요 댄스\" 따라",
+        "\"이쿠요 댄스\" -site:namu.moe -site:seore.org -site:everymemes.tistory.com",
+        "\"이쿠요\" 챌린지 아스터",
+        "\"인실좆\" site:hani.co.kr",
+        "\"인싸개그\" -site:namu.moe -site:seore.org",
+        "\"모션캡처로 직접 추는 이쿠요 댄스\"",
+        "\"인실좆\" \"칼럼\"",
+        "\"아자핑\" \"하츄핑\"",
+        "\"와플핑\" \"핫케핑\"",
+        "\"자러감\" 드립",
+        "\"일부러 PC방에는\"",
+        "\"일본 대단해\" 택시",
+        "\"인증 대란\" 밈"
+      ],
+      "notes": [
+        "16 distinct literal queries,22 executions. Extra E:ku review outside20 rows; production video only search title, not verified."
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended_families": 2,
+      "same_family": 1,
+      "existing": 9,
+      "held": 8,
+      "queries": [
+        "\"셋로그\" 2026 챌린지",
+        "\"셋로그\" \"참여\"",
+        "\"스마일 클리닉\" \"따라\" 2026",
+        "2026 \"놀이\" \"밈\" \"대학생\"",
+        "2026 \"챌린지\" \"화면 분할\" -셋로그 -site:onmeme.com -site:namu.moe",
+        "2026 \"단체사진\" \"유행\" 챌린지"
+      ]
+    },
+    "C": {
+      "count": 20,
+      "existing": 18,
+      "enrichment": 1,
+      "held_reexamination": 1,
+      "queries": [
+        "2026 11월 밈 신조어 site:maily.so/trendaword",
+        "2026 11월 밈 site:gogumafarm.kr",
+        "2026 밈 9월 최신 site:gogumafarm.kr",
+        "2026 밈 8월 최신 site:gogumafarm.kr",
+        "2026 밈 7월 최신 site:20slab.org",
+        "\"분명 불법적인 일을\" 밈 -site:gogumafarm.kr",
+        "\"아빠 정보\" \"밈\" -site:gogumafarm.kr",
+        "\"다음 화 정보\" -site:gogumafarm.kr"
+      ]
+    },
+    "editor": {
+      "count": 3,
+      "reexamined": 3,
+      "queries": [
+        "\"이쿠요 댄스\" \"따라\" -site:namu.moe -site:everymemes.tistory.com",
+        "\"이쿠요\" \"댄스\" \"기사\"",
+        "\"이쿠요\" \"챌린지\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"E: ku\" \"챌린지\"",
+        "\"100문 100답\" \"블로그\" \"2026\" -site:xelonary.com -site:yes24.com -site:wimouniv.com -site:oldpc.co.kr",
+        "\"백문백답\" \"써봤다\"",
+        "\"백문백답\" site:tistory.com \"취미\"",
+        "\"100문 100답\" \"일상\" site:brunch.co.kr"
+      ],
+      "held": 2,
+      "notes": [
+        "E:ku dance descriptive source one, separate creator video title inaccessible. 0866 original mapping ambiguous remains unchanged.",
+        "Insil profanity definition recovered but concrete Inven usage502 unavailable; no legal conclusions or first-origin assertions accepted.",
+        "100 Q&A recovered through dated actual participant record plus culture article; private answers not reproduced. Rewritten-summary tool page remains excluded."
+      ],
+      "recommended": 1
+    },
+    "A2": {
+      "count": 20,
+      "existing": 12,
+      "recommended": 1,
+      "held": 7,
+      "queries": [
+        "\"잘생겨서 안 좋은 점\"",
+        "\"잭 오 챌린지\" 한국",
+        "\"저런\" \"상상하고 싶지도 않네요\"",
+        "\"정상화\" \"창팝\"",
+        "\"정상수\" \"밈\"",
+        "\"적폐\" \"인터넷\" 신조어",
+        "\"홍명보\" \"선임\" \"밈\""
+      ],
+      "notes": [
+        "0913 broadcast quote narrow partial only; two release articles same event not independent.",
+        "0908 direct text variation recovered but original context unverified.",
+        "0909 and0912 existing partial scope not full umbrella coverage."
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended": 0,
+      "existing": 6,
+      "enrichment": 1,
+      "held": 12,
+      "excluded": 1,
+      "queries": [
+        "2026 \"밈\" \"졸업\" -site:namu.moe",
+        "2026 \"밈\" \"사진 놀이\"",
+        "2026 \"밈\" \"신조어\" \"11월\"",
+        "\"빼난지원금\" 유병재",
+        "\"난리자베스\" 2026",
+        "\"엄마 동결건조\"",
+        "\"석가머니\" 2026",
+        "\"AI 중계샷\" 2026",
+        "\"주먹자로\" 2026"
+      ],
+      "notes": [
+        "AI broadcast sports variation overlaps ai-broadcast-appearance-photo; initial new recommendation withdrawn after full-body review. Enrichment source recovered, no new canonical.",
+        "Other held terms not verified use."
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 7,
+      "held_or_excluded": 12,
+      "queries": [
+        "site:incross.com \"2026\" \"밈\" \"10월\"",
+        "site:hsad.tistory.com \"2026\" \"9월\" \"밈\"",
+        "site:maily.so/trendaword \"2026\" \"11월 17\"",
+        "\"후드잡샷\" 밈",
+        "\"정신없는\" \"브이로그\" 밈",
+        "\"엄마는 블랙핑크\" \"아빠\"",
+        "\"정신없는 숏 브이로그\" -site:adic.co.kr -site:ad.co.kr -site:hsad.tistory.com",
+        "\"빠르게\" \"브이로그\" \"2026\" \"밈\"",
+        "\"가로형 브이로그\" \"빠른\"",
+        "\"브이로그\" \"검정\" \"빠른\" 2026"
+      ],
+      "notes": [
+        "HSAD and Featuring explanatory sources, video0; Openads repost same Featuring group.",
+        "Precise19:6 ratio omitted as possible typo."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "setlog-color-motion-group-vlog",
+      "urls": [
+        "https://v.daum.net/v/20260503090138950",
+        "https://www.newsis.com/view/NISX20260609_0003662447"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ai-fictional-seized-items-image",
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260923042200505"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hundred-questions-self-introduction-chain",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/3824",
+        "https://diephilosophin.tistory.com/469"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dont-speak-informally-broadcast-quote",
+      "urls": [
+        "https://www.starnewskorea.com/music/2022/02/21/2022022110043635229"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "rapid-landscape-mini-vlog",
+      "urls": [
+        "https://www.mobiinside.co.kr/2026/01/06/v-log-trend/",
+        "https://hsad.tistory.com/3698"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Five bounded entries; Setlog color/movement format distinct from simultaneous split-screen vlog.",
+    "One existing cannot-hide history enriched; definition/examples unchanged; no canonical count increase.",
+    "AI sports broadcast image is existing family, not added.",
+    "Observation groups include rechecks and overlap; not unique-new meme count."
+  ],
+  "query_observations": 8686,
+  "distinct_literal_queries": 7456,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ],
+  "enrichments": [
+    {
+      "id": "cannot-hide",
+      "path": "memes/cannot-hide.md",
+      "reason": "Reply variant and source-bounded origin correction; definition unchanged, search_text before history unchanged.",
+      "new_canonical": false
+    }
+  ]
+}

@@ -519,3 +519,8 @@
 - [자기 직업 불법적으로 말하기](../memes/job-description-crime-briefing-parody.md)
 - [얼데이드립 7080풍 AI 음악 편집](../memes/errdaydrip-retro-ai-music-edit.md)
 - [태순이 캐릭터 분장 패러디](../memes/taesoon-character-costume-parody.md)
+- [셋로그 색·몸짓 맞추기](../memes/setlog-color-motion-group-vlog.md)
+- [AI 가상 압수품 이미지 놀이](../memes/ai-fictional-seized-items-image.md)
+- [백문백답 자기소개 문답](../memes/hundred-questions-self-introduction-chain.md)
+- [반말하지 마라 방송 인용](../memes/dont-speak-informally-broadcast-quote.md)
+- [정신없는 가로형 브이로그](../memes/rapid-landscape-mini-vlog.md)
