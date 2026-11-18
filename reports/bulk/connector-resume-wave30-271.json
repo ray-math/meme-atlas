@@ -1,0 +1,83 @@
+{
+  "batch": 271,
+  "canonical_before": 922,
+  "canonical_after": 922,
+  "added": [],
+  "research_a": {
+    "queries": [
+      "\"2026\" \"밈\" site:wkorea.com",
+      "\"2026\" \"밈\" site:gqkorea.co.kr",
+      "\"2026\" \"밈\" site:singleskorea.com",
+      "\"2026년 가장 잘 될 사람\"",
+      "\"말차 스필\" 한국",
+      "\"2026\" \"밈\" site:design.co.kr"
+    ],
+    "index_queries": [
+      "잘될",
+      "스필",
+      "말차"
+    ],
+    "holds": [
+      "올해 가장 잘 될 사람: MnetFeb26fortune cookie and TheqooJan2volleyball titles; common New Year phrase not proven same template; videos0",
+      "말차 스필: no2recentKoreancreator uses"
+    ],
+    "sources": [
+      "https://www.mnetplus.world/media/ko/videos/698ff7838e6c2019fa56e127",
+      "https://theqoo.net/volleyball/4049407771"
+    ]
+  },
+  "research_b": {
+    "queries": [
+      "2026 \"밈\" \"뉴스레터\" \"9월\" -site:instablank.com -site:namu.moe",
+      "2026 \"밈\" \"공식\" \"패러디\" \"도서관\"",
+      "\"땃쥐\" \"패러디\" 2026",
+      "\"투컷적 사고\" 2026",
+      "\"두더지 구출 작전\" 밈 2026",
+      "\"뽈롱랜드\" \"패러디\"",
+      "\"맘스 땃쥐\" -site:namu.moe",
+      "\"투컷적 사고\" \"패러디\" -에픽이즘 -EPIKISM"
+    ],
+    "index_queries": [
+      "100",
+      "땃쥐",
+      "뽈롱",
+      "듀오",
+      "두더지",
+      "밤티",
+      "골반",
+      "문상",
+      "라을라",
+      "흙이",
+      "투컷",
+      "초심",
+      "에픽이즘",
+      "쇼미더땃쥐"
+    ],
+    "holds": [
+      "뽈롱랜드·땃쥐랩 single creator explained, independentreuse0",
+      "투컷적사고 single original promotion",
+      "두더지구출작전→흙이없어 search lead not yetread"
+    ],
+    "duplicates": [
+      "hundred-joke",
+      "bamti",
+      "pelvis-wont-stop",
+      "raeulla"
+    ],
+    "sources": [
+      "https://stibee.com/api/v1.0/emails/share/-EXIkSVw9MrplEYo5loh2i8G2mbmZcM",
+      "https://www.incross.com/ko/insight/report.asp?idx=11062&mode=view"
+    ]
+  },
+  "direct_followup": {
+    "url": "https://www.incross.com/ko/insight/report.asp?idx=11062&mode=view",
+    "date": "2026-08-26",
+    "read": true,
+    "note": "single explainer of mole rescue comment and later commute-timeline reuse; original linkedposts not yet read; investigating, not canonical"
+  },
+  "metrics": {
+    "query_observations": 2147,
+    "distinct_literal_queries": 1747
+  },
+  "ci": "not run"
+}

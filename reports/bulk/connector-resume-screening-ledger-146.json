@@ -111,10 +111,11 @@
     "reports/bulk/connector-resume-wave30-266.json",
     "reports/bulk/connector-resume-wave30-267.json",
     "reports/bulk/connector-resume-wave30-268.json",
-    "reports/bulk/connector-resume-wave30-269.json"
+    "reports/bulk/connector-resume-wave30-269.json",
+    "reports/bulk/connector-resume-wave30-271.json"
   ],
-  "query_observations": 2116,
-  "distinct_literal_queries": 1724,
+  "query_observations": 2147,
+  "distinct_literal_queries": 1747,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -10896,6 +10897,161 @@
     {
       "query": "호락",
       "source": "reports/bulk/connector-resume-wave30-269.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:wkorea.com",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:gqkorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:singleskorea.com",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026년 가장 잘 될 사람\"",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"말차 스필\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:design.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "잘될",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스필",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "말차",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"뉴스레터\" \"9월\" -site:instablank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"공식\" \"패러디\" \"도서관\"",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"땃쥐\" \"패러디\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"투컷적 사고\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"두더지 구출 작전\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뽈롱랜드\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"맘스 땃쥐\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"투컷적 사고\" \"패러디\" -에픽이즘 -EPIKISM",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "100",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "땃쥐",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뽈롱",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "듀오",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "두더지",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "밤티",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "골반",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "문상",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라을라",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "흙이",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "투컷",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "초심",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "에픽이즘",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쇼미더땃쥐",
+      "source": "reports/bulk/connector-resume-wave30-271.json",
       "status": "screened-see-report"
     }
   ],
