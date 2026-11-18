@@ -1,0 +1,138 @@
+{
+  "batch": 520,
+  "base": "8f3b35faf89f4a3c25617aa12dd6809cccd4e13a",
+  "canonical_before": 1838,
+  "canonical_after": 1848,
+  "added": [
+    "cold-warm-handsome-impression",
+    "ppyeogeumaen-comic-instinct-praise",
+    "human-photocopier-voice-imitator",
+    "professional-nonattendee-nickname",
+    "hard-carry-major-contribution",
+    "notebook-name-out-parody",
+    "bangapguman-bangawoyo-greeting-reuse",
+    "mukkit-list-food-wishlist",
+    "matdori-tasty-food-praise",
+    "oh-dear-what-happens-next-text"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0908",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "oh-dear-what-happens-next-text"
+    }
+  ],
+  "previous_ci": {
+    "run": 44367526217,
+    "job": 135025180207,
+    "sha": "8f3b35faf89f4a3c25617aa12dd6809cccd4e13a",
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 105.432s"
+    ]
+  },
+  "sources": [
+    {
+      "id": "cold-warm-handsome-impression",
+      "urls": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/241795",
+        "https://news.nate.com/view/20260119n33399"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ppyeogeumaen-comic-instinct-praise",
+      "urls": [
+        "https://view.asiae.co.kr/article/2010090813365522400",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/505205"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "human-photocopier-voice-imitator",
+      "urls": [
+        "https://v.daum.net/v/20260731070507384",
+        "https://news.nate.com/view/20260424n30910"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "professional-nonattendee-nickname",
+      "urls": [
+        "https://www.nocutnews.co.kr/news/4588790",
+        "https://www.etnews.com/20161006000088",
+        "https://www.heraldmuse.com/article/10928194"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hard-carry-major-contribution",
+      "urls": [
+        "https://blog.krafton.com/5456/",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/491896"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "notebook-name-out-parody",
+      "urls": [
+        "https://www.hankookilbo.com/news/article/amp/A2026091013390003035"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bangapguman-bangawoyo-greeting-reuse",
+      "urls": [
+        "https://www.safetv.go.kr/base/video/view?idx=1664&menuLevel=&menuNo=&playlistManagementIdx=&searchCategory=",
+        "https://www.newdaily.co.kr/site/data/html/2016/01/21/2016012100068.html",
+        "https://www.yna.co.kr/view/AKR20260717033600005"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mukkit-list-food-wishlist",
+      "urls": [
+        "https://stibee.com/api/v1.0/emails/share/Vn5Hi7PGF_5VS27xKV82Vsm_AkabBA",
+        "https://news.nate.com/view/20261005n10905"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "matdori-tasty-food-praise",
+      "urls": [
+        "https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=261&pageIndex=1&qna_seq=328694",
+        "https://voda.donga.com/view/3/all/39/6129070/1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "oh-dear-what-happens-next-text",
+      "urls": [
+        "https://gall.dcinside.com/mgallery/board/view/?id=bocchi_the_rock&no=321052",
+        "https://www.yes24.com/Product/communityModules/GoodsReviewList/118530531?PageNumber=1&Sort=2&Type=ALL&_=1778112000000&goodsSetYn=N"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "preaudit": {
+    "status": "PASS",
+    "all10": true
+  },
+  "recovery": {
+    "transient_store_reset": true,
+    "drafts_reconstructed_from_actual_tool_call_text": true,
+    "remote_base_preserved": true,
+    "query_ledger_unchanged": true,
+    "reason": "Completed query rows were in transient memory. Their exact batch lists will be recovered separately; no guessed rows or inflated cumulative counts."
+  },
+  "query_observations": 13405,
+  "distinct_literal_queries": 10997,
+  "editor_notes": [
+    "Recent text uses9 including2025Decgreetingretrospective; historical0908text1.",
+    "Gamdaddwi excluded as existing gamdajuk family; original fixed bodies untouched.",
+    "Words mean source-bounded slang; no claim all are newly coined in2026.",
+    "No Codex, main change, images or videos viewed."
+  ]
+}
