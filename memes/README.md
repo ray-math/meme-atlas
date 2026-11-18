@@ -474,6 +474,7 @@
 - [성기훈 얼음](seong-gihun-freeze.md)
 - [성덕](seongdeok.md)
 - [성지순례](internet-pilgrimage.md)
+- [세일러문 리드로우](sailor-moon-redraw.md)
 - [세젤귀](sejelgwi.md)
 - [세젤예](sejelye.md)
 - [세젤잘](sejeljal.md)

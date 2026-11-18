@@ -138,10 +138,11 @@
     "reports/bulk/connector-resume-coverage-300.json",
     "reports/bulk/connector-resume-wave30-302.json",
     "reports/bulk/connector-resume-wave30-304.json",
-    "reports/bulk/connector-resume-wave30-305.json"
+    "reports/bulk/connector-resume-wave30-305.json",
+    "reports/bulk/connector-resume-wave30-306.json"
   ],
-  "query_observations": 2740,
-  "distinct_literal_queries": 2250,
+  "query_observations": 2754,
+  "distinct_literal_queries": 2264,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -14043,6 +14044,76 @@
     {
       "query": "\"로우바둑이\" \"측정기\" -NHN -출시 -모바일",
       "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사카밤바스피스\" 2026 한국",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"세일러문 챌린지\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"슬픈 고양이 댄스\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤갈\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스키비디 토일렛\" 한국 2026 밈",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안 물어봤다 요다야\" 사용",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어둠의 다크에서\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어제 내 세상이 무너졌어\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄마도 사람이야 사람\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"에어맨이 쓰러지지 않아\" 한국 패러디",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어둠의 다크에서\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄마도 사람이야 사람\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤갈\" \"전시\" 밈 홍보",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어둠의 다크\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-306.json",
       "status": "screened-see-report"
     }
   ],

@@ -359,6 +359,7 @@
 - [설참](../memes/seolcham.md)
 - [성기훈 얼음](../memes/seong-gihun-freeze.md)
 - [성지순례](../memes/internet-pilgrimage.md)
+- [세일러문 리드로우](../memes/sailor-moon-redraw.md)
 - [세젤귀](../memes/sejelgwi.md)
 - [세젤예](../memes/sejelye.md)
 - [세젤잘](../memes/sejeljal.md)
