@@ -1,0 +1,353 @@
+{
+  "batch": 484,
+  "base": "efa01facc194f596ceb2b2e902a283a026120476",
+  "canonical_before": 1479,
+  "canonical_after": 1491,
+  "added": [
+    "feel-it-neoya-dance-challenge",
+    "lee-seungwoo-bulbaek-mock-documentary",
+    "pc-bang-skill-recognition-copypasta",
+    "duel-solves-everything-joke",
+    "ddongsong-racial-self-deprecation",
+    "bleach-drink-envy-reaction",
+    "danso-subway-scene-broadcast-parody",
+    "dinol-camera-outing-proof-sharing",
+    "mamchung-mother-dehumanizing-label",
+    "moskau-contrast-video-edit",
+    "munaechung-personal-insult",
+    "loser-name-substitution-parody"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0858",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "lee-seungwoo-bulbaek-mock-documentary"
+    },
+    {
+      "id": "kr-list-0882",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "pc-bang-skill-recognition-copypasta"
+    },
+    {
+      "id": "kr-list-0407",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "duel-solves-everything-joke"
+    },
+    {
+      "id": "kr-list-0418",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "ddongsong-racial-self-deprecation"
+    },
+    {
+      "id": "kr-list-0430",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "bleach-drink-envy-reaction"
+    },
+    {
+      "id": "kr-list-0369",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "danso-subway-scene-broadcast-parody"
+    },
+    {
+      "id": "kr-list-0459",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "mamchung-mother-dehumanizing-label"
+    },
+    {
+      "id": "kr-list-0478",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "moskau-contrast-video-edit"
+    },
+    {
+      "id": "kr-list-0484",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "munaechung-personal-insult"
+    },
+    {
+      "id": "kr-list-0442",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "loser-name-substitution-parody"
+    }
+  ],
+  "previous_ci": {
+    "sha": "efa01facc194f596ceb2b2e902a283a026120476",
+    "run": 44310746574,
+    "job": 134823929825,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 159.426s"
+  },
+  "previous_audit": {
+    "sha": "efa01facc194f596ceb2b2e902a283a026120476",
+    "result": "pass",
+    "mandatory_fixes": 0,
+    "canonical": 1479,
+    "old_index_records_preserved": 1470,
+    "old_body_changes": 0,
+    "candidate_changes": 7,
+    "mapping_loss": 0,
+    "source_urls_reopened": 13,
+    "usage": {
+      "total": 1479,
+      "annotated": 74,
+      "reviewed": 73,
+      "unannotated": 1405
+    },
+    "media": 0,
+    "CI": "separate"
+  },
+  "research": {
+    "A46": {
+      "count": 20,
+      "recommended": 2,
+      "held": 18,
+      "queries": [
+        "\"육군 we 육군\"",
+        "\"의학적인 근거가 없습니다\" 밈",
+        "\"의문의\" \"행\" 드립 뜻",
+        "\"이건 정말 듣도 보도 못한 발상이군\"",
+        "\"이봐요 미친놈씨\"",
+        "\"인문학적 변태\"",
+        "\"이승우\" \"돼지불백\" 밈",
+        "\"인싸개그\"",
+        "\"일부러 PC방에는 꾀죄죄하게\"",
+        "\"아자핑\" \"하츄핑\"",
+        "\"와플핑\" \"핫케핑\"",
+        "\"일본 대단해\" \"칠레\"",
+        "\"의문의\" \"행\" \"기자\"",
+        "\"의문의 1패행\"",
+        "\"인문학적 변태\" -site:namu.moe -site:seore.org",
+        "\"이쿠요\" 춤 밈",
+        "\"이\" \"무료로 해줍니다\" 밈",
+        "\"이세계물\" 드립 패러디",
+        "\"인증 대란\" 밈",
+        "\"의학적인 근거가 없습니다\" \"심리적인\""
+      ],
+      "notes": "20 historical rows reexamined,0 newly discovered. 5 external pages one OP.GG English only;2 unavailable. 0834/0837/0868/0886 no external search,held not verified. Images/video0."
+    },
+    "B512": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 12,
+      "held": 4,
+      "excluded": 3,
+      "queries": [
+        "2026 \"놀이\" \"유행\" site:design.co.kr",
+        "2026 \"밈\" \"사진\" site:elle.co.kr",
+        "2026 \"공유\" \"놀이\" site:weekly.donga.com",
+        "2026 \"유행\" \"놀이\" site:allurekorea.com",
+        "2026 \"챌린지\" \"사진\" site:cosmopolitan.co.kr",
+        "2026 \"밈\" \"요즘\" site:esquirekorea.co.kr",
+        "\"비\" \"Feel It\" \"챌린지\" \"2026\"",
+        "\"의외로 개 쿨한 송강\" 패러디"
+      ],
+      "notes": "FEEL IT recommendation; source-bounded choreography format. Syndicated RainCompany publicity one source cluster, originalvideo0."
+    },
+    "C26": {
+      "count": 20,
+      "recommended": 4,
+      "conditional": 1,
+      "held": 15,
+      "queries": [
+        "\"단소 살인마\" 패러디",
+        "\"당연히 말이 되죠\" 밈",
+        "\"대기업에 입사한 아들의 깨달음\"",
+        "\"독일초딩\" 패러디",
+        "\"동전줍는 징징이\"",
+        "\"동현이의 퍼니박스\"",
+        "\"두원공대\" \"드립\"",
+        "\"듀얼 만능주의\"",
+        "\"다정한부부\" 밈 패러디",
+        "\"닭장 냄새\" 혐오 표현",
+        "\"당신이 옳았어\" 밈 -site:namu.moe -site:seore.org",
+        "\"대자보\" \"시국선언\" \"패러디\"",
+        "\"동덕여대 시위\" 밈 패러디",
+        "\"두창\" \"혐오표현\"",
+        "\"똥꼬충\" \"혐오\"",
+        "\"똥송합니다\" 뜻",
+        "\"더 마스터를 기억해줘\"",
+        "\"라이라이차차차\" 뜻",
+        "\"락스 한잔\" 밈 뜻",
+        "\"락통령\" 패러디"
+      ],
+      "notes": "4 bounded recommendations 1conditional scene-reenactment. Images/video0. Historical names not whole subjects. Orbi partial403 held.",
+      "editor_disposition": {
+        "published": 4,
+        "held": 16
+      }
+    },
+    "B513": {
+      "count": 20,
+      "recommended": 2,
+      "family_enrichment": 1,
+      "existing": 7,
+      "held": 5,
+      "excluded": 5,
+      "queries": [
+        "2026 \"밈\" \"공유\" site:news.sbs.co.kr",
+        "2026 \"놀이\" \"SNS\" site:news.kbs.co.kr",
+        "2026 \"챌린지\" \"유행\" site:imnews.imbc.com",
+        "2026 \"유행\" \"인증샷\" \"놀이\"",
+        "2026 \"밈\" \"사진\" \"매거진\" -site:elle.co.kr -site:esquirekorea.co.kr",
+        "2026 \"요즘\" \"챌린지\" site:news.nate.com/view",
+        "\"디놀\" \"2026\" \"떼샷\"",
+        "\"감튀모임\" \"2026\"",
+        "\"베스퍼\" \"2026\" \"패러디\""
+      ],
+      "notes": "2narrowrec/1relatedcamera decoration observation not separately counted. Kukinews workerread editor403, officialMcDonalds absent page excluded.",
+      "editor_disposition": {
+        "published": 1,
+        "family": 1,
+        "existing": 7,
+        "held": 6,
+        "excluded": 5
+      }
+    },
+    "C27": {
+      "count": 20,
+      "recommended": 3,
+      "conditional": 1,
+      "held": 16,
+      "queries": [
+        "\"러시아식 유머\" 밈",
+        "\"롯데햄 후라이드 치킨\" 광고",
+        "\"루저의 난\" 패러디",
+        "\"린가동자\" 팡또아",
+        "\"마쁘리에요\"",
+        "\"마인크래프트 19금\" 패러디",
+        "\"막심 센세\" 밈",
+        "\"만희물\" 패러디",
+        "\"맘충\" 혐오 표현 뜻",
+        "\"머니게임\" 밈 패러디",
+        "\"면제겜\" 뜻",
+        "\"멸공 챌린지\" 패러디",
+        "\"모스카우\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"무뇌충\" \"뜻\"",
+        "\"무대뽀\" \"뜻\"",
+        "\"무츠키 댄스\"",
+        "\"문크 예거\" 패러디 -site:namu.moe -site:seore.org",
+        "\"문신돼지국밥육수충\" 뜻",
+        "\"크레이지 핫레즈\" 용어",
+        "\"메스가키\" 용어 비평"
+      ],
+      "notes": "20 historical rows;5source bodies,media0. Joongang220626 dateblank. Politicalcampaign/generalword not automaticallymeme.",
+      "editor_disposition": {
+        "published": 4,
+        "held": 16
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "feel-it-neoya-dance-challenge",
+      "urls": [
+        "https://www.cosmopolitan.co.kr/article/1903760",
+        "https://www.osen.co.kr/article/G1112817913"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "lee-seungwoo-bulbaek-mock-documentary",
+      "urls": [
+        "https://sports.news.nate.com/view/20191029n26807"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pc-bang-skill-recognition-copypasta",
+      "urls": [
+        "https://gall.dcinside.com/board/view/?id=eveonline&no=391811&page=1",
+        "https://gall.dcinside.com/mgallery/board/view/?id=mapleland&no=4046299&page=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "duel-solves-everything-joke",
+      "urls": [
+        "https://whitefaceone.tistory.com/2253"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ddongsong-racial-self-deprecation",
+      "urls": [
+        "https://ichannela.com/news/detail/66726112-2.do"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bleach-drink-envy-reaction",
+      "urls": [
+        "https://yuhanclorox.com/qna/?cmd=view_post&post_id=521558"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "danso-subway-scene-broadcast-parody",
+      "urls": [
+        "https://www.mt.co.kr/entertainment/2022/01/12/2022011213250842150"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dinol-camera-outing-proof-sharing",
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260205091900505"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mamchung-mother-dehumanizing-label",
+      "urls": [
+        "https://www.khan.co.kr/article/201508221455421/amp",
+        "https://www.seoul.co.kr/news/society/2017/07/06/20170706009023"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "moskau-contrast-video-edit",
+      "urls": [
+        "https://whitefaceone.tistory.com/3070"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "munaechung-personal-insult",
+      "urls": [
+        "https://www.joongang.co.kr/article/220626"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "loser-name-substitution-parody",
+      "urls": [
+        "https://www.khan.co.kr/article/200911131813315"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "0432worker directlyread Diodeo20090926 but editor403; pending additionalverification,notyetdrafted.",
+    "Bleachentry limitedto user's meme explanation and company safety response; no approval/productrelease/usage-scale claim, no harmful method.",
+    "0369 approved only separate broadcast reenactment, not wholeperson or crimeclaim.",
+    "0432 rockpresident and B513fries held thischeckpoint: worker read positive but editor and independent auditor both403; no false sourceverification claim.",
+    "100 observations:12published,19existing,60held,8excluded,1relatedfamilyonly. Not100newunique memes.",
+    "Noexistingcanonicalbody edited; historicaldates distinguishedfrom2026reuse. Moskau Koreanexplanation only, no domesticcreator claim. Joongang dateunknown."
+  ],
+  "query_observations": 9863,
+  "distinct_literal_queries": 8278,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
