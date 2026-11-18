@@ -814,4 +814,4 @@
 
 ## 관련 표현 안내
 
-[가족 비교 호칭 연결](../guides/family-comparison-related.md)
+[가족 비교 호칭 연결](../docs/family-comparison-related.md)

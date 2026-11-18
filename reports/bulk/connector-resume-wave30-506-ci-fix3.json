@@ -1,0 +1,10 @@
+{
+  "previous": "4bd08790e47bf7310a4c4cd9bac85bd551ccce55",
+  "run": 44347789811,
+  "tests": 495,
+  "failures": 2,
+  "cause": "test_dictionary copies supported repository dirs including docs but not new guides directory",
+  "fix": "use established docs directory, no test change",
+  "entries": 1700,
+  "ci": "pending"
+}
