@@ -1,0 +1,97 @@
+{
+  "batch": 355,
+  "base": "e0c3a9cb4c507bf318dc436a889c7e69b78410d0",
+  "canonical_before": 969,
+  "canonical_after": 970,
+  "added": [
+    "hanjanhae-positive-reason"
+  ],
+  "recent_research": {
+    "observations": 10,
+    "recommended": 0,
+    "existing": [
+      "take-the-l",
+      "guk-rule",
+      "gamdasal"
+    ],
+    "queries": [
+      "site.ac.kr \"2026\" \"챌린지\" \"밈\"",
+      "site:go.kr \"2026\" \"밈\" \"패러디\"",
+      "site:brunch.co.kr \"2026\" \"밈\" \"제목\"",
+      "site:go.kr \"챌린지\" \"2026\" \"야르\"",
+      "site:go.kr \"챌린지\" \"2026\" \"영상\" -입찰 -용역 -공고 -제안",
+      "site:ac.kr \"밈\" \"2026\" \"패러디\"",
+      "site:wonju.go.kr \"2026\" \"챌린지\"",
+      "\"2026\" \"밈\" \"사보\" -pdf -site:cutmarketing.app -site:instablank.com",
+      "\"2026\" \"밈\" \"제목\" \"블로그\" -뜻 -유래 -정리 -site:instablank.com -site:onmeme.com",
+      "site:theqoo.net \"2026\" \"밈\" \"새로\"",
+      "site:chimhaha.net \"2026\" \"새로운 밈\"",
+      "site:brunch.co.kr \"2026\" \"밈\" \"문장\""
+    ],
+    "sources": [
+      "https://www.yna.co.kr/view/AKR20261104078900505",
+      "https://theqoo.net/square/4126548452",
+      "https://theqoo.net/square/4126537963",
+      "https://theqoo.net/square/4126638902",
+      "https://theqoo.net/square/4126631396",
+      "https://theqoo.net/square/4126279344",
+      "https://theqoo.net/gumayusi/3653189393",
+      "https://theqoo.net/square/4127227680"
+    ],
+    "limits": "Workerread/editorunread.10observationsnotverifiedmemes.3existing;coupleendingdiscussion/FtoTdialogue/image textreplacement/curationtitle/OneADC glossary unconfirmedformat;sliteyecaracterdescriptionexcluded;OnePiecequote notadaptation. X/videos/imagesunseen. Curationnotindependentsource. Glossary first2025-03-18notperitemdate.4126310912failed403. Firstquerytypo retained. Minorprivateinfoexcluded."
+  },
+  "ledger_research": {
+    "ids": [
+      "0940",
+      "0959",
+      "0990",
+      "1008",
+      "1016"
+    ],
+    "recommended": 0,
+    "held": 5,
+    "queries": [
+      "\"죽습니다 진짜\" \"2026\"",
+      "\"지이잉\" 밈",
+      "\"최근 한 온라인 커뮤니티 게시판에는\" 패러디",
+      "\"컹스\" \"2026\"",
+      "\"한화의 김성근 감독님 사랑해\" \"2026\"",
+      "\"죽습니다 진짜\" 밈 -site:namu.moe",
+      "\"컹스\" 뜻 -site:namu.moe",
+      "\"최근 한 온라인 커뮤니티 게시판에는\" \"기자놀이\"",
+      "\"김성근 감독님 사랑해\" 패러디 -site:namu.moe -site:seore.org",
+      "\"죽습니다 진짜\" \"2026\" -site:namu.moe -site:leagueofgraphs.com"
+    ],
+    "sources": [
+      "https://gall.dcinside.com/mgallery/board/view/?id=mma&no=350722",
+      "https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&pageIndex=1&qna_seq=326669",
+      "https://afreecatvviewer.tistory.com/18",
+      "https://melburn119.tistory.com/1253"
+    ],
+    "limits": "Workerread/editorunread. Cached969index not newly fixedSHA audit.0940Jan21explanation not2applications/Oct31clipfailed;0959Jan20questionJan21answer ordinaryonomatopoeia notmeme;0990parody403;1008Apr23 2016 explanationonly;1016Sep15 2021creatorreport1(updatedSep16),YouTubeandNaver sameproduction nottwo, videosunseen."
+  },
+  "approved": {
+    "candidate": "kr-list-1104",
+    "sources": [
+      "https://www.tenasia.co.kr/article/2026061343344",
+      "https://gall.dcinside.com/board/view/?id=ktwiz&no=5696252&page=1",
+      "https://yulbin.com/한잔해-밈-유래/"
+    ],
+    "editor_and_independent_body_reads": 3,
+    "direct_recent_text": 1,
+    "reported_recent_usage_cluster": 1,
+    "historical_explanation": 1,
+    "original_social_post_reads": 0,
+    "visual_reads": 0,
+    "index_queries": [
+      "한잔|한 잔|모히또|mojito"
+    ],
+    "limits": "Tenasia2026-06-13reports post+comments asoneSNScluster;DC2026-06-21directtext. Not2originalsocialpost reads. Yulbin2024-04-19 explanationnotthirdusage. NoXavi/Ralo/Gatsbyoriginclaim. Playerfaultspeculationexcluded. Boundedreason+ending, notallliteraldrinkinginvitations.",
+    "overlap_review": [
+      "sul-hanjan-masyeotseumnida is pleaopening",
+      "mojito-maldives is nameorderplay"
+    ],
+    "coverage_change": "1104 unclear→included"
+  },
+  "ci": "352 successful run;new355 awaits CI;membership invariants unchanged except dictionary count"
+}
