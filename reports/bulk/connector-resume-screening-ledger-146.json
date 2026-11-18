@@ -68,10 +68,11 @@
     "reports/bulk/connector-resume-screening215.json",
     "reports/bulk/connector-resume-discovery216.json",
     "reports/bulk/connector-resume-screening218.json",
-    "reports/bulk/connector-resume-audit219.json"
+    "reports/bulk/connector-resume-audit219.json",
+    "reports/bulk/connector-resume-editor-220.json"
   ],
-  "query_observations": 1054,
-  "distinct_literal_queries": 850,
+  "query_observations": 1081,
+  "distinct_literal_queries": 876,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -5543,6 +5544,141 @@
     {
       "query": "\"2026\" \"밈\" \"차용\" \"도서관\"",
       "source": "reports/bulk/connector-resume-audit219.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"차용\" \"공식\"",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"따라\" \"11월\"",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"도서관\"",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"No Roots\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노루츠\" \"밈\"",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"No Roots\" \"포스터\"",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"생사과가 더\" \"밈\"",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"난 연기하지 않아\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"No Roots\" \"밈\" -site:globalbunjang.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"생사과가\" -site:namu.moe -site:d.namu.moe -site:m.namu.moe -site:www.namu.moe",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"생사과\" \"패러디\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "생사과",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사과가",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "No Roots",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노루츠",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "다시만난",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "활어회",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "상의하의",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "토마호크",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "멋없다",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "연기하지",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도서관",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "단어 알지",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "외모 췤",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "안성재",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "옷입히기",
+      "source": "reports/bulk/connector-resume-editor-220.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "흑백요리사",
+      "source": "reports/bulk/connector-resume-editor-220.json",
       "status": "screened-see-report"
     }
   ],
