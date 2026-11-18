@@ -76,10 +76,11 @@
     "reports/bulk/connector-resume-editor-226.json",
     "reports/bulk/connector-resume-independent-audit-228.json",
     "reports/bulk/connector-resume-screening-229.json",
-    "reports/bulk/connector-resume-editor-231.json"
+    "reports/bulk/connector-resume-editor-231.json",
+    "reports/bulk/connector-resume-independent-audit-232.json"
   ],
-  "query_observations": 1231,
-  "distinct_literal_queries": 1003,
+  "query_observations": 1233,
+  "distinct_literal_queries": 1005,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -6436,6 +6437,16 @@
     {
       "query": "site:pinslog.com \"소 잃고\"",
       "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"활용했습니다\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-independent-audit-232.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"차용\" \"뉴스레터\"",
+      "source": "reports/bulk/connector-resume-independent-audit-232.json",
       "status": "screened-see-report"
     }
   ],

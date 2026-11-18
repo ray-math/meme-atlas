@@ -1,0 +1,31 @@
+{
+  "fixed_sha": "6dd3f4e54405097337e8f113221dde74b996c98e",
+  "index": 906,
+  "unique": 906,
+  "normalized_collisions": [],
+  "roundtrip_mismatches": [],
+  "usage": {
+    "dictionary_entries": 906,
+    "annotated_entries": 74,
+    "reviewed_entries": 73,
+    "unannotated_entries": 832
+  },
+  "ci": "not run",
+  "independent": {
+    "worker": "candidate_batch_c",
+    "id": "fix-brain-a-little",
+    "result": "pass",
+    "readme": 906,
+    "manual": 80,
+    "sources": "blog, council body/listing, 2024 column reread",
+    "limits": "no technical/statistical/medical endorsement"
+  },
+  "queries": [
+    "\"2026\" \"밈\" \"활용했습니다\" -site:namu.moe",
+    "\"2026\" \"유행어\" \"차용\" \"뉴스레터\""
+  ],
+  "discovery": {
+    "source": "https://imnews.imbc.com/replay/2026/nwdesk/article/6828246_37004.html",
+    "status": "film-music parody report exists; bounded pattern and independent direct uses not yet verified; handed to researcher"
+  }
+}
