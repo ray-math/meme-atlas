@@ -270,8 +270,8 @@
     "reports/bulk/connector-resume-wave30-445.json",
     "reports/bulk/connector-resume-wave30-446.json"
   ],
-  "query_observations": 7230,
-  "distinct_literal_queries": 6325,
+  "query_observations": 7272,
+  "distinct_literal_queries": 6362,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -36624,6 +36624,216 @@
       "query": "\"수박도\" \"드립\" 패러디",
       "source": "reports/bulk/connector-resume-wave30-452.json",
       "status": "screened-see-report"
+    },
+    {
+      "query": "\"슬픈 고양이 댄스\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"실시간으로 상황을 지켜보는 비와이\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"신격화\" \"sake\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"씽씽이\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"시그마\" \"밈\" 표정",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"신돈\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"식객민우\" 뜻",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"실패작 소녀\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"심기체론\" 뜻",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아나바다\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"슬픈 고양이 댄스\" site:tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"실시간으로 상황을 지켜보는\" -site:namu.moe -site:namu.wiki -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 \"챌린지\" site.allurekorea.com \"사진\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 \"말투\" site.maily.so -trendaword",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site.careet.net/article",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"부모님\" \"나이\" \"챌린지\" -site:instablank.com -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"과자\" \"글자\" \"밈\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"스파이더맨\" \"천장\" 챌린지 -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"과자\" \"사꾸\" site.gogumafarm.kr",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Kagi\" \"말투\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부모님\" \"같은 나이\" 챌린지 한국",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"중티\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"콩쥐야\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"크아아악\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"텟카이\" \"뜻\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"팅팅송\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"코렁탕\" 뜻 기사",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"탈모르파티\" 기사",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"틀딱\" 뜻 기사",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"킹근육골드몬\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"콩쥐야\" \"뜻\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"탈모르파티\" \"김연자\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"투명드래곤\" \"밈\" 기사",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"팅팅송\" \"노래\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"콩쥐야\" \"망했어\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"코렁탕\" site:hani.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"팅팅송\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"특이점\" \"드립\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"코리안조커\" 밈 뜻",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"킹근육골드몬\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"택배 드립\" 유래",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"팅팅송\" \"2023\"",
+      "source": "reports/bulk/connector-resume-wave30-453.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [
@@ -36638,5 +36848,5 @@
   ],
   "note": "명시 문자열 대조 기록이며 고유 밈 수나 검증 완료 수가 아님.",
   "metric_note": "저장된 명시 대조 문자열의 관측 횟수/문자열 종류. 검색창 질의와 인덱스 대조 표현이 섞여 있으며 검증 밈 수나 전체 연구량을 뜻하지 않음.",
-  "distinct_query_strings": 6325
+  "distinct_query_strings": 6362
 }

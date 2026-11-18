@@ -1,0 +1,344 @@
+{
+  "batch": 453,
+  "base": "12e3844dda2ec75630f09b4624aac763ac55779b",
+  "canonical_before": 1151,
+  "canonical_after": 1162,
+  "added": [
+    "snack-package-word-photo",
+    "kongjwi-we-are-in-trouble",
+    "tekkai-defense-reaction",
+    "singularity-arrived-title",
+    "tteulttak-ageist-label",
+    "transparent-dragon-overpowered-prose",
+    "sad-cat-dance-character-remake",
+    "sigma-face-skit",
+    "is-he-a-god-praise",
+    "sindon-staccato-laugh-remake",
+    "bewhy-watching-situation-caption"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-1020",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "kongjwi-we-are-in-trouble"
+    },
+    {
+      "id": "kr-list-1040",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "tekkai-defense-reaction"
+    },
+    {
+      "id": "kr-list-1047",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "singularity-arrived-title"
+    },
+    {
+      "id": "kr-list-1048",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "tteulttak-ageist-label"
+    },
+    {
+      "id": "kr-list-1043",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "transparent-dragon-overpowered-prose"
+    },
+    {
+      "id": "kr-list-0656",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "sad-cat-dance-character-remake"
+    },
+    {
+      "id": "kr-list-0657",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "sigma-face-skit"
+    },
+    {
+      "id": "kr-list-0662",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "is-he-a-god-praise"
+    },
+    {
+      "id": "kr-list-0663",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "sindon-staccato-laugh-remake"
+    },
+    {
+      "id": "kr-list-0666",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "bewhy-watching-situation-caption"
+    },
+    {
+      "id": "kr-list-0665",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "did-it-all-for-you",
+      "existing_body": true
+    }
+  ],
+  "previous_ci": {
+    "run": 44277871132,
+    "job": 134710527122,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 88.636s"
+  },
+  "previous_audit": {
+    "sha": "12e3844dda2ec75630f09b4624aac763ac55779b",
+    "canonical": 1151,
+    "entries_read": 12,
+    "index_existing_unchanged": 1139,
+    "source_urls_read": 14,
+    "required": 0,
+    "images_videos": 0
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "ids": [
+        "0656",
+        "0657",
+        "0658",
+        "0659",
+        "0660",
+        "0661",
+        "0662",
+        "0663",
+        "0664",
+        "0665",
+        "0666",
+        "0667",
+        "0668",
+        "0669",
+        "0670",
+        "0672",
+        "0676",
+        "0677",
+        "0678",
+        "0681"
+      ],
+      "recommended": [
+        "0656",
+        "0657",
+        "0662",
+        "0663",
+        "0666"
+      ],
+      "partial_maintained": [
+        "0659",
+        "0660",
+        "0665",
+        "0670",
+        "0672"
+      ],
+      "held": 10,
+      "queries": [
+        "\"슬픈 고양이 댄스\" 패러디",
+        "\"실시간으로 상황을 지켜보는 비와이\"",
+        "\"신격화\" \"sake\"",
+        "\"씽씽이\" \"밈\"",
+        "\"시그마\" \"밈\" 표정",
+        "\"신돈\" \"밈\"",
+        "\"식객민우\" 뜻",
+        "\"실패작 소녀\" 패러디",
+        "\"심기체론\" 뜻",
+        "\"아나바다\" \"밈\"",
+        "\"슬픈 고양이 댄스\" site:tistory.com",
+        "\"실시간으로 상황을 지켜보는\" -site:namu.moe -site:namu.wiki -site:seore.org"
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": [
+        "과자 사꾸"
+      ],
+      "related_grouped": 1,
+      "existing": 10,
+      "held": 7,
+      "excluded": 1,
+      "source": "https://letter.wepick.kr/post/24986",
+      "queries": [
+        "2026 밈 \"챌린지\" site.allurekorea.com \"사진\"",
+        "2026 밈 \"말투\" site.maily.so -trendaword",
+        "2026 \"밈\" \"패러디\" site.careet.net/article",
+        "2026 \"부모님\" \"나이\" \"챌린지\" -site:instablank.com -site:onmeme.com",
+        "2026 \"과자\" \"글자\" \"밈\" -site:instablank.com",
+        "2026 \"스파이더맨\" \"천장\" 챌린지 -site:instablank.com",
+        "\"과자\" \"사꾸\" site.gogumafarm.kr",
+        "\"Kagi\" \"말투\" \"2026\"",
+        "\"부모님\" \"같은 나이\" 챌린지 한국",
+        "\"중티\" \"2026\" 밈"
+      ]
+    },
+    "C": {
+      "count": 20,
+      "ids": [
+        "1017",
+        "1018",
+        "1019",
+        "1020",
+        "1021",
+        "1022",
+        "1023",
+        "1025",
+        "1026",
+        "1028",
+        "1030",
+        "1034",
+        "1035",
+        "1040",
+        "1041",
+        "1043",
+        "1047",
+        "1048",
+        "1049",
+        "1051"
+      ],
+      "recommended": [
+        "1020",
+        "1040",
+        "1047",
+        "1048"
+      ],
+      "conditional": [
+        "1043"
+      ],
+      "partial_maintained": [
+        "1018",
+        "1049"
+      ],
+      "held": 13,
+      "queries": [
+        "\"콩쥐야\" \"밈\"",
+        "\"크아아악\" \"밈\"",
+        "\"텟카이\" \"뜻\"",
+        "\"팅팅송\" 밈",
+        "\"코렁탕\" 뜻 기사",
+        "\"탈모르파티\" 기사",
+        "\"틀딱\" 뜻 기사",
+        "\"킹근육골드몬\"",
+        "\"콩쥐야\" \"뜻\"",
+        "\"탈모르파티\" \"김연자\"",
+        "\"투명드래곤\" \"밈\" 기사",
+        "\"팅팅송\" \"노래\"",
+        "\"콩쥐야\" \"망했어\"",
+        "\"코렁탕\" site:hani.co.kr",
+        "\"팅팅송\" \"챌린지\"",
+        "\"특이점\" \"드립\"",
+        "\"코리안조커\" 밈 뜻",
+        "\"킹근육골드몬\" -site:namu.moe",
+        "\"택배 드립\" 유래",
+        "\"팅팅송\" \"2023\""
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "snack-package-word-photo",
+      "urls": [
+        "https://letter.wepick.kr/post/24986"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kongjwi-we-are-in-trouble",
+      "urls": [
+        "https://novel.naver.com/challenge/detail?novelId=1199591&volumeNo=1",
+        "https://coconut-emoji.tistory.com/596"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "tekkai-defense-reaction",
+      "urls": [
+        "https://memeislife.tistory.com/57",
+        "https://joblesskorea.com/193"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "singularity-arrived-title",
+      "urls": [
+        "https://gall.dcinside.com/board/view/?id=dcnews&no=28472&page=9"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "tteulttak-ageist-label",
+      "urls": [
+        "https://m2.dongascience.com/ko/news/15602",
+        "https://www.imaeil.com/page/view/2021110718041999130"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "transparent-dragon-overpowered-prose",
+      "urls": [
+        "https://everymemes.tistory.com/312"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sad-cat-dance-character-remake",
+      "urls": [
+        "https://deviliii.tistory.com/1825",
+        "https://minglestudio.co.kr/portfolio.html"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sigma-face-skit",
+      "urls": [
+        "https://maily.so/trendaword/posts/10z3k5gjrlw",
+        "https://www.newsis.com/view/?id=NISX20230322_0002235961"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "is-he-a-god-praise",
+      "urls": [
+        "https://everymemes.tistory.com/517"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sindon-staccato-laugh-remake",
+      "urls": [
+        "https://sports.khan.co.kr/article/202604021800003",
+        "https://www.osen.co.kr/article/G1112774689"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bewhy-watching-situation-caption",
+      "urls": [
+        "https://madcouple.tistory.com/106"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "60candidates=40ledgerrechecks+20recent;11newbodies.",
+    "1043conditionalacceptedonlyoverpoweredprose;nooriginalparagraphcopy.",
+    "1020one2025literaryuse+2026retrospective,nottworecentnewuses.",
+    "0663preview+reviewoneshow;adonlyactorretrospective.",
+    "0665existingdid-it-all-for-youbodyread;partialmappingadded.",
+    "Samewepicknewsletter/reprintoneevidencegroup.",
+    "1151CI65/495PASS;452audit12bodies14URLsrequired0."
+  ],
+  "query_observations": 7272,
+  "distinct_literal_queries": 6362,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
