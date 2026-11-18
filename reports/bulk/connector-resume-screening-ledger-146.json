@@ -105,10 +105,11 @@
     "reports/bulk/connector-resume-wave30-260.json",
     "reports/bulk/connector-resume-wave30-261.json",
     "reports/bulk/connector-resume-wave30-262.json",
-    "reports/bulk/connector-resume-wave30-263.json"
+    "reports/bulk/connector-resume-wave30-263.json",
+    "reports/bulk/connector-resume-wave30-264.json"
   ],
-  "query_observations": 1950,
-  "distinct_literal_queries": 1584,
+  "query_observations": 1970,
+  "distinct_literal_queries": 1604,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -10060,6 +10061,106 @@
     {
       "query": "ganadi",
       "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" site:biz.chosun.com -주식 -코인 -세무 -리트",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" site:donga.com -세무 -리트 -주식 -코인",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" site:hani.co.kr -세무 -리트",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"공휴일 하루에 하루만 더\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"공휴일\" \"Stick With You\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하루에 하루만 더\" \"월요일\"",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site.maily.so 2026 밈 11. \"트렌드\"",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:genie.co.kr/magazine \"2026\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:maily.so/trendaword/posts \"26.11\"",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"전여친 감자칼\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"사과문 분철\"",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"천사 이미지밖에\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이거 정말 웃어넘길\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"전여친 감자칼\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"천사 이미지밖에\"",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무서운 회사네요\" \"사진\"",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이거 정말 웃어넘길 일이 아닙니다\"",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"천사\" \"악마\" \"이미지\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무서운 회사네요\" -site:note.com",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"혼자 보고 살아왔을\"",
+      "source": "reports/bulk/connector-resume-wave30-264.json",
       "status": "screened-see-report"
     }
   ],
