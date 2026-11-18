@@ -241,10 +241,11 @@
     "reports/bulk/connector-resume-wave30-413.json",
     "reports/bulk/connector-resume-wave30-414.json",
     "reports/bulk/connector-resume-wave30-415.json",
-    "reports/bulk/connector-resume-wave30-416.json"
+    "reports/bulk/connector-resume-wave30-416.json",
+    "reports/bulk/connector-resume-wave30-417.json"
   ],
-  "query_observations": 5604,
-  "distinct_literal_queries": 4872,
+  "query_observations": 5623,
+  "distinct_literal_queries": 4890,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -28466,6 +28467,101 @@
     {
       "query": "site:weekly.donga.com \"6137767\"",
       "source": "reports/bulk/connector-resume-wave30-416.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:news.samsung.com/kr",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:newsroom.lguplus.com",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:skhynix.com",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:newsroom.kakao.com",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:blog.hyundai.com",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행어\" site:newsroom.posco.com",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행\" site:blog.skhynix.com",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"제작\" site:newsroom.kt.com",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그가 매수했습니다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그치만\" \"어쩔 수\" 밈 \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부라더 다메요\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어제 내 세상이 무너졌어\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오히려 포상\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"근데 어쩔건데\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"우리 업계에서는 포상입니다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부라더 다메요\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어제 내 세상이 무너졌어\" -site:namu.moe -site:inven.co.kr -site:seore.org -site:kone.gg",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부라더 다메요\" \"2025\"",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"근데 어쩔건데\" 밈 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-417.json",
       "status": "screened-see-report"
     }
   ],

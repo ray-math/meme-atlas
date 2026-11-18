@@ -497,6 +497,7 @@
 - [생사과가 제일 맛있었어요](raw-apple-was-best.md)
 - [생선 대가리 카레](fish-head-curry-reaction.md)
 - [생카](saengka.md)
+- [샤갈](shagal-interjection.md)
 - [샤샤샤](sha-sha-sha.md)
 - [서울은 여전히 서울이고](seoul-is-still-seoul.md)
 - [선팔](seonpal.md)

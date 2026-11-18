@@ -1,0 +1,111 @@
+{
+  "batch": 417,
+  "base": "0d36be307528279e8948a1483d640b89f55e84f3",
+  "canonical_before": 998,
+  "canonical_after": 999,
+  "added": [
+    "shagal-interjection"
+  ],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" site:news.samsung.com/kr",
+      "2026 \"밈\" site:newsroom.lguplus.com",
+      "2026 \"밈\" site:skhynix.com",
+      "2026 \"밈\" site:newsroom.kakao.com",
+      "2026 \"밈\" \"패러디\" site:blog.hyundai.com",
+      "2026 \"밈\" \"유행어\" site:newsroom.posco.com",
+      "2026 \"밈\" \"유행\" site:blog.skhynix.com",
+      "2026 \"밈\" \"제작\" site:newsroom.kt.com"
+    ],
+    "index_basis": 997,
+    "screened": 8,
+    "recommended": 0,
+    "existing": [
+      "alien-tech-joke",
+      "wonyoung-thinking",
+      "clear-eyed-eccentric",
+      "daengdaengi"
+    ],
+    "held": [
+      "물음표살인마형후배",
+      "직장선배유죄무죄",
+      "POV이상한반도체회사입사",
+      "AI간단설명"
+    ],
+    "sources": [
+      "https://news.skhynix.com/en/category/media-library/instagram/page/26/",
+      "https://news.skhynix.com/en/category/media-library/instagram/page/41/",
+      "https://news.skhynix.com/en/category/media-library/instagram/page/40/"
+    ],
+    "note": "공식설명적용문구,날짜불명.40/41동일게시물중복,인스타DQtRtXdjeCQ/DNh3Ap3qsQv throttled. AI간단설명검색과열린본문불일치제외.영상0."
+  },
+  "researchB": {
+    "queries": [
+      "\"그가 매수했습니다\" \"2026\"",
+      "\"그치만\" \"어쩔 수\" 밈 \"2026\"",
+      "\"부라더 다메요\" \"2026\"",
+      "\"어제 내 세상이 무너졌어\" \"2026\"",
+      "\"오히려 포상\" \"2026\"",
+      "\"근데 어쩔건데\" \"2026\"",
+      "\"우리 업계에서는 포상입니다\" \"2026\"",
+      "\"부라더 다메요\" 패러디 -site:namu.moe",
+      "\"어제 내 세상이 무너졌어\" -site:namu.moe -site:inven.co.kr -site:seore.org -site:kone.gg",
+      "\"부라더 다메요\" \"2025\"",
+      "\"근데 어쩔건데\" 밈 -site:namu.moe"
+    ],
+    "rows": [
+      "0233",
+      "0252",
+      "0550",
+      "0747",
+      "0813"
+    ],
+    "recommended": 0,
+    "held": 5,
+    "note": "2번쿼리후보오대응 유효근거아님 실행기록포함. 0233orbi78182239 403.0252일반반문/공격복사구별부족.0813이미지미검토.",
+    "sources": [
+      {
+        "url": "https://miniweb.imbc.com/Music/View?progCode=FM4U000001335&seqID=1256",
+        "date": "2026-08-26",
+        "scope": "0747공식텍스트활용1,음성미확인.인벤7304485 502."
+      },
+      {
+        "url": "https://sports.donga.com/ent/article/all/20131018/58301311/2",
+        "date": "2013-10-18",
+        "scope": "0550SNL재연보도1,10/16같은사건중복,최근미확보"
+      }
+    ]
+  },
+  "prior_research": "reports/bulk/connector-resume-wave30-416.json researchB b1007",
+  "audit999": {
+    "passed": true,
+    "source_reads": 2,
+    "related_body_reads": 1,
+    "index_rows": 998,
+    "production_groups": 2,
+    "scope": "감탄사한정.개사형식smooth-smooth별개등록안함.소마코재게시중복안함.욕설완곡어원미입증으로채택안함.원영상0."
+  },
+  "final998audit": {
+    "passed": true,
+    "body_reads": 1,
+    "source_reads": 2,
+    "required_changes": 0,
+    "correction": "주간동아정확culture주소성공.이전추정경로실패는실제기사접근불가아님."
+  },
+  "ci998": {
+    "run": 44256921144,
+    "job": 134640714107,
+    "success": true,
+    "steps": 65,
+    "tests": 495,
+    "seconds": 80.655
+  },
+  "candidate_changes": [
+    {
+      "id": "kr-list-0613",
+      "from": "index_not_found",
+      "to": "included"
+    }
+  ],
+  "ci_new_commit": "pending"
+}
