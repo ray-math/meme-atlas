@@ -1,0 +1,51 @@
+{
+  "batch": 279,
+  "canonical_before": 925,
+  "canonical_after": 925,
+  "added": [],
+  "research_b": {
+    "queries": [
+      "2026 \"챌린지\" \"밈\" site:ac.kr",
+      "2026 \"밈\" \"패러디\" site:go.kr -존박 -논산",
+      "2026 \"밈\" \"촬영\" \"사내\"",
+      "2026 \"챌린지\" \"패러디\" site:go.kr -site:nonsan.go.kr",
+      "2026 \"밈\" \"릴스\" site:ac.kr -site:smu.ac.kr",
+      "2026 \"챌린지\" site:bo9jeong.co.kr -브리저튼",
+      "2026 \"쉐이칸샹\" -site:namu.moe",
+      "2026 \"알고리즘에 나타나기로\" -site:instablank.com"
+    ],
+    "index_queries": [
+      "쉐이",
+      "誰敢",
+      "알고리즘에",
+      "셋로그",
+      "참 좋",
+      "six-seven",
+      "who-is-back"
+    ],
+    "sources": [
+      "https://www.changwon.ac.kr/portal/na/ntt/selectNttInfo.do?mi=13606&nttSn=1377613"
+    ],
+    "note": "Changwon directproduction report2025-09-06 outsideyear despite2026academic admission; duplicateappear-in-algorithm; JeonbukOlympic募集403 not adopted"
+  },
+  "root_queries": [
+    "2026 \"밈\" \"11월\" \"새로운\" -site:instablank.com -site:namu.moe",
+    "2026 \"밈\" \"10월\" \"유행어\" -site:instablank.com -site:namu.moe",
+    "\"커터칼퇴근\" 2026",
+    "\"커터칼 퇴근\" 2026"
+  ],
+  "index_queries": [
+    "이모지",
+    "나이별",
+    "L을",
+    "공룡만",
+    "커터칼",
+    "기도해"
+  ],
+  "root_note": "Careet2034 only intro read, membership wall no detailclaims; most listleads duplicate; cutterleave album/report leads referred for directresearch not verified",
+  "metrics": {
+    "query_observations": 2295,
+    "distinct_literal_queries": 1856
+  },
+  "ci": "not run"
+}

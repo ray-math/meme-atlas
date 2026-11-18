@@ -118,10 +118,11 @@
     "reports/bulk/connector-resume-wave30-275.json",
     "reports/bulk/connector-resume-wave30-276.json",
     "reports/bulk/connector-resume-wave30-277.json",
-    "reports/bulk/connector-resume-wave30-278.json"
+    "reports/bulk/connector-resume-wave30-278.json",
+    "reports/bulk/connector-resume-wave30-279.json"
   ],
-  "query_observations": 2270,
-  "distinct_literal_queries": 1839,
+  "query_observations": 2295,
+  "distinct_literal_queries": 1856,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -11673,6 +11674,131 @@
     {
       "query": "2026 \"챌린지\" \"밈\" site:go.kr -거제 -야호 -양의지",
       "source": "reports/bulk/connector-resume-wave30-278.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" \"밈\" site:ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:go.kr -존박 -논산",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"촬영\" \"사내\"",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" \"패러디\" site:go.kr -site:nonsan.go.kr",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"릴스\" site:ac.kr -site:smu.ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" site:bo9jeong.co.kr -브리저튼",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"쉐이칸샹\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"알고리즘에 나타나기로\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쉐이",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "誰敢",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "알고리즘에",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "셋로그",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "참 좋",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "six-seven",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "who-is-back",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"11월\" \"새로운\" -site:instablank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"10월\" \"유행어\" -site:instablank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이모지",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나이별",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "L을",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "공룡만",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "커터칼",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "기도해",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴근\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼 퇴근\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-279.json",
       "status": "screened-see-report"
     }
   ],
