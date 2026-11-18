@@ -209,3 +209,4 @@
 - [흑우 드립](../memes/black-cow-taunt.md)
 - [활어회 물회 원샷](../memes/raw-fish-one-shot-parody.md)
 - [아몰랑](../memes/amollang-self-reaction.md)
+- [천하제일 단타대회](../memes/worlds-best-short-term-trading-contest.md)

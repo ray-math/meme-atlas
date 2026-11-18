@@ -624,6 +624,7 @@
 - [차원달라병](../memes/chawon-dalla-byeong.md)
 - [차카니 몇 개를 먹은 거람](../memes/chakani-praise.md)
 - [책없쾌](../memes/chaegeopkwae.md)
+- [천하제일 단타대회](../memes/worlds-best-short-term-trading-contest.md)
 - [첫 번째 레슨](../memes/first-lesson.md)
 - [첫콘](../memes/cheotkon.md)
 - [체리피스](../memes/cherry-peace.md)
