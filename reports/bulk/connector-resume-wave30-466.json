@@ -1,0 +1,283 @@
+{
+  "batch": 466,
+  "base": "ec198dab1e3d8994cb0619c30b985688f1a09f37",
+  "canonical_before": 1292,
+  "canonical_after": 1300,
+  "added": [
+    "electronics-market-admission-banner-satire",
+    "ajae-gag-wordplay",
+    "anime-profile-label",
+    "hope-alien-ai-mock-interview",
+    "director-what-do-you-know-interpretation",
+    "golden-matiz-nostalgic-comment",
+    "captain-q-retro-ad-recreation",
+    "british-flavor-ad-phrase"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0704",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "ajae-gag-wordplay"
+    },
+    {
+      "id": "kr-list-0726",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "anime-profile-label"
+    },
+    {
+      "id": "kr-list-1145",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "golden-matiz-nostalgic-comment"
+    },
+    {
+      "id": "kr-list-0737",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "british-flavor-ad-phrase"
+    }
+  ],
+  "previous_ci": {
+    "run": 44291554227,
+    "job": 134757822917,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 98.762s"
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "initial_mandatory": 1,
+    "remaining_mandatory": 0,
+    "verified_fix": "ec198dab1e3d8994cb0619c30b985688f1a09f37",
+    "new_entries": 13,
+    "prior_entries_unchanged": 1279,
+    "candidate_changes": 10,
+    "mapping_loss": 0,
+    "source_urls_reopened": 18,
+    "media_viewed": 0
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": 0,
+      "existing": 8,
+      "held": 12,
+      "queries": [
+        "\"아니다 이 악마야\"",
+        "\"아로나 댄스\"",
+        "\"아모캣\"",
+        "\"아이 러브 마이 화자 마자 브라자\"",
+        "\"아나바다\" \"밈\"",
+        "\"씽씽이\" \"밈\"",
+        "\"아모캣\" 고양이",
+        "\"아이러브마이\" \"개그\"",
+        "\"아이 러브 마이\" \"화자\" 유래",
+        "\"아로나 댄스\" -site:namu.moe -site:alphawiki.org",
+        "\"심기체론\" 뜻"
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "recommended": 1,
+      "conditional": 1,
+      "existing": 8,
+      "held": 10,
+      "queries": [
+        "\"애는 있습니다\" 유행어",
+        "\"안전가족\" 패러디",
+        "\"아카자\" \"밈\"",
+        "\"안톤 오노\" 패러디",
+        "\"애는 있습니다\" \"유세윤\"",
+        "\"아재\" \"개그\" 유행",
+        "\"애니프사\" 뜻",
+        "\"알파메일\" 유행어"
+      ]
+    },
+    "A3": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 9,
+      "held": 10,
+      "queries": [
+        "\"야후 꾸러기\" \"밈\"",
+        "\"약한 사내다\" \"패러디\"",
+        "\"영국맛을 살려야지\"",
+        "\"에어맨이 쓰러지지 않아\" 패러디",
+        "\"영국맛\" \"도미노\" 광고",
+        "\"약한 사내다\" 아스달",
+        "\"엄마도 사람이야\" 패러디",
+        "\"얼리 엑세스 예시\"",
+        "\"영국맛을 살려야지\" -site:namu.moe -site:seore.org",
+        "\"약한 사내다\" -site:namu.moe -site:seore.org -site:wiki",
+        "\"야후 꾸러기\" 패러디",
+        "\"도미노\" \"소녀시대\" \"영국\" \"2010\"",
+        "\"영국 맛을 살려야지\" 광고",
+        "\"어몽어스 잼민이\" 패러디",
+        "\"얼리 액세스\" \"치킨\" \"2013\""
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 2,
+      "held": 8,
+      "excluded": 8,
+      "queries": [
+        "2026 \"밈\" \"11월\" site:allurekorea.com",
+        "2026 \"밈\" \"10월\" site:marieclairekorea.com",
+        "2026 \"밈\" \"패러디\" site:news.sbs.co.kr",
+        "\"바미기르\" \"인터뷰\"",
+        "\"호프\" \"AI\" \"프리퀄\"",
+        "\"허락해준다\" \"패러디\" 장근석",
+        "\"뉴욕 헤럴드 트리뷴\" \"패러디\"",
+        "\"호프\" \"주연의 무게\" \"패러디\"",
+        "\"감독이 뭘 알아\" \"호프\" \"2026\"",
+        "2026 \"밈\" \"신조어\" site:news.kbs.co.kr",
+        "2026 \"사진\" \"밈\" site:harpersbazaar.co.kr"
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 0,
+      "conditional": 1,
+      "existing": 4,
+      "held": 15,
+      "queries": [
+        "\"한글 써지지 않다\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"회사 안다녀\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"핫산\" \"드립\" 기사",
+        "\"한글자 드립\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"向天再借五百年\" \"한국\" 패러디 -site:namu.moe -site:seore.org",
+        "\"호라\" \"멀쩡하자나\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"헝그리 정신\" \"밈\"",
+        "\"할 말이 없네\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"한글자 드립\" \"댓글\"",
+        "\"호라 모 젠젠\" \"밈\" -site:namu.moe -site:seore.org -site:readonly.wiki -site:tcatmon.com"
+      ]
+    },
+    "C2": {
+      "count": 9,
+      "conditional": 1,
+      "existing": 4,
+      "held": 4,
+      "additional_existing": 5,
+      "queries": [
+        "\"호텔경제학\" 유행 -site:namu.moe -site:seore.org",
+        "\"황금마티즈\" 유행어 기사",
+        "\"흑드라군\" 패러디 -site:namu.moe -site:seore.org",
+        "\"흑드라군\" -site:namu.moe -site:seore.org -site:readonly.wiki -site:tcatmon.com",
+        "\"힙통령\" \"패러디\" 기사",
+        "\"2026\" \"11월\" \"밈\" \"신규\" -site:namu.moe -site:seore.org",
+        "\"2026\" \"밈\" \"요즘\" site:maily.so"
+      ]
+    },
+    "C3": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 8,
+      "held": 11,
+      "queries": [
+        "2026 11월 최신 밈 고구마팜",
+        "2026 10월 11월 밈 트렌드어워드 신조어",
+        "2026 밈 \"11월\" \"챌린지\" 인크로스",
+        "\"전여친\" \"감자칼\" 밈",
+        "\"거북이\" \"챌린지\" \"2026\" 다비치",
+        "\"나이별 반응\" \"챌린지\" 2026",
+        "\"PPT\" \"여우\" 밈 2026",
+        "\"캪틴큐\" \"이선민\" 2026 광고",
+        "\"폴리에스터\" \"밈\" -site:instablank.com -site:jjalbang.today",
+        "\"능글맞은 개코원숭이\" -site:yongdev.dev",
+        "\"랜덤 소개팅\" \"2026\" 챌린지",
+        "\"합격하겠어\" \"아일릿\" 2026",
+        "\"PPT 여우\" 패러디",
+        "\"캪틴큐\" \"패러디\" \"이선민\""
+      ]
+    },
+    "editor": {
+      "count": 1,
+      "recommended": 1,
+      "held": 0,
+      "queries": [
+        "2026 \"밈\" \"11월\" \"챌린지\" -site:instablank.com -site:jjalbang.today",
+        "2026 \"밈\" \"유행어\" \"10월\" site:univ20.com",
+        "\"전자상가\" \"밈\" 2026",
+        "\"핫산\" \"번역\" site:inven.co.kr",
+        "\"핫산\" \"번역했습니다\" -site:namu.moe -site:arca.live -site:dcinside.com"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "electronics-market-admission-banner-satire",
+      "urls": [
+        "https://www2.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05494006645646704"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ajae-gag-wordplay",
+      "urls": [
+        "https://digitalchosun.dizzo.com/site/data/html_dir/2016/05/19/2016051911014.html",
+        "https://www.civicnews.com/news/articleView.html?idxno=4440"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "anime-profile-label",
+      "urls": [
+        "https://www.youthassembly.kr/news/606923"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hope-alien-ai-mock-interview",
+      "urls": [
+        "https://v.daum.net/v/2WtWJBztCs"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "director-what-do-you-know-interpretation",
+      "urls": [
+        "https://v.daum.net/v/2WtWJBztCs",
+        "https://ultimate-concern.tistory.com/163"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "golden-matiz-nostalgic-comment",
+      "urls": [
+        "https://www.gasengi.com/main/board.php?bo_table=humor04&page=3878&wr_id=216625",
+        "https://www.koreapas.com/m/view.php?id=gofun&no=198102"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "captain-q-retro-ad-recreation",
+      "urls": [
+        "https://nwww.newsis.com/view/NISX20261017_0003829966",
+        "https://minenews.stibee.com/p/595"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "british-flavor-ad-phrase",
+      "urls": [
+        "https://theqoo.net/snsd/534608514?listStyle=viewer",
+        "https://ryunan9903.tistory.com/572290"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Eight source-bounded entries. Two Hope entries share one explanatory article, not two independent source groups. Historical/recent dates separated. 0668/0686 already mapped in461; no repair needed. Hotsan explanatory sources read, Inven actual-use result inaccessible; held. No raw media viewed. C2 includes five additional existing recent-family checks; count9 is ledger rows."
+  ],
+  "query_observations": 8479,
+  "distinct_literal_queries": 7286,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
