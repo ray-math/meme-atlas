@@ -1,0 +1,336 @@
+{
+  "batch": 503,
+  "base": "4270eb1e1dac2343432b4a0f66c149559384ca94",
+  "canonical_before": 1661,
+  "canonical_after": 1668,
+  "added": [
+    "tabong-origin-introduction-ad-parody",
+    "jalnasseo-jeongmal-sarcastic-imitation",
+    "turn-it-off-for-a-moment-ad-reversal",
+    "love-keeps-moving-ad-copy-metaphor",
+    "chuno-egg-crying-scene-reenactment",
+    "ak47-music-video-everyday-parody",
+    "absent-student-professor-song-cover"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0087",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "ak47-music-video-everyday-parody"
+    }
+  ],
+  "previous_ci": {
+    "sha": "4270eb1e1dac2343432b4a0f66c149559384ca94",
+    "run": 44340575476,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": 175.183
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "sha": "4270eb1e1dac2343432b4a0f66c149559384ca94",
+    "count": 1661,
+    "changed": 20,
+    "notes": "Old1650body/indexunchanged;74annotations;0848onlypartial;20sourceURLs;OSENdefinition/historysum148words;11896queries9783distinct."
+  },
+  "research": {
+    "C77": {
+      "observations": 20,
+      "recommended": 1,
+      "supplement": 1,
+      "existing": 6,
+      "reserved": 4,
+      "held": 8,
+      "queries": [
+        "\"따봉\" \"광고\" \"패러디\"",
+        "\"잘났어 정말\" \"유행어\" 패러디",
+        "\"사랑해요 밀키스\" \"패러디\"",
+        "\"사랑해요 밀키스\" \"패러디\" 광고",
+        "\"남자는 여자 하기 나름\" \"패러디\"",
+        "\"따라올 테면 따라와\" \"패러디\""
+      ],
+      "notes": "Ta-bong supplemental3articles same mashitgguma ad, not3newcases;jalnasseo namedimitation and contemporarytext;4externalreads,no media."
+    },
+    "B565_remainder": {
+      "observations": 18,
+      "recommended": 0,
+      "existing": 8,
+      "held": 8,
+      "excluded": 2,
+      "queries": [
+        "2026 \"패러디\" \"공연\" \"챌린지\" -site:theslangverse.com -site:namu.moe",
+        "2026 \"안무\" \"바꿔\" \"밈\"",
+        "2026 \"노래\" \"패러디\" \"제작\" site:imnews.imbc.com",
+        "2026 \"챌린지\" \"패러디\" site:tenasia.co.kr",
+        "2026 \"챌린지\" \"패러디\" site:sports.khan.co.kr",
+        "2026 \"챌린지\" \"패러디\" site:enews.imbc.com",
+        "\"AEAO\" \"2025\" \"손\" \"챌린지\"",
+        "\"AEAO\" \"2026\" \"챌린지\" 안무",
+        "\"모다 시경\" \"합성\""
+      ],
+      "notes": "Completes B56520:2recommended already recorded/adopted502, here remaining18only.9queries not previously ledgered. Originals0."
+    },
+    "A90": {
+      "observations": 20,
+      "recommended": 0,
+      "held": 20,
+      "queries": [
+        "\"킹 오브 프리즘\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"파피 플레이타임\" \"밈\" 기사 -site:namu.moe -site:seore.org",
+        "\"프라이데이 나이트 펑킨\" \"패러디\" 기사",
+        "\"한글자 드립\" -site:namu.moe -site:seore.org",
+        "\"킹 오브 프리즘\" \"응원\" \"관객\"",
+        "\"케경호\" -site:namu.moe -site:seore.org -site:alphawiki.org",
+        "\"포켓몬빵\" \"패러디\" 기사",
+        "\"코렁탕\" \"뜻\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"하츄핑\" \"패러디\" 기사",
+        "\"피에로 드립\" -site:namu.moe -site:seore.org",
+        "\"프로게이머 피지컬\" \"밈\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "10rows searched10scopeonly;4external1dictionary read;Pokemon existing source not new;Poppy broad fananimationnotfixedformat;media0."
+    },
+    "C78": {
+      "observations": 20,
+      "recommended": 2,
+      "conditional": 1,
+      "existing": 7,
+      "held": 10,
+      "queries": [
+        "\"잠시 꺼두셔도\" \"패러디\"",
+        "\"선영아 사랑해\" \"패러디\" 광고",
+        "\"따라올테면 따라와\" 패러디",
+        "\"사랑은 움직이는\" \"패러디\"",
+        "\"잠시 꺼두셔도\" \"혜민\"",
+        "\"사랑은 움직이는\" 패러디 광고 유행어",
+        "2026 \"밈\" \"추억\" 광고 유행어"
+      ],
+      "notes": "Two historical bounded expressions; generalrecent14examples not realuser14cases.7sources1dictionaryread; media0. Follow-me conditional notadopted."
+    },
+    "B566": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 12,
+      "family": 2,
+      "held": 5,
+      "queries": [
+        "2026 \"패러디 영상\" \"제작했다\" 대학",
+        "2026 \"밈\" \"재현\" \"챌린지\" 지역",
+        "2026 \"챌린지\" \"따라\" \"공식 유튜브\" 패러디",
+        "\"추노\" \"계란\" \"패러디\" 2026",
+        "\"추노\" \"달걀\" \"패러디\" -충주 -충TV",
+        "\"페탈\" \"챌린지\" 한국",
+        "\"Made My Night\" \"챌린지\" 2026",
+        "\"Made My Night\" \"챌린지\" \"참여\" -site:challenge-gym.vercel.app",
+        "\"추노\" \"계란\" \"패러디\" \"박명수\""
+      ],
+      "notes": "Chuno oneproduction/YNA direct, Nate sameevent reusesYNA not independent. Other19dup/held notnew. Originals0."
+    },
+    "A91": {
+      "observations": 11,
+      "recommended": 0,
+      "held": 11,
+      "queries": [
+        "\"할 말이 없네\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"헝그리 정신\" \"패러디\"",
+        "\"호텔경제학\" -site:namu.moe -site:seore.org",
+        "\"흑드라군\" \"뜻\" -site:namu.moe -site:seore.org",
+        "\"헝그리 정신\" \"송강호\" \"성대모사\"",
+        "\"헬테이커\" \"팬아트\" 기사",
+        "\"호라 모 젠젠\" -site:namu.moe -site:seore.org -site:alphawiki.org",
+        "\"송강호\" \"헝그리\" \"흉내\"",
+        "\"헬테이커\" \"유행\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "6queried5scopeonly;2success1failURL1dictionaryread.1131historycatchphrase only;1140sameinvenfailure;media0."
+    },
+    "parent": {
+      "observations": 0,
+      "queries": [
+        "\"2026\" \"밈\" \"만들었다\" \"게임\" -site:namu.moe -site:seore.org",
+        "\"2026\" \"패러디\" \"학생들이\" 영상 -site:namu.moe",
+        "\"승진은 필요 없고\" \"땅\"",
+        "\"땅으로 주세요\" \"양주\" 드라마",
+        "\"2026\" \"패러디\" \"도서관\" 영상"
+      ],
+      "notes": "Discovery queries; observations counted only when candidate selected, no media."
+    },
+    "A92": {
+      "observations": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"11미터 모형탑\" \"패러디\"",
+        "\"1초만에 사람을 낚는 방법\" -site:namu.moe -site:seore.org",
+        "\"64 bits\" \"밈\" 한국",
+        "\"street photographer\" \"밈\" 한국",
+        "\"이지두댄스\" \"패러디\"",
+        "\"FBI OPEN UP\" \"패러디\" 한국",
+        "\"해버리기\" \"보겸\" 유행어",
+        "\"AK47\" \"패러디\" 기사",
+        "\"사회생활 Point\" 밈",
+        "\"를 알려주겠다\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"chip\" \"감자칩\" \"밈\"",
+        "\"낙타\" \"말리알리\""
+      ],
+      "notes": "12searched8scopeonly, creator1/abstract1/dictionary1; row0087partial only; source medicinal claims excluded."
+    },
+    "B567": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 8,
+      "family": 2,
+      "held": 6,
+      "excluded": 3,
+      "queries": [
+        "2026 \"패러디\" \"만들었다\" site:univ20.com",
+        "2026 \"밈\" \"따라\" site:allurekorea.com",
+        "2026 \"패러디\" \"제작\" site:esquirekorea.co.kr",
+        "2026 \"밈\" \"패러디\" site:weverse.io/magazine",
+        "2026 \"밈\" \"직접\" site:univ20.com",
+        "2026 \"패러디\" \"만들어\" site:newsis.com",
+        "2026 \"패러디\" \"따라\" site:elle.co.kr",
+        "2026 \"밈\" \"만들어\" site:harpersbazaar.co.kr",
+        "\"발표를 하지 않은\" \"커버\""
+      ],
+      "notes": "Historical recommendation1/recentnew0;3source reads/media0; same-song family not autoidentical."
+    },
+    "C79": {
+      "observations": 20,
+      "existing": 20,
+      "recommended": 0,
+      "queries": [
+        "2026 밈 \"대학신문\" 유행",
+        "2026 \"밈\" \"새로운\" \"패러디\" 11월"
+      ],
+      "notes": "4external5dictionaryread; existing source repeats notnewverification, media0."
+    },
+    "B568": {
+      "observations": 20,
+      "existing": 10,
+      "held": 8,
+      "excluded": 2,
+      "queries": [
+        "2026 \"패러디\" \"직접 제작\" -site:namu.moe -site:theslangverse.com",
+        "2026 \"밈\" \"따라 만든\" -site:theslangverse.com",
+        "2026 \"패러디\" \"숏폼\" site:korea.kr",
+        "2026 \"패러디\" \"재현\" site:hani.co.kr",
+        "2026 \"밈\" \"만들었\" site:khan.co.kr",
+        "2026 \"패러디\" \"따라\" site:news.jtbc.co.kr",
+        "\"길거리 수학 챌린지\" \"패러디\"",
+        "\"은퇴 밈\" \"2026\"",
+        "\"젠모지\" \"공유\" \"밈\" 2026",
+        "\"안재홍\" \"은퇴밈\" \"칭찬\"",
+        "\"기도해드릴게요\" \"밈\" 2026"
+      ],
+      "notes": "One directlyreadNewsis20261111 body; most otherexisting titleonly. media0."
+    },
+    "C80": {
+      "observations": 20,
+      "existing": 7,
+      "conditional": 1,
+      "held": 12,
+      "queries": [
+        "2026 지자체 \"밈\" \"패러디\" 홍보 새",
+        "2026 \"밈\" \"제작\" \"유행\" 대학신문",
+        "2026 site:go.kr \"패러디\" \"밈\"",
+        "2026 \"홍보영상\" \"승진\" \"땅으로\"",
+        "2026 \"밈\" \"직접 제작\" 시청",
+        "2026 시청 \"패러디\" \"승진은\"",
+        "2026 \"밈\" site:blog.hsad.co.kr",
+        "2026 \"밈\" site:news.skhynix.com",
+        "\"양주시\" \"땅으로 주세요\"",
+        "\"승진은\" \"패러디\"",
+        "\"땅으로 주세요\" \"드라마\""
+      ],
+      "notes": "4external1dictionary, Yangjuconditionnotadopted, original sceneconnectionunconfirmed;media0."
+    },
+    "A93": {
+      "observations": 20,
+      "held": 20,
+      "queries": [
+        "\"스카이림\" \"마차\" \"패러디\" 뉴스",
+        "\"마피아 시티\" \"패러디\" 광고",
+        "\"인크레더블\" \"불쾌\" \"밈\"",
+        "\"핑구\" \"공포\" \"밈\"",
+        "\"와이 쏘 시리어스\" \"패러디\"",
+        "\"지즈\" \"운동\" \"밈\"",
+        "\"분홍 코끼리\" \"리믹스\"",
+        "\"심즈 고양이\" \"밈\"",
+        "\"Why so serious\" \"조커\" \"패러디\" 한국",
+        "\"팩맨\" \"고스트 댄스\"",
+        "\"S stands for\" \"패러디\" 한국",
+        "\"원피스는 실재한다\" \"밈\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "11queried9scopeonly. ResearchPDFusesWiki830hencenotindependent;YouTubeopenfailed;newverified0, media0."
+    }
+  },
+  "sources": [
+    {
+      "id": "tabong-origin-introduction-ad-parody",
+      "urls": [
+        "https://www.mk.co.kr/news/etc/11781189",
+        "https://www.inews24.com/view/111829"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jalnasseo-jeongmal-sarcastic-imitation",
+      "urls": [
+        "https://www.mk.co.kr/news/economy/920206",
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10005699458"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "turn-it-off-for-a-moment-ad-reversal",
+      "urls": [
+        "https://www.donga.com/news/Economy/article/all/20101015/31904979/1",
+        "https://www.pressian.com/pages/articles/125253"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "love-keeps-moving-ad-copy-metaphor",
+      "urls": [
+        "https://www.kca.go.kr/home/sub.do?menukey=4009&mode=view&no=1000272684",
+        "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0000263686"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "chuno-egg-crying-scene-reenactment",
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260219064500064"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ak47-music-video-everyday-parody",
+      "urls": [
+        "https://thedog.daleda.co.kr/23",
+        "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003273205"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "absent-student-professor-song-cover",
+      "urls": [
+        "https://mobile.newsis.com/view/NISX20240620_0002781031"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Seven bounded candidates independently preaudited required fixes0; checkpointbelow10 ratherthan promote conditional.",
+    "Historical and single-source limits, AK47selfreport1+abstractcontextnotsecondcase; originalmedia0.",
+    "All1661previousbodies retained including reciprocal499links,74annotationsunchanged; no newinterbodylinks.",
+    "C80conditionnotadopted; A93researchbasedonWiki notindependent."
+  ],
+  "query_observations": 12009,
+  "distinct_literal_queries": 9882,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
