@@ -195,10 +195,11 @@
     "reports/bulk/connector-resume-wave30-363.json",
     "reports/bulk/connector-resume-wave30-364.json",
     "reports/bulk/connector-resume-wave30-365.json",
-    "reports/bulk/connector-resume-wave30-367.json"
+    "reports/bulk/connector-resume-wave30-367.json",
+    "reports/bulk/connector-resume-wave30-368.json"
   ],
-  "query_observations": 4607,
-  "distinct_literal_queries": 3947,
+  "query_observations": 4662,
+  "distinct_literal_queries": 3993,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -23435,6 +23436,281 @@
     {
       "query": "등장이라|삐에로|서커스",
       "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"사내\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"도서관\" \"제목\"",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"따라\" \"뉴스레터\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"따뜻하구나\" \"2026\" -site:instablank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이쁘구나\" \"크리스티나\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"혐대고기\" \"2026\" -site:jjalbang.today -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"땃쥐\" \"패러디\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"땃쥐\" \"챌린지\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"김민 따라하기\" \"2026\" -site:jjalbang.today -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소문의 낙원\" \"챌린지\" \"예산군\"",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소문의 낙원\" \"챌린지\" \"공식\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "54000",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이모지",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "100명",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김민",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "따뜻하구나",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "할머니",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가로등",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "구나",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "크리스티나",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "봄이",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "혐대",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "땃쥐",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뽈롱",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "소문의",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "낙원",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "땃",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뽈롱랜드",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "악뮤",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "AKMU",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와퍼|버거킹",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와플",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "요!|요요",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "우연히|우연",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "위대한",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "윌.?스미스|뺨|오스카",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "으악|안.?돼",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사재기|음원",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "무료로|무료",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이제 그만|그만",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이쿠요|이쿠욧",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이훈이|훈이|짱구",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인증",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와플핑|핫케핑|티니핑",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "홍명보|선임",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "정상수|체크.*디스",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "정우성|문가비",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "제너럴.?조|조장군",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "린가드|피리",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "제주|사투리",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"밈\" -site:namu.moe -site:namu.wiki -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"2026\" \"짤\"",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"2026\" \"헬스장\"",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"2026\" \"패러디\" -site:namu.moe -site:novelpia.com -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "소문의|낙원|악뮤|akmu",
+      "source": "reports/bulk/connector-resume-wave30-368.json",
       "status": "screened-see-report"
     }
   ],

@@ -178,3 +178,4 @@
 - [한 번만 더 건드리면 내가 누군지 알려줄게](../memes/touch-again-introduction.md)
 - [펄~럭](../memes/peolleok-flag-reaction.md)
 - [○○에 ○○의 등장이라](../memes/appearance-narrator-template.md)
+- [소문의 낙원 챌린지](../memes/rumors-of-paradise-challenge.md)

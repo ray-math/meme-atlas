@@ -501,6 +501,7 @@
 - [소 잃고 뇌 약간 고치기](fix-brain-a-little.md)
 - [소는 누가 키워](who-raises-cows.md)
 - [소리 지르지 말고 박수 쳐](dont-shout-clap.md)
+- [소문의 낙원 챌린지](rumors-of-paradise-challenge.md)
 - [소수를 세면서 진정하자](count-primes-and-calm-down.md)
 - [소울리스좌](soulless-guide.md)
 - [소확행](sohwakhaeng.md)

@@ -383,6 +383,7 @@
 - [섹시 푸드](../memes/sexy-food.md)
 - [소 잃고 뇌 약간 고치기](../memes/fix-brain-a-little.md)
 - [소리 지르지 말고 박수 쳐](../memes/dont-shout-clap.md)
+- [소문의 낙원 챌린지](../memes/rumors-of-paradise-challenge.md)
 - [소수를 세면서 진정하자](../memes/count-primes-and-calm-down.md)
 - [소울리스좌](../memes/soulless-guide.md)
 - [소확행](../memes/sohwakhaeng.md)
