@@ -1,0 +1,38 @@
+{
+  "batch": 357,
+  "base": "9e92a47f0afb29d2e72383d02455ec25e828bb59",
+  "canonical_before": 971,
+  "canonical_after": 971,
+  "added": [],
+  "independent_audit": {
+    "body": "mal-itjyo-drama-speech",
+    "source_reads": 3,
+    "body_and_report_read": true,
+    "result": "passed,no mandatory corrections",
+    "scope": "Evidence interpretation only, not index/list validation",
+    "limits": "Reported creatorposter use plus actorgroup selfreport, OSENsamecreator notthirdgroup; originalvideo/poster/chat0; firstoriginunconfirmed."
+  },
+  "editor": {
+    "queries": [
+      "\"흑우\" \"2026\" \"자처\"",
+      "\"혼모노\" \"2026\" \"밈\"",
+      "\"홍박사님을 아세요\" \"2026\" \"패러디\"",
+      "\"흑우\" \"2026\" \"구매\" -site:namu.moe -site:namu.wiki",
+      "\"흑우\" \"2026\" \"샀다\"",
+      "\"혼모노\" \"2026\" -성해나 -소설 -도서 -site:namu.moe -site:namu.wiki"
+    ],
+    "candidates": [
+      "1151 흑우",
+      "1144 혼모노",
+      "1156 홍박사님을 아세요"
+    ],
+    "recommended": 0,
+    "limits": "Search-only results dominated by homonym books, catalogues, wiki lists and explanatory summaries. None promoted to recent verified independent applications. Original pages not read in this pass."
+  },
+  "ci": {
+    "body971": {
+      "run": 44240386437,
+      "status": "in_progress_at_preparation"
+    }
+  }
+}

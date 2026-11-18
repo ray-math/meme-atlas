@@ -185,10 +185,11 @@
     "reports/bulk/connector-resume-wave30-353.json",
     "reports/bulk/connector-resume-wave30-354.json",
     "reports/bulk/connector-resume-wave30-355.json",
-    "reports/bulk/connector-resume-wave30-356.json"
+    "reports/bulk/connector-resume-wave30-356.json",
+    "reports/bulk/connector-resume-wave30-357.json"
   ],
-  "query_observations": 4346,
-  "distinct_literal_queries": 3727,
+  "query_observations": 4352,
+  "distinct_literal_queries": 3733,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -22120,6 +22121,36 @@
     {
       "query": "불티",
       "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"흑우\" \"2026\" \"자처\"",
+      "source": "reports/bulk/connector-resume-wave30-357.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"혼모노\" \"2026\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-357.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"홍박사님을 아세요\" \"2026\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-357.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"흑우\" \"2026\" \"구매\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-357.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"흑우\" \"2026\" \"샀다\"",
+      "source": "reports/bulk/connector-resume-wave30-357.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"혼모노\" \"2026\" -성해나 -소설 -도서 -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-357.json",
       "status": "screened-see-report"
     }
   ],
