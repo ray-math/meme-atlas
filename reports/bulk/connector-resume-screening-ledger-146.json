@@ -130,10 +130,11 @@
     "reports/bulk/connector-resume-wave30-287.json",
     "reports/bulk/connector-resume-wave30-289.json",
     "reports/bulk/connector-resume-wave30-290.json",
-    "reports/bulk/connector-resume-wave30-291.json"
+    "reports/bulk/connector-resume-wave30-291.json",
+    "reports/bulk/connector-resume-wave30-292.json"
   ],
-  "query_observations": 2535,
-  "distinct_literal_queries": 2056,
+  "query_observations": 2567,
+  "distinct_literal_queries": 2083,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -13010,6 +13011,166 @@
     {
       "query": "Yyeon",
       "source": "reports/bulk/connector-resume-wave30-291.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:singleskorea.com",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" site:harpersbazaar.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:gqkorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Where You At\" \"챌린지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"WYA\" \"챌린지\" 이효리",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"WHERE YOU AT\" \"챌린지\" -20260108 -site:ranktube.co.kr -site:namu.moe -site:namu.wiki \"2026\" \"3월\"",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"WYA\" \"챌린지\" site:fastpapermag.com",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Where You At\" \"아이브\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"최보민\" \"웨어 유 엣\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"춤멤들 총출동\" \"WHERE YOU AT\"",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "WYA",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Where You At",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "웨잇",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Chill Guy",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "폭주기니",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나니가스키",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Who is Guilty",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이라이라",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "레슨",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "부가티",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "우리 애 자랑",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "골반통신",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "매끈매끈",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "힙사사돈",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "양의지",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영크크",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "얼마나 성공",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "안 나오면",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "WYA",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "WHERE YOU AT",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "웨어 유",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "where-you",
+      "source": "reports/bulk/connector-resume-wave30-292.json",
       "status": "screened-see-report"
     }
   ],

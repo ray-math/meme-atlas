@@ -20,6 +20,7 @@
 - [RUDE! 나레이션 패러디](rude-narration.md)
 - [TMI](tmi.md)
 - [UBD](ubd.md)
+- [WYA 챌린지](where-you-at-challenge.md)
 - [~각](gak-situation.md)
 - [~갑](gap-best.md)
 - [~무새](musae-repeat.md)

@@ -908,6 +908,7 @@
 - [ET춤](../memes/jewelry-et-dance.md)
 - [PPAP](../memes/ppap.md)
 - [RUDE! 나레이션 패러디](../memes/rude-narration.md)
+- [WYA 챌린지](../memes/where-you-at-challenge.md)
 - [간 때문이야](../memes/gan-because.md)
 - [간바레 챌린지](../memes/ganbare-three-panel-challenge.md)
 - [강남스타일 말춤](../memes/gangnam-horse-dance.md)
