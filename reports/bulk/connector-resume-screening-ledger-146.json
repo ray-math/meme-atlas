@@ -251,10 +251,11 @@
     "reports/bulk/connector-resume-wave30-425.json",
     "reports/bulk/connector-resume-wave30-427.json",
     "reports/bulk/connector-resume-wave30-428.json",
-    "reports/bulk/connector-resume-wave30-429.json"
+    "reports/bulk/connector-resume-wave30-429.json",
+    "reports/bulk/connector-resume-wave30-430.json"
   ],
-  "query_observations": 5797,
-  "distinct_literal_queries": 5057,
+  "query_observations": 5823,
+  "distinct_literal_queries": 5080,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -29441,6 +29442,136 @@
     {
       "query": "\"조의를 표하십시오\" \"2026\" site:gall.dcinside.com",
       "source": "reports/bulk/connector-resume-wave30-429.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:news.kbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행어\" site:news.imaeil.com",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"따라\" site:hani.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행\" site:kwnews.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"제목\" site:news.joins.com",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:news.nate.com -트럼프 -정치 -광고",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"유행어\" \"따라\" site:tenasia.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"사용\" site:newsis.com -트럼프",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꽈찌쭈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나가 있어\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다 부질없는\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"벽을 부수는\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빈 찬합\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꽈찌쭈\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나가있어\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"벽부수기\" \"이지툰\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빈 찬합\" \"게임\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나가있어\" \"살인의 추억\"",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"당신이 옳았어\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"당신이 옳았어\" \"2026\" -엘리아스",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"당신이 옳았어\" \"2026\" 게임 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"당신이 옳았어\" \"2026\" \"퍼거슨\"",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"당신이 옳았어\" \"2026\" \"요리\"",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"당신이 옳았어\" \"2026\" 후기 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쿵 할게요\" \"2026\" 패러디 -수호 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쿵할게요\" \"2026\" -수호 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-430.json",
       "status": "screened-see-report"
     }
   ],
