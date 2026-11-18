@@ -1,0 +1,221 @@
+{
+  "batch": 304,
+  "base": "773a5511ffcad0940bb4cc58ed72fd9be0bc0802",
+  "canonical_before": 935,
+  "canonical_after": 937,
+  "added": [
+    "deathly-tasty-reaction",
+    "please-buy-it-template"
+  ],
+  "candidate_mappings": {
+    "kr-list-0944": "deathly-tasty-reaction",
+    "kr-list-0076": "please-buy-it-template"
+  },
+  "sources": {
+    "deathly_tasty": [
+      "https://www.gamechosun.co.kr/webzine/article/view.php?no=219926",
+      "https://gall.dcinside.com/mgallery/board/view/?id=gundam&no=4201098&page=1"
+    ],
+    "buy_template": [
+      "https://junghyeonsu.com/posts/please-buy-the-blog-1/",
+      "https://itlover0.tistory.com/79"
+    ]
+  },
+  "validation": "editor directly read four sources; separate researcher recommendations. Deathly-tasty independent scope audit passed. No images/videos played.",
+  "limits": "죽음으로맛있는데:최근1년제목적용2건,원작기원미확정. 사드세요:2021/2022작성자직접패러디2건,최근1년0·원영상0.",
+  "research_A": {
+    "queries": [
+      "\"문단속\" \"밈\" 2026",
+      "\"사드세요\" \"제발\" 패러디",
+      "\"didn't i do it for you\" 한국 밈",
+      "\"맥스웰\" \"고양이\" 밈",
+      "\"Terrified Noot Noot\" 한국",
+      "\"X키를 눌러 조의를\" 패러디",
+      "\"강풍 올백\" \"챌린지\" 한국",
+      "\"곽윤기\" \"뒷선수\" 패러디",
+      "\"나노머신 썬\" -site:namu.moe -site:seore.org",
+      "\"도쿄올림픽\" \"픽토그램\" \"패러디\" 한국",
+      "\"사드세요\" \"제발\" \"2026\" -site:namu.moe",
+      "\"강풍올백\" 패러디 -site:namu.moe",
+      "\"문단속\" \"패러디\" -site:namu.moe -site:seore.org",
+      "\"사드세요\" \"제발\" \"패러디\" -site:namu.moe -site:junghyeonsu.com -site:seore.org",
+      "\"핑구\" \"공포\" \"밈\" -site:namu.moe -site:seore.org"
+    ],
+    "index_queries": [
+      "문단속",
+      "사드세요",
+      "do it for you",
+      "보르조이",
+      "Maxwell",
+      "맥스웰",
+      "Noot",
+      "핑구",
+      "조의",
+      "올백",
+      "뒷선수",
+      "나노머신",
+      "픽토그램",
+      "뒤따라",
+      "다리 사이",
+      "곽윤기",
+      "사서",
+      "먹으세요",
+      "보르",
+      "해피 캣",
+      "고양이 합성",
+      "리코더",
+      "스즈메",
+      "메탈기어",
+      "press f",
+      "noot"
+    ],
+    "reviewed": [
+      "0065",
+      "0076",
+      "0096",
+      "0124",
+      "0145",
+      "0152",
+      "0174",
+      "0213",
+      "0289",
+      "0388"
+    ],
+    "recommendations": {
+      "0076": {
+        "sources": [
+          "https://junghyeonsu.com/posts/please-buy-the-blog-1/",
+          "https://itlover0.tistory.com/79"
+        ],
+        "dates": [
+          "2022-06-11",
+          "2021-06-23"
+        ],
+        "scope": "different technical blog authors explicitly name parody, no originalvideo or technicaladvice validation"
+      },
+      "0213": {
+        "sources": [
+          "https://sports.news.nate.com/view/20220222n12378",
+          "https://www.mt.co.kr/entertainment/2022/02/16/2022021616224546319"
+        ],
+        "dates": [
+          "2022-02-22",
+          "2022-02-16"
+        ],
+        "scope": "interview variations and separate YuSeyoon recreation; visualdirect0"
+      }
+    },
+    "hold_ids": [
+      "0065",
+      "0096",
+      "0124",
+      "0145",
+      "0152",
+      "0174",
+      "0289",
+      "0388"
+    ],
+    "latest_year_uses": 0
+  },
+  "research_C": {
+    "queries": [
+      "\"콩쥐야\" \"2026\"",
+      "\"햄최몇\" \"2026\"",
+      "\"죽음으로 맛있는데\" -site:namu.moe",
+      "\"인간성기사 뿌뿌뽕\" -site:namu.moe",
+      "\"텟카이\" \"2026\"",
+      "\"인사하는 제리\" 밈 -site:namu.moe",
+      "\"장비를 정지합니다\" \"2026\"",
+      "\"이궈궈던\" \"2026\"",
+      "\"함정카드\" \"2026\" 밈",
+      "\"울어라 지옥참마도\" -site:namu.moe"
+    ],
+    "reviewed": [
+      "kr-list-0944",
+      "kr-list-1020",
+      "kr-list-1113",
+      "kr-list-0869",
+      "kr-list-1040",
+      "kr-list-0924",
+      "kr-list-0901",
+      "kr-list-0851",
+      "kr-list-1106",
+      "kr-list-0820"
+    ],
+    "holds": {
+      "1020": "one retrospective own past use, original not read",
+      "1040": "channel name ambiguity",
+      "1106": "literal card versus metaphor boundary unclear",
+      "1113": "one incident repeated press coverage; body-shaming risk",
+      "0869": "wiki-derived explanations only",
+      "0924": "image not verified actual usage missing",
+      "0901": "recent independent use missing",
+      "0851": "search only not verified bodies",
+      "0820": "Bugs album2025-12-29 one directtext, JoaraJSblocked"
+    },
+    "direct_pages": 4
+  },
+  "queries": [
+    "\"문단속\" \"밈\" 2026",
+    "\"사드세요\" \"제발\" 패러디",
+    "\"didn't i do it for you\" 한국 밈",
+    "\"맥스웰\" \"고양이\" 밈",
+    "\"Terrified Noot Noot\" 한국",
+    "\"X키를 눌러 조의를\" 패러디",
+    "\"강풍 올백\" \"챌린지\" 한국",
+    "\"곽윤기\" \"뒷선수\" 패러디",
+    "\"나노머신 썬\" -site:namu.moe -site:seore.org",
+    "\"도쿄올림픽\" \"픽토그램\" \"패러디\" 한국",
+    "\"사드세요\" \"제발\" \"2026\" -site:namu.moe",
+    "\"강풍올백\" 패러디 -site:namu.moe",
+    "\"문단속\" \"패러디\" -site:namu.moe -site:seore.org",
+    "\"사드세요\" \"제발\" \"패러디\" -site:namu.moe -site:junghyeonsu.com -site:seore.org",
+    "\"핑구\" \"공포\" \"밈\" -site:namu.moe -site:seore.org",
+    "문단속",
+    "사드세요",
+    "do it for you",
+    "보르조이",
+    "Maxwell",
+    "맥스웰",
+    "Noot",
+    "핑구",
+    "조의",
+    "올백",
+    "뒷선수",
+    "나노머신",
+    "픽토그램",
+    "뒤따라",
+    "다리 사이",
+    "곽윤기",
+    "사서",
+    "먹으세요",
+    "보르",
+    "해피 캣",
+    "고양이 합성",
+    "리코더",
+    "스즈메",
+    "메탈기어",
+    "press f",
+    "noot",
+    "\"콩쥐야\" \"2026\"",
+    "\"햄최몇\" \"2026\"",
+    "\"죽음으로 맛있는데\" -site:namu.moe",
+    "\"인간성기사 뿌뿌뽕\" -site:namu.moe",
+    "\"텟카이\" \"2026\"",
+    "\"인사하는 제리\" 밈 -site:namu.moe",
+    "\"장비를 정지합니다\" \"2026\"",
+    "\"이궈궈던\" \"2026\"",
+    "\"함정카드\" \"2026\" 밈",
+    "\"울어라 지옥참마도\" -site:namu.moe"
+  ],
+  "metrics": {
+    "query_observations": 2725,
+    "distinct_literal_queries": 2235
+  },
+  "ci": "newcommit pending",
+  "prior_ci": {
+    "sha": "773a5511ffcad0940bb4cc58ed72fd9be0bc0802",
+    "run": 44227659150,
+    "conclusion": "success"
+  }
+}

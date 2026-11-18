@@ -109,3 +109,5 @@
 - [내면의 기가차드](../memes/inner-gigachad-dialogue.md)
 - [스튜어디스 혜정아](../memes/stewardess-hyejeong.md)
 - [지구 온라인](../memes/earth-online.md)
+- [죽음으로 맛있는데](../memes/deathly-tasty-reaction.md)
+- [○○은 사드세요 제발](../memes/please-buy-it-template.md)
