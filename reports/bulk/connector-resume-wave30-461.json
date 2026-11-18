@@ -308,5 +308,16 @@
   "limits": [
     "Candidate groups include reexamination, not all newly discovered memes.",
     "No main changes, no Codex, no image/video view; current CI pending."
-  ]
+  ],
+  "audit_correction": {
+    "issue": "0186 prior dance-remix mapping overwritten",
+    "resolution": "Restored prior dictionary id alongside new voice-imitation id; classification and canonical counts unchanged",
+    "ci": {
+      "run": 44286687457,
+      "job": 134741048940,
+      "steps": 65,
+      "conclusion": "success",
+      "python": "Ran 495 tests in 70.614s"
+    }
+  }
 }
