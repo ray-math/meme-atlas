@@ -98,10 +98,11 @@
     "reports/bulk/connector-resume-wave30-253.json",
     "reports/bulk/connector-resume-wave30-254.json",
     "reports/bulk/connector-resume-wave30-255.json",
-    "reports/bulk/connector-resume-wave30-256.json"
+    "reports/bulk/connector-resume-wave30-256.json",
+    "reports/bulk/connector-resume-wave30-257.json"
   ],
-  "query_observations": 1738,
-  "distinct_literal_queries": 1414,
+  "query_observations": 1773,
+  "distinct_literal_queries": 1438,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -8993,6 +8994,181 @@
     {
       "query": "불편해",
       "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"11월\" \"뉴스레터\" -site:maily.so -site:instablank.com -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"10월\" \"캠페인\" -site:namu.wiki -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"책방\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"영화관\" \"패러디\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"박물관\" \"인스타그램\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고양이\" \"섀도 복싱\" \"2026\" -서울시",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고양이\" \"쉐도우복싱\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하겠습니다 안하겠습니다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"할까말까\" \"밈\" \"연차\"",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"연차\" \"안하겠습니다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"청소\" \"안하겠습니다\" \"스크럽대디\"",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고양이\" \"섀도 복싱\" 밈 -site:ajunews.com -서울시",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고양이\" \"쉐도우 복싱\" 챌린지 한국 2026",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고양시\" \"2026\" \"밈\" \"8월\"",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "54000",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나이별",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "동결건조",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "장원영",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "파트는",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "정보 좀",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "섀도",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쉐도",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "복싱",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "호프",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "죽이세유",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바미기르",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삐에로",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하겠습니다",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고민중",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "할까말까",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "피에로",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "정통삐",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "펀치",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "cat",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "박물관",
+      "source": "reports/bulk/connector-resume-wave30-257.json",
       "status": "screened-see-report"
     }
   ],

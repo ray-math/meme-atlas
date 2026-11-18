@@ -1,0 +1,85 @@
+{
+  "batch": 257,
+  "canonical_before": 916,
+  "canonical_after": 916,
+  "queries": [
+    "2026 \"밈\" \"11월\" \"뉴스레터\" -site:maily.so -site:instablank.com -site:namu.wiki",
+    "2026 \"밈\" \"10월\" \"캠페인\" -site:namu.wiki -site:instablank.com",
+    "2026 \"밈\" \"책방\" -site:namu.moe -site:instablank.com",
+    "2026 \"밈\" \"영화관\" \"패러디\" -site:namu.moe -site:instablank.com",
+    "2026 \"밈\" \"박물관\" \"인스타그램\" -site:namu.moe -site:instablank.com",
+    "\"고양이\" \"섀도 복싱\" \"2026\" -서울시",
+    "\"고양이\" \"쉐도우복싱\" \"2026\"",
+    "\"하겠습니다 안하겠습니다\" \"2026\"",
+    "\"할까말까\" \"밈\" \"연차\"",
+    "\"연차\" \"안하겠습니다\" \"2026\"",
+    "\"청소\" \"안하겠습니다\" \"스크럽대디\"",
+    "\"고양이\" \"섀도 복싱\" 밈 -site:ajunews.com -서울시",
+    "\"고양이\" \"쉐도우 복싱\" 챌린지 한국 2026",
+    "\"고양시\" \"2026\" \"밈\" \"8월\""
+  ],
+  "index_queries": [
+    "54000",
+    "나이별",
+    "동결건조",
+    "장원영",
+    "파트는",
+    "정보 좀",
+    "섀도",
+    "쉐도",
+    "복싱",
+    "호프",
+    "죽이세유",
+    "바미기르",
+    "삐에로",
+    "하겠습니다",
+    "고민중",
+    "할까말까",
+    "피에로",
+    "정통삐",
+    "펀치",
+    "cat",
+    "박물관"
+  ],
+  "audit915": {
+    "sha": "034fe1d58f09d35191f9baf0fbf5f6723a76fbef",
+    "result": "passed body/index/README/manual;915 unique IDs;two reported events,original videos0;no corrections"
+  },
+  "audit916": {
+    "sha": "cb0597d1c947681a131c5ea0234d7ca2d0ed4292",
+    "result": "passed body/index/README/manual;916 unique IDs, manual90; three direct texts/two source families/two exact dates/images-video0"
+  },
+  "main_unchanged": "f3cf501549f1c4f8d327ee13c904e9ed85ed2a33",
+  "normalized_title_alias_cross_id_collisions": 0,
+  "semantic_duplicates": [
+    "give-up",
+    "54000",
+    "age-reaction-challenge",
+    "freeze-dry-affection",
+    "wonyoung-praise",
+    "if-i-were-idol"
+  ],
+  "holds": [
+    {
+      "candidate": "고양이 섀도 복싱",
+      "url": "https://www.ajunews.com/view/20261106215131685",
+      "note": "Nov8 report single Seoul event; original video0, second domestic reuse absent"
+    },
+    {
+      "candidate": "삐에로 정통삐 품바삐",
+      "url": "https://maily.so/marsinmarine/posts/xyow35g1r28",
+      "note": "newsletter classification only; no2actualuses"
+    },
+    {
+      "candidate": "고양고양이 BAD",
+      "url": "https://www.ekn.kr/web/view.php?key=20260824027596006",
+      "note": "single Aug24 city parody report"
+    }
+  ],
+  "pending": "OO 정보 generic-vs-format review",
+  "metrics": {
+    "query_observations": 1773,
+    "distinct_literal_queries": 1438
+  },
+  "ci": "not run"
+}
