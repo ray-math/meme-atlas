@@ -1,0 +1,341 @@
+{
+  "batch": 516,
+  "base": "cf987096426a6d4bfd5e286c90f7528abf99e2f3",
+  "canonical_before": 1797,
+  "canonical_after": 1807,
+  "added": [
+    "beagle-mi-playful-charm",
+    "meongmung-mi-puppy-like-charm",
+    "gamseong-moreuneun-aedeureun-gara",
+    "cool-guy-guan-yu-panel-edit",
+    "sogogi-samukgetji-catchphrase",
+    "inner-thought-interpreter-parody",
+    "pposiraegi-affectionate-nickname",
+    "scene-stealer-supporting-presence",
+    "bonkae-bukae-character-roles",
+    "blindfold-baek-jong-won-photo-parody"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0242",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "cool-guy-guan-yu-panel-edit"
+    }
+  ],
+  "previous_ci": {
+    "run_id": 44361633102,
+    "job_id": 135004305700,
+    "status": "success",
+    "steps": 65,
+    "python_log": [
+      "Ran 497 tests in 142.412s"
+    ],
+    "head": "cf987096426a6d4bfd5e286c90f7528abf99e2f3"
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "required_changes": 0,
+    "head": "cf987096426a6d4bfd5e286c90f7528abf99e2f3",
+    "files_read": 19
+  },
+  "research": {
+    "C121": {
+      "recommendations": [
+        "비글미",
+        "멍뭉미"
+      ],
+      "queries": [
+        "\"비글미\" \"2026\"",
+        "\"멍뭉미\" \"2026\"",
+        "\"덕밍아웃\" \"2026\"",
+        "\"비글미\" \"뜻\" 신조어",
+        "\"멍뭉미\" \"뜻\" 신조어",
+        "\"댕청\" \"뜻\" 기사",
+        "\"멍뭉미\" \"강아지\" \"신조어\"",
+        "\"비글미\" \"2026\" \"장난\"",
+        "\"비글미\" site:enews.imbc.com \"2026\"",
+        "\"비글미\" \"2026\" -site:namu.moe -site:hoonmeme.com -site:imbench.com -site:saramin.co.kr \"발랄\"",
+        "\"멍뭉미\" 뜻 site:newsis.com"
+      ],
+      "observations": 8,
+      "existing": 2,
+      "held": 4,
+      "media_viewed": 0,
+      "external_bodies_read": 3,
+      "listings_read": 1,
+      "failed_opens": 5,
+      "sources": [
+        "https://m.news.nate.com/view/20151117n25859",
+        "https://www3.osen.co.kr/video",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/522771",
+        "https://www.tenasia.co.kr/article/2026102038404"
+      ],
+      "note": "Beagle Osen recent listing only, detailfailed. Meongmung distinct from meommummi glyph/dogphotos, peopleimpression notpersonality; allmedia0."
+    },
+    "B607": {
+      "observations": 8,
+      "recommendations": 1,
+      "existing": 3,
+      "held": 4,
+      "media_viewed": 0,
+      "queries": [
+        "2026 \"유행어\" \"따라\" site:newsis.com -임성한 -허경환",
+        "2026 \"패러디\" \"대사\" site:news1.kr -임성한",
+        "2026 \"밈\" \"말투\" site:allurekorea.com",
+        "\"2026\" \"유행어\" \"패러디\" \"광고\" -임성한 -허경환 -스카프",
+        "\"2026\" \"대사\" \"패러디했다\" -임성한 -닥터신",
+        "\"바삭해야만 속이 후련했냐\" \"2019\"",
+        "\"감성 모르는 애들은 가라\" \"2026\"",
+        "\"바삭해야만\" \"뉴스1\" \"2019.09.01\"",
+        "\"감성 모르는 애들은 가라\" \"마마트\""
+      ],
+      "sources": [
+        "https://mobile.newsis.com/view/NISX20240118_0002597288",
+        "https://www.incross.com/ko/insight/report.asp?idx=2124&mode=view&page=11&pageSize=12&searchStr=&serboardsort=9"
+      ],
+      "note": "2024 historical; Incross cites Newsis explanation but own title two nouns. Not independent origins. bar삭/d aebal/motnan/papago held; scarf/crab/500 existing."
+    },
+    "A131": {
+      "observations": 8,
+      "recommendations": 1,
+      "held": 7,
+      "external_pages_read": 3,
+      "relevant_bodies": 2,
+      "media_viewed": 0,
+      "queries": [
+        "\"곤룡포좌\" 패러디",
+        "\"공항도둑\" 밈 -site:namu.moe -site:seore.org",
+        "\"구찌보이\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"귀여운 건 나도 알아\" 패러디",
+        "\"그건 원작을 경험해 보신 분들의 기준인 거고요\" -site:namu.moe -site:seore.org",
+        "\"그런 거 없다\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"꾸래핑\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"나는 애쉬\" -site:namu.moe -site:seore.org",
+        "\"귀여운 건 나도 알아\" -site:namu.moe -site:seore.org -site:jjalbang.today",
+        "\"구찌보이\" 패러디",
+        "\"그런 거 없다\" 관우 -site:namu.moe -site:seore.org -site:tcatmon.com",
+        "\"그건 원작을 경험해\" -site:namu.moe -site:seore.org"
+      ],
+      "note": "0242 cool GuanYu panel omission only; 2014Sept issue posted2015May11;one admin explanation,noimages. Other7held,quasar targetcommentnotfound."
+    },
+    "B608": {
+      "observations": 8,
+      "recommendations": 2,
+      "existing": 3,
+      "held": 2,
+      "excluded": 1,
+      "media_viewed": 0,
+      "queries": [
+        "2026 \"유행어\" \"패러디\" site:enews.imbc.com -임성한",
+        "2026 \"밈\" \"말투\" site:news.jtbc.co.kr",
+        "2026 \"대사\" \"패러디\" site:sports.donga.com -임성한",
+        "\"2026\" \"패러디\" \"문구\" site:biz.chosun.com",
+        "\"2026\" \"유행어\" \"따라\" \"특급 칭찬\"",
+        "\"특급 칭찬\" \"패러디\" \"광고\"",
+        "\"소고기 사 묵겠지\" \"패러디\"",
+        "\"소지섭\" \"꺼져\" \"따라\" \"2026\"",
+        "\"소고기 사묵겠지\" \"광고\"",
+        "\"속마음 통역사\" \"2026\"",
+        "\"분노통역사\" \"유재석\""
+      ],
+      "note": "Historical beef ad1+original performer reenactment1;inner interpreter domestic reenactment1. No media. Future meme expectation excluded, titles/ordinary refusal held."
+    },
+    "C122": {
+      "observations": 8,
+      "recommendations": 2,
+      "existing": 2,
+      "held": 4,
+      "external_bodies_read": 4,
+      "failed_opens": 3,
+      "media_viewed": 0,
+      "queries": [
+        "\"씬스틸러\" \"뜻\" 기사",
+        "\"뽀시래기\" \"2026\"",
+        "\"남사친\" \"여사친\" \"신조어\"",
+        "\"뽀시래기\" \"2026\"",
+        "\"씬스틸러\" \"뜻\" 기사",
+        "\"뽀시래기\" \"2026\" site:enews.imbc.com",
+        "\"신스틸러\" \"명품 조연\" site:korean.go.kr",
+        "\"신스틸러\" \"2026\" site:enews.imbc.com",
+        "\"뽀시래기\" \"2026\" \"배우\""
+      ],
+      "note": "nine query events/seven strings. Pposiraegi affectionate naming vs ppojjak modifier. Scene stealer is popular-culture evaluation not solely Internet meme. NIKL2014Nov19 committee date not publication."
+    },
+    "A132": {
+      "observations": 8,
+      "recommendations": 0,
+      "held": 8,
+      "external_bodies_read": 4,
+      "failed_opens": 3,
+      "media_viewed": 0,
+      "queries": [
+        "\"내 거에 올라온 네 욕 볼래\" -site:namu.moe",
+        "\"대기업에 입사한 아들의 깨달음\" -site:namu.moe",
+        "\"대자보\" \"패러디\" \"시국선언\"",
+        "\"두원공대\" \"드립\" -site:namu.moe",
+        "\"마쁘리에요\" -site:namu.moe",
+        "\"마인크래프트\" \"19금\" \"패러디\"",
+        "\"면제겜\" 뜻 -site:namu.moe",
+        "\"물음표 드립\" -site:namu.moe",
+        "\"내 거에 올라온\" \"욕\"",
+        "\"대자보 시국선언\" 패러디",
+        "\"마인크래프트 19금 사태\" 패러디"
+      ],
+      "note": "0317/0377/0380/0403/0453/0454/0474/0499 held. Protest placards article2016Oct26 despite2021URL; generic movement not one meme. Orbi comments not universityfacts; fan AI character not verified person."
+    },
+    "C123": {
+      "observations": 10,
+      "recommended_expressions": 2,
+      "recommended_entries": 1,
+      "existing": 4,
+      "conditional": 2,
+      "held": 2,
+      "external_bodies_read": 3,
+      "failed_opens": 3,
+      "media_viewed": 0,
+      "queries": [
+        "\"부캐\" \"본캐\" \"뜻\" 기사",
+        "\"예능캐\" \"2026\"",
+        "\"인간비타민\" \"2026\"",
+        "\"부캐\" \"2026\" site:enews.imbc.com",
+        "\"심스틸러\" \"뜻\"",
+        "\"인간비타민\" \"밝은\" \"2026\"",
+        "\"심스틸러\" \"조달청\" \"2026\"",
+        "\"인간비타민\" \"밝은 에너지\" \"2026\""
+      ],
+      "note": "Bonkae/bukae one family. SWCF2012header contradicts later examples so date omitted. Recent iMBC preview textual use only. Simstealer conditional PPS naming not word origin; entertainmentcharacter overlaps existing."
+    },
+    "B609": {
+      "observations": 8,
+      "recommendations": 1,
+      "existing": 5,
+      "held": 2,
+      "media_viewed": 0,
+      "queries": [
+        "2026 \"패러디\" \"유행어\" site:news.nate.com -임성한 -허경환 -소고기",
+        "2026 \"밈\" \"댓글\" site:biz.heraldcorp.com -스카프",
+        "2026 \"유행어\" \"따라\" site:tenasia.hankyung.com",
+        "\"2026\" \"유행어\" \"따라 했다\" -site:namu.moe -임성한",
+        "\"2026\" \"대사 패러디\" \"광고\" -site:namu.moe",
+        "\"살아있네\" \"패러디\" \"광고\""
+      ],
+      "note": "BlindfoldBaek2024Newsisone report multiple related-branduses;originalSNS/media0,permissionhearsayomitted. Bomiguna/goodgoodbye/sarainne/no-time/jangcaseol existing;singlecharacter Kimg oeunsuji and now? held."
+    },
+    "A133": {
+      "observations": 8,
+      "recommendations": 0,
+      "held": 8,
+      "external_pages_read": 2,
+      "media_viewed": 0,
+      "queries": [
+        "\"미야\" \"밈\" \"고양이\" -site:namu.moe -site:seore.org",
+        "\"맛나핑\" \"패러디\" -site:namu.moe",
+        "\"박씨 꺼져\" -site:namu.moe -site:seore.org",
+        "\"밤 샌 사람\" \"일찍\" 패러디",
+        "\"벽부수기\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"북방코끼리바다표범\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"사이버펑크\" \"버그\" \"패러디\"",
+        "\"삼일절 사이버 전쟁\" \"패러디\" -site:namu.moe",
+        "\"맛나핑\"",
+        "\"미야\" \"밈\" \"원본\"",
+        "\"벽부수기\" 패러디 영상",
+        "\"사이버펑크\" \"현실\" \"패러디\"",
+        "\"북방코끼리바다표범\" \"즈둔\" -site:namu.moe -site:seore.org -site:bricksmith.kr",
+        "\"맛나핑\" \"백종원\" -site:namu.moe -site:seore.org",
+        "\"박씨꺼져\" -site:namu.moe -site:seore.org"
+      ],
+      "note": "0509/0516/0522/0526/0540/0555/0599/0609 held. Theqoo only title/attachments, not image meaning. Bricksmith source-less genealogy/dateunknown excluded. No attack-method research."
+    }
+  },
+  "sources": [
+    {
+      "id": "beagle-mi-playful-charm",
+      "urls": [
+        "https://m.news.nate.com/view/20151117n25859",
+        "https://www3.osen.co.kr/video"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "meongmung-mi-puppy-like-charm",
+      "urls": [
+        "https://www.tenasia.co.kr/article/2026102038404",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/522771"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gamseong-moreuneun-aedeureun-gara",
+      "urls": [
+        "https://mobile.newsis.com/view/NISX20240118_0002597288",
+        "https://www.incross.com/ko/insight/report.asp?idx=2124&mode=view&page=11&pageSize=12&searchStr=&serboardsort=9"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "cool-guy-guan-yu-panel-edit",
+      "urls": [
+        "https://gall.dcinside.com/board/view/?id=study_listN&no=157"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sogogi-samukgetji-catchphrase",
+      "urls": [
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02230406599757864",
+        "https://enews.imbc.com/M/Detail/205466"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "inner-thought-interpreter-parody",
+      "urls": [
+        "https://enews.imbc.com/M/Detail/205466"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pposiraegi-affectionate-nickname",
+      "urls": [
+        "https://bravo.etoday.co.kr/view/atc_view/20139",
+        "https://www.sportsseoul.com/news/read/1598880"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "scene-stealer-supporting-presence",
+      "urls": [
+        "https://www.korean.go.kr/front/imprv/refineView.do?imprv_refine_seq=6911&mn_id=158",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/523254"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bonkae-bukae-character-roles",
+      "urls": [
+        "https://www.swcf.or.kr/webzine/_001/kor/?bbsCate=32&idx=20397&mode=view&rIdx=0&webPage=6",
+        "https://enews.imbc.com/News/ViewAmp/519038"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "blindfold-baek-jong-won-photo-parody",
+      "urls": [
+        "https://news.nate.com/view/20241018n05438"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Ten bounded entries: five recent textual usages, five historical; original media0.",
+    "Domestic adaptation, editorial use, explanatory sources and source dependence distinguished. 0242partial only. All old bodies and approved tests preserved.",
+    "Screening groups overlap and must not be represented as distinct memes."
+  ],
+  "query_observations": 13106,
+  "distinct_literal_queries": 10749,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
