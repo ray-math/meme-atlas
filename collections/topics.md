@@ -730,6 +730,7 @@
 - [홈마](../memes/homma.md)
 - [홈캉스](../memes/homecance.md)
 - [홈트](../memes/home-training.md)
+- [활어회 물회 원샷](../memes/raw-fish-one-shot-parody.md)
 - [홧김비용](../memes/hwatgim-cost.md)
 - [후드잡샷](../memes/hood-grab-shot.md)
 - [후메잌디스](../memes/who-made-this.md)

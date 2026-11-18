@@ -991,6 +991,7 @@
 - [홈마](homma.md)
 - [홈캉스](homecance.md)
 - [홈트](home-training.md)
+- [활어회 물회 원샷](raw-fish-one-shot-parody.md)
 - [홧김비용](hwatgim-cost.md)
 - [회사 밖은 지옥](outside-the-company-is-hell.md)
 - [후드잡샷](hood-grab-shot.md)

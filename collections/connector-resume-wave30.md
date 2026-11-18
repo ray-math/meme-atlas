@@ -207,3 +207,4 @@
 - [인제 신남](../memes/inje-sinnam-sign.md)
 - [약속의 2시](../memes/promised-two-oclock.md)
 - [흑우 드립](../memes/black-cow-taunt.md)
+- [활어회 물회 원샷](../memes/raw-fish-one-shot-parody.md)
