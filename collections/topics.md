@@ -332,6 +332,7 @@
 - [문과 vs 이과](../memes/humanities-vs-science.md)
 - [문송합니다](../memes/sorry-humanities.md)
 - [문찐](../memes/munjjin.md)
+- [물음표 살인마](../memes/question-barrage-nickname.md)
 - [뭥미](../memes/mwongmi.md)
 - [미쳤습니까 휴먼?](../memes/are-you-crazy-human.md)
 - [미친(positive)](../memes/positive-negative-markers.md)
