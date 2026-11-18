@@ -194,3 +194,5 @@
 - [몰?루](../memes/molru-text-reaction.md)
 - [을용타](../memes/eulyongta-parody.md)
 - [궁전으로 갈 수도 있어](../memes/go-to-palace-reaction.md)
+- [I am 신뢰에요](../memes/i-am-korean-mixed-template.md)
+- [테크놀로지아](../memes/technologia-reaction.md)

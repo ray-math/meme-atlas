@@ -235,10 +235,11 @@
     "reports/bulk/connector-resume-wave30-406.json",
     "reports/bulk/connector-resume-wave30-407.json",
     "reports/bulk/connector-resume-wave30-408.json",
-    "reports/bulk/connector-resume-wave30-409.json"
+    "reports/bulk/connector-resume-wave30-409.json",
+    "reports/bulk/connector-resume-wave30-411.json"
   ],
-  "query_observations": 5495,
-  "distinct_literal_queries": 4767,
+  "query_observations": 5503,
+  "distinct_literal_queries": 4775,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -27915,6 +27916,46 @@
     {
       "query": "\"궁전으로 갈 수도\" site:theqoo.net \"2026\"",
       "source": "reports/bulk/connector-resume-wave30-409.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"차원달라병\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-411.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"테크놀로지아\" \"2026\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-411.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"HMH\" \"GMG\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-411.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"테크놀로지아\" site:kccworld.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-411.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"테크놀로지아\" \"2026\" -site:ranktube.co.kr -site:allsnsrank.com -site:op.gg",
+      "source": "reports/bulk/connector-resume-wave30-411.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"차원달라병\" \"2026\" -site:issuelink.co.kr -site:waglenet.com",
+      "source": "reports/bulk/connector-resume-wave30-411.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"테크놀로지아\" \"밈\" \"공식\"",
+      "source": "reports/bulk/connector-resume-wave30-411.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"차원달라병\" \"2026\" \"제목\"",
+      "source": "reports/bulk/connector-resume-wave30-411.json",
       "status": "screened-see-report"
     }
   ],

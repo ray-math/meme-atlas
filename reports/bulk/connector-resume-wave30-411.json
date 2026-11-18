@@ -1,0 +1,81 @@
+{
+  "batch": 411,
+  "base": "0768cbb7a5bb22d49d5c1ade6455090370fee2d9",
+  "canonical_before": 992,
+  "canonical_after": 994,
+  "added": [
+    "i-am-korean-mixed-template",
+    "technologia-reaction"
+  ],
+  "researchA": {
+    "queries": [
+      "\"차원달라병\" \"2026\"",
+      "\"테크놀로지아\" \"2026\" 챌린지",
+      "\"HMH\" \"GMG\" 밈 2026",
+      "\"테크놀로지아\" site:kccworld.co.kr",
+      "\"테크놀로지아\" \"2026\" -site:ranktube.co.kr -site:allsnsrank.com -site:op.gg",
+      "\"차원달라병\" \"2026\" -site:issuelink.co.kr -site:waglenet.com",
+      "\"테크놀로지아\" \"밈\" \"공식\"",
+      "\"차원달라병\" \"2026\" \"제목\""
+    ],
+    "candidate": {
+      "title": "테크놀로지아",
+      "sources": [
+        "https://www.wikitree.co.kr/articles/1110016",
+        "https://magazine.hankyung.com/business/amp/202604023498b"
+      ],
+      "note": "로봇제목1+칼럼제목1;정치경제주장채택안함;HF설명보조원영상0"
+    },
+    "held": {
+      "title": "차원달라병",
+      "url": "https://news.nate.com/view/20260504n18354",
+      "note": "칼럼자기사용1+HF설명,독립2군없음"
+    },
+    "duplicate": "hmh-gmg",
+    "excluded": "EBS30004749720 rewritten summary"
+  },
+  "audits": {
+    "i_am": {
+      "passed": true,
+      "index": 992,
+      "related_bodies": [
+        "i-am-groot",
+        "inner-gigachad-dialogue",
+        "evenly"
+      ],
+      "source_reads": 2,
+      "scope": "2023보도별개적용,원홍보/방송0최근0,매체취재독립불명"
+    },
+    "technologia": {
+      "passed": true,
+      "source_reads": 2,
+      "related_body_reads": 1,
+      "application_groups": 2,
+      "videos_images": 0
+    }
+  },
+  "candidate_changes": [
+    {
+      "id": "kr-list-0103",
+      "from": "index_not_found",
+      "to": "partial"
+    },
+    {
+      "id": "kr-list-1038",
+      "from": "unclear",
+      "to": "included"
+    }
+  ],
+  "ci": {
+    "body992": {
+      "run": 44254364634,
+      "job": 134632373181,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 76.672,
+      "success": true
+    },
+    "report410": "in_progress",
+    "new_commit": "pending"
+  }
+}
