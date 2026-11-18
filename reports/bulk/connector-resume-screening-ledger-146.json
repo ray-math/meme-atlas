@@ -196,10 +196,11 @@
     "reports/bulk/connector-resume-wave30-364.json",
     "reports/bulk/connector-resume-wave30-365.json",
     "reports/bulk/connector-resume-wave30-367.json",
-    "reports/bulk/connector-resume-wave30-368.json"
+    "reports/bulk/connector-resume-wave30-368.json",
+    "reports/bulk/connector-resume-wave30-369.json"
   ],
-  "query_observations": 4662,
-  "distinct_literal_queries": 3993,
+  "query_observations": 4697,
+  "distinct_literal_queries": 4028,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -23711,6 +23712,181 @@
     {
       "query": "소문의|낙원|악뮤|akmu",
       "source": "reports/bulk/connector-resume-wave30-368.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"2026\" \"패러디\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꾸대표의 문단속\"",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"별의 문단속\"",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"패러디\" \"2025\" -site:namu.moe -site:namu.wiki -스즈메의문단속",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"별의 문단속\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"제목을 패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스드메의 문단속\" 국세청",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"별의 문단속\" \"스즈메\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"패러디\" \"2026\" 국세청 -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꾸대표의 문단속\" site:youtube.com",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"별의 문단속\" \"2026\" site:youtube.com",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "젠더|성별",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "제네시스",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "존나좋군|좋군|좋다",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "죽습니다|죽겠",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "직구|해외.?구매",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "진순|진라면",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "찌질",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "천상천하|유아독존",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "초난강|쿠사나기",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노인전|노인",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "케경호|케인",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "코리안.?조커|조커",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "콩|홍진호",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "콩진호|홍진호",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쿄레기|쿄",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "클로저스|성우",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "킹 오브 프리즘|프리즘",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "테크놀로지아|technology",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "택배|배송",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "파피|허기.?워기",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"소방\" \"제목\"",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"국세청\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄\" \"밈\" \"마인카세\"",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하이닉스느님\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-369.json",
       "status": "screened-see-report"
     }
   ],
