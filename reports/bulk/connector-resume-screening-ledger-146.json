@@ -197,10 +197,11 @@
     "reports/bulk/connector-resume-wave30-365.json",
     "reports/bulk/connector-resume-wave30-367.json",
     "reports/bulk/connector-resume-wave30-368.json",
-    "reports/bulk/connector-resume-wave30-369.json"
+    "reports/bulk/connector-resume-wave30-369.json",
+    "reports/bulk/connector-resume-wave30-370.json"
   ],
-  "query_observations": 4697,
-  "distinct_literal_queries": 4028,
+  "query_observations": 4731,
+  "distinct_literal_queries": 4059,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -23887,6 +23888,176 @@
     {
       "query": "\"하이닉스느님\" 패러디",
       "source": "reports/bulk/connector-resume-wave30-369.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이번 엄은 다르다\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이번 엄은\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄은 다르다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이번 엄은 다르다\" \"톤핏선\"",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄 (이번 엄은 상해에 갔다)\"",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄.\" \"이번 엄은 다르다\" \"자두\"",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이번 엄은 다르다\" -site:namu.moe -site:namu.wiki -site:incross.com -site:stibee.com -site:sotwe.com -site:twstalker.com -site:dadumm.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이번 엄은 다르다\" site:x.com/tonefitsun",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "엄은",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "엄준식",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이번.{0,6}다르",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고수와 하수\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"귀여운 건 나도 알아\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꽁기깅깅깅공강강\"",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트 댄서\" \"2026\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"네가 하면 나도 한다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"귀여운 건 나도 알아\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꽁기깅\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트 댄서\" \"챌린지\" 정국",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"귀여운건 나도 알아\"",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꽁기깅\" \"춤\"",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"네가 하면 나도 한다\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나이트댄서\" 챌린지 문세윤",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "패드립|부모|엄마",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "평온차|평온",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포켓몬|띠부|빵",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "프라이데이|펑킨|펑키|friday",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하츄핑|티니핑",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "해명이|해명",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "허경영|공중부양",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "황시",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "후타나리|양성|성별",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "힙통령|장문복|췍",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "엄은|엄준식|이번.{0,6}다르",
+      "source": "reports/bulk/connector-resume-wave30-370.json",
       "status": "screened-see-report"
     }
   ],
