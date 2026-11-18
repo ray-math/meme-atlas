@@ -208,10 +208,11 @@
     "reports/bulk/connector-resume-wave30-377.json",
     "reports/bulk/connector-resume-wave30-378.json",
     "reports/bulk/connector-resume-wave30-379.json",
-    "reports/bulk/connector-resume-wave30-380.json"
+    "reports/bulk/connector-resume-wave30-380.json",
+    "reports/bulk/connector-resume-wave30-381.json"
   ],
-  "query_observations": 5048,
-  "distinct_literal_queries": 4338,
+  "query_observations": 5059,
+  "distinct_literal_queries": 4348,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -25653,6 +25654,61 @@
     {
       "query": "It’s Me",
       "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:brunch.co.kr \"제목\"",
+      "source": "reports/bulk/connector-resume-wave30-381.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:yes24.com \"출판사\"",
+      "source": "reports/bulk/connector-resume-wave30-381.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:magazine.hankyung.com \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-381.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"직접 만들\" -site:instablank.com -site:namu.moe -site:namu.wiki -site:youtube.com",
+      "source": "reports/bulk/connector-resume-wave30-381.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"졸업\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-381.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"강풍 올백\" \"2026\" \"만들었\"",
+      "source": "reports/bulk/connector-resume-wave30-381.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"강풍올백\" \"2026\" \"패러디\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-381.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"강풍 올백\" \"2026\" site:blog.naver.com",
+      "source": "reports/bulk/connector-resume-wave30-381.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"강풍올백\" \"2026\" \"그렸다\"",
+      "source": "reports/bulk/connector-resume-wave30-381.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"강풍 올백\" \"2026\" \"축제\"",
+      "source": "reports/bulk/connector-resume-wave30-381.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"강풍올백\" \"2026\" \"제작\" -site:namu.moe -site:youtube-rank.com",
+      "source": "reports/bulk/connector-resume-wave30-381.json",
       "status": "screened-see-report"
     }
   ],
