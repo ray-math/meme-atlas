@@ -154,10 +154,11 @@
     "reports/bulk/connector-resume-wave30-322.json",
     "reports/bulk/connector-resume-wave30-323.json",
     "reports/bulk/connector-resume-wave30-324.json",
-    "reports/bulk/connector-resume-wave30-325.json"
+    "reports/bulk/connector-resume-wave30-325.json",
+    "reports/bulk/connector-resume-wave30-326.json"
   ],
-  "query_observations": 3290,
-  "distinct_literal_queries": 2770,
+  "query_observations": 3298,
+  "distinct_literal_queries": 2776,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -16809,6 +16810,46 @@
     {
       "query": "대환장",
       "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"11월\" \"밈\" 신조어",
+      "source": "reports/bulk/connector-resume-wave30-326.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"10월\" \"밈\" 유행어",
+      "source": "reports/bulk/connector-resume-wave30-326.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"전여친 감자칼\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-326.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"과학자들이\" \"Hi\" 밈 -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-326.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라밤바 아빠\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-326.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감자칼",
+      "source": "reports/bulk/connector-resume-wave30-326.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "과학자",
+      "source": "reports/bulk/connector-resume-wave30-326.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라밤바",
+      "source": "reports/bulk/connector-resume-wave30-326.json",
       "status": "screened-see-report"
     }
   ],
