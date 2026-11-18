@@ -1,0 +1,39 @@
+{
+  "batch": 240,
+  "canonical_before": 908,
+  "canonical_after": 908,
+  "reinforced": [
+    "under-arrest"
+  ],
+  "queries": [
+    "2026 \"밈\" \"뉴스레터\" \"11월\"",
+    "2026 \"밈\" \"공식 계정\" \"패러디\"",
+    "\"취뽀하겠어\" 2026",
+    "\"밈\" \"2026\" \"도서관\" -site:namu.wiki -site:namu.moe"
+  ],
+  "index_queries": [
+    "이모지",
+    "54000",
+    "체포",
+    "취뽀",
+    "스카프",
+    "얼데이",
+    "자격",
+    "참 좋"
+  ],
+  "status": "under-arrest reinforcement, not new canonical",
+  "sources": [
+    "https://busanjob.net/view.do?idx=39602&no=1068&pgMode=show",
+    "https://www.korea.kr/multi/visualNewsView.do?newsId=148975093",
+    "https://maily.so/trendaword/posts/8do7pk1yogq"
+  ],
+  "direct_institutional_text_uses": 2,
+  "explanation_source": 1,
+  "original_videos_confirmed": 0,
+  "scope": "Origin section only; same song/phrase family, not new canonical. No policy eligibility or event participation recommendation. Existing index summary remains video-form summary.",
+  "metrics": {
+    "query_observations": 1412,
+    "distinct_literal_queries": 1139
+  },
+  "ci": "not run"
+}
