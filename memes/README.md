@@ -829,6 +829,7 @@
 - [탭탭이](tiny-hand-tapping.md)
 - [텅장](empty-bankbook.md)
 - [테스형](tes-brother.md)
+- [테토·에겐](teto-egen-types.md)
 - [텐미닛 챌린지](ten-minutes-challenge.md)
 - [텔미 춤 따라하기](tell-me-dance.md)
 - [토카토카 댄스](toca-toca-dance.md)

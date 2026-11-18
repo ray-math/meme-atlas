@@ -599,6 +599,7 @@
 - [탕진잼](../memes/tangjinjaem.md)
 - [탭탭이](../memes/tiny-hand-tapping.md)
 - [텅장](../memes/empty-bankbook.md)
+- [테토·에겐](../memes/teto-egen-types.md)
 - [텐미닛 챌린지](../memes/ten-minutes-challenge.md)
 - [토카토카 댄스](../memes/toca-toca-dance.md)
 - [트롤](../memes/troll-play.md)

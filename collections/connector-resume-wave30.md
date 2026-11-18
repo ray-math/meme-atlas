@@ -105,3 +105,4 @@
 - [아웅다웅 챌린지](../memes/aung-daung-challenge.md)
 - [WYA 챌린지](../memes/where-you-at-challenge.md)
 - [치킨바나나 챌린지](../memes/chicken-banana-challenge.md)
+- [테토·에겐](../memes/teto-egen-types.md)

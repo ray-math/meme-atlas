@@ -1,0 +1,48 @@
+{
+  "batch": 298,
+  "base": "e7fa750fa1c0f515982c9a88ad797e0ec55622ab",
+  "canonical_before": 931,
+  "canonical_after": 932,
+  "added": [
+    "teto-egen-types"
+  ],
+  "candidate_mapping": {
+    "kr-list-1039": {
+      "canonical": "teto-egen-types",
+      "scope": "유형분류 말놀이 한정; 테스트와 궁합 및 파생 전체 포괄 아님"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://sugifun.com/ko/egen-teto-test",
+      "modified": "2026-10-06",
+      "type": "actual entertainment-test application"
+    },
+    {
+      "url": "https://www.kaehaelab.com/tests/teto-egen-lab",
+      "date": null,
+      "type": "separate test application"
+    },
+    {
+      "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10010324611",
+      "published": "2026-11-12",
+      "type": "reported press-conference usage"
+    }
+  ],
+  "audit": "independent reader checked all sources and existing are-you-t/show-off-our-kid boundaries; passed",
+  "limits": "공개텍스트3개 열람, 테스트실행0, 영상0. 운영주체 완전독립 미검증. 의학/과학/궁합 실험으로 보지 않음.",
+  "prior_ci": {
+    "sha": "e7fa750fa1c0f515982c9a88ad797e0ec55622ab",
+    "run": 44226057680,
+    "tests": 495,
+    "seconds": 49.109,
+    "steps": 65,
+    "result": "success"
+  },
+  "ci": "new commit pending",
+  "metrics": {
+    "query_observations": 2621,
+    "distinct_literal_queries": 2132
+  },
+  "followup_correction": "Caveduck 2025-01-13 report date not revalidated: editor sees0000-00-00 placeholder; treat dateunknown pending recheck."
+}
