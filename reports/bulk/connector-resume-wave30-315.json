@@ -1,0 +1,49 @@
+{
+  "batch": 315,
+  "base": "41eb43155f5ef9462723a2fc3aba67f87538d6cb",
+  "canonical_before": 949,
+  "canonical_after": 949,
+  "added": [],
+  "scope_recovery": {
+    "rows": [
+      {
+        "id": "0161",
+        "source": "https://whitefaceone.tistory.com/2442",
+        "reason": "반야심경리믹스 몬더그린댓글형식설명1. 기원/원댓글미검증,미발행"
+      },
+      {
+        "id": "0276",
+        "source": "https://whitefaceone.tistory.com/2480",
+        "reason": "레지스틸+Gunga Ginga음성합성형식설명1. 영상/독립제작미검증,미발행"
+      },
+      {
+        "id": "0396",
+        "source": "https://dr-rwynne.tistory.com/77",
+        "reason": "쇼미11그린랩/손짓재현형식설명및SNL1소개. 독립제작2미확보,인물전체아님"
+      }
+    ],
+    "index_queries": [
+      "가재 가재",
+      "반야심경",
+      "꽁기깅",
+      "레지스틸",
+      "동그란 맘",
+      "동그란맘"
+    ],
+    "editor_source_read": 3,
+    "classification_change": "unclear to index_not_found only, not promoted"
+  },
+  "coverage_counts": {
+    "index_not_found": 329,
+    "partial": 37,
+    "unclear": 342,
+    "automatic_title_alias_match": 328,
+    "included": 51,
+    "candidate_repeat": 4
+  },
+  "metrics": {
+    "observations": 3052,
+    "distinct": 2543
+  },
+  "limits": "Prior worker proposals verified by editor read. 3scopeclarifications not3newmemes. Source snapshot staysunchanged."
+}

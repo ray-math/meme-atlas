@@ -146,10 +146,11 @@
     "reports/bulk/connector-resume-wave30-310.json",
     "reports/bulk/connector-resume-wave30-312.json",
     "reports/bulk/connector-resume-wave30-313.json",
-    "reports/bulk/connector-resume-wave30-314.json"
+    "reports/bulk/connector-resume-wave30-314.json",
+    "reports/bulk/connector-resume-wave30-315.json"
   ],
-  "query_observations": 3046,
-  "distinct_literal_queries": 2539,
+  "query_observations": 3052,
+  "distinct_literal_queries": 2543,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -15581,6 +15582,36 @@
     {
       "query": "\"아니 없어요 그냥\" 패러디 -site:namu.moe -site:seore.org",
       "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가재 가재",
+      "source": "reports/bulk/connector-resume-wave30-315.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "반야심경",
+      "source": "reports/bulk/connector-resume-wave30-315.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꽁기깅",
+      "source": "reports/bulk/connector-resume-wave30-315.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "레지스틸",
+      "source": "reports/bulk/connector-resume-wave30-315.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "동그란 맘",
+      "source": "reports/bulk/connector-resume-wave30-315.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "동그란맘",
+      "source": "reports/bulk/connector-resume-wave30-315.json",
       "status": "screened-see-report"
     }
   ],
