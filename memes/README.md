@@ -39,6 +39,7 @@
 - [ㅇㄱㄹㅇ](igeo-real.md)
 - [ㅋㅋ](kk-text-laughter.md)
 - [ㅋㅋ루삥뽕](keke-rupingpong.md)
+- [가난하게 컸어?](did-you-grow-up-poor.md)
 - [가로본능](horizontal-instinct.md)
 - [가보자고](gabojago.md)
 - [가슴에 국밥 쏟음](gukbap-in-heart.md)

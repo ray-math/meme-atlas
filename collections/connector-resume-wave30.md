@@ -78,3 +78,4 @@
 - [○○는 완전히 멘탈이 나가버렸습니다](../memes/completely-lost-their-minds.md)
 - [인간 여짜](../memes/human-yeojja.md)
 - [멜라토닌 먹고 꾸는 꿈 같다](../memes/melatonin-dream.md)
+- [가난하게 컸어?](../memes/did-you-grow-up-poor.md)
