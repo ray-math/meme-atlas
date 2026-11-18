@@ -1,0 +1,64 @@
+{
+  "batch": 286,
+  "canonical_before": 926,
+  "canonical_after": 926,
+  "added": [],
+  "research": {
+    "queries": [
+      "2026 2월 밈 site:esquirekorea.co.kr",
+      "2026 3월 밈 site:allurekorea.com",
+      "2026 1월 유행 챌린지 site:marieclairekorea.com",
+      "\"니가 좋아\" \"챌린지\" \"2026\"",
+      "\"최성곤\" \"패러디\" -류승룡",
+      "\"충칭\" \"오토바이\" \"챌린지\"",
+      "\"충칭 오토바이\" -site:onmeme.com -site:esquirekorea.co.kr -site:prd.esquirekorea.co.kr"
+    ],
+    "index_queries": [
+      "충칭",
+      "오토바이",
+      "중경",
+      "바이크",
+      "니가 좋아",
+      "최성곤",
+      "리듬 게임",
+      "와일드",
+      "정투",
+      "쩨이크",
+      "성훈장님",
+      "악우",
+      "내키",
+      "구황작물",
+      "열쇠도사",
+      "say"
+    ],
+    "note": "Worker described14 strings but explicit list is16; use literal list only not14 tally. Existing niga-joa-challenge and word-on-beat, incidental say-it-politely-template not semantic match. Chongqing held pendingsecond reliable domestic production. Fanplus translated unofficial notoriginal. No canonical additions.",
+    "sources": [
+      "https://prd.esquirekorea.co.kr/article/1900031",
+      "https://maily.so/trendaword/posts/e9o08v6lz8w",
+      "https://fanplus.co.kr/en-US/community/nct/130425122",
+      "https://www.incross.com/ko/insight/report.asp?idx=10748&mode=view",
+      "https://www.marieclairekorea.com/celebrity/2026/11/two-men-one-frame/",
+      "https://www.marieclairekorea.com/newnew/2026/01/new-year-newkey/"
+    ]
+  },
+  "audit": {
+    "id": "hood-grab-shot",
+    "sha": "164a914ccfc09e13978403254f48598630abac95",
+    "result": "pass-no-required-changes",
+    "scope": "body/index/README/manualcollection + 2direct sourcepages; report285/full diff/CI not independently audited",
+    "videos_directly_watched": 0
+  },
+  "tree_check": {
+    "truncated": false,
+    "bodies": 926,
+    "index": 926,
+    "missing": 0,
+    "extra": 0,
+    "sha": "164a914ccfc09e13978403254f48598630abac95"
+  },
+  "metrics": {
+    "query_observations": 2460,
+    "distinct_literal_queries": 1995
+  },
+  "ci": "not run"
+}

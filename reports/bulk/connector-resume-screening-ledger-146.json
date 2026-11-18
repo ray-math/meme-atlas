@@ -125,10 +125,11 @@
     "reports/bulk/connector-resume-wave30-282.json",
     "reports/bulk/connector-resume-wave30-283.json",
     "reports/bulk/connector-resume-wave30-284.json",
-    "reports/bulk/connector-resume-wave30-285.json"
+    "reports/bulk/connector-resume-wave30-285.json",
+    "reports/bulk/connector-resume-wave30-286.json"
   ],
-  "query_observations": 2437,
-  "distinct_literal_queries": 1975,
+  "query_observations": 2460,
+  "distinct_literal_queries": 1995,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -12515,6 +12516,121 @@
     {
       "query": "not cute",
       "source": "reports/bulk/connector-resume-wave30-285.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 2월 밈 site:esquirekorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 3월 밈 site:allurekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 1월 유행 챌린지 site:marieclairekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"니가 좋아\" \"챌린지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"최성곤\" \"패러디\" -류승룡",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"충칭\" \"오토바이\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"충칭 오토바이\" -site:onmeme.com -site:esquirekorea.co.kr -site:prd.esquirekorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "충칭",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오토바이",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "중경",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바이크",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "니가 좋아",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "최성곤",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "리듬 게임",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와일드",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "정투",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쩨이크",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "성훈장님",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "악우",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "내키",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "구황작물",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "열쇠도사",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "say",
+      "source": "reports/bulk/connector-resume-wave30-286.json",
       "status": "screened-see-report"
     }
   ],
