@@ -246,10 +246,11 @@
     "reports/bulk/connector-resume-wave30-418.json",
     "reports/bulk/connector-resume-wave30-420.json",
     "reports/bulk/connector-resume-wave30-421.json",
-    "reports/bulk/connector-resume-wave30-422.json"
+    "reports/bulk/connector-resume-wave30-422.json",
+    "reports/bulk/connector-resume-wave30-423.json"
   ],
-  "query_observations": 5690,
-  "distinct_literal_queries": 4956,
+  "query_observations": 5712,
+  "distinct_literal_queries": 4977,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -28901,6 +28902,116 @@
     {
       "query": "\"무슨 마약하시길래\" 후기 -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:publy.co",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:design.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:eyesmag.com",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:hypebeast.kr",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행어\" site:pdjournal.com",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:mediaus.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:news.kbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행\" site:hani.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"냥캣\" \"고양시\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"냥캣\" \"2026\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인제 신남\" \"2026\" 인증",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍질\" \"미리 깐\" \"즐겁다\" 티셔츠",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무지성\" \"2026\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밤 샌 사람\" \"일찍 일어난 사람\"",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아시발꿈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄마도 사람이야\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"대한민국 완전히 망했네요\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄마도 사람이야 사람\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아시발꿈\" 후기 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밤샌 사람\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무지성 반복\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아시발꿈\" \"2026\" -site:kone.gg -site:namu.moe -site:gall.dcinside.com",
+      "source": "reports/bulk/connector-resume-wave30-423.json",
       "status": "screened-see-report"
     }
   ],
