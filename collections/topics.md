@@ -1010,6 +1010,7 @@
 - [소 잃고 뇌 약간 고치기](../memes/fix-brain-a-little.md)
 - [스톰 챌린지](../memes/storm-ii-challenge.md)
 - [식스 세븐](../memes/six-seven.md)
+- [언니가 불편해? 언니가 잘할게](../memes/unnie-will-do-better.md)
 - [우승 기념 주식 바겐세일](../memes/championship-stock-sale.md)
 - [이지까까](../memes/easy-kkakka.md)
 - [인간 여짜](../memes/human-yeojja.md)

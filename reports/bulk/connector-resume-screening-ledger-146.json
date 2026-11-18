@@ -97,10 +97,11 @@
     "reports/bulk/connector-resume-wave30-252.json",
     "reports/bulk/connector-resume-wave30-253.json",
     "reports/bulk/connector-resume-wave30-254.json",
-    "reports/bulk/connector-resume-wave30-255.json"
+    "reports/bulk/connector-resume-wave30-255.json",
+    "reports/bulk/connector-resume-wave30-256.json"
   ],
-  "query_observations": 1715,
-  "distinct_literal_queries": 1393,
+  "query_observations": 1738,
+  "distinct_literal_queries": 1414,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -8877,6 +8878,121 @@
     {
       "query": "김 부장",
       "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:bugs.co.kr/musicpd",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:genie.co.kr \"매거진\" -mim",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:newsroom.kakao.com",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" site:genie.co.kr/magazine/subMain \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" site:magazine.weverse.io \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밈\" site:postype.com \"2026\" \"유행\"",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"천사 이미지\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그렇게 안 봤는데\" \"무서운 회사\" -site:genie.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언니가 불편해\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언니가 불편해\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언니가 잘할게\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언니가 불편해\" 유래",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언니가불편해\"",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언니가 어려워\" \"언니가 싫어\"",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언니가 잘할게\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언니가 불편해\" \"2023\"",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언니가 잘할게\" 밈 유래",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "언니가",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "잘할게",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "천사이미지",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "심포니",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가정용",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "불편해",
+      "source": "reports/bulk/connector-resume-wave30-256.json",
       "status": "screened-see-report"
     }
   ],
