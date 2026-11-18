@@ -1,0 +1,46 @@
+{
+  "worker_queries": [
+    "\"2026\" \"밈에서\" \"영감\"",
+    "\"2026\" \"유행어를\" \"제목\"",
+    "\"2026\" \"밈을 패러디\" \"브랜드\"",
+    "\"2026\" \"밈\" \"차용했다\"",
+    "\"2026\" \"밈\" \"인용해\"",
+    "\"2026\" \"밈\" \"패러디한 제목\"",
+    "\"2026\" \"밈\" \"따서\" \"제목\"",
+    "\"2026\" \"유행어\" \"패러디\" \"간판\"",
+    "\"2026\" \"밈\" \"졸업전시\"",
+    "\"가난하게 컸어\" \"패러디\" -site:instablank.com -site:namu.moe",
+    "\"가난하게 컸어\" \"2026\" -site:instablank.com -site:namu.moe",
+    "\"델룰루\" \"패러디\" \"2026\""
+  ],
+  "index_queries": [
+    "가난하게",
+    "잘참아서",
+    "작은아씨들",
+    "연기",
+    "몇살",
+    "델룰루",
+    "젠지스테어",
+    "영원할",
+    "내가아이돌",
+    "딸깍",
+    "하룰라라",
+    "갈테야"
+  ],
+  "editor_queries": [
+    "\"전액 현금으로\" \"붕어빵\" 2026 -site:jjalbang.today",
+    "\"전액 현금으로\" \"타코야끼\" 2026 -site:luckyvicky.moamoang.co.kr"
+  ],
+  "decision": "가난하게 컸어: candidate evidence exists but not yet accepted as a separate canonical; same-line-acting overlap and class-insult context need scoped decision",
+  "sources": [
+    "https://v.daum.net/v/20260905004008212",
+    "https://v.daum.net/v/20260918140109069",
+    "https://www.newsen.com/news_view.php?code=100100&uid=202608300557521710"
+  ],
+  "existing": "전액현금으로매입 = all-cash-small-purchase; no new canonical",
+  "base": "3f94bce3ce13b4340f334ef8ff134cda257d1507",
+  "canonical_count": 904,
+  "new_canonical": 0,
+  "editor_status": "Read existing same-line body and two column/review originals. Exact dialogue is not currently an alias/body phrase; acting format overlaps, critical literary quotation is a potentially distinct scope. Keep pending scoped editorial review, not marked duplicate or verified canonical.",
+  "ci": "not run"
+}
