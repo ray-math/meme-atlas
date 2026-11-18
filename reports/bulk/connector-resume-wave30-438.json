@@ -1,0 +1,92 @@
+{
+  "batch": 438,
+  "base": "e7e76d7820f9a5af40bfe19acadc954d3f632304",
+  "canonical_before": 1008,
+  "canonical_after": 1008,
+  "added": [],
+  "researchB": {
+    "queries": [
+      "\"애는 있습니다\" 밈 2026",
+      "\"오빠 나 몰라\" 밈 2026",
+      "\"의학적인 근거가 없습니다\" \"2026\"",
+      "\"약한 사내다\" \"2026\"",
+      "\"애는 있습니다\" 패러디",
+      "\"약한 사내다\" -site:namu.moe",
+      "\"심리적인 안정은\" \"2026\"",
+      "\"이제 그만\" 밈 \"2026\""
+    ],
+    "held": [
+      {
+        "id": "0727",
+        "note": "일반가족관계와구분불가"
+      },
+      {
+        "id": "0736",
+        "url": "https://www.seoul.co.kr/news/newsView.php?id=20190624500120",
+        "note": "2019-06-24원작말캐릭터장면보도1,최근독립적용아님. 두문구전체검증아님"
+      },
+      {
+        "id": "0778",
+        "url": "https://www.imbc.com/broad/enews/view.html?idx=79494",
+        "note": "빈틀7행검색설명본문확인아님. 본인근황/옛유행어소개뿐"
+      },
+      {
+        "id": "0831",
+        "note": "의료일반설명혼재밈원문없음"
+      },
+      {
+        "id": "0863",
+        "url": "https://patpat.co.kr/free/49235?sca=2",
+        "note": "검색08-27더위일반발언,직접404제외"
+      }
+    ],
+    "index_ref": "3b99cb37f0690b9bae60167cc94d77eeff120a24",
+    "recommended": 0
+  },
+  "researchC": {
+    "queries": [
+      "\"너무 고마우시다 진짜\" 밈",
+      "\"엽떡에서 안영미\" 썰",
+      "\"너무 고마우시다\" \"2026\"",
+      "\"너무 고마우시다 진짜\" -site:onmeme.com -site:incross.com -site:imgtag.co.kr -site:humorpick.com",
+      "\"허공대화함\" \"2026\" -site:onmeme.com",
+      "\"너무 고마우시다\" site:theqoo.net",
+      "\"너무 고마우시다\" site:x.com"
+    ],
+    "status": "held",
+    "sources": [
+      {
+        "url": "https://incross.com/ko/insight/report.asp?idx=10989&mode=view&page=2&pageSize=12&searchStr=&serboardsort=9",
+        "note": "2026-07-15 설명원문접근회복. 이름장소치환사례보도1군,원게시물아님"
+      },
+      {
+        "url": "https://x.com/kimohoon/status/2075231149434282486?s=20",
+        "note": "403. 중계링크도403"
+      },
+      {
+        "url": "https://read365.kr/book_certi_write/10936",
+        "note": "2026-08-12일반감사,목격담치환없음"
+      },
+      {
+        "url": "https://theqoo.net/jaehee/4151634617",
+        "note": "2026-04-04브랜드감사일반반응. 템플릿불명"
+      }
+    ],
+    "direct_template_originals": 0,
+    "explanatory_sources": 1,
+    "generic_direct_uses": 2,
+    "media_viewed": 0,
+    "note": "실제만남/당사자발언단정금지. 미러및AI사전제외"
+  },
+  "candidate_changes": [],
+  "ci1008": {
+    "sha": "3b99cb37f0690b9bae60167cc94d77eeff120a24",
+    "run": 44262789544,
+    "job": 134659950021,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "78.718"
+  },
+  "ci_new_commit": "pending"
+}

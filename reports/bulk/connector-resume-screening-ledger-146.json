@@ -259,10 +259,11 @@
     "reports/bulk/connector-resume-wave30-434.json",
     "reports/bulk/connector-resume-wave30-435.json",
     "reports/bulk/connector-resume-wave30-436.json",
-    "reports/bulk/connector-resume-wave30-437.json"
+    "reports/bulk/connector-resume-wave30-437.json",
+    "reports/bulk/connector-resume-wave30-438.json"
   ],
-  "query_observations": 5944,
-  "distinct_literal_queries": 5193,
+  "query_observations": 5959,
+  "distinct_literal_queries": 5207,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -30184,6 +30185,81 @@
     {
       "query": "\"허공대화함\" \"2026\" -site:onmeme.com",
       "source": "reports/bulk/connector-resume-wave30-437.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"애는 있습니다\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오빠 나 몰라\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"의학적인 근거가 없습니다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"약한 사내다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"애는 있습니다\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"약한 사내다\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"심리적인 안정은\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이제 그만\" 밈 \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너무 고마우시다 진짜\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엽떡에서 안영미\" 썰",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너무 고마우시다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너무 고마우시다 진짜\" -site:onmeme.com -site:incross.com -site:imgtag.co.kr -site:humorpick.com",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"허공대화함\" \"2026\" -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너무 고마우시다\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너무 고마우시다\" site:x.com",
+      "source": "reports/bulk/connector-resume-wave30-438.json",
       "status": "screened-see-report"
     }
   ],
