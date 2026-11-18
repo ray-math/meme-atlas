@@ -218,10 +218,11 @@
     "reports/bulk/connector-resume-wave30-387.json",
     "reports/bulk/connector-resume-wave30-388.json",
     "reports/bulk/connector-resume-wave30-389.json",
-    "reports/bulk/connector-resume-wave30-390.json"
+    "reports/bulk/connector-resume-wave30-390.json",
+    "reports/bulk/connector-resume-wave30-391.json"
   ],
-  "query_observations": 5181,
-  "distinct_literal_queries": 4468,
+  "query_observations": 5193,
+  "distinct_literal_queries": 4477,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -26328,6 +26329,66 @@
     {
       "query": "\"2026\" \"패러디\" \"릴스\" \"도서관\"",
       "source": "reports/bulk/connector-resume-wave30-390.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:univ20.com",
+      "source": "reports/bulk/connector-resume-wave30-391.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"따라\" site:news.unn.net",
+      "source": "reports/bulk/connector-resume-wave30-391.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"공식\" \"챌린지\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-391.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "밈 2026 패러디 site:ohmynews.com",
+      "source": "reports/bulk/connector-resume-wave30-391.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "밈 2026 유행어 site:brunch.co.kr \"했다\"",
+      "source": "reports/bulk/connector-resume-wave30-391.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "밈 2026 site:esquirekorea.co.kr \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-391.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앞머리 챌린지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-391.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다른 강아지\" \"관심\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-391.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기타줄 챌린지\" -site:esquirekorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-391.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앞머리\" \"챌린지\" \"잘랐\" -site:namu.moe -site:issuelink.co.kr -site:esquirekorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-391.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"강아지 말고\" \"챌린지\" -site:esquirekorea.co.kr -site:sotwe.com",
+      "source": "reports/bulk/connector-resume-wave30-391.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기타줄\" \"에반\" \"챌린지\" -site:esquirekorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-391.json",
       "status": "screened-see-report"
     }
   ],
