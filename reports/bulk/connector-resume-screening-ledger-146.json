@@ -207,10 +207,11 @@
     "reports/bulk/connector-resume-wave30-376.json",
     "reports/bulk/connector-resume-wave30-377.json",
     "reports/bulk/connector-resume-wave30-378.json",
-    "reports/bulk/connector-resume-wave30-379.json"
+    "reports/bulk/connector-resume-wave30-379.json",
+    "reports/bulk/connector-resume-wave30-380.json"
   ],
-  "query_observations": 5029,
-  "distinct_literal_queries": 4323,
+  "query_observations": 5048,
+  "distinct_literal_queries": 4338,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -25557,6 +25558,101 @@
     {
       "query": "\"2026\" \"무수히 많은 악수\" \"브랜드\" -site:eqlstore.com -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:univ20.com -라우럴",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:allurekorea.com -감자칼",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:elle.co.kr -감자칼",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:gqkorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" site:esquirekorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:harpersbazaar.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소주바리 한 잔만\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소주바리\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내돈내땀\" 사우나",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안 나오면 쳐들어간다\" \"2026\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안나오면 쳐들어간다\" 아일릿 패러디",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쳐들어",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "처들어",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "잇츠미",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "It's Me",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "안나오면",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "붐 믹스",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "붐 리믹스",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "It’s Me",
+      "source": "reports/bulk/connector-resume-wave30-380.json",
       "status": "screened-see-report"
     }
   ],
