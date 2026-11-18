@@ -223,10 +223,11 @@
     "reports/bulk/connector-resume-wave30-392.json",
     "reports/bulk/connector-resume-wave30-393.json",
     "reports/bulk/connector-resume-wave30-394.json",
-    "reports/bulk/connector-resume-wave30-395.json"
+    "reports/bulk/connector-resume-wave30-395.json",
+    "reports/bulk/connector-resume-wave30-396.json"
   ],
-  "query_observations": 5230,
-  "distinct_literal_queries": 4512,
+  "query_observations": 5242,
+  "distinct_literal_queries": 4524,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -26578,6 +26579,66 @@
     {
       "query": "\"마 갱기에 집중 안하나\" 롯데리아",
       "source": "reports/bulk/connector-resume-wave30-395.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:designplusmag.com",
+      "source": "reports/bulk/connector-resume-wave30-396.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:univalli.com",
+      "source": "reports/bulk/connector-resume-wave30-396.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.hidoc.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-396.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:brunch.co.kr \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-396.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 \"패러디\" site:gov.kr",
+      "source": "reports/bulk/connector-resume-wave30-396.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 \"문구\" site:ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-396.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 \"제목\" site:khan.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-396.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다 아는 스토리\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-396.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나의 선태야\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-396.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다 아는\" \"뭐 그렇게 우냐\"",
+      "source": "reports/bulk/connector-resume-wave30-396.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"나의\" \"추노\" -선태 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-396.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"다 아는 내용\" \"유병재\"",
+      "source": "reports/bulk/connector-resume-wave30-396.json",
       "status": "screened-see-report"
     }
   ],
