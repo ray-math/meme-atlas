@@ -120,10 +120,11 @@
     "reports/bulk/connector-resume-wave30-277.json",
     "reports/bulk/connector-resume-wave30-278.json",
     "reports/bulk/connector-resume-wave30-279.json",
-    "reports/bulk/connector-resume-wave30-280.json"
+    "reports/bulk/connector-resume-wave30-280.json",
+    "reports/bulk/connector-resume-wave30-281.json"
   ],
-  "query_observations": 2312,
-  "distinct_literal_queries": 1873,
+  "query_observations": 2337,
+  "distinct_literal_queries": 1896,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -11885,6 +11886,131 @@
     {
       "query": "수박주스",
       "source": "reports/bulk/connector-resume-wave30-280.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"바이브 체크\" \"2026\" -장원영 -아이브 -VCF",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"바이브체크\" \"2026\" -장원영 -아이브 -VCF",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"vibe check\" \"2026\" \"한국\" -장원영",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"바이브 체크\" \"통과\" -장원영 -니퍼트 -아이브 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"바이브체크\" \"2026\" \"기분\" -site:apps.apple.com -site:vibecheck.kr",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴근\" 유하",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼 퇴근\" -뜻 -신조어 -2026",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴근\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴근\" -뜻 -신조어 -유행어 -site:instablank.com -site:jjalbang.today -site:music.bugs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴\" \"오늘\" -뜻 -신조어 -테스트",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴근\" \"유하\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴근\" \"유하\" -site:music.bugs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"토론토 밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"수박주스\" \"유노윤호\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"신돈\" \"밈\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"토론토\" \"밈\" 안유진 -site:clip.imbc.com -site:voda.donga.com",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"수박주스\" \"이수지\" 유노윤호 2026",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"신돈\" \"2026\" \"광고\" 손창민",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "토론토",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "캐나다",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "수박",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "신돈",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "살.?텐가",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "발연기",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "연기.*논란",
+      "source": "reports/bulk/connector-resume-wave30-281.json",
       "status": "screened-see-report"
     }
   ],
