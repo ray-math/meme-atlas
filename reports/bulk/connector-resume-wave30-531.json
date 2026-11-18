@@ -1,0 +1,351 @@
+{
+  "batch": 531,
+  "base": "ff4af7e93f0143abd9596b0e67a0e1b67522ae19",
+  "canonical_before": 1949,
+  "canonical_after": 1958,
+  "added": [
+    "jaryeohada-natural-glamour-style",
+    "jeulgam-enjoy-watching-short-form",
+    "jeulgem-enjoy-playing-game-short-form",
+    "gonghom-official-homepage-short-form",
+    "jungti-chinese-inspired-style-label",
+    "wissusigae-spicy-food-playful-label",
+    "kaltoe-on-time-leaving-work",
+    "inchin-instagram-friend-short-form",
+    "boryu-hagetseumnida-judge-imitation"
+  ],
+  "candidate_changes": [
+    {
+      "candidate_id": "kr-list-1083",
+      "id": "ppi",
+      "reason": "SBS 2026-08-26의 역할·상태에 삐를 붙인 조어만 기존 ppi와 연결. 피에로 사연·이미지 전체나 원사연 사실은 미검증."
+    }
+  ],
+  "previous_ci": {
+    "sha": "ff4af7e93f0143abd9596b0e67a0e1b67522ae19",
+    "run": 44386760278,
+    "job": 135093312941,
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 111.216s"
+    ]
+  },
+  "previous_final_audit": {
+    "status": "PASS",
+    "required": 0
+  },
+  "sources": [
+    {
+      "id": "jaryeohada-natural-glamour-style",
+      "urls": [
+        "https://m.mdilbo.com/detail/MBEzew/759427",
+        "https://www.allurekorea.com/2025/12/25/저스트-메이크업-점수판-뒤에-가려진-이야기2/",
+        "https://movementlab.kr/product/detail_press.html?product_no=15338"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jeulgam-enjoy-watching-short-form",
+      "urls": [
+        "https://www.donga.com/news/Society/article/all/20070625/8458282/1",
+        "https://m.mk.co.kr/amp/12176661"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jeulgem-enjoy-playing-game-short-form",
+      "urls": [
+        "https://v.daum.net/v/Q446QPVZlQ",
+        "https://www.khan.co.kr/article/201906052039005"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gonghom-official-homepage-short-form",
+      "urls": [
+        "https://www.etnews.com/20241112000020",
+        "https://news.nate.com/view/20260707n10795"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jungti-chinese-inspired-style-label",
+      "urls": [
+        "https://biz.heraldcorp.com/article/10716024",
+        "https://www.seoul.co.kr/news/life/2026/04/28/20260428500158"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "wissusigae-spicy-food-playful-label",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail?id=3280&pageidx=1",
+        "https://bravo.etoday.co.kr/view/atc_view/20141"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kaltoe-on-time-leaving-work",
+      "urls": [
+        "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pCurrentPage=11&pMenuCD=0302000000&pSearchType=01&pSeq=16477",
+        "https://enews.imbc.com/News/ViewAmp/524310"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "inchin-instagram-friend-short-form",
+      "urls": [
+        "https://web.donga.com/pdf/pdf_viewer.php?vcid=2017032310W1501",
+        "https://ch.yes24.com/Article/details/39486"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "boryu-hagetseumnida-judge-imitation",
+      "urls": [
+        "https://www.newsen.com/news_view.php?uid=202410070926460810",
+        "https://www.20slab.org/Archives/38790"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening": {
+    "B664": {
+      "observations": 12,
+      "recommended": 1,
+      "existing": 11,
+      "queries": [
+        "2026 \"신조어\" \"덕질\" 기사 -site:namu.wiki",
+        "2026 \"유행어\" \"직장인\" -site:namu.wiki",
+        "2026 \"밈\" \"패러디\" site:brandbrief.co.kr",
+        "\"자려하다\" -site:namu.wiki -site:instablank.com",
+        "\"자려한\" \"2026\""
+      ],
+      "sources": [
+        "https://m.mdilbo.com/detail/MBEzew/759427",
+        "https://www.allurekorea.com/2025/12/25/저스트-메이크업-점수판-뒤에-가려진-이야기2/",
+        "https://movementlab.kr/product/detail_press.html?product_no=15338"
+      ],
+      "note": "자려하다2026-10-08definition;2025-12-25artistinterviewrecent;2025.05brandinterviewhistorical. no medicalclaims/media."
+    },
+    "C185": {
+      "observations": 5,
+      "recommended": 3,
+      "existing": 2,
+      "queries": [
+        "\"생유\" \"베리\" \"감사\" 신조어",
+        "\"행쇼\" \"뜻\" 기사",
+        "\"안물안궁\" \"뜻\" 기사",
+        "\"즐감\" \"즐겁게 감상\" 기사",
+        "\"즐겜\" \"즐겁게\" 기사"
+      ],
+      "sources": [
+        "https://www.korean.go.kr/common/download.do%3Bfront%3D7D2A7BBB6A9B0715582CB66D35BD4088?c_file_name=1769208b-706f-4bc7-a7d9-4e659558358f_0.pdf&file_path=reportData&o_file_name=%ED%86%B5%EC%8B%A0+%EA%B3%B5%EA%B0%84%EC%9D%98+%EC%96%B8%EC%96%B4+%EC%82%AC%EC%9A%A9+%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC+%EB%B0%8F+%EA%B0%9C%EC%84%A0+%EB%B0%A9%EC%95%88+%EC%97%B0%EA%B5%AC.pdf",
+        "https://dinosys.tistory.com/1247",
+        "https://www.donga.com/news/Society/article/all/20070625/8458282/1",
+        "https://m.mk.co.kr/amp/12176661",
+        "https://v.daum.net/v/Q446QPVZlQ",
+        "https://www.khan.co.kr/article/201906052039005"
+      ],
+      "note": "생유fullphraseonly2008report+2023-01-26direct;즐감2007-06-25title/2009update+2026-10-15SNSreport;즐겜2024-04-04interview+2019-06-05column; coordinator/auditor PDF timeout: 생유베리감사 HOLD; 즐감/즐겜 audit PASS"
+    },
+    "B665": {
+      "observations": 19,
+      "recommended": 1,
+      "existing": 15,
+      "held": 1,
+      "excluded": 2,
+      "queries": [
+        "2026 신조어 \"문화\" \"뜻\" -site:namu.wiki -site:instablank.com",
+        "2026 \"밈\" \"직장\" \"말투\" -site:namu.wiki",
+        "\"난리자베스\" 뜻 기사",
+        "\"난리자베스\" 2026 -site:namu.wiki -site:instablank.com",
+        "\"중티\" \"2026\" 패션 뜻 -site:namu.wiki -site:instablank.com",
+        "\"서울 자가에\" \"삼성SDS\" \"김부장\" 패러디"
+      ],
+      "sources": [
+        "https://biz.heraldcorp.com/article/10716024",
+        "https://www.seoul.co.kr/news/life/2026/04/28/20260428500158"
+      ],
+      "note": "중티 conditional; original media0. negative/positive use not complete semantic reversal."
+    },
+    "C186": {
+      "observations": 4,
+      "recommended": 2,
+      "held": 2,
+      "queries": [
+        "\"쓰담쓰담\" \"신조어\" 위로",
+        "\"즐퇴\" \"뜻\" 기사",
+        "\"칼퇴\" \"뜻\" 신조어",
+        "\"쓰담쓰담\" \"위로\" site:korea.kr",
+        "\"즐퇴\" \"퇴근\" 기사",
+        "\"칼퇴\" \"2026\" site:enews.imbc.com",
+        "\"공홈\" \"공식 홈페이지\" 기사"
+      ],
+      "note": "칼퇴 existing variation boundary pending; 공홈 two news sources; 즐퇴/쓰담쓰담 held"
+    },
+    "A179": {
+      "observations": 15,
+      "recommended": 0,
+      "mapping_proposals": 1,
+      "held": 14,
+      "queries": [
+        "인문학적 변태 유행어 기사",
+        "케경호 케인 밈 인터뷰",
+        "코리안조커 패러디 한국 기사",
+        "코렁탕 인터넷 은어 기사",
+        "킹 오브 프리즘 한국 패러디 응원상영",
+        "택배 드립 게임 대사 패러디",
+        "파피 플레이타임 허기워기 한국 패러디",
+        "프로게이머 피지컬 인터넷 용어 기사",
+        "프라이데이 나이트 펑킨 한국 모드 제작",
+        "피에로 드립 인터넷 밈",
+        "하츄핑 어른 팬 밈 기사",
+        "한글자 드립 인터넷 댓글",
+        "황근출 해병문학 풍자 기사",
+        "헬테이커 한국 팬 제작 춤",
+        "흑드라군 인터넷 밈 문자"
+      ],
+      "note": "1083→ppi partial only proposal.3external reads,1body,media0. 2024-06-12 Poppy article not2026 header."
+    },
+    "A180": {
+      "observations": 15,
+      "recommended": 0,
+      "held": 15,
+      "queries": [
+        "사냥개들 건우 엄마 데리고 와 패러디",
+        "그건 원작을 경험해 보신 분들의 기준인 거고요 사용",
+        "꾸래핑 밈 유행 기사",
+        "나는 애쉬 패러디 한국",
+        "\"나는 예쁘지 않습니다\" 패러디",
+        "\"날 내버려둬\" 밈 게임",
+        "\"너 개못하잖아\" 사용",
+        "무한도전 \"네가 하면 나도 한다\" 패러디",
+        "\"네 설명해드렸습니다\" 방송",
+        "\"누나 좋아해요\" 밈 패러디",
+        "\"늬픽\" 게임",
+        "\"당연히 말이 되죠\" 패러디",
+        "\"대기업에 입사한 아들의 깨달음\"",
+        "독일초딩 패러디 한국 제작",
+        "\"동전줍는 징징이\"",
+        "\"네가 하면 나도 한다\" 하하 기업",
+        "\"네가 하면 나도 한다\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"그원경기\" -site:namu.moe -site:seore.org"
+      ],
+      "note": "15 prior candidates rereview.3text pages1failure.0335 general use2001 does not establish borrowed broadcast meme;0376 direct text1 noimage;0377 snippet only"
+    },
+    "C187": {
+      "observations": 15,
+      "recommended": 1,
+      "existing": 12,
+      "held": 2,
+      "queries": [
+        "\"급사과\" \"뜻\" 기사",
+        "\"댓망진창\" \"댓글\" 기사",
+        "\"덕계못\" \"뜻\" 기사",
+        "\"급사과\" site:enews.imbc.com",
+        "\"멍때리다\" \"뜻\" 신조어",
+        "\"흐뭇\" \"인터넷\" 신조어",
+        "\"급사과\" 방송",
+        "\"급사과\" \"2026\""
+      ],
+      "note": "급사과 conditional PDF independently inaccessible; recent News1 title use; 3existingbodies,9indexonly. No media."
+    },
+    "B666": {
+      "observations": 12,
+      "recommended": 1,
+      "existing": 3,
+      "held": 7,
+      "excluded": 1,
+      "queries": [
+        "2026 신조어 site:bravo.etoday.co.kr \"요즘말\"",
+        "2026 \"유행어\" site:news.kbs.co.kr 패러디",
+        "2026 \"밈\" site:magazine.hankyung.com \"표현\"",
+        "\"위쑤시개\" -site:namu.wiki -site:instablank.com",
+        "\"야르바이트\" 2026 -site:namu.wiki -site:instablank.com"
+      ],
+      "note": "위쑤시개 sourceintro group1+interviewobservation1; recent explanation1 actualreuse0. 야르바이트 jobtitle snippet only held."
+    },
+    "A181": {
+      "observations": 15,
+      "recommended": 0,
+      "held": 15,
+      "queries": [
+        "\"섣불리 판단하면 안되는 이유\" 패러디",
+        "\"세뇌교육\" 밈 패러디",
+        "\"수박도\" 드립 뜻",
+        "\"심기체론\" 인터넷 용어",
+        "\"아니다 이 악마야\" 그린랜턴",
+        "아카자 한국 패러디 제작",
+        "\"애는 있습니다\" 밈",
+        "아스달 \"약한 사내다\" 패러디",
+        "어나니머스 가면 한국 패러디 광고",
+        "\"어몽어스 잼민이\"",
+        "\"엄마도 사람이야 사람\" 패러디",
+        "\"왕이되는자\" 광고 패러디",
+        "\"육군 we 육군\" 패러디",
+        "\"의문의\" \"행\" \"드립\" 뜻",
+        "\"이세계물 드립\" 한국"
+      ],
+      "note": "3external direct text; media0. 0621sharedvideo butformunknown;0805parodytitle only;0830criticism notmemeformat. 15priorrows rechecked notnewdiscovery; CORRECTION:Blind QjnfOw0j alreadyA172,dosil/233 alreadyA173: rereads,notnewlyrecovered sources."
+    },
+    "C188": {
+      "observations": 12,
+      "recommended": 1,
+      "existing_family": 1,
+      "existing": 1,
+      "held": 9,
+      "queries": [
+        "\"급사과\" \"급히\" -site:korean.go.kr",
+        "\"급사과\" \"급하게\" 신조어",
+        "\"급사과\" \"줄임말\"",
+        "\"베프\" \"베스트 프렌드\" 기사",
+        "\"인친\" \"인스타그램 친구\" 기사",
+        "\"급사과\" \"신조어\" -site:korean.go.kr",
+        "\"인친\" \"인스타그램 친구\" -filetype:pdf -site:korean.go.kr",
+        "\"급정색\" \"정색\" 뉴스",
+        "\"급사과\" \"급히 사과\" -filetype:pdf",
+        "\"급방긋\" \"웃음\" 기사",
+        "\"인친\" site:enews.imbc.com",
+        "\"급사과\" site:tv.jtbc.co.kr",
+        "\"급당황\" \"급방긋\" 기사",
+        "인친 인스타그램 친구 신문",
+        "급사과 김종국 송지효"
+      ],
+      "note": "인친 historical2017/2019; 급사과definitionnotrecovered,hold. media0"
+    },
+    "B667": {
+      "observations": 12,
+      "recommended": 1,
+      "existing_family": 5,
+      "held": 6,
+      "queries": [
+        "2026 \"신조어\" site:campus.co.kr",
+        "2026 \"유행어\" site:20slab.org",
+        "2026 \"밈\" site:univ20.com \"댓글\"",
+        "\"감다뒤\" \"뜻\" 기사",
+        "\"보류하겠습니다\" \"안성재\" 패러디"
+      ],
+      "note": "historical2groups; recentreuse0 media0; linkedcorporatepage doesnotshowgam-twi evidence."
+    }
+  },
+  "query_increment": 104,
+  "query_observations": 14631,
+  "distinct_literal_queries": 11996,
+  "preaudit": {
+    "status": "PASS",
+    "required": 0,
+    "notes": [
+      "9families independently audited;1083partial only.",
+      "생유베리감사 and급사과 held: independent PDF access failed.",
+      "A181 two sources rereads corrected; A182priorityonly10rows queries0 newevidence0."
+    ]
+  },
+  "limits": [
+    "Old1949bodies and original1091candidate source unchanged. Usage74/reviewed73 preserved.",
+    "Observations not unique memes; repeated candidates retained transparently.",
+    "Newcommit CI pending. No local Python execution; prior exactSHA CI Python497 success.",
+    "Recent usage,reported usage and historical expression distinguished. No original images/videos viewed."
+  ]
+}
