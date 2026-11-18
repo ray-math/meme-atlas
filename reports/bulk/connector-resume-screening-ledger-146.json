@@ -64,10 +64,11 @@
     "reports/bulk/connector-resume-audit211.json",
     "reports/bulk/connector-resume-screening212.json",
     "reports/bulk/connector-resume-audit-holds213.json",
-    "reports/bulk/connector-resume-screening214.json"
+    "reports/bulk/connector-resume-screening214.json",
+    "reports/bulk/connector-resume-screening215.json"
   ],
-  "query_observations": 1003,
-  "distinct_literal_queries": 812,
+  "query_observations": 1028,
+  "distinct_literal_queries": 824,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -5284,6 +5285,131 @@
     {
       "query": "\"2026\" \"밈\" \"활용\" site:blog.hsad.co.kr",
       "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라우럴",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "체포하겠어",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감자칼",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개코원숭이",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영원할",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아이스티",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "색소폰",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "폴리에스터",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김민",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "로키체",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "탭탭탭",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "타이니",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "죽이세유",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "무례하지",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "흑임자",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그만해병대",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "연락없네",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "잘살아",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "매혹적",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "지옥같은",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "손가락",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "tiny",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "tap",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "양배",
+      "source": "reports/bulk/connector-resume-screening215.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "호프",
+      "source": "reports/bulk/connector-resume-screening215.json",
       "status": "screened-see-report"
     }
   ],
