@@ -892,6 +892,7 @@
 - [포브스 선정](forbes-selected.md)
 - [포카](poka.md)
 - [포켓몬 댄스 챌린지](pokemon-dance-challenge.md)
+- [폭룡적](pokryongjeok.md)
 - [폭풍전야](storm-before-suddenattack.md)
 - [폰꾸](phone-kku.md)
 - [폰은정](pon-eunjeong.md)

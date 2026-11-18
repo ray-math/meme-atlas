@@ -653,6 +653,7 @@
 - [포브스 선정](../memes/forbes-selected.md)
 - [포카](../memes/poka.md)
 - [포켓몬 댄스 챌린지](../memes/pokemon-dance-challenge.md)
+- [폭룡적](../memes/pokryongjeok.md)
 - [폰꾸](../memes/phone-kku.md)
 - [폰은정](../memes/pon-eunjeong.md)
 - [폴꾸](../memes/polkku.md)

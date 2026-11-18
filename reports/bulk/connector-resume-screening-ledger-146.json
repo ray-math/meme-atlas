@@ -167,10 +167,11 @@
     "reports/bulk/connector-resume-wave30-335.json",
     "reports/bulk/connector-resume-wave30-336.json",
     "reports/bulk/connector-resume-wave30-337.json",
-    "reports/bulk/connector-resume-wave30-338.json"
+    "reports/bulk/connector-resume-wave30-338.json",
+    "reports/bulk/connector-resume-wave30-339.json"
   ],
-  "query_observations": 3856,
-  "distinct_literal_queries": 3278,
+  "query_observations": 3883,
+  "distinct_literal_queries": 3304,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -19652,6 +19653,141 @@
     {
       "query": "어케|어떻게.*했|시발련|해냈|했노",
       "source": "reports/bulk/connector-resume-wave30-338.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"뉴스레터\" \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"텍스트\" \"10월\"",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"도서관\"",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"폭룡적\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개큰구매\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"면접 취소하겠습니다\"",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"폭룡적\" 뜻 유래 고구마",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"과실에서 같이 야작하던\"",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"카우룽\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "폭룡",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "카우룽",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "카우룩",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개큰",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꽉껴",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "MZ 사이",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야작",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "축제시작",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "면접취소",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "시작",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "구매",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "카우",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "조합",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "발표",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "축제",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "면접",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꽉",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "폭룡|폭룡적",
+      "source": "reports/bulk/connector-resume-wave30-339.json",
       "status": "screened-see-report"
     }
   ],
