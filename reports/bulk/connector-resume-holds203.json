@@ -1,0 +1,206 @@
+{
+  "queries": [
+    "유행진짜",
+    "훅훅",
+    "동결건조",
+    "남쟈",
+    "얼렁뚱땡",
+    "봄이구나",
+    "낙서풍",
+    "기도해",
+    "나고구마",
+    "나카페",
+    "읽지않음",
+    "모르는일",
+    "피곤하고",
+    "앤드류",
+    "년생",
+    "밀레니얼",
+    "커터칼",
+    "과자",
+    "사꾸",
+    "얼렁뚱",
+    "기도해",
+    "김성재",
+    "구나",
+    "초코",
+    "영수증",
+    "붐샤카라카",
+    "버터떡"
+  ],
+  "status": "reviewed holds; no new canonical",
+  "source": "https://gogumafarm.kr/나-고구마팜인데-요즘-뜨는-밈-가져왔다-2026년-6월-최신/",
+  "canonical_count": 897,
+  "added": 0,
+  "duplicates": {
+    "유행진짜 훅훅": "next-trend-wish-template",
+    "동결건조": "freeze-dry-affection",
+    "봄이구나": "bomiguna-christina",
+    "기도해 / 김성재": "pray-for-you",
+    "읽지 않음 / 모르는 일": "unread-none-of-my-business",
+    "나 ○○년생": "na-born-year-dance",
+    "밀레니얼 비교": "millennial-vs-genz-copy",
+    "초코": "chocolate-milk-offer"
+  },
+  "holds": {
+    "얼렁뚱땡이": "Names and glossary alone insufficient",
+    "이런 걸로 피곤하고 싶지 않다": "Trend article links examples, independent direct text originals insufficient",
+    "영수증샷": "29CM cases same brand; other original posts not verified",
+    "붐샤카라카": "Not yet verified",
+    "버터떡": "Food trend not automatically meme",
+    "로버트 패틴슨 가짜 캐스팅": "Two Korean community pages inaccessible, snippet not direct verification"
+  },
+  "failed_urls": [
+    "https://theqoo.net/square/4409487278",
+    "https://theqoo.net/square/4409523308"
+  ],
+  "limits": [
+    "CI not run",
+    "Candidate strings are not unique memes"
+  ],
+  "index_hits": [
+    {
+      "query": "유행진짜",
+      "ids": []
+    },
+    {
+      "query": "훅훅",
+      "ids": [
+        "next-trend-wish-template"
+      ]
+    },
+    {
+      "query": "동결건조",
+      "ids": [
+        "freeze-dry-affection"
+      ]
+    },
+    {
+      "query": "남쟈",
+      "ids": []
+    },
+    {
+      "query": "얼렁뚱땡",
+      "ids": []
+    },
+    {
+      "query": "봄이구나",
+      "ids": [
+        "bomiguna-christina"
+      ]
+    },
+    {
+      "query": "낙서풍",
+      "ids": []
+    },
+    {
+      "query": "기도해",
+      "ids": [
+        "pray-for-you"
+      ]
+    },
+    {
+      "query": "나고구마",
+      "ids": []
+    },
+    {
+      "query": "나카페",
+      "ids": []
+    },
+    {
+      "query": "읽지않음",
+      "ids": []
+    },
+    {
+      "query": "모르는일",
+      "ids": []
+    },
+    {
+      "query": "피곤하고",
+      "ids": []
+    },
+    {
+      "query": "앤드류",
+      "ids": []
+    },
+    {
+      "query": "년생",
+      "ids": [
+        "na-born-year-dance"
+      ]
+    },
+    {
+      "query": "밀레니얼",
+      "ids": [
+        "millennial-vs-genz-copy"
+      ]
+    },
+    {
+      "query": "커터칼",
+      "ids": []
+    },
+    {
+      "query": "과자",
+      "ids": [
+        "chakani-praise",
+        "kancho-name-hunt",
+        "shrimp-chips-magnolia",
+        "why-no-spaces"
+      ]
+    },
+    {
+      "query": "사꾸",
+      "ids": []
+    },
+    {
+      "query": "얼렁뚱",
+      "ids": []
+    },
+    {
+      "query": "기도해",
+      "ids": [
+        "pray-for-you"
+      ]
+    },
+    {
+      "query": "김성재",
+      "ids": [
+        "pray-for-you"
+      ]
+    },
+    {
+      "query": "구나",
+      "ids": [
+        "bomiguna-christina",
+        "no-reply-live-well",
+        "ppulnatda-title-template",
+        "sanseujang",
+        "slow-even-to-template",
+        "teuchin",
+        "wa-sans",
+        "yareumdapda",
+        "you-have-a-plan"
+      ]
+    },
+    {
+      "query": "초코",
+      "ids": [
+        "chocolate-milk-offer"
+      ]
+    },
+    {
+      "query": "영수증",
+      "ids": [
+        "daechung-salja"
+      ]
+    },
+    {
+      "query": "붐샤카라카",
+      "ids": []
+    },
+    {
+      "query": "버터떡",
+      "ids": []
+    }
+  ]
+}
