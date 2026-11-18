@@ -1,0 +1,78 @@
+{
+  "new_canonical": 0,
+  "reinforcement": "swings-denial",
+  "sources": [
+    "https://maily.so/marsinmarine/posts/8do7pdgnogq",
+    "https://maily.so/trendaword/posts/5xrxye1lz2v",
+    "https://www.etoday.co.kr/news/view/2630550"
+  ],
+  "source_status": "worker read; editor reread pending; first two independent newsletter publishers on same platform, third report only",
+  "queries": [
+    "\"2026\" \"밈을\" \"칼럼\"",
+    "\"2026\" \"밈\" \"서평\"",
+    "\"2026\" \"유행어\" \"보고서\" -site:namu.moe",
+    "\"2026\" \"밈\" \"카피\"",
+    "\"2026\" \"밈\" \"슬로건\"",
+    "\"2026\" \"밈\" \"패러디\" \"뉴스레터\"",
+    "\"갑차기스러운데\" -site:namu.moe -site:instablank.com",
+    "\"54000개\" \"2026\" -site:namu.moe -site:instablank.com",
+    "\"2026\" \"밈\" \"우리\" site:brunch.co.kr",
+    "\"2026\" \"밈\" \"제목\" site:tistory.com -site:namu.moe -site:goat-1.tistory.com -site:geminantv.tistory.com",
+    "\"2026\" \"No Roots\" \"챌린지\"",
+    "\"스윙스 밈\" -site:namu.moe -site:instablank.com",
+    "\"피라미드에도 악플\" -site:instablank.com -site:namu.moe -site:issuepickdaily.tistory.com",
+    "\"로그아웃하면\" \"2007\" -site:isitreal.tistory.com",
+    "\"2026\" \"좋아하는건❌\" -site:creatrend.tistory.com -site:namu.moe",
+    "\"2026\" \"팬은 X\" -스윙스 -site:namu.moe"
+  ],
+  "index_queries": [
+    "갑차기",
+    "취소해",
+    "54000",
+    "할렐야루",
+    "밀레니얼",
+    "샤갈샤갈",
+    "스윙스",
+    "팬 된 건",
+    "괄호 부정",
+    "피라미드",
+    "로그아웃",
+    "첫번째레슨",
+    "귀하게",
+    "읽지않음",
+    "영크크",
+    "No Roots"
+  ],
+  "correction232": "Editor did not actually include 최성곤 in the regex previously used. Worker now finds 최성곤 in niga-joa-challenge; MBC discovery must be compared to that existing entry, not presumed new.",
+  "base": "638be1cc40572ef354ead1971f2fa4c1585bd7aa",
+  "canonical_count": 906,
+  "worker_b": {
+    "queries": [
+      "\"노력이 숲으로 돌아갔다\" \"2026\" -site:careet.net",
+      "\"눈 가리고 야옹\" \"2026\" -site:careet.net -site:lib.nyj.go.kr -site:xitter.cf",
+      "\"노력이 숲으로\" -site:careet.net -site:jes10334.tistory.com -site:instalker.org",
+      "\"눈 가리고 야옹\" site:theqoo.net",
+      "\"노력이 숲으로 돌아갔다\" 블로그",
+      "\"노력이 숲으로\" \"천리포\"",
+      "\"노력이 숲으로\" site:tistory.com",
+      "\"노력이 숲으로\" site:velog.io",
+      "\"눈 가리고 야옹\" site:youtube.com 2026",
+      "\"눈 가리고 야옹\" youtube",
+      "눈 가리고 야옹",
+      "눈가리고",
+      "아웅",
+      "노력이 숲으로",
+      "숲으로",
+      "수포",
+      "와일드",
+      "트라이앵글",
+      "최성곤"
+    ],
+    "duplicate": "최성곤 -> niga-joa-challenge, editor confirmed index body",
+    "holds": [
+      "눈가리고야옹: one direct title, second series episode only search evidence",
+      "노력이숲으로: official source403, two recent independent uses lacking"
+    ]
+  },
+  "ci": "not run"
+}

@@ -77,10 +77,11 @@
     "reports/bulk/connector-resume-independent-audit-228.json",
     "reports/bulk/connector-resume-screening-229.json",
     "reports/bulk/connector-resume-editor-231.json",
-    "reports/bulk/connector-resume-independent-audit-232.json"
+    "reports/bulk/connector-resume-independent-audit-232.json",
+    "reports/bulk/connector-resume-screening-233.json"
   ],
-  "query_observations": 1233,
-  "distinct_literal_queries": 1005,
+  "query_observations": 1284,
+  "distinct_literal_queries": 1043,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -6447,6 +6448,261 @@
     {
       "query": "\"2026\" \"유행어\" \"차용\" \"뉴스레터\"",
       "source": "reports/bulk/connector-resume-independent-audit-232.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈을\" \"칼럼\"",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"서평\"",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"보고서\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"카피\"",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"슬로건\"",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" \"뉴스레터\"",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"갑차기스러운데\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"54000개\" \"2026\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"우리\" site:brunch.co.kr",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목\" site:tistory.com -site:namu.moe -site:goat-1.tistory.com -site:geminantv.tistory.com",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"No Roots\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스윙스 밈\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"피라미드에도 악플\" -site:instablank.com -site:namu.moe -site:issuepickdaily.tistory.com",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로그아웃하면\" \"2007\" -site:isitreal.tistory.com",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"좋아하는건❌\" -site:creatrend.tistory.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"팬은 X\" -스윙스 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갑차기",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "취소해",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "54000",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "할렐야루",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "밀레니얼",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "샤갈샤갈",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스윙스",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "팬 된 건",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "괄호 부정",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "피라미드",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "로그아웃",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "첫번째레슨",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "귀하게",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "읽지않음",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영크크",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "No Roots",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노력이 숲으로 돌아갔다\" \"2026\" -site:careet.net",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"눈 가리고 야옹\" \"2026\" -site:careet.net -site:lib.nyj.go.kr -site:xitter.cf",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노력이 숲으로\" -site:careet.net -site:jes10334.tistory.com -site:instalker.org",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"눈 가리고 야옹\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노력이 숲으로 돌아갔다\" 블로그",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노력이 숲으로\" \"천리포\"",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노력이 숲으로\" site:tistory.com",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"노력이 숲으로\" site:velog.io",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"눈 가리고 야옹\" site:youtube.com 2026",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"눈 가리고 야옹\" youtube",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "눈 가리고 야옹",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "눈가리고",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아웅",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노력이 숲으로",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "숲으로",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "수포",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와일드",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "트라이앵글",
+      "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "최성곤",
+      "source": "reports/bulk/connector-resume-screening-233.json",
       "status": "screened-see-report"
     }
   ],
