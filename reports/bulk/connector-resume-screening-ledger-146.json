@@ -199,10 +199,11 @@
     "reports/bulk/connector-resume-wave30-368.json",
     "reports/bulk/connector-resume-wave30-369.json",
     "reports/bulk/connector-resume-wave30-370.json",
-    "reports/bulk/connector-resume-wave30-371.json"
+    "reports/bulk/connector-resume-wave30-371.json",
+    "reports/bulk/connector-resume-wave30-372.json"
   ],
-  "query_observations": 4758,
-  "distinct_literal_queries": 4081,
+  "query_observations": 4784,
+  "distinct_literal_queries": 4102,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -24194,6 +24195,136 @@
     {
       "query": "포켓몬|pokenotes",
       "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"담당자\" \"문장\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"뉴스레터\" \"말투\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"공식 블로그\" \"댓글\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봉쥬흐\" \"메흐씨\" -site:namu.moe -site:namu.wiki -site:incross.com -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"줴줴이야\" \"2026\" -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"울랄라\" \"3년 뒤\" -site:namu.moe -site:namu.wiki -site:incross.com -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봉쥬흐\" \"2026\" -site:sotwe.com -site:twstalker.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봉쥬르\" \"메르시\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봉쥬흐\" \"울랄라\" -site:incross.com -site:youtube-rank.com -site:sotwe.com -site:twstalker.com -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봉주르\" \"3년 뒤\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"메흐씨\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봉쥬흐\" site:gall.dcinside.com",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봉쥬흐\" \"메흐씨\" \"울랄라\" -site:namu.moe -site:namu.wiki -site:incross.com -site:sotwe.com -site:twstalker.com -site:youtube-rank.com",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봉쥬흐\" site:maily.so",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봉쥬흐\" site:stibee.com",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "봉쥬",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "울랄라",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "줴줴",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "기도",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "기도해드",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "팬은",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "반한",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "분실물",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포켓몬",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봉쥬흐\" \"자두\"",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봉쥬흐\" \"메흐씨\" \"2026\" -site:incross.com -site:namu.moe -site:youtube-rank.com -site:sotwe.com",
+      "source": "reports/bulk/connector-resume-wave30-372.json",
       "status": "screened-see-report"
     }
   ],
