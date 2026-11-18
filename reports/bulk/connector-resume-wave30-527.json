@@ -1,0 +1,768 @@
+{
+  "batch": 527,
+  "base": "0a5b11fb956d73b32f1729744fb1242e270e8d0c",
+  "canonical_before": 1908,
+  "canonical_after": 1918,
+  "added": [
+    "lanseon-imo-online-supporter-nickname",
+    "honbap-honsul-honyeong-solo-activity-words",
+    "danjjan-contrasting-flavors-and-charms",
+    "untaegi-exercise-boredom-short-form",
+    "heodangmi-endearing-clumsiness-label",
+    "kkukkukkakka-cute-speech-performance",
+    "geubyeoche-workplace-speech-label",
+    "jipsuni-jipdori-home-loving-labels",
+    "sim-stealer-heart-wordplay-label",
+    "yeokjogong-artist-to-fan-gift-label"
+  ],
+  "candidate_changes": [],
+  "previous_ci": {
+    "run": 44379194411,
+    "job": 135066473839,
+    "sha": "0a5b11fb956d73b32f1729744fb1242e270e8d0c",
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 152.961s"
+    ]
+  },
+  "previous_final_audit": {
+    "status": "PASS",
+    "required": 0,
+    "sha": "0a5b11fb956d73b32f1729744fb1242e270e8d0c",
+    "files": 19,
+    "total": 1908,
+    "old_records_identical": 1898,
+    "query_rows": 14085,
+    "distinct_queries": 11542
+  },
+  "sources": [
+    {
+      "id": "lanseon-imo-online-supporter-nickname",
+      "urls": [
+        "https://v.daum.net/v/aAbJgLdGqy",
+        "https://v.daum.net/v/20260305070236573"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "honbap-honsul-honyeong-solo-activity-words",
+      "urls": [
+        "https://www.mk.co.kr/news/culture/7516644",
+        "https://digitalchosun.dizzo.com/site/data/html_dir/2018/10/08/2018100812653.html"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "danjjan-contrasting-flavors-and-charms",
+      "urls": [
+        "https://www.yeongnam.com/web/view.php?key=20170410.010220753590001",
+        "https://v.daum.net/v/8jRd0vEuan",
+        "https://www.etnews.com/20260107000397"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "untaegi-exercise-boredom-short-form",
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20210204102340",
+        "https://news.nate.com/view/20220815n00990"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "heodangmi-endearing-clumsiness-label",
+      "urls": [
+        "https://news.coupang.com/archives/62079/",
+        "https://v.daum.net/v/20260827102550611"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kkukkukkakka-cute-speech-performance",
+      "urls": [
+        "https://v.daum.net/v/LR2a38fjdV",
+        "https://vod.jtbc.co.kr/player/clip/vo10388734",
+        "https://dafanew.com/Interview/?bmode=view&idx=171934085&q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTU7fQ%3D%3D&t=board"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "geubyeoche-workplace-speech-label",
+      "urls": [
+        "https://v.daum.net/v/aAbJgLdGqy",
+        "https://www.inflearn.com/pages/inflearnsnack-9-20220920",
+        "https://blog.jandi.com/ko/2022/02/03/2021-2h-jandi-emoticon/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jipsuni-jipdori-home-loving-labels",
+      "urls": [
+        "https://v.daum.net/v/20200106050709201?s=print_news",
+        "https://v.daum.net/v/39plIvfzZs",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/504864"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sim-stealer-heart-wordplay-label",
+      "urls": [
+        "https://star.fnnews.com/article/201511241105370407",
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02994646645415792"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "yeokjogong-artist-to-fan-gift-label",
+      "urls": [
+        "https://www.ajunews.com/view/20200126134222333",
+        "https://v.daum.net/v/20260207184838591",
+        "https://v.daum.net/v/20260623000221476"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening": {
+    "groups": [
+      {
+        "id": "B646",
+        "recommended": "랜선이모",
+        "sources": [
+          "https://v.daum.net/v/aAbJgLdGqy",
+          "https://v.daum.net/v/20260305070236573"
+        ],
+        "queries": [
+          "\"랜선이모\" \"뜻\"",
+          "\"랜선삼촌\" \"2026\"",
+          "\"귀르가즘\" \"뜻\"",
+          "\"돌싱\" \"신조어\"",
+          "\"랜선 이모\" \"2026\" 뉴스",
+          "\"귀르가즘\" \"2026\" 뉴스"
+        ],
+        "observations": 12,
+        "recommended_count": 1,
+        "existing": 7,
+        "held": 4,
+        "note": "First definition2019-01-31; second2026-03-05body91actuallabel. Exclude minors details;media0."
+      },
+      {
+        "id": "A166",
+        "ids": [
+          "0400",
+          "0423",
+          "0441",
+          "0455",
+          "0499",
+          "0516",
+          "0517",
+          "0520",
+          "0526",
+          "0548",
+          "0555",
+          "0617"
+        ],
+        "observations": 12,
+        "recommended": 0,
+        "held": 12,
+        "queries": [
+          "\"동현이의 퍼니박스\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+          "\"더 마스터를 기억해줘\" -site:namu.moe -site:seore.org",
+          "\"롯데햄 후라이드 치킨\" 패러디 -site:namu.moe -site:seore.org",
+          "\"막심 센세\" -site:namu.moe -site:seore.org",
+          "\"물음표 드립\" -site:namu.moe -site:seore.org",
+          "\"맛나핑\" \"만들\" -site:namu.moe -site:seore.org",
+          "\"미쿠미쿠하게 해줄게\" \"패러디\" -site:namu.moe -site:seore.org",
+          "\"바바바바바바\" \"밈\" -site:namu.moe -site:seore.org",
+          "\"밤 샌 사람\" \"일찍 일어난 사람\" -site:namu.moe -site:seore.org",
+          "\"봇이지 뭐\" -site:namu.moe -site:seore.org",
+          "\"북방코끼리바다표범\" \"밈\" -site:namu.moe -site:seore.org",
+          "\"샤방송\" \"패러디\" -site:namu.moe -site:seore.org"
+        ],
+        "note": "0400twoad reviews notreuse;0526/0548titleonly mediaunviewed"
+      },
+      {
+        "id": "C167",
+        "observations": 12,
+        "recommended_expressions": 3,
+        "recommended_families": 1,
+        "existing": 3,
+        "held": 6,
+        "queries": [
+          "\"순삭\" \"뜻\" 기사",
+          "\"광탈\" \"뜻\" 기사",
+          "\"불금\" \"신조어\" 기사",
+          "\"혼영\" \"2026\" 기사",
+          "\"혼영\" \"2026\" 영화 혼자",
+          "\"혼밥\" \"혼술\" \"혼영\" 신조어",
+          "\"현질\" \"뜻\" 신문",
+          "\"월요병\" \"2026\" 제목",
+          "\"혼영\" \"2026\" site:enews.imbc.com",
+          "\"현질\" \"현금\" site:hani.co.kr"
+        ],
+        "sources": [
+          "https://www.mk.co.kr/news/culture/7516644",
+          "https://digitalchosun.dizzo.com/site/data/html_dir/2018/10/08/2018100812653.html"
+        ],
+        "note": "2016/2018historical article application/survey notpersonalposts;honkono coverskaraokeonly;noalcoholencouragementorhealth/socialjudgments"
+      },
+      {
+        "id": "C168",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 6,
+        "existing_family": 3,
+        "held": 2,
+        "queries": [
+          "\"내또출\" \"뜻\" 기사",
+          "\"운태기\" \"2026\"",
+          "\"오하운\" \"뜻\" 기사",
+          "\"갑분퇴\" 신조어",
+          "\"운태기\" 운동 권태기 기사",
+          "\"운태기\" site:enews.imbc.com",
+          "\"내돈내먹\" 신조어",
+          "\"갑분퇴\" 기사 -site:sinjoeo.kr"
+        ],
+        "sources": [
+          "https://news.nate.com/view/20220815n00990",
+          "https://zdnet.co.kr/view/?no=20210204102340"
+        ],
+        "note": "운태기 운동권태기;2022authoruse +2021fun-testreporteduse; no actualtest/healthrecommendations/media. historicalonly"
+      },
+      {
+        "id": "B647",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 5,
+        "held": 6,
+        "queries": [
+          "\"단짠\" \"신조어\" 뜻",
+          "\"짠내\" \"신조어\" 뜻",
+          "\"랜선남친\" \"뜻\"",
+          "\"랜선여친\" \"2026\"",
+          "\"단짠\" \"매력\" \"2026\"",
+          "\"차애\" \"덕계타\" 뜻"
+        ],
+        "sources": [
+          "https://v.daum.net/v/8jRd0vEuan",
+          "https://www.yeongnam.com/web/view.php?key=20170410.010220753590001",
+          "https://www.etnews.com/20260107000397"
+        ],
+        "note": "definition2023 +media applications2017/2026; nooriginalmedia, first/scaleunverified"
+      },
+      {
+        "id": "C169",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 2,
+        "existing_family": 4,
+        "held": 5,
+        "queries": [
+          "\"요똥\" \"뜻\" 기사",
+          "\"허당미\" \"2026\" 기사",
+          "\"망손\" \"뜻\" 기사",
+          "\"요잘알\" \"2026\"",
+          "\"요똥\" \"요리\" site:enews.imbc.com",
+          "\"허당미\" 뜻 site:co.kr -site:sinjoeo.kr -site:hoonmeme.com"
+        ],
+        "sources": [
+          "https://news.coupang.com/archives/62079/",
+          "https://v.daum.net/v/20260827102550611"
+        ],
+        "note": "2026-05-08promotionalcopy +2026-08-27editorialreportedSNS use. Personality/intelligence/workabilityjudgmentsnotadopted,originalmedia0"
+      },
+      {
+        "id": "A167",
+        "observations": 12,
+        "recommended": 0,
+        "held": 12,
+        "ids": [
+          "0939",
+          "0959",
+          "0989",
+          "0997",
+          "1010",
+          "1030",
+          "1041",
+          "1056",
+          "1080",
+          "1093",
+          "1099",
+          "1135"
+        ],
+        "queries": [
+          "\"죄송합니다\" \"밈\" \"댄스\" -site:namu.moe -site:seore.org",
+          "\"지이잉\" \"밈\" -site:namu.moe -site:seore.org",
+          "\"초코빅송\" -site:namu.moe -site:seore.org",
+          "\"차차핑\" \"밈\" -site:namu.moe -site:seore.org",
+          "\"케인\" \"밈\" \"패러디\" -site:namu.moe -site:seore.org",
+          "\"킹 오브 프리즘\" \"패러디\" \"제작\" -site:namu.moe -site:seore.org",
+          "\"택배 드립\" -site:namu.moe -site:seore.org",
+          "\"파피 플레이타임\" \"패러디\" 한국 -site:namu.moe -site:seore.org",
+          "\"프라이데이 나이트 펑킨\" \"한국\" \"제작\" -site:namu.moe -site:seore.org",
+          "\"하츄핑\" \"패러디\" \"제작\" -site:namu.moe -site:seore.org",
+          "\"한글자 드립\" -site:namu.moe -site:seore.org",
+          "\"헬테이커\" \"패러디\" 한국 -site:namu.moe -site:seore.org"
+        ],
+        "note": "1135artreference/1093generalparodymention/1056onefanfic notboundedrepeatedmeme;no mapping"
+      },
+      {
+        "id": "B648",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 6,
+        "held": 5,
+        "queries": [
+          "\"공감성 수치\" \"뜻\" 신문",
+          "\"꾸꾸까까\" 유행어",
+          "\"극한직업\" \"밈\"",
+          "\"귀요미\" \"신조어\"",
+          "\"꾸꾸까까\" \"2026\"",
+          "\"꾸꾸까까\" \"따라\" \"주헌\"",
+          "\"공감성 수치\" \"2026\""
+        ],
+        "sources": [
+          "https://vod.jtbc.co.kr/player/clip/vo10388734",
+          "https://v.daum.net/v/LR2a38fjdV",
+          "https://dafanew.com/Interview/?bmode=view&idx=171934085&q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTU7fQ%3D%3D&t=board"
+        ],
+        "note": "2020officialclipcaption/2017otherperformerbroadcastreport/2026ownperformancecaption nototherreuse. Media0."
+      },
+      {
+        "id": "C170",
+        "observations": 12,
+        "recommended_expressions": 2,
+        "recommended_families": 1,
+        "existing": 4,
+        "existing_family": 1,
+        "held": 5,
+        "queries": [
+          "\"집콕\" \"신조어\" 뜻",
+          "\"집순이\" \"집돌이\" \"2026\" 기사",
+          "\"방구석 여포\" 뜻 기사",
+          "\"홈캉스\" \"2026\" 신조어",
+          "\"집순이\" \"집돌이\" \"뜻\" 기사",
+          "\"집돌이\" \"2026\" site:enews.imbc.com",
+          "\"홈루덴스\" \"뜻\"",
+          "\"방구석 1열\" \"뜻\"",
+          "\"집돌이\" \"2026\" \"인터뷰\"",
+          "\"집순이\" \"2026\" \"집에\" site:enews.imbc.com"
+        ],
+        "sources": [
+          "https://v.daum.net/v/20200106050709201?s=print_news",
+          "https://v.daum.net/v/39plIvfzZs",
+          "https://enews.imbc.com/News/RetrieveNewsInfo/504864"
+        ],
+        "note": "2020reportedselflabels/2026interviewselflabel/2026preview,personlabel notjipkokactivity. Nohealthortraitassumptions."
+      },
+      {
+        "id": "A168",
+        "ids": [
+          "0064",
+          "0066",
+          "0080",
+          "0101",
+          "0194",
+          "0229",
+          "0239",
+          "0240",
+          "0308",
+          "0318",
+          "0335",
+          "0376"
+        ],
+        "observations": 12,
+        "recommended": 0,
+        "held": 12,
+        "queries": [
+          "\"Point 드립\" 사용",
+          "\"를 알려주겠다\" \"밈\"",
+          "\"해버리기\" \"유행어\"",
+          "\"He is\" \"밈\" \"한국\"",
+          "\"거짓말하지 말아요\" \"패러디\"",
+          "\"귀여운 건 나도 알아\" \"패러디\"",
+          "\"그들의 연회에\" -site:namu.moe -site:seore.org",
+          "\"그러면 죽어요\" \"패러디\"",
+          "\"날 내버려둬\" \"밈\"",
+          "\"내 식사를 방해할 생각인가\" -site:namu.moe -site:seore.org",
+          "\"네가 하면 나도 한다\" \"밈\"",
+          "\"당연히 말이 되죠\" \"패러디\"",
+          "\"해버리기\" \"보겸\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+          "\"귀여운 건 나도 알아\" -site:namu.moe -site:seore.org -site:jjalbang.today",
+          "\"그러면 죽어요\" \"탈두리\" -site:namu.moe -site:seore.org",
+          "\"내 식사를 방해할 생각인가\" \"제목\""
+        ],
+        "note": "0229oldblogreread notnewapplication;0335HMHGMGarticleunrelatedspecificsource;0318Bugs403"
+      },
+      {
+        "id": "B649",
+        "observations": 12,
+        "conditional": 1,
+        "existing": 7,
+        "existing_family": 1,
+        "held": 3,
+        "queries": [
+          "\"영고\" \"신조어\"",
+          "\"짤털\" \"2026\"",
+          "\"시선강탈\" \"신조어\"",
+          "\"심스틸러\" \"뜻\"",
+          "\"영고\" \"2026\" -site:namu.moe",
+          "\"심스틸러\" \"2026\""
+        ],
+        "sources": [
+          "https://star.fnnews.com/article/201511241105370407",
+          "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02994646645415792"
+        ],
+        "note": "심스틸러 heart/scene wordplay:2015actorpraise/2026agencyawardname reported; notwholeinstitutionmeme/noordinarywinnersdetails."
+      },
+      {
+        "id": "A169",
+        "observations": 12,
+        "recommended": 0,
+        "held": 12,
+        "ids": [
+          "0526",
+          "0540",
+          "0555",
+          "0560",
+          "0566",
+          "0590",
+          "0591",
+          "0595",
+          "0599",
+          "0649",
+          "0687",
+          "0698"
+        ],
+        "queries": [
+          "\"밤 샌 사람\" \"일찍 일어난 사람\"",
+          "\"벽부수기\" \"밈\" -site:namu.moe -site:seore.org",
+          "\"북방코끼리바다표범\" \"밈\" -site:namu.moe",
+          "\"불티\" \"밈\" \"패러디\"",
+          "\"브레드 이발소\" \"밈\" \"패러디\"",
+          "\"삐뽀핑\" \"밈\" -site:namu.moe",
+          "\"벽돌할아버지\" \"로봇댄스\"",
+          "\"사랑의 열매\" \"밈\" -site:namu.moe",
+          "\"사이버펑크\" \"밈\" \"제작\" -site:namu.moe",
+          "\"스너고\" -site:namu.moe -site:seore.org",
+          "\"아로나 댄스\" \"제작\" -site:namu.moe",
+          "\"아이 러브 마이 화자 마자 브라자\" -site:namu.moe",
+          "\"아이 러브 마이 화자\" \"슈퍼비\" -site:namu.moe -site:seore.org",
+          "\"벽돌할아버지\" \"따라\" \"춤\" -site:namu.moe"
+        ],
+        "sources": [
+          "https://www.newsis.com/view/NISX20230404_0002252832",
+          "https://v.daum.net/v/20240225143600123"
+        ],
+        "note": "0526imageXwQSwunavailable;0591specificcoversverifiedbutrobotdancerelationunresolved;0698fontpreviewundatedoneuse;no mappings"
+      },
+      {
+        "id": "B650",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 7,
+        "held": 4,
+        "note": "역조공 accepted. 팬싸 partialfamily unresolved; 깔미 stigma not investigated further;감다뒤 not automaticallyalias."
+      },
+      {
+        "id": "C171",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 5,
+        "existing_family": 2,
+        "held": 4,
+        "note": "아웃오브안중 carried528. Originalcomments/media0."
+      },
+      {
+        "id": "A170",
+        "observations": 12,
+        "recommended": 0,
+        "held": 12,
+        "ids": [
+          "0062",
+          "0095",
+          "0098",
+          "0136",
+          "0220",
+          "0283",
+          "0346",
+          "0353",
+          "0377",
+          "0390",
+          "0474",
+          "0522"
+        ],
+        "note": "꾸래핑 product not independentmeme; fanfiction listing failedtargetmatch. No mappings."
+      }
+    ],
+    "coordinator": {
+      "lexical_terms": [
+        "눈바디",
+        "휘소가치",
+        "무지개매너",
+        "급여체",
+        "갬성",
+        "아만추",
+        "낭낭",
+        "댓림",
+        "멜림",
+        "차박"
+      ],
+      "existing": [
+        "무지개매너",
+        "갬성",
+        "낭낭",
+        "댓림"
+      ],
+      "held": [
+        "눈바디",
+        "휘소가치",
+        "급여체",
+        "아만추",
+        "멜림",
+        "차박"
+      ],
+      "recent_terms": [
+        "꿈꾸던 어른",
+        "와플대학 모찌시트",
+        "한한미일",
+        "랜덤 애인",
+        "라우럴",
+        "빼난지원금",
+        "얼데이드립",
+        "존박 맥도날드 랩",
+        "취뽀하겠어",
+        "산사"
+      ],
+      "recent_existing": 7,
+      "recent_held": 3,
+      "note": "Current newsletter catalogue notallmeme:한한미일 creatorprofile notindependentreuse;와플product;산사unverified. 급여체recentLedeskcachemiss. 아만추definitiononlyandexisting자만추familyrelationpending. Noacceptance."
+    },
+    "note": "Repeated expression observations, not unique memes. 영고 two direct openings failed, remains held. 벽돌할아버지 narrow format reserved for next review; not mapped to0591."
+  },
+  "query_groups": {
+    "B646": [
+      "\"랜선이모\" \"뜻\"",
+      "\"랜선삼촌\" \"2026\"",
+      "\"귀르가즘\" \"뜻\"",
+      "\"돌싱\" \"신조어\"",
+      "\"랜선 이모\" \"2026\" 뉴스",
+      "\"귀르가즘\" \"2026\" 뉴스"
+    ],
+    "A166": [
+      "\"동현이의 퍼니박스\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"더 마스터를 기억해줘\" -site:namu.moe -site:seore.org",
+      "\"롯데햄 후라이드 치킨\" 패러디 -site:namu.moe -site:seore.org",
+      "\"막심 센세\" -site:namu.moe -site:seore.org",
+      "\"물음표 드립\" -site:namu.moe -site:seore.org",
+      "\"맛나핑\" \"만들\" -site:namu.moe -site:seore.org",
+      "\"미쿠미쿠하게 해줄게\" \"패러디\" -site:namu.moe -site:seore.org",
+      "\"바바바바바바\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"밤 샌 사람\" \"일찍 일어난 사람\" -site:namu.moe -site:seore.org",
+      "\"봇이지 뭐\" -site:namu.moe -site:seore.org",
+      "\"북방코끼리바다표범\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"샤방송\" \"패러디\" -site:namu.moe -site:seore.org"
+    ],
+    "C167": [
+      "\"순삭\" \"뜻\" 기사",
+      "\"광탈\" \"뜻\" 기사",
+      "\"불금\" \"신조어\" 기사",
+      "\"혼영\" \"2026\" 기사",
+      "\"혼영\" \"2026\" 영화 혼자",
+      "\"혼밥\" \"혼술\" \"혼영\" 신조어",
+      "\"현질\" \"뜻\" 신문",
+      "\"월요병\" \"2026\" 제목",
+      "\"혼영\" \"2026\" site:enews.imbc.com",
+      "\"현질\" \"현금\" site:hani.co.kr"
+    ],
+    "coordinator": [
+      "\"급여체\" \"2026\"",
+      "\"아만추\" \"2026\"",
+      "\"멜림\" \"2026\"",
+      "\"급여체\" \"직장인\" \"2026\" -site:mk.co.kr",
+      "\"멜림\" \"메일\" 기사",
+      "\"아만추\" \"인만추\" 기사",
+      "\"급여체\" \"번역기\"",
+      "\"2026\" \"밈\" \"11월\" site:careet.net",
+      "\"2026\" \"밈\" \"11월\" site:maily.so/trendaword",
+      "\"급여체\" \"번역\" 직장 말",
+      "\"차박\" \"밈\" \"2026\"",
+      "\"휘소가치\" \"2026\"",
+      "\"2026\" \"미혼 앤 비혼\" 밈",
+      "\"2026\" \"밈\" \"리센느\"",
+      "\"영고\" \"신조어\"",
+      "\"영고\" \"고통받는\" -site:namu.moe -site:seore.org -신조어 -사전",
+      "\"영고\" \"2025\" \"유재석\""
+    ],
+    "C168": [
+      "\"내또출\" \"뜻\" 기사",
+      "\"운태기\" \"2026\"",
+      "\"오하운\" \"뜻\" 기사",
+      "\"갑분퇴\" 신조어",
+      "\"운태기\" 운동 권태기 기사",
+      "\"운태기\" site:enews.imbc.com",
+      "\"내돈내먹\" 신조어",
+      "\"갑분퇴\" 기사 -site:sinjoeo.kr"
+    ],
+    "B647": [
+      "\"단짠\" \"신조어\" 뜻",
+      "\"짠내\" \"신조어\" 뜻",
+      "\"랜선남친\" \"뜻\"",
+      "\"랜선여친\" \"2026\"",
+      "\"단짠\" \"매력\" \"2026\"",
+      "\"차애\" \"덕계타\" 뜻"
+    ],
+    "C169": [
+      "\"요똥\" \"뜻\" 기사",
+      "\"허당미\" \"2026\" 기사",
+      "\"망손\" \"뜻\" 기사",
+      "\"요잘알\" \"2026\"",
+      "\"요똥\" \"요리\" site:enews.imbc.com",
+      "\"허당미\" 뜻 site:co.kr -site:sinjoeo.kr -site:hoonmeme.com"
+    ],
+    "A167": [
+      "\"죄송합니다\" \"밈\" \"댄스\" -site:namu.moe -site:seore.org",
+      "\"지이잉\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"초코빅송\" -site:namu.moe -site:seore.org",
+      "\"차차핑\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"케인\" \"밈\" \"패러디\" -site:namu.moe -site:seore.org",
+      "\"킹 오브 프리즘\" \"패러디\" \"제작\" -site:namu.moe -site:seore.org",
+      "\"택배 드립\" -site:namu.moe -site:seore.org",
+      "\"파피 플레이타임\" \"패러디\" 한국 -site:namu.moe -site:seore.org",
+      "\"프라이데이 나이트 펑킨\" \"한국\" \"제작\" -site:namu.moe -site:seore.org",
+      "\"하츄핑\" \"패러디\" \"제작\" -site:namu.moe -site:seore.org",
+      "\"한글자 드립\" -site:namu.moe -site:seore.org",
+      "\"헬테이커\" \"패러디\" 한국 -site:namu.moe -site:seore.org"
+    ],
+    "B648": [
+      "\"공감성 수치\" \"뜻\" 신문",
+      "\"꾸꾸까까\" 유행어",
+      "\"극한직업\" \"밈\"",
+      "\"귀요미\" \"신조어\"",
+      "\"꾸꾸까까\" \"2026\"",
+      "\"꾸꾸까까\" \"따라\" \"주헌\"",
+      "\"공감성 수치\" \"2026\""
+    ],
+    "C170": [
+      "\"집콕\" \"신조어\" 뜻",
+      "\"집순이\" \"집돌이\" \"2026\" 기사",
+      "\"방구석 여포\" 뜻 기사",
+      "\"홈캉스\" \"2026\" 신조어",
+      "\"집순이\" \"집돌이\" \"뜻\" 기사",
+      "\"집돌이\" \"2026\" site:enews.imbc.com",
+      "\"홈루덴스\" \"뜻\"",
+      "\"방구석 1열\" \"뜻\"",
+      "\"집돌이\" \"2026\" \"인터뷰\"",
+      "\"집순이\" \"2026\" \"집에\" site:enews.imbc.com"
+    ],
+    "A168": [
+      "\"Point 드립\" 사용",
+      "\"를 알려주겠다\" \"밈\"",
+      "\"해버리기\" \"유행어\"",
+      "\"He is\" \"밈\" \"한국\"",
+      "\"거짓말하지 말아요\" \"패러디\"",
+      "\"귀여운 건 나도 알아\" \"패러디\"",
+      "\"그들의 연회에\" -site:namu.moe -site:seore.org",
+      "\"그러면 죽어요\" \"패러디\"",
+      "\"날 내버려둬\" \"밈\"",
+      "\"내 식사를 방해할 생각인가\" -site:namu.moe -site:seore.org",
+      "\"네가 하면 나도 한다\" \"밈\"",
+      "\"당연히 말이 되죠\" \"패러디\"",
+      "\"해버리기\" \"보겸\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"귀여운 건 나도 알아\" -site:namu.moe -site:seore.org -site:jjalbang.today",
+      "\"그러면 죽어요\" \"탈두리\" -site:namu.moe -site:seore.org",
+      "\"내 식사를 방해할 생각인가\" \"제목\""
+    ],
+    "B649": [
+      "\"영고\" \"신조어\"",
+      "\"짤털\" \"2026\"",
+      "\"시선강탈\" \"신조어\"",
+      "\"심스틸러\" \"뜻\"",
+      "\"영고\" \"2026\" -site:namu.moe",
+      "\"심스틸러\" \"2026\""
+    ],
+    "A169": [
+      "\"밤 샌 사람\" \"일찍 일어난 사람\"",
+      "\"벽부수기\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"북방코끼리바다표범\" \"밈\" -site:namu.moe",
+      "\"불티\" \"밈\" \"패러디\"",
+      "\"브레드 이발소\" \"밈\" \"패러디\"",
+      "\"삐뽀핑\" \"밈\" -site:namu.moe",
+      "\"벽돌할아버지\" \"로봇댄스\"",
+      "\"사랑의 열매\" \"밈\" -site:namu.moe",
+      "\"사이버펑크\" \"밈\" \"제작\" -site:namu.moe",
+      "\"스너고\" -site:namu.moe -site:seore.org",
+      "\"아로나 댄스\" \"제작\" -site:namu.moe",
+      "\"아이 러브 마이 화자 마자 브라자\" -site:namu.moe",
+      "\"아이 러브 마이 화자\" \"슈퍼비\" -site:namu.moe -site:seore.org",
+      "\"벽돌할아버지\" \"따라\" \"춤\" -site:namu.moe"
+    ],
+    "B650": [
+      "\"역조공\" \"뜻\"",
+      "\"깔미\" \"신조어\"",
+      "\"감다뒤\" \"2026\"",
+      "\"생파\" \"2026\"",
+      "\"역조공\" \"2026\" \"팬들에게\""
+    ],
+    "C171": [
+      "\"동공지진\" \"2026\" site:enews.imbc.com",
+      "\"뇌정지\" \"신조어\" 기사",
+      "\"유리멘탈\" \"뜻\" 기사",
+      "\"아웃오브안중\" \"뜻\" 기사",
+      "\"아웃오브안중\" \"2026\"",
+      "\"아웃 오브 안중\" 기사",
+      "\"버퍼링\" \"2026\" \"당황\" site:enews.imbc.com",
+      "\"현생불가\" \"2026\""
+    ],
+    "A170": [
+      "\"64 bits\" \"밈\" 한국 -site:namu.moe",
+      "\"street photographer\" \"밈\" 한국 -site:namu.moe",
+      "\"FBI OPEN UP\" \"패러디\" 한국 -site:namu.moe",
+      "\"Pink Elephants on Parade\" \"밈\" 한국 -site:namu.moe",
+      "\"구찌보이\" \"패러디\" -site:namu.moe",
+      "\"꾸래핑\" \"밈\" -site:namu.moe",
+      "\"누나 좋아해요\" \"밈\" -site:namu.moe",
+      "\"늬픽\" -site:namu.moe -site:seore.org",
+      "\"대기업에 입사한 아들의 깨달음\" -site:namu.moe",
+      "\"독일초딩\" \"패러디\" -site:namu.moe",
+      "\"면제겜\" 뜻 -site:namu.moe",
+      "\"박씨 꺼져\" -site:namu.moe"
+    ]
+  },
+  "query_increment": 155,
+  "query_observations": 14240,
+  "distinct_literal_queries": 11652,
+  "preaudit": {
+    "first2": {
+      "status": "PASS",
+      "required": 0
+    },
+    "second2": {
+      "status": "PASS",
+      "required": 0
+    },
+    "third2": {
+      "status": "PASS",
+      "required": 0
+    },
+    "fourth2": {
+      "status": "PASS",
+      "required": 0
+    },
+    "sim": {
+      "status": "PASS",
+      "required": 0
+    },
+    "tenth": {
+      "status": "PASS",
+      "required": 0,
+      "note": "Independent auditor reopened all3sources; origin video not viewed."
+    }
+  },
+  "limits": [
+    "Historical and recent uses distinguished, original media0.",
+    "All1908prior bodies and1091candidate classifications unchanged. usage74/reviewed73, protected bodies/main unchanged.",
+    "New checkpoint CI pending; previous1908CI65/65 and497Python tests passed.",
+    "영고 direct two sources inaccessible; not accepted. Gifts are vocabulary scope, not purchasing advice."
+  ]
+}
