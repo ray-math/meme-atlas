@@ -961,6 +961,7 @@
 - [아기상어 챌린지](../memes/baby-shark-challenge.md)
 - [아마존 익스프레스 댄스](../memes/amazon-express-dance.md)
 - [아무노래 챌린지](../memes/any-song-challenge.md)
+- [아웅다웅 챌린지](../memes/aung-daung-challenge.md)
 - [앙탈 챌린지](../memes/angtal-challenge.md)
 - [야르송](../memes/yareu-song.md)
 - [연애의 조건 챌린지](../memes/love-options-challenge.md)

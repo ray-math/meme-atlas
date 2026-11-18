@@ -129,10 +129,11 @@
     "reports/bulk/connector-resume-wave30-286.json",
     "reports/bulk/connector-resume-wave30-287.json",
     "reports/bulk/connector-resume-wave30-289.json",
-    "reports/bulk/connector-resume-wave30-290.json"
+    "reports/bulk/connector-resume-wave30-290.json",
+    "reports/bulk/connector-resume-wave30-291.json"
   ],
-  "query_observations": 2527,
-  "distinct_literal_queries": 2049,
+  "query_observations": 2535,
+  "distinct_literal_queries": 2056,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -12969,6 +12970,46 @@
     {
       "query": "테크놀로히아",
       "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아웅다웅\" \"챌린지\" 에이티즈 2026",
+      "source": "reports/bulk/connector-resume-wave30-291.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아웅다웅\" \"챌린지\" site:clip.imbc.com",
+      "source": "reports/bulk/connector-resume-wave30-291.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아웅다웅\" \"챌린지\" 라이즈 위시",
+      "source": "reports/bulk/connector-resume-wave30-291.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아웅다웅 챌린지\" 마마무",
+      "source": "reports/bulk/connector-resume-wave30-291.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아웅다웅\" \"사나\" \"쯔위\"",
+      "source": "reports/bulk/connector-resume-wave30-291.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아웅",
+      "source": "reports/bulk/connector-resume-wave30-291.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "다웅",
+      "source": "reports/bulk/connector-resume-wave30-291.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Yyeon",
+      "source": "reports/bulk/connector-resume-wave30-291.json",
       "status": "screened-see-report"
     }
   ],
