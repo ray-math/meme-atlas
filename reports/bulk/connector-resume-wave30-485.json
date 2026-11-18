@@ -1,0 +1,262 @@
+{
+  "batch": 485,
+  "base": "656360b566003b39f3272422af9f3ff140ee08bd",
+  "canonical_before": 1491,
+  "canonical_after": 1498,
+  "added": [
+    "normalization-game-operation-irony",
+    "musinsa-lotteria-account-role-swap",
+    "recent-online-community-news-style-parody",
+    "kyaru-again-text-reaction",
+    "miruni-stage-response-contrast",
+    "byeongsin-tv-channel-insult",
+    "byeongjin-insult-spelling-variant"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0914",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "normalization-game-operation-irony"
+    },
+    {
+      "id": "kr-list-0990",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "recent-online-community-news-style-parody"
+    },
+    {
+      "id": "kr-list-1006",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "kyaru-again-text-reaction"
+    },
+    {
+      "id": "kr-list-0506",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "miruni-stage-response-contrast"
+    },
+    {
+      "id": "kr-list-0541",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "byeongsin-tv-channel-insult"
+    },
+    {
+      "id": "kr-list-0542",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "byeongjin-insult-spelling-variant"
+    }
+  ],
+  "previous_ci": {
+    "sha": "656360b566003b39f3272422af9f3ff140ee08bd",
+    "run": 44311479484,
+    "job": 134826452910,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 159.540s"
+  },
+  "previous_audit": {
+    "sha": "656360b566003b39f3272422af9f3ff140ee08bd",
+    "result": "pass",
+    "mandatory_fixes": 0,
+    "canonical": 1491,
+    "old_index_records_preserved": 1479,
+    "old_body_changes": 0,
+    "candidate_changes": 10,
+    "mapping_loss": 0,
+    "source_urls_reopened": 15,
+    "usage": {
+      "total": 1491,
+      "annotated": 74,
+      "reviewed": 73,
+      "unannotated": 1417
+    },
+    "media": 0,
+    "CI": "separate",
+    "note": "Cosmopolitan initialtruncation corrected by readinglaterlines,all15sourcesreopened."
+  },
+  "research": {
+    "A47": {
+      "count": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"자러감\" 드립",
+        "\"잘생겨서 안 좋은 점\"",
+        "\"저런\" \"상상하고 싶지도 않네요\"",
+        "\"정상화\" \"신창섭\" 밈",
+        "\"잭 오 챌린지\"",
+        "\"적폐\" 게임 용어",
+        "\"제 딸을 살해한 놈들을 15년 후에 죽여주세요\"",
+        "\"정상화\" \"밈\" -site:namu.moe -site:alphawiki.org -site:seore.org",
+        "\"조이는 보이\"",
+        "\"죽습니다 진짜\" 밈",
+        "\"지이잉\" 밈",
+        "\"천상천하 유아독존\" 밈",
+        "\"죄송합니다\" 밈 짤",
+        "\"잘생겨서 안 좋은 점\" 패러디",
+        "\"적폐\" \"캐릭터\" \"기자\"",
+        "\"정상화\" \"밈\" \"게임메카\"",
+        "게임 적폐 캐릭터 뜻",
+        "\"정상화\" \"게임\" \"밈\" 기사",
+        "\"잭오 챌린지\" \"게임\"",
+        "\"죽습니다 진짜\" \"춥습니다\""
+      ],
+      "notes": "20 historical rechecks notnewdiscovery. 1limitedrecommendation. 8rows noexternalquery notverified. 0940onlyauthor explanatory classification,no originalvideo."
+    },
+    "A48": {
+      "count": 20,
+      "recommended": 2,
+      "existing_partial": 1,
+      "held": 17,
+      "queries": [
+        "\"초코빅송\"",
+        "\"최근 한 온라인 커뮤니티 게시판에는\" 밈",
+        "\"캬루\" \"배신\" 밈",
+        "\"맛있는 겨울배\"",
+        "\"천안문\" \"삭제\" \"밈\"",
+        "\"초난강\" \"패러디\"",
+        "\"코렁탕\" 뜻",
+        "\"택배 드립\"",
+        "\"초코빅\" \"패러디\"",
+        "\"차차핑\" 밈",
+        "\"캡콤은 개껌이 아니라\"",
+        "\"크아아악\" \"밈\"",
+        "\"최근 한 온라인 커뮤니티 게시판에는\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"초난강\" \"사랑해요\" \"패러디\"",
+        "\"킹 오브 프리즘\" \"패러디\"",
+        "\"캬루 또 너야\" -site:namu.moe -site:seore.org",
+        "\"차차핑\" \"노래\" 밈",
+        "\"초코빅송\" -site:namu.moe -site:seore.org",
+        "\"맛있는 겨울배\" 패러디 -site:namu.moe -site:alphawiki.org -site:seore.org",
+        "\"최근 한 온라인 커뮤니티\" \"고로케\""
+      ],
+      "notes": "20 rechecked notnewdiscovery,5sourcepages2existingbodies.1034talmor-party-song-parody existingpartial scope only,notnewmapping. Inven502excluded."
+    },
+    "B514": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 5,
+      "held": 9,
+      "excluded": 5,
+      "queries": [
+        "2026 \"놀이\" \"유행\" site:univ20.com",
+        "2026 \"SNS\" \"사진 놀이\"",
+        "2026 \"밈\" \"챌린지\" site:design.co.kr",
+        "2026 \"네컷\" \"포즈\" \"유행\"",
+        "2026 \"주댕치\"",
+        "2026 \"사진\" \"챌린지\" site:marieclairekorea.com",
+        "\"주댕치\" \"2026\" \"별명\"",
+        "\"주댕치\" \"나무\"",
+        "\"엄\" \"헐\" \"데일리안\"",
+        "\"무신사\" \"롯데리아\" \"2026\" \"프로필\""
+      ],
+      "notes": "One brandcampaign,originalInstagram0. Dailianrewritten-summary notverified. DynamicCareetpage timestampandtitle inbody."
+    },
+    "C28": {
+      "count": 20,
+      "recommended": 3,
+      "conditional": 1,
+      "held": 16,
+      "editor_disposition": {
+        "published": 3,
+        "held": 17
+      },
+      "queries": [
+        "\"뭉탱이\" 밈 유래 -site:namu.moe -site:seore.org",
+        "\"미안송\" 패러디",
+        "\"미쿠미쿠하게 해줄게\" 한국 커버",
+        "\"밤 샌 사람\" \"일찍 일어난 사람\"",
+        "\"물음표 드립\" 뜻",
+        "\"미룬이 사태\"",
+        "\"미안송\" \"유행\"",
+        "\"민주에몽\" 뜻",
+        "\"맛나핑\" 패러디",
+        "\"바바바바바바\" 밈",
+        "\"박씨 꺼져\" 유래",
+        "\"방송 되게 못하네\"",
+        "\"베트남론\" 혐오 비판",
+        "\"벽부수기\" 밈",
+        "\"병신TV\" 뜻",
+        "\"봇이지 뭐\"",
+        "\"밥 먹을 때 생각나는 후라이 똥 튀김\"",
+        "\"병진\" 인터넷 표현",
+        "\"뭉탱이\" site:whitefaceone.tistory.com",
+        "\"미안송\" 이재수"
+      ],
+      "notes": "4external2existingbodyreads,media0.0533originalbroadcastonly held;0694repeat preserved. PDF/video searchonly excluded."
+    }
+  },
+  "sources": [
+    {
+      "id": "normalization-game-operation-irony",
+      "urls": [
+        "https://news.nate.com/view/20241026n04532",
+        "https://www.gamemeca.com/view.php?gid=1762716"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "musinsa-lotteria-account-role-swap",
+      "urls": [
+        "https://www.careet.net/MicroTrend?pageidx=4"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "recent-online-community-news-style-parody",
+      "urls": [
+        "https://rainygirl.github.io/2013/02/hot-coroke-net-opening",
+        "https://chingusai.net/xe/freeboard/290741"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kyaru-again-text-reaction",
+      "urls": [
+        "https://trees.gamemeca.com/view.php?gid=1644024",
+        "https://memeislife.tistory.com/125",
+        "https://www.clien.net/service/board/cm_ku/18788544?category=0&groupCd=&od=T31&po=0"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "miruni-stage-response-contrast",
+      "urls": [
+        "https://psytimes.co.kr/news/view.php?idx=9137"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "byeongsin-tv-channel-insult",
+      "urls": [
+        "https://biz.chosun.com/site/data/html_dir/2018/11/21/2018112102613.html?outputType=amp"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "byeongjin-insult-spelling-variant",
+      "urls": [
+        "https://v.daum.net/v/M0L9s431HD"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "80 observations:7published,6existing/partialscope observations,62held,5excluded; no claim80newunique discoveries.",
+    "1034existingpartial scope reconfirmed only;no newmapping inthisbatch.",
+    "0533held originalbroadcastonly;0694repeat preserved.",
+    "Normalisation shares YNA sourcegroup with did-it-all-for-you but bounded evaluativeword distinctfromlistingtemplate. Noexistingbodyedited.",
+    "Careet dynamicpage identified by2026-11-18andtitle, onebrandcampaignnotglobalformat;nooriginalIGopened.",
+    "C28insults explainedcritically, minorsidentitiesexcluded, originalimages/videos0."
+  ],
+  "query_observations": 9933,
+  "distinct_literal_queries": 8322,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
