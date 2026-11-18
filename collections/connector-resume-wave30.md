@@ -88,3 +88,4 @@
 - [뒷공부 근절 캠페인](../memes/secret-study-campaign.md)
 - [고구마구웠어요](../memes/roasted-sweet-potato-thanks.md)
 - [전남 여수시 소라면 사곡리 산94](../memes/heart-island-address.md)
+- [자려고 누웠는데 양의지](../memes/lying-down-yang-euiji.md)

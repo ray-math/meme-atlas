@@ -1,0 +1,52 @@
+{
+  "batch": 254,
+  "canonical_before": 914,
+  "canonical_after": 915,
+  "added": "lying-down-yang-euiji",
+  "queries": [
+    "\"2026\" \"밈\" site:genie.co.kr/magazine",
+    "\"2026\" \"밈\" site:melon.com/musicstory",
+    "\"2026\" \"밈\" site:univ20.com \"11월\"",
+    "\"선플 달기 운동\" \"밈\"",
+    "\"도덕 수업 시간의 일환\" -site:genie.co.kr",
+    "\"자려고 누웠는데 양의지\"",
+    "\"양의지\" \"밈\" site:imnews.imbc.com \"2026\"",
+    "\"자려고 누웠는데 양의지\" \"6월 3일\""
+  ],
+  "index_queries": [
+    "양의지",
+    "자려고누웠는데",
+    "꽃집",
+    "선플",
+    "도덕",
+    "원화연",
+    "사범님",
+    "갑자기",
+    "yang"
+  ],
+  "evidence": {
+    "independent_reported_reuse_events": 2,
+    "original_videos_reviewed": 0,
+    "exact_dated_report": "2026-05-28",
+    "melon_publication_date": "unknown; 2026 context; June 3 event",
+    "sources": [
+      "https://news.nate.com/view/20260528n23358",
+      "https://www.melon.com/musicstory/detail.htm?mstorySeq=17081",
+      "https://www.incross.com/ko/insight/report.asp?idx=10918&mode=view"
+    ]
+  },
+  "holds": [
+    "선플 달기 운동",
+    "도덕 수업 시간의 일환"
+  ],
+  "not_verified_candidates": [
+    "원화연",
+    "사범님"
+  ],
+  "checks": "914 base dedup: no 양의지/자려고/꽃집 match; base list generator roundtrip passed; no Codex/main changes",
+  "metrics": {
+    "query_observations": 1694,
+    "distinct_literal_queries": 1375
+  },
+  "ci": "not run"
+}

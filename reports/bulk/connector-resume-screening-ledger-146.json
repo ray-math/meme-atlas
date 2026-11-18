@@ -95,10 +95,11 @@
     "reports/bulk/connector-resume-wave30-250.json",
     "reports/bulk/connector-resume-wave30-251.json",
     "reports/bulk/connector-resume-wave30-252.json",
-    "reports/bulk/connector-resume-wave30-253.json"
+    "reports/bulk/connector-resume-wave30-253.json",
+    "reports/bulk/connector-resume-wave30-254.json"
   ],
-  "query_observations": 1677,
-  "distinct_literal_queries": 1359,
+  "query_observations": 1694,
+  "distinct_literal_queries": 1375,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -8685,6 +8686,91 @@
     {
       "query": "오디세이",
       "source": "reports/bulk/connector-resume-wave30-253.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:genie.co.kr/magazine",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:melon.com/musicstory",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:univ20.com \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"선플 달기 운동\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"도덕 수업 시간의 일환\" -site:genie.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자려고 누웠는데 양의지\"",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"양의지\" \"밈\" site:imnews.imbc.com \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자려고 누웠는데 양의지\" \"6월 3일\"",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "양의지",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "자려고누웠는데",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꽃집",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "선플",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도덕",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "원화연",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사범님",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갑자기",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "yang",
+      "source": "reports/bulk/connector-resume-wave30-254.json",
       "status": "screened-see-report"
     }
   ],

@@ -683,6 +683,7 @@
 - [있었는데요 없었습니다](it-was-gone.md)
 - [잉여](ingyeo.md)
 - [자강두천](jagang-ducheon.md)
+- [자려고 누웠는데 양의지](lying-down-yang-euiji.md)
 - [자만추](jaman-chu.md)
 - [자삭](jasak.md)
 - [잘자 내 꿈 꿔](dream-of-me.md)
