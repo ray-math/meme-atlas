@@ -1,0 +1,131 @@
+{
+  "batch": 413,
+  "base": "9ed4227872cb901d79ad296d929eb49e0341fb3a",
+  "canonical_before": 995,
+  "canonical_after": 995,
+  "added": [],
+  "final_body_audit_995": {
+    "passed": true,
+    "body_reads": 1,
+    "required_changes": 0,
+    "external_reads_this_final_audit": 0
+  },
+  "ci_995": {
+    "run": 44255188521,
+    "job": 134635080055,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": 57.523
+  },
+  "researchB": {
+    "batch": "b1004",
+    "index_basis": 994,
+    "rows_screened": 5,
+    "recommended": 0,
+    "held": 5,
+    "queries": [
+      "\"냥캣\" \"2026\"",
+      "\"Siuuuu\" \"2026\" 한국",
+      "\"X키를 눌러\" \"2026\"",
+      "\"Yee\" \"2026\" 밈",
+      "\"강풍올백\" \"2026\" 패러디",
+      "\"X를 눌러 조의\" \"2026\"",
+      "\"냥캣\" 패러디 한국",
+      "\"호우 세리머니\" \"2026\"",
+      "\"호우 세리머니\" \"2026\" -호날두 -음바페 -산토스",
+      "\"강풍올백\" 제작 넥슨",
+      "\"X를 눌러 조의를\" -site:namu.moe -site:seore.org"
+    ],
+    "findings": [
+      {
+        "id": "0152",
+        "title": "X키를 눌러 조의",
+        "direct_recent_application": "https://mabinogi.nexon.com/eternity/alphatest/screenshot_view.asp?id=763290",
+        "date": "2026-09-04",
+        "scope": "공식 사이트 이용자 게시물의 제목·본문. 제작사 공식 활용 아님. 스크린샷 미확인.",
+        "explanation": "https://www.gamemeca.com/view.php?gid=1761193",
+        "explanation_date": "2025-05-08",
+        "limits": "해설은 최근1년 밖이며 별도 실제사용 아님. Orbi80008743 접근실패, 인벤7199314 502. 직접사용1건이므로 보류."
+      },
+      {
+        "id": "0132",
+        "title": "Nyan Cat",
+        "note": "최근 한국 독립 차용 2군 미확보. 다른 고양이 밈과 구별."
+      },
+      {
+        "id": "0143",
+        "title": "Siuuuu",
+        "note": "본인/해외 선수 세리머니와 국내 밈 차용 구별. 산토스 국내 사례는 b993 중복."
+      },
+      {
+        "id": "0153",
+        "title": "Yee",
+        "note": "국내 독립사용 미확보. 코인 및 Yee-haw 제외."
+      },
+      {
+        "id": "0174",
+        "title": "강풍 올백",
+        "note": "원곡·공연·노래방과 패러디 구별. 넥슨 제작은 위키 단서만, 확정하지 않음."
+      }
+    ],
+    "media_viewed": 0
+  },
+  "editor": {
+    "queries": [
+      "\"X키를 눌러 조의\" \"2026\" -site:namu.moe -site:inven.co.kr",
+      "\"X를 눌러 조의\" \"2026\" -site:namu.moe -site:inven.co.kr"
+    ],
+    "result": "추가 직접 차용 미확보. 해설 블로그 검색목록과 무관한 결과는 사용사례로 채택하지 않음."
+  },
+  "candidate_changes": 0,
+  "coverage_basis": "reports/bulk/connector-resume-coverage-current-412.json",
+  "ci_new_commit": "pending",
+  "researchA": {
+    "queries": [
+      "2026 밈 \"제목\" site:magazine.hankyung.com",
+      "2026 밈 \"유행어\" site:news.unn.net",
+      "2026 밈 \"따라\" site:scourt.go.kr",
+      "2026 밈 \"패러디\" site:news.seoul.go.kr",
+      "\"2026\" \"밈\" site:univ20.com/Magazine/Detail",
+      "\"2026\" \"밈\" site:marieclairekorea.com/culture",
+      "\"2026\" \"유행어\" site:allurekorea.com",
+      "\"2026\" \"밈\" site:eyesmag.com/posts",
+      "\"구멍난 가슴\" \"챌린지\" \"2026\"",
+      "\"디큰 디시\" 챌린지 한국"
+    ],
+    "materials_screened": 10,
+    "recommended": 0,
+    "existing": [
+      "pelvis-wont-stop",
+      "smooth-smooth",
+      "geoje-yaho",
+      "word-on-beat",
+      "2026-is-new-2016",
+      "young-creator-crew"
+    ],
+    "overlap": "첫눈 AI 필터는 ai-sapporo-shot 범위와 겹침",
+    "held": [
+      "구멍난 가슴 챌린지",
+      "드근드시 / 디큰 디시",
+      "Yosho Hai"
+    ],
+    "sources": [
+      {
+        "url": "https://www.univ20.com/Magazine/Detail/3824",
+        "date": "2026-01-23",
+        "note": "설명자료1군, 개별 제작원문 확인 아님. 회고시점 혼재해 2026 최초유행으로 환산 안 함. 드근드시/디큰디시 동일곡 발음."
+      },
+      {
+        "url": "https://www.marieclairekorea.com/newnew/2026/01/new-year-newkey/",
+        "note": "표시일01-02 별도타임스탬프01-09, 리듬게임 기존범위"
+      },
+      {
+        "url": "https://www.marieclairekorea.com/celebrity/2026/03/2026-april-kpop-comeback-lineup/",
+        "date": "2026-03-09",
+        "note": "영크크 기존범위"
+      }
+    ],
+    "limits": "TikTok 검색 및 음원페이지 접근실패, 이미지/영상 확인0. 외모정병은 포괄표현으로 심층후보 미채택."
+  }
+}
