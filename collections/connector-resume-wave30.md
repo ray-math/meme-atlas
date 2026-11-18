@@ -151,3 +151,5 @@
 - [어 맞아맞아 놀랍지만 그건 사실이야](../memes/yes-surprisingly-true.md)
 
 - [댓댓 챌린지](../memes/that-that-challenge.md)
+
+- [무너진 밸런스가 캐시템 수요를 만든다](../memes/broken-balance-cash-demand.md)

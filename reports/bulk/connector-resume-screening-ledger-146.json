@@ -158,10 +158,11 @@
     "reports/bulk/connector-resume-wave30-326.json",
     "reports/bulk/connector-resume-wave30-327.json",
     "reports/bulk/connector-resume-wave30-328.json",
-    "reports/bulk/connector-resume-wave30-329.json"
+    "reports/bulk/connector-resume-wave30-329.json",
+    "reports/bulk/connector-resume-wave30-330.json"
   ],
-  "query_observations": 3469,
-  "distinct_literal_queries": 2926,
+  "query_observations": 3529,
+  "distinct_literal_queries": 2976,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -17708,6 +17709,306 @@
     {
       "query": "둘리|애기공룡",
       "source": "reports/bulk/connector-resume-wave30-329.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가챠걸\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"거룡을 상대한\"",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"거짓말하지 말아요\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건우 엄마 데리고 와\"",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"계획대로\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고수와 하수 차이\"",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"곤룡포좌\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"공항도둑\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"곽윤기\" \"뒷선수\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Point\" \"드립\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건우 엄마\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"곽윤기 뒷선수\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"곽윤기 뒷선수\" \"패러디\" 유세윤",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빅 나티를 변기에\"",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빨강 사기맵\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사고 쳤을 때\" \"입 다물고\"",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사회적 거리두기\" \"패러디\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"섊\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"세뇌교육\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"센송합니다\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"속보)\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스까듭밥\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"실시간으로 상황을 지켜보는 비와이\"",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무너진 밸런스가 캐시템\" -site:inven.co.kr -site:namu.moe -site:seore.org -site:a-ha.io",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"공식\" \"11월\" -site:namu.moe -site:seore.org -site:instablank.com -site:meme100.me",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"패러디\" \"11월\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"읽기 않음\" \"2026\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴근\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"공룡만 해\" \"2026\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴근\" 후기 -뜻 -유래 -신조어 -site:jjalbang.today -site:slangdunk.com",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴\" \"오늘\" -뜻 -유래",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라우럴",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "북극곰",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "공룡만",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "읽기 않음",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "커터칼",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도니살",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "역세권",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "기도해",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "몸이 안",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "X키|조의|respect",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개돼지",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "국밥",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뭔데|씹덕",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그치만|하지만",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "어쩔|알빠",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "긴빠이|훔치",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "깨어|용사|awake",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개추|추천",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "날강두|호날두",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "너굴|라쿤",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "너어는",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누나|죽어",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인생|레전드",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "당연히|말이 되",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "대한민국|망했",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "돈이 될|돈.*될까",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "듀얼|유희왕",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뜌땨",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "몰루|몰\\?루|몰라",
+      "source": "reports/bulk/connector-resume-wave30-330.json",
       "status": "screened-see-report"
     }
   ],
