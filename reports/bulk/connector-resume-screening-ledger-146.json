@@ -66,10 +66,11 @@
     "reports/bulk/connector-resume-audit-holds213.json",
     "reports/bulk/connector-resume-screening214.json",
     "reports/bulk/connector-resume-screening215.json",
-    "reports/bulk/connector-resume-discovery216.json"
+    "reports/bulk/connector-resume-discovery216.json",
+    "reports/bulk/connector-resume-screening218.json"
   ],
-  "query_observations": 1034,
-  "distinct_literal_queries": 830,
+  "query_observations": 1051,
+  "distinct_literal_queries": 847,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -5441,6 +5442,91 @@
     {
       "query": "프랑스|papa|만두",
       "source": "reports/bulk/connector-resume-discovery216.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" \"11월\" -site:namu.moe -site:shorti.ai -site:maketrends.com",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"패러디\" \"10월\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"공식 블로그\"",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"인용\" \"브랜드\"",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"문구\" \"공식\" -site:instablank.com -site:jjalbang.today -site:luckyvicky.moamoang.co.kr -site:namu.moe",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"신조어·밈·코딩\"",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"현수막\" \"밈\" 신입생",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"도대체 뭘 자꾸\" \"2026\" -site:onmeme.com -site:instablank.com",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나 됐어요\" \"대졸자\"",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내가 누군데\" \"최미나수\" 패러디",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나 됐어요\" \"밈\"",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤갈샤갈\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내가 누군데\" \"최미나수\" \"따라\"",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내가 누군데\" \"2026\" \"밈\" -site:i-boss.co.kr -site:somako.co.kr -site:openads.co.kr -site:mobiinside.co.kr",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나 됐어요\" -site:jjalbang.today -site:scribd.com",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나 됐어요\" \"밈\" \"타입캐스트\"",
+      "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"저 됐어요\" \"밈\" 원본",
+      "source": "reports/bulk/connector-resume-screening218.json",
       "status": "screened-see-report"
     }
   ],
