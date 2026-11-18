@@ -153,10 +153,11 @@
     "reports/bulk/connector-resume-wave30-321.json",
     "reports/bulk/connector-resume-wave30-322.json",
     "reports/bulk/connector-resume-wave30-323.json",
-    "reports/bulk/connector-resume-wave30-324.json"
+    "reports/bulk/connector-resume-wave30-324.json",
+    "reports/bulk/connector-resume-wave30-325.json"
   ],
-  "query_observations": 3265,
-  "distinct_literal_queries": 2747,
+  "query_observations": 3290,
+  "distinct_literal_queries": 2770,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -16683,6 +16684,131 @@
     {
       "query": "\"아몰랑\" 2026",
       "source": "reports/bulk/connector-resume-wave30-324.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그거 먹는 건가요\" 대학",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"교토식 화법\" \"브런치\"",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그거 먹는 건가요\" 개발 블로그",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"난 아무렇지 않지 않아\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"날 내버려둬\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내 거에 올라온 네 욕 볼래\"",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너 고소\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"니 인생이 레전드다\"",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"닌자 몰살\" 소설 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다 부질없는 개뻘짓이다\"",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"당신이 옳았어\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"대한민국 완전히 망했네요\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"대환장 파티\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "먹는건가",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "교토",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아무렇지않지",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "내버려둬",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "욕볼래",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "너고소",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인생이레전드",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "닌자",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개뻘짓",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "당신이옳",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "완전히망",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "대환장",
+      "source": "reports/bulk/connector-resume-wave30-325.json",
       "status": "screened-see-report"
     }
   ],

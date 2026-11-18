@@ -149,6 +149,7 @@
 - [궁예질](../memes/gungyejil.md)
 - [귀하게 자란 내가 이런 걸 봐도 될까](../memes/precious-me-watch-this.md)
 - [그 잡채](../memes/geu-japchae.md)
+- [그거 먹는 건가요](../memes/is-that-something-to-eat.md)
 - [그러세요 그럼](../memes/geureoseyo-geureom.md)
 - [그런데 그것이 실제로 일어났습니다](../memes/it-actually-happened.md)
 - [그럼 다음은 무조건 ○○겠지](../memes/next-trend-wish-template.md)

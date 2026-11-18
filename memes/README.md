@@ -118,6 +118,7 @@
 - [귀요미송](gwiyomi-song.md)
 - [귀하게 자란 내가 이런 걸 봐도 될까](precious-me-watch-this.md)
 - [그 잡채](geu-japchae.md)
+- [그거 먹는 건가요](is-that-something-to-eat.md)
 - [그건 절대 안 되는 일이얌](not-allowed-ilyam.md)
 - [그랜절](grand-bow.md)
 - [그러세요 그럼](geureoseyo-geureom.md)
