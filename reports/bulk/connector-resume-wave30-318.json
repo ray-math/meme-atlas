@@ -1,0 +1,43 @@
+{
+  "batch": 318,
+  "base": "fa40e42415b83feaac648babed2555532a8f087f",
+  "canonical_before": 950,
+  "canonical_after": 951,
+  "added": [
+    "about-that-time-template"
+  ],
+  "sources": [
+    {
+      "url": "https://academics.cu.ac.kr/home/board/biomedi/pharma/notice/view/31799",
+      "date": "2026-11-03",
+      "type": "official promotional body"
+    },
+    {
+      "url": "https://smwel.semyung.ac.kr/cop/bbs/BBSMSTR_000000001788/selectBoardList.do",
+      "date": "2026-06-29",
+      "type": "official list title only"
+    },
+    {
+      "url": "https://everymemes.tistory.com/705",
+      "date": "2023-05-14",
+      "type": "background explanation"
+    }
+  ],
+  "verification": {
+    "editor_read": 3,
+    "independent_auditor_read": 3,
+    "recent_text_source_groups": 2,
+    "videos_viewed": 0,
+    "detail_rewritten_summary_excluded": true,
+    "origin_confirmed": false
+  },
+  "coverage_counts": {
+    "index_not_found": 328,
+    "partial": 40,
+    "unclear": 338,
+    "automatic_title_alias_match": 328,
+    "included": 53,
+    "candidate_repeat": 4
+  },
+  "limits": "최근 텍스트 적용 2군은 대학 자체 영상제작 2건이라는 뜻이 아니다. 원본 후보 스냅샷 유지. CI pending."
+}

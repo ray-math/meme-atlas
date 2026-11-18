@@ -30,6 +30,7 @@
 - [~삐](ppi.md)
 - [~재질](jaejil-vibe.md)
 - [~하쥬?](hajyu-speech.md)
+- [~한 건에 대하여](about-that-time-template.md)
 - [○○ 사건](oo-sageon.md)
 - [○○ 와졌어](ended-up-here.md)
 - [○○ 필수 호신술](everyday-self-defense-parody.md)
