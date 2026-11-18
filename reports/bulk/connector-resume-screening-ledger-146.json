@@ -96,10 +96,11 @@
     "reports/bulk/connector-resume-wave30-251.json",
     "reports/bulk/connector-resume-wave30-252.json",
     "reports/bulk/connector-resume-wave30-253.json",
-    "reports/bulk/connector-resume-wave30-254.json"
+    "reports/bulk/connector-resume-wave30-254.json",
+    "reports/bulk/connector-resume-wave30-255.json"
   ],
-  "query_observations": 1694,
-  "distinct_literal_queries": 1375,
+  "query_observations": 1715,
+  "distinct_literal_queries": 1393,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -8771,6 +8772,111 @@
     {
       "query": "yang",
       "source": "reports/bulk/connector-resume-wave30-254.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"홍보영상\" \"국장님\"",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"공식\" \"도서관\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"신입사원\" \"패러디\" -site:namu.moe -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"사내\" \"말투\"",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"군청\" \"영상\" -슬릭백 -관짝",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"서울 자가에\" \"패러디\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"국장님\" \"빈집은행\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"I can see\" \"나는 할 수 있는가\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나는 할 수 있는가 보다\" \"2026\" -site:ekr.or.kr -site:streamrecorder.io",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"서울 자가에\" \"패러디\" -site:namu.moe -site:namu.wiki -김부장 -김부장이야기",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"김부장\" \"밈\" \"제목\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "늙크크",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영크크",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김부장",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영자씨",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "공룡",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "자양강장제",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나는 할 수 있는가",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "i can see",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "서울 자가",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김 부장",
+      "source": "reports/bulk/connector-resume-wave30-255.json",
       "status": "screened-see-report"
     }
   ],

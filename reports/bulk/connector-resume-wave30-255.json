@@ -1,0 +1,75 @@
+{
+  "batch": 255,
+  "canonical_before": 915,
+  "canonical_after": 915,
+  "queries": [
+    "2026 \"밈\" \"홍보영상\" \"국장님\"",
+    "2026 \"밈\" \"공식\" \"도서관\" -site:namu.moe -site:instablank.com",
+    "2026 \"밈\" \"신입사원\" \"패러디\" -site:namu.moe -site:jjalbang.today",
+    "\"2026\" \"밈\" \"사내\" \"말투\"",
+    "\"2026\" \"밈\" \"군청\" \"영상\" -슬릭백 -관짝",
+    "\"서울 자가에\" \"패러디\" \"2026\"",
+    "\"국장님\" \"빈집은행\" \"밈\"",
+    "\"I can see\" \"나는 할 수 있는가\" \"2026\"",
+    "\"나는 할 수 있는가 보다\" \"2026\" -site:ekr.or.kr -site:streamrecorder.io",
+    "\"서울 자가에\" \"패러디\" -site:namu.moe -site:namu.wiki -김부장 -김부장이야기",
+    "\"김부장\" \"밈\" \"제목\" \"2026\" -site:namu.moe -site:namu.wiki"
+  ],
+  "index_queries": [
+    "늙크크",
+    "영크크",
+    "김부장",
+    "영자씨",
+    "공룡",
+    "자양강장제",
+    "나는 할 수 있는가",
+    "i can see",
+    "서울 자가",
+    "김 부장"
+  ],
+  "index_recheck_915": {
+    "늙크크": [
+      "old-creator-crew",
+      "young-creator-crew"
+    ],
+    "영크크": [
+      "young-creator-crew"
+    ],
+    "김부장": [],
+    "영자씨": [],
+    "공룡": [
+      "dinosaur-sized-affection"
+    ],
+    "자양강장제": [],
+    "나는 할 수 있는가": [],
+    "i can see": [],
+    "서울 자가": [],
+    "김 부장": []
+  },
+  "recommended": 0,
+  "holds": [
+    {
+      "candidate": "I can see → 나는 할 수 있는가 보다",
+      "source": "https://www.ekr.or.kr/homepage/cms/index.krc?MENUMST_ID=20936",
+      "reason": "Worker read dated2024-09-27; not surrounding2026 dates; no recent independent reuse"
+    },
+    {
+      "candidate": "서울 자가에 대기업 다니는 김부장",
+      "source": "https://www.koreadaily.com/article/20261022130047414",
+      "reason": "2026 SamsungSDS application reported; second parenting parody only aggregator lead, not independently read"
+    },
+    {
+      "candidate": "농촌 빈집은행 국장님",
+      "reason": "institution list title only; original format unreviewed"
+    },
+    {
+      "candidate": "영자씨",
+      "reason": "corporate character alone not meme"
+    }
+  ],
+  "metrics": {
+    "query_observations": 1715,
+    "distinct_literal_queries": 1393
+  },
+  "ci": "not run"
+}
