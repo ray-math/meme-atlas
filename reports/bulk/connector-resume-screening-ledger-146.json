@@ -117,10 +117,11 @@
     "reports/bulk/connector-resume-wave30-273.json",
     "reports/bulk/connector-resume-wave30-275.json",
     "reports/bulk/connector-resume-wave30-276.json",
-    "reports/bulk/connector-resume-wave30-277.json"
+    "reports/bulk/connector-resume-wave30-277.json",
+    "reports/bulk/connector-resume-wave30-278.json"
   ],
-  "query_observations": 2261,
-  "distinct_literal_queries": 1831,
+  "query_observations": 2270,
+  "distinct_literal_queries": 1839,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -11627,6 +11628,51 @@
     {
       "query": "박물관",
       "source": "reports/bulk/connector-resume-wave30-277.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.samsung.com/kr",
+      "source": "reports/bulk/connector-resume-wave30-278.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:newsroom.posco.com/kr",
+      "source": "reports/bulk/connector-resume-wave30-278.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"챌린지\" \"공식\" \"패러디\" -site:namu.moe -site:d.namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-278.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"신한\"",
+      "source": "reports/bulk/connector-resume-wave30-278.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"롯데\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-278.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포켓몬\" \"노트\" \"꾸미기\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-278.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포켓몬",
+      "source": "reports/bulk/connector-resume-wave30-278.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:ac.kr -브리저튼 -언발란스",
+      "source": "reports/bulk/connector-resume-wave30-278.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" \"밈\" site:go.kr -거제 -야호 -양의지",
+      "source": "reports/bulk/connector-resume-wave30-278.json",
       "status": "screened-see-report"
     }
   ],
