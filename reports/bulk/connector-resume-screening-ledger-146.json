@@ -63,10 +63,11 @@
     "reports/bulk/connector-resume-screening210.json",
     "reports/bulk/connector-resume-audit211.json",
     "reports/bulk/connector-resume-screening212.json",
-    "reports/bulk/connector-resume-audit-holds213.json"
+    "reports/bulk/connector-resume-audit-holds213.json",
+    "reports/bulk/connector-resume-screening214.json"
   ],
-  "query_observations": 986,
-  "distinct_literal_queries": 802,
+  "query_observations": 1003,
+  "distinct_literal_queries": 812,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -5198,6 +5199,91 @@
     {
       "query": "마운자로",
       "source": "reports/bulk/connector-resume-audit-holds213.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "주먹자로",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마음자로",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "읽기 않음",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "난 모르는 일",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "내가 양파냐",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이모지를 터치",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그르 먼데이",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "붐샤카라카",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "새도전자",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이거 제 이모지야",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아이찡",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "AI 티 내는 법",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "성열",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라우럴",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라을라",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" site:brunch.co.kr -젠슨 -불륜",
+      "source": "reports/bulk/connector-resume-screening214.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"활용\" site:blog.hsad.co.kr",
+      "source": "reports/bulk/connector-resume-screening214.json",
       "status": "screened-see-report"
     }
   ],
