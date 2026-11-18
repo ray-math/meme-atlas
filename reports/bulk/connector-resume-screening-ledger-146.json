@@ -193,10 +193,11 @@
     "reports/bulk/connector-resume-wave30-361.json",
     "reports/bulk/connector-resume-wave30-362.json",
     "reports/bulk/connector-resume-wave30-363.json",
-    "reports/bulk/connector-resume-wave30-364.json"
+    "reports/bulk/connector-resume-wave30-364.json",
+    "reports/bulk/connector-resume-wave30-365.json"
   ],
-  "query_observations": 4522,
-  "distinct_literal_queries": 3882,
+  "query_observations": 4556,
+  "distinct_literal_queries": 3908,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -23008,6 +23009,176 @@
     {
       "query": "\"64 bits\" \"한국\" 패러디 -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-364.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"미술관\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"뉴스레터\" -site:instablank.com -site:namu.moe -site:luckyvicky.moamoang.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"자막\" \"철도\"",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"사보\"",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"대학교\" \"유튜브\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"복수는 최고의 용서\" -site:easytip.kr -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가로등\" \"신사\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"복수는 최고의 용서\" -site:namu.moe -site:namu.wiki -site:easytip.kr",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삐에로의 등장이라\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하겠습니다 안하겠습니다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삐에로\" \"등장이라\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"복수는 최고의 용서입니다\" \"2025\"",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "복수",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가로등",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "등장이라",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "차가워",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "모시모시",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하겠습니다",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고민중",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고민 중",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "할까",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삐남",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "정통삐",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삐에로",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"깨어나세요 용사여\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나노머신\" \"썬\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너굴맨\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"픽토그램\" \"패러디\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"도쿄\" \"픽토그램\" \"패러디\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너굴맨이 처리\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나노머신 썬\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"깨어나세요 용사여\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"픽토그램\" \"패러디\" \"2021\" \"한국\"",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너굴맨이 처리\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-365.json",
       "status": "screened-see-report"
     }
   ],
