@@ -977,6 +977,7 @@
 - [간절스러웠어요](../memes/ganjeolseureowosseoyo.md)
 - [그럼 다음은 무조건 ○○겠지](../memes/next-trend-wish-template.md)
 - [꿍싯꿍싯 챌린지](../memes/kkungsit-kkungsit-challenge.md)
+- [나 됐어요! ○○ 됐어요!](../memes/i-became-template.md)
 - [나무 챌린지](../memes/tree-flailing-challenge.md)
 - [나이별 반응 챌린지](../memes/age-reaction-challenge.md)
 - [난리도 아니햐](../memes/nanrido-aniya-suji.md)

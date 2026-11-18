@@ -145,6 +145,7 @@
 - [나 ○○년생 ○○인데](na-born-year-dance.md)
 - [나 꿍꼬또 기싱꿍꼬또](ghost-dream-aegyo.md)
 - [나 다시 돌아갈래](go-back-again.md)
+- [나 됐어요! ○○ 됐어요!](i-became-template.md)
 - [나 왜 이 순간이 영원할 것 같지?](forever-moment.md)
 - [나같경](nagatgyeong.md)
 - [나게임중인데전화걸면어떠괘](calling-during-game.md)

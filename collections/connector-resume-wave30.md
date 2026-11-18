@@ -72,3 +72,4 @@
 - [너만 없더라](../memes/only-you-are-missing.md)
 - [○○ 필수 호신술](../memes/everyday-self-defense-parody.md)
 - [간절스러웠어요](../memes/ganjeolseureowosseoyo.md)
+- [나 됐어요! ○○ 됐어요!](../memes/i-became-template.md)
