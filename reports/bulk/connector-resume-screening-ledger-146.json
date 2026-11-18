@@ -113,10 +113,11 @@
     "reports/bulk/connector-resume-wave30-268.json",
     "reports/bulk/connector-resume-wave30-269.json",
     "reports/bulk/connector-resume-wave30-271.json",
-    "reports/bulk/connector-resume-wave30-272.json"
+    "reports/bulk/connector-resume-wave30-272.json",
+    "reports/bulk/connector-resume-wave30-273.json"
   ],
-  "query_observations": 2179,
-  "distinct_literal_queries": 1769,
+  "query_observations": 2193,
+  "distinct_literal_queries": 1782,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -11213,6 +11214,76 @@
     {
       "query": "허경환",
       "source": "reports/bulk/connector-resume-wave30-272.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"원츄백\" \"투어스\"",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"원츄백\" \"디노\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"I want you back\" \"TWS\" site:weverse.io",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"원츄백\" \"에이티즈\"",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"I want you back\" \"디노\" site:youtube.com",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "TWS \"I Want You Back\" challenge youtube 2026",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "ATEEZ \"I Want You Back\" challenge 2026",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"원츄백 추면서 차 따라가기\"",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"원츄백\" \"챌린지\" -site:dhesy.com -site:sports.donga.com -site:news.nate.com -site:imbench.com -site:youtube-rank.com",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아이 원트 유 백\" 챌린지 투어스",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"I Want You Back\" \"예지\" \"류진\"",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "원.?츄.?백",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "i want you back",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포사이스",
+      "source": "reports/bulk/connector-resume-wave30-273.json",
       "status": "screened-see-report"
     }
   ],
