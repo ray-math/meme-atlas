@@ -206,10 +206,11 @@
     "reports/bulk/connector-resume-wave30-375.json",
     "reports/bulk/connector-resume-wave30-376.json",
     "reports/bulk/connector-resume-wave30-377.json",
-    "reports/bulk/connector-resume-wave30-378.json"
+    "reports/bulk/connector-resume-wave30-378.json",
+    "reports/bulk/connector-resume-wave30-379.json"
   ],
-  "query_observations": 5004,
-  "distinct_literal_queries": 4301,
+  "query_observations": 5029,
+  "distinct_literal_queries": 4323,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -25431,6 +25432,131 @@
     {
       "query": "\"마따끄\" site:maily.so",
       "source": "reports/bulk/connector-resume-wave30-378.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"따라해봤\" -site:namu.wiki -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목으로\" -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디했습니다\"",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로그아웃하면\" \"2007\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내가 아이돌\" \"파트\" \"2026\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"전여친 감자칼\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로그아웃\" \"2007년\" 밈 -site:isitreal.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로그아웃하면 아직\" -site:isitreal.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2007\" \"log off\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"강풍 올백\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"X키를 눌러\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가정이 무너지고\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"간디\" \"유혈사태\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Why so serious\" \"2026\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"X키를 눌러 조의를\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"유혈사태\" \"간디\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"강풍올백\" 패러디 제작 한국",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조의를 표하십시오\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"강풍 올백\" \"제작\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Why so serious\" \"2026\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무수히 많은 악수의 요청\" \"2026\" -site:namu.moe -site:inven.co.kr -site:ilbe.com -site:eqlstore.com",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" \"2026\" site:blog.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" \"2026\" \"후기\" -site:namu.moe -site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"마따끄\" \"블로그\" -site:namu.moe -site:issuelink.co.kr -site:kone.gg",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"무수히 많은 악수\" \"브랜드\" -site:eqlstore.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-379.json",
       "status": "screened-see-report"
     }
   ],

@@ -1,0 +1,233 @@
+{
+  "batch": 379,
+  "base": "30940ac9a88642993fd5b9a1de5af6329f69feb4",
+  "canonical_before": 981,
+  "canonical_after": 981,
+  "added": [],
+  "researchA": {
+    "recommended": 0,
+    "held": 1,
+    "candidate": "로그아웃하면아직2007년",
+    "url": "https://isitreal.tistory.com/5",
+    "date": "2026-09-18 22:41",
+    "scope": "해외영상소개한국어설명1군.국내독립재사용0.원영상최초날짜수치미확인",
+    "ref": "460a7f1dad69bb81900c3e751c77bb7148af9efb",
+    "existing": [
+      "ex-girlfriend-peeler",
+      "if-i-were-idol",
+      "before-working-look",
+      "under-arrest"
+    ],
+    "queries": [
+      "\"2026\" \"밈\" \"따라해봤\" -site:namu.wiki -site:namu.moe",
+      "\"2026\" \"밈\" \"제목으로\" -site:namu.wiki",
+      "\"2026\" \"밈\" \"패러디했습니다\"",
+      "\"로그아웃하면\" \"2007\" -site:namu.moe -site:namu.wiki",
+      "\"내가 아이돌\" \"파트\" \"2026\" -site:instablank.com",
+      "\"전여친 감자칼\" -site:instablank.com",
+      "\"로그아웃\" \"2007년\" 밈 -site:isitreal.tistory.com",
+      "\"로그아웃하면 아직\" -site:isitreal.tistory.com",
+      "\"2007\" \"log off\" 한국"
+    ],
+    "limits": "아이찡미조사.모음요약단서수록근거아님;salary-logout별개"
+  },
+  "researchB": {
+    "ref": "30940ac9a88642993fd5b9a1de5af6329f69feb4",
+    "candidates": 5,
+    "recommended": 0,
+    "held": 5,
+    "rows": [
+      {
+        "id": "0151",
+        "note": "최근독립실제적용2미확보;영화문구정치조롱해설"
+      },
+      {
+        "id": "0152",
+        "failed_urls": [
+          "https://www.fomos.kr/broadpick/article_view?bbs_id=35&indexno=2040031",
+          "https://www.fomos.kr/broadcast/article_view?bbs_id=21&indexno=2124435"
+        ],
+        "note": "2026-06-19대회종료/10-27아바타교체검색단서직접실패0"
+      },
+      {
+        "id": "0162",
+        "note": "실제가정문제혼동,사생활비극재소환추적안함"
+      },
+      {
+        "id": "0165",
+        "url": "https://ibiz.inews24.com/view/wrlted/524333",
+        "note": "2010-10-27유희열합성패러디보도1최근0/원게임대사확정아님"
+      },
+      {
+        "id": "0174",
+        "url": "https://northwindpeacock.tistory.com/93",
+        "note": "2023-05-28편도용사캐릭터패러디제작기록1최근0;영상0"
+      }
+    ],
+    "queries": [
+      "\"강풍 올백\" \"2026\"",
+      "\"X키를 눌러\" \"2026\"",
+      "\"가정이 무너지고\" \"2026\"",
+      "\"간디\" \"유혈사태\" \"2026\"",
+      "\"Why so serious\" \"2026\" \"패러디\"",
+      "\"X키를 눌러 조의를\" \"2026\"",
+      "\"유혈사태\" \"간디\" 패러디",
+      "\"강풍올백\" 패러디 제작 한국",
+      "\"조의를 표하십시오\" \"2026\"",
+      "\"강풍 올백\" \"제작\" -site:namu.moe",
+      "\"Why so serious\" \"2026\" site:theqoo.net"
+    ]
+  },
+  "editor": {
+    "queries": [
+      "\"무수히 많은 악수의 요청\" \"2026\" -site:namu.moe -site:inven.co.kr -site:ilbe.com -site:eqlstore.com",
+      "\"마따끄\" \"2026\" site:blog.tistory.com",
+      "\"마따끄\" \"2026\" \"후기\" -site:namu.moe -site:inven.co.kr",
+      "\"2026\" \"마따끄\" \"블로그\" -site:namu.moe -site:issuelink.co.kr -site:kone.gg",
+      "\"2026\" \"무수히 많은 악수\" \"브랜드\" -site:eqlstore.com -site:namu.moe"
+    ],
+    "limits": "텀블벅검색2026표시이나후기내용2025-02추정직접날짜미확인;OTL기존빈본문검색만;악수연재제목2025-09기간밖.닉네임제외;ordsearch마따끄는캐릭터별명/대사관련문맥가능,넓은한탄형독립사례로확정안함;DC468503cachemiss"
+  },
+  "semantic_audit": {
+    "sha": "30940ac9a88642993fd5b9a1de5af6329f69feb4",
+    "scope": "automatic_title_alias_match positions41-60",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0245",
+        "dictionary_id": "but-the-question",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0246",
+        "dictionary_id": "geureonde-jjajan",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0248",
+        "dictionary_id": "green-light-romance",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0249",
+        "dictionary_id": "acceptance-necklace",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0251",
+        "dictionary_id": "geukhyeom",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0255",
+        "dictionary_id": "school-slang-style",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0258",
+        "dictionary_id": "space-behind-pillar",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0259",
+        "dictionary_id": "gichul-variation",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0266",
+        "dictionary_id": "kimchi-slap",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0267",
+        "dictionary_id": "criticism-shield",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0268",
+        "dictionary_id": "kkamnol",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0271",
+        "dictionary_id": "perilla-leaf-debate",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0273",
+        "dictionary_id": "pre-cracked-egg",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0275",
+        "dictionary_id": "vertex-dance",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0277",
+        "dictionary_id": "frozen-han-river-cat",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0278",
+        "dictionary_id": "flower-road",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0282",
+        "dictionary_id": "yumeiro-patissiere-challenge",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0287",
+        "dictionary_id": "ghost-dream-aegyo",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0291",
+        "dictionary_id": "i-am-generous",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0293",
+        "dictionary_id": "i-really-like-this-story",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      }
+    ],
+    "classification_changes": 0,
+    "bodies_read": 20,
+    "limits": "0255말투가족으로개별은어전부아님;0275김수로단체춤제목유래맥락.누적60/328본문범위감사,외부유래재검증0."
+  },
+  "ci": {
+    "body981": {
+      "run": 44245403465,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 58.474
+    },
+    "report378": {
+      "run": 44245556320,
+      "status": "in_progress_at_preparation"
+    }
+  }
+}
