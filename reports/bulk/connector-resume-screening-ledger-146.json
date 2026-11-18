@@ -258,10 +258,11 @@
     "reports/bulk/connector-resume-wave30-433.json",
     "reports/bulk/connector-resume-wave30-434.json",
     "reports/bulk/connector-resume-wave30-435.json",
-    "reports/bulk/connector-resume-wave30-436.json"
+    "reports/bulk/connector-resume-wave30-436.json",
+    "reports/bulk/connector-resume-wave30-437.json"
   ],
-  "query_observations": 5932,
-  "distinct_literal_queries": 5181,
+  "query_observations": 5944,
+  "distinct_literal_queries": 5193,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -30123,6 +30124,66 @@
     {
       "query": "\"천하제일 단타대회\" \"2026\" -site:mk.co.kr -site:khan.co.kr",
       "source": "reports/bulk/connector-resume-wave30-436.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"직접 만들\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-437.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"붙여봤\"",
+      "source": "reports/bulk/connector-resume-wave30-437.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"써봤\"",
+      "source": "reports/bulk/connector-resume-wave30-437.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"제목을\" site:brunch.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-437.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:clien.net/service/board \"만들\"",
+      "source": "reports/bulk/connector-resume-wave30-437.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:damoang.net \"직접\"",
+      "source": "reports/bulk/connector-resume-wave30-437.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:velog.io \"회고\"",
+      "source": "reports/bulk/connector-resume-wave30-437.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:brunch.co.kr \"썼다\"",
+      "source": "reports/bulk/connector-resume-wave30-437.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엽떡에서\" \"마주친\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-437.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엽떡\" \"마주친 썰\"",
+      "source": "reports/bulk/connector-resume-wave30-437.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너무 고마우시다 진짜\" \"2026\" -site:onmeme.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-437.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"허공대화함\" \"2026\" -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-437.json",
       "status": "screened-see-report"
     }
   ],
