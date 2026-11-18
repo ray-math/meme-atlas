@@ -140,10 +140,11 @@
     "reports/bulk/connector-resume-wave30-304.json",
     "reports/bulk/connector-resume-wave30-305.json",
     "reports/bulk/connector-resume-wave30-306.json",
-    "reports/bulk/connector-resume-wave30-307.json"
+    "reports/bulk/connector-resume-wave30-307.json",
+    "reports/bulk/connector-resume-wave30-308.json"
   ],
-  "query_observations": 2792,
-  "distinct_literal_queries": 2302,
+  "query_observations": 2821,
+  "distinct_literal_queries": 2323,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -14305,6 +14306,151 @@
     {
       "query": "요술공주",
       "source": "reports/bulk/connector-resume-wave30-307.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"란란루\" 2026 한국 패러디",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"락통령\" 2026 패러디",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"린가동자\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마쁘리에요\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"모기송\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미안송\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"맛나핑\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부리부리 마신\" \"춤\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"북방코끼리바다표범\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"린가동자\" 린가드 방송",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미안송\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부리부리 마신\" 춤 -site:namu.moe -site:seore.org -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"린가동자\" \"린가드\" -site:namu.moe -site:seore.org -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 11월 밈 유행어 챌린지 한국",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 10월 밈 유행어 캐릿",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부리부리 마신\" \"2026\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍던씸\" \"2026\" 연예",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아이스티 4개\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "전여친",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감자칼",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "체포하겠어",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "L을 가져가",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아이스티",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영원할",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "내 이모지",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "껍던씸",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나쁜 오리",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "북극곰",
+      "source": "reports/bulk/connector-resume-wave30-308.json",
       "status": "screened-see-report"
     }
   ],
