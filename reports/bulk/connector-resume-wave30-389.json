@@ -1,0 +1,198 @@
+{
+  "batch": 389,
+  "base": "751586b65dc9e298908f1378df186298bdb16c31",
+  "canonical_before": 985,
+  "canonical_after": 985,
+  "added": [],
+  "researchA": {
+    "held": [
+      "김민 따라하기",
+      "주술회전샷/물건소환편집"
+    ],
+    "source": "https://theqoo.net/square/4369376169",
+    "failed": [
+      "https://v.daum.net/v/20261008110459503",
+      "https://aistudio.dropshot.io/ko/blog/otakushot-seedance2-prompt"
+    ],
+    "limits": "더쿠2026-10-08기사제목소개1문장만.원기사실패.예절샷다른형식혼합금지.독립제작0영상사진0",
+    "duplicates": [
+      "ex-girlfriend-peeler",
+      "bomiguna-christina",
+      "niga-joa-challenge"
+    ],
+    "queries": [
+      "\"2026\" \"밈\" \"패러디\" site:design.co.kr",
+      "\"2026\" \"밈\" \"따라\" site:tenasia.hankyung.com",
+      "\"2026\" \"챌린지\" \"패러디\" site:news.koreadaily.com",
+      "2026 밈 따라해봤다 후기",
+      "2026 밈 패러디 만든 숏폼 공공기관",
+      "2026 유행어 패러디 공식 유튜브",
+      "\"김민 따라하기\" -site:instablank.com -site:jjalbang.today",
+      "\"주술회전샷\" -site:instablank.com -site:onmeme.com",
+      "\"전여친 감자칼\" -site:instablank.com -site:jjalbang.today",
+      "\"김민 따라하기\" 패러디 -site:instablank.com -site:jjalbang.today -site:namu.moe",
+      "\"오타쿠샷\" \"2026\" -site:instablank.com -site:jjalbang.today -site:jjalnews.com"
+    ]
+  },
+  "editor": {
+    "limits": "김민따라하기Daum원기사다른검색도구직접읽기도접근실패.검증추가0."
+  },
+  "semantic_audit": {
+    "sha": "751586b65dc9e298908f1378df186298bdb16c31",
+    "scope": "automatic_title_alias_match positions201-220",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0754",
+        "dictionary_id": "stern-serious",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0758",
+        "dictionary_id": "eba",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0762",
+        "dictionary_id": "edge-style",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0763",
+        "dictionary_id": "here-is-a-button",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0764",
+        "dictionary_id": "yeogi-eottae-song",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0765",
+        "dictionary_id": "be-rich",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0769",
+        "dictionary_id": "work-hard-leave",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0770",
+        "dictionary_id": "young-creator-crew",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0772",
+        "dictionary_id": "yeopgi-humor",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0773",
+        "dictionary_id": "spilling-juice",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0776",
+        "dictionary_id": "peaceful-used-market",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0781",
+        "dictionary_id": "throw-or-not",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0785",
+        "dictionary_id": "oppa-car-dance",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0793",
+        "dictionary_id": "bring-melona",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0795",
+        "dictionary_id": "wa-sans",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0799",
+        "dictionary_id": "wakanda-forever",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0801",
+        "dictionary_id": "waldo-style",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0806",
+        "dictionary_id": "alien-writing",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0807",
+        "dictionary_id": "alien-tech-joke",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0808",
+        "dictionary_id": "appearance-check",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      }
+    ],
+    "bodies_read": 20,
+    "classification_changes": 0,
+    "limits": "0781=0384동일throw-or-not본문.누적220행218고유본문.외부기원검증0/영상사진0"
+  },
+  "automatic_audit_cumulative": {
+    "rows": 220,
+    "distinct_rows": 220,
+    "distinct_bodies": 218,
+    "reports": [
+      376,
+      377,
+      379,
+      381,
+      383,
+      384,
+      385,
+      387,
+      388,
+      389
+    ]
+  },
+  "ci": {
+    "report387": {
+      "run": 44247947217,
+      "job": 134611367595,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 77.729
+    },
+    "report388": "pending",
+    "new_commit": "pending"
+  }
+}
