@@ -137,10 +137,11 @@
     "reports/bulk/connector-resume-wave30-299.json",
     "reports/bulk/connector-resume-coverage-300.json",
     "reports/bulk/connector-resume-wave30-302.json",
-    "reports/bulk/connector-resume-wave30-304.json"
+    "reports/bulk/connector-resume-wave30-304.json",
+    "reports/bulk/connector-resume-wave30-305.json"
   ],
-  "query_observations": 2725,
-  "distinct_literal_queries": 2235,
+  "query_observations": 2740,
+  "distinct_literal_queries": 2250,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -13967,6 +13968,81 @@
     {
       "query": "\"울어라 지옥참마도\" -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-304.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뜌땨\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"띠용띠용 워익워익\"",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라고 할 뻔\" 2026 밈",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"랫 댄스\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마이야히\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"말씀 중에 죄송합니다\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"망했어요\" 엄재경 패러디",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로우바둑이\" 기준 게임 2026",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"모스카우\" 패러디 한국",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"몰?루\" 2026 밈",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라고 할 뻔\" 하이뮨 광고",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로우바둑이\" \"전투력\"",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라고 할 뻔\" \"2026\" -site:namu.wiki -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"랫 댄스\" 챌린지 2026",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"로우바둑이\" \"측정기\" -NHN -출시 -모바일",
+      "source": "reports/bulk/connector-resume-wave30-305.json",
       "status": "screened-see-report"
     }
   ],

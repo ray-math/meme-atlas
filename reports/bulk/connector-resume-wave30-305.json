@@ -1,0 +1,109 @@
+{
+  "batch": 305,
+  "base": "89d41d7d6987749dab68ae8028e775f369a42ccb",
+  "canonical_before": 937,
+  "canonical_after": 940,
+  "added": [
+    "rat-dance-challenge",
+    "almost-said-that",
+    "kwak-yoon-gy-back-view"
+  ],
+  "candidate_mappings": {
+    "kr-list-0433": "rat-dance-challenge",
+    "kr-list-0426": "almost-said-that",
+    "kr-list-0213": "kwak-yoon-gy-back-view"
+  },
+  "sources": {
+    "rat_dance": [
+      "https://www.hanteonews.com/ko/article/75736",
+      "https://www.esquirekorea.co.kr/article/1877026"
+    ],
+    "almost_said": [
+      "https://www.news2day.co.kr/article/20220728500185?site_preference=mobile",
+      "https://www.kccegis.com/movieListEDetail?edate=&game=all&keyWord=%ED%97%88%EC%9B%85&listpage=1&num=22376&otype=num&player=all&round=all&sdate=&season=&wtype=all"
+    ],
+    "kwak": [
+      "https://sports.news.nate.com/view/20220222n12378",
+      "https://www.mt.co.kr/entertainment/2022/02/16/2022021616224546319"
+    ]
+  },
+  "validation": "Editor directly opened all six source texts. Independent index937 comparison and scope review passed; reviewer did not independently re-open six external sources.",
+  "limits": "최근1년사용0,원영상/이미지0. 랫댄스두기사겹친참여자중복계산X. KCC제목적용≠영상발언검증. 곽윤기개인전체밈X.",
+  "research_B": {
+    "queries": [
+      "\"뜌땨\" 2026",
+      "\"띠용띠용 워익워익\"",
+      "\"라고 할 뻔\" 2026 밈",
+      "\"랫 댄스\" 2026",
+      "\"마이야히\" 2026",
+      "\"말씀 중에 죄송합니다\" 밈",
+      "\"망했어요\" 엄재경 패러디",
+      "\"로우바둑이\" 기준 게임 2026",
+      "\"모스카우\" 패러디 한국",
+      "\"몰?루\" 2026 밈",
+      "\"라고 할 뻔\" 하이뮨 광고",
+      "\"로우바둑이\" \"전투력\"",
+      "\"라고 할 뻔\" \"2026\" -site:namu.wiki -site:namu.moe",
+      "\"랫 댄스\" 챌린지 2026",
+      "\"로우바둑이\" \"측정기\" -NHN -출시 -모바일"
+    ],
+    "reviewed": [
+      "0421",
+      "0422",
+      "0426",
+      "0433",
+      "0439",
+      "0451",
+      "0457",
+      "0460",
+      "0478",
+      "0481"
+    ],
+    "recommendations": {
+      "0426": {
+        "sources": [
+          "https://www.news2day.co.kr/article/20220728500185?site_preference=mobile",
+          "https://www.kccegis.com/movieListEDetail?edate=&game=all&keyWord=%ED%97%88%EC%9B%85&listpage=1&num=22376&otype=num&player=all&round=all&sdate=&season=&wtype=all"
+        ],
+        "dates": [
+          "2022-07-28",
+          "2025-10-02"
+        ],
+        "scope": "speech retracting suffix; distinct expectation-reversal geureonde-jjajan"
+      },
+      "0433": {
+        "sources": [
+          "https://www.hanteonews.com/ko/article/75736",
+          "https://www.esquirekorea.co.kr/article/1877026"
+        ],
+        "dates": [
+          "2025-02-12",
+          "2025-02-10"
+        ],
+        "scope": "people recreate dancingrat animation steps; distinct pedro-raccoon and jwi-lola; videos0"
+      }
+    },
+    "hold_ids": [
+      "0421",
+      "0422",
+      "0439",
+      "0451",
+      "0457",
+      "0460",
+      "0478",
+      "0481"
+    ],
+    "latest_year_confirmed": 0
+  },
+  "metrics": {
+    "query_observations": 2740,
+    "distinct_literal_queries": 2250
+  },
+  "prior_ci": {
+    "sha": "89d41d7d6987749dab68ae8028e775f369a42ccb",
+    "run": 44227931829,
+    "result": "success",
+    "passed_steps": 65
+  },
+  "ci": "newcommit pending"
+}
