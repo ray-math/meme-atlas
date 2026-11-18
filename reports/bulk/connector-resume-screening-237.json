@@ -1,0 +1,52 @@
+{
+  "new_canonical": 0,
+  "note": "Revisited known holds, not newly discovered evidence. Wonju493726/KTVLsJIPjbo already reports216/218; eolday/Armageddon correction also previously known.",
+  "worker_a_queries": [
+    "\"2026\" \"밈\" \"제목으로\" -site:namu.moe -site:creatrend.tistory.com -site:instablank.com",
+    "\"2026\" \"밈\" \"패러디한\" \"공식\"",
+    "\"2026\" \"밈\" \"뉴스레터\" \"11월\" -site:namu.moe -site:creatrend.tistory.com",
+    "\"얼데이드립\" \"챌린지\" -site:namu.moe -site:instablank.com",
+    "\"아마겟돈\" \"발라드\" \"2026\"",
+    "\"빼난지원금\" -site:namu.moe",
+    "\"얼데이드립\" -site:luckyvicky.moamoang.co.kr -site:namu.moe -site:maily.so",
+    "\"사쿠야\" \"발라드 챌린지\"",
+    "\"아마겟돈\" \"발라드\" \"챌린지\" -site:namu.moe"
+  ],
+  "worker_a_index": [
+    "얼데이",
+    "7080",
+    "아마겟돈",
+    "발라드",
+    "오디세이",
+    "빼난",
+    "존박",
+    "랩주문"
+  ],
+  "worker_b_queries": [
+    "2026 밈 \"제목\" \"공식\" -site:jjalbang.today -site:instablank.com -site:namu.moe -site:namu.wiki",
+    "site:maily.so/trendaword \"2026.11\"",
+    "\"KTVLsJIPjbo\"",
+    "\"원주\" \"프랑스\" \"뮤직비디오\" 2026"
+  ],
+  "worker_b_index": [
+    "크리스티나",
+    "그러시구나",
+    "존박",
+    "맥도날드",
+    "한한미일",
+    "앤드류",
+    "원주",
+    "으아",
+    "년생",
+    "자기소개"
+  ],
+  "status": "all held or existing semantic duplicates; unviewed videos not verified",
+  "base": "9bc3e54f0f0d5a77319afeeb074dcae8f1fb745a",
+  "canonical_count": 906,
+  "editor_extra_queries": [
+    "\"2026\" \"밈\" \"제목\" site:ac.kr",
+    "\"2026\" \"밈\" \"제목\" \"도서관\" -site:namu.moe -site:creatrend.tistory.com"
+  ],
+  "editor_result": "University/library search returned existing meme explainers, service announcements and book listings, not new verified independent reuse.",
+  "ci": "not run"
+}

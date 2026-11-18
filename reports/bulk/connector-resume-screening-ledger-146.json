@@ -80,10 +80,11 @@
     "reports/bulk/connector-resume-independent-audit-232.json",
     "reports/bulk/connector-resume-screening-233.json",
     "reports/bulk/connector-resume-screening-235.json",
-    "reports/bulk/connector-resume-editor-audit-236.json"
+    "reports/bulk/connector-resume-editor-audit-236.json",
+    "reports/bulk/connector-resume-screening-237.json"
   ],
-  "query_observations": 1329,
-  "distinct_literal_queries": 1076,
+  "query_observations": 1362,
+  "distinct_literal_queries": 1098,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -6930,6 +6931,171 @@
     {
       "query": "\"2026\" \"유행어\" \"소식지\" -site:namu.moe",
       "source": "reports/bulk/connector-resume-editor-audit-236.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목으로\" -site:namu.moe -site:creatrend.tistory.com -site:instablank.com",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디한\" \"공식\"",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"뉴스레터\" \"11월\" -site:namu.moe -site:creatrend.tistory.com",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"얼데이드립\" \"챌린지\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아마겟돈\" \"발라드\" \"2026\"",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빼난지원금\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"얼데이드립\" -site:luckyvicky.moamoang.co.kr -site:namu.moe -site:maily.so",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사쿠야\" \"발라드 챌린지\"",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아마겟돈\" \"발라드\" \"챌린지\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "얼데이",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "7080",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아마겟돈",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "발라드",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오디세이",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빼난",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "존박",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "랩주문",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 \"제목\" \"공식\" -site:jjalbang.today -site:instablank.com -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:maily.so/trendaword \"2026.11\"",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"KTVLsJIPjbo\"",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"원주\" \"프랑스\" \"뮤직비디오\" 2026",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "크리스티나",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그러시구나",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "존박",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "맥도날드",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한한미일",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "앤드류",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "원주",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "으아",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "년생",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "자기소개",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목\" site:ac.kr",
+      "source": "reports/bulk/connector-resume-screening-237.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목\" \"도서관\" -site:namu.moe -site:creatrend.tistory.com",
+      "source": "reports/bulk/connector-resume-screening-237.json",
       "status": "screened-see-report"
     }
   ],
