@@ -78,10 +78,11 @@
     "reports/bulk/connector-resume-screening-229.json",
     "reports/bulk/connector-resume-editor-231.json",
     "reports/bulk/connector-resume-independent-audit-232.json",
-    "reports/bulk/connector-resume-screening-233.json"
+    "reports/bulk/connector-resume-screening-233.json",
+    "reports/bulk/connector-resume-screening-235.json"
   ],
-  "query_observations": 1284,
-  "distinct_literal_queries": 1043,
+  "query_observations": 1327,
+  "distinct_literal_queries": 1074,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -6703,6 +6704,221 @@
     {
       "query": "최성곤",
       "source": "reports/bulk/connector-resume-screening-233.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 \"11월\" \"유행어\" -site:namu.wiki -site:namu.moe",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 \"10월\" \"문장\" 뉴스레터",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"읽기 않음\" 밈",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴근\" \"2026\"",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄마 동결건조\" \"2026\"",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"읽지않음 난 모르는 일\" -site:jjalbang.today -site:jjalnews.com -site:instablank.com",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴근\" -뜻 -신조어 -유행어 -slang -site:jjalbang.today -site:instablank.com",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"커터칼퇴\" \"오늘\"",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "기도해",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "커터칼",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "읽기 않음",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "동결건조",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "난리자베스",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마법사 고양이",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "박수 치는",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라우럴",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하이틴",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "You know",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "읽지않음",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "모르는 일",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "커터칼퇴",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "칼퇴",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고양이",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "타이핑",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"11월\" \"브랜드\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:univ20.com",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"활용\" site:campaignbriefasia.com",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"랜디 마시\" \"2026\" 밈 -site:namu.moe -site:trendzip.co.kr",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"연애의 조건\" \"2026\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Boo\" \"2026\" \"밈\" -site:shorti.kr -site:trendzip.co.kr",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"리코더부는\" \"번역\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"랜디 마시\" \"밈\" \"2026\" site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Boo 챌린지\" 한국",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"소식지\"",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "연애의조건",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "베스티",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "랜디",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Boo",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "틀려도",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "리코더",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삼성우승",
+      "source": "reports/bulk/connector-resume-screening-235.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바겐세일",
+      "source": "reports/bulk/connector-resume-screening-235.json",
       "status": "screened-see-report"
     }
   ],
