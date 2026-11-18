@@ -255,10 +255,11 @@
     "reports/bulk/connector-resume-wave30-430.json",
     "reports/bulk/connector-resume-wave30-431.json",
     "reports/bulk/connector-resume-wave30-432.json",
-    "reports/bulk/connector-resume-wave30-433.json"
+    "reports/bulk/connector-resume-wave30-433.json",
+    "reports/bulk/connector-resume-wave30-434.json"
   ],
-  "query_observations": 5871,
-  "distinct_literal_queries": 5126,
+  "query_observations": 5888,
+  "distinct_literal_queries": 5140,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -29815,6 +29816,91 @@
     {
       "query": "\"돈이 될까\" \"2026\" \"밈\" -site:inven.co.kr -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-433.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:go.kr",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"도서관\" \"영상\"",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"박물관\"",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"소방\"",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"공사\"",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"우체국\"",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"철도\"",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"대학\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나여 백종원\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"누가 범인일까\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"대기업에 입사한 아들의 깨달음\"",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미안송\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아 진짜요\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"누가 범인일까\" \"2026\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미안송\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"대기업에 입사한 아들의 깨달음\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-434.json",
       "status": "screened-see-report"
     }
   ],
