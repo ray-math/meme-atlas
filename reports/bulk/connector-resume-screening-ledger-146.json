@@ -198,10 +198,11 @@
     "reports/bulk/connector-resume-wave30-367.json",
     "reports/bulk/connector-resume-wave30-368.json",
     "reports/bulk/connector-resume-wave30-369.json",
-    "reports/bulk/connector-resume-wave30-370.json"
+    "reports/bulk/connector-resume-wave30-370.json",
+    "reports/bulk/connector-resume-wave30-371.json"
   ],
-  "query_observations": 4731,
-  "distinct_literal_queries": 4059,
+  "query_observations": 4758,
+  "distinct_literal_queries": 4081,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -24058,6 +24059,141 @@
     {
       "query": "엄은|엄준식|이번.{0,6}다르",
       "source": "reports/bulk/connector-resume-wave30-370.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"패러디\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"학개론\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"리브시\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"street photographer\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"didn't i do it for you\" \"한국\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"닥터 리브시\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"학개론\" \"패러디\" 영화",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"길거리 사진가\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Yee\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"학개론\" \"건축학개론\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스트리트 포토그래퍼\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"길거리 사진\" \"두유스피크\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Yee\" \"패러디\" \"만들\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "학개론",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "lives",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "리브시",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "photographer",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "보르조이",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "do it for",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "yee",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"도서관\" \"공식\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"박물관\" \"제목\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"철도\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포켓몬\" \"노트\" \"2026\" \"인스타그램\"",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"POKENOTES\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "브리저튼|붐샤|영크크|요를레이",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포켓몬|pokenotes",
+      "source": "reports/bulk/connector-resume-wave30-371.json",
       "status": "screened-see-report"
     }
   ],
