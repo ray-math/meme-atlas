@@ -1005,6 +1005,7 @@
 - [스톰 챌린지](../memes/storm-ii-challenge.md)
 - [식스 세븐](../memes/six-seven.md)
 - [우승 기념 주식 바겐세일](../memes/championship-stock-sale.md)
+- [이지까까](../memes/easy-kkakka.md)
 - [인간 여짜](../memes/human-yeojja.md)
 - [일하는 중에 갑자기 몸이 안 좋아졌어요](../memes/suddenly-sick-fan-trip.md)
 - [젓가락 워킹](../memes/chopstick-runway.md)

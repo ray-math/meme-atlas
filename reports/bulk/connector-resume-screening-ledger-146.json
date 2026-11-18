@@ -83,10 +83,11 @@
     "reports/bulk/connector-resume-editor-audit-236.json",
     "reports/bulk/connector-resume-screening-237.json",
     "reports/bulk/connector-resume-wave30-238.json",
-    "reports/bulk/connector-resume-wave30-240.json"
+    "reports/bulk/connector-resume-wave30-240.json",
+    "reports/bulk/connector-resume-wave30-241.json"
   ],
-  "query_observations": 1412,
-  "distinct_literal_queries": 1139,
+  "query_observations": 1426,
+  "distinct_literal_queries": 1153,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -7348,6 +7349,76 @@
     {
       "query": "참 좋",
       "source": "reports/bulk/connector-resume-wave30-240.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"독서\" \"제목\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.samsung.com",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:newsroom.hyundai.com",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:newsroom.kakao.com",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:skhynix.com",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"사보\"",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이지까까\" \"2026\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이지까까\" site:ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이지까까\" \"후기\"",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이지까까",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "킹콩",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포기하겠습니다",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "민음사",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "얼레벌레",
+      "source": "reports/bulk/connector-resume-wave30-241.json",
       "status": "screened-see-report"
     }
   ],
