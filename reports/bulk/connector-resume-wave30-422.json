@@ -1,0 +1,113 @@
+{
+  "batch": 422,
+  "base": "e394d290c16435009eef03bfa1984045400fde70",
+  "canonical_before": 1000,
+  "canonical_after": 1001,
+  "added": [
+    "play-needs-no-reason"
+  ],
+  "researchA": {
+    "queries": [
+      "2026 밈 패러디 site:brunch.co.kr/@ \"했다\"",
+      "2026 \"밈\" \"유행\" site:univ20.com",
+      "2026 \"밈\" \"따라\" site:allurekorea.com",
+      "2026 \"밈\" site:elle.co.kr",
+      "\"구멍난 가슴\" \"챌린지\" 2026",
+      "\"보름달\" \"뜨기 전\" \"2026\"",
+      "\"MBTI\" \"OUTFIT\" \"챌린지\" 한국",
+      "\"구멍난 가슴\" \"아일릿\""
+    ],
+    "screened": 10,
+    "existing": [
+      "dirty-mouth-remix",
+      "bravo-yeonjin",
+      "ai-sapporo-shot",
+      "bamti"
+    ],
+    "held": [
+      "구멍난가슴",
+      "YoshoHai",
+      "드근드시",
+      "MBTI-OUTFIT",
+      "보름달전후",
+      "사실너도똑같더라고"
+    ],
+    "sources": [
+      "https://www.univ20.com/Magazine/Detail/3824",
+      "https://www.univ20.com/Magazine/Detail/3717",
+      "https://www.elle.co.kr/article/1902898"
+    ],
+    "note": "대학내일2026-01-23은2025Q4회고/2025-11-28은Q3회고.최근발행≠최근실행.기존조사동일자료반복포함.틱톡3실패2검색페이지,영상0,새독립2군0."
+  },
+  "researchB": {
+    "queries": [
+      "\"누나 나 죽어\" \"2026\"",
+      "\"모 야메룽다\" \"2026\"",
+      "\"무슨 마약하시길래\" \"2026\"",
+      "\"서로 깨물었을 때 반응\"",
+      "\"오락하는데 이유가\" \"2026\"",
+      "\"모 야메룽다\" \"2026\" -site:namu.moe -site:kone.gg",
+      "\"무슨 마약하시길래\" \"2026\" -site:namu.moe",
+      "\"누나 나 죽어\" \"2026\" -site:namu.moe -치어리더 -site:fomos.kr",
+      "\"오락하는데 이유가\" -site:namu.moe -site:letterboxd.com",
+      "\"무슨 마약하시길래\" 후기 -site:namu.moe"
+    ],
+    "recommended": {
+      "id": "0659",
+      "sources": [
+        "https://letterboxd.com/jang/film/routine-pleasures/",
+        "https://www.etnews.com/200908200136"
+      ],
+      "note": "관람일2026-08-23게시일아님+2009-08-21논설직접차용.원만화미열람.i-just-swim구별,모든그냥한다아님."
+    },
+    "held": [
+      {
+        "id": "0345",
+        "url": "https://jeeeery.tistory.com/86",
+        "note": "TRPG문구직접1,상단04-17세션05-05날짜불일치구분"
+      },
+      {
+        "id": "0479",
+        "url": "https://thredic.com/view/74573684",
+        "note": "해당본문find403,단서미승격"
+      },
+      {
+        "id": "0488",
+        "note": "위키재전재/텔레그램단서미검증"
+      },
+      {
+        "id": "0619",
+        "note": "미성년성적팬영상위험으로추적중단.안전비성적독립형식미확인"
+      }
+    ],
+    "note": "브런치rewritten summary제외,blogspot URL2026본문2022-04-26 최근제외.0659초기추정제목정정후실제문구로만검색."
+  },
+  "independent_audit": {
+    "passed": true,
+    "source_reads": 2,
+    "related_body_reads": 1,
+    "direct_application_groups": 2,
+    "scope": "전체문구리뷰1+앞부분논설1.2026-08-23관람일,게시일미확정.2009-08-21기사.원만화미열람.모든그냥한다포괄안함."
+  },
+  "candidate_changes": [
+    {
+      "id": "kr-list-0659",
+      "from": "index_not_found",
+      "to": "partial"
+    }
+  ],
+  "ci420": {
+    "run": 44258199156,
+    "job": 134644874701,
+    "success": true,
+    "steps": 65,
+    "tests": 495,
+    "seconds": 109.904
+  },
+  "ci421": {
+    "run": 44258455739,
+    "job": 134645712620,
+    "status": "last observed in_progress"
+  },
+  "ci_new_commit": "pending"
+}

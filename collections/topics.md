@@ -490,6 +490,7 @@
 - [영통팬싸](../memes/yeongtong-paenssa.md)
 - [옛날에 ○○가 잇엇은](../memes/once-there-was.md)
 - [오늘도 평화로운 중고나라](../memes/peaceful-used-market.md)
+- [오락하는 데 이유가 어딨어](../memes/play-needs-no-reason.md)
 - [오빠 오빠 차 있어?](../memes/oppa-car-dance.md)
 - [오살힘](../memes/osalhim.md)
 - [오운완](../memes/ounwan.md)

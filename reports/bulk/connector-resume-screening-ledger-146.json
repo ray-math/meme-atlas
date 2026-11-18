@@ -245,10 +245,11 @@
     "reports/bulk/connector-resume-wave30-417.json",
     "reports/bulk/connector-resume-wave30-418.json",
     "reports/bulk/connector-resume-wave30-420.json",
-    "reports/bulk/connector-resume-wave30-421.json"
+    "reports/bulk/connector-resume-wave30-421.json",
+    "reports/bulk/connector-resume-wave30-422.json"
   ],
-  "query_observations": 5672,
-  "distinct_literal_queries": 4939,
+  "query_observations": 5690,
+  "distinct_literal_queries": 4956,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -28810,6 +28811,96 @@
     {
       "query": "\"홀리몰리\" \"2026\" 패러디 -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-421.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 패러디 site:brunch.co.kr/@ \"했다\"",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행\" site:univ20.com",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"따라\" site:allurekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:elle.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"구멍난 가슴\" \"챌린지\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"보름달\" \"뜨기 전\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"MBTI\" \"OUTFIT\" \"챌린지\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"구멍난 가슴\" \"아일릿\"",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"누나 나 죽어\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"모 야메룽다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무슨 마약하시길래\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"서로 깨물었을 때 반응\"",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오락하는데 이유가\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"모 야메룽다\" \"2026\" -site:namu.moe -site:kone.gg",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무슨 마약하시길래\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"누나 나 죽어\" \"2026\" -site:namu.moe -치어리더 -site:fomos.kr",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오락하는데 이유가\" -site:namu.moe -site:letterboxd.com",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무슨 마약하시길래\" 후기 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-422.json",
       "status": "screened-see-report"
     }
   ],
