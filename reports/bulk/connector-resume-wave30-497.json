@@ -1,0 +1,331 @@
+{
+  "batch": 497,
+  "base": "e73bb14d766600f96569055cd2b4bafd1100eee7",
+  "canonical_before": 1603,
+  "canonical_after": 1613,
+  "added": [
+    "viking-rowing-group-cheer",
+    "maxwell-cat-character",
+    "team-without-namesake",
+    "sonjeolmi-unappealing-trait",
+    "online-teacher-respect-nickname",
+    "kimdo-mars-people-song-remix",
+    "bukangi-homeward-game-play",
+    "baby-face-filter-photo-sharing",
+    "water-drop-phone-wish-pov",
+    "love-love-love-heart-challenge"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0124",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "maxwell-cat-character"
+    },
+    {
+      "id": "kr-list-0264",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "kimdo-mars-people-song-remix"
+    }
+  ],
+  "previous_ci": {
+    "run": 44328987361,
+    "job": 134887913544,
+    "sha": "e73bb14d766600f96569055cd2b4bafd1100eee7",
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 126.904s"
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "required_fixes": 0,
+    "entries": 1603,
+    "changed_files": 21,
+    "unique_urls": 10,
+    "apple_reopen": "success final exact URL",
+    "old_unchanged": 1591,
+    "optional_note": "food-alchemist same date wording could be explicit, not required"
+  },
+  "research": {
+    "A76": {
+      "observations": 20,
+      "recommended": 1,
+      "held": 19,
+      "linked": 0,
+      "queries": [
+        "\"11미터 모형탑\" \"패러디\"",
+        "\"1초만에 사람을 낚는 방법\" -site:namu.moe -site:seore.org",
+        "\"64 bits\" \"밈\" -site:namu.moe",
+        "\"Point 드립\" -site:namu.moe",
+        "\"1. 들어올린다\" -site:namu.moe -site:seore.org",
+        "\"알려주겠다\" \"밈\" -site:namu.moe",
+        "\"해버리기\" \"유행어\"",
+        "\"chip\" \"밈\" 고양이 -site:namu.moe",
+        "\"camel singing\" \"밈\" -site:namu.moe",
+        "\"street photographer\" \"밈\" -site:namu.moe",
+        "\"EZ Do Dance\" \"밈\" -site:namu.moe",
+        "\"FBI OPEN UP\" \"밈\" -site:namu.moe",
+        "\"He is\" \"밈\" 한국 -site:namu.moe",
+        "\"드디어 깨어났구나\" \"스카이림\" -site:namu.moe",
+        "\"마피아 시티\" \"밈\" -site:namu.moe",
+        "\"맥스웰\" 고양이 밈 -site:namu.moe",
+        "\"미스터 인크레더블\" \"밈\" -site:namu.moe",
+        "\"PAC-MAN ghost dance\" 한국 -site:namu.moe",
+        "\"Pink Elephants on Parade\" \"밈\" -site:namu.moe",
+        "\"Sims cat breaking\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "Maxwell limited character/story/game reuse only; no spinning genealogy. 19 held rows retain classification."
+    },
+    "A77": {
+      "observations": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"거짓말하지 말아요\" \"패러디\"",
+        "\"계획대로\" \"데스노트\" \"패러디\"",
+        "\"고만해 미친놈들아\" -site:namu.moe",
+        "\"귀여운 건 나도 알아\" 박명수",
+        "\"그건 원작을 경험해 보신 분들의 기준인 거고요\" -site:namu.moe -site:seore.org",
+        "\"그들의 연회에\" -site:namu.moe -site:seore.org",
+        "\"그러면 죽어요\" \"밈\" -site:namu.moe",
+        "\"그런 거 없다\" \"밈\" -site:namu.moe",
+        "\"김도\" \"마즈피플\" 패러디",
+        "\"깨어나세요 용사여\" -site:namu.moe -site:seore.org",
+        "\"꾸래핑\" 밈 -site:namu.moe",
+        "\"나는 개인이오\" -site:namu.moe -site:seore.org",
+        "\"나는 애쉬\" \"밈\" -site:namu.moe",
+        "\"나는 예쁘지 않습니다\" -site:namu.moe -site:seore.org",
+        "\"날 내버려둬\" \"밈\" -site:namu.moe",
+        "\"내 식사를 방해할 생각인가\" -site:namu.moe -site:seore.org",
+        "\"네가 하면 나도 한다\" \"패러디\" -site:namu.moe",
+        "\"네 설명해드렸습니다\" -site:namu.moe -site:seore.org",
+        "\"누나 좋아해요\" \"밈\" -site:namu.moe",
+        "\"늬픽\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "6external opens4read2failed. One personal explainer adopted; no video viewing or lyric transcription. Other19 retain classifications."
+    },
+    "B545": {
+      "tally": {
+        "observations": 20,
+        "recommended": 1,
+        "existing": 8,
+        "held": 5,
+        "excluded": 6
+      },
+      "queries": [
+        "2026 \"밈\" \"따라\" site:khan.co.kr",
+        "2026 \"사진\" \"놀이\" site:magazine.hankyung.com",
+        "2026 \"챌린지\" \"패러디\" site:news.kbs.co.kr",
+        "\"세광고\" \"노젓기\"",
+        "\"바이킹\" \"세리머니\" \"2026\""
+      ],
+      "notes": "KBS robotsfailed. Sports rowing not identified with previous unknown dance. Domestic team one event; no minor identifiers adopted.",
+      "sources": [
+        "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1008656034",
+        "https://v.daum.net/v/20260623195951575",
+        "https://sports.khan.co.kr/article/202607172154003/amp"
+      ]
+    },
+    "B546": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 9,
+      "held": 8,
+      "excluded": 2,
+      "queries": [
+        "2026 \"놀이\" \"사진\" site:univ20.com",
+        "2026 \"밈\" \"만들어\" site:design.co.kr",
+        "2026 \"챌린지\" \"패러디\" site:news.kbs.co.kr",
+        "2026 \"유행\" \"사진 놀이\"",
+        "2026 \"밈\" \"재현\" \"공식\" -site:namu.wiki",
+        "2026 \"챌린지\" \"사진\" site:allurekorea.com",
+        "\"보이넥스트도어의 자체 콘텐츠 성장기\" 날짜",
+        "\"쌈밥\" \"무한도전\" \"보이넥스트도어\""
+      ],
+      "notes": "Team-without-namesake one interview-based reproduction; search May8 versus official list May9; official date used. Existing9 do not add. Media viewed0."
+    },
+    "B547": {
+      "observations": 20,
+      "recommended": 3,
+      "existing": 8,
+      "held": 5,
+      "excluded": 4,
+      "queries": [
+        "2026 \"밈\" \"따라\" site:magazine.weverse.io",
+        "2026 \"놀이\" \"사진\" site:esquirekorea.co.kr",
+        "2026 \"밈\" \"재현\" site:news.sbs.co.kr",
+        "\"부캉이의 집으로 가는 길\"",
+        "\"틱톡으로 보는 K-팝 숏폼 트렌드 5가지\"",
+        "\"아기 얼굴\" \"필터\" 2026",
+        "\"틱톡으로 보는 K-팝 숏폼 트렌드 5가지\" \"2024.03.04\""
+      ],
+      "notes": "Recent1historical2; game1artifact two sources, no play/leaderboard; babyfilter adultphotos media1; waterPOV1reenactment. No originalmedia execution."
+    },
+    "C59": {
+      "tally": {
+        "observations": 20,
+        "recommended": 0,
+        "existing": 5,
+        "held": 15
+      },
+      "queries": [
+        "site:careet.net \"2026\" \"요즘 뜨는 밈\" -2017 -1842",
+        "site:maily.so \"2026\" \"밈\" \"5월\"",
+        "site:gogumafarm.kr \"2026\" \"챌린지\" \"4월\"",
+        "\"걸그립\" 한국 브랜드",
+        "\"인스타그램이 릴스를\"",
+        "\"악성 내성인\" \"밈\"",
+        "\"터치 그래스\" 한국"
+      ],
+      "correction": "AI baseball screen preliminary novelty retracted after full canonical read, existing ai-broadcast-appearance-photo; report-only source booster",
+      "sources": [
+        "https://maily.so/itis/posts/xyow33d3r28",
+        "https://maily.so/mading/posts/8mo5661kr9p"
+      ],
+      "notes": "Same Medicube event not two applications. Foreign formats not promoted as Korean production."
+    },
+    "C60": {
+      "observations": 20,
+      "recommended": 2,
+      "existing": 4,
+      "held": 14,
+      "queries": [
+        "2026 밈 신조어 대학신문 유행 댓글",
+        "2026 \"밈\" \"뉴스레터\" \"11월\"",
+        "site:univpress.co.kr 2026 밈",
+        "site:news.unn.net 2026 밈",
+        "site:maily.so \"2026\" \"밈\" \"3월\"",
+        "\"한풀루언서\" -site:namu.wiki",
+        "\"랜선생님\" \"2026\"",
+        "\"두쫀쿠\" \"몇 개\" \"주식\"",
+        "\"김여주가\" \"2026\"",
+        "\"한풀루언서\"",
+        "\"손절미\"",
+        "\"랜선생님\"",
+        "\"수발새끼\""
+      ],
+      "notes": "Sandoll undated direct editorial use, Poomang undated title only not execution. No recent dating from event deadline. Existing freeze-dry-affection new evidence is report only."
+    },
+    "C61": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 6,
+      "held": 13,
+      "queries": [
+        "2026 \"밈\" \"대학신문\" 인스타",
+        "2026 \"밈\" \"편집\" \"챌린지\" 매거진",
+        "site:gogumafarm.kr \"2026\" \"7월\" \"트랜지션\"",
+        "site:careet.net \"2026\" \"사진\" \"부모님\"",
+        "site:maily.so \"2026\" \"폴리에스터\"",
+        "site:incross.com \"2026\" \"주술회전\"",
+        "\"Love Love Love\" \"챌린지\" \"2026\"",
+        "\"용돈 ATM\" \"사이트\"",
+        "\"로또 당첨 사이트\" \"생신\""
+      ],
+      "notes": "LoveLoveLove handheart only; Incross title2026Jan14/internal2025Dec31 inconsistent no precise date adopted. Singles no directdate. No lyrics or video view."
+    },
+    "parent": {
+      "queries": [
+        "2026 11월 밈 모음 최신 유행 고구마팜",
+        "2026 10월 밈 모음 인크로스",
+        "\"PPT 여우\" \"2026\"",
+        "\"국립공원야생생물보전원\" \"여우\" \"도형\""
+      ],
+      "notes": "PPTfox held pending stronger reuse boundary; KBC direct opens twice timeout. Search snippets not adopted. Existing my-emoji,under-arrest,JohnParkrap,age-reaction,exgirlfriendpeeler confirmed index; no count as new."
+    }
+  },
+  "sources": [
+    {
+      "id": "viking-rowing-group-cheer",
+      "urls": [
+        "https://v.daum.net/v/20260623195951575",
+        "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1008656034"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "maxwell-cat-character",
+      "urls": [
+        "https://v.daum.net/v/20230816100102195?s=print_news",
+        "https://cofgame.tistory.com/469?category=1196888"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "team-without-namesake",
+      "urls": [
+        "https://magazine.weverse.io/article/view/1439?artist=BOYNEXTDOOR&lang=ko",
+        "https://magazine.weverse.io/article/list?artist=BOYNEXTDOOR&lang=ko"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sonjeolmi-unappealing-trait",
+      "urls": [
+        "https://www.insight.co.kr/amp/news/492721",
+        "https://stibee.com/api/v1.0/emails/share/fSczXCtLCtjqjpoGS17zITFeYnjQbLY",
+        "https://poomang.com/detail/stoploss_test"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "online-teacher-respect-nickname",
+      "urls": [
+        "https://www.insight.co.kr/amp/news/492721",
+        "https://stibee.com/api/v1.0/emails/share/fSczXCtLCtjqjpoGS17zITFeYnjQbLY"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kimdo-mars-people-song-remix",
+      "urls": [
+        "https://lovelykorean.tistory.com/entry/메탈슬러그-외계인-마즈피플-밈-김도-마즈피플송-유래-코스프레-유튜버-유튜브-모음?category=1154913"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bukangi-homeward-game-play",
+      "urls": [
+        "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1008766757",
+        "https://busanshark.com/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "baby-face-filter-photo-sharing",
+      "urls": [
+        "https://www.esquirekorea.co.kr/article/37144"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "water-drop-phone-wish-pov",
+      "urls": [
+        "https://magazine.weverse.io/article/view/1047?lang=ko",
+        "https://magazine.weverse.io/article/list?lang=ko&query=SEVENTEEN"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "love-love-love-heart-challenge",
+      "urls": [
+        "https://v.daum.net/v/20260927065714985",
+        "https://www.incross.com/ko/insight/report.asp?idx=10698&mode=view"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "10 bounded entries in one checkpoint; historical and recent separated.",
+    "C59 AI baseball photo already included; report-only booster.",
+    "No prior canonical bodies edited. Maxwell0124/MarsPeople0264 partial, no wholesale coverage certification.",
+    "Current CI pending; post-publication audit follows."
+  ],
+  "query_observations": 11289,
+  "distinct_literal_queries": 9288,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
