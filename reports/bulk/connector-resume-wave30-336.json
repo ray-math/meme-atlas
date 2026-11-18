@@ -1,0 +1,160 @@
+{
+  "batch": 336,
+  "base": "0970ca74766a3022bb8aabe8f55bd30e78786339",
+  "canonical_before": 964,
+  "canonical_after": 964,
+  "added": [],
+  "research": {
+    "candidates": [
+      "연애의 조건 챌린지",
+      "블러셔 블라인드니스",
+      "안티 블러시",
+      "장난아냐 스텝 챌린지",
+      "DONT STOP 챌린지",
+      "Hush 챌린지",
+      "20달러 챌린지",
+      "사와디카 챌린지",
+      "쇼크 챌린지",
+      "긴 소원 보컬 챌린지"
+    ],
+    "recommended": 0,
+    "existing": [
+      "love-options-challenge"
+    ],
+    "held": 9,
+    "queries": [
+      "2026 \"챌린지\" \"연애의 조건\"",
+      "2026 \"밈\" site:marieclairekorea.com \"11\"",
+      "2026 \"밈\" site:allurekorea.com",
+      "\"틴탑\" \"챌린지\" \"2026\"",
+      "\"블러셔 블라인드니스\" 한국",
+      "2026 \"챌린지\" site:marieclairekorea.com",
+      "\"장난아냐\" \"챌린지\" \"2026\"",
+      "\"틴탑이 13년만에\"",
+      "\"블러셔 블라인드니스\" \"챌린지\"",
+      "\"20달러 챌린지\"",
+      "\"사와디카 챌린지\" \"2026\"",
+      "\"장난아냐\" \"챌린지\" site:theqoo.net"
+    ],
+    "index_queries": [
+      "연애의조건",
+      "BESTie",
+      "블러셔",
+      "블러쉬",
+      "안티블러",
+      "장난아냐",
+      "틴탑",
+      "dontstop",
+      "hush",
+      "20달러",
+      "사와디카",
+      "쇼크",
+      "긴소원"
+    ],
+    "sources": [
+      "https://news.tf.co.kr/read/entertain/2372804.htm",
+      "https://maily.so/trendaword/posts/8mo56yqnr9p",
+      "https://www.maccosmetics.co.kr/",
+      "https://www.marieclairekorea.com/beauty/2026/10/anti-blush/"
+    ],
+    "limits": "Worker read4, editor unread. MAC undated; marieclaire displayed Oct3 metadataSep23 2026. Beautytrend notverifiedmeme. Challenge searchtitles notoriginalvideos. Hush substring shuk-shushuk falsepositive. Video/image0."
+  },
+  "editor": {
+    "queries": [
+      "\"2026\" \"밈\" \"11월\" \"반응\" -site:namu.moe -site:seore.org -site:maily.so",
+      "\"2026\" \"유행어\" \"회사\" \"11월\" -site:namu.moe",
+      "\"쌍쇈부\" 밈",
+      "\"라우럴\" \"지수\" -site:namu.moe -site:tistory.com",
+      "\"조퇴할게요\" \"2026\" 밈"
+    ],
+    "index_queries": [
+      "쌍쇈부",
+      "조퇴할게요",
+      "라우럴",
+      "나이별",
+      "빼난지원금",
+      "와졌어"
+    ],
+    "sources_read": [
+      "https://news.tf.co.kr/read/entertain/2372804.htm",
+      "https://www.marieclairekorea.com/beauty/2026/10/anti-blush/"
+    ],
+    "related_body": "love-options-challenge",
+    "limits": "Existing lovepatternconfirmed;beautytrendnotmeme. Freshsearchtitlesunverified Two terms have single CreatorRank compilation listing only; no independent originals.",
+    "existing": [
+      "raureol",
+      "age-reaction-challenge",
+      "pepero-aid",
+      "ended-up-here"
+    ],
+    "held": [
+      "쌍쇈부",
+      "조퇴할게요"
+    ]
+  },
+  "semantic_audit": {
+    "base": "0970ca74766a3022bb8aabe8f55bd30e78786339",
+    "rows": [
+      "0784",
+      "0786",
+      "0787",
+      "0790",
+      "0791",
+      "0794",
+      "0800",
+      "0802",
+      "0803",
+      "0804",
+      "0805",
+      "0810",
+      "0811",
+      "0813",
+      "0814",
+      "0816",
+      "0819",
+      "0820",
+      "0825",
+      "0840"
+    ],
+    "unchanged": {
+      "index_not_found": 15,
+      "unclear": 5
+    },
+    "changes": 0,
+    "body_read": [
+      "jjeolda",
+      "hoshitamtam-challenge",
+      "will-i-be-king",
+      "seong-gihun-freeze",
+      "i-punch-like-kingkong",
+      "queen-never-cry",
+      "vertex-dance",
+      "naneun-haengbokhamnida"
+    ],
+    "queries": [
+      "오붕|obunga",
+      "샹젤|champs",
+      "오지|쩐다|쩔",
+      "오타쿠|정치글",
+      "필승|코리아|응원",
+      "옴마니|불교|불심",
+      "와쿠|waku|아냐",
+      "왈랄|walala",
+      "왕사슴|사슴|가이즈",
+      "왕의|DNA",
+      "왕이|왕은",
+      "요나|yona",
+      "요시|그란도|시즌",
+      "업계|포상",
+      "우마우마|caramell|카라멜",
+      "우영우|기러기|우영",
+      "얼음|약속했|부르기로",
+      "지옥참|울어라",
+      "월요일|아침새|월요",
+      "응애|아기|애기"
+    ],
+    "limits": "Semantic scope only, no new use/origin evidence. Song/group/generalword not equivalent to specific meme. Queennevercry not general babyroleplay. Monday example not morningsong."
+  },
+  "ci": "964 in progress at preparation",
+  "coverage": "No classification changes, immutable1091 source unchanged"
+}

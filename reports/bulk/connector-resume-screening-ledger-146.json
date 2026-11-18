@@ -164,10 +164,11 @@
     "reports/bulk/connector-resume-wave30-332.json",
     "reports/bulk/connector-resume-wave30-333.json",
     "reports/bulk/connector-resume-wave30-334.json",
-    "reports/bulk/connector-resume-wave30-335.json"
+    "reports/bulk/connector-resume-wave30-335.json",
+    "reports/bulk/connector-resume-wave30-336.json"
   ],
-  "query_observations": 3708,
-  "distinct_literal_queries": 3141,
+  "query_observations": 3764,
+  "distinct_literal_queries": 3192,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -18909,6 +18910,286 @@
     {
       "query": "술|음주|마셨|모순|해명",
       "source": "reports/bulk/connector-resume-wave30-335.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" \"연애의 조건\"",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:marieclairekorea.com \"11\"",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:allurekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"틴탑\" \"챌린지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"블러셔 블라인드니스\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" site:marieclairekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"장난아냐\" \"챌린지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"틴탑이 13년만에\"",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"블러셔 블라인드니스\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"20달러 챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사와디카 챌린지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"장난아냐\" \"챌린지\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "연애의조건",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "BESTie",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "블러셔",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "블러쉬",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "안티블러",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "장난아냐",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "틴탑",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "dontstop",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "hush",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "20달러",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사와디카",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쇼크",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "긴소원",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" \"반응\" -site:namu.moe -site:seore.org -site:maily.so",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"회사\" \"11월\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쌍쇈부\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"라우럴\" \"지수\" -site:namu.moe -site:tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조퇴할게요\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쌍쇈부",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "조퇴할게요",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라우럴",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나이별",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빼난지원금",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와졌어",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오붕|obunga",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "샹젤|champs",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오지|쩐다|쩔",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오타쿠|정치글",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "필승|코리아|응원",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "옴마니|불교|불심",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와쿠|waku|아냐",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "왈랄|walala",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "왕사슴|사슴|가이즈",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "왕의|DNA",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "왕이|왕은",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "요나|yona",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "요시|그란도|시즌",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "업계|포상",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "우마우마|caramell|카라멜",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "우영우|기러기|우영",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "얼음|약속했|부르기로",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "지옥참|울어라",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "월요일|아침새|월요",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "응애|아기|애기",
+      "source": "reports/bulk/connector-resume-wave30-336.json",
       "status": "screened-see-report"
     }
   ],
