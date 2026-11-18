@@ -92,10 +92,11 @@
     "reports/bulk/connector-resume-wave30-246.json",
     "reports/bulk/connector-resume-wave30-247.json",
     "reports/bulk/connector-resume-wave30-249.json",
-    "reports/bulk/connector-resume-wave30-250.json"
+    "reports/bulk/connector-resume-wave30-250.json",
+    "reports/bulk/connector-resume-wave30-251.json"
   ],
-  "query_observations": 1613,
-  "distinct_literal_queries": 1310,
+  "query_observations": 1643,
+  "distinct_literal_queries": 1332,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -8362,6 +8363,156 @@
     {
       "query": "어어우예",
       "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site.ac.kr \"2026\" \"밈\" -뒷공부 -학과 -공모",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site.korea.kr \"2026\" \"챌린지\" \"유행\"",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site.maily.so \"2026\" \"밈\" \"요즘\" -뒷공부 -고구마",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"줴줴이야\" -site:instablank.com -site:namu.wiki -site:namu.moe -세무 -커닝 -범생 -문신",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"김민\" \"패러디\" \"동두천\"",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"배경 트랜지션\"",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"김민\" \"따라하기\" \"2026\" -site:instablank.com -site:jjalbang.today -site:yongdev.dev",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"김민\" \"패러디\" \"나혼산\"",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"칠레\" \"밈\" \"2026\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"칠레\" \"평균\" \"2026\" \"밈\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"칠레\" \"길쭉\" \"2026\" -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"김민 따라하기\" -site:instablank.com -site:jjalbang.today -site:yongdev.dev",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"김민\" \"패러디\" \"고기\"",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"김민코어\" \"따라\"",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"칠레\" \"2026\" site.theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요즘 난리 난\" \"김민\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"김민\" \"따라잡기\" site:imbc.com",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"김민\" \"패러디\" site:youtube.com",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "줴줴",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "연애의 조건",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김민",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "동두천",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이모지",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이모찌",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나무 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스파이더맨",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "칠레",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "배경 트랜지션",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "장원영",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Kinda chic",
+      "source": "reports/bulk/connector-resume-wave30-251.json",
       "status": "screened-see-report"
     }
   ],
