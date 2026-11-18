@@ -1,0 +1,103 @@
+{
+  "batch": 433,
+  "base": "04619c03461da90035081d8e6295e47c58edf860",
+  "canonical_before": 1007,
+  "canonical_after": 1007,
+  "added": [],
+  "researchB": {
+    "queries": [
+      "\"굉장하다\" \"밈\" \"2026\"",
+      "\"그런 거 없다\" \"2026\" 패러디",
+      "\"난 아무렇지 않아\" 밈",
+      "\"이게 돈이 될까\" \"2026\"",
+      "\"난 아무렇지 않지 않아\" \"2026\"",
+      "\"으악 안 돼\" \"밈\"",
+      "\"굉장하다\" \"손흥민\" \"2026\" -site:namu.moe",
+      "\"돈이 될까\" \"밈\" -site:namu.moe",
+      "\"돈이 될까\" \"2026\" 엔씨 -site:namu.moe",
+      "\"그런 거 없다\" \"2026\" -site:namu.moe -site:note.com",
+      "\"으악 안돼\" \"2026\" 이병헌"
+    ],
+    "held": [
+      {
+        "id": "0217",
+        "note": "일반칭찬/말틀구분미확정form-michyeotda연결추측금지"
+      },
+      {
+        "id": "0242",
+        "note": "스포츠일반부정문장특정짤근거없음"
+      },
+      {
+        "id": "0305",
+        "url": "https://web.sportsworldi.com/newsView/20261023510493",
+        "note": "2026-10-23문법수업가사활용보도1,EBS같은방송.패러디아님"
+      },
+      {
+        "id": "0391",
+        "url": "https://news.nate.com/view/20260623n00950",
+        "note": "2026-06-23한국일보콘텐츠산업칼럼인용1.최초인물회사미확정.인벤316712기사본문성공이나댓글find502검증아님"
+      },
+      {
+        "id": "0833",
+        "note": "일반감탄과아이리스장면구별부족"
+      }
+    ],
+    "note": "3번탐색부정하나누락5번정확표제보정"
+  },
+  "researchB_followup": {
+    "queries": [
+      "\"돈이 될까\" 패러디 -site:namu.moe -site:inven.co.kr",
+      "\"돈이될까\" \"2026\" -site:inven.co.kr",
+      "\"돈이 될까\" 밈 \"2025\" -site:namu.moe",
+      "\"돈이 될까\" \"패러디\" 게임",
+      "\"그게 돈이 될까\" \"2026\" -site:inven.co.kr -site:note.com"
+    ],
+    "candidate": "0391",
+    "recommended": "bounded-review",
+    "source": "https://forum.blackdesertm.com/Board/Detail?boardNo=12&contentNo=644600&pageNo=1",
+    "note": "2026-01-04보장장치요청댓글16:34수익질문응답.운영사아닌이용자,냉소읽기는해석이며스스로밈지칭없음.한국일보06-23칼럼과2맥락.원어원인물회사미확정.",
+    "excluded": [
+      {
+        "url": "https://growthing.co.kr/posts/50420",
+        "note": "01-25댓글미러원유튜브미열람"
+      },
+      {
+        "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=436656",
+        "note": "06-12비하허구실제기업주장혼재제외"
+      },
+      {
+        "url": "https://ygosu.com/board/video/69578",
+        "note": "검색07-31직접403"
+      }
+    ]
+  },
+  "editor_queries": [
+    "\"돈이 될까\" \"2026\" \"드립\" -site:namu.moe",
+    "\"돈이 될까\" \"2026\" \"밈\" -site:inven.co.kr -site:namu.moe"
+  ],
+  "editor_note": "추가검색일반수익질문·집계·해외자료로명확고정밈신규0.추천은아래독립감사결론으로보류",
+  "independent_audit": {
+    "amollang": {
+      "sha": "04619c03461da90035081d8e6295e47c58edf860",
+      "passed": true,
+      "body_reads": 1,
+      "required_changes": 0,
+      "partial_appropriate": true
+    },
+    "money": {
+      "candidate": "0391",
+      "status": "held",
+      "direct_source_reads": 2,
+      "confirmed_meme_reuses": 0,
+      "possible_cynical_use": 1,
+      "note": "칼럼실제수익논의와포럼일반수익질문가능성구별단서부족.원문접근성공≠고정밈2군확인.연결승격없음."
+    }
+  },
+  "candidate_changes": [],
+  "ci1007": {
+    "run": 44261708204,
+    "job": 134656368465,
+    "status": "last observed in_progress"
+  },
+  "ci_new_commit": "pending"
+}
