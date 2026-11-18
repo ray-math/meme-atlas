@@ -1,0 +1,308 @@
+{
+  "batch": 444,
+  "base": "f015c7ef50a54f3a521e75690cd3d69717a416ee",
+  "canonical_before": 1043,
+  "canonical_after": 1056,
+  "added": [
+    "redred-dance-challenge",
+    "two-love-dance-challenge",
+    "boynextdoor-viral-challenge",
+    "kiki-404-dance-challenge",
+    "rescene-pretty-girl-challenge",
+    "its-me-dance-challenge",
+    "jjalbang-boy-parody",
+    "jinjichung",
+    "kokain-dance-parody",
+    "stop-the-dog-barking-quote",
+    "why-gag-concert-failed",
+    "korean-hiphop-top-playful-title",
+    "what-is-that-otaku-retort"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0968",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "jjalbang-boy-parody"
+    },
+    {
+      "id": "kr-list-0964",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "jinjichung"
+    },
+    {
+      "id": "kr-list-1018",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "kokain-dance-parody"
+    },
+    {
+      "id": "kr-list-0184",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "stop-the-dog-barking-quote"
+    },
+    {
+      "id": "kr-list-0185",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "why-gag-concert-failed"
+    },
+    {
+      "id": "kr-list-0224",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "korean-hiphop-top-playful-title"
+    },
+    {
+      "id": "kr-list-0237",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "what-is-that-otaku-retort"
+    },
+    {
+      "id": "kr-list-0981",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "did-it-all-for-you",
+      "new_body": false
+    }
+  ],
+  "research": {
+    "pending444A": {
+      "count": 20,
+      "recommended": [
+        "0968",
+        "0964",
+        "1018"
+      ],
+      "partial_existing": [
+        {
+          "candidate": "0981",
+          "id": "did-it-all-for-you",
+          "note": "only texttemplate from AIparodygenre notwholegenre"
+        }
+      ],
+      "held": 16,
+      "queries": [
+        "\"진지충\" 유행어 사용",
+        "\"짤방보이\" 패러디",
+        "\"찐찌버거\" 유행어",
+        "\"찰지구나\" 패러디",
+        "\"창렬\" \"패러디\"",
+        "\"창팝\" \"패러디\"",
+        "\"초코빅송\" 패러디",
+        "\"최근 한 온라인 커뮤니티 게시판에는\" \"패러디\"",
+        "\"취직 잘되는 사회를 만들든가\" 패러디",
+        "\"카페인 과다복용 맨\" 패러디",
+        "\"커다란 자갈돌은 짱돌\"",
+        "\"맛있는 겨울배\" 패러디",
+        "\"코카인 댄스\" 패러디",
+        "\"콩쥐야\" \"밈\"",
+        "\"킹근육골드몬\" 패러디",
+        "\"투명드래곤\" 패러디",
+        "\"펀쿨섹좌\" 패러디",
+        "\"페이크다 이 병신들아\" 패러디",
+        "\"하루만 기다리면\" \"나와요\" 밈",
+        "\"하츠네 형돈\" 패러디",
+        "\"코카인 댄스\" \"화사\" SNL 2022",
+        "\"짤방보이\" -site:namu.moe -site:kmas.or.kr -site:readonly.wiki",
+        "\"초코빅송\" -site:namu.moe",
+        "\"하츠네 형돈\" -site:namu.moe"
+      ],
+      "sources": [
+        {
+          "id": "0968",
+          "urls": [
+            "https://kmas.or.kr/webzine/article/411",
+            "https://kmas.or.kr/webzine/article/650"
+          ],
+          "note": "2006-06-01 and12-01 sameauthorinstitution onecluster; detailedcharactervariants. genericjjalbangnotduplicate."
+        },
+        {
+          "id": "0964",
+          "urls": [
+            "https://sgsg.hankyung.com/article/2015112039201",
+            "https://news.nate.com/view/20200118n01898"
+          ],
+          "note": "2015-11-20criticalcolumn+2020-01-18experienceinterview; notactualchatlogs; sternseriousdifferent"
+        },
+        {
+          "id": "1018",
+          "urls": [
+            "https://ent.sbs.co.kr/news/article.do?article_id=E10010244667",
+            "https://news.nate.com/view/20220215n12659",
+            "https://v.daum.net/v/20220703050059175?s=print_news"
+          ],
+          "note": "2022-02-04 Jan30Hurparody+Feb15 Feb12Hwasaparody+July3updated14background; originalcreatorcontradictoryomitted; no videos"
+        }
+      ]
+    },
+    "pending444B": {
+      "count": 20,
+      "reexamined": 18,
+      "newly_discovered": 2,
+      "recommended": [
+        "redred-dance-challenge",
+        "two-love-dance-challenge",
+        "boynextdoor-viral-challenge"
+      ],
+      "existing": 1,
+      "held": 16,
+      "queries": [
+        "\"REDRED\" \"챌린지\" \"참여\"",
+        "\"Crescendo\" \"챌린지\" \"참여\"",
+        "\"THIS & THAT\" \"챌린지\" \"참여\"",
+        "\"Sticky\" \"NCT WISH\" \"챌린지\" 참여",
+        "\"2 L0VE\" 챌린지 참여",
+        "\"VIRAL\" \"보이넥스트도어\" 챌린지 참여",
+        "\"IF I\" \"트레저\" 챌린지 참여",
+        "\"WDA\" 챌린지 참여",
+        "\"CHOOM\" \"챌린지\" \"참여\"",
+        "\"Born Savage\" \"챌린지\" 참여",
+        "\"Mono\" \"아이들\" \"챌린지\" 참여",
+        "\"404\" \"키키\" \"챌린지\" 참여",
+        "\"UNIQUE\" \"피원하모니\" 챌린지 참여",
+        "\"Crown\" \"엑소\" 챌린지 참여",
+        "\"하루에 하루만 더\" 챌린지 참여",
+        "\"Pretty Girl\" \"리센느\" \"챌린지\" 은석"
+      ],
+      "sources": [
+        {
+          "id": "redred",
+          "urls": [
+            "https://v.daum.net/v/20260926000224636",
+            "https://www.xn--9r3bn6tz4i.kr/CommActList/?bmode=view&idx=174901371"
+          ],
+          "note": "2026-09-26Ryujinreport+2026-09-30operatorSep28lesson, filmingpostponednotvideo"
+        },
+        {
+          "id": "two-love",
+          "urls": [
+            "https://enews.imbc.com/News/RetrieveNewsInfo/509771"
+          ],
+          "note": "2026-06-29 participantnamesonepresscluster"
+        },
+        {
+          "id": "viral",
+          "urls": [
+            "https://www.osen.co.kr/article/G1112827099"
+          ],
+          "note": "2026-06-23 severalguestofficialvideosreport, no view"
+        }
+      ],
+      "note": "PrettyGirl/ItsMe/404 followup pending, catchcatchexisting."
+    },
+    "pending444B2": {
+      "recommended": [
+        "rescene-pretty-girl-challenge",
+        "its-me-dance-challenge",
+        "kiki-404-dance-challenge"
+      ],
+      "queries": [],
+      "note": "Followup originalartistannouncement+PrettyGirlEunseokreport; ItsMeKimChaewonreport separatefromchantremix; 404operatorcompletedresult notplannedrelease or originalsingerperformance. Audit sameSHA10bodies passed."
+    },
+    "pending444C": {
+      "count": 20,
+      "recommended": [
+        "0184",
+        "0185",
+        "0224",
+        "0237"
+      ],
+      "held": 16,
+      "queries": [
+        "\"개 짖는 소리\" \"밈\"",
+        "\"개콘이 망한 이유\" 유행",
+        "\"갱갱갱\" 유행",
+        "\"가챠걸\" 밈",
+        "\"건우 엄마 데리고 와\" 밈",
+        "\"계획대로\" \"밈\" 데스노트",
+        "\"고만해 미친놈들아\" 유행",
+        "\"국힙원탑\" 아이유 밈",
+        "\"군필 여고생\" 밈",
+        "\"그가 매수했습니다\" 밈",
+        "\"원작을 경험해\" \"밈\"",
+        "\"그게 뭔데 씹덕아\" 유래",
+        "\"그런 거 없다\" \"밈\" 기사",
+        "\"긔체\" 유행",
+        "\"길을 잃었다\" \"밈\" 아이유",
+        "\"마즈피플\" \"김도\" 기사",
+        "\"꽁기깅깅\" 밈",
+        "\"꽈찌쭈\" \"유행\"",
+        "\"나가있어\" \"밈\"",
+        "\"나는 개인이오\" 패러디"
+      ],
+      "sources": [
+        {
+          "id": "0184",
+          "urls": [
+            "https://v.daum.net/v/VSx2dPLKI5",
+            "https://fanmaum.com/community/lightshop/93988915"
+          ],
+          "note": "2025-01-17 intentionalquote interviewsaysnotcomicparody;2024-12-28sameworkreviewnotsecondproduction"
+        },
+        {
+          "id": "0185",
+          "urls": [
+            "https://www.tenasia.co.kr/article/2023012888304",
+            "https://v.daum.net/v/kPcxvtawM5"
+          ],
+          "note": "2023-01-28 and2021-11-23 sameoutletdifferentwritersperiod, meaningnotactualshowfailurecause"
+        },
+        {
+          "id": "0224",
+          "urls": [
+            "https://ent.sbs.co.kr/news/article.do?article_id=E10010246408",
+            "https://everymemes.tistory.com/456"
+          ],
+          "note": "2022-03-08mediaexplanationanduse+2022-01-07blog, playfulnonrappertitlepartial"
+        },
+        {
+          "id": "0237",
+          "urls": [
+            "https://newsroom.hyundaicard.com/front/board/Q-Z-Z세대의-언어-밈으로-소통하는-방법이-궁금해요",
+            "https://whitefaceone.tistory.com/2229?category=928260"
+          ],
+          "note": "2024-05-17 fictionalizeddialoguesexplicit notobservations;2021-05-14blog; profanity caution despiteauthorclaim"
+        }
+      ]
+    }
+  },
+  "editor_source_reads": [
+    "https://enews.imbc.com/News/RetrieveNewsInfo/509771",
+    "https://www.osen.co.kr/article/G1112827099",
+    "https://v.daum.net/v/20260926000224636",
+    "https://www.xn--9r3bn6tz4i.kr/CommActList/?bmode=view&idx=174901371",
+    "https://m.jenterconnect.com/article/sns/8/105/",
+    "https://v.daum.net/v/VSx2dPLKI5",
+    "https://www.tenasia.co.kr/article/2023012888304",
+    "https://ent.sbs.co.kr/news/article.do?article_id=E10010246408"
+  ],
+  "previous_ci": {
+    "run": 44268170268,
+    "job": 134677791342,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "117.007"
+  },
+  "previous_audit": {
+    "sha": "f015c7ef50a54f3a521e75690cd3d69717a416ee",
+    "body_reads": 10,
+    "passed": true,
+    "required_changes": 0,
+    "recommended_edit": "gukbap-comparison source9452772 is Insight contributor from advertising agency, relabel report as commentary",
+    "note": "All10fulltexts+source reopens. Igeogwodeon DC titlecategoryverified, noimageoutcome."
+  },
+  "attribution_fix": "gukbap-comparison labels advertising planner's Insight commentary rather than independent news reporting",
+  "query_observations": 6430,
+  "distinct_literal_queries": 5638,
+  "limits": [
+    "13 entries batched; six recent2026 dance entries separate from earlier wordplay/remixes.",
+    "Seven new ledger mappings + one existing partial genre mapping; observations not unique memes.",
+    "Original images/videos not watched; source tiers and same-event reuse explicitly bounded.",
+    "Latest CI pending; main unchanged; no Codex."
+  ]
+}
