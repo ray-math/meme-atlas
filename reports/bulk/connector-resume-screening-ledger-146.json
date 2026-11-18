@@ -182,10 +182,11 @@
     "reports/bulk/connector-resume-wave30-350.json",
     "reports/bulk/connector-resume-wave30-351.json",
     "reports/bulk/connector-resume-wave30-352.json",
-    "reports/bulk/connector-resume-wave30-353.json"
+    "reports/bulk/connector-resume-wave30-353.json",
+    "reports/bulk/connector-resume-wave30-354.json"
   ],
-  "query_observations": 4262,
-  "distinct_literal_queries": 3644,
+  "query_observations": 4285,
+  "distinct_literal_queries": 3666,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -21697,6 +21698,121 @@
     {
       "query": "\"호롤롤로\" 밈 유래",
       "source": "reports/bulk/connector-resume-wave30-353.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "락통령|락.*대통령",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "러브 라이브|러브라이브|선샤인",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "러시아|소련|공산",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "롯데햄|후라이드|치킨",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "루저|키 작은",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "리사 수|리사수|AMD",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "린가|피리",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마쁘|마블리|마동석",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마인크래프트|마크|19금",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "막심|닥터",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "만희",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "머니게임|머니 게임",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "면제겜|면제",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "멸공",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "모기",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "무뇌|문희준",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "문법|맞춤법|나치",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "문크|예거",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "문신|국밥|육수",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뭐이악|뭐야",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한잔해\" \"2026\" \"이겼\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한 잔 해\" \"했잖아\" -site:namu.moe -site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한잔해\" \"이겼잖아\"",
+      "source": "reports/bulk/connector-resume-wave30-354.json",
       "status": "screened-see-report"
     }
   ],
