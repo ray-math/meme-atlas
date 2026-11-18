@@ -128,10 +128,11 @@
     "reports/bulk/connector-resume-wave30-285.json",
     "reports/bulk/connector-resume-wave30-286.json",
     "reports/bulk/connector-resume-wave30-287.json",
-    "reports/bulk/connector-resume-wave30-289.json"
+    "reports/bulk/connector-resume-wave30-289.json",
+    "reports/bulk/connector-resume-wave30-290.json"
   ],
-  "query_observations": 2499,
-  "distinct_literal_queries": 2027,
+  "query_observations": 2527,
+  "distinct_literal_queries": 2049,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -12828,6 +12829,146 @@
     {
       "query": "고봉밥",
       "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site.maily.so 2026 \"밈\" \"11.16\"",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"숨은 명곡\" 팬들",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:genie.co.kr/magazine \"2026\" \"유행어\"",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"팬들만 알고\" \"숨은 명곡\" -site:incross.com",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"수정사항을 변기에\"",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"팬들만 알고\" \"숨은 명곡\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"변기에 넣고서 내려\" -site:incross.com -site:minenews.stibee.com -빅나티 -김감전",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"팬들만 알고 대부분\" -site:twstalker.com -site:sotwe.com -site:incross.com",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"숨은 명곡\" \"달라달라\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아웅다웅 챌린지\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아웅다웅 챌린지\" site:clip.imbc.com",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아웅다웅 챌린지\" site:news.nate.com",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아웅다웅\" \"챌린지\" site:tv.jtbc.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "숨은 명곡",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "변기에",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그러시구나",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "킹콩",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이지까까",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이거 제 이모지",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "미혼 앤 비혼",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감사드리고",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "데스크탑",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아웅다웅",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "브리저튼",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "과일 AI 쇼츠",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그림판",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "크레파스",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "테크놀로히아",
+      "source": "reports/bulk/connector-resume-wave30-290.json",
       "status": "screened-see-report"
     }
   ],
