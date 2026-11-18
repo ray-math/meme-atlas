@@ -1,0 +1,459 @@
+{
+  "batch": 465,
+  "base": "1603715ab214f52a13190e74d27339ace7b288a0",
+  "canonical_before": 1279,
+  "canonical_after": 1292,
+  "added": [
+    "jongbeom-absence-slang",
+    "jukchang-inequality-envy-metaphor",
+    "capitalism-ho-game-quote-parody",
+    "kim-seonggeun-cheer-character-voice-remake",
+    "furry-younger-sibling-pet-label",
+    "trigonometry-song-parody",
+    "talmor-party-song-parody",
+    "odyssey-scene-everyday-reenactment",
+    "son-mask-caption-parody",
+    "super-idol-cover-parody",
+    "skibidi-toilet-music-recreation",
+    "hatsune-hyeongdon-voice-music-edit",
+    "how-much-success-do-you-want-reaction"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0936",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "jongbeom-absence-slang"
+    },
+    {
+      "id": "kr-list-0946",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "jukchang-inequality-envy-metaphor"
+    },
+    {
+      "id": "kr-list-1004",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "capitalism-ho-game-quote-parody"
+    },
+    {
+      "id": "kr-list-1016",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "kim-seonggeun-cheer-character-voice-remake"
+    },
+    {
+      "id": "kr-list-0606",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "trigonometry-song-parody"
+    },
+    {
+      "id": "kr-list-1035",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "talmor-party-song-parody"
+    },
+    {
+      "id": "kr-list-0638",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "son-mask-caption-parody"
+    },
+    {
+      "id": "kr-list-0646",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "super-idol-cover-parody"
+    },
+    {
+      "id": "kr-list-0652",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "skibidi-toilet-music-recreation"
+    },
+    {
+      "id": "kr-list-1094",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "hatsune-hyeongdon-voice-music-edit"
+    }
+  ],
+  "previous_ci": {
+    "run": 44289920235,
+    "job": 134752156647,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 124.889s"
+  },
+  "previous_audit": {
+    "batch": 464,
+    "status": "pass",
+    "mandatory_fixes": 0,
+    "new_bodies": 11,
+    "prior_index_unchanged": 1268,
+    "prior_body_changes": 0,
+    "mapping_rows_changed": 5,
+    "mapping_losses": 0,
+    "sources_reopened": 9,
+    "previous_verified_sources": 6,
+    "media_viewed": 0,
+    "source_limits_preserved": true
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": 0,
+      "existing": 4,
+      "held": 16,
+      "queries": [
+        "\"뼈 맞았어\" 유행어",
+        "\"빨강 사기맵\"",
+        "\"빵뚜아 이낫\"",
+        "\"사카밤바스피스\" 밈",
+        "\"사정없이 보내버리겠다\"",
+        "\"벽돌할아버지\" 로봇댄스",
+        "\"사고 쳤을 때\" \"악화되지\"",
+        "\"사이버펑크\" \"밈\" 한국",
+        "\"뼈 맞았어\" \"뜻\" -site:namu.moe -site:readonly.wiki",
+        "\"사카밤바스피스\" \"만들\" -site:namu.moe -site:alphawiki.org",
+        "\"빅 나티를 변기에\"",
+        "\"삐뽀핑\" 밈",
+        "\"뼈 맞았어\" 기사",
+        "\"사카밤바스피스\" 만들기 한국"
+      ],
+      "note": "0546 prior URL recovery is not added here as new recommendation; published464."
+    },
+    "A2": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 6,
+      "held": 13,
+      "queries": [
+        "\"삼각함수송\"",
+        "\"삼도수군통제사\" 밈",
+        "\"삼성걸\" 팬아트",
+        "\"샤방송\"",
+        "\"사회적 거리두기\" \"밈\" 얼굴",
+        "\"샤방송\" 패러디",
+        "\"섊\" 유행어",
+        "\"서로 깨물었을 때 반응\"",
+        "\"섣불리 판단하면 안되는 이유\"",
+        "\"성윤모\" 패러디",
+        "\"세뇌교육\" 밈",
+        "\"삼각함수송\" \"국민일보\" \"2021.08.05\"",
+        "\"샤방송\" -site:namu.moe -site:wiki",
+        "\"성윤모\" \"유행어\""
+      ]
+    },
+    "A3": {
+      "count": 20,
+      "recommended": 3,
+      "existing": 6,
+      "held": 11,
+      "queries": [
+        "\"센송합니다\" 뜻",
+        "\"슈퍼 아이돌\" 밈 패러디",
+        "\"스너고\"",
+        "\"스핔이\"",
+        "\"스키비디 토일렛\" 한국 밈",
+        "\"스핔이\" 게임동아",
+        "\"수박도\" 드립",
+        "\"스너고\" 밈",
+        "\"손흥민 표정\" 밈 패러디",
+        "\"쇼트트랙\" \"블루투스\" \"2022\"",
+        "\"스까듭밥\" 뜻",
+        "\"슈퍼아이돌\" \"뜻\""
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 0,
+      "existing": 15,
+      "held": 5,
+      "excluded": 0,
+      "queries": [
+        "2026 \"밈\" \"댓글\" site:marieclairekorea.com",
+        "2026 \"밈\" \"유행\" site:eyesmag.com",
+        "2026 \"밈\" \"사진\" site:design.co.kr",
+        "2026 \"밈\" \"신조어\" site:univ20.com",
+        "2026 \"밈\" \"댓글\" site:esquirekorea.co.kr",
+        "2026 \"밈\" \"챌린지\" site:elle.co.kr",
+        "2026 \"유행어\" \"요즘\" \"밈\" -site:namu.moe -site:threads.com",
+        "2026 \"사진 놀이\" 밈",
+        "2026 \"밈\" \"별명\" site:newsis.com"
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 10,
+      "supplement": 3,
+      "held": 6,
+      "queries": [
+        "2026 \"밈\" \"유행\" site:allurekorea.com \"11월\"",
+        "2026 \"밈\" \"사진\" site:cosmopolitan.co.kr",
+        "2026 \"밈\" \"댓글\" site:harpersbazaar.co.kr",
+        "2026 \"밈\" \"패러디\" site:news.samsung.com",
+        "2026 \"밈\" \"패러디\" site:newsroom.hyundai.com",
+        "2026 \"밈\" \"유행어\" site:mediahub.seoul.go.kr",
+        "\"2026\" \"밈\" \"말투\" \"11월\" -site:instablank.com -site:jjalbang.today",
+        "\"2026\" \"밈\" \"사진\" \"10월\" -site:instablank.com -site:jjalbang.today",
+        "\"2026\" \"밈\" \"회사\" \"패러디\"",
+        "\"빼난지원금\" 유병재",
+        "\"회사 와졌어\" -site:creatrend.tistory.com -site:instablank.com",
+        "\"소주바리\" \"이영지\"",
+        "\"얼마나 성공하고 싶은지 감도 안\" -site:harpersbazaar.co.kr",
+        "\"소주바리\" \"밈\" -site:harpersbazaar.co.kr",
+        "\"얼데이드립\" \"2026\"",
+        "\"Really Like You\" \"챌린지\" \"2026\" -site:enews.imbc.com",
+        "\"군체\" \"업데이트\" \"챌린지\" -site:enews.imbc.com",
+        "\"오디세우스 챌린지\" -site:enews.imbc.com",
+        "2026 \"밈\" \"편집\" site:univ20.com",
+        "2026 \"밈\" \"캡션\" site:allurekorea.com",
+        "2026 \"밈\" \"놀이\" site:cosmopolitan.co.kr"
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 2,
+      "conditional_held": 2,
+      "existing": 3,
+      "held": 13,
+      "queries": [
+        "\"주작송\" 패러디 기사",
+        "\"죽창 드립\" 뜻 기사",
+        "\"진짠줄 알더라\" 밈 유래",
+        "\"지이잉\" 밈",
+        "\"주작송\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"주갤 항복 선언문\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"죽습니다 진짜\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"종범\" \"안보인다\" 유행어",
+        "\"주작송\" \"핏불\" -site:namu.moe -site:seore.org -site:novawiki.app -site:github.com",
+        "\"주갤\" \"항복 선언문\" -site:namu.moe -site:seore.org",
+        "\"천안문\" \"삭제\" \"드립\" 기사",
+        "\"천상천하 유아독존\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"종범\" \"사진 종범이네요\"",
+        "\"주작송\" \"Tchu\" 기사 -site:namu.moe -site:readonly.wiki -site:seore.org -site:novawiki.app",
+        "\"죽습니다\" \"황인수\" \"2025.09.16\"",
+        "\"죄송합니다\" \"밈\" \"2020\" -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ],
+      "recommendations": [
+        {
+          "candidate_id": "kr-list-0936",
+          "urls": [
+            "https://www.etnews.com/201212200488"
+          ],
+          "limit": "신문해설1군;MLBpark댓글해설전재독립아님"
+        },
+        {
+          "candidate_id": "kr-list-0946",
+          "urls": [
+            "https://v.daum.net/v/dqYswjhBVk",
+            "https://everymemes.tistory.com/169"
+          ],
+          "limit": "취재해설1+후대뜻풀이1;폭력예문제외"
+        }
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "recommended": 2,
+      "conditional_held": 0,
+      "existing": 4,
+      "held": 14,
+      "queries": [
+        "\"초코빅송\" 유래 -site:namu.moe -site:seore.org",
+        "\"최근 한 온라인 커뮤니티 게시판에는\" \"패러디\"",
+        "\"취직 잘되는 사회를 만들든가\" 기사",
+        "\"캐피탈리즘\" \"호\" 밈 -site:namu.moe -site:seore.org",
+        "\"맛있는 겨울배\" 밈 -site:namu.moe -site:seore.org",
+        "\"초코빅송\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"카페인 과다복용 맨\" -site:namu.moe -site:seore.org",
+        "\"한화의 김성근\" \"밈\" 기사",
+        "\"캐피탈리즘, 호!\" \"HD\" 게임메카",
+        "\"초코빅\" \"패러디\"",
+        "\"카페인 과다복용\" \"밈\"",
+        "\"김성근 감독님 사랑해\" -site:namu.moe -site:seore.org -site:alphawiki.org -site:readonly.wiki"
+      ],
+      "correction": "0994 conditional recommendation withdrawn after existing make-a-society-where-template full body read; existing coverage already partial."
+    },
+    "C3": {
+      "count": 20,
+      "recommended": 1,
+      "conditional_held": 1,
+      "existing": 6,
+      "held": 12,
+      "queries": [
+        "\"킹근육골드몬\" -site:namu.moe -site:seore.org",
+        "\"탈모르파티\" 패러디",
+        "\"크아아악\" \"밈\" \"XX\"",
+        "\"팅팅송\" 유래 -site:namu.moe -site:seore.org",
+        "\"코렁탕\" 유행어 기사",
+        "\"탈모르파티\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"택배 드립\" 유래 -site:namu.moe -site:seore.org",
+        "\"팅팅송\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"탈모르파티\" 기사",
+        "\"코렁탕\" site:hani.co.kr",
+        "\"택배 왔습니다\" \"드립\" 기사",
+        "\"파오후 쿰척쿰척\" 기사 뜻",
+        "\"크아아악\" \"원석아\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"콩진호\" \"2\" 유행어 기사",
+        "\"팅팅송\" \"챌린지\" 문빈"
+      ]
+    },
+    "C4": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 9,
+      "held": 10,
+      "queries": [
+        "\"페이크다\" \"유행어\"",
+        "\"하루만 기다리면\" \"밈\"",
+        "\"하츠네 형돈\" 패러디",
+        "\"폴란드볼\" \"인터넷\" 기사",
+        "\"폴란드볼\" 만화 -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"하츠네 형돈\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"피에로 드립\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"하루만 기다리면\" \"밈\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"팩트\" \"유행어\" \"팩트폭력\"",
+        "\"풀발\" \"뜻\" 신조어 기사",
+        "\"하츠네 형돈\" \"무한도전\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"평온차\" \"밈\""
+      ]
+    },
+    "editor": {
+      "count": 6,
+      "held": 4,
+      "existing": 0,
+      "recommended": 2,
+      "queries": [
+        "\"털동생\" 반려동물",
+        "\"2026\" \"밈\" \"11월\" site:univ20.com",
+        "\"2026\" \"밈\" \"11월\" site:esquirekorea.co.kr",
+        "\"2026\" \"밈\" \"11월\" site:design.co.kr",
+        "2026 \"챌린지\" \"따라\" site:enews.imbc.com",
+        "2026 \"밈\" \"패러디\" site:news.kbs.co.kr",
+        "2026 \"밈\" \"사진\" site:news.sbs.co.kr"
+      ],
+      "note": "Prior held label reexamination, not newly discovered.",
+      "source_note": "Cashwalk direct attempts failed; not used. Bravo base URL recovered direct text.",
+      "items": [
+        "털동생 selected",
+        "전자상가 합격 현수막 held direct source inaccessible",
+        "오디세이 장면 재현 selected distinct from dessert acronym",
+        "LOOK AT MA held no concrete participant",
+        "Really Like You held additional source pending",
+        "군체 update held additional source pending"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "jongbeom-absence-slang",
+      "urls": [
+        "https://www.etnews.com/201212200488"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jukchang-inequality-envy-metaphor",
+      "urls": [
+        "https://v.daum.net/v/dqYswjhBVk",
+        "https://everymemes.tistory.com/169"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "capitalism-ho-game-quote-parody",
+      "urls": [
+        "https://www.gamemeca.com/view.php?gid=1756912"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kim-seonggeun-cheer-character-voice-remake",
+      "urls": [
+        "https://melburn119.tistory.com/1253"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "furry-younger-sibling-pet-label",
+      "urls": [
+        "https://www.careet.net/1798",
+        "https://bravo.etoday.co.kr/view/atc_view/20167"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "trigonometry-song-parody",
+      "urls": [
+        "https://whitefaceone.tistory.com/2286"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "talmor-party-song-parody",
+      "urls": [
+        "https://enews.imbc.com/M/Detail/259742",
+        "https://snaptime.edaily.co.kr/article/view/snt201909270002"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "odyssey-scene-everyday-reenactment",
+      "urls": [
+        "https://enews.imbc.com/News/ViewAmp/515820"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "son-mask-caption-parody",
+      "urls": [
+        "https://whitefaceone.tistory.com/3198"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "super-idol-cover-parody",
+      "urls": [
+        "https://whitefaceone.tistory.com/2722"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "skibidi-toilet-music-recreation",
+      "urls": [
+        "https://www.mapianist.com/community/122138?_escaped_fragment_=&page=1&postType=video",
+        "https://v.daum.net/v/XUU33ZNfzL"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hatsune-hyeongdon-voice-music-edit",
+      "urls": [
+        "https://theqoo.net/square/1834020406"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "how-much-success-do-you-want-reaction",
+      "urls": [
+        "https://v.daum.net/v/20260527192454476",
+        "https://voda.donga.com/home/newclip/3/all/39/6363451/1"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "13 bounded entries. Same publicity groups not counted as independent productions; media viewed 0. Mapianist relative age differs between retrievals; no inferred absolute year. 0994 already mapped; no new mapping. Research counts observations/rechecks, not new unique memes. Three B2 editor-supplement observations overlap editor's six."
+  ],
+  "query_observations": 8398,
+  "distinct_literal_queries": 7217,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
