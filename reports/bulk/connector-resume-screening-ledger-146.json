@@ -84,10 +84,11 @@
     "reports/bulk/connector-resume-screening-237.json",
     "reports/bulk/connector-resume-wave30-238.json",
     "reports/bulk/connector-resume-wave30-240.json",
-    "reports/bulk/connector-resume-wave30-241.json"
+    "reports/bulk/connector-resume-wave30-241.json",
+    "reports/bulk/connector-resume-wave30-242.json"
   ],
-  "query_observations": 1426,
-  "distinct_literal_queries": 1153,
+  "query_observations": 1433,
+  "distinct_literal_queries": 1160,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -7419,6 +7420,41 @@
     {
       "query": "얼레벌레",
       "source": "reports/bulk/connector-resume-wave30-241.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:univ20.com \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-242.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:esquirekorea.co.kr \"유행\"",
+      "source": "reports/bulk/connector-resume-wave30-242.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:elle.co.kr \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-242.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "거제 야호",
+      "source": "reports/bulk/connector-resume-wave30-242.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갸루 귀신",
+      "source": "reports/bulk/connector-resume-wave30-242.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "신라 공주",
+      "source": "reports/bulk/connector-resume-wave30-242.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도가니",
+      "source": "reports/bulk/connector-resume-wave30-242.json",
       "status": "screened-see-report"
     }
   ],
