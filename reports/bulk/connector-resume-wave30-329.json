@@ -1,0 +1,213 @@
+{
+  "batch": 329,
+  "base": "29dc18b588ca4a7548acaec02276e02778c99c63",
+  "canonical_before": 958,
+  "canonical_after": 959,
+  "added": [
+    "that-that-challenge"
+  ],
+  "research_A": {
+    "candidates": [
+      "0124",
+      "0129",
+      "0132",
+      "0145",
+      "0146",
+      "0147",
+      "0151",
+      "0152",
+      "0153",
+      "0154"
+    ],
+    "recommended": [
+      "0146"
+    ],
+    "held": 9,
+    "queries": [
+      "\"맥스웰 고양이\" 2026",
+      "\"인크레더블\" \"밈\" 2026",
+      "\"냥캣\" \"패러디\"",
+      "\"핑구\" \"누트누트\"",
+      "\"댓댓\" \"챌린지\" 2026",
+      "\"원피스는 실재한다\" 패러디",
+      "\"Why so serious\" \"챌린지\" 한국",
+      "\"X키를 눌러 조의\" 2026",
+      "\"Yee\" \"밈\" 한국",
+      "\"영한데\" \"MZ인데\" 2026",
+      "\"댓댓 챌린지\" \"2026\" -site:namu.moe",
+      "\"댓댓\" \"챌린지\" 경찰",
+      "\"냥캣\" \"고양시\"",
+      "\"영한데\" \"완전\" 광고"
+    ],
+    "index_queries": [
+      "maxwell",
+      "맥스웰",
+      "인크레더블",
+      "uncanny",
+      "nyancat",
+      "냥캣",
+      "noot",
+      "핑구",
+      "댓댓",
+      "thatthat",
+      "원피스는",
+      "onepiece",
+      "whyso",
+      "조의를",
+      "payrespects",
+      "yee",
+      "영한데",
+      "mz인데"
+    ],
+    "sources": [
+      "https://sports.khan.co.kr/article/202205151728003",
+      "https://www.xportsnews.com/article/1669077",
+      "https://www.mt.co.kr/entertainment/2022/12/29/2022122909167248696"
+    ],
+    "limits": "two reported distinct2022 performances, editorreadfirst2,auditpending,video0,recent0"
+  },
+  "research_B": {
+    "candidates": [
+      "0423",
+      "0436",
+      "0449",
+      "0455",
+      "0483",
+      "0486",
+      "0490",
+      "0494",
+      "0499",
+      "0539"
+    ],
+    "recommended": 0,
+    "partial_proposed": {
+      "id": "0449",
+      "dictionary": "look-at-this-hand",
+      "source": "https://www.careet.net/Newsletter/Detail/990",
+      "editor_verified": true
+    },
+    "queries": [
+      "\"더 마스터를 기억해줘\"",
+      "\"럼자오자레\" 2026",
+      "\"마루는 강쥐\" \"패러디\" 2026",
+      "\"막심 센세\" 2026",
+      "\"무너진 밸런스가 캐시템 수요를 만든다\"",
+      "\"무대뽀\" 밈 2026",
+      "\"무지성\" \"밈\" 2026",
+      "\"문법 나치\" 2026",
+      "\"물음표 드립\" 2026",
+      "\"벽력일섬\" 패러디 2026",
+      "\"무너진 밸런스가\" 2026",
+      "\"문법 나치\" -site:namu.moe -site:seore.org",
+      "\"무너진 밸런스가\" \"수요\" -site:inven.co.kr -site:namu.moe -site:seore.org -site:a-ha.io",
+      "\"나 사람 됐다 짱이지\" 2026"
+    ],
+    "held": 9,
+    "source0483": "https://gall.dcinside.com/mgallery/board/view/?id=ma9ma92020&no=803967&page=1",
+    "limits": "2026-11-11 direct transformation1 workerread; editorunread. Inven502,Naver403. Not official monetization policy."
+  },
+  "editor": {
+    "queries": [
+      "2026 11월 유행 밈 신조어 한국 모음 -site:namu.moe -site:seore.org",
+      "2026 10월 밈 유행어 트렌드 새로운",
+      "\"능글맞은 개코원숭이\" -site:namu.moe -site:seore.org",
+      "\"과학자들이\" \"Hi\" 밈 한국",
+      "\"L을 가져가\" 밈"
+    ],
+    "index_queries": [
+      "이모지",
+      "영원",
+      "체포",
+      "거북",
+      "과학자",
+      "나이별",
+      "개코",
+      "L을",
+      "가져가"
+    ],
+    "results": {
+      "existing": [
+        "my-emoji",
+        "forever-moment",
+        "under-arrest",
+        "davichi-blanket-turtle",
+        "age-reaction-challenge",
+        "take-the-l"
+      ],
+      "held": [
+        "Scientists Reveal the Hi",
+        "능글맞은 개코원숭이"
+      ],
+      "limits": "Novel candidate names lack directly read independent Korean reuse. Search/explanation results alone not sufficient. HSAD roundup directly read; its self emoji caption refers to existing entry, not new canonical."
+    }
+  },
+  "audit": {
+    "ref": "29dc18b588ca4a7548acaec02276e02778c99c63",
+    "reviewed": 20,
+    "related_bodies_read": 17,
+    "changes": 0,
+    "ids": [
+      "0064",
+      "0065",
+      "0067",
+      "0080",
+      "0104",
+      "0175",
+      "0198",
+      "0224",
+      "0256",
+      "0283",
+      "0352",
+      "0382",
+      "0419",
+      "0486",
+      "0505",
+      "0584",
+      "0618",
+      "0632",
+      "0668",
+      "0725"
+    ],
+    "limits": "12unclear8index_not_found allmaintained. Name matching alone cannot connect 0419toadvertisement,0725tooriginalDooly,0283tooo-ping.",
+    "index_queries": [
+      "Point|포인트|positive",
+      "문단속|스즈메",
+      "충|헬창",
+      "해버리|해 버리",
+      "K-|케이|한국",
+      "개같이",
+      "계획|계산",
+      "국힙|원탑",
+      "긔체|긔",
+      "꾸래|핑",
+      "능지|지능",
+      "대환장|환장|난리",
+      "뚝배기",
+      "무대뽀|무대포",
+      "미띤|미친",
+      "뼈|팩트|핵심",
+      "섊|즐",
+      "셈체|음슴|하오",
+      "실패작|소녀",
+      "둘리|애기공룡"
+    ]
+  },
+  "verification": {
+    "editor_read": 3,
+    "independent_auditor_read": 3,
+    "reported_distinct_events": 2,
+    "choreography_description": 1,
+    "recent_dated": 0,
+    "video_viewed": 0,
+    "image_viewed": 0
+  },
+  "coverage_counts": {
+    "index_not_found": 321,
+    "partial": 43,
+    "unclear": 335,
+    "automatic_title_alias_match": 328,
+    "included": 60,
+    "candidate_repeat": 4
+  },
+  "ci": "959 pending;958 CI44233876607 success65 Python495tests104.337s"
+}

@@ -266,6 +266,7 @@
 - [대나무행주](bamboo-cloth-song.md)
 - [대박](daebak-reaction.md)
 - [대충 살자](daechung-salja.md)
+- [댓댓 챌린지](that-that-challenge.md)
 - [댓망진창](daetmangjinchang.md)
 - [댕댕이](daengdaengi.md)
 - [더 이상의 자세한 설명은 생략한다](omit-details.md)
