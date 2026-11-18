@@ -89,10 +89,11 @@
     "reports/bulk/connector-resume-wave30-243.json",
     "reports/bulk/connector-resume-wave30-244.json",
     "reports/bulk/connector-resume-wave30-245.json",
-    "reports/bulk/connector-resume-wave30-246.json"
+    "reports/bulk/connector-resume-wave30-246.json",
+    "reports/bulk/connector-resume-wave30-247.json"
   ],
-  "query_observations": 1546,
-  "distinct_literal_queries": 1250,
+  "query_observations": 1562,
+  "distinct_literal_queries": 1264,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -8024,6 +8025,86 @@
     {
       "query": "멧챠",
       "source": "reports/bulk/connector-resume-wave30-246.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미안 이제 곶감\" site:imbc.com",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"곶감\" \"11/16\" \"유행본부\"",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.kbs.co.kr \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.ebs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"뉴스레터\" \"공공\" -site:jjalbang.today -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"대학\" \"유행어\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꼬마 선장",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "aura",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아우라",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라을라",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "책없쾌",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "파밍",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인도네시아",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노 젓",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "선장",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오라",
+      "source": "reports/bulk/connector-resume-wave30-247.json",
       "status": "screened-see-report"
     }
   ],
