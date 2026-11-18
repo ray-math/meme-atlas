@@ -1,0 +1,17 @@
+{
+  "batch": 506,
+  "entries": 1700,
+  "parent": "7724639b278162522022ecfeb2fe1543c938af88",
+  "failed_run": 44346586750,
+  "tests_run": 495,
+  "failures": 2,
+  "cause": "eomchina body hash is pinned by wave13 approval independently of usage annotation membership",
+  "changes": [
+    "restore exact approved eomchina body without trailing newline",
+    "preserve reciprocal navigation through existing pilot collection, not direct body link",
+    "move existing eomchina list row to comparison section and add buchinnam"
+  ],
+  "tests_or_approval_hashes_modified": false,
+  "ci_status": "pending for fix commit",
+  "audit_correction": "Prior audit PASS overlooked historical body pin; corrected by CI log and follow-up audit."
+}

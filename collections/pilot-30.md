@@ -675,7 +675,6 @@
 - [정줄놓](../memes/jeongjulnoh.md)
 - [솔까말](../memes/solkkamal.md)
 - [넘사벽](../memes/neomsabyeok.md)
-- [엄친아](../memes/eomchina.md)
 - [엄친딸](../memes/eomchinttal.md)
 - [차도남](../memes/chadonam.md)
 - [따도남](../memes/ttadonam.md)
@@ -811,3 +810,8 @@
 - [나는 아직 배고프다](../memes/i-am-still-hungry.md)
 - [소리 지르지 말고 박수 쳐](../memes/dont-shout-clap.md)
 - [어떻게 지평좌표계로 고정을 하셨죠?](../memes/horizontal-coordinates-ghost.md)
+
+## 비교 호칭
+
+- [엄친아](../memes/eomchina.md)
+- [부친남](../memes/buchinnam-spouse-comparison-shortening.md)
