@@ -244,6 +244,7 @@
 - [니들이 게맛을 알아](do-you-know-crab.md)
 - [니코니코니](nico-nico-ni.md)
 - [다 아는 사람들이구먼](da-aneun-saramdeurigumeon.md)
+- [다 해줬잖아](did-it-all-for-you.md)
 - [다꾸](diary-kku.md)
 - [다메다메](dame-dame.md)
 - [다비치 거북이 챌린지](davichi-blanket-turtle.md)

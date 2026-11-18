@@ -125,3 +125,5 @@
 - [개웃겨서 도티낳음](../memes/laugh-so-hard-dotty.md)
 
 - [TS 말포이](../memes/ts-malfoy.md)
+
+- [다 해줬잖아](../memes/did-it-all-for-you.md)
