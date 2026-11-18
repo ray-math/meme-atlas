@@ -1,0 +1,49 @@
+{
+  "batch": 406,
+  "base": "a64de0af6784b9c5fc4ec5af0fb9406d09b000e7",
+  "canonical": 991,
+  "added": [],
+  "enriched": [
+    "freeze-dry-affection"
+  ],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" \"차용\" -site:namu.moe -site:instablank.com",
+      "2026 \"밈\" \"제목에\" -site:namu.moe -site:instablank.com",
+      "2026 \"밈\" \"공식 블로그\"",
+      "2026 \"밈\" \"도서관\" \"영상\"",
+      "\"라우럴\" \"지수\" \"2026\" -site:creatrend.tistory.com -site:instablank.com",
+      "\"동결건조\" \"밈\" \"2026\" -site:namu.moe",
+      "\"델룰루\" \"2026\" \"제목\" -site:namu.moe",
+      "\"영원할 것 같지\" \"2026\" -site:creatrend.tistory.com -site:hsad.tistory.com -site:blog.hsad.co.kr"
+    ],
+    "enrich": {
+      "id": "freeze-dry-affection",
+      "url": "https://foodnuri.go.kr/portal/bbs/B0000284/view.do?deleteCd=0&menuNo=300054&nttId=234943&pageIndex=1",
+      "note": "2026-07-31기관제목응용1"
+    },
+    "held": {
+      "title": "델룰루",
+      "url": "https://isplus.com/article/view/isp202601260136",
+      "note": "2026-01-26앨범명차용보도1만"
+    },
+    "duplicate": [
+      "raureol",
+      "forever-moment"
+    ],
+    "source_reads": 2,
+    "body_reads": 1
+  },
+  "editor_source_reads": 1,
+  "source_scope": "기관직접응용1군.가족SNS기원기존설명은이번자료로검증되지않음.인덱스대상뜻풀이변경없음",
+  "final_body_audit_991": {
+    "passed": true,
+    "body_reads": 1,
+    "required_changes": 0,
+    "source_rereads": 0
+  },
+  "ci": {
+    "body991": "in_progress",
+    "new_commit": "pending"
+  }
+}
