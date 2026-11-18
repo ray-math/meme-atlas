@@ -20,4 +20,6 @@ tags: []
 
 - [인크로스, 2026-08-26: 반복 댓글의 타임라인 영상 응용](https://incross.com/ko/insight/report.asp?idx=11062&mode=view&page=1&pageSize=12&searchStr=&serboardsort=9)
 
+관련 형식: [타임라인 동선 인증](timeline-route-sharing-self-deprecation.md). 동선 공유와 그 영상에 붙이는 반복 댓글은 구분한다.
+
 [추가 수록 목록](../collections/connector-resume-wave30.md)

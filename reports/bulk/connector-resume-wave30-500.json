@@ -1,0 +1,405 @@
+{
+  "batch": 500,
+  "base": "f57d18b5a3abf98bb95cf14f295b6d05c5ba0adb",
+  "canonical_before": 1633,
+  "canonical_after": 1643,
+  "added": [
+    "timeline-route-sharing-self-deprecation",
+    "lipdub-group-lipsync-video",
+    "emoji-touch-thread-reveal",
+    "two-colors-association-replies",
+    "hooligan-fan-choreography-challenge",
+    "babamba-song-remake-challenge",
+    "light-just-as-planned-parody",
+    "flush-away-target-word-substitution",
+    "ai-handwritten-photo-memo-decoration",
+    "yanolja-nol-dance-ad-parody"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0198",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "light-just-as-planned-parody"
+    }
+  ],
+  "previous_ci": {
+    "sha": "f57d18b5a3abf98bb95cf14f295b6d05c5ba0adb",
+    "run_id": 44335723174,
+    "job_id": 134911760303,
+    "status": "success",
+    "steps": 65,
+    "python": [
+      "Ran 495 tests in 175.573s"
+    ]
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "sha": "f57d18b5a3abf98bb95cf14f295b6d05c5ba0adb",
+    "notes": "Both exacttitle reciprocal links readback; definition/history/caution/source/index/tests unchanged; contextual distinction retained."
+  },
+  "research": {
+    "C67": {
+      "observations": 20,
+      "recommended": 1,
+      "conditional": 1,
+      "existing": 6,
+      "held": 12,
+      "queries": [
+        "site.gogumafarm.kr \"2026\" \"밈\" \"9월\"",
+        "site:maily.so \"2026\" \"밈\" \"손\"",
+        "site:blog.hsad.co.kr \"2026\" \"밈\"",
+        "\"밈\" \"2026\" \"시크\" 고구마",
+        "\"밈\" \"2026\" \"색소폰\"",
+        "\"밈\" \"2026\" \"면접 번복\"",
+        "site:gogumafarm.kr \"2026\" \"지도\"",
+        "site:maily.so \"2026\" \"면접\"",
+        "\"그르 먼데이\" 밈",
+        "\"Kinda Chic\" 한국 밈",
+        "\"카인다 시크\" 한국",
+        "\"면접 번복\" 밈 -site:instablank.com -site:jjalbang.today",
+        "\"구글 타임라인\" \"밈\" -site:instablank.com -site:jjalbang.today",
+        "\"카인다 시크\" \"한국\" -site:instablank.com -site:jjalbang.today",
+        "\"구글 타임라인\" \"2026\" \"영상\" 밈 -site:instablank.com -site:jjalbang.today",
+        "\"라밤바\" \"아빠\" \"패러디\"",
+        "\"조우노아시\" \"게임\"",
+        "site:incross.com \"구글 타임라인\" \"idx\"",
+        "\"카인다 시크\" \"2026\" 한국 브랜드",
+        "\"구글 타임라인\" \"돌아보기\" 밈"
+      ],
+      "notes": "Timeline parentreviewpending; kinda chic domestic productionunverified. Incross repeat source notnew; 20queries correctedfrom19. Broadsite notmeme."
+    },
+    "B556": {
+      "observations": 20,
+      "recommended": 1,
+      "held": 17,
+      "excluded": 2,
+      "queries": [
+        "site:news.kbs.co.kr 2026 \"밈\" \"따라\"",
+        "site:news.sbs.co.kr 2026 \"놀이\" \"패러디\"",
+        "site:news.jtbc.co.kr 2026 \"밈\" \"댓글\"",
+        "2026 \"챌린지\" \"따라\" site:busan.com",
+        "2026 \"밈\" \"재현\" site:imaeil.com",
+        "\"립덥\" \"대학교\" 제작",
+        "2026 \"밈\" \"따라\" site:magazine.weverse.io/article/view",
+        "\"한기대 학생 400명\" \"립덥\""
+      ],
+      "notes": "Lipdub historical recommendation; 17 others held, not confirmednew. Four read sources, KBS robots no retry; SBS1832600 403 and Jeju redirect notadopted."
+    },
+    "A83": {
+      "observations": 20,
+      "recommended": 0,
+      "held": 20,
+      "queries": [
+        "\"11미터 모형탑\" \"밈\" -site:namu.moe",
+        "\"1초만에 사람을 낚는 방법\" -site:namu.moe",
+        "\"64 bits\" \"밈\" 한국 -site:namu.moe",
+        "\"Point 드립\" -site:namu.moe",
+        "\"알려주겠다\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"해버리기\" \"유행어\" -site:namu.moe",
+        "\"chip\" \"밈\" 한국 -site:namu.moe",
+        "\"maliali\" 한국 밈 -site:namu.moe",
+        "\"street photographer\" \"밈\" 한국",
+        "\"EZ Do Dance\" \"패러디\" 한국",
+        "\"FBI OPEN UP\" \"밈\" 한국 -site:namu.moe",
+        "\"He is\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"finally awake\" \"패러디\" 한국 -site:namu.moe",
+        "\"KON\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"Mafia City\" \"광고\" \"밈\" 한국",
+        "\"노리아키\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"인크레더블\" \"언캐니\" 밈 -site:namu.moe -site:seore.org",
+        "\"PAC-MAN ghost dance\" 한국",
+        "\"Pink Elephants on Parade\" 밈 한국",
+        "\"Sims cat breaking\" 한국",
+        "\"해버리기\" 보겸 유행어 기사 -site:seore.org -site:namu.moe -site:tcatmon.com -site:readonly.wiki",
+        "\"마피아 시티\" 광고 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ],
+      "notes": "20 existing ledgerrows not20new. Mafia limited editorial pending.3readpages; video failed, Brunch samearticle rewritten excluded; nyanyanya existing unrelatedto0066. Editorialreview: Mafiaheld, Koreanexplanation alone lacks identifiable domestic reuse. No0122mapping."
+    },
+    "C68": {
+      "observations": 20,
+      "recommended": 2,
+      "existing": 12,
+      "held": 6,
+      "queries": [
+        "site:gogumafarm.kr \"2026\" \"11월\" \"밈\"",
+        "site:incross.com \"라우럴\" \"idx\"",
+        "site:maily.so \"2026\" \"합격하겠어\"",
+        "\"라우럴\" 인크로스",
+        "\"합격하겠어\" \"밈\"",
+        "\"RT를 부르는 요즘 핫한 엑스 밈\"",
+        "site:gogumafarm.kr \"마제타라\" \"비행기 좌석\"",
+        "site:gogumafarm.kr \"2026\" \"릴스\" \"포맷\""
+      ],
+      "notes": "2boundedrecommendations shared1explanation; originalX403.12existingsemanticindex notfullbodyaudit.6held including foreignsingleproduction/eventpromotions."
+    },
+    "Parent": {
+      "observations": 4,
+      "existing": 4,
+      "queries": [
+        "2026 \"밈\" \"11월\" \"챌린지\" 한국 -site:gogumafarm.kr -site:namu.wiki",
+        "2026 \"밈\" \"10월\" \"패러디\" -site:gogumafarm.kr -site:namu.wiki"
+      ],
+      "notes": "HSAD3798directread: neon/myemoji/underarrest/forever alreadyindexed; thirdpartyaggregatorsnotadopted. Source reread notnewcandidatecount."
+    },
+    "B557": {
+      "observations": 20,
+      "recommended": 0,
+      "existing": 1,
+      "family": 4,
+      "held": 12,
+      "excluded": 3,
+      "queries": [
+        "\"허윤진의 인스타그램 꾸미기\" 날짜",
+        "\"귀여운 사람\" \"기억을\" 밈",
+        "\"추워탕\" 허윤진",
+        "\"줄무늬사항\"",
+        "\"귀여운 사람을 보면 기억\"",
+        "\"허윤진\" \"낙서\" \"배경\"",
+        "\"허윤진\" \"셀카\" \"캡처\"",
+        "\"허윤진\" \"인스타그램\" \"꾸미기\" \"2024.01.15\"",
+        "\"셀카\" \"촬영 화면\" \"꾸미기\"",
+        "\"허윤진\" \"배경을\""
+      ],
+      "notes": "13previous+7samearticlenot20new.2selfiedecorationrecommendationsdowngradedheld: general tutorialdescription doesn't verify reuse of specificedits. Officiallisteddate searchonly; singlearticlebodyundated."
+    },
+    "C69": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 11,
+      "held": 8,
+      "queries": [
+        "site.maily.so \"2026\" \"밈\" \"11월\"",
+        "site.20slab.org \"2026\" \"밈\"",
+        "site.careet.net \"2026\" \"밈\" \"챌린지\"",
+        "\"밈\" \"2026\" \"한한미일\"",
+        "\"밈\" \"2026\" \"이 OO 씨\"",
+        "site:gogumafarm.kr \"2026\" \"댓글\" \"놀이\"",
+        "\"거북이\" \"챌린지\" \"2026\"",
+        "\"과학자들이\" \"Hi\" 밈",
+        "\"나이별 반응\" 챌린지 2026",
+        "\"스쿠바\" \"챌린지\" 2026",
+        "\"Made My Night\" \"챌린지\" \"DDR\"",
+        "\"Hooligan\" \"팬\" \"안무\" 챌린지",
+        "\"관자놀이\" \"트렌드어워드\"",
+        "\"훌리건\" \"팬이 만든\" 챌린지",
+        "\"Hooligan\" \"챌린지\" \"안무\" \"팬\" -site:instablank.com",
+        "\"관자놀이\" \"믿기\" 밈",
+        "\"능글맞은 개코원숭이\" -site:instablank.com -site:meme100.me"
+      ],
+      "notes": "Hooliganfan-choreography1report; separate maskrecreationnotmerged. DDRsinglepromotionheld.11existingindexnot11bodyaudit;3site.typos retainedasexecuted."
+    },
+    "A84": {
+      "observations": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"Why so serious\" \"패러디\" 한국 -site:namu.moe",
+        "\"X키를 눌러 조의\" -site:namu.moe -site:seore.org",
+        "\"Zyzz\" \"한국\" 밈 -site:namu.moe",
+        "\"가능성의\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"거룡을 상대한\" -site:namu.moe -site:seore.org",
+        "\"거짓말하지 말아요\" \"밈\" -site:namu.moe",
+        "\"건우 엄마 데리고 와\" -site:namu.moe -site:seore.org",
+        "\"계획대로\" \"밈\" 데스노트 -site:namu.moe -site:seore.org",
+        "\"고만해 미친놈들아\" -site:namu.moe -site:seore.org",
+        "\"곤룡포좌\" -site:namu.moe -site:seore.org",
+        "\"공항도둑\" 밈 -site:namu.moe -site:seore.org",
+        "\"구찌보이\" 밈 -site:namu.moe -site:seore.org",
+        "\"귀여운 건 나도 알아\" -site:namu.moe -site:seore.org",
+        "\"그건 원작을 경험해 보신\" -site:namu.moe -site:seore.org",
+        "\"그냥 개최국 중국이\" -site:namu.moe -site:seore.org",
+        "\"그들의 연회에\" -site:namu.moe -site:seore.org",
+        "\"그러면 죽어요\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"그런 거 없다\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"나는 개인이오\" -site:namu.moe -site:seore.org",
+        "\"나는 애쉬\" -site:namu.moe -site:seore.org",
+        "\"계획대로\" \"라이토\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki -site:lucy7599.tistory.com",
+        "\"Why so serious\" \"조커\" 패러디 기사 -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ],
+      "notes": "20ledgerrowsrecheck0newdiscovery;5readURLs2failed;0198review+communitydirectuse;0236singleborrowingheld,0238originalcontroversyarticle notreuse; Wikiquotedblogexcluded."
+    },
+    "B558": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 4,
+      "held": 13,
+      "excluded": 2,
+      "queries": [
+        "site:imnews.imbc.com 2026 \"유행\" \"패러디\"",
+        "site:news.kbs.co.kr 2026 \"유행어\"",
+        "site:magazine.hankyung.com 2026 \"밈\" \"댓글\"",
+        "2026 \"밈\" \"패러디\" site:univ20.com",
+        "2026 \"밈\" \"유행\" site:allurekorea.com",
+        "2026 \"밈\" \"놀이\" site:khan.co.kr",
+        "\"바밤바송\" \"챌린지\"",
+        "\"할렘쉐이크\" \"한국\" \"패러디\""
+      ],
+      "notes": "Babambaonecampaignofficialreport+article;lyrics/metricsnotadopted. Harlemhistorysourceerrorheld;6readURLs; politicalhateexcluded."
+    },
+    "C70": {
+      "observations": 20,
+      "recommended": 2,
+      "existing": 9,
+      "held": 9,
+      "queries": [
+        "site:incross.com \"2026\" \"밈\" \"필터\"",
+        "site:maily.so \"2026\" \"밈\" \"댓글\" \"놀이\"",
+        "site:20slab.org \"2026\" \"밈\"",
+        "site:incross.com \"밈\" \"2026-10\" -10698 -10873",
+        "site:gogumafarm.kr \"2026\" \"댓글\" \"사진\" -240 -크리에이터",
+        "\"손글씨\" \"사꾸\" \"2026\"",
+        "\"늑1\" \"늑9\" 밈",
+        "\"수정사항을 변기에 넣고서 내려\"",
+        "\"80억 분의 1\" \"밈\""
+      ],
+      "notes": "2recommendedsameIncrosssource; numberedwolfconditionaldowngradedheldmisinformationrisk. AIeditorproductionselfreport, technicalclaimsnotadopted. URLfailuresnotcountedread."
+    },
+    "A85": {
+      "observations": 20,
+      "recommended": 0,
+      "held": 20,
+      "queries": [
+        "\"날 내버려둬\" 밈 패러디",
+        "\"내 식사를 방해할 생각인가\"",
+        "\"너 개못하잖아\"",
+        "\"네가 하면 나도 한다\" 밈",
+        "\"설명해드렸습니다\" 밈 -site:namu.moe",
+        "\"누나 좋아해요\" 밈 패러디",
+        "\"늬픽\" -site:namu.moe",
+        "\"당신이 옳았어\" 밈",
+        "\"당연히 말이 되죠\" 패러디 -site:namu.moe",
+        "\"대기업에 입사한 아들의 깨달음\" -site:namu.moe",
+        "\"독일초딩\" 패러디 -site:namu.moe",
+        "\"동전줍는 징징이\" -site:namu.moe",
+        "\"동현이의 퍼니박스\" -site:namu.moe",
+        "\"더 마스터를 기억해줘\" -site:namu.moe",
+        "\"러시아식 유머\" 기사",
+        "\"롯데햄 후라이드 치킨\" 패러디",
+        "\"린가동자\" -site:namu.moe",
+        "\"마쁘리에요\" -site:namu.moe",
+        "\"막심 센세\" -site:namu.moe",
+        "\"무츠키 댄스\" -site:namu.moe",
+        "\"마쁘리에요\" \"인사\" -site:namu.moe -site:seore.org",
+        "\"린가동자\" \"패러디\" -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ],
+      "notes": "20ledgerrechecks notnew;3readURLs1fail; actualnoveltitle/fancharacteruse insufficientmeaning; sexual/violenceglorificationnotfurtherpursued; no mapping."
+    },
+    "B559": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 5,
+      "family": 2,
+      "held": 10,
+      "excluded": 2,
+      "queries": [
+        "\"할렘쉐이크\" \"조권\"",
+        "\"할렘 쉐이크\" \"한국\" 방송",
+        "2026 밈 site:news.sbs.co.kr \"따라\"",
+        "\"조권 민 엠버\" \"할렘쉐이크\" 아시아경제",
+        "\"할렘쉐이크\" \"조권\" site:news.nate.com",
+        "2026 \"패러디\" \"놀이\" site:newsis.com",
+        "2026 \"밈\" \"사진\" site:allurekorea.com/article",
+        "2026 \"챌린지\" \"패러디\" site:news.jtbc.co.kr",
+        "\"야놀자\" \"초특가\" \"패러디\"",
+        "\"조권-민-엠버\" \"무아지경\" \"2013\"",
+        "\"G1109545455\""
+      ],
+      "notes": "Yanoljaapproved; HarlemworkerOSENreadbutparent/auditoraccessfailedheldforrecovery; MBCforeignformonly. Kolonhistoryerrorsnotadopted. Samecampaign2sourcesnot2events."
+    }
+  },
+  "sources": [
+    {
+      "id": "timeline-route-sharing-self-deprecation",
+      "urls": [
+        "https://www.tpick.co.kr/post/10810",
+        "https://incross.com/ko/insight/report.asp?idx=11062&mode=view&page=1&pageSize=12&searchStr=&serboardsort=9"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "lipdub-group-lipsync-video",
+      "urls": [
+        "https://www.newswire.co.kr/newsRead.php?no=654354",
+        "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1001832546"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "emoji-touch-thread-reveal",
+      "urls": [
+        "https://gogumafarm.kr/rt를-부르는-요즘-핫한-엑스-밈-3가지-알려드림/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "two-colors-association-replies",
+      "urls": [
+        "https://gogumafarm.kr/rt를-부르는-요즘-핫한-엑스-밈-3가지-알려드림/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hooligan-fan-choreography-challenge",
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260704025700005"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "babamba-song-remake-challenge",
+      "urls": [
+        "https://ads.tiktok.com/business/ko/inspiration/%EB%B0%94%EB%B0%A4%EB%B0%94-483?redirected=1",
+        "https://magazine.hankyung.com/business/amp/202209140087b"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "light-just-as-planned-parody",
+      "urls": [
+        "https://bingejung.tistory.com/entry/일상-만화-추천-농림-패러디를-찾아보는-재미가-쏠쏠",
+        "https://theqoo.net/an/4051961046"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "flush-away-target-word-substitution",
+      "urls": [
+        "https://incross.com/ko/insight/report.asp?idx=10873&mode=view&page=1&pageSize=12&searchStr=&serboardsort=9"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ai-handwritten-photo-memo-decoration",
+      "urls": [
+        "https://incross.com/ko/insight/report.asp?idx=10873&mode=view&page=1&pageSize=12&searchStr=&serboardsort=9"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "yanolja-nol-dance-ad-parody",
+      "urls": [
+        "https://www.sportschosun.com/life/2018-07-30/201807300100273300020902",
+        "https://mobile.newsis.com/view/NISX20190409_0000615414"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "10boundedentries;kr-list-0198partialonly;Mafia0122held.",
+    "3reciprocal navigationpairs appended only; approved74untouched;definitions/history/cautionsunchanged.",
+    "Observations include reexamination notnewunique; same-source/campaign notdoublecounted; originalmedia0.",
+    "SharedIncross2entries187words;lyricquoteunder10words.",
+    "{\"status\":\"PASS\",\"base\":\"34560b9dcdd202459505a5603cfd3cf7bfb91a68\",\"candidate\":\"timeline-route-sharing-self-deprecation\",\"notes\":\"Read both explanations and existing map-card-travel-photo/no-soil-repetition-reaction; distinct cumulative route-sharing format; originals/media unviewed; no origins, scale, automatic storage or upload instructions. Privacy caution required and present.\"}",
+    "{\"status\":\"3recommended1held\",\"approved\":[\"lipdub-group-lipsync-video\",\"emoji-touch-thread-reveal\",\"two-colors-association-replies\"],\"held\":[\"mafia-city-boss-reversal-ad-parody\"],\"notes\":\"AuditorSBS403 whileparentandBreadsuccess; domesticlipdub directlybackedbyUniversitypressrelease. Sharedgoguma200wordlimit. MafiaKoreanexplanationnotdomesticreuse;nomapping.\"}",
+    "{\"status\":\"PASS\",\"candidate\":\"hooligan-fan-choreography-challenge\",\"notes\":\"Specific reception reported from Korean artist's statement, notproof domesticfancreation; source/bodylimitsretained; index1633nomatch.\"}",
+    "{\"status\":\"PASS\",\"ids\":[\"babamba-song-remake-challenge\",\"light-just-as-planned-parody\",\"flush-away-target-word-substitution\",\"ai-handwritten-photo-memo-decoration\"],\"notes\":\"Directsourcesread; boundariesapproved; samecampaignnotindependentcases; lyrics10wordsmax sharedIncross200max;0198partialonly.\"}",
+    "{\"status\":\"PASS\",\"candidate\":\"yanolja-nol-dance-ad-parody\",\"required_changes\":0,\"notes\":\"Botharticlesreadbyparent/auditor, sameadfamily;SportsChosunbodydateabsent; no metrics/currentoffers/precisedance.\"}"
+  ],
+  "query_observations": 11698,
+  "distinct_literal_queries": 9621,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

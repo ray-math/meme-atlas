@@ -23,4 +23,6 @@ tags: []
 - [고구마팜의 색깔 섞기 활용 설명](https://gogumafarm.kr/마제타라-비행기-좌석-지금-바로-쓸-수-있는-sns-콘텐츠/): 2026년 2월 3일.
 - [HSAD의 2월 밈 소개](https://hsad.tistory.com/3711): 2026년 2월 6일.
 
+관련 형식: [두 색 연상 답변](two-colors-association-replies.md). 색의 연상 답변과 색 혼합 결과를 보여주는 영상은 구분한다.
+
 [추가 수록 목록](../collections/connector-resume-wave30.md)
