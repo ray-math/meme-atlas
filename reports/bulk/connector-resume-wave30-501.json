@@ -1,0 +1,235 @@
+{
+  "batch": 501,
+  "base": "c02aa619f65d6411a751a3c5e71e4a03c2b5a0bb",
+  "canonical_before": 1643,
+  "canonical_after": 1650,
+  "added": [
+    "gently-sits-in-your-timeline-caption",
+    "fictional-school-inspector-self-introduction",
+    "harlem-shake-group-transition-parody",
+    "do-you-want-me-to-fail-never-reprise",
+    "object-head-character-parody",
+    "press-x-f-pay-respects-reaction",
+    "cheomildo-sword-name-wordplay"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0152",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "press-x-f-pay-respects-reaction"
+    }
+  ],
+  "previous_ci": {
+    "run": 44337237989,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": 173.775
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "sha": "c02aa619f65d6411a751a3c5e71e4a03c2b5a0bb",
+    "required_changes": 0,
+    "canonical": 1643,
+    "added": 10,
+    "files": 22,
+    "old_index_unchanged": 1633,
+    "old_body_navigation_only": 3,
+    "approved_annotations_unchanged": 74,
+    "ledger_mapping_changes": 1,
+    "sources_read": 13,
+    "notes": "SBSadoptedprintURLreadbyauditornowresolved;sharedIncross186words andsharedgoguma103definition/history;CIseparate."
+  },
+  "research": {
+    "C71": {
+      "observations": 20,
+      "recommended": 2,
+      "existing": 11,
+      "held": 7,
+      "queries": [
+        "site:gogumafarm.kr \"2026\" \"챌린지\" \"8월\"",
+        "site:maily.so \"2026\" \"밈\" \"신문\"",
+        "site:incross.com \"2026-06\" \"밈\" -10698 -10873",
+        "\"당신의 타임라인에 들어와\" \"부드럽게\" -site:incross.com",
+        "\"교권보호국 감독관\" \"밈\" -site:incross.com",
+        "site:incross.com \"2026\" \"비닐봉지 개구리\" \"idx\"",
+        "site:incross.com \"2026\" \"KTX\" \"idx\""
+      ],
+      "notes": "Nextbatchrecommendedtimelinecaptionidx10948Jun17 andfictionalinspectoridx10956Jun24; source+self-title singleeach.3rdpartynews403excluded.Originalmedia0."
+    },
+    "B560": {
+      "observations": 20,
+      "recommended": 2,
+      "existing": 4,
+      "family": 1,
+      "held": 10,
+      "excluded": 3,
+      "queries": [
+        "\"할렘 쉐이크\" \"한국\" \"2013\" 패러디",
+        "\"2026\" \"밈\" \"놀이\" site:univ20.com",
+        "\"2026\" \"밈\" \"패러디\" site:biz.chosun.com",
+        "\"시디즈쉐이크\" 2013",
+        "\"틴탑\" \"쉐이크\" \"2013\" 패러디",
+        "site:magazine.weverse.io 2026 \"밈\"",
+        "\"2026\" \"밈\" \"직접\" site:newsis.com/view",
+        "\"2026\" \"패러디\" \"댓글\" site:news.sbs.co.kr",
+        "\"엄마를 리스펙\" \"밈\"",
+        "\"내가 망하길 바라\" \"아니 네버\""
+      ],
+      "notes": "Harlemrecovery:SegyeApr2scheduled/EdailyApr3reportedbroadcastApr2 samecampaign; MBCformatseparate. Never internalseriesrepriseonly, parentextractedbodydateabsent.20notallnew."
+    },
+    "C72": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 11,
+      "held": 8,
+      "queries": [
+        "site.gogumafarm.kr \"2026\" \"밈\" \"9월\"",
+        "site.maily.so \"2026\" \"밈\" \"포맷\"",
+        "site.20slab.org \"2026\" \"밈\" \"댓글\"",
+        "site:incross.com \"2026-09\" \"밈\"",
+        "site:gogumafarm.kr \"2026\" \"인외콤\"",
+        "site:univ20.com \"2026\" \"밈\"",
+        "\"롯데월드\" \"인외\" \"소화기\"",
+        "\"오브젝트 헤드\" \"2026\" \"진돌\"",
+        "\"Playmusictheory\" \"그림\" \"밈\""
+      ],
+      "notes": "Objecthead domesticproductionexplanations; same119case acrossarticlesnotnewcase.5source5relatedbodyread;originalX403;3site.typosretained."
+    },
+    "A86": {
+      "observations": 21,
+      "recommended": 1,
+      "held": 20,
+      "queries": [
+        "\"미안송\" 패러디",
+        "\"미야\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"맛나핑\" -site:namu.moe -site:seore.org",
+        "\"미쿠미쿠하게 해줄게\" \"패러디\" 한국",
+        "\"바바바바바바\" 밈 -site:namu.moe -site:seore.org",
+        "\"밤 샌 사람\" \"일찍\"",
+        "\"방송 되게 못하네\" -site:namu.moe -site:seore.org",
+        "\"벽부수기\" 밈 패러디",
+        "\"봇이지 뭐\" -site:namu.moe -site:seore.org",
+        "\"북방코끼리바다표범\" 밈 -site:namu.moe -site:seore.org",
+        "\"불티\" 밈 패러디 전영록",
+        "\"브레드 이발소\" 밈 패러디",
+        "\"삐뽀핑\" 밈 -site:namu.moe -site:seore.org",
+        "\"벽돌할아버지\"",
+        "\"사고 쳤을 때 입 다물고\" -site:namu.moe -site:seore.org",
+        "\"사랑의 열매\" 밈 패러디",
+        "\"사이버펑크\" \"밈\" 버그 기사",
+        "\"샤방송\" 패러디 -site:namu.moe -site:seore.org",
+        "\"스너고\" -site:namu.moe -site:seore.org",
+        "\"씽씽이\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"게임은 죽었지만 밈은 남았다\"",
+        "\"미쿠미쿠하게\" \"아이린\""
+      ],
+      "notes": "20reservedheld plus0152recovery=21allledgerrechecks. 3sources4failedURLs; Miyaappearancecomparison notassetreuseproof. 0694repeatnotnew,0678Hyundai notHauzen."
+    },
+    "B561": {
+      "observations": 20,
+      "recommended": 0,
+      "existing": 8,
+      "family": 4,
+      "held": 5,
+      "excluded": 3,
+      "queries": [
+        "2026 \"밈\" \"패러디\" site:allurekorea.com",
+        "2026 \"유행\" \"따라\" site:esquirekorea.co.kr/article",
+        "2026 \"밈\" \"영상\" site:univ20.com",
+        "2026 \"밈\" \"따라\" site:news.jtbc.co.kr",
+        "2026 \"밈\" \"놀이\" site:news.sbs.co.kr",
+        "\"독극물 챌린지\" 한국",
+        "\"포이즌 챌린지\" 아이돌",
+        "2026 \"밈\" \"재현\" site:imnews.imbc.com",
+        "\"독극물 챌린지\" \"한국\" -\"베나드릴\"",
+        "\"독극물\" \"챌린지\" \"츄\"",
+        "\"애니메이션\" \"AI\" \"촬영장\" \"2026\""
+      ],
+      "notes": "20 observations, not unique discovery. Snack choice format not toxic challenge; domestic participation unconfirmed. Fashion/marketing umbrella excluded. Existing2 search-only."
+    },
+    "C73": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 13,
+      "held": 6,
+      "queries": [
+        "site:tpick.co.kr/post \"2026\" \"밈\"",
+        "site:careet.net \"2026\" \"댓글\" \"밈\"",
+        "site:univ20.com \"밈\" \"2026\" \"유행\"",
+        "\"늙크크\" \"2026\" -site:instablank.com -site:jjalbang.today",
+        "\"히토코토\" \"밈\" -site:tpick.co.kr",
+        "\"윤채 행진곡\" \"료\" -site:tpick.co.kr",
+        "\"쳐밀도\" \"존박\" \"가사\"",
+        "\"윤채 행진곡\" -site:tpick.co.kr -site:instablank.com",
+        "\"료 행진곡\" -site:tpick.co.kr -site:instablank.com"
+      ],
+      "notes": "Cheomildo historical recovery, 2010 actual fan gift; 2026 interview recollection not new spread. Originals0. 13 already indexed."
+    }
+  },
+  "sources": [
+    {
+      "id": "gently-sits-in-your-timeline-caption",
+      "urls": [
+        "https://www.incross.com/ko/insight/report.asp?idx=10948&mode=view"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "fictional-school-inspector-self-introduction",
+      "urls": [
+        "https://www.incross.com/ko/insight/report.asp?idx=10956&mode=view&page="
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "harlem-shake-group-transition-parody",
+      "urls": [
+        "https://imnews.imbc.com/replay/2013/nwtoday/article/3232325_30363.html",
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01853206602772512"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "do-you-want-me-to-fail-never-reprise",
+      "urls": [
+        "https://magazine.weverse.io/article/view/1439?artist=BOYNEXTDOOR",
+        "https://weverse.io/boynextdoor/media/3-204709381?hl=ko"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "object-head-character-parody",
+      "urls": [
+        "https://www.incross.com/ko/insight/report.asp?idx=21100&mode=view&page=1&pageSize=12&searchStr=&serboardsort=",
+        "https://www.komki.co.kr/eolgul-eobseumyeon-ddeuneun-geo-majnayo"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "press-x-f-pay-respects-reaction",
+      "urls": [
+        "https://www.gamemeca.com/view.php?gid=1761193"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "cheomildo-sword-name-wordplay",
+      "urls": [
+        "https://v.daum.net/v/20101018193610944",
+        "https://www.fnnews.com/news/202610081818260843"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "7 bounded entries; sources and scope independently reviewed. 2026 articles do not automatically prove recent origin. Historical Harlem and Cheomildo distinct from recent memes. Never phrase is internal production reprise only. Original images/video not viewed."
+  ],
+  "query_observations": 11766,
+  "distinct_literal_queries": 9675,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
