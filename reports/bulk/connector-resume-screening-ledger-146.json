@@ -75,10 +75,11 @@
     "reports/bulk/connector-resume-editor-225.json",
     "reports/bulk/connector-resume-editor-226.json",
     "reports/bulk/connector-resume-independent-audit-228.json",
-    "reports/bulk/connector-resume-screening-229.json"
+    "reports/bulk/connector-resume-screening-229.json",
+    "reports/bulk/connector-resume-editor-231.json"
   ],
-  "query_observations": 1194,
-  "distinct_literal_queries": 972,
+  "query_observations": 1231,
+  "distinct_literal_queries": 1003,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -6250,6 +6251,191 @@
     {
       "query": "\"전액 현금으로\" \"타코야끼\" 2026 -site:luckyvicky.moamoang.co.kr",
       "source": "reports/bulk/connector-resume-screening-229.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와졌어",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와졌다",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "수동태",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빼난",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "책없쾌",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오살힘",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사보필",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오디세이",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "리셀",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "크더싼",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "반오십",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "안나오면",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "밤티말빵",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꺄르",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노력이 숲으로",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "눈 가리고 야옹",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뇌 약간",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "You know what he said",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "유노왓",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "rude",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "발여자",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인스타그램이 릴스를",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "소 잃고",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "외양간",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뇌약간",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고치기",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "숲으로",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야옹",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "맞춤법",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오타",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"유노왓\" \"2026\"",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"눈 가리고 야옹\" \"2026\"",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소 잃고 뇌\" \"2026\"",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소 잃고 뇌 약간\" -site:issuelink.co.kr -site:lolprofile.net",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소잃고 뇌약간\" \"2026\"",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소 잃고 뇌 약간\" -site:op.gg -site:lolalytics.com -site:issuelink.co.kr -site:leagueofgraphs.com -site:lolprofile.net -site:careet.net -site:etoland.co.kr -site:tistory.com",
+      "source": "reports/bulk/connector-resume-editor-231.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:pinslog.com \"소 잃고\"",
+      "source": "reports/bulk/connector-resume-editor-231.json",
       "status": "screened-see-report"
     }
   ],

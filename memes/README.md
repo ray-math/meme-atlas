@@ -464,6 +464,7 @@
 - [세젤예](sejelye.md)
 - [세젤잘](sejeljal.md)
 - [섹시 푸드](sexy-food.md)
+- [소 잃고 뇌 약간 고치기](fix-brain-a-little.md)
 - [소는 누가 키워](who-raises-cows.md)
 - [소리 지르지 말고 박수 쳐](dont-shout-clap.md)
 - [소수를 세면서 진정하자](count-primes-and-calm-down.md)

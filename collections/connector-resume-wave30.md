@@ -79,3 +79,4 @@
 - [인간 여짜](../memes/human-yeojja.md)
 - [멜라토닌 먹고 꾸는 꿈 같다](../memes/melatonin-dream.md)
 - [가난하게 컸어?](../memes/did-you-grow-up-poor.md)
+- [소 잃고 뇌 약간 고치기](../memes/fix-brain-a-little.md)
