@@ -196,6 +196,7 @@
 - [낫닝겐](../memes/not-ningen.md)
 - [내가 그걸 모를까](../memes/do-you-think-i-dont-know.md)
 - [내가 바퀴벌레가 되면 어떡할 거야?](../memes/if-i-become-cockroach.md)
+- [내가 이러려고 ○○했나](../memes/did-i-do-this-for-that.md)
 - [내가 이룬 것들](../memes/things-i-achieved.md)
 - [내또출](../memes/naettochul.md)
 - [내면의 기가차드](../memes/inner-gigachad-dialogue.md)

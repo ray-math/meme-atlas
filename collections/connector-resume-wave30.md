@@ -155,3 +155,5 @@
 - [무너진 밸런스가 캐시템 수요를 만든다](../memes/broken-balance-cash-demand.md)
 
 - [에헤이 조졌네 이거](../memes/ehei-messed-up.md)
+
+- [내가 이러려고 ○○했나](../memes/did-i-do-this-for-that.md)

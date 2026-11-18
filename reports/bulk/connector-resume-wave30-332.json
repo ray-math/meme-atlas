@@ -1,0 +1,114 @@
+{
+  "batch": 332,
+  "base": "d4727c6111e45a3b7b508ac577e722be76267216",
+  "canonical_before": 961,
+  "canonical_after": 962,
+  "added": [
+    "did-i-do-this-for-that"
+  ],
+  "previous_recommendation": "0315 research preserved331, no recountqueries",
+  "research": {
+    "candidates": [
+      "0419",
+      "0435",
+      "0443",
+      "0464",
+      "0465",
+      "0467",
+      "0500",
+      "0505",
+      "0517",
+      "0536"
+    ],
+    "held": 10,
+    "recommended": 0,
+    "queries": [
+      "\"뚝배기\" \"밈\" 2026",
+      "\"러시아식 유머\" 2026",
+      "\"리사 수\" \"밈\" 2026",
+      "\"나락송\" 2026",
+      "\"어 나가\" \"밈\" 2026",
+      "\"먹bread\" 2026",
+      "\"뭉탱이\" 2026",
+      "\"미띤\" 2026",
+      "\"미쿠미쿠하게 해줄게\" 2026 패러디",
+      "\"번역기 드립\" 2026",
+      "\"먹bread\" site:theqoo.net 2026",
+      "\"러시아에서는\" \"당신을\" 2026 -site:namu.moe -site:seore.org"
+    ],
+    "sources": [
+      "https://maily.so/trendaword/posts/32z8013jon4",
+      "https://theqoo.net/subculture/4409873750"
+    ],
+    "limits": "0467one2023newsletterself-use;0505one2026-11-18title only. Inven161587502notverified. Repostsnotindependent."
+  },
+  "random_partner": {
+    "candidate": "랜덤 애인 소개 챌린지",
+    "status": "held",
+    "direct_creations_read": 0,
+    "source": "https://maily.so/trendaword/posts/d5ryyyk8r1w",
+    "source_date": "2026-11-13 newsletter date not linked video dates",
+    "queries": [
+      "\"l25KJXAI0NY\"",
+      "\"M-COpcGoCQQ\"",
+      "\"8aeCATVnv5w\"",
+      "\"랜덤 애인 소개\"",
+      "\"랜덤\" \"애인 소개\" site:youtube.com",
+      "\"랜덤으로 나오는 연인 소개하기\"",
+      "\"giants_nurisu\" \"영입\"",
+      "\"p0BbPWSwqKg\"",
+      "\"애인 소개하기\" site:instagram.com",
+      "\"제 애인을 소개합니다\" 필터",
+      "\"DfosxVsyDEb\"",
+      "\"lfrShGqECro\""
+    ],
+    "index_queries": [
+      "랜덤애인",
+      "애인소개",
+      "연인소개",
+      "inlovewith",
+      "랜덤소개팅"
+    ],
+    "limits": "YouTube5 Instagram3 throttled;alternate embed/shorts/captioned alsofailed. Stoprepeatedblockedrequests. Descriptionsnotdirectcreations."
+  },
+  "editor": {
+    "queries": [
+      "\"2026\" \"밈\" \"브랜드\" \"11월\" -site:namu.moe -site:seore.org -site:maily.so",
+      "\"2026\" \"신조어\" \"공식 블로그\" \"10월\""
+    ],
+    "index_queries": [
+      "바겐세일",
+      "주가",
+      "삼성",
+      "스윙스",
+      "팬은"
+    ],
+    "limits": "Sameexistingpattern, no newcanonical. Stockprices and sportsresults not adopted beyond reportedmemecontext.",
+    "source": "https://www.asiae.co.kr/article/social-general/2026110908034151702",
+    "existing": [
+      "championship-stock-sale"
+    ]
+  },
+  "verification": {
+    "editor_read": 2,
+    "independent_auditor_read": 3,
+    "reported_distinct_parody_events": 2,
+    "recent_confirmed_parody": 0,
+    "recent_same_form_title_intent_unconfirmed": 1,
+    "original_posts_read": 0,
+    "video_viewed": 0
+  },
+  "sources": [
+    "https://www.khan.co.kr/article/201611041839001",
+    "https://www.mk.co.kr/news/politics/7566040"
+  ],
+  "coverage_counts": {
+    "index_not_found": 318,
+    "partial": 43,
+    "unclear": 335,
+    "automatic_title_alias_match": 328,
+    "included": 63,
+    "candidate_repeat": 4
+  },
+  "ci": "962 pending;961 completed/success"
+}

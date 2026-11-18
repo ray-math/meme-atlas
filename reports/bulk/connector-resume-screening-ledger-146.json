@@ -160,10 +160,11 @@
     "reports/bulk/connector-resume-wave30-328.json",
     "reports/bulk/connector-resume-wave30-329.json",
     "reports/bulk/connector-resume-wave30-330.json",
-    "reports/bulk/connector-resume-wave30-331.json"
+    "reports/bulk/connector-resume-wave30-331.json",
+    "reports/bulk/connector-resume-wave30-332.json"
   ],
-  "query_observations": 3590,
-  "distinct_literal_queries": 3031,
+  "query_observations": 3626,
+  "distinct_literal_queries": 3063,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -18315,6 +18316,186 @@
     {
       "query": "site:weolbu.com/community/4485627",
       "source": "reports/bulk/connector-resume-wave30-331.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뚝배기\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"러시아식 유머\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"리사 수\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나락송\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어 나가\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"먹bread\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뭉탱이\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미띤\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미쿠미쿠하게 해줄게\" 2026 패러디",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"번역기 드립\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"먹bread\" site:theqoo.net 2026",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"러시아에서는\" \"당신을\" 2026 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"l25KJXAI0NY\"",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"M-COpcGoCQQ\"",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"8aeCATVnv5w\"",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"랜덤 애인 소개\"",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"랜덤\" \"애인 소개\" site:youtube.com",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"랜덤으로 나오는 연인 소개하기\"",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"giants_nurisu\" \"영입\"",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"p0BbPWSwqKg\"",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"애인 소개하기\" site:instagram.com",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"제 애인을 소개합니다\" 필터",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"DfosxVsyDEb\"",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"lfrShGqECro\"",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "랜덤애인",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "애인소개",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "연인소개",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "inlovewith",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "랜덤소개팅",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"브랜드\" \"11월\" -site:namu.moe -site:seore.org -site:maily.so",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"신조어\" \"공식 블로그\" \"10월\"",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바겐세일",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "주가",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삼성",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스윙스",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "팬은",
+      "source": "reports/bulk/connector-resume-wave30-332.json",
       "status": "screened-see-report"
     }
   ],

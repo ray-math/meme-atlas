@@ -198,6 +198,7 @@
 - [내가 바퀴벌레가 되면 어떡할 거야?](if-i-become-cockroach.md)
 - [내가 아이돌이었으면 이 파트는 꼭 하고 싶음](if-i-were-idol.md)
 - [내가 왕이 될 상인가](will-i-be-king.md)
+- [내가 이러려고 ○○했나](did-i-do-this-for-that.md)
 - [내가 이룬 것들](things-i-achieved.md)
 - [내또출](naettochul.md)
 - [내려갈 팀은 내려간다](down-team-is-down.md)
