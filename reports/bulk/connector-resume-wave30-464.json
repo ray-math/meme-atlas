@@ -1,0 +1,354 @@
+{
+  "batch": 464,
+  "base": "9f2ce0214864ecab9200763d88844e2663886f24",
+  "canonical_before": 1268,
+  "canonical_after": 1279,
+  "added": [
+    "gumeongnan-gaseum-short-dance-challenge",
+    "myeongjon-sse-villain-reaction",
+    "fleece-sexy-outfit-caption",
+    "press-conference-freestyle-remix",
+    "no-possession-to-full-possession-joke",
+    "ai-monastic-look-photo-filter",
+    "full-moon-before-after-edit",
+    "community-center-shirt-nickname",
+    "buriburi-summoning-dance",
+    "jonna-jotgun-drawing-parody-caption",
+    "just-imagined-being-template"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0476",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "myeongjon-sse-villain-reaction"
+    },
+    {
+      "id": "kr-list-0513",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "press-conference-freestyle-remix"
+    },
+    {
+      "id": "kr-list-0552",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "buriburi-summoning-dance"
+    },
+    {
+      "id": "kr-list-0933",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "jonna-jotgun-drawing-parody-caption"
+    },
+    {
+      "id": "kr-list-0546",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "just-imagined-being-template"
+    }
+  ],
+  "previous_ci": {
+    "run": 44288995437,
+    "job": 134748988634,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 136.863s"
+  },
+  "previous_audit": {
+    "batch": 463,
+    "status": "pass",
+    "mandatory_fixes": 0,
+    "new_bodies": 10,
+    "prior_index_unchanged": 1258,
+    "prior_body_changes": 0,
+    "mapping_rows_changed": 7,
+    "mapping_losses": 0,
+    "existing_mapping_repair": "0385->dumb-dumb-challenge",
+    "sources_reopened": 13,
+    "previous_verified_sources": 2,
+    "media_viewed": 0
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 6,
+      "held": 12,
+      "selected_previously": 1,
+      "note": "0469 selected in463 inflight_selections; do not count again as new canonical. Other recommendation0476 for464.",
+      "queries": [
+        "\"어 나가\" \"밈\"",
+        "\"고먐미\" 뜻",
+        "\"명존쎄\" 유행어",
+        "\"모스카우\" 패러디",
+        "\"무츠키 댄스\"",
+        "\"뭉탱이\" 뜻 유래",
+        "\"문법 나치\" 한국",
+        "\"무대뽀\" 유행어",
+        "\"고먐미\" 고양이",
+        "\"뭉탱이\" \"유링게숭\" -site:namu.moe -site:ssadic.com -site:entrywiki.org",
+        "\"무츠키\" \"댄스\" -site:namu.moe",
+        "\"물음표 드립\""
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 4,
+      "held": 15,
+      "queries": [
+        "\"미안송\" 패러디",
+        "\"미야\" \"밈\"",
+        "\"맛나핑\"",
+        "\"미쿠미쿠하게 해줄게\" 패러디",
+        "\"미안송\" -site:namu.moe",
+        "\"바바바바바바\" 밈",
+        "\"밤 샌 사람\" \"일찍\"",
+        "\"박씨 꺼져\"",
+        "\"방송 되게 못하네\"",
+        "\"번역기 드립\" \"벤 브로드\"",
+        "\"밥 먹을 때 생각나는\"",
+        "\"민희진\" \"기자회견\" \"패러디\""
+      ]
+    },
+    "A3": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 4,
+      "held": 14,
+      "queries": [
+        "\"벽부수기\" 밈",
+        "\"본인 방금\" \"상상함\" 유래",
+        "\"부리부리\" \"소환\" 춤 패러디",
+        "\"불만 있냐\" \"물도\"",
+        "\"비둘기야 먹자\" 패러디",
+        "\"북방코끼리바다표범\" 밈",
+        "\"봇이지 뭐\"",
+        "\"불티\" \"밈\"",
+        "\"부리부리 마신\" 춤 -site:namu.moe -site:urlebird.com",
+        "\"본인 방금\" \"상상함\" -site:namu.moe -site:seore.org -site:inven.co.kr",
+        "\"불만 있냐 물도 있다\" -site:namu.moe",
+        "\"브레드 이발소\" 패러디"
+      ],
+      "note": "0546 initialheld later recovered old Inven direct source with Novelpia use; not new discovery."
+    },
+    "B": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 13,
+      "held": 6,
+      "excluded": 0,
+      "queries": [
+        "2026 \"밈\" \"따라\" site:univ20.com",
+        "2026 \"밈\" \"유행\" site:harpersbazaar.co.kr",
+        "2026 \"밈\" \"댓글\" site:elle.co.kr",
+        "2026 \"밈\" \"유행\" site:woman.donga.com",
+        "2026 \"밈\" \"댓글\" site:cosmopolitan.co.kr",
+        "2026 \"사진\" \"챌린지\" site:allurekorea.com",
+        "\"구멍난 가슴\" \"챌린지\"",
+        "\"드근드시\" \"챌린지\"",
+        "\"Yosho Hai\" 한국"
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended": 4,
+      "existing": 6,
+      "held": 8,
+      "excluded": 2,
+      "queries": [
+        "2026 \"밈\" \"말투\" site:brunch.co.kr",
+        "2026 \"밈\" \"패러디\" site:design.co.kr",
+        "2026 \"챌린지\" \"사진\" site:esquirekorea.co.kr",
+        "2026 \"밈\" \"패러디\" site:hankyung.com",
+        "2026 \"밈\" \"요즘\" site:magazine.hankyung.com",
+        "2026 \"밈\" \"표현\" site:univ20.com",
+        "\"AI 출가체험\" \"2026\"",
+        "\"무소유\" \"풀소유\" \"2026\"",
+        "\"동사무소 티\" \"2026\""
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 1,
+      "conditional_held": 1,
+      "existing": 3,
+      "held": 15,
+      "selected_previously": 1,
+      "note": "0892 already added in463; observation overlap explicitly excluded from new canonical count.",
+      "queries": [
+        "\"인문학적 변태\" 밈",
+        "\"일부러 PC방에는\" 패러디",
+        "\"자러감\" \"드립\" 유래",
+        "\"잘생겨서 안 좋은 점\" 밈",
+        "\"인실좆\" 뜻 기사",
+        "\"인문학적 변태\" -site:namu.moe -site:seore.org",
+        "\"인주 앨리스\" 패러디 -site:namu.moe -site:seore.org",
+        "\"자낳괴\" 뜻 유래 기사",
+        "\"잘생겨서 안 좋은 점\" \"패러디\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"인문학적 변태\" \"뜻\" -site:namu.moe -site:seore.org",
+        "\"자러감\" \"짤\" \"뜻\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"인주 앨리스\" \"그려\" -site:namu.moe -site:seore.org",
+        "\"자낳괴\" \"광고\" \"2017\"",
+        "\"인실좆\" \"뜻\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"인문학적 변태\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"잘생겨서 안 좋은 점\" \"없어요\" 기사",
+        "\"자낳괴\" \"광고\" 고든 램지",
+        "\"자낳괴\" \"미디어 바른말\" 뉴스핌"
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "recommended": 1,
+      "conditional_held": 1,
+      "existing": 6,
+      "held": 12,
+      "queries": [
+        "\"저런\" \"앞으로 어찌될까요\" 밈",
+        "\"정상화\" \"밈\" 유래",
+        "\"조보아씨\" \"패러디\"",
+        "\"조이는 보이\" 밈",
+        "\"정상화\" \"밈\" site:newsis.com",
+        "\"정상화\" \"밈\" site:fnnews.com",
+        "\"존나좋군\" 패러디 -site:namu.moe -site:seore.org",
+        "\"제 딸을\" \"15년 후에\" 패러디 -site:namu.moe -site:seore.org",
+        "\"저런\" \"앞으로 어찌될까요\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"조이는 보이\" \"패러디\" -site:namu.moe -site:seore.org -site:instablank.com",
+        "\"정공겜\" 뜻 기사",
+        "\"적폐\" \"게임\" \"밈\""
+      ]
+    },
+    "editor": {
+      "count": 7,
+      "existing": 4,
+      "held": 2,
+      "recommended": 1,
+      "queries": [
+        "2026 \"11월\" \"밈\" site:careet.net",
+        "2026 \"10월\" \"밈\" site:incross.com",
+        "2026 \"밈\" \"새로운\" site:allurekorea.com",
+        "\"털동생\" \"2026\" -site:careet.net",
+        "\"섹시하게\" \"플리스\" 밈",
+        "\"미혼 앤 비혼\" \"밈\"",
+        "\"털동생\" 산책",
+        "\"플리스\" \"섹시하게 입고\""
+      ],
+      "note": "my-emoji,okay-thanks-daldal,take-the-l,NEON both wordplay+dance existing; furry sibling/wabi-sabi held pending scope. Added fleece contrast lead, not yet counted as reviewed."
+    }
+  },
+  "sources": [
+    {
+      "id": "gumeongnan-gaseum-short-dance-challenge",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/3824"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "myeongjon-sse-villain-reaction",
+      "urls": [
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10007924857&cooper=ent.sbs.co.kr",
+        "https://www.ajunews.com/view/20200709183958262"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "fleece-sexy-outfit-caption",
+      "urls": [
+        "https://www.careet.net/1798",
+        "https://www.cosmopolitan.co.kr/article/1893902"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "press-conference-freestyle-remix",
+      "urls": [
+        "https://mobile.newsis.com/view/NISX20240426_0002714347"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "no-possession-to-full-possession-joke",
+      "urls": [
+        "https://magazine.hankyung.com/business/article/202504307191b",
+        "https://m.news.nate.com/view/20260406n26747?issue_sq=10863"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ai-monastic-look-photo-filter",
+      "urls": [
+        "https://magazine.hankyung.com/business/article/202504307191b",
+        "https://carat.im/blog/ai-photobooth-buddhism-expo"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "full-moon-before-after-edit",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/3717"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "community-center-shirt-nickname",
+      "urls": [
+        "https://magazine.hankyung.com/business/amp/202306280561b"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "buriburi-summoning-dance",
+      "urls": [
+        "https://whitefaceone.tistory.com/2807",
+        "https://press.changwon.ac.kr/news/articleView.html?idxno=3051510"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jonna-jotgun-drawing-parody-caption",
+      "urls": [
+        "https://kurapa.com/humorclub/2077/존나-좋군/",
+        "https://www.urbanbrush.net/bg/?download=%EC%A1%B4%EB%82%98%EC%A2%8B%EA%B5%B0-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "just-imagined-being-template",
+      "urls": [
+        "https://www.inven.co.kr/board/maple/2304/16929",
+        "https://novelpia.com/novel/361481"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "11 bounded entries, derived files and CI once per checkpoint.",
+    "Observations include previous463 selections0469/0892: not new canonical again.",
+    "Urbanbrush researcher full-text success but editor retry410; Inven0546 researcher direct success and earlier verified source recovery but editor retry502. No fabricated full-read claims.",
+    "Historical entries retained without inventing recentyearuse. No media viewed."
+  ],
+  "query_observations": 8266,
+  "distinct_literal_queries": 7115,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ],
+  "source_access_discrepancies": [
+    {
+      "id": "jonna-jotgun-drawing-parody-caption",
+      "urbanbrush_worker_success": "turn4705view2 76lines L11date L13-15creator description",
+      "editor_reopen": "410 twice",
+      "kurapa_editor": "success",
+      "images_viewed": 0
+    },
+    {
+      "id": "just-imagined-being-template",
+      "inven_worker": "directsuccess2019-08-05L166-170;oldsource recovery",
+      "editor_reopen": "502",
+      "novelpia_editor": "successL186-189",
+      "media": 0
+    }
+  ]
+}
