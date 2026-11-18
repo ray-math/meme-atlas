@@ -123,10 +123,11 @@
     "reports/bulk/connector-resume-wave30-280.json",
     "reports/bulk/connector-resume-wave30-281.json",
     "reports/bulk/connector-resume-wave30-282.json",
-    "reports/bulk/connector-resume-wave30-283.json"
+    "reports/bulk/connector-resume-wave30-283.json",
+    "reports/bulk/connector-resume-wave30-284.json"
   ],
-  "query_observations": 2361,
-  "distinct_literal_queries": 1916,
+  "query_observations": 2399,
+  "distinct_literal_queries": 1941,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -12133,6 +12134,196 @@
     {
       "query": "\"기니 우리겠어\" site:theqoo.net",
       "source": "reports/bulk/connector-resume-wave30-283.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 11월 밈 모음 매거진",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 9월 밈 트렌드 매거진 신조어",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"BAD 챌린지\" 2026 아이키 이상이",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"멧챠 카멜레온\" 농촌진흥청 낫띵베럴",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마음이 이상해서 그래\" 2026 -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"화아아악 죽이세유\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아이워시\" \"패러디\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이거 내 이모지야",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "체포하겠어",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나 왜 이 순간이 영원할 것 같지",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "L을 가져가",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "NEON 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "농놀붐",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "농푸",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야푸",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포기하겠습니다",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "귀인 지도",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "구글 타임라인 비주얼라이저",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마카롱 말먹",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삐에로 남친",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "일하기 전 제 모습이고요",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마음이 이상해서 그래",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "화아아악 죽이세유",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "멧챠 카멜레온",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "라을라",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "BAD 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아이워시",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"1월\" \"매거진\" -site:instablank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"2월\" \"트렌드\" -site:instablank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "윤정아",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "샤갈샤갈",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "좋",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "위아원",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "처하",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "최미나수",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "운동 많이",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스트레스 많이",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "매끈",
+      "source": "reports/bulk/connector-resume-wave30-284.json",
       "status": "screened-see-report"
     }
   ],

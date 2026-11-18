@@ -1,0 +1,87 @@
+{
+  "batch": 284,
+  "canonical_before": 925,
+  "canonical_after": 925,
+  "added": [],
+  "research_b": {
+    "queries": [
+      "2026 11월 밈 모음 매거진",
+      "2026 9월 밈 트렌드 매거진 신조어",
+      "\"BAD 챌린지\" 2026 아이키 이상이",
+      "\"멧챠 카멜레온\" 농촌진흥청 낫띵베럴",
+      "\"마음이 이상해서 그래\" 2026 -site:instablank.com",
+      "\"화아아악 죽이세유\" -site:instablank.com",
+      "\"아이워시\" \"패러디\" 2026"
+    ],
+    "index_queries": [
+      "이거 내 이모지야",
+      "체포하겠어",
+      "나 왜 이 순간이 영원할 것 같지",
+      "L을 가져가",
+      "NEON 챌린지",
+      "농놀붐",
+      "농푸",
+      "야푸",
+      "포기하겠습니다",
+      "귀인 지도",
+      "구글 타임라인 비주얼라이저",
+      "마카롱 말먹",
+      "삐에로 남친",
+      "일하기 전 제 모습이고요",
+      "마음이 이상해서 그래",
+      "화아아악 죽이세유",
+      "멧챠 카멜레온",
+      "라을라",
+      "BAD 챌린지",
+      "아이워시"
+    ],
+    "screened": 20,
+    "duplicates": 10,
+    "related": 1,
+    "unmatched": 9,
+    "recommended": "화아아악 죽이세유",
+    "sources": [
+      "https://xitter.gq/eatpaang/status/2119660790475354582",
+      "https://www.teapaw.org/fallyavna/status/2122703625872867499",
+      "https://cine21.com/news/view/?mag_id=110561",
+      "https://blog.hsad.co.kr/3769",
+      "https://blog.hsad.co.kr/3798?category=1034380",
+      "https://blog.hsad.co.kr/3776",
+      "https://komki.co.kr/trend0905"
+    ],
+    "note": "two authors mirror text datedNov9/17; originalX/video0; basketballlotterylament and playfulcontest; hold parentreadpending; otherunmatched lifestyles/service/onecampaign notnewmemes"
+  },
+  "root_queries": [
+    "2026 \"밈\" \"1월\" \"매거진\" -site:instablank.com -site:namu.moe",
+    "2026 \"밈\" \"2월\" \"트렌드\" -site:instablank.com -site:namu.moe"
+  ],
+  "root_index_queries": [
+    "윤정아",
+    "샤갈샤갈",
+    "좋",
+    "위아원",
+    "처하",
+    "최미나수",
+    "운동 많이",
+    "스트레스 많이",
+    "매끈"
+  ],
+  "root_research": {
+    "source": "https://www.i-boss.co.kr/ab-74668-5400",
+    "date": "2026-02-10",
+    "direct_read": true,
+    "note": "Somako syndication notindependentMobiinside; yunjeong/weareone/good-exercise/smooth-smooth mapped; broad좋 not enoughidentifyjo-ta; 최미나수/스트레스많이/샤갈샤갈 noindexhit only, notnewverified; shagalremix samecreator versionsnot2independent; nominoridentitycopied"
+  },
+  "candidate_review": {
+    "candidate": "화아아악 죽이세유",
+    "decision": "hold",
+    "cine21_direct_read": true,
+    "both_mirrors_parent_read": "not accessible",
+    "note": "worker reported direct mirror text but editor could not reproduce; recovery requested; not counted as canonical"
+  },
+  "metrics": {
+    "query_observations": 2399,
+    "distinct_literal_queries": 1941
+  },
+  "ci": "not run"
+}
