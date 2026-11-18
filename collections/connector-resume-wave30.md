@@ -86,3 +86,4 @@
 - [RUDE! 나레이션 패러디](../memes/rude-narration.md)
 - [꼬마 선장 춤](../memes/little-captain-dance.md)
 - [뒷공부 근절 캠페인](../memes/secret-study-campaign.md)
+- [고구마구웠어요](../memes/roasted-sweet-potato-thanks.md)

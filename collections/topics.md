@@ -988,6 +988,7 @@
 - [가난하게 컸어?](../memes/did-you-grow-up-poor.md)
 - [간바레 챌린지](../memes/ganbare-three-panel-challenge.md)
 - [간절스러웠어요](../memes/ganjeolseureowosseoyo.md)
+- [고구마구웠어요](../memes/roasted-sweet-potato-thanks.md)
 - [그럼 다음은 무조건 ○○겠지](../memes/next-trend-wish-template.md)
 - [꼬마 선장 춤](../memes/little-captain-dance.md)
 - [꿍싯꿍싯 챌린지](../memes/kkungsit-kkungsit-challenge.md)

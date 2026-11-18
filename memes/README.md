@@ -77,6 +77,7 @@
 - [겐트위한](genteuwihan.md)
 - [계폭](gyepok.md)
 - [고구마](goguma-frustration.md)
+- [고구마구웠어요](roasted-sweet-potato-thanks.md)
 - [고급 레스토랑](fine-restaurant.md)
 - [고나리](gonari.md)
 - [고도로 발달한 A는 B와 구분할 수 없다](advanced-a-indistinguishable-b.md)

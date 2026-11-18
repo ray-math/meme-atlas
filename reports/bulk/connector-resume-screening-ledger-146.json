@@ -91,10 +91,11 @@
     "reports/bulk/connector-resume-wave30-245.json",
     "reports/bulk/connector-resume-wave30-246.json",
     "reports/bulk/connector-resume-wave30-247.json",
-    "reports/bulk/connector-resume-wave30-249.json"
+    "reports/bulk/connector-resume-wave30-249.json",
+    "reports/bulk/connector-resume-wave30-250.json"
   ],
-  "query_observations": 1593,
-  "distinct_literal_queries": 1290,
+  "query_observations": 1613,
+  "distinct_literal_queries": 1310,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -8261,6 +8262,106 @@
     {
       "query": "공부 안",
       "source": "reports/bulk/connector-resume-wave30-249.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:newsroom.lge.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:blog.skhynix.com",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:newsroom.korea.net",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"뉴스레터\" \"11월 18\"",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이건 절대 안되는 일이야\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"절대 안 되는 일이얌\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:blog.socialmkt.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고구마구웠어요\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고구마구웠어요\" \"휴머스온\"",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고구마구웠",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고마웠",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고마워",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "roasted",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고구마",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "sweet-potato",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감사",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "절대",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "sheep",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사곡리",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "어어우예",
+      "source": "reports/bulk/connector-resume-wave30-250.json",
       "status": "screened-see-report"
     }
   ],

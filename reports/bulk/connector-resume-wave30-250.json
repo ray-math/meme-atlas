@@ -1,0 +1,54 @@
+{
+  "batch": 250,
+  "canonical_before": 912,
+  "canonical_after": 913,
+  "added": [
+    "roasted-sweet-potato-thanks"
+  ],
+  "research": {
+    "queries": [
+      "\"2026\" \"밈\" site:newsroom.lge.co.kr",
+      "\"2026\" \"밈\" site:blog.skhynix.com",
+      "\"2026\" \"밈\" site:newsroom.korea.net",
+      "\"2026\" \"밈\" \"뉴스레터\" \"11월 18\"",
+      "\"이건 절대 안되는 일이야\" \"2026\" 밈",
+      "\"절대 안 되는 일이얌\" 밈",
+      "\"2026\" \"밈\" site:blog.socialmkt.co.kr",
+      "\"고구마구웠어요\" \"2026\"",
+      "\"고구마구웠어요\" \"휴머스온\""
+    ],
+    "index_queries": [
+      "고구마구웠",
+      "고마웠",
+      "고마워",
+      "roasted",
+      "고구마",
+      "sweet-potato",
+      "감사",
+      "절대",
+      "sheep",
+      "사곡리",
+      "어어우예"
+    ],
+    "candidate": "고구마구웠어요",
+    "status": "Recovered B63 lead, pending editor/scope review",
+    "sources": [
+      "https://www.20slab.org/Archives/39008",
+      "https://stibee.com/api/v1.0/emails/share/yX_uTFICl57kCeb4iG4HnRhd-t329NA"
+    ],
+    "limits": "20slab2025-12-12 dated direct title; Gileum202 2025November third-week exactdate unknown. Recent-year confirmed1 only. 20slab/Stibee mirror same. Humuson404 excluded. Not2026coinage."
+  },
+  "independent_scope_review": "passed; two actual text applications, only1 exact date in recent year. Older held B63 candidate recovered, not new discovery.",
+  "prior_audit": {
+    "secret_study_campaign": "final body passed, not whole-index audit"
+  },
+  "metrics": {
+    "query_observations": 1613,
+    "distinct_literal_queries": 1310
+  },
+  "checks": {
+    "normalized_collisions": 0,
+    "readme_topics_roundtrip": true,
+    "ci": "not run"
+  }
+}
