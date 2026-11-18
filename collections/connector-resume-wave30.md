@@ -127,3 +127,7 @@
 - [TS 말포이](../memes/ts-malfoy.md)
 
 - [다 해줬잖아](../memes/did-it-all-for-you.md)
+
+- [근데 이제 뭐함?](../memes/but-what-now.md)
+
+- [아니 없어요 그냥](../memes/no-there-is-none.md)

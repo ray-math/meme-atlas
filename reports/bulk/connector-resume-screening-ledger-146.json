@@ -145,10 +145,11 @@
     "reports/bulk/connector-resume-wave30-309.json",
     "reports/bulk/connector-resume-wave30-310.json",
     "reports/bulk/connector-resume-wave30-312.json",
-    "reports/bulk/connector-resume-wave30-313.json"
+    "reports/bulk/connector-resume-wave30-313.json",
+    "reports/bulk/connector-resume-wave30-314.json"
   ],
-  "query_observations": 2995,
-  "distinct_literal_queries": 2488,
+  "query_observations": 3046,
+  "distinct_literal_queries": 2539,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -15325,6 +15326,261 @@
     {
       "query": "\"귀여운 건 나도 알아\" \"2026\" -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-313.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"04년생 클럽춤\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"AK47\" \"외할머니\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"EZ Do Dance\" \"2026\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Siuuuu\" \"2026\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Young한데\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개같이 부활\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"근데 이제 뭐함\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꾸래핑\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"네 설명해드렸습니다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"단소 살인마\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"04년생 클럽춤\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"AK47\" \"외할머니\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개같이 부활\" \"2026\" -site:namu.moe -site:inven.co.kr -site:issuelink.co.kr -site:ilbe.com",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"네 설명해드렸습니다\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꾸래핑\" \"밈\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"근데 이제 뭐함\" \"밈\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "04년생",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "클럽춤",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "봉덕",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "ak47",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "외할머니",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "ezdodance",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이지두댄스",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "siuu",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "호우",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영한데",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "young",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "개같이",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "근데이제",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이제뭐",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꾸래핑",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "설명해드렸",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "단소",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "침팬지",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오랑우탄",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뭐이악\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"바바바바바바\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부라더 다메요\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뼈 맞았어\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삐뽀핑\" 2026 밈",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"서로 깨물었을 때 반응\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"서순\" 2026 밈",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"셈체\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스너고\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아니 없어요 그냥\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부라더 다메요\" \"SNL\"",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뭐이악\" -site:namu.moe -site:seore.org -site:novawiki.app",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스너고\" 밈 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"바바바바바바\" 밈 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"셈체\" 사용 -site:namu.moe -site:librewiki.net",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아니 없어요 그냥\" 패러디 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-314.json",
       "status": "screened-see-report"
     }
   ],
