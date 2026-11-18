@@ -242,10 +242,11 @@
     "reports/bulk/connector-resume-wave30-414.json",
     "reports/bulk/connector-resume-wave30-415.json",
     "reports/bulk/connector-resume-wave30-416.json",
-    "reports/bulk/connector-resume-wave30-417.json"
+    "reports/bulk/connector-resume-wave30-417.json",
+    "reports/bulk/connector-resume-wave30-418.json"
   ],
-  "query_observations": 5623,
-  "distinct_literal_queries": 4890,
+  "query_observations": 5642,
+  "distinct_literal_queries": 4909,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -28562,6 +28563,101 @@
     {
       "query": "\"근데 어쩔건데\" 밈 -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-417.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:busan.com",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"유행어\" site:imaeil.com",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"챌린지\" site:jnilbo.com",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"따라\" site:kwnews.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"AI 압수수색\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"압수수색\" \"챗GPT\" \"해봤\"",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:kihoilbo.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" site:kgnews.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"압수수색\" \"챌린지\" \"AI\"",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"전업자녀입니다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어제 내 세상이 무너졌어\" \"2026\" -site:namu.moe -site:inven.co.kr -site:kone.gg -site:huggingface.co",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어제 내 세상이 무너졌어\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"내 세상이 무너졌어\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"물음표 살인마\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"유죄 인간\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"유죄 무죄\" \"다정\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"유죄\" \"설레\" site:imbc.com 2026",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"드립\" site:news.nate.com -정치 -샤갈 -야르",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"유행\" site:design.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-418.json",
       "status": "screened-see-report"
     }
   ],
