@@ -101,10 +101,11 @@
     "reports/bulk/connector-resume-wave30-256.json",
     "reports/bulk/connector-resume-wave30-257.json",
     "reports/bulk/connector-resume-wave30-258.json",
-    "reports/bulk/connector-resume-wave30-259.json"
+    "reports/bulk/connector-resume-wave30-259.json",
+    "reports/bulk/connector-resume-wave30-260.json"
   ],
-  "query_observations": 1808,
-  "distinct_literal_queries": 1467,
+  "query_observations": 1874,
+  "distinct_literal_queries": 1513,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -9346,6 +9347,336 @@
     {
       "query": "초지능",
       "source": "reports/bulk/connector-resume-wave30-259.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"도서관\" \"패러디\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"우체국\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"서점\" \"패러디\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"직원\" \"마감\" \"5초\"",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"미술관\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"대학교\" \"패러디\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"핀란드\" 대사관",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"귀하게 자란\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"업무마감 5초전\"",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"갈테야테야\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"읽지 않음\" \"난 모르는 일\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"누가 내 간식을 먹었을까\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"누가 내 간식을\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"누가내간식을\" 브랜드",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "귀하게",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마감",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도서관장",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "핀란드",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "애인 소개",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도우러",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "땃쥐",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하나코",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "교수님",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "성열",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "핵심을",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "매끈",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "간식을",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "에겐",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "난리자베스",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "운동 많이",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아자스",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갈테야",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "할렐야루",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갑차기",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "읽지 않음",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "모르는 일",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 11월 최신 밈 문구 모음",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 10월 밈 \"정보\" -site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이거 제 이모지\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아무것도 모르는\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아이스티 4개\" 한국 2026",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아무것도 모르는\" \"찍어\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그럼 아이스티\" 밈 -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍던씸\" 2026 -site:meme-radar-6eq.pages.dev",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍던씸 챌린지\" -site:incross.com -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아무것도 모르는\" \"찍어 올리는\" -site:instablank.com -site:maily.so -site:creatrend.tistory.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껍던씸\" \"챌린지\" 아이돌 뉴스",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"껌던십\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"KNClOK43uwY\"",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "껍던씸",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "씹던껌",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "껌씹던",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "껌던십",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "우마무스메",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "머리를 짚",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한 명씩",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아무것도 모르는",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "모던 패밀리",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아이스티",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "저점매수",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아이워시",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김민",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "찍어 올리는",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이모지",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "기록",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "촬영",
+      "source": "reports/bulk/connector-resume-wave30-260.json",
       "status": "screened-see-report"
     }
   ],
