@@ -1,0 +1,431 @@
+{
+  "batch": 534,
+  "base": "1ee8a6557f8c8fe8f0ed4667dba3050bf57df089",
+  "canonical_before": 1977,
+  "canonical_after": 1986,
+  "added": [
+    "lee-suji-classic-soju-commercial-parody",
+    "noeppaedeu-brain-off-drama-label",
+    "nan-ireoke-sarawatneunde",
+    "honnol-solo-leisure-short-form",
+    "shortsocialing-brief-social-gathering-label",
+    "gojingamrae-going-home-acrostic",
+    "gamdadwi-positive-reinterpretation",
+    "gonryongpo-jwa-world-cup-fan-nickname",
+    "susiopath-repeated-revision-wordplay"
+  ],
+  "candidate_changes": [
+    {
+      "candidate_id": "kr-list-0208",
+      "id": "gonryongpo-jwa-world-cup-fan-nickname",
+      "reason": "2022월드컵복장별칭만연결.동일SBS군2날짜명명/호칭사용.인물전체/범용짤/챌린지/최초/최근재유행미검증."
+    },
+    {
+      "candidate_id": "kr-list-0229",
+      "change": "Separate historical source URL from current evidence;classification and mapping unchanged."
+    }
+  ],
+  "previous_ci": {
+    "sha": "1ee8a6557f8c8fe8f0ed4667dba3050bf57df089",
+    "run": 44391461817,
+    "job": 135109956416,
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 113.900s"
+    ]
+  },
+  "previous_final_audit": {
+    "status": "PASS",
+    "required": 0,
+    "sha": "1ee8a6557f8c8fe8f0ed4667dba3050bf57df089",
+    "total": 1977,
+    "files": 19,
+    "oldBodiesUnchanged": 1967,
+    "queryRows": 14768,
+    "distinctLiteralQueries": 12113
+  },
+  "sources": [
+    {
+      "id": "lee-suji-classic-soju-commercial-parody",
+      "urls": [
+        "https://v.daum.net/v/20260603110202979",
+        "https://www.yna.co.kr/view/AKR20260609108800011"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "noeppaedeu-brain-off-drama-label",
+      "urls": [
+        "https://www.mt.co.kr/entertainment/2023/10/31/2023103110367282075",
+        "https://joynews24.com/view/1965378"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nan-ireoke-sarawatneunde",
+      "urls": [
+        "https://www.careet.net/581",
+        "https://www.iybs.co.kr/news/articleView.html?idxno=23510"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "honnol-solo-leisure-short-form",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail?id=3887&pageidx=1",
+        "https://m.segye.com/view/20260911512810"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "shortsocialing-brief-social-gathering-label",
+      "urls": [
+        "https://www.kepco.co.kr/KEPCO_FILE/html/2026_05/trend.html",
+        "https://youth.seoul.go.kr/infoData/sprtInfo/view.do?key=2309130006&sprtInfoId=70358"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gojingamrae-going-home-acrostic",
+      "urls": [
+        "https://www.seoul.co.kr/news/editOpinion/wayside-column/2022/12/29/20221229027012",
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10010313560"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gamdadwi-positive-reinterpretation",
+      "urls": [
+        "https://sports.khan.co.kr/article/202602021404003",
+        "https://gall.dcinside.com/board/view/?id=baseball_new13&no=2706592&page=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gonryongpo-jwa-world-cup-fan-nickname",
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?autoplay=Y&cooper=SBSNEWSAMP&news_id=N1007002323&plink=VIDEOTEXT",
+        "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1007021135"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "susiopath-repeated-revision-wordplay",
+      "urls": [
+        "https://www.starnewskorea.com/star/2025/03/13/2025031314355132601",
+        "https://labor21.kr/2025/07/16.php"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening": {
+    "A189": {
+      "observations": 10,
+      "recommended": 0,
+      "held": 10,
+      "queries": [
+        "\"스카이림\" \"드디어 깨어\" 패러디",
+        "\"노리아키\" \"패러디\"",
+        "\"깨어나세요 용사여\" 광고",
+        "\"나는 예쁘지 않습니다\" 패러디",
+        "\"Pink Elephants on Parade\" 한국 패러디",
+        "\"The one piece is real\" 한국 밈",
+        "\"누나 좋아해요\" \"패러디\"",
+        "\"독일초딩\" \"패러디\"",
+        "\"물음표 드립\" -site:namu.moe -site:seore.org",
+        "\"택배 드립\" -site:namu.moe -site:seore.org"
+      ],
+      "note": "10priorheldrows,notnewdiscovery.2attempts1article1rewrittensummary. No sourcecandidatechanges."
+    },
+    "B674": {
+      "observations": 12,
+      "conditional": 1,
+      "existing_family": 9,
+      "held": 2,
+      "queries": [
+        "2026 광고 \"패러디\" \"유행어\" -그랑죠 -사딸라 -샤갈",
+        "2026 \"밈\" \"따라 했다\" 예능",
+        "2026 \"패러디한\" \"대사\" 광고 -그랑죠",
+        "2026 \"패러디\" \"광고\" \"문화\" -이수지 -장혁 -그랑죠 -장카설유 -박성웅",
+        "2026 \"유행어\" \"따라하는\" -김동현 -허경환 -샤갈",
+        "2026 \"패러디\" \"문구\" \"대학교\"",
+        "2026 \"유행어\" \"재현\" 광고 -허경환 -장혁 -그랑죠"
+      ],
+      "note": "옛소주광고재현conditional onecampaign3films;media0. Esquirebody/summaryboundaryunclearnotpublicationevidence."
+    },
+    "C196": {
+      "observations": 12,
+      "recommended": 0,
+      "existing": 9,
+      "held": 3,
+      "queries": [
+        "site.gogumafarm.kr \"2026\" \"밈\" \"7월\"",
+        "site.maily.so \"2026\" \"밈\" \"말투\" \"8월\"",
+        "site:gogumafarm.kr \"밈\" \"2026.08\"",
+        "site:hsad.tistory.com \"2026\" \"밈\" \"9월\"",
+        "\"Changing the Question\" 밈 한국",
+        "\"일하기 전 제 모습이고요\" 밈",
+        "\"질문 바꾸기\" \"밈\" -site:instablank.com -site:jjalbang.today",
+        "\"부모님\" \"내 나이\" \"챌린지\" 2026",
+        "\"색소폰\" \"밈\" 2026 -site:instablank.com -site:jjalbang.today",
+        "\"질문\" \"바꾸는\" \"밈\" \"2026\" -site:instablank.com -site:jjalbang.today",
+        "\"배경 트랜지션\" 릴스 -site:instablank.com -site:jjalbang.today",
+        "\"Changing the Question\" \"한국\" -site:instablank.com -site:jjalbang.today"
+      ],
+      "note": "3externaltext2existingbodyreads,media0.first2site.typospreserved;someobservationssearchonly;sharedproductionsnotindependent."
+    },
+    "CO534": {
+      "observations": 10,
+      "queries": [
+        "2026 \"신조어\" \"뇌\" -site:namu.wiki -site:instablank.com",
+        "2026 \"밈\" \"도파민\" \"댓글\" -site:namu.wiki",
+        "\"뇌빼드\" -site:sinjoeo.kr -site:az.save-money.co.kr",
+        "\"뇌빼드\" \"봤\"",
+        "2026 \"신조어\" \"방송\" -site:namu.wiki -site:sinjoeo.kr -site:instablank.com -뇌빼드",
+        "2026 \"신조어\" \"취미\" -site:namu.wiki -site:sinjoeo.kr -site:instablank.com -혼놀",
+        "\"숏셜링\" 2026 -site:kaehaelab.com -site:sinjoeo.kr",
+        "\"극캉스\" 2026 -site:find-word.co.kr -site:namu.wiki",
+        "\"젬민이\" 2026 기사",
+        "2026 \"신조어\" \"덕후\" -site:namu.wiki -site:sinjoeo.kr -site:instablank.com",
+        "2026 \"신조어\" \"직장인\" -site:namu.wiki -site:sinjoeo.kr -site:instablank.com",
+        "\"헛차\" \"연차\" 2026",
+        "\"고진감래\" \"고용해\" -site:ent.sbs.co.kr",
+        "\"수시오패스\" 기사",
+        "\"헛차\" \"헛된\" -site:sinjoeo.kr -site:namu.wiki",
+        "\"수시오패스\" -site:namu.wiki -site:sinjoeo.kr",
+        "\"위스치개\" 뜻 -site:sinjoeo.kr"
+      ],
+      "note": "동엽이/무지컬 existing title lookup;뇌빼드 primary newspaperAMP failed, furtherresearchpending. MT2023andJoy2026 direct editorial use verified;Dailianrewrittensummarynotadopted;Hankook,KhanAMP,Radiokoreafailed. 숏셜링 definition+institutiondirectyear2026;oneoffvs4meetingsdifferenceexplicit;젬민이existing;극캉스heldnoresults. Additional4observations 고진감래recommended;헛차/수시오패스definitiononlyheld;위스치개undefinedmentionheld. Seoulactualinput2022-12-28notURL12-29. 수시오패스 Starnews2025-03-13actualcomedyuse recovered plusMOELdefinition;bothoutsideyear,imaginedexamplesnotactual.",
+      "existing": 3,
+      "held": 3,
+      "recommended": 4
+    },
+    "A190": {
+      "observations": 10,
+      "recommended": 0,
+      "held": 10,
+      "queries": [
+        "\"북경 정씨\" 패러디 -site:namu.moe -site:seore.org",
+        "\"브레드 이발소\" 밈 패러디",
+        "\"삐뽀핑\" 패러디",
+        "\"사고 쳤을 때\" \"입 다물고\"",
+        "\"사정없이 보내버리겠다\" -site:namu.moe -site:seore.org",
+        "\"소련 국가\" \"패러디\" 한국",
+        "\"아로나 댄스\" 제작",
+        "\"안전가족\" \"패러디\"",
+        "\"야후 꾸러기\" \"패러디\"",
+        "\"오 샹젤리제\" \"밈\""
+      ],
+      "note": "10priorrows no newdiscovery;4URL1linktree3failures;media0."
+    },
+    "B675": {
+      "observations": 14,
+      "recommended": 0,
+      "existing_family": 8,
+      "held": 6,
+      "queries": [
+        "2026 \"밈\" \"패러디\" \"지역\" -그랑죠 -야호 -충주 -니가좋아",
+        "2026 \"유행어\" \"문구\" \"패러디\" -광고 -그랑죠 -샤갈",
+        "2026 \"밈\" \"따라하는\" \"말투\" -허경환 -김동현",
+        "2026 \"패러디\" \"대사\" \"박물관\"",
+        "2026 \"패러디\" \"재현\" \"유행어\" -허경환 -김동현 -장혁 -그랑죠 -신돈 -띠드버거"
+      ],
+      "note": "3textreads;alttext not imageverification. Australianuse not Koreanuse. news1reprint/ibossreprint notindependent. media0."
+    },
+    "C197": {
+      "observations": 10,
+      "recommended": 2,
+      "conditional": 1,
+      "existing": 2,
+      "held": 5,
+      "queries": [
+        "site:univ20.com \"2026\" \"밈\" \"댓글\"",
+        "site:careet.net \"2026\" \"밈\" \"11월\"",
+        "site:maily.so/marsinmarine \"2026\" \"말투\"",
+        "\"난 이렇게 살아왔는데\" 패러디",
+        "\"얼죽놀\" 2026",
+        "\"혼놀\" \"2026\" 제목",
+        "\"암사자는\" \"신경 쓰지\" 한국 밈",
+        "\"난 이렇게 살아왔는데\" -site:careet.net -site:teapawt.org -site:namu.wiki -site:namu.moe",
+        "\"얼죽놀\" -site:careet.net -site:namu.wiki",
+        "\"혼놀\" \"2026\" \"혼자 놀기\" -site:careet.net -site:ndex.kr"
+      ],
+      "note": "6externalpublictexts2failures2bodyreads,media0. YBS2025-10-24 outsideyear;혼놀Segyeactual2026-09-15notURL09-11;foreignexamplesnotKoreanuse."
+    },
+    "B676": {
+      "observations": 11,
+      "recommended": 0,
+      "existing_family": 8,
+      "held": 2,
+      "out_of_scope": 1,
+      "queries": [
+        "2026 \"밈\" \"유행어\" \"말\" -site:namu.moe -site:namu.wiki -site:trendage.kr -샤갈 -거제 -김동현",
+        "2026 \"패러디했다\" \"대사\" -장혁 -그랑죠 -소주 -이수지",
+        "2026 \"밈\" \"댓글\" \"말투\" -GPT -허경환 -김동현",
+        "2026 \"패러디\" \"대사\" site:enews.imbc.com -장혁 -그랑죠 -김동현",
+        "2026 \"유행어\" site:khan.co.kr -샤갈 -허경환 -김동현 -영크크",
+        "\"왜앵\" \"키약\" 패러디",
+        "\"한 판 쉴래\" \"남들은 안 쉬어\" 2026",
+        "2026 \"대사\" \"패러디\" \"박명수\""
+      ],
+      "note": "ADIC sameHSADgroup;ET2026-10-19reports10-18broadcast.2textsmedia0."
+    },
+    "A191": {
+      "observations": 10,
+      "recommended": 0,
+      "held": 10,
+      "queries": [
+        "\"64 bits\" \"32 bits\" \"밈\" 한국",
+        "\"street photographer\" \"밈\" 한국",
+        "\"FBI OPEN UP\" \"한국\" 패러디",
+        "\"가능성의 짐승\" \"패러디\"",
+        "\"그건 원작을 경험해\" -site:namu.moe -site:seore.org",
+        "\"나는 애쉬\" 패러디 -site:namu.moe",
+        "\"너 개못하잖아\" 뉴스",
+        "\"늬픽\" 유래 -site:namu.moe -site:seore.org",
+        "\"대기업에 입사한 아들의 깨달음\" -site:namu.moe -site:seore.org",
+        "\"더 마스터를 기억해줘\" -site:namu.moe -site:seore.org"
+      ],
+      "sources": [
+        "https://gall.dcinside.com/mgallery/board/view/?id=persona5&no=483868&page=1",
+        "https://gall.dcinside.com/mgallery/board/view/?id=blackcombat&no=442275&page=1",
+        "https://gall.dcinside.com/mgallery/board/view/?id=speakers&no=463054"
+      ],
+      "note": "10priorrows;2directtextuses recovered but format/meaninginsufficient. 0236searchtextnotfoundinbody.3readsmedia0."
+    },
+    "A192": {
+      "observations": 10,
+      "recommended": 0,
+      "held": 10,
+      "queries": [
+        "\"동현이의 퍼니박스\" 패러디 -site:namu.moe -site:seore.org",
+        "\"롯데햄 후라이드 치킨\" 밈 -site:namu.moe -site:seore.org",
+        "\"닥터 막심\" 패러디 -site:namu.moe -site:seore.org",
+        "\"물음표 드립\" \"???\" -site:namu.moe -site:seore.org -site:readonly.wiki -site:tcatmon.com",
+        "\"미안송\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"미야\" \"밈\" 제작 -site:namu.moe -site:seore.org",
+        "\"맛나핑\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"바바바바바바\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"봇이지 뭐\" -site:namu.moe -site:seore.org",
+        "\"불티\" \"밈\" \"합성\" -site:namu.moe -site:seore.org"
+      ],
+      "note": "10priorrows,2textsmedia0;adretrospective/characterrelaunch notdistinctmemeuse. Risk0455notpursued."
+    },
+    "C198": {
+      "observations": 12,
+      "recommended": 0,
+      "conditional_recheck": 1,
+      "existing": 7,
+      "held": 4,
+      "queries": [
+        "\"얼죽놀\" 겨울 -site:yugacrew.com",
+        "site:careet.net/Newsletter/Detail \"2026\" \"말투\" \"밈\"",
+        "site:maily.so \"2026\" \"신조어\" \"댓글\"",
+        "\"얼죽놀\" \"축제\"",
+        "\"2026\" \"밈\" site:ditoday.com",
+        "\"2026\" \"밈\" site:the-pr.co.kr",
+        "\"2026\" \"밈\" site:news.hidoc.co.kr",
+        "\"상의 하의\" \"패러디\" 설운도",
+        "\"토마호크\" \"김경호\" \"패러디\"",
+        "\"얼죽놀\" -site:careet.net -site:yugacrew.com"
+      ],
+      "sources": [
+        "https://news.mtn.co.kr/news-detail/2025111111322192682",
+        "https://maily.so/munhwa.cvs/posts/wdr948pgzlx",
+        "https://ditoday.com/광고를-콘텐츠-g마켓-g락페의-조회수-5억뷰-비결/"
+      ],
+      "note": "Priorheld상의하의source recovery notnewdiscovery,onecampaign3documents,originalsongtitleinconsistent.5texts1listing1bodymedia0."
+    },
+    "B677": {
+      "observations": 12,
+      "conditional": 1,
+      "existing": 7,
+      "held": 4,
+      "queries": [
+        "2026 \"신조어\" \"요즘\" 문화 -site:namu.moe -site:instablank.com -site:jjalbang.today -site:sinjoeo.kr -샤갈 -혼놀 -독파민",
+        "2026 \"신조어\" \"부르는\" -site:namu.moe -site:instablank.com -스몸비 -독파민 -벽돌책",
+        "2026 신조어 site:hani.co.kr",
+        "2026 신조어 site:khan.co.kr -허경환 -샤갈 -김동현",
+        "2026 신조어 site:donga.com -샤갈 -영크크",
+        "\"삼전닉스\" \"신조어\" 2026 -NYT -뉴욕타임스",
+        "\"실리콘 칼라\" 2026 -NYT -뉴욕타임스"
+      ],
+      "sources": [
+        "https://sports.khan.co.kr/article/202602021404003"
+      ],
+      "note": "감다뒤긍정singlefictionalskitconditional derivativenotnewmeaning;3textsmedia0;multipleNYTreportsoneorigin."
+    },
+    "A193": {
+      "observations": 10,
+      "conditional": 1,
+      "held": 9,
+      "queries": [
+        "\"11미터 모형탑\" \"패러디\"",
+        "\"1초만에 사람을 낚는 방법\" -site:namu.moe -site:seore.org",
+        "\"스너고\" -site:namu.moe -site:seore.org",
+        "\"얼리 엑세스 예시를 보여줌\" -site:namu.moe -site:seore.org",
+        "\"PAC-MAN ghost dance\" 한국",
+        "\"S stands for\" 한국 패러디",
+        "\"거룡을 상대한 건\" -site:namu.moe -site:seore.org",
+        "\"곤룡포좌\" 인터뷰",
+        "\"공항도둑\" 뉴스 -site:namu.moe",
+        "\"사이버펑크\" \"밈\" \"버그\" 뉴스"
+      ],
+      "note": "10priorrows;SBS2texts samepublisher;JTBCNateAIboundarynotused;0208nicknameonlyconditional;media0."
+    },
+    "C199": {
+      "observations": 16,
+      "recommended": 0,
+      "conditional": 2,
+      "existing_family": 4,
+      "held": 10,
+      "queries": [
+        "site.careet.net 2026 밈",
+        "site.gogumafarm.kr 2026 밈 11월",
+        "site.maily.so 2026 \"밈\" \"10월\"",
+        "\"밈\" \"2026\" site:news.kmib.co.kr \"말\"",
+        "\"밈\" \"2026\" site:magazine.hankyung.com \"유행\"",
+        "\"밈\" \"2026\" site:univ20.com \"댓글\"",
+        "\"짤방\" \"K-주식 세계\"",
+        "\"밈\" \"2026\" site:news.kbs.co.kr \"패러디\"",
+        "\"밈\" \"2026\" site:dgupress.com",
+        "\"껄무새\" \"2026\" -site:magazine.hankyung.com -site:seenthis.kr",
+        "\"다이아몬드 핸즈\" \"뜻\" 한국"
+      ],
+      "note": "AlreadyusedHankyungsource actual2026-08-09notURL08-03;2external5bodyreadsmedia0.껄무새samefamily;appupdatedatenotfirst."
+    },
+    "B678": {
+      "observations": 5,
+      "recovered_recommendation": 1,
+      "existing": 4,
+      "queries": [
+        "\"감다뒤\" \"감사합니다\" -효연 -키키 -나무위키",
+        "\"감다뒤\" \"뒤에서 응원\" -효연 -키키",
+        "\"감다뒤\" \"다행입니다\" 2026 -효연 -키키",
+        "2026 \"꾸안꾸\" \"꾸꾸꾸\" 신조어 기사",
+        "2026 \"얼죽아\" \"얼죽코\" 기사"
+      ],
+      "note": "Priorconditionalrecoverynotnewdiscovery;DCactualtext1/orbiBehance403;separatepostnotverifiedindependentauthor;media0."
+    }
+  },
+  "query_increment": 142,
+  "query_observations": 14910,
+  "distinct_literal_queries": 12225,
+  "preaudit": {
+    "status": "PASS",
+    "required": 0,
+    "notes": [
+      "All9 definitions independently audited.",
+      "Singlecampaign cases/fictional skit/text use/source publication groups separated.",
+      "Historical phrases need not prove recentyear spread; dates explicit."
+    ]
+  },
+  "limits": [
+    "Old1977bodies/1091source/tests unchanged;coverage0208unclear→partial and0229source metadata only.",
+    "Usage74/reviewed73 unchanged;main/protectedbodies unchanged.",
+    "Queryrows and observations notunique memes;priorheldrechecks separated.",
+    "Originalimages/videos0;eventannouncementnotcompletion;institutionaldefinitionnotclinicalclaim.",
+    "NewSHA CIpending;previous1977success65/65Python497. No localPythonrun."
+  ]
+}
