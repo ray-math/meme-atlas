@@ -270,8 +270,8 @@
     "reports/bulk/connector-resume-wave30-445.json",
     "reports/bulk/connector-resume-wave30-446.json"
   ],
-  "query_observations": 9562,
-  "distinct_literal_queries": 8090,
+  "query_observations": 9622,
+  "distinct_literal_queries": 8131,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -48284,6 +48284,306 @@
       "query": "\"2026\" \"이민정\" \"갸루\" \"유튜브\"",
       "source": "reports/bulk/connector-resume-wave30-480.json",
       "status": "screened-see-report"
+    },
+    {
+      "query": "\"빠순이\" 어원 비하 팬덤",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빵셔틀\" 은어 뜻",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뼈 맞았어\" 유행어",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뽐거지\" 뜻",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"브베\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"비밀친구 드립\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빅 나티를 변기에 넣고서 내려\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빈라덴송\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빌리 헤링턴\" 합성",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빨강 사기맵\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빵뚜아 이낫\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삐뽀핑\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"벽돌할아버지\" 로봇댄스",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사고 쳤을 때\" \"입 다물고\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사랑의 열매\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사이버펑크\" \"밈\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사정없이 보내버리겠다\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삼일절 사이버 전쟁\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삼일한\" 비하",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤방송\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뼈 맞았어\" \"팩트\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"빨강 사기맵\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"벽돌 할아버지\" \"춤\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤방송\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언캐니\" \"밈\" 뜻",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"mmmm cow\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Pray For Paris\" \"해시태그\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개꿀잼몰카\" \"뜻\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Mr Incredible\" \"밈\" 뜻 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Terrified Noot Noot\" 뜻",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"S stands for\" 밈 뜻",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개꿀잼몰카\" 유래",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"NTR\" \"뜻\" \"신문\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Remove Kebab\" 한국 기사",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포병지\" \"뜻\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가재 가재 바닷가재\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가수\" \"일론 머스크\" 딥페이크",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"맨까\" \"부들부들\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가능성의\" \"밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Zyzz\" \"밈\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"PAC-MAN ghost dance\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Pink Elephants on Parade\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Sims cat breaking\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"The one piece is real\" 밈 뜻",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Why so serious\" \"패러디\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"X키를 눌러\" \"조의\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가수 일론머스크\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인크레더블\" \"언캐니\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "NTR 뜻 네토라레 언론",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"포병지\" 김병지 감스트 기사",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"일론 머스크\" \"합성\" \"노래\" 2021",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"언캐니 밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"공유\" site:it.chosun.com",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"챌린지\" \"사진\" site:marieclairekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"놀이\" \"유행\" site:univ20.com/Magazine",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"10월\" site:news.nate.com",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" site:news.nate.com",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"릴스\" \"놀이\" site:univ20.com",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"현빈\" \"손하트\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"V stepped into the crowd\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-481.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [
@@ -48298,5 +48598,5 @@
   ],
   "note": "명시 문자열 대조 기록이며 고유 밈 수나 검증 완료 수가 아님.",
   "metric_note": "저장된 명시 대조 문자열의 관측 횟수/문자열 종류. 검색창 질의와 인덱스 대조 표현이 섞여 있으며 검증 밈 수나 전체 연구량을 뜻하지 않음.",
-  "distinct_query_strings": 8090
+  "distinct_query_strings": 8131
 }
