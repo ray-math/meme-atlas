@@ -270,8 +270,8 @@
     "reports/bulk/connector-resume-wave30-445.json",
     "reports/bulk/connector-resume-wave30-446.json"
   ],
-  "query_observations": 12143,
-  "distinct_literal_queries": 9978,
+  "query_observations": 12222,
+  "distinct_literal_queries": 10034,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -61189,6 +61189,401 @@
       "query": "\"오로나민C\" \"질투의 화신\" \"2016\" -site:namu.moe -site:seore.org",
       "source": "reports/bulk/connector-resume-wave30-504.json",
       "status": "screened-see-report"
+    },
+    {
+      "query": "\"사랑의 열매\" \"밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사이버펑크\" \"패러디\" 광고 제작",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사정없이 보내버리겠다\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"샤방송\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"섊\" 유행어 기사",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"섣불리 판단하면 안되는 이유\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"세뇌교육\" 밈 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소련국가\" 패러디 한국",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"수박도\" 드립 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스너고\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"씽씽이\" 광고 패러디",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아나바다\" 밈 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아니다 이 악마야\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아로나 댄스\" 제작 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아이 러브 마이 화자 마자 브라자\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안전가족\" 패러디 제작",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"애는 있습니다\" 패러디 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"야후 꾸러기\" 밈 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"약한 사내다\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"얼리 엑세스 예시를 보여줌\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"섊\" \"인터넷\" -site:namu.moe -site:seore.org -site:wiktionary.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"섊\" \"한 글자\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"패러디\" \"만들었다\" \"브랜드\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"재현\" \"지역\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"챌린지\" \"직접 제작\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 패러디 광고 대사 재현 site:apnews.kr",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 밈 제작 패러디 site:newsis.com",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"차인표\" \"분노의 양치질\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"도준아\" \"또 주나\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"광고\" \"패러디\" \"미녀는\" -\"석류\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"광고\" \"패러디\" \"사랑해요\" \"2010\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"드라마\" \"패러디\" \"꼬라지\" 광고",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"광고\" \"패러디\" \"너나 잘하세요\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"되고송\" \"패러디\" \"2008\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엑스캔버스하다\" \"주인장\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"당신의 H는\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꼬라지하고는\" \"패러디\" 광고",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄마도 사람이야 사람\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오 샹젤리제\" 밈 패러디 한국",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오타쿠가 정치글을\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오 필승 코리아\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"옴마니반메훔\" 패러디 광고",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"와퍼\" \"밈\" 한국 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"왕사슴 가이즈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"왕이되는자\" 패러디 광고",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요 요요\" 밈 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"우연히\" \"밈\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"육군 we 육군\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"의학적인 근거가 없습니다\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"의문의\" \"행\" 드립 뜻 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이봐요 미친놈씨\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이세계물\" 드립 광고 제작",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이쿠요\" 춤 패러디",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인문학적 변태\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"일본 대단해\" 칠레 택시 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아자핑\" \"하츄핑\" 밈 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자러감\" 드립 -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"패러디\" \"재현\" \"광고\" -site:apnews.kr -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"직접 만든\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"패러디\" \"도서관\" \"제작\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"패러디\" \"미세스 문\" 광고",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"패러디\" \"안해봤으면\" 광고",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"패러디\" \"김기사\" \"운전해\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"패러디\" \"꼬라지하고는\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"미세스 문\" \"패러디\" \"김신영\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안 해봤으면\" \"패러디\" \"광고\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꼬라지 하고는\" \"패러디\" \"2007\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"밥상\" \"황정민\" \"패러디\" \"광고\"",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "황정민 밥상 수상소감 광고 SK 2006",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "장미희 미세스문 패러디 김신영 김미려",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마빡이 패러디 UCC 다음 광고 2006",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"초코빅송\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"평온차\" 뜻",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"지이잉\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"할 말이 없네\" 대신 \"한글자\" 드립",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"킹 오브 프리즘\" \"패러디\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한글자 드립\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"케경호\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"평온차\" \"패러디\" 제작",
+      "source": "reports/bulk/connector-resume-wave30-505.json",
+      "status": "screened-see-report"
     }
   ],
   "semantic_duplicates": [
@@ -61203,5 +61598,5 @@
   ],
   "note": "명시 문자열 대조 기록이며 고유 밈 수나 검증 완료 수가 아님.",
   "metric_note": "저장된 명시 대조 문자열의 관측 횟수/문자열 종류. 검색창 질의와 인덱스 대조 표현이 섞여 있으며 검증 밈 수나 전체 연구량을 뜻하지 않음.",
-  "distinct_query_strings": 9978
+  "distinct_query_strings": 10034
 }
