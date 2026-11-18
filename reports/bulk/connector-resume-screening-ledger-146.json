@@ -62,10 +62,11 @@
     "reports/bulk/connector-resume-screening209.json",
     "reports/bulk/connector-resume-screening210.json",
     "reports/bulk/connector-resume-audit211.json",
-    "reports/bulk/connector-resume-screening212.json"
+    "reports/bulk/connector-resume-screening212.json",
+    "reports/bulk/connector-resume-audit-holds213.json"
   ],
-  "query_observations": 984,
-  "distinct_literal_queries": 800,
+  "query_observations": 986,
+  "distinct_literal_queries": 802,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -5187,6 +5188,16 @@
     {
       "query": "흑곰",
       "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이긴자로",
+      "source": "reports/bulk/connector-resume-audit-holds213.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마운자로",
+      "source": "reports/bulk/connector-resume-audit-holds213.json",
       "status": "screened-see-report"
     }
   ],

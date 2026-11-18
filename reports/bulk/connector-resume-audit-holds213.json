@@ -1,0 +1,37 @@
+{
+  "fixed_sha": "e8658ddad6de4ee2e65a359f29c48f1dd0b08b64",
+  "canonical_count": 898,
+  "normalized_cross_id_collisions": [],
+  "usage_coverage": {
+    "dictionary_entries": 898,
+    "annotated_entries": 74,
+    "reviewed_entries": 73,
+    "unannotated_entries": 824
+  },
+  "fixture_dictionary_entries": 898,
+  "limits": [
+    "JS structural check, not CI",
+    "No semantic duplicates guaranteed by normalization alone"
+  ],
+  "queries": [
+    "이긴자로",
+    "마운자로"
+  ],
+  "candidate": {
+    "name": "이긴자로",
+    "decision": "hold-context-risk-not-lack-of-existence",
+    "worker_sources": [
+      "https://enews.imbc.com/News/RetrieveNewsInfo/517780",
+      "https://www.newsen.com/news_view.php?code=100100&uid=202609201908516110",
+      "https://sports.khan.co.kr/article/202609101643003",
+      "https://faq.donga.com/NEWS/article/all/20260313/133525090/2"
+    ],
+    "evidence": "Worker read two separate broadcast usages reported and separate editorial title use. Editor has not reread these articles; videos not viewed.",
+    "limits": [
+      "No independent nonmedical meaning recovered",
+      "No treatment efficacy, dosage, weight or personal medication assertions imported",
+      "No first-coinage attribution; earlier March mention exists"
+    ],
+    "added": 0
+  }
+}
