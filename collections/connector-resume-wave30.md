@@ -147,3 +147,5 @@
 - [그거 먹는 건가요](../memes/is-that-something-to-eat.md)
 
 - [다시는 한국을 무시하지 마라](../memes/never-ignore-korea.md)
+
+- [어 맞아맞아 놀랍지만 그건 사실이야](../memes/yes-surprisingly-true.md)

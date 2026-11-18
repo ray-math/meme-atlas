@@ -579,6 +579,7 @@
 - [야름답다](yareumdapda.md)
 - [야민정음](yamin-jeongeum.md)
 - [야푸](yapu.md)
+- [어 맞아맞아 놀랍지만 그건 사실이야](yes-surprisingly-true.md)
 - [어느새부터 ○○는 안 멋져](not-cool-anymore-template.md)
 - [어덕행덕](eodeokhaengdeok.md)
 - [어떻게 지평좌표계로 고정을 하셨죠?](horizontal-coordinates-ghost.md)

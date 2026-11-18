@@ -156,10 +156,11 @@
     "reports/bulk/connector-resume-wave30-324.json",
     "reports/bulk/connector-resume-wave30-325.json",
     "reports/bulk/connector-resume-wave30-326.json",
-    "reports/bulk/connector-resume-wave30-327.json"
+    "reports/bulk/connector-resume-wave30-327.json",
+    "reports/bulk/connector-resume-wave30-328.json"
   ],
-  "query_observations": 3344,
-  "distinct_literal_queries": 2820,
+  "query_observations": 3389,
+  "distinct_literal_queries": 2863,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -17081,6 +17082,231 @@
     {
       "query": "덤덤|Dumb|골든|Golden|낌|능지|잼민|초글링",
       "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"불심으로 대동단결\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"불티\" 챌린지 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"불협화음\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"블랙워그레이몬\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사랑했나봐\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삼도수군통제사\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삼성걸\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"신돈\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"실패작 소녀\" 챌린지 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아이 러브 마이 화자 마자 브라자\"",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"신돈\" \"웃음\" 패러디 광고",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"불심으로 대동단결\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"불티\" \"밈\" 전영록",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"사랑했나봐\" \"챌린지\" 윤도현",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이찬혁 불협화음 어느새부터 힙합은 안 멋져 2021",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다 부질없는 개뻘짓이다\" \"길드\"",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다 부질없는 개뻘짓이다\" \"주식\"",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"귀여운 건 나도 알아\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그건 니가\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그러면 죽어요\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그래 열심히 하자\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그런 거 없다\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그치만\" \"드립\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"근데 어쩔건데\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"꾸래핑\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나노머신 썬\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나는 개인이오\"",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아나바다\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아라아라\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아주라\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아재\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안전가족\" 패러디 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"알파메일\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"애기공룡 둘리\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아냐\" \"표정\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어 맞아맞아 놀랍지만 그건 사실이야\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"ㅗㅜㅑ\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"애기공룡 둘리\" 패러디 -site:namu.moe -site:novawiki.app -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아냐 포저\" \"표정\" 패러디 2026",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"놀랍지만 그건 사실이야\" \"2026\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어 맞아맞아\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "맞아맞아",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "놀랍지만",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사실이야",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "형이야",
+      "source": "reports/bulk/connector-resume-wave30-328.json",
       "status": "screened-see-report"
     }
   ],
