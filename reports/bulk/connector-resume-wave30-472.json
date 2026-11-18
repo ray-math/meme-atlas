@@ -1,0 +1,399 @@
+{
+  "batch": 472,
+  "base": "0e7b2a74b5893549058bbad4da85cbbeff7abf29",
+  "canonical_before": 1349,
+  "canonical_after": 1364,
+  "added": [
+    "pizza-tower-screaming-parody",
+    "sacabambaspis-face-parody",
+    "samsung-sam-character-fan-parody",
+    "laughter-fandom-initial-insertion",
+    "runaway-no-button-confession-page",
+    "soundgo-hand-motion-performance-sharing",
+    "hatsan-fan-translation-nickname",
+    "seolgeoji-misogynistic-marriage-metaphor",
+    "sensong-nationality-derogatory-apology",
+    "seonggoe-appearance-derogatory-label",
+    "kiss-n-tell-ending-reaction-edit",
+    "frozen-jelly-sound-comparison",
+    "horizon-lock-mirror-challenge",
+    "earbuds-decoration-sharing",
+    "creepy-receipt-rule-roleplay"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-1084",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "pizza-tower-screaming-parody"
+    },
+    {
+      "id": "kr-list-0601",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "sacabambaspis-face-parody"
+    },
+    {
+      "id": "kr-list-0608",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "samsung-sam-character-fan-parody"
+    },
+    {
+      "id": "kr-list-1107",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "hatsan-fan-translation-nickname"
+    },
+    {
+      "id": "kr-list-0622",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "seolgeoji-misogynistic-marriage-metaphor"
+    },
+    {
+      "id": "kr-list-0631",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "sensong-nationality-derogatory-apology"
+    },
+    {
+      "id": "kr-list-0624",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "seonggoe-appearance-derogatory-label"
+    }
+  ],
+  "previous_ci": {
+    "run": 44298605878,
+    "job": 134782067886,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 102.036s"
+  },
+  "previous_audit": {
+    "batch": 471,
+    "sha": "0e7b2a74b5893549058bbad4da85cbbeff7abf29",
+    "result": "PASS",
+    "mandatory_fixes": 0,
+    "canonical": 1349,
+    "added": 12,
+    "enrichments": 2,
+    "changed_files": 23,
+    "old_records_preserved": 1337,
+    "mapping_loss": 0,
+    "unique_source_urls_read": 21,
+    "media": 0
+  },
+  "research": {
+    "A": {
+      "count": 19,
+      "existing": 11,
+      "recommended": 1,
+      "held": 7,
+      "queries": [
+        "\"폴란드볼\" 패러디",
+        "\"프로게이머 피지컬\" 밈",
+        "\"피에로 드립\"",
+        "\"하루만 기다리면\" \"나와요\"",
+        "\"피자타워\" \"밈\"",
+        "\"프라이데이 나이트 펑킨\" \"패러디\"",
+        "\"피자타워 스크리밍\" \"트렌드어워드\"",
+        "\"피에로 드립\" 뜻",
+        "\"풀발\" \"신조어\""
+      ],
+      "notes": [
+        "A22actual1075–1094except1085;1084partialrecommendation;1083/1087heldsaferangeinadequate.",
+        "1062priorcorrectionalready471,notnewmapping."
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "existing": 11,
+      "partial_existing": 1,
+      "recommended": 1,
+      "held": 6,
+      "repeat": 1,
+      "queries": [
+        "\"한글 써지지 않다\"",
+        "\"한글자 드립\"",
+        "\"할 말이 없네\" 밈",
+        "\"핫산\" \"번역\" 유래",
+        "\"해명이\" \"밈\"",
+        "\"해병문학\" \"패러디\"",
+        "\"핫산\" \"한글패치\" -site:namu.moe -site:seore.org",
+        "\"해명이\" 유래",
+        "\"한글자 드립\" 뜻"
+      ],
+      "notes": [
+        "A23actual1095–1114;1110repeat0347 already known,notnew.",
+        "1105noexplicitcontentsearch;1107translationnicknameonly,originclaimsnotadopted."
+      ]
+    },
+    "B": {
+      "count": 20,
+      "existing": 14,
+      "family": 3,
+      "held": 3,
+      "queries": [
+        "2026 \"밈\" \"챌린지\" site:allurekorea.com 사진",
+        "2026 \"밈\" \"놀이\" site:univ20.com",
+        "2026 \"밈\" \"따라\" site:news.nate.com \"사진\"",
+        "2026 \"밈\" \"졸꾸\"",
+        "2026 \"밈\" \"사진\" \"합성\" \"유행\" -site:namu.moe",
+        "2026 \"밈\" \"다꾸\""
+      ],
+      "notes": [
+        "B488newrecommendation0;4articlesdirectreadincludingHSADrepeat.",
+        "Medalshoechallengeheldinjury-ridiculecontext; noeventvictimdetails."
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended": 3,
+      "family": 3,
+      "held": 9,
+      "excluded": 5,
+      "queries": [
+        "2026 \"밈\" \"놀이\" site:newsis.com",
+        "2026 \"밈\" \"패러디\" site:news.kbs.co.kr",
+        "2026 \"밈\" \"인증\" site:khan.co.kr",
+        "2026 \"챌린지\" \"사진\" site:elle.co.kr",
+        "2026 \"밈\" site:esquirekorea.co.kr",
+        "2026 \"유행\" \"놀이\" site:careet.net"
+      ],
+      "notes": [
+        "B4893boundedformats,2publicsources; noimage/video/tooluse.",
+        "Date-resultpage is related notsameNO-button confirmation; websiteplay is notconsent.",
+        "KBSrobotsblocked, X403/IGthrottled notverifiedmedia."
+      ]
+    },
+    "B3": {
+      "count": 20,
+      "recommended": 4,
+      "existing": 4,
+      "family": 3,
+      "held": 7,
+      "excluded": 2,
+      "queries": [
+        "2026 \"놀이\" \"SNS\" \"유행\" site:univ20.com",
+        "2026 \"밈\" \"촬영\" site:cosmopolitan.co.kr",
+        "2026 \"챌린지\" \"꾸미기\" site:news.nate.com",
+        "2026 \"놀이\" \"유행\" \"젤리\"",
+        "2026 \"밈\" \"카꾸\"",
+        "2026 \"밈\" \"영수증\""
+      ],
+      "notes": [
+        "B4904boundedformats;3familyvariationsnotnew.",
+        "Creepyreceipt mistakenlycalledexistingNapolitanbeforeindexcheck; correctednewboundedformat.",
+        "Mechanicallymountedspinchallengeheldunsafe; fakefinancialreceiptexcluded."
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 4,
+      "partial_existing": 5,
+      "held": 9,
+      "queries": [
+        "\"사고 쳤을 때 입 다물고\" -site:namu.wiki -site:namu.moe",
+        "\"사랑의 열매\" \"밈\" -site:namu.wiki -site:namu.moe",
+        "\"사정없이 보내버리겠다\" 패러디",
+        "\"사카밤바스피스\" \"밈\"",
+        "\"사이버펑크\" \"밈\" 한국 -site:namu.wiki -site:namu.moe",
+        "\"사탄\" \"실직\" 밈",
+        "\"삼도수군통제사\" \"밈\" -site:namu.wiki -site:namu.moe",
+        "\"삼성걸\" \"팬아트\"",
+        "\"사카밤바스피스\" 제작 후기 -site:namu.wiki -site:namu.moe",
+        "\"샤방송\" 유행",
+        "\"섊\" 신조어 기사",
+        "\"삼성걸\" 캐릭터 패러디 한국",
+        "\"샤방송\" -site:namu.wiki -site:namu.moe",
+        "\"삼일절 사이버 전쟁\" 기사",
+        "\"삼일한\" 혐오표현 기사",
+        "\"사고 쳤을 때\" \"악화되지\""
+      ],
+      "notes": [
+        "C4actual0593–0618selected20rows;0601/0608partialrecommendationsforeignformatsKoreancoverage,notKoreanproductionverified.",
+        "2urls403excludedfromevidence; noimage/video."
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "existing": 5,
+      "partial_existing": 3,
+      "held": 12,
+      "queries": [
+        "\"서로 깨물었을 때 반응\" -site:namu.wiki -site:namu.moe",
+        "\"섣불리 판단하면 안되는 이유\" 밈",
+        "\"세뇌교육\" \"밈\" -site:namu.wiki -site:namu.moe",
+        "\"성윤모\" 패러디",
+        "\"성윤모\" \"패러디\" \"신병\"",
+        "\"설거지론\" 용어 비판",
+        "\"성괴\" 신조어 비판",
+        "\"세계 4대 16세\" -site:namu.wiki -site:namu.moe",
+        "\"성윤모\" \"유행\"",
+        "\"센송합니다\" 뜻",
+        "\"수박도\" \"드립\"",
+        "\"쇼트트랙\" \"편파판정\" \"패러디\"",
+        "성윤모 신병 흉내",
+        "쇼트트랙 판정 패러디 SNL 2022",
+        "세뇌교육 밈 영상 제작",
+        "수박도 박수 밈",
+        "성윤모 신병 성대모사 유행 기사",
+        "\"섣불리 판단하면\" 닛몰캐쉬 인터뷰",
+        "\"소련 국가\" 패러디 한국 광고",
+        "\"세뇌교육\" 유튜브 밈 해설"
+      ],
+      "notes": [
+        "C5actual0619–0641selected20; neutralcritical0622/0631/0624followupnotyetincluded.",
+        "Unsafeexplicitoriginalsnotopened; noimage/video; neutraltermcoveragecanbeseparatefromharmlessparody."
+      ]
+    },
+    "editor": {
+      "count": 10,
+      "queries": [
+        "2026 \"밈\" \"11월\" \"따라\" -site:namu.wiki -site:namu.moe",
+        "2026 \"밈\" \"새로운\" \"10월\" -site:namu.wiki -site:namu.moe",
+        "2026 \"11월\" \"밈\" \"새롭게\" -site:namu.wiki -site:namu.moe -site:instablank.com",
+        "2026 \"밈\" \"플래시\" \"유행\" -site:namu.wiki -site:namu.moe",
+        "2026 \"밈\" \"웃음\" \"유행\" -site:namu.wiki -site:namu.moe"
+      ],
+      "notes": [
+        "HSAD3798Nov6 directread my-emoji/neon-pair-challenge/under-arrest/forever-moment/take-the-l alreadyexisting; notnew.",
+        "HanSohee farming commercial excluded: singleadvert not demonstrated reusableformat.",
+        "Foodpopularity/sportschedule notcandidate facts adopted.",
+        "Reexamined0622/0631/0624criticaldefinitions; sameC5rowsnotuniquenew.",
+        "KISSNTELLKoreanartistforeignreuseKoreanreportonly; politicalclaimsnotadopted."
+      ],
+      "existing": 5,
+      "excluded": 1,
+      "recommended": 4
+    }
+  },
+  "sources": [
+    {
+      "id": "pizza-tower-screaming-parody",
+      "urls": [
+        "https://v.daum.net/v/Z7SxEp9ruD"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sacabambaspis-face-parody",
+      "urls": [
+        "https://whitefaceone.tistory.com/3403"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "samsung-sam-character-fan-parody",
+      "urls": [
+        "https://www.mk.co.kr/news/business/9902911",
+        "https://imnews.imbc.com/replay/2021/nwtoday/article/6278570_34943.html"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "laughter-fandom-initial-insertion",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail?id=3973&pageidx=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "runaway-no-button-confession-page",
+      "urls": [
+        "https://www.careet.net/1909"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "soundgo-hand-motion-performance-sharing",
+      "urls": [
+        "https://www.careet.net/1909"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hatsan-fan-translation-nickname",
+      "urls": [
+        "https://www.gamegeneration.or.kr/article/f28f1baa-8e3d-4bf2-af45-b1e8e98adbf4",
+        "https://gall.dcinside.com/mgallery/board/view/?id=rmbn&no=1952"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "seolgeoji-misogynistic-marriage-metaphor",
+      "urls": [
+        "https://www.hankookilbo.com/news/article/A2021102611400003375"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sensong-nationality-derogatory-apology",
+      "urls": [
+        "https://biz.heraldcorp.com/article/1755054"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "seonggoe-appearance-derogatory-label",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/1342"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kiss-n-tell-ending-reaction-edit",
+      "urls": [
+        "https://www.etoday.co.kr/news/view/2647492"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "frozen-jelly-sound-comparison",
+      "urls": [
+        "https://news.nate.com/view/20260216n02412",
+        "https://v.daum.net/v/QjXDllb0W4"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "horizon-lock-mirror-challenge",
+      "urls": [
+        "https://m.news.nate.com/view/20260324n11852"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "earbuds-decoration-sharing",
+      "urls": [
+        "https://m.news.nate.com/view/20260324n11852"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "creepy-receipt-rule-roleplay",
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1145829",
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01193926645518456"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "15newentries; historicaltermsandcurrentyearformatsseparate.",
+    "149researchobservations include editorrechecks; notunique discoveries.",
+    "0622/0624/0631editorpromotedneutralcriticaldictionaryexplanationsafterworkerheld; notharmlessparody.",
+    "GGdatepreservedas26.4.10ratherthanclaimfourdigityear; nooriginAIderivedclaims.",
+    "Careet1909publictextbeforemembershipwallonly;1909derivedsummaryacross2entriesunder200words.",
+    "No media/tool/camera execution; previousCI1349passed,currentpending."
+  ],
+  "query_observations": 8959,
+  "distinct_literal_queries": 7681,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
