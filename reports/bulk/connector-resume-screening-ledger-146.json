@@ -61,10 +61,11 @@
     "reports/bulk/connector-resume-holds208.json",
     "reports/bulk/connector-resume-screening209.json",
     "reports/bulk/connector-resume-screening210.json",
-    "reports/bulk/connector-resume-audit211.json"
+    "reports/bulk/connector-resume-audit211.json",
+    "reports/bulk/connector-resume-screening212.json"
   ],
-  "query_observations": 958,
-  "distinct_literal_queries": 780,
+  "query_observations": 984,
+  "distinct_literal_queries": 800,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -5056,6 +5057,136 @@
     {
       "query": "\"2026\" \"밈\" \"패러디\" site:20slab.org",
       "source": "reports/bulk/connector-resume-audit211.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "핵심을",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "매끈",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "간식을",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "에겐",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "귀하게",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "난리자베스",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "운동많이",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아자스",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갈테야",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "할렐야루",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갑차기",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "읽지않음",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사과받",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사과받고싶어요",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누가내간식",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "에겐테토",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "핑퐁",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "헤어질",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "결정장애",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하겠습니다",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포기하",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "안하겠",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "진행하",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사과",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누가돌아",
+      "source": "reports/bulk/connector-resume-screening212.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "흑곰",
+      "source": "reports/bulk/connector-resume-screening212.json",
       "status": "screened-see-report"
     }
   ],
