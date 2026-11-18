@@ -18,3 +18,9 @@ tags: []
 참여를 원하지 않는 사람에게 연기를 강요하거나 긴장한 반응을 조롱하지 않는다. 대사를 실제 발언처럼 잘라 전달하지 않는다.
 
 [추가 수록 목록](../collections/connector-resume-wave30.md)
+
+<!-- generated-backlinks:start -->
+## 이 항목을 언급한 밈
+
+- [가난하게 컸어?](did-you-grow-up-poor.md)
+<!-- generated-backlinks:end -->

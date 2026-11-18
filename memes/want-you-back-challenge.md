@@ -1,6 +1,6 @@
 ---
 aliases: ["I Want You Back 챌린지"]
-tags: ["음악","인터넷"]
+tags: ["음악"]
 ---
 
 # 원츄백 챌린지

@@ -1,0 +1,22 @@
+{
+  "batch": 294,
+  "canonical": 930,
+  "failed_run": 44224600980,
+  "failed_head": "77375df6626eb597bdf0c1b23202a863ed93dec3",
+  "python": "3.12.16",
+  "actual_command": "python scripts/check_dictionary.py",
+  "result": "failed",
+  "unit_tests": "skipped due previous failure",
+  "fix": {
+    "removed_unsupported_tag": "인터넷",
+    "affected_entries": 46,
+    "policy": "Preserve other reviewed tags; empty array rather than invent domain",
+    "generated_reverse_links": [
+      "same-line-acting-challenge <- did-you-grow-up-poor",
+      "wonyoung-thinking <- hangjun-thinking"
+    ],
+    "checks_not_weakened": true
+  },
+  "ci": "rerun pending new commit",
+  "candidate_semantic_review": "759 rows ongoing against frozen86c46; no candidate statuses rewritten"
+}
