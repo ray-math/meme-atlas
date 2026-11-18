@@ -1,0 +1,28 @@
+{
+  "queries": [
+    "\"소핔이가\" \"쪼아요\"",
+    "\"스피키\" \"쪼아요\" 소방관 2026"
+  ],
+  "candidate": "쪼아요 쪼아요",
+  "verified": [
+    "DC1180211 direct author text",
+    "Fomos1961967 rewritten summary, not second independent original",
+    "KHGAMES2995 press mirror text read"
+  ],
+  "status": "source strength review pending; not yet canonical",
+  "canonical_count": 898,
+  "added": 0,
+  "sources": [
+    "https://gall.dcinside.com/mgallery/board/view/?id=a778827&no=1180211",
+    "https://www.fomos.kr/broadcast/article_view?bbs_id=21&indexno=1961967&lurl=%2Fbroadcast%2Farticle_list%2F%3Fbbs_id%3D21%26page%3D1521",
+    "https://gall.dcinside.com/board/view/?id=khgames&no=2995"
+  ],
+  "inaccessible": "https://www.inven.co.kr/board/lostark/6271/3207735",
+  "limits": [
+    "Do not infer voice synthesis from voice reuse",
+    "Original video playback0",
+    "Fomos tool marked rewritten summary; not independently inspected creator upload",
+    "No fire safety details taken from parody",
+    "CI not run"
+  ]
+}

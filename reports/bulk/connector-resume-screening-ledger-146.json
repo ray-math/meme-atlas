@@ -56,10 +56,11 @@
     "reports/bulk/connector-resume-holds201.json",
     "reports/bulk/connector-resume-audit-screening202.json",
     "reports/bulk/connector-resume-holds203.json",
-    "reports/bulk/connector-resume-screening205.json"
+    "reports/bulk/connector-resume-screening205.json",
+    "reports/bulk/connector-resume-review207.json"
   ],
-  "query_observations": 900,
-  "distinct_literal_queries": 727,
+  "query_observations": 902,
+  "distinct_literal_queries": 729,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -4761,6 +4762,16 @@
     {
       "query": "\"로버트 패틴슨\" \"치이카와\"",
       "source": "reports/bulk/connector-resume-screening205.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"소핔이가\" \"쪼아요\"",
+      "source": "reports/bulk/connector-resume-review207.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스피키\" \"쪼아요\" 소방관 2026",
+      "source": "reports/bulk/connector-resume-review207.json",
       "status": "screened-see-report"
     }
   ],
