@@ -357,6 +357,7 @@
 - [만렙](manrep.md)
 - [만반잘부](manbanjalbu.md)
 - [많관부](mangwanbu.md)
+- [말 있죠?](mal-itjyo-drama-speech.md)
 - [맑은 눈의 광인](clear-eyed-eccentric.md)
 - [맛없없](mateopeop.md)
 - [맛있으면 0칼로리](delicious-zero-calories.md)

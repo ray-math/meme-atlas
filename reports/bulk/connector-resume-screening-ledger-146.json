@@ -184,10 +184,11 @@
     "reports/bulk/connector-resume-wave30-352.json",
     "reports/bulk/connector-resume-wave30-353.json",
     "reports/bulk/connector-resume-wave30-354.json",
-    "reports/bulk/connector-resume-wave30-355.json"
+    "reports/bulk/connector-resume-wave30-355.json",
+    "reports/bulk/connector-resume-wave30-356.json"
   ],
-  "query_observations": 4308,
-  "distinct_literal_queries": 3689,
+  "query_observations": 4346,
+  "distinct_literal_queries": 3727,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -21929,6 +21930,196 @@
     {
       "query": "한잔|한 잔|모히또|mojito",
       "source": "reports/bulk/connector-resume-wave30-355.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"말투\" -site:namu.wiki -site:instablank.com -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"문구\" \"사용했다\" -site:onmeme.com -site:mika.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"임성한 말투\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"말 있죠\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"임성한 말투\" -site:namu.wiki -site:namu.moe -site:youtube.com",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "말있 / 말 있 / 임성 / 엄은 / 도치법 / 피비",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "말 있|말있|임성한|엄은향",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"육군 we 육군\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"의문의\" \"행\" 밈 유래",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"무료로 해줍니다\" 밈 \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"듣도 보도 못한 발상이군\"",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인문학적 변태\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"육군 we 육군\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"의문의\" \"행\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"듣도 보도 못한 발상이군\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인문학적 변태\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"의문의 연애소설행\"",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"듣도 보도 못한 발상이군\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "미룬|미루",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "미안송|미안해|사과송",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "미야",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "미트스핀|meatspin",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "민주에몽|도라에몽",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "바바바|빠빠빠",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "박위|박위상태",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "박재범|월클",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "백룸|backroom",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "번역기|번역|왈도",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "베트남론|베트남",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "벽력|일섬|젠이츠",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "벽부수|벽 부수|벽을",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "병신TV|병신티비",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "병진",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "봇이지|봇",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "북경|정씨",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "북방코끼리|바다표범",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "불심|대동단결",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "불티",
+      "source": "reports/bulk/connector-resume-wave30-356.json",
       "status": "screened-see-report"
     }
   ],

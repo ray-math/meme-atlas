@@ -739,6 +739,7 @@
 - [라따 라따 아라따](../memes/ratta-ratta-aratta.md)
 - [레드썬](../memes/red-sun-hypnosis.md)
 - [리마리오 더듬이춤](../memes/rimario-antenna-dance.md)
+- [말 있죠?](../memes/mal-itjyo-drama-speech.md)
 - [맑은 눈의 광인](../memes/clear-eyed-eccentric.md)
 - [머선129](../memes/museon129.md)
 - [멋지다 연진아](../memes/bravo-yeonjin.md)
