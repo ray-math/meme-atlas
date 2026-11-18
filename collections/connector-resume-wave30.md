@@ -755,7 +755,7 @@
 - [입체 헤더](../memes/profile-header-popout-illusion.md)
 - [기온별 옷차림 포옹 반전](../memes/temperature-outfit-chart-hug-reversal.md)
 - [사투리 동화 재해석 낭독](../memes/dialect-fairy-tale-reading-remake.md)
-- [꿈꾸던 어른이 되었나요 현실 응답](../memes/dreamed-adult-reality-answer.md)
+- [꿈꾸던 어른이 되었나요 반응 문구](../memes/dreamed-adult-reality-answer.md)
 - [적폐 캐릭터](../memes/jeokpye-character-dominance-slang.md)
 - [갈 때 가더라도 ○○ 정도는 괜찮잖아](../memes/before-leaving-small-request-template.md)
 - [웨잇 챌린지](../memes/wait-stop-gesture-dance-challenge.md)

@@ -291,7 +291,7 @@
 - [꾸안꾸](kkuan-kku.md)
 - [꾸웨엑](kkuewek.md)
 - [꿀벅지](honey-thigh-body-rating-term.md)
-- [꿈꾸던 어른이 되었나요 현실 응답](dreamed-adult-reality-answer.md)
+- [꿈꾸던 어른이 되었나요 반응 문구](dreamed-adult-reality-answer.md)
 - [꿈빛 파티시엘 챌린지](yumeiro-patissiere-challenge.md)
 - [꿍싯꿍싯 챌린지](kkungsit-kkungsit-challenge.md)
 - [낄끼빠빠](kkilkki-ppappa.md)

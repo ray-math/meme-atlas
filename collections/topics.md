@@ -306,7 +306,7 @@
 - [꽈찌쭈 대사 소리표기](../memes/lost-kwajjijju-dialogue-spelling.md)
 - [꾸웨엑](../memes/kkuewek.md)
 - [꿀벅지](../memes/honey-thigh-body-rating-term.md)
-- [꿈꾸던 어른이 되었나요 현실 응답](../memes/dreamed-adult-reality-answer.md)
+- [꿈꾸던 어른이 되었나요 반응 문구](../memes/dreamed-adult-reality-answer.md)
 - [꿈빛 파티시엘 챌린지](../memes/yumeiro-patissiere-challenge.md)
 - [낄끼빠빠](../memes/kkilkki-ppappa.md)
 - [나 ○○년생 ○○인데](../memes/na-born-year-dance.md)
