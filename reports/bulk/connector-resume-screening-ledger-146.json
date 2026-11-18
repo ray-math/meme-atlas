@@ -172,10 +172,11 @@
     "reports/bulk/connector-resume-wave30-340.json",
     "reports/bulk/connector-resume-wave30-341.json",
     "reports/bulk/connector-resume-wave30-342.json",
-    "reports/bulk/connector-resume-wave30-343.json"
+    "reports/bulk/connector-resume-wave30-343.json",
+    "reports/bulk/connector-resume-wave30-344.json"
   ],
-  "query_observations": 3979,
-  "distinct_literal_queries": 3397,
+  "query_observations": 4008,
+  "distinct_literal_queries": 3426,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -20272,6 +20273,151 @@
     {
       "query": "\"조보아씨\" \"2026\" \"철냄비짱\"",
       "source": "reports/bulk/connector-resume-wave30-343.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조이는 보이\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"진짠줄 알더라\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"짤방보이\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"짱구야 아빠를 속인거니\"",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"초코빅송\"",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"짱구야\" \"속인\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"초코빅\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"짤방보이\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"조이는 보이\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "할 말|말이 없|할말",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한 잔|한잔",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "함정|카드|유희왕",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "핫산|번역",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "햄최|햄버거",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "向天|五百年|오백년",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "혐성|영국",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "홍준표|2번",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "회사 안|안다녀|퇴사",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "헝그리|배고|정신",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "헬테이커|helltaker",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "호라|젠젠|멀쩡",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "호롤|호로|trololo",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "호텔|경제학",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "혼모노|진짜|오타쿠",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "후드|살아남",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "흑드라|드라군|드래곤",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "흑우|호구",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "여고생|뻘짓",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "홍박사|박사님",
+      "source": "reports/bulk/connector-resume-wave30-344.json",
       "status": "screened-see-report"
     }
   ],
