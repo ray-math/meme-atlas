@@ -1,0 +1,106 @@
+{
+  "batch": 350,
+  "base": "727502b96668b85a214f70bd53ee35a03acc38b4",
+  "canonical_before": 969,
+  "canonical_after": 969,
+  "added": [],
+  "recent_research": {
+    "observed_strings": 10,
+    "recommended": 0,
+    "sources": [
+      "https://freres.tistory.com/120",
+      "https://o0o0o-sxcrxtdxxry-o0o0o.tistory.com/17"
+    ],
+    "queries": [
+      "site:theqoo.net \"2026\" \"밈\" \"텍스트\"",
+      "site:brunch.co.kr \"2026\" \"밈\" \"말\"",
+      "site:chimhaha.net \"2026\" \"밈\" \"유행\"",
+      "site:brunch.co.kr \"2026\" \"유행어\" -brunchbook -solly77",
+      "site:tistory.com \"2026\" \"밈\" \"일기\" -뜻 -유래 -정리",
+      "site:theqoo.net \"2026\" \"새로운 밈\"",
+      "\"천사가 나한테 알려줬어\"",
+      "\"그것이 예의겠지\" \"2026\"",
+      "\"클낫슨\" 밈",
+      "\"안녕하세요\" \"중독입니다\" 밈",
+      "\"생각도 못한 조롱 방식\"",
+      "\"모르겠음 이슈\""
+    ],
+    "index_queries": [
+      "가나디",
+      "햄부기",
+      "그것이 예의",
+      "천사가",
+      "클낫슨",
+      "중독입니다",
+      "생각도 못한 조롱",
+      "몰랐어",
+      "폼 멍멍",
+      "이슈",
+      "찌그러진",
+      "중독",
+      "폼 미쳤",
+      "예의"
+    ],
+    "existing": "햄부기→hambugi",
+    "unresolved": [
+      "몰 랐 어→i-didnt-know image identity not verified",
+      "가나디 is product naming here",
+      "안녕하세요 제콜 중독입니다 one use not established template",
+      "모르겠음 이슈 one use",
+      "클낫슨 one use",
+      "천사가 나한테 알려줬어 intention/origin unconfirmed"
+    ],
+    "excluded": [
+      "폼 멍멍 좋더라",
+      "생각도 못한 조롱 방식",
+      "그것이 예의겠지"
+    ],
+    "limits": "Workerread/editorunread; ten observed strings not ten memes. Source1 published2026-03-23;source2 published2026-06-07 but Maydiary. Personal details excluded. maehnaim.tistory.com/224 body failed and not counted."
+  },
+  "ledger_research": {
+    "ids": [
+      "0796",
+      "0814",
+      "0828",
+      "0869",
+      "0881"
+    ],
+    "recommended": 0,
+    "held": 5,
+    "queries": [
+      "\"와칭제노\"",
+      "\"우마우마\" \"2026\"",
+      "\"유루유리 하지마루요\"",
+      "\"인간성기사 뿌뿌뽕\" \"2026\"",
+      "\"인터넷 야메로\" \"2026\"",
+      "\"우마우마\" 춤 한국",
+      "\"뿌뿌뽕\" 패러디 -site:namu.moe",
+      "\"인터넷 야메로\" 패러디 -site:namu.moe",
+      "\"와칭제노\" 패러디 -site:namu.moe"
+    ],
+    "index_queries": [
+      "와칭제노",
+      "우마우마",
+      "유루유리",
+      "인간성기사",
+      "인터넷 야메로",
+      "internet-yamero",
+      "팀의 체력",
+      "뿌뿌",
+      "caramell",
+      "야메로",
+      "와칭",
+      "하지마루"
+    ],
+    "sources": [
+      "https://www.etnews.com/20251221000018",
+      "https://whitefaceone.tistory.com/2313",
+      "https://news.sbs.co.kr/news/freeEndPage.do?no=88740",
+      "https://www.gamemeca.com/view.php?gid=1569030",
+      "https://subculturer-home.tistory.com/entry/인터넷-야메로-밈-원본원곡-트레틀-배포-니디걸-오버도즈?category=1026588"
+    ],
+    "limits": "Workerread/editorunread.0796 recentactivityname notparody;0814 old2021 explanation with music naming inconsistency;0828 SBS2013 USERBOARD notofficialeditorial;0869 2019retrospective not2creators;0881 2023-05-07 creator template record1,TikTokblocked. Images/videos unviewed;recentconcertsonglist notreuse."
+  },
+  "note": "Observed ordinary expressions and historical explanations do not qualify as independently verified new memes. No canonical or immutable candidate changes.",
+  "ci": "348 and349 running at preparation"
+}

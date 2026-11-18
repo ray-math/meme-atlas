@@ -178,10 +178,11 @@
     "reports/bulk/connector-resume-wave30-346.json",
     "reports/bulk/connector-resume-wave30-347.json",
     "reports/bulk/connector-resume-wave30-348.json",
-    "reports/bulk/connector-resume-wave30-349.json"
+    "reports/bulk/connector-resume-wave30-349.json",
+    "reports/bulk/connector-resume-wave30-350.json"
   ],
-  "query_observations": 4133,
-  "distinct_literal_queries": 3534,
+  "query_observations": 4180,
+  "distinct_literal_queries": 3579,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -21048,6 +21049,241 @@
     {
       "query": "김도|마즈피플|마즈",
       "source": "reports/bulk/connector-resume-wave30-349.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:theqoo.net \"2026\" \"밈\" \"텍스트\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:brunch.co.kr \"2026\" \"밈\" \"말\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:chimhaha.net \"2026\" \"밈\" \"유행\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:brunch.co.kr \"2026\" \"유행어\" -brunchbook -solly77",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:tistory.com \"2026\" \"밈\" \"일기\" -뜻 -유래 -정리",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "site:theqoo.net \"2026\" \"새로운 밈\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"천사가 나한테 알려줬어\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그것이 예의겠지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"클낫슨\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안녕하세요\" \"중독입니다\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"생각도 못한 조롱 방식\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"모르겠음 이슈\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가나디",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "햄부기",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "그것이 예의",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "천사가",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "클낫슨",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "중독입니다",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "생각도 못한 조롱",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "몰랐어",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "폼 멍멍",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이슈",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "찌그러진",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "중독",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "폼 미쳤",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "예의",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"와칭제노\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"우마우마\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"유루유리 하지마루요\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인간성기사 뿌뿌뽕\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인터넷 야메로\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"우마우마\" 춤 한국",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뿌뿌뽕\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"인터넷 야메로\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"와칭제노\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와칭제노",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "우마우마",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "유루유리",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인간성기사",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인터넷 야메로",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "internet-yamero",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "팀의 체력",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뿌뿌",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "caramell",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야메로",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와칭",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하지마루",
+      "source": "reports/bulk/connector-resume-wave30-350.json",
       "status": "screened-see-report"
     }
   ],
