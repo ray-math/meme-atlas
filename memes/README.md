@@ -664,6 +664,7 @@
 - [원츄백 챌린지](want-you-back-challenge.md)
 - [월급 로그아웃](salary-logout.md)
 - [월급루팡](salary-lupin.md)
+- [월요일 아침새](monday-morning-bird.md)
 - [웬즈데이 댄스 챌린지](wednesday-dance.md)
 - [위꾸](wikku.md)
 - [위아원 처하자](weareone-cheohaja.md)

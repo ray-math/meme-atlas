@@ -494,6 +494,7 @@
 - [웃프다](../memes/utpeuda.md)
 - [월급 로그아웃](../memes/salary-logout.md)
 - [월급루팡](../memes/salary-lupin.md)
+- [월요일 아침새](../memes/monday-morning-bird.md)
 - [웬즈데이 댄스 챌린지](../memes/wednesday-dance.md)
 - [위꾸](../memes/wikku.md)
 - [유리멘탈](../memes/glass-mental.md)

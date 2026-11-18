@@ -165,3 +165,5 @@
 - [어케했노 시발련ㄴ아](../memes/how-did-you-do-that-profane.md)
 
 - [폭룡적](../memes/pokryongjeok.md)
+
+- [월요일 아침새](../memes/monday-morning-bird.md)

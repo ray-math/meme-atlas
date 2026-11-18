@@ -168,10 +168,11 @@
     "reports/bulk/connector-resume-wave30-336.json",
     "reports/bulk/connector-resume-wave30-337.json",
     "reports/bulk/connector-resume-wave30-338.json",
-    "reports/bulk/connector-resume-wave30-339.json"
+    "reports/bulk/connector-resume-wave30-339.json",
+    "reports/bulk/connector-resume-wave30-340.json"
   ],
-  "query_observations": 3883,
-  "distinct_literal_queries": 3304,
+  "query_observations": 3913,
+  "distinct_literal_queries": 3334,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -19788,6 +19789,156 @@
     {
       "query": "폭룡|폭룡적",
       "source": "reports/bulk/connector-resume-wave30-339.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오니기리 댄스\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오 샹젤리제\" 챌린지 2026",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"왕사슴 가이즈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요나요나 댄스\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"월요일 아침새\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"월요일 아침새\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오니기리 댄스\" 그려",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요나요나 댄스\" 제작",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"월요일 아침새\" \"2026\" -site:tistory.com -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"월요일 아침새\" \"피곤\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "최근 한|게시판에는|커뮤니티",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "최애의|아이돌|idol",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "충격|공포",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "취직|취업|사회",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "차차핑|핑",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "카페인|커피",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "캐피탈|capital|자본주의",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "캬루|배신",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "자갈|짱돌",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "컹스|켕",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "케인|한입|죄송",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "겨울배|배를",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김성근|한화",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "코카인|cocaine|취해",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "콩쥐|팥쥐",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "크아아|으아아|XX아",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "킹근육|골드몬",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "탈모|모르파티",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "텟카이|철괴",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "투명|드래곤",
+      "source": "reports/bulk/connector-resume-wave30-340.json",
       "status": "screened-see-report"
     }
   ],
