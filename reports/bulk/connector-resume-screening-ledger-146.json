@@ -192,10 +192,11 @@
     "reports/bulk/connector-resume-wave30-360.json",
     "reports/bulk/connector-resume-wave30-361.json",
     "reports/bulk/connector-resume-wave30-362.json",
-    "reports/bulk/connector-resume-wave30-363.json"
+    "reports/bulk/connector-resume-wave30-363.json",
+    "reports/bulk/connector-resume-wave30-364.json"
   ],
-  "query_observations": 4516,
-  "distinct_literal_queries": 3876,
+  "query_observations": 4522,
+  "distinct_literal_queries": 3882,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -22977,6 +22978,36 @@
     {
       "query": "펄|태극기|국기|국뽕|주모",
       "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"64 bits\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-364.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-364.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"11미터\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-364.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"문단속\" \"2026\" \"패러디\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-364.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"11미터 모형탑\" -site:namu.moe -site:uge.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-364.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"64 bits\" \"한국\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-364.json",
       "status": "screened-see-report"
     }
   ],
