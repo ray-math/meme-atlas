@@ -78,6 +78,7 @@
 - [1루수가 누구야](../memes/whos-on-first.md)
 - [2026 is the new 2016](../memes/2026-is-new-2016.md)
 - [AI 삿포로샷](../memes/ai-sapporo-shot.md)
+- [AI 한 단어 챌린지](../memes/ai-one-word-challenge.md)
 - [CHRISTIAN 패러디](../memes/christian-parody.md)
 - [HMH·GMG](../memes/hmh-gmg.md)
 - [OTL](../memes/otl.md)

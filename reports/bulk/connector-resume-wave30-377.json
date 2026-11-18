@@ -1,0 +1,192 @@
+{
+  "batch": 377,
+  "base": "9f05fac047fb6bd06591a821e1c7524ed04672af",
+  "canonical_before": 980,
+  "canonical_after": 981,
+  "added": [
+    "ai-one-word-challenge"
+  ],
+  "researchA": {
+    "recommended": 1,
+    "id": "ai-one-word-challenge",
+    "ref": "68c3c6fe77ff8107bcf736d038ac88ab3032db2c",
+    "sources": {
+      "sources": [
+        "https://v.daum.net/v/20260927060223020",
+        "https://gall.dcinside.com/board/view/?id=aimatters&no=4891&page=1"
+      ],
+      "read": "연합뉴스L98-107참가자인터뷰1+AI매터스L372-381직접질문자기보고/L413영상제작설명1.원영상0.설정/모델기능주장채택안함."
+    },
+    "scope": "참가자인터뷰보도1군+매체실행제작자기보고1군.원영상/이미지/서비스대화0;제품설정/메모리설명은검증안해제외.같은연합전재중복제외",
+    "queries": [
+      "\"2026\" \"내 인생\" \"마지막 페이지\" \"해봤\"",
+      "\"2026\" \"나는 무슨 날씨\" 챗GPT",
+      "\"2026\" \"나와 내 직업\" \"캐리커처\" 후기",
+      "\"나는 무슨 꽃\" \"2026\" -site:frameprompt.kr",
+      "\"나는 무슨 색\" \"챗\" 후기",
+      "\"AI가 본 나\" \"해봤\"",
+      "\"챗GPT\" \"한 단어\" \"챌린지\" 후기",
+      "\"AI가 보는 나\" site:brunch.co.kr",
+      "\"나는 무슨 꽃이야\" -site:instablank.com -site:frameprompt.kr -site:daum.net -site:segye.com"
+    ],
+    "index_queries": [
+      "한 단어",
+      "한단어"
+    ],
+    "comparison": [
+      "kungkungtta",
+      "word-learning-monster",
+      "draw-how-i-treated-you"
+    ]
+  },
+  "editor": {
+    "sources": [
+      "https://v.daum.net/v/20260927060223020",
+      "https://gall.dcinside.com/board/view/?id=aimatters&no=4891&page=1"
+    ],
+    "read": "연합뉴스L98-107참가자인터뷰1+AI매터스L372-381직접질문자기보고/L413영상제작설명1.원영상0.설정/모델기능주장채택안함."
+  },
+  "semantic_audit": {
+    "sha": "9f05fac047fb6bd06591a821e1c7524ed04672af",
+    "scope": "automatic_title_alias_match positions21-40",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0167",
+        "dictionary_id": "watch-out-cold",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0168",
+        "dictionary_id": "ganji",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0172",
+        "dictionary_id": "gangnam-horse-dance",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0177",
+        "dictionary_id": "sense-to-andromeda",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0181",
+        "dictionary_id": "gaviscon-relief",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0183",
+        "dictionary_id": "gaejuki",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0187",
+        "dictionary_id": "gaemseong",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0188",
+        "dictionary_id": "gyaru-peace",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0193",
+        "dictionary_id": "geoje-yaho",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0199",
+        "dictionary_id": "goguma-frustration",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0200",
+        "dictionary_id": "fine-restaurant",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0203",
+        "dictionary_id": "advanced-a-indistinguishable-b",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0215",
+        "dictionary_id": "coffin-dance",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0219",
+        "dictionary_id": "guava-mango-song",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0221",
+        "dictionary_id": "guk-rule",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0223",
+        "dictionary_id": "gukppong",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0225",
+        "dictionary_id": "gunsak-loopy",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0230",
+        "dictionary_id": "sorry-for-being-cute",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0231",
+        "dictionary_id": "gwiyomi-song",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0244",
+        "dictionary_id": "it-actually-happened",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      }
+    ],
+    "bodies_read": 20,
+    "classification_changes": 0,
+    "limits": "0172/0230작품전체아닌춤재현형식한정.자동연결유지하되전체작품수록완료아님.누적40/328본문범위감사,외부유래검증아님."
+  },
+  "ci": {
+    "body980": {
+      "run": 44244866531,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 73.624
+    },
+    "report376": {
+      "run": 44245182475,
+      "status": "in_progress_at_preparation"
+    },
+    "new_commit": "pending"
+  }
+}

@@ -204,10 +204,11 @@
     "reports/bulk/connector-resume-wave30-373.json",
     "reports/bulk/connector-resume-wave30-374.json",
     "reports/bulk/connector-resume-wave30-375.json",
-    "reports/bulk/connector-resume-wave30-376.json"
+    "reports/bulk/connector-resume-wave30-376.json",
+    "reports/bulk/connector-resume-wave30-377.json"
   ],
-  "query_observations": 4969,
-  "distinct_literal_queries": 4271,
+  "query_observations": 4980,
+  "distinct_literal_queries": 4279,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -25254,6 +25255,61 @@
     {
       "query": "\"로스트\" \"2026\" \"챗GPT\" \"해봤\"",
       "source": "reports/bulk/connector-resume-wave30-376.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"내 인생\" \"마지막 페이지\" \"해봤\"",
+      "source": "reports/bulk/connector-resume-wave30-377.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"나는 무슨 날씨\" 챗GPT",
+      "source": "reports/bulk/connector-resume-wave30-377.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"나와 내 직업\" \"캐리커처\" 후기",
+      "source": "reports/bulk/connector-resume-wave30-377.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나는 무슨 꽃\" \"2026\" -site:frameprompt.kr",
+      "source": "reports/bulk/connector-resume-wave30-377.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나는 무슨 색\" \"챗\" 후기",
+      "source": "reports/bulk/connector-resume-wave30-377.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"AI가 본 나\" \"해봤\"",
+      "source": "reports/bulk/connector-resume-wave30-377.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"챗GPT\" \"한 단어\" \"챌린지\" 후기",
+      "source": "reports/bulk/connector-resume-wave30-377.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"AI가 보는 나\" site:brunch.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-377.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"나는 무슨 꽃이야\" -site:instablank.com -site:frameprompt.kr -site:daum.net -site:segye.com",
+      "source": "reports/bulk/connector-resume-wave30-377.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한 단어",
+      "source": "reports/bulk/connector-resume-wave30-377.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한단어",
+      "source": "reports/bulk/connector-resume-wave30-377.json",
       "status": "screened-see-report"
     }
   ],

@@ -8,6 +8,7 @@
 - [3대500](three-lifts-500.md)
 - [54000개](54000.md)
 - [AI 삿포로샷](ai-sapporo-shot.md)
+- [AI 한 단어 챌린지](ai-one-word-challenge.md)
 - [BAD 챌린지](ateez-bad-challenge.md)
 - [CHRISTIAN 패러디](christian-parody.md)
 - [ET춤](jewelry-et-dance.md)
