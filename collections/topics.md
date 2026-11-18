@@ -871,6 +871,7 @@
 - [성덕](../memes/seongdeok.md)
 - [손가락 하트](../memes/finger-heart.md)
 - [술 한잔 마셨습니다](../memes/sul-hanjan-masyeotseumnida.md)
+- [술은 마셨지만 음주운전은 하지 않았다](../memes/drank-but-not-drunk-driving.md)
 - [원영적 사고](../memes/wonyoung-thinking.md)
 - [으리](../memes/euri.md)
 - [이거 제 이모지야](../memes/my-emoji.md)

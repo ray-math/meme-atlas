@@ -509,6 +509,7 @@
 - [수저계급론](spoon-class.md)
 - [순삭](sunsak.md)
 - [술 한잔 마셨습니다](sul-hanjan-masyeotseumnida.md)
+- [술은 마셨지만 음주운전은 하지 않았다](drank-but-not-drunk-driving.md)
 - [숨긴다고 숨겨지는 것도 아니고](cannot-hide.md)
 - [숫자송](number-song-internet.md)
 - [쉽살재빙](swipsaljaebing.md)

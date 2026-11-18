@@ -1,0 +1,57 @@
+{
+  "batch": 335,
+  "base": "5718b3c56e1d8c9d3d3c9ce52f8394ec1ad2513f",
+  "canonical_before": 963,
+  "canonical_after": 964,
+  "added": [
+    "drank-but-not-drunk-driving"
+  ],
+  "research": {
+    "candidate": "0643",
+    "recommended": 1,
+    "held": [
+      "0533/0694",
+      "0528"
+    ],
+    "sources": [
+      "https://imnews.imbc.com/replay/2026/nwdesk/article/6796976_37004.html",
+      "https://www.teamblind.com/kr/post/이게-술은-마셨지만-음주운전은-하지-않았다야-ZCqBMwpT",
+      "https://v.daum.net/v/BoKhb10HzE"
+    ],
+    "queries": [
+      "\"방송 되게 못하네\" 2026",
+      "\"술은 마셨지만\" \"2026\" -site:namu.moe",
+      "\"후라이 똥 튀김\" 2026",
+      "\"술은 마셨지만\" \"게임\" \"2026\"",
+      "\"술은 마셨지만\" \"구매\"",
+      "\"방송 되게 못하네\" site:theqoo.net"
+    ],
+    "limits": "1 recent reportedreuse,1 olddirectuse,1 retrospective; originals unviewed; editor unread",
+    "editor_read": 3,
+    "editor_limits": "MBC reportedreuse not originalstatement; Blind title/body directly read but images unviewed and no nutrition/legal inference; retrospective not recentreuse"
+  },
+  "independent_audit": {
+    "read": 3,
+    "reported_reuse": 1,
+    "direct_title_use": 1,
+    "recent_reuse": 1,
+    "retrospective": 1,
+    "original_videos_images": 0,
+    "index_query": "술|음주|마셨|모순|해명",
+    "related_body_read": "sul-hanjan-masyeotseumnida",
+    "decision": "distinct citation; do not assert legal/nutrition contradiction or first meme"
+  },
+  "editor": {
+    "read": 3,
+    "index_queries": [
+      "술|음주|마셨|모순|해명"
+    ],
+    "direct_video_image_read": 0
+  },
+  "coverage_change": "0643 index_not_found -> included; source immutable",
+  "previous_ci": {
+    "run": 44236095944,
+    "status": "in_progress"
+  },
+  "ci": "new commit pending"
+}

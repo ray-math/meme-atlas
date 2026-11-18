@@ -163,10 +163,11 @@
     "reports/bulk/connector-resume-wave30-331.json",
     "reports/bulk/connector-resume-wave30-332.json",
     "reports/bulk/connector-resume-wave30-333.json",
-    "reports/bulk/connector-resume-wave30-334.json"
+    "reports/bulk/connector-resume-wave30-334.json",
+    "reports/bulk/connector-resume-wave30-335.json"
   ],
-  "query_observations": 3701,
-  "distinct_literal_queries": 3134,
+  "query_observations": 3708,
+  "distinct_literal_queries": 3141,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -18873,6 +18874,41 @@
     {
       "query": "젠슨황",
       "source": "reports/bulk/connector-resume-wave30-334.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"방송 되게 못하네\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-335.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"술은 마셨지만\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-335.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"후라이 똥 튀김\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-335.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"술은 마셨지만\" \"게임\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-335.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"술은 마셨지만\" \"구매\"",
+      "source": "reports/bulk/connector-resume-wave30-335.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"방송 되게 못하네\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-335.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "술|음주|마셨|모순|해명",
+      "source": "reports/bulk/connector-resume-wave30-335.json",
       "status": "screened-see-report"
     }
   ],
