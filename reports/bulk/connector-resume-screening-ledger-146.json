@@ -248,10 +248,11 @@
     "reports/bulk/connector-resume-wave30-421.json",
     "reports/bulk/connector-resume-wave30-422.json",
     "reports/bulk/connector-resume-wave30-423.json",
-    "reports/bulk/connector-resume-wave30-425.json"
+    "reports/bulk/connector-resume-wave30-425.json",
+    "reports/bulk/connector-resume-wave30-427.json"
   ],
-  "query_observations": 5731,
-  "distinct_literal_queries": 4996,
+  "query_observations": 5740,
+  "distinct_literal_queries": 5005,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -29108,6 +29109,51 @@
     {
       "query": "\"뜌땨\" \"2026\" -site:orbi.kr -site:inven.co.kr -site:namu.moe",
       "source": "reports/bulk/connector-resume-wave30-425.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Point\" \"드립\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-427.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"계획대로\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-427.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그래 열심히 하자\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-427.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"설명해드렸습니다\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-427.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"당연히 말이 되죠\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-427.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"설명해드렸습니다\" 밈 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-427.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그래 열심히 하자\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-427.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"계획대로\" \"데스노트\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-427.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Point 드립\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-427.json",
       "status": "screened-see-report"
     }
   ],

@@ -206,3 +206,4 @@
 - [아시발꿈](../memes/ah-damn-a-dream.md)
 - [인제 신남](../memes/inje-sinnam-sign.md)
 - [약속의 2시](../memes/promised-two-oclock.md)
+- [흑우 드립](../memes/black-cow-taunt.md)

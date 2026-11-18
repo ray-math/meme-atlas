@@ -737,6 +737,7 @@
 - [훈녀](../memes/hunnyeo.md)
 - [휴덕](../memes/hyudeok.md)
 - [흑역사](../memes/dark-history.md)
+- [흑우 드립](../memes/black-cow-taunt.md)
 - [흠좀무](../memes/heum-jom-mu.md)
 - [힘숨찐](../memes/himsumjjin.md)
 

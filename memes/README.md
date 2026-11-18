@@ -999,6 +999,7 @@
 - [훈녀](hunnyeo.md)
 - [휴덕](hyudeok.md)
 - [흑역사](dark-history.md)
+- [흑우 드립](black-cow-taunt.md)
 - [흠좀무](heum-jom-mu.md)
 - [히트다 히트](hitda-hit.md)
 - [힘숨찐](himsumjjin.md)
