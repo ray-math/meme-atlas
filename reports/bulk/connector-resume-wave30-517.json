@@ -1,0 +1,370 @@
+{
+  "batch": 517,
+  "base": "d2a264ae11ab37a3dd50b8710582d2f783090db7",
+  "canonical_before": 1807,
+  "canonical_after": 1818,
+  "added": [
+    "geumjjogi-adult-character-label",
+    "pumjeolnam-pumjeolnyeo-marriage-label",
+    "sagikae-overpowered-character-praise",
+    "young-friend-gentleman-command",
+    "aju-chingchanhae-catchphrase",
+    "million-dollar-object-line-parody",
+    "hyeonta-reality-realization",
+    "apeunya-nado-apeuda",
+    "oki-oki-okinawa",
+    "maepbusim-spicy-food-pride",
+    "jjinchin-close-friends"
+  ],
+  "candidate_changes": [],
+  "previous_ci": {
+    "run_id": 44362606806,
+    "job_id": 135007747726,
+    "status": "success",
+    "steps": 65,
+    "python_log": [
+      "Ran 497 tests in 145.699s"
+    ],
+    "head": "d2a264ae11ab37a3dd50b8710582d2f783090db7"
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "required_changes": 0,
+    "head": "d2a264ae11ab37a3dd50b8710582d2f783090db7",
+    "files_read": 19
+  },
+  "research": {
+    "C124": {
+      "observations": 10,
+      "recommendations": 1,
+      "existing": 4,
+      "held": 5,
+      "external_bodies_read": 2,
+      "failed_opens": 7,
+      "media_viewed": 0,
+      "queries": [
+        "\"얼죽코\" \"2026\"",
+        "\"인간비타민\" \"2026\" site:enews.imbc.com",
+        "\"폼생폼사\" \"뜻\"",
+        "\"인간비타민\" \"2026\" \"iMBC\"",
+        "\"금쪽이\" \"신조어\" 뜻 기사",
+        "\"폼생폼사\" \"2026\" 기사",
+        "\"인간비타민\" \"2026\" \"밝고\"",
+        "\"금쪽이\" \"2026\" site:enews.imbc.com"
+      ],
+      "note": "Corrected final count1/4/5 not initial1/3/6. Geumjjogi adult-only nickname from commentary2023/11/29 HyundaiCard and iMBC5200382026/10/4; nochildcases/diagnosis."
+    },
+    "A134": {
+      "observations": 8,
+      "recommendations": 0,
+      "held": 8,
+      "external_pages_read": 3,
+      "media_viewed": 0,
+      "queries": [
+        "\"수박도\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"씽씽이\" \"패러디\" -site:namu.moe",
+        "\"아나바다\" \"사행시\" \"밈\" -site:namu.moe",
+        "\"아로나 댄스\" -site:namu.moe -site:seore.org",
+        "\"어나니머스\" \"패러디\" 한국",
+        "\"어몽어스 잼민이\" -site:namu.moe -site:seore.org",
+        "\"와퍼\" \"노래\" \"밈\" -site:namu.moe",
+        "\"왕사슴 가이즈\" -site:namu.moe -site:seore.org",
+        "\"어나니머스\" \"개그\" 가면",
+        "\"와퍼송\" 밈"
+      ],
+      "note": "0640/0678/0681/0687/0740/0744/0797/0803 held. Generic derogatory label existing but specific amongus notmapped. Two wang-saseumtitles noimage verification. Existing Hyundai/inven notnewverification."
+    },
+    "editor_followup": {
+      "observations": 0,
+      "recommendations": 0,
+      "media_viewed": 0,
+      "queries": [
+        "2026 \"신조어\" \"도파민\" \"뜻\" -site:namu.wiki",
+        "2026 \"밈\" \"문구\" \"따라\" -임성한 -site:namu.wiki",
+        "2026 \"유행어\" \"재현\" -임성한 -닥터신"
+      ],
+      "note": "Discovery results mostly derivative lists; no recommendation or body verified."
+    },
+    "C125": {
+      "observations": 10,
+      "recommended_expressions": 3,
+      "recommended_entries": 2,
+      "existing": 3,
+      "held": 4,
+      "external_bodies_read": 4,
+      "failed_opens": 3,
+      "media_viewed": 0,
+      "queries": [
+        "\"사기캐\" \"2026\" \"뜻\"",
+        "\"품절남\" \"품절녀\" \"뜻\" 기사",
+        "\"먼치킨\" \"2026\" 배우",
+        "\"사기캐\" \"2026\" site:enews.imbc.com",
+        "\"품절남\" \"품절녀\" \"2026\" site:enews.imbc.com",
+        "\"품절녀\" \"2026\" site:enews.imbc.com",
+        "\"품절남\" 뜻 site:korean.go.kr",
+        "\"사기캐\" \"사기 캐릭터\" 뜻 기사"
+      ],
+      "note": "Pumjeolman/woman onefamily, wedding announcement not completedceremony. Sagikae hungryapp dateunknown explanation+2026utterance report; nofraud/abilityrankclaims."
+    },
+    "A135": {
+      "observations": 8,
+      "recommendations": 0,
+      "held": 8,
+      "external_bodies_read": 2,
+      "media_viewed": 0,
+      "queries": [
+        "\"요! 요요!\" 패러디 -site:namu.moe",
+        "\"육군 we 육군\" 패러디 -site:namu.moe",
+        "\"의문의\" \"행\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"이쿠요\" \"춤\" 패러디 -site:namu.moe",
+        "\"이훈이\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"아자핑\" \"하츄핑\" \"밈\" -site:namu.moe",
+        "\"와플핑\" \"핫케핑\" \"밈\" -site:namu.moe",
+        "\"자러감\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"의문의 1패\" 유래",
+        "\"이훈이\" \"패러디\"",
+        "\"자러감\" \"밈\"",
+        "\"요 요요\" \"김\" 밈"
+      ],
+      "note": "0812/0830/0841/0866/0868/0888/0889/0894 held. Army criticism not parody;ikuyo prior source reread not new proof; unexpected-win not sameXX행."
+    },
+    "B610": {
+      "observations": 8,
+      "recommendations": 1,
+      "existing": 3,
+      "held": 2,
+      "excluded": 2,
+      "media_viewed": 0,
+      "queries": [
+        "2026 \"패러디\" \"유행어\" \"광고\" -백종원 -스카프 -허경환",
+        "2026 \"밈\" \"말투\" site:allurekorea.com",
+        "2026 \"유행어\" \"따라\" site:imnews.imbc.com",
+        "2026 \"밈\" \"패러디\" \"제작\" site:brunch.co.kr",
+        "\"2026\" \"유행어\" \"국물이\"",
+        "\"2026\" \"패러디\" \"감기 조심\"",
+        "\"젊은 친구\" \"신사답게\" 패러디",
+        "\"2026\" \"패러디\" \"말투\" -site:namu.moe -site:dcinside.com -site:namu.wiki"
+      ],
+      "note": "Gentlemanorder2019BBQoneproduction,originalquotelinknotsecondadaptation. Existingmukgodouble/fourdollars/crab. why/papagoheld,foreign/brandcharacterexcluded.",
+      "coordinator_limit": "Etoday1814114 parent reopen500; independent researcher read noted but final entry cites recovered Foodbank/Asiatoday only."
+    },
+    "B611": {
+      "observations": 8,
+      "recommendations": 2,
+      "existing": 2,
+      "held": 3,
+      "excluded": 1,
+      "media_viewed": 0,
+      "queries": [
+        "2026 \"유행어\" \"패러디\" site:enews.imbc.com -백종원 -허경환",
+        "2026 \"말투\" \"따라\" site:news.nate.com -정치 -트럼프",
+        "\"왜죠\" \"에릭\" \"연애의 발견\"",
+        "\"백만불짜리\" \"패러디\" 조승우",
+        "\"아주 칭찬해\" \"패러디\"",
+        "\"슈어 와이낫\" \"따라\""
+      ],
+      "note": "Aju2017broadcast explanation+reportedSNS. Milliondollar2012drama one;2005Nate fullsignedtext but AI-summary UI adjacent,editor recheck. Disabilities/voice not adopted. why/sure/stupit held; groupaccentbodymock excluded."
+    },
+    "A136": {
+      "observations": 8,
+      "recommendations": 0,
+      "held": 8,
+      "external_bodies_read": 2,
+      "media_viewed": 0,
+      "queries": [
+        "\"초코빅송\" 패러디 -site:namu.moe -site:seore.org",
+        "\"차차핑\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"킹 오브 프리즘\" \"패러디\" 한국",
+        "\"파피 플레이타임\" \"밈\" 한국 -site:namu.moe",
+        "\"프로게이머 피지컬\" \"밈\" -site:namu.moe",
+        "\"프라이데이 나이트 펑킨\" \"패러디\" 한국",
+        "\"할 말이 없네\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"헝그리 정신\" \"패러디\"",
+        "\"초코빅송\"",
+        "\"프로게이머 피지컬\" 패러디",
+        "\"헝그리 정신\" \"김국진\"",
+        "\"프라이데이 나이트 펑킨\" \"제작\" \"한국\""
+      ],
+      "note": "0989/0997/1030/1056/1079/1080/1103/1131 held. TRPG derivative authorship not wholework meme. Teacher interview1103 reaction evidence noted but no childmedia/sexualsourceadoption."
+    },
+    "C126": {
+      "observations": 10,
+      "recommendations": 1,
+      "existing": 7,
+      "held": 2,
+      "external_bodies_read": 3,
+      "media_viewed": 0,
+      "queries": [
+        "\"순삭\" \"뜻\" 기사",
+        "\"광탈\" \"2026\" site:enews.imbc.com",
+        "\"광탈\" \"뜻\" 기사",
+        "\"현타\" \"현실 자각\" \"2026\"",
+        "\"현타\" \"2026\" site:enews.imbc.com",
+        "\"현타\" \"현실 자각 타임\" site:korean.go.kr",
+        "\"첫방\" \"입봉\" 뜻 기사"
+      ],
+      "note": "Hyeonta reality-realization only. NIKL2024reply historicaldictionary state,not currentstandard/origin. Joongang2026headline/surveytext onepublisheruse;SportsDonga2026Mar6 despiteURLMar5."
+    },
+    "A137": {
+      "observations": 8,
+      "recommendations": 0,
+      "held": 8,
+      "external_bodies_read": 1,
+      "failed_opens": 1,
+      "media_viewed": 0,
+      "queries": [
+        "\"11미터 모형탑\" \"밈\"",
+        "\"street photographer\" \"밈\" 한국",
+        "\"EZ DO DANCE\" \"패러디\" 한국",
+        "\"마피아 시티\" \"광고\" \"패러디\"",
+        "\"인크레더블\" \"언캐니\" 한국 밈",
+        "\"분홍 코끼리\" \"밈\" 덤보",
+        "\"Zyzz\" \"밈\" 한국",
+        "\"그냥 개최국 중국이\" 패러디",
+        "\"언캐니\" \"밈\" -site:namu.moe -site:seore.org -site:mika.co.kr",
+        "\"street photographer\" \"패러디\" -site:namu.moe",
+        "\"EZ DO DANCE\" \"패러디\" -site:namu.moe -site:seore.org -site:alphawiki.org",
+        "\"11미터\" \"이한석\" SBS"
+      ],
+      "note": "0238 repetition and screenshot spread report read, editorial reassessment pending; parody substitution not mandatory for meme qualification. 0122 video page failed."
+    },
+    "B612": {
+      "observations": 8,
+      "recommendations": 2,
+      "existing": 3,
+      "held": 3,
+      "queries": [
+        "2026 \"유행어\" \"패러디했다\" -site:namu.moe -백종원",
+        "2026 \"밈\" \"문구\" site:the-pr.co.kr",
+        "2026 \"패러디\" \"말\" site:advertising.co.kr",
+        "\"2026\" \"유행어\" \"재현\" -site:namu.moe -site:namu.wiki",
+        "\"2026\" \"말투\" \"밈\" \"브랜드\"",
+        "\"박보검\" \"박성광\" \"유행어\" 2015",
+        "\"아프냐 나도 아프다\" \"패러디\"",
+        "\"오키오키 오키나와\" \"박보검\""
+      ],
+      "note": "Apeunya historicalsite report plus2026preview; Oki editor directbodyread but auditor2cachemiss; no media viewed."
+    },
+    "C127": {
+      "observations": 10,
+      "recommendations": 2,
+      "existing": 2,
+      "conditional": 3,
+      "held": 3,
+      "queries": [
+        "\"웃수저\" \"뜻\"",
+        "\"맵부심\" \"2026\"",
+        "\"먹교수\" \"2026\"",
+        "\"맵부심\" \"자부심\" 기사",
+        "\"찐친\" \"진짜 친구\" \"2026\"",
+        "\"찐친\" \"진짜 친구\" 국립국어원",
+        "\"찐친\" \"진짜 친구\" site:enews.imbc.com",
+        "\"찐친\" \"2026\" site:enews.imbc.com"
+      ],
+      "external_bodies_read": 5,
+      "failed_opens": 4,
+      "note": "Maepbusim2026News1headline oneuse viaNate. Jjinchin twoevents samepublisher nottwoindependentmedia."
+    }
+  },
+  "sources": [
+    {
+      "id": "geumjjogi-adult-character-label",
+      "urls": [
+        "https://newsroom.hyundaicard.com/front/board/MZ주의-MZ의-불안은-어디에서-오는-걸까",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/520038"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pumjeolnam-pumjeolnyeo-marriage-label",
+      "urls": [
+        "https://www.yeongnam.com/web/view.php?key=20120220.010290707470001",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/500846"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sagikae-overpowered-character-praise",
+      "urls": [
+        "https://m.hungryapp.co.kr/news/news_view.php?pid=50922",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/514088"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "young-friend-gentleman-command",
+      "urls": [
+        "https://www.asiatoday.co.kr/kn/view.php?key=20190927000728306",
+        "https://www.foodbank.co.kr/news/articleView.html?idxno=58628"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "aju-chingchanhae-catchphrase",
+      "urls": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/222112",
+        "https://www.osen.co.kr/article/G1110757361"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "million-dollar-object-line-parody",
+      "urls": [
+        "https://m.news.nate.com/view/20050513n06701",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/70599"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hyeonta-reality-realization",
+      "urls": [
+        "https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&pageIndex=1&qna_seq=306091",
+        "https://v.daum.net/v/5frgSAe4yg"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "apeunya-nado-apeuda",
+      "urls": [
+        "https://m.seoul.co.kr/news/2003/08/15/20030815025001",
+        "https://joynews24.com/view/2022869"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "oki-oki-okinawa",
+      "urls": [
+        "https://www.xportsnews.com/article/674938/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "maepbusim-spicy-food-pride",
+      "urls": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/285987",
+        "https://news.nate.com/view/20260123n03033"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jjinchin-close-friends",
+      "urls": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/306827",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/516092"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "11 bounded original entries; existing1807records and oldbodies unchanged. 7recenttextuses/previews,4historical; no firstorigin/popularity assertion.",
+    "Oki source editor directly read, independent auditor cachemiss twice. Other10 independent preaudit underway/completed; no media viewed.",
+    "Coverage1091 unchanged; screenings include revisits, queries not meme counts.",
+    "Independent source preaudit10pass; Oki editor read confirmed, auditor retrieval unavailable, not counted as independent audit pass."
+  ],
+  "query_observations": 13208,
+  "distinct_literal_queries": 10829,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
