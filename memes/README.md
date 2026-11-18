@@ -605,6 +605,7 @@
 - [외모 체크](appearance-check.md)
 - [우리 애 자랑 좀 할게요](show-off-our-kid.md)
 - [우린 안될 거야 아마](we-wont-make-it.md)
+- [우사기 랩](usagi-rap.md)
 - [우승 기념 주식 바겐세일](championship-stock-sale.md)
 - [우왕ㅋ굳ㅋ](wow-good.md)
 - [운동 많이 된다](good-exercise.md)
