@@ -762,6 +762,7 @@
 - [집콕](jipkok.md)
 - [집쿡](jipcook.md)
 - [짜짜](jjajja.md)
+- [짜파게티 남편](jjapagetti-husband.md)
 - [짤방](jjalbang.md)
 - [짤줍](jjaljup.md)
 - [짬에서 나오는 바이브](jjam-vibe.md)

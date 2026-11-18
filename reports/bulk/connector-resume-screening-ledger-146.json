@@ -127,10 +127,11 @@
     "reports/bulk/connector-resume-wave30-284.json",
     "reports/bulk/connector-resume-wave30-285.json",
     "reports/bulk/connector-resume-wave30-286.json",
-    "reports/bulk/connector-resume-wave30-287.json"
+    "reports/bulk/connector-resume-wave30-287.json",
+    "reports/bulk/connector-resume-wave30-289.json"
   ],
-  "query_observations": 2471,
-  "distinct_literal_queries": 2002,
+  "query_observations": 2499,
+  "distinct_literal_queries": 2027,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -12687,6 +12688,146 @@
     {
       "query": "motorcycle",
       "source": "reports/bulk/connector-resume-wave30-287.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 4월 밈 site:marieclairekorea.com",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 5월 밈 site:elle.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 6월 챌린지 site:esquirekorea.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앞머리 챌린지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고봉밥 남편\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다른 강아지\" \"관심\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앞머리\" \"챌린지\" \"누나\"",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"짜파게티 남편\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다른 강아지\" \"관심 없다고\"",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "앞머리",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고봉밥",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "다른 강아지",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "엽기 오뎅",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "장희빈",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "더러운 입",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "멋지다",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영ㅎㅎ",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영크크",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "앙탈",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "내 속엔 내가",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "김두한",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아웅다웅\" \"챌린지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아웅다웅 챌린지\" 투어스 제로베이스원",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아웅다웅 챌린지\" -site:namu.moe -site:maily.so -site:fanplus.co.kr -site:doobam.zumi100.com",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"짜파게티 남편\" site:fastpapermag.com",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "짜파게티",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "남편",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고봉밥",
+      "source": "reports/bulk/connector-resume-wave30-289.json",
       "status": "screened-see-report"
     }
   ],
