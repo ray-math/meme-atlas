@@ -58,10 +58,11 @@
     "reports/bulk/connector-resume-holds203.json",
     "reports/bulk/connector-resume-screening205.json",
     "reports/bulk/connector-resume-review207.json",
-    "reports/bulk/connector-resume-holds208.json"
+    "reports/bulk/connector-resume-holds208.json",
+    "reports/bulk/connector-resume-screening209.json"
   ],
-  "query_observations": 935,
-  "distinct_literal_queries": 759,
+  "query_observations": 938,
+  "distinct_literal_queries": 762,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -4938,6 +4939,21 @@
     {
       "query": "\"스피키\" \"소방관\" \"2026\" -site:namu.moe -site:d.namu.moe",
       "source": "reports/bulk/connector-resume-holds208.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월 18일\"",
+      "source": "reports/bulk/connector-resume-screening209.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쪼아요\" \"패러디\" \"2026\" -site:namu.moe -site:jjalbang.today -site:instablank.com",
+      "source": "reports/bulk/connector-resume-screening209.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"쪼아요\" site:tistory.com \"2026\"",
+      "source": "reports/bulk/connector-resume-screening209.json",
       "status": "screened-see-report"
     }
   ],
