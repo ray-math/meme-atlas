@@ -1,0 +1,305 @@
+{
+  "batch": 477,
+  "base": "a1e5a9d5c488ee74845b022f1c5da43bd9901934",
+  "canonical_before": 1409,
+  "canonical_after": 1419,
+  "added": [
+    "gwangsu-scarf-length-unit",
+    "argument-english-pronunciation-game",
+    "genesis-flood-photo-poster-parody",
+    "jyuji-sexual-slang-term",
+    "jujaksong-music-nickname",
+    "my-type-search-result-play",
+    "cutout-outfit-lookbook-sharing",
+    "thought-it-was-real-quote-template",
+    "oshi-no-ko-dance-cheer-challenge",
+    "spatial-photo-screen-recording"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0928",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "genesis-flood-photo-poster-parody"
+    },
+    {
+      "id": "kr-list-0951",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "jyuji-sexual-slang-term"
+    },
+    {
+      "id": "kr-list-0945",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "jujaksong-music-nickname"
+    },
+    {
+      "id": "kr-list-0963",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "thought-it-was-real-quote-template"
+    },
+    {
+      "id": "kr-list-0991",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "oshi-no-ko-dance-cheer-challenge"
+    }
+  ],
+  "previous_ci": {
+    "sha": "a1e5a9d5c488ee74845b022f1c5da43bd9901934",
+    "run": 44303674102,
+    "job": 134799567988,
+    "status": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 104.737s"
+  },
+  "previous_audit": {
+    "batch": 476,
+    "status": "PASS",
+    "mandatory": 0,
+    "urls": 13,
+    "oldPreserved": 1398,
+    "new": 11,
+    "changedFiles": 20,
+    "mappingLoss": 0,
+    "changedRows": 6,
+    "usage": {
+      "entries": 1409,
+      "annotated": 74,
+      "reviewed": 73,
+      "unannotated": 1335
+    }
+  },
+  "research": {
+    "A33": {
+      "count": 20,
+      "existing": 7,
+      "partial": 6,
+      "recommended": 1,
+      "held": 6,
+      "queries": [
+        "\"제 딸을 살해한 놈들을\" 패러디",
+        "\"조이는 보이\" 밈",
+        "\"제네시스좌\" 밈",
+        "\"제너럴 조\" 밈",
+        "\"제네시스좌\" 패러디 뉴스",
+        "\"제 딸을\" \"15년\" 패러디 광고",
+        "\"좀비가 넘치는 세상에서\" 밈 광고",
+        "\"제네시스좌\" \"합성\" 뉴스",
+        "\"조이는 보이\" \"패러디\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "0928 bounded photo-to-disaster-poster proposed,2blog explanations not2original creators;no identity speculation/media.0921 critical source only notpromotion.13existing bodies read."
+    },
+    "A34": {
+      "count": 20,
+      "existing": 16,
+      "partial": 1,
+      "recommended": 1,
+      "held": 2,
+      "queries": [
+        "\"지이잉\" 밈",
+        "\"진짠줄 알더라\" 밈",
+        "\"직구 금지\" 패러디"
+      ],
+      "notes": "0963 quote substitution only;Seoul2026-07-21 cites2021quote,notpoliticalclaimendorsement.17existingbodies,2externaltexts."
+    },
+    "B499": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 1,
+      "held": 12,
+      "excluded": 5,
+      "queries": [
+        "\"성취 케이크\" \"만들었\" 2026",
+        "\"그림\" \"소리\" \"playmusictheory\"",
+        "2026 \"밈\" \"놀이\" site:univ20.com",
+        "\"1광수\" \"목도리\" 2025",
+        "\"싸우다\" \"영어 발음 게임\"",
+        "\"성취 케이크\" \"완성\" 2026"
+      ],
+      "notes": "Two recoveries alreadydrafted;historical2678/2501 leads notallrecent.5pages read,no media."
+    },
+    "B500": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 3,
+      "held": 11,
+      "excluded": 4,
+      "queries": [
+        "\"MY TYPE\" \"생일\" \"놀이\"",
+        "\"초성\" \"이름 테스트\" \"유행\"",
+        "\"태극기 챌린지\" \"변신\"",
+        "2026 \"사진\" \"놀이\" site:univ20.com"
+      ],
+      "notes": "2678/2501 historical narrowed recoveries;4655Aug132026 ispast-experience retrospective not2026creation. Album scrapbook owncreatorhistory possible enrichment;no media."
+    },
+    "C14": {
+      "count": 20,
+      "existing": 11,
+      "partial": 3,
+      "held": 6,
+      "recommended": 0,
+      "enrichment": 2,
+      "queries": [
+        "\"잘생겨서 안 좋은 점\" 밈",
+        "\"잭 오 챌린지\" 게임",
+        "\"저세상\" \"드립\" 뜻",
+        "\"정상화\" \"밈\"",
+        "\"적폐\" \"게임\" \"뜻\"",
+        "\"저런\" \"앞으로 어찌될까요\"",
+        "\"정상수\" \"반말하지\" 패러디",
+        "\"잭오 챌린지\" -site:namu.moe -site:ssadic.com",
+        "\"저세상\" \"수식어\" 한국콘텐츠진흥원",
+        "\"정상화\" \"밈\" site:news1.kr",
+        "\"잭오 챌린지\" site:gamemeca.com",
+        "\"잘생겨서 안 좋은 점\" 패러디 -site:namu.moe"
+      ],
+      "notes": "0913existing quote may enrichWikitree707264+officialDaum3mO6jrZdlg;0909jeose-sang-tension may enrichJTBCcast/pr10011097.6external successes inclOPGGEnglish notKoreanconfirmation;2failed."
+    },
+    "C15": {
+      "count": 20,
+      "existing": 15,
+      "conditional": 2,
+      "held": 3,
+      "queries": [
+        "\"죄송합니다\" \"밈\" 개그",
+        "\"죽습니다 진짜\" 밈",
+        "\"주갤 항복 선언문\"",
+        "\"주작송\" 유래",
+        "\"쥬지\" \"뜻\"",
+        "\"주작송\" -site:namu.moe -site:seore.org -site:novawiki.app",
+        "\"주갤 항복 선언문\" -site:namu.moe -site:seore.org",
+        "\"죄송합니다\" \"케인\" -site:namu.moe -site:seore.org",
+        "\"주작송\" \"뜻\" -site:namu.moe -site:seore.org -site:alphawiki.org -site:novawiki.app",
+        "\"주갤\" \"항복\" \"선언문\" -site:namu.moe -site:seore.org",
+        "\"춥습니다 진짜\" \"황인수\"",
+        "\"죽습니다 진짜\" \"패러디\" -site:namu.moe -site:alphawiki.org",
+        "\"주작송\" \"핏불\" -site:namu.moe -site:alphawiki.org -site:seore.org -site:readonly.wiki"
+      ],
+      "notes": "0951 neutral slang definition only;0945 musical nickname notspecificparody mechanism;4externaltexts,15existingbodies."
+    },
+    "C16partial": {
+      "count": 1,
+      "recommended": 1,
+      "queries": [],
+      "notes": "0991 only inthischeckpoint;20-rowworkerreport pending. Newssis2023-06-22 date notURLJun19;HSAD2023-07-14. Other19rows to nextcheckpoint."
+    },
+    "B501partial": {
+      "count": 2,
+      "recommended": 1,
+      "held": 1,
+      "queries": [],
+      "notes": "spatialscreenrecording accepted,rosette held ordinarycelebrationstyling. Full20research notyetreceived;deferothers."
+    },
+    "editor": {
+      "count": 2,
+      "queries": [
+        "2026 11 \"밈\" \"새로운\" site:gogumafarm.kr",
+        "2026 11 \"밈\" \"유행\" site:univ20.com/Magazine/Detail",
+        "2026 11 \"밈\" \"놀이\" site:careet.net",
+        "2026 \"11월\" \"밈\" \"챌린지\" -site:namu.wiki -site:ssadic.com",
+        "2026 \"밈\" \"새롭게\" site:incross.com \"11\"",
+        "2026 \"밈\" \"11월\" site:careet.net/Newsletter/Detail",
+        "\"2026\" \"밈\" site:incross.com \"10월\"",
+        "\"2026\" \"밈\" site:careet.net \"11.17\""
+      ],
+      "notes": "Careet4372 2026-07-14 direct text: card-rating guessing and Wavelength reels explicitly overseas, domestic examples not established;2held not confirmed Korean. No images/videos. Careet2034Nov11 membershipwall onlyintro,notcandidateevidence.",
+      "held": 2
+    }
+  },
+  "sources": [
+    {
+      "id": "gwangsu-scarf-length-unit",
+      "urls": [
+        "https://www.incross.com/ko/insight/report.asp?idx=10636&mode=view&page=6&pageSize=12&searchStr=&serboardsort=",
+        "https://theqoo.net/diy/3995940003",
+        "https://community.sevy.co.kr/mate/니팅메이트-3기-겨울맞이-1광수-목도리/292"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "argument-english-pronunciation-game",
+      "urls": [
+        "https://www.incross.com/ko/insight/report.asp?idx=10636&mode=view&page=6&pageSize=12&searchStr=&serboardsort="
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "genesis-flood-photo-poster-parody",
+      "urls": [
+        "https://whitefaceone.tistory.com/2827",
+        "https://ksjkhy4539.tistory.com/entry/제네시스좌"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jyuji-sexual-slang-term",
+      "urls": [
+        "https://everymemes.tistory.com/105"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jujaksong-music-nickname",
+      "urls": [
+        "https://samsungofficial.tistory.com/326?category=1081487",
+        "https://news.nate.com/view/20180101n17887"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "my-type-search-result-play",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/2678"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "cutout-outfit-lookbook-sharing",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/2501"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "thought-it-was-real-quote-template",
+      "urls": [
+        "https://member.seoul.co.kr/news/2026/07/21/20260721500050"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "oshi-no-ko-dance-cheer-challenge",
+      "urls": [
+        "https://www.newsis.com/video/view/?id=NISX20230619_0002344507",
+        "https://blog.hsad.co.kr/m/3400"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "spatial-photo-screen-recording",
+      "urls": [
+        "https://www.cosmopolitan.co.kr/article/1896653"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "10new entries plus2source-only enrichments;no definition/index changes inenrichments.",
+    "Historical materialnotrequiredtobe2026; recentdateandactualeventdate separated.",
+    "Political phrase neutralquote substitution only,noassetclaims. Sexualslang non-graphic definition only. Disasterphoto noidentityspeculation.",
+    "One musicnickname nottwoentries;lyricquotes0. Noimage/video/app execution. C16/B501 fullreports pending;onlyacceptedsubsetcounted."
+  ],
+  "query_observations": 9332,
+  "distinct_literal_queries": 7920,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ],
+  "enriched_existing": [
+    "memes/dont-speak-informally-broadcast-quote.md",
+    "memes/jeose-sang-tension.md"
+  ]
+}
