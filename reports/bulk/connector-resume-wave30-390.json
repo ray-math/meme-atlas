@@ -1,0 +1,166 @@
+{
+  "batch": 390,
+  "base": "72ad8bcd56575c28f8f9eba4b33ff15162396e0e",
+  "canonical_before": 985,
+  "canonical_after": 985,
+  "added": [],
+  "editor": {
+    "queries": [
+      "\"2026\" \"밈\" \"직접\" \"만들어\" site:gov.kr",
+      "\"2026\" \"패러디\" \"릴스\" \"도서관\""
+    ],
+    "limits": "2검색결과없음.신규검증0.후보수로과장안함."
+  },
+  "semantic_audit": {
+    "sha": "72ad8bcd56575c28f8f9eba4b33ff15162396e0e",
+    "scope": "automatic_title_alias_match positions221-240",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0809",
+        "dictionary_id": "like-an-amateur",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0817",
+        "dictionary_id": "wow-good",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0818",
+        "dictionary_id": "we-wont-make-it",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0821",
+        "dictionary_id": "laugh-bell",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0823",
+        "dictionary_id": "wonyoung-thinking",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0832",
+        "dictionary_id": "euri",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0836",
+        "dictionary_id": "eumseum-style",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0838",
+        "dictionary_id": "eup-eup",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0839",
+        "dictionary_id": "eung-aniya",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0842",
+        "dictionary_id": "unexpected-win",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0845",
+        "dictionary_id": "cannot-resist",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0847",
+        "dictionary_id": "is-this-real",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0856",
+        "dictionary_id": "blanket-kick",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0859",
+        "dictionary_id": "i-siguge",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0861",
+        "dictionary_id": "you-in-here",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0862",
+        "dictionary_id": "iwaejin",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0864",
+        "dictionary_id": "no-room-to-retreat",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0865",
+        "dictionary_id": "this-car-is-mine",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0867",
+        "dictionary_id": "italian-brainrot",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0876",
+        "dictionary_id": "life-not-as-planned",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      }
+    ],
+    "bodies_read": 20,
+    "classification_changes": 0,
+    "limits": "AI영상계열은개별캐릭터전수아님.외부기원검증0/영상사진0.누적240행238고유본문"
+  },
+  "automatic_audit_cumulative": {
+    "rows": 240,
+    "distinct_rows": 240,
+    "distinct_bodies": 238,
+    "reports": [
+      376,
+      377,
+      379,
+      381,
+      383,
+      384,
+      385,
+      387,
+      388,
+      389,
+      390
+    ]
+  },
+  "ci": {
+    "report388": "pending",
+    "report389": "pending",
+    "new_commit": "pending"
+  }
+}

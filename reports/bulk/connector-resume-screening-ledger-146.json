@@ -217,10 +217,11 @@
     "reports/bulk/connector-resume-wave30-386.json",
     "reports/bulk/connector-resume-wave30-387.json",
     "reports/bulk/connector-resume-wave30-388.json",
-    "reports/bulk/connector-resume-wave30-389.json"
+    "reports/bulk/connector-resume-wave30-389.json",
+    "reports/bulk/connector-resume-wave30-390.json"
   ],
-  "query_observations": 5179,
-  "distinct_literal_queries": 4466,
+  "query_observations": 5181,
+  "distinct_literal_queries": 4468,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -26317,6 +26318,16 @@
     {
       "query": "\"오타쿠샷\" \"2026\" -site:instablank.com -site:jjalbang.today -site:jjalnews.com",
       "source": "reports/bulk/connector-resume-wave30-389.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"직접\" \"만들어\" site:gov.kr",
+      "source": "reports/bulk/connector-resume-wave30-390.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"패러디\" \"릴스\" \"도서관\"",
+      "source": "reports/bulk/connector-resume-wave30-390.json",
       "status": "screened-see-report"
     }
   ],
