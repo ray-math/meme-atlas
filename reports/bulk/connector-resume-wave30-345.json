@@ -1,0 +1,93 @@
+{
+  "batch": 345,
+  "base": "fd6b95f425d5d169995b16823f393a910d69a053",
+  "canonical_before": 969,
+  "canonical_after": 969,
+  "added": [],
+  "semantic_audit": {
+    "ids": [
+      "0082",
+      "0105",
+      "0125",
+      "0163",
+      "0201",
+      "0214",
+      "0227",
+      "0449",
+      "0462",
+      "0469",
+      "0521",
+      "0572",
+      "0583",
+      "0672",
+      "0688",
+      "0743",
+      "0788",
+      "0829",
+      "1064",
+      "1150"
+    ],
+    "rows": 20,
+    "partial": 20,
+    "classification_changes": 0,
+    "body_reads": 33,
+    "external_queries": 0,
+    "queries": [
+      "좌$|소울리스|한심좌",
+      "KBO|야구|양의지|삐끼|삼성|롯데|기아|한화",
+      "MBTI|너 T|유형",
+      "가짜사나이|인성 문제|4번",
+      "고길동|둘리|종로",
+      "곽철용|묻고|배신자|마포대교",
+      "궁예|기침|관심법",
+      "마루는|이 손|짱이지",
+      "길드립|맥주 광고|맥스",
+      "멈뭄미|고먐미|고먐",
+      "박대기|눈사람 기자",
+      "빅데이터|휴먼|로봇",
+      "빵상|깨랑까랑",
+      "쌉|ssap",
+      "아마존|소울리스",
+      "어몽|임포스터|among",
+      "오징어 게임|성기훈|깐부|무궁화|영희",
+      "유튜브 알고리즘|알고리즘",
+      "페이커|Faker|불 좀|대상혁|맞아맞아",
+      "흑백요리사|이븐|들기름|안성재|최강록"
+    ],
+    "mapping_additions": [
+      {
+        "id": "kr-list-0105",
+        "dictionary_id": "naneun-haengbokhamnida",
+        "editor_body_read": true,
+        "reason": "Body directly describes Hanwha cheering and response to game results."
+      }
+    ],
+    "limits": "Same actor, team-related theme, program cast, similar spelling or general genre do not establish full semantic identity. 1064 yes-surprisingly-true not added: current body does not confirm player origin. Original candidate file unchanged."
+  },
+  "editor": {
+    "queries": [],
+    "source_checks": [
+      {
+        "url": "https://gall.dcinside.com/board/view/?id=reptile&no=988849",
+        "result": "Editor read 2026-06-04 title/body phrase at L296-313, two images unviewed; scenario unverified."
+      },
+      {
+        "url": "https://www.inven.co.kr/board/webzine/2097/2646066?iskin=maple&p=461",
+        "result": "502 again, not verified."
+      }
+    ],
+    "decision": "0971 hold; one direct recent text is not two independently understood applications."
+  },
+  "ci": {
+    "report343": {
+      "run": 44238310101,
+      "conclusion": "success",
+      "python_tests": 495,
+      "seconds": 105.785
+    },
+    "report344": {
+      "run": 44238677647,
+      "status": "in_progress_at_preparation"
+    }
+  }
+}

@@ -173,10 +173,11 @@
     "reports/bulk/connector-resume-wave30-341.json",
     "reports/bulk/connector-resume-wave30-342.json",
     "reports/bulk/connector-resume-wave30-343.json",
-    "reports/bulk/connector-resume-wave30-344.json"
+    "reports/bulk/connector-resume-wave30-344.json",
+    "reports/bulk/connector-resume-wave30-345.json"
   ],
-  "query_observations": 4008,
-  "distinct_literal_queries": 3426,
+  "query_observations": 4028,
+  "distinct_literal_queries": 3446,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -20418,6 +20419,106 @@
     {
       "query": "홍박사|박사님",
       "source": "reports/bulk/connector-resume-wave30-344.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "좌$|소울리스|한심좌",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "KBO|야구|양의지|삐끼|삼성|롯데|기아|한화",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "MBTI|너 T|유형",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가짜사나이|인성 문제|4번",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고길동|둘리|종로",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "곽철용|묻고|배신자|마포대교",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "궁예|기침|관심법",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마루는|이 손|짱이지",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "길드립|맥주 광고|맥스",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "멈뭄미|고먐미|고먐",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "박대기|눈사람 기자",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빅데이터|휴먼|로봇",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빵상|깨랑까랑",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쌉|ssap",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아마존|소울리스",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "어몽|임포스터|among",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오징어 게임|성기훈|깐부|무궁화|영희",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "유튜브 알고리즘|알고리즘",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "페이커|Faker|불 좀|대상혁|맞아맞아",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "흑백요리사|이븐|들기름|안성재|최강록",
+      "source": "reports/bulk/connector-resume-wave30-345.json",
       "status": "screened-see-report"
     }
   ],
