@@ -177,3 +177,4 @@
 - [왕과 사는 남자 제목 바꾸기](../memes/king-title-wordplay.md)
 - [한 번만 더 건드리면 내가 누군지 알려줄게](../memes/touch-again-introduction.md)
 - [펄~럭](../memes/peolleok-flag-reaction.md)
+- [○○에 ○○의 등장이라](../memes/appearance-narrator-template.md)

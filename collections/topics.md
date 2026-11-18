@@ -95,6 +95,7 @@
 - [○○ 와졌어](../memes/ended-up-here.md)
 - [○○ 필수 호신술](../memes/everyday-self-defense-parody.md)
 - [○○가 되](../memes/becomes-oo.md)
+- [○○에 ○○의 등장이라](../memes/appearance-narrator-template.md)
 - [○○은 사드세요 제발](../memes/please-buy-it-template.md)
 - [○○핑](../memes/oo-ping.md)
 - [ㄹㅇㅋㅋ](../memes/real-lol.md)

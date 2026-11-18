@@ -194,10 +194,11 @@
     "reports/bulk/connector-resume-wave30-362.json",
     "reports/bulk/connector-resume-wave30-363.json",
     "reports/bulk/connector-resume-wave30-364.json",
-    "reports/bulk/connector-resume-wave30-365.json"
+    "reports/bulk/connector-resume-wave30-365.json",
+    "reports/bulk/connector-resume-wave30-367.json"
   ],
-  "query_observations": 4556,
-  "distinct_literal_queries": 3908,
+  "query_observations": 4607,
+  "distinct_literal_queries": 3947,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -23179,6 +23180,261 @@
     {
       "query": "\"너굴맨이 처리\" -site:namu.moe -site:seore.org",
       "source": "reports/bulk/connector-resume-wave30-365.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"등장이라\" \"2026\" -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"등장이라\" \"2025\" 뉴스레터",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"등장이라\" site:ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"등장이라\" \"밈\" 원본 -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "등장이라",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "루시퍼",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사탄",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "재밌어지겠",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "등장",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"1초만에 사람을 낚는 방법\"",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"64 bits\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"맥스웰 캣\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"냥캣\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"핑구\" \"누트누트\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"맥스웰\" \"고양이\" \"만들\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"냥캣\" \"만들었\"",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"1초만에 사람\" -site:namu.moe -site:seore.org -site:tcatmon.com",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"64비트\" 밈 만들기",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"맥스웰 캣\"",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Terrified Noot Noot\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"냥캣\" \"만들었습니다\"",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "냥캣",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "maxwell",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "맥스웰",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누트",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "noot",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "64 bits",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "1초만",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "핑구",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "nyan",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야 기분 좋다|기분.?좋",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아냐|포저|스파이",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야후|꾸러기",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "약한 사내|미친놈들|미친 놈들",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "어나니머스|anonymous|가이.?포크스",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "메갈|어둠의",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "어몽|임포스터|잼민",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "작업중|작업 중",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "얼리|엑세스|액세스|early",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "엉덩국|둘리",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "엄준식|엄.?준.?식",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "엠생|인생",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "파이터|아이돌.*랭킹",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오니기리|주먹밥",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오빠.*몰라",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오다|에이치로|원피스",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오덕페이트|페이트",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "오물|풍선",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "옥동자|정종철",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "와칭|제노",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "등장이라|삐에로|서커스",
+      "source": "reports/bulk/connector-resume-wave30-367.json",
       "status": "screened-see-report"
     }
   ],

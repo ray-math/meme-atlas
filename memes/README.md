@@ -40,6 +40,7 @@
 - [○○냥이](nyang-parody.md)
 - [○○는 완전히 멘탈이 나가버렸습니다](completely-lost-their-minds.md)
 - [○○만 원이지만 또 가고 싶은 ○○](expensive-but-want-again.md)
+- [○○에 ○○의 등장이라](appearance-narrator-template.md)
 - [○○은 사드세요 제발](please-buy-it-template.md)
 - [○○핑](oo-ping.md)
 - [ㄹㅇㅋㅋ](real-lol.md)
