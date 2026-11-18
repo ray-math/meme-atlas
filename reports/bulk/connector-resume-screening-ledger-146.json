@@ -67,10 +67,11 @@
     "reports/bulk/connector-resume-screening214.json",
     "reports/bulk/connector-resume-screening215.json",
     "reports/bulk/connector-resume-discovery216.json",
-    "reports/bulk/connector-resume-screening218.json"
+    "reports/bulk/connector-resume-screening218.json",
+    "reports/bulk/connector-resume-audit219.json"
   ],
-  "query_observations": 1051,
-  "distinct_literal_queries": 847,
+  "query_observations": 1054,
+  "distinct_literal_queries": 850,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -5527,6 +5528,21 @@
     {
       "query": "\"저 됐어요\" \"밈\" 원본",
       "source": "reports/bulk/connector-resume-screening218.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목\" site:news.kyobobook.co.kr",
+      "source": "reports/bulk/connector-resume-audit219.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:incheon.go.kr",
+      "source": "reports/bulk/connector-resume-audit219.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"차용\" \"도서관\"",
+      "source": "reports/bulk/connector-resume-audit219.json",
       "status": "screened-see-report"
     }
   ],
