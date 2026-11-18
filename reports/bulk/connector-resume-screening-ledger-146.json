@@ -220,10 +220,11 @@
     "reports/bulk/connector-resume-wave30-389.json",
     "reports/bulk/connector-resume-wave30-390.json",
     "reports/bulk/connector-resume-wave30-391.json",
-    "reports/bulk/connector-resume-wave30-392.json"
+    "reports/bulk/connector-resume-wave30-392.json",
+    "reports/bulk/connector-resume-wave30-393.json"
   ],
-  "query_observations": 5202,
-  "distinct_literal_queries": 4486,
+  "query_observations": 5210,
+  "distinct_literal_queries": 4494,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -26435,6 +26436,46 @@
     {
       "query": "\"손하트 거절\" \"챌린지\"",
       "source": "reports/bulk/connector-resume-wave30-392.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제작했다\" -site:instablank.com -site:jjalbang.today -젠슨",
+      "source": "reports/bulk/connector-resume-wave30-393.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목으로\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-393.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.sbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-393.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"부캉이\" 게임",
+      "source": "reports/bulk/connector-resume-wave30-393.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"퇴직연금\"",
+      "source": "reports/bulk/connector-resume-wave30-393.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"부캉이\" \"웹게임\" -site:instablank.com -site:jjalnews.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-393.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"빙고카드\" \"없\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-393.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.suwon.go.kr \"리센느\"",
+      "source": "reports/bulk/connector-resume-wave30-393.json",
       "status": "screened-see-report"
     }
   ],
