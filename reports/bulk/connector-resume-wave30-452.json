@@ -1,0 +1,447 @@
+{
+  "batch": 452,
+  "base": "2143e67d03297886b36e4bb36dbd4ef02725e850",
+  "canonical_before": 1139,
+  "canonical_after": 1151,
+  "added": [
+    "seosun-order-reaction",
+    "ai-clone-group-dance",
+    "namjya-eopnya-request-template",
+    "eum-maehokjeok-reaction",
+    "nokono-tattat-blame-template",
+    "changnyeol-value-criticism",
+    "chogeulling-derogatory-label",
+    "jjanggu-did-you-fool-dad",
+    "salt-salt-red-bean-reaction",
+    "holiday-breaking-news-parody",
+    "chunggongkkaeng-shock-reaction",
+    "jagaldol-music-remix"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0620",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "seosun-order-reaction"
+    },
+    {
+      "id": "kr-list-0953",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "nokono-tattat-blame-template"
+    },
+    {
+      "id": "kr-list-0980",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "changnyeol-value-criticism"
+    },
+    {
+      "id": "kr-list-0985",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "chogeulling-derogatory-label"
+    },
+    {
+      "id": "kr-list-0971",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "jjanggu-did-you-fool-dad"
+    },
+    {
+      "id": "kr-list-0634",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "salt-salt-red-bean-reaction"
+    },
+    {
+      "id": "kr-list-0636",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "holiday-breaking-news-parody"
+    },
+    {
+      "id": "kr-list-0993",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "chunggongkkaeng-shock-reaction"
+    },
+    {
+      "id": "kr-list-1007",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "jagaldol-music-remix"
+    }
+  ],
+  "previous_ci": {
+    "run": 44276772040,
+    "job": 134706793191,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 62.600s"
+  },
+  "previous_audit": {
+    "sha": "2143e67d03297886b36e4bb36dbd4ef02725e850",
+    "canonical": 1139,
+    "entries_read": 12,
+    "index_existing_unchanged": 1127,
+    "source_urls_read": 20,
+    "required": 0,
+    "optional": 0,
+    "images_videos": 0
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "ids": [
+        "0593",
+        "0595",
+        "0596",
+        "0599",
+        "0600",
+        "0601",
+        "0603",
+        "0604",
+        "0605",
+        "0606",
+        "0607",
+        "0608",
+        "0609",
+        "0610",
+        "0611",
+        "0614",
+        "0617",
+        "0618",
+        "0619",
+        "0620"
+      ],
+      "recommended": [
+        "0620"
+      ],
+      "partial_maintained": [
+        "0596",
+        "0603",
+        "0605",
+        "0611",
+        "0614"
+      ],
+      "held": 14,
+      "queries": [
+        "\"사카밤바스피스\" 밈 패러디",
+        "\"서순\" 드립 뜻",
+        "\"삼각함수송\" 패러디",
+        "\"샤방송\" 밈",
+        "\"사고 쳤을 때\" \"입 다물고\"",
+        "\"사정없이 보내버리겠다\" 패러디",
+        "\"사랑의 열매\" 밈",
+        "\"삼각함수송\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"서순\" \"뜻\" 블로그",
+        "\"삼각함수송\" 패러디 로블록스",
+        "\"샤방송\" 뜻",
+        "\"섊\" 뜻",
+        "\"사이버펑크\" \"밈\" \"한국\"",
+        "\"사회적 거리두기\" \"밈\"",
+        "\"삼성걸\" \"패러디\"",
+        "\"서로 깨물었을 때 반응\""
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": [
+        "AI 분신 군무",
+        "남쟈 없냐 남쟈",
+        "음 매혹적"
+      ],
+      "existing": 9,
+      "held": 7,
+      "excluded": 1,
+      "queries": [
+        "2026 \"밈\" \"화면\" \"편집\" site.gogumafarm.kr",
+        "2026 \"밈\" \"말투\" site.careet.net",
+        "2026 \"챌린지\" \"사진\" site.allurekorea.com",
+        "\"장영란\" \"AI\" \"챌린지\" 2026",
+        "\"셋로그\" \"2026\" 챌린지",
+        "\"배경 트랜지션\" 릴스 2026",
+        "\"사진\" \"20개\" \"인스타\" 2026",
+        "\"배경 트랜지션\" 릴스 -site:instablank.com",
+        "\"사진 쪼개기\" \"2026\" 인스타",
+        "\"박수 치는\" \"고양이\" \"2026\" 밈",
+        "\"남쟈 없냐\" 2026",
+        "site:gogumafarm.kr \"남쟈\"",
+        "\"기대컨\" 2026 기사",
+        "\"동엽이\" \"신조어\"",
+        "\"음 매혹적\" 감독"
+      ]
+    },
+    "C": {
+      "count": 20,
+      "ids": [
+        "0945",
+        "0946",
+        "0951",
+        "0953",
+        "0959",
+        "0960",
+        "0963",
+        "0965",
+        "0971",
+        "0972",
+        "0974",
+        "0975",
+        "0977",
+        "0978",
+        "0980",
+        "0981",
+        "0982",
+        "0983",
+        "0985",
+        "0986"
+      ],
+      "recommended": [
+        "0953",
+        "0980",
+        "0985"
+      ],
+      "conditional": [
+        "0971",
+        "0975"
+      ],
+      "partial_maintained": [
+        "0978",
+        "0981"
+      ],
+      "held": 13,
+      "queries": [
+        "\"주작송\" \"밈\" 기사",
+        "\"지가\" \"노코노코\" \"탓탓\"",
+        "\"진짠줄 알더라\" 밈",
+        "\"짱구야 아빠를 속인거니\"",
+        "\"주작송\" \"디지몬\"",
+        "\"창렬\" 뜻 뉴스",
+        "\"초글링\" 뜻 기사",
+        "\"지이잉\" 밈",
+        "\"주작송\" 뉴스 \"날아오르라\"",
+        "\"죽창 드립\" 기사",
+        "\"찐찌버거\" 뜻",
+        "\"지이잉\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"진짠줄 알더라\" 패러디 -site:namu.moe -site:ilbe.com",
+        "\"주작송\" \"기사\" -site:namu.moe",
+        "\"천안문 드립\" 뜻",
+        "\"천상천하 유아독존\" 밈",
+        "\"주작송\" \"현무\" \"디지몬\"",
+        "\"죽창\" \"드립\" \"뜻\"",
+        "\"진순이\" 밈",
+        "\"초난강\" \"밈\" \"사랑해요\""
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "ids": [
+        "0988",
+        "0989",
+        "0990",
+        "0991",
+        "0993",
+        "0994",
+        "0996",
+        "0997",
+        "1001",
+        "1003",
+        "1004",
+        "1005",
+        "1006",
+        "1007",
+        "1009",
+        "1010",
+        "1011",
+        "1012",
+        "1015",
+        "1016"
+      ],
+      "recommended": [
+        "0993",
+        "1007"
+      ],
+      "conditional": [
+        "0994",
+        "1012"
+      ],
+      "partial_maintained": [
+        "0988",
+        "1001"
+      ],
+      "held": 14,
+      "queries": [
+        "\"초코빅송\"",
+        "\"최근 한 온라인 커뮤니티 게시판에는\" \"밈\"",
+        "\"캐피탈리즘 호\" 밈",
+        "\"커다란 자갈돌은 짱돌\"",
+        "\"맛있는 겨울배\" 밈",
+        "\"한화의 김성근 감독님 사랑해\" 밈",
+        "\"카페인 과다복용 맨\"",
+        "\"충격과 공포다\" 밈",
+        "\"초코빅\" \"패러디\"",
+        "\"취직 잘되는 사회를 만들든가\"",
+        "\"차차핑\" 밈",
+        "\"캡콤은 개껌이 아니라\"",
+        "\"캐피탈리즘\" \"호\" site:gamemeca.com",
+        "\"카페인 과다복용 맨\" -site:namu.moe -site:seore.org",
+        "\"캬루\" \"밈\" 기사",
+        "\"김성근\" \"응원가\" \"밈\" 기사",
+        "\"충공깽\" site:newsis.com",
+        "\"커다란 자갈돌은 짱돌\" -site:namu.moe -site:seore.org -site:huggingface.co",
+        "\"초코빅송\" -site:namu.moe -site:seore.org",
+        "\"맛있는 겨울배\" -site:namu.moe -site:alphawiki.org"
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "ids": [
+        "0621",
+        "0622",
+        "0624",
+        "0625",
+        "0627",
+        "0628",
+        "0630",
+        "0631",
+        "0633",
+        "0634",
+        "0636",
+        "0638",
+        "0639",
+        "0640",
+        "0646",
+        "0648",
+        "0649",
+        "0651",
+        "0652",
+        "0653"
+      ],
+      "recommended": [
+        "0634",
+        "0636"
+      ],
+      "held": 18,
+      "queries": [
+        "\"슈퍼 아이돌\" 밈 패러디",
+        "\"소금소금소금팥팥팥\"",
+        "\"스너고\" 밈",
+        "\"스핔이\" 밈",
+        "\"섣불리 판단하면 안되는 이유\"",
+        "\"센송합니다\" 뜻",
+        "\"수박도\" 드립",
+        "\"스까듭밥\"",
+        "\"슈퍼 아이돌\" \"패러디\" 블로그",
+        "\"소금소금소금팥팥팥\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"성윤모\" \"패러디\"",
+        "\"스키비디 토일렛\" \"패러디\" 한국",
+        "\"소금소금소금팥팥팥\" site:theqoo.net",
+        "\"슈퍼아이돌\" site:whitefaceone.tistory.com",
+        "\"속보)\" \"드립\"",
+        "\"수박도\" \"드립\" 패러디"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "seosun-order-reaction",
+      "urls": [
+        "https://memeislife.tistory.com/33"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ai-clone-group-dance",
+      "urls": [
+        "https://www.tenasia.co.kr/article/2026092450094"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "namjya-eopnya-request-template",
+      "urls": [
+        "https://gogumafarm.kr/요즘-유행하는-밈-모음-green-green-2026년-5월-최신-밈-모음/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "eum-maehokjeok-reaction",
+      "urls": [
+        "https://maily.so/trendaword/posts/g1o4dw46ove"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nokono-tattat-blame-template",
+      "urls": [
+        "https://maily.so/trendaword/posts/8do7qj4ergq"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "changnyeol-value-criticism",
+      "urls": [
+        "https://ichannela.com/news/detail/67222257-2.do"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "chogeulling-derogatory-label",
+      "urls": [
+        "https://view.asiae.co.kr/article/2009120711410645763",
+        "https://www.incheon.go.kr/moo/MOO020101/1954037"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jjanggu-did-you-fool-dad",
+      "urls": [
+        "https://whitefaceone.tistory.com/3247"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "salt-salt-red-bean-reaction",
+      "urls": [
+        "https://whitefaceone.tistory.com/2467",
+        "https://nara.tistory.com/3044"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "holiday-breaking-news-parody",
+      "urls": [
+        "https://whitefaceone.tistory.com/2792"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "chunggongkkaeng-shock-reaction",
+      "urls": [
+        "https://journal.kci.go.kr/kats/archive/articlePdf?artiId=ART001752911"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jagaldol-music-remix",
+      "urls": [
+        "https://whitefaceone.tistory.com/2588"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "100reviewed candidates incl80ledger rechecks+20recent;not100newmemes.",
+    "Kukinews editor403;changnyeol citesonlyChannelA.",
+    "0971acceptednarrow;0975/0994/1012held.",
+    "451audit12bodies/20URLs PASS required0 optional0.",
+    "No lyrics transcription;AI title editorialnotestablished."
+  ],
+  "query_observations": 7230,
+  "distinct_literal_queries": 6325,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
