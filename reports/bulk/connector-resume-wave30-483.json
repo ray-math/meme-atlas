@@ -1,0 +1,258 @@
+{
+  "batch": 483,
+  "base": "5750ef7f06047c24aa26327aba8d886ac61e49f6",
+  "canonical_before": 1470,
+  "canonical_after": 1479,
+  "added": [
+    "umauma-character-dance",
+    "royal-dna-phrase-borrowing",
+    "will-smith-awards-scene-parody",
+    "day-night-romance-role-abbreviations",
+    "nuna-na-jugeo-objectifying-reaction",
+    "newjeanseureopda-service-complaint-label",
+    "new-year-first-song-midnight-timing",
+    "my-answer-dramatic-reply-link",
+    "pokemon-card-self-portrait-play"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0814",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "umauma-character-dance"
+    },
+    {
+      "id": "kr-list-0804",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "royal-dna-phrase-borrowing"
+    },
+    {
+      "id": "kr-list-0827",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "will-smith-awards-scene-parody"
+    },
+    {
+      "id": "kr-list-0312",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "day-night-romance-role-abbreviations"
+    },
+    {
+      "id": "kr-list-0345",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "nuna-na-jugeo-objectifying-reaction"
+    },
+    {
+      "id": "kr-list-0348",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "newjeanseureopda-service-complaint-label"
+    },
+    {
+      "id": "kr-list-0753",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "baby-dooly-situation-reparody",
+      "existing_body": true
+    }
+  ],
+  "previous_ci": {
+    "sha": "5750ef7f06047c24aa26327aba8d886ac61e49f6",
+    "run": 44309628312,
+    "job": 134820079042,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 78.220s"
+  },
+  "previous_audit": {
+    "batch": 482,
+    "sha": "5750ef7f06047c24aa26327aba8d886ac61e49f6",
+    "mandatory_fixes": 0,
+    "old_records_preserved": 1457,
+    "changed_files": 22,
+    "new_entries": 13,
+    "candidate_changes": 11,
+    "mapping_losses": 0,
+    "urls": 18,
+    "reopened": 18,
+    "media": 0,
+    "usage": {
+      "total": 1470,
+      "annotated": 74,
+      "reviewed": 73,
+      "unannotated": 1396
+    },
+    "cleanup": "Remove obsolete0228notyetpromoted note from482report nextcheckpoint; actualcoverage correct"
+  },
+  "research": {
+    "A45": {
+      "count": 20,
+      "recommended": 3,
+      "held": 17,
+      "queries": [
+        "\"오 샹젤리제\" 패러디",
+        "\"오타쿠가 정치글을\"",
+        "\"오 필승 코리아\" 패러디",
+        "\"옥동자\" 유행어 패러디",
+        "\"왕사슴 가이즈\"",
+        "\"우리 업계에서는 포상입니다\"",
+        "\"우마우마\" 춤",
+        "\"유루유리 하지마루요\"",
+        "\"옴마니반메훔\" 밈",
+        "\"와퍼\" 밈",
+        "\"왕의 DNA\" 패러디",
+        "\"왕이되는자\" 광고 패러디",
+        "\"원앙시해자\"",
+        "\"요 요요\" 밈",
+        "\"우연히\" \"밈\" 김수미",
+        "\"윌 스미스\" \"패러디\"",
+        "\"우마우마\" \"서든어택\"",
+        "\"우리 업계에서는 포상\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"우연히\" 김수미 노래 밈",
+        "\"왕의 DNA\" 패러디 퀴즈왕",
+        "\"오타쿠가 정치글\" -site:namu.moe -site:seore.org",
+        "\"와퍼\" \"밈\" 버거킹",
+        "\"우연히\" 김종민 밈",
+        "\"요! 요요!\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "20priorrows,3limitedrecommendations17held.7external bodies,1existingbody.0779/0782/0783/0826noexternalquery.Originalmedia0."
+    },
+    "C25": {
+      "count": 20,
+      "recommended": 3,
+      "conditional": 1,
+      "held": 16,
+      "queries": [
+        "\"나는 예쁘지 않습니다\" 밈",
+        "\"나여 백종원\" 밈",
+        "\"날 내버려둬\" 밈 유래",
+        "\"낮져밤이\" 뜻 신조어",
+        "\"내 거에 올라온 네 욕 볼래\"",
+        "\"내 식사를 방해할 생각인가\"",
+        "\"너 개못하잖아\" 뜻",
+        "\"너반시\" 뜻",
+        "\"너 쌓여있잖아\" 뜻",
+        "\"넣을게\" 밈 뜻",
+        "\"네가 하면 나도 한다\" 무한도전",
+        "\"네 설명해드렸습니다\" 밈",
+        "\"노란 리본 캠페인\" 의미",
+        "\"노 재팬\" 로고 패러디",
+        "\"누나 나 죽어\" 뜻",
+        "\"누나 좋아해요\" 밈",
+        "\"뉴진스럽다\" 신조어",
+        "\"늬픽\" 뜻",
+        "\"닌자 몰살\" 소설 패러디 -site:namu.moe -site:seore.org",
+        "\"노무현의 시대가 오겠어요\" 패러디"
+      ],
+      "notes": "3limited criticaldefinitions1conditionalsameprogramcompetitionphrase;16held. No socialmovement automaticallymeme. No media. Newjeans2reports samecollaborationcontroversy not2events.",
+      "editor_disposition": {
+        "published": 3,
+        "held": 17,
+        "conditional0335": "Two episodes same show/person establish recurring broadcast phrase but independent meme reuse not established; held rather than padding batch."
+      }
+    },
+    "B511": {
+      "count": 20,
+      "recommended": 3,
+      "existing": 7,
+      "held": 7,
+      "excluded": 3,
+      "queries": [
+        "\"2026\" \"유행\" \"놀이\" site:weekly.donga.com",
+        "\"2026\" \"밈\" site:woman.donga.com",
+        "\"2026\" \"챌린지\" site:harpersbazaar.co.kr",
+        "\"내 대답은\" \"cheo0y\"",
+        "\"새해 첫 곡\" \"2026\" \"재생\"",
+        "\"포켓몬\" \"Lost Technology Pictures\""
+      ],
+      "notes": "1470 index checked. Canonical article reads, media/services0. Rewritten-summary-only results held. 3 recommendations accepted."
+    }
+  },
+  "sources": [
+    {
+      "id": "umauma-character-dance",
+      "urls": [
+        "https://sa.nexon.com/community/movie/view.aspx?n4ArticleCategorySN=3&n4ArticleSN=2645403&n4PageNo=102",
+        "https://whitefaceone.tistory.com/2313"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "royal-dna-phrase-borrowing",
+      "urls": [
+        "https://www.inews24.com/view/1623901"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "will-smith-awards-scene-parody",
+      "urls": [
+        "https://www.insight.co.kr/news/389337"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "day-night-romance-role-abbreviations",
+      "urls": [
+        "https://www.edaily.co.kr/news/read?mediaCodeNo=258&newsId=01748246602976200",
+        "https://www.viva100.com/20150301010000009"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nuna-na-jugeo-objectifying-reaction",
+      "urls": [
+        "https://www.mt.co.kr/entertainment/2021/11/09/2021110908213662299"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "newjeanseureopda-service-complaint-label",
+      "urls": [
+        "https://www.mt.co.kr/society/2024/06/23/2024062314200461019",
+        "https://www.tenasia.co.kr/article/2024062596564"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "new-year-first-song-midnight-timing",
+      "urls": [
+        "https://m.civicnews.com/news/articleView.html?idxno=39247",
+        "https://weekly.donga.com/culture/article/all/11/6039403/1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "my-answer-dramatic-reply-link",
+      "urls": [
+        "https://weekly.donga.com/culture/article/all/11/6373582/1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pokemon-card-self-portrait-play",
+      "urls": [
+        "https://weekly.donga.com/culture/article/all/11/6373582/1"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Umaumasource title/songperformer history ambiguous excluded. Originalmedia0.",
+    "9 new entries from 60 observations; 7 existing, 41 held, 3 excluded. Observations include rechecks, not 60 unique new memes.",
+    "0335 held: same-program repeated phrase alone not promoted to independent meme.",
+    "Newjeans definition based on MT community-use report and TenAsia contextual criticism; wiki registration not origin evidence. No allegation independently adjudicated.",
+    "0312 sexual slang is non-graphic, rejects gender stereotypes and consent inference.",
+    "0753 existing Baby Dooly reparody connection partial only; no new canonical.",
+    "Corrected stale batch482 editor note; its already-published 0228 mapping unchanged."
+  ],
+  "query_observations": 9786,
+  "distinct_literal_queries": 8232,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
