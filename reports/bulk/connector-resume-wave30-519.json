@@ -1,0 +1,336 @@
+{
+  "batch": 519,
+  "base": "80881caf18c881a3b7a904d73c7834b818547d1b",
+  "canonical_before": 1828,
+  "canonical_after": 1838,
+  "added": [
+    "jeongttuktteol-affection-drop",
+    "phone-ai-batni-contact-screen",
+    "nerd-mi-character-style-charm",
+    "salk-character-comment-ending",
+    "cham-joeunde-expression-hesitation",
+    "bunmyeonghamnida-press-conference-parody",
+    "not-advertising-ad-copy-parody",
+    "ssapeong-pipeong-playful-question",
+    "fox-flirting-nickname",
+    "flirting-affection-expression"
+  ],
+  "candidate_changes": [],
+  "previous_ci": {
+    "run": 44365907253,
+    "job": 135019418114,
+    "sha": "80881caf18c881a3b7a904d73c7834b818547d1b",
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 110.001s"
+    ]
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "required_changes": 0,
+    "sha": "80881caf18c881a3b7a904d73c7834b818547d1b",
+    "files": 19,
+    "entries": 1828,
+    "old_records_unchanged": 1818,
+    "old_bodies_changed": 0,
+    "queries": 13313,
+    "distinct": 10917,
+    "coverage": "204/316/76/162/328/5"
+  },
+  "research": {
+    "C131": {
+      "observations": 10,
+      "recommendations": 1,
+      "existing": 3,
+      "conditional": 1,
+      "held": 5,
+      "external_bodies_read": 3,
+      "failed_opens": 2,
+      "queries": [
+        "\"2026\" \"신조어\" \"추구미\" \"도파민\"",
+        "\"2026\" \"완식\" \"완밥\"",
+        "\"2026\" \"억텐\" \"낮텐\"",
+        "\"낮텐\" \"2026\" 기사",
+        "\"정뚝떨\" \"2026\" 기사",
+        "\"덕통사고\" \"2026\" 기사",
+        "\"정뚝떨\" \"정이 뚝\" 신조어",
+        "\"낮텐\" 뜻 기사",
+        "\"하이텐션\" \"2026\" site:enews.imbc.com",
+        "\"하이텐션\" \"2026\" \"iMBC\"",
+        "\"낮텐\" 연예",
+        "\"극락\" \"뜻\" \"2026\""
+      ],
+      "note": "Jeongttuk article actualdateJune24notURLJune20; recentarticlepreviewtextnotexactspokenquote."
+    },
+    "A141": {
+      "observations": 8,
+      "recommendations": 1,
+      "held": 7,
+      "external_bodies_read": 3,
+      "queries": [
+        "\"chip\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"camel singing maliali song\" 한국 -site:namu.moe -site:seore.org",
+        "\"김헌곤 유니버스\" -site:namu.moe -site:seore.org",
+        "\"곤룡포좌\" 패러디 -site:namu.moe -site:seore.org",
+        "\"구찌보이\" 밈 -site:namu.moe -site:seore.org",
+        "\"꾸래핑\" 밈 -site:namu.moe -site:seore.org",
+        "\"노무현의 시대가 오겠어요\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"막심 센세\" -site:namu.moe -site:seore.org",
+        "\"노무현의 시대가 오겠어요\" -site:namu.moe -site:seore.org",
+        "\"김헌곤 유니버스\" 기사",
+        "\"돌아가는 감자칩\" 밈 -site:mika.co.kr -site:namu.moe -site:seore.org",
+        "\"구찌보이\" \"챌린지\" \"아스터\" 기사"
+      ],
+      "note": "0360 source already included/audited batch518, querylist arrived aftercheckpoint, notnew entryin519. Other7held; names/fullmedia notsameasmeme."
+    },
+    "editor_followup": {
+      "observations": 3,
+      "queries": [
+        "2026 \"유행어\" \"패러디\" \"제작\" -site:namu.wiki -site:namu.moe -site:instablank.com -site:tistory.com",
+        "2026 \"밈\" \"문구\" \"현수막\" -site:namu.wiki -site:namu.moe",
+        "2026 \"밈\" \"따라\" \"캠페인\" -site:namu.wiki -site:namu.moe",
+        "2026 \"밈\" \"따라했다\" -site:namu.wiki -site:instablank.com -site:namu.moe",
+        "2026 \"신조어\" \"직접\" \"사용\" site:allurekorea.com",
+        "2026 \"밈\" \"댓글\" site:news.sbs.co.kr",
+        "\"감다뒤\" \"뜻\" 기사",
+        "\"감다뒤\" \"2026\" -site:namu.wiki -site:namu.moe -site:instablank.com",
+        "\"분명하다\" \"패러디\" \"곽범\""
+      ],
+      "note": "Kyosu202596 bodyread bannerexamples but pageheaderdate notarticledate,25/26cohortmixed; no fixedmeme relation assigned. No promotion. Later3formalobservations: pressconferenceparodyrecommended1;handheart existing1 but sourcefailed;agecomparisonheld1. SourceDaumfullsignedbody83–95 notAI-summary12–16.",
+      "recommendations": 1,
+      "existing": 1,
+      "held": 1
+    },
+    "B618": {
+      "observations": 8,
+      "recommendations": 1,
+      "existing": 4,
+      "held": 3,
+      "queries": [
+        "2026 \"유행어\" \"따라 하며\" -site:namu.wiki",
+        "2026 \"패러디\" \"광고\" \"뭣이\" ",
+        "\"패러디\" \"뭣이 중헌디\" 광고",
+        "\"불편합니다\" \"박영진\" \"2026\"",
+        "\"잘했어 잘했어\" \"패러디\"",
+        "\"니 내 누군지 아니\" \"패러디\" 광고",
+        "\"불편합니다\" \"유행어\" 박영진 패러디",
+        "\"잘했어 잘했어 너무 잘했어\" 2026"
+      ],
+      "note": "ContactscreenEtodaydirecteditorandauditorread; Donga researcherreadbuteditorwrongshortpathfailed, notcitedfinaldraft. Noindependentproductionsclaimed."
+    },
+    "C132": {
+      "observations": 10,
+      "recommendations": 1,
+      "existing": 7,
+      "conditional": 1,
+      "held": 1,
+      "external_bodies_read": 4,
+      "failed_opens": 1,
+      "queries": [
+        "\"아이찡\" \"자기소개\" 2026",
+        "\"퇴사할게요\" \"패러디\" 2026",
+        "\"아이찡\" 밈 자기소개 패러디",
+        "\"맛없없\" \"뜻\" \"2026\"",
+        "\"너드미\" \"2026\" \"뜻\"",
+        "\"깔롱지다\" \"존박\"",
+        "\"너드미\" site:enews.imbc.com \"2026\"",
+        "\"너드미\" 뜻 site:newsis.com",
+        "\"깔롱지다\" 뜻 기사",
+        "너드미 site:enews.imbc.com 2026"
+      ],
+      "note": "Nerdmi character/style notactualintelligence/personality. Emoji/quit exacttitle variants existing, no newfamily."
+    },
+    "A142": {
+      "observations": 8,
+      "recommendations": 0,
+      "held": 8,
+      "external_pages_read": 5,
+      "queries": [
+        "\"Hey you finally awake\" \"패러디\" 한국",
+        "\"귀여운 건 나도 알아\" \"밈\"",
+        "\"그건 원작을 경험해 보신 분들의 기준\" -site:namu.moe -site:namu.wiki",
+        "\"깨어나세요 용사여\" 패러디",
+        "\"날 내버려둬\" \"밈\" -site:namu.moe -site:seore.org -site:namu.wiki",
+        "\"네가 하면 나도 한다\" 패러디 -site:namu.moe -site:seore.org",
+        "\"네 설명해드렸습니다\" -site:namu.moe -site:seore.org",
+        "\"당연히 말이 되죠\" 패러디 -site:namu.moe -site:seore.org",
+        "\"스카이림\" \"드디어 깨어\" 패러디 -site:namu.moe -site:seore.org",
+        "\"그건 원작을\" \"기준\" -site:namu.moe -site:namu.wiki -site:seore.org",
+        "\"네~ 설명해드렸습니다\" -site:namu.moe -site:seore.org",
+        "\"귀여운 건 나도 알아\" 박명수 -site:namu.moe -site:seore.org -site:namu.wiki"
+      ],
+      "note": "0336actualcomment1ordinaryclosingboundaryunclear.0376gameofficialuse noexplicitparodyrelation; listingMarch18releaseFeb21distinguished."
+    },
+    "C133": {
+      "observations": 10,
+      "recommendations": 1,
+      "existing": 8,
+      "held": 1,
+      "external_bodies_read": 3,
+      "source_groups": 2,
+      "queries": [
+        "\"고맙삵\" \"행복해졌삵\"",
+        "\"2026\" \"기관\" \"밈\" \"댓글\"",
+        "\"고맙삵\" -site:yna.co.kr -site:gall.dcinside.com",
+        "\"삵\" \"말투\" \"유한킴벌리\""
+      ],
+      "note": "OneYonhapreportcommentfamily, Nate samearticle notadditionalgroup; other8 Videoconreuse report matchedexisting."
+    },
+    "B619": {
+      "observations": 8,
+      "recommendations": 1,
+      "existing": 6,
+      "held": 1,
+      "queries": [
+        "2026 \"유행어\" \"패러디\" \"광고\" \"대사\"",
+        "2026 \"밈\" \"따라\" \"말투\" -site:namu.wiki",
+        "\"패러디\" \"잘자요\" \"공주님\" 광고",
+        "\"산수유\" \"패러디\" 광고",
+        "\"남자한테 참 좋은데\" \"패러디\"",
+        "\"2026\" \"유행어\" \"재현\" 배우"
+      ],
+      "note": "Chaminad2011+athlete2010reported2014; nohealthclaims. Oldactorselfreenactmentpreviewheld."
+    },
+    "A143": {
+      "observations": 8,
+      "recommendations": 0,
+      "held": 8,
+      "external_pages_read": 3,
+      "failed_opens": 2,
+      "queries": [
+        "\"마쁘리에요\" -site:namu.moe -site:seore.org -site:namu.wiki",
+        "\"물음표 드립\" -site:namu.moe -site:seore.org -site:namu.wiki",
+        "\"맛나핑\" 패러디 -site:namu.moe -site:seore.org",
+        "\"방송 되게 못하네\" -site:namu.moe -site:seore.org",
+        "\"봇이지 뭐\" -site:namu.moe -site:seore.org -site:namu.wiki",
+        "\"불티\" \"밈\" 패러디 -site:namu.moe -site:seore.org",
+        "\"삐뽀핑\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"벽돌할아버지\" \"로봇댄스\" -site:namu.moe -site:seore.org"
+      ],
+      "note": "0516characterintro notvoiceedit,0533broadcastline notprovenreuse,0548titleonly imagesunread;nonepromoted."
+    },
+    "B620": {
+      "observations": 8,
+      "recommendations": 2,
+      "existing": 3,
+      "held": 3,
+      "queries": [
+        "2026 \"유행어\" \"따라한\" 광고",
+        "2026 \"패러디\" \"대사\" \"공공기관\"",
+        "\"패러디\" \"이 안에\" \"광고\"",
+        "\"시력검사\" \"1일이야\" 광고",
+        "\"싸펑피펑\" 광고",
+        "\"재밌어서 광고합니다\" 카페"
+      ],
+      "note": "Ads2shopproductionsin1newsletter;ssapeonghistoricaladreportedpreviewnotoriginalvideo."
+    },
+    "C134": {
+      "observations": 10,
+      "recommendations": 2,
+      "existing": 3,
+      "conditional": 2,
+      "held": 3,
+      "external_bodies_read": 3,
+      "queries": [
+        "\"2026\" \"플러팅\" \"폭스\" 신조어",
+        "\"2026\" \"도파민\" \"추구미\" site:careet.net",
+        "\"2026\" \"신조어\" site:univ20.com",
+        "\"플러팅\" \"뜻\" site:newsis.com",
+        "\"플러팅\" \"호감\" site:korean.go.kr"
+      ],
+      "note": "Foxnickname vsflirtinggeneralterm,2eventarticles sharednot4productions;officialdatesreviewhistory."
+    }
+  },
+  "sources": [
+    {
+      "id": "jeongttuktteol-affection-drop",
+      "urls": [
+        "https://www.fnnews.com/news/202306200645340575",
+        "https://v.daum.net/v/5qvHIKOc74"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "phone-ai-batni-contact-screen",
+      "urls": [
+        "https://www.etoday.co.kr/news/view/1550693"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nerd-mi-character-style-charm",
+      "urls": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/304532",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/492398",
+        "https://incross.com/ko/insight/report.asp?idx=31129&mode=view&page=1&pageSize=12&searchStr=&serboardsort="
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "salk-character-comment-ending",
+      "urls": [
+        "https://www.yna.co.kr/amp/view/AKR20260610141300030"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "cham-joeunde-expression-hesitation",
+      "urls": [
+        "https://www.etnews.com/201103250022",
+        "https://www.etoday.co.kr/news/view/884754"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bunmyeonghamnida-press-conference-parody",
+      "urls": [
+        "https://v.daum.net/v/20260713164750752"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "not-advertising-ad-copy-parody",
+      "urls": [
+        "https://minenews.stibee.com/p/569/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ssapeong-pipeong-playful-question",
+      "urls": [
+        "https://sports.donga.com/ent/article/all/20170407/83739534/1",
+        "https://www.ajunews.com/view/20180110172909902"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "fox-flirting-nickname",
+      "urls": [
+        "https://ichannela.com/news/detail/000000524916.do",
+        "https://news.nate.com/view/20260315n01916?mid=e0600"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "flirting-affection-expression",
+      "urls": [
+        "https://www.korean.go.kr/front/imprv/refineView.do?imprv_refine_seq=21115",
+        "https://ichannela.com/news/detail/000000524916.do",
+        "https://news.nate.com/view/20260315n01916?mid=e0600"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "All10passedindependentpreaudit; addefinitionexplicitpositive/negativechange.",
+    "Recenttextuse7,historical3. Sharedfox/flirtingarticlesnot4events.",
+    "Existing1828recordsandapprovedbodiesunchanged. No media viewed. A1410360already518notnew519. EditorGamdaddwi preliminarysearchnotpromoted."
+  ],
+  "query_observations": 13405,
+  "distinct_literal_queries": 10997,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
