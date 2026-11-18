@@ -1,0 +1,257 @@
+{
+  "batch": 374,
+  "base": "e0f725e3793590c26715a97060a59b8b35f17b88",
+  "canonical_before": 979,
+  "canonical_after": 979,
+  "added": [],
+  "researchA": {
+    "recommended": 0,
+    "held": 2,
+    "existing": [
+      "ppi"
+    ],
+    "candidates": [
+      {
+        "title": "수능 날 입으면 잡혀가는 옷",
+        "url": "https://m.ytn.co.kr/news_view.php?key=202611180820012491&s_mcd=0545",
+        "date": "2026-11-18 08:20",
+        "scope": "보도1군,원이미지/원커뮤니티미확인;단추많은셔츠제목풍자;별도합격현수막합치지않음"
+      },
+      {
+        "title": "요즘 냥이 집사들 사이에 유행하는 밈",
+        "url": "https://www.issuelink.co.kr/community/listview?elcode=ruliweb&elseq=38812595",
+        "scope": "집계제목2026-11-11단서,원문회복못함구체형식불명;검증후보아님"
+      }
+    ],
+    "queries": [
+      "\"2026\" \"밈\" \"따라\" site:news.sbs.co.kr",
+      "\"2026\" \"밈\" \"패러디\" site:korea.kr",
+      "\"2026\" \"밈\" \"말투\" site:ohmynews.com",
+      "\"2026\" \"유행어\" \"패러디\" \"도서관\"",
+      "\"2026\" \"밈\" \"따라\" \"대학교\" -site:namu.moe -site:namu.wiki",
+      "\"2026\" \"밈\" \"우리집\" -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "\"요즘 냥이 집사들 사이에 유행하는 밈\"",
+      "\"삐남친\" \"삐출\" -site:namu.moe -site:namu.wiki",
+      "\"수능날 입으면 잡혀가는 옷\""
+    ]
+  },
+  "researchB": {
+    "recommended": 0,
+    "held": 5,
+    "rows": [
+      {
+        "id": "0711",
+        "url": "https://www.teamblind.com/kr/post/안물어봤다-요다야--gt-이-다음말은-yQcGsMSg",
+        "note": "2025-01-29회고사용1기간밖,2026야코영상집계만"
+      },
+      {
+        "id": "0720",
+        "url": "https://www.teamblind.com/kr/post/여름에-태양이-2개면-좋은이유-ksa8dbJ2",
+        "note": "2021-08-16댓글직접사용1최근0"
+      },
+      {
+        "id": "0737",
+        "url": "https://ryunan9903.tistory.com/572290",
+        "note": "2026-01-21음식후기제목차용1;theqoo534608514광고회상다른응용아님"
+      },
+      {
+        "id": "0738",
+        "url": "https://v.daum.net/v/M0OsA7x6qD",
+        "note": "포모스옛기사게임제목중복뜻비평직접1날짜미확인;2026인벤502"
+      },
+      {
+        "id": "0760",
+        "url": "https://orbi.kr/00080110624",
+        "note": "검색노출403직접0;곡감상과패러디구분"
+      }
+    ],
+    "queries": [
+      "\"안 물어봤다 요다야\" \"2026\"",
+      "\"2주 압수\" \"2026\"",
+      "\"영국맛을 살려야지\" \"2026\"",
+      "\"어둠의 다크\" \"2026\"",
+      "\"에어맨이 쓰러지지 않아\" \"2026\"",
+      "\"압수\" \"드립\" 게임",
+      "\"영국맛을 살려야지\" -site:namu.moe",
+      "\"어둠의 다크\" -site:namu.moe",
+      "\"영국 맛을 살려야지\" -site:namu.moe",
+      "\"어둠의 다크에서\" \"2026\"",
+      "\"키보드\" \"2주 압수\"",
+      "\"에어맨\" \"패러디\" \"불곰\"",
+      "\"어둠의 다크에서\" -site:namu.moe -site:seore.org -site:zetawiki.com",
+      "\"영국맛을 살려야지\" -site:namu.moe -site:ryunan9903.tistory.com",
+      "\"안물어봤다 요다야\" -site:namu.moe"
+    ]
+  },
+  "semantic_audit": {
+    "sha": "1e07cd497afe0ec8db570fe73328645a5072e8ad",
+    "rows": [
+      {
+        "id": "kr-list-0057",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0063",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0086",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0090",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0092",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0106",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0110",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0113",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0114",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0115",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0116",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0126",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0134",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0136",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0142",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0144",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0157",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0171",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0173",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0186",
+        "classification": "unclear",
+        "change": false
+      }
+    ],
+    "bodies_read": [
+      "angdaeyo",
+      "chipi-chipi-chapa-chapa",
+      "happy-cat",
+      "naneun-haengbokhamnida",
+      "okay-thanks-daldal",
+      "gak-situation",
+      "tell-me-dance",
+      "one-day-one-ggang"
+    ],
+    "reason": "숫자/인물명/부분철자만으로연결불가.야구별칭을한화응원가로,포병지를감스트이동효과음으로,경찰노래를tellme안무로,갱갱갱을깡으로대체하지않음.각행원형외부검증0,관련본문미선정행포함;미수록확정아님.",
+    "queries": [
+      "141",
+      "88848",
+      "Ang",
+      "앙",
+      "chip",
+      "칩",
+      "camel",
+      "낙타",
+      "헌곤",
+      "지찬",
+      "성문",
+      "ㅎㄴㅎㄴ",
+      "KON",
+      "ketsu",
+      "엉덩이",
+      "노리아키",
+      "PAC",
+      "팩맨",
+      "Elephants",
+      "코끼리",
+      "Sims",
+      "심즈",
+      "stands",
+      "블렌드",
+      "가능성",
+      "포병지",
+      "경찰",
+      "갱갱",
+      "앙?",
+      "ang?",
+      "말리",
+      "야구",
+      "감스트",
+      "강아지",
+      "갱",
+      "쥐",
+      "고양이",
+      "숫자"
+    ]
+  },
+  "independent_body_audit": {
+    "id": "this-is-click",
+    "sha": "e0f725e3793590c26715a97060a59b8b35f17b88",
+    "passed": true,
+    "required_changes": 0,
+    "sources_read": 3,
+    "comparative_body": "click",
+    "limits": "최근직접텍스트2게시처+2011방송보도1.이미지영상0;일반딸깍click과구분.목록CI감사아님."
+  },
+  "ci": {
+    "body979": {
+      "run": 44244364126,
+      "status": "in_progress_at_preparation"
+    }
+  }
+}

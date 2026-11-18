@@ -201,10 +201,11 @@
     "reports/bulk/connector-resume-wave30-370.json",
     "reports/bulk/connector-resume-wave30-371.json",
     "reports/bulk/connector-resume-wave30-372.json",
-    "reports/bulk/connector-resume-wave30-373.json"
+    "reports/bulk/connector-resume-wave30-373.json",
+    "reports/bulk/connector-resume-wave30-374.json"
   ],
-  "query_observations": 4816,
-  "distinct_literal_queries": 4132,
+  "query_observations": 4878,
+  "distinct_literal_queries": 4185,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -24486,6 +24487,316 @@
     {
       "query": "\"제로투 회피\" 패러디 만들었다",
       "source": "reports/bulk/connector-resume-wave30-373.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"따라\" site:news.sbs.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"패러디\" site:korea.kr",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"말투\" site:ohmynews.com",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"패러디\" \"도서관\"",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"따라\" \"대학교\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"우리집\" -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"요즘 냥이 집사들 사이에 유행하는 밈\"",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삐남친\" \"삐출\" -site:namu.moe -site:namu.wiki",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"수능날 입으면 잡혀가는 옷\"",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안 물어봤다 요다야\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2주 압수\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"영국맛을 살려야지\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어둠의 다크\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"에어맨이 쓰러지지 않아\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"압수\" \"드립\" 게임",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"영국맛을 살려야지\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어둠의 다크\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"영국 맛을 살려야지\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어둠의 다크에서\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"키보드\" \"2주 압수\"",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"에어맨\" \"패러디\" \"불곰\"",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어둠의 다크에서\" -site:namu.moe -site:seore.org -site:zetawiki.com",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"영국맛을 살려야지\" -site:namu.moe -site:ryunan9903.tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"안물어봤다 요다야\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "141",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "88848",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Ang",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "앙",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "chip",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "칩",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "camel",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "낙타",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "헌곤",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "지찬",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "성문",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "ㅎㄴㅎㄴ",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "KON",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "ketsu",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "엉덩이",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노리아키",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "PAC",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "팩맨",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Elephants",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "코끼리",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Sims",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "심즈",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "stands",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "블렌드",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가능성",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포병지",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "경찰",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갱갱",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "앙?",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "ang?",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "말리",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야구",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "감스트",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "강아지",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갱",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "쥐",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고양이",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "숫자",
+      "source": "reports/bulk/connector-resume-wave30-374.json",
       "status": "screened-see-report"
     }
   ],
