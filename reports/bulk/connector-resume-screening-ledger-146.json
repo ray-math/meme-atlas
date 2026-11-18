@@ -221,10 +221,11 @@
     "reports/bulk/connector-resume-wave30-390.json",
     "reports/bulk/connector-resume-wave30-391.json",
     "reports/bulk/connector-resume-wave30-392.json",
-    "reports/bulk/connector-resume-wave30-393.json"
+    "reports/bulk/connector-resume-wave30-393.json",
+    "reports/bulk/connector-resume-wave30-394.json"
   ],
-  "query_observations": 5210,
-  "distinct_literal_queries": 4494,
+  "query_observations": 5223,
+  "distinct_literal_queries": 4507,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -26476,6 +26477,71 @@
     {
       "query": "\"2026\" \"밈\" site:news.suwon.go.kr \"리센느\"",
       "source": "reports/bulk/connector-resume-wave30-393.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:ohmynews.com \"썼다\"",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"패러디\" -site:namu.moe -site:instablank.com -site:jjalbang.today -site:slangdunk.com -site:sinjoeo.kr",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:news.khan.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"직접 해\" -site:instablank.com -site:jjalbang.today -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"직접 만든\" -site:instablank.com -site:jjalbang.today -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" site:brunch.co.kr \"나는\"",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"54000개\" \"먹을\" -site:instablank.com -site:jjalbang.today -site:onmeme.com -site:mika.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"54000\" \"바나나\" \"먹을\" -site:instablank.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"좌\" \"별명\" \"누리꾼\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"좌\" \"밈\" \"붙\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"먹방좌\"",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"눈빛좌\"",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"설명좌\"",
+      "source": "reports/bulk/connector-resume-wave30-394.json",
       "status": "screened-see-report"
     }
   ],
