@@ -1,0 +1,154 @@
+{
+  "batch": 317,
+  "base": "c794f5b337e93be2ecb53814bb74e14eb0bb6d0a",
+  "canonical_before": 950,
+  "canonical_after": 950,
+  "research": {
+    "A": {
+      "candidate_ids": [
+        "0066",
+        "0068",
+        "0079",
+        "0080",
+        "0081",
+        "0098",
+        "0102",
+        "0151",
+        "0205",
+        "0332"
+      ],
+      "recommended": 0,
+      "held": 10,
+      "priority": "0079 official one direct body plus second official listing recovered later; editor read pending",
+      "queries": [
+        "\"알려주겠다\" \"밈\" \"2026\"",
+        "\"학개론\" \"패러디\" \"2026\"",
+        "\"한 건에 대하여\" \"밈\" \"2026\"",
+        "\"해버리기\" \"2026\"",
+        "\"였던것\" \"밈\"",
+        "\"FBI OPEN UP\" \"2026\" 한국",
+        "\"finally awake\" \"2026\" 한국",
+        "\"Why so serious\" \"2026\" 밈",
+        "\"고수\" \"하수\" \"밈\" \"2026\"",
+        "\"너의\" \"패러디\" \"2026\" \"이름은\"",
+        "\"한 건에 대하여\" \"2026\" -site:namu.moe -site:allsnsrank.com",
+        "\"학개론\" \"패러디\" -site:namu.moe",
+        "\"건에 대하여\" \"2026\" site:ac.kr",
+        "\"건에 대하여\" \"2026\" site:tistory.com -전생 -슬라임",
+        "\"고수와 하수\" \"2026\" -site:namu.moe",
+        "\"이었던 것\" \"2026\" 밈",
+        "\"한 건에 대하여\" 뜻 유래 -site:namu.moe",
+        "\"너의\" \"이름은\" \"패러디\" site:ac.kr",
+        "\"FBI OPEN UP\" 한국 패러디 -site:namu.moe",
+        "\"고수\" \"하수\" \"2026\" site:brunch.co.kr",
+        "\"건에 대하여\" \"2026\" -슬라임 -전생 -site:note.com -site:namu.moe -site:tistory.com -site:yes24.com -site:kyobobook.co.kr",
+        "\"건에 대하여\" \"2025\" site:ac.kr -슬라임",
+        "\"한 건에 대하여\" site:weverse.io",
+        "\"건에 대하여\" site:news.nate.com -슬라임 -수사 -법원"
+      ],
+      "index_queries": [
+        "알려주겠다",
+        "학개론",
+        "건에대하여",
+        "해버리기",
+        "였던것",
+        "이었던것",
+        "fbi",
+        "finallyawake",
+        "스카이림",
+        "whysoserious",
+        "고수",
+        "하수",
+        "너의"
+      ]
+    },
+    "B": {
+      "candidate_ids": [
+        "0689",
+        "0690",
+        "0706",
+        "0721",
+        "0736",
+        "0748",
+        "0751",
+        "0766",
+        "0710",
+        "0548"
+      ],
+      "recommended": 1,
+      "held": 9,
+      "published_batch": 316,
+      "queries": [
+        "\"아머드 태종\" 2026",
+        "\"아모캣\" 2026",
+        "\"아 진짜요\" 밈 2026",
+        "\"앗 아아\" 2026 밈",
+        "\"약한 사내다\" 2026",
+        "\"어 작업중이야\" 2026",
+        "\"얼리 엑세스 예시를 보여줌\"",
+        "\"여러분 이거 다 거짓말인 거 아시죠\" 2026",
+        "\"악으로 깡으로 버텨라\" 2026",
+        "\"봇이지 뭐\" 2026",
+        "\"아머드 태종\" -site:namu.moe -site:seore.org",
+        "\"아모캣\" -site:namu.moe -site:seore.org",
+        "\"약한 사내다\" -site:namu.moe -site:seore.org",
+        "\"어 작업중이야\" -site:namu.moe -site:seore.org",
+        "\"앗 아아\" site:newsis.com",
+        "\"아 진짜요\" \"엔플라잉\" 소통"
+      ],
+      "index_queries": [
+        "아머드",
+        "태종",
+        "이방원",
+        "사이버펑크",
+        "갑주",
+        "빔샤벨",
+        "armored",
+        "taejong"
+      ]
+    },
+    "C": {
+      "semantic_rows": 20,
+      "index_queries": [
+        "AI|합성|커버",
+        "휴먼|빅데이터",
+        "의문의",
+        "아재|아저씨|개그",
+        "초성",
+        "번역|왈도",
+        "한본|일본어",
+        "티니핑|하츄",
+        "케인",
+        "심영|고자",
+        "신창섭|정상화",
+        "창팝",
+        "이세계",
+        "포켓몬",
+        "하츠네|미쿠",
+        "최애의 아이",
+        "귀멸",
+        "손흥민",
+        "제로투",
+        "펀쿨섹",
+        "귀멸|최애|제로.?투|하츠네|형돈|케인|심영|아재|펄.?럭"
+      ],
+      "applied_batch": 316
+    }
+  },
+  "followup_0079": {
+    "editor_read": 3,
+    "direct_recent_text_groups": 2,
+    "video_viewed": 0,
+    "urls": [
+      "https://academics.cu.ac.kr/home/board/biomedi/pharma/notice/view/31799",
+      "https://smwel.semyung.ac.kr/cop/bbs/BBSMSTR_000000001788/selectBoardList.do",
+      "https://everymemes.tistory.com/705"
+    ],
+    "note": "Official list title recovered; detail rewritten summary excluded. Draft pending."
+  },
+  "metrics": {
+    "observations": 3134,
+    "distinct": 2623
+  },
+  "limits": "Search observations and literal strings are not unique meme counts. 316 added one entry; this report adds zero. Prior 949 CI 44231061197 passed 65 steps, 495 Python tests; latest 950 CI pending."
+}

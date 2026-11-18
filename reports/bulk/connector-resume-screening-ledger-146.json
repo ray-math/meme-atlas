@@ -147,10 +147,11 @@
     "reports/bulk/connector-resume-wave30-312.json",
     "reports/bulk/connector-resume-wave30-313.json",
     "reports/bulk/connector-resume-wave30-314.json",
-    "reports/bulk/connector-resume-wave30-315.json"
+    "reports/bulk/connector-resume-wave30-315.json",
+    "reports/bulk/connector-resume-wave30-317.json"
   ],
-  "query_observations": 3052,
-  "distinct_literal_queries": 2543,
+  "query_observations": 3134,
+  "distinct_literal_queries": 2623,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -15612,6 +15613,416 @@
     {
       "query": "동그란맘",
       "source": "reports/bulk/connector-resume-wave30-315.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"알려주겠다\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"학개론\" \"패러디\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한 건에 대하여\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"해버리기\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"였던것\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"FBI OPEN UP\" \"2026\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"finally awake\" \"2026\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Why so serious\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고수\" \"하수\" \"밈\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너의\" \"패러디\" \"2026\" \"이름은\"",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한 건에 대하여\" \"2026\" -site:namu.moe -site:allsnsrank.com",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"학개론\" \"패러디\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건에 대하여\" \"2026\" site:ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건에 대하여\" \"2026\" site:tistory.com -전생 -슬라임",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고수와 하수\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"이었던 것\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한 건에 대하여\" 뜻 유래 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"너의\" \"이름은\" \"패러디\" site:ac.kr",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"FBI OPEN UP\" 한국 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"고수\" \"하수\" \"2026\" site:brunch.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건에 대하여\" \"2026\" -슬라임 -전생 -site:note.com -site:namu.moe -site:tistory.com -site:yes24.com -site:kyobobook.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건에 대하여\" \"2025\" site:ac.kr -슬라임",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"한 건에 대하여\" site:weverse.io",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건에 대하여\" site:news.nate.com -슬라임 -수사 -법원",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "알려주겠다",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "학개론",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "건에대하여",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "해버리기",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "였던것",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이었던것",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "fbi",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "finallyawake",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스카이림",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "whysoserious",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고수",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하수",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "너의",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아머드 태종\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아모캣\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아 진짜요\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앗 아아\" 2026 밈",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"약한 사내다\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어 작업중이야\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"얼리 엑세스 예시를 보여줌\"",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"여러분 이거 다 거짓말인 거 아시죠\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"악으로 깡으로 버텨라\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"봇이지 뭐\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아머드 태종\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아모캣\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"약한 사내다\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어 작업중이야\" -site:namu.moe -site:seore.org",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"앗 아아\" site:newsis.com",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아 진짜요\" \"엔플라잉\" 소통",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아머드",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "태종",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이방원",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사이버펑크",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "갑주",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "빔샤벨",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "armored",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "taejong",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "AI|합성|커버",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "휴먼|빅데이터",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "의문의",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아재|아저씨|개그",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "초성",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "번역|왈도",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "한본|일본어",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "티니핑|하츄",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "케인",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "심영|고자",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "신창섭|정상화",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "창팝",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이세계",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "포켓몬",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하츠네|미쿠",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "최애의 아이",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "귀멸",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "손흥민",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "제로투",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "펀쿨섹",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "귀멸|최애|제로.?투|하츠네|형돈|케인|심영|아재|펄.?럭",
+      "source": "reports/bulk/connector-resume-wave30-317.json",
       "status": "screened-see-report"
     }
   ],
