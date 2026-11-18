@@ -191,10 +191,11 @@
     "reports/bulk/connector-resume-wave30-359.json",
     "reports/bulk/connector-resume-wave30-360.json",
     "reports/bulk/connector-resume-wave30-361.json",
-    "reports/bulk/connector-resume-wave30-362.json"
+    "reports/bulk/connector-resume-wave30-362.json",
+    "reports/bulk/connector-resume-wave30-363.json"
   ],
-  "query_observations": 4470,
-  "distinct_literal_queries": 3835,
+  "query_observations": 4516,
+  "distinct_literal_queries": 3876,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -22746,6 +22747,236 @@
     {
       "query": "\"폴란드볼\" \"그렸\" \"2026\"",
       "source": "reports/bulk/connector-resume-wave30-362.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈을 활용\" \"박물관\"",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"패러디\" \"책\"",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"우체국\"",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"모두 유죄\" -site:namu.moe -site:namu.wiki -하이닉스 -최태원 -선고 -대법원",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"지금\" \"모두 유죄\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"업무마감 5초전\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"모두 유죄\" \"패러디\" -하이닉스 -최태원 -하닉",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"지금\" \"모두 유죄\" \"2026\" 여행 -하이닉스 -최태원 -하닉 -선고",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "유죄",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삐에로",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "삐에",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마감",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "골반",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "부캉",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "숙취",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하와와\" \"2026\" site:inven.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하와와\" \"2026\" site:tistory.com",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"펄~럭\" \"2026\" -site:inven.co.kr -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하와와\" \"2026\" -site:inven.co.kr -site:orbi.kr -site:namu.moe -site:tistory.com -site:wowprogress.com -site:dcinside.com",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하와와\" \"2026\" site:clien.net",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "심영|야인시대|고자|의사양반",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "씨발련|박원순|시발련",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "씨발아줌마|시발아줌마|아줌마",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "씽씽|킥보드",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아라아라|어머어머",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아로나|블루.?아카이브",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아모캣|아모.?캣",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아이 러브 마이|화자|마자|브라자",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아임뚜렛|뚜렛",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아주라|야구공",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아카자|귀멸",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "안전가족|안전 가족",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "안톤|오노|쇼트트랙",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "압박",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "앙카|앙카존|ankha",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "애니프사|애니.*프로필",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "애는 있습니다|아이는 있습니다",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "애새끼",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "애자|장애",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "야 XX|야 씨|야 이",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "고자|고.*자라|의사|병원|폭발|사딸라|김두한",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "곽윤기|kwak|뒤.*선수",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "anime|profile|ninja",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "어케|시발|씨발|새끼|개새",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스크롤|압박",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "펄|태극기|국기|국뽕|주모",
+      "source": "reports/bulk/connector-resume-wave30-363.json",
       "status": "screened-see-report"
     }
   ],

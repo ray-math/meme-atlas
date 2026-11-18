@@ -886,6 +886,7 @@
 - [팝캣](popcat-click.md)
 - [팟수](patsu.md)
 - [팬아저](fanajeo.md)
+- [펄~럭](peolleok-flag-reaction.md)
 - [페드로 라쿤](pedro-raccoon.md)
 - [페친](pechin.md)
 - [펩시맨 시리즈](pepsiman-jokes.md)

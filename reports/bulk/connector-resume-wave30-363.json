@@ -1,0 +1,152 @@
+{
+  "batch": 363,
+  "base": "078fb976938a71f28fd4d8b1a6128f6ca616ea54",
+  "canonical_before": 974,
+  "canonical_after": 975,
+  "added": [
+    "peolleok-flag-reaction"
+  ],
+  "candidate_mapping": {
+    "id": "kr-list-1062",
+    "from": "index_not_found",
+    "to": "included"
+  },
+  "researchA": {
+    "queries": [
+      "\"2026\" \"밈을 활용\" \"박물관\"",
+      "\"2026\" \"유행어\" \"패러디\" \"책\"",
+      "\"2026\" \"밈\" \"우체국\"",
+      "\"2026\" \"모두 유죄\" -site:namu.moe -site:namu.wiki -하이닉스 -최태원 -선고 -대법원",
+      "\"2026\" \"지금\" \"모두 유죄\" 패러디",
+      "\"업무마감 5초전\" 밈",
+      "\"모두 유죄\" \"패러디\" -하이닉스 -최태원 -하닉",
+      "\"지금\" \"모두 유죄\" \"2026\" 여행 -하이닉스 -최태원 -하닉 -선고"
+    ],
+    "index_queries": [
+      "유죄",
+      "삐에로",
+      "삐에",
+      "마감",
+      "골반",
+      "부캉",
+      "숙취"
+    ],
+    "focused": 1,
+    "recommended": 0,
+    "held": "지금○○없는자모두유죄;same bookcovercase multiple reporting not independent productions",
+    "source": "https://v.daum.net/v/20260619102402414",
+    "date": "2026-06-19 10:24",
+    "body_lines": "L83 onward, L88",
+    "limits": "Originalimage/post0;noinvestmentclaims. Otherleadsnotvalidatedmemes."
+  },
+  "researchB": {
+    "rechecked": 2,
+    "new_candidates": 0,
+    "recommended": 1,
+    "held": 1,
+    "queries": [
+      "\"하와와\" \"2026\" site:inven.co.kr",
+      "\"하와와\" \"2026\" site:tistory.com",
+      "\"펄~럭\" \"2026\" -site:inven.co.kr -site:namu.moe",
+      "\"하와와\" \"2026\" -site:inven.co.kr -site:orbi.kr -site:namu.moe -site:tistory.com -site:wowprogress.com -site:dcinside.com",
+      "\"하와와\" \"2026\" site:clien.net"
+    ],
+    "sources": [
+      {
+        "url": "https://mania.kr/g2/bbs/all.php?bo_table=news&wr_id=2985089",
+        "date": "2026-08-28 16:09:18",
+        "scope": "ActualcommentL329; interviewvideo0"
+      },
+      {
+        "url": "https://wepoll.kr/g2/bbs/all.php?bo_table=free&wr_id=2403917",
+        "date": "2026-11-17 06:25:15",
+        "scope": "ActualcommentL124;financialclaims excluded"
+      },
+      {
+        "url": "https://m.netpx.co.kr/app/boards/views/all/10997?page=1&q=&s_type=",
+        "date": "2026-11-12 10:23",
+        "scope": "ActualcommentL341;matchvideo0"
+      }
+    ],
+    "held_reason": "1089 firstDCuseonly;newInven502 andunsafe/homonymousleads notadopted"
+  },
+  "editor": {
+    "queries": [
+      "펄|태극기|국기|국뽕|주모"
+    ],
+    "source_bodies_read": 3,
+    "related_body_read": "jumo-cheer",
+    "scope": "flag-onomatopoeia versus vocativecheer andabstractgukppong; noorigin/images/video claims"
+  },
+  "semantic_audit": {
+    "base": "00963cffb194d7639f16563c6358953ff052ed3e",
+    "ids": [
+      "0670",
+      "0676",
+      "0677",
+      "0678",
+      "0686",
+      "0687",
+      "0690",
+      "0698",
+      "0701",
+      "0703",
+      "0707",
+      "0714",
+      "0715",
+      "0719",
+      "0723",
+      "0726",
+      "0727",
+      "0728",
+      "0729",
+      "0730"
+    ],
+    "result": "20unclear unchanged",
+    "queries": [
+      "심영|야인시대|고자|의사양반",
+      "씨발련|박원순|시발련",
+      "씨발아줌마|시발아줌마|아줌마",
+      "씽씽|킥보드",
+      "아라아라|어머어머",
+      "아로나|블루.?아카이브",
+      "아모캣|아모.?캣",
+      "아이 러브 마이|화자|마자|브라자",
+      "아임뚜렛|뚜렛",
+      "아주라|야구공",
+      "아카자|귀멸",
+      "안전가족|안전 가족",
+      "안톤|오노|쇼트트랙",
+      "압박",
+      "앙카|앙카존|ankha",
+      "애니프사|애니.*프로필",
+      "애는 있습니다|아이는 있습니다",
+      "애새끼",
+      "애자|장애",
+      "야 XX|야 씨|야 이",
+      "고자|고.*자라|의사|병원|폭발|사딸라|김두한",
+      "곽윤기|kwak|뒤.*선수",
+      "anime|profile|ninja",
+      "어케|시발|씨발|새끼|개새",
+      "스크롤|압박"
+    ],
+    "direct_bodies": [
+      "four-dollars",
+      "how-did-you-do-that-profane",
+      "kwak-yoon-gy-back-view",
+      "is-this-best",
+      "seuap"
+    ],
+    "limits": "Same drama notsamecharacter/form; sharedprofanity notsameperson; sporttopic notsamegesture; wordpressure notlongpostwarning. Othernames/broadgenres/derogatorywords lackspecificform. Notverifiedomissions."
+  },
+  "ci": {
+    "body974": {
+      "run": 44241224283,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 108.634
+    },
+    "new_head": "pending"
+  }
+}
