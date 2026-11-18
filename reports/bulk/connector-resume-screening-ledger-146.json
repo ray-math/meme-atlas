@@ -232,10 +232,11 @@
     "reports/bulk/connector-resume-wave30-402.json",
     "reports/bulk/connector-resume-wave30-403.json",
     "reports/bulk/connector-resume-wave30-404.json",
-    "reports/bulk/connector-resume-wave30-406.json"
+    "reports/bulk/connector-resume-wave30-406.json",
+    "reports/bulk/connector-resume-wave30-407.json"
   ],
-  "query_observations": 5427,
-  "distinct_literal_queries": 4703,
+  "query_observations": 5461,
+  "distinct_literal_queries": 4734,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -27572,6 +27573,176 @@
     {
       "query": "\"영원할 것 같지\" \"2026\" -site:creatrend.tistory.com -site:hsad.tistory.com -site:blog.hsad.co.kr",
       "source": "reports/bulk/connector-resume-wave30-406.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"영한데\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건우 엄마 데리고 와\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"단소 살인마\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"햄최몇\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"완전 MZ인데요\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건우 엄마\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오 필승 코리아\" \"2026\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"햄최몇\" \"2026\" -영수증 -조롱 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Young한데\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"건우 엄마 데려와\" 패러디 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"델룰루\" \"2026\" -키키 -KiiiKiii -앨범 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"delulu\" \"2026\" \"한국\" -키키 -앨범 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"델룰루\" \"2025\" -키키 -앨범 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"델룰루\" 밈 -키키 -kiiikiii -팩 -pack -앨범 -노래 -신곡",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"델룰루\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"delulu\" site:maily.so",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"델룰루\" \"2026\" -키키 -KiiiKiii -팩 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"델루루\" \"2026\" -키키 -팩 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"delulu\" \"2026\" site:brunch.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"델룰루\" \"2025\" -키키 -팩 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"delulu is the solulu\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"델룰루\" -키키 -팩 -KiiiKiii -노래 -앨범",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"델루루\" -키키 -팩 -KiiiKiii -노래 -앨범",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"delulu\" site:brunch.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"LH 드립\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"LK-99\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아니다 이 악마야\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"탈모르파티\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"콩쥐야\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"LH 드립\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"아니다 이 악마야\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"탈모르파티\" 패러디 -site:namu.moe -site:novawiki.app",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"콩쥐야\" \"2026\" -site:ayo.pe.kr -site:namu.moe -site:manatoki1.org",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"LH\" \"내로남불\" 드립",
+      "source": "reports/bulk/connector-resume-wave30-407.json",
       "status": "screened-see-report"
     }
   ],
