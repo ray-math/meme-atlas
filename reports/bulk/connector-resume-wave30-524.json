@@ -1,0 +1,435 @@
+{
+  "batch": 524,
+  "base": "54a7bd3bdbb6702e62a05f47622941d8c3e59a29",
+  "canonical_before": 1878,
+  "canonical_after": 1888,
+  "added": [
+    "jegotnae-title-is-content",
+    "jappeok-self-admiration-expression",
+    "bobusang-many-belongings-nickname",
+    "meotppeum-cool-and-pretty-praise",
+    "repeated-medal-headline-sharing",
+    "namagong-staying-to-study-abbreviation",
+    "jangkku-playful-charm-family",
+    "ilksip-anilksip-unanswered-message-family",
+    "janmangmi-mischievous-charm",
+    "amutta-without-question-abbreviation"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0238",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "repeated-medal-headline-sharing"
+    }
+  ],
+  "previous_ci": {
+    "run": 44374199148,
+    "job": 135048824127,
+    "sha": "54a7bd3bdbb6702e62a05f47622941d8c3e59a29",
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 217.487s"
+    ]
+  },
+  "previous_final_audit": {
+    "status": "PASS",
+    "required": 0,
+    "sha": "54a7bd3bdbb6702e62a05f47622941d8c3e59a29",
+    "files": 19,
+    "total": 1878
+  },
+  "sources": [
+    {
+      "id": "jegotnae-title-is-content",
+      "urls": [
+        "https://www.imaeil.com/page/view/2010012611281458430",
+        "https://www.clien.net/service/board/cm_mac/19200680?category=1000115&groupCd=&od=T31&po=0",
+        "https://v.daum.net/v/20260402073456926"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jappeok-self-admiration-expression",
+      "urls": [
+        "https://v.daum.net/v/duF1KouZnL",
+        "https://news.nate.com/view/20260820n30756?mid=e1300"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bobusang-many-belongings-nickname",
+      "urls": [
+        "https://news.nate.com/view/20250322n07396",
+        "https://www.imaeil.com/page/view/2026092708495734128"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "meotppeum-cool-and-pretty-praise",
+      "urls": [
+        "https://v.daum.net/v/20260213142621854",
+        "https://v.daum.net/v/20260924164844071"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "repeated-medal-headline-sharing",
+      "urls": [
+        "https://www.journalist.or.kr/news/article.html?no=51028",
+        "https://v.daum.net/v/20220319060505478"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "namagong-staying-to-study-abbreviation",
+      "urls": [
+        "https://v.daum.net/v/ggUZFhp60F",
+        "https://www.fnnews.com/news/201911282132550655"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jangkku-playful-charm-family",
+      "urls": [
+        "https://sports.khan.co.kr/article/202609211710003/amp",
+        "https://www.koreadaily.com/article/20231107194404501"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ilksip-anilksip-unanswered-message-family",
+      "urls": [
+        "https://knup.kangwon.ac.kr/index.php?BID=15443&cmd=view&cpage=5&mm=oxbbs&mp=2_5&mt=&oxid=10",
+        "https://news.nate.com/view/20260404n07664",
+        "https://nwww.newsis.com/view/NISX20260928_0003805480"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "janmangmi-mischievous-charm",
+      "urls": [
+        "https://www.koreadaily.com/article/20231107194404501",
+        "https://imnews.imbc.com/original/mbig/6816641_29041.html"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "amutta-without-question-abbreviation",
+      "urls": [
+        "https://www.etoday.co.kr/news/view/2402261?trc=view_joinnews",
+        "https://www.yna.co.kr/view/AKR20260212185600005"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening": {
+    "groups": [
+      {
+        "id": "B633",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 6,
+        "held": 5
+      },
+      {
+        "id": "B634",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 10,
+        "held": 1
+      },
+      {
+        "id": "B635",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 10,
+        "held": 1
+      },
+      {
+        "id": "B636",
+        "observations": 12,
+        "recommended_expressions": 2,
+        "recommended_families": 1,
+        "existing": 7,
+        "held": 3
+      },
+      {
+        "id": "B637",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 7,
+        "partial_related": 1,
+        "held": 3
+      },
+      {
+        "id": "C153",
+        "observations": 12,
+        "recommended": 2,
+        "existing": 1,
+        "conditional": 3,
+        "held": 6
+      },
+      {
+        "id": "C154",
+        "observations": 12,
+        "recommended_expressions": 2,
+        "recommended_families": 1,
+        "existing": 1,
+        "conditional": 4,
+        "held": 5
+      },
+      {
+        "id": "C155",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 1,
+        "conditional": 4,
+        "held": 6
+      },
+      {
+        "id": "A156",
+        "observations": 12,
+        "recommended": 1,
+        "held": 11
+      },
+      {
+        "id": "A157",
+        "observations": 12,
+        "recommended": 0,
+        "held": 12
+      },
+      {
+        "id": "A158",
+        "observations": 12,
+        "recommended": 0,
+        "held": 12
+      }
+    ],
+    "note": "132 expression observations include repeated evidence recovery and variants; not unique newly discovered or fully verified memes. 장꾸/장꾸미 and 읽씹/안읽씹 each count as one entry."
+  },
+  "source_ledger_audits": [
+    {
+      "observations": 12,
+      "recommended": 1,
+      "held": 11,
+      "ids": [
+        "0194",
+        "0195",
+        "0208",
+        "0220",
+        "0229",
+        "0236",
+        "0238",
+        "0240",
+        "0270",
+        "0308",
+        "0324",
+        "0376"
+      ],
+      "note": "0238 repeated-article sharing only;no image/original/derivative parody verification. Journalist organization sources not fully independent.",
+      "sources": [
+        "https://www.journalist.or.kr/news/article.html?no=51028",
+        "https://v.daum.net/v/20220319060505478"
+      ]
+    },
+    {
+      "observations": 12,
+      "recommended": 0,
+      "held": 12,
+      "ids": [
+        "0400",
+        "0455",
+        "0499",
+        "0516",
+        "0517",
+        "0540",
+        "0555",
+        "0560",
+        "0566",
+        "0590",
+        "0591",
+        "0617"
+      ],
+      "read": [
+        "https://game.donga.com/113592/",
+        "https://mycyberdiary.tistory.com/416",
+        "https://7321design.co.kr/product/list.html?cate_no=793"
+      ],
+      "note": "Product name/advertisement retrospective insufficient for reuse. Toxic-label personal criticism not expanded. Inven twoURLs same article failed;jeonmae403."
+    },
+    {
+      "observations": 12,
+      "recommended": 0,
+      "held": 12,
+      "ids": [
+        "0707",
+        "0714",
+        "0735",
+        "0740",
+        "0751",
+        "0790",
+        "0794",
+        "0805",
+        "0815",
+        "0868",
+        "0888",
+        "0889"
+      ],
+      "read": [
+        "https://dosil.tistory.com/233",
+        "https://www.newsis.com/view/NISX20240905_0002877205"
+      ],
+      "partial_access": [
+        "https://www.inven.co.kr/webzine/news/?iskin=gta5&news=245704&site=gta5"
+      ],
+      "note": "0805 video unviewed;0888 source supports existing oo-ping not pair-specific meme. No mapping changes."
+    }
+  ],
+  "query_groups": {
+    "B633": [
+      "\"2026\" \"신조어\" \"신문\" \"줄임말\"",
+      "\"2026\" \"유행어\" \"인터뷰\" \"자뻑\"",
+      "\"자뻑\" \"2026\" 인터뷰",
+      "\"뜨아\" \"2026\" 황용옥",
+      "\"무지개매너\" 뜻",
+      "\"제곧내\" \"2026\"",
+      "\"제곧내\" \"2010\" 아시아경제",
+      "\"자뻑\" \"자신\" \"신조어\"",
+      "\"자뻑\" \"스스로\" \"뜻\" 신문",
+      "\"뜨아\" \"아아\" \"2026\" 신조어",
+      "\"시성비\" \"아보하\" \"2026\""
+    ],
+    "B634": [
+      "\"자뻑\" \"뜻\" site:newsis.com",
+      "\"자뻑\" \"자아도취\" 신문",
+      "\"2026\" \"신조어\" \"문찐\"",
+      "자뻑 자아도취 뜻 -site:sinjoeo.kr -site:hoonmeme.com",
+      "\"갓벽\" \"2026\" 인터뷰",
+      "\"문찐\" \"2026\" 인터뷰",
+      "\"남아공\" \"남아서\" \"공부\" 신조어"
+    ],
+    "A156": [
+      "\"거짓말하지 말아요\" \"죽여버리겠어요\" -site:namu.moe -site:seore.org",
+      "\"건우 엄마 데리고 와\" 패러디",
+      "\"곤룡포좌\" 패러디",
+      "\"구찌보이\" 밈",
+      "\"귀여운 건 나도 알아\" 패러디",
+      "\"그건 원작을 경험해 보신 분들의 기준인 거고요\" -site:namu.moe -site:seore.org",
+      "\"그냥 개최국 중국이 메달 모두 가져가라고 하자\" -site:namu.moe -site:seore.org",
+      "\"그러면 죽어요\" \"밈\"",
+      "\"깨어나세요 용사여\" 패러디 -site:namu.moe -site:seore.org",
+      "\"날 내버려둬\" 밈 -site:namu.moe -site:seore.org",
+      "\"너 개못하잖아\" -site:namu.moe -site:seore.org",
+      "\"당연히 말이 되죠\" 패러디 -site:namu.moe -site:seore.org",
+      "\"원작을 경험해\" 인터뷰 카트라이더",
+      "\"메달 모두 가져가라고 하자\" 패러디 -site:namu.moe -site:seore.org",
+      "\"건우 엄마\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"구찌보이\" \"춤\" 유래"
+    ],
+    "A157": [
+      "\"동현이의 퍼니박스\" 패러디",
+      "\"막심 센세\" 밈 -site:namu.moe -site:seore.org",
+      "\"물음표 드립\" -site:namu.moe -site:seore.org",
+      "\"맛나핑\" 밈 -site:namu.moe -site:seore.org",
+      "\"미쿠미쿠하게 해줄게\" 패러디 한국",
+      "\"벽부수기\" 밈 -site:namu.moe -site:seore.org",
+      "\"북방코끼리바다표범\" 밈 -site:namu.moe -site:seore.org",
+      "\"불티\" 밈 -site:namu.moe -site:seore.org",
+      "\"브레드 이발소\" \"밈\" 패러디",
+      "\"삐뽀핑\" 밈 -site:namu.moe -site:seore.org",
+      "\"벽돌할아버지\" \"로봇댄스\" -site:namu.moe -site:seore.org",
+      "\"샤방송\" -site:namu.moe -site:seore.org",
+      "\"샤방송\" \"동영상\"",
+      "\"불티\" \"전영록\" \"패러디\"",
+      "\"물음표 드립\" \"익명\"",
+      "\"브레드이발소\" \"밈 스티커\""
+    ],
+    "C153": [
+      "\"인간비타민\" \"2026\" site:news.nate.com",
+      "\"보부상\" \"2026\" site:enews.imbc.com",
+      "\"장꾸\" \"뜻\" 기사",
+      "\"멋쁨\" \"2026\"",
+      "\"장꾸\" \"장난꾸러기\" site:news.nate.com",
+      "\"인간비타민\" \"활력\" 기사",
+      "\"보부상\" \"물건\" site:news.nate.com"
+    ],
+    "B635": [
+      "\"2026\" \"신조어\" \"웃프다\"",
+      "\"2026\" \"신조어\" \"스압\"",
+      "\"남아공\" \"남아서 공부\" \"2026\"",
+      "\"쉼포족\" \"2026\""
+    ],
+    "C154": [
+      "\"장꾸\" \"장난꾸러기\" 기사",
+      "\"장꾸미\" \"2026\"",
+      "\"능청미\" \"2026\"",
+      "\"갭차이\" \"2026\"",
+      "\"잔망미\" \"2026\" 기사",
+      "\"장꾸\" \"2026\" site:enews.imbc.com",
+      "\"허당미\" \"2026\" 기사",
+      "\"반전매력\" \"갭차이\" 기사"
+    ],
+    "B636": [
+      "\"2026\" \"신조어\" \"칼답\"",
+      "\"2026\" \"신조어\" \"케바케\"",
+      "\"2026\" \"유행어\" \"현타\" 인터뷰",
+      "\"읽씹\" \"안읽씹\" \"2026\" 인터뷰",
+      "\"읽씹\" 뜻 신문",
+      "\"문상\" \"생선\" \"깊티\" 줄임말"
+    ],
+    "A158": [
+      "\"아카자\" \"밈\" \"패러디\" -site:namu.moe -site:seore.org",
+      "\"안전가족\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"야후 꾸러기\" \"복원\" \"밈\"",
+      "\"어나니머스\" \"패러디\" 한국",
+      "\"얼리 엑세스 예시를 보여줌\" -site:namu.moe -site:seore.org",
+      "\"오타쿠가 정치글을\" -site:namu.moe -site:seore.org",
+      "\"옴마니반메훔\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"왕이되는자\" \"광고\" \"패러디\"",
+      "\"우연히\" \"밈\" \"트위터\" -site:namu.moe -site:seore.org",
+      "\"이훈이\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"아자핑\" \"하츄핑\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"와플핑\" \"핫케핑\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"아카자\" \"월요일\" 패러디",
+      "\"야후 꾸러기\" \"패러디\" -site:namu.moe -site:seore.org",
+      "\"어나니머스\" \"가면\" \"패러디\"",
+      "\"얼리 엑세스\" \"치킨\" \"만화\""
+    ],
+    "C155": [
+      "\"갭차이\" \"2026\" site:enews.imbc.com",
+      "\"잔망미\" \"뜻\" 기사",
+      "\"인간비타민\" \"2026\" site:enews.imbc.com",
+      "\"쾌남\" \"2026\" \"뜻\"",
+      "\"갭차이\" \"2026\" \"반전\"",
+      "\"잔망미\" \"우리말 바루기\"",
+      "\"본업존잘\" \"2026\"",
+      "\"프로일잘러\" \"2026\"",
+      "\"같은 사람 맞나요\" \"갭차이\" 뷔",
+      "\"잔망미\" \"장꾸미\" 배상복"
+    ],
+    "B637": [
+      "\"2026\" \"신조어\" \"최애\" \"차애\"",
+      "\"2026\" \"신조어\" \"갑분\" -site:sinjoeo.kr",
+      "\"아묻따\" \"2026\" 인터뷰",
+      "\"아묻따\" 뜻 신문",
+      "\"차애\" \"2026\" 인터뷰"
+    ]
+  },
+  "query_increment": 106,
+  "query_observations": 13806,
+  "distinct_literal_queries": 11318,
+  "preaudit": {
+    "status": "PASS",
+    "accepted": 10,
+    "required": 0
+  },
+  "limits": [
+    "All old1878 index records and old bodies preserved; only0238 source row becomes partial.",
+    "Original media0. Repeated-article sharing is not independently verified derivative parody; organization lineage overlap disclosed.",
+    "KoreaDaily explanation shared by two entries; no duplicated independent source count claimed.",
+    "Query and expression observations are not new meme totals.",
+    "No Codex or main changes. This new commit CI remains pending until verified."
+  ]
+}
