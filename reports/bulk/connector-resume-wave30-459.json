@@ -1,0 +1,384 @@
+{
+  "batch": 459,
+  "base": "6152687e5e24b1e0ffc3bfd91ef43ed84c01384f",
+  "canonical_before": 1213,
+  "canonical_after": 1225,
+  "added": [
+    "blackpink-versus-ordinary-citizen-caption",
+    "hong-jinho-double-sentence",
+    "maiyahi-photo-lip-sync",
+    "upside-down-group-selfie",
+    "ran-ran-ru-ad-loop-remix",
+    "uh-naga-romanized-response",
+    "mo-yamerunda-mixed-language-stop",
+    "see-tinh-ttingtting-dance",
+    "fake-reveal-parody-voice-cut",
+    "king-muscle-goldmon-collage",
+    "mwoiyak-phantom-quote",
+    "what-havent-we-done-correct-answer"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-1021",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "hong-jinho-double-sentence"
+    },
+    {
+      "id": "kr-list-0451",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "maiyahi-photo-lip-sync"
+    },
+    {
+      "id": "kr-list-0431",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "ran-ran-ru-ad-loop-remix"
+    },
+    {
+      "id": "kr-list-0465",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "uh-naga-romanized-response"
+    },
+    {
+      "id": "kr-list-0479",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "mo-yamerunda-mixed-language-stop"
+    },
+    {
+      "id": "kr-list-1051",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "see-tinh-ttingtting-dance"
+    },
+    {
+      "id": "kr-list-1063",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "fake-reveal-parody-voice-cut"
+    },
+    {
+      "id": "kr-list-1028",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "king-muscle-goldmon-collage"
+    },
+    {
+      "id": "kr-list-0501",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "mwoiyak-phantom-quote"
+    },
+    {
+      "id": "kr-list-1022",
+      "to": "partial",
+      "dictionary_id": "hong-jinho-double-sentence"
+    }
+  ],
+  "previous_ci": {
+    "run": 44283187982,
+    "job": 134728993872,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 66.282s"
+  },
+  "previous_audit": {
+    "batch": 458,
+    "sha": "6152687e5e24b1e0ffc3bfd91ef43ed84c01384f",
+    "new_bodies": 10,
+    "prior_index_unchanged": 1203,
+    "required_fixes": 0,
+    "limits": [
+      "Donga editor and auditor reread500 Tollbit; original researcher bodyread only, article states limitation.",
+      "No images/videos viewed."
+    ]
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended_rows": 2,
+      "recommended_families": 1,
+      "existing_partial": 3,
+      "held": 15,
+      "queries": [
+        "\"맛있는 겨울배\" 밈",
+        "\"한화의 김성근 감독님 사랑해\" 패러디",
+        "\"크아아악\" \"밈\"",
+        "\"킹근육골드몬\"",
+        "\"킹근육\" \"골드몬\"",
+        "\"탈모르파티\" 패러디",
+        "\"택배 드립\"",
+        "\"콩진호\" \"밈\"",
+        "\"맛있는 겨울배\" -site:namu.moe -site:alphawiki.org -site:seore.org",
+        "\"킹근육골드몬\" -site:namu.moe",
+        "\"코렁탕\" 뜻",
+        "\"케인\" \"뭉탱이\" 기사"
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "recommended": 2,
+      "existing_partial": 6,
+      "held": 12,
+      "queries": [
+        "\"팅팅송\" 밈",
+        "\"페이크다\" \"밈\"",
+        "\"폴란드볼\" 한국 패러디",
+        "\"피에로 드립\"",
+        "\"띵띵땅땅\" \"김연경\"",
+        "\"폴란드볼\" \"만화\" 기사",
+        "\"피에로\" \"하면 그만이야\" 뜻",
+        "\"프로게이머 피지컬\" 밈",
+        "\"See Tinh\" \"김연경\"",
+        "\"띵띵땅땅\" 챌린지 기사",
+        "\"폴란드볼\" site:news.nate.com",
+        "\"포켓몬빵\" \"패러디\""
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 1,
+      "existing_partial": 9,
+      "excluded": 3,
+      "held": 7,
+      "queries": [
+        "2026 \"밈\" \"따라\" site:allurekorea.com",
+        "2026 \"챌린지\" \"사진\" site:univ20.com",
+        "2026 \"릴스\" \"편집\" site:cosmopolitan.co.kr",
+        "2026 \"밈\" \"말투\" 잡지",
+        "2026 \"밈\" \"사진\" \"유행\" -site:instablank.com",
+        "2026 \"패러디\" \"챌린지\" site:elle.co.kr",
+        "\"엄마는 블랙핑크\" \"아빠는\" 2026",
+        "\"뉴욕 헤럴드 트리뷴\" 2026 패러디",
+        "\"블러셔 블라인드니스\" 한국 밈"
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 2,
+      "partial": 1,
+      "excluded": 4,
+      "held": 12,
+      "queries": [
+        "2026 \"밈\" \"말투\" site:univ20.com/Magazine",
+        "2026 \"밈\" \"패러디\" site:esquirekorea.co.kr",
+        "2026 \"밈\" \"사진\" site:marieclairekorea.com",
+        "\"2026\" \"밈\" \"11월\" site:maily.so -site:maily.so/trendaword",
+        "\"뒤집기샷\" 한국 2026",
+        "\"2026\" \"밈\" \"10월\" site:careet.net"
+      ]
+    },
+    "B3": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 16,
+      "held": 3,
+      "queries": [
+        "2026 \"밈\" \"패러디\" site:newsis.com 11월",
+        "2026 \"밈\" \"따라\" site:news.kyobobook.co.kr",
+        "2026 \"밈\" \"패러디\" site:news.samsung.com/kr",
+        "2026 \"밈\" \"현수막\" 대학 신입생",
+        "2026 \"밈\" \"패러디\" \"공식\" -젠슨 -이란 -트럼프 -site:instablank.com",
+        "\"셋로그\" \"챌린지\" 2026 참여",
+        "\"우리 안 한 게 뭐가 있지\" 2026"
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 1,
+      "conditional_held": 1,
+      "held": 18,
+      "queries": [
+        "\"란란루\" 패러디 기사",
+        "\"마이야히\" 패러디",
+        "\"럼자오자레\" 밈",
+        "\"마따끄\" 뜻",
+        "란란루 맥도날드 합성",
+        "마이야히 노마노마 패러디",
+        "\"롯데햄\" \"후라이드\" 광고 밈",
+        "\"마쁘리에요\"",
+        "\"마이야히\"",
+        "\"란란루\" 뜻 -site:namu.moe -site:seore.org",
+        "마이야히 아바타리파이 2021 유행",
+        "\"럼자오자레\" 기사 -site:namu.moe",
+        "\"린가동자\" 패러디",
+        "\"락통령\" 패러디",
+        "\"더 마스터를 기억해줘\"",
+        "\"마쁘리에요\" 밈"
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "recommended": 2,
+      "conditional_held": 1,
+      "existing_partial": 5,
+      "held": 12,
+      "queries": [
+        "\"망했어요\" \"엄재경\" 밈",
+        "\"모스카우\" 패러디",
+        "\"모 야메룽다\" 유래",
+        "\"고먐미\" 뜻",
+        "\"고먐미\" 신조어",
+        "\"명존쎄\" 뜻",
+        "\"무츠키 댄스\" 패러디",
+        "\"문법 나치\" 뜻",
+        "\"고먐미\" -site:namu.moe",
+        "\"무츠키 댄스\" -site:namu.moe -site:seore.org",
+        "\"어 나가\" \"밈\"",
+        "\"면제겜\" 뜻"
+      ]
+    },
+    "C3": {
+      "count": 20,
+      "recommended": 1,
+      "existing_partial": 2,
+      "held": 17,
+      "queries": [
+        "\"뭉탱이\" 밈 뜻",
+        "\"뭐이악\" 뜻",
+        "\"미안송\" 패러디",
+        "\"밤 샌 사람\" \"일찍\" 밈",
+        "\"맛나핑\" 밈 백종원",
+        "\"미쿠미쿠하게\" 패러디",
+        "\"박씨 꺼져\" 밈",
+        "\"방송 되게 못하네\" 유래",
+        "\"뭉탱이\" \"뜻\" -site:namu.moe -site:alphawiki.org -site:seore.org",
+        "\"후라이 똥 튀김\" 유래",
+        "\"바바바바바바\" 밈",
+        "\"맛나핑\" \"백종원\" -site:namu.moe",
+        "\"미안송\" \"박명수\"",
+        "\"방송 되게 못하네\" \"패러디\"",
+        "\"뭉탱이\" site:everymemes.tistory.com",
+        "\"미쿠미쿠하게\" \"아이린\""
+      ]
+    },
+    "editor": {
+      "count": 0,
+      "conditional_promoted": [
+        "kr-list-0431"
+      ],
+      "queries": [],
+      "note": "Earlier conditional0431 promoted after editor read both bodies; adopt only loop-remix and company reply, omit all unverified self-harm claims, etymology and first year."
+    }
+  },
+  "sources": [
+    {
+      "id": "blackpink-versus-ordinary-citizen-caption",
+      "urls": [
+        "https://www.adic.or.kr/journal/column/show.do?ukey=592022",
+        "https://v.daum.net/v/20251120105651959"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hong-jinho-double-sentence",
+      "urls": [
+        "https://everymemes.tistory.com/24",
+        "https://whitefaceone.tistory.com/2182"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "maiyahi-photo-lip-sync",
+      "urls": [
+        "https://bubleprice.tistory.com/2026",
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01125046629014808"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "upside-down-group-selfie",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail?id=4184&pageidx=1",
+        "https://www.marieclairekorea.com/pinpage/2026/05/photo-2/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ran-ran-ru-ad-loop-remix",
+      "urls": [
+        "https://news.nate.com/view/20100511n18328",
+        "https://whitefaceone.tistory.com/2967"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "uh-naga-romanized-response",
+      "urls": [
+        "https://everymemes.tistory.com/282",
+        "https://whitefaceone.tistory.com/2280"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mo-yamerunda-mixed-language-stop",
+      "urls": [
+        "https://jolgame.tistory.com/447",
+        "https://door-of-tabris.tistory.com/entry/건담-더-쉽게-알기-41편-의외의-웃음벨이-된-건담의-밈?category=912896"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "see-tinh-ttingtting-dance",
+      "urls": [
+        "https://www.mk.co.kr/news/all/10648881",
+        "https://www.xportsnews.com/article/1804568"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "fake-reveal-parody-voice-cut",
+      "urls": [
+        "https://everymemes.tistory.com/293",
+        "https://whitefaceone.tistory.com/2925"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "king-muscle-goldmon-collage",
+      "urls": [
+        "https://whitefaceone.tistory.com/2672"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mwoiyak-phantom-quote",
+      "urls": [
+        "https://www.sateconomy.co.kr/news/view/179591996279394",
+        "https://maplestory.nexon.com/Community/Art/28858"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "what-havent-we-done-correct-answer",
+      "urls": [
+        "https://www.newsis.com/view/?id=NISX20240618_0002777423&pc_view=1"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "160 expression-review observations across eight 20-item groups, not 160 unique new memes. 1028 previously held now promoted; 1021/1022 same family. 0431 conditional promoted after editorial check. Current twelve entries: two recent formats and ten historical recoveries; recent-year evidence not required for historical entries.",
+    "No media viewed. Explanatory sources distinguished from direct usage. Reports do not establish comprehensive discovery."
+  ],
+  "query_observations": 7763,
+  "distinct_literal_queries": 6737,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ],
+  "review_observations": {
+    "total": 160,
+    "selected_expression_rows": 13,
+    "selected_families": 12,
+    "existing_or_partial": 44,
+    "excluded": 7,
+    "held": 96,
+    "unique_across_lifetime": null,
+    "note": "1028 reexamination promoted within prior A group;0431 promoted from conditional;1021/1022 one family. Counts are observation dispositions, not lifetime unique discoveries."
+  }
+}
