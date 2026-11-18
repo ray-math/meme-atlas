@@ -148,6 +148,7 @@
 - [깻잎 논쟁](perilla-leaf-debate.md)
 - [껍질 미리깐 달걀](pre-cracked-egg.md)
 - [꼬마 선장 춤](little-captain-dance.md)
+- [꼭 사라 두 번 사라](buy-it-buy-it-twice.md)
 - [꼭짓점 댄스](vertex-dance.md)
 - [꽁꽁 얼어붙은 한강 위로 고양이가 걸어다닙니다](frozen-han-river-cat.md)
 - [꽃길만 걷자](flower-road.md)

@@ -135,3 +135,5 @@
 - [아머드 태종](../memes/armored-taejong.md)
 
 - [~한 건에 대하여](../memes/about-that-time-template.md)
+
+- [꼭 사라 두 번 사라](../memes/buy-it-buy-it-twice.md)

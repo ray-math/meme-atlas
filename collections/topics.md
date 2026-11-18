@@ -168,6 +168,7 @@
 - [까도남](../memes/kkadonam.md)
 - [깜놀](../memes/kkamnol.md)
 - [꼬마 선장 춤](../memes/little-captain-dance.md)
+- [꼭 사라 두 번 사라](../memes/buy-it-buy-it-twice.md)
 - [꾸웨엑](../memes/kkuewek.md)
 - [꿈빛 파티시엘 챌린지](../memes/yumeiro-patissiere-challenge.md)
 - [낄끼빠빠](../memes/kkilkki-ppappa.md)

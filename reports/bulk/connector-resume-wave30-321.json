@@ -1,0 +1,93 @@
+{
+  "batch": 321,
+  "base": "9e0ebc43044e52ae822841b99d68b5d53895e5e5",
+  "canonical_before": 951,
+  "canonical_after": 952,
+  "added": [
+    "buy-it-buy-it-twice"
+  ],
+  "research": {
+    "candidates": [
+      "0052",
+      "0055",
+      "0122",
+      "0160",
+      "0274",
+      "0292",
+      "0318",
+      "0326",
+      "0359",
+      "0407"
+    ],
+    "recommended": [
+      "0274"
+    ],
+    "held": 9,
+    "queries": [
+      "\"네가 하면 나도 한다\" 밈",
+      "\"네가 하면 나도 한다\" HMH",
+      "\"네가 하면 나도 한다\" 하하 -site:namu.moe",
+      "\"Mafia City\" \"패러디\" 한국",
+      "\"너굴맨\" \"2026\"",
+      "\"꼭 사라 두 번 사라\" \"2026\"",
+      "\"듀얼 만능주의\" \"2026\"",
+      "\"가수 일론 머스크\" \"2026\"",
+      "\"나는 애쉬\" \"2026\"",
+      "\"Mafia City\" \"패러디\" 한국",
+      "\"너굴맨\" \"2026\"",
+      "\"꼭 사라 두 번 사라\" \"2026\"",
+      "\"듀얼 만능주의\" \"2026\"",
+      "\"가수 일론 머스크\" \"2026\"",
+      "\"나는 애쉬\" \"2026\"",
+      "\"11미터 모형탑\" \"2026\"",
+      "\"1초만에 사람을 낚는 방법\"",
+      "\"누가 범인일까\" 밈 \"2026\"",
+      "\"내 식사를 방해할 생각인가\"",
+      "\"꼭 사라\" \"두 번 사라\" -site:namu.moe",
+      "\"내 식사를 방해할 생각인가\" 패러디 -site:namu.moe"
+    ],
+    "index_queries": [
+      "11미터",
+      "모형탑",
+      "1초만",
+      "마피아",
+      "mafia",
+      "너굴",
+      "꼭사라",
+      "듀얼",
+      "일론",
+      "나는애쉬",
+      "범인",
+      "식사를방해",
+      "두번",
+      "꼭해라",
+      "hmh"
+    ]
+  },
+  "sources": [
+    "https://fineplatypus.tistory.com/65",
+    "https://gall.dcinside.com/mgallery/board/view/?id=ado&no=181910",
+    "https://www.ajunews.com/view/20111228000339"
+  ],
+  "verification": {
+    "editor_read": 3,
+    "independent_auditor_read": 3,
+    "direct_usage_groups": 2,
+    "recent_year": 1,
+    "images_viewed": 0,
+    "origin_confirmed": false
+  },
+  "coverage_counts": {
+    "index_not_found": 328,
+    "partial": 40,
+    "unclear": 337,
+    "automatic_title_alias_match": 328,
+    "included": 54,
+    "candidate_repeat": 4
+  },
+  "metrics": {
+    "observations": 3219,
+    "distinct": 2701
+  },
+  "limits": "Positive recommendation only; actual repeat-buy context not excluded. Not a newly originated2026meme. CI pending."
+}
