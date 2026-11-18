@@ -1,0 +1,451 @@
+{
+  "batch": 454,
+  "base": "2e843234a7908124ae5f209d91e4f51cee74d192",
+  "canonical_before": 1162,
+  "canonical_after": 1172,
+  "added": [
+    "object-period-confiscation-joke",
+    "a-jinjjayo-indifferent-response",
+    "pyeongtachi-sangtachi-rating",
+    "haha-are-you-having-fun",
+    "working-on-it-ad-parody",
+    "anya-narrow-eye-smile-reaction",
+    "hong-jun-pyo-number-two-sound",
+    "hanboneo-comedy-speech",
+    "hawawa-exaggerated-cute-speech",
+    "blackhole-dance-challenge"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0720",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "object-period-confiscation-joke"
+    },
+    {
+      "id": "kr-list-0706",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "a-jinjjayo-indifferent-response"
+    },
+    {
+      "id": "kr-list-1069",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "pyeongtachi-sangtachi-rating"
+    },
+    {
+      "id": "kr-list-1086",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "haha-are-you-having-fun"
+    },
+    {
+      "id": "kr-list-0748",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "working-on-it-ad-parody"
+    },
+    {
+      "id": "kr-list-0732",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "anya-narrow-eye-smile-reaction"
+    },
+    {
+      "id": "kr-list-1125",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "hong-jun-pyo-number-two-sound"
+    },
+    {
+      "id": "kr-list-1101",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "hanboneo-comedy-speech"
+    },
+    {
+      "id": "kr-list-1089",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "hawawa-exaggerated-cute-speech"
+    }
+  ],
+  "previous_ci": {
+    "run": 44278536165,
+    "job": 134712808679,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 124.681s"
+  },
+  "previous_audit": {
+    "sha": "2e843234a7908124ae5f209d91e4f51cee74d192",
+    "canonical": 1162,
+    "entries_read": 11,
+    "existing_link_body_read": 1,
+    "index_existing_unchanged": 1151,
+    "source_urls_read": 18,
+    "required": 0,
+    "optional": 1,
+    "images_videos": 0,
+    "note": "Optional replace exact quoted XXX with ellipsis in singularity history; editor source rendering had XXX, avoid ambiguity."
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "ids": [
+        "0683",
+        "0686",
+        "0687",
+        "0688",
+        "0690",
+        "0691",
+        "0698",
+        "0701",
+        "0703",
+        "0704",
+        "0706",
+        "0707",
+        "0708",
+        "0714",
+        "0715",
+        "0718",
+        "0719",
+        "0720",
+        "0721",
+        "0723"
+      ],
+      "recommended": [
+        "0706",
+        "0720"
+      ],
+      "partial_maintained": [
+        "0688",
+        "0691",
+        "0708",
+        "0719",
+        "0721"
+      ],
+      "held": 13,
+      "queries": [
+        "\"아니다 이 악마야\" 드립",
+        "\"아모캣\" 뜻",
+        "\"아이 러브 마이 화자 마자 브라자\"",
+        "\"압수 드립\"",
+        "\"아로나 댄스\" 패러디",
+        "\"아 진짜요\" \"밈\"",
+        "\"아주라\" \"패러디\"",
+        "\"안전가족\" \"패러디\"",
+        "\"아 진짜요\" \"밈\" 엔플라잉",
+        "\"아주라\" \"1박2일\" 피자",
+        "\"아니다 이 악마야\" site:tistory.com",
+        "\"아나\" \"아라아라\" 뜻",
+        "\"아 진짜요\" \"영혼 없는\" 엔플라잉 인터뷰",
+        "\"아이 러브 마이 화자\" \"개그\""
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "ids": [
+        "0725",
+        "0726",
+        "0727",
+        "0728",
+        "0729",
+        "0730",
+        "0731",
+        "0732",
+        "0735",
+        "0736",
+        "0737",
+        "0738",
+        "0740",
+        "0741",
+        "0743",
+        "0744",
+        "0748",
+        "0751",
+        "0752",
+        "0753"
+      ],
+      "recommended": [
+        "0732",
+        "0748"
+      ],
+      "partial_maintained": [
+        "0738",
+        "0743",
+        "0752"
+      ],
+      "held": 15,
+      "queries": [
+        "\"애는 있습니다\" 패러디",
+        "\"얘들아\" \"영국맛을\"",
+        "\"약한 사내다\" \"패러디\"",
+        "\"아냐\" \"표정\" \"밈\"",
+        "\"어 작업중이야\"",
+        "\"얼리 엑세스 예시를 보여줌\"",
+        "\"애기공룡 둘리\" \"밈\"",
+        "\"영국맛\" 케이온",
+        "\"작업 중이야\" 이서진 광고 패러디",
+        "\"애는 있습니다\" 김응수",
+        "\"약한 사내다\" 아스달 기사",
+        "\"영국 맛\" 케이온 패러디"
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": [],
+      "existing": 15,
+      "held": 2,
+      "excluded": 3,
+      "queries": [
+        "2026 밈 챌린지 site.allurekorea.com 11월",
+        "2026 밈 챌린지 site.esquirekorea.co.kr 10월",
+        "2026 밈 \"유행어\" site.careet.net",
+        "\"2026\" \"Forgot Airpod\" 밈",
+        "\"무공해\" \"밈\" 2026",
+        "\"사보필\" 2026 사용"
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended": [
+        "BLACKHOLE",
+        "BANG BANG",
+        "ROBOT"
+      ],
+      "existing": 7,
+      "held": 7,
+      "excluded": 3,
+      "editor_held": [
+        "BANG BANG",
+        "ROBOT"
+      ],
+      "queries": [
+        "2026 챌린지 \"따라\" \"대학생\" 밈",
+        "2026 \"밈\" \"사진\" site:allurekorea.com",
+        "\"Born Savage\" \"챌린지\" 2026 참여",
+        "\"휘슬 노크\" 챌린지",
+        "\"That's no no\" 챌린지 2026",
+        "\"BLACKHOLE\" \"챌린지\" 2026",
+        "\"Born Savage\" \"챌린지\" \"참여\"",
+        "\"BLACKHOLE\" \"안유진\" \"이영지\" 챌린지"
+      ]
+    },
+    "C": {
+      "count": 20,
+      "ids": [
+        "1055",
+        "1056",
+        "1059",
+        "1060",
+        "1061",
+        "1063",
+        "1064",
+        "1065",
+        "1066",
+        "1068",
+        "1069",
+        "1072",
+        "1073",
+        "1076",
+        "1078",
+        "1079",
+        "1080",
+        "1083",
+        "1084",
+        "1086"
+      ],
+      "recommended": [
+        "1069",
+        "1086"
+      ],
+      "partial_maintained": [
+        "1061",
+        "1064",
+        "1065",
+        "1066",
+        "1072"
+      ],
+      "held": 13,
+      "queries": [
+        "\"평타취\" \"상타취\" 뜻",
+        "\"페이크다\" \"밈\"",
+        "\"ㅎㅎ즐거우세요\" 밈",
+        "\"폴란드볼\" 기사",
+        "\"파오후\" \"뜻\" 기사",
+        "\"평타치\" \"상타치\" 뜻",
+        "\"폴란드볼\" \"한국\"",
+        "\"페이크다\" site:inven.co.kr",
+        "\"페이크다\" \"패러디\" 기사",
+        "\"폴란드볼\" \"문화\"",
+        "\"평온차\" 밈",
+        "\"피에로 드립\"",
+        "\"ㅎㅎ즐거우세요\" \"광고\"",
+        "\"평타취\" 뜻 -site:namu.moe",
+        "\"페이크다\" \"게임메카\"",
+        "\"폴란드볼\" \"신문\"",
+        "\"ㅎㅎ즐거우세요\" site:etoday.co.kr",
+        "\"평타취\" \"상타취\" site:everymemes.tistory.com",
+        "\"페이크다\" \"유행어\"",
+        "\"풀발\" \"뜻\""
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "ids": [
+        "1087",
+        "1089",
+        "1093",
+        "1094",
+        "1096",
+        "1098",
+        "1099",
+        "1101",
+        "1103",
+        "1105",
+        "1107",
+        "1108",
+        "1109",
+        "1118",
+        "1119",
+        "1121",
+        "1125",
+        "1127",
+        "1128",
+        "1129"
+      ],
+      "recommended": [
+        "1098",
+        "1125"
+      ],
+      "conditional": [
+        "1089",
+        "1101"
+      ],
+      "partial_maintained": [
+        "1096"
+      ],
+      "partial_link_proposed": [
+        "1093"
+      ],
+      "held": 14,
+      "queries": [
+        "\"한본어\" 뜻 기사",
+        "\"하와와\" 뜻 기사",
+        "\"하츠네 형돈\"",
+        "\"회사 안다녀\" 밈",
+        "\"하루만 기다리면\" \"나와요\" 밈",
+        "\"한글 써지지 않다\"",
+        "\"한글자 드립\"",
+        "\"핫산\" \"드립\" 뜻",
+        "\"하와와\" site:everymemes.tistory.com",
+        "\"한본어\" \"2018\"",
+        "\"하츠네 형돈\" -site:namu.moe -site:seore.org",
+        "\"홍준표 2번\" 밈",
+        "\"한본어\" \"밈\" \"2019\"",
+        "\"하츠네 형돈\" 기사",
+        "\"하와와\" \"유래\"",
+        "\"할 말이 없네\" \"밈\"",
+        "\"한본어\" \"유튜브\" \"2018\"",
+        "\"하츠네 형돈\" site:careet.net",
+        "\"하츄핑\" \"밈\" 기사",
+        "\"한글 써지지 않다\" 패러디"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "object-period-confiscation-joke",
+      "urls": [
+        "https://everymemes.tistory.com/71",
+        "https://news.nate.com/view/20230711n38957"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "a-jinjjayo-indifferent-response",
+      "urls": [
+        "https://www.osen.co.kr/article/G1111369992",
+        "https://idology.kr/13243"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pyeongtachi-sangtachi-rating",
+      "urls": [
+        "https://www.dongascience.com/news/9016",
+        "https://v.daum.net/v/20170309094204247?s=print_news"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "haha-are-you-having-fun",
+      "urls": [
+        "https://www.etoday.co.kr/news/view/2355830",
+        "https://sports.khan.co.kr/article/202412251558003/amp"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "working-on-it-ad-parody",
+      "urls": [
+        "https://imnews.imbc.com/replay/2021/nwtoday/article/6302327_34943.html",
+        "https://www.inews24.com/v/1504678"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "anya-narrow-eye-smile-reaction",
+      "urls": [
+        "https://whitefaceone.tistory.com/2743"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hong-jun-pyo-number-two-sound",
+      "urls": [
+        "https://www.hankookilbo.com/news/article/A2021090913240002654",
+        "https://www.edaily.co.kr/News/Read?OutLnkChk=Y&mediaCodeNo=257&newsId=01964726642168264"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hanboneo-comedy-speech",
+      "urls": [
+        "https://www.wikitree.co.kr/articles/320800"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hawawa-exaggerated-cute-speech",
+      "urls": [
+        "https://memeislife.tistory.com/45"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "blackhole-dance-challenge",
+      "urls": [
+        "https://www.etnews.com/20260306000307",
+        "https://minglestudio.co.kr/portfolio.html"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "120candidate reviews=80ledger+40recent;not120firstdiscoveries.",
+    "1098held:singleposthistorynotboundedreuse;1093specificcharacterlinkheld:oo-pingonlyIPnaminggeneral.",
+    "1089/1101conditionalacceptednarrowneutralform;1125partialaudioinsertiononly,originyearconflictomitted.",
+    "BANGBANG/ROBOTadditionaluse/formheld;BLACKHOLEseparateproductionportfolioaccepted.",
+    "453CI65/495124.681PASS;independentauditrequired0optional1.",
+    "Optionalhistoryquotationclarifiedwithoutchangingdefinition/searchindex."
+  ],
+  "query_observations": 7352,
+  "distinct_literal_queries": 6428,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
