@@ -1,0 +1,276 @@
+{
+  "batch": 480,
+  "base": "19b93ec0cd6b7b8a74235819f9f82331625b1890",
+  "canonical_before": 1437,
+  "canonical_after": 1447,
+  "added": [
+    "manghaesseoyo-commentary-audio-reuse",
+    "transit-love-three-trailer-dialogue-edit",
+    "jeonggwon-put-him-in-template",
+    "k-prefix-ironic-comment-template",
+    "magyeongjip-baseball-focus-bait",
+    "ya-hyeongiya-boast-caption",
+    "mc-muhyeon-edited-voice-label",
+    "bulman-water-wordplay",
+    "pororo-medical-school-title-misreading",
+    "gyaru-makeover-content"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0460",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "manghaesseoyo-commentary-audio-reuse"
+    },
+    {
+      "id": "kr-list-0112",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "jeonggwon-put-him-in-template"
+    },
+    {
+      "id": "kr-list-0104",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "k-prefix-ironic-comment-template"
+    },
+    {
+      "id": "kr-list-0109",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "magyeongjip-baseball-focus-bait"
+    },
+    {
+      "id": "kr-list-0111",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "ya-hyeongiya-boast-caption"
+    },
+    {
+      "id": "kr-list-0127",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "mc-muhyeon-edited-voice-label"
+    },
+    {
+      "id": "kr-list-0557",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "bulman-water-wordplay"
+    }
+  ],
+  "previous_ci": {
+    "sha": "19b93ec0cd6b7b8a74235819f9f82331625b1890",
+    "run": 44307097626,
+    "job": 134811356632,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 105.955s"
+  },
+  "previous_audit": {
+    "batch": 479,
+    "sha": "19b93ec0cd6b7b8a74235819f9f82331625b1890",
+    "result": "PASS",
+    "mandatory_fixes": 0,
+    "source_urls": 16,
+    "old_entries_preserved": 1429,
+    "candidate_changes": 6,
+    "mapping_loss": 0,
+    "usage": {
+      "total": 1437,
+      "annotated": 74,
+      "reviewed": 73,
+      "unannotated": 1363
+    },
+    "notes": "17files,existingbodiesunchanged,domesticcreationmetadataandmediaunviewedlimitsappropriate."
+  },
+  "research": {
+    "A41": {
+      "count": 20,
+      "recommended": 2,
+      "held": 18,
+      "queries": [
+        "\"마쁘리에요\"",
+        "\"막심 센세\" 밈",
+        "\"망했어요\" 해설 패러디",
+        "\"모스카우\" 한국 패러디",
+        "\"무대뽀\" 유행어",
+        "\"무츠키 댄스\" -site:namu.moe -site:seore.org",
+        "\"물음표 드립\" -site:namu.moe",
+        "\"뭉탱이\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"미안송\" 패러디",
+        "\"맛나핑\" 밈",
+        "\"미쿠미쿠하게 해줄게\" 패러디 한국",
+        "\"바바바바바바\" 밈",
+        "\"밤 샌 사람\" \"일찍 일어난\"",
+        "\"방송 되게 못하네\" -site:namu.moe -site:seore.org",
+        "\"벽부수기\" 밈 -site:namu.moe",
+        "\"봇이지 뭐\"",
+        "\"북방코끼리바다표범\" 밈",
+        "\"불만 있냐\" \"물도 있다\"",
+        "\"불티\" \"밈\" 패러디",
+        "\"브레드 이발소\" 밈",
+        "\"밤샌 사람\" \"일찍\" 지진희",
+        "\"불만 있냐\" \"물도\" -site:namu.moe -site:seore.org",
+        "\"망했어요\" \"우승기\" -site:namu.moe -site:seore.org -site:alphawiki.org",
+        "\"무츠키\" \"댄스\" 인벤"
+      ],
+      "notes": "20originalledgerreexamined;0460commentaryaudio/0557fixedwordplayrecommended.3existingbodies10external2Invenfailures.0533singlebroadcastquoteinsufficientreuse.OWLexplanationnotindependentoperatorverified."
+    },
+    "C21": {
+      "count": 20,
+      "recommended": 5,
+      "held": 15,
+      "queries": [
+        "\"K-\" \"접두사\" \"밈\"",
+        "\"Maxwell Cat\" \"밈\" 한국",
+        "\"Mafia City\" \"밈\" 광고",
+        "\"finally awake\" \"밈\" 한국",
+        "\"K드립\" -site:namu.moe -site:seore.org",
+        "\"맥스웰\" \"고양이\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"EZ DO DANCE\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"정권이 내\" \"유행어\"",
+        "\"야 형이야\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"정권이 내\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"FBI OPEN UP\" 뜻 -site:namu.moe -site:seore.org",
+        "\"street photographer\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"김헌곤 유니버스\" -site:namu.moe -site:seore.org",
+        "\"돈 내놔라 먹튀야\" -site:namu.moe -site:seore.org",
+        "\"마 갱기에 집중 안하나\" -site:namu.moe -site:seore.org",
+        "\"정권이 내\" 기사 박정권 -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"He is\" \"밈\" 야구",
+        "\"음탕지찬\" 뜻 -site:namu.moe -site:seore.org",
+        "\"ㅎㄴㅎㄴ\" 밈 -site:namu.moe -site:seore.org",
+        "\"KON\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"MC 노리아키\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"MC무현\" \"합성\" 기사",
+        "\"MH세대\" \"뜻\" -site:namu.moe -site:seore.org",
+        "\"ketsu drum\" 한국"
+      ],
+      "notes": "Historical5recommended0104Kdrip/0109baseballfocus/0111selfintro/0112putplayerin/0127criticaldeceasedvoiceedit. 3existingbodies;media0. 15held includingMaxwellCatnotseparateformatproof."
+    },
+    "B506": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 7,
+      "held": 10,
+      "excluded": 2,
+      "queries": [
+        "2026 \"챌린지\" \"놀이\" site:elle.co.kr",
+        "2026 \"밈\" \"사진\" site:cosmopolitan.co.kr",
+        "2026 \"유행\" \"놀이\" site:allurekorea.com",
+        "\"2026\" \"11월\" \"밈\" site:gogumafarm.kr",
+        "\"2026\" \"10월\" \"놀이\" \"SNS\"",
+        "\"2026\" \"밈\" site:univ20.com \"11\"",
+        "\"2026\" \"11월\" \"사진\" \"챌린지\" -site:instablank.com -site:instagram.com -site:youtube.com",
+        "\"2026\" \"밈\" \"재현\" site:newsis.com",
+        "\"2026\" \"밈\" \"사진\" site:it.chosun.com"
+      ],
+      "notes": "Historical2023transitlove3trailerdramaedit recommended,notrecent.7existingfamilies10held2excluded;originalmedia0. Lisa legs domesticcreatorunverified;worldgay actualorientationnotinfer."
+    },
+    "B507": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 11,
+      "held": 3,
+      "excluded": 4,
+      "queries": [
+        "\"2026\" \"밈\" \"11월\" site:trendmonitor.co.kr",
+        "\"2026\" \"챌린지\" \"따라\" site:allurekorea.com",
+        "\"2026\" \"요즘\" \"놀이\" site:cosmopolitan.co.kr",
+        "\"2026\" \"밈\" \"놀이\" site:news.nate.com",
+        "\"2026\" \"밈\" \"사진\" site:eyesmag.com",
+        "\"2026\" \"챌린지\" \"공유\" site:marieclairekorea.com",
+        "\"2026\" \"한가인\" \"갸루\" \"영상\"",
+        "\"2026\" \"이민정\" \"갸루\" \"유튜브\""
+      ],
+      "notes": "Two recent recommendations; 11 existing/family, 3 held, 4 excluded. No original media viewed. Gyaru reports about same Lee Minjung production not independent events. Han Gain excluded due wanghong ambiguity."
+    }
+  },
+  "sources": [
+    {
+      "id": "manghaesseoyo-commentary-audio-reuse",
+      "urls": [
+        "https://m.inews24.com/v/247092",
+        "https://theuranus.tistory.com/1842"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "transit-love-three-trailer-dialogue-edit",
+      "urls": [
+        "https://www.cosmopolitan.co.kr/article/83114"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jeonggwon-put-him-in-template",
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=254095"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "k-prefix-ironic-comment-template",
+      "urls": [
+        "https://shindonga.donga.com/society/article/all/13/2351134/1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "magyeongjip-baseball-focus-bait",
+      "urls": [
+        "https://koreasintobuli.tistory.com/entry/손아섭-마갱집-마갱기에집중안하나-므찌나-오빠므찌나-별명-밈-야구밈"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ya-hyeongiya-boast-caption",
+      "urls": [
+        "https://glass4.tistory.com/entry/어-형이야-드립-야-형이야-에데르송-이재원-페이커와-관련된-밈"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mc-muhyeon-edited-voice-label",
+      "urls": [
+        "https://www.khan.co.kr/article/201506011457451"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bulman-water-wordplay",
+      "urls": [
+        "https://speedwagwon.tistory.com/909",
+        "https://music.bugs.co.kr/track/30695888"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pororo-medical-school-title-misreading",
+      "urls": [
+        "https://m.news.nate.com/view/20251230n08564"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gyaru-makeover-content",
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260529131200011",
+        "https://news.nate.com/view/20260705n04358"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Bugs source read successfully by A41 researcher; editor retry returned403. No audio played or lyrics transcribed; not counted as successful editorial directread.",
+    "OWL failed-term source excluded fromfinalbody,using2007report+2014specificeditdescription only.",
+    "One source explanatory pages formagyeongjip/selfintrodo notproveoriginalspeakeridentity."
+  ],
+  "query_observations": 9562,
+  "distinct_literal_queries": 8090,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}
