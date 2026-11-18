@@ -687,6 +687,7 @@
 - [유리멘탈](glass-mental.md)
 - [윤정아 윤정아](yunjeong-yunjeong.md)
 - [으리](euri.md)
+- [을용타](eulyongta-parody.md)
 - [음슴체](eumseum-style.md)
 - [음원깡패](eumwon-kkangpae.md)
 - [읍읍](eup-eup.md)

@@ -1,0 +1,39 @@
+{
+  "batch": 405,
+  "base": "2afb6c055506f899b8ac813e61c039e79d7b7abc",
+  "canonical_before": 990,
+  "canonical_after": 991,
+  "added": [
+    "eulyongta-parody"
+  ],
+  "candidate_change": {
+    "id": "kr-list-0835",
+    "from": "index_not_found",
+    "to": "partial"
+  },
+  "independent_audit": {
+    "source_reads": 3,
+    "related_body_reads": 2,
+    "passed": true
+  },
+  "evidence": {
+    "recent_title": 1,
+    "historical_reenactment_report": 1,
+    "historical_ad_review": 1,
+    "video_image_reads": 0,
+    "limits": "원사건동작충돌배제;후기날짜와광고공개시기구분;폭력정당화·국가조롱제외"
+  },
+  "ci": {
+    "report404": {
+      "run": 44252730418,
+      "job": 134627053691,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 111.717,
+      "success": true
+    },
+    "new_commit": "pending"
+  },
+  "new_queries": 0,
+  "queries_already_recorded": 404
+}

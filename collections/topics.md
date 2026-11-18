@@ -511,6 +511,7 @@
 - [웬즈데이 댄스 챌린지](../memes/wednesday-dance.md)
 - [위꾸](../memes/wikku.md)
 - [유리멘탈](../memes/glass-mental.md)
+- [을용타](../memes/eulyongta-parody.md)
 - [음슴체](../memes/eumseum-style.md)
 - [음원깡패](../memes/eumwon-kkangpae.md)
 - [읍읍](../memes/eup-eup.md)
