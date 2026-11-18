@@ -104,10 +104,11 @@
     "reports/bulk/connector-resume-wave30-259.json",
     "reports/bulk/connector-resume-wave30-260.json",
     "reports/bulk/connector-resume-wave30-261.json",
-    "reports/bulk/connector-resume-wave30-262.json"
+    "reports/bulk/connector-resume-wave30-262.json",
+    "reports/bulk/connector-resume-wave30-263.json"
   ],
-  "query_observations": 1933,
-  "distinct_literal_queries": 1569,
+  "query_observations": 1950,
+  "distinct_literal_queries": 1584,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -9974,6 +9975,91 @@
     {
       "query": "킷캣",
       "source": "reports/bulk/connector-resume-wave30-262.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"손현듀\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"공휴일\" \"하루에 하루만 더\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"손현듀\" SBS 메이킹",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"공휴일\" \"하루에 하루만 더\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"공휴일\" \"하루만 더\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"공휴일\" \"하루에\" \"투바투\"",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "손현듀",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "손현주",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "듀가나디",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "공휴일",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하루에 하루",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "하루만 더",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "가나디",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "강아지",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "듀아",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "dugan",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "ganadi",
+      "source": "reports/bulk/connector-resume-wave30-263.json",
       "status": "screened-see-report"
     }
   ],

@@ -1,0 +1,42 @@
+{
+  "batch": 263,
+  "canonical_before": 917,
+  "canonical_after": 917,
+  "research": {
+    "queries": [
+      "\"손현듀\" 2026",
+      "\"공휴일\" \"하루에 하루만 더\" 2026",
+      "\"손현듀\" SBS 메이킹",
+      "\"공휴일\" \"하루에 하루만 더\" -site:namu.moe",
+      "\"공휴일\" \"하루만 더\" \"밈\"",
+      "\"공휴일\" \"하루에\" \"투바투\""
+    ],
+    "index_queries": [
+      "손현듀",
+      "손현주",
+      "듀가나디",
+      "공휴일",
+      "하루에 하루",
+      "하루만 더",
+      "가나디",
+      "강아지",
+      "듀아",
+      "dugan",
+      "ganadi"
+    ],
+    "reinforce": "duaaaa",
+    "sources": [
+      "https://sports.khan.co.kr/article/202611070234003",
+      "https://enews.imbc.com/News/RetrieveNewsInfo/524507",
+      "https://sports.khan.co.kr/article/202611151642003/amp"
+    ],
+    "notes": "producer/creator/actor interaction not independent2reuse; YT8boqPfTvRFkblocked",
+    "hold": "holiday-song M2YT3WgEsy0p5F4blocked; Theqoo list changed no original recover"
+  },
+  "change": "duaaaa related-character example only, not equivalent meaning or alias; all three article bodies reread; not two independent meme formats",
+  "metrics": {
+    "query_observations": 1950,
+    "distinct_literal_queries": 1584
+  },
+  "ci": "not run"
+}
