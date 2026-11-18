@@ -114,10 +114,11 @@
     "reports/bulk/connector-resume-wave30-269.json",
     "reports/bulk/connector-resume-wave30-271.json",
     "reports/bulk/connector-resume-wave30-272.json",
-    "reports/bulk/connector-resume-wave30-273.json"
+    "reports/bulk/connector-resume-wave30-273.json",
+    "reports/bulk/connector-resume-wave30-275.json"
   ],
-  "query_observations": 2193,
-  "distinct_literal_queries": 1782,
+  "query_observations": 2237,
+  "distinct_literal_queries": 1814,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -11284,6 +11285,226 @@
     {
       "query": "포사이스",
       "source": "reports/bulk/connector-resume-wave30-273.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"칼럼\" \"신조어\" -site:namu.moe -늙크크 -영크크 -밤티",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"마케팅\" \"8월\" -site:incross.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"도티낳음\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"퇴직연금이 사람이라면\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"개웃겨서 도티\" 2026 -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"도티낳음\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"도티 낳음\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누가 돌아",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "코 때",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "탭탭",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "태뱁",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도티",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "퇴직연금",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "장시간",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "젓가락",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "과자사꾸",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나<3",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "항준",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"공식 블로그\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"대학\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"탭탭\" \"밈\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"손가락 막대기\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"taptap.e\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마제타라\" \"2026\" 챌린지 브랜드",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마제타라\" site:genie.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마제타라\" site:clip.imbc.com",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마제타라\" \"핑크퐁\"",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마제타라\" \"루피\" -site:hsad.tistory.com -site:blog.hsad.co.kr -site:adic.or.kr -site:ad.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "배우 도전",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "불에 타",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "젓가락",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "누가 돌아왔",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "탭탭",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "코 때리",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스쿠바",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마제타라",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "색 섞기",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "mazet",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "maset",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "마제",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "말랑",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "파쿠르",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"문화원\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"박물관\" 챌린지",
+      "source": "reports/bulk/connector-resume-wave30-275.json",
       "status": "screened-see-report"
     }
   ],
