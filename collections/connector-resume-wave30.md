@@ -83,3 +83,4 @@
 - [우사기 랩](../memes/usagi-rap.md)
 - [식스 세븐](../memes/six-seven.md)
 - [이지까까](../memes/easy-kkakka.md)
+- [RUDE! 나레이션 패러디](../memes/rude-narration.md)

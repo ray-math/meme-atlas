@@ -86,10 +86,11 @@
     "reports/bulk/connector-resume-wave30-240.json",
     "reports/bulk/connector-resume-wave30-241.json",
     "reports/bulk/connector-resume-wave30-242.json",
-    "reports/bulk/connector-resume-wave30-243.json"
+    "reports/bulk/connector-resume-wave30-243.json",
+    "reports/bulk/connector-resume-wave30-244.json"
   ],
-  "query_observations": 1473,
-  "distinct_literal_queries": 1193,
+  "query_observations": 1502,
+  "distinct_literal_queries": 1215,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -7656,6 +7657,151 @@
     {
       "query": "L을",
       "source": "reports/bulk/connector-resume-wave30-243.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"11월\" \"패러디\" -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"유행어\" \"도서\" \"제목\"",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"AI 티 내는 법\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"AI 티\" \"성열\" 디자인",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "AI 티",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "성열",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "KISS",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "키스앤",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "폴라베어",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"No Roots\" \"밈\" 포스터",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"No Roots\" \"챌린지\" 한국",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"책크인\" \"No Roots\"",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "No Roots",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "노 루츠",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "이룬",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "성과",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "흑백",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"하츠투하츠\" \"said to me\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"유노왓\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"스텔라\" \"문답\"",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"루드\" \"내 남자의 여자\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Rude\" \"나레이션\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "스텔라",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "나레이션",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "내 남자의 여자",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "rude",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "said to me",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "루드",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "밸리 걸",
+      "source": "reports/bulk/connector-resume-wave30-244.json",
       "status": "screened-see-report"
     }
   ],

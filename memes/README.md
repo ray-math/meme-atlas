@@ -17,6 +17,7 @@
 - [OTL](otl.md)
 - [PPAP](ppap.md)
 - [Queen never cry](queen-never-cry.md)
+- [RUDE! 나레이션 패러디](rude-narration.md)
 - [TMI](tmi.md)
 - [UBD](ubd.md)
 - [~각](gak-situation.md)
