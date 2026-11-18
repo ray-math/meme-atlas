@@ -1,0 +1,91 @@
+{
+  "batch": 435,
+  "base": "40d0561357ccddd5f47dd31adb0b743dc123b396",
+  "canonical_before": 1007,
+  "canonical_after": 1007,
+  "added": [],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" \"패러디\" site:news.samsung.com",
+      "2026 \"밈\" \"패러디\" site:live.lge.co.kr",
+      "2026 \"밈\" \"따라\" site:newsroom.posco.com",
+      "2026 \"밈\" \"패러디\" \"경찰\"",
+      "2026 \"밈\" \"재현\" \"브랜드\"",
+      "2026 \"밈\" \"직접\" \"문화재단\"",
+      "2026 \"밈\" \"말투\" \"뮤지컬\"",
+      "2026 \"밈\" \"패러디\" \"병원\"",
+      "2026 \"밈\" \"제작했다\" -site:namu.moe -site:namu.wiki -홍명보 -트럼프",
+      "2026 \"유행어\" \"현수막\" -덕성",
+      "2026 \"밈\" \"뉴스레터\" \"직접\" -site:instablank.com -site:moamoang.co.kr",
+      "2026 \"밈\" \"재현\" \"도전\" -site:instablank.com -site:namu.moe"
+    ],
+    "existing": [
+      "under-arrest",
+      "power-cooling",
+      "54000",
+      "bamti",
+      "fight-briefing-parody"
+    ],
+    "held": [
+      "켄드릭라마챌린지:대구경찰보도2025-04-22기간밖동일사건",
+      "폭싹속았수다보이스피싱:동일보도고정형식불명",
+      "경찰부른다했다:2024-12-04설명최근사용없음",
+      "폴대에묶어주세요:길이음제목검색단서,원문날짜둘째미확인",
+      "백룸:영화설명검색단서반복적용아님"
+    ],
+    "source": {
+      "url": "https://www.i-boss.co.kr/ab-6141-72848",
+      "note": "2026-10-22게시10/15~21소식. L417 AI대화요약고지 있어 원댓글/원제작자 직접근거로 제외."
+    },
+    "failed": "https://news.nate.com/view/20260701n29281?mid=n0105 Unicode decoding error",
+    "media_viewed": 0,
+    "recommended": 0
+  },
+  "researchB": {
+    "queries": [
+      "\"딱딱해\" 밈 2026",
+      "\"벽력일섬\" 패러디 2026",
+      "\"삼도수군통제사\" 밈 2026",
+      "\"택배 드립\" 2026",
+      "\"속보\" \"밈\" \"2026\" 제목",
+      "\"벽력일섬\" \"2026\" \"챌린지\"",
+      "\"딱딱해\" \"패러디\" -site:namu.moe",
+      "\"택배\" \"드립\" \"2026\" -site:namu.moe"
+    ],
+    "held": [
+      {
+        "id": "0413",
+        "note": "딱딱해 오래된 리믹스 설명/일반형용사/집계. 최근 독립차용2군 없음."
+      },
+      {
+        "id": "0539",
+        "url": "https://peak.nexon.com/post/2039",
+        "note": "게임콜라보 원작기술 재현 후기, 일상패러디 아님. 검색날짜07-07본문미확인. 보물섬07-25영상은집계뿐."
+      },
+      {
+        "id": "0607",
+        "url": "https://www.inven.co.kr/board/maple/2299/3587390",
+        "note": "대상본문 반환없음/find502. 진입성공을검증으로세지않음."
+      },
+      {
+        "id": "0636",
+        "url": "https://static.netpx.co.kr/app/boards/views/humor/10536?page=1&q=&s_type=",
+        "note": "2026-10-25 가상마법부장관담화 속보제목1군. 재게시/원저작불명, 포괄원장형식확정불가. 이미지미열람."
+      },
+      {
+        "id": "1041",
+        "note": "택배드립 포괄분류 배송/커피 혼재. 고정형식 불명."
+      }
+    ],
+    "index_ref": "04619c03461da90035081d8e6295e47c58edf860",
+    "note": "작업자최신재조회아님. 편집자는5365232색인동일확인.",
+    "recommended": 0
+  },
+  "candidate_changes": [],
+  "limitations": [
+    "보류10소재는 확정미수록10개가 아님.",
+    "작업자 원문검토 보고 수합, 신규본문승격0.",
+    "영상/이미지0. 검색단서와직접본문구분."
+  ],
+  "ci_new_commit": "pending"
+}

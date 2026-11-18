@@ -256,10 +256,11 @@
     "reports/bulk/connector-resume-wave30-431.json",
     "reports/bulk/connector-resume-wave30-432.json",
     "reports/bulk/connector-resume-wave30-433.json",
-    "reports/bulk/connector-resume-wave30-434.json"
+    "reports/bulk/connector-resume-wave30-434.json",
+    "reports/bulk/connector-resume-wave30-435.json"
   ],
-  "query_observations": 5888,
-  "distinct_literal_queries": 5140,
+  "query_observations": 5908,
+  "distinct_literal_queries": 5157,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -29901,6 +29902,106 @@
     {
       "query": "\"대기업에 입사한 아들의 깨달음\" 패러디",
       "source": "reports/bulk/connector-resume-wave30-434.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:news.samsung.com",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:live.lge.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"따라\" site:newsroom.posco.com",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"경찰\"",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"재현\" \"브랜드\"",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"직접\" \"문화재단\"",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"말투\" \"뮤지컬\"",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"병원\"",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"제작했다\" -site:namu.moe -site:namu.wiki -홍명보 -트럼프",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"유행어\" \"현수막\" -덕성",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"뉴스레터\" \"직접\" -site:instablank.com -site:moamoang.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"재현\" \"도전\" -site:instablank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"딱딱해\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"벽력일섬\" 패러디 2026",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"삼도수군통제사\" 밈 2026",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"택배 드립\" 2026",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"속보\" \"밈\" \"2026\" 제목",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"벽력일섬\" \"2026\" \"챌린지\"",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"딱딱해\" \"패러디\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"택배\" \"드립\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-435.json",
       "status": "screened-see-report"
     }
   ],
