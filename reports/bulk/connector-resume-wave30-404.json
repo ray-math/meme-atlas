@@ -1,0 +1,145 @@
+{
+  "batch": 404,
+  "base": "688b6dae9e02d8492a13792e1a863e8bbe1fa367",
+  "canonical_before": 990,
+  "canonical_after": 990,
+  "added": [],
+  "body_audit": {
+    "id": "molru-text-reaction",
+    "passed": true,
+    "required_changes": 0,
+    "final_body_reads": 1,
+    "limits": "최근직접1재게시1구분및partial타당"
+  },
+  "editor": {
+    "queries": [
+      "\"마따끄\" \"2026\" \"블로그\"",
+      "\"2026\" \"밈\" \"제목\" site:maily.so",
+      "\"어제 내 세상이 무너졌어\" \"2026\"",
+      "\"엄마도 사람이야 사람\" \"2026\"",
+      "\"압수\" \"드립\" \"2026\"",
+      "\"어제 내 세상이 무너졌어\" \"2026\" -site:inven.co.kr -site:namu.moe -site:kone.gg -site:issuelink.co.kr",
+      "\"어제 내 세상이 무너졌어\" site:brunch.co.kr",
+      "\"도움 많이 된다\" \"2026\" -site:maily.so -site:namu.moe",
+      "\"자기 전에 생각 많이\" \"2026\""
+    ],
+    "held": [
+      {
+        "id": "0747",
+        "title": "어제내세상이무너졌어",
+        "source": "https://miniweb.imbc.com/Music/View?progCode=FM4U000001335&seqID=1256",
+        "note": "2026-08-26공식출석명목록19행말틀1직접확인.실제사연/발화/원작성자미확인.인벤와플가게글cachemiss.극단적과장구절예문전재안함"
+      },
+      {
+        "id": "0755",
+        "note": "엄마도사람이야는일반육아서표현검색,반복형식직접없음"
+      },
+      {
+        "id": "0720",
+        "note": "압수는검색댓글/집계뿐,직접검증0"
+      },
+      {
+        "title": "도움많이된다",
+        "source": "https://maily.so/marsinmarine/posts/e9o08dp4z8w",
+        "note": "2/23maily제목직접응용+1/26위버스본문직접응용확인.공공누리cachemiss.원발화귀속미확정/영상0.독립감사대기"
+      }
+    ],
+    "limits": "미열람검색단서는검증완료아님",
+    "sources_read": [
+      "https://maily.so/marsinmarine/posts/e9o08dp4z8w",
+      "https://weverse.io/plave/artist/4-219120687?hl=ko"
+    ]
+  },
+  "researchA": {
+    "held": [
+      {
+        "title": "오디세이영화패러디",
+        "sources": [
+          "https://enews.imbc.com/News/RetrieveNewsInfo/515820",
+          "https://v.daum.net/v/20260825090559989"
+        ],
+        "note": "2026-08-25동일전개/사례보도2매체독립2군아님.활시위/절규/얼굴만지기/아르고스4형식미검증,국내원제작URL0.기존odyssey디저트말장난과별개"
+      },
+      {
+        "title": "너좋다너잘한다/넹치지마세요",
+        "note": "색인무일치독립원문없음"
+      }
+    ],
+    "queries": [
+      "2026 \"밈\" \"패러디\" site:brunch.co.kr \"제목\"",
+      "2026 \"밈\" \"따서\" \"제목\"",
+      "2026 \"밈\" \"패러디\" \"뉴스레터\" -site:maily.so -site:stibee.com",
+      "2026 \"밈\" \"활용했다\" \"대학교\"",
+      "2026 \"밈\" \"공공 홍보\" \"코레일\"",
+      "\"2026\" \"넹 치지 마세요\" -site:namu.moe -site:instablank.com",
+      "\"2026\" \"너 좋다 너 잘한다\" -site:namu.moe",
+      "\"2026\" \"오디세이\" \"밈\" -site:namu.moe -site:incross.com",
+      "\"오디세이\" \"절규\" \"패러디\" 한국 2026 -site:instablank.com",
+      "\"키르케\" \"챌린지\" \"2026\" -site:instablank.com"
+    ]
+  },
+  "researchB": {
+    "candidate": {
+      "id": "0835",
+      "title": "을용타",
+      "sources": [
+        "https://www.ytn.co.kr/_ln/0519_202607161323262129",
+        "https://v.daum.net/v/oYME5SNPoR",
+        "https://theuranus.tistory.com/4788?category=717065"
+      ],
+      "note": "2026-07-16제목명칭차용1+2018-06-04방송재현보도1+6-20광고후기1.영상0,원사건발로가격오류가능문구미채택"
+    },
+    "held": [
+      {
+        "id": "0155",
+        "note": "해외인물다큐한국적용없음"
+      },
+      {
+        "id": "0161",
+        "note": "동요혼입몬더그린실제없음"
+      },
+      {
+        "id": "0250",
+        "source": "https://www.mijungdang.com/",
+        "note": "공식떡볶이관심유도문형1연도불명Orbi403"
+      },
+      {
+        "id": "1025",
+        "note": "일반비명/숭배정확호명형식없음"
+      }
+    ],
+    "queries": [
+      "\"Zyzz\" \"2026\" 한국 밈",
+      "\"가재 가재 바닷가재\" \"2026\"",
+      "\"그치만\" \"2026\" 드립",
+      "\"을용타\" \"2026\"",
+      "\"크아아악\" \"2026\" \"밈\"",
+      "\"그치만 이렇게라도 하지 않으면\" \"2026\" -site:namu.moe",
+      "\"가재 가재 바닷가재\" -site:namu.moe",
+      "\"크아아악\" \"2026\" \"장현아\"",
+      "\"을용타\" \"2026\" 패러디",
+      "\"크아아악\" \"2026\" \"숭배\"",
+      "\"Zyzz\" \"2026\" site:dcinside.com",
+      "\"을용타\" \"패러디\" -site:namu.moe -site:wikipedia.org"
+    ]
+  },
+  "ci": {
+    "body990": {
+      "run": 44252282966,
+      "job": 134625590118,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 54.16,
+      "success": true
+    },
+    "new_commit": "pending"
+  },
+  "independent_candidate_audit": {
+    "candidate": "도움많이된다",
+    "existing_id": "good-exercise",
+    "decision": "same_family_do_not_split",
+    "source_reads": 3,
+    "body_reads": 1,
+    "note": "기존훈련멘트/공부치환설명과같은계열.문자직접2군보강가능.공공누리는감사자본문성공8-12정식제목신입사원공마루Ep04/도움많이된다는본문193.일반홍보일수있어독립밈으로가산안함.꼬리문장원발화귀속불가"
+  }
+}

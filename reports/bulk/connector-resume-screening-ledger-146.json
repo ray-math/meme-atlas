@@ -230,10 +230,11 @@
     "reports/bulk/connector-resume-wave30-399.json",
     "reports/bulk/connector-resume-wave30-400.json",
     "reports/bulk/connector-resume-wave30-402.json",
-    "reports/bulk/connector-resume-wave30-403.json"
+    "reports/bulk/connector-resume-wave30-403.json",
+    "reports/bulk/connector-resume-wave30-404.json"
   ],
-  "query_observations": 5388,
-  "distinct_literal_queries": 4664,
+  "query_observations": 5419,
+  "distinct_literal_queries": 4695,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -27375,6 +27376,161 @@
     {
       "query": "\"오지고 지리고\" \"2026\"",
       "source": "reports/bulk/connector-resume-wave30-403.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"마따끄\" \"2026\" \"블로그\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"밈\" \"제목\" site:maily.so",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어제 내 세상이 무너졌어\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"엄마도 사람이야 사람\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"압수\" \"드립\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어제 내 세상이 무너졌어\" \"2026\" -site:inven.co.kr -site:namu.moe -site:kone.gg -site:issuelink.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"어제 내 세상이 무너졌어\" site:brunch.co.kr",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"도움 많이 된다\" \"2026\" -site:maily.so -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"자기 전에 생각 많이\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" site:brunch.co.kr \"제목\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"따서\" \"제목\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"패러디\" \"뉴스레터\" -site:maily.so -site:stibee.com",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"활용했다\" \"대학교\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "2026 \"밈\" \"공공 홍보\" \"코레일\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"넹 치지 마세요\" -site:namu.moe -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"너 좋다 너 잘한다\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"오디세이\" \"밈\" -site:namu.moe -site:incross.com",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"오디세이\" \"절규\" \"패러디\" 한국 2026 -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"키르케\" \"챌린지\" \"2026\" -site:instablank.com",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Zyzz\" \"2026\" 한국 밈",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가재 가재 바닷가재\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그치만\" \"2026\" 드립",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"을용타\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"크아아악\" \"2026\" \"밈\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"그치만 이렇게라도 하지 않으면\" \"2026\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"가재 가재 바닷가재\" -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"크아아악\" \"2026\" \"장현아\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"을용타\" \"2026\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"크아아악\" \"2026\" \"숭배\"",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"Zyzz\" \"2026\" site:dcinside.com",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"을용타\" \"패러디\" -site:namu.moe -site:wikipedia.org",
+      "source": "reports/bulk/connector-resume-wave30-404.json",
       "status": "screened-see-report"
     }
   ],
