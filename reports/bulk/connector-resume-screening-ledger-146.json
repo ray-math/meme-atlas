@@ -121,10 +121,11 @@
     "reports/bulk/connector-resume-wave30-278.json",
     "reports/bulk/connector-resume-wave30-279.json",
     "reports/bulk/connector-resume-wave30-280.json",
-    "reports/bulk/connector-resume-wave30-281.json"
+    "reports/bulk/connector-resume-wave30-281.json",
+    "reports/bulk/connector-resume-wave30-282.json"
   ],
-  "query_observations": 2337,
-  "distinct_literal_queries": 1896,
+  "query_observations": 2351,
+  "distinct_literal_queries": 1908,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -12011,6 +12012,76 @@
     {
       "query": "연기.*논란",
       "source": "reports/bulk/connector-resume-wave30-281.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026.11\" \"챌린지\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026년 11월\" \"밈\" \"공식\"",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"11월\" \"챌린지\" site:clip.imbc.com",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기니 우리겠어\" -site:mynews60045.tistory.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"룩스 캔 킬\" \"챌린지\" \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"11\" \"챌린지\" site:tv.jtbc.co.kr/clip",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"룩스 캔 킬\" \"전현무\" \"11월\"",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"기니 우리겠어\" site:theqoo.net",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "룩스",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "Looks Can Kill",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "기니 우리겠어",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "꿍싯",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"11월\" \"챌린지\" \"패러디\" -site:instablank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"2026\" \"11월\" \"밈\" \"공식\" -site:instablank.com -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-282.json",
       "status": "screened-see-report"
     }
   ],
