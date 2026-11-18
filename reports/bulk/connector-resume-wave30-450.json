@@ -1,0 +1,519 @@
+{
+  "batch": 450,
+  "base": "6d859e1cbdd6e5018452f9412b565c6479e20937",
+  "canonical_before": 1117,
+  "canonical_after": 1127,
+  "added": [
+    "narak-song-voice-remix",
+    "we-call-this-ice-naming-template",
+    "this-is-the-last-warning-template",
+    "after-seeing-this-vote-irony",
+    "hip-song-dance-challenge",
+    "kimmin-core-imitation",
+    "human-paladin-team-introduction",
+    "what-nonsense-reaction-sound",
+    "inkwoni-life-ad-parody",
+    "dont-show-teeth-drama-quote"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0464",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "narak-song-voice-remix"
+    },
+    {
+      "id": "kr-list-0819",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "we-call-this-ice-naming-template"
+    },
+    {
+      "id": "kr-list-0844",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "this-is-the-last-warning-template"
+    },
+    {
+      "id": "kr-list-0846",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "after-seeing-this-vote-irony"
+    },
+    {
+      "id": "kr-list-0869",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "human-paladin-team-introduction"
+    },
+    {
+      "id": "kr-list-0853",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "what-nonsense-reaction-sound"
+    },
+    {
+      "id": "kr-list-0871",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "inkwoni-life-ad-parody"
+    },
+    {
+      "id": "kr-list-0854",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "dont-show-teeth-drama-quote"
+    },
+    {
+      "id": "kr-list-0852",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "why-gag-concert-failed"
+    }
+  ],
+  "previous_ci": {
+    "sha": "6d859e1cbdd6e5018452f9412b565c6479e20937",
+    "run": 44274777162,
+    "job": 134700006190,
+    "status": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 62.295s"
+  },
+  "previous_audit": {
+    "sha": "6d859e1cbdd6e5018452f9412b565c6479e20937",
+    "new_bodies": 11,
+    "index_rows": 1117,
+    "source_reopens": 22,
+    "required_changes": 0,
+    "optional_changes": 1,
+    "prior1106_index_unchanged": true,
+    "images_videos": 0,
+    "queries": 0,
+    "passed": true
+  },
+  "research": {
+    "ledger20A": {
+      "count": 20,
+      "ids": [
+        "0451",
+        "0453",
+        "0454",
+        "0455",
+        "0456",
+        "0459",
+        "0460",
+        "0463",
+        "0464",
+        "0465",
+        "0472",
+        "0474",
+        "0475",
+        "0476",
+        "0478",
+        "0479",
+        "0484",
+        "0486",
+        "0491",
+        "0494"
+      ],
+      "recommended": [
+        "0464"
+      ],
+      "held": 19,
+      "queries": [
+        "\"마이야히\" 패러디",
+        "\"망했어요\" \"김태형\"",
+        "\"모스카우\" \"패러디\"",
+        "\"무츠키 댄스\"",
+        "\"마쁘리에요\"",
+        "\"막심\" \"밈\"",
+        "\"나락송\"",
+        "\"어 나가\" \"노래\"",
+        "\"모 야메룽다\"",
+        "\"문법 나치\" 기사",
+        "\"무대뽀\" 밈",
+        "\"명존쎄\" 유행어",
+        "\"망했어요\" \"해설\" \"합성\"",
+        "\"마이야히\" \"패러디\" \"노마\"",
+        "\"무츠키 댄스\" \"유래\"",
+        "\"어 나가\" \"UH NARAK\"",
+        "\"망했어요\" \"김태형\" 패러디",
+        "\"마이야히\" \"플래시\"",
+        "\"무츠키\" \"댄스\" 밈"
+      ],
+      "sources": {
+        "0464": [
+          "https://whitefaceone.tistory.com/2287",
+          "https://everymemes.tistory.com/289"
+        ]
+      },
+      "notes": [
+        "twocontemporaryexplanationblogs2021-05-27/06-02; originalsnotviewed; narakisrockdistinct.",
+        "0465romancommenttargetedharassmentheld;0478Koreanreuseunverified;0494genericcategoryheld."
+      ]
+    },
+    "ledger20A2": {
+      "count": 20,
+      "ids": [
+        "0496",
+        "0497",
+        "0499",
+        "0500",
+        "0501",
+        "0502",
+        "0506",
+        "0507",
+        "0509",
+        "0510",
+        "0511",
+        "0513",
+        "0516",
+        "0517",
+        "0520",
+        "0521",
+        "0522",
+        "0523",
+        "0526",
+        "0528"
+      ],
+      "recommended": [],
+      "partial_maintained": [
+        "0502",
+        "0521"
+      ],
+      "held": 18,
+      "queries": [
+        "\"뭉탱이\" \"밈\"",
+        "\"뭐이악\"",
+        "\"미안송\" 패러디",
+        "\"밤 샌 사람\" \"일찍 일어난\"",
+        "\"뭉탱이\" site:tistory.com",
+        "\"미안송\" -site:namu.moe -site:namu.wiki",
+        "\"맛나핑\" 밈",
+        "\"바바바바바바\" 밈",
+        "뭉탱이 유링게슝 유래 블로그",
+        "미안송 개그콘서트 패러디",
+        "\"밤샌 사람\" \"일찍 일어난\" 지진희",
+        "\"미쿠미쿠하게\" \"패러디\"",
+        "\"미안송\" \"미안\" -site:namu.moe -site:namu.wiki",
+        "\"박씨 꺼져\"",
+        "\"물음표 드립\" -site:namu.moe",
+        "\"미야\" \"밈\" -site:namu.moe",
+        "\"미쿠미쿠하게\" \"아이린\"",
+        "\"뭉탱이\" \"뜻\" -site:namu.moe -site:alphawiki.org",
+        "\"미안송\" 노래 패러디 -site:namu.moe",
+        "\"밤샌 사람\" \"지진희\" 기사",
+        "\"미쿠미쿠하게 해줄게\" \"패러디\" -site:namu.moe -site:seore.org -site:alphawiki.org",
+        "\"박씨 꺼져\" \"무한도전\"",
+        "\"밥 먹을 때 생각나는\" \"후라이\" -site:namu.moe",
+        "\"밤샌 사람\" \"일찍\" \"지진희\""
+      ],
+      "sources": [
+        "https://peak.nexon.com/post/840",
+        "https://kafuri.tistory.com/427",
+        "https://dpg.danawa.com/mobile/news/view?boardSeq=64&listSeq=5808554",
+        "https://theqoo.net/square/1365538349"
+      ],
+      "notes": [
+        "0517Inven161587desktop/mobile502notverified",
+        "0501creatornotNexonofficial",
+        "0509GameMecareprint1source",
+        "0526titleonlyimageunseen"
+      ]
+    },
+    "ledger20C": {
+      "count": 20,
+      "ids": [
+        "0812",
+        "0813",
+        "0814",
+        "0815",
+        "0816",
+        "0819",
+        "0822",
+        "0826",
+        "0827",
+        "0828",
+        "0830",
+        "0831",
+        "0833",
+        "0834",
+        "0837",
+        "0840",
+        "0841",
+        "0843",
+        "0844",
+        "0846"
+      ],
+      "recommended": [
+        "0819",
+        "0844"
+      ],
+      "conditional": [
+        "0846"
+      ],
+      "held": 17,
+      "queries": [
+        "\"우리 업계에서는 포상입니다\" 기사",
+        "\"우린 이것을 얼음이라\"",
+        "\"응애\" \"드립\" 유래",
+        "\"의문의\" \"행\" \"드립\"",
+        "\"응애 나 아기\" 기사",
+        "\"육군 we 육군\"",
+        "\"의학적인 근거가 없습니다\" 밈",
+        "\"이건 마지막 경고요\"",
+        "\"응애\" site:careet.net",
+        "\"얼음이라 부르기로\" -site:namu.moe -site:seore.org",
+        "\"의문의\" \"행\" 유래 -site:namu.moe",
+        "\"우마우마\" 패러디 기사",
+        "\"응애 나 아기\" site:inven.co.kr/news",
+        "\"우마우마\" site:gamemeca.com",
+        "\"으악 안 돼\" 이병헌 패러디",
+        "\"원앙시해자\" 기사",
+        "\"응애 나 아기\" -site:inven.co.kr -site:namu.moe 기사",
+        "\"유루유리 하지마루요\" 패러디",
+        "\"이건 마지막 경고요\" 밈 유래",
+        "\"이 ○○○은 무료로 해줍니다\"",
+        "\"요 요요\" 밈",
+        "\"우연히\" 밈 유래",
+        "\"윌 스미스\" \"밈\" 패러디",
+        "\"이거 보고 이재명 뽑기로 했다\" 밈"
+      ],
+      "sources": {
+        "0819": [
+          "https://theqoo.net/square/2060686407",
+          "https://whitefaceone.tistory.com/2977",
+          "https://everymemes.tistory.com/591"
+        ],
+        "0844": [
+          "https://www.careet.net/Newsletter/Detail/1622",
+          "https://memoria-aeon.tistory.com/244"
+        ],
+        "0846": [
+          "https://news.sbs.co.kr/news/endPage.do?news_id=N1006629566&t=%7Bseek_to_second_number%7D"
+        ]
+      },
+      "notes": [
+        "0819directtext1+explanation2;notvideo/productproof",
+        "0844Careetillustrativeexample+2025actualvariation",
+        "0846singlepoliticalexplanationconditional",
+        "0840Invenmenuonly/502notbody"
+      ]
+    },
+    "ledger20C2": {
+      "count": 20,
+      "ids": [
+        "0848",
+        "0850",
+        "0851",
+        "0852",
+        "0853",
+        "0854",
+        "0855",
+        "0857",
+        "0858",
+        "0860",
+        "0863",
+        "0866",
+        "0868",
+        "0869",
+        "0871",
+        "0872",
+        "0874",
+        "0875",
+        "0878",
+        "0879"
+      ],
+      "recommended": [
+        "0869",
+        "0853",
+        "0871",
+        "0854"
+      ],
+      "existing_link": [
+        "0852"
+      ],
+      "partial_maintained": [
+        "0850",
+        "0851"
+      ],
+      "held": 13,
+      "queries": [
+        "\"이건 정말 듣도 보도 못한 발상이군\"",
+        "\"이러니까 개콘이 망하지\"",
+        "\"인간성기사 뿌뿌뽕\" 기사",
+        "\"인문학적 변태\"",
+        "\"이빨 보이지마\" 밈",
+        "\"이봐요 미친놈씨\"",
+        "\"인권이 라이프\"",
+        "\"인문학적 변태\" 밈",
+        "\"뿌뿌뽕\" site:inven.co.kr/webzine",
+        "\"뿌뿌뽕\" site:gamemeca.com",
+        "\"인실좆\" 신조어",
+        "\"이빨 보이지\" 유행어",
+        "\"이 뭔 개소리야\" 유행어",
+        "\"이 아이가 배가 부르다는 느낌을 알까요\" 패러디",
+        "\"이승우 돼지불백\" 밈",
+        "\"인주 앨리스\" 패러디",
+        "\"이제 그만\" \"밈\"",
+        "\"이쿠요\" \"밈\"",
+        "\"인싸개그\" 유행어",
+        "\"인증 대란\" 밈",
+        "\"이빨 보이지마\" 패러디",
+        "\"이 뭔 개소리야\" \"지드래곤\"",
+        "\"듣도 보도 못한 발상\" \"유래\"",
+        "\"인권이 라이프\" 광고 패러디"
+      ],
+      "notes": [
+        "7externalbodyreads+3existingdictionary;0854singlehistoricalreport",
+        "0869historicalexplanationsnotoriginalmedia",
+        "0853musicreviewreuse+blogorigin;noaudio",
+        "0871creatorinterviewpagenotinterviewdate"
+      ]
+    },
+    "recent20B": {
+      "count": 20,
+      "recommended": [
+        "hip-song-dance-challenge"
+      ],
+      "existing": 7,
+      "held": 12,
+      "queries": [
+        "2026 \"챌린지\" \"참여했다\" \"배우\" -WET -비장의 -꺾어 -그날",
+        "2026 \"챌린지\" \"따라\" site.allurekorea.com",
+        "2026 \"챌린지\" \"참여\" site.enews.imbc.com -마그네틱 -긴소원 -잔불",
+        "2026 \"singasong\" \"챌린지\" 참여",
+        "2026 \"WDA\" \"챌린지\" 참여",
+        "2026 \"BAD\" \"에이티즈\" \"챌린지\"",
+        "2026 \"Sticky\" \"NCT WISH\" \"챌린지\"",
+        "\"WDA\" \"챌린지\" \"김\" 2026",
+        "\"UNIQUE\" \"챌린지\" \"참여\" 피원하모니",
+        "\"Born Savage\" \"챌린지\" 참여",
+        "\"IF I\" \"챌린지\" \"참여\" 트레저",
+        "\"인탁\" \"힙 송\" \"2026\"",
+        "\"Wacka Wak\" 챌린지 참여",
+        "\"ANIMAL\" \"챌린지\" \"이영지\" 2026"
+      ],
+      "notes": [
+        "FNCsamevideo1event2articles",
+        "BornSavageportfolioonly;IFIwishnotparticipation;StickyvsOdeambiguous",
+        "existing7:singasong,BAD,2LOVE,VIRAL,ItsMe,REDRED,따름"
+      ]
+    },
+    "editor": {
+      "queries": [
+        "2026 11월 \"밈\" \"유행\" -site:namu.wiki -site:namu.moe",
+        "2026 \"챌린지\" \"따라\" \"배우\" -꺾어 -마그네틱 -WET",
+        "2026 \"유행어\" \"밈\" \"10월\"",
+        "\"과학자들이\" \"Hi\" 밈 -site:instablank.com",
+        "\"아이스티 4개\" 밈",
+        "\"김민\" \"따라하기\" 2026",
+        "\"김민 따라하기\" 패러디 2026 뉴스",
+        "\"김민코어\" \"무지개\""
+      ],
+      "candidates": [
+        "Hi",
+        "icedtea4",
+        "kimmin-core"
+      ],
+      "held": 2,
+      "recommended": [
+        "kimmin-core-imitation"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "narak-song-voice-remix",
+      "urls": [
+        "https://whitefaceone.tistory.com/2287",
+        "https://everymemes.tistory.com/289"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "we-call-this-ice-naming-template",
+      "urls": [
+        "https://theqoo.net/square/2060686407",
+        "https://whitefaceone.tistory.com/2977",
+        "https://everymemes.tistory.com/591"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "this-is-the-last-warning-template",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail/1622",
+        "https://memoria-aeon.tistory.com/244"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "after-seeing-this-vote-irony",
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1006629566&t=%7Bseek_to_second_number%7D"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hip-song-dance-challenge",
+      "urls": [
+        "https://www.newsen.com/news_view.php?uid=202609031054530410",
+        "https://www.ajunews.com/view/20260903104809552"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kimmin-core-imitation",
+      "urls": [
+        "https://www.newsen.com/news_view.php?code=100100&uid=202610281532050310",
+        "https://www.xportsnews.com/article/2212450"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "human-paladin-team-introduction",
+      "urls": [
+        "https://www.inven.co.kr/webzine/news/?news=78372",
+        "https://www.gamemeca.com/view.php?gid=1569030"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "what-nonsense-reaction-sound",
+      "urls": [
+        "https://ch.yes24.com/Article/Details/33702",
+        "https://everymemes.tistory.com/378"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "inkwoni-life-ad-parody",
+      "urls": [
+        "https://inews24.com/view/120959",
+        "https://kr.canon/magazine/detail/78"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dont-show-teeth-drama-quote",
+      "urls": [
+        "https://sports.khan.co.kr/article/201507012124383/amp"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Hi/icedteaheld:aggregatorreferencesnotindependentKoreanreuse",
+    "김민3articleslookup;Daum20261008110459503failed,onlyOct28sameofficialpostaccepted.",
+    "인벤78372editorreopen502;workerbodyreviewvalid;gamemecaconfirmsboundedformat.",
+    "0846conditionalacceptedlimited2022politicalirony1SBSreport."
+  ],
+  "query_observations": 7059,
+  "distinct_literal_queries": 6181,
+  "limits": [
+    "80ledgerrowsreexaminednotnewdiscoveries;20recentincludes7existing12held;editor3includes2held.",
+    "Politicalirony1historicalSBSreport;teethquote1historicalreport;HipSong2reports1event;Kimmin2reports1event.",
+    "No mainchanges/Codex/media view;1127CIpending."
+  ]
+}
