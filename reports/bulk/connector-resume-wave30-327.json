@@ -1,0 +1,139 @@
+{
+  "batch": 327,
+  "base": "640dd9c1dd442f73f3f5c1a26826cc0a7962f414",
+  "canonical_before": 956,
+  "canonical_after": 957,
+  "added": [
+    "never-ignore-korea"
+  ],
+  "research": {
+    "candidates": [
+      "0353",
+      "0365",
+      "0377",
+      "0385",
+      "0387",
+      "0389",
+      "0390",
+      "0399",
+      "0400",
+      "0406"
+    ],
+    "recommended": [
+      "0365"
+    ],
+    "held": 9,
+    "recovered0364": {
+      "url": "https://t.me/s/Yeouido_Lab?before=21789",
+      "kind": "forwarded stockmarket substitution",
+      "date": null,
+      "original_source_unread": true
+    },
+    "sources0365": [
+      "https://www.etnews.com/20230108000004",
+      "https://www.xportsnews.com/article/1414693"
+    ],
+    "queries": [
+      "\"다 부질없는 개뻘짓이다\" -site:namu.moe -site:seore.org -조상 -site:82cook.com",
+      "\"다 부질없는\" \"덕 본\" -조상 -site:namu.moe",
+      "\"대기업에 입사한 아들의 깨달음\"",
+      "\"도지삽니다\"",
+      "\"다시는 한국을 무시하지 마라\" 패러디",
+      "\"덤덤\" \"밈\" 레드벨벳",
+      "\"독도킥\" 밈",
+      "\"독일초딩\" \"2026\"",
+      "\"동전줍는 징징이\"",
+      "\"동현이의 퍼니박스\"",
+      "\"뒤질랜드\" 밈",
+      "\"늬픽\"",
+      "\"서머너즈 워\" \"다시는 한국을 무시하지 마라\""
+    ],
+    "index_queries": [
+      "대기업",
+      "도지",
+      "무시하지",
+      "덤덤",
+      "dumbdumb",
+      "독도",
+      "독일초딩",
+      "징징",
+      "퍼니박스",
+      "뒤질랜드",
+      "늬픽",
+      "부질없는"
+    ]
+  },
+  "audit": {
+    "ref": "d061d0c144ccb8c1a30618a21fc158aeea626ad6",
+    "reviewed": 20,
+    "related_bodies_read": 13,
+    "changes": 0,
+    "ids": [
+      "0129",
+      "0218",
+      "0385",
+      "0490",
+      "0499",
+      "0513",
+      "0604",
+      "0638",
+      "0657",
+      "0662",
+      "0663",
+      "0681",
+      "0708",
+      "0757",
+      "0789",
+      "0945",
+      "1009",
+      "1034",
+      "1084",
+      "1109"
+    ],
+    "limits": "All classifications maintained. 0385 artist ambiguity,1009work relation not explicit. Nearby meanings not sufficient for partial linking.",
+    "index_queries": [
+      "케이팝|데몬|헌터",
+      "시그마|기가차드",
+      "사이버펑크",
+      "사회적 거리|거리두기",
+      "민희진|기자회견",
+      "영역|텐카이",
+      "아파트|APT",
+      "신돈|수박",
+      "신격화|sake",
+      "해병|황근출",
+      "아나바다",
+      "물음표",
+      "탈모",
+      "손흥민",
+      "인크레더블|uncanny",
+      "피자타워",
+      "니트|오타쿠",
+      "무지성",
+      "교토|화법",
+      "주작|드림하이",
+      "덤덤|Dumb|골든|Golden|낌|능지|잼민|초글링"
+    ]
+  },
+  "verification": {
+    "editor_read": 2,
+    "independent_auditor_read": 2,
+    "direct_column": 1,
+    "reported_ad_title": 1,
+    "recent_dated": 0,
+    "video_viewed": 0
+  },
+  "coverage_counts": {
+    "index_not_found": 323,
+    "partial": 40,
+    "unclear": 337,
+    "automatic_title_alias_match": 328,
+    "included": 59,
+    "candidate_repeat": 4
+  },
+  "metrics": {
+    "observations": 3344,
+    "distinct": 2820
+  },
+  "limits": "Ad direct drama-parody intent not established.20rowaudit no classification changes.956CI65/495success;957pending."
+}

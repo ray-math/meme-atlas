@@ -145,3 +145,5 @@
 - [설명할 시간이 없어 빨리 타](../memes/no-time-get-in.md)
 
 - [그거 먹는 건가요](../memes/is-that-something-to-eat.md)
+
+- [다시는 한국을 무시하지 마라](../memes/never-ignore-korea.md)

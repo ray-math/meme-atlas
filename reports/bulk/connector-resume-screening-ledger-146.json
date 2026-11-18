@@ -155,10 +155,11 @@
     "reports/bulk/connector-resume-wave30-323.json",
     "reports/bulk/connector-resume-wave30-324.json",
     "reports/bulk/connector-resume-wave30-325.json",
-    "reports/bulk/connector-resume-wave30-326.json"
+    "reports/bulk/connector-resume-wave30-326.json",
+    "reports/bulk/connector-resume-wave30-327.json"
   ],
-  "query_observations": 3298,
-  "distinct_literal_queries": 2776,
+  "query_observations": 3344,
+  "distinct_literal_queries": 2820,
   "query_rows": [
     {
       "query": "체포하겠어",
@@ -16850,6 +16851,236 @@
     {
       "query": "라밤바",
       "source": "reports/bulk/connector-resume-wave30-326.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다 부질없는 개뻘짓이다\" -site:namu.moe -site:seore.org -조상 -site:82cook.com",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다 부질없는\" \"덕 본\" -조상 -site:namu.moe",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"대기업에 입사한 아들의 깨달음\"",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"도지삽니다\"",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"다시는 한국을 무시하지 마라\" 패러디",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"덤덤\" \"밈\" 레드벨벳",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"독도킥\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"독일초딩\" \"2026\"",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"동전줍는 징징이\"",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"동현이의 퍼니박스\"",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"뒤질랜드\" 밈",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"늬픽\"",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "\"서머너즈 워\" \"다시는 한국을 무시하지 마라\"",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "대기업",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "도지",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "무시하지",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "덤덤",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "dumbdumb",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "독도",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "독일초딩",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "징징",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "퍼니박스",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "뒤질랜드",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "늬픽",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "부질없는",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "케이팝|데몬|헌터",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "시그마|기가차드",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사이버펑크",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "사회적 거리|거리두기",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "민희진|기자회견",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "영역|텐카이",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아파트|APT",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "신돈|수박",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "신격화|sake",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "해병|황근출",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "아나바다",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "물음표",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "탈모",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "손흥민",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "인크레더블|uncanny",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "피자타워",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "니트|오타쿠",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "무지성",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "교토|화법",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "주작|드림하이",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
+      "status": "screened-see-report"
+    },
+    {
+      "query": "덤덤|Dumb|골든|Golden|낌|능지|잼민|초글링",
+      "source": "reports/bulk/connector-resume-wave30-327.json",
       "status": "screened-see-report"
     }
   ],

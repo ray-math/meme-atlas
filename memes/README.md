@@ -252,6 +252,7 @@
 - [다꾸](diary-kku.md)
 - [다메다메](dame-dame.md)
 - [다비치 거북이 챌린지](davichi-blanket-turtle.md)
+- [다시는 한국을 무시하지 마라](never-ignore-korea.md)
 - [다음 이야기가 궁금하면 냐냐냥을 입력하세요](type-nyanyanya.md)
 - [닥눈삼](daknunsam.md)
 - [단어 리듬 게임 챌린지](word-on-beat.md)

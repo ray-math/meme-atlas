@@ -222,6 +222,7 @@
 - [늦덕](../memes/neutdeok.md)
 - [다 해줬잖아](../memes/did-it-all-for-you.md)
 - [다꾸](../memes/diary-kku.md)
+- [다시는 한국을 무시하지 마라](../memes/never-ignore-korea.md)
 - [다음 이야기가 궁금하면 냐냐냥을 입력하세요](../memes/type-nyanyanya.md)
 - [닥눈삼](../memes/daknunsam.md)
 - [단어 리듬 게임 챌린지](../memes/word-on-beat.md)
