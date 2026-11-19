@@ -1,0 +1,58 @@
+{
+  "base": "28d96adb7f15c7d52d72508413caf4225bee64b7",
+  "canonical_count": 895,
+  "accepted": [],
+  "explicit_queries": [
+    "\"너네 지금 과소비야\" 패러디 -site:instablank.com -site:jjalbang.today",
+    "\"미안 이제 곶감\" NMIXX -site:instablank.com -site:jjalbang.today",
+    "\"너네 지금 과소비야\" -\"스카프\" -\"남대문\" -\"상인\" -site:instablank.com",
+    "\"아빠 정보\" 밈 -site:instablank.com -site:jjalbang.today -site:gogumafarm.kr",
+    "\"미안 이제 곶감\" \"패러디\" -site:instablank.com",
+    "NEON",
+    "네온",
+    "영원할",
+    "난리자베스",
+    "윤정아",
+    "갑차기",
+    "힙합보단",
+    "체포하겠어",
+    "L을",
+    "장시간",
+    "장시간 비행",
+    "결정장애"
+  ],
+  "independent_audit": {
+    "sha": "28d96adb7f15c7d52d72508413caf4225bee64b7",
+    "ids": [
+      "seoul-is-still-seoul",
+      "championship-stock-sale",
+      "hangjun-thinking"
+    ],
+    "passed": [
+      "본문/index 제목·별칭·태그·요약·경로 일치",
+      "search_text 제목+뜻풀이 구간 공백축약과일치(전체본문아님)",
+      "index895 고유ID895 추가목록69 요청항목각1회"
+    ],
+    "source_review": "직접차용/인터뷰/기사보고 구분과 원게시자·기원미확정 제한 적절. 수정필요사항없음."
+  },
+  "regeneration_checks": {
+    "data/search-index.json": true,
+    "memes/README.md": true,
+    "collections/topics.md": true,
+    "data/usage-index.json": true,
+    "tests/fixtures/approved-usage-membership.json": true
+  },
+  "new_evidence_for_existing": {
+    "id": "mihon-and-bihon",
+    "url": "https://blog.hsad.co.kr/3798",
+    "editor_read": "124–129행 NEON페어안무와써니공유AI패러디,기존본문도입부AI패러디포함확인",
+    "worker_additional": "DC82577에SBS미미·미미미누제목/원영상링크확인,영상미시청",
+    "decision": "새항목추가안함,기존본문변경없음. 근거보고만보존."
+  },
+  "other_result": "추가 검색에서도 원상인 재보도/동일NMIXX미러 반복. 독립재사용원문 추가확보0. 이번보고의명시5질의로만기록.",
+  "limits": [
+    "Python/CLI/CI미실행",
+    "기존전체본문895감사아님",
+    "원영상미시청"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "base": "311ec3143a8438f156d5329a79a020b822e764aa",
+  "entries": [
+    {
+      "id": "even-pyramids-get-hate",
+      "sources": [
+        {
+          "url": "https://community.linkareer.com/jayuu/6164306",
+          "observed": "2026-06-27 제목·본문에서 자기소개서 평가에 문구 직접 적용."
+        },
+        {
+          "url": "https://community.rememberapp.co.kr/post/210612",
+          "observed": "공개 댓글에 문구 직접 사용. 날짜는09월19일만 표시, 연도미확정. 중복출력28/30행은 같은댓글1건."
+        },
+        {
+          "url": "https://gogumafarm.kr/나-고구마팜인데-요즘-뜨는-밈-가져왔다-2026년-6월-최신/",
+          "observed": "2026-06-10 형식 설명 보조."
+        }
+      ],
+      "evidence_level": "서로 다른 사이트의 실제 텍스트사용2건. 한건 연도 미확정.",
+      "limits": "리멤버 원글의 개인사정·건강묘사 미수록. 장소리뷰 진위/RM원문/영상 직접 검증 아님."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "년생",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "existing-family",
+      "canonical": "na-born-year-dance"
+    },
+    {
+      "query": "피라미드",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "accepted-family",
+      "canonical": "even-pyramids-get-hate"
+    },
+    {
+      "query": "악플",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "accepted-family",
+      "canonical": "even-pyramids-get-hate"
+    },
+    {
+      "query": "직업",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "사이코",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "미동",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "남쟈",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "좋은날",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "하룰라라",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "existing-family",
+      "canonical": "harullara"
+    },
+    {
+      "query": "밀레니얼",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "existing-family",
+      "canonical": "millennial-vs-genz-copy"
+    },
+    {
+      "query": "젠지",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "existing-family",
+      "canonical": "millennial-vs-genz-copy"
+    },
+    {
+      "query": "피곤",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "이런 걸",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "불법",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "명소",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "리뷰",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "감정 없는",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "남자 소개",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "그린",
+      "source": "reports/bulk/connector-resume-b163.json",
+      "status": "held-or-broad-query"
+    }
+  ],
+  "checks": {
+    "result_entries": 873,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

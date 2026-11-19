@@ -1,0 +1,29 @@
+{
+  "base": "6dc0da3eb053e578d2cd53fed509b87fd3925ad2",
+  "canonical_entries": 930,
+  "ci": {
+    "run": 44224759202,
+    "python": "3.12.16",
+    "unit_tests": 495,
+    "failures": 5,
+    "structure": "passed"
+  },
+  "resolution": {
+    "pinned_bodies_restored_from": "f3cf501549f1c4f8d327ee13c904e9ed85ed2a33",
+    "tests_and_evidence_pins_changed": false,
+    "index_key_order_corrected": true
+  },
+  "deferred_enrichments": [
+    {
+      "id": "things-i-achieved",
+      "body_before_restore": "---\naliases: [\"No Roots 챌린지\", \"노 루츠 챌린지\"]\ntags: []\n---\n\n# 내가 이룬 것들\n\n## 뜻풀이\n\n큰 성취를 소개할 듯한 제목 아래 사소하거나 엉뚱한 일을 실적으로 나열하는 영상 형식.\n\n## 유래와 확산\n\n나이·경력·기간을 제목에 넣고 일상의 작은 기록을 대비시키는 숏폼으로 쓰인다. 사람뿐 아니라 반려동물이나 캐릭터의 기록으로 바꾸기도 한다.\n\n‘No Roots 챌린지’라는 이름으로도 소개된다. [라이브서울의 2025년 10월 29일 게시물](https://tv.seoul.go.kr/v/e5a058892ca54adcb61a62cc8b3593b4)은 흡연단속원 캐릭터의 기록에 이 형식을 적용하고 배경음악을 No Roots로 표시했다. [피아노 창작자의 11월 12일 글](https://www.mapianist.com/sheet/150233)도 이룬 것들을 소개하는 챌린지와 같은 명칭을 연결하고 자신의 영상에 편집 방식을 적용했다고 설명한다. 게시물의 제목·설명만 확인했으며 영상 자체나 세부 편집 구현은 검토하지 않았다. 이 자료들은 2025년 사용 근거이지 2026년 신규 발생의 근거가 아니다.\n\n[기본 수록 목록](../collections/pilot-30.md)",
+      "reason": "후속 보강은 승인 본문 해시와 분리되어 있어 본문에서 보류. 근거 보고서는 유지."
+    },
+    {
+      "id": "duaaaa",
+      "body_before_restore": "---\ntags: []\naliases: [\"듀아아아아\"]\n---\n\n# 듀아아아\n\n## 뜻풀이\n\n울음소리처럼 길게 늘여 슬픔·답답함·감동을 귀엽거나 과장되게 나타내는 표현.\n\n## 유래와 확산\n\n캐릭터 가나디가 우는 이미지에서 알려진 말이다. 반복 길이를 바꿔 쓰며 문자로 감정을 강조한다.\n\n캐릭터와 관련된 별도의 파생 사례로는 2026년 11월의 ‘손현듀’ 별칭이 있다. [iMBC의 11월 12일 보도](https://enews.imbc.com/News/RetrieveNewsInfo/524507)는 드라마 제작진이 배우 손현주의 장면에 가나디를 함께 넣고, 작가의 그림에 별칭을 사용해 화답한 일을 설명한다. [스포츠경향의 11월 15일 보도](https://sports.khan.co.kr/article/202611151642003/amp)는 배우도 종영 인사의 서명에 그 별칭을 사용했다고 전한다. 이는 같은 캐릭터를 매개로 한 작가·제작진·출연자의 상호 반응이며, 울음 표현 자체와 같은 뜻이거나 서로 독립된 새 말틀 두 개라는 의미는 아니다. 기사 본문을 확인했으며 원그림·영상·친필 이미지는 직접 검토하지 않았다.\n\n[기본 수록 목록](../collections/pilot-30.md)",
+      "reason": "후속 보강은 승인 본문 해시와 분리되어 있어 본문에서 보류. 근거 보고서는 유지."
+    }
+  ],
+  "validation": "새 CI 실행으로 확인 예정. 통과로 선언하지 않음."
+}

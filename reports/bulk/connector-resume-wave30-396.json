@@ -1,0 +1,62 @@
+{
+  "batch": 396,
+  "base": "a94f9bec7426587873daadf3069f9816ab5e1bda",
+  "canonical_before": 986,
+  "canonical_after": 986,
+  "added": [],
+  "researchA": {
+    "base": "66b341d7b0360219f8ab0421b9cc527d1449a036",
+    "held": [
+      {
+        "title": "○○야 나의 ○○야",
+        "url": "https://www.newsen.com/news_view.php?uid=202603061000462410",
+        "note": "2026-03-06충주댓글선태야1사건보도원댓글0"
+      },
+      {
+        "title": "다 아는 스토리인데 뭐 그렇게 우냐",
+        "url": "https://v.daum.net/v/20260304104802878",
+        "note": "2026-03-04유병재게시물반응1사건,댓글문구이지유병재원문아님"
+      }
+    ],
+    "queries": [
+      "\"2026\" \"밈\" site:designplusmag.com",
+      "\"2026\" \"밈\" site:univalli.com",
+      "\"2026\" \"밈\" site:news.hidoc.co.kr",
+      "\"2026\" \"밈\" site:brunch.co.kr \"패러디\"",
+      "2026 밈 \"패러디\" site:gov.kr",
+      "2026 밈 \"문구\" site:ac.kr",
+      "2026 밈 \"제목\" site:khan.co.kr",
+      "\"다 아는 스토리\" \"2026\"",
+      "\"나의 선태야\" \"2026\"",
+      "\"다 아는\" \"뭐 그렇게 우냐\"",
+      "\"2026\" \"나의\" \"추노\" -선태 -site:namu.moe",
+      "\"2026\" \"다 아는 내용\" \"유병재\""
+    ],
+    "limits": "본문기사2,원SNS댓글영상사진0"
+  },
+  "editor": {
+    "sources_read": [
+      "https://www.newsen.com/news_view.php?uid=202603061000462410"
+    ],
+    "limits": "선태야댓글1사건보도재확인,원댓글0.독립군증가없음."
+  },
+  "independent_body_audit": {
+    "id": "kyoto-style-speech",
+    "passed": true,
+    "required_changes": 0,
+    "sources_read": 2,
+    "limits": "논설적텍스트적용2군,실제대화/패러디제작검증아님.지역일반화채택안함"
+  },
+  "ci": {
+    "report394": {
+      "run": 44249419850,
+      "job": 134616156254,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 55.529
+    },
+    "body986": "pending",
+    "new_commit": "pending"
+  }
+}

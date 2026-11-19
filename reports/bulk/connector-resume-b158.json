@@ -1,0 +1,178 @@
+{
+  "base": "dfac7d76fa5eadfaeefa569d6b9021fa510e8c6f",
+  "entries": [
+    {
+      "id": "map-card-travel-photo",
+      "sources": [
+        {
+          "url": "https://www.hankyung.com/article/202511242270g",
+          "observed": "본문 송고일2025-11-25. 키스오브라이프 위치정보 합성 및 네이버지도 제작 안내 보고."
+        },
+        {
+          "url": "https://gogumafarm.kr/요즘-유행하는-밈이-가득가득하다-uh-가득가득한-2025년-11/",
+          "observed": "2025-12-01 써브웨이 아보카도 키링의 내 가방/별점 적용 보고."
+        }
+      ],
+      "evidence_level": "독립 기사2곳의 별개 실제 적용 사례. 원인스타그램/이미지 직접 확인 아님.",
+      "dedup": "proof-photo 본문 직접 비교: 일반 경험 증명 사진과 지도 UI 합성의 특정 형식은 구별.",
+      "limits": "네이버지도는 양쪽 기사 동일사건으로 중복 집계하지 않음. 이용자 증가 통계/인과 주장 미채택."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "AI 티",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "타임스탬프",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "Time Stamp",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "징글벨",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "팔뚝",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "Bicep",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "가득가득",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "팬은 아님",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "멜라토닌",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "스머프",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "매끈",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "existing-family",
+      "canonical": "smooth-smooth"
+    },
+    {
+      "query": "평평",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "띄어쓰기",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "existing-family",
+      "canonical": "why-no-spaces"
+    },
+    {
+      "query": "여백없이",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "빽빽",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "일이얌",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "existing-family",
+      "canonical": "not-allowed-ilyam"
+    },
+    {
+      "query": "전액",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "현금",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "구글맵",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "map-family-or-supporting-query"
+    },
+    {
+      "query": "여행 인증",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "map-family-or-supporting-query"
+    },
+    {
+      "query": "팬은",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "스윙스",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "매입",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "현찰",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "지도",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "map-family-or-supporting-query"
+    },
+    {
+      "query": "인증샷",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "map-family-or-supporting-query"
+    },
+    {
+      "query": "장소명",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "map-family-or-supporting-query"
+    },
+    {
+      "query": "map",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "map-family-or-supporting-query"
+    },
+    {
+      "query": "cash",
+      "source": "reports/bulk/connector-resume-b158.json",
+      "status": "held-or-broad-query"
+    }
+  ],
+  "checks": {
+    "result_entries": 869,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

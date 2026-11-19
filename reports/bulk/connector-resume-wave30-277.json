@@ -1,0 +1,47 @@
+{
+  "batch": 277,
+  "canonical_before": 925,
+  "canonical_after": 925,
+  "added": [],
+  "independent_audit": {
+    "id": "bridgerton-dance-challenge",
+    "sha": "3d9987862cd6f13c374b27ddb0f9ca4c6638df61",
+    "result": "pass",
+    "index": 925,
+    "duplicate_ids": 0,
+    "source_reads": 3,
+    "original_videos": 0,
+    "note": "two reports plus firsthand completedshoot; not publishedclaim; fields and links match"
+  },
+  "research_c": {
+    "queries": [
+      "\"12167769\" \"잉플루언서\"",
+      "\"잉플루언서\" 국중박",
+      "\"국중박 분장놀이\" \"밈\" 2026"
+    ],
+    "index_queries": [
+      "국중박",
+      "잉플루",
+      "에밀레",
+      "분장",
+      "박물관"
+    ],
+    "sources": [
+      "https://maily.so/marsinmarine/posts/xyow35g1r28",
+      "https://v.daum.net/v/20260922093654659",
+      "https://www.korea.kr/multi/mediaNewsView.do?newsId=148974253",
+      "https://www.mk.co.kr/news/culture/12167769"
+    ],
+    "note": "hold museum contest is event; ingfluencer sameindividualnickname repeated not independent format; EmillebellBAD existing ateez-bad-challenge reinforcement candidate videos0"
+  },
+  "parent_followup": {
+    "source": "https://maily.so/marsinmarine/posts/xyow35g1r28",
+    "read": true,
+    "decision": "do not add museum event or participantnickname; BAD reinforcement deferred because source says Bad without artist and originalvisuals unverified"
+  },
+  "metrics": {
+    "query_observations": 2261,
+    "distinct_literal_queries": 1831
+  },
+  "ci": "not run"
+}

@@ -1,0 +1,141 @@
+{
+  "base": "46daf80b4cf457b1569643d1a632a02f6eb1f86d",
+  "entries": [
+    {
+      "id": "tiny-hand-tapping",
+      "sources": [
+        {
+          "url": "https://blog.hsad.co.kr/3760",
+          "observed": "2026-07-09 taptap.e 직장 답장 기다리기 영상 구체 보고."
+        },
+        {
+          "url": "https://maily.so/trendaword/posts/92zek7wpzep",
+          "observed": "2026-06-24 puding2mom 효자손 대체 및 다른 한국계정 패러디 보고."
+        }
+      ],
+      "evidence_level": "독립 본문2곳의 서로 다른 적용 사례. 연결원영상 미시청.",
+      "limits": "계정 인물소개가 아닌 특정 영상 형식. 조회수/최초 제작자/기관 모집내용 미채택."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "탭탭이",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "탭탭",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "탭질머리",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "tiny hand",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "손가락 막대기",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "손가락 지시봉",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "taptap.e",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "지시봉",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "작은 손",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "tiny",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "잡도리",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "accepted-family-search",
+      "canonical": "tiny-hand-tapping"
+    },
+    {
+      "query": "손가락",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "broad-nonduplicate"
+    },
+    {
+      "query": "여러분 저 상 받았어요",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "제거대상",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "처리대상",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "웃다가 오열",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "어제보다 슬픈 오늘",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "스파이더맨",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "천장 챌린지",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "야르송",
+      "source": "reports/bulk/connector-resume-a160.json",
+      "status": "existing-family",
+      "canonical": "yareu-song"
+    }
+  ],
+  "checks": {
+    "result_entries": 871,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "base_sha": "09c39f15c5d63d4ebe4472ca58d6fb757591e48f",
+  "canonical_before": 885,
+  "canonical_after": 887,
+  "added": [
+    "tree-flailing-challenge",
+    "chopstick-runway"
+  ],
+  "sources": [
+    "https://ledesk.co.kr/view.php?le_serize=88&uid=15608",
+    "https://blog.hsad.co.kr/3716",
+    "https://weekly.donga.com/culture/article/all/11/6131797/1",
+    "https://letter.wepick.kr/post/24343"
+  ],
+  "query_strings": [
+    "나무 챌린지",
+    "춤추는 나무",
+    "카더가든",
+    "Tree",
+    "나무",
+    "젓가락 워킹",
+    "젓가락",
+    "런꾸",
+    "East of Eden",
+    "펜 워킹"
+  ],
+  "limits": [
+    "원영상 미시청",
+    "위픽164행이후 업종별예문 실제사용 제외",
+    "주간동아 호수날짜3/5와 입력3/10 구분",
+    "동일키오프 사례 중복계수 제외"
+  ],
+  "checks": {
+    "python": "not-run",
+    "ci": "not-run"
+  }
+}

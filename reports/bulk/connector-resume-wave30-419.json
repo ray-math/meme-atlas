@@ -1,0 +1,35 @@
+{
+  "batch": 419,
+  "base": "b6490ba449e50700c39bfcf1471fbf8dc87dffa2",
+  "canonical_before": 999,
+  "canonical_after": 1000,
+  "added": [
+    "question-barrage-nickname"
+  ],
+  "research_basis": "reports/bulk/connector-resume-wave30-418.json researchC",
+  "editor_source_reads": 3,
+  "audit": {
+    "passed": true,
+    "direct_text_groups": 2,
+    "recent_dated_direct_groups": 1,
+    "broadcast_preview_groups": 1,
+    "media": 0,
+    "required_changes": 0
+  },
+  "candidate_changes": 0,
+  "not_linked": "kr-list-0499 물음표드립과동일형식으로연결하지않음",
+  "audit0747": {
+    "source_reads": 3,
+    "index_rows": 999,
+    "clear_template_use": 1,
+    "ambiguous_application": 1,
+    "old_explanation": 1,
+    "note": "DC문구의정확템플릿의도불명.확정재현2건아님,추가근거전보류유지.일반비탄전체포괄금지."
+  },
+  "ci418": {
+    "run": 44257598345,
+    "job": 134642912001,
+    "status": "last observed in_progress"
+  },
+  "ci_new_commit": "pending"
+}

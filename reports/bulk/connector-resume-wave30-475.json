@@ -1,0 +1,403 @@
+{
+  "batch": 475,
+  "base": "d43968e13f17d7029e84a00f4eb63a4903457d2a",
+  "canonical_before": 1387,
+  "canonical_after": 1398,
+  "added": [
+    "dakpari-derogatory-label",
+    "polaretti-ad-song-play",
+    "ralral-three-characters-cover",
+    "scarf-seller-sales-talk-parody",
+    "emsaeng-derogatory-life-label",
+    "my-name-is-chicky-korean-sound",
+    "ottoke-sexist-mockery",
+    "pyu-couple-wordplay",
+    "idol-fictional-fighter-profile",
+    "onigiri-character-dance-remix",
+    "absurd-office-title-comment"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0372",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "dakpari-derogatory-label"
+    },
+    {
+      "id": "kr-list-0759",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "emsaeng-derogatory-life-label"
+    },
+    {
+      "id": "kr-list-0450",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "my-name-is-chicky-korean-sound"
+    },
+    {
+      "id": "kr-list-0780",
+      "from": "partial",
+      "to": "partial",
+      "dictionary_id": "ottoke-sexist-mockery"
+    },
+    {
+      "id": "kr-list-0768",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "idol-fictional-fighter-profile"
+    },
+    {
+      "id": "kr-list-0777",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "onigiri-character-dance-remix"
+    },
+    {
+      "id": "kr-list-0607",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "absurd-office-title-comment"
+    }
+  ],
+  "previous_ci": {
+    "run": 44301761670,
+    "job": 134792995666,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 148.233s"
+  },
+  "previous_audit": {
+    "batch": 474,
+    "sha": "d43968e13f17d7029e84a00f4eb63a4903457d2a",
+    "result": "PASS",
+    "mandatory": 0,
+    "urls": 13,
+    "old_records_preserved": 1376,
+    "mapping_changes": 5,
+    "mapping_loss": 0,
+    "media": 0
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"나여 백종원\"",
+        "\"날 내버려둬\" 밈",
+        "\"내 식사를 방해할 생각인가\"",
+        "\"너 개못하잖아\"",
+        "\"너반시\"",
+        "\"네가 하면 나도 한다\" 밈",
+        "\"네 설명해드렸습니다\"",
+        "\"누나 좋아해요\" 밈",
+        "\"늬픽\"",
+        "\"닌자 몰살\" 소설",
+        "\"닭팔이\" 밈",
+        "\"당신이 옳았어\" 밈",
+        "\"당연히 말이 되죠\"",
+        "\"대기업에 입사한 아들의 깨달음\"",
+        "\"독일초딩\" 패러디",
+        "\"동전줍는 징징이\"",
+        "\"동현이의 퍼니박스\"",
+        "\"듀얼 만능주의\"",
+        "\"더 마스터를 기억해줘\"",
+        "\"롯데햄 후라이드 치킨\"",
+        "\"닌자\" \"몰살\" \"소설\" -site:namu.moe -site:seore.org",
+        "\"닭팔이\" 뉴스",
+        "\"듀얼 만능주의\" -site:namu.moe -site:seore.org -site:readonly.wiki -site:tcatmon.com",
+        "\"듀얼 만능주의 세계관에 살아가자\"",
+        "\"닌자몰살엔딩에서 살아남는다\"",
+        "\"닭팔이\" \"치킨\" -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ],
+      "notes": [
+        "A28 fixed1376;0372historicalcriticalrecommendation;0407explanationonly,novelpiaapplicationunrecovered;0358titleonly."
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"마이 네임 이즈 찢기\"",
+        "\"마쁘리에요\"",
+        "\"막심 센세\"",
+        "\"망했어요\" \"엄재경\"",
+        "\"모스카우\" 패러디",
+        "\"무대뽀\" 뜻",
+        "\"무츠키 댄스\"",
+        "\"물음표 드립\"",
+        "\"뭉탱이\" 뜻",
+        "\"미안송\" 패러디",
+        "\"미야\" 밈",
+        "\"미쿠미쿠하게 해줄게\" 패러디",
+        "\"바바바바바바\" 밈",
+        "\"밤 샌 사람\" \"일찍 일어난 사람\"",
+        "\"밥 먹을 때 생각나는\" \"튀김\"",
+        "\"벽부수기\" 밈",
+        "\"봇이지 뭐\"",
+        "\"불만 있냐\" \"물도 있다\"",
+        "\"뼈 맞았어\" 뜻",
+        "\"벽돌할아버지\" \"로봇\"",
+        "\"마이 네임 이즈 찢기\" 패러디 -site:namu.moe -site:seore.org",
+        "\"망했어요\" \"김태형\" 패러디",
+        "\"무츠키\" \"댄스\" 패러디"
+      ],
+      "notes": [
+        "A29fixed1387;0450phoneticform;0517and0584Inven502;0478foreignexamplesheld;nooriginalmedia."
+      ]
+    },
+    "A3": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 1,
+      "partial_existing": 2,
+      "held": 16,
+      "queries": [
+        "\"사정없이 보내버리겠다\"",
+        "\"삼도수군통제사\" 밈",
+        "\"샤방송\"",
+        "\"섊\" 유행",
+        "\"서로 깨물었을 때 반응\"",
+        "\"섣불리 판단하면 안되는 이유\"",
+        "\"성윤모\" 밈",
+        "\"세계 4대 16세\"",
+        "\"세뇌교육\" 밈",
+        "\"소련국가\" 밈 패러디",
+        "\"쇼트트랙 편파판정\" 밈",
+        "\"수박도\" 드립",
+        "\"스너고\"",
+        "\"식객민우\"",
+        "\"씽씽이\" 밈",
+        "\"아나바다 운동\" 밈",
+        "\"아니다 이 악마야\"",
+        "\"삼도수군통제사\" \"댓글\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"섊\" \"즐\"",
+        "\"수박도\" \"뜻\""
+      ],
+      "notes": [
+        "A30latest474coveragecorrected0648included0653/0658partialpreserved,notnew;0607explanationandactualtitle2024."
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 3,
+      "held": 14,
+      "excluded": 1,
+      "queries": [
+        "2026 \"놀이\" \"유행\" site:univ20.com",
+        "2026 \"밈\" \"인증\" site:allurekorea.com",
+        "2026 \"챌린지\" \"사진\" site:esquirekorea.co.kr",
+        "2026 \"놀이\" \"인증\" site:newsis.com",
+        "2026 \"챌린지\" \"유행\" site:elle.co.kr",
+        "2026 \"밈\" \"꾸미기\" site:mk.co.kr",
+        "2026 \"밈\" \"놀이\" site:marieclairekorea.com",
+        "2026 \"챌린지\" \"사진\" site:harpersbazaar.co.kr \"유행\""
+      ],
+      "notes": [
+        "B4954readarticles;2historicalrecommendationssameUNIV2482source;last2queriesempty;nooriginalmedia."
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 13,
+      "held": 4,
+      "excluded": 2,
+      "queries": [
+        "2026 \"밈\" \"유행\" site:news.nate.com \"사진\"",
+        "2026 \"놀이\" \"유행\" site:careet.net \"11월\"",
+        "2026 \"챌린지\" \"공유\" site:univ20.com",
+        "\"쀼\" \"부부\" \"2026\"",
+        "\"카인다 시크\" \"한국\"",
+        "\"가난 밈\" \"패러디\" 2026"
+      ],
+      "notes": [
+        "B496;7successarticles1failure;pyu3contexts2026;media0."
+      ]
+    },
+    "C": {
+      "count": 20,
+      "existing": 10,
+      "partial_existing": 5,
+      "recommended": 1,
+      "held": 4,
+      "queries": [
+        "\"어 작업중이야\" 밈",
+        "\"얼리 엑세스 예시를 보여줌\"",
+        "\"엄마도 사람이야 사람\" 패러디",
+        "\"엠생\" \"뜻\" 기사",
+        "\"어 작업중이야\" 광고 -site:namu.moe -site:namu.wiki",
+        "\"엠생\" site:khan.co.kr",
+        "\"어몽어스 잼민이\" -site:namu.moe -site:namu.wiki",
+        "\"엄준식\" \"도배\" 기사",
+        "\"작업 중이야\" \"애니콜\" 유행",
+        "\"엠생\" \"자조\"",
+        "\"엄마도 사람이야\" -site:namu.moe -site:namu.wiki -site:seore.org -site:readonly.wiki"
+      ],
+      "notes": [
+        "C11 0743–0762;17bodies/5external;0759criticalhistoricaldefinition;0748existingpreserved."
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "existing": 12,
+      "partial_existing": 3,
+      "recommended": 1,
+      "conditional": 2,
+      "held": 2,
+      "queries": [
+        "\"오니기리 댄스\"",
+        "\"여자 아이돌 파이터 랭킹\"",
+        "\"오다 에이치로 사망설\" 패러디",
+        "\"오덕페이트\" \"패러디\"",
+        "\"오니기리 댄스\" 패러디 -site:namu.moe -site:seore.org",
+        "\"여자 아이돌\" \"파이터\" \"랭킹\" -site:namu.moe",
+        "\"오또케\" \"여혐\"",
+        "\"오덕페이트\" \"SNL\" \"오덕고\""
+      ],
+      "notes": [
+        "C12 0763–0782;4externalbodies1list;16existing;media0.0780boundedcriticalmeaning;0768/0777editorreview."
+      ]
+    },
+    "editor": {
+      "count": 4,
+      "recommended": 2,
+      "existing": 1,
+      "held": 1,
+      "queries": [
+        "\"측측측면샷\" 2026",
+        "\"스카프 아저씨\" 2026 밈",
+        "\"난리자베스\" \"2026\"",
+        "\"쀼동기화\" 2026 헤럴드",
+        "\"쀼레카\" 2026",
+        "\"쀼\" \"2026\" \"유퀴즈\""
+      ],
+      "notes": [
+        "3probes:existingnanrijabeth,sideangleheld,scarfboundedparodyrecommended; NewsPimactualNov6notURLNov5;nooriginalmedia.",
+        "Additionalpyuworkerrecommendationcrosscheck,notuniquediscovery"
+      ]
+    },
+    "editor2": {
+      "count": 7,
+      "queries": [
+        "2026 11월 \"밈\" \"패러디\" -site:namu.wiki -site:jjalbang.today -site:moamoang.co.kr",
+        "2026 10월 \"챌린지\" \"유행\" site:maily.so/marketingrecipe",
+        "2026 \"측측측면\" -site:moamoang.co.kr"
+      ],
+      "notes": [
+        "7probes:4existing roadster/errday/arrest/peeler;3held Finlandglobal/polarbearforeign/bukangwholeanimal. errdaycorrectioncheckseparate."
+      ],
+      "existing": 4,
+      "held": 3
+    },
+    "editor3": {
+      "count": 6,
+      "existing": 4,
+      "held": 2,
+      "queries": [],
+      "notes": [
+        "LatestTrendawordfrontpage6probes;raureol/pepero/endedup/johnparkexisting;outdoorteaandhanhanmiilnotmemevalidated. errdaybodydoesnotcontaincorrectedartistsochangeunneeded."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "dakpari-derogatory-label",
+      "urls": [
+        "https://everymemes.tistory.com/547"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "polaretti-ad-song-play",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/2482"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ralral-three-characters-cover",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/2482"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "scarf-seller-sales-talk-parody",
+      "urls": [
+        "https://ir.newspim.com/news/view/20261105001279",
+        "https://www.newsis.com/view/NISX20261112_0003865931"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "emsaeng-derogatory-life-label",
+      "urls": [
+        "https://www.khan.co.kr/article/201710082123015"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "my-name-is-chicky-korean-sound",
+      "urls": [
+        "https://whitefaceone.tistory.com/2706"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ottoke-sexist-mockery",
+      "urls": [
+        "https://www.insight.co.kr/news/296719",
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03778566632231176"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pyu-couple-wordplay",
+      "urls": [
+        "https://news.nate.com/view/20260216n01729",
+        "https://www.fnewstv.com/news/newsview.php?ncode=1065593768626934",
+        "https://www.moment-k.co.kr/news/broadcasting-service/12184823"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "idol-fictional-fighter-profile",
+      "urls": [
+        "https://everymemes.tistory.com/520"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "onigiri-character-dance-remix",
+      "urls": [
+        "https://whitefaceone.tistory.com/2691"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "absurd-office-title-comment",
+      "urls": [
+        "https://memeislife.tistory.com/40",
+        "https://www.teamblind.com/kr/post/죄다-전문직에-수도권-자가에-삼도수군통제사에ㅋㅋㅋ-gtt8ZHuZ"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "11 bounded entries, recent scarf parody and pyu; historical dates separate.",
+    "C12 conditional0768/0777 accepted only narrow described formats; originalmedia0.",
+    "Explicit gender/sexual-family derogatory terms described critically, no examples targeting people.",
+    "A30correctedstale472categories using474, existing3notnew. Errdaycorrectionnotinexistingbody,noeditneeded.",
+    "AsiatodayFinlandopen502notverified. Observations overlap worker/editor notnewunique."
+  ],
+  "query_observations": 9216,
+  "distinct_literal_queries": 7845,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

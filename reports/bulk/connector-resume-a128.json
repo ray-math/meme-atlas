@@ -1,0 +1,53 @@
+{
+  "batch": "connector-resume-a128",
+  "base": "7a814d9b6f52e603fd96432cb42a9c0b6bab7353",
+  "classification": "과거 후보 근거를 원문 재열람한 현재 원격 신규 수록",
+  "entries": [
+    {
+      "id": "come-here-quickly",
+      "sources": [
+        {
+          "url": "https://www.starnewskorea.com/broadcast-drama/2008/04/28/2008042808510203246",
+          "observed": "22행 웃찾사 웅이아버지 표현을 개그콘서트가 차용했다고 명시."
+        },
+        {
+          "url": "https://www.dspress.org/news/articleView.html?idxno=2067",
+          "observed": "2008-03-15 기사 제목을 동아리로 오시오 냉큼 오시오로 변형."
+        },
+        {
+          "url": "https://www.mma.go.kr/www_mma3/webzine/72/09/01_01.html",
+          "observed": "2008겨울호37~39행 도움 필요한 사람에게 보내는 가상 속마음. 실제 외쳤다고 쓰지 않음."
+        }
+      ],
+      "bounds": "방송차용 보도1+서로 다른 글의 실제 적용2. 두 글은 원전 차용 의도를 명시하지 않아 동시대 문장 구조 연결은 편집 판단."
+    },
+    {
+      "id": "ppulnatda-title-template",
+      "sources": [
+        {
+          "url": "https://www.imaeil.com/page/view/2008040110372580698",
+          "observed": "120행 민생은 뿔났다를 드라마 제목 패러디로 명시."
+        },
+        {
+          "url": "https://v.daum.net/v/M0LmDuchTD",
+          "observed": "122행 무한도전121부 며느리가 뿔났다와 엄마가 뿔났다 연결."
+        }
+      ],
+      "bounds": "정치적 주장·후보자 정보 제외. 기존 단어 뿔나다 전체를 신규 밈으로 간주하지 않음."
+    }
+  ],
+  "checks": {
+    "base_entries": 833,
+    "result_entries": 835,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  },
+  "candidate_screen": {
+    "screened": 12,
+    "accepted": 2,
+    "unverified": 10
+  }
+}

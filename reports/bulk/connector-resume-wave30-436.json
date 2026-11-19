@@ -1,0 +1,110 @@
+{
+  "batch": 436,
+  "base": "b94022cdca8f29635f89e23cfb133ca9fea5761a",
+  "canonical_before": 1007,
+  "canonical_after": 1008,
+  "added": [
+    "worlds-best-short-term-trading-contest"
+  ],
+  "researchA": {
+    "queries": [
+      "2026 밈 site:brunch.co.kr/@ \"써먹\"",
+      "2026 밈 site:velog.io \"제목\"",
+      "2026 밈 site:tistory.com \"패러디해\"",
+      "2026 밈 site:blog.aladin.co.kr \"제목\"",
+      "\"2026\" \"밈\" site:brunch.co.kr \"요즘\"",
+      "\"2026\" \"밈\" site:velog.io/@ -AI -뉴스",
+      "\"2026\" \"밈\" site:blog.aladin.co.kr -계엄",
+      "\"2026\" \"밈\" site:yes24.com \"리뷰\"",
+      "\"천하제일 단타대회\" \"구글\"",
+      "\"2026\" \"로컬에서는\" \"밈\"",
+      "\"2026\" \"너 뒤에서\" site:brunch.co.kr",
+      "\"2026\" \"밈\" \"제목으로 정했다\""
+    ],
+    "existing": [
+      "pelvis-wont-stop",
+      "smooth-smooth",
+      "niga-joa-challenge"
+    ],
+    "review": "천하제일단타대회 기사2군 범위감사중",
+    "held": [
+      "모두가자신의OO와싸우고있다 검색단서",
+      "로컬에서는잘됐습니다 목록제목뿐",
+      "너뒤에서말많이나와 rewritten summary 괴롭힘설명제외",
+      "마흔자로 광고성언급",
+      "LIKEWONI 새근거없음",
+      "무해력 일반경향"
+    ],
+    "rejected_urls": [
+      "https://brunch.co.kr/@heoboram/216",
+      "https://brunch.co.kr/@blacksmithhugh/347"
+    ],
+    "recommended": 0
+  },
+  "researchB": {
+    "queries": [
+      "\"그러면 죽어요\" \"2026\"",
+      "\"누나 좋아해요\" 밈 \"2026\"",
+      "\"어 작업중이야\"",
+      "\"미야\" \"밈\" \"2026\"",
+      "\"할 말이 없네\" 밈 2026",
+      "\"어 작업중이야\" 패러디",
+      "\"누나 좋아해요\" 타노스 2026",
+      "\"그러면 죽어요\" 패러디 2026",
+      "\"어 작업 중이야\" \"2026\"",
+      "\"미야\" \"미야미야\" 밈"
+    ],
+    "held": [
+      {
+        "id": "0240",
+        "url": "https://www.fomos.kr/talk/article_view?bbs_id=4&indexno=2114536&lurl=%2Ftalk%2Farticle_list%3Fbbs_id%3D4",
+        "note": "2026-10-12 제목이미지링크뿐,rewritten summary. 원만화재게시여부불명. 이미지미열람."
+      },
+      {
+        "id": "0346",
+        "note": "타노스자막이라는위키검색설명뿐최근독립원문없음"
+      },
+      {
+        "id": "0509",
+        "url": "https://www.gamechosun.co.kr/webzine/article/view.php?bid=17&from=articlelist&no=223161&page=21",
+        "note": "2026-07-02 캐릭터복귀기사,소개문구폭풍전야계열. 미야독립밈연결불가"
+      },
+      {
+        "id": "0748",
+        "note": "애니콜대사위키단서뿐일반작업중발언제외"
+      },
+      {
+        "id": "1103",
+        "url": "https://news.nate.com/view/20240111n01395",
+        "note": "2024-01-11 조주봉노래챌린지설명 직접확인,기간밖원소재1군. 재보도새제작아님"
+      }
+    ],
+    "recommended": 0
+  },
+  "editor_queries": [
+    "\"천하제일\" \"대회\" \"2026\" \"밈\"",
+    "\"천하제일 단타대회\" \"2026\" -site:mk.co.kr -site:khan.co.kr"
+  ],
+  "independent_audit": {
+    "candidate": "천하제일 단타대회",
+    "sources_read": 2,
+    "related_bodies_read": 2,
+    "decision": "bounded subtype eligible",
+    "note": "경향제목본문1군+매경제목1군. 독립금융밈계통/전체말틀검증주장금지. 원장연결없음."
+  },
+  "editor_source_reads": 2,
+  "candidate_changes": [],
+  "ci434": {
+    "run": 44262404434,
+    "job": 134658658467,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "79.232"
+  },
+  "ci435": {
+    "run": 44262532589,
+    "status": "last observed in_progress"
+  },
+  "ci_new_commit": "pending"
+}

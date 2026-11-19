@@ -1,0 +1,133 @@
+{
+  "batch": 370,
+  "base": "2cc5ff53f34ffd4a0f8f02d6fd2a12ef44e8131d",
+  "canonical_before": 977,
+  "canonical_after": 978,
+  "added": [
+    "this-eom-is-different"
+  ],
+  "researchA": {
+    "focused": 1,
+    "recommended": 1,
+    "queries": [
+      "\"이번 엄은 다르다\" -site:namu.moe -site:namu.wiki",
+      "\"이번 엄은\" -site:namu.moe -site:namu.wiki",
+      "\"엄은 다르다\" \"2026\"",
+      "\"이번 엄은 다르다\" \"톤핏선\"",
+      "\"엄 (이번 엄은 상해에 갔다)\"",
+      "\"엄.\" \"이번 엄은 다르다\" \"자두\"",
+      "\"이번 엄은 다르다\" -site:namu.moe -site:namu.wiki -site:incross.com -site:stibee.com -site:sotwe.com -site:twstalker.com -site:dadumm.tistory.com",
+      "\"이번 엄은 다르다\" site:x.com/tonefitsun"
+    ],
+    "index_queries": [
+      "엄은",
+      "엄준식",
+      "이번.{0,6}다르"
+    ],
+    "sources": [
+      "https://gall.dcinside.com/mgallery/board/view/?id=ckierun&no=460344&page=1",
+      "https://erinn.kr/codex/rune/0fxqo0gpwpzau",
+      "https://minenews.stibee.com/p/569"
+    ],
+    "limits": "Directuserpost1 + separateingameevaluationrepublication1;notdirect2. X403,YouTubeoriginsfailed,aggregatorsnotadopted. Imagesvideos0. Notentire0756personmemeincluded."
+  },
+  "researchB": {
+    "ids": [
+      "0205",
+      "0229",
+      "0276",
+      "0302",
+      "0335"
+    ],
+    "held": 5,
+    "recommended": 0,
+    "queries": [
+      "\"고수와 하수\" \"2026\"",
+      "\"귀여운 건 나도 알아\" \"2026\"",
+      "\"꽁기깅깅깅공강강\"",
+      "\"나이트 댄서\" \"2026\" 챌린지",
+      "\"네가 하면 나도 한다\" \"2026\"",
+      "\"귀여운 건 나도 알아\" -site:namu.moe",
+      "\"꽁기깅\" 밈",
+      "\"나이트 댄서\" \"챌린지\" 정국",
+      "\"귀여운건 나도 알아\"",
+      "\"꽁기깅\" \"춤\"",
+      "\"네가 하면 나도 한다\" 밈",
+      "\"나이트댄서\" 챌린지 문세윤"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/beyond-sw-camp/be01-fin-3TEAM-9-1379",
+        "scope": "badge titleREADME L309-317,undated,deploymentunverified"
+      },
+      {
+        "url": "https://katya1.tistory.com/64",
+        "date": "2021-09-08",
+        "scope": "oldselfreporteduse"
+      },
+      {
+        "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10010268496",
+        "date": "2023-04-03",
+        "scope": "domesticchallengeparticipants1reportcluster,notrecent"
+      },
+      {
+        "url": "https://quasarzone.com/bbs/qsz_live",
+        "scope": "titleuse,Sept10Thursday withoutyear;genericcompetitionvsspecificparodyunclear"
+      }
+    ],
+    "limits": "0205Inven502;0276nickname/gamehistorynotformat;PDFsizeerrornotread;videos0. Nomappingchange."
+  },
+  "semantic_audit": {
+    "ids": [
+      "1059",
+      "1068",
+      "1073",
+      "1080",
+      "1093",
+      "1108",
+      "1119",
+      "1128",
+      "1148",
+      "1155"
+    ],
+    "result": "10unclear unchanged",
+    "bodies": [
+      "mom-mom-made-me",
+      "pokemon-dance-challenge",
+      "slickback",
+      "ts-malfoy",
+      "appearance-check",
+      "fiery-friday"
+    ],
+    "queries": [
+      "패드립|부모|엄마",
+      "평온차|평온",
+      "포켓몬|띠부|빵",
+      "프라이데이|펑킨|펑키|friday",
+      "하츄핑|티니핑",
+      "해명이|해명",
+      "허경영|공중부양",
+      "황시",
+      "후타나리|양성|성별",
+      "힙통령|장문복|췍"
+    ],
+    "limits": "Remaining10inthisrange,nottotalallunclearreviewcompleted;sharedname/topicnotformat."
+  },
+  "editor": {
+    "queries": [
+      "엄은|엄준식|이번.{0,6}다르"
+    ],
+    "source_bodies": 3,
+    "scope": "Narrowoverinterpretationphrase;originalpost1/republication1 disclosed;fictionnotactualidolincident.0756 broadpersoncandidate remainsunclear,nodirectbodyidentitylink."
+  },
+  "ci": {
+    "body977": {
+      "run": 44242875497,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 75.601
+    },
+    "new_head": "pending"
+  }
+}

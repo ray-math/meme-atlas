@@ -1,0 +1,101 @@
+{
+  "batch": 398,
+  "base": "b7a3368f02c5692a7fdcd276c73bd533f001b09e",
+  "canonical_before": 986,
+  "canonical_after": 987,
+  "added": [
+    "neoeoneun-jinjja"
+  ],
+  "sources": [
+    "https://theqoo.net/wonpil/4369605484",
+    "https://theqoo.net/yejun/4386301502",
+    "https://kone.gg/s/somisoft/ashEWFB0b5T399GVrn5z8b"
+  ],
+  "editor_direct_reads": 3,
+  "independent_audit": {
+    "sources_read": 3,
+    "related_bodies_read": 3,
+    "result": "bounded_text_template_pass",
+    "limits": "익명실인물독립성미확인,원본의식적인용미확정,영상이미지0,코네날짜미확인"
+  },
+  "researchA": {
+    "held": [
+      {
+        "title": "밤티 영화제",
+        "url": "https://www.univ20.com/Magazine/Detail/3791",
+        "note": "2026-01-08기사;행사는2025-11-11최근1년밖,기존bamti응용"
+      },
+      {
+        "title": "이제 아줌마 차례예요",
+        "url": "https://brunch.co.kr/brunchbook/bottari1",
+        "note": "목차문구1,개별글26rewritten summary로원문강도낮음,밈반복불명"
+      },
+      {
+        "title": "월급 좀도둑",
+        "note": "salary-lupin관련변형,2023기사검색만최근독립0"
+      },
+      {
+        "title": "포브스 선정",
+        "note": "기존forbes-selected"
+      }
+    ],
+    "queries": [
+      "2026 \"밈\" \"패러디\" site:news.suwon.go.kr",
+      "2026 \"밈\" \"유행\" site:magazine.hankyung.com",
+      "2026 \"밈\" \"따라\" site:woman.donga.com",
+      "2026 \"유행어\" site:univ20.com",
+      "\"2026\" \"밈\" site:topclass.chosun.com",
+      "\"2026\" \"밈\" site:news.unn.net",
+      "\"2026\" \"밈\" site:brunch.co.kr \"제목\"",
+      "\"2026\" \"밈\" site:korea.kr \"패러디\"",
+      "\"이제 아줌마 차례\" \"2026\"",
+      "\"월급 좀도둑\" \"2026\"",
+      "\"월급좀도둑\" 밈",
+      "\"이제 아줌마 차례\" 세탁기"
+    ]
+  },
+  "researchB": {
+    "rows": [
+      {
+        "id": "0176",
+        "note": "위키설명외최근직접0"
+      },
+      {
+        "id": "0236",
+        "note": "위키정리외적용0"
+      },
+      {
+        "id": "0261",
+        "url": "https://news.nate.com/view/20260706n00170",
+        "note": "2026-07-06제목길을잃었다자랑이다차용1,영상0"
+      },
+      {
+        "id": "0285",
+        "url": "https://orbi.kr/00079570208",
+        "note": "403검색노출검증아님"
+      },
+      {
+        "id": "0316",
+        "url": "https://www.xportsnews.com/article/2162832",
+        "note": "2026-06-21제목1일반자랑vs차용불명,kmibrewrittensummary미채택"
+      }
+    ],
+    "queries": [
+      "\"개꿀잼몰카\" \"2026\"",
+      "\"원작을 경험해\" \"2026\"",
+      "\"길을 잃었다\" \"2026\" 밈",
+      "\"인데 개추 눌렀다\" \"2026\"",
+      "\"내가 제일 잘 나가\" \"2026\" 패러디",
+      "\"그건 원작을\" \"기준\" -site:namu.moe",
+      "\"개꿀잼 몰카\" \"2026\" -site:namu.moe",
+      "\"길을 잃었다\" \"자랑이다\" \"2026\"",
+      "\"길을 잃었다\" \"자랑이다\" -site:namu.moe -site:nate.com",
+      "\"내가 제일 잘 나가\" \"2026\" 광고",
+      "\"개꿀잼몰카\" site:theqoo.net",
+      "\"원작을 경험해\" -site:namu.moe -site:alphawiki.org"
+    ]
+  },
+  "ci": {
+    "new_commit": "pending"
+  }
+}

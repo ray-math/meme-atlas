@@ -1,0 +1,65 @@
+{
+  "batch": 251,
+  "canonical_before": 913,
+  "canonical_after": 913,
+  "research": {
+    "queries": [
+      "site.ac.kr \"2026\" \"밈\" -뒷공부 -학과 -공모",
+      "site.korea.kr \"2026\" \"챌린지\" \"유행\"",
+      "site.maily.so \"2026\" \"밈\" \"요즘\" -뒷공부 -고구마",
+      "\"2026\" \"줴줴이야\" -site:instablank.com -site:namu.wiki -site:namu.moe -세무 -커닝 -범생 -문신",
+      "\"2026\" \"김민\" \"패러디\" \"동두천\"",
+      "\"2026\" \"배경 트랜지션\"",
+      "\"김민\" \"따라하기\" \"2026\" -site:instablank.com -site:jjalbang.today -site:yongdev.dev",
+      "\"김민\" \"패러디\" \"나혼산\"",
+      "\"칠레\" \"밈\" \"2026\" -site:instablank.com -site:jjalbang.today",
+      "\"칠레\" \"평균\" \"2026\" \"밈\" -site:namu.moe -site:namu.wiki",
+      "\"칠레\" \"길쭉\" \"2026\" -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "\"김민 따라하기\" -site:instablank.com -site:jjalbang.today -site:yongdev.dev",
+      "\"김민\" \"패러디\" \"고기\"",
+      "\"김민코어\" \"따라\"",
+      "\"칠레\" \"2026\" site.theqoo.net",
+      "\"요즘 난리 난\" \"김민\" \"패러디\"",
+      "\"김민\" \"따라잡기\" site:imbc.com",
+      "\"김민\" \"패러디\" site:youtube.com"
+    ],
+    "index_queries": [
+      "줴줴",
+      "연애의 조건",
+      "김민",
+      "동두천",
+      "이모지",
+      "이모찌",
+      "나무 챌린지",
+      "스파이더맨",
+      "칠레",
+      "배경 트랜지션",
+      "장원영",
+      "Kinda chic"
+    ],
+    "holds": {
+      "kim_min": "Theqoo news repost; TVreport direct403 snippet-only; two outside independent uses absent",
+      "chile": "Reddit image explanation, not two Korean independent uses",
+      "transition": "Generic editing technique, distinct meme format absent"
+    },
+    "sources": [
+      "https://theqoo.net/square/4369376169",
+      "https://tvreport.co.kr/entertainment/article/1086602/amp/",
+      "https://trendportal.kr/archives/412/"
+    ],
+    "note": "site. typo preserved; cache907 semantic scan, no new canonical",
+    "recommended": 0
+  },
+  "audit": {
+    "target": "roasted-sweet-potato-thanks",
+    "sha": "f38cd0f22ae4b69f2226bc0ec103bec01ea1b9cf",
+    "result": "passed body and index, lists outside reviewer scope",
+    "index_unique_ids": 913,
+    "date_limits": "2 direct applications,1 confirmed recent date+1 uncertain boundary"
+  },
+  "metrics": {
+    "query_observations": 1643,
+    "distinct_literal_queries": 1332
+  },
+  "ci": "not run"
+}

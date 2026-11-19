@@ -1,0 +1,209 @@
+{
+  "batch": 381,
+  "base": "c09542c506db4310bd77789de1ceaf2c680a7773",
+  "canonical_before": 982,
+  "canonical_after": 982,
+  "added": [],
+  "researchA": {
+    "recommended": 0,
+    "focused_candidates": 0,
+    "source": "https://www.yes24.com/product/goods/193986986?ReviewYn=Y",
+    "date": "2026-07-23",
+    "scope": "밈고사성어출판소개목차리뷰읽음;기존표현교육연결,신규독립형식2건없음;졸업사진은검색단서학생신상미조사",
+    "queries": [
+      "\"2026\" \"밈\" site:brunch.co.kr \"제목\"",
+      "\"2026\" \"밈\" site:yes24.com \"출판사\"",
+      "\"2026\" \"밈\" site:magazine.hankyung.com \"패러디\"",
+      "\"2026\" \"밈\" \"직접 만들\" -site:instablank.com -site:namu.moe -site:namu.wiki -site:youtube.com",
+      "\"2026\" \"밈\" \"졸업\" 패러디"
+    ],
+    "limits": "새인덱스조회0/중복확정0;검색5를후보10으로부풀리지않음"
+  },
+  "editor": {
+    "queries": [
+      "\"강풍 올백\" \"2026\" \"만들었\"",
+      "\"강풍올백\" \"2026\" \"패러디\" -site:namu.moe -site:instablank.com",
+      "\"강풍 올백\" \"2026\" site:blog.naver.com",
+      "\"강풍올백\" \"2026\" \"그렸다\"",
+      "\"강풍 올백\" \"2026\" \"축제\"",
+      "\"강풍올백\" \"2026\" \"제작\" -site:namu.moe -site:youtube-rank.com"
+    ],
+    "limits": "옛독립제작자기보고2군회복,최근1년사용0보류유지.이미지0;페이지발행일과개별그림제작일구분;추가3검색플레이팜악보상품을패러디로세지않음",
+    "sources": [
+      {
+        "url": "https://enya127.tistory.com/53",
+        "date": "2024-10-04",
+        "scope": "제작자그림백업L123강풍올백패러디트레이싱표시.이미지0.분류목록2026은다른글날짜."
+      },
+      {
+        "url": "https://northwindpeacock.tistory.com/93",
+        "scope": "이전379확인2023-05-28제작기록"
+      }
+    ]
+  },
+  "semantic_audit": {
+    "sha": "c09542c506db4310bd77789de1ceaf2c680a7773",
+    "scope": "automatic_title_alias_match positions61-80",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0296",
+        "dictionary_id": "naniga-suki",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0298",
+        "dictionary_id": "namuwiki-off",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0299",
+        "dictionary_id": "na-moon-hee-first-love",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0300",
+        "dictionary_id": "nabi-bobettau",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0304",
+        "dictionary_id": "mukjjippa-major",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0306",
+        "dictionary_id": "one-target-only",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0309",
+        "dictionary_id": "because-good-day",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0310",
+        "dictionary_id": "male-female-friend",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0311",
+        "dictionary_id": "nangnang",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0313",
+        "dictionary_id": "if-i-become-cockroach",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0319",
+        "dictionary_id": "down-team-is-down",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0321",
+        "dictionary_id": "nae-areul",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0323",
+        "dictionary_id": "are-you-t",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0327",
+        "dictionary_id": "dionysus-mood-broken",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0330",
+        "dictionary_id": "still-play-that-game",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0333",
+        "dictionary_id": "you-insulted-me",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0337",
+        "dictionary_id": "next-level-dance",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0340",
+        "dictionary_id": "nobita-dance",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0341",
+        "dictionary_id": "brain-map-meme",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0342",
+        "dictionary_id": "noejeol",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      }
+    ],
+    "bodies_read": 20,
+    "classification_changes": 0,
+    "limits": "0337곡전체아닌팔동작재현한정.0319와0107같은본문중복고유수증가안함.누적80/328원장행이지80고유본문아님;외부유래검증0."
+  },
+  "automatic_audit_cumulative": {
+    "rows": 80,
+    "distinct_rows": 80,
+    "distinct_bodies": 79,
+    "reports": [
+      376,
+      377,
+      379,
+      381
+    ]
+  },
+  "independent_body_audit": {
+    "id": "come-out-its-me-remix",
+    "passed": true,
+    "required_changes": 0,
+    "sources_read": 4,
+    "comparison": "same-line-acting-challenge",
+    "limits": "보도재현1+MBC계열직접편집문구2페이지1군+바자설명.영상사진0/제목당사자발언아님"
+  },
+  "ci": {
+    "body982": {
+      "run": 44245957158,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 53.739
+    },
+    "report379": {
+      "run": 44245817186,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 59.68
+    },
+    "new_commit": "pending"
+  }
+}

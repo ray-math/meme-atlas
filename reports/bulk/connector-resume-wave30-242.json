@@ -1,0 +1,45 @@
+{
+  "batch": 242,
+  "canonical_before": 909,
+  "canonical_after": 909,
+  "change": "Added independently reviewed same-family alias 취뽀하겠어 to under-arrest frontmatter and index for search discovery; no new canonical.",
+  "audit": {
+    "easy_kkakka": "passed final body/source/index review",
+    "under_arrest": "new paragraph passed, not full historical video-origin revalidation",
+    "normalized_collisions": 0,
+    "tree": {
+      "head": "b5407e25a0986ea4c698e1cd8495cfbba95b30e2",
+      "truncated": false,
+      "tree_count": 909,
+      "index_count": 909,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "queries": [
+    "\"2026\" \"밈\" site:univ20.com \"11월\"",
+    "\"2026\" \"밈\" site:esquirekorea.co.kr \"유행\"",
+    "\"2026\" \"밈\" site:elle.co.kr \"챌린지\"",
+    "거제 야호",
+    "갸루 귀신",
+    "신라 공주",
+    "도가니"
+  ],
+  "screening": {
+    "source": "https://www.esquirekorea.co.kr/article/1908594",
+    "matches": {
+      "거제 야호": [
+        "geoje-yaho"
+      ],
+      "갸루 귀신": [],
+      "신라 공주": [],
+      "도가니": []
+    },
+    "note": "Geoje-yaho existing. Other names/song fragment are leads only, not independently established meme formats. Recruitment/competition results excluded."
+  },
+  "metrics": {
+    "query_observations": 1433,
+    "distinct_literal_queries": 1160
+  },
+  "ci": "not run"
+}

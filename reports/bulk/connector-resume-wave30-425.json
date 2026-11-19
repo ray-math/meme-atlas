@@ -1,0 +1,115 @@
+{
+  "batch": 425,
+  "base": "ff3a60ec10200af2e3071caf0b4d21a648fc6013",
+  "canonical_before": 1003,
+  "canonical_after": 1003,
+  "added": [],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" site:magazine.hankyung.com \"유행\"",
+      "2026 \"밈\" site:ohmynews.com \"유행어\"",
+      "2026 \"밈\" site:news.unn.net",
+      "2026 \"밈\" site:outstanding.kr",
+      "2026 \"유행어\" \"챌린지\" site:news.nate.com",
+      "2026 \"밈\" \"패러디\" site:newsis.com \"공식\"",
+      "2026 \"밈\" \"따라\" site:news1.kr",
+      "2026 \"밈\" \"패러디\" site:yonhapnewstv.co.kr",
+      "\"약속의 2시\" \"2026\" -site:news1.kr",
+      "\"약속의 2시\" site:teamblind.com",
+      "\"약속의 2시\" site:theqoo.net",
+      "\"약속의 2시\" site:clien.net"
+    ],
+    "recommended": "약속의2시",
+    "sources": [
+      "https://theqoo.net/stock/4253056422?category=1828783889",
+      "https://theqoo.net/stock/4280120202",
+      "https://theqoo.net/stock/4264075481",
+      "https://www.news1.kr/finance/general-stock/6352415"
+    ],
+    "note": "게시글3,익명동일인여부미확정.06-22기대연기/07-15하락체념/07-01시각연장풍자.11-13뉴스1법칙아닌속설명시.블라인드상대날짜제외",
+    "existing": [
+      "no-time-get-in",
+      "everyday-self-defense-parody"
+    ],
+    "held": [
+      "무쉰사",
+      "지긁재긁",
+      "전남친토스트",
+      "문자왔숑",
+      "안녕하시렵니까"
+    ],
+    "extras": [
+      "https://outstanding.kr/press/2038/20260625",
+      "https://www.news1.kr/finance/market-exr/6073051"
+    ]
+  },
+  "researchB": {
+    "queries": [
+      "\"뜌땨\" \"2026\"",
+      "\"너 고소\" \"2026\" 패러디",
+      "\"인권이 라이프\" \"2026\"",
+      "\"ㅎㅎ즐거우세요\"",
+      "\"흑우\" \"2026\" 후기 구매",
+      "\"인권이 라이프\" 패러디 -site:namu.moe",
+      "\"뜌땨\" \"2026\" -site:orbi.kr -site:inven.co.kr -site:namu.moe"
+    ],
+    "recommended": "1151흑우드립",
+    "sources": [
+      "https://quasarzone.com/recent/views/all/51891063?device=pc&page=4",
+      "https://wepoll.kr/g2/bbs/board.php?bo_table=free&wr_id=2404645"
+    ],
+    "note": "퀘이사존10.07연도는이미지경로2026/10/07보조추정.위폴2026-11-17수정표시,최초게시미확정.건강/상품주장제외.자기소비자조+모르던사람놀림2맥락,신원검증아님.",
+    "held": [
+      {
+        "id": "0421",
+        "note": "인벤본문502닉네임증거아님"
+      },
+      {
+        "id": "0325",
+        "note": "orbi403실제분쟁기사와밈구분미완료"
+      },
+      {
+        "id": "0871",
+        "sources": [
+          "https://inews24.com/view/120959",
+          "https://www.thebell.co.kr/front/newsview.asp?key=202606191436464120106796"
+        ],
+        "note": "2004광고패러디/2026회고.최근독립재현없음"
+      },
+      {
+        "id": "1086",
+        "source": "https://eopla.net/magazines/18189",
+        "note": "2024-07-03갈등대화회고,새패러디아님"
+      }
+    ]
+  },
+  "editor_rechecks": {
+    "promised_two_oclock": 4,
+    "black_cow": 2,
+    "note": "약속의2시 익명글3은작성자독립성미확정.흑우의구매·건강주장검증아님.아직후보편집단계,수록안함."
+  },
+  "final1002_1003_audit": {
+    "sha": "ff3a60ec10200af2e3071caf0b4d21a648fc6013",
+    "passed": true,
+    "body_reads": 2,
+    "required_changes": 0,
+    "external_reads": 0,
+    "note": "최종본문 한계 및 안전범위검토,목록·CI감사아님"
+  },
+  "ci1002": {
+    "sha": "e29c8d0e01623fa6def63265fe5e3007b106bc3d",
+    "run": 44259385470,
+    "job": 134648758077,
+    "success": true,
+    "tests": 495,
+    "steps": 65,
+    "seconds": 110.78
+  },
+  "ci1003": {
+    "sha": "ff3a60ec10200af2e3071caf0b4d21a648fc6013",
+    "run": 44259575017,
+    "job": 134649361892,
+    "status": "last observed in_progress"
+  },
+  "ci_new_commit": "pending"
+}

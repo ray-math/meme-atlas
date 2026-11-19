@@ -1,0 +1,95 @@
+{
+  "batch": 244,
+  "canonical_before": 909,
+  "canonical_after": 910,
+  "added": [
+    "rude-narration"
+  ],
+  "evidence": {
+    "specific_reuse_reports": 2,
+    "direct_fan_text_use": 1,
+    "original_video_or_image_inspections": 0,
+    "independent_scope_review": "passed; narration-family only"
+  },
+  "worker_reports": {
+    "a": {
+      "queries": [
+        "\"No Roots\" \"밈\" 포스터",
+        "\"No Roots\" \"챌린지\" 한국",
+        "\"책크인\" \"No Roots\""
+      ],
+      "index_queries": [
+        "No Roots",
+        "노 루츠",
+        "이룬",
+        "성과",
+        "흑백"
+      ],
+      "decision": "semantic duplicate things-i-achieved, not new",
+      "sources": [
+        {
+          "url": "https://tv.seoul.go.kr/v/e5a058892ca54adcb61a62cc8b3593b4",
+          "date": "2025-10-29"
+        },
+        {
+          "url": "https://www.mapianist.com/sheet/150233",
+          "date": "2025-11-12"
+        }
+      ],
+      "limits": "Outside recent year by20/6days. Direct text only, videos not watched. Defense Daily remains inaccessible; blackwhite freeze-frame description unverified."
+    },
+    "b": {
+      "queries": [
+        "\"하츠투하츠\" \"said to me\" \"챌린지\"",
+        "\"유노왓\" \"밈\"",
+        "\"스텔라\" \"문답\"",
+        "\"루드\" \"내 남자의 여자\" 밈",
+        "\"Rude\" \"나레이션\" \"패러디\""
+      ],
+      "index_queries": [
+        "스텔라",
+        "나레이션",
+        "내 남자의 여자",
+        "rude",
+        "said to me",
+        "루드",
+        "밸리 걸"
+      ],
+      "status": "Recovered held RUDE narration candidate, independent scope review pending",
+      "sources": [
+        "https://maily.so/mading/posts/5xrxv0d5z2v",
+        "https://www.harpersbazaar.co.kr/article/1905258",
+        "https://maily.so/trendaword/posts/l1zqgxdnr5x",
+        "https://fanplus.co.kr/community/tws/129740379"
+      ],
+      "limits": "videos0; Fanplus actual text not proof idol performed; reported remixes may overlap"
+    }
+  },
+  "editor_screening": {
+    "queries": [
+      "\"2026\" \"밈\" \"11월\" \"패러디\" -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "\"2026\" \"유행어\" \"도서\" \"제목\""
+    ],
+    "more_queries": [
+      "\"AI 티 내는 법\" \"2026\"",
+      "\"AI 티\" \"성열\" 디자인"
+    ],
+    "index": [
+      "AI 티",
+      "성열",
+      "KISS",
+      "키스앤",
+      "폴라베어"
+    ],
+    "holds": "AI design parody one reported creator, independent reuse absent; AI-written aggregations not validation. KISS/Polarbear Korean actual reuse not established."
+  },
+  "metrics": {
+    "query_observations": 1502,
+    "distinct_literal_queries": 1215
+  },
+  "checks": {
+    "normalized_collisions": 0,
+    "readme_topics_roundtrip": true,
+    "ci": "not run"
+  }
+}

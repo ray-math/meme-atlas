@@ -1,0 +1,224 @@
+{
+  "batch": 384,
+  "base": "10c0a8e298df95c618fd1062fd9791dc2249ecf1",
+  "canonical_before": 983,
+  "canonical_after": 984,
+  "added": [
+    "butter-run-challenge"
+  ],
+  "researchA": {
+    "recommended": "butter-run-challenge",
+    "sources": [
+      "https://enews.imbc.com/News/ViewAmp/503464",
+      "https://www.joongdo.co.kr/web/view.php?key=20261115010005061",
+      "https://www.donga.com/news/Culture/article/all/20260306/133479270/2",
+      "https://www.scicenter.or.kr/bbs/board.php?bo_table=member_news&page=4&wr_id=14460"
+    ],
+    "limits": "독립실행사건2군보도,직접참여원문/영상/사진0.학교개최일미표시교육청공동캠페인,미성년신상제외.레시피건강효과제외",
+    "held": [
+      "충남 특산물 빵에 발라보기 AI ASMR:eopla43490소개1",
+      "청주 고라파덕폭염홍보:반복형식불명"
+    ],
+    "queries": [
+      "\"2026\" \"밈\" \"따라\" site:news.kbs.co.kr",
+      "\"2026\" \"밈\" \"패러디\" site:news.sbs.co.kr",
+      "\"2026\" \"밈\" \"공식\" site:imnews.imbc.com",
+      "\"밈\" \"패러디\" \"공무원\" \"2026\"",
+      "\"밈\" \"인스타그램\" \"2026.11\" -site:instablank.com -site:namu.moe -site:onmeme.com",
+      "\"충남\" \"얼린 특산물\" ASMR",
+      "\"빵에 발라\" \"AI\" \"2026\"",
+      "\"버터런\" \"해봤\"",
+      "\"버터런\" \"참여\" 한국 2026",
+      "\"충남\" \"빵에\" \"ASMR\"",
+      "\"서산시청소년수련관\" \"버터런\"",
+      "\"버터런\" \"직접\" \"후기\" 2026",
+      "site:imbc.com \"버터런\" \"2026\"",
+      "\"서산시청소년수련관\" \"생크림\""
+    ]
+  },
+  "followupA": {
+    "recommended": 0,
+    "held": [
+      {
+        "title": "만화책 표지처럼 단체사진 찍기",
+        "url": "https://v.daum.net/v/20260808072851742",
+        "note": "2026-08-08 보도1군 BTS라이브동일사건중복;구체표지형식불명"
+      },
+      {
+        "title": "So Who are they / We are",
+        "url": "https://www.newspim.com/news/view/20260402001168",
+        "note": "2026-04-02대학현수막1사건;일반소개문과밈연결미확인"
+      }
+    ],
+    "queries": [
+      "\"2026\" \"밈\" \"따라해\" \"직접\"",
+      "\"2026\" \"밈\" \"도서관\" 패러디",
+      "\"2026\" \"밈\" \"대학\" \"패러디\"",
+      "\"만화책 표지\" \"밈\" 2026",
+      "\"만화책 표지\" \"단체사진\"",
+      "\"So\" \"Who are they\" \"밈\"",
+      "\"만화 표지\" \"챌린지\""
+    ],
+    "duplicates": [
+      "취뽀하겠어→under-arrest"
+    ],
+    "limits": "본문2읽기,사진영상0"
+  },
+  "editor": {
+    "sources_read": 3,
+    "limits": "실행사건2군보도+프로그램계획1,사진영상0;동아일보편집자읽기접근실패로본문근거제외;미성년신상미수록;최초유래/건강효과확정안함"
+  },
+  "independent_body_audit": {
+    "id": "trap-card-activated",
+    "passed": true,
+    "required_changes": 0,
+    "sources_read": 2,
+    "limits": "커뮤니티사용1군+편집비유1군.원작기원/대중규모미확정.영상사진0"
+  },
+  "ci": {
+    "body983": "pending",
+    "new_commit": "pending"
+  },
+  "semantic_audit": {
+    "sha": "10c0a8e298df95c618fd1062fd9791dc2249ecf1",
+    "scope": "automatic_title_alias_match positions101-120",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0395",
+        "dictionary_id": "donkatsu-like",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0397",
+        "dictionary_id": "dongnyeonbae-drip",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0401",
+        "dictionary_id": "brain-full-power",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0402",
+        "dictionary_id": "hurt-twice",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0408",
+        "dictionary_id": "dress-color-debate",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0409",
+        "dictionary_id": "deutbojap",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0410",
+        "dictionary_id": "back-breaker",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0411",
+        "dictionary_id": "dibidibidip",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0412",
+        "dictionary_id": "diss",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0415",
+        "dictionary_id": "tte-kkeol-look",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0417",
+        "dictionary_id": "stepped-on-poop",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0420",
+        "dictionary_id": "tunak-song",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0425",
+        "dictionary_id": "real-lol",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0427",
+        "dictionary_id": "ramen-invitation",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0428",
+        "dictionary_id": "latte-is-horse",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0437",
+        "dictionary_id": "red-sun-hypnosis",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0438",
+        "dictionary_id": "real-reaction",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0440",
+        "dictionary_id": "rollin-dance",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0446",
+        "dictionary_id": "mask-impression",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0448",
+        "dictionary_id": "malatanghulu",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      }
+    ],
+    "bodies_read": 20,
+    "classification_changes": 0,
+    "limits": "0417/0440/0448노래재현범위한정.외부기원검증0/영상사진0"
+  },
+  "automatic_audit_cumulative": {
+    "rows": 120,
+    "distinct_rows": 120,
+    "distinct_bodies": 119,
+    "reports": [
+      376,
+      377,
+      379,
+      381,
+      383,
+      384
+    ]
+  }
+}

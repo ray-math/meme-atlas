@@ -1,0 +1,246 @@
+{
+  "batch": 492,
+  "base": "d98534e40c47fbc95406753dc0c4a49b8334512e",
+  "canonical_before": 1552,
+  "canonical_after": 1559,
+  "added": [
+    "dialect-fairy-tale-reading-remake",
+    "dreamed-adult-reality-answer",
+    "jeokpye-character-dominance-slang",
+    "before-leaving-small-request-template",
+    "wait-stop-gesture-dance-challenge",
+    "pokjugini-staggered-arm-dance",
+    "fan-blog-self-made-midroll-banner"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0910",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "jeokpye-character-dominance-slang"
+    }
+  ],
+  "previous_ci": {
+    "sha": "d98534e40c47fbc95406753dc0c4a49b8334512e",
+    "run": 44321008405,
+    "job": 134859616914,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 168.418s"
+  },
+  "previous_audit": {
+    "sha": "d98534e40c47fbc95406753dc0c4a49b8334512e",
+    "mandatory_fixes": 0,
+    "source_urls_reopened": 8,
+    "old_bodies_unchanged": 1544,
+    "index_old_unchanged": true,
+    "candidate_changes": [
+      "kr-list-0328 unclear to partial"
+    ],
+    "mapping_loss": 0
+  },
+  "research": {
+    "A64": {
+      "count": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"이봐요 미친놈씨\" 패러디",
+        "\"이세계물 드립\"",
+        "\"이쿠요\" 춤 패러디",
+        "\"이훈이\" 밈 기사",
+        "\"인문학적 변태\" 뜻",
+        "\"인싸개그\" 유행",
+        "\"인증 대란\" 밈",
+        "\"일본 대단해\" \"칠레\"",
+        "\"아자핑\" \"하츄핑\" 밈",
+        "\"와플핑\" \"핫케핑\" 밈",
+        "\"자러감\" \"드립\"",
+        "\"잘생겨서 안 좋은 점\"",
+        "\"상상하고 싶지도 않네요\" 밈",
+        "\"적폐\" \"게임\" 신조어",
+        "\"제너럴 조\" 밈",
+        "\"죄송합니다\" \"안죄송합니다\" 패러디",
+        "\"지이잉\" 밈",
+        "\"초난강\" \"패러디\"",
+        "\"초코빅송\"",
+        "\"차차핑\" 밈",
+        "\"이쿠요 댄스\" -site:namu.moe -site:seore.org",
+        "\"초난강\" \"패러디\" 뉴스",
+        "\"잘생겨서 안 좋은 점\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"적폐 캐릭터\" 뜻",
+        "\"적폐\" site:gamemeca.com",
+        "\"적폐 캐릭터\" -site:namu.moe -site:seore.org -site:daol.cc",
+        "\"초난강\" \"패러디\" -site:namu.moe -site:seore.org -site:tcatmon.com"
+      ],
+      "notes": "20existingledgerrows reobserved notnewdiscovery. 7urls4relevantread3failed. 0910partialonly game/fancharacter assessment,notpoliticalterm."
+    },
+    "B530": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 10,
+      "family_enrichment": 1,
+      "held": 3,
+      "excluded": 5,
+      "queries": [
+        "2026 \"밈\" \"만들기\" site:design.co.kr",
+        "2026 \"밈\" \"인증\" site:news.kbs.co.kr",
+        "2026 \"챌린지\" \"놀이\" site:magazine.hankyung.com",
+        "\"2026\" \"놀이\" \"SNS\" \"공유\" \"밈\"",
+        "\"2026\" \"인스타그램\" \"말투\" 유행",
+        "\"2026\" \"꾸미기\" \"유행\" 밈",
+        "\"사투리 조기교육\" \"2026\"",
+        "\"젤리슈즈\" \"꾸미기\" \"2026\" 슬기"
+      ],
+      "notes": "Jellyshoes existing sinkku family. Dialect fairy tale bounded singlearticle3examples; originals0. Dangerouschallenges excluded. KBSrobots."
+    },
+    "B531": {
+      "count": 20,
+      "recommended": 1,
+      "existing_or_family": 6,
+      "held": 8,
+      "excluded": 5,
+      "queries": [
+        "2026 \"밈\" \"패러디\" site:jnilbo.com",
+        "2026 \"밈\" \"재현\" site:busan.com",
+        "2026 \"유행\" \"패러디\" site:imaeil.com",
+        "\"2026\" \"패러디\" \"공무원\" 유튜브",
+        "\"2026\" \"밈\" \"재현\" site:enews.imbc.com",
+        "\"2026\" \"밈\" \"놀이\" site:kyeongin.com",
+        "\"갈 때 가더라도\" \"패러디\" -site:namu.wiki -site:namu.moe",
+        "\"2026\" \"밈\" \"따라\" site:kwnews.co.kr",
+        "\"2026\" \"밈\" \"공유\" site:busan.com"
+      ],
+      "notes": "Two distinctproductions2018commercial/2026publicfireprevention; originalvideos0. Donga2014reopenfailed notmandatorysource."
+    },
+    "C43": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 11,
+      "held": 8,
+      "queries": [
+        "\"구글맵\" \"인증샷\" \"2026\"",
+        "2026 \"밈\" site:maily.so/trendaword \"11월\"",
+        "2026 \"밈\" site:harpersbazaar.co.kr \"10월\"",
+        "\"꿈꾸던 어른이 되었나요\" \"대학원생\"",
+        "\"꿈꾸던 어른이 되었나요\" \"밈\" \"2026\""
+      ],
+      "notes": "2explanatoryarticles2lists not20directverifiedarticles. WorkerreadNov18article152–172;editorreopenfailed. IG2throttled0views. Sole bounded recommendation."
+    },
+    "C44": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 12,
+      "held": 6,
+      "queries": [
+        "2026 \"밈\" site:univ20.com \"11월\"",
+        "2026 \"밈\" site:tpick.co.kr \"10월\"",
+        "2026 \"밈\" site:harpersbazaar.co.kr \"11월\"",
+        "2026 \"밈\" \"새로운\" site:elle.co.kr",
+        "2026 \"밈\" \"유행\" site:cosmopolitan.co.kr",
+        "\"웨잇 챌린지\" \"2025\"",
+        "\"폭주기니\" \"챌린지\""
+      ],
+      "notes": "2025earlyproduction versus Dec2025retrospective,not2026new. Somako/Mobiinside syndicatedonegroup. Healthmetaphorsheld originalself-useunclear."
+    },
+    "C45": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 6,
+      "held": 13,
+      "queries": [
+        "2026 밈 site:gogumafarm.kr \"9월\"",
+        "2026 밈 site:20slab.org \"챌린지\"",
+        "2026 밈 site:tpick.co.kr \"11월\"",
+        "\"장도연 츄러스\"",
+        "\"블로그\" \"자체 배너 광고\" \"2026\""
+      ],
+      "notes": "Selfblogmidroll oneinstitutionAprilreport/Decemberretrospective. Productaliasesdatescontradict;foodhealthtrendsheldnotmemeverified."
+    },
+    "editorResearch": {
+      "count": 9,
+      "recommended": 0,
+      "existing": 6,
+      "held": 3,
+      "queries": [
+        "2026 \"밈\" \"11월\" \"새로운\" -site:namu.moe -site:seore.org -site:tistory.com",
+        "2026 \"챌린지\" \"10월\" \"놀이\" -site:namu.moe -site:seore.org -site:tistory.com",
+        "\"L을 가져가\" 밈 -site:careet.net",
+        "\"2026\" \"주접\" \"겉옷\"",
+        "\"겉옷\" \"배현성\" \"2026\" 인터뷰",
+        "\"2026\" \"밈\" \"지역\" \"패러디\" -site:tistory.com -site:namu.moe -site:seore.org",
+        "2026 \"밈\" \"사진\" site:design.co.kr",
+        "2026 \"밈\" \"편집\" site:univ20.com -꿈꾸던"
+      ],
+      "notes": "HSAD Nov6 reopened: NEON,myemoji,underarrest,forevermoment,takeL existing. Foodtrend/sportsfoodgeneral/celebrityfarmerad held notdistinctremake. Careet2034 paywall no candidate extraction. Nooriginalmedia. RoadsterAI latestdirectYonhap alreadyroadster-ai-parody. Videoconpubliccampaign articleexistingfamilies only no newcounts."
+    }
+  },
+  "sources": [
+    {
+      "id": "dialect-fairy-tale-reading-remake",
+      "urls": [
+        "https://v.daum.net/v/fCHoPNMVZj"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dreamed-adult-reality-answer",
+      "urls": [
+        "https://maily.so/trendaword/posts/32z831ppon4"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jeokpye-character-dominance-slang",
+      "urls": [
+        "https://m.hungryapp.co.kr/bbs/bbs_view.php?bcode=nyangko&pid=854713",
+        "https://gall.dcinside.com/mgallery/board/view/?id=sunshine&no=2701119"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "before-leaving-small-request-template",
+      "urls": [
+        "https://www.insight.co.kr/news/194653",
+        "https://v.daum.net/v/20260414191927567"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "wait-stop-gesture-dance-challenge",
+      "urls": [
+        "https://www.mobiinside.co.kr/2025/01/14/jen-trend/",
+        "https://www.harpersbazaar.co.kr/article/1893477"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pokjugini-staggered-arm-dance",
+      "urls": [
+        "https://isplus.com/article/view/isp202504090060",
+        "https://sports.khan.co.kr/article/202503241448003",
+        "https://www.harpersbazaar.co.kr/article/1893477"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "fan-blog-self-made-midroll-banner",
+      "urls": [
+        "https://stibee.com/api/v1.0/emails/share/b3SY6gER0Q1811vyhAUY_Hs98nQqrhg",
+        "https://www.20slab.org/Archives/39008"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Seven bounded entries; six editor-reopened and dreamedadult worker-directread/editorreopenfailureexplicit.",
+    "0910 politicalgeneralterm notcovered; characterusageonly partial.",
+    "Preaudit3candidates approved, source5/relatedbodies6. Existingbodies/tests/digestpinsunchanged."
+  ],
+  "query_observations": 10678,
+  "distinct_literal_queries": 8865,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "batch": 293,
+  "canonical_before": 930,
+  "canonical_after": 930,
+  "added": [],
+  "research": {
+    "queries": [
+      "2026 \"밈\" \"챌린지\" site:cosmopolitan.co.kr",
+      "2026 \"밈\" site:arena.co.kr",
+      "2026 \"밈\" site:eyesmag.com",
+      "2026 \"챌린지\" site:fastpapermag.com -남편 -WYA",
+      "2026 \"밈\" site:arenakorea.com",
+      "\"하하더\" \"챌린지\" -site:fastpapermag.com",
+      "\"Dracula\" \"챌린지\" \"앤톤\"",
+      "\"턱선\" \"사과\" \"밈\"",
+      "\"모시모시\" \"챌린지\" 2026 -site:fastpapermag.com",
+      "\"Dracula\" \"챌린지\" 제니 2026 -site:fastpapermag.com",
+      "\"턱선으로 사과\" -site:fastpapermag.com"
+    ],
+    "index_queries": [
+      "하하더",
+      "하루에 하루만 더",
+      "ADDICTED",
+      "Dracula",
+      "드라큘라",
+      "REDRED",
+      "RED RED",
+      "레드레드",
+      "도가니",
+      "턱선",
+      "톡투미",
+      "앙탈",
+      "닉주디",
+      "모시모시",
+      "mosi",
+      "사사네",
+      "키코에테루",
+      "다이죠부",
+      "BAD",
+      "404"
+    ],
+    "note": "12materials recommendedMosiMosi1/Dracula followup1/holds7/existing3. REDRED semanticgreen-green-red-red, angtal, ateezbad. Mosi sources imbc507330June6 and Trend535l1zqyp9yr5xMay6 originalvideos0; editor notyetread."
+  },
+  "audit": {
+    "id": "where-you-at-challenge",
+    "sha": "86c46aaa945d9d7bd1189595159aa55d70e3dc78",
+    "result": "pass-no-required-changes",
+    "scope": "body/two sources/index/two lists; notfull diff fixture CI"
+  },
+  "coverage_reconciliation": {
+    "base_sha": "86c46aaa945d9d7bd1189595159aa55d70e3dc78",
+    "source": "data/korea-candidates.json",
+    "source_rows": 1091,
+    "source_access": "2026-11-16 saved mirror_body; not liveNamuwiki completenesscertification",
+    "normalization": "NFKC lowercase remove nonUnicodeletters/numbers/underscore; exacttitleoralias",
+    "automatic_title_alias_matches": 328,
+    "automatic_unmatched": 763,
+    "unmatched_duplicate_rows": 4,
+    "unmatched_nondeduplicate": 759,
+    "preexisting_path_mappings": 14,
+    "unmapped_after_preexisting_paths": 745,
+    "status": "semantic review pending, 745 not confirmedmissing",
+    "assignments": [
+      {
+        "first": "kr-list-0050",
+        "last": "kr-list-0418",
+        "rows": 253
+      },
+      {
+        "first": "kr-list-0419",
+        "last": "kr-list-0775",
+        "rows": 253
+      },
+      {
+        "first": "kr-list-0777",
+        "last": "kr-list-1156",
+        "rows": 253
+      }
+    ],
+    "scope": "All759incl14premapped beingsemanticallyreviewed; exactmatchesnotindependentcontentaudit. Workersreadonly soleeditorwrites."
+  },
+  "metrics": {
+    "query_observations": 2598,
+    "distinct_literal_queries": 2109
+  },
+  "ci": "not run"
+}

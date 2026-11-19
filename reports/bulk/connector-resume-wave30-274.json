@@ -1,0 +1,32 @@
+{
+  "batch": 274,
+  "canonical_before": 924,
+  "canonical_after": 924,
+  "added": [],
+  "independent_audit": {
+    "id": "want-you-back-challenge",
+    "sha": "f9eb5cfd791becda5bee8ca29c7134e996866be9",
+    "result": "pass",
+    "index": 924,
+    "readme": 924,
+    "target_links_each": 1,
+    "source_reads": 2,
+    "web_queries": 0,
+    "original_videos": 0,
+    "note": "reporter background not interviewee testimony; repeated accounts not additional productions; source and date bounds correct"
+  },
+  "tree_check": {
+    "sha": "f9eb5cfd791becda5bee8ca29c7134e996866be9",
+    "truncated": false,
+    "bodies": 924,
+    "index": 924,
+    "missing": 0,
+    "extra": 0
+  },
+  "main_sha_readonly": "f3cf501549f1c4f8d327ee13c904e9ed85ed2a33",
+  "metrics": {
+    "query_observations": 2193,
+    "distinct_literal_queries": 1782
+  },
+  "ci": "not run"
+}

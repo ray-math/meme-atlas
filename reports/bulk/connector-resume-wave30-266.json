@@ -1,0 +1,42 @@
+{
+  "batch": 266,
+  "canonical_before": 919,
+  "canonical_after": 920,
+  "added": "ttareum-challenge",
+  "queries": [
+    "\"2026\" \"밈\" \"10월\" site:eyesmag.com",
+    "\"2026\" \"밈\" \"9월\" site:marieclairekorea.com",
+    "\"2026\" \"밈\" site:allurekorea.com \"챌린지\"",
+    "\"2026\" \"밈\" site:news.sbs.co.kr \"11월\" -세무 -리트 -커닝 -조폭",
+    "\"2026\" \"밈\" site:news.kbs.co.kr \"10월\" -세무 -리트 -코인",
+    "\"2026\" \"밈\" site:imnews.imbc.com \"10월\" -세무 -리트 -코인",
+    "\"따름 챌린지\" \"브랜드\"",
+    "\"따름 챌린지\" \"공식\" \"2026\" -site:namu.moe -site:namu.wiki",
+    "\"따름 챌린지\" \"2026\" -site:namu.moe -site:m.namu.moe",
+    "\"밈\" \"2026\" site:newsroom.cj.net",
+    "\"밈\" \"2026\" site:newsroom.hyundai.com",
+    "\"따름 챌린지\" \"전현무\" \"양세찬\"",
+    "\"따름 챌린지\" site:jtbc.co.kr",
+    "\"따름 챌린지\" \"전현무\" -site:namu.moe -site:bntnews.co.kr -site:jtbc.co.kr",
+    "\"남자병\" \"귀요미송\" -site:namu.moe",
+    "\"남자병\" \"앙탈\" \"톡파원\""
+  ],
+  "index_queries": [
+    "따름",
+    "따룸",
+    "널 따라가",
+    "붐샤카",
+    "나 줘"
+  ],
+  "evidence": "1syndicatedagency report group+1separateJTBC officialdescription; Hanteoplanningcontext only; originalvideo0; noassumptionJTBCimprovisedcopy",
+  "holds": [
+    "남자병 version: specificsharedformat unverified; MarieClairealbumdetailconflict excluded",
+    "붐샤카/나줘 not independently investigated"
+  ],
+  "main_unchanged": "f3cf501549f1c4f8d327ee13c904e9ed85ed2a33",
+  "metrics": {
+    "query_observations": 2031,
+    "distinct_literal_queries": 1660
+  },
+  "ci": "not run"
+}

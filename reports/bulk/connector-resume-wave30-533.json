@@ -1,0 +1,333 @@
+{
+  "batch": 533,
+  "base": "49111f297eb8c7fe6f7ec1ba0a9156a4e545024d",
+  "canonical_before": 1967,
+  "canonical_after": 1977,
+  "added": [
+    "osseuwan-daily-writing-record-tag",
+    "sonpum-online-search-effort-metaphor",
+    "news-prompter-reading-challenge",
+    "jebal-as-an-emotion",
+    "ajeossi-saranghaeyo-goblin-line-imitation",
+    "gwiyoun-geon-nado-ara-confident-response",
+    "yeoksi-nan-bijuryuya-kikkik",
+    "rago-hal-ttae-hal-geol-stacked-regret",
+    "granzort-airport-transformation-parody",
+    "a-ireon-geollo-pigonhago-sipji-anta"
+  ],
+  "candidate_changes": [
+    {
+      "candidate_id": "kr-list-0229",
+      "id": "gwiyoun-geon-nado-ara-confident-response",
+      "reason": "개인 짤 사용 설명과 프로젝트 배지 문구 적용만 연결. 원이미지/방송기원/프로젝트 차용의도 미확인, 원장전체수록아님."
+    }
+  ],
+  "previous_ci": {
+    "sha": "49111f297eb8c7fe6f7ec1ba0a9156a4e545024d",
+    "run": 44389673422,
+    "job": 135103581865,
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 222.915s"
+    ]
+  },
+  "previous_final_audit": {
+    "status": "PASS",
+    "required": 0,
+    "sha": "49111f297eb8c7fe6f7ec1ba0a9156a4e545024d",
+    "total": 1967,
+    "files": 18,
+    "oldBodiesUnchanged": 1958,
+    "queryRows": 14689,
+    "distinctLiteralQueries": 12048
+  },
+  "sources": [
+    {
+      "id": "osseuwan-daily-writing-record-tag",
+      "urls": [
+        "https://v.daum.net/v/20250206210312004?s=print_news",
+        "https://mountainstory.tistory.com/13736803"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sonpum-online-search-effort-metaphor",
+      "urls": [
+        "https://www.nongmin.com/article/20260130500704",
+        "https://www.cstimes.com/news/articleView.html?idxno=711866"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "news-prompter-reading-challenge",
+      "urls": [
+        "https://media.kpf.or.kr/web/media/press/articleDetail.do?pblcRegSn=593617",
+        "https://maily.so/marsinmarine/posts/5xrx81e5o2v"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jebal-as-an-emotion",
+      "urls": [
+        "https://www.incross.com/ko/insight/report.asp?idx=10581&mode=view&page=1&pageSize=12&searchStr=iam&serboardsort=9",
+        "https://time.navyism.com/?host=sugang.ewha.ac.kr"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ajeossi-saranghaeyo-goblin-line-imitation",
+      "urls": [
+        "https://enter.etoday.co.kr/news/view/92271",
+        "https://m.etnews.com/20251201000016"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gwiyoun-geon-nado-ara-confident-response",
+      "urls": [
+        "https://katya1.tistory.com/64",
+        "https://github.com/beyond-sw-camp/be01-fin-3TEAM-9-1379"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "yeoksi-nan-bijuryuya-kikkik",
+      "urls": [
+        "https://www.kusf.or.kr/news/uni_news_view.html?ecode=34&page=15&seq=222",
+        "https://hyangyoohada.tistory.com/65"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "rago-hal-ttae-hal-geol-stacked-regret",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail/2134"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "granzort-airport-transformation-parody",
+      "urls": [
+        "https://biz.heraldcorp.com/article/10738844",
+        "https://news.tvchosun.com/site/data/html_dir/2026/05/19/2026051990083.html",
+        "https://v.daum.net/v/ulTr6fUZTT"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "a-ireon-geollo-pigonhago-sipji-anta",
+      "urls": [
+        "https://gogumafarm.kr/나-고구마팜인데-요즘-뜨는-밈-가져왔다-2026년-6월-최신/"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening": {
+    "B670": {
+      "observations": 11,
+      "conditional": 1,
+      "reserved": 2,
+      "existing": 2,
+      "held": 6,
+      "queries": [
+        "2026 \"신조어\" \"도서관\" -벽돌책 -오독완",
+        "2026 \"신조어\" \"시청\" -site:namu.wiki",
+        "2026 \"유행어\" \"누리집\"",
+        "\"오쓰완\" 2026",
+        "\"독붐온\" 2026"
+      ],
+      "sources": [
+        "https://v.daum.net/v/20250206210312004?s=print_news",
+        "https://mountainstory.tistory.com/13736803"
+      ],
+      "note": "오쓰완conditional personalpage2026-07-15/internal07-09 notcontemporaneityverified;media0. 해수부4phrasesoneadvertisinggroup only."
+    },
+    "A186": {
+      "observations": 4,
+      "recommended": 0,
+      "held": 4,
+      "queries": [
+        "\"해버리기\" \"유행어\"",
+        "\"가능성의\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"의문의\" \"행\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"한글자 드립\" -site:namu.moe -site:seore.org -site:namu.wiki",
+        "\"의문의 백수행\"",
+        "\"해버리기\" 보겸 뉴스",
+        "\"가능성의 짐승\" 패러디",
+        "\"한글자\" \"도배\" \"채팅\""
+      ],
+      "note": "3URL attempts0usablebody,notnewuseverification; repeated4priorrows."
+    },
+    "C192": {
+      "observations": 12,
+      "recommended": 1,
+      "existing": 6,
+      "conditional": 1,
+      "held": 4,
+      "queries": [
+        "\"신조어\" \"2026\" \"손품\"",
+        "\"신조어\" \"2026\" \"발품\"",
+        "\"신조어\" \"2026\" \"손민수템\"",
+        "\"손품\" \"뜻\" 기사",
+        "\"오살힘\" \"2026\"",
+        "\"책없쾌\" \"2026\"",
+        "\"손품\" \"인터넷\" 신조어",
+        "\"분조카\" \"카페\" 기사",
+        "\"사보필\" \"2026\" -site:careet.net -site:hoonmeme.com",
+        "\"크러시 리섹션\" 한국",
+        "\"손품\" \"2026\" 쇼핑",
+        "\"분좋카\" \"대성\" 이데일리"
+      ],
+      "sources": [
+        "https://www.nongmin.com/article/20260130500704",
+        "https://www.cstimes.com/news/articleView.html?idxno=711866"
+      ],
+      "note": "Correctedtotals1/6/1/4=12; 손품2editorialtitlesnotpurchase; 분조카existingalias; 사보필definition+imaginedexampleonly."
+    },
+    "A187": {
+      "selected": 10,
+      "observations": 4,
+      "recommended": 0,
+      "held_selected": 10,
+      "queries": [
+        "\"그 XX\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"내 거에 올라온 네 욕 볼래\" -site:namu.moe -site:seore.org",
+        "\"우연히\" \"밈\" \"유래\" -site:namu.moe -site:seore.org",
+        "\"지이잉\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"내 거에 올라온\" \"욕\"",
+        "\"우연히\" \"주웠다\" 밈",
+        "\"지이잉\" \"주예지\" 뉴스"
+      ],
+      "note": "10selectedbut4externalresearched;6notexternallyverified. 2newsreads originalbroadcastnotreuse. No newindexclaim."
+    },
+    "B671": {
+      "observations": 11,
+      "recommended": 0,
+      "existing": 5,
+      "held": 6,
+      "queries": [
+        "2026 도서관 \"신조어\" -벽돌책 -독파민 -오독완",
+        "2026 시청 \"인증\" \"신조어\"",
+        "2026 \"필사\" \"필사즉생\"",
+        "\"필사즉생\" \"필사\" 도서관",
+        "2026 \"쓰담\" \"플로깅\" 시청",
+        "2026 \"줍깅\" \"시청\""
+      ],
+      "note": "activity/campaignnames notautomaticallymemes;필사즉생club+필사즉샘oneadvertisementheld;쓰담이proposalnotestablished.7textsourcesmedia0."
+    },
+    "C193": {
+      "observations": 12,
+      "recommended": 2,
+      "existing": 7,
+      "held": 3,
+      "queries": [
+        "2026 밈 \"말투\" \"뉴스레터\"",
+        "2026 밈 \"말틀\" 패러디",
+        "\"프롬프터\" \"챌린지\" 요기보",
+        "\"뉴스 프롬프터\" 챌린지 2026",
+        "\"리버스 바벨탑\" 2026",
+        "\"제발\" \"감정\" 밈 인크로스",
+        "\"제발이라는 감정\" -site:incross.com -site:namu.wiki -site:theqoo.net",
+        "\"프롬프터 읽기 챌린지\" -site:maily.so",
+        "\"리버스 바벨탑\" 트위터"
+      ],
+      "note": "4externaltexts1failure media0. KPFhistoricalexperience not independent2026advertisement;제발Navyismcommentdateunknown."
+    },
+    "B672": {
+      "observations": 12,
+      "recommended": 1,
+      "existing": 8,
+      "held": 3,
+      "queries": [
+        "2026 예능 \"유행어\" \"패러디\" -site:youtube.com",
+        "2026 \"유행어\" \"따라\" \"광고\"",
+        "\"지금이니\" \"뜨거운 부부\" 따라",
+        "\"김고은수지\" 패러디",
+        "2026 \"유행어\" \"재연\" -허경환 -할래 -기억",
+        "\"아저씨 사랑해요\" \"이수지\" 패러디",
+        "\"지금이니\" \"김영희\" \"2026\""
+      ],
+      "note": "historicalLeeSuji2017/2024 sameperformer;2025-11-30YoonJaeWoongnewreenactmentreported12-01. Otherreports sameevent not independentproduction. media0."
+    },
+    "A188": {
+      "observations": 4,
+      "conditional": 1,
+      "held": 3,
+      "queries": [
+        "\"귀여운 건 나도 알아\" 패러디",
+        "\"엄마도 사람이야\" 패러디",
+        "\"내 식사를 방해할\" 패러디",
+        "\"네 설명해드렸습니다\"",
+        "\"귀여운건 나도 알아\" -site:namu.moe -site:seore.org",
+        "\"내 식사를 방해할 생각인가\" -site:namu.moe -site:seore.org",
+        "\"설명해드렸습니다\" \"박명수\""
+      ],
+      "note": "0229partialproposal textonly. blogselfreporteduse+projectbadge title, projectintentnotexplicit.2URLmedia0.1967auditorupdated."
+    },
+    "C194": {
+      "observations": 12,
+      "recommended": 2,
+      "existing": 6,
+      "held": 4,
+      "queries": [
+        "site.maily.so \"2026\" \"밈\" \"11월\"",
+        "site:gogumafarm.kr \"2026\" \"댓글\" \"밈\"",
+        "2026 \"밈\" \"말투\" site:univ20.com",
+        "2026 \"밈\" \"댓글\" site:careet.net",
+        "\"라고 할 때\" \"말풍선\" 밈",
+        "\"한한미일\" 밈 2026",
+        "\"역시 난 비주류야\" 밈"
+      ],
+      "note": "querytypo preserved.7pages1bodymedia0.비주류2titleuses+preview;말풍선onepublisher2brands not2independentsources. Coordinator and independent auditor subsequently read blog body explicit meme self-application; prior title-only limitation superseded."
+    },
+    "B673": {
+      "observations": 11,
+      "conditional": 1,
+      "existing": 8,
+      "held": 2,
+      "queries": [
+        "2026 광고 \"대사를 패러디\" ",
+        "2026 \"패러디한 광고\" \"대사\"",
+        "2026 \"유행어를 활용\" 브랜드 -허경환 -사딸라",
+        "\"지창욱\" \"그랑죠\" 광고 2026",
+        "\"그랑죠\" \"T로밍\" 패러디"
+      ],
+      "note": "3reports same advertisement1group;MOFAcomment not independentvideo or official safetyguideline;media0."
+    },
+    "C195": {
+      "observations": 12,
+      "recommended": 1,
+      "existing": 10,
+      "held": 1,
+      "queries": [
+        "site:gogumafarm.kr \"2026\" \"말투\" \"댓글\"",
+        "site:maily.so/marsinmarine \"2026\" \"밈\" \"10월\"",
+        "2026 \"밈\" \"직접\" \"말투\" -site:namu.wiki -site:namu.moe -site:meme100.me -site:jjalbang.today",
+        "\"2026\" \"밈\" \"문구\" site:univ20.com/Magazine",
+        "\"이런 걸로 피곤하고 싶지 않다\" 밈",
+        "\"이런걸로 피곤하고 싶지\" -site:gogumafarm.kr -site:meme100.me"
+      ],
+      "note": "3externaltexts2originalreelsfailed;oneexplanationtwoexamples not2independentgroups. Cosmetics/menu proposedexamplesexcluded;media0."
+    }
+  },
+  "query_increment": 79,
+  "query_observations": 14768,
+  "distinct_literal_queries": 12113,
+  "preaudit": {
+    "status": "PASS",
+    "required": 0,
+    "notes": [
+      "All10 bounded definitions independently audited.",
+      "비주류 personal blog explicitly applies meme in body, correcting preliminary title-only description.",
+      "Single advertisement/report cases not treated as independent production groups."
+    ]
+  },
+  "limits": [
+    "Old1967bodies and original1091source unchanged;only0229 index_not_found→partial.",
+    "Usage74/reviewed73 preserved;main and protected bodies/tests unchanged.",
+    "Observations not unique memes; selected but unresearched rows not verified.",
+    "Original images/videos0. Dates and source independence bounded per body.",
+    "NewSHA CI pending;previous1967 exactSHA success65/65 Python497. No localPythonrun."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "batch": 353,
+  "base": "26cdf1b50488e7db242daed29c5d77433d9e5933",
+  "canonical_before": 969,
+  "canonical_after": 969,
+  "added": [],
+  "research": {
+    "ids": [
+      "1043",
+      "1101",
+      "1104",
+      "1135",
+      "1141"
+    ],
+    "recommended": 0,
+    "held": 5,
+    "queries": [
+      "\"투명드래곤\" \"2026\"",
+      "\"한본어\" \"2026\"",
+      "\"한 잔 해\" \"2026\" 밈",
+      "\"헬테이커\" 패러디 \"2026\"",
+      "\"호롤롤로\" \"2026\"",
+      "\"한잔해\" \"했잖아\" \"2026\"",
+      "\"투명드래곤\" 패러디 -site:namu.moe",
+      "\"헬테이커\" 춤 패러디 한국",
+      "\"했잖아 한잔해\" -site:namu.moe -site:readonly.wiki",
+      "\"호롤롤로\" 밈 유래"
+    ],
+    "sources": [
+      "https://novelpia.com/novel/229686",
+      "https://imnews.imbc.com/replay/2026/nwtoday/article/6863313_37012.html",
+      "https://www.ytn.co.kr/_ln/0134_202002191145067152",
+      "https://www.i-boss.co.kr/ab-2795-7746"
+    ],
+    "limits": "Workerread/editorunread.1043 one remake synopsis,undated;1101 Japan language-mixing news notKoreanparody;1104 Inven502/Tunaground403;1135 Inven502 fanart notverifiedspecificformat;1141 YTNold2020retrospective,jobadcompanyname notverifiedreuse,deadline2026-11-30notpublication;photography403. Imagesvideos0.",
+    "failed_urls": [
+      "https://www.inven.co.kr/board/wow/5280/93435?name=nicname&p=6",
+      "https://bbs2.tunaground.net/trace/anctalk/10224/280/379",
+      "https://www.documentaryonbit.or.kr/default/sample/board/sub02.php?com_board_basic=read_form&com_board_id=2&com_board_idx=35"
+    ]
+  },
+  "note": "No standalone works, company names or failed-access snippets promoted to verified applications."
+}

@@ -1,0 +1,400 @@
+{
+  "batch": 489,
+  "base": "cdf8b90ca8cbcd4a9d5ce95701439071e39a06e8",
+  "canonical_before": 1525,
+  "canonical_after": 1535,
+  "added": [
+    "nayeo-baek-jong-won-name-substitution",
+    "i-can-see-literal-wordplay",
+    "good-goodbye-duo-stage-parody",
+    "school-horror-survival-rule-card-sharing",
+    "superstar-k-president-nickname-election-parody",
+    "typing-pet-character-remake-sharing",
+    "mobile-wallet-card-image-decoration",
+    "accidentally-ate-too-much-caption",
+    "jutdae-life-advice-parody",
+    "cgv-sijibi-sound-wordplay"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0303",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "nayeo-baek-jong-won-name-substitution"
+    },
+    {
+      "id": "kr-list-0432",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "superstar-k-president-nickname-election-parody"
+    }
+  ],
+  "previous_ci": {
+    "sha": "cdf8b90ca8cbcd4a9d5ce95701439071e39a06e8",
+    "run": 44316471100,
+    "job": 134843801233,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 107.178s"
+  },
+  "previous_audit": {
+    "sha": "cdf8b90ca8cbcd4a9d5ce95701439071e39a06e8",
+    "batch": 488,
+    "mandatory_fixes": 0,
+    "canonical": 1525,
+    "new": 9,
+    "sources_opened": 15,
+    "old_bodies_changed": 0,
+    "mapping_loss": 0,
+    "candidate_rows_changed": 9,
+    "images_videos": 0
+  },
+  "research": {
+    "A56": {
+      "count": 10,
+      "recommended": 1,
+      "held": 9,
+      "queries": [
+        "\"계획대로\" \"데스노트\" \"패러디\" 기사",
+        "\"공항도둑\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"귀여운 건 나도 알아\" -site:namu.moe -site:seore.org",
+        "\"그건 원작을 경험해 보신\" -site:namu.moe -site:seore.org",
+        "\"그러면 죽어요\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"그런 거 없다\" \"짤\" -site:namu.moe -site:seore.org",
+        "\"깨어나세요 용사여\" -site:namu.moe -site:seore.org",
+        "\"나는 애쉬\" -site:namu.moe -site:seore.org",
+        "\"나여 백종원\" -site:namu.moe -site:seore.org",
+        "\"네 설명해드렸습니다\" -site:namu.moe -site:seore.org",
+        "\"계획대로\" \"데스노트\" \"무한도전\"",
+        "\"그건 원작\" \"기준\" \"김택진\"",
+        "\"나여 백종원\" \"자막\" SBS",
+        "\"그건 원작을 경험해\" 리니지",
+        "\"네 설명해드렸습니다\" 던파"
+      ],
+      "notes": "0303 titleandtextonly.Ilogit imaginationcategory nooriginalproof excluded.0236 findmiss despitepageaccessible."
+    },
+    "A57": {
+      "count": 10,
+      "recommended": 0,
+      "held": 10,
+      "queries": [
+        "\"누나 좋아해요\" \"밈\"",
+        "\"늬픽\" 유래",
+        "\"닌자 몰살 소설\" -site:namu.moe -site:seore.org",
+        "\"당신이 옳았어\" \"밈\"",
+        "\"당연히 말이 되죠\" 패러디 -site:namu.moe -site:seore.org",
+        "\"독일초딩\" 패러디 기사",
+        "\"동전줍는 징징이\" -site:namu.moe -site:seore.org",
+        "\"더 마스터를 기억해줘\" -site:namu.moe -site:seore.org",
+        "\"락통령\" \"패러디\" 기사",
+        "\"롯데햄 후라이드 치킨\" 패러디",
+        "\"닌자\" \"몰살\" \"소설\" 패러디 -site:namu.moe -site:seore.org",
+        "\"늬픽\" -site:namu.moe -site:seore.org",
+        "\"나는 닌자몰살엔딩에서 살아남는다\"",
+        "\"락통령\" 패러디 -site:namu.moe -site:seore.org",
+        "\"당신이 옳았어\" 퍼거슨 -site:namu.moe -site:seore.org -site:librewiki.net",
+        "\"고준규\" \"락통령\" \"별칭\"",
+        "\"나는 닌자몰살엔딩에서 살아남는다\" novelpia.com/novel",
+        "\"독일초딩\" site:gamemeca.com"
+      ],
+      "notes": "10 existingheldrows, targetdirect1/targetabsent1/fetchfail1,media0."
+    },
+    "A58": {
+      "count": 3,
+      "recommended": 1,
+      "held": 2,
+      "queries": [
+        "\"락통령\" 고준규 site:news.nate.com",
+        "\"독일초딩\" site:inven.co.kr",
+        "\"닌자\" \"몰살\" site:gamemeca.com"
+      ],
+      "notes": "0432 electionediting/namefamily notchekrapvoice;1155mappingunchanged;2articlesopen1decodefail; originalSNS/video0."
+    },
+    "B523": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 3,
+      "family_enrichment": 6,
+      "held": 3,
+      "excluded": 7,
+      "queries": [
+        "2026 \"패러디\" \"직접 만든\" -공모 -모집 -AI",
+        "2026 \"밈\" site:snunews.com",
+        "2026 \"밈\" site:news.hanyang.ac.kr",
+        "2026 \"밈\" \"대학신문\"",
+        "2026 \"유행\" \"놀이\" \"대학내일\"",
+        "2026 \"패러디\" \"사보\"",
+        "\"공부 안 했어\" \"챌린지\" 2026",
+        "\"I can see\" \"나는 할 수 있는가\" -site:ekr.or.kr",
+        "\"줄꾸\" \"2026\""
+      ],
+      "notes": "20observations not20new; Icansee2institutionaltexts,historical,media0."
+    },
+    "B524": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 5,
+      "family_enrichment": 2,
+      "held": 6,
+      "excluded": 6,
+      "queries": [
+        "2026 \"밈\" \"공식\" \"도서관\"",
+        "2026 \"패러디\" \"제작\" \"공사\" -공모 -모집",
+        "2026 \"밈\" \"박물관\" \"영상\"",
+        "2026 \"홍보\" \"나폴리탄\" 괴담",
+        "2026 \"패러디\" \"공식 블로그\" -공모 -모집",
+        "\"학교 괴담맵\" \"2026\"",
+        "\"44교시\" \"생존수칙\" \"공유\""
+      ],
+      "notes": "Finalcorrected1/5/2/6/6. singlepublisher2URLsnotindependent. appmedia0. closednotice rewrittenexcluded402direct."
+    },
+    "B525": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 3,
+      "held": 10,
+      "excluded": 6,
+      "queries": [
+        "2026 \"유행\" \"인증\" \"놀이\" \"만든\"",
+        "2026 \"밈\" \"제작 후기\" -공모",
+        "2026 \"패러디\" \"직접 제작\" -공모 -영상공모전",
+        "\"짭정선\" \"2026\"",
+        "2026 \"챌린지\" \"사진\" \"직접\" -공모 -모집 -댄스 -음원",
+        "2026 \"11월\" \"인증샷\" \"놀이\" -공모 -모집 -짭정선",
+        "2026 \"11월\" \"밈\" \"제작\" -공모 -김선태 -충주맨 -야르",
+        "2026 \"11월\" \"유행\" \"꾸미기\"",
+        "2026 \"애플페이\" \"꾸미기\"",
+        "2026 \"카카오뱅크\" \"꾸미기\" \"지갑\""
+      ],
+      "notes": "Cardimageonly1explanatorysource, dynamicrowsmoved. X403Tpickfail excluded.3existing."
+    },
+    "C36": {
+      "count": 20,
+      "recommended": 0,
+      "existing": 9,
+      "held": 11,
+      "queries": [
+        "2026 11월 밈 챌린지 마케팅 새로운",
+        "2026 10월 밈 브랜드 패러디 모음",
+        "2026 9월 밈 유행 문구 트렌드",
+        "2026 11월 밈 site:gogumafarm.kr",
+        "2026 10월 밈 site:blog.hsad.co.kr",
+        "\"Kinda chic to\" 한국 밈",
+        "\"럼펠스틸츠킨\" \"밈\" 한국",
+        "\"다 같이 길 막는\" 밈",
+        "\"로블록스\" \"남극\" \"밈\"",
+        "\"진스터\" 2026",
+        "\"다크 판타지\" \"롯데월드\" \"패러디\"",
+        "\"치이카와\" \"대개봉\" 밈",
+        "\"칠레\" \"밈\" 2026"
+      ],
+      "notes": "Corrected final9existing11held. before-working-look existingTinderpositiveending notnew. 3externaldocs1existingbody. media0."
+    },
+    "C37": {
+      "count": 20,
+      "unit": "production/case observations, not20unique candidates",
+      "recommended_families": 1,
+      "recommended_observations": 1,
+      "existing": 12,
+      "family_enrichment": 2,
+      "held": 4,
+      "excluded": 1,
+      "queries": [
+        "2026 밈 패러디 site:go.kr 홍보 영상",
+        "2026 \"밈\" \"공식\" \"패러디\" 박물관",
+        "2026 \"밈\" \"제작\" 대학 홍보",
+        "\"야르렁\" \"익산\"",
+        "\"야르렁\" \"서산\"",
+        "\"야르렁\" \"모닝콜\"",
+        "\"굿 굿바이\" \"패러디\" \"공무원\"",
+        "\"Good Goodbye\" \"인하대\"",
+        "\"굿굿바이\" \"패러디\" 2026"
+      ],
+      "notes": "GoodGoodbye1newfamily2articleevidence. Yareusong2institutionalcases existing. media0."
+    },
+    "C38": {
+      "count": 20,
+      "existing": 4,
+      "held": 16,
+      "recommended": 0,
+      "queries": [
+        "2026 지자체 홍보 \"밈\" \"패러디\" 11월",
+        "2026 대학 공식 \"밈\" \"챌린지\" 홍보 10월",
+        "2026 \"박물관\" \"밈\" 패러디",
+        "\"고양이\" \"섀도 복싱\" 밈 2026",
+        "\"고양이\" \"쉐도우복싱\" 밈",
+        "\"양주시\" \"땅으로 주세요\" 2026"
+      ],
+      "notes": "20productionobservations notunique;4existingbodiesread3externalreports, originalinstitutionposts0."
+    },
+    "C39": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 13,
+      "held": 5,
+      "queries": [
+        "2026 \"밈\" \"댓글\" site:univ20.com",
+        "2026 \"밈\" \"팬\" site:magazine.hankyung.com",
+        "2026 \"밈\" \"대학신문\"",
+        "\"2026\" \"댓글\" \"밈\" \"팬들\" -site:ohmynews.com",
+        "\"2026\" \"밈\" \"학보\"",
+        "\"2026\" \"주접\" \"밈\" 매거진",
+        "\"얼마나 성공하고 싶은지\" \"2026\"",
+        "\"실수로 너무 많이 먹었어요\" 밈",
+        "\"추격형\" \"밈\" \"2026\"",
+        "\"줏대\" \"창빈\" \"밈\" 기사",
+        "\"실수로 너무 많이 먹었어요\" \"니콜라스\" 기사"
+      ],
+      "notes": "FoodphraseCareet2025TOConlynotbody;not2026neworigin. Blogtitleexplicitbutintentunspecified. Jutdae2023ad+2026explanation not2recentproductions."
+    },
+    "editorResearch": {
+      "count": 4,
+      "existing": 2,
+      "held": 2,
+      "queries": [
+        "2026 \"밈\" \"직접 만들\" 패러디 -site:namu.moe -site:seore.org",
+        "2026 \"패러디\" \"공식 블로그\" 밈",
+        "\"아일릿 합격하겠어\" 밈",
+        "\"랜덤 소개팅\" 챌린지 2026",
+        "2026 \"패러디\" \"총장\" 밈",
+        "2026 \"밈\" \"우리 학교\" 영상 패러디",
+        "2026 \"밈\" \"소설\" \"패러디\" 한국 -site:namu.moe -site:seore.org",
+        "2026 \"밈\" \"직접 그린\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "Raureol andunder-arrest existing; randomblinddate/X20images sourceopenfailedonlysearchheld. Officialbookparodyevent page onlyheading notextraexample. No unique claim."
+    },
+    "editorAdditional": {
+      "count": 5,
+      "recommended": 1,
+      "existing": 1,
+      "held": 3,
+      "queries": [],
+      "notes": "Typingpet narrowcharacterremakeaccepted;roadsterexisting;Sonseokrak sourceTimeoutheld(notgenericnarakisrockidentityconfirmed);MEOVVschoolsearch andbirthdayhistory consumptionnotremixheld. OriginalTypingPetX403excluded; source1group."
+    },
+    "editorCGV": {
+      "count": 1,
+      "recommended": 1,
+      "queries": [],
+      "notes": "EditorialdiscoveryfromsameGogumasource;1explanatorygroup originalSNS0;말아주는seenbutnotassessednotcounted."
+    }
+  },
+  "sources": [
+    {
+      "id": "nayeo-baek-jong-won-name-substitution",
+      "urls": [
+        "https://economist.co.kr/article/view/ecn202601270013",
+        "https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=3105439&page=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "i-can-see-literal-wordplay",
+      "urls": [
+        "https://haja.net/nowonhaja/31007",
+        "https://www.ekr.or.kr/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "good-goodbye-duo-stage-parody",
+      "urls": [
+        "https://v.daum.net/v/BfHE6pSrYr",
+        "https://v.daum.net/v/20260208130225780"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "school-horror-survival-rule-card-sharing",
+      "urls": [
+        "https://we-ar.inblog.io/gen-z-webtoon-marketing"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "superstar-k-president-nickname-election-parody",
+      "urls": [
+        "https://news.nate.com/view/20101016n02606",
+        "https://news.nate.com/view/20110823n21169?mid=n0000"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "typing-pet-character-remake-sharing",
+      "urls": [
+        "https://minenews.stibee.com/p/593"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mobile-wallet-card-image-decoration",
+      "urls": [
+        "https://www.careet.net/MicroTrend?pageidx=1&search=29CM+x+LOFT"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "accidentally-ate-too-much-caption",
+      "urls": [
+        "https://www.tpick.co.kr/post/8365",
+        "https://v.daum.net/v/20260131164649572"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jutdae-life-advice-parody",
+      "urls": [
+        "https://gogumafarm.kr/밈을-활용한-마케팅과-최신-밈/",
+        "https://www.tpick.co.kr/post/8365"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "cgv-sijibi-sound-wordplay",
+      "urls": [
+        "https://gogumafarm.kr/밈을-활용한-마케팅과-최신-밈/"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "All existing1525 bodies unchanged; no Codex/main changes.",
+    "Historical and recent usage separated; 2026explanation notnew2026origin.",
+    "No media/apps/code execution. Walletimage notfinancialfunctions.",
+    "TypingPet bounded independentaudit approved, relatedmetrotypingandpetthepeepodistinct.",
+    "Coverage additional8historicalrows/10bodies no missinglinks, no classificationchange.",
+    "Source-groups count, not uniqueproduction count; no blanket2source rule."
+  ],
+  "query_observations": 10431,
+  "distinct_literal_queries": 8662,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ],
+  "mapping_audit": {
+    "sha": "cdf8b90ca8cbcd4a9d5ce95701439071e39a06e8",
+    "rows_reviewed": 8,
+    "related_bodies": 10,
+    "confirmed_missing_links": 0,
+    "rows": [
+      "0198",
+      "0229",
+      "0238",
+      "0242",
+      "0272",
+      "0874",
+      "0879",
+      "0939"
+    ],
+    "notes": "Outsideprior221pool, historicalcandidates notnew; samecontext notsemanticidentity; nochange."
+  },
+  "typing_scope_audit": {
+    "verdict": "bounded-pass",
+    "sources": 1,
+    "scope": "Typing Pet character-remake-sharing only",
+    "related_existing": [
+      "pet-the-peepo",
+      "metro-typing-play-sharing"
+    ],
+    "notes": "No originalX/code/run/media. Notalltypingstringsabsent; semanticdifference."
+  }
+}

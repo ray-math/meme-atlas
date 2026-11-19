@@ -1,0 +1,185 @@
+{
+  "batch": 367,
+  "base": "30e00a91d9818d2f53d4f1280a853dba26efea4d",
+  "canonical_before": 975,
+  "canonical_after": 976,
+  "added": [
+    "appearance-narrator-template"
+  ],
+  "researchA": {
+    "focused": 1,
+    "recovered_held": 1,
+    "recommended": 1,
+    "queries": [
+      "\"등장이라\" \"2026\" -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "\"등장이라\" \"2025\" 뉴스레터",
+      "\"등장이라\" site:ac.kr",
+      "\"등장이라\" \"밈\" 원본 -site:namu.moe -site:namu.wiki -site:instablank.com"
+    ],
+    "index_queries": [
+      "등장이라",
+      "루시퍼",
+      "사탄",
+      "재밌어지겠",
+      "등장"
+    ],
+    "sources": [
+      {
+        "url": "https://www.president.go.kr/videos/XmIBtZbh",
+        "date": "2025-12-16",
+        "scope": "Officialtitle actualapplication L601-603;notparticipantquote"
+      },
+      {
+        "url": "https://maily.so/marsinmarine/posts/xyow35g1r28",
+        "date": "2026-08-24",
+        "scope": "Ownnewsletter title L20-23"
+      },
+      {
+        "url": "https://www.tving.com/shorts/VT0000172219",
+        "scope": "OfficialtitleL6;L8matchdate notpublicationdate"
+      },
+      {
+        "url": "https://www.newsen.com/news_view.php?uid=202601231815542510",
+        "date": "2026-01-23 19:10",
+        "scope": "Workerread reporting title use,originalvideo0;notcanonicalsource"
+      },
+      {
+        "url": "https://www.teamblind.com/kr/post/%EB%B0%88-%EB%B0%95%EC%82%AC%EB%8B%98%EB%93%A4-%EB%8F%84%EC%99%80%EC%A3%BC%EC%84%B8%EC%97%AC-dzCDPpQG",
+        "date": "2023-03-17",
+        "scope": "Workerread originsquestionandanswer,notoriginproof;notcanonicalsource"
+      }
+    ],
+    "limits": "Directdatedtitle2 + directundatedtitle1,images/videos0;nofirstorigin,new2026claim."
+  },
+  "researchB": {
+    "ids": [
+      "0055",
+      "0062",
+      "0124",
+      "0132",
+      "0145"
+    ],
+    "held": 5,
+    "recommended": 0,
+    "queries": [
+      "\"1초만에 사람을 낚는 방법\"",
+      "\"64 bits\" \"2026\" 밈",
+      "\"맥스웰 캣\" \"2026\"",
+      "\"냥캣\" \"2026\" 패러디",
+      "\"핑구\" \"누트누트\" 패러디",
+      "\"맥스웰\" \"고양이\" \"만들\" 밈",
+      "\"냥캣\" \"만들었\"",
+      "\"1초만에 사람\" -site:namu.moe -site:seore.org -site:tcatmon.com",
+      "\"64비트\" 밈 만들기",
+      "\"맥스웰 캣\"",
+      "\"Terrified Noot Noot\" 한국",
+      "\"냥캣\" \"만들었습니다\""
+    ],
+    "index_queries": [
+      "냥캣",
+      "maxwell",
+      "맥스웰",
+      "누트",
+      "noot",
+      "64 bits",
+      "1초만",
+      "핑구",
+      "nyan"
+    ],
+    "sources": [
+      {
+        "url": "https://melburn119.tistory.com/954",
+        "date": "2019-01-27",
+        "scope": "L47-49 creator describes NyanCat map composite;imageunviewed/oldoneuse"
+      },
+      {
+        "url": "https://v.daum.net/v/20230816100102195?s=print_news",
+        "date": "2023-08-16",
+        "scope": "Koreanexplanation MaxwellCat mention notdirectproduction"
+      },
+      {
+        "url": "https://m.feelstory.com/bbs/board.php?bo_table=cm_humor&wr_id=1849",
+        "date": "2001-09-25",
+        "scope": "Excluded:scrollprank notvideo-playerimagebait"
+      }
+    ],
+    "limits": "RecentKoreanindependentapplications2 notmet;foreignsource/wiki/coin/productexcluded;Pedro raccoonnotMaxwellcat."
+  },
+  "semantic_audit": {
+    "base": "1c72588072e06d619645b372c7b05c7365dbc475",
+    "ids": [
+      "0731",
+      "0732",
+      "0735",
+      "0736",
+      "0740",
+      "0741",
+      "0744",
+      "0748",
+      "0751",
+      "0753",
+      "0756",
+      "0759",
+      "0768",
+      "0777",
+      "0778",
+      "0779",
+      "0782",
+      "0783",
+      "0792",
+      "0796"
+    ],
+    "result": "20unclear unchanged",
+    "bodies": [
+      "golden-iyeora",
+      "you-impostor",
+      "favor-right",
+      "gatsaeng",
+      "saebbing-challenge",
+      "raureol"
+    ],
+    "queries": [
+      "야 기분 좋다|기분.?좋",
+      "아냐|포저|스파이",
+      "야후|꾸러기",
+      "약한 사내|미친놈들|미친 놈들",
+      "어나니머스|anonymous|가이.?포크스",
+      "메갈|어둠의",
+      "어몽|임포스터|잼민",
+      "작업중|작업 중",
+      "얼리|엑세스|액세스|early",
+      "엉덩국|둘리",
+      "엄준식|엄.?준.?식",
+      "엠생|인생",
+      "파이터|아이돌.*랭킹",
+      "오니기리|주먹밥",
+      "오빠.*몰라",
+      "오다|에이치로|원피스",
+      "오덕페이트|페이트",
+      "오물|풍선",
+      "옥동자|정종철",
+      "와칭|제노"
+    ],
+    "limits": "Topic/emotion/substring notformmatch;actor/creator/service/broadnames scope unclear. Rumor notadoptedfact;notverifiedomissions."
+  },
+  "editor": {
+    "queries": [
+      "등장이라|삐에로|서커스"
+    ],
+    "source_bodies": 3,
+    "related_body": "why-are-you-there",
+    "scope": "Three directtitle uses;two datedrecent,TVINGmatchdate notclipdate;noimage/video/originclaims"
+  },
+  "ci": {
+    "fixed975": {
+      "head": "30e00a91d9818d2f53d4f1280a853dba26efea4d",
+      "run": 44242270832,
+      "job": 134592758950,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 74.512
+    },
+    "new_head": "pending"
+  }
+}

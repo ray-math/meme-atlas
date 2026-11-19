@@ -1,0 +1,29 @@
+{
+  "fixed_sha": "e1526fbc43c9e64f10a68722ce4b2c37d9adc31f",
+  "tree": "89cc69c6830e323028e435aa0cc5968c8ab39dc0",
+  "truncated": false,
+  "canonical_paths": 902,
+  "index": 902,
+  "missing": [],
+  "extra": [],
+  "usage": {
+    "dictionary_entries": 902,
+    "annotated_entries": 74,
+    "reviewed_entries": 73,
+    "unannotated_entries": 828
+  },
+  "fixture_dictionary": 902,
+  "main_sha": "f3cf501549f1c4f8d327ee13c904e9ed85ed2a33",
+  "ci": "not run; Actions 0 at fixed SHA",
+  "independent_body_audit": {
+    "worker": "candidate_batch_c",
+    "id": "completely-lost-their-minds",
+    "result": "pass",
+    "unique_ids": 902,
+    "readme": 902,
+    "manual_collection": 76,
+    "field_match": "title aliases tags summary path search_text",
+    "source_texts_reread": 3,
+    "limits": "parody intent inference, word-order variation, original video/PDF image not viewed, no health/financial/technical claims validated"
+  }
+}

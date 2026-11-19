@@ -1,0 +1,117 @@
+{
+  "batch": 439,
+  "base": "a3ff248f116d6a8dfbb2a80e00faebef6ad2006d",
+  "canonical_before": 1008,
+  "canonical_after": 1008,
+  "added": [],
+  "researchA": {
+    "queries": [
+      "\"2026\" \"밈\" site:brunch.co.kr \"내가\"",
+      "\"2026\" \"밈\" site:yozm.wishket.com",
+      "\"2026\" \"밈\" site:ditoday.com",
+      "\"2026\" \"밈\" site:platum.kr",
+      "2026 \"밈\" \"따라 써\"",
+      "2026 \"밈\" \"바꿔 썼\"",
+      "2026 \"밈\" \"내 블로그\"",
+      "2026 \"밈\" \"댓글로 달\""
+    ],
+    "existing": [
+      "i-really-like-this-story",
+      "draw-how-i-treated-you",
+      "odyssey",
+      "pepero-aid",
+      "take-the-l",
+      "raw-fish-one-shot-parody"
+    ],
+    "held": [
+      "그럼아이스티4개주세요 SEO사전뿐",
+      "댓글먼저보러왔습니다 일반설명형식불명"
+    ],
+    "sources": [
+      {
+        "url": "https://brunch.co.kr/brunchbook/ilikethisstory",
+        "note": "직접연재제목활용설명,공개글2024-08~2025-03. 2026-11-20예정일을최근사용일로안셈"
+      },
+      {
+        "url": "https://www.incross.com/ko/insight/report.asp?idx=31156&mode=view",
+        "note": "2026-11-11빼난지원금제목사용. 가상예문별도적용아님"
+      }
+    ],
+    "recommended": 0
+  },
+  "researchB": {
+    "queries": [
+      "\"동전\" \"징징\" 밈 \"2026\"",
+      "\"사탄\" \"실직\" \"2026\"",
+      "\"야후\" \"꾸러기\" 밈 \"2026\"",
+      "\"충격과 공포다\" \"2026\"",
+      "\"천상천하 유아독존\" \"2026\" 패러디",
+      "\"동전줍는 징징이\"",
+      "\"충격과 공포다\" \"2026\" -site:issuelink.co.kr",
+      "\"사탄도\" \"2026\" 울고"
+    ],
+    "held": [
+      {
+        "id": "0399",
+        "note": "옛성적합성설명위키뿐노골적원작추적않음"
+      },
+      {
+        "id": "0603",
+        "url": "https://www.inven.co.kr/board/maple/5974/6145442",
+        "note": "사탄실직2026-01-14검색제목. 본문502"
+      },
+      {
+        "id": "0735",
+        "note": "서비스회상과패러디분리못함"
+      },
+      {
+        "id": "0982",
+        "url": "https://jbreadhouse.tistory.com/",
+        "note": "블로그명직접확인이나채택일/밈차용불명. orbi80012184 403,MS2026은게시연도아님"
+      },
+      {
+        "id": "0993",
+        "note": "축약제목집계뿐전체고정대사/일반표현구별불가"
+      }
+    ],
+    "recommended": 0
+  },
+  "editor_queries": [
+    "\"X키를 눌러\" \"2026\"",
+    "\"고수와 하수\" \"2026\" 밈",
+    "\"너굴맨\" \"2026\"",
+    "\"조의를 표하십시오\" \"2026\" -site:namu.moe",
+    "\"너굴맨이\" \"2026\" \"처리\"",
+    "\"고수와 하수\" \"2026\" -site:namu.moe"
+  ],
+  "editor_review": [
+    {
+      "id": "0152",
+      "status": "held-pending-second-context",
+      "url": "https://yxl.kr/freetalk/2496244",
+      "note": "2026-07-08경기탈락반응에X눌러조의본문직접확인1군. 실제경기결과/선수평가채택안함. 포모스2124435 cachemiss,오르비80008743불가. 독립검토중"
+    },
+    {
+      "id": "0205",
+      "note": "고수하수 일반숙련도/부동산설명검색,고정형식미확인"
+    },
+    {
+      "id": "0326",
+      "note": "너굴맨 검색동명스트리머/위키중심최근차용없음"
+    }
+  ],
+  "candidate_changes": [],
+  "ci437": {
+    "run": 44263058860,
+    "job": 134660847865,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "56.152"
+  },
+  "ci438": {
+    "run": 44263161182,
+    "status": "last observed in_progress"
+  },
+  "ci_new_commit": "pending"
+}

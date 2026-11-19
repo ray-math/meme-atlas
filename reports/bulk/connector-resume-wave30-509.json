@@ -1,0 +1,323 @@
+{
+  "batch": 509,
+  "base": "0d4ff7cfe51bc70a4df0d4770862363ecf15e97c",
+  "canonical_before": 1724,
+  "canonical_after": 1735,
+  "added": [
+    "creation-fingertip-pose-parody",
+    "coffee-prince-no-matter-confession-parody",
+    "jamsu-chat-temporary-absence",
+    "jikjjik-self-taken-photo",
+    "peomgeul-reposted-writing-label",
+    "namjoseon-humor-social-satire-hashtag",
+    "sohwakhoeng-office-resource-wordplay",
+    "heo-inneunde-catchphrase-ending",
+    "just-coffee-my-top-comparison",
+    "hyeonut-real-laughter-abbreviation",
+    "ut-cham-laughter-restraint"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0210",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "namjoseon-humor-social-satire-hashtag"
+    }
+  ],
+  "previous_ci": {
+    "head": "0d4ff7cfe51bc70a4df0d4770862363ecf15e97c",
+    "run": 44351486692,
+    "job": 134968022222,
+    "result": "success",
+    "steps": 65,
+    "tests": 497
+  },
+  "previous_audit": {
+    "result": "PASS",
+    "required_changes": 0,
+    "head": "0d4ff7cfe51bc70a4df0d4770862363ecf15e97c",
+    "files": 20,
+    "count": 1724
+  },
+  "research": {
+    "A106": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 2,
+      "queries": [
+        "\"왕사슴 가이즈\" -site:namu.moe -site:seore.org",
+        "\"육군 we 육군\" -site:namu.moe -site:seore.org",
+        "\"의문의\" \"행\" \"유행어\"",
+        "\"이세계물\" \"드립\" 기사",
+        "\"인문학적 변태\" -site:namu.moe -site:seore.org",
+        "\"자러감\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"의문의\" \"행\" site:news.nate.com",
+        "\"의문의 악당행\"",
+        "\"의문의\" \"행\" \"드립\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"자러감 드립\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "A107": {
+      "rows": 6,
+      "recommended": 1,
+      "held": 5,
+      "direct": 1,
+      "failed": 1,
+      "queries": [
+        "\"공산주의 유머\" 패러디 -site:namu.moe -site:seore.org",
+        "\"귀여운 건 나도 알아\" -site:namu.moe -site:seore.org",
+        "\"꾸래핑\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"늬픽\" -site:namu.moe -site:seore.org",
+        "\"당신이 옳았어\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"동전줍는 징징이\" -site:namu.moe -site:seore.org",
+        "\"남조선유우머\" \"해시태그\" -site:namu.moe -site:seore.org",
+        "\"늬픽\" 뜻 -site:namu.moe -site:seore.org"
+      ]
+    },
+    "B585": {
+      "observations": 5,
+      "recommended": 2,
+      "held": 3,
+      "direct": 4,
+      "queries": [
+        "2026 \"패러디했다\" \"장면\" site:enews.imbc.com",
+        "2026 \"패러디\" \"촬영\" site:ent.sbs.co.kr",
+        "2026 \"밈\" \"따라 하는\" site:news.kbs.co.kr",
+        "\"천지창조\" \"패러디\" \"손가락\" 방송",
+        "\"커피프린스\" \"외계인이든\" \"패러디\"",
+        "\"신동엽\" \"장진\" \"천지창조\" \"2012\""
+      ]
+    },
+    "B586": {
+      "observations": 7,
+      "recommended": 0,
+      "existing": 5,
+      "held": 2,
+      "direct": 1,
+      "queries": [
+        "2026 \"패러디\" \"따라\" site:newsis.com \"대사\"",
+        "2026 \"패러디\" \"사진\" site:news.jtbc.co.kr",
+        "2026 \"밈\" \"재현\" site:news.sbs.co.kr",
+        "\"2026\" \"패러디\" \"뮤직비디오\" \"재현\" -site:instablank.com",
+        "\"2026\" \"밈\" \"성대모사\" -site:namu.moe",
+        "\"2026\" \"드라마 대사\" \"유행\""
+      ]
+    },
+    "C96": {
+      "observations": 10,
+      "recommended": 1,
+      "enrichment": 2,
+      "existing": 4,
+      "held": 3,
+      "direct": 2,
+      "failed": 4,
+      "queries": [
+        "\"즐팅\" \"즐겜\" 신조어",
+        "\"잠수\" \"통신언어\"",
+        "\"직찍\" \"신조어\"",
+        "\"직찍\" \"직접 찍은\" 기사",
+        "\"펌\" \"퍼온\" \"신조어\""
+      ]
+    },
+    "C97": {
+      "observations": 3,
+      "recommended": 2,
+      "conditional": 1,
+      "direct": 3,
+      "failed": 2,
+      "queries": [
+        "\"직찍\" \"직접 찍은\" site:news.nate.com",
+        "\"펌글\" \"신조어\"",
+        "\"방제\" \"방 제목\" 기사",
+        "\"펌글\" \"퍼온 글\" 기사",
+        "\"방제\" \"방 제목\" 게임"
+      ]
+    },
+    "C98": {
+      "observations": 8,
+      "recommended": 1,
+      "existing": 4,
+      "held": 3,
+      "direct": 2,
+      "failed": 1,
+      "queries": [
+        "2026 밈 \"후회\" \"챌린지\"",
+        "2026 밈 \"갈게요\" 트렌드",
+        "\"도파민 디톡스\" \"밈\" 2026",
+        "\"2026\" \"밈\" site:news.mju.ac.kr",
+        "\"소확횡\" 기사",
+        "\"안구 기증\" 밈"
+      ]
+    },
+    "B587": {
+      "observations": 6,
+      "recommended": 1,
+      "existing": 1,
+      "held": 4,
+      "direct": 4,
+      "queries": [
+        "2026 \"밈\" \"말투\" site:h21.hani.co.kr",
+        "2026 \"유행어\" \"댓글\" site:ohmynews.com",
+        "2026 \"밈\" \"말을\" site:khan.co.kr",
+        "2026 \"유행어\" \"허경환\" \"있는데\"",
+        "2026 \"밈\" \"반응\" site:news.kmib.co.kr",
+        "2026 \"밈\" \"댓글\" site:magazine.hankyung.com",
+        "\"허경환\" \"있는데\" \"유재석\" \"2026\"",
+        "\"했다 치고 원투\" \"2026\""
+      ]
+    },
+    "coordinatorDiscovery": {
+      "queries": [
+        "2026 \"밈\" \"고정\" \"댓글\" -site:namu.moe -site:instablank.com",
+        "2026 \"유행어\" \"따라\" \"광고\" -site:namu.moe -site:instablank.com"
+      ],
+      "recommended": 0,
+      "notes": "Broad search returned previously covered recent forms and secondary lists; no new candidate count inferred. BNT202611090020 returned zero readable lines; no adoption.",
+      "failed": 1
+    },
+    "A108": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 2,
+      "queries": [
+        "\"러시아식 유머\" 패러디 -site:namu.moe -site:seore.org",
+        "\"벽돌할아버지\" \"로봇댄스\" -site:namu.moe -site:seore.org",
+        "\"사고 쳤을 때 입 다물고\" -site:namu.moe -site:seore.org",
+        "\"사정없이 보내버리겠다\" -site:namu.moe -site:seore.org",
+        "\"샤방송\" 패러디 -site:namu.moe -site:seore.org",
+        "\"아나바다\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"벽돌할아버지\" \"따라\"",
+        "\"사고쳤을때\" \"입\" \"최소한\"",
+        "\"샤방송\" \"패러디\" 동영상",
+        "\"러시아에서는\" \"유머\" \"게임\" -site:namu.moe -site:readonly.wiki -site:alphawiki.org -site:seore.org"
+      ]
+    },
+    "B588": {
+      "observations": 7,
+      "recommended": 1,
+      "existing": 3,
+      "reserved_duplicate": 1,
+      "held": 2,
+      "direct": 2,
+      "queries": [
+        "2026 \"패러디\" \"대사\" site:news.nate.com/view/ \"광고\"",
+        "2026 \"유행어\" \"따라\" site:enews.imbc.com \"말\"",
+        "2026 \"밈\" \"문구\" site:newsis.com \"패러디\"",
+        "\"네가 그냥 커피라면\" \"패러디\"",
+        "\"2026\" \"처음처럼\" \"이수지\" \"패러디\""
+      ]
+    },
+    "C99": {
+      "observations": 8,
+      "recommended": 2,
+      "existing": 3,
+      "held": 3,
+      "direct": 3,
+      "failed": 2,
+      "queries": [
+        "\"웃프다\" 신조어 기사",
+        "\"웃안웃\" 뜻 기사",
+        "\"현웃\" 뜻 기사",
+        "\"현웃\" \"현실 웃음\" 기사",
+        "\"웃참\" \"웃음 참기\" 기사",
+        "\"개그캐\" \"캐릭터\" 신조어"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "creation-fingertip-pose-parody",
+      "urls": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/507050"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "coffee-prince-no-matter-confession-parody",
+      "urls": [
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01131606593070928",
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10008285507"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jamsu-chat-temporary-absence",
+      "urls": [
+        "https://www.nongmin.com/article/20010827171862"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jikjjik-self-taken-photo",
+      "urls": [
+        "https://m.news.nate.com/view/20090203n20079"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "peomgeul-reposted-writing-label",
+      "urls": [
+        "https://www.nongmin.com/article/20240705500608"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "namjoseon-humor-social-satire-hashtag",
+      "urls": [
+        "https://www.newsis.com/view/NISX20160121_0013850257"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sohwakhoeng-office-resource-wordplay",
+      "urls": [
+        "https://www.jejunews.com/news/articleView.html?idxno=2126281",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/376276"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "heo-inneunde-catchphrase-ending",
+      "urls": [
+        "https://enews.imbc.com/Tpl/View/489462?progcode=1004711100000100000",
+        "https://www.osen.co.kr/article/G1112737639"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "just-coffee-my-top-comparison",
+      "urls": [
+        "https://news.nate.com/view/20100902n23952?mid=n0000"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hyeonut-real-laughter-abbreviation",
+      "urls": [
+        "https://v.daum.net/v/20210915142723830"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ut-cham-laughter-restraint",
+      "urls": [
+        "https://www.starnewskorea.com/star/2022/05/29/2022052713561020743",
+        "https://v.daum.net/v/20260605113846158"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Eleven source-bounded entries; historical uses separated from recent usage.",
+    "Candidate kr-list-0210 only partial via Korean hashtag satire; not all communist jokes.",
+    "Existing approved bodies and test criteria unchanged; images/videos viewed zero."
+  ],
+  "query_observations": 12516,
+  "distinct_literal_queries": 10282,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

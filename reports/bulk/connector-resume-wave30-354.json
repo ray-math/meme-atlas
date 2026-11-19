@@ -1,0 +1,90 @@
+{
+  "batch": 354,
+  "base": "e5a92b9939fd7926167ff8a71557055565980027",
+  "canonical_before": 969,
+  "canonical_after": 969,
+  "added": [],
+  "semantic_audit": {
+    "ids": [
+      "0432",
+      "0434",
+      "0435",
+      "0441",
+      "0442",
+      "0443",
+      "0444",
+      "0453",
+      "0454",
+      "0455",
+      "0456",
+      "0463",
+      "0474",
+      "0475",
+      "0477",
+      "0484",
+      "0494",
+      "0496",
+      "0497",
+      "0501"
+    ],
+    "queries": [
+      "락통령|락.*대통령",
+      "러브 라이브|러브라이브|선샤인",
+      "러시아|소련|공산",
+      "롯데햄|후라이드|치킨",
+      "루저|키 작은",
+      "리사 수|리사수|AMD",
+      "린가|피리",
+      "마쁘|마블리|마동석",
+      "마인크래프트|마크|19금",
+      "막심|닥터",
+      "만희",
+      "머니게임|머니 게임",
+      "면제겜|면제",
+      "멸공",
+      "모기",
+      "무뇌|문희준",
+      "문법|맞춤법|나치",
+      "문크|예거",
+      "문신|국밥|육수",
+      "뭐이악|뭐야"
+    ],
+    "rows": 20,
+    "unclear": 20,
+    "changes": 0,
+    "body_reads": 8,
+    "external_queries": 0,
+    "bodies": [
+      "nico-nico-ni",
+      "dang-mo-chi",
+      "ojeochigo",
+      "not-doctor-strange",
+      "becomes-oo",
+      "pro-offended",
+      "gukbap-in-heart",
+      "mwongmi"
+    ],
+    "limits": "Same franchise/food/theme/reaction not identity. AMD substring incidental IDmatch rejected. Unclear not external verifiedabsence."
+  },
+  "editor": {
+    "queries": [
+      "\"한잔해\" \"2026\" \"이겼\" -site:namu.moe",
+      "\"한 잔 해\" \"했잖아\" -site:namu.moe -site:inven.co.kr",
+      "\"한잔해\" \"이겼잖아\""
+    ],
+    "candidate": "1104 한 잔 해",
+    "status": "New direct-source leads handed to independent reader; search snippets not yet source verified",
+    "source_leads": [
+      "https://www.tenasia.co.kr/article/2026061343344",
+      "https://gall.dcinside.com/board/view/?id=ktwiz&no=5696252&page=1"
+    ]
+  },
+  "ci": {
+    "report351": {
+      "run": 44239567124,
+      "conclusion": "success",
+      "python_tests": 495,
+      "seconds": 106.497
+    }
+  }
+}

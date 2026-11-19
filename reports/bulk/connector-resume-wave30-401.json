@@ -1,0 +1,29 @@
+{
+  "batch": 401,
+  "base": "166e908c2d51284bbb40d31bfa24b438025a753a",
+  "canonical_before": 988,
+  "canonical_after": 989,
+  "added": [
+    "gaegachi-result-reaction"
+  ],
+  "sources": [
+    "https://redevilsoul.tistory.com/10102",
+    "https://gall.dcinside.com/mgallery/board/view/?id=bwf&no=15098&page=1"
+  ],
+  "editor_source_reads": 2,
+  "independent_candidate_audit": {
+    "passed": true,
+    "source_reads": 2,
+    "related_body_reads": 3,
+    "limits": "부활/멸망두형식만.전체접두조합아님.경기결과출연사실검증0.개인정보/타집단비난미전재"
+  },
+  "candidate_change": {
+    "id": "kr-list-0175",
+    "from": "index_not_found",
+    "to": "partial"
+  },
+  "queries": [],
+  "ci": {
+    "new_commit": "pending"
+  }
+}

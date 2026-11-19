@@ -1,0 +1,135 @@
+{
+  "batch": 314,
+  "base": "9660dd3623fc9090479e639e1673eb7844e38eb8",
+  "canonical_before": 947,
+  "canonical_after": 949,
+  "added": [
+    "but-what-now",
+    "no-there-is-none"
+  ],
+  "research_A": {
+    "reviewed": [
+      "0050",
+      "0087",
+      "0097",
+      "0143",
+      "0154",
+      "0175",
+      "0253",
+      "0283",
+      "0336",
+      "0369"
+    ],
+    "recommended": "0253",
+    "queries": [
+      "\"04년생 클럽춤\" \"2026\"",
+      "\"AK47\" \"외할머니\" \"2026\"",
+      "\"EZ Do Dance\" \"2026\" 한국",
+      "\"Siuuuu\" \"2026\" 한국",
+      "\"Young한데\" \"2026\"",
+      "\"개같이 부활\" \"2026\"",
+      "\"근데 이제 뭐함\" \"2026\"",
+      "\"꾸래핑\" \"2026\"",
+      "\"네 설명해드렸습니다\" \"2026\"",
+      "\"단소 살인마\" \"2026\"",
+      "\"04년생 클럽춤\" 패러디",
+      "\"AK47\" \"외할머니\" 패러디",
+      "\"개같이 부활\" \"2026\" -site:namu.moe -site:inven.co.kr -site:issuelink.co.kr -site:ilbe.com",
+      "\"네 설명해드렸습니다\" 밈",
+      "\"꾸래핑\" \"밈\" -site:namu.moe",
+      "\"근데 이제 뭐함\" \"밈\" -site:namu.moe"
+    ],
+    "index_queries": [
+      "04년생",
+      "클럽춤",
+      "봉덕",
+      "ak47",
+      "외할머니",
+      "ezdodance",
+      "이지두댄스",
+      "siuu",
+      "호우",
+      "영한데",
+      "young",
+      "개같이",
+      "근데이제",
+      "이제뭐",
+      "꾸래핑",
+      "설명해드렸",
+      "단소",
+      "침팬지",
+      "오랑우탄"
+    ],
+    "sources": {
+      "0253": [
+        "https://www.gamechosun.co.kr/webzine/article/view.php?no=225985",
+        "https://gall.dcinside.com/mgallery/board/view/?id=ai_utilize&no=56441",
+        "https://m.gamechosun.co.kr/news/view.php?no=192683",
+        "https://whitefaceone.tistory.com/2778"
+      ],
+      "0175": [
+        "https://redevilsoul.tistory.com/10102",
+        "https://yt50.app/kr/v/WWBKjk5W3hE"
+      ],
+      "0369": [
+        "https://v.daum.net/v/20260821102639953",
+        "https://v.daum.net/v/20260418060237641"
+      ]
+    },
+    "limits": "0253Gamechosun2026-10-04actualheadline,DC2026-09-06actualpost notJul23gallerycreation; intentoriginalcartoonunconfirmed; context2023-02-04samepublishernotthird. 0175ownblog1+unofficialmirror1.0369stigma/privacyhold noidentityresearch. Othersinsufficient. Editorpending."
+  },
+  "research_B": {
+    "reviewed": [
+      "0501",
+      "0520",
+      "0550",
+      "0584",
+      "0590",
+      "0619",
+      "0620",
+      "0632",
+      "0649",
+      "0684"
+    ],
+    "recommended": "0684",
+    "queries": [
+      "\"뭐이악\" 2026",
+      "\"바바바바바바\" 밈 2026",
+      "\"부라더 다메요\" 2026",
+      "\"뼈 맞았어\" 2026",
+      "\"삐뽀핑\" 2026 밈",
+      "\"서로 깨물었을 때 반응\" 2026",
+      "\"서순\" 2026 밈",
+      "\"셈체\" 2026",
+      "\"스너고\" 2026",
+      "\"아니 없어요 그냥\" 2026",
+      "\"부라더 다메요\" \"SNL\"",
+      "\"뭐이악\" -site:namu.moe -site:seore.org -site:novawiki.app",
+      "\"스너고\" 밈 -site:namu.moe -site:seore.org",
+      "\"바바바바바바\" 밈 -site:namu.moe -site:seore.org",
+      "\"셈체\" 사용 -site:namu.moe -site:librewiki.net",
+      "\"아니 없어요 그냥\" 패러디 -site:namu.moe -site:seore.org"
+    ],
+    "sources": {
+      "0684": [
+        "https://tv.jtbc.co.kr/clip/pr10011543/pm10066239/vo10666401/view",
+        "https://v.daum.net/v/20260719115849425"
+      ],
+      "0550": [
+        "https://sports.donga.com/ent/article/all/20131016/58259720/2"
+      ],
+      "0584": [
+        "https://www.tving.com/shorts/VT0000276878"
+      ]
+    },
+    "limits": "0684JTBC2023-02-25+Footballist2026-07-19ownheadline2,video0recent1. it-was-gone temporaldisappearancenotthisabsence. Othersinsufficient/scopesunclear. All editorpending."
+  },
+  "audit": "editor+independent reviewer read5sourcepages and it-was-gone; index947 checked",
+  "limits": "0253 recentdirecttext2 notconfirmedoriginalcartoonparodies; 0684 directeditorialtext2 recent1 notactorquotation; video0",
+  "metrics": {
+    "observations": 3046,
+    "distinct": 2539
+  },
+  "source_snapshot": "data/korea-candidates.json kept unchanged; classifications stored only in derived coverage report",
+  "ci": "pending"
+}

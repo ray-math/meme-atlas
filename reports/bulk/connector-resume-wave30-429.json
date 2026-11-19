@@ -1,0 +1,115 @@
+{
+  "batch": 429,
+  "base": "f17929d900bece3553e9a78844f546a9c6038bea",
+  "canonical_before": 1006,
+  "canonical_after": 1006,
+  "added": [],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" \"패러디\" site:news.unn.net",
+      "2026 \"밈\" \"패러디\" site:munhwa.com",
+      "2026 \"밈\" \"유행\" site:news.sbs.co.kr",
+      "2026 \"밈\" \"제목\" site:library.kr",
+      "2026 \"밈\" site:allurekorea.com",
+      "2026 \"밈\" site:elle.co.kr",
+      "2026 \"밈\" site:esquirekorea.co.kr",
+      "2026 \"밈\" site:marieclairekorea.com -boysgroup",
+      "\"내돈내땀\" \"2026\"",
+      "\"고독한 사우너\" \"2026\"",
+      "\"쿵 할게요\" \"2026\"",
+      "\"봄동 비빔밥\" \"패러디\" \"2026\""
+    ],
+    "screened": 8,
+    "existing": [
+      "dirty-mouth-remix",
+      "word-on-beat"
+    ],
+    "held": [
+      "영포티",
+      "고독한사우너",
+      "내돈내땀",
+      "봄동비빔밥",
+      "Symphony돌고래",
+      "쿵할게요"
+    ],
+    "sources": [
+      "https://prd.elle.co.kr/article/1901453",
+      "https://www.elle.co.kr/article/1902898",
+      "https://www.marieclairekorea.com/newnew/2026/01/new-year-newkey/"
+    ],
+    "note": "내돈내땀같은사우나계정소개,장희빈구체대사기존.리듬게임기존.쿵할게요2026수호OST검색한사건,본문미열람.고독한사우너는계정명.",
+    "editor_followup": {
+      "url": "https://sports.donga.com/ent/article/all/20260205/133304300/1",
+      "date": "2026-02-05 14:35",
+      "note": "본문45–46 OST가사차용발매예정1사건확인.실제발매/음원시청0.기수설명다른매체차이는해결안함.별도재사용없어보류."
+    }
+  },
+  "researchB": {
+    "queries": [
+      "\"거룡을 상대한\" \"2026\"",
+      "\"그들의 연회에\" \"2026\"",
+      "\"나는 개인이오\" \"2026\"",
+      "\"내 식사를 방해할\" \"2026\"",
+      "\"당신이 옳았어\" \"밈\"",
+      "\"그들의 연회에\" -site:namu.moe",
+      "\"내 식사를 방해할 생각인가\" -site:namu.moe",
+      "\"거룡을 상대한\" -site:namu.moe",
+      "\"연회에 저는\"",
+      "\"당신이 옳았어\" \"2026\" -site:namu.moe -site:seore.org",
+      "\"사자심왕 리처드였어\" -site:namu.moe"
+    ],
+    "held": [
+      {
+        "id": "0374",
+        "sources": [
+          "https://gall.dcinside.com/mgallery/board/view/?id=stalker&no=92277&page=1",
+          "https://www.gamechosun.co.kr/webzine/board/view.php?bid=balance&num=788495&site=common"
+        ],
+        "note": "2026-09-12게임프레임사용/2026-05-03취향영상문구.2텍스트지만후자맥락영상미확인,unexpected-win부분중복검토필요"
+      },
+      {
+        "id": "0190",
+        "url": "https://m.onestore.co.kr/v2/ko-kr/app/0000753918/about",
+        "note": "광고치환검색만403.업데이트≠제작일"
+      },
+      {
+        "id": "0239",
+        "note": "유효실제적용없음"
+      },
+      {
+        "id": "0290",
+        "note": "orbi403Mediumrewritten summary제외.가입일≠게시일"
+      },
+      {
+        "id": "0318",
+        "url": "https://music.bugs.co.kr/track/32993127?wl_ref=list_tr_08",
+        "note": "가사문구확인,독립차용최근제작미확정.가사복사없음"
+      }
+    ]
+  },
+  "editor_queries": [
+    "\"X키를 눌러\" \"2026\" -site:namu.moe -site:kone.gg",
+    "\"F를 눌러\" \"2026\" 조의 -site:namu.moe",
+    "\"조의를 표하십시오\" \"2026\" site:theqoo.net",
+    "\"조의를 표하십시오\" \"2026\" site:gall.dcinside.com"
+  ],
+  "editor_finding": {
+    "candidate": "0152 X키조의",
+    "status": "held",
+    "note": "4질의:설명블로그/가상예시만주로노출. DC wrtnw282238 검색g치환1이나무료체험반복사용안내맥락으로미채택,직접열람0.원문적용2군미확보."
+  },
+  "candidate_changes": [],
+  "final1006audit": {
+    "passed": true,
+    "body_reads": 1,
+    "external_reads": 2,
+    "required_changes": 0,
+    "note": "공연1/16기사1/17·광고기사8/30구분,영상0,보도된2사건만"
+  },
+  "ci1006": {
+    "run": 44260606097,
+    "job": 134652738088,
+    "status": "last observed in_progress"
+  },
+  "ci_new_commit": "pending"
+}

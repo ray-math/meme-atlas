@@ -1,0 +1,46 @@
+{
+  "batch": "connector-resume-c141",
+  "base": "3693a032ca913547039fa9b9b022a8cf28b6a81f",
+  "entries": [
+    {
+      "id": "green-green-red-red",
+      "sources": [
+        {
+          "url": "https://gogumafarm.kr/요즘-유행하는-밈-모음-green-green-2026년-5월-최신-밈-모음/",
+          "observed": "2026-05-18 집대성 비 출연편의 구체적 적용 보고. 음식 X사용도 보고하지만 직접원문미확인."
+        },
+        {
+          "url": "https://www.i-boss.co.kr/ab-74668-5716",
+          "observed": "위픽레터 원발행2026-05-17, 아이보스전재05-22. 직접 소제목192행 실제적용, 스펙업 사례는 보고 기반."
+        }
+      ],
+      "independent_text_sources": 2,
+      "evidence_level": "독립 작성 본문 두 계열의 구체 사례 보고 및 작성자 소제목 실제적용. 원SNS 직접사용2건이라 주장하지 않음.",
+      "bounds": "원X403, 사례이미지 디코딩오류. Openads/EO동일글 독립합산 안함. 가사 직접인용 없음."
+    }
+  ],
+  "dedup_corrections": [
+    {
+      "candidate": "부라는 게 숨긴다고 숨겨지는 것도 아니고",
+      "existing": "cannot-hide",
+      "note": "초기 앞부분 문자열 무일치를 최종 의미중복 대조에서 정정. STONE실사용/루리웹응수는 신규항목으로 세지않음.",
+      "sources": [
+        "https://youtu.be/s2mqKQU2p5k",
+        "https://m.ruliweb.com/community/board/300143/read/77207553",
+        "https://maily.so/trendaword/posts/g1o405qwzve"
+      ]
+    }
+  ],
+  "screening": {
+    "strings": 15,
+    "accepted": 1,
+    "note": "정확표현 무일치는 의미중복 부재가 아님. forever-moment 기존도제외."
+  },
+  "checks": {
+    "result_entries": 855,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

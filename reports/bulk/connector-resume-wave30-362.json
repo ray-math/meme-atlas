@@ -1,0 +1,123 @@
+{
+  "batch": 362,
+  "base": "00963cffb194d7639f16563c6358953ff052ed3e",
+  "canonical_before": 974,
+  "canonical_after": 974,
+  "added": [],
+  "researchA": {
+    "observations": 10,
+    "existing": 7,
+    "held": 3,
+    "recommended": 0,
+    "queries": [
+      "\"2026\" \"밈\" \"제목으로\" -site:namu.moe -site:onmeme.com -site:mika.co.kr",
+      "\"2026\" \"밈\" \"패러디\" \"도서관\"",
+      "\"2026\" \"밈\" \"공식\" \"자려고 누웠는데\"",
+      "\"존박\" \"랩으로 주문\" \"2026\"",
+      "\"랩으로 주문하기\" -site:namu.moe -site:namu.wiki",
+      "\"2026\" \"엄마 동결건조\" -site:jjalbang.today -site:instablank.com",
+      "\"팬은 아님\" \"2026\" -site:namu.moe -site:instablank.com",
+      "\"아이스티 4개\" \"2026\" -site:instablank.com -site:namu.moe",
+      "\"칠레\" \"밈\" \"2026\" -site:instablank.com -site:namu.moe"
+    ],
+    "index_substrings": [
+      "존박",
+      "주문",
+      "아이스티",
+      "팬은 아님",
+      "동결건조",
+      "장원영",
+      "칠레",
+      "감자칼",
+      "영원할",
+      "성장",
+      "양의지",
+      "이모지",
+      "팬은"
+    ],
+    "existing_ids": [
+      "john-park-mcdonalds-rap",
+      "freeze-dry-affection",
+      "lying-down-yang-euiji",
+      "this-is-my-story-template",
+      "ex-girlfriend-peeler",
+      "wonyoung-praise",
+      "forever-moment"
+    ],
+    "holds": [
+      "팬은 아님: 설명1, 브랜드원문 throttled",
+      "칠레 길쭉한 사물: 국내설명1, Reddit기반; 국내 독립 제작2군 미확보",
+      "그럼 아이스티4개: 설명검색결과만"
+    ],
+    "sources": [
+      "https://trendportal.kr/archives/412/"
+    ],
+    "limits": "2026-10-05 explanation read;not originalcommunity or Korean Chileimageproduction. Instagram DfHEOf7Eth_ throttled;ad.co.kr rewritten summary excluded. Images/videos0."
+  },
+  "researchB": {
+    "ids": [
+      "1028",
+      "1062",
+      "1076",
+      "1089",
+      "1099"
+    ],
+    "held": 5,
+    "recommended": 0,
+    "queries": [
+      "\"킹근육골드몬\" \"2026\"",
+      "\"펄럭\" \"밈\" \"2026\"",
+      "\"폴란드볼\" \"2026\" 한국",
+      "\"하와와\" \"2026\"",
+      "\"한글자 드립\"",
+      "\"킹근육골드몬\" -site:namu.moe",
+      "\"펄~럭\" \"2026\"",
+      "\"하와와\" \"2026\" -site:orbi.kr -site:namu.moe -site:wowprogress.com",
+      "\"펄럭\" 밈 뜻",
+      "\"폴란드볼\" \"그렸\" \"2026\""
+    ],
+    "findings": [
+      {
+        "id": "1028",
+        "url": "https://whitefaceone.tistory.com/2672",
+        "status": "2022-06-04 explanation only; recent independent originals not verified"
+      },
+      {
+        "id": "1062",
+        "url": "https://m.netpx.co.kr/app/boards/views/all/10997?page=1&q=&s_type=",
+        "status": "2026-11-12 actual comment use1; second Inven source502 twice"
+      },
+      {
+        "id": "1076",
+        "url": "https://kone.gg/s/polandball/bTs_QViwtNLAv_4t9y75Sb?oh=somisoft&p=10",
+        "status": "2026-01-24 explicitly importedReddit work; images0,not Koreancreation2"
+      },
+      {
+        "id": "1089",
+        "url": "https://gall.dcinside.com/board/view/?id=kancolle_new1&no=988044&page=1&t=cv",
+        "status": "2026-11-17 23:15 title actualuse1;Orbi originals403;images0"
+      },
+      {
+        "id": "1099",
+        "status": "No independentsource;not equated with dragoon-comment-chain/jeul. Scope incl groupderogation unresolved"
+      }
+    ]
+  },
+  "independent_audit": {
+    "id": "touch-again-introduction",
+    "head": "00963cffb194d7639f16563c6358953ff052ed3e",
+    "result": "passed;no mandatorycorrections",
+    "source_reads": 3,
+    "limits": "production-context reporting1 + officialtitle/date2, videos0; originalaudio/scenes/origin not asserted. Index/list consistency outside audit."
+  },
+  "ci": {
+    "body974": {
+      "run": 44241224283,
+      "job": 134589342550,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 108.634
+    }
+  }
+}

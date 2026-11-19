@@ -1,0 +1,88 @@
+{
+  "batch": 308,
+  "base": "830aec480c0cc51212a367983726342c3b006c26",
+  "canonical_before": 942,
+  "canonical_after": 942,
+  "added": [],
+  "research_B": {
+    "base": "a38b470a87742e2bf58c2326d1f379a957825a0d",
+    "reviewed": [
+      "0431",
+      "0432",
+      "0444",
+      "0447",
+      "0453",
+      "0477",
+      "0507",
+      "0516",
+      "0552",
+      "0555"
+    ],
+    "recommended": [],
+    "promising": "0552",
+    "queries": [
+      "\"란란루\" 2026 한국 패러디",
+      "\"락통령\" 2026 패러디",
+      "\"린가동자\" 2026",
+      "\"마따끄\" 2026",
+      "\"마쁘리에요\" 패러디",
+      "\"모기송\" 2026",
+      "\"미안송\" 2026",
+      "\"맛나핑\" 2026",
+      "\"부리부리 마신\" \"춤\" 2026",
+      "\"북방코끼리바다표범\" 밈 2026",
+      "\"린가동자\" 린가드 방송",
+      "\"미안송\" 패러디",
+      "\"부리부리 마신\" 춤 -site:namu.moe -site:seore.org -site:namu.wiki",
+      "\"린가동자\" \"린가드\" -site:namu.moe -site:seore.org -site:namu.wiki"
+    ],
+    "sources": {
+      "0552": [
+        "https://press.changwon.ac.kr/news/articleView.html?idxno=3051510",
+        "https://urlebird.com/video/부리부리-마신-소환-춤-동시-비교해보기-ㅋㅋㅋㅋ-7690511058091773205/"
+      ],
+      "0444": [
+        "https://tv.seoul.go.kr/v/febe05da81084b60898ff9cba27d91e1"
+      ],
+      "0447": [
+        "https://gall.dcinside.com/mgallery/board/view/?id=projectmx&no=19818228&t=cv"
+      ]
+    },
+    "limits": "worker source text read only, editor not yet read. Changwon2025-03-04actualevent1, mirrorrelative1monthago video0. Seoul2024-02-25titleonly noformatproof. DC2026-11-14titleonlyimageunreviewed. Others scopes/independentreuse insufficient."
+  },
+  "editor": {
+    "queries": [
+      "2026 11월 밈 유행어 챌린지 한국",
+      "2026 10월 밈 유행어 캐릿",
+      "\"부리부리 마신\" \"2026\" 챌린지",
+      "\"껍던씸\" \"2026\" 연예",
+      "\"아이스티 4개\" \"2026\""
+    ],
+    "index_queries": [
+      "전여친",
+      "감자칼",
+      "체포하겠어",
+      "L을 가져가",
+      "아이스티",
+      "영원할",
+      "내 이모지",
+      "껍던씸",
+      "나쁜 오리",
+      "북극곰"
+    ],
+    "index_result": "6strings matchedexistingentries;4strings nohit notverifiedmissing",
+    "source_opened": "Changwon2025-03-04 eventuse1 confirmed; nosecondverifieduse",
+    "followup": [
+      "아이스티4개",
+      "껍던씸",
+      "나쁜오리",
+      "Remember November"
+    ],
+    "limits": "recentyear priority, independentcreation evidence stillpending; no currenttrendsfromaggregatoralone"
+  },
+  "metrics": {
+    "observations": 2821,
+    "distinct": 2323
+  },
+  "ci942": "44228964753 still running at check; notpassed yet"
+}

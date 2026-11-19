@@ -1,0 +1,128 @@
+{
+  "batch": 414,
+  "base": "f305b271a387cf34005a71180c75a8c17221cdb6",
+  "canonical_before": 995,
+  "canonical_after": 996,
+  "added": [
+    "spare-you-parody"
+  ],
+  "researchB": {
+    "batch": "b1005",
+    "rows": 5,
+    "recommended": 0,
+    "held": 5,
+    "queries": [
+      "\"말씀 중에 죄송합니다\" \"2026\" 밈",
+      "\"본인 방금\" \"상상함\" \"2026\"",
+      "\"사고 쳤을 때 입 다물고\"",
+      "\"사정없이 보내버리겠다\" \"2026\"",
+      "\"살려는 드릴게\" \"2026\"",
+      "\"살려는 드릴게\" 에이티즈 2026",
+      "\"살려는 드릴게\" 채령 2026",
+      "\"말씀 중에 죄송합니다\" 패러디 -site:namu.moe",
+      "\"본인 방금\" \"되는 상상함\" -site:namu.moe -site:seore.org",
+      "\"사고 쳤을 때\" \"악화되지\" -site:namu.moe -site:seore.org",
+      "\"살려는 드릴게\" \"2026\" -에이티즈 -ATEEZ -채령 -site:youthvid.com -김여정",
+      "\"말씀 중에 죄송합니다\" \"월드클래스\" \"2026\" -site:namu.moe"
+    ],
+    "findings": [
+      {
+        "id": "0457",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=kpopcontent&no=108814&page=1",
+        "date": "2026-10-21",
+        "scope": "제목+리센느 월드클래스 아니다 말틀 직접차용1, 사진미검토. 두번째미확보."
+      },
+      {
+        "id": "0546",
+        "url": "https://novelpia.com/novel/361481",
+        "scope": "소개문 직접차용1, 날짜불명. 2025-07-21은 일러스트공지라 전용불가. Wowhead rewritten summary 제외, 괴롭힘복수 게시물제외."
+      },
+      {
+        "id": "0593",
+        "scope": "실제차용2군 미확보"
+      },
+      {
+        "id": "0600",
+        "scope": "정치성적말장난 제외. 인벤7341467 2026-10-22 검색단서만502."
+      },
+      {
+        "id": "0605",
+        "urls": [
+          "https://ateez.kqent.com/contents/6af8fe61622ddc24ea7604dd",
+          "https://www.youtube.com/watch?v=IuQj4b6ncvk",
+          "https://vod.kbs.co.kr/index.html?broadcast_complete_yn=&local_station_code=00&program_code=T2019-0286&program_id=PS-2026205292-01-000&section_code=04&sname=vod&source=episode&stype=vod",
+          "https://www.slist.kr/news/articleView.html?idxno=781304",
+          "https://www.bntnews.co.kr/TV/article/view/bnt202611130046"
+        ],
+        "scope": "ATEEZ11-15제목 및 KBS11-12편스토랑345회 단서. 공식접근불가/플레이어틀/403/본문0. 실제독립2군 승격불가, 영상0."
+      }
+    ]
+  },
+  "auditC": {
+    "queries": [
+      "\"살려는 드릴게\" 패러디",
+      "\"살려는 드릴게\" 에이티즈",
+      "\"살려는 드릴게\" 편스토랑 345"
+    ],
+    "source_reads": 3,
+    "distinct_productions": 2,
+    "same_original_actor": true,
+    "source_urls": [
+      "https://www.xportsnews.com/article/2218928",
+      "https://news.nate.com/view/20260610n02302"
+    ],
+    "not_adopted": "AppleTV는 감사자열람 성공했으나 편집자접근실패,같은방송건. ATEEZ는접근불가검색단서.",
+    "index_rows": 995,
+    "related_body": "byeongjin-leave",
+    "passed": true,
+    "scope_correction_applied": true
+  },
+  "ci_413": {
+    "run": 44255691921,
+    "job": 134636716929,
+    "success": true,
+    "steps": 65,
+    "tests": 495,
+    "seconds": 55.497
+  },
+  "candidate_changes": [
+    {
+      "id": "kr-list-0605",
+      "from": "index_not_found",
+      "to": "partial"
+    }
+  ],
+  "ci_new_commit": "pending",
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" \"유행\" site:news.kbs.co.kr",
+      "2026 \"밈\" \"따라\" site:news.sbs.co.kr",
+      "2026 \"밈\" \"패러디\" site:news.imbc.com",
+      "2026 \"밈\" site:news.kmib.co.kr",
+      "2026 \"밈\" \"패러디\" site:korea.kr",
+      "2026 \"유행어\" \"챌린지\" site:newsis.com",
+      "2026 \"밈\" \"제목\" site:brunch.co.kr",
+      "2026 \"밈\" \"따라\" site:hani.co.kr",
+      "\"Sea of Love 2025\" 패러디 중기부",
+      "\"Sea of Love\" \"패러디\" \"2026\""
+    ],
+    "held": {
+      "title": "Sea of Love 패러디",
+      "urls": [
+        "https://m.korea.kr/briefing/pressReleaseView.do?gubun=pressRelease&newsId=156731585&pageIndex=1&repCode=",
+        "https://mobile.newsis.com/view/NISX20260714_0003708247",
+        "https://zdnet.co.kr/view/?no=20260222095634"
+      ],
+      "note": "2025-11-26중기부자체제작설명 및2026-08-18양주시별도제작보도.2군,공통구체형식미확정 보류. ZDNet02-22는양주시중복. 제작날짜미확정 영상0."
+    },
+    "duplicates": [
+      "little-captain-dance",
+      "mihon-and-bihon",
+      "neon-pair-challenge",
+      "hype-boy-answer",
+      "clear-eyed-eccentric",
+      "i-am-korean-mixed-template"
+    ],
+    "other_holds": "카녜복면/챔보껌이지 검색단서만.한겨레403 KBS차단."
+  }
+}

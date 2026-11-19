@@ -1,0 +1,426 @@
+{
+  "batch": 521,
+  "base": "228e615059afab847e1531ed2c21c3b8aa5f7b77",
+  "canonical_before": 1848,
+  "canonical_after": 1858,
+  "added": [
+    "gaeideuk-unexpected-benefit",
+    "maepjjiri-spice-sensitive-nickname",
+    "alsseu-low-alcohol-tolerance-nickname",
+    "five-stars-bed-ad-parody",
+    "an-bwado-video-predictable-reaction",
+    "rini-beginner-label-family",
+    "ipdeok-fairy-fan-attraction-nickname",
+    "almot-domain-unfamiliarity-label",
+    "cap-capsyong-old-praise",
+    "simnam-simnyeo-crush-label"
+  ],
+  "candidate_changes": [],
+  "previous_ci": {
+    "run": 44370163584,
+    "job": 135034464135,
+    "sha": "228e615059afab847e1531ed2c21c3b8aa5f7b77",
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 104.632s"
+    ]
+  },
+  "previous_final_audit": {
+    "status": "PASS",
+    "required": 0,
+    "fixed_sha": "228e615059afab847e1531ed2c21c3b8aa5f7b77",
+    "old_index_records_unchanged": 1838,
+    "files_read": 18,
+    "coverage_counts": {
+      "included": 204,
+      "partial": 317,
+      "index_not_found": 75,
+      "unclear": 162,
+      "automatic_title_alias_match": 328,
+      "candidate_repeat": 5
+    },
+    "media_viewed": 0
+  },
+  "sources": [
+    {
+      "id": "gaeideuk-unexpected-benefit",
+      "urls": [
+        "https://www.ohmynews.com/NWS_Web/Mobile/at_pg.aspx?CNTN_CD=A0002376005",
+        "https://www.hej.life/board/product/read.html?board_no=4&link_product_no=98&no=129723"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "maepjjiri-spice-sensitive-nickname",
+      "urls": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/385400",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/493586"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "alsseu-low-alcohol-tolerance-nickname",
+      "urls": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/329947",
+        "https://www.xportsnews.com/article/2187200"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "five-stars-bed-ad-parody",
+      "urls": [
+        "https://www.datanews.co.kr/news/article.html?no=121236",
+        "https://gogumafarm.kr/최초의-etf형-광고-장원영과-9개의-브랜드가-만난-짐빔/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "an-bwado-video-predictable-reaction",
+      "urls": [
+        "https://news.nate.com/view/20260811n35284",
+        "https://news.nate.com/view/20260925n01962?mid=n1101"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "rini-beginner-label-family",
+      "urls": [
+        "https://nomadteacher.tistory.com/5",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/502848",
+        "https://imnews.imbc.com/news/2022/society/article/6365140_35673.html"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ipdeok-fairy-fan-attraction-nickname",
+      "urls": [
+        "https://news.tf.co.kr/stars/read/starwars/1671922.htm",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/509178"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "almot-domain-unfamiliarity-label",
+      "urls": [
+        "https://nomadteacher.tistory.com/entry/한국어-신조어-요알못-야알못-등-알못-뜻",
+        "https://v.daum.net/v/20260522150018621",
+        "https://clip.imbc.com/m/ClipPlay/M01_T2202603099806"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "cap-capsyong-old-praise",
+      "urls": [
+        "https://www.seoul.co.kr/news/1998/12/18/19981218005001",
+        "https://news.nate.com/view/20260925n01962?mid=n1101"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "simnam-simnyeo-crush-label",
+      "urls": [
+        "https://view.asiae.co.kr/article/2010090114070022965",
+        "https://www.xportsnews.com/article/288478/",
+        "https://news.nate.com/view/20260925n01962?mid=n1101"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening_groups": [
+    {
+      "id": "B624",
+      "observations": 8,
+      "recommended": 1,
+      "existing": 3,
+      "held": 4,
+      "queries": 10
+    },
+    {
+      "id": "C140",
+      "observations": 10,
+      "recommended": 2,
+      "existing": 2,
+      "conditional": 1,
+      "held": 5,
+      "queries": 9
+    },
+    {
+      "id": "B625",
+      "observations": 8,
+      "recommended": 1,
+      "existing": 6,
+      "held": 1,
+      "queries": 10
+    },
+    {
+      "id": "A149",
+      "observations": 12,
+      "recommended": 0,
+      "existing": 10,
+      "held": 2,
+      "queries": 6
+    },
+    {
+      "id": "B626",
+      "observations": 8,
+      "recommended": 1,
+      "existing": 4,
+      "held": 3,
+      "queries": 11
+    },
+    {
+      "id": "C141",
+      "observations": 10,
+      "recommended_expressions": 3,
+      "recommended_families": 1,
+      "existing": 3,
+      "partial": 1,
+      "held": 3,
+      "queries": 4
+    },
+    {
+      "id": "C142",
+      "observations": 12,
+      "recommended": 1,
+      "existing_expressions": 5,
+      "existing_families": 4,
+      "conditional": 1,
+      "held": 5,
+      "queries": 4
+    },
+    {
+      "id": "C143",
+      "observations": 12,
+      "recommended_expressions": 5,
+      "recommended_families": 1,
+      "existing": 3,
+      "held": 4,
+      "queries": 2
+    },
+    {
+      "id": "B627",
+      "observations": 12,
+      "recommended": 2,
+      "existing_or_family": 4,
+      "held": 5,
+      "general_word_excluded": 1,
+      "queries": 15
+    },
+    {
+      "id": "A150",
+      "observations": 12,
+      "held": 12,
+      "queries": 19
+    },
+    {
+      "id": "A151",
+      "observations": 12,
+      "held": 12,
+      "queries": 16
+    }
+  ],
+  "query_groups": {
+    "B624": [
+      "\"2026\" \"유행어\" \"재연\" \"광고\"",
+      "\"2026\" \"패러디\" \"문구\" \"브랜드\"",
+      "\"2026\" \"신조어\" \"호칭\" \"매거진\"",
+      "\"느낌 아니까\" \"광고\" 패러디",
+      "\"이건 아니잖아\" \"패러디\" \"2026\"",
+      "\"난감하네\" \"패러디\"",
+      "\"개이득\" \"유행어\" 신문",
+      "\"웃음사망꾼\" \"2026\"",
+      "\"이건 아니잖아\" \"장동민\" 광고",
+      "\"개이득\" \"2026\" \"제목\""
+    ],
+    "C140": [
+      "\"맵찔이\" \"2026\"",
+      "\"쩝쩝박사\" \"2026\"",
+      "\"알쓰\" \"뜻\" 기사",
+      "\"맵찔이\" site:enews.imbc.com",
+      "\"알쓰\" site:enews.imbc.com",
+      "\"맵찔이\" \"뜻\" 신조어",
+      "맵찔이 site:enews.imbc.com",
+      "알쓰 site:enews.imbc.com",
+      "\"알쓰\" \"2026\" 술"
+    ],
+    "B625": [
+      "\"2026\" \"유행어\" \"패러디\" \"대사\" 브랜드",
+      "\"2026\" \"말투\" \"따라\" \"유행어\"",
+      "\"유행어\" \"광고\" \"2026\" \"찰지\"",
+      "\"패러디\" \"2026\" \"장수돌침대\"",
+      "\"유행어\" \"2026\" \"빵꾸똥꾸\"",
+      "\"별이 다섯\" \"패러디\" -site:namu.moe -site:namu.wiki",
+      "\"빵꾸똥꾸\" \"패러디\" 광고",
+      "\"2026\" \"유행어\" \"어쩔 수 없\"",
+      "\"별이 다섯 개\" \"검은사막\"",
+      "\"아뇨아뇨아뇨\" \"기사\""
+    ],
+    "A149": [
+      "2026 유행어 \"밈\" \"생활\" -site:namu.moe -site:seore.org",
+      "2026 \"밈\" \"말투\" 매거진",
+      "2025 2026 \"밈\" \"신조어\" 대학신문",
+      "\"이슈다\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"So Who are they\" \"덕성\"",
+      "\"이슈\" \"신조어\" 2026"
+    ],
+    "B626": [
+      "\"2026\" \"패러디\" \"문구\" \"공식\" -site:namu.wiki -site:namu.moe",
+      "\"2026\" \"유행어\" \"매거진\" \"댓글\"",
+      "\"안 봐도 릴스\"",
+      "\"안 봐도 비디오\" \"유행어\"",
+      "\"2026\" \"뽀대\" \"기사\"",
+      "\"안 봐도 비디오\" \"2026\" -site:namu.moe -site:tistory.com -site:seore.org",
+      "\"안 봐도 비디오\" \"박세민\" 인터뷰",
+      "\"안 봐도 비디오\" \"박세민\" -site:namu.moe -site:seore.org -site:namu.wiki",
+      "\"안 봐도 비디오\" \"2026\" 칼럼",
+      "\"사이버 탑골공원\" \"2026\"",
+      "\"제가 팀입니다\" 마케터 -site:i-boss.co.kr"
+    ],
+    "C141": [
+      "\"2026\" \"득근\" 기사",
+      "\"헬린이\" \"2026\" site:enews.imbc.com",
+      "\"골린이\" \"등린이\" \"신조어\"",
+      "\"린이\" \"인권위\" \"2022\""
+    ],
+    "C142": [
+      "\"덕계못\" \"2026\"",
+      "\"입덕요정\" \"2026\" site:enews.imbc.com",
+      "\"차애\" \"2026\" 기사",
+      "\"입덕요정\" \"뜻\" 기사"
+    ],
+    "A150": [
+      "\"11미터 모형탑\" 패러디 -site:namu.moe -site:seore.org",
+      "\"1초만에 사람을 낚는 방법\" -site:namu.moe -site:seore.org",
+      "\"64 bits\" \"패러디\" 한국 -site:namu.moe -site:seore.org",
+      "\"Point\" \"드립\" \"김성모\" -site:namu.moe -site:seore.org",
+      "\"를 알려주겠다\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"해버리기\" 유행어 기사",
+      "\"chip\" \"밈\" 한국 -site:namu.moe -site:seore.org",
+      "\"camel singing maliali song\" 한국",
+      "\"street photographer\" \"패러디\" 한국",
+      "\"EZ DO DANCE\" \"패러디\" 한국",
+      "\"스카이림\" \"드디어 깨어났\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"마피아 시티\" \"광고\" \"패러디\" -site:namu.moe -site:seore.org",
+      "\"해버리기\" \"보겸\" -site:namu.moe -site:seore.org -site:wiki -site:readonly.wiki",
+      "\"1초만에\" \"낚는\" -site:wiki -site:namu.moe -site:tcatmon.com",
+      "\"스카이림\" \"깨어났\" \"패러디\" -site:namu.moe -site:seore.org",
+      "\"마피아 시티\" \"레벨\" \"밈\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+      "\"해버리기\" site:news.nate.com/view",
+      "\"포인트\" \"드립\" \"김성모\"",
+      "\"스카이림\" \"드디어 깨어났구나\""
+    ],
+    "B627": [
+      "\"지방방송 꺼\" \"패러디\"",
+      "\"유행어\" \"2026\" \"아햏햏\"",
+      "\"유행어\" \"얼레리\" \"기사\"",
+      "\"지방방송\" \"유행어\"",
+      "\"뻥이야\" \"패러디\" 광고",
+      "\"당근이지\" \"말밥\" 유행어",
+      "\"지방방송 꺼\" 방송",
+      "\"캡숑\" \"유행어\" 신문",
+      "\"뻘쭘\" \"신조어\" 신문",
+      "\"얼레리 꼴레리\" \"재연\"",
+      "\"캡숑\" \"뜻\" 신문",
+      "\"뽀대\" \"말\" \"유행\"",
+      "\"심남\" \"신조어\"",
+      "\"뽀대\" \"유행어\" 신문",
+      "\"내숭\" \"밈\" \"2026\""
+    ],
+    "C143": [
+      "\"패알못\" \"2026\"",
+      "\"패잘알\" \"2026\" site:enews.imbc.com"
+    ],
+    "A151": [
+      "\"KON\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"MC 노리아키\" 한국 패러디 -site:namu.moe -site:seore.org",
+      "\"팩맨\" \"고스트 댄스\" -site:namu.moe -site:seore.org",
+      "\"핑구\" \"공포\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"The one piece is real\" \"밈\" 한국 -site:namu.moe -site:seore.org",
+      "\"가능성의\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"거룡을 상대한\" -site:namu.moe -site:seore.org",
+      "\"그들의 연회에\" -site:namu.moe -site:seore.org",
+      "\"꾸래핑\" -site:namu.moe -site:seore.org",
+      "\"나는 예쁘지 않습니다\" -site:namu.moe -site:seore.org",
+      "\"내 식사를 방해할 생각인가\" -site:namu.moe -site:seore.org",
+      "\"롯데햄 후라이드 치킨\" 패러디 -site:namu.moe -site:seore.org",
+      "\"거룡을 상대한 건\" 패러디 -site:namu.moe -site:seore.org",
+      "\"내 식사를 방해할\" \"또라이송\"",
+      "\"노리아키\" \"최우선\"",
+      "\"롯데햄\" \"로보캅\" 광고 외국"
+    ]
+  },
+  "query_observations": 13511,
+  "distinct_literal_queries": 11091,
+  "query_increment": 106,
+  "query_note": "Only exact reported query strings appended. Missing previous520 transient query groups remain unrecovered, not guessed. Query/observation totals are not meme counts.",
+  "source_ledger_audits": [
+    {
+      "observations": 12,
+      "recommendations": 0,
+      "held": 12,
+      "ids": [
+        "0052",
+        "0055",
+        "0062",
+        "0064",
+        "0066",
+        "0080",
+        "0090",
+        "0092",
+        "0095",
+        "0097",
+        "0102",
+        "0122"
+      ],
+      "reason": "No verified specific reuse; ordinary usage, external summaries or inaccessible direct sources cannot establish candidate family. No classification changes.",
+      "sources_read": [
+        "https://talk.op.gg/s/lol/free/1015269/요즘%20유튭광고에%20혜지나오던데%20ㅋㅋㅋ",
+        "https://sims34story.tistory.com/entry/SKYRIM-INTRO"
+      ],
+      "sources_failed": [
+        "https://www.youtube.com/watch?v=dMksJ83ernA",
+        "https://news.nate.com/view/20251121n05236"
+      ]
+    },
+    {
+      "observations": 12,
+      "recommendations": 0,
+      "held": 12,
+      "ids": [
+        "0115",
+        "0126",
+        "0134",
+        "0145",
+        "0147",
+        "0157",
+        "0190",
+        "0239",
+        "0283",
+        "0294",
+        "0318",
+        "0441"
+      ],
+      "reason": "Specific reuse insufficient or inaccessible.0190 two webpages share same game introduction, not independent reuse and relation to original unconfirmed.0126 sharing comments not sufficient to define whole-person meme.",
+      "read": [
+        "https://dayoonsiru.tistory.com/164",
+        "https://www.taptap.io/kr/app/215728",
+        "https://kone.gg/s/shittygames/aTwEEaVtrHRofWPZpws5Sb"
+      ],
+      "failed": [
+        "https://m.onestore.co.kr/v2/ko-kr/app/0000753918/about",
+        "https://music.bugs.co.kr/track/32993127?wl_ref=list_tr_08"
+      ]
+    }
+  ],
+  "editor_notes": [
+    "Eight families have recent textual application; cap/capsyong and simnam/simnyeo are historical with recent retrospective explanations, not current resurgence proof.",
+    "Existing 1848 index records identical; no existing meme bodies changed.",
+    "Almot and rini variants grouped as one family each; explanations not multiplied into independent uses.",
+    "Media viewed0; no Codex or main changes."
+  ],
+  "preaudit": {
+    "status": "PASS",
+    "all10": true
+  }
+}

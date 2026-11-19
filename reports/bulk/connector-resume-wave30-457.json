@@ -1,0 +1,325 @@
+{
+  "batch": 457,
+  "base": "df61c80319b3130b9937b98a57488c9c6f291912",
+  "canonical_before": 1191,
+  "canonical_after": 1203,
+  "added": [
+    "mock-exam-queen-paper-cape",
+    "geuchiman-attention-excuse",
+    "does-this-child-know-fullness-caption",
+    "going-too-far-public-quote",
+    "what-can-you-do-provocation-question",
+    "jeju-interview-hiphop-remix",
+    "nanomachines-son-parody",
+    "lost-kwajjijju-dialogue-spelling",
+    "eommisae-eonnisae-family-fan-label",
+    "whiplash-cute-dance-variant",
+    "who-is-guilty-ai-scene-reenactment",
+    "1999-hiplet-dance-variant"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0250",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "geuchiman-attention-excuse"
+    },
+    {
+      "id": "kr-list-0860",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "does-this-child-know-fullness-caption"
+    },
+    {
+      "id": "kr-list-0887",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "going-too-far-public-quote"
+    },
+    {
+      "id": "kr-list-0252",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "what-can-you-do-provocation-question"
+    },
+    {
+      "id": "kr-list-0926",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "jeju-interview-hiphop-remix"
+    },
+    {
+      "id": "kr-list-0289",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "nanomachines-son-parody"
+    },
+    {
+      "id": "kr-list-0279",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "lost-kwajjijju-dialogue-spelling"
+    }
+  ],
+  "previous_ci": {
+    "run": 44281265069,
+    "job": 134722371564,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 88.279s"
+  },
+  "previous_audit": {
+    "batch": 456,
+    "new_bodies": 9,
+    "source_urls_read": 13,
+    "prior_index_unchanged": 1182,
+    "required_fixes": 0,
+    "optional": "eungae 익숙하지 않은 게임에서 도움을 → 게임에서 도움을"
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": [
+        860,
+        887
+      ],
+      "existing_partial": [
+        869,
+        881
+      ],
+      "held": 16,
+      "queries": [
+        "\"이세계물\" \"드립\" 패러디",
+        "\"이승우\" \"돼지불백\" 패러디",
+        "\"이 아이가 배가 부르다는 느낌을 알까요\"",
+        "\"이제 그만\" \"밈\"",
+        "\"이쿠요\" \"밈\"",
+        "\"인문학적 변태\" 뜻",
+        "\"인주 앨리스\" 패러디",
+        "\"일부러 PC방에는\"",
+        "\"인문학적 변태\"",
+        "\"인실좆\" 뜻",
+        "\"일본 대단해\" \"택시\"",
+        "\"이쯤 가면 막 하자는 거지요\" 패러디",
+        "\"아자핑\" \"하츄핑\" 밈",
+        "\"와플핑\" \"핫케핑\"",
+        "\"자낳괴 탄생비화\"",
+        "\"인문학적\" \"변태\" 밈"
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "recommended": 1,
+      "existing_partial": 3,
+      "held": 16,
+      "queries": [
+        "\"자러감\" \"드립\"",
+        "\"잘생겨서 안 좋은 점\" 밈",
+        "\"저런\" \"앞으로 어찌될까요\"",
+        "\"정상화\" \"밈\" 신창섭",
+        "\"잭 오 챌린지\" 게임",
+        "\"정상화\" \"신창섭\" -site:namu.moe -site:alphawiki.org -site:instablank.com -site:librewiki.net",
+        "\"제 딸을 살해한 놈들을 15년 후에 죽여주세요\" 패러디",
+        "\"제주도 찐 사투리\" 밈",
+        "\"상상하고 싶지도 않네요\" 드립 유래",
+        "\"짤\" \"자러감\" 뜻",
+        "\"정우성\" \"없어요\" 패러디",
+        "\"정상화\" \"신창섭\" site:news.nate.com"
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": [
+        "mock-exam-queen-paper-cape"
+      ],
+      "existing": 8,
+      "held": 5,
+      "excluded": 6,
+      "queries": [
+        "2026 \"밈\" \"브랜드\" \"따라\" site:incross.com",
+        "2026 \"밈\" \"사진\" site:maily.so -trendaword -marsinmarine -consome",
+        "2026 \"밈\" \"패러디\" site:univ20.com",
+        "\"모의고사 여왕\" 통영",
+        "\"오디세이\" \"활\" \"챌린지\" 한국",
+        "\"사진 튀겨\" 밈",
+        "\"모의고사 여왕\" \"통영\" -site:shorti.kr",
+        "\"모의고사 여왕\" site:maily.so"
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended_expressions": 5,
+      "recommended_families": 4,
+      "existing": 8,
+      "held": 4,
+      "excluded": 3,
+      "queries": [
+        "2026 밈 편집 챌린지 site:allurekorea.com",
+        "2026 밈 따라하기 site:univ20.com",
+        "2026 밈 사진 챌린지 site:elle.co.kr",
+        "2026 \"밈\" \"사진\" \"7월\"",
+        "2026 \"밈\" \"편집\" \"9월\"",
+        "2026 \"밈\" \"따라\" site:harpersbazaar.co.kr",
+        "\"엄미새\" \"언미새\" 2026",
+        "\"장희빈 밈\" \"패러디\"",
+        "\"Changing the Question\" 한국 2026",
+        "\"Whiplash\" \"귀여운\" \"2026\" 챌린지",
+        "\"Who is guilty\" 제로베이스원 2026",
+        "\"1999\" \"힙레\" \"2026\""
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 2,
+      "additional_review": 1,
+      "held": 17,
+      "queries": [
+        "\"긴빠이\" \"유행어\"",
+        "\"그가 매수했습니다\" 밈",
+        "\"그건 원작을 경험해 보신\"",
+        "\"귀여운 건 나도 알아\" 박명수",
+        "\"긴빠이\" \"밈\" 기사",
+        "\"긔체\" 유행",
+        "\"근데 어쩔건데\" \"밈\"",
+        "\"마즈피플\" \"김도\" 기사",
+        "\"긴빠이\" 신조어 기사 -site:namu.moe",
+        "\"마즈피플\" \"밈\" -site:namu.moe",
+        "\"그런건 없다 게이야\" 뜻",
+        "\"그치만\" \"밈\" 뜻"
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "recommended": 2,
+      "conditional_held": 2,
+      "held": 16,
+      "queries": [
+        "\"나노머신 썬\" 밈",
+        "\"꽈찌쭈\" 패러디",
+        "\"깨어나세요 용사여\" 패러디",
+        "\"내 식사를 방해할 생각인가\"",
+        "\"나는 개인이오\" 밈",
+        "\"나는 애쉬\" 밈",
+        "\"난 아무렇지 않지 않아\" 밈",
+        "\"나 XX인데 개추 눌렀다\"",
+        "\"날 내버려둬\" 밈",
+        "\"내 거에 올라온 네 욕 볼래\"",
+        "\"꺼어억\" 밈 뜻",
+        "\"꽁기깅깅\" 밈",
+        "\"나는 예쁘지 않습니다\" 밈",
+        "\"나여 백종원\" 패러디",
+        "\"날 내버려둬\" \"인터넷\"",
+        "\"꽈찌쭈\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"나노머신 썬\" \"패러디\" -site:namu.moe -site:whitefaceone.tistory.com",
+        "\"난 아무렇지 않지 않아\" \"패러디\" 슬리피 기사",
+        "\"꾸래핑\" 밈",
+        "\"나는 애쉬\" 패러디"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "mock-exam-queen-paper-cape",
+      "urls": [
+        "https://maily.so/trendaword/posts/xyow3em2r28",
+        "https://maily.so/mading/posts/l1zqy5gnr5x"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "geuchiman-attention-excuse",
+      "urls": [
+        "https://www.wikitree.co.kr/articles/389929"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "does-this-child-know-fullness-caption",
+      "urls": [
+        "https://www.ntdtv.kr/2021/06/361493.html",
+        "https://www.sportschosun.com/entertainment/2023-05-19/202305200100150350018919"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "going-too-far-public-quote",
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20240904067200001",
+        "https://v.daum.net/v/Udcl0dMV5w"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "what-can-you-do-provocation-question",
+      "urls": [
+        "https://whitefaceone.tistory.com/3249",
+        "https://memeislife.tistory.com/140"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jeju-interview-hiphop-remix",
+      "urls": [
+        "https://www.etoday.co.kr/news/view/2352921"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nanomachines-son-parody",
+      "urls": [
+        "https://whitefaceone.tistory.com/2813",
+        "https://m.heroes.nexon.com/ucc/video/View?page=17&postno=1852"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "lost-kwajjijju-dialogue-spelling",
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1000939116&plink=OLDURL"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "eommisae-eonnisae-family-fan-label",
+      "urls": [
+        "https://www.careet.net/1910",
+        "https://www.univ20.com/Magazine/Detail/4565"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "whiplash-cute-dance-variant",
+      "urls": [
+        "https://www.elle.co.kr/article/1882373"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "who-is-guilty-ai-scene-reenactment",
+      "urls": [
+        "https://www.elle.co.kr/article/1882373"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "1999-hiplet-dance-variant",
+      "urls": [
+        "https://www.elle.co.kr/article/1882373"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "120 expression reviews across six groups; 13 selected expression observations consolidated into 12 entries (엄미새/언미새 one family); 21 existing/partial observations; 9 excluded; 77 held including 3 conditional leads. Observations are not new unique discoveries.",
+    "2026 recent format: paper cape; recent family labels: eommisae/eonnisae. 2026 quote reuse: going-too-far. 2025 ELLE three dance accounts are outside latest year, not recency-confirmed.",
+    "Same media family Careet/Univ20 not independent publishers. ELLE three formats share one article, no original video views.",
+    "0243 one explanatory source held; 0276/0305 conditional held; 0908 one direct text use not enough scope recovery; 0914 broad source needs meaning separation.",
+    "Previous456 audit mandatory fixes0; optional eungae narrower game-help phrasing accepted in this batch."
+  ],
+  "query_observations": 7602,
+  "distinct_literal_queries": 6615,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "batch": 445,
+  "base": "517b8bb5c0d9686f51cdc02f77827e091a1b4fed",
+  "canonical_before": 1056,
+  "canonical_after": 1066,
+  "added": [
+    "chaljiguna-text-reaction",
+    "because-it-is-a-promise",
+    "sun-kiss-dance-challenge",
+    "born-dire-dance-challenge",
+    "bo-peep-bo-peep-dance-challenge",
+    "world-class-line-name-list",
+    "real-life-backrooms-naming",
+    "what-drug-made-you-think-that",
+    "countless-requests-template",
+    "loved-you-fast-dance-challenge"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0978",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "chaljiguna-text-reaction"
+    },
+    {
+      "id": "kr-list-1061",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "because-it-is-a-promise"
+    },
+    {
+      "id": "kr-list-0524",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "world-class-line-name-list"
+    },
+    {
+      "id": "kr-list-0534",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "real-life-backrooms-naming"
+    },
+    {
+      "id": "kr-list-0488",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "what-drug-made-you-think-that"
+    },
+    {
+      "id": "kr-list-0487",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "countless-requests-template"
+    },
+    {
+      "id": "kr-list-0596",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "loved-you-fast-dance-challenge"
+    },
+    {
+      "id": "kr-list-0419",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "one-bowl-please",
+      "new_body": false
+    }
+  ],
+  "research": {
+    "prior_held_and_ledger": {
+      "count": 20,
+      "reexamined": 6,
+      "other_ledger": 14,
+      "recommended": [
+        "0978",
+        "1061"
+      ],
+      "held": 18,
+      "queries": [
+        "\"찰지구나\" \"20110608\"",
+        "\"콩쥐야\" 패러디 -site:namu.moe",
+        "\"하츠네 형돈\" 기사",
+        "\"초코빅송\" 광고",
+        "\"커다란 자갈돌은 짱돌\" 티키틱",
+        "\"펀쿨섹좌\" \"패러디\" -site:namu.moe",
+        "\"폴란드볼\" 한국 패러디",
+        "\"ㅎㅎ즐거우세요\" 패러디 -site:namu.moe",
+        "\"하와와\" 유행어 기사",
+        "\"한글 써지지 않다\" 패러디",
+        "\"한글자 드립\" 패러디",
+        "\"한본어\" 유행어",
+        "\"할 말이 없네\" \"밈\"",
+        "\"핫산\" \"밈\" 기사",
+        "\"向天再借五百年\" 한국 패러디",
+        "\"회사 안다녀\" 패러디",
+        "\"호라\" \"모 젠젠\" 패러디",
+        "\"호롤롤로\" 유행어",
+        "\"호텔경제학\" 밈",
+        "\"후드에서 살아남기\" 패러디",
+        "\"찰지구나\" \"대중문화의 아이콘\"",
+        "\"콩쥐야\" \"조때써\" -site:namu.moe -site:coconut-emoji.tistory.com",
+        "\"하츠네 형돈\" -site:namu.moe -site:theqoo.net",
+        "\"펀쿨섹\" \"그것이\" 한국 패러디"
+      ],
+      "sources": [
+        {
+          "id": "0978",
+          "urls": [
+            "https://m.etnews.com/201202230233",
+            "https://weekly.khan.co.kr/article/201106081843011"
+          ],
+          "note": "2012-02-23 and2011-06-08 nonexplicittextreactiononly; source sexualorigin/minorinfo omitted; sampleeditorprose notactualuse; oldlanguage-ruleclaimnotcurrent"
+        },
+        {
+          "id": "1061",
+          "urls": [
+            "https://amp.seoul.co.kr/news/plan/amu/2020/07/01/20200701500068?cp=en",
+            "https://news.sbs.co.kr/news/endPage.do?cooper=SBSNEWSAMP&news_id=N1005866328&plink=ORI"
+          ],
+          "note": "2020-07-01 and07-04updated06; becausepromise recursiveexplanationpartial; nooriginaltranslationorpoliticalfactjudgment"
+        },
+        {
+          "id": "1020",
+          "urls": [
+            "https://coconut-emoji.tistory.com/596"
+          ],
+          "note": "2026-10-24authorretrospective notoriginalpost, limitedone;filmmakers403novelpiaunconfirmed"
+        },
+        {
+          "id": "1094",
+          "urls": [
+            "https://theqoo.net/square/1834020406"
+          ],
+          "note": "2021-02-04 explanatorypostlinksnotindividuallyviewed"
+        }
+      ]
+    },
+    "ledger9": {
+      "count": 9,
+      "recommended": 1,
+      "held": 8,
+      "queries": [
+        "\"나락송\" 패러디",
+        "\"어 나가\" \"머니게임\" 노래",
+        "\"모 야메룽다\" 패러디",
+        "\"무수히 많은 악수의 요청\"",
+        "\"무슨 마약하시길래\" 패러디",
+        "\"무츠키 댄스\" 한국",
+        "\"문법 나치\" 기사",
+        "\"밤 샌 사람\" \"일찍\" 패러디",
+        "\"방송 되게 못하네\" 패러디",
+        "\"본인 방금\" \"상상함\" 밈",
+        "\"봇이지 뭐\" 밈",
+        "\"불만 있냐\" \"물도 있다\"",
+        "\"불티\" \"밈\" 전영록",
+        "\"뼈 맞았어\" 유행어",
+        "\"뽀구미\" \"예쁘잖아\" 패러디",
+        "\"사랑했나봐\" 밈 패러디",
+        "\"뽀구미\" \"예쁘잖아\" \"기자\"",
+        "\"사랑했나봐\" \"챌린지\" 윤도현",
+        "\"불만 있냐\" \"물도\" -site:namu.moe -site:seore.org",
+        "\"불티\" \"전영록\" \"밈\" -site:namu.moe",
+        "\"나락송\" -site:namu.moe",
+        "\"UH NARAK\" -site:namu.moe",
+        "\"봇이지 뭐\" -site:namu.moe",
+        "\"뼈 맞았어\" -site:namu.moe",
+        "\"뼈 맞았어\" \"팩트\"",
+        "\"뼈 맞았어\" \"유행어\" 기사"
+      ],
+      "excluded": {
+        "other_worker": 7,
+        "already_mapped": 4
+      },
+      "limits": "16 initial queries included other-worker collision; not 20 new completed candidates"
+    },
+    "recent20": {
+      "count": 20,
+      "recommended": 3,
+      "existing": 7,
+      "held": 10,
+      "queries": [
+        "\"2026\" \"챌린지\" \"SUN KISS\"",
+        "\"2026\" \"챌린지\" \"연애의 조건\"",
+        "\"2026\" \"챌린지\" \"BORN DIRE\"",
+        "\"2026\" \"Bo Peep Bo Peep\" \"아이브\"",
+        "\"2026\" \"챌린지\" \"Lovesick\"",
+        "\"2026\" \"챌린지\" \"팅팅\"",
+        "\"보핍보핍\" \"아이브\" 2026 챌린지",
+        "\"GRLS\" \"챌린지\" \"디노\"",
+        "\"Lovesick\" \"채령\" \"챌린지\" 2026 -site:issuelink.co.kr",
+        "\"팅팅\" \"언차일드\" \"챌린지\" 2026 -site:issuelink.co.kr",
+        "\"보핍보핍\" \"김연경\" 2026",
+        "\"Bo Peep\" \"아이브\" \"2026\" -site:issuelink.co.kr",
+        "\"Drip\" \"에이티즈\" \"챌린지\" 2026 참여",
+        "\"French Kissing\" \"챌린지\" 2026 참여"
+      ],
+      "held_titles": [
+        "GRLS",
+        "Lovesick",
+        "팅팅",
+        "Drip",
+        "French Kissing",
+        "Replay",
+        "UP",
+        "백화요란",
+        "니콜키드먼 챌린지",
+        "스케이트 보드 챌린지"
+      ]
+    },
+    "ledger20": {
+      "count": 20,
+      "recommended": 3,
+      "conditional": 1,
+      "existing_partial": 1,
+      "held": 15,
+      "queries": [],
+      "query_count_reported": 20,
+      "query_strings_pending": true,
+      "ids": [
+        "0407",
+        "0419",
+        "0423",
+        "0435",
+        "0436",
+        "0441",
+        "0444",
+        "0453",
+        "0479",
+        "0487",
+        "0488",
+        "0491",
+        "0494",
+        "0500",
+        "0524",
+        "0526",
+        "0533",
+        "0534",
+        "0550",
+        "0552"
+      ],
+      "note": "0524URLcorrectedfromunrelated/1477to/Newsletter/Detail/1477;0487AInvenread+CblogreadeditorInven502"
+    }
+  },
+  "sources": [
+    {
+      "id": "chaljiguna-text-reaction",
+      "urls": [
+        "https://m.etnews.com/201202230233",
+        "https://weekly.khan.co.kr/article/201106081843011"
+      ],
+      "limits": "source descriptions and textual uses only; videos and images not independently viewed"
+    },
+    {
+      "id": "because-it-is-a-promise",
+      "urls": [
+        "https://amp.seoul.co.kr/news/plan/amu/2020/07/01/20200701500068?cp=en",
+        "https://news.sbs.co.kr/news/endPage.do?cooper=SBSNEWSAMP&news_id=N1005866328&plink=ORI"
+      ],
+      "limits": "source descriptions and textual uses only; videos and images not independently viewed"
+    },
+    {
+      "id": "sun-kiss-dance-challenge",
+      "urls": [
+        "https://v.daum.net/v/9EdHh6FYUT",
+        "https://v.daum.net/v/20260926000224636"
+      ],
+      "limits": "source descriptions and textual uses only; videos and images not independently viewed"
+    },
+    {
+      "id": "born-dire-dance-challenge",
+      "urls": [
+        "https://v.daum.net/v/20260904085550886",
+        "https://v.daum.net/v/20260926000224636"
+      ],
+      "limits": "source descriptions and textual uses only; videos and images not independently viewed"
+    },
+    {
+      "id": "bo-peep-bo-peep-dance-challenge",
+      "urls": [
+        "https://v.daum.net/v/20260926000224636"
+      ],
+      "limits": "source descriptions and textual uses only; videos and images not independently viewed"
+    },
+    {
+      "id": "world-class-line-name-list",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail/1477",
+        "https://www.osen.co.kr/article/G1112371550"
+      ],
+      "limits": "source descriptions and textual uses only; videos and images not independently viewed"
+    },
+    {
+      "id": "real-life-backrooms-naming",
+      "urls": [
+        "https://sports.donga.com/ent/article/all/20260617/134126204/1",
+        "https://v.daum.net/v/20260711100236289"
+      ],
+      "limits": "source descriptions and textual uses only; videos and images not independently viewed"
+    },
+    {
+      "id": "what-drug-made-you-think-that",
+      "urls": [
+        "https://www.webtoonguide.com/ko/board/news-column/2564"
+      ],
+      "limits": "source descriptions and textual uses only; videos and images not independently viewed"
+    },
+    {
+      "id": "countless-requests-template",
+      "urls": [
+        "https://www.inven.co.kr/webzine/news/?news=275412",
+        "https://seolin.tistory.com/153"
+      ],
+      "limits": "source descriptions and textual uses only; videos and images not independently viewed"
+    },
+    {
+      "id": "loved-you-fast-dance-challenge",
+      "urls": [
+        "https://gogumafarm.kr/아직-인류가-이해하기-힘든-챌린지-최신-숏폼-챌린지/",
+        "https://sports.khan.co.kr/article/202408220537003"
+      ],
+      "limits": "source descriptions and textual uses only; videos and images not independently viewed"
+    }
+  ],
+  "previous_ci": {
+    "run": 44269897039,
+    "job": 134683575229,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "117.461"
+  },
+  "previous_failed_ci": {
+    "run": 44269111346,
+    "job": 134680943356,
+    "status": "failure",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "117.750"
+  },
+  "previous_failure_correction": {
+    "sha": "517b8bb5c0d9686f51cdc02f77827e091a1b4fed",
+    "cause": "ID sorting differed from canonical filename sorting for jjalbang and jjalbang-boy-parody; corrected data only; builder now sorts path."
+  },
+  "previous_audit": {
+    "sha": "0bbe65a070e28428d9fcd746d38b87a01f9ca233",
+    "body_reads": 13,
+    "index_rows": 13,
+    "summary_matches": true,
+    "required_changes": 0,
+    "recommended_edit": "stop-the-dog-barking-quote change December2024postandcomments to postpublishedDecember2024andlatercomments; comments span2024-12-29to2025-03-06",
+    "limits": "2015sgsgsource403twice in independent recheck; priorworkerread retained; othermajornew7source reads passed."
+  },
+  "limits": [
+    "Ten additions batched, three recent dance entries plus seven historical/ledger entries.",
+    "Inven275412 initial researcher read retained; editor re-open failed502; blog substitution directly verified.",
+    "C prior20 query count reported but literal strings not yet recovered; excluded from ledger increment until recovery.",
+    "No main change, no Codex, new commit CI pending."
+  ],
+  "query_observations": 6494,
+  "distinct_literal_queries": 5697
+}

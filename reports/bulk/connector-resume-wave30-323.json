@@ -1,0 +1,65 @@
+{
+  "batch": 323,
+  "base": "d0fbb652846048f6a87c5ef270be42886fffd734",
+  "canonical_before": 953,
+  "canonical_after": 953,
+  "research": {
+    "candidates": [
+      "0185",
+      "0186",
+      "0204",
+      "0217",
+      "0218",
+      "0222",
+      "0224",
+      "0226",
+      "0234",
+      "0286"
+    ],
+    "recommended": 0,
+    "held": 10,
+    "queries": [
+      "\"개콘이 망한 이유\" \"2026\"",
+      "\"갱갱갱\" \"2026\" 밈",
+      "\"고만해 미친놈들아\" \"2026\"",
+      "\"굉장하다\" 밈 \"2026\"",
+      "\"교토식 화법\" \"2026\"",
+      "\"국밥충\" \"2026\"",
+      "\"국힙원탑\" \"2026\"",
+      "\"군필 여고생\" \"2026\"",
+      "\"그거 먹는 건가요\" \"2026\"",
+      "\"나가있어\" 밈 \"2026\"",
+      "\"그거 먹는 건가요\" \"2026\" -site:namu.moe -site:munpia.com",
+      "\"교토식 화법\" \"2026\" 패러디"
+    ],
+    "index_queries": [
+      "개콘",
+      "갱갱",
+      "고만해",
+      "그만해",
+      "굉장",
+      "교토",
+      "국밥",
+      "국힙",
+      "군필",
+      "먹는건가",
+      "나가있어"
+    ],
+    "sources": [
+      "https://bigtanews.co.kr/article/view/big202610120012",
+      "https://igm.or.kr/insight/561"
+    ],
+    "limits": "Each one group. Medium rewritten summary excluded. Quasarzone comment not recovered. No promotion."
+  },
+  "metrics": {
+    "observations": 3252,
+    "distinct": 2734
+  },
+  "ci_952": {
+    "run": 44232329565,
+    "conclusion": "success",
+    "steps": 65,
+    "python_tests": 495
+  },
+  "limits": "No promotion. Candidate source reads are worker reads, editor verification pending. 953 CI still running."
+}

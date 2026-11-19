@@ -1,0 +1,106 @@
+{
+  "base": "c5dbc0d8fe7408d1d2dac3241254ea805472b5d4",
+  "new_entries": 0,
+  "semantic_correction": {
+    "candidate": "팬은 아님",
+    "existing": "swings-denial",
+    "note": "정확검색 무일치가 신규를 의미하지 않음. 기존 본문 변경 없이 근거 보강 자료만 보존.",
+    "sources": [
+      "https://maily.so/marsinmarine/posts/8do7pdgnogq",
+      "https://www3.osen.co.kr/article/G1112899813",
+      "https://www.etoday.co.kr/news/view/2630550"
+    ],
+    "evidence": "작업자 직접 본문 확인: 뉴스레터 제목 자체 변형1건+OSEN 댓글 변형 보도. 원SNS 미확인. 이투데이 동일확산 설명은 추가사건으로 세지 않음."
+  },
+  "candidate_queries": [
+    {
+      "query": "팬은",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "팬아님",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "스윙스",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "호감",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "이성적",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "입덕",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "부정기",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "좋아하는 건",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    },
+    {
+      "query": "반한 건",
+      "source": "reports/bulk/connector-resume-audit-screening-161.json",
+      "status": "semantic-screening",
+      "canonical_family_found": "swings-denial",
+      "note": "모든 문자열이 일치한 것은 아님. 이성적/반한 건 확장 대조에서 기존 가족 확인."
+    }
+  ],
+  "audit": {
+    "commit": "46daf80b4cf457b1569643d1a632a02f6eb1f86d",
+    "baseline": "f3cf501549f1c4f8d327ee13c904e9ed85ed2a33",
+    "method": "독립 작업자의 GitHub 원문 읽기 및 JS 재계산",
+    "canonical": 870,
+    "new_bodies_read": 44,
+    "existing_body_changes": 0,
+    "index_unique_ids": 870,
+    "new_manual_links": 44,
+    "field_mismatches": 0,
+    "broken_new_links": 0,
+    "normalized_collisions": 0,
+    "readme_exact": true,
+    "topics_exact": true,
+    "usage_profiles_exact": true,
+    "coverage": {
+      "all": 870,
+      "annotated": 74,
+      "reviewed": 73,
+      "unannotated": 796
+    },
+    "fixture_reviewed": 73,
+    "fixture_usages": 88,
+    "fixture_id_and_pair_lists_exact": true,
+    "limits": "고정870감사로 이후 탭탭이는 대상외. CLI/Python/전체테스트/사실관계 전면재검증 아님."
+  }
+}

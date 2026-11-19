@@ -1,0 +1,66 @@
+{
+  "batch": 256,
+  "canonical_before": 915,
+  "canonical_after": 916,
+  "added": "unnie-will-do-better",
+  "queries": [
+    "\"2026\" \"밈\" site:bugs.co.kr/musicpd",
+    "\"2026\" \"밈\" site:genie.co.kr \"매거진\" -mim",
+    "\"2026\" \"밈\" site:newsroom.kakao.com",
+    "\"밈\" site:genie.co.kr/magazine/subMain \"2026\"",
+    "\"밈\" site:magazine.weverse.io \"2026\"",
+    "\"밈\" site:postype.com \"2026\" \"유행\"",
+    "\"천사 이미지\" \"밈\"",
+    "\"그렇게 안 봤는데\" \"무서운 회사\" -site:genie.co.kr",
+    "\"언니가 불편해\" \"밈\"",
+    "\"언니가 불편해\" \"2026\"",
+    "\"언니가 잘할게\" \"2026\" -site:namu.moe",
+    "\"언니가 불편해\" 유래",
+    "\"언니가불편해\"",
+    "\"언니가 어려워\" \"언니가 싫어\"",
+    "\"언니가 잘할게\" 밈",
+    "\"언니가 불편해\" \"2023\"",
+    "\"언니가 잘할게\" 밈 유래"
+  ],
+  "index_queries": [
+    "언니가",
+    "잘할게",
+    "천사이미지",
+    "심포니",
+    "가정용",
+    "불편해"
+  ],
+  "evidence": {
+    "text_applications": 3,
+    "source_families": 2,
+    "exact_dated_posts": 2,
+    "genie_publication_date": "unknown; event dates not publication",
+    "images_videos_reviewed": 0,
+    "origin": "unknown; not claimed new2026"
+  },
+  "holds": [
+    "천사 이미지밖에 없잖아요",
+    "그렇게 안 봤는데 정말 무서운 회사네요",
+    "심포니 돌핀",
+    "가정용"
+  ],
+  "semantic_duplicates": [
+    "2026-is-new-2016",
+    "italian-brainrot",
+    "header-problem-solved",
+    "rubber-squeezing"
+  ],
+  "full_tree_audit_before": {
+    "head": "07b5fd4b89ee3d42b8c251f17050a7e5162f5b9f",
+    "truncated": false,
+    "tree_paths": 915,
+    "index_entries": 915,
+    "missing": [],
+    "extra": []
+  },
+  "metrics": {
+    "query_observations": 1738,
+    "distinct_literal_queries": 1414
+  },
+  "ci": "not run"
+}

@@ -1,0 +1,29 @@
+{
+  "batch": 424,
+  "base": "e29c8d0e01623fa6def63265fe5e3007b106bc3d",
+  "canonical_before": 1002,
+  "canonical_after": 1003,
+  "added": [
+    "inje-sinnam-sign"
+  ],
+  "research_reference": "reports/bulk/connector-resume-wave30-423.json",
+  "new_queries": 0,
+  "candidate_changes": [],
+  "source_reads": {
+    "editor": 3,
+    "independent_auditor": 3,
+    "images_videos": 0,
+    "individual_social_posts": 0
+  },
+  "independent_audit": {
+    "passed": true,
+    "required_changes": 0,
+    "scope": "표지판 여행 반응 취재·보도1군과 지자체 포토존 응용 사업 보도1군.같은지역홍보흐름,독립개인원문2개아님.6월두기사는같은설치사업.2월이미굿즈소개,6월최초상품화단정금지."
+  },
+  "limits": [
+    "최초 발생 미확정",
+    "규모 및 홍보효과 미검증",
+    "최근 보도일이 최초발생일 아님"
+  ],
+  "ci_new_commit": "pending"
+}

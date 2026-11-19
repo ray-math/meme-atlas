@@ -1,0 +1,305 @@
+{
+  "batch": 476,
+  "base": "e16fd782a36d37956c0c135146405dcc5d695cec",
+  "canonical_before": 1398,
+  "canonical_after": 1409,
+  "added": [
+    "iris-ah-andwae-reenactment",
+    "teletubbies-time-to-stop-quote",
+    "otaku-interest-designation",
+    "falling-waffle-character-edit",
+    "gift-box-anticlimax-message",
+    "birthday-webpage-sharing",
+    "photo-frying-image-play",
+    "insiljot-consequence-label",
+    "second-alice-unexpected-edit",
+    "pokemon-lookalike-result-sharing",
+    "hear-me-out-cake-introduction"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0833",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "iris-ah-andwae-reenactment"
+    },
+    {
+      "id": "kr-list-0863",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "teletubbies-time-to-stop-quote"
+    },
+    {
+      "id": "kr-list-0789",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "otaku-interest-designation"
+    },
+    {
+      "id": "kr-list-0798",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "falling-waffle-character-edit"
+    },
+    {
+      "id": "kr-list-0875",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "insiljot-consequence-label"
+    },
+    {
+      "id": "kr-list-0878",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "second-alice-unexpected-edit"
+    }
+  ],
+  "previous_ci": {
+    "sha": "e16fd782a36d37956c0c135146405dcc5d695cec",
+    "run": 44302681826,
+    "job": 134796166020,
+    "status": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 81.388s"
+  },
+  "previous_audit": {
+    "batch": 475,
+    "status": "PASS",
+    "mandatory": 0,
+    "urls": 15,
+    "oldPreserved": 1387,
+    "new": 11,
+    "changedFiles": 20,
+    "mappingLoss": 0,
+    "usage": {
+      "entries": 1398,
+      "annotated": 74,
+      "reviewed": 73,
+      "unannotated": 1324
+    }
+  },
+  "research": {
+    "A31": {
+      "count": 20,
+      "recommended": 2,
+      "held": 18,
+      "queries": [
+        "\"왕사슴 가이즈\"",
+        "\"왕이되는자\" 광고 패러디",
+        "\"요! 요요!\" 밈",
+        "\"우리 업계에서는 포상입니다\"",
+        "\"우마우마\" 패러디",
+        "\"우연히\" 밈",
+        "\"원앙시해자\"",
+        "\"유루유리 하지마루요\"",
+        "\"육군 we 육군\"",
+        "\"의학적인 근거가 없습니다\" 밈",
+        "\"으악 안 돼\" 이병헌 광고",
+        "\"의문의\" \"행\" 드립",
+        "\"이\" \"무료로 해줍니다\" 밈",
+        "\"이건 정말 듣도 보도 못한 발상이군\"",
+        "\"이봐요 미친놈씨\"",
+        "\"이세계물 드립\"",
+        "\"이제 그만\" \"텔레토비\" 패러디",
+        "\"이쿠요\" 춤 밈",
+        "\"인문학적 변태\"",
+        "\"인싸개그\"",
+        "\"이병헌\" \"브롤스타즈\" \"아이리스\" 광고 2019"
+      ],
+      "notes": "0833 specific Iris advertising reenactment;0863 specific Teletubbies closure quote;other18 held not proven absent"
+    },
+    "A32": {
+      "count": 20,
+      "existing": 8,
+      "partial": 2,
+      "recommended": 2,
+      "held": 8,
+      "queries": [
+        "\"인실좆\" 뜻",
+        "\"인주 앨리스\" 패러디",
+        "\"일부러 PC방에는 꾀죄죄하게\"",
+        "\"자러감\" \"드립\"",
+        "\"아자핑\" \"하츄핑\"",
+        "\"와플핑\" \"핫케핑\"",
+        "\"일본 대단해\" 택시",
+        "\"인증 대란\" 밈",
+        "\"인실좆\" \"신문\"",
+        "\"자러감\" \"짤\" \"귀여우면\""
+      ],
+      "notes": "0875 neutral critical definition only;0878 narrow sequence parody not whole song.10existing bodies read."
+    },
+    "B497": {
+      "count": 20,
+      "recommended": 3,
+      "existing": 11,
+      "held": 5,
+      "excluded": 1,
+      "queries": [
+        "2026 \"밈\" \"놀이\" site:incross.com",
+        "2026 \"유행\" \"챌린지\" site:gogumafarm.kr \"사진\"",
+        "2026 \"밈\" \"공유\" site:maily.so \"11월\"",
+        "2026 \"선물상자\" \"허채영\"",
+        "2026 \"사진\" \"튀김\" \"사이트\"",
+        "2026 \"성취 케이크\""
+      ],
+      "notes": "Two Incross documents same publisher, no live app/media checked;recommended gift-box anticlimax,birthday page sharing,photo frying;held drawing music,foldable brand parody,achievement cake,HearMeOut cake,Pokemon image classifier"
+    },
+    "B498": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 5,
+      "held": 12,
+      "excluded": 1,
+      "queries": [
+        "\"성취 케이크\" \"투어스\"",
+        "\"Hear Me Out\" \"케이크\" 한국",
+        "\"Playmusictheory\" 한국",
+        "\"2026\" \"밈\" \"사진 놀이\"",
+        "\"성취 케이크\" \"만들었다\"",
+        "\"성취 케이크\" \"투어스\" \"2025\""
+      ],
+      "notes": "Two held candidates recovered;Pokemon recent dated2025-11-19,HearMeOut historical2025-11-11. Not20unique new candidates. Achievement cake held;image/media0"
+    },
+    "C13": {
+      "count": 20,
+      "existing": 7,
+      "partial": 4,
+      "recommended": 2,
+      "held": 7,
+      "queries": [
+        "\"오 샹젤리제\" 밈",
+        "\"오 필승 코리아\" 패러디",
+        "\"와퍼\" \"밈\"",
+        "\"와플\" \"밈\"",
+        "\"오물 풍선\" 패러디 밈",
+        "\"오타쿠\" 뜻 문화 용어",
+        "\"오타쿠가 정치글을\"",
+        "\"옴마니반메훔\" \"밈\"",
+        "\"옥동자\" \"유행어\"",
+        "\"와퍼\" \"뜻\" \"밈\"",
+        "\"와플\" \"넘어지는\" 밈",
+        "\"옴마니반메훔\" 패러디"
+      ],
+      "notes": "0789 bounded designation;0798 character compositing only. Waffle two Korean explainers not two Korean creators; date inconsistency excludes precise revival month."
+    },
+    "editor": {
+      "count": 6,
+      "existing": 6,
+      "queries": [
+        "2026 \"체포하겠어\" \"패러디\"",
+        "2026 \"밈\" \"11월\" site:gogumafarm.kr",
+        "2026 \"밈\" \"10월\" site:careet.net \"챌린지\""
+      ],
+      "notes": [
+        "6GogumaOct27formsunderarrest/myemoji/backview/eternal/cannothide/illegalexistingconfirmed;nooriginalmedia.",
+        "Illegalreplynotinsearchindexbutexistingcannot-hidehistoryexplicitlyincludesit;bodyreadconfirmed,notnew."
+      ]
+    },
+    "editor2": {
+      "count": 4,
+      "queries": [
+        "2026 11 \"밈\" site:careet.net/Newsletter",
+        "2026 11 \"밈\" site:maily.so \"새로운\"",
+        "2026 \"요즘\" \"밈\" site:univ20.com/Magazine/Detail"
+      ],
+      "notes": [
+        "4probesfamilyterms/freezedry/fullmoon;outcomespending."
+      ],
+      "existing": 4
+    }
+  },
+  "sources": [
+    {
+      "id": "iris-ah-andwae-reenactment",
+      "urls": [
+        "https://news.nate.com/view/20190325n02772"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "teletubbies-time-to-stop-quote",
+      "urls": [
+        "https://sports.khan.co.kr/article/200805022112266?cat=view",
+        "https://gj.pass.or.kr/promotion-promotion_video/view/page/5/id/1969"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "otaku-interest-designation",
+      "urls": [
+        "https://press.changwon.ac.kr/news/articlePrint.html?idxno=1031753",
+        "https://koi.inu.ac.kr/pages/?b=B_1_5&bn=2169&m=read&p=23"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "falling-waffle-character-edit",
+      "urls": [
+        "https://whitefaceone.tistory.com/3364",
+        "https://v.daum.net/v/6PJlkadYw2"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gift-box-anticlimax-message",
+      "urls": [
+        "https://incross.com/ko/insight/report.asp?idx=11069&mode=view&page="
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "birthday-webpage-sharing",
+      "urls": [
+        "https://incross.com/ko/insight/report.asp?idx=11069&mode=view&page="
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "photo-frying-image-play",
+      "urls": [
+        "https://www.incross.com/ko/insight/report.asp?idx=11085&mode=view"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "insiljot-consequence-label",
+      "urls": [
+        "https://tjfaudqht.tistory.com/1354"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "second-alice-unexpected-edit",
+      "urls": [
+        "https://whitefaceone.tistory.com/3035"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pokemon-lookalike-result-sharing",
+      "urls": [
+        "https://www.incross.com/ko/insight/report.asp?idx=10636&mode=view&page=6&pageSize=12&searchStr=&serboardsort="
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hear-me-out-cake-introduction",
+      "urls": [
+        "https://womenlink.or.kr/member_activities/?bmode=view&idx=168552879"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "11 bounded entries;historical versus recent separated;3 Incross formats same publisher not3independent origins.",
+    "Original prose;no lyrics;no images/videos/live apps executed. Waffle publication/body date inconsistency excludes exact revival month.",
+    "Iris original candidate wording differs from quoted line;generic title covered only through specific reenactment.",
+    "Otaku and insiljot critical definitions,not stereotyping or legal advice. Prior mappings preserved."
+  ],
+  "query_observations": 9277,
+  "distinct_literal_queries": 7877,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

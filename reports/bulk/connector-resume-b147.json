@@ -1,0 +1,37 @@
+{
+  "batch": "connector-resume-b147",
+  "base": "db37dab70e745a76c5b433ecdd2d46e2d63d38c3",
+  "entries": [
+    {
+      "id": "emoji-back-view-reveal",
+      "sources": [
+        {
+          "url": "https://imginn.com/p/DeY6CuzGkiF/",
+          "observed": "미러캡션2026-10-12 뚝딱감자 뒷모습/감자무늬바지. 고구마팜이연결한IG게시물ID일치."
+        },
+        {
+          "url": "https://imginn.com/p/DejLEZ0GgWT/",
+          "observed": "미러캡션2026-10-16 스크럽대디 AI제작/#noto3d 표기. 원IG ID일치."
+        },
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=21121&mode=view&page=1&pageSize=12&searchStr=&serboardsort=9",
+          "observed": "2026-10-21 스크럽대디 패러디 구체보고. 실제이모지디자인 아닌 상상이미지라고명시."
+        },
+        {
+          "url": "https://gogumafarm.kr/나-왜-유행-밈-소개가-영원할-거-같지-2026년-10월-최신-밈-모/",
+          "observed": "2026-10-27 스크럽대디/뚝딱감자 두참여와원IG링크. 동일사건 반복보도를더세지않음."
+        }
+      ],
+      "distinct_usage_events": 2,
+      "evidence_level": "제3자미러 게시물캡션2건 +독립매체 사례보고. 원IG본문/이미지직접검증아님.",
+      "bounds": "원이미지미관찰. 디자인최초발생일/기술자산버전/수정일단정하지않음."
+    }
+  ],
+  "checks": {
+    "result_entries": 859,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

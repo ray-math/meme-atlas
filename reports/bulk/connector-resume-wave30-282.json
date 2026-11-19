@@ -1,0 +1,37 @@
+{
+  "batch": 282,
+  "canonical_before": 925,
+  "canonical_after": 925,
+  "added": [],
+  "research_a": {
+    "queries": [
+      "\"2026.11\" \"챌린지\" \"패러디\"",
+      "\"2026년 11월\" \"밈\" \"공식\"",
+      "\"2026\" \"11월\" \"챌린지\" site:clip.imbc.com",
+      "\"기니 우리겠어\" -site:mynews60045.tistory.com -site:namu.moe",
+      "\"룩스 캔 킬\" \"챌린지\" \"11월\"",
+      "\"2026\" \"11\" \"챌린지\" site:tv.jtbc.co.kr/clip",
+      "\"룩스 캔 킬\" \"전현무\" \"11월\"",
+      "\"기니 우리겠어\" site:theqoo.net"
+    ],
+    "index_queries": [
+      "룩스",
+      "Looks Can Kill",
+      "기니 우리겠어",
+      "꿍싯"
+    ],
+    "source": "https://newspim.com/news/view/20261028001495",
+    "note": "oneagencyreleasefamily Oct28, noindependentsecond; IVEkkungsit not HALCALI/Ryoexisting; video0"
+  },
+  "root_queries": [
+    "\"2026\" \"11월\" \"챌린지\" \"패러디\" -site:instablank.com -site:namu.moe",
+    "\"2026\" \"11월\" \"밈\" \"공식\" -site:instablank.com -site:namu.moe"
+  ],
+  "parent_direct_read": "https://newspim.com/news/view/20261028001495",
+  "decision": "hold: distinct participants in one agency release not independent corroboration; lyrics joke and songdance not conflated; do not overwrite HALCALI entry; counts from release not adopted",
+  "metrics": {
+    "query_observations": 2351,
+    "distinct_literal_queries": 1908
+  },
+  "ci": "not run"
+}

@@ -1,0 +1,317 @@
+{
+  "batch": 496,
+  "base": "6aeca93fb797e74c2b628ea7ff97e38ed500d813",
+  "canonical_before": 1591,
+  "canonical_after": 1603,
+  "added": [
+    "sean-opry-niche-taste-reaction",
+    "food-alchemist-swap-edit",
+    "lost-parking-ost-parody",
+    "monster-can-logo-letter-play",
+    "paper-plane-message-reveal",
+    "night-letter-front-back-contrast",
+    "red-cheat-map-metaphor",
+    "cheonsang-cheonha-comedy-catchphrase",
+    "less-than-three-heart-misreading",
+    "spiderman-wall-pose-challenge",
+    "ai-audience-field-entry",
+    "deliberately-clumsy-ai-doodle"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0579",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "red-cheat-map-metaphor"
+    },
+    {
+      "id": "kr-list-0982",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "cheonsang-cheonha-comedy-catchphrase"
+    }
+  ],
+  "previous_ci": {
+    "run": 44328065463,
+    "job": 134884627587,
+    "conclusion": "success",
+    "steps": 65,
+    "python": [
+      "Ran 495 tests in 116.108s"
+    ]
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "required_fixes": 0,
+    "entries": 1591,
+    "changed_files": 20,
+    "unique_source_urls": 16,
+    "old_entries_unchanged": 1580
+  },
+  "research": {
+    "A74": {
+      "tally": {
+        "observations": 20,
+        "recommended": 1,
+        "held": 19
+      },
+      "queries": [
+        "\"독일초딩\" \"패러디\"",
+        "\"동전줍는 징징이\"",
+        "\"더 마스터를 기억해줘\"",
+        "\"롯데햄 후라이드 치킨\" 광고",
+        "\"롯데햄\" \"로보캅\" -site:namu.moe -site:seore.org -site:tcatmon.com",
+        "\"독일초딩\" 패러디 -site:namu.moe -site:seore.org -site:tcatmon.com",
+        "\"벽부수기\" 밈 -site:namu.moe",
+        "\"봇이지 뭐\" -site:namu.moe -site:seore.org",
+        "\"빨강 사기맵\" -site:namu.moe",
+        "\"박씨 꺼져\" -site:namu.moe",
+        "\"마인크래프트\" \"19금\" 패러디",
+        "\"면제겜\" 뜻 -site:namu.moe",
+        "\"빨강 사기맵\" 뜻 -site:namu.moe -site:seore.org",
+        "\"대자보\" \"시국선언\" \"패러디\"",
+        "\"브베\" \"밈\" -site:namu.moe",
+        "\"밥 먹을 때 생각나는\" \"후라이\" -site:namu.moe",
+        "\"박위상태\" 뜻 -site:namu.moe -site:seore.org",
+        "\"베트남론\" 용어 비판 -site:namu.moe",
+        "\"만희물\" 패러디 -site:namu.moe -site:seore.org",
+        "\"선샤인 몰라도 된다\" -site:namu.moe -site:seore.org"
+      ],
+      "recommendation": {
+        "candidate_id": "kr-list-0579",
+        "id": "red-cheat-map-metaphor",
+        "sources": [
+          "https://rityn.tistory.com/53",
+          "https://labongbong.tistory.com/1648",
+          "https://podcasts.apple.com/kr/podcast/가난해진-유럽-그리고-대한민국/id1639494417?i=1000649785806"
+        ]
+      }
+    },
+    "A75": {
+      "tally": {
+        "observations": 20,
+        "recommended": 1,
+        "held": 19
+      },
+      "queries": [
+        "\"안전가족\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"애는 있습니다\" 밈 -site:namu.moe",
+        "\"얼리 엑세스 예시를 보여줌\" -site:namu.moe",
+        "\"엄마도 사람이야 사람\" -site:namu.moe",
+        "\"야후 꾸러기\" \"밈\" -site:namu.moe",
+        "\"오 샹젤리제\" \"밈\" -site:namu.moe",
+        "\"오타쿠가 정치글을\" -site:namu.moe -site:seore.org",
+        "\"오 필승 코리아\" \"패러디\"",
+        "\"옴마니반메훔\" 밈 -site:namu.moe",
+        "\"와퍼\" \"밈\" -site:namu.moe",
+        "\"왕사슴 가이즈\" -site:namu.moe -site:seore.org",
+        "\"왕이되는자\" \"패러디\" -site:namu.moe",
+        "\"요 요요\" \"밈\" -site:namu.moe",
+        "\"우연히\" \"검사\" \"밈\" -site:namu.moe",
+        "\"잭 오 챌린지\" -site:namu.moe",
+        "\"제 딸을 살해한 놈들을\" -site:namu.moe -site:seore.org",
+        "\"조이는 보이\" 밈 -site:namu.moe",
+        "\"직구 금지\" \"패러디\"",
+        "\"천상천하 유아독존\" \"밈\" -site:namu.moe",
+        "\"초난강\" \"패러디\"",
+        "\"천상천하 유아독존\" \"이정수\"",
+        "\"초난강\" \"사랑해요\" \"패러디\"",
+        "\"왕이되는자\" 광고 패러디 -site:namu.moe -site:seore.org",
+        "\"안전가족\" \"행정안전부\" \"패러디\" -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ],
+      "recommendation": {
+        "id": "cheonsang-cheonha-comedy-catchphrase",
+        "candidate_id": "kr-list-0982",
+        "sources": [
+          "https://dbr.donga.com/article/view/1303/article_no/9677",
+          "https://m.ytn.co.kr/news_view.amp.php?param=0106_201209211341586802"
+        ]
+      }
+    },
+    "B543": {
+      "tally": {
+        "observations": 20,
+        "recommended": 0,
+        "existing": 8,
+        "held": 7,
+        "excluded": 5
+      },
+      "queries": [
+        "2026 \"밈\" \"따라\" site:univ20.com",
+        "2026 \"놀이\" \"인스타그램\" site:allurekorea.com",
+        "2026 \"밈\" \"재현\" site:hani.co.kr",
+        "2026 \"챌린지\" \"따라\" site:busan.com",
+        "2026 \"밈\" \"패러디\" site:news.imaeil.com",
+        "2026 \"놀이\" \"공유\" \"사진\" site:eyesmag.com",
+        "2026 \"챌린지\" \"재현\" -\"금정산\" -\"티라미수\"",
+        "\"오버드라이브\" \"챌린지\" 2026",
+        "\"노젓기\" \"챌린지\" 2026"
+      ],
+      "notes": "Requested performances in chimhaha907811 are not completion. NewsPim20260123000976 actual angtal=overdrive existing."
+    },
+    "B544": {
+      "tally": {
+        "observations": 20,
+        "recommended": 1,
+        "existing": 4,
+        "held": 11,
+        "excluded": 4
+      },
+      "queries": [
+        "2026 \"밈\" \"패러디\" site:newsis.com",
+        "2026 \"사진\" \"놀이\" site:careet.net",
+        "2026 \"유행\" \"따라\" site:designdb.com",
+        "\"세상에서 제일 하찮은\" \"프롬프트\"",
+        "\"호신술 밈\" 원주 2026",
+        "\"얼굴\" \"그림\" \"놀이\" \"2026\" \"프로크리에이트\""
+      ],
+      "notes": "Doodle original images unviewed; DI self-application one producer. Caption generation photo1407 held for scope review."
+    },
+    "C57": {
+      "tally": {
+        "observations": 20,
+        "recommended": 6,
+        "existing": 3,
+        "held": 11
+      },
+      "queries": [
+        "site.maily.so \"2026\" \"밈\" \"11월\"",
+        "site:univ20.com \"2026\" \"밈\"",
+        "site:tpick.co.kr \"2026\" \"챌린지\"",
+        "site:careet.net \"2026\" \"밈\" \"댓글\"",
+        "site:gogumafarm.kr \"2026\" \"밈\" \"9월\"",
+        "site:maily.so \"2026\" \"밈\" \"합성\""
+      ],
+      "notes": "Known source reexamined, six bounded segments not new URL. No media. Suggestion sentences excluded.",
+      "source": "https://gogumafarm.kr/거북아-그-속도론-알고리즘-못-따라가-당장-따라해야/",
+      "recommendations": [
+        "션오프리취향반응",
+        "음식연금술사",
+        "주차위치잊음OST",
+        "몬스터캔로고문자",
+        "종이비행기홍보반전",
+        "밤편지앞뒤대비"
+      ]
+    },
+    "C58": {
+      "tally": {
+        "observations": 20,
+        "recommended": 3,
+        "existing": 8,
+        "held": 9
+      },
+      "queries": [
+        "site:incross.com \"2026\" \"밈\" \"8월\"",
+        "site:blog.hsad.co.kr \"2026\" \"밈\" \"7월\"",
+        "site:careet.net \"2026\" \"댓글\" \"챌린지\"",
+        "\"너<3\" \"밈\"",
+        "\"스파이더맨\" \"켄신\" \"챌린지\"",
+        "\"관중 난입\" \"AI\" \"김가은\""
+      ],
+      "notes": "Audience invasion recovered hold; <3 linked application403. Incross newsletter single source, mirrors not independent."
+    }
+  },
+  "sources": [
+    {
+      "id": "sean-opry-niche-taste-reaction",
+      "urls": [
+        "https://gogumafarm.kr/거북아-그-속도론-알고리즘-못-따라가-당장-따라해야/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "food-alchemist-swap-edit",
+      "urls": [
+        "https://gogumafarm.kr/거북아-그-속도론-알고리즘-못-따라가-당장-따라해야/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "lost-parking-ost-parody",
+      "urls": [
+        "https://gogumafarm.kr/거북아-그-속도론-알고리즘-못-따라가-당장-따라해야/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "monster-can-logo-letter-play",
+      "urls": [
+        "https://gogumafarm.kr/거북아-그-속도론-알고리즘-못-따라가-당장-따라해야/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "paper-plane-message-reveal",
+      "urls": [
+        "https://gogumafarm.kr/거북아-그-속도론-알고리즘-못-따라가-당장-따라해야/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "night-letter-front-back-contrast",
+      "urls": [
+        "https://gogumafarm.kr/거북아-그-속도론-알고리즘-못-따라가-당장-따라해야/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "red-cheat-map-metaphor",
+      "urls": [
+        "https://rityn.tistory.com/53",
+        "https://labongbong.tistory.com/1648",
+        "https://podcasts.apple.com/kr/podcast/가난해진-유럽-그리고-대한민국/id1639494417?i=1000649785806"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "cheonsang-cheonha-comedy-catchphrase",
+      "urls": [
+        "https://m.ytn.co.kr/news_view.amp.php?param=0106_201209211341586802",
+        "https://dbr.donga.com/article/view/1303/article_no/9677"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "less-than-three-heart-misreading",
+      "urls": [
+        "https://www.incross.com/ko/insight/report.asp?idx=11022&mode=view"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "spiderman-wall-pose-challenge",
+      "urls": [
+        "https://www.incross.com/ko/insight/report.asp?idx=11022&mode=view"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ai-audience-field-entry",
+      "urls": [
+        "https://blog.hsad.co.kr/3751"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "deliberately-clumsy-ai-doodle",
+      "urls": [
+        "https://view.asiae.co.kr/article/2026050609351105938",
+        "https://ditoday.com/완벽하기만-해선-외면받는다-하찮은-ai-그림이-뜨는/"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Twelve source-bounded additions;0579 and0982 unclear→partial only; existing1591 text/index unchanged.",
+    "Six short entries reuse one known October20 Goguma contributor article; not six independent sources and not new URL discovery. Brand proposals excluded.",
+    "Apple red-map page parent read succeeded but independent auditor retry failed; two blog sources independently reopened. Economic and historical claims not adopted.",
+    "Historical red-map and comedy-catchphrase separate from recent2026 uses. <3 is reported parody, not verified AI response. Spider pose no instructions/safety claims; audience entry explicitly fictional.",
+    "Doodle self-generated captions one media organization, not multiple independent users. No media/service execution, no Codex/main changes; current CI pending."
+  ],
+  "query_observations": 11196,
+  "distinct_literal_queries": 9216,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

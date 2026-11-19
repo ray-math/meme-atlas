@@ -1,0 +1,128 @@
+{
+  "batch": 369,
+  "base": "f79f8d70f0d63814582e5a20b4fd00db8ab788aa",
+  "canonical_before": 977,
+  "canonical_after": 977,
+  "added": [],
+  "independent_audit": {
+    "id": "rumors-of-paradise-challenge",
+    "head": "f79f8d70f0d63814582e5a20b4fd00db8ab788aa",
+    "result": "passed;no mandatorycorrections",
+    "source_reads": 3,
+    "limits": "Officialintro1+separateeventreport1;formarticleonly,Incrosscitationnotadditionalindependentreport. Datespublicationnotcampdate;videos/images0,participantprivacypreserved. Derivedfiles outsideaudit."
+  },
+  "researchA": {
+    "focused": 1,
+    "id": "kr-list-0065",
+    "held": 1,
+    "recommended": 0,
+    "queries": [
+      "\"문단속\" \"2026\" \"패러디\" -site:namu.moe -site:namu.wiki",
+      "\"꾸대표의 문단속\"",
+      "\"별의 문단속\"",
+      "\"문단속\" \"패러디\" \"2025\" -site:namu.moe -site:namu.wiki -스즈메의문단속",
+      "\"별의 문단속\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "\"문단속\" \"제목을 패러디\"",
+      "\"스드메의 문단속\" 국세청",
+      "\"별의 문단속\" \"스즈메\" -site:namu.moe -site:namu.wiki",
+      "\"문단속\" \"패러디\" \"2026\" 국세청 -site:namu.moe -site:namu.wiki",
+      "\"꾸대표의 문단속\" site:youtube.com",
+      "\"별의 문단속\" \"2026\" site:youtube.com"
+    ],
+    "sources": [
+      {
+        "url": "https://www.merry-go-round.co.kr/about.html",
+        "scope": "L133-135 July2025relaunch andL206-211title;Dec2022channelcreationnotshowstart;notexplicitfilmderivation"
+      },
+      {
+        "url": "https://bwajuma.club/?staff=%EA%BE%B8%EB%8C%80%ED%91%9C&t.kind=%EB%B8%8C%EC%9D%B4%EB%A1%9C%EA%B7%B8",
+        "scope": "Oct12 2026aggregatoronly;individualimage-only,nooriginalrecovery"
+      },
+      {
+        "url": "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1008019996",
+        "date": "2025-03-14",
+        "scope": "Explicitfilmparodyreport,sourcedHankyung/NTS;outside1year"
+      }
+    ],
+    "limits": "Recentdirectapplications2notmet;images/videos0;sdmhiddencost.com body0notverified."
+  },
+  "semantic_audit": {
+    "ids": [
+      "0927",
+      "0928",
+      "0933",
+      "0940",
+      "0960",
+      "0965",
+      "0972",
+      "0982",
+      "0986",
+      "1011",
+      "1015",
+      "1017",
+      "1021",
+      "1022",
+      "1023",
+      "1026",
+      "1030",
+      "1038",
+      "1041",
+      "1056"
+    ],
+    "result": "20unclear unchanged",
+    "bodies": [
+      "ts-malfoy",
+      "jo-ta",
+      "whos-on-first",
+      "jangan-narang-jigeum",
+      "i-became-template",
+      "ex-girlfriend-peeler"
+    ],
+    "queries": [
+      "젠더|성별",
+      "제네시스",
+      "존나좋군|좋군|좋다",
+      "죽습니다|죽겠",
+      "직구|해외.?구매",
+      "진순|진라면",
+      "찌질",
+      "천상천하|유아독존",
+      "초난강|쿠사나기",
+      "노인전|노인",
+      "케경호|케인",
+      "코리안.?조커|조커",
+      "콩|홍진호",
+      "콩진호|홍진호",
+      "쿄레기|쿄",
+      "클로저스|성우",
+      "킹 오브 프리즘|프리즘",
+      "테크놀로지아|technology",
+      "택배|배송",
+      "파피|허기.?워기"
+    ],
+    "limits": "Wholeperson/game/policy/controversy notspecificmeme;sharedtopic/substringnotlink. Notverifiedomissions."
+  },
+  "editor": {
+    "queries": [
+      "\"2026\" \"밈\" \"소방\" \"제목\"",
+      "\"2026\" \"밈\" \"국세청\" 패러디",
+      "\"엄\" \"밈\" \"마인카세\"",
+      "\"하이닉스느님\" 패러디"
+    ],
+    "status": "Noadditionalcanonical",
+    "existing": "hynix-vest-reversal",
+    "held": "이번엄은다르다: Aug19newsletter directexplanation1;source Xnotread,assignedfollowup",
+    "source": "https://minenews.stibee.com/p/569",
+    "limits": "AI-generatedfictionalchat excerpt notrealidolincident;origin/applicationunverified. Governmentsearch unrelatedaggregators/nonspecificleadsnotcountedvalidated."
+  },
+  "ci": {
+    "body977": {
+      "run": 44242875497,
+      "job": 134594719943,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 75.601
+    }
+  }
+}

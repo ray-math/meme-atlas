@@ -1,0 +1,151 @@
+{
+  "batch": 368,
+  "base": "7f2b77d226d1c2d2378a5b241245550a8c8dad43",
+  "canonical_before": 976,
+  "canonical_after": 977,
+  "added": [
+    "rumors-of-paradise-challenge"
+  ],
+  "researchA": {
+    "observations": 8,
+    "existing": 5,
+    "held": 2,
+    "recommended": 1,
+    "existing_ids": [
+      "54000",
+      "my-emoji",
+      "hundred-joke",
+      "bomiguna-christina",
+      "hyumdae-meat"
+    ],
+    "held_notes": "뽈롱랜드땃쥐:originalcreatorintroduced Sep9newsletter,noindependentapplication. 김민:secondarylists,nooriginal,notwholepersonlife.",
+    "queries": [
+      "\"2026\" \"밈\" \"사내\" \"패러디\"",
+      "\"2026\" \"밈\" \"도서관\" \"제목\"",
+      "\"2026\" \"밈\" \"따라\" \"뉴스레터\" -site:namu.moe",
+      "\"따뜻하구나\" \"2026\" -site:instablank.com -site:namu.moe",
+      "\"이쁘구나\" \"크리스티나\" 패러디",
+      "\"혐대고기\" \"2026\" -site:jjalbang.today -site:namu.moe",
+      "\"땃쥐\" \"패러디\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "\"땃쥐\" \"챌린지\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "\"김민 따라하기\" \"2026\" -site:jjalbang.today -site:namu.moe",
+      "\"소문의 낙원\" \"챌린지\" \"예산군\"",
+      "\"소문의 낙원\" \"챌린지\" \"공식\" -site:namu.moe -site:namu.wiki"
+    ],
+    "index_queries": [
+      "54000",
+      "이모지",
+      "100명",
+      "김민",
+      "따뜻하구나",
+      "할머니",
+      "가로등",
+      "구나",
+      "크리스티나",
+      "봄이",
+      "혐대",
+      "땃쥐",
+      "뽈롱",
+      "소문의",
+      "낙원",
+      "땃",
+      "뽈롱랜드",
+      "악뮤",
+      "AKMU"
+    ],
+    "sources": [
+      "https://www.kosac.re.kr/menus/252/sns/youtube/feed",
+      "https://pajusidae.com/article/23976",
+      "https://www.ledesk.co.kr/view.php?uid=15842",
+      "https://minenews.stibee.com/p/578"
+    ],
+    "limits": "Officialtitle/description1 + separateeventreport1,formdescriptionreport. LeDesk quotesIncross notindependentreports. Videos/images0;eventdateunknown,reportJune2."
+  },
+  "semantic_audit": {
+    "ids": [
+      "0797",
+      "0798",
+      "0812",
+      "0815",
+      "0826",
+      "0827",
+      "0833",
+      "0837",
+      "0843",
+      "0863",
+      "0866",
+      "0868",
+      "0879",
+      "0889",
+      "0907",
+      "0913",
+      "0917",
+      "0921",
+      "0925",
+      "0926"
+    ],
+    "result": "20unclear unchanged",
+    "bodies": [
+      "four-dollars",
+      "goat",
+      "no-go-back",
+      "eumwon-kkangpae",
+      "proof-photo",
+      "tell-me-dance"
+    ],
+    "queries": [
+      "와퍼|버거킹",
+      "와플",
+      "요!|요요",
+      "우연히|우연",
+      "위대한",
+      "윌.?스미스|뺨|오스카",
+      "으악|안.?돼",
+      "사재기|음원",
+      "무료로|무료",
+      "이제 그만|그만",
+      "이쿠요|이쿠욧",
+      "이훈이|훈이|짱구",
+      "인증",
+      "와플핑|핫케핑|티니핑",
+      "홍명보|선임",
+      "정상수|체크.*디스",
+      "정우성|문가비",
+      "제너럴.?조|조장군",
+      "린가드|피리",
+      "제주|사투리"
+    ],
+    "limits": "Genericword/character/controversy notspecificformat;samebrand/storynotlinkedwithout evidence;notverifiedomissions."
+  },
+  "independent_audit": {
+    "id": "appearance-narrator-template",
+    "head": "7f2b77d226d1c2d2378a5b241245550a8c8dad43",
+    "result": "passed;no mandatory corrections",
+    "source_bodies": 3,
+    "related_body": "why-are-you-there",
+    "limits": "Recentdated directtitle2 + undateddirecttitle1. TVINGmatchdate notpublication;의 omission formvariant. Videos/images0,notactualspeech/politicalendorsement. Derivedfiles outside audit."
+  },
+  "editor": {
+    "queries": [
+      "\"문단속\" \"밈\" -site:namu.moe -site:namu.wiki -site:seore.org",
+      "\"문단속\" \"2026\" \"짤\"",
+      "\"문단속\" \"2026\" \"헬스장\"",
+      "\"문단속\" \"2026\" \"패러디\" -site:namu.moe -site:novelpia.com -site:namu.wiki",
+      "소문의|낙원|악뮤|akmu"
+    ],
+    "source_bodies": 3,
+    "source_bounds": "KOSAC title/descriptionApr21;Paju camp reportedJune2,noparticipantdetails;LeDeskApr28formdescription/Incrossquote. Imagesvideos0.",
+    "held_candidate": "0065doorlocking:HSADApr52023readoldexplanatorysource;2026fanaggregatornotdirectoriginal. Pendingrecovery."
+  },
+  "ci": {
+    "body976": {
+      "run": 44242574479,
+      "job": 134593736221,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 57.138
+    },
+    "new_head": "pending"
+  }
+}

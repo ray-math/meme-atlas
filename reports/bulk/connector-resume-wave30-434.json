@@ -1,0 +1,123 @@
+{
+  "batch": 434,
+  "base": "5365232efdcb292848927f5bde05843ad15f1705",
+  "canonical_before": 1007,
+  "canonical_after": 1007,
+  "added": [],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" \"패러디\" site:ac.kr",
+      "2026 \"밈\" \"패러디\" site:go.kr",
+      "2026 \"밈\" \"도서관\" \"영상\"",
+      "2026 \"밈\" \"패러디\" \"박물관\"",
+      "2026 \"밈\" \"패러디\" \"소방\"",
+      "2026 \"밈\" \"패러디\" \"공사\"",
+      "2026 \"밈\" \"패러디\" \"우체국\"",
+      "2026 \"밈\" \"패러디\" \"철도\"",
+      "2026 \"밈\" \"패러디\" \"대학\" -site:namu.moe -site:namu.wiki"
+    ],
+    "existing": [
+      "everyday-self-defense-parody",
+      "hambugi",
+      "john-park-mcdonalds-rap",
+      "roadster-ai-parody",
+      "forever-moment",
+      "little-captain-dance"
+    ],
+    "held": [
+      {
+        "title": "집 가 글자 유도 / 문을 차고 지나가기",
+        "url": "https://www.gyeongju.go.kr/news/page.do?mnu_uid=1331&parm_bod_uid=304383",
+        "note": "2025-10-13 공식 제작 설명, 공개10월2/4일. 최근1년 밖, 각1군. 영상 미확인."
+      },
+      {
+        "title": "파이썬 조건문 환영 / So Who are they We are 문답",
+        "url": "https://news.nate.com/view/20260402n29362",
+        "note": "뉴스핌2026-04-02 대학 현수막 실제 적용 보도. 각각1군, 반복밈인지 불명. 사진 미확인. 기사25/26학번 혼재로 제작연도 단정금지."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.wonju.go.kr/media/selectBbsNttView.do?bbsNo=145&key=3450&nttNo=482090&pageIndex=1&pageUnit=10&searchCnd=all",
+        "note": "2026-04-13 공식 설명, 영상4월10일. 기존 호신술 형식 적용."
+      },
+      {
+        "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6858873_37012.html",
+        "note": "2026-10-19 로드스터 패러디 보도, 기존 항목. 국내 시연 관람은 제작사례 아님."
+      }
+    ],
+    "candidate_topics": 10,
+    "existing_count": 6,
+    "held_count": 4,
+    "recommended": 0
+  },
+  "researchB": {
+    "queries": [
+      "\"나여 백종원\" \"2026\"",
+      "\"누가 범인일까\" \"밈\"",
+      "\"대기업에 입사한 아들의 깨달음\"",
+      "\"미안송\" \"2026\"",
+      "\"아 진짜요\" \"2026\" 밈",
+      "\"누가 범인일까\" \"2026\" 챌린지",
+      "\"미안송\" 패러디 -site:namu.moe",
+      "\"대기업에 입사한 아들의 깨달음\" 패러디"
+    ],
+    "held": [
+      {
+        "id": "0303",
+        "title": "나여 백종원",
+        "url": "https://economist.co.kr/article/view/ecn202601270013",
+        "note": "제목 차용1군. 날짜2026-01-27은 URL/검색 단서, 본문 날짜 미확인. 인물의 실제발언/논란주장 채택안함. 다른 사용 미러뿐."
+      },
+      {
+        "id": "0359",
+        "title": "누가 범인일까",
+        "url": "https://www.campaigninsight.co.kr/news/articleView.html?idxno=4965",
+        "note": "방탈출 행사 일반 추리문장, 특정밈차용 불명. 정확게시일미확정."
+      },
+      {
+        "id": "0377",
+        "title": "대기업에 입사한 아들의 깨달음",
+        "note": "2022 영상 설명 검색 단서 기존사연 재전달. 독립변형 불명. 장문복사/신원추적 없음."
+      },
+      {
+        "id": "0507",
+        "title": "미안송",
+        "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10000680103",
+        "note": "2012-05-07 방송 회고 직접확인. 새 재사용 아님. 페이지 현재날짜를 사용일로 세지 않음."
+      },
+      {
+        "id": "0706",
+        "title": "아 진짜요",
+        "note": "일반대화/특정 말버릇 혼재, 원장 고정형식 불명."
+      }
+    ],
+    "recommended": 0
+  },
+  "candidate_changes": [],
+  "limitations": [
+    "작업자 직접열람 보고를 수합한 조사기록이며 편집자 외부원문 재열람 및 신규본문 승격 없음.",
+    "기존 색인 직접문자열 불일치를 미수록 확정으로 세지 않음.",
+    "보류9소재는 신규밈9개 또는 원장9행 확정미수록 의미가 아님.",
+    "영상·이미지 직접확인0. 원장 전체 재감사 아님."
+  ],
+  "ci1007": {
+    "sha": "04619c03461da90035081d8e6295e47c58edf860",
+    "run": 44261708204,
+    "job": 134656368465,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "113.646"
+  },
+  "ci433": {
+    "sha": "5365232efdcb292848927f5bde05843ad15f1705",
+    "run": 44261944536,
+    "job": 134657143259,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "67.944"
+  },
+  "ci_new_commit": "pending"
+}

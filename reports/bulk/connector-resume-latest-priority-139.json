@@ -1,0 +1,131 @@
+{
+  "batch": "connector-resume-latest-priority-139",
+  "base": "4d80aec01f5204bb575e22a8c9f1542c0acf3801",
+  "priority": "2025~2026 한국온라인 신규 확산 우선. 과거기원 재사용과 구분.",
+  "screening": [
+    {
+      "query": "체포하겠어",
+      "substring_matches": [
+        "under-arrest"
+      ]
+    },
+    {
+      "query": "전여친 감자칼",
+      "substring_matches": [
+        "ex-girlfriend-peeler"
+      ]
+    },
+    {
+      "query": "이거 제 이모지야",
+      "substring_matches": [
+        "my-emoji"
+      ]
+    },
+    {
+      "query": "영원할 건가",
+      "substring_matches": []
+    },
+    {
+      "query": "밤티",
+      "substring_matches": [
+        "bamti"
+      ]
+    },
+    {
+      "query": "장원영",
+      "substring_matches": [
+        "bamti",
+        "wonyoung-praise",
+        "wonyoung-thinking"
+      ]
+    },
+    {
+      "query": "고맙투우사",
+      "substring_matches": []
+    },
+    {
+      "query": "아리가토",
+      "substring_matches": []
+    },
+    {
+      "query": "동결건조",
+      "substring_matches": [
+        "freeze-dry-affection"
+      ]
+    },
+    {
+      "query": "김민",
+      "substring_matches": []
+    },
+    {
+      "query": "한 단어",
+      "substring_matches": [
+        "kungkungtta",
+        "word-learning-monster"
+      ]
+    },
+    {
+      "query": "책없쾌",
+      "substring_matches": []
+    },
+    {
+      "query": "야르",
+      "substring_matches": [
+        "hallelyaru",
+        "yareu-song"
+      ]
+    },
+    {
+      "query": "쌰갈",
+      "substring_matches": []
+    }
+  ],
+  "semantic_duplicate_corrections": [
+    {
+      "query": "영원할 건가 보다",
+      "canonical": "forever-moment",
+      "note": "정확문자열 무일치지만 ‘나 왜 이 순간이 영원할 것 같지?’와 같은 대사·음원 형식, 신규제외."
+    }
+  ],
+  "research_sources": [
+    {
+      "url": "https://gogumafarm.kr/%EB%82%98-%EC%99%9C-%EC%9C%A0%ED%96%89-%EB%B0%88-%EC%86%8C%EA%B0%9C%EA%B0%80-%EC%98%81%EC%9B%90%ED%95%A0-%EA%B1%B0-%EA%B0%99%EC%A7%80-2026%EB%85%84-10%EC%9B%94-%EC%B5%9C%EC%8B%A0-%EB%B0%88-%EB%AA%A8/",
+      "observed": "2026-10-27. 여러 적용 링크 확인. 자체 사전 설명 복제하지 않음."
+    },
+    {
+      "url": "https://blog.hsad.co.kr/3798?category=1034380",
+      "observed": "2026-11-06. forever-moment, take-the-l 기존형식 확인. 기사 전체 시사사실 검증 아님."
+    }
+  ],
+  "pending": [
+    {
+      "title": "좋음 좋음 좋음 / 로키체",
+      "status": "독립 실제사용 두번째 확보 중. 검증완료 아님."
+    },
+    {
+      "title": "부라는 게 숨긴다고 숨겨지는 것도 아니고",
+      "status": "원문/응용 링크 조사 중. 검증완료 아님."
+    },
+    {
+      "title": "그린그린 레드레드",
+      "status": "중복 및 실제재사용 조사 중. 검증완료 아님."
+    },
+    {
+      "title": "이불 밖은 위험해",
+      "status": "과거기원 후보. 2017/2019/2025 활용근거 확보 보고받았으나 최신 신규확산 우선으로 수록보류.",
+      "sources": [
+        "https://brunch.co.kr/@artstherapist/2",
+        "https://brunch.co.kr/@seoul/182",
+        "https://brunch.co.kr/@elfin/135"
+      ]
+    }
+  ],
+  "checks": {
+    "dictionary_entries": 853,
+    "new_canonical_entries": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "workflow_runs_at_base": 0,
+    "note": "검색문자열 수는 고유후보/검증수 아님. 신규발견·최신유행을 검색결과만으로 단정하지 않음."
+  }
+}

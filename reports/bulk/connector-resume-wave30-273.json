@@ -1,0 +1,56 @@
+{
+  "batch": 273,
+  "canonical_before": 923,
+  "canonical_after": 924,
+  "added": "want-you-back-challenge",
+  "research": {
+    "queries": [
+      "\"원츄백\" \"투어스\"",
+      "\"원츄백\" \"디노\" 챌린지",
+      "\"I want you back\" \"TWS\" site:weverse.io",
+      "\"원츄백\" \"에이티즈\"",
+      "\"I want you back\" \"디노\" site:youtube.com",
+      "TWS \"I Want You Back\" challenge youtube 2026",
+      "ATEEZ \"I Want You Back\" challenge 2026",
+      "\"원츄백 추면서 차 따라가기\"",
+      "\"원츄백\" \"챌린지\" -site:dhesy.com -site:sports.donga.com -site:news.nate.com -site:imbench.com -site:youtube-rank.com",
+      "\"아이 원트 유 백\" 챌린지 투어스",
+      "\"I Want You Back\" \"예지\" \"류진\""
+    ],
+    "sources": [
+      "https://sports.donga.com/ent/article/all/20260713/134287314/1",
+      "https://v.daum.net/v/20260731070248291",
+      "https://theqoo.net/twsjihoon/4272318058",
+      "https://www.youtube.com/shorts/01W-1bPllVM"
+    ],
+    "note": "reported separate domestic ATEEZ/TWS participation; originals0; Youtube throttled; Scott foreignresponseexcluded; reported-level limited entry possible but not yet parent-read"
+  },
+  "index_queries": [
+    "원.?츄.?백",
+    "i want you back",
+    "포사이스"
+  ],
+  "evidence": "two separately authored reports directly read name distinct domestic productions; original videos0; no firstparticipant/date claim; foreign response not domestic reuse; reporter background not interviewee testimony",
+  "checks": {
+    "unique_ids": 924,
+    "title_alias_cross_id_collisions": 0,
+    "generator_base_roundtrip": true
+  },
+  "metrics": {
+    "query_observations": 2193,
+    "distinct_literal_queries": 1782
+  },
+  "ci": "not run",
+  "independent_audit": {
+    "id": "unbalance-challenge",
+    "sha": "effdd1db9972a9cf2e0832ee98406f11bd612552",
+    "result": "pass",
+    "index": 923,
+    "readme": 923,
+    "target_links_each": 1,
+    "source_reads": 3,
+    "web_search_queries": 0,
+    "original_videos": 0,
+    "note": "fields match; date report vs upload bounded; normalized audit queries not added to collection ledger"
+  }
+}

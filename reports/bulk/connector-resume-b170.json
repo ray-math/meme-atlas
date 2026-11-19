@@ -1,0 +1,48 @@
+{
+  "base_sha": "bfa795a793e45d043390d41681f9b2f84637d194",
+  "canonical_before": 879,
+  "canonical_after": 881,
+  "added": [
+    "dinosaur-sized-affection",
+    "suddenly-sick-fan-trip"
+  ],
+  "sources": [
+    {
+      "url": "https://www.incross.com/ko/insight/report.asp?idx=10819&mode=view&page=2&pageSize=12&searchStr=&serboardsort=",
+      "date": "2026-03-25",
+      "type": "direct newsletter-title application"
+    },
+    {
+      "url": "https://incross.com/ko/insight/report.asp?idx=10830&mode=view",
+      "date": "2026-04-01",
+      "type": "direct newsletter-title application"
+    },
+    {
+      "url": "https://gogumafarm.kr/요즘-유행하는-밈-알-수-있도록-기도해-드릴게요-2026년-3/",
+      "date": "2026-03-30",
+      "type": "independent reported brand applications; source videos not watched"
+    }
+  ],
+  "limits": [
+    "X/Instagram originals inaccessible",
+    "Careet same IVE example not counted as a new case",
+    "No first origin or prevalence claim",
+    "No medical efficacy"
+  ],
+  "query_strings": [
+    "공룡",
+    "커졌어",
+    "좋아하는 마음",
+    "좋아하는 맘",
+    "몸이 안",
+    "명의",
+    "치료",
+    "병원",
+    "의사"
+  ],
+  "partial_match_semantic_review": "9 matching existing rows concern different forms; no semantic duplicate",
+  "checks": {
+    "python": "not-run",
+    "ci": "not-run"
+  }
+}

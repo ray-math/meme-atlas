@@ -1,0 +1,77 @@
+{
+  "audit": {
+    "fixed_sha": "2ecc8f9dbc6e663661007dfbc8bd8979a48ee1a9",
+    "canonical": 877,
+    "new_main_relative": 51,
+    "existing_body_changes": 0,
+    "scope": "Independent GitHub reads and in-memory JavaScript, not Python/CLI/CI",
+    "passed": [
+      "nontruncated tree and index path equality",
+      "all51 new bodies recomputed against index",
+      "manual collection51 equality and internal links",
+      "normalized title alias collision0",
+      "README/topics exact render",
+      "usage74 profiles entire index equality",
+      "fixture reviewed73 and usage88 membership equality"
+    ],
+    "limits": [
+      "existing826 bodies not all reread; unchanged via commit comparison",
+      "full months/backlinks not audited",
+      "historical facts and external source validity not audited"
+    ],
+    "link_statement": "신규 본문51개에서 깨진 내부 링크0. 외부 출처 URL 유효성은 감사 범위 밖."
+  },
+  "screening": {
+    "base_sha": "f1cda439703ac77a155b5ed8564d64cc8ce282c2",
+    "queries": [
+      "스윙스",
+      "반한 건",
+      "밤티",
+      "장원영 말랑이",
+      "장원영",
+      "원영고치",
+      "줴줴",
+      "저라뎃",
+      "ㅈㅈㅇㅇ",
+      "숨긴다고",
+      "37분",
+      "연락 없네",
+      "잘 살아",
+      "L을 가져가",
+      "권루트",
+      "전여친 감자칼",
+      "이거 제 이모지야",
+      "기도해 드릴게요",
+      "파라파라",
+      "베스퍼",
+      "인어섬",
+      "진지를 진지하게",
+      "하지하지마",
+      "BIG GUY",
+      "진돌"
+    ],
+    "new_canonical": 0,
+    "existing_evidence": {
+      "canonical": "wonyoung-praise",
+      "url": "https://www2.osen.co.kr/article/G1112897509",
+      "date": "2026-10-23",
+      "evidence": "장원영 본인이 디저트를 자기 이름으로 칭찬한 적용, 기사21–32행 직접 열람. 원영상 미시청. 기존본문 수정 없음."
+    },
+    "semantic_duplicates": [
+      "스윙스/반한 건→swings-denial",
+      "장원영 말랑이/원영고치→wonyoung-praise",
+      "줴줴/저라뎃/ㅈㅈㅇㅇ→jwejweiya",
+      "37분/연락 없네/잘 살아→no-reply-live-well"
+    ],
+    "held": [
+      "베스퍼/인어섬:인물작품소개",
+      "진지를 진지하게:단일광고",
+      "하지하지마:본문근거미회복",
+      "BIG GUY:독립국내사용부족"
+    ]
+  },
+  "checks": {
+    "python": "not-run",
+    "ci": "not-run"
+  }
+}

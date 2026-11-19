@@ -1,0 +1,89 @@
+{
+  "base": "8203e9c8dedd460acc4d19997f6792139b611ef1",
+  "entries": [
+    {
+      "id": "same-line-acting-challenge",
+      "sources": [
+        {
+          "url": "https://gogumafarm.kr/연기-챌린지-주술-회전샷-피드를-점령한-릴스-포맷-4가/",
+          "observed": "2026-06-02 아일릿의 It's me 가사 변형 참여 보고."
+        },
+        {
+          "url": "https://v.daum.net/v/20260821091710698",
+          "observed": "2026-08-21 아침마당 배우 네 명의 감정별 같은 대사 재연 보고."
+        }
+      ],
+      "evidence_level": "독립 기사2곳의 별개 실제 참여 보고. 원영상 미시청.",
+      "dedup": "acting-day-one 원문 직접 비교: 극단적 상황/초보배우 설정과 동일 대사의 감정 변주 규칙은 구별.",
+      "bounds": "BMW 편집자 제안, 별개 출연자 건강/논란, 최초발생 주장은 제외."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "연기배틀",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "accepted-family",
+      "canonical": "same-line-acting-challenge"
+    },
+    {
+      "query": "연기 챌린지",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "accepted-family",
+      "canonical": "same-line-acting-challenge"
+    },
+    {
+      "query": "몇 살이야",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "accepted-family",
+      "canonical": "same-line-acting-challenge"
+    },
+    {
+      "query": "감정 연기",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "accepted-family",
+      "canonical": "same-line-acting-challenge"
+    },
+    {
+      "query": "랜덤 애인",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "애인 소개",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "아무개란",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "눈코뜰새없을인",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "상위 1%",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "오타쿠샷",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "주술 회전샷",
+      "source": "reports/bulk/connector-resume-a152.json",
+      "status": "held-unverified"
+    }
+  ],
+  "checks": {
+    "result_entries": 863,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

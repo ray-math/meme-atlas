@@ -1,0 +1,373 @@
+{
+  "batch": 530,
+  "base": "cba5998c2adbf280af7a125a9f310f4dd8face6b",
+  "canonical_before": 1938,
+  "canonical_after": 1949,
+  "added": [
+    "sammen-hamen-company-amen-wordplay",
+    "matjeom-matjeo-meal-greeting-family",
+    "namchini-affectionate-boyfriend-spelling",
+    "gam-twi-meetup-pile-and-photo-play",
+    "aejeonghada-affection-verb-expression",
+    "seureungheunde-playful-saranghanda-spelling",
+    "ibwayo-michinnomssi-address-template",
+    "korea-stop-doing-decision-to-leave-question-template",
+    "gutbam-online-good-night-greeting",
+    "jeulju-enjoy-weekend-greeting",
+    "overnight-early-rise-emoticon-contrast"
+  ],
+  "candidate_changes": [
+    {
+      "candidate_id": "kr-list-0855",
+      "id": "ibwayo-michinnomssi-address-template",
+      "reason": "문자 호명과 대상삽입 구조만 연결. 원이미지·작성자·기원 미검증; 삽입 사례의 차용 의도는 추론."
+    },
+    {
+      "candidate_id": "kr-list-0526",
+      "id": "overnight-early-rise-emoticon-contrast",
+      "reason": "두 기호의 밤샘·기상 대비 문자 형식만 연결. 대응 뜻은 캐릿 해설 근거, 원이미지·배우·장면 기원 미검증."
+    }
+  ],
+  "previous_ci": {
+    "sha": "cba5998c2adbf280af7a125a9f310f4dd8face6b",
+    "run": 44385453006,
+    "job": 135088637588,
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 221.233s"
+    ]
+  },
+  "previous_final_audit": {
+    "status": "PASS",
+    "required": 0,
+    "sha": "cba5998c2adbf280af7a125a9f310f4dd8face6b",
+    "total": 1938,
+    "files": 19,
+    "oldBodiesUnchanged": 1928,
+    "queryRows": 14444,
+    "distinctLiteralQueries": 11836
+  },
+  "sources": [
+    {
+      "id": "sammen-hamen-company-amen-wordplay",
+      "urls": [
+        "https://v.daum.net/v/20260424050138688",
+        "https://v.daum.net/v/20260612153813779"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "matjeom-matjeo-meal-greeting-family",
+      "urls": [
+        "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+        "https://weverse.io/minkyoungah/artist/3-180409225?hl=ko",
+        "https://mhnse.com/news/articleView.html?idxno=370793"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "namchini-affectionate-boyfriend-spelling",
+      "urls": [
+        "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+        "https://v.daum.net/v/cGuH3TezXZ"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gam-twi-meetup-pile-and-photo-play",
+      "urls": [
+        "https://www.hankyung.com/article/2026020309947",
+        "https://www.newsis.com/view/NISX20260210_0003509030"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "aejeonghada-affection-verb-expression",
+      "urls": [
+        "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+        "https://enews.imbc.com/News/ViewAmp/492310",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/508927"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "seureungheunde-playful-saranghanda-spelling",
+      "urls": [
+        "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+        "https://v.daum.net/v/QsDRuGlfET"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ibwayo-michinnomssi-address-template",
+      "urls": [
+        "https://gall.dcinside.com/board/view/?id=dcbest&no=397028",
+        "https://gall.dcinside.com/mgallery/board/view/?id=jaetae&no=1809055"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "korea-stop-doing-decision-to-leave-question-template",
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20220719074800005",
+        "https://www.newsis.com/view/NISX20220721_0001951527",
+        "https://www.careet.net/836"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gutbam-online-good-night-greeting",
+      "urls": [
+        "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+        "https://weverse.io/jennie/artist/3-182092221?hl=ko"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jeulju-enjoy-weekend-greeting",
+      "urls": [
+        "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+        "https://news.nate.com/view/20201226n06963"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "overnight-early-rise-emoticon-contrast",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail/1758",
+        "https://theqoo.net/square/1365538349"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening": {
+    "B661": {
+      "query_count": 10,
+      "queries": [
+        "2026 신조어 \"직장\" \"뜻\" 뉴스",
+        "2026 \"유행어\" \"새로운\" 매거진",
+        "2026 \"신조어\" site:news.kbs.co.kr",
+        "\"신조어\" \"2026\" site:jobsn.co.kr",
+        "\"신조어\" \"2026\" site:topclass.chosun.com",
+        "\"신조어\" \"2026\" site:news.hmgjournal.com",
+        "2026 \"밈\" \"말투\" site:newsis.com",
+        "2026 \"신조어\" \"직장인\" site:hani.co.kr",
+        "\"삼멘\" \"하멘\" 2026",
+        "\"셔세권\" 2026"
+      ],
+      "expressions": 7,
+      "families": 6,
+      "recommended": 1,
+      "held": 5,
+      "title": "삼멘·하멘",
+      "sources": [
+        "https://v.daum.net/v/20260424050138688",
+        "https://v.daum.net/v/20260612153813779"
+      ]
+    },
+    "C182": {
+      "queries": [
+        "\"맛점\" \"맛저\" 기사",
+        "\"굿밤\" site:enews.imbc.com",
+        "\"젭라\" site:news.nate.com",
+        "\"쓰담쓰담\" \"위로\" 기사",
+        "\"맛점\" \"하세요\" site:enews.imbc.com",
+        "\"굿밤\" \"인사\" site:news.nate.com",
+        "\"즐주\" \"주말\" 기사",
+        "\"남치니\" \"남자친구\" 기사",
+        "\"굿밤\" \"잘자\" site:enews.imbc.com",
+        "\"맛점\" \"인사\" 가수",
+        "\"굿밤\" \"인사\" \"아이유\"",
+        "\"즐주\" \"설현\" \"2022\""
+      ],
+      "expressions": 7,
+      "recommended_families": 2,
+      "conditional": 1,
+      "held": 3,
+      "sources": [
+        "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+        "https://weverse.io/minkyoungah/artist/3-180409225?hl=ko",
+        "https://mhnse.com/news/articleView.html?idxno=370793",
+        "https://v.daum.net/v/cGuH3TezXZ"
+      ],
+      "note": "맛저definitiononly,맛점actualuse2024/2025;남치니undatededitorialimaginedscene notactualdating"
+    },
+    "B662": {
+      "observations": 16,
+      "recommended": 1,
+      "existing": 12,
+      "held": 3,
+      "queries": [
+        "2026 \"신조어\" \"줄임말\" 문화",
+        "2026 \"밈\" \"말투\" 매거진 -site:namu.wiki",
+        "\"감튀 모임\" 2026 후기",
+        "\"감자튀김\" \"모임\" \"2026\" 당근"
+      ],
+      "title": "감튀모임",
+      "sources": [
+        "https://www.hankyung.com/article/2026020309947",
+        "https://www.newsis.com/view/NISX20260210_0003509030"
+      ],
+      "note": "twoindependentfieldreports2026-02-03/11, originalphotos0"
+    },
+    "C183": {
+      "observations": 8,
+      "recommended": 2,
+      "existing": 2,
+      "held": 4,
+      "queries": [
+        "\"굿밤\" \"인사\" 가수 -권민아 -남현희 -아이유",
+        "\"즐주\" \"줄임말\" -site:osen.co.kr",
+        "\"젭라\" \"제발\" site:inven.co.kr",
+        "\"애정하다\" \"신조어\"",
+        "\"굿밤\" \"인사\" site:tenasia.co.kr",
+        "\"애정하는\" site:enews.imbc.com \"2026\"",
+        "\"즐주\" site:weverse.io",
+        "\"젭라\" site:theqoo.net/square",
+        "\"굿밤\" \"문근영\" \"2015\"",
+        "\"스릉흔드\" \"사랑한다\" 기사"
+      ],
+      "sources": [
+        "https://www.korean.go.kr/nkview/nklife/2013_1/23_0103.pdf",
+        "https://enews.imbc.com/News/ViewAmp/492310",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/508927",
+        "https://v.daum.net/v/QsDRuGlfET"
+      ],
+      "note": "애정하다sameiMBC2editorialuses2026-01-27/06-21,스릉흔드2023-05-29article2022artworknotoriginalchat"
+    },
+    "A177": {
+      "rows": 15,
+      "held": 15,
+      "newDiscovery": 0,
+      "ids": [
+        "0053",
+        "0055",
+        "0062",
+        "0064",
+        "0066",
+        "0080",
+        "0095",
+        "0098",
+        "0101",
+        "0136",
+        "0194",
+        "0229",
+        "0239",
+        "0240",
+        "0318"
+      ],
+      "queries": [
+        "\"1. 들어올린다\" 패러디",
+        "\"1초만에 사람을 낚는 방법\"",
+        "\"64 bits\" \"밈\" 한국",
+        "\"Point 드립\"",
+        "\"를 알려주겠다\" \"밈\"",
+        "\"해버리기\" \"유행어\"",
+        "\"street photographer\" \"밈\" 한국",
+        "\"FBI OPEN UP\" \"패러디\" 한국",
+        "\"He is\" \"밈\" 한국",
+        "\"Pink Elephants on Parade\" \"패러디\" 한국",
+        "\"거짓말하지 말아요\" \"밈\"",
+        "\"귀여운 건 나도 알아\" \"패러디\"",
+        "\"그들의 연회에 저는\" -site:namu.moe",
+        "\"그러면 죽어요\" \"패러디\"",
+        "\"내 식사를 방해할 생각인가\" -site:namu.moe",
+        "\"FBI open up\" site:novelpia.com/novel",
+        "\"해버리기\" 보겸 -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"귀여운 건 나도 알아\" -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ],
+      "sources": [
+        "https://www.teamblind.com/kr/post/부산-실화인가요-JT2hoVxw"
+      ],
+      "note": "0239onewrittenvariant2022-03-18;regionmockerynotfactual;held."
+    },
+    "B663": {
+      "observations": 10,
+      "recommended": 1,
+      "existing": 4,
+      "held": 5,
+      "queries": [
+        "2026 \"신조어\" \"호칭\" 문화 -site:namu.wiki -site:instablank.com",
+        "2026 \"유행어\" \"댓글\" site:newsis.com",
+        "2026 \"밈\" \"말\" site:daehaknaeil.com",
+        "\"2026\" \"한국에서는\" \"중단합니까\"",
+        "\"2026\" \"마침내\" \"헤어질 결심\" 밈",
+        "\"2026\" \"그렇게 만만합니까\"",
+        "\"한국에서는\" \"중단합니까\" \"밈\" -site:namu.wiki",
+        "\"헤어질 결심\" \"각본집\" \"댓글\" 2022 밈"
+      ],
+      "sources": [
+        "https://www.newsis.com/view/NISX20220721_0001951527",
+        "https://www.yna.co.kr/view/AKR20220719074800005",
+        "https://www.careet.net/836"
+      ],
+      "note": "2022-07-22/19samebookstorecommentevent1+Careet07-29publicexplanation. Historicalnotrecent. nooriginalfilm/comment/media."
+    },
+    "C184": {
+      "observations": 4,
+      "recommended": 2,
+      "conditional": 1,
+      "held": 1,
+      "queries": [
+        "\"즐주\" site:weverse.io/ \"artist\"",
+        "\"굿밤\" site:weverse.io/ \"artist\"",
+        "\"젭라\" \"제발\" site:newsis.com",
+        "\"생유\" \"땡큐\" 기사",
+        "\"생유\" \"감사\" \"유행어\"",
+        "\"즐주\" \"주말\" site:news.nate.com"
+      ],
+      "sources": [
+        "https://weverse.io/jennie/artist/3-182092221?hl=ko",
+        "https://news.nate.com/view/20201226n06963"
+      ],
+      "note": "굿밤2024-10-13direct;즐주2020-12-26report;recent0"
+    },
+    "A178": {
+      "rows": 15,
+      "conditional": 1,
+      "held": 14,
+      "queries": [
+        "두원공대 인터넷 밈 드립 기사",
+        "마인크래프트 셧다운법 패러디 19금 게임",
+        "면제겜 게임 용어 기사",
+        "미쿠미쿠하게 해줄게 한국 패러디",
+        "밤샌 사람 일찍 일어난 사람 밈",
+        "방송 되게 못하네 유행어 방송",
+        "벽부수기 밈 만화 패러디",
+        "빈라덴송 인터넷 유행 노래 기사",
+        "벽돌할아버지 로봇댄스 제작 인터뷰",
+        "사고 쳤을 때 입 다물고 있어라 명언 패러디",
+        "사랑의 열매 밈 유행어",
+        "사이버펑크 밈 한국 도시 기사",
+        "할 말이 없네 반응 밈 기사",
+        "초코빅송 광고 패러디",
+        "호라 모 젠젠 멀쩡하자나 패러디"
+      ],
+      "sources": [
+        "https://www.careet.net/Newsletter/Detail/1758",
+        "https://theqoo.net/square/1365538349"
+      ],
+      "note": "0526partialemoticoncontrastproposed,noimage/originconfirmation"
+    }
+  },
+  "query_increment": 83,
+  "query_observations": 14527,
+  "distinct_literal_queries": 11905,
+  "preaudit": {
+    "status": "PASS",
+    "required": 0,
+    "notes": [
+      "11families independentlyaudited beforepublication.",
+      "맛저definitiononly;MHNinitialresearchread/auditor403 disclosed.",
+      "0855intentionalderivationisinference;0526symbolmeaningsfromCareetnotTheqooimage."
+    ]
+  },
+  "limits": [
+    "1938priorbodies andoriginal1091candidate source rows unchanged; coverageonly2index_not_found->partial.",
+    "usage74/reviewed73 preserved;main/protectedbodies unchanged.",
+    "Observationrowsarenotuniquememes. Repeatedresearchgroupskeptseparate.",
+    "No originalimages/videos viewed. Recenteditorial/reportedusage distinguished.",
+    "NewcommitCIpending;previous1938CI65/65Python497success. No localPythonrun."
+  ]
+}

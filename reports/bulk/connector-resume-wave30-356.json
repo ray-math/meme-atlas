@@ -1,0 +1,135 @@
+{
+  "batch": 356,
+  "base": "1ccdbb9e8f50e87cc3c722bce782011cccc2917d",
+  "canonical_before": 970,
+  "canonical_after": 971,
+  "added": [
+    "mal-itjyo-drama-speech"
+  ],
+  "recent_research": {
+    "recommended": 1,
+    "queries": [
+      "\"2026\" \"패러디\" \"말투\" -site:namu.wiki -site:instablank.com -site:onmeme.com",
+      "\"2026\" \"밈\" \"문구\" \"사용했다\" -site:onmeme.com -site:mika.co.kr",
+      "\"임성한 말투\" \"2026\" 패러디",
+      "\"말 있죠\" \"패러디\"",
+      "\"임성한 말투\" -site:namu.wiki -site:namu.moe -site:youtube.com",
+      "말있 / 말 있 / 임성 / 엄은 / 도치법 / 피비",
+      "말 있|말있|임성한|엄은향"
+    ],
+    "sources": [
+      "https://www.mk.co.kr/news/hot-issues/12019578",
+      "https://v.daum.net/v/20260504083214312",
+      "https://www2.osen.co.kr/article/G1112767388"
+    ],
+    "editor_and_researcher_body_reads": 3,
+    "reported_usage_groups": 2,
+    "limits": "Both groups via reporting:creatorposter reported Apr17 2026;actor groupchat selfreport May4. OSENMar25 is samecreator explanation, notthirdgroup. Originalvideo0/posterimage0/chatlog0. Nofirstorigin or privatepersonspeechclaim."
+  },
+  "ledger_research": {
+    "ids": [
+      "0830",
+      "0841",
+      "0843",
+      "0848",
+      "0872"
+    ],
+    "recommended": 0,
+    "held": 5,
+    "queries": [
+      "\"육군 we 육군\" \"2026\"",
+      "\"의문의\" \"행\" 밈 유래",
+      "\"무료로 해줍니다\" 밈 \"2026\"",
+      "\"듣도 보도 못한 발상이군\"",
+      "\"인문학적 변태\" \"2026\"",
+      "\"육군 we 육군\" 패러디 -site:namu.moe",
+      "\"의문의\" \"행\" \"2026\" 패러디",
+      "\"듣도 보도 못한 발상이군\" \"2026\"",
+      "\"인문학적 변태\" -site:namu.moe",
+      "\"의문의 연애소설행\"",
+      "\"듣도 보도 못한 발상이군\" -site:namu.moe -site:seore.org"
+    ],
+    "sources": [
+      "https://www.khan.co.kr/article/202105231304001",
+      "https://www.bntnews.co.kr/article/view/bnt201202110027",
+      "https://gall.dcinside.com/mgallery/board/view/?id=inkling&no=1541453"
+    ],
+    "limits": "Workerread/editorunread.0830old2021songreport not2parodies;0841notunexpected-win;0843/0872sexualexamplesnotopened;0848oldtitleuses bntdisplay2015URL2012dateuncertain/DC2025-07-08imageunseen;HunterHall403. Notrecent2independentverified."
+  },
+  "semantic_audit": {
+    "ids": [
+      "0506",
+      "0507",
+      "0509",
+      "0510",
+      "0511",
+      "0520",
+      "0523",
+      "0524",
+      "0534",
+      "0536",
+      "0538",
+      "0539",
+      "0540",
+      "0541",
+      "0542",
+      "0548",
+      "0554",
+      "0555",
+      "0558",
+      "0560"
+    ],
+    "queries": [
+      "미룬|미루",
+      "미안송|미안해|사과송",
+      "미야",
+      "미트스핀|meatspin",
+      "민주에몽|도라에몽",
+      "바바바|빠빠빠",
+      "박위|박위상태",
+      "박재범|월클",
+      "백룸|backroom",
+      "번역기|번역|왈도",
+      "베트남론|베트남",
+      "벽력|일섬|젠이츠",
+      "벽부수|벽 부수|벽을",
+      "병신TV|병신티비",
+      "병진",
+      "봇이지|봇",
+      "북경|정씨",
+      "북방코끼리|바다표범",
+      "불심|대동단결",
+      "불티"
+    ],
+    "rows": 20,
+    "unclear": 20,
+    "changes": 0,
+    "body_reads": 8,
+    "limits": "0536translationdrip ambiguous directstyle vs machine-inputgames;waldo-style notmapped withoutscopeconfirmation. Similarcharacter/syllables notidentity."
+  },
+  "previous_body_audit": {
+    "id": "hanjanhae-positive-reason",
+    "result": "independentbodyauditpassed,no mandatory changes",
+    "scope": "bodyonly,notindex"
+  },
+  "ci": {
+    "report353": {
+      "run": 44239885459,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 52.289
+    },
+    "report354": {
+      "run": 44239971739,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 52.792
+    },
+    "body970": {
+      "run": 44240137396,
+      "status": "in_progress_at_preparation"
+    }
+  }
+}

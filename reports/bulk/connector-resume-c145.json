@@ -1,0 +1,94 @@
+{
+  "batch": "connector-resume-c145",
+  "base": "59db05e4addabb6b719d5e746fcd08c5ce8833fb",
+  "entries": [
+    {
+      "id": "thank-you-bullfighter",
+      "sources": [
+        {
+          "url": "https://m.newspic.kr/view.html?cp=D7tev39p&nid=2026081117294481754&pn=646",
+          "observed": "르데스크2026-08-11 기사전재. 사쿠라/홍은채 참여보도."
+        },
+        {
+          "url": "https://fanplus.co.kr/community/astro/134143313",
+          "observed": "2026-08-13 독립 팬감상 MJ/진진의 옷·투우동작 명시."
+        },
+        {
+          "url": "https://www.i-boss.co.kr/ab-74668-5915",
+          "observed": "위픽레터2026-08-14 형식 설명. 제안스크립트 실제사용수제외."
+        }
+      ],
+      "reported_distinct_usage_events": 2,
+      "evidence_level": "참여보도 및 독립감상본문 확인. 원영상 직접재생아님."
+    }
+  ],
+  "screening": [
+    {
+      "query": "고맙투우사 챌린지",
+      "status": "accepted",
+      "canonical": "thank-you-bullfighter"
+    },
+    {
+      "query": "아리가투우사",
+      "status": "accepted",
+      "canonical": "thank-you-bullfighter"
+    },
+    {
+      "query": "아리가토규시",
+      "status": "accepted",
+      "canonical": "thank-you-bullfighter"
+    },
+    {
+      "query": "고맙투우사",
+      "status": "accepted",
+      "canonical": "thank-you-bullfighter"
+    },
+    {
+      "query": "리듬게임챌린지",
+      "status": "existing",
+      "canonical": "word-on-beat"
+    },
+    {
+      "query": "감사합니다람쥐",
+      "status": "unverified",
+      "canonical": null
+    },
+    {
+      "query": "라밤바",
+      "status": "unverified",
+      "canonical": null
+    },
+    {
+      "query": "책없쾌",
+      "status": "unverified",
+      "canonical": null
+    },
+    {
+      "query": "오살힘",
+      "status": "unverified",
+      "canonical": null
+    },
+    {
+      "query": "사보필",
+      "status": "unverified",
+      "canonical": null
+    },
+    {
+      "query": "동엽이",
+      "status": "unverified",
+      "canonical": null
+    },
+    {
+      "query": "과자사꾸",
+      "status": "unverified",
+      "canonical": null
+    }
+  ],
+  "checks": {
+    "result_entries": 858,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "batch": 514,
+  "base": "233cfd509efaf0c6a83d1a2694d78ed8f2ffcafb",
+  "canonical_before": 1777,
+  "canonical_after": 1787,
+  "added": [
+    "lingardongja-nickname",
+    "mani-nollasyeotjyo-reveal-greeting",
+    "mutsuki-dance",
+    "pokemon-bread-shortage-skit",
+    "seusekwon-starbucks-nearby-area",
+    "ipteulmak-surprised-mouth-covering",
+    "maritmot-speechless-abbreviation",
+    "manjjitnam-manjjitnyeo-comic-like-look",
+    "jajunghae-nasal-tone-imitation",
+    "beokachung-transit-card-top-up"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0444",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "lingardongja-nickname"
+    },
+    {
+      "id": "kr-list-0491",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "mutsuki-dance"
+    },
+    {
+      "id": "kr-list-1073",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "pokemon-bread-shortage-skit"
+    }
+  ],
+  "previous_ci": {
+    "run": 44359184546,
+    "job": 134995523450,
+    "status": "completed",
+    "conclusion": "success",
+    "steps": 65,
+    "passed": 65,
+    "python": "Ran 497 tests in 205.546s",
+    "head": "233cfd509efaf0c6a83d1a2694d78ed8f2ffcafb"
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "required_changes": 0,
+    "files": 19,
+    "count": 1777,
+    "prior_records_preserved": 1767,
+    "coverage": [
+      204,
+      309,
+      79,
+      166,
+      328,
+      5
+    ],
+    "queries": 12861,
+    "distinct": 10555
+  },
+  "research": {
+    "A125": {
+      "rows": 6,
+      "recommended": 2,
+      "held": 4,
+      "direct_pages": 4,
+      "unrelated_page": 1,
+      "existing_body_reads": 1,
+      "candidates": [
+        {
+          "id": "kr-list-0444",
+          "suggested": "lingardongja-nickname",
+          "sources": [
+            "https://tv.seoul.go.kr/v/febe05da81084b60898ff9cba27d91e1",
+            "https://tip.fuseline.co.kr/entry/제시-린가드-별명-모음"
+          ],
+          "limit": "official hashtag one, nickname etymology personal summary; partial only"
+        },
+        {
+          "id": "kr-list-0491",
+          "suggested": "mutsuki-dance",
+          "sources": [
+            "https://www.vlum.co/post/QgBsUm8zEiIFAYRbhDja/",
+            "https://gall.dcinside.com/mgallery/board/view/?id=projectmx&no=11231382"
+          ],
+          "limit": "fan explanation origin independent unclear; first-person participation separate, no visual"
+        }
+      ],
+      "queries": [
+        "\"동전줍는 징징이\"",
+        "\"린가동자\" 패러디",
+        "\"막심 센세\" 밈",
+        "\"무츠키 댄스\"",
+        "\"조이는 보이\" 밈",
+        "\"차차핑\" 패러디",
+        "\"린가동자\" -site:namu.moe -site:readonly.wiki",
+        "\"무츠키 댄스\" -site:namu.moe",
+        "\"린가동자\" \"구슬동자\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"무츠키\" \"댄스\" \"밈\" -site:namu.moe",
+        "\"닥터 막심\" 밈 -site:namu.moe"
+      ]
+    },
+    "C115": {
+      "observations": 9,
+      "recommended": 0,
+      "conditional": 3,
+      "existing": 5,
+      "held": 1,
+      "direct_pages": 3,
+      "existing_body_reads": 3,
+      "queries": [
+        "\"럭키맥싱\" 후기",
+        "\"미덕체\" \"추구미\"",
+        "\"2026\" \"신조어\" \"텍스트\" -site:sinjoeo.kr -site:hoonmeme.com",
+        "\"웃안웃\" \"뜻\" 기사",
+        "\"얼빡\" \"2026\" 인터뷰",
+        "\"디토 소비\" \"2026\""
+      ]
+    },
+    "B602": {
+      "observations": 8,
+      "recommended": 1,
+      "existing": 5,
+      "held": 2,
+      "direct_pages": 3,
+      "failed_pages": 2,
+      "queries": [
+        "2026 \"밈\" \"패러디\" site:newsroom.hitejinro.com",
+        "2026 \"유행어\" \"패러디\" site:newsis.com -임성한 -개그콘서트",
+        "2026 \"밈\" \"말투\" site:univ20.com",
+        "2026 \"패러디\" \"대사\" site:mk.co.kr -임성한 -닥터신",
+        "2026 \"많이 놀라셨죠\" 패러디",
+        "2026 \"감자별\" \"패러디\"",
+        "2026 \"밈\" \"고정\" \"말투\" -site:namu.moe"
+      ]
+    },
+    "A126": {
+      "rows": 6,
+      "recommended": 1,
+      "held": 5,
+      "direct_pages": 2,
+      "failed_pages": 1,
+      "unrelated_page": 1,
+      "existing_body_reads": 1,
+      "queries": [
+        "\"코렁탕\" 뜻 기사",
+        "\"택배 드립\" 밈",
+        "\"포켓몬빵\" \"패러디\"",
+        "\"한글자 드립\"",
+        "\"호텔경제학\" 밈",
+        "\"할 말이 없네\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"한 글자 드립\" -site:namu.moe",
+        "\"택배 왔습니다\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"포켓몬빵\" \"SNL\" \"패러디\"",
+        "\"포켓몬빵\" \"빠더너스\" \"뉴스\""
+      ]
+    },
+    "C116": {
+      "observations": 8,
+      "recommended": 1,
+      "conditional": 1,
+      "existing": 4,
+      "held": 2,
+      "direct_pages": 3,
+      "failed_pages": 2,
+      "existing_body_reads": 1,
+      "queries": [
+        "\"2026\" \"완식\" \"뜻\"",
+        "\"2026\" \"추구미\" \"추구\" 신조어",
+        "\"2026\" \"손절각\" 기사",
+        "\"완식\" \"신조어\"",
+        "\"스세권\" \"2026\"",
+        "\"편도족\" \"2026\"",
+        "\"편도족\" \"동효정\" 2026 세븐일레븐",
+        "\"손절각\" 뜻 손절 신조어"
+      ]
+    },
+    "A127": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct_pages": 2,
+      "queries": [
+        "\"섣불리 판단하면 안되는 이유\" 밈",
+        "\"세뇌교육\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"소련국가\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"야후 꾸러기\" \"패러디\"",
+        "\"약한 사내다\" 패러디 -site:namu.moe -site:seore.org",
+        "\"오타쿠가 정치글을 쓰게\" -site:namu.moe -site:seore.org",
+        "\"세뇌교육\" \"마이리틀포니\"",
+        "\"야후 꾸러기\" \"합성\""
+      ]
+    },
+    "C117": {
+      "observations": 10,
+      "recommended": 1,
+      "existing": 3,
+      "held": 6,
+      "direct_pages": 3,
+      "failed_pages": 2,
+      "queries": [
+        "\"2026\" \"영업글\"",
+        "\"2026\" \"영업당했다\"",
+        "\"2026\" \"가심비\" 뜻",
+        "\"입틀막\" \"2026\" 감탄",
+        "\"입틀막\" \"뜻\" 기사",
+        "\"영업당했다\" 팬 \"2026\"",
+        "\"영업글\" \"뜻\" 팬덤",
+        "\"입틀막\" \"감탄\" 연예 2026 -정치 -법",
+        "\"영업\" \"팬덤 용어\" 기사",
+        "\"입틀막\" \"줄임말\" -site:sinjoeo.kr -site:politics-left-right.kr -site:namu.wiki",
+        "\"김선호\" \"본인들 키스신에 입틀막\""
+      ]
+    },
+    "B603": {
+      "observations": 9,
+      "recommended": 0,
+      "existing_family": 8,
+      "held": 1,
+      "direct_pages": 4,
+      "list_pages": 1,
+      "queries": [
+        "2026 \"밈\" \"말장난\" site:news.nate.com -하이닉스 -임성한",
+        "2026 \"패러디\" \"현수막\" site:yna.co.kr",
+        "2026 \"유행어\" site:bravo.etoday.co.kr",
+        "2026 \"밈\" site:news.sbs.co.kr \"문구\""
+      ]
+    },
+    "C118": {
+      "observations": 8,
+      "recommended_expressions": 3,
+      "recommended_entries": 2,
+      "existing": 2,
+      "held": 3,
+      "direct_pages": 4,
+      "existing_body_reads": 2,
+      "queries": [
+        "\"말잇못\" \"2026\" 뜻",
+        "\"할많하않\" \"2026\" 뜻",
+        "\"만찢남\" \"2026\"",
+        "\"말잇못\" \"줄임말\" 기사",
+        "\"만찢녀\" \"2026\" \"만화\""
+      ]
+    },
+    "B604": {
+      "observations": 8,
+      "recommended": 1,
+      "existing": 5,
+      "existing_family": 1,
+      "held": 1,
+      "direct_pages": 3,
+      "failed_pages": 1,
+      "existing_body_reads": 2,
+      "queries": [
+        "2026 \"패러디\" \"대사\" site:news.nate.com -임성한 -닥터신 -신이랑",
+        "2026 \"밈\" \"말장난\" site:newsis.com",
+        "2026 \"유행어\" \"광고\" site:tvreport.co.kr",
+        "2026 \"패러디\" \"문구\" site:adtimes.kr",
+        "2026 \"유행어\" \"재현\" -임성한 -허경환",
+        "\"자중해\" \"패러디\"",
+        "\"김아영\" \"자중해\" \"2025\" \"원래\"",
+        "\"자중해\" \"지예은\" \"2026\" -site:namu.moe -site:tvreport.co.kr"
+      ]
+    },
+    "editor_followup": {
+      "queries": [
+        "\"와우내\" \"2026\"",
+        "\"버카충\" \"2026\""
+      ],
+      "notes": [
+        "버카충 lexical history+2026 title use; actual youth prevalence not verified.",
+        "와우내 actual user source cache miss, held; no new entry."
+      ]
+    },
+    "A128": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "opened_pages": 2,
+      "direct_relevant_pages": 0,
+      "queries": [
+        "\"1초만에 사람을 낚는 방법\"",
+        "\"64 bits\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"Point 드립\" -site:namu.moe -site:seore.org",
+        "\"를 알려주겠다\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"해버리기\" \"보겸\" 기사",
+        "\"FBI OPEN UP\" \"패러디\" 한국",
+        "\"Point\" \"드립\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"64비트\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"[FBI open up 밈X블루아카이브]\"",
+        "\"해버리기\" \"유행어\" -site:namu.moe -site:seore.org"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "lingardongja-nickname",
+      "urls": [
+        "https://tv.seoul.go.kr/v/febe05da81084b60898ff9cba27d91e1",
+        "https://tip.fuseline.co.kr/entry/제시-린가드-별명-모음"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mani-nollasyeotjyo-reveal-greeting",
+      "urls": [
+        "https://mobile.newsis.com/view/NISX20140618_0012989976"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mutsuki-dance",
+      "urls": [
+        "https://www.vlum.co/post/QgBsUm8zEiIFAYRbhDja/",
+        "https://gall.dcinside.com/mgallery/board/view/?id=projectmx&no=11231382"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pokemon-bread-shortage-skit",
+      "urls": [
+        "https://m.seoul.co.kr/news/2022/08/31/20220831500024"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "seusekwon-starbucks-nearby-area",
+      "urls": [
+        "https://v.daum.net/v/8k5tmd9UHk",
+        "https://v.daum.net/v/20260720174154880"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ipteulmak-surprised-mouth-covering",
+      "urls": [
+        "https://mobile.newsis.com/view/NISX20240216_0002629709",
+        "https://news.nate.com/view/20260125n05550"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "maritmot-speechless-abbreviation",
+      "urls": [
+        "https://bravo.etoday.co.kr/view/atc_view/7078",
+        "https://www.kyosu.net/news/articleView.html?idxno=117465"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "manjjitnam-manjjitnyeo-comic-like-look",
+      "urls": [
+        "https://v.isplus.com/article/view/isp202611080133",
+        "https://v.daum.net/v/20260617191741239"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jajunghae-nasal-tone-imitation",
+      "urls": [
+        "https://v.daum.net/v/20260413081901478"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "beokachung-transit-card-top-up",
+      "urls": [
+        "https://bravo.etoday.co.kr/view/atc_view/7078",
+        "https://news.nate.com/view/20260221n03957"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Ten bounded terms/forms, recent applications distinguished from first origin. All media views zero.",
+    "Official Lingardongja hashtag confirmed; personal-blog etymology is not a proven first-origin claim.",
+    "Mutsuki dance fan explanation source independence unresolved; separate participation self-report does not verify choreography or original music.",
+    "Professor newspaper 말잇못 exact article date unknown; site date not adopted. 2017 Bravo date confirmed.",
+    "Pokemon bread single reporting family names several producers; not multiple independently viewed videos.",
+    "입틀막 limited to self mouth-covering surprise, not suppression of others.",
+    "버카충 basic lexical interpretation and 2026 headline use only, no claim about actual youth prevalence or current transit benefit eligibility.",
+    "I-heart-local-food design held; ordinary souvenir design boundary unresolved.",
+    "Existing approved bodies, fixtures hashes and tests unchanged; source observations/rechecks are not unique meme discovery counts."
+  ],
+  "query_observations": 12951,
+  "distinct_literal_queries": 10624,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

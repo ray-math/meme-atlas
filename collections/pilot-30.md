@@ -811,3 +811,7 @@
 - [나는 아직 배고프다](../memes/i-am-still-hungry.md)
 - [소리 지르지 말고 박수 쳐](../memes/dont-shout-clap.md)
 - [어떻게 지평좌표계로 고정을 하셨죠?](../memes/horizontal-coordinates-ghost.md)
+
+## 관련 표현 안내
+
+[가족 비교 호칭 연결](../docs/family-comparison-related.md)

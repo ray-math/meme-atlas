@@ -1,0 +1,19 @@
+{
+  "base": "65e2b38fe3cae0e55954ec3f0095e579886027e2",
+  "canonical_before": 904,
+  "canonical_after": 905,
+  "added": [
+    "did-you-grow-up-poor"
+  ],
+  "resolved_candidate_report": "reports/bulk/connector-resume-screening-229.json",
+  "independent_scope_review": {
+    "worker": "candidate_batch_c",
+    "decision": "separate quote entry justified",
+    "reason": "two independent non-acting critical textual applications; existing same-line entry covers acting rules, not this quote"
+  },
+  "editor_sources_reread": 2,
+  "original_video_viewed": false,
+  "scope": "critical quotation, no poverty-insult conversational examples",
+  "new_screening_queries": 0,
+  "ci": "not run"
+}

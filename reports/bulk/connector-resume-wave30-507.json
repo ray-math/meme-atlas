@@ -1,0 +1,310 @@
+{
+  "batch": 507,
+  "base": "7d6ef0d5941574e13193662849f68d0ddf1b3668",
+  "canonical_before": 1700,
+  "canonical_after": 1714,
+  "added": [
+    "eolmana-joa-product-syllable-ad-parody",
+    "meuheut-satisfied-text-reaction",
+    "gwichanism-reluctance-joke",
+    "ppomppu-purchase-urge-expression",
+    "jireumsin-shopping-deity-joke",
+    "onajeon-playful-wanjeon-spelling",
+    "pink-love-cover-title-parody",
+    "munja-wasshong-notification-parody",
+    "wonchu-recommendation-reaction",
+    "gangchu-bichu-recommendation-pair",
+    "syabang-bright-sparkling-expression",
+    "yeolgong-study-abbreviation",
+    "heogeok-surprised-text-exclamation",
+    "geunyeong-name-ending-wordplay"
+  ],
+  "candidate_changes": [],
+  "previous_ci": {
+    "sha": "7d6ef0d5941574e13193662849f68d0ddf1b3668",
+    "run": 44348321068,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": 181.659
+  },
+  "previous_audit": {
+    "result": "PASS",
+    "required_changes": 0,
+    "entries": 1700,
+    "files": 21,
+    "limitation": "Separate CI later found eomchina wave13 body hash invalid; audit missed historical pin beyond usage annotations."
+  },
+  "research": {
+    "B577": {
+      "observations": 8,
+      "recovered_recommendation": 1,
+      "existing": 4,
+      "held": 3,
+      "direct": 5,
+      "queries": [
+        "2026 \"패러디\" \"도서\" \"영상\" -site:namu.moe -site:chosun.com",
+        "2026 \"밈\" \"따라\" \"박물관\"",
+        "2026 \"재현\" \"패러디\" \"뮤직비디오\" -site:namu.moe -site:instablank.com",
+        "\"얼마나 좋아\" \"알 많아\" \"2026\"",
+        "\"관상\" \"수양대군\" \"패러디\" \"2026\""
+      ]
+    },
+    "C89": {
+      "observations": 3,
+      "recommended": 3,
+      "direct": 7,
+      "queries": [
+        "\"므흣\" \"흐뭇\" 신조어 기사",
+        "\"귀차니즘\" \"신조어\" 기사",
+        "\"뽐뿌\" \"구매\" \"신조어\"",
+        "\"므흣\" \"흐뭇\" 언어",
+        "\"뽐뿌\" \"구매 욕구\" 기사 -site:scribd.com",
+        "\"귀차니즘\" 후기 일상 블로그",
+        "뽐뿌 뜻 펌프 구매욕 신문",
+        "므흣 신조어 뜻 신문",
+        "\"므흣\" \"뜻\" \"상상플러스\" 기사",
+        "\"뽐뿌가\" \"후기\" site:brunch.co.kr",
+        "\"뽐뿌가 온다\" 후기 -site:ppomppu.co.kr",
+        "\"므흣\" \"후기\" site:brunch.co.kr"
+      ]
+    },
+    "B578": {
+      "observations": 4,
+      "recommended": 1,
+      "existing": 3,
+      "direct": 3,
+      "queries": [
+        "2026 \"패러디\" \"손가락\"",
+        "2026 \"밈\" \"재현한\" \"광고\" -site:apnews.kr -site:instablank.com",
+        "2026 \"패러디\" \"포스터\" \"공식\" -site:namu.moe"
+      ]
+    },
+    "B579": {
+      "observations": 10,
+      "recommended": 0,
+      "existing": 4,
+      "held": 6,
+      "direct": 3,
+      "queries": [
+        "2026 \"패러디\" \"재현\" \"공식\" \"사진\" -site:instablank.com -site:apnews.kr",
+        "2026 \"밈\" \"따라 만든\" -site:namu.moe",
+        "2026 \"패러디\" \"도서관\" \"제작\" -site:instablank.com",
+        "2026 \"패러디\" \"지역\" \"따라\" -site:instablank.com -site:namu.moe"
+      ]
+    },
+    "C90": {
+      "observations": 3,
+      "recommended": 1,
+      "conditional": 1,
+      "existing": 1,
+      "direct": 5,
+      "queries": [
+        "\"지름신\" \"신조어\" 기사",
+        "\"오나전\" \"완전\" 신조어 기사",
+        "\"캐안습\" 신조어 기사",
+        "\"오나전\" \"개그콘서트\" 2007 신조어"
+      ]
+    },
+    "C91": {
+      "observations": 12,
+      "recommended_expressions": 3,
+      "recommended_entries": 2,
+      "existing": 5,
+      "held": 4,
+      "direct": 2,
+      "queries": [
+        "\"하이루\" \"방가\" 신조어 기사",
+        "\"즐\" \"즐겁게\" 인터넷 유행어 2003",
+        "\"뷁\" \"신조어\" 기사",
+        "\"원츄\" \"추천\" \"신조어\"",
+        "\"샤방\" \"신조어\" 뜻",
+        "\"샤방\" \"상표\" 2006 오리온",
+        "\"원츄\" \"추천\" site:news.nate.com"
+      ]
+    },
+    "B580": {
+      "observations": 4,
+      "recommended": 1,
+      "existing": 2,
+      "held": 1,
+      "direct": 3,
+      "queries": [
+        "2026 \"패러디\" \"따라 했다\" -site:instablank.com -site:namu.moe",
+        "2026 \"챌린지\" \"재현했다\" \"방송\" -site:instablank.com",
+        "\"불허한다 내 사람이다\" \"패러디\"",
+        "\"문자왔숑\" \"패러디\""
+      ]
+    },
+    "A103": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "notes": "흑드라군 single personal explanatory use held for additional evidence; no adoption",
+      "queries": [
+        "\"할 말이 없네\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"헝그리 정신\" \"이경규\" 광고",
+        "\"헬테이커\" \"패러디\" 제작",
+        "\"호라\" \"멀쩡하자나\" -site:namu.moe -site:seore.org",
+        "\"호텔경제학\" 설명 -site:namu.moe -site:seore.org",
+        "\"흑드라군\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"헝그리 정신\" \"박카스\"",
+        "\"헬테이커\" 패러디 site:tistory.com",
+        "\"흑드라군\" -site:namu.moe -site:seore.org -site:readonly.wiki -site:bbalri.com",
+        "\"헝그리 정신\" \"유행어\" \"광고\""
+      ]
+    },
+    "A104": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 1,
+      "queries": [
+        "\"안전가족\" 패러디 제작",
+        "\"애는 있습니다\" 패러디",
+        "\"야후 꾸러기\" 패러디",
+        "\"얼리 엑세스 예시를 보여줌\"",
+        "\"엄마도 사람이야 사람\" 패러디",
+        "\"오 샹젤리제\" \"밈\"",
+        "\"애는 있습니다\" -site:namu.moe -site:seore.org",
+        "\"안전가족\" 합성 -site:namu.moe -site:readonly.wiki -site:seore.org -site:tcatmon.com",
+        "\"오 샹젤리제\" \"커피새\" -site:namu.moe -site:seore.org",
+        "\"안전가족\" \"패러디\" site:news.nate.com",
+        "\"얼리액세스\" \"치킨\" \"닭장\"",
+        "\"야후 꾸러기\" \"합성\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "C92": {
+      "observations": 4,
+      "recovered_recommendations": 4,
+      "queries": [
+        "\"샤방샤방\" \"뜻\" 기사",
+        "\"열공\" \"줄임말\" 기사",
+        "\"허걱\" \"신조어\"",
+        "\"열공\" \"열심히 공부\" site:news.nate.com"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "eolmana-joa-product-syllable-ad-parody",
+      "urls": [
+        "https://mobile.newsis.com/view/NISX20260825_0003761057"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "meuheut-satisfied-text-reaction",
+      "urls": [
+        "https://news.nate.com/view/20060820n06171",
+        "https://www.korean.go.kr/nkview/kyear/2007/2007_11.html"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gwichanism-reluctance-joke",
+      "urls": [
+        "https://www.korea.kr/news/reporterView.do?newsId=65019927",
+        "https://view.asiae.co.kr/article/2009101211285614075"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ppomppu-purchase-urge-expression",
+      "urls": [
+        "https://vop.co.kr/A00000462143.html",
+        "https://siane.tistory.com/367"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jireumsin-shopping-deity-joke",
+      "urls": [
+        "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0000239489",
+        "https://news.nate.com/view/20050421n02847"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "onajeon-playful-wanjeon-spelling",
+      "urls": [
+        "https://news.nate.com/view/20060820n06171",
+        "https://v.daum.net/v/20260330112204744"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pink-love-cover-title-parody",
+      "urls": [
+        "https://enter.etoday.co.kr/news/view/303711"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "munja-wasshong-notification-parody",
+      "urls": [
+        "https://m.etnews.com/201102070172",
+        "https://www.starnewskorea.com/broadcast-drama/2011/03/08/2011030809461684008"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "wonchu-recommendation-reaction",
+      "urls": [
+        "https://www.newswire.co.kr/newsRead.php?no=133779",
+        "https://view.asiae.co.kr/article/2009121409380023502"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gangchu-bichu-recommendation-pair",
+      "urls": [
+        "https://www.newswire.co.kr/newsRead.php?no=133779",
+        "https://view.asiae.co.kr/article/2009121409380023502"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "syabang-bright-sparkling-expression",
+      "urls": [
+        "https://www.newswire.co.kr/newsRead.php?no=133779",
+        "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0000873726"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "yeolgong-study-abbreviation",
+      "urls": [
+        "https://www.newswire.co.kr/newsRead.php?no=133779",
+        "https://news.nate.com/view/20260409n30689"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "heogeok-surprised-text-exclamation",
+      "urls": [
+        "https://www.korean.go.kr/nkview/nknews/200206/47_7.html"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "geunyeong-name-ending-wordplay",
+      "urls": [
+        "https://weekly.khan.co.kr/article/10452"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "14 bounded entries independently preaudited; media0.",
+    "Four 2026 applications, ten historical explanations/reuses; not all new discoveries.",
+    "506 original and first two fixes failed CI; final fix passed all65 steps and495Python tests without changing tests or approval hashes.",
+    "Related docs route works currently; pilot generation removes manual entry point, permanent generator support not claimed."
+  ],
+  "query_observations": 12387,
+  "distinct_literal_queries": 10173,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

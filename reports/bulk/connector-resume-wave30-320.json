@@ -1,0 +1,39 @@
+{
+  "batch": 320,
+  "base": "7b05c117eb3682a0822947d4a65e02963c383f07",
+  "canonical_before": 951,
+  "canonical_after": 951,
+  "scope_recovery": {
+    "candidate": "kr-list-0335",
+    "from": "unclear",
+    "to": "index_not_found",
+    "source": "https://www.starnewskorea.com/broadcast-show/2013/04/13/2013041317030362261",
+    "editor_read": true,
+    "not_duplicate_of": "hmh-gmg",
+    "published": false
+  },
+  "existing_evidence": {
+    "id": "are-you-crazy-human",
+    "editor_read": 2,
+    "urls": [
+      "https://www.chungm.com/AreyoucrazyHUMAN",
+      "https://v.daum.net/v/20260202180017194"
+    ],
+    "note": "전시 제목 차용(날짜 미확정) +2026-02-02 편집자 제목. 기존 본문 수정하지 않고 보강 근거 보존. AI 실제 발화 근거 아님."
+  },
+  "coverage_counts": {
+    "index_not_found": 329,
+    "partial": 40,
+    "unclear": 337,
+    "automatic_title_alias_match": 328,
+    "included": 53,
+    "candidate_repeat": 4
+  },
+  "ci": {
+    "run": 44231927537,
+    "body_sha": "9a548c38c7a30c7ce6eda530bf7c5a3434b574bf",
+    "conclusion": "success",
+    "python_tests": 495
+  },
+  "limits": "No new entry. Single original scene coverage does not establish independent meme reuse. Original candidate snapshot unchanged."
+}

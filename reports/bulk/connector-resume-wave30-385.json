@@ -1,0 +1,214 @@
+{
+  "batch": 385,
+  "base": "f5a84a31c9560385ce4d104b93c56659f4cf234a",
+  "canonical_before": 984,
+  "canonical_after": 985,
+  "added": [
+    "cry-hell-sword"
+  ],
+  "researchB": {
+    "rows": [
+      {
+        "id": "0820",
+        "status": "old_recovery_review",
+        "sources": [
+          "https://www.topdaily.kr/articles/44717",
+          "https://tumblbug.com/torifactory01/story"
+        ],
+        "note": "2020-11-10광고제작보도+2020-12-21~2021-01-20피규어프로젝트,최근0;원사진인물신상제외"
+      },
+      {
+        "id": "0819",
+        "status": "held",
+        "source": "https://clip.imbc.com/m/ClipPlay/M01_TZ202504262520",
+        "note": "2025-04-26목록제목썸치환1 기간밖.주영상과목록다름."
+      },
+      {
+        "id": "0840",
+        "status": "held",
+        "note": "최근게임초보제목검색직접502/실제출생해충제외"
+      },
+      {
+        "id": "0878",
+        "status": "held",
+        "note": "위키외독립제작2건미확보"
+      },
+      {
+        "id": "0898",
+        "status": "held",
+        "note": "원방송회고도서목차단서만동일형식불명"
+      }
+    ],
+    "queries": [
+      "\"얼음이라 부르기로\" \"2026\"",
+      "\"지옥참마도\" \"2026\"",
+      "\"응애\" \"2026\" \"아기\"",
+      "\"인주 앨리스\" \"2026\"",
+      "\"잘생겨서 안 좋은 점\" \"2026\"",
+      "\"부르기로 약속했어요\" \"2026\" -site:namu.moe",
+      "\"응애 나\" \"2026\" -site:namu.moe -site:inven.co.kr",
+      "\"인주 앨리스\" 제작",
+      "\"부르기로 약속했어요\" -site:namu.moe -site:orbi.kr -site:illusionlive.com",
+      "\"응애 나\" \"2026\" site:gall.dcinside.com",
+      "\"울어라 지옥참마도\" 제작 -site:namu.moe"
+    ]
+  },
+  "editor": {
+    "sources_read": 2,
+    "limits": "2020광고제작보도+2020~21피규어직접프로젝트.최근사용0,원장과거누락보완.원사진인물신상/최초기원미확인,제품/영상사진0."
+  },
+  "independent_body_audit": {
+    "id": "butter-run-challenge",
+    "passed": true,
+    "required_changes": 0,
+    "sources_read": 3,
+    "limits": "별개참여사건보도2+운영계획1.직접영상사진0.인덱스/CI감사제외"
+  },
+  "ci": {
+    "body984": "pending",
+    "new_commit": "pending"
+  },
+  "semantic_audit": {
+    "sha": "f5a84a31c9560385ce4d104b93c56659f4cf234a",
+    "scope": "automatic_title_alias_match positions121-140",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0458",
+        "dictionary_id": "clear-eyed-eccentric",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0461",
+        "dictionary_id": "thats-right-matgoyo",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0466",
+        "dictionary_id": "museon129",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0471",
+        "dictionary_id": "notepad-on",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0473",
+        "dictionary_id": "nobody-knows-secret",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0480",
+        "dictionary_id": "lifelong-single",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0482",
+        "dictionary_id": "momjjang",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0485",
+        "dictionary_id": "stage-flipped",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0489",
+        "dictionary_id": "muyaho",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0492",
+        "dictionary_id": "humanities-vs-science",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0493",
+        "dictionary_id": "civilized-away",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0495",
+        "dictionary_id": "sorry-humanities",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0498",
+        "dictionary_id": "dont-ask-hurt",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0503",
+        "dictionary_id": "mwongmi",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0504",
+        "dictionary_id": "pomegranate-song",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0508",
+        "dictionary_id": "sorry-for-clickbait",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0514",
+        "dictionary_id": "push-pull-romance",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0515",
+        "dictionary_id": "slide-to-unlock-parody",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0518",
+        "dictionary_id": "smooth-smooth",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0525",
+        "dictionary_id": "bam-yang-gang",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      }
+    ],
+    "bodies_read": 20,
+    "classification_changes": 0,
+    "limits": "0504/0525노래재현한정,제품음식전체아님.외부기원검증0/영상사진0"
+  },
+  "automatic_audit_cumulative": {
+    "rows": 140,
+    "distinct_rows": 140,
+    "distinct_bodies": 139,
+    "reports": [
+      376,
+      377,
+      379,
+      381,
+      383,
+      384,
+      385
+    ]
+  }
+}

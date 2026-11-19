@@ -1,0 +1,118 @@
+{
+  "base": "2e16774f95df850d3424add324745d32582e5f54",
+  "entries": [
+    {
+      "id": "before-working-look",
+      "sources": [
+        {
+          "url": "https://maily.so/trendaword/posts/8do723g0rgq",
+          "observed": "2026-08-06 업무 전후와 yangkkaebi 운동 전후 계정/게시물 구체 소개."
+        },
+        {
+          "url": "https://gogumafarm.kr/대박삐-삐바삐-밈잘알삐-만들어-주는-2026년-8월-최신-밈/",
+          "observed": "2026-08-26 기아 퍼펭·틴더의 별개 활용 보고."
+        }
+      ],
+      "evidence_level": "독립 작성 매체2곳의 구체 사례 보도. 원영상/이미지 직접 관찰 아님.",
+      "dedup": "864개 인덱스 전후/일하기/출근 전 비교. ten-minutes-challenge의 음악 기반 변신과 구별.",
+      "limits": "먹방 영상 제목 메타데이터는 사용 검증 수에 포함하지 않음."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "무례하지",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "여름이 널",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "일하기 전",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "accepted-family",
+      "canonical": "before-working-look"
+    },
+    {
+      "query": "연락 없네",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "existing-family",
+      "canonical": "no-reply-live-well"
+    },
+    {
+      "query": "잘 살아",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "existing-family",
+      "canonical": "no-reply-live-well"
+    },
+    {
+      "query": "흙이 없어",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "흙이없어",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "전업자녀",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "엄미새",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "두더지",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "입수",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "전후",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "돌려 말",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "출근 전",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "일하기",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "무례",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    },
+    {
+      "query": "전업",
+      "source": "reports/bulk/connector-resume-b154.json",
+      "status": "broad-supporting-query"
+    }
+  ],
+  "checks": {
+    "result_entries": 865,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

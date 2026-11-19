@@ -1,0 +1,43 @@
+{
+  "base_sha": "a39dbf34e6d791aa0aa05192a83477212991927a",
+  "canonical_before": 888,
+  "canonical_after": 889,
+  "added": [
+    "ended-up-here"
+  ],
+  "sources": [
+    {
+      "url": "https://maily.so/trendaword/posts/2qzpe1deo4x",
+      "date": "2026-11-09",
+      "evidence": "뉴스레터 직접제목 변형"
+    },
+    {
+      "url": "https://www.highziumstudio.com/아카이브/behind-닥터x-최종회-와졌어/",
+      "date": "2026-11-16",
+      "evidence": "소속사 공식 상세페이지 제목/본문 직접 적용"
+    }
+  ],
+  "query_strings": [
+    "얼데이드립",
+    "존박 맥도날드 랩",
+    "야차",
+    "정신 차려보니",
+    "한한미일",
+    "멧챠 카멜레온",
+    "배우 도전 1일차",
+    "탭탭탭",
+    "Food Jutsu",
+    "GG EZ",
+    "와졌어",
+    "써졌어"
+  ],
+  "limits": [
+    "롬앤미러 편집자재열람실패로 본문근거에서제외",
+    "익명예문을 실제독립사용으로계수안함",
+    "최초원작자미확정"
+  ],
+  "checks": {
+    "python": "not-run",
+    "ci": "not-run"
+  }
+}

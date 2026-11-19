@@ -1,0 +1,130 @@
+{
+  "batch": 378,
+  "base": "460a7f1dad69bb81900c3e751c77bb7148af9efb",
+  "canonical_before": 981,
+  "canonical_after": 981,
+  "added": [],
+  "researchA": {
+    "candidates": 1,
+    "recommended": 0,
+    "held": 1,
+    "title": "스카프 역호객 말투",
+    "sources": [
+      {
+        "url": "https://www.newspim.com/news/view/20261105001279",
+        "date": "2026-11-06 12:00",
+        "scope": "기자본문313/318-319다른물건판매패러디설명,개별제작자원문URL없음"
+      },
+      {
+        "url": "https://www.yna.co.kr/amp/view/AKR20261117133400505",
+        "date": "2026-11-18 08:00",
+        "scope": "L33원래말투/L76삼인묶음편집;말투재사용별개형식이라2번째적용안셈"
+      }
+    ],
+    "failed": [
+      "https://www.82cook.com/entiz/read.php?bn=15&num=4258631",
+      "https://www.82cook.com/entiz/read.php?bn=15&num=4256846"
+    ],
+    "existing": [
+      "raureol",
+      "odyssey",
+      "pepero-aid"
+    ],
+    "limits": "댓글내용/독립제작/영상0;선크림은단서만;AI압수수색보강못함",
+    "queries": [
+      "\"AI 압수수색\" \"해봤\"",
+      "\"챗GPT\" \"압수수색\" 후기",
+      "\"2026\" \"밈\" \"직접 써\"",
+      "\"라우럴\" 지수 패러디",
+      "\"오디세이\" \"디저트\" 2026",
+      "\"선크림 아저씨\" 패러디 2026",
+      "\"스카프 아저씨\" \"패러디\"",
+      "\"선크림 아저씨\" \"따라\"",
+      "\"사지 마\" \"스카프\" \"패러디\"",
+      "site:82cook.com \"스카프 아저씨 입담으로 댓글 놀이\"",
+      "site:82cook.com \"스카프리오 패러디\""
+    ]
+  },
+  "researchB": {
+    "ref": "9f05fac047fb6bd06591a821e1c7524ed04672af",
+    "candidates": 5,
+    "recommended": 0,
+    "held": 5,
+    "rows": [
+      {
+        "id": "0396",
+        "url": "https://www.xportsnews.com/article/1670593",
+        "note": "실제2022-12-29유행보도,상단2026편집일아님;직접재사용2미확보"
+      },
+      {
+        "id": "0422",
+        "url": "https://whitefaceone.tistory.com/2785",
+        "note": "2022-07-20역재생리믹스해설1원영상0;일반띠용별개"
+      },
+      {
+        "id": "0436",
+        "url": "https://m.inven.co.kr/board/lol/4625/4277372",
+        "note": "502검색단서만;닉네임전적제외"
+      },
+      {
+        "id": "0447",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=hanavi&no=137387&page=1",
+        "note": "2026-11-15 12:19쇼츠공지지연반응직접1;참치13208 403/인벤502"
+      },
+      {
+        "id": "0460",
+        "note": "일반망했어요와중계음성구분근거부족;위키사례미검증"
+      }
+    ],
+    "queries": [
+      "\"동그란 맘속에 피어난\" \"2026\"",
+      "\"띠용띠용\" \"2026\"",
+      "\"럼자오자레\" \"2026\"",
+      "\"마따끄\" \"2026\"",
+      "\"망했어요\" \"2026\" \"엄재경\"",
+      "\"띠용띠용 워익워익\"",
+      "\"럼자오자레\" 패러디 -site:namu.moe",
+      "\"동그란 맘속에 피어난\" 패러디",
+      "\"망했어요\" \"김태형\" 패러디",
+      "\"마따끄\" -site:namu.moe -site:inven.co.kr -site:issuelink.co.kr \"2026\" \"없으니\""
+    ]
+  },
+  "editor": {
+    "queries": [
+      "\"마따끄\" \"2026\" -site:namu.moe -site:inven.co.kr -site:issuelink.co.kr -site:kone.gg -site:gall.dcinside.com",
+      "\"마따끄\" site:theqoo.net",
+      "\"마따끄\" site:maily.so"
+    ],
+    "limits": "검색결과대학동아리동명/방송집계/팬더빙집계는문맥있는직접말투활용아님.오르비원문회복시도별도기록",
+    "failed_urls": [
+      "https://orbi.kr/00079020581",
+      "https://orbi.kr/00080022422"
+    ],
+    "failed_reason": "cachemiss,직접사용추가0"
+  },
+  "independent_body_audit": {
+    "id": "ai-one-word-challenge",
+    "sha": "460a7f1dad69bb81900c3e751c77bb7148af9efb",
+    "passed": true,
+    "required_changes": 0,
+    "sources_read": 2,
+    "comparative_bodies": [
+      "draw-how-i-treated-you",
+      "54000"
+    ],
+    "limits": "일반소개유사문장은독립실행으로안셈;참여인터뷰1+매체실행제작자기보고1.이미지영상대화0,AI매터스예시는생성영상변형;목록CI제외"
+  },
+  "ci": {
+    "report376": {
+      "run": 44245182475,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 108.459
+    },
+    "body981": {
+      "run": 44245403465,
+      "status": "in_progress_at_preparation"
+    }
+  }
+}

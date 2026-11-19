@@ -1,0 +1,90 @@
+{
+  "batch": 325,
+  "base": "895d59daef52ea9f5e8d85cf0fa32c5d2b25be7c",
+  "canonical_before": 955,
+  "canonical_after": 956,
+  "added": [
+    "is-that-something-to-eat"
+  ],
+  "research": {
+    "candidates": [
+      "0305",
+      "0308",
+      "0317",
+      "0325",
+      "0356",
+      "0358",
+      "0364",
+      "0374",
+      "0381",
+      "0382"
+    ],
+    "recommended": 0,
+    "held": 10,
+    "recovered0234": {
+      "sources": [
+        "https://www.tving.com/shorts/VT0000167663",
+        "https://merrily-code.tistory.com/45",
+        "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=&key=20160725.99002112432"
+      ],
+      "recent_dated": 0
+    },
+    "queries": [
+      "\"그거 먹는 건가요\" 대학",
+      "\"교토식 화법\" \"브런치\"",
+      "\"그거 먹는 건가요\" 개발 블로그",
+      "\"난 아무렇지 않지 않아\" 밈",
+      "\"날 내버려둬\" 밈",
+      "\"내 거에 올라온 네 욕 볼래\"",
+      "\"너 고소\" \"2026\"",
+      "\"니 인생이 레전드다\"",
+      "\"닌자 몰살\" 소설 패러디 -site:namu.moe",
+      "\"다 부질없는 개뻘짓이다\"",
+      "\"당신이 옳았어\" 밈",
+      "\"대한민국 완전히 망했네요\" 패러디",
+      "\"대환장 파티\" 밈"
+    ],
+    "index_queries": [
+      "먹는건가",
+      "교토",
+      "아무렇지않지",
+      "내버려둬",
+      "욕볼래",
+      "너고소",
+      "인생이레전드",
+      "닌자",
+      "개뻘짓",
+      "당신이옳",
+      "완전히망",
+      "대환장"
+    ],
+    "held0364": {
+      "source": "https://gall.dcinside.com/mgallery/board/view/?id=manariafriends&no=952220",
+      "date": "2026-09-25",
+      "kind": "game substitution1",
+      "comparison": "https://www.82cook.com/entiz/read.php?num=3883789",
+      "note": "2024quote not new independent parody"
+    }
+  },
+  "verification": {
+    "editor_read": 3,
+    "independent_auditor_read": 3,
+    "direct_title_groups": 2,
+    "reported_promotion_group": 1,
+    "recent_dated": 0,
+    "video_viewed": 0
+  },
+  "coverage_counts": {
+    "index_not_found": 324,
+    "partial": 40,
+    "unclear": 337,
+    "automatic_title_alias_match": 328,
+    "included": 58,
+    "candidate_repeat": 4
+  },
+  "metrics": {
+    "observations": 3290,
+    "distinct": 2770
+  },
+  "limits": "Ordinary food questions excluded, same news and its quoted promotion counted once. No origin assertion. CI pending."
+}

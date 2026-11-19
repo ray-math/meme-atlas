@@ -1,0 +1,104 @@
+{
+  "batch": 418,
+  "base": "1dc41a86f89bcef65e103ef47f57cb33d7a07927",
+  "canonical_before": 999,
+  "canonical_after": 999,
+  "added": [],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" \"패러디\" site:busan.com",
+      "2026 \"밈\" \"유행어\" site:imaeil.com",
+      "2026 \"밈\" \"챌린지\" site:jnilbo.com",
+      "2026 \"밈\" \"따라\" site:kwnews.co.kr",
+      "\"AI 압수수색\" \"2026\"",
+      "\"압수수색\" \"챗GPT\" \"해봤\"",
+      "2026 \"밈\" site:kihoilbo.co.kr",
+      "2026 \"밈\" site:kgnews.co.kr",
+      "\"압수수색\" \"챌린지\" \"AI\"",
+      "\"전업자녀입니다\" \"2026\""
+    ],
+    "screened": 3,
+    "existing": [
+      "ai-one-word-challenge"
+    ],
+    "held": [
+      "AI압수수색",
+      "전업자녀"
+    ],
+    "sources": [
+      "https://www.fnnews.com/news/202609270601300269",
+      "https://www.mk.co.kr/news/columnists/11921627",
+      "https://www.imaeil.com/page/view/2026061613284052656"
+    ],
+    "note": "AI압수수색연합전재1취재군.개인정보판별정확성미검증,이미지0.전업자녀사회현상/밈불명home-protector부분유사.매일신문실입력06-22 URL날짜아님."
+  },
+  "researchB": {
+    "queries": [
+      "\"어제 내 세상이 무너졌어\" \"2026\" -site:namu.moe -site:inven.co.kr -site:kone.gg -site:huggingface.co",
+      "\"어제 내 세상이 무너졌어\" site:theqoo.net",
+      "\"내 세상이 무너졌어\" \"2026\" 패러디"
+    ],
+    "id": "0747",
+    "sources": [
+      "https://miniweb.imbc.com/Music/View?progCode=FM4U000001335&seqID=1256",
+      "https://gall.dcinside.com/mgallery/board/view/?id=wowclassic&no=1373582&page=1",
+      "https://www.careet.net/Newsletter/Detail/337"
+    ],
+    "supplemental": "https://kone.gg/s/ainovel/crImblEG1RMhzZGpBEDj8b",
+    "note": "MBC08-26전체문구+박자지시,DC10-24일없다는맥락짧은문구.이미지0,특정업적미확정.캐릿2021-10-01발송일형식설명. Kone날짜본문없어최근확정안함."
+  },
+  "researchC": {
+    "queries": [
+      "\"물음표 살인마\" \"2026\"",
+      "\"유죄 인간\" \"2026\"",
+      "\"유죄 무죄\" \"다정\" \"2026\"",
+      "\"유죄\" \"설레\" site:imbc.com 2026"
+    ],
+    "recommended": {
+      "title": "물음표 살인마",
+      "sources": [
+        "https://news.skhynix.com/en/category/media-library/instagram/page/26/",
+        "https://v.daum.net/v/20260124085509793",
+        "https://enews.imbc.com/News/ViewAmp/493926"
+      ],
+      "note": "SK직접유형문구날짜불명+FN2026-01-24칼럼소제목직접적용,최근확정1. MBC02-08방송예고보조.실제범죄/성격진단아님.성별은퇴자일반화제외.원장물음표드립0499와동일안함."
+    },
+    "held": {
+      "title": "유죄무죄",
+      "sources": [
+        "https://news.skhynix.com/en/category/media-library/instagram/page/41/",
+        "https://playvod.imbc.com/Vod/VodPlay?broadcastId=1006914100032100000",
+        "https://www.newsen.com/news_view.php?code=100100&uid=202604261044475710"
+      ],
+      "note": "다정한선배선택형식1과광의유죄인간칭찬은다름.MBC제목날짜불명연령확인수행안함.뉴스엔04-26외모모의법정은형식달라보류.slist403."
+    },
+    "index_rows": 999,
+    "media": 0
+  },
+  "editor": {
+    "queries": [
+      "\"2026\" \"밈\" \"드립\" site:news.nate.com -정치 -샤갈 -야르",
+      "\"2026\" \"밈\" \"유행\" site:design.co.kr"
+    ],
+    "note": "성지순례/OCN자막/곡홍보 검색단서만, 신규확정0. 혐오·낙인보도갈래채택안함."
+  },
+  "final999audit": {
+    "passed": true,
+    "body_reads": 1,
+    "additional_source_reads": 1,
+    "required_changes": 0,
+    "total_sources": 3,
+    "production_groups": 2,
+    "media": 0
+  },
+  "ci999": {
+    "run": 44257241572,
+    "job": 134641772165,
+    "success": true,
+    "tests": 495,
+    "seconds": 54.232
+  },
+  "candidate_changes": 0,
+  "coverage_basis": "reports/bulk/connector-resume-coverage-current-417.json",
+  "ci_new_commit": "pending"
+}

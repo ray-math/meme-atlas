@@ -1,0 +1,307 @@
+{
+  "batch": 479,
+  "base": "8601ffade912542f018eaff56e3534984004ad90",
+  "canonical_before": 1429,
+  "canonical_after": 1437,
+  "added": [
+    "hyeomseongguk-country-pejorative",
+    "dont-work-thanks-for-answer-dialogue",
+    "unholy-costume-dance-parody",
+    "gigeon-fandom-pejorative-suffix",
+    "dr-livesey-walk-character-animation",
+    "number-two-man-political-label",
+    "online-quiet-space-visit-play",
+    "polandball-flag-character-comics"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-1121",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "hyeomseongguk-country-pejorative"
+    },
+    {
+      "id": "kr-list-1129",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "dont-work-thanks-for-answer-dialogue"
+    },
+    {
+      "id": "kr-list-0072",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "gigeon-fandom-pejorative-suffix"
+    },
+    {
+      "id": "kr-list-0094",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "dr-livesey-walk-character-animation"
+    },
+    {
+      "id": "kr-list-0060",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "number-two-man-political-label"
+    },
+    {
+      "id": "kr-list-1076",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "polandball-flag-character-comics"
+    }
+  ],
+  "previous_ci": {
+    "sha": "8601ffade912542f018eaff56e3534984004ad90",
+    "run": 44306133232,
+    "job": 134808064202,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 105.864s"
+  },
+  "previous_audit": {
+    "batch": 478,
+    "sha": "8601ffade912542f018eaff56e3534984004ad90",
+    "result": "PASS",
+    "mandatory_fixes": 0,
+    "source_urls": 15,
+    "old_entries_preserved": 1419,
+    "candidate_changes": 6,
+    "mapping_loss": 0,
+    "usage": {
+      "total": 1429,
+      "annotated": 74,
+      "reviewed": 73,
+      "unannotated": 1355
+    },
+    "notes": "19files;existingbodiesunchanged;carry197observations correct;historical and risk boundaries appropriate;repair477 did not modify tests."
+  },
+  "research": {
+    "C19": {
+      "count": 20,
+      "existing": 13,
+      "partial": 2,
+      "recommended": 2,
+      "held": 3,
+      "queries": [
+        "\"혐성국\" 뜻",
+        "\"회사 안다녀\" 밈",
+        "\"헝그리 정신\" \"광고\"",
+        "\"헬테이커\" \"춤\"",
+        "\"황근출\" \"밈\" 기사",
+        "\"호라\" \"젠젠\" \"멀쩡\"",
+        "\"헝그리 정신\" \"유행어\"",
+        "\"헬테이커\" \"춤\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "1121 critical-country-nickname and1129dialogue-format recommended.15existingbodies/5external1decodefailure.1127partial relation toakkkangbeo supportedbyopinioncolumn,notfullcharacter.1131/1135/1140held."
+    },
+    "A39": {
+      "count": 16,
+      "existing": 4,
+      "partial": 7,
+      "repeat": 1,
+      "held": 4,
+      "queries": [
+        "\"호텔경제학\"",
+        "\"흑드라군\" -site:namu.moe -site:seore.org",
+        "\"호텔경제학\" \"드립\"",
+        "\"흑드라군\" \"패러디\""
+      ],
+      "notes": "1141-1156end16.12bodies/1external/1failure.1146repeat1127preserved.1143politicalanalogyreportnotmemeproof;Orbi403.1142/1148/1149held."
+    },
+    "B504": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 14,
+      "held": 5,
+      "queries": [
+        "충주댐 Unholy 패러디 충주시 샘스미스 2023",
+        "2026 \"챌린지\" \"사진\" site:marieclairekorea.com",
+        "2026 \"밈\" \"놀이\" site:esquirekorea.co.kr",
+        "2026 \"놀이\" site:marieclairekorea.com \"SNS\"",
+        "2026 \"챌린지\" site:harpersbazaar.co.kr \"놀이\"",
+        "\"2026\" \"밈\" \"사진 놀이\"",
+        "\"2026\" \"밈\" \"11월\" \"인증\"",
+        "\"킹 스미스\" \"패러디\" \"2023\" SBS",
+        "\"라우럴\" \"지수\" 2026",
+        "\"빼난지원금\" 유병재 2026",
+        "\"회사 와졌어\" 2026",
+        "\"부모님\" \"내 나이\" \"챌린지\" 2026",
+        "\"스파이더맨\" \"천장\" \"챌린지\" 2026",
+        "\"배경 트랜지션\" 2026 릴스"
+      ],
+      "notes": "Unholy costume/dance family recommendation2023actualproductions;ELLE2026retrospective notnewproduction.14existing5held.Originalmedia0,SBSfailednotused."
+    },
+    "C20": {
+      "count": 20,
+      "recommended": 3,
+      "conditional": 1,
+      "partial": 1,
+      "held": 15,
+      "queries": [
+        "\"2번남\" 뜻",
+        "\"141\" \"밈\" 원기",
+        "\"1557\" \"밈\"",
+        "\"AK47\" \"패러디\" 할머니",
+        "\"11미터 모형탑\" 밈",
+        "\"1. 들어올린다\" 밈",
+        "\"1초만에 사람을 낚는 방법\"",
+        "\"64 bits\" \"밈\"",
+        "\"88848\" 뜻",
+        "\"학개론\" \"패러디\" 제목",
+        "\"해버리기\" \"유행어\"",
+        "\"기견\" \"접미사\"",
+        "\"Point\" \"드립\" 뜻 -site:namu.moe -site:seore.org",
+        "\"를 알려주겠다\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"Ang?\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"Dr. Livesey\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"chip\" \"밈\" 고양이",
+        "\"camel singing\" 한국 밈",
+        "\"학개론\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"기견\" 뜻 -site:namu.moe -site:seore.org",
+        "\"메창\" \"뜻\" -site:namu.moe -site:seore.org",
+        "\"12.3\" \"계엄\" \"밈\""
+      ],
+      "notes": "20previousheldrows reexamined;0060criticalpoliticallabel/0072fandompejorative/0094creatorwalkinganimationrecommended.0063conditionalpersonalexplanationnotresultverification.0083hellchangpartial.6existingbodies;media0."
+    },
+    "A40": {
+      "count": 20,
+      "recommended": 1,
+      "partial_proposal": 1,
+      "held": 18,
+      "queries": [
+        "\"하루만 기다리면\" \"밈\" 뜻",
+        "\"해명이\" 넥슨 캐릭터 패러디",
+        "\"크아아악\" \"원석아\" 패러디",
+        "\"허경영\" \"무중력\" \"따라\"",
+        "\"무중력춤\" \"패러디\" -site:namu.moe",
+        "\"킹 오브 프리즘\" \"이지두댄스\" 패러디",
+        "\"폴란드볼\" 한국 만화",
+        "\"맛있는 겨울배\" 패러디",
+        "\"무중력춤\" 허경영 따라했다",
+        "\"해명이\" \"사실이 아닙니다\" -site:namu.moe",
+        "\"캬루\" \"밈\" -site:namu.moe -site:alphawiki.org",
+        "\"파피 플레이타임\" \"패러디\" 한국",
+        "\"캡콤은 개껌이 아니라\" -site:namu.moe -site:seore.org",
+        "\"노인전\" \"케인\" -site:namu.moe -site:seore.org",
+        "\"케경호\" -site:namu.moe -site:seore.org",
+        "\"코리안조커\" -site:namu.moe -site:seore.org",
+        "\"택배 드립\" -site:namu.moe -site:seore.org",
+        "\"평온차\" -site:namu.moe -site:seore.org",
+        "\"코렁탕\" 뜻 -site:namu.moe -site:seore.org -site:wiki",
+        "\"탈모 드립\" 비판",
+        "\"케이팝 데몬 헌터스\" 패러디",
+        "\"클로저스 성우 논란\" 밈",
+        "\"크아아악\" \"원석아\" -site:namu.moe -site:seore.org -site:alphawiki.org",
+        "\"무중력춤\" \"패러디\" -site:namu.moe -site:alphawiki.org"
+      ],
+      "notes": "20previousheld reexamined.1076Polandballpartialrecommended;1034talmor-partyonlypartialproposednotfullgeneric.1108criticalhistoricalnicknamepossiblebutheld.2bodies10externals3failures.Media0."
+    },
+    "B505": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 9,
+      "held": 4,
+      "excluded": 6,
+      "queries": [
+        "2026 \"밈\" \"11월\" site:incross.com",
+        "2026 \"놀이\" \"사진\" site:univ20.com",
+        "2026 \"밈\" site:eyesmag.com",
+        "\"2026\" \"놀이\" \"유행\" \"사진\" -site:instablank.com -site:namu.moe",
+        "\"2026\" \"요즘\" \"밈\" site:univ20.com/Magazine/Detail",
+        "\"2026\" \"챌린지\" site:allurekorea.com \"11\"",
+        "\"온라인 산사\" \"2026\" \"교회\"",
+        "\"온라인 산사\" \"만들\" \"성당\""
+      ],
+      "notes": "Onlinequietspace familyrecommended;Incross31141Nov4,Nongmin20261116500593Nov18actualuserrecollection,inpeaceoperatordescriptionundatednotexecuted.4heldAIobituary/PPTfox/Gmarket/balancegame;6genericproduct/activityexcluded."
+    },
+    "editor": {
+      "count": 2,
+      "queries": [
+        "\"온라인 산사\" \"2026\"",
+        "\"2번남\" site:edaily.co.kr 2022 03 14"
+      ],
+      "notes": "Duplicate followup source verification for B505virtualsocialspace and C20politicalterm,not2new discoveries."
+    }
+  },
+  "sources": [
+    {
+      "id": "hyeomseongguk-country-pejorative",
+      "urls": [
+        "https://gall.dcinside.com/mgallery/board/view/?id=alternative_history&no=277197",
+        "https://a2.bbalri.com/entry/혐성-뜻-혐성국-혐성질"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dont-work-thanks-for-answer-dialogue",
+      "urls": [
+        "https://everymemes.tistory.com/516"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "unholy-costume-dance-parody",
+      "urls": [
+        "https://v.daum.net/v/20230130180231162",
+        "https://www.wikitree.co.kr/articles/833272",
+        "https://smcncletter.com/1098"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gigeon-fandom-pejorative-suffix",
+      "urls": [
+        "https://everymemes.tistory.com/696"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dr-livesey-walk-character-animation",
+      "urls": [
+        "https://junkang94.artstation.com/projects/BXGzWk"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "number-two-man-political-label",
+      "urls": [
+        "https://v.daum.net/v/20220308173457762",
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01262806632263320"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "online-quiet-space-visit-play",
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20261031034300005",
+        "https://www.incross.com/ko/insight/report.asp?idx=31141&mode=view",
+        "https://nongmin.com/article/20261116500593"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "polandball-flag-character-comics",
+      "urls": [
+        "https://kone.gg/s/polandball/baRiCkfef1MQbWE_r2wzSb",
+        "https://kone.gg/s/polandball/c1XA8c8sq0Iq5Y1Pz1_j0b",
+        "https://countryballs.org/ko/what-are-countryballs"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Eight entries in one checkpoint,not forcing10byweakeningevidence.",
+    "One recent2026onlinequietspacefamily;historicalsource dates separated.",
+    "Critical political/fandompejoratives not endorsement or advice;no abusive examples.",
+    "Polandball domesticcommunityregulations+postmetadata onegroup,notimagesverification;separategamesitegeneralexplanationnotdomesticcreation.",
+    "A40haemyeongremainsheld;editorDailianresponse rewrittennotused.",
+    "Proposedpartialmappings1034/1093notpromotedasfullcoverage;reportonly."
+  ],
+  "query_observations": 9497,
+  "distinct_literal_queries": 8044,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

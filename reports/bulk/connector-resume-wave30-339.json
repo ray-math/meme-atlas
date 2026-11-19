@@ -1,0 +1,88 @@
+{
+  "batch": 339,
+  "base": "686af40c66f506b8a14021db81179d4afce2b9d7",
+  "canonical_before": 965,
+  "canonical_after": 966,
+  "added": [
+    "pokryongjeok"
+  ],
+  "research": {
+    "candidates": [
+      "54000",
+      "폭룡적",
+      "카우룽카우룽",
+      "개큰구매",
+      "꽉껴",
+      "MZ 사이에서 유행하는 조합",
+      "과실에서 같이 야작하던 애가",
+      "축제 시작",
+      "운동 많이 된다",
+      "면접 취소하겠습니다"
+    ],
+    "recommended": [
+      "폭룡적"
+    ],
+    "existing": [
+      "54000",
+      "good-exercise",
+      "give-up"
+    ],
+    "held": 6,
+    "queries": [
+      "2026 \"밈\" \"뉴스레터\" \"11월\"",
+      "2026 \"밈\" \"텍스트\" \"10월\"",
+      "2026 \"밈\" \"도서관\"",
+      "\"폭룡적\" \"2026\"",
+      "\"개큰구매\" \"2026\"",
+      "\"면접 취소하겠습니다\"",
+      "\"폭룡적\" 뜻 유래 고구마",
+      "\"과실에서 같이 야작하던\"",
+      "\"카우룽\" \"밈\""
+    ],
+    "index_queries": [
+      "폭룡",
+      "카우룽",
+      "카우룩",
+      "개큰",
+      "꽉껴",
+      "MZ 사이",
+      "야작",
+      "축제시작",
+      "면접취소",
+      "시작",
+      "구매",
+      "카우",
+      "조합",
+      "발표",
+      "축제",
+      "면접",
+      "꽉"
+    ],
+    "sources": [
+      "https://vod.jtbc.co.kr/player/clip/vo10932053",
+      "https://www.newsen.com/news_view.php?uid=202601161520396710",
+      "https://sports.donga.com/ent/article/all/20260828/134561248/1",
+      "https://blog.hsad.co.kr/3408"
+    ],
+    "editor_read": [
+      0,
+      1,
+      3
+    ],
+    "limits": "JTBCJul6publicationnotJul13airdate. NewsenJan16titleonlynotactorquote. SportsdongaAug28providedpreviewnotwatched/editorunread. HSAD2023Aug8 alreadyusage;originclaimnotverified. Othergoguma2023Oct17not2026despitecrawl.",
+    "audit": {
+      "read3": true,
+      "recent_editorial_texts": 2,
+      "old_explanation_selfuse": 1,
+      "videoimage": 0,
+      "query": "폭룡|폭룡적",
+      "limits": "2023existence not2026new;notviolence/objectivequality. Originunverified."
+    }
+  },
+  "coverage": "New discovery outside original1091, counts unchanged. Sourceimmutable.",
+  "ci": "pending",
+  "previous_ci": {
+    "run": 44237158134,
+    "status": "in_progress"
+  }
+}

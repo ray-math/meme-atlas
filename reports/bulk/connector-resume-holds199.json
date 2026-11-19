@@ -1,0 +1,139 @@
+{
+  "bqueries": [
+    "알로사우루스",
+    "뭐라노",
+    "티라노",
+    "미유미유",
+    "튜토리얼",
+    "윤정아",
+    "왜요쌤",
+    "다이노포스",
+    "못맞히기"
+  ],
+  "cqueries": [
+    "감자칼",
+    "이거 제 이모지",
+    "누가 돌아왔",
+    "아이스티",
+    "쉐도우복싱",
+    "아무것도 모르는",
+    "필수 호신술",
+    "아이워시",
+    "작사가",
+    "말랑꽈득"
+  ],
+  "status": "recorded holds and index checks",
+  "index_hits": [
+    {
+      "query": "알로사우루스",
+      "ids": []
+    },
+    {
+      "query": "뭐라노",
+      "ids": []
+    },
+    {
+      "query": "티라노",
+      "ids": []
+    },
+    {
+      "query": "미유미유",
+      "ids": []
+    },
+    {
+      "query": "튜토리얼",
+      "ids": []
+    },
+    {
+      "query": "윤정아",
+      "ids": [
+        "yunjeong-yunjeong"
+      ]
+    },
+    {
+      "query": "왜요쌤",
+      "ids": []
+    },
+    {
+      "query": "다이노포스",
+      "ids": []
+    },
+    {
+      "query": "못맞히기",
+      "ids": []
+    },
+    {
+      "query": "감자칼",
+      "ids": [
+        "ex-girlfriend-peeler"
+      ]
+    },
+    {
+      "query": "이거 제 이모지",
+      "ids": [
+        "my-emoji"
+      ]
+    },
+    {
+      "query": "누가 돌아왔",
+      "ids": [
+        "who-is-back-from-prison"
+      ]
+    },
+    {
+      "query": "아이스티",
+      "ids": []
+    },
+    {
+      "query": "쉐도우복싱",
+      "ids": []
+    },
+    {
+      "query": "아무것도 모르는",
+      "ids": []
+    },
+    {
+      "query": "필수 호신술",
+      "ids": []
+    },
+    {
+      "query": "아이워시",
+      "ids": []
+    },
+    {
+      "query": "작사가",
+      "ids": []
+    },
+    {
+      "query": "말랑꽈득",
+      "ids": []
+    }
+  ],
+  "canonical_count": 896,
+  "added": 0,
+  "sources": [
+    {
+      "url": "https://maily.so/trendaword/posts/d5ryj7ynr1w",
+      "date": "2026-01-21",
+      "verified": "Editor direct article read; separate recreations reported in one outlet; original videos NOT viewed"
+    }
+  ],
+  "inaccessible": [
+    "https://www.instagram.com/reels/DTsZKcXElLx/",
+    "https://www.instagram.com/reel/DTprUuPDzf6/",
+    "https://www.instagram.com/p/DTpKaeBE6wS/",
+    "https://www.youtube.com/watch?v=otQonCWeCDk"
+  ],
+  "semantic_duplicates": {
+    "왜요쌤": "yunjeong-yunjeong",
+    "감자칼": "ex-girlfriend-peeler",
+    "이거 제 이모지": "my-emoji",
+    "누가 돌아왔": "who-is-back-from-prison"
+  },
+  "limits": [
+    "No new item approved",
+    "Index miss is not novelty proof",
+    "Search-only and image-caption clues excluded from independent direct-use counts",
+    "CI not run"
+  ]
+}

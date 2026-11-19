@@ -1,0 +1,41 @@
+{
+  "queries": [
+    "주먹자로",
+    "마음자로",
+    "읽기 않음",
+    "난 모르는 일",
+    "내가 양파냐",
+    "이모지를 터치",
+    "그르 먼데이",
+    "붐샤카라카",
+    "새도전자",
+    "이거 제 이모지야",
+    "아이찡",
+    "AI 티 내는 법",
+    "성열",
+    "라우럴",
+    "라을라",
+    "\"2026\" \"밈\" \"11월\" site:brunch.co.kr -젠슨 -불륜",
+    "\"2026\" \"밈\" \"활용\" site:blog.hsad.co.kr"
+  ],
+  "omitted_already_recorded": "이긴자로 worker same pass already in213, not double counted",
+  "semantic_duplicates": {
+    "읽기 않음 / 난 모르는 일": "unread-none-of-my-business",
+    "이거 제 이모지야 / 아이찡": "my-emoji",
+    "라우럴": "raureol",
+    "라을라": "raeulla"
+  },
+  "holds": {
+    "AI 티 내는 법 / 성열": "Same original app-screen post descriptions, not independent adaptations",
+    "내가 양파냐": "Older sources only in this pass",
+    "이모지를 터치 / 그르 먼데이": "New Korean actual uses unverified",
+    "붐샤카라카": "Prior hold unchanged"
+  },
+  "canonical_count": 898,
+  "added": 0,
+  "limits": [
+    "Search-only generic magazine results not independent actual reuse",
+    "Context-risk hold213 unchanged",
+    "CI not run"
+  ]
+}

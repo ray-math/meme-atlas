@@ -1,0 +1,174 @@
+{
+  "batch": "connector-resume-bc149",
+  "base": "44decd0793efda073de5e2ed59a75166d442ff50",
+  "entries": [
+    {
+      "id": "roadster-ai-parody",
+      "sources": [
+        {
+          "url": "https://incross.com/ko/insight/report.asp?idx=21121&mode=view",
+          "observed": "2026-10-21 만두/크래미 패러디 보고."
+        },
+        {
+          "url": "https://www.yna.co.kr/amp/view/AKR20261020084800505",
+          "observed": "2026-10-21 별도 김치축제 장독대 영상 보고."
+        }
+      ],
+      "limits": "독립 본문2곳. 원영상 미확인. 실제 테슬라 시연/성능/일정 주장은 채택 안 함."
+    },
+    {
+      "id": "millennial-vs-genz-copy",
+      "sources": [
+        {
+          "url": "https://gogumafarm.kr/나-고구마팜인데-요즘-뜨는-밈-가져왔다-2026년-6월-최신/",
+          "observed": "2026-06-10 널핏/더블에이 적용 구체 설명."
+        },
+        {
+          "url": "https://yes-i-can-do-it.tistory.com/entry/2026년-6월-SNS-밈-트렌드-스터디-브랜드는-이걸-어떻게-써먹을까",
+          "observed": "2026-07-21 별도 탑텐키즈 적용 설명과 자체 평가."
+        }
+      ],
+      "limits": "독립 본문2곳의 별개 브랜드 적용 보고. Instagram 원문/이미지 미확인. 광고효능/세대특성 단정 배제."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "\"비비고\" \"로드스터\"",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "\"크래미\" \"로드스터\"",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "\"카스\" \"로드스터\"",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "\"로드스터\" \"패러디\"",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "\"크래미\" \"로드스터\" instagram",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "\"비비고\" \"로드스터\" instagram",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "\"광주김치축제\" \"로드스터\" instagram",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "roadster-ai-parody",
+      "note": "독립 보도 사례 확보, 원게시물 직접 확인 아님"
+    },
+    {
+      "query": "밀레니얼",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "millennial-vs-genz-copy"
+    },
+    {
+      "query": "젠지 소셜팀",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "millennial-vs-genz-copy"
+    },
+    {
+      "query": "세대별 담당자",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "same-candidate-family",
+      "canonical": "millennial-vs-genz-copy"
+    },
+    {
+      "query": "나 OO년생",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "existing-canonical",
+      "canonical": "na-born-year-dance"
+    },
+    {
+      "query": "자기 직업 불법적으로",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "피라미드에도 악플",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "이런 걸로 피곤",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "남쟈 없냐",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "라을라",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "existing-canonical",
+      "canonical": "raeulla"
+    },
+    {
+      "query": "골든이여라",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "existing-canonical",
+      "canonical": "golden-iyeora"
+    },
+    {
+      "query": "책없쾌",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "오살힘",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "사보필",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과자 사꾸",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "누가 돌아왔게",
+      "source": "reports/bulk/connector-resume-bc149.json",
+      "status": "existing-canonical",
+      "canonical": "who-is-back-from-prison"
+    }
+  ],
+  "checks": {
+    "result_entries": 862,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

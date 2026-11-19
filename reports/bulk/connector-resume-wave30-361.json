@@ -1,0 +1,92 @@
+{
+  "batch": 361,
+  "base": "a94a64c13d2068430d1a15fa21679b1d668356e6",
+  "canonical_before": 973,
+  "canonical_after": 974,
+  "added": [
+    "touch-again-introduction"
+  ],
+  "research": {
+    "recommended": 1,
+    "title": "한 번만 더 건드리면 내가 누군지 알려줄게",
+    "queries": [
+      "\"한 번만 더 건드리면\" \"2026\"",
+      "\"내가 누군지 알게 해줄게\" 밈",
+      "\"2026\" \"패러디\" \"공식 블로그\" 밈",
+      "\"한 번만 더 건드리면\" \"소방\"",
+      "\"한 번만 더 건드리면\" \"챌린지\"",
+      "\"한번만 더 건드리면\" \"2026\"",
+      "site:marine.gwnu.ac.kr \"동상 수상작\"",
+      "site:korea.kr \"진짜 한 번만 더 건드리면\"",
+      "\"한 번만 더 건드리면\" \"밈\" -site:namu.moe -site:namu.wiki"
+    ],
+    "index_queries": [
+      "건드리",
+      "누군지",
+      "라을라",
+      "체포하",
+      "주문랩"
+    ],
+    "sources": [
+      "https://www.taxwatch.co.kr/article/tax/2026/04/28/0003",
+      "https://icf.icehs.kr/boardCnts/list.do?boardID=257139&m=0111",
+      "https://www.korea.kr/multi/shortsNewsList.do?pWiseMinistry=ministryNews&repCode=B00022&repCodeType=%EC%A0%95%EB%B6%80%EB%B6%80%EC%B2%98"
+    ],
+    "limits": "TaxwatchApr29bodyreports staged introduction1group;schoolOct16officialtitleonly;fireagencyAug24officialtitleonly. Video0. FailedKangwoncontestdetailnotused. Onecandidate not10.",
+    "fire_page": "https://www.korea.kr/video/index.html?newsId=148970482",
+    "editor_reads": 3
+  },
+  "semantic_audit": {
+    "ids": [
+      "0622",
+      "0624",
+      "0625",
+      "0627",
+      "0628",
+      "0633",
+      "0634",
+      "0636",
+      "0639",
+      "0640",
+      "0648",
+      "0649",
+      "0651",
+      "0653",
+      "0658",
+      "0661",
+      "0664",
+      "0665",
+      "0667",
+      "0669"
+    ],
+    "queries": [
+      "설거지|퐁퐁",
+      "성괴|성형",
+      "성윤모|신병",
+      "4대 16|16세",
+      "세뇌|교육",
+      "소련|국가",
+      "소금|팥팥",
+      "속보|breaking",
+      "쇼트트랙|편파|곽윤기",
+      "수박도|수박",
+      "스까|덮밥",
+      "스너고",
+      "스윗중남|짱탄",
+      "스핔|스피키",
+      "시바견|doge|도지",
+      "식객민우|식객",
+      "신안",
+      "신창섭|창섭|다 해줬",
+      "실장석|참피",
+      "심기체"
+    ],
+    "rows": 20,
+    "unclear": 20,
+    "changes": 0,
+    "body_reads": 6,
+    "external_queries": 0,
+    "limits": "성형matched여성형falsepositive;국가nationnotsong.0665broadShinChangseop notmappedto narrowdid-it-all-for-you texttemplate withoutexplicitpersonconnection;excludedAIvideo/songscope."
+  },
+  "note": "Production-context report1 plus officialtitlemetadata2,not3watchedvideos. No minorsidentified. Originalaudio/choreographyunconfirmed."
+}

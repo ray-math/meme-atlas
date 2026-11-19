@@ -1,0 +1,395 @@
+{
+  "batch": 473,
+  "base": "0340d7fd800f57ccdc31b36ec4e4205fac6c8342",
+  "canonical_before": 1364,
+  "canonical_after": 1376,
+  "added": [
+    "hwangsi-number-two-time",
+    "doge-monologue-reaction-image",
+    "skka-regional-teasing-wordplay",
+    "speaki-sliding-character-edit",
+    "digital-story-sticker-decoration",
+    "tangle-bending-sound-sharing",
+    "earbud-switch-music-taste-skit",
+    "meolligalli-distant-bell-game",
+    "dog-policeman-performance-imitation",
+    "gaeddal-political-fandom-label",
+    "parent-me-same-age-contrast",
+    "amocat-work-quality-reaction"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-1128",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "hwangsi-number-two-time"
+    },
+    {
+      "id": "kr-list-0658",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "doge-monologue-reaction-image"
+    },
+    {
+      "id": "kr-list-0648",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "skka-regional-teasing-wordplay"
+    },
+    {
+      "id": "kr-list-0653",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "speaki-sliding-character-edit"
+    },
+    {
+      "id": "kr-list-0173",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "dog-policeman-performance-imitation"
+    },
+    {
+      "id": "kr-list-0180",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "gaeddal-political-fandom-label"
+    },
+    {
+      "id": "kr-list-0690",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "amocat-work-quality-reaction"
+    }
+  ],
+  "previous_ci": {
+    "run": 44299597770,
+    "job": 134785573447,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 103.217s"
+  },
+  "previous_audit": {
+    "batch": 472,
+    "sha": "0340d7fd800f57ccdc31b36ec4e4205fac6c8342",
+    "result": "PASS",
+    "mandatory_fixes": 0,
+    "canonical": 1364,
+    "added": 15,
+    "changed_files": 24,
+    "old_records_preserved": 1349,
+    "mapping_loss": 0,
+    "unique_source_urls_read": 17,
+    "media": 0
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "existing": 13,
+      "partial_existing": 1,
+      "recommended": 1,
+      "held": 5,
+      "queries": [
+        "\"向天再借五百年\" 한국 밈",
+        "\"허경영\" \"밈\" 전화",
+        "\"혐성국\" 뜻",
+        "\"황시\" \"밈\"",
+        "\"회사 안다녀\"",
+        "\"헝그리 정신\" \"밈\"",
+        "\"헝그리 정신\" \"유행어\"",
+        "\"황시\" \"2월 22일\" 신문"
+      ],
+      "notes": [
+        "A24actual1115–1134,1128timecelebrationnotdouble-sentence;paperobservedchatnotdirectoriginal.",
+        "HatsanGG26.4.10datepreservedin472."
+      ]
+    },
+    "A2": {
+      "count": 22,
+      "existing": 7,
+      "partial_existing": 8,
+      "repeat": 1,
+      "held": 6,
+      "queries": [
+        "\"헬테이커\" \"패러디\"",
+        "\"호라 모 젠젠\"",
+        "\"호텔경제학\"",
+        "\"흑드라군\"",
+        "\"흔한 여고생들의 뻘짓\""
+      ],
+      "notes": [
+        "A25actual1135–1156;1146repeat1127alreadymarked.",
+        "7externalreadattempts0corebodyverified;Invenpartialchromecontentnotverification; noexplicitsearch1142/1148."
+      ]
+    },
+    "A3": {
+      "count": 20,
+      "recommended": 2,
+      "held": 18,
+      "queries": [
+        "\"Pink Elephants on Parade\" \"밈\"",
+        "\"Sims cat breaking\" 한국",
+        "\"S stands for\" \"패러디\" 한국",
+        "\"Terrified Noot Noot\" \"밈\"",
+        "\"Pray For Paris\" 한국 SNS",
+        "\"The one piece is real\" 한국 밈",
+        "\"Why so serious\" \"패러디\" 한국",
+        "\"X키를 눌러 조의를 표하십시오\"",
+        "\"Zyzz\" \"밈\" 한국",
+        "\"가능성의\" \"드립\"",
+        "\"가수 일론 머스크\"",
+        "\"가재 가재 바닷가재\"",
+        "\"맨까\" \"부들부들\"",
+        "\"포병지\"",
+        "\"강아지 경찰 아저씨\" \"밈\"",
+        "\"개꿀잼몰카\"",
+        "\"개돼지\" \"신조어\"",
+        "\"개딸\" \"응답하라\" 유래",
+        "\"거룡을 상대한 건\"",
+        "\"거짓말하지 말아요\" \"죽여버리겠어요\"",
+        "태연 \"노노카\" \"강아지\" 패러디",
+        "\"X키\" \"조의\" 인벤",
+        "\"개꿀잼 몰카\" -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ],
+      "notes": [
+        "Historical bounded imitation and political self-label only; no lyrics or collective allegations."
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 3,
+      "existing_family": 4,
+      "held_family": 2,
+      "held": 8,
+      "excluded": 1,
+      "queries": [
+        "2026 \"유행\" \"놀이\" site:univ20.com",
+        "2026 \"밈\" \"사진\" site:allurekorea.com",
+        "2026 \"챌린지\" \"필터\" site:elle.co.kr",
+        "2026 \"SNS\" \"놀이\" \"꾸미기\" 유행",
+        "2026 \"사진\" \"챌린지\" \"거울\"",
+        "2026 \"밈\" \"졸업\" \"유행\""
+      ],
+      "notes": [
+        "B4912formatsfrom1Newspimarticle; nottwoindependentsources.",
+        "digitalstorydecorationdistinctfromprintedpolkku;METROgameheldsharedformatweak.",
+        "Arteriors403/Dongaerrornotverified; oldUniv2024searchbodyunopenednotrecentverification."
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 4,
+      "family": 2,
+      "held": 8,
+      "excluded": 4,
+      "queries": [
+        "\"멀리갈리\" \"트렌드\"",
+        "\"멀리갈리\" 2026",
+        "2026 \"할리갈리\" \"종\" \"멀리\"",
+        "2026 \"놀이\" \"유행\" site:careet.net \"게임\"",
+        "2026 \"놀이\" \"밈\" site:maily.so/trendaword \"사진\"",
+        "\"Time Stamp\" \"영화\" \"2026\" 놀이"
+      ],
+      "notes": [
+        "4 source pages; X403; media0; dangerous variants excluded."
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 1,
+      "conditional": 2,
+      "existing": 9,
+      "partial_existing": 5,
+      "held": 3,
+      "queries": [
+        "\"스까듭밥\" 뜻",
+        "\"스너고\" 밈",
+        "\"스핔이\" 밈",
+        "\"식객민우\" 유래",
+        "\"스윗중남\" 비하",
+        "\"시바견\" \"밈\" 도지",
+        "\"식객민우\" -site:namu.moe -site:wiki -site:tcatmon.com -site:seore.org",
+        "\"스핔이\" site:gamemeca.com"
+      ],
+      "notes": [
+        "C6actual0642–0661;0658partialrecommended0648/0653conditional.",
+        "0622/0631recheckalready472editorobservations;0624sourceeditorreadnotworkerread."
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "conditional": 1,
+      "existing": 7,
+      "partial_existing": 6,
+      "held": 6,
+      "queries": [
+        "\"신격화 드립\" \"sake\" -site:namu.moe",
+        "\"실시간으로 상황을 지켜보는 비와이\"",
+        "\"심기체론\" 뜻",
+        "\"씽씽이\" \"밈\"",
+        "\"신안군\" \"지역혐오\" 밈",
+        "\"실장석\" \"문화\" -site:namu.moe -site:namu.wiki",
+        "\"아나바다\" \"밈\"",
+        "\"씨발아줌마\" -site:namu.moe -site:namu.wiki",
+        "\"신창섭\" AI 노래 보도",
+        "\"아나바다\" \"말장난\"",
+        "\"심기체론\" -site:namu.moe -site:namu.wiki -site:wiki",
+        "\"실장석\" \"패러디\" -site:namu.moe -site:namu.wiki"
+      ],
+      "notes": [
+        "C7selected0662–0682actual20;0678conditionalbrandserieseditorreviewpending;notindependentfanrecreations.",
+        "3externalunique bodies,1fail,13existingbodyreads;media0."
+      ]
+    },
+    "C3": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 11,
+      "partial_existing": 3,
+      "held": 5,
+      "queries": [
+        "\"아니다 이 악마야\" 뜻",
+        "\"아로나 댄스\" 밈",
+        "\"아모캣\" 밈",
+        "\"아이 러브 마이 화자 마자 브라자\"",
+        "\"방송 되게 못하네\" \"밈\"",
+        "\"아이 러브 마이\" \"화자\" 기사",
+        "\"아임뚜렛\" \"패러디\" 보도",
+        "\"아니다 이 악마야\" -site:namu.moe -site:namu.wiki -site:seore.org",
+        "\"아로나 댄스\" -site:namu.moe -site:namu.wiki -site:wiki",
+        "\"아모캣\" \"부활\" -site:namu.moe -site:namu.wiki",
+        "\"아임뚜렛\" \"패러디\" \"장애\"",
+        "\"화자 마자 브라자\""
+      ],
+      "notes": [
+        "Actual0683–0702;14existing bodies;3externalpages;0694knownrepeat preserved; Inven502; media0."
+      ]
+    },
+    "editor": {
+      "count": 5,
+      "held": 3,
+      "queries": [
+        "2026 \"밈\" \"놀이\" \"필사\"",
+        "2026 \"밈\" \"손글씨\"",
+        "2026 \"밈\" \"이름\" \"놀이\" -site:namu.wiki -site:namu.moe",
+        "\"일하는 중에 갑자기 몸이\" \"밈\"",
+        "\"스머프할배\" \"2026\" 밈",
+        "\"조우노아시\" \"게임\"",
+        "\"에어팟 스위치\" 한국",
+        "\"스머프할배\" \"문체\" -site:instablank.com -site:jjalbang.today",
+        "\"스머프할배\" 패러디"
+      ],
+      "notes": [
+        "Fiveeditorobservations:0678heldbrandseries,doctortripalreadyexisting,Smurfgrandfatherheldpersoncoverage,absurdwebgamesheldgamecatalogue,earbudswitchrecommendedforeignformatKoreanexplanation.",
+        "Searchlistsgavebestfriend/dinosaur/prayexisting; thoseincidentalhitsnotseparateobservationcount.",
+        "Multigaliblog143403excluded;workerB492researchseparate."
+      ],
+      "existing": 1,
+      "recommended": 1
+    }
+  },
+  "sources": [
+    {
+      "id": "hwangsi-number-two-time",
+      "urls": [
+        "https://www.jdaos.org/download/download_pdf?pid=jdaos-45-0-187",
+        "https://newsroom.smilegate.com/bbs/board.php?bo_table=game&wr_id=49"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "doge-monologue-reaction-image",
+      "urls": [
+        "https://whitefaceone.tistory.com/2269",
+        "https://view.asiae.co.kr/article/2024052419425954332"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "skka-regional-teasing-wordplay",
+      "urls": [
+        "https://cloud1000.tistory.com/220"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "speaki-sliding-character-edit",
+      "urls": [
+        "https://angchi.tistory.com/202"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "digital-story-sticker-decoration",
+      "urls": [
+        "https://ir.newspim.com/news/view/20260723001128"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "tangle-bending-sound-sharing",
+      "urls": [
+        "https://ir.newspim.com/news/view/20260723001128"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "earbud-switch-music-taste-skit",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail?id=4139&pageidx=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "meolligalli-distant-bell-game",
+      "urls": [
+        "https://maily.so/trendaword/posts/92zek09nzep",
+        "https://www.kleague.com/video_view.do?category=&club=&leagueId=&listType=list&orderType=&page=1&seq=52725091"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dog-policeman-performance-imitation",
+      "urls": [
+        "https://ent.sbs.co.kr/amp/article.do?article_id=E10010144752",
+        "https://whitefaceone.tistory.com/2311"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gaeddal-political-fandom-label",
+      "urls": [
+        "https://www.khan.co.kr/article/202303280600001",
+        "https://m.nocutnews.co.kr/news/amp/6062494"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "parent-me-same-age-contrast",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail?id=4372&pageidx=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "amocat-work-quality-reaction",
+      "urls": [
+        "https://gall.dcinside.com/board/view/?id=study_listN&no=141"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "12 bounded entries; no images/video watched. Historical entries not claimed recent.",
+    "Political label neutral and attributed; Amocat excludes allegations.",
+    "Careet4372 only same-age contrast, not statistics. NewsPim actual July27 date not URL July23.",
+    "0694 repeat mapping preserved; source candidate list unchanged."
+  ],
+  "query_observations": 9048,
+  "distinct_literal_queries": 7746,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

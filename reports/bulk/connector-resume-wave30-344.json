@@ -1,0 +1,121 @@
+{
+  "batch": 344,
+  "base": "c8a8d971653f7ca7860feec878c4b9927975fb70",
+  "canonical_before": 969,
+  "canonical_after": 969,
+  "added": [],
+  "research": {
+    "candidate_ids": [
+      "0931",
+      "0963",
+      "0968",
+      "0971",
+      "0989"
+    ],
+    "recommended": 0,
+    "held": 5,
+    "queries": [
+      "\"조이는 보이\" \"2026\"",
+      "\"진짠줄 알더라\" \"2026\"",
+      "\"짤방보이\" \"2026\"",
+      "\"짱구야 아빠를 속인거니\"",
+      "\"초코빅송\"",
+      "\"짱구야\" \"속인\" \"2026\" -site:namu.moe",
+      "\"초코빅\" 패러디 -site:namu.moe",
+      "\"짤방보이\" -site:namu.moe -site:seore.org",
+      "\"조이는 보이\" -site:namu.moe -site:instablank.com"
+    ],
+    "sources": [
+      "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=517914&t=cv",
+      "https://kmas.or.kr/webzine/article/411",
+      "https://www.etnews.com/201001060281",
+      "https://whitefaceone.tistory.com/2341",
+      "https://gall.dcinside.com/board/view/?id=reptile&no=988849",
+      "https://whitefaceone.tistory.com/3247"
+    ],
+    "limits": "Worker read, editor unread; no canonical promotion. 0931 2026-10-26 title only; image context unverified. 0963 political personal attack result not pursued or verified. 0968 three historical explanation sources (2006/2010/2021), no recent independent applications. 0971 2026-06-04 direct text use one; photo unseen; Inven second-source body unavailable (502). 0989 advertising/product or same-name comic is not meme application evidence.",
+    "selection_excluded_existing": {
+      "0944": "deathly-tasty-reaction",
+      "0955": "earth-online"
+    }
+  },
+  "semantic_audit": {
+    "base": "b98a5d0c64061ea22cb285909f61347a35204d29",
+    "rows": 20,
+    "index_not_found": 14,
+    "unclear": 6,
+    "changes": 0,
+    "external_searches": 0,
+    "body_reads": 9,
+    "ids": [
+      "1103",
+      "1104",
+      "1106",
+      "1107",
+      "1113",
+      "1118",
+      "1121",
+      "1125",
+      "1129",
+      "1131",
+      "1135",
+      "1140",
+      "1141",
+      "1143",
+      "1144",
+      "1147",
+      "1149",
+      "1151",
+      "1152",
+      "1156"
+    ],
+    "queries": [
+      "할 말|말이 없|할말",
+      "한 잔|한잔",
+      "함정|카드|유희왕",
+      "핫산|번역",
+      "햄최|햄버거",
+      "向天|五百年|오백년",
+      "혐성|영국",
+      "홍준표|2번",
+      "회사 안|안다녀|퇴사",
+      "헝그리|배고|정신",
+      "헬테이커|helltaker",
+      "호라|젠젠|멀쩡",
+      "호롤|호로|trololo",
+      "호텔|경제학",
+      "혼모노|진짜|오타쿠",
+      "후드|살아남",
+      "흑드라|드라군|드래곤",
+      "흑우|호구",
+      "여고생|뻘짓",
+      "홍박사|박사님"
+    ],
+    "bodies": [
+      "notepad-on",
+      "waldo-style",
+      "hambugi",
+      "dobby-is-free",
+      "outside-the-company-is-hell",
+      "i-am-still-hungry",
+      "hororok",
+      "all-cash-small-purchase",
+      "dragoon-comment-chain"
+    ],
+    "limits": "Related subject is not identity: company/labor, hunger, dragoons, greetings, etc. 1118 Chinese characters retained; no empty-string match. Missing in index is not independently verified publishable omission."
+  },
+  "ci": {
+    "body969": {
+      "run": 44238094394,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 106.253
+    },
+    "report343": {
+      "run": 44238310101,
+      "conclusion": "success"
+    }
+  },
+  "note": "No change to immutable candidates or current coverage classifications."
+}

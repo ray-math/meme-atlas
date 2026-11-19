@@ -1,0 +1,180 @@
+{
+  "queries": [
+    "라우럴",
+    "체포하겠어",
+    "감자칼",
+    "개코원숭이",
+    "영원할",
+    "아이스티",
+    "색소폰",
+    "폴리에스터",
+    "김민",
+    "로키체",
+    "탭탭탭",
+    "타이니",
+    "죽이세유",
+    "무례하지",
+    "흑임자",
+    "그만해병대",
+    "연락없네",
+    "잘살아",
+    "매혹적",
+    "지옥같은",
+    "손가락",
+    "tiny",
+    "tap",
+    "양배",
+    "호프"
+  ],
+  "status": "editor reread three sources; hold and dedup confirmed",
+  "sources": [
+    "https://v.daum.net/v/20260729130040355",
+    "https://theqoo.net/ktalk/4293582350",
+    "https://blog.hsad.co.kr/3760"
+  ],
+  "index_hits": [
+    {
+      "query": "라우럴",
+      "ids": [
+        "raureol"
+      ]
+    },
+    {
+      "query": "체포하겠어",
+      "ids": [
+        "under-arrest"
+      ]
+    },
+    {
+      "query": "감자칼",
+      "ids": [
+        "ex-girlfriend-peeler"
+      ]
+    },
+    {
+      "query": "개코원숭이",
+      "ids": []
+    },
+    {
+      "query": "영원할",
+      "ids": [
+        "forever-moment"
+      ]
+    },
+    {
+      "query": "아이스티",
+      "ids": []
+    },
+    {
+      "query": "색소폰",
+      "ids": []
+    },
+    {
+      "query": "폴리에스터",
+      "ids": []
+    },
+    {
+      "query": "김민",
+      "ids": []
+    },
+    {
+      "query": "로키체",
+      "ids": [
+        "rocky-triple-reaction"
+      ]
+    },
+    {
+      "query": "탭탭탭",
+      "ids": []
+    },
+    {
+      "query": "타이니",
+      "ids": []
+    },
+    {
+      "query": "죽이세유",
+      "ids": []
+    },
+    {
+      "query": "무례하지",
+      "ids": [
+        "say-it-politely-template"
+      ]
+    },
+    {
+      "query": "흑임자",
+      "ids": []
+    },
+    {
+      "query": "그만해병대",
+      "ids": []
+    },
+    {
+      "query": "연락없네",
+      "ids": []
+    },
+    {
+      "query": "잘살아",
+      "ids": []
+    },
+    {
+      "query": "매혹적",
+      "ids": []
+    },
+    {
+      "query": "지옥같은",
+      "ids": []
+    },
+    {
+      "query": "손가락",
+      "ids": [
+        "deuruwa",
+        "finger-heart",
+        "gwiyomi-song",
+        "gyaru-peace",
+        "jewelry-et-dance",
+        "jo-ta",
+        "take-the-l"
+      ]
+    },
+    {
+      "query": "tiny",
+      "ids": [
+        "tiny-hand-tapping"
+      ]
+    },
+    {
+      "query": "tap",
+      "ids": [
+        "tiny-hand-tapping"
+      ]
+    },
+    {
+      "query": "양배",
+      "ids": []
+    },
+    {
+      "query": "호프",
+      "ids": []
+    }
+  ],
+  "canonical_count": 898,
+  "added": 0,
+  "semantic_duplicates": {
+    "탭탭탭 / 타이니 / tiny / tap": "tiny-hand-tapping",
+    "라우럴": "raureol",
+    "체포하겠어": "under-arrest",
+    "감자칼": "ex-girlfriend-peeler",
+    "영원할": "forever-moment",
+    "로키체": "rocky-triple-reaction",
+    "무례하지": "say-it-politely-template",
+    "연락없네 / 잘살아": "no-reply-live-well"
+  },
+  "hold": {
+    "죽이세유": "Actor reprise is same origin; community asks about meme rather than adapting; unsafe sports insult and snippet-only fatigue use excluded"
+  },
+  "limits": [
+    "General substring hits not confirmed duplicate families",
+    "CI not run"
+  ]
+}

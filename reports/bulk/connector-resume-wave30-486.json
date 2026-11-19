@@ -1,0 +1,335 @@
+{
+  "batch": 486,
+  "base": "617a146498f199f402e56d3c57be15cf9921109f",
+  "canonical_before": 1498,
+  "canonical_after": 1508,
+  "added": [
+    "office-destruction-pretend-diary",
+    "fake-update-office-rest-joke",
+    "hwacance-bathroom-break-wordplay",
+    "look-into-my-eyes-call-me-parody",
+    "secret-friend-approach-mockery",
+    "ppomgeoji-shopping-community-insult",
+    "ddeum-finger-dance-challenge",
+    "hakgaeron-title-parody",
+    "seong-yunmo-voice-impression",
+    "gasi-champi-appearance-metaphor-controversy"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-1119",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "look-into-my-eyes-call-me-parody"
+    },
+    {
+      "id": "kr-list-0570",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "secret-friend-approach-mockery"
+    },
+    {
+      "id": "kr-list-0587",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "ppomgeoji-shopping-community-insult"
+    },
+    {
+      "id": "kr-list-0068",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "hakgaeron-title-parody"
+    },
+    {
+      "id": "kr-list-0625",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "seong-yunmo-voice-impression"
+    },
+    {
+      "id": "kr-list-0667",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "gasi-champi-appearance-metaphor-controversy"
+    }
+  ],
+  "previous_ci": {
+    "sha": "617a146498f199f402e56d3c57be15cf9921109f",
+    "run": 44312292958,
+    "job": 134829256901,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 112.338s"
+  },
+  "previous_audit": {
+    "sha": "617a146498f199f402e56d3c57be15cf9921109f",
+    "result": "pass",
+    "mandatory_fixes": 0,
+    "canonical": 1498,
+    "old_index_records_preserved": 1491,
+    "old_body_changes": 0,
+    "candidate_changes": 6,
+    "mapping_loss": 0,
+    "source_urls_reopened": 11,
+    "usage": {
+      "total": 1498,
+      "annotated": 74,
+      "reviewed": 73,
+      "unannotated": 1424
+    },
+    "media": 0,
+    "CI": "separate"
+  },
+  "research": {
+    "A49": {
+      "count": 20,
+      "recommended": 1,
+      "existing_partial": 1,
+      "held": 18,
+      "queries": [
+        "\"하루만 기다리면\" 밈",
+        "\"피에로 드립\"",
+        "\"한글자 드립\"",
+        "\"호라\" \"멀쩡하자나\"",
+        "\"헬테이커\" \"춤\" 패러디",
+        "\"포켓몬빵\" \"패러디\"",
+        "\"하츄핑\" \"밈\"",
+        "\"프로게이머 피지컬\"",
+        "\"헬테이커\" \"패러디\" \"춤\" -site:namu.moe -site:seore.org",
+        "\"허경영\" \"내 눈을 바라봐\" 패러디",
+        "\"풀발\" \"뜻\"",
+        "\"할 말이 없네\" \"밈\"",
+        "\"한글자 드립\" -site:namu.moe -site:seore.org",
+        "\"피에로\" \"드립\" \"안녕하세요\"",
+        "\"헝그리 정신\" \"밈\"",
+        "\"프라이데이 나이트 펑킨\" \"패러디\"",
+        "\"풀발\" \"신조어\"",
+        "\"평온차\" 밈",
+        "\"파피 플레이타임\" \"밈\" \"허기워기\"",
+        "\"호라 모 젠젠\" -site:namu.moe -site:seore.org -site:readonly.wiki -site:tcatmon.com"
+      ],
+      "notes": "20historicalrechecks 0newdiscovery;1119narrowquoteparody,1093existingoo-ping notnewmapping;5external3existingbodies;Orbi403Inven502;media0."
+    },
+    "A50": {
+      "count": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"11미터 모형탑\" 패러디",
+        "\"1초만에 사람을 낚는 방법\"",
+        "\"64 bits\" \"밈\" 한국",
+        "\"학개론\" \"패러디\"",
+        "\"학개론\" \"건축학개론\" \"패러디\"",
+        "\"해버리기\" \"유행어\"",
+        "\"AK47\" \"패러디\" \"외할머니\"",
+        "\"FBI OPEN UP\" \"밈\"",
+        "건축학개론 연애학개론 패러디 무한도전",
+        "\"건축학개론\" \"학개론\" \"제목\" 패러디",
+        "\"141\" \"밈\"",
+        "\"1557\" \"밈\"",
+        "\"학개론\" \"패러디한\" -site:namu.moe -site:seore.org",
+        "\"EZ DO DANCE\" \"패러디\" 한국",
+        "\"street photographer\" \"밈\"",
+        "\"camel singing\" \"한국\"",
+        "\"건축학개론\" \"연애학개론\"",
+        "\"건축학개론\" \"드립\"",
+        "\"Point 드립\"",
+        "\"88848\" \"뜻\"",
+        "\"1. 들어올린다\" 밈",
+        "\"를 알려주겠다\" 밈",
+        "\"chip\" \"밈\"",
+        "\"Ang\" \"밈\""
+      ],
+      "notes": "20 existing-ledger reexaminations, not new discoveries. Partial0068 title substitution only; 19held. No image/video view."
+    },
+    "B515": {
+      "count": 20,
+      "recommended": 3,
+      "existing": 10,
+      "held": 4,
+      "excluded": 3,
+      "queries": [
+        "2026 \"놀이\" \"유행\" site:allurekorea.com",
+        "2026 \"SNS\" \"사진\" \"놀이\" site:marieclairekorea.com",
+        "2026 \"챌린지\" site:univ20.com",
+        "2026 \"밈\" \"사진\" site:hankyung.com",
+        "2026 \"밈\" \"놀이\" site:newsis.com",
+        "2026 \"유행\" \"인증\" site:weekly.donga.com",
+        "\"화캉스\" \"2026\"",
+        "\"회사\" \"조금씩 부수기\"",
+        "\"윈도우 가짜 업데이트\" \"2026\""
+      ],
+      "notes": "3formats sharedHankyungsource; extraMobi20251103outsiderecentyear plus2026reuse,IMBC20260525 separateuse. No service/videoexecution."
+    },
+    "B516": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 9,
+      "held": 6,
+      "excluded": 4,
+      "queries": [
+        "2026 \"밈\" \"놀이\" site:cosmopolitan.co.kr",
+        "2026 \"SNS\" \"유행\" site:harpersbazaar.co.kr",
+        "2026 \"챌린지\" \"사진\" site:elle.co.kr",
+        "2026 \"밈\" \"놀이\" site:kmib.co.kr",
+        "2026 \"유행\" \"놀이\" site:khan.co.kr",
+        "2026 \"챌린지\" \"따라\" site:hani.co.kr"
+      ],
+      "notes": "Historical ddeum2020 only recommended; not recent-year use. 9 existing,6held,4excluded. Rewritten summary and search snippets not treated as direct evidence."
+    },
+    "C29": {
+      "count": 20,
+      "recommended": 2,
+      "conditional": 2,
+      "existing_partial": 2,
+      "held": 14,
+      "queries": [
+        "\"북경 정씨\" 유행어",
+        "\"북방코끼리바다표범\" 밈",
+        "\"불티\" 전영록 패러디",
+        "\"뽐거지\" 뜻",
+        "\"뼈 맞았어\" 신조어",
+        "\"사정없이 보내버리겠다\" 패러디",
+        "\"벽돌할아버지\" 로봇댄스",
+        "\"사고 쳤을 때\" \"입 다물고\"",
+        "\"북경정씨\" 패러디",
+        "\"브레드 이발소\" 밈 패러디",
+        "\"빨강 사기맵\"",
+        "\"뼈맞\" \"신조어\"",
+        "\"비밀친구\" \"드립\" 유래",
+        "\"빅 나티를 변기에\"",
+        "\"사랑의 열매\" \"밈\"",
+        "\"사이버펑크\" \"밈\" 한국",
+        "\"뼈 맞았어\" -site:namu.moe -site:seore.org",
+        "\"불티\" \"합성\" 패러디",
+        "\"뽐거지\" site:news",
+        "\"브베\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"뼈 때리다\" \"신조어\" 언론",
+        "\"뼈 맞았어\" \"팩트\" 기사"
+      ],
+      "notes": "9external2existingbodyreads;2failures. 0584downgraded samefact-violence family;0581alreadycanonical. 0560separateimpression/parody notsamegenealogy;0591singlecreatorseries no independentrecreation."
+    },
+    "C30": {
+      "count": 20,
+      "recommended": 2,
+      "conditional": 1,
+      "held": 17,
+      "queries": [
+        "\"샤방송\" 유행",
+        "\"섊\" 신조어",
+        "\"스너고\" 뜻",
+        "\"성윤모\" 패러디",
+        "\"서로 깨물었을 때 반응\"",
+        "\"섣불리 판단하면 안되는 이유\"",
+        "\"세뇌교육\" 밈 영상",
+        "\"수박도\" 드립",
+        "\"세뇌교육\" \"왱\"",
+        "\"심기체론\" 뜻",
+        "\"실장석\" \"참피\" 비판",
+        "\"소련 국가\" \"밈\"",
+        "\"스윗중남\" \"비하\"",
+        "\"신안군\" \"지역혐오\" 밈",
+        "\"식객민우\" 패러디",
+        "\"씽씽이\" \"밈\"",
+        "\"샤방송\" -site:namu.moe -site:seore.org",
+        "\"삼일절 사이버 전쟁\" 밈",
+        "\"씨발아줌마\" 뜻",
+        "\"수박도\" 시노부",
+        "\"Team Azimkiya\" \"국민일보\"",
+        "\"세뇌교육\" \"방글라데시\"",
+        "\"스너고\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"성윤모\" \"성대모사\""
+      ],
+      "notes": "0639 already partial excluded from20 replaced0678.0628 name linkage unconfirmed held.5 external fulltext2 failures media0."
+    }
+  },
+  "sources": [
+    {
+      "id": "office-destruction-pretend-diary",
+      "urls": [
+        "https://www.mobiinside.co.kr/2025/11/03/2025-10-meme/",
+        "https://www.hankyung.com/article/202608250985H"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "fake-update-office-rest-joke",
+      "urls": [
+        "https://www.hankyung.com/article/202608250985H"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hwacance-bathroom-break-wordplay",
+      "urls": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/506146",
+        "https://www.hankyung.com/article/202608250985H"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "look-into-my-eyes-call-me-parody",
+      "urls": [
+        "https://www.khan.co.kr/article/200909181752491",
+        "https://www.osen.co.kr/article/G1109871437"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "secret-friend-approach-mockery",
+      "urls": [
+        "https://gall.dcinside.com/board/view/?id=study_listN&no=229&page=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ppomgeoji-shopping-community-insult",
+      "urls": [
+        "https://whitefaceone.tistory.com/3122"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ddeum-finger-dance-challenge",
+      "urls": [
+        "https://www.elle.co.kr/article/45697"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hakgaeron-title-parody",
+      "urls": [
+        "https://cine21.com/news/view/?mag_id=69351",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/66163"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "seong-yunmo-voice-impression",
+      "urls": [
+        "https://www.dalvoice.com/story/view/234285",
+        "https://www.xportsnews.com/article/2218554"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gasi-champi-appearance-metaphor-controversy",
+      "urls": [
+        "https://m.news.nate.com/view/20210617n35847?cpcd=&list=recent&mid=e02"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Hankyung202608250985H sharedsource across3potentialentries, bounded totalderivedprose; no300percent independent-source inflation. Media0.",
+    "120 observations =10 published/22 existing or partial-family/81 held including3conditional/7excluded. Not 120 unique newly discovered memes. Recent-use evidence for3workplace formats;seongyunmo recent retrospective not dated new performance. Historical others not forced into recent category.",
+    "Existing canonical bodies not edited. Candidate mapping union preserves old IDs; tests/pins unchanged.",
+    "0584 fact-violence and1093 oo-ping existing-family rechecks not new mapping. Conditional0560/0591/0628 held."
+  ],
+  "query_observations": 10038,
+  "distinct_literal_queries": 8377,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

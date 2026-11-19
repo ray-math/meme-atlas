@@ -1,0 +1,276 @@
+{
+  "batch": 493,
+  "base": "568ffa1e95576905f633e568685d9555c55e3a42",
+  "canonical_before": 1559,
+  "canonical_after": 1566,
+  "added": [
+    "dureup-crocodile-dance-parody",
+    "nurungjwi-goodluck-charm-exchange",
+    "chihuahua-fortune-result-sharing",
+    "bar-bar-bar-five-cylinder-parody",
+    "flag-drawing-transformation-challenge",
+    "lights-off-silhouette-transition",
+    "smoothie-drink-motion-challenge"
+  ],
+  "candidate_changes": [],
+  "previous_ci": {
+    "sha": "568ffa1e95576905f633e568685d9555c55e3a42",
+    "run": 44322579482,
+    "job": 134865150312,
+    "status": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 86.754s"
+  },
+  "previous_audit": {
+    "sha": "568ffa1e95576905f633e568685d9555c55e3a42",
+    "mandatory_fixes": 0,
+    "source_reopened": "https://www.xportsnews.com/article/2206499",
+    "date": "2026-10-12",
+    "pending_resolved": true,
+    "unchanged_index_records": 1558,
+    "canonical": 1559,
+    "coverage_usage_tests_unchanged": true,
+    "originalmedia": 0
+  },
+  "research": {
+    "A65": {
+      "count": 20,
+      "worker_recommended": 1,
+      "worker_existing_partial_proposal": 1,
+      "editor_held": 20,
+      "queries": [
+        "\"갓콤\" \"유사 게임사\"",
+        "\"케인\" \"밈\" 기사",
+        "\"노인전\" \"밈\"",
+        "\"맛있는 겨울배\"",
+        "\"케경호\" -site:namu.moe -site:seore.org",
+        "\"코리안조커\" 밈",
+        "\"코렁탕\" 뜻",
+        "\"크아아악\" \"밈\"",
+        "\"클로저스 성우\" \"패러디\"",
+        "\"킹 오브 프리즘\" \"패러디\" 한국",
+        "\"택배 드립\"",
+        "\"파피 플레이타임\" \"패러디\" 한국",
+        "\"평온차\"",
+        "\"포켓몬빵\" \"패러디\"",
+        "\"프로게이머 피지컬\" \"밈\"",
+        "\"프라이데이 나이트 펑킨\" \"한국\" \"모드\"",
+        "\"피에로 드립\"",
+        "\"하루만 기다리면\" \"나와요\" 밈",
+        "\"하츄핑\" \"밈\" -site:namu.moe",
+        "\"한글자 드립\"",
+        "\"출근핑\" \"퇴근핑\"",
+        "\"하루만 기다리면\" -site:namu.moe -site:seore.org -site:alphawiki.org"
+      ],
+      "notes": "1087sameauthor2posts selfharmmethodcontext held; 1093character versus oo-ping scope mapping unchanged despite IncrossSep30relatedpattern. 20oldledger reobservations."
+    },
+    "A66": {
+      "observations": 20,
+      "recommended": 1,
+      "held": 19,
+      "editor": "0280 limited viewer nickname still editorial held; no new connection",
+      "queries": [
+        "\"긴또깡\" \"유행어\"",
+        "\"김도\" \"마즈피플\" 패러디",
+        "\"꺼어억\" \"신조어\"",
+        "\"꽈추형\" 별명 뜻",
+        "\"꾸래핑\" 밈",
+        "\"나는 예쁘지 않습니다\"",
+        "\"내 거에 올라온 네 욕 볼래\"",
+        "\"내 식사를 방해할 생각인가\"",
+        "\"누나 좋아해요\" 밈",
+        "\"늬픽\"",
+        "\"닌자 몰살 소설\"",
+        "\"노무현의 시대가 오겠어요\" 패러디",
+        "\"당신이 옳았어\" \"밈\"",
+        "\"당연히 말이 되죠\" 패러디",
+        "\"대자보\" \"시국선언\" \"패러디\"",
+        "\"독일초딩\" 패러디",
+        "\"동덕여대\" \"패러디\"",
+        "\"동전줍는 징징이\"",
+        "\"더 마스터를 기억해줘\"",
+        "\"롯데햄 후라이드 치킨\"",
+        "\"당신이 옳았어\" -site:namu.moe -site:seore.org -site:librewiki.net -site:tcatmon.com",
+        "\"긴또깡\" \"접수한다\" -site:namu.moe",
+        "\"롯데햄\" \"로보캅\" 패러디",
+        "\"더 마스터를 기억해줘\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "B532": {
+      "count": 20,
+      "recommended": 1,
+      "existing_or_family": 5,
+      "held": 9,
+      "excluded": 5,
+      "queries": [
+        "2026 \"패러디\" \"홍보\" site:newsis.com \"시\"",
+        "2026 \"밈\" \"영상\" site:news.kbs.co.kr",
+        "2026 \"챌린지\" \"패러디\" \"군청\"",
+        "\"배겨요\" \"패러디\"",
+        "\"두릅\" \"악어\" \"따라\"",
+        "2026 \"밈\" \"재현\" site:newsis.com",
+        "\"2026\" \"배겨요\" -site:inven.co.kr -site:namu.wiki",
+        "\"악어춤\" \"두릅\" 농식품부",
+        "\"두릅두릅두\" \"악어\" 원본",
+        "\"악어춤\" \"2026\""
+      ],
+      "notes": "Historical2025crocodiledance recommendation; agencyproductionrepeatedreportsnotseparateevents; studentsrecreationonlynewsdescription."
+    },
+    "B533": {
+      "observations": 20,
+      "recovery_recommendations": 1,
+      "existing": 8,
+      "held": 7,
+      "excluded": 4,
+      "queries": [
+        "2026 \"패러디\" \"제작\" site:knnews.co.kr",
+        "2026 \"밈\" \"따라\" site:kwnews.co.kr",
+        "2026 \"밈\" \"영상\" site:jnilbo.com",
+        "2026 \"패러디\" \"공개\" site:incheonilbo.com",
+        "2026 \"유행\" \"놀이\" site:busan.com",
+        "2026 \"밈\" \"만들어\" site:news1.kr",
+        "\"2026\" \"직렬5기통\" 패러디",
+        "\"2026\" \"궁예 레퀴엠\" 서영재",
+        "\"하겐다즈\" \"컷팅식\" \"2026\"",
+        "\"빠빠빠\" \"직렬5기통\" \"경찰\" 패러디"
+      ]
+    },
+    "B534": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 8,
+      "held": 7,
+      "excluded": 4,
+      "queries": [
+        "2026 \"패러디\" \"제작\" site:idaegu.com",
+        "2026 \"밈\" \"영상\" site:ccdailynews.com",
+        "2026 \"챌린지\" \"따라\" site:news.kbs.co.kr",
+        "2026 \"밈\" \"놀이\" site:ohmynews.com",
+        "2026 \"패러디\" \"영상\" site:jejunews.com",
+        "2026 \"밈\" \"챌린지\" site:kyeonggi.com",
+        "2026 \"챌린지\" \"재현\" site:newsis.com",
+        "2026 \"유행\" \"사진 놀이\"",
+        "\"2026\" \"거북이 챌린지\" 다비치",
+        "\"2026\" \"Time Stamp\" 놀이 영화",
+        "\"2026\" \"패러디\" site:ibsnews.kr"
+      ]
+    },
+    "C46": {
+      "count": 20,
+      "existing": 13,
+      "worker_recommendation_expressions": 3,
+      "worker_document_recommendations": 1,
+      "editor_held": 7,
+      "queries": [
+        "2026 \"밈\" site:harpersbazaar.co.kr \"챌린지\"",
+        "2026 \"밈\" site:elle.co.kr \"댓글\"",
+        "2026 \"밈\" site:cosmopolitan.co.kr \"챌린지\"",
+        "2026 \"밈\" \"11월\" site:incross.com",
+        "2026 \"밈\" \"10월\" site:openads.co.kr",
+        "\"미안하다 사야한다\" G마켓",
+        "\"또주나\" G마켓 광고",
+        "\"소주바리\" \"밈\""
+      ],
+      "notes": "Threeexpressionssamebrandadseries no independentremakes; editorholds recommendationnotcountas3memes. Bodynewsrecovered notpublish."
+    },
+    "C47": {
+      "observations": 20,
+      "existing": 13,
+      "recovery_recommendations": 2,
+      "held": 5,
+      "queries": [
+        "2026 \"밈\" \"11월\" site:maily.so/trendaword",
+        "2026 \"밈\" \"11월\" site:gogumafarm.kr",
+        "2026 \"밈\" \"댓글\" site:univ20.com",
+        "\"가방듀스\"",
+        "\"누룽쥐\" \"부적\" \"합격\"",
+        "\"치와와점\""
+      ]
+    },
+    "editorQueries": {
+      "queries": [
+        "\"태극기 챌린지\" \"2024\"",
+        "\"플래그 챌린지\" \"변신\"",
+        "\"플래그챌린지\" 한국",
+        "\"어둠챌린지\" \"2024\"",
+        "\"꿈꾸던 어른이 되었나요\" \"대학원생\"",
+        "\"꿈꾸던 어른이 되었나요\" \"부경대\"",
+        "\"꿈꾸던 어른이 되었나요\" \"밈\" -site:maily.so"
+      ]
+    },
+    "univ20": {
+      "observations": 3,
+      "recommended": 2,
+      "held": 1,
+      "queries": [],
+      "notes": "2024-12-23 specific flag and light transition formats; sad selfie audio held pending family scope; all one commentary source, no media."
+    }
+  },
+  "sources": [
+    {
+      "id": "dureup-crocodile-dance-parody",
+      "urls": [
+        "https://news.tvchosun.com/site/data/html_dir/2025/05/11/2025051190179.html",
+        "https://www.newsis.com/view/NISX20250724_0003265518"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nurungjwi-goodluck-charm-exchange",
+      "urls": [
+        "https://v.daum.net/v/20260102110243545",
+        "https://gogumafarm.kr/치와와점-찌그러진-누룽쥐-지금-x에서-유행-중인-트렌/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "chihuahua-fortune-result-sharing",
+      "urls": [
+        "https://incross.com/ko/insight/report.asp?idx=10624&mode=view",
+        "https://gogumafarm.kr/치와와점-찌그러진-누룽쥐-지금-x에서-유행-중인-트렌/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bar-bar-bar-five-cylinder-parody",
+      "urls": [
+        "https://www.fnnews.com/news/201308091738589146",
+        "https://www.knnews.co.kr/news/articleView.php?gubun=local&idxno=1083348"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "flag-drawing-transformation-challenge",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/2501"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "lights-off-silhouette-transition",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/2501"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "smoothie-drink-motion-challenge",
+      "urls": [
+        "https://www.newsis.com/view/NISX20240409_0002693210"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Dreamed-adult correction independently audited; corrected SHA568ffa1e CI65/Python495 passed, no test weakening.",
+    "0280 nickname held pending standalone meme scope;1087 unsafe copypasta held;1093 specific character not promoted to general -ping family.",
+    "Observations include repeated historic held candidates; not unique discoveries.",
+    "Seven bounded additions; no original media or service execution; Univ20 forms supported by one 2024 commentary."
+  ],
+  "query_observations": 10776,
+  "distinct_literal_queries": 8927,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

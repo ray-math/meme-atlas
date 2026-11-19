@@ -1,0 +1,112 @@
+{
+  "batch": 399,
+  "base": "7ecbb8094c5d06e8c79cc18dda2792ffd76a8447",
+  "canonical_before": 987,
+  "canonical_after": 988,
+  "added": [
+    "dirty-mouth-remix"
+  ],
+  "editor": {
+    "queries": [
+      "\"더러운 입을 놀리느냐\" \"2026\" -site:namu.moe -site:theqoo.net -site:nocutnews.co.kr -site:sbs.co.kr",
+      "\"더러운 입을 놀리느냐\" \"챌린지\" -site:namu.moe"
+    ],
+    "sources_read": [
+      "https://m.nocutnews.co.kr/news/6518321",
+      "https://programs.sbs.co.kr/programTemplate/amp/vod/runningman/22000632178",
+      "https://theqoo.net/square/4222727162?l=vi",
+      "https://somako.co.kr/film-and-drama-marketing-promotion-2026-06/"
+    ],
+    "limits": "공식소개문직접1+커뮤니티제목1+리믹스보도/설명.영상0,극중유행과현실규모구분,원제작자최초미확정",
+    "duplicate_check": "987개색인단어대조와type-nyanyanya본문대조비중복"
+  },
+  "independent_candidate_audit": {
+    "passed": true,
+    "source_reads": 3,
+    "related_body_reads": 1,
+    "limits": "독립영상제작3건아님,방송일과게시일구분"
+  },
+  "previous_body_audit": {
+    "id": "neoeoneun-jinjja",
+    "final_body_read": true,
+    "passed": true,
+    "required_changes": 0
+  },
+  "researchA": {
+    "held": [
+      {
+        "title": "숨은 명곡",
+        "url": "https://www.incross.com/ko/insight/report.asp?idx=10748&mode=view",
+        "note": "자체제목적용1.상단2026-02-25vs본문2025.02.25충돌;링크2개403"
+      },
+      {
+        "title": "고양고양이",
+        "url": "https://www.ekn.kr/web/view.php?key=20260824027596006",
+        "note": "2026-08-24본문BAD패러디확인기존ateez-bad-challenge.니가좋아/영크크/논산딸기랩은검색단서뿐"
+      }
+    ],
+    "queries": [
+      "\"2026\" \"밈\" site:ac.kr \"챌린지\"",
+      "\"2026\" \"밈\" site:go.kr \"유튜브\"",
+      "\"2026\" \"밈\" site:or.kr \"패러디\"",
+      "\"2026\" \"패러디\" site:blog.naver.com \"도서관\"",
+      "\"2026\" \"밈\" \"제작했다\" \"공식\"",
+      "\"2026\" \"밈\" \"패러디\" \"도서관\"",
+      "\"2026\" \"밈\" \"활용\" \"박물관\"",
+      "\"2026\" \"밈\" \"패러디\" \"소방\"",
+      "\"고양고양이\" \"2026\" \"밈\"",
+      "\"2026\" \"숨은 명곡\" \"밈\"",
+      "\"2026\" \"랩으로 주문하기\" \"공식\""
+    ]
+  },
+  "researchB": {
+    "rows": [
+      {
+        "id": "0050",
+        "note": "과거설명/영상제목원문throttled"
+      },
+      {
+        "id": "0085",
+        "url": "https://creatrend.tistory.com/62",
+        "note": "2026-11-07한채널복고편곡소개1.제작방식전체밈불가"
+      },
+      {
+        "id": "0112",
+        "note": "원전위키/야구경기최근적용0"
+      },
+      {
+        "id": "0465",
+        "note": "원방송갈등소개,최근적용0나락도락이다와다름"
+      },
+      {
+        "id": "0505",
+        "note": "최근직접원문실패"
+      }
+    ],
+    "queries": [
+      "\"04년생 클럽춤\" \"2026\"",
+      "\"AI 커버\" \"2026\" 제작 밈",
+      "\"정권이 내\" \"2026\"",
+      "\"어 나가\" \"2026\" 밈",
+      "\"미띤\" \"2026\" site:theqoo.net",
+      "\"04년생 클럽춤\" -site:namu.moe",
+      "\"UH NARAK\" 패러디",
+      "\"정권이 내\" -site:namu.moe -site:wiki",
+      "\"미띤\" site:theqoo.net",
+      "\"정권이내\" \"2026\"",
+      "\"04년생 클럽춤\" 따라",
+      "\"어 나가\" 패러디 -site:namu.moe"
+    ]
+  },
+  "ci": {
+    "body987": {
+      "run": 44250713375,
+      "job": 134620428255,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 109.909,
+      "success": true
+    },
+    "new_commit": "pending"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "base": "a7f647305e6822fd35b596695920f4aeb331a4e0",
+  "entries": [
+    {
+      "id": "osalhim",
+      "sources": [
+        {
+          "url": "https://weverse.io/babydontcry/artist/2-168155569?hl=ko",
+          "observed": "2025-12-29 베니의 직접 사진 게시 캡션."
+        },
+        {
+          "url": "https://theqoo.net/kai/4403431178",
+          "observed": "2026-11-12 제목 사용+영상 링크+팬 응원 문장 본문."
+        },
+        {
+          "url": "https://v.daum.net/v/fd8WFfCEhy",
+          "observed": "2026-10-01 뜻과 영상 등 일상 대상 용법 설명. 직접 사용2건과 별도 보조."
+        }
+      ],
+      "evidence_level": "서로 다른 게시 출처의 직접 캡션/제목 사용2건. 이미지·영상 자체 미관찰.",
+      "bounds": "2026 최초 신조어로 주장하지 않음. 두 더쿠 게시글의 익명 작성자 독립성은 세지 않음."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "오살힘",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "accepted-family",
+      "canonical": "osalhim"
+    },
+    {
+      "query": "오늘을 살아갈 힘",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "accepted-family",
+      "canonical": "osalhim"
+    },
+    {
+      "query": "오늘을 살아가는 힘",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "accepted-family",
+      "canonical": "osalhim"
+    },
+    {
+      "query": "사보필",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "사생활 보호 필름",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "무공해",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "무조건 공감해드림",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "야름답다",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과자 사꾸",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과자 사진 꾸미기",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "젬민이",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "테무인간",
+      "source": "reports/bulk/connector-resume-c155.json",
+      "status": "held-unverified"
+    }
+  ],
+  "checks": {
+    "result_entries": 866,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

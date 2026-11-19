@@ -1,0 +1,150 @@
+{
+  "base": "f03b89cf02eb2397106189993c42701b4b366a41",
+  "entries": [
+    {
+      "id": "real-life-meccha-chameleon",
+      "sources": [
+        {
+          "url": "https://maily.so/consome/posts/mjz6kxjnrwk",
+          "observed": "2026-07-17 낫띵베럴 실물모형·번개장터 의류 회사영상 본문 직접확인."
+        },
+        {
+          "url": "https://blog.hsad.co.kr/3769",
+          "observed": "2026-08-04 현실재현 설명과 잇섭 공식틱톡 연결, 기관/브랜드 예시. 낫띵베럴 반복보도를 별개사건으로 세지 않음."
+        },
+        {
+          "url": "https://www.donga.com/news/Culture/article/all/20260724/134350314/2",
+          "observed": "조사작업자 본문 확인: 2026-07-26 학생모형/CCTV·식물 위장 및 쿠키재현. 통합자 재열람은 접근불가리다이렉트라 회복미완료, 이 세부내용은 canonical에서 제외."
+        }
+      ],
+      "evidence_level": "접근가능 독립매체2곳의 실사재현 보고. 구체 예문2개는 콘소메의 서로 다른 브랜드사례. 원영상 미시청.",
+      "limits": "동아일보 실패를 성공으로 세지 않음. 게임판매량/가격/개발자/최초주장 제외."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "멧챠",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "accepted-family",
+      "canonical": "real-life-meccha-chameleon"
+    },
+    {
+      "query": "카멜레온",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "accepted-family",
+      "canonical": "real-life-meccha-chameleon"
+    },
+    {
+      "query": "meccha",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "accepted-family",
+      "canonical": "real-life-meccha-chameleon"
+    },
+    {
+      "query": "숨바꼭질",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "accepted-family",
+      "canonical": "real-life-meccha-chameleon"
+    },
+    {
+      "query": "현실판",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "accepted-family",
+      "canonical": "real-life-meccha-chameleon"
+    },
+    {
+      "query": "위장",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "감쪽같",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "라을라",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "existing-family",
+      "canonical": "raeulla"
+    },
+    {
+      "query": "라우럴",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "existing-family",
+      "canonical": "raureol"
+    },
+    {
+      "query": "BAD",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "BAD 챌린지",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "에이티즈",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "배드",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "죽이세유",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "마음이 이상해서",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "여러분 저 상 받았어요",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "제거대상",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "처리대상",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "웃다가 오열",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "어제보다 슬픈 오늘",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "스파이더맨",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    },
+    {
+      "query": "천장",
+      "source": "reports/bulk/connector-resume-a164.json",
+      "status": "held-or-partial-nonduplicate"
+    }
+  ],
+  "checks": {
+    "result_entries": 874,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

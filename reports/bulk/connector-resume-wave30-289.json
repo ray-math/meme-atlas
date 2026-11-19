@@ -1,0 +1,62 @@
+{
+  "batch": 289,
+  "canonical_before": 927,
+  "canonical_after": 928,
+  "added": "jjapagetti-husband",
+  "queries": [
+    "2026 4월 밈 site:marieclairekorea.com",
+    "2026 5월 밈 site:elle.co.kr",
+    "2026 6월 챌린지 site:esquirekorea.co.kr",
+    "\"앞머리 챌린지\" \"2026\"",
+    "\"고봉밥 남편\" 챌린지",
+    "\"다른 강아지\" \"관심\" \"챌린지\"",
+    "\"앞머리\" \"챌린지\" \"누나\"",
+    "\"짜파게티 남편\" 챌린지",
+    "\"다른 강아지\" \"관심 없다고\""
+  ],
+  "materials": [
+    "앞머리",
+    "고봉밥",
+    "다른 강아지",
+    "엽기 오뎅",
+    "장희빈",
+    "더러운 입",
+    "멋지다",
+    "영ㅎㅎ",
+    "영크크",
+    "앙탈",
+    "내 속엔 내가",
+    "김두한"
+  ],
+  "editor_queries": [
+    "\"아웅다웅\" \"챌린지\" \"2026\"",
+    "\"아웅다웅 챌린지\" 투어스 제로베이스원",
+    "\"아웅다웅 챌린지\" -site:namu.moe -site:maily.so -site:fanplus.co.kr -site:doobam.zumi100.com",
+    "\"짜파게티 남편\" site:fastpapermag.com",
+    "짜파게티",
+    "남편",
+    "고봉밥"
+  ],
+  "evidence": {
+    "sources": [
+      "https://www.fastpapermag.com/2026/02/18/나같경-이런-남편이-한-입-하라고-하면-자다가-냄비까/",
+      "https://theqoo.net/kstar/4377695120",
+      "https://theqoo.net/parkjihoon/4088636967",
+      "https://www.esquirekorea.co.kr/article/1912668"
+    ],
+    "editor_direct_read": 4,
+    "original_images_or_videos": 0,
+    "notes": "Fastpaper editorial naming application; separate HeoNamjun titleuse not verified video. Gobongbap linked in communitytitle and retrospective firsthand account ofriceprop; variant notseparateentry. Wrong square URLs initially inaccessible; actualcategory links read."
+  },
+  "other_screening": "앞머리/다른강아지 independentsameformatinsufficient; 엽기오뎅 singlefanquestion; 장희빈/더러운입 externalreuseunconfirmed; 멋지다→bravo-yeonjin; 영ㅎㅎ variantyoung-creator-crew; 앙탈existing; 내속엔내가 songquoteonly; 김두한 four-dollars partialmatch notdifferentlineidentity. 아웅다웅 pendingindependent review; Wavbor directpage title/dateonly vs searchsnippet fuller.",
+  "checks": {
+    "unique_ids": 928,
+    "title_alias_cross_id_collisions": 0,
+    "generator_base_roundtrip": true
+  },
+  "metrics": {
+    "query_observations": 2499,
+    "distinct_literal_queries": 2027
+  },
+  "ci": "not run"
+}

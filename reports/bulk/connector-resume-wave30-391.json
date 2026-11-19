@@ -1,0 +1,208 @@
+{
+  "batch": 391,
+  "base": "f2b126a3e50bb280a54202e5ee77ea0b2aaa29d5",
+  "canonical_before": 985,
+  "canonical_after": 985,
+  "added": [],
+  "researchA": {
+    "base": "72ad8bcd56575c28f8f9eba4b33ff15162396e0e",
+    "held": [
+      {
+        "title": "앞머리 챌린지",
+        "source": "https://www.esquirekorea.co.kr/article/1912668",
+        "note": "2026-11-13박지훈수행회고1.앞머리놀림상황은상상설명,다른노래동명혼합금지"
+      },
+      {
+        "title": "다른 강아지 말고 관심 없다고 했잖아요",
+        "source": "https://www.esquirekorea.co.kr/article/1912668",
+        "note": "본인수행회고1타수행자없음"
+      },
+      {
+        "title": "기타줄 챌린지",
+        "source": "https://www.esquirekorea.co.kr/article/1905427",
+        "note": "2026-06-30원가수안무소개1 재사용없음"
+      }
+    ],
+    "duplicates": [
+      "smooth-smooth",
+      "neon-pair-challenge",
+      "mihon-and-bihon",
+      "고봉밥남편→jjapagetti-husband치환범위"
+    ],
+    "limits": "본문2사진영상0.inkdot20261003_7timeout.회고작성경위미확정",
+    "queries": [
+      "\"2026\" \"밈\" \"패러디\" site:univ20.com",
+      "\"2026\" \"밈\" \"따라\" site:news.unn.net",
+      "\"2026\" \"패러디\" \"공식\" \"챌린지\" -site:instablank.com -site:jjalbang.today",
+      "밈 2026 패러디 site:ohmynews.com",
+      "밈 2026 유행어 site:brunch.co.kr \"했다\"",
+      "밈 2026 site:esquirekorea.co.kr \"챌린지\"",
+      "\"앞머리 챌린지\" \"2026\"",
+      "\"다른 강아지\" \"관심\" \"챌린지\"",
+      "\"기타줄 챌린지\" -site:esquirekorea.co.kr",
+      "\"앞머리\" \"챌린지\" \"잘랐\" -site:namu.moe -site:issuelink.co.kr -site:esquirekorea.co.kr",
+      "\"강아지 말고\" \"챌린지\" -site:esquirekorea.co.kr -site:sotwe.com",
+      "\"기타줄\" \"에반\" \"챌린지\" -site:esquirekorea.co.kr"
+    ]
+  },
+  "semantic_audit": {
+    "sha": "f2b126a3e50bb280a54202e5ee77ea0b2aaa29d5",
+    "scope": "automatic_title_alias_match positions241-260",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0884",
+        "dictionary_id": "it-was-gone",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0885",
+        "dictionary_id": "ingyeo",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0891",
+        "dictionary_id": "jagang-ducheon",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0899",
+        "dictionary_id": "dream-of-me",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0900",
+        "dictionary_id": "rose-knife-parody",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0902",
+        "dictionary_id": "jangchung-pork-song",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0903",
+        "dictionary_id": "what-is-jazz",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0911",
+        "dictionary_id": "jeonbuk-iksan",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0916",
+        "dictionary_id": "mental-victory",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0918",
+        "dictionary_id": "in-name-of-justice",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0920",
+        "dictionary_id": "jessica-jingle",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0930",
+        "dictionary_id": "josammosa-parody",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0937",
+        "dictionary_id": "joa-ganeungeoya",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0942",
+        "dictionary_id": "jumo-cheer",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0943",
+        "dictionary_id": "jujak",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0947",
+        "dictionary_id": "ready-shoot-catchphrase",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0948",
+        "dictionary_id": "chuunibyou",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0949",
+        "dictionary_id": "neutral-gear",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0950",
+        "dictionary_id": "jung-kkeok-ma",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0952",
+        "dictionary_id": "jeul",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      }
+    ],
+    "bodies_read": 20,
+    "classification_changes": 0,
+    "limits": "제품/상호/음식전체아닌재현형식.외부기원검증0/영상사진0.누적260행258고유본문"
+  },
+  "automatic_audit_cumulative": {
+    "rows": 260,
+    "distinct_rows": 260,
+    "distinct_bodies": 258,
+    "reports": [
+      376,
+      377,
+      379,
+      381,
+      383,
+      384,
+      385,
+      387,
+      388,
+      389,
+      390,
+      391
+    ]
+  },
+  "ci": {
+    "report389": {
+      "run": 44248333223,
+      "job": 134612607645,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 112.559
+    },
+    "report390": "pending",
+    "new_commit": "pending"
+  }
+}

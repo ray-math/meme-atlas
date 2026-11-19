@@ -1,0 +1,292 @@
+{
+  "batch": 458,
+  "base": "fb6532024fef79b7547fa49ee3f439d50c5576b2",
+  "canonical_before": 1203,
+  "canonical_after": 1213,
+  "added": [
+    "nick-judy-selfie-challenge",
+    "why-open-eyes-like-that-quote",
+    "nya-dokidoki-repeated-comment",
+    "your-blank-title-poster-parody",
+    "jo-boa-come-down-reaction",
+    "dojisa-repeated-name-question",
+    "round-heart-rap-gesture-parody",
+    "make-a-society-where-template",
+    "kkeopdeonssim-relay-dance",
+    "toma-toma-finger-gun-dance"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0347",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "why-open-eyes-like-that-quote"
+    },
+    {
+      "id": "kr-list-0322",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "nya-dokidoki-repeated-comment"
+    },
+    {
+      "id": "kr-list-0332",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "your-blank-title-poster-parody"
+    },
+    {
+      "id": "kr-list-0929",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "jo-boa-come-down-reaction"
+    },
+    {
+      "id": "kr-list-0387",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "dojisa-repeated-name-question"
+    },
+    {
+      "id": "kr-list-0396",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "round-heart-rap-gesture-parody"
+    },
+    {
+      "id": "kr-list-0994",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "make-a-society-where-template"
+    }
+  ],
+  "previous_ci": {
+    "run": 44282478083,
+    "job": 134726488819,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 86.449s"
+  },
+  "previous_audit": {
+    "batch": 457,
+    "sha": "fb6532024fef79b7547fa49ee3f439d50c5576b2",
+    "new_bodies": 12,
+    "edited_prior_bodies": 1,
+    "prior_index_unchanged": 1190,
+    "required_fixes": 0,
+    "description": "12 new bodies and eungae edit, index1203 and collection consistent; sources levels bounded; no video view."
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": 1,
+      "existing_partial": 2,
+      "held": 17,
+      "queries": [
+        "\"조보아씨\" \"패러디\"",
+        "\"조이는 보이\" 밈",
+        "\"존나좋군\" 밈",
+        "\"죽습니다 진짜\" 밈",
+        "\"조보아\" \"내려와\" 패러디",
+        "\"주작송\" 패러디",
+        "\"지이잉\" 밈",
+        "\"진짠줄 알더라\" 패러디",
+        "\"조보아\" \"밈\" 백종원",
+        "\"죽창 드립\" 의미",
+        "\"죄송합니다\" \"밈\" 2020",
+        "\"주작송\" \"검은사막\"",
+        "\"종범\" \"인터넷\" 은어",
+        "\"찐찌버거\" 뜻",
+        "\"좀비가 넘치는 세상에서 나만 공격받지 않는다\" 패러디",
+        "\"주작송\" site:kr.playblackdesert.com/ko-KR/Forum"
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "recommended": 1,
+      "conditional_held": 1,
+      "existing_partial": 5,
+      "held": 13,
+      "queries": [
+        "\"초코빅송\" 패러디",
+        "\"최근 한 온라인 커뮤니티 게시판에는\" 패러디",
+        "\"취직 잘되는 사회를 만들든가\" 밈",
+        "\"카페인 과다복용 맨\"",
+        "\"초코빅\" \"송\" 패러디",
+        "\"캐피탈리즘 호\" 밈",
+        "\"캬루\" \"배신\" 밈",
+        "\"천상천하 유아독존\" \"밈\"",
+        "\"초코빅송\"",
+        "\"차차핑\" 밈",
+        "\"캡콤은 개껌이 아니라\"",
+        "\"카페인 과다복용 맨\" -site:namu.moe -site:namu.wiki"
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 9,
+      "partial": 1,
+      "held": 6,
+      "excluded": 3,
+      "queries": [
+        "2026 \"밈\" \"패러디\" site:cosmopolitan.co.kr",
+        "2026 \"챌린지\" \"사진\" site:harpersbazaar.co.kr",
+        "2026 \"밈\" \"따라\" site:eyesmag.com",
+        "\"주토피아\" \"셀카 챌린지\"",
+        "\"소주바리\" \"챌린지\"",
+        "2026 밈 \"사진\" site:cosmopolitan.co.kr -site:instablank.com"
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 3,
+      "existing": 0,
+      "held": 17,
+      "queries": [
+        "\"네 설명해드렸습니다\" 밈",
+        "\"너 개못하잖아\" 밈",
+        "\"눈을 왜 그렇게 떠\" 패러디",
+        "\"너반시\" 뜻",
+        "\"네 설명해드렸습니다\" 유래",
+        "\"너반시\" 밈 -site:namu.moe",
+        "\"누나 나 죽어\" 뜻",
+        "\"닌자 몰살\" 소설 기사",
+        "\"네가 하면 나도 한다\" \"패러디\"",
+        "\"냐아아 도키도키시테타\" 밈",
+        "\"늬픽\" 뜻",
+        "\"누가 범인일까\" \"밈\"",
+        "\"닌자 몰살\" -site:namu.moe -site:seore.org",
+        "\"너의 이름은\" \"너의\" \"패러디\" 제목",
+        "\"네 설명해드렸습니다\" -site:namu.moe",
+        "\"너 개못하잖아\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "recommended": 2,
+      "conditional_held": 2,
+      "held": 16,
+      "queries": [
+        "\"당연히 말이 되죠\" 패러디",
+        "\"동그란 맘속에\" \"SNL\"",
+        "\"듀얼 만능주의\" 밈",
+        "\"대환장 파티\" 유래",
+        "\"당연히 말이 되죠\" 밈 뜻",
+        "\"동그란 맘\" \"패러디\"",
+        "\"도지삽니다\" 패러디",
+        "\"동전줍는 징징이\" 밈",
+        "\"당연히 말이 되죠\" \"뜻\"",
+        "\"도지삽니다\" \"개그콘서트\"",
+        "\"동그란 맘\" \"주현영\"",
+        "\"듀얼 만능주의\" -site:namu.moe -site:seore.org -site:readonly.wiki -site:tcatmon.com",
+        "주현영 그린 패러디 SNL 2023",
+        "김문수 도지삽니다 패러디 2012 기사",
+        "당연히 말이 되죠 GTA 밈",
+        "대환장 파티 뜻 신조어"
+      ]
+    },
+    "editor": {
+      "count": 7,
+      "queries": [
+        "2026 11월 새로운 밈 \"챌린지\" \"따라\"",
+        "2026 11월 \"밈\" \"닉주디\" -site:namu.moe",
+        "\"껍던씸\" 밈 -site:namu.moe -site:instablank.com -site:pages.dev",
+        "\"소란부시\" \"챌린지\" 한국 -site:namu.moe -site:pages.dev",
+        "\"도마도마\" \"챌린지\" -site:namu.moe -site:pages.dev"
+      ],
+      "existing": 4,
+      "held": 1,
+      "note": "7 expressions:4 existing,2 draftselected,1held(소란부시). Incross date discrepancy explicit, WePick bodyread not videos.",
+      "selected": 2
+    }
+  },
+  "sources": [
+    {
+      "id": "nick-judy-selfie-challenge",
+      "urls": [
+        "https://www.harpersbazaar.co.kr/article/1892226",
+        "https://maily.so/marketingrecipe/posts/3jrk3758z51"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "why-open-eyes-like-that-quote",
+      "urls": [
+        "https://www.etoday.co.kr/news/view/1098496",
+        "https://www.ajunews.com/view/20150329144254031"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nya-dokidoki-repeated-comment",
+      "urls": [
+        "https://memeislife.tistory.com/64",
+        "https://everymemes.tistory.com/383"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "your-blank-title-poster-parody",
+      "urls": [
+        "https://www.donga.com/news/Society/article/all/20170131/82653614/1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jo-boa-come-down-reaction",
+      "urls": [
+        "https://www.sportschosun.com/entertainment/2021-05-13/202105140100101650006550",
+        "https://zbgogo.tistory.com/35"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dojisa-repeated-name-question",
+      "urls": [
+        "https://www.nocutnews.co.kr/news/4232954"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "round-heart-rap-gesture-parody",
+      "urls": [
+        "https://dr-rwynne.tistory.com/77"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "make-a-society-where-template",
+      "urls": [
+        "https://everymemes.tistory.com/281"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kkeopdeonssim-relay-dance",
+      "urls": [
+        "https://incross.com/ko/insight/report.asp?idx=10710&mode=view&page=4&pageSize=12&searchStr=&serboardsort=9"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "toma-toma-finger-gun-dance",
+      "urls": [
+        "https://letter.wepick.kr/post/23723"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "107 expression review observations:10 selected entries,21 existing/partial,3 excluded,73 held (including3 conditional). These are not all newly discovered unique memes.",
+    "0332 Donga source researcher opened actual body; editor reread failed500 redirected Tollbit. Source scope recorded, no original poster view.",
+    "1003 single music creation kept held;0382 generic title boundary/0407 single explanatory source held.",
+    "Nick/Judy two domestic participation accounts dated within latest year. TomaToma report recent but November2025 participation day unknown. Kkeopdeonssim page header2026-01-28/body2025 year inconsistent explicitly retained.",
+    "New12/edited1 prior batch457 independent audit PASS, required0; prior1190 entries unchanged. CI65steps/Python495 passed."
+  ],
+  "query_observations": 7673,
+  "distinct_literal_queries": 6669,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

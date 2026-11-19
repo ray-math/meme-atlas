@@ -1,0 +1,87 @@
+{
+  "batch": 246,
+  "canonical_before": 910,
+  "canonical_after": 910,
+  "worker_reports": {
+    "a": {
+      "queries": [
+        "\"2026\" \"밈\" site:brunch.co.kr \"제목\"",
+        "\"2026\" \"밈\" site:univ20.com \"11월\"",
+        "\"2026\" \"밈\" \"공식 블로그\" -site:namu.moe",
+        "\"2026\" \"유행어\" \"패러디\" -site:namu.moe -site:instablank.com -site:hsad.tistory.com",
+        "\"2026\" \"밈\" site:magazine.cheil.com",
+        "\"2026\" \"밈\" site:newsroom.daewoong.co.kr",
+        "\"2026\" \"밈\" \"공식\" \"11월 17\"",
+        "\"2026\" \"밈\" \"공식\" \"11월 16\"",
+        "\"2026\" \"밈\" \"공식\" \"11월 15\"",
+        "\"미안 이제 곶감\" -site:sudamate.com -site:namu.moe",
+        "\"곶감 챌린지\" \"2026\"",
+        "\"미안 이제 곶감\" site:youtube.com",
+        "\"곶감\" \"유행본부\" site:imbc.com",
+        "\"미안 이제 곶감\" \"NEWBEAT\"",
+        "\"미안 이제 곶감\" \"테이\"",
+        "\"미안 이제 곶감\" \"엔믹스\" -site:sudamate.com -site:ttanon.com -site:dollpann.com"
+      ],
+      "index_queries": [
+        "곶감",
+        "언발란스",
+        "쉬었음",
+        "줴줴",
+        "기도해",
+        "영원",
+        "스윙스"
+      ],
+      "candidate": "미안 이제 곶감",
+      "status": "held",
+      "sources": [
+        "https://www.capcut.com/ko-kr/template-detail/곶감-챌린지-AI/7704532637108489493",
+        "https://sudamate.com/blog/mian-ije-gotgam-korean-meme/ko"
+      ],
+      "limits": "CapCut title/hashtags only plus explanation. Original NMIXX wk_KNLjprSg blocked, NEWBEAT aggregator failed, MBC snippet only. Format identity not verified.",
+      "duplicates": [
+        "jwejweiya",
+        "pray-for-you",
+        "forever-moment",
+        "swings-denial"
+      ],
+      "recommended": 0
+    },
+    "b": {
+      "queries": [
+        "\"AI 티내는\" \"밈\"",
+        "\"밈\" \"2026\" \"뉴스레터\" \"9월\" -site:maily.so -site:namu.moe -site:instablank.com -site:jjalbang.today",
+        "\"운이 오는\" \"운에게\" 2026",
+        "\"AI 티 내는 법\" 패러디",
+        "\"땃쥐\" \"패러디\" 2026",
+        "\"우리 엄마\" \"맘스\" \"땃쥐\"",
+        "\"맘스땃쥐\" 2026",
+        "\"아이폰 듀오\" \"패러디\" \"한국\""
+      ],
+      "index_queries": [
+        "포기하겠습니다",
+        "폴더",
+        "듀오",
+        "땃쥐",
+        "뽈롱",
+        "운에게",
+        "메차",
+        "멧챠"
+      ],
+      "holds": [
+        "AI design same creator reshares only",
+        "folding products: foreign cases Korean explanation only",
+        "뽈롱랜드: Incross/Stibee same newsletter, 맘스땃쥐 ambiguous nicknames"
+      ],
+      "sources": [
+        "https://minenews.stibee.com/p/581"
+      ],
+      "recommended": 0
+    }
+  },
+  "note": "Held candidates not verified/canonical. Reports preserve failed accesses and shared-publisher dependence.",
+  "metrics": {
+    "query_observations": 1546,
+    "distinct_literal_queries": 1250
+  },
+  "ci": "not run"
+}

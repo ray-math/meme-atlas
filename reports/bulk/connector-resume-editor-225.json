@@ -1,0 +1,45 @@
+{
+  "base": "f5be764b174d30eba87e68526395f692bfb89a53",
+  "canonical_before": 902,
+  "canonical_after": 903,
+  "added": [
+    "human-yeojja"
+  ],
+  "queries": [
+    "이거제",
+    "54000",
+    "늙크크",
+    "인간여짜",
+    "머리푸는",
+    "불법",
+    "불안핑",
+    "말아톤",
+    "과소비",
+    "골든이여라",
+    "안되오",
+    "100넘",
+    "애인소개",
+    "운명의",
+    "100",
+    "백명",
+    "여짜",
+    "0+0",
+    "작곡괴물",
+    "티니핑",
+    "핑",
+    "머리를"
+  ],
+  "direct_texts": 3,
+  "source_groups": 2,
+  "semantic_duplicates": {
+    "불안핑": "oo-ping",
+    "100넘": "hundred-joke"
+  },
+  "distinct_from": "gangnam-horse-dance",
+  "limits": [
+    "original video/audio/images unviewed",
+    "short label only; lyrics not reproduced",
+    "no creator personal data or popularity claim"
+  ],
+  "ci": "not run"
+}

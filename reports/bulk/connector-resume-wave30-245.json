@@ -1,0 +1,34 @@
+{
+  "batch": 245,
+  "canonical_before": 910,
+  "canonical_after": 910,
+  "reinforcement": "things-i-achieved: No Roots challenge aliases and dated text attestations; not new canonical",
+  "source_limits": "Two 2025 titles/descriptions directly read. Outside current rolling year; no video verification. Bare song name not used as alias.",
+  "prior_audit": {
+    "sha": "94e8b5096e6d180d1b981a73d0d08d2afdcb3e3a",
+    "target": "rude-narration",
+    "result": "passed",
+    "index": 910,
+    "unique_ids": 910,
+    "readme": 910,
+    "manual_collection": 84,
+    "source_scope": "2 reported reuse bodies +1 actual fan text, no original videos/images",
+    "method": "readonly JS/manual inspection, not CI"
+  },
+  "queries": [
+    "\"2026\" \"밈\" \"사내\" \"패러디\"",
+    "\"2026\" \"유행어\" \"전시\" \"제목\"",
+    "\"2026\" \"밈\" site:magazine.cheil.com",
+    "\"2026\" \"밈\" site:brandbrief.co.kr",
+    "\"2026\" \"유행어\" site:design.co.kr"
+  ],
+  "screening": "No new qualified candidate. Aggregators/foreign-only examples and unverified reputational allegations not used as factual content.",
+  "metrics": {
+    "query_observations": 1507,
+    "distinct_literal_queries": 1220
+  },
+  "checks": {
+    "normalized_alias_collisions": 0,
+    "ci": "not run"
+  }
+}

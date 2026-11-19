@@ -1,0 +1,129 @@
+{
+  "batch": 260,
+  "canonical_before": 916,
+  "canonical_after": 916,
+  "b": {
+    "queries": [
+      "2026 \"밈\" \"도서관\" \"패러디\" -site:instablank.com",
+      "2026 \"밈\" \"우체국\" -site:instablank.com",
+      "2026 \"밈\" \"서점\" \"패러디\" -site:instablank.com",
+      "2026 \"밈\" \"직원\" \"마감\" \"5초\"",
+      "2026 \"밈\" \"미술관\" -site:namu.moe -site:instablank.com",
+      "2026 \"밈\" \"대학교\" \"패러디\" -site:namu.moe -site:instablank.com",
+      "\"2026\" \"밈\" \"핀란드\" 대사관",
+      "\"2026\" \"귀하게 자란\" -site:namu.moe -site:instablank.com",
+      "\"2026\" \"업무마감 5초전\"",
+      "\"갈테야테야\" \"2026\"",
+      "\"읽지 않음\" \"난 모르는 일\" \"2026\"",
+      "\"누가 내 간식을 먹었을까\" -site:instablank.com",
+      "\"누가 내 간식을\" \"2026\" 패러디",
+      "\"누가내간식을\" 브랜드"
+    ],
+    "index_queries": [
+      "귀하게",
+      "마감",
+      "도서관장",
+      "핀란드",
+      "애인 소개",
+      "도우러",
+      "땃쥐",
+      "하나코",
+      "교수님",
+      "성열",
+      "핵심을",
+      "매끈",
+      "간식을",
+      "에겐",
+      "난리자베스",
+      "운동 많이",
+      "아자스",
+      "갈테야",
+      "할렐야루",
+      "갑차기",
+      "읽지 않음",
+      "모르는 일"
+    ],
+    "recommended": 0,
+    "holds": [
+      {
+        "candidate": "누가 내 간식을 먹었을까",
+        "source": "https://www.kca.go.kr/webzine/board/view?div=kca_2603&linkId=988&menuId=MENU00330",
+        "note": "March2026 official quiz explanation1; actualindependentreuse0"
+      },
+      {
+        "candidate": "핀란드대사관휴무",
+        "source": "https://www.asiatoday.co.kr/kn/view.php?key=20261112010004636",
+        "note": "Nov12 domesticreport foreignreuse only"
+      }
+    ],
+    "duplicates": [
+      "precious-me-watch-this",
+      "you-nailed-the-point",
+      "smooth-smooth",
+      "nanrijabeth",
+      "good-exercise",
+      "azasu",
+      "galteyateya",
+      "hallelyaru",
+      "gapchagiseureounde",
+      "unread-none-of-my-business"
+    ]
+  },
+  "c": {
+    "queries": [
+      "2026 11월 최신 밈 문구 모음",
+      "2026 10월 밈 \"정보\" -site:theqoo.net",
+      "\"이거 제 이모지\" 2026",
+      "\"아무것도 모르는\" \"밈\" 2026",
+      "\"아이스티 4개\" 한국 2026",
+      "\"아무것도 모르는\" \"찍어\" -site:instablank.com -site:jjalbang.today",
+      "\"그럼 아이스티\" 밈 -site:instablank.com -site:jjalbang.today",
+      "\"껍던씸\" 2026 -site:meme-radar-6eq.pages.dev",
+      "\"껍던씸 챌린지\" -site:incross.com -site:instablank.com -site:jjalbang.today",
+      "\"아무것도 모르는\" \"찍어 올리는\" -site:instablank.com -site:maily.so -site:creatrend.tistory.com -site:jjalbang.today",
+      "\"껍던씸\" \"챌린지\" 아이돌 뉴스",
+      "\"껌던십\" 챌린지",
+      "\"KNClOK43uwY\""
+    ],
+    "index_queries": [
+      "껍던씸",
+      "씹던껌",
+      "껌씹던",
+      "껌던십",
+      "우마무스메",
+      "머리를 짚",
+      "한 명씩",
+      "아무것도 모르는",
+      "모던 패밀리",
+      "아이스티",
+      "저점매수",
+      "아이워시",
+      "김민",
+      "찍어 올리는",
+      "이모지",
+      "기록",
+      "촬영"
+    ],
+    "recommended": 0,
+    "holds": [
+      {
+        "candidate": "껍던씸 챌린지",
+        "sources": [
+          "https://www.incross.com/ko/insight/report.asp?idx=10710&mode=view",
+          "https://www.capcut.com/ko-kr/template-detail/껍던씸-챌린지/7600348934183177525"
+        ],
+        "note": "1explainer+1template name; dance reviewed0; Incrossheader2026Jan28 vs newsletter2025 inconsistency. X403/YTthrottled; meme-radar citesIncross not independent"
+      },
+      {
+        "candidate": "아무것도 모르는 OO vs 모든 걸 찍어 올리는 나",
+        "source": "https://maily.so/trendaword/posts/l1zq1vnnr5x",
+        "note": "Oct21 explainer1; IG originals2throttled; noindependentreuse"
+      }
+    ]
+  },
+  "metrics": {
+    "query_observations": 1874,
+    "distinct_literal_queries": 1513
+  },
+  "ci": "not run"
+}

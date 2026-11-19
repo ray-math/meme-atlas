@@ -1,0 +1,412 @@
+{
+  "batch": 446,
+  "base": "da8393160c47ddcb8740f80f380ea8649f6a56ca",
+  "canonical_before": 1066,
+  "canonical_after": 1077,
+  "added": [
+    "lying-down-text-emoticon",
+    "lh-letter-substitution",
+    "satan-loses-job-reaction",
+    "mazetara-color-mixing-challenge",
+    "mock-safe-parkour",
+    "pri-kyu-kyu-dance-challenge",
+    "superconductor-floating-city-parody",
+    "siuuu-crowd-imitation",
+    "strong-wind-allback-character-parody",
+    "everything-is-collapsing-template",
+    "chili-dance-challenge"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0069",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "lying-down-text-emoticon"
+    },
+    {
+      "id": "kr-list-0119",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "lh-letter-substitution"
+    },
+    {
+      "id": "kr-list-0603",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "satan-loses-job-reaction"
+    },
+    {
+      "id": "kr-list-0120",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "superconductor-floating-city-parody"
+    },
+    {
+      "id": "kr-list-0143",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "siuuu-crowd-imitation"
+    },
+    {
+      "id": "kr-list-0174",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "strong-wind-allback-character-parody"
+    },
+    {
+      "id": "kr-list-0162",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "everything-is-collapsing-template"
+    },
+    {
+      "id": "kr-list-0067",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "jinjichung",
+      "new_body": false
+    }
+  ],
+  "previous_ci": {
+    "run": 44270464771,
+    "job": 134685483932,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "63.239"
+  },
+  "previous_audit": {
+    "sha": "da8393160c47ddcb8740f80f380ea8649f6a56ca",
+    "body_reads": 10,
+    "related_body_reads": 2,
+    "index_rows": 1066,
+    "matched_entries": 10,
+    "required_changes": 0,
+    "source_reopens": 9,
+    "previous_source_reads": 6,
+    "inven_prior_A_only": 1,
+    "images_videos": 0,
+    "queries": 0,
+    "passed": true
+  },
+  "sources": [
+    {
+      "id": "lying-down-text-emoticon",
+      "urls": [
+        "https://www.imaeil.com/page/view/2018100316171152047"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "lh-letter-substitution",
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1006238440",
+        "https://www.kmib.co.kr/article/20210311501045"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "satan-loses-job-reaction",
+      "urls": [
+        "https://whitefaceone.tistory.com/2134",
+        "https://ridibooks.com/books/682001674"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mazetara-color-mixing-challenge",
+      "urls": [
+        "https://gogumafarm.kr/마제타라-비행기-좌석-지금-바로-쓸-수-있는-sns-콘텐츠/",
+        "https://hsad.tistory.com/3711"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mock-safe-parkour",
+      "urls": [
+        "https://hsad.tistory.com/3711"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pri-kyu-kyu-dance-challenge",
+      "urls": [
+        "https://www.allurekorea.com/2026/04/11/귀엽기만-해도-완전-됩니다-덕후-몰이-중인-큐스토/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "superconductor-floating-city-parody",
+      "urls": [
+        "https://www.hankookilbo.com/news/article/amp/A2023080210540005134",
+        "https://www.edaily.co.kr/news/read?mediaCodeNo=257&newsId=03496486635703056"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "siuuu-crowd-imitation",
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20240627091400007"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "strong-wind-allback-character-parody",
+      "urls": [
+        "https://northwindpeacock.tistory.com/93",
+        "https://whitefaceone.tistory.com/3354"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "everything-is-collapsing-template",
+      "urls": [
+        "https://www.etnews.com/201202160123?m=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "chili-dance-challenge",
+      "urls": [
+        "https://www.imaeil.com/page/view/2023110709544463768",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/524413"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "limits": [
+    "Historical entries do not require new2026usage; occurrence and evidence dates distinguished.",
+    "Chili2026source isbroadcastpreview notcompletedairingverification; 2023firstpersonproduction independent.",
+    "Skibidi wholework vs remix scope remainsheld; originalarticle scientific claims excluded from LK99futurecity.",
+    "PriorC20 exactquerystrings recovered now, not countedas20newcandidates.",
+    "No main changes, no Codex; latest commit CI pending."
+  ],
+  "research": {
+    "ledger20": {
+      "count": 20,
+      "reexamined": 20,
+      "recommended": [
+        "0069",
+        "0119"
+      ],
+      "existing_partial": [
+        {
+          "id": "0067",
+          "dictionary_id": "jinjichung"
+        }
+      ],
+      "held": 17,
+      "queries": [
+        "\"11미터 모형탑\" 밈",
+        "\"1초만에 사람을 낚는 방법\"",
+        "\"64 bits\" \"밈\" 한국",
+        "\"눕방\" \"●▅▇█\"",
+        "\"학개론\" \"패러디\" 영화",
+        "\"누워\" \"문자\" \"게임\" \"시위\"",
+        "\"기견\" \"밈\"",
+        "\"AI 커버\" \"패러디\"",
+        "\"AK47\" \"외할머니\" 패러디",
+        "\"Dr. Livesey\" \"한국\"",
+        "\"street photographer\" \"밈\"",
+        "\"didn't i do it for you\" \"밈\"",
+        "\"EZ Do Dance\" \"패러디\"",
+        "\"finally awake\" \"한국\" 밈",
+        "\"K-\" \"접두사\" \"풍자\"",
+        "\"LH\" \"드립\" \"내\"",
+        "\"돈 내놔라 먹튀야\"",
+        "\"마 갱기에 집중 안하나\"",
+        "\"야 형이야\" 야구",
+        "\"정권이 내\"",
+        "게임 이용자 눕기 이모티콘 시위 누웠다",
+        "LH 드립 내로남불 LH로남불",
+        "건축학개론 패러디 학개론 제목",
+        "○○충 접미사 진지충",
+        "\"배그\" \"눕자\" \"댓글\" 점검",
+        "\"게임타파\" \"원신\" \"물고기\"",
+        "\"LH로남불\" 패러디",
+        "\"건축학개론\" \"연애학개론\" 패러디",
+        "\"눕는 이모티콘\" \"기자\"",
+        "\"●▅▇█▇▆▅▄▇\" \"원신\" -site:namu.moe -site:seore.org",
+        "\"학개론\" \"패러디\" \"건축\" -site:namu.moe -site:seore.org",
+        "\"○○충\" 비하"
+      ]
+    },
+    "recent20": {
+      "count": 20,
+      "recommended": [
+        "mazetara-color-mixing-challenge",
+        "mock-safe-parkour"
+      ],
+      "held": 1,
+      "existing": 11,
+      "category_excluded": 6,
+      "queries": [
+        "2026 밈 \"챌린지\" \"매거진\" 11월 -site:issuelink.co.kr -site:ranktube.co.kr",
+        "2026 \"밈\" \"10월\" site:careet.net",
+        "2026 \"밈\" \"11월\" site:gogumafarm.kr",
+        "\"마제타라\" \"2026\" 챌린지",
+        "\"안전한 파쿠르\" \"2026\"",
+        "\"아빠는 그냥 시민\" \"2026\"",
+        "\"파쿠르\" \"밈\" \"프로미스나인\"",
+        "\"마제타라\" \"잔망루피\" -site:ranktube.co.kr -site:namu.moe",
+        "\"파쿠르\" \"챌린지\" \"2026\" \"따라하지\"",
+        "\"안전 파쿠르\" 밈",
+        "\"파쿠르\" \"프로미스나인\" \"밈\" -site:adic.or.kr -site:ad.co.kr"
+      ],
+      "correction": "ppomppu ourfamilyvariant searchtitleonly; directdesktop/mobile403, notverifieduse"
+    },
+    "ledger20b": {
+      "count": 20,
+      "reexamined": 20,
+      "recommended": [
+        "0603"
+      ],
+      "scope_review": [
+        "0652"
+      ],
+      "held": 18,
+      "queries": [
+        "\"사카밤바스피스\" 밈",
+        "\"사탄\" \"실직\" 밈",
+        "\"사회적 거리두기\" \"밈\"",
+        "\"삼성걸\" \"밈\"",
+        "\"샤방송\" 유행",
+        "\"섊\" 유행어",
+        "\"서로 깨물었을 때 반응\"",
+        "\"서순\" \"드립\"",
+        "\"섣불리 판단하면 안되는 이유\" 밈",
+        "\"세계 4대 16세\"",
+        "\"센송합니다\" 뜻",
+        "\"소련국가\" 밈",
+        "\"소금소금소금\" 팥",
+        "\"속보\" \"드립\" 밈",
+        "\"손흥민 표정\" 밈",
+        "\"수박도\" 드립",
+        "\"슈퍼 아이돌\" 밈 기사",
+        "\"스키비디 토일렛\" 밈 한국",
+        "\"슬픈 고양이 댄스\"",
+        "\"실시간으로 상황을 지켜보는 비와이\"",
+        "\"사카밤바스피스\" 뉴스",
+        "\"사탄 실직\" 기사",
+        "\"슈퍼아이돌\" \"밈\"",
+        "\"슬픈 고양이 댄스\" 기사",
+        "\"사탄 실직\" \"밈\" 출간",
+        "\"사카밤바스피스\" \"밈\" -site:namu.moe -site:alphawiki.org -site:tele.wiki"
+      ]
+    },
+    "ledger20c": {
+      "count": 20,
+      "reexamined": 20,
+      "recommended": [
+        "0120"
+      ],
+      "conditional": [
+        "0143"
+      ],
+      "held": 18,
+      "queries": [
+        "\"LK-99\" \"패러디\"",
+        "\"마피아 시티\" \"패러디\"",
+        "\"맥스웰 고양이\" 밈",
+        "\"MC 노리아키\" 한국",
+        "\"인크레더블\" \"밈\" \"패러디\"",
+        "\"mmmm cow\" 한국",
+        "\"냥캣\" \"패러디\"",
+        "\"PAC-MAN ghost dance\" 한국",
+        "\"Pink Elephants on Parade\" \"밈\"",
+        "\"Pray For Paris\" \"한국\" 프로필",
+        "\"Sims cat breaking\" 한국",
+        "\"호날두\" \"시우\" \"패러디\"",
+        "\"S stands for\" \"패러디\"",
+        "\"Terrified Noot Noot\" 한국",
+        "\"Why so serious\" \"패러디\" 한국",
+        "호날두 시우 세리머니 따라 장원영 김민재",
+        "LK99 초전도체 밈 석배 패러디",
+        "마피아시티 광고 레벨 밈 패러디 기자",
+        "\"호날두\" \"세리머니\" \"따라\" \"시우\"",
+        "\"와이 쏘 시리어스\" 조커 패러디",
+        "\"인크레더블 밈\" -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ],
+      "note": "Five highrisk/broad rows classified without freshwebsearch; no newdiscoverycount."
+    },
+    "recent20b": {
+      "count": 20,
+      "recommended": [
+        "pri-kyu-kyu-dance-challenge"
+      ],
+      "existing": 8,
+      "category_excluded": 8,
+      "held": 3,
+      "held_reexamined": 2,
+      "queries": [
+        "2026 9월 밈 챌린지 site:hsad.tistory.com",
+        "2026 8월 밈 챌린지 site:hsad.tistory.com",
+        "2026 11월 챌린지 밈 site:allurekorea.com",
+        "\"프리큐큐\" \"챌린지\" 2026",
+        "\"마음이 이상해서 그래\" 패러디 2026",
+        "\"화아아악 죽이세유\" 밈",
+        "\"프리큐큐\" 조이",
+        "\"프리큐\" 챌린지",
+        "\"ぷりきゅきゅ\" 韓国 ジョイ"
+      ]
+    },
+    "recent20c": {
+      "count": 20,
+      "recommended": [
+        "chili-dance-challenge"
+      ],
+      "existing": 5,
+      "held": 10,
+      "category_excluded": 4,
+      "queries": [
+        "site:allurekorea.com/2026/ \"챌린지\" \"참여\"",
+        "site:elle.co.kr/article/ \"2026\" \"챌린지\"",
+        "site:enews.imbc.com \"2026\" \"챌린지\" \"따라\"",
+        "site:enews.imbc.com/News/ 2026 \"챌린지\" \"모모\"",
+        "site:elle.co.kr 2026 \"챌린지\" \"댄스\"",
+        "site:esquirekorea.co.kr 2026 \"챌린지\"",
+        "\"Really Like You\" 챌린지 장원영 2026",
+        "\"칠리\" \"챌린지\" \"2026\" 하리무 장한나",
+        "\"칠리 챌린지\" 아이돌 2023"
+      ],
+      "note": "Chili2023 firstpersonproduction+2026broadcastpreview; not2026origin. odysseymovie3distinctfromdessertwordplaybutheld, samearticle1cluster. Motto wishnotcompletedparticipation."
+    },
+    "ledger_next_interim": {
+      "scope": 20,
+      "completed_recommendations": [
+        "0162",
+        "0174"
+      ],
+      "queries_pending_final": true,
+      "not_counted_as_complete20": true
+    }
+  },
+  "query_correction": {
+    "previous_batch": 445,
+    "recovered_literal_queries": [
+      "\"듀얼 만능주의\" 밈",
+      "\"뚝배기\" \"밈\" 로버트",
+      "\"더 마스터를 기억해줘\"",
+      "\"러시아식 유머\" 밈",
+      "\"럼자오자레\" 뜻 기사",
+      "\"롯데햄\" \"밈\"",
+      "\"린가동자\" 유행",
+      "\"마쁘리에요\"",
+      "\"모 야메룽다\" 뜻",
+      "\"무수히 많은 악수\" 밈",
+      "\"무슨 마약하시길래\" \"밈\"",
+      "\"무츠키 댄스\"",
+      "\"문법 나치\" 뜻",
+      "\"뭉탱이\" \"밈\" 기사",
+      "\"박재범\" \"월클라인\" 밈",
+      "\"밤 샌 사람\" \"일찍 일어난\"",
+      "\"방송 되게 못하네\" 밈",
+      "\"백룸\" \"밈\" 기사",
+      "\"부라더 다메요\" 유행",
+      "\"부리부리 마신\" \"춤\" 챌린지"
+    ],
+    "note": "20 previouslyreported queries omittedfrom ledger445 now inserted exactlyonce; not20newcandidateinvestigations."
+  },
+  "query_observations": 6622,
+  "distinct_literal_queries": 5805
+}

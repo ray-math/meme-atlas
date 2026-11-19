@@ -1,0 +1,261 @@
+{
+  "batch": 491,
+  "base": "b57707f970399430544ad1c7022a63e9e223c4c2",
+  "canonical_before": 1544,
+  "canonical_after": 1552,
+  "added": [
+    "mujical-no-physical-no-brain-wordplay",
+    "bapflix-mealtime-video-wordplay",
+    "neobansi-drama-line-fan-abbreviation",
+    "amir-fictional-delivery-chat-remake",
+    "close-notice-closeness-reversal",
+    "pinterest-four-image-taste-grid",
+    "profile-header-popout-illusion",
+    "temperature-outfit-chart-hug-reversal"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0328",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "neobansi-drama-line-fan-abbreviation"
+    }
+  ],
+  "previous_ci": {
+    "sha": "b57707f970399430544ad1c7022a63e9e223c4c2",
+    "run": 44319740076,
+    "job": 134855196559,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 112.497s"
+  },
+  "previous_audit": {
+    "sha": "b57707f970399430544ad1c7022a63e9e223c4c2",
+    "batch": 490,
+    "canonical": 1544,
+    "new": 9,
+    "mandatory_fixes": 0,
+    "sources_opened": 18,
+    "media_apps": 0,
+    "old_bodies_changed": 0,
+    "mapping_loss": 0,
+    "candidate_rows_changed": 0
+  },
+  "research": {
+    "A62": {
+      "count": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"귀여운 건 나도 알아\" 패러디",
+        "\"그건 원작을 경험해 보신\" 패러디",
+        "\"그러면 죽어요\" 밈",
+        "\"그런 거 없다\" 유행어",
+        "\"깨어나세요 용사여\" 패러디 기사",
+        "\"나는 개인이오\" 패러디",
+        "\"나는 애쉬\" 밈",
+        "\"날 내버려둬\" 밈",
+        "\"너 개못하잖아\" 패러디",
+        "\"너반시\" 뜻",
+        "\"네가 하면 나도 한다\" 밈",
+        "\"네 설명해드렸습니다\"",
+        "\"고누리\" 밈 패러디",
+        "\"곤룡포좌\" 패러디",
+        "\"공항도둑\" 밈",
+        "\"과로사\" \"밈\" 기사",
+        "\"노란 리본 캠페인\" 패러디",
+        "\"노 재팬\" 패러디",
+        "\"다정한부부\" 밈",
+        "\"대기업에 입사한 아들의 깨달음\"",
+        "\"너반시\" 패러디 기사",
+        "\"네 설명해드렸습니다\" 뜻",
+        "\"그원경기\" 기사",
+        "\"귀여운 건 나도 알아\" -site:namu.moe -site:seore.org",
+        "\"너반시\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"너에게 반한 시간\" \"패러디\""
+      ],
+      "notes": "0328partialrecommended. 2bodiesread notbroadmapping. MBNspecifictextnotconfirmedexcluded. DCdictionaryeditednotfirstdate."
+    },
+    "A63": {
+      "count": 20,
+      "recommended": 0,
+      "held": 20,
+      "queries": [
+        "\"11미터 모형탑\" \"밈\"",
+        "\"1초만에 사람을 낚는 방법\"",
+        "\"64 bits\" \"패러디\" 한국",
+        "\"Point 드립\"",
+        "\"를 알려주겠다\" \"밈\"",
+        "\"해버리기\" 유행어 보겸",
+        "\"chip\" \"밈\" 한국",
+        "\"maliali\" 한국",
+        "\"street photographer\" \"밈\" 한국",
+        "\"EZ DO DANCE\" \"밈\" 한국",
+        "\"FBI OPEN UP\" \"밈\" 한국",
+        "\"He is\" \"밈\" \"유리\"",
+        "\"finally awake\" \"패러디\" 한국",
+        "\"ㅎㄴㅎㄴ\" 뜻",
+        "\"KON\" \"혜리\" 광고",
+        "\"Mafia City\" \"광고\" \"밈\"",
+        "\"맥스웰 고양이\" 밈",
+        "\"MC 노리아키\" 한국",
+        "\"팩맨 유령\" \"밈\"",
+        "\"S stands for\" \"패러디\" 한국",
+        "\"해버리기\" \"유행어\" -site:namu.moe -site:seore.org -site:tcatmon.com -site:readonly.wiki",
+        "\"마피아 시티\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"킹 오브 프리즘\" \"밈\" \"재개봉\"",
+        "\"맥스웰\" \"고양이\" \"만들\""
+      ],
+      "notes": "20existingcandidate reobservations; Maxwell Korean explanation + foreignlocalizedapp insufficient specificKoreanuse, ~해버리기 keyword403; no mappings."
+    },
+    "B529": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 9,
+      "held": 6,
+      "excluded": 4,
+      "queries": [
+        "2026 밈 \"패러디\" \"만들어\" site:univ20.com",
+        "2026 \"밈\" \"놀이\" site:allurekorea.com",
+        "2026 \"유행\" \"사진\" \"챌린지\" site:elle.co.kr",
+        "2026 \"밈\" \"11월\" site:design.co.kr",
+        "2026 \"밈\" \"놀이\" site:magazine.hankyung.com",
+        "2026 \"밈\" \"사진\" site:univ20.com/Magazine",
+        "\"2026\" \"아름다운 삶\" \"로얄44\" 챌린지",
+        "\"2026 is the new 2016\" 한국 사진",
+        "2026 \"밈\" \"새로운\" site:esquirekorea.co.kr"
+      ],
+      "notes": "Amir historical2025 recovery, notnewrecent discovery; single specificremakeexplanation."
+    },
+    "C41": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 16,
+      "held": 3,
+      "queries": [
+        "2026 \"밈\" \"말투\" site:univ20.com",
+        "2026 \"밈\" \"댓글\" site:20slab.org",
+        "2026 \"유행어\" \"신조어\" \"덕후\"",
+        "\"2026\" \"만들었습니\"",
+        "\"2026\" \"갑차기스러운데\"",
+        "\"2026\" \"늙크크\"",
+        "\"2026\" \"가면가\" 밈",
+        "\"누가 내 간식을 먹었을까\" 밈 2026",
+        "\"과자사꾸\" 2026",
+        "\"무지컬\" 2026"
+      ],
+      "notes": "Mujical historical2025 notnew2026;2existingbodiesread remainingindexscope. Held snackAI,만들었습니,가면가."
+    },
+    "C42": {
+      "count": 20,
+      "recommended": 3,
+      "existing": 13,
+      "held": 4,
+      "queries": [
+        "2026 \"밈\" \"11월\" site:gogumafarm.kr",
+        "2026 \"밈\" \"10월\" site:tpick.co.kr",
+        "2026 \"신조어\" site:20slab.org",
+        "\"CLOSE\" \"가까이\" \"밈\"",
+        "\"핀터레스트\" \"추구미\" \"네컷\"",
+        "\"입체 헤더\" \"2026\""
+      ],
+      "notes": "All3oneGogumaNov212025explanation; originalX3 403, media0. chugumi bodyread;Googlemap extraonelead not20count."
+    },
+    "editorResearch": {
+      "count": 7,
+      "recommended": 1,
+      "existing": 1,
+      "held": 5,
+      "queries": [
+        "\"2026\" \"한풀루언서\" -site:namu.moe -site:seore.org",
+        "\"2026\" \"밥플릭스\" -site:namu.moe -site:seore.org",
+        "\"2026\" \"랜선생님\" -site:namu.moe -site:seore.org",
+        "\"한풀루언서\" -site:tistory.com -site:namu.moe -site:seore.org",
+        "\"밥플릭스\" \"영상\" -site:alba.co.kr -site:tistory.com",
+        "\"손절미\" \"2026\" -site:tistory.com -site:namu.moe -site:seore.org",
+        "2026 \"밈\" \"대학생\" \"놀이\" -site:tistory.com -site:namu.moe -site:seore.org",
+        "2026 \"주접\" \"새로운\" \"밈\" -site:tistory.com -site:namu.moe -site:seore.org"
+      ],
+      "notes": "Bapflix directeditorusage. Temuperson existing. 손절미/한풀루언서/위쑤시개/랜선생님/수발새끼 held. 4XR exactlabelonly unclearsemanticintention notprooforiginalsense; NHtimeout; autogeneratedconflictingdefinitions excluded."
+    },
+    "editorExtra": {
+      "count": 2,
+      "recommended": 1,
+      "held": 1,
+      "queries": [],
+      "notes": "Temperature outfit chart direct explanation and editorial usage; undated issue includes2023events notdatedfirstorigin. Outerwear hug interview fetchfailed held."
+    }
+  },
+  "sources": [
+    {
+      "id": "mujical-no-physical-no-brain-wordplay",
+      "urls": [
+        "https://www.insight.co.kr/amp/news/492721",
+        "https://linkareer.com/activity/239342"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bapflix-mealtime-video-wordplay",
+      "urls": [
+        "https://www.insight.co.kr/amp/news/492721",
+        "https://maily.so/ottlab/posts/1gz2v6vnr3q"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "neobansi-drama-line-fan-abbreviation",
+      "urls": [
+        "https://gall.dcinside.com/board/view/?id=jisung&no=35498",
+        "https://gall.dcinside.com/board/view/?id=kmhm&no=489200&page=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "amir-fictional-delivery-chat-remake",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/2678"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "close-notice-closeness-reversal",
+      "urls": [
+        "https://gogumafarm.kr/치와와점-찌그러진-누룽쥐-지금-x에서-유행-중인-트렌/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pinterest-four-image-taste-grid",
+      "urls": [
+        "https://gogumafarm.kr/치와와점-찌그러진-누룽쥐-지금-x에서-유행-중인-트렌/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "profile-header-popout-illusion",
+      "urls": [
+        "https://gogumafarm.kr/치와와점-찌그러진-누룽쥐-지금-x에서-유행-중인-트렌/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "temperature-outfit-chart-hug-reversal",
+      "urls": [
+        "https://stibee.com/api/v1.0/emails/share/Q37HWsK92jItjuk6W-oxTAQ7Df02508"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Eight bounded entries; historical dates separated from recent discovery.",
+    "Three forms from sameGoguma article concise independentprose; originalSNS unavailable.",
+    "No existingbody changes, no tests or digestpins weakened."
+  ],
+  "query_observations": 10609,
+  "distinct_literal_queries": 8812,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

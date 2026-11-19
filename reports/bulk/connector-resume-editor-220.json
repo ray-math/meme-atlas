@@ -1,0 +1,60 @@
+{
+  "base": "1f3e10adf9b8d8b2dd3d52b0aa6e203dc5a07e01",
+  "canonical_before": 899,
+  "canonical_after": 900,
+  "added": [
+    "raw-apple-was-best"
+  ],
+  "evidence": {
+    "direct_texts": 2,
+    "dated_with_year": 1,
+    "original_video_viewed": false,
+    "images_viewed": false,
+    "novel_borrowing_intent": "inference, not author statement",
+    "community_year": "unknown"
+  },
+  "queries": [
+    "\"2026\" \"밈\" \"차용\" \"공식\"",
+    "\"2026\" \"유행어\" \"따라\" \"11월\"",
+    "\"2026\" \"밈\" \"도서관\"",
+    "\"No Roots\" \"밈\" \"2026\"",
+    "\"노루츠\" \"밈\"",
+    "\"No Roots\" \"포스터\"",
+    "\"생사과가 더\" \"밈\"",
+    "\"난 연기하지 않아\" \"패러디\"",
+    "\"No Roots\" \"밈\" -site:globalbunjang.com -site:namu.moe",
+    "\"생사과가\" -site:namu.moe -site:d.namu.moe -site:m.namu.moe -site:www.namu.moe",
+    "\"생사과\" \"패러디\" -site:namu.moe",
+    "생사과",
+    "사과가",
+    "No Roots",
+    "노루츠",
+    "다시만난",
+    "활어회",
+    "상의하의",
+    "토마호크",
+    "멋없다",
+    "연기하지",
+    "도서관",
+    "단어 알지",
+    "외모 췤",
+    "안성재",
+    "옷입히기",
+    "흑백요리사"
+  ],
+  "holds": [
+    "No Roots: original timeout",
+    "Gmarket four phrases: one explanatory source family",
+    "멋없다/연기하지: independent reuse not established"
+  ],
+  "semantic_duplicates": {
+    "단어 알지": "fight-briefing-parody",
+    "외모 췤": "appearance-check"
+  },
+  "partial_matches_not_duplicates": [
+    "도서관",
+    "안성재"
+  ],
+  "ci": "not run",
+  "editor": "all four source texts reread; scoped phrase only, not personality/dress-up umbrella"
+}

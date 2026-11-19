@@ -1,0 +1,35 @@
+{
+  "batch": 278,
+  "canonical_before": 925,
+  "canonical_after": 925,
+  "added": [],
+  "research_a": {
+    "queries": [
+      "\"2026\" \"밈\" site:news.samsung.com/kr",
+      "\"2026\" \"밈\" site:newsroom.posco.com/kr",
+      "\"2026\" \"챌린지\" \"공식\" \"패러디\" -site:namu.moe -site:d.namu.moe",
+      "\"2026\" \"밈\" \"신한\"",
+      "\"2026\" \"밈\" \"롯데\" \"패러디\"",
+      "\"포켓몬\" \"노트\" \"꾸미기\" \"2026\""
+    ],
+    "index_queries": [
+      "포켓몬"
+    ],
+    "duplicates": [
+      "dance-parapara",
+      "championship-stock-sale",
+      "lying-down-yang-euiji"
+    ],
+    "note": "pokemonnotes Incross10802 direct editorialcreation1 only, same Stibee excluded; PLAYSAFE contestannouncements not actual memereuse; newindependentuses0"
+  },
+  "root_queries": [
+    "2026 \"밈\" \"패러디\" site:ac.kr -브리저튼 -언발란스",
+    "2026 \"챌린지\" \"밈\" site:go.kr -거제 -야호 -양의지"
+  ],
+  "root_result": "No promoted candidate. Search hits predominantly existingGeoje, generic contest notices/plans, oldschoolreports, classicalconcert feature. Search snippets not bodyverification.",
+  "metrics": {
+    "query_observations": 2270,
+    "distinct_literal_queries": 1839
+  },
+  "ci": "not run"
+}

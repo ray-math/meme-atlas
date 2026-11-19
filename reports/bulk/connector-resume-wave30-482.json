@@ -1,0 +1,399 @@
+{
+  "batch": 482,
+  "base": "11c84f622ff7cfcfa1e258434ad78230452d9a44",
+  "canonical_before": 1457,
+  "canonical_after": 1470,
+  "added": [
+    "eyes-open-ko-beijing-wordplay",
+    "geosigi-film-speech-reuse",
+    "novice-expert-perspective-comparison",
+    "geobug-yubangdan-body-shaming-label",
+    "there-is-no-such-thing-bait",
+    "geunhahaha-derisive-laughter",
+    "geui-sentence-ending-style",
+    "kimchi-nyeo-misogynistic-label",
+    "honey-thigh-body-rating-term",
+    "eomjunsik-name-repetition",
+    "cham-cham-cham-photo-penalty",
+    "metro-typing-play-sharing",
+    "street-math-challenge-adaptation"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0639",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "eyes-open-ko-beijing-wordplay"
+    },
+    {
+      "id": "kr-list-0192",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "geosigi-film-speech-reuse"
+    },
+    {
+      "id": "kr-list-0205",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "novice-expert-perspective-comparison"
+    },
+    {
+      "id": "kr-list-0191",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "geobug-yubangdan-body-shaming-label"
+    },
+    {
+      "id": "kr-list-0243",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "there-is-no-such-thing-bait"
+    },
+    {
+      "id": "kr-list-0254",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "geunhahaha-derisive-laughter"
+    },
+    {
+      "id": "kr-list-0256",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "geui-sentence-ending-style"
+    },
+    {
+      "id": "kr-list-0265",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "kimchi-nyeo-misogynistic-label"
+    },
+    {
+      "id": "kr-list-0281",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "honey-thigh-body-rating-term"
+    },
+    {
+      "id": "kr-list-0756",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "eomjunsik-name-repetition"
+    },
+    {
+      "id": "kr-list-0228",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "thunderclap-flash-game-parody",
+      "existing_body": true
+    }
+  ],
+  "previous_ci": {
+    "sha": "11c84f622ff7cfcfa1e258434ad78230452d9a44",
+    "run": 44308755882,
+    "job": 134817080269,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 158.595s"
+  },
+  "previous_audit": {
+    "batch": 481,
+    "sha": "11c84f622ff7cfcfa1e258434ad78230452d9a44",
+    "mandatory_fixes": 0,
+    "old_records_preserved": 1447,
+    "changed_files": 19,
+    "new_entries": 10,
+    "candidate_changes": 8,
+    "mapping_losses": 0,
+    "urls": 12,
+    "reopened": 12,
+    "media": 0,
+    "usage": {
+      "total": 1457,
+      "annotated": 74,
+      "reviewed": 73,
+      "unannotated": 1383
+    }
+  },
+  "research": {
+    "A43": {
+      "count": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"섊\" 신조어",
+        "\"서로 깨물었을 때 반응\"",
+        "\"섣불리 판단하면 안되는 이유\"",
+        "\"성윤모\" \"밈\"",
+        "\"세계 4대 16세\"",
+        "\"세뇌교육\" 밈",
+        "\"소련국가\" 밈 한국",
+        "\"쇼트트랙 편파판정\" 패러디",
+        "\"수박도\" 드립",
+        "\"스너고\"",
+        "\"스윗중남\"",
+        "\"식객민우\"",
+        "\"신안군\" \"지역 비하\"",
+        "\"실장석\" 문화",
+        "\"심기체론\" 밈",
+        "\"씽씽이\" 현대차 밈",
+        "\"아나바다\" \"밈\"",
+        "\"섊\" \"욕\" -site:namu.moe -site:seore.org",
+        "\"성윤모\" 패러디",
+        "\"쇼트트랙\" \"편파판정\" \"패러디\"",
+        "\"눈 뜨고 코 베이징\"",
+        "\"성윤모\" \"성대모사\"",
+        "\"아나바다\" \"아무나\" \"드립\"",
+        "\"섊\" \"신조어\" -site:namu.moe"
+      ],
+      "notes": "20 priorrows reexamined,1limited recommendation0639,19held.7external bodies,no media.0625UGC/impersonation not yet narrowformat;0678officialad uses other memes notcharacterreuse.0630/0676/0677 noexternalquery,heldnotverified."
+    },
+    "C23": {
+      "count": 20,
+      "recommended": 2,
+      "conditional": 1,
+      "existing_partial": 1,
+      "held": 16,
+      "queries": [
+        "\"개돼지\" \"인터넷\" \"비하\"",
+        "\"거북유방단\" 뜻",
+        "\"고수와 하수\" \"밈\"",
+        "\"귀여운 건 나도 알아\" \"박명수\"",
+        "\"고수와 하수\" 밈 -site:namu.moe -site:seore.org",
+        "\"개돼지\" \"게임\" 유저 비하",
+        "\"고만해 미친놈들아\" 유래",
+        "\"계획대로\" \"데스노트\" 패러디",
+        "\"개돼지\" 게임 이용자 site:gamemeca.com",
+        "\"고수\" \"하수\" \"짤방\"",
+        "\"건우 엄마 데리고 와\" 패러디",
+        "\"귀여운 건 나도 알아\" -site:namu.moe -site:seore.org",
+        "\"거룡을 상대한\" -site:namu.moe -site:seore.org",
+        "\"거짓말하지 말아요\" \"죽여버리겠어요\" -site:namu.moe -site:seore.org",
+        "\"게이포터\" 뜻 -site:namu.moe -site:seore.org",
+        "\"공항도둑\" 밈 -site:namu.moe -site:seore.org",
+        "\"곤룡포좌\" 기사",
+        "\"경북대 에타\" 밈 -site:namu.moe -site:seore.org",
+        "\"구찌보이\" \"밈\"",
+        "\"거시기\" \"황산벌\" 유행어",
+        "\"공산주의 유머\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"과로사\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"고누리\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"그 XX\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"개돼지\" \"게이머\" \"신문\"",
+        "\"귀멸의 칼날\" \"패러디\" 밈",
+        "\"계획대로\" \"데스노트\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"구찌보이\" 뜻"
+      ],
+      "notes": "2recommendations0192/0205;0191conditionalcriticaldefinition;0228partialmappingproposalonly. 16held. Originalmedia0,2existingbodies. DirectDCtwo forums,authorindependenceunverified. Jjan publication2011-02-01 vs update2011-01-31 inconsistent."
+    },
+    "B509": {
+      "count": 20,
+      "recommended": 0,
+      "existing": 9,
+      "held": 7,
+      "excluded": 4,
+      "queries": [
+        "\"2026\" \"밈\" \"놀이\" site:hani.co.kr",
+        "\"2026\" \"챌린지\" \"사진\" site:allurekorea.com",
+        "\"2026\" \"밈\" \"공유\" site:design.co.kr",
+        "2026 밈 사진 놀이 site:elle.co.kr",
+        "2026 밈 챌린지 site:cosmopolitan.co.kr",
+        "2026 유행 놀이 site:design.co.kr",
+        "\"2026\" \"사진 놀이\" -site:hani.co.kr",
+        "\"2026\" \"밈\" \"재현\" site:newsis.com",
+        "\"2026\" \"장희빈 밈\" 패러디"
+      ],
+      "notes": "No additions. JangHuibin candidate withdrawn after semanticdup dirty-mouth-remix;reportedviews belong SquidGame freezevideo notthis.9existing7held4excluded. Media0."
+    },
+    "A44": {
+      "count": 20,
+      "conditional": 1,
+      "existing_partial": 1,
+      "held": 18,
+      "queries": [
+        "\"아니다 이 악마야\"",
+        "\"아로나 댄스\" -site:namu.moe",
+        "\"아이 러브 마이 화자 마자 브라자\"",
+        "\"안전가족\" \"밈\"",
+        "\"아임뚜렛\" 밈",
+        "\"아카자\" \"밈\"",
+        "\"앙카 존 댄스\"",
+        "\"애는 있습니다\" 유행어",
+        "\"야후 꾸러기\" 패러디",
+        "\"약한 사내다\" \"미친놈들이다\"",
+        "\"얼리 엑세스 예시를 보여줌\"",
+        "\"엄마도 사람이야 사람\"",
+        "\"약한 사내다\" 아스달 -site:namu.moe -site:seore.org",
+        "\"어나니머스\" 밈 가면",
+        "\"어둠의 메갈리안\" -site:namu.moe -site:seore.org",
+        "\"어몽어스 잼민이\"",
+        "\"엉덩국\" 패러디",
+        "\"엄준식\" 밈 유래",
+        "\"애는 있습니다\" -site:namu.moe",
+        "\"야 기분 좋다\" 유행어",
+        "\"화자 마자 브라자\" 뜻",
+        "\"약한 사내다\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"애는 있습니다\" 김원효",
+        "\"엄준식\" \"억지 밈\""
+      ],
+      "notes": "20priorrows,0756limitedname repetition conditional;0753existing partialmappingproposal;18held.4externalbodies,1rewritten summary excluded,1 403.3existingbodies.0media.0728/0730 noexternalquery heldnotverified."
+    },
+    "C24": {
+      "count": 20,
+      "recommended": 5,
+      "held": 15,
+      "queries": [
+        "\"그가 매수했습니다\" 밈",
+        "\"그건 원작을 경험해\"",
+        "\"긔체\" 말투",
+        "\"꿀벅지\" 신조어",
+        "\"그냥 개최국 중국이 메달\"",
+        "\"그들의 연회에\" \"정신을\"",
+        "\"그러면 죽어요\" 밈",
+        "\"그래 열심히 하자\" 밈",
+        "\"그런 거 없다\" 밈 -site:namu.moe -site:seore.org",
+        "\"그런건 없다 게이야\" -site:namu.moe -site:seore.org",
+        "\"근하하하\" 뜻 -site:namu.moe -site:seore.org",
+        "\"김치녀\" 비하 언론",
+        "\"긴또깡\" 밈 유행",
+        "\"김도\" \"마즈피플\" 패러디",
+        "\"깨어나세요 용사여\" 밈",
+        "\"꺼어억\" 먹튀 뜻",
+        "\"꽈추형\" 별명 뜻",
+        "\"꾸래핑\" 뜻",
+        "\"나는 개인이오\" 패러디",
+        "\"나는 애쉬\" 밈"
+      ],
+      "notes": "5historical boundedrecommendations,15held.2existingbaitbodies read.0media. Geuicheoneauthorapplication+explanation not2sources; honeythighJoongangreprint countedone;no minors/bodyphotos."
+    },
+    "B510": {
+      "count": 20,
+      "recommended": 3,
+      "existing": 11,
+      "held": 4,
+      "excluded": 2,
+      "queries": [
+        "\"2026\" \"밈\" \"놀이\" site:univ20.com",
+        "\"2026\" \"유행\" \"사진\" site:eyesmag.com",
+        "\"2026\" \"밈\" site:fastpapermag.com",
+        "2026 챌린지 놀이 브런치 유행",
+        "2026 인스타그램 유행 사진 놀이 매거진",
+        "2026 밈 패러디 11월 문화",
+        "\"메트로 타이핑\" \"2026\"",
+        "\"참참참\" \"사진\" \"2026\" 챌린지",
+        "\"길거리 수학 챌린지\" \"2026\""
+      ],
+      "notes": "3recentrecommendations,11existing4held2excluded.First3queriesempty. Noapp/video/image use. Firsttwoformats sameweeklyarticle butdifferentproductions,nottwoindependentsources foreach. Mathofficialcompleteevent records; no minoridentifiers. NewspimactualdateJuly27 vsURLJuly23."
+    }
+  },
+  "sources": [
+    {
+      "id": "eyes-open-ko-beijing-wordplay",
+      "urls": [
+        "https://www.donga.com/news/Society/article/all/20220208/111651816/1",
+        "https://www.ytn.co.kr/_ln/0117_202202161614284277",
+        "https://tv.edaily.co.kr/News/NewsRead?Kind=257&NewsId=01571126645315752"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "geosigi-film-speech-reuse",
+      "urls": [
+        "https://www.khan.co.kr/article/200311051930261"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "novice-expert-perspective-comparison",
+      "urls": [
+        "https://gall.dcinside.com/mgallery/board/view/?id=jinbo&no=406213&page=1",
+        "https://gall.dcinside.com/mgallery/board/view/?id=astraeoratio&no=6540&page=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "geobug-yubangdan-body-shaming-label",
+      "urls": [
+        "https://a1.bbalri.com/entry/롤대남-거북유방단-뜻-짤"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "there-is-no-such-thing-bait",
+      "urls": [
+        "https://whitefaceone.tistory.com/2736"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "geunhahaha-derisive-laughter",
+      "urls": [
+        "https://whitefaceone.tistory.com/2473"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "geui-sentence-ending-style",
+      "urls": [
+        "https://everymemes.tistory.com/285"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kimchi-nyeo-misogynistic-label",
+      "urls": [
+        "https://v.daum.net/v/20210123080015812"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "honey-thigh-body-rating-term",
+      "urls": [
+        "https://view.asiae.co.kr/article/2009092303330111860"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "eomjunsik-name-repetition",
+      "urls": [
+        "https://v.daum.net/v/20200606030225696?s=print_news"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "cham-cham-cham-photo-penalty",
+      "urls": [
+        "https://v.daum.net/v/20260724070301235"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "metro-typing-play-sharing",
+      "urls": [
+        "https://v.daum.net/v/20260724070301235",
+        "https://ir.newspim.com/news/view/20260723001128"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "street-math-challenge-adaptation",
+      "urls": [
+        "https://www.gbe.kr/ph/na/ntt/selectNttInfo.do?mi=6429&nttSn=1635539",
+        "https://science.snu.ac.kr/newsroom/view/2/3/1360"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Jjan2011source editor502 excluded fromfinal geosigi body; Khan2003actualreuse retained.",
+    "DCsameplatform twoforums; authoridentity independence not established. No politicalslogan/companyallegation adopted.",
+    "Turtlelabel explanatorysource only; all medical/generalization claims excluded.",
+    "Hankyung honeythighsource editor403; finalbody only directlyread Joongangreprint,no exactetymology claim.",
+    "0228 partial connection verified against existing body and everymemes336; no new canonical for whole work.0753proposal remains unpromoted."
+  ],
+  "query_observations": 9736,
+  "distinct_literal_queries": 8209,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "batch": 373,
+  "base": "cf7ac2eeec3448f238c8c2f58b6bbb05c81f573a",
+  "canonical_before": 978,
+  "canonical_after": 979,
+  "added": [
+    "this-is-click"
+  ],
+  "researchPokemon": {
+    "focused": 1,
+    "held": 1,
+    "recommended": 0,
+    "queries": [
+      "\"포켓몬\" \"인스타 노트\" 꾸미기",
+      "\"포켓몬 노트\" 인스타",
+      "\"Pokenotes\" 한국 인스타",
+      "\"인스타\" \"포켓몬\" \"노트\" \"해봤\"",
+      "\"포켓몬\" \"노트\" \"꾸며\" 인스타그램",
+      "\"포켓몬\" \"인스타 메모\"",
+      "\"포켓몬\" \"노트\" \"인스타\" site:theqoo.net",
+      "\"포켓몬\" \"노트\" \"인스타\" site:blog.naver.com",
+      "\"포켓몬\" \"노트\" \"인스타\" site:threads.com",
+      "\"포켓몬\" \"노트\" \"꾸미기\" -site:incross.com -site:stibee.com -site:namu.moe -site:mixvale.com.br"
+    ],
+    "index_queries": [
+      "포켓몬"
+    ],
+    "sources": [
+      {
+        "url": "https://www.incross.com/ko/insight/report.asp?idx=10802&mode=view",
+        "date": "2026-03-18",
+        "scope": "selfreportedcreation1,images/notepost0;stibee513same"
+      },
+      {
+        "url": "https://weekly.donga.com/culture/article/all/11/6158839/1",
+        "date": "2026-03-31 07:00:02",
+        "scope": "independentexplanation1 notactualdomesticproducer"
+      }
+    ],
+    "limits": "No2domesticactualapplications;pokenotes.appdifferentservice;foreigntranslations/Telegramexcluded;Samsungwallpaperdifferent;Naverrobotsnotread."
+  },
+  "researchA": {
+    "recommended": 0,
+    "held": 1,
+    "existing_ids": [
+      "forbes-selected",
+      "salary-lupin",
+      "freeze-dry-affection",
+      "weareone-cheohaja",
+      "unread-none-of-my-business"
+    ],
+    "candidate": "커터칼퇴근",
+    "source": "https://www.news2day.co.kr/article/20260325500196",
+    "date": "2026-03-28 05:45",
+    "limits": "설명1군 실제적용0;Bugs20812050본문403;다시보니선녀2025-03-03최근기간밖,추가검토안함",
+    "queries": [
+      "\"2026\" \"밈\" \"패러디\" site:univ20.com",
+      "\"2026\" \"밈\" \"제목\" site:brunch.co.kr",
+      "\"2026\" \"밈\" \"유행어\" site:news.unn.net",
+      "\"2026\" \"밈을 활용\" -site:incross.com -site:namu.moe -site:instablank.com",
+      "\"2026\" \"유행하는 밈\" \"블로그\" -site:namu.moe -site:instablank.com",
+      "\"2026\" \"밈\" \"신문\" \"말투\" -site:namu.moe",
+      "\"엄마\" \"동결건조\" \"2026\" -site:namu.moe -site:jjalbang.today",
+      "\"읽기 않음\" -site:namu.moe -site:jjalbang.today",
+      "\"커터칼퇴근\" -site:namu.moe -site:jjalbang.today",
+      "\"읽지않음\" \"난 모르는 일\" -site:instablank.com -site:jjalnews.com",
+      "\"커터칼퇴근\" -site:instablank.com -site:jjalnews.com -site:slangdunk.com -site:jigjabi.com -site:namu.moe"
+    ]
+  },
+  "researchB": {
+    "recommended": 1,
+    "held": 4,
+    "queries": [
+      "\"이궈궈던\" \"2026\"",
+      "\"자 이게 클릭이야\" \"2026\"",
+      "\"작은 하마 이야기\" \"2026\"",
+      "\"점점 빨라지는 노래\" \"2026\"",
+      "\"제로투 회피\" \"2026\"",
+      "\"자 이게 클릭이야\" -site:namu.moe -site:semyung.ac.kr",
+      "\"이궈궈던\" -site:orbi.kr -site:namu.moe -site:kone.gg",
+      "\"작은 하마 이야기\" 패러디 제작",
+      "\"점점 빨라지는 노래\" AJR 챌린지",
+      "\"제로투 회피\" 패러디 만들었다"
+    ],
+    "recommended_id": "kr-list-0896",
+    "verified_sources": [
+      "https://www.semyung.ac.kr/cop/bbs/BBSMSTR_000000000022/selectBoardArticle.do?nttId=476396",
+      "https://gall.dcinside.com/mgallery/board/view/?id=cyberpunk2077&no=720717&page=1",
+      "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01348086596410952"
+    ],
+    "editor_reread": "3원문직접재확인;2최근직접사용+2011방송보도;영상사진0;정부목록보조증거제외",
+    "held_rows": [
+      {
+        "id": "0851",
+        "reason": "DC2026-11-11실제1;Kone날짜이미지불명,Orbi403인벤502"
+      },
+      {
+        "id": "0897",
+        "reason": "jhrun.tistory.com/34 2012-03-17제작+kmib2012-02-22설명;최근0"
+      },
+      {
+        "id": "0912",
+        "reason": "whitefaceone3108설명2022-11-02;CapCut7424689016110370049실제2024-10-12,검색2026오류;국내독립2군미확인"
+      },
+      {
+        "id": "0923",
+        "reason": "whitefaceone3192 2022-12-25설명1군,제작자원문0"
+      }
+    ]
+  },
+  "audit_record_reconciliation": {
+    "sha": "1e07cd497afe0ec8db570fe73328645a5072e8ad",
+    "range": "300~343",
+    "read": 42,
+    "not_found_paths": [
+      300,
+      303
+    ],
+    "recovered58": {
+      "327": "0385,0499,0513,0604,0638,0657,0662,0663,0681,0708,0757,0789,1009,1034,1084",
+      "329": "0064,0080,0198,0224,0256,0283,0382,0419,0486,0632,0668,0725",
+      "330": "0376,0391,0407",
+      "331": "0516,0575,0576,0596,0601,0603",
+      "333": "0704,0706,0718",
+      "336": "0794,0800,0804,0805,0816",
+      "337": "0857,0874,0888,0892",
+      "338": "0939,0974",
+      "340": "0991,0997,1010",
+      "342": "1047,1051,1060,1079,1083"
+    },
+    "current_unclear_with_explicit_record_in_300_370": 291,
+    "current_unclear_without_found_record_in_range": 41,
+    "limits": "절대미감사41아님.300이전/다른경로/ID생략기록제외.보고316집계20이나전체ID없어추정안함.행별본문열람1:1증명아님;분류변경0."
+  },
+  "ci": {
+    "report371": {
+      "run": 44243704580,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 106.555
+    },
+    "report372": {
+      "run": 44243863866,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 107.093
+    },
+    "new_commit": "pending"
+  }
+}

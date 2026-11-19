@@ -1,0 +1,269 @@
+{
+  "batch": 510,
+  "base": "e7c6f79a3ad9cbacf20d86879854cd90f8d34b5d",
+  "canonical_before": 1735,
+  "canonical_after": 1746,
+  "added": [
+    "saranghaeri-cherry-toktok-catchphrase",
+    "meomchwo-meongcheongi-catchphrase",
+    "gag-character-funny-person-role",
+    "eomkeu-mother-interruption",
+    "hajimama-jungjeonmama-catchphrase",
+    "jeorigarit-wagarit-magarit-catchphrase",
+    "kaldap-immediate-message-reply",
+    "seugem-speed-up-chat-expression",
+    "mupeul-no-comments-state",
+    "butakhaeyo-buchakhaeyo-ad-wordplay",
+    "daetgeul-matjip-video-comment-attraction"
+  ],
+  "candidate_changes": [],
+  "previous_ci": {
+    "head": "e7c6f79a3ad9cbacf20d86879854cd90f8d34b5d",
+    "run": 44352552205,
+    "job": 134971836201,
+    "result": "success",
+    "steps": 65,
+    "tests": 497
+  },
+  "previous_audit": {
+    "result": "PASS",
+    "required_changes": 0,
+    "head": "e7c6f79a3ad9cbacf20d86879854cd90f8d34b5d",
+    "files": 20,
+    "count": 1735
+  },
+  "research": {
+    "A109": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 2,
+      "failed": 1,
+      "queries": [
+        "\"그건 원작을 경험해\" -site:namu.moe -site:seore.org",
+        "\"그러면 죽어요\" \"패러디\"",
+        "\"그런 거 없다\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"나는 애쉬\" -site:namu.moe -site:seore.org",
+        "\"네가 하면 나도 한다\" \"패러디\"",
+        "\"설명해드렸습니다\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"그러면 죽어요\" \"탈두리\" -site:namu.moe -site:seore.org",
+        "\"원작을 경험\" \"기준\" 패러디 -site:namu.moe -site:seore.org",
+        "\"네 설명해드렸습니다\" -site:namu.moe -site:seore.org",
+        "\"네가 하면 나도 한다\" \"무한도전\""
+      ]
+    },
+    "coordinatorDiscovery": {
+      "queries": [
+        "2026 \"유행유행유\" \"유행어\" \"화해\"",
+        "2026 \"밈\" \"신조어\" \"11월\" -site:instablank.com -site:namu.moe -site:tistory.com",
+        "\"사랑해리\" \"유행유행유\"",
+        "\"멍짜\" \"개그콘서트\"",
+        "\"사랑해리 체리 톡톡\" -site:famtimes.co.kr",
+        "\"멈춰 멈춰 멍청이\" -site:famtimes.co.kr",
+        "\"2026\" \"밈\" \"정보 좀\" -site:namu.moe -site:tistory.com",
+        "\"2026\" \"밈\" \"유튜브 댓글\" -site:namu.moe -site:tistory.com -site:instablank.com",
+        "\"부착해요\" \"패러디\" 이덕화",
+        "\"2026\" \"멍짜\" 유행어"
+      ],
+      "recommended": 2,
+      "notes": "Three newly proposed catchphrases observed in one program; two under review, hajimama assigned to B589. Two articles describe same production, no broad reuse assertion. Exact-phrase searches found same episode reports, not independent reuse. Wiki snippets not adopted. Broad November search yielded commentary lists and allegations-related current memes; none adopted from snippets. Butakhaeyo/Buchakhaeyo historical self-variation recovered from B589, not new discovery. Comment-matjip source independently reread.",
+      "direct": 4,
+      "observations": 3,
+      "reserved_duplicate": 1,
+      "recovered_B589": 1,
+      "recovered_adoption": 1
+    },
+    "A110": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 2,
+      "queries": [
+        "\"지이잉\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"초코빅송\" -site:namu.moe -site:seore.org",
+        "\"킹 오브 프리즘\" \"패러디\"",
+        "\"택배 드립\" -site:namu.moe -site:seore.org",
+        "\"프로게이머 피지컬\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"프라이데이 나이트 펑킨\" \"한국\" \"제작\"",
+        "\"초코빅\" \"노래\" 패러디",
+        "\"프나펑\" \"모드\" \"한국\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"초코빅\" \"송\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "C100": {
+      "observations": 7,
+      "recommended": 2,
+      "conditional": 1,
+      "existing": 1,
+      "held": 3,
+      "direct": 4,
+      "failed": 2,
+      "queries": [
+        "\"개그캐\" \"캐릭터\" 신조어",
+        "\"잇몸 만개\" \"웃음\" 기사",
+        "\"빡공\" \"뜻\" 신조어",
+        "\"칼답\" \"즉시\" 신조어",
+        "\"엄크\" \"엄마\" 기사"
+      ]
+    },
+    "B589": {
+      "observations": 8,
+      "recommended": 2,
+      "existing": 1,
+      "held": 5,
+      "direct": 4,
+      "queries": [
+        "2026 \"패러디\" \"유행어\" site:news1.kr",
+        "2026 \"밈\" \"말투\" site:hani.co.kr",
+        "2026 \"패러디\" \"따라\" site:news.kbs.co.kr",
+        "2026 \"패러디\" \"대사 바꿔\"",
+        "2026 \"유행어\" \"따라 하며\" -site:namu.moe",
+        "2026 \"광고\" \"부탁해요\" \"이덕화\"",
+        "\"저리가릿\" \"2026\"",
+        "\"하지마마 중전마마\" \"2026\""
+      ]
+    },
+    "C101": {
+      "observations": 6,
+      "recommended": 3,
+      "existing": 2,
+      "held": 1,
+      "direct": 3,
+      "failed": 1,
+      "queries": [
+        "\"칼답\" \"칼같이\" 기사",
+        "\"빡공\" \"공부\" site:news.nate.com",
+        "\"스겜\" \"스피드 게임\" 기사",
+        "\"칼답\" \"칼같이 답\"",
+        "\"빡공\" \"빡세게\" 뉴스",
+        "\"스겜\" \"빨리\" 게임 기사",
+        "\"무플\" \"댓글\" \"뜻\" 기사"
+      ]
+    },
+    "A111": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 2,
+      "failed_same_page": 3,
+      "queries": [
+        "\"아로나 댄스\" -site:namu.moe -site:seore.org",
+        "\"아이 러브 마이\" \"화자\" -site:namu.moe -site:seore.org",
+        "\"약한 사내다\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"오 필승 코리아\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"와퍼\" \"노래\" \"패러디\" 한국",
+        "\"요! 요요!\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "C102": {
+      "observations": 7,
+      "recommended": 1,
+      "existing_family": 4,
+      "held": 2,
+      "direct": 1,
+      "failed": 3,
+      "queries": [
+        "\"댓망진창\" 뜻 기사",
+        "\"댓글 맛집\" \"2026\"",
+        "\"빡공\" \"빡세게 공부\" 신문",
+        "\"댓글 맛집\" 유튜브",
+        "\"주접킹\" 뜻"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "saranghaeri-cherry-toktok-catchphrase",
+      "urls": [
+        "https://sports.khan.co.kr/article/202611091607003",
+        "https://www.etnews.com/20261109000205"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "meomchwo-meongcheongi-catchphrase",
+      "urls": [
+        "https://sports.khan.co.kr/article/202611091607003",
+        "https://www.etnews.com/20261109000205"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gag-character-funny-person-role",
+      "urls": [
+        "https://web.donga.com/pdf/pdf_viewer.php?vcid=2021120210W1101"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "eomkeu-mother-interruption",
+      "urls": [
+        "https://www.thefirstmedia.net/news/articleView.html?idxno=30746"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hajimama-jungjeonmama-catchphrase",
+      "urls": [
+        "https://www.bntnews.co.kr/article/view/bnt202610190013",
+        "https://www.etnews.com/20261109000205"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jeorigarit-wagarit-magarit-catchphrase",
+      "urls": [
+        "https://www.etnews.com/20261019000014",
+        "https://www.bntnews.co.kr/article/view/bnt202610190013"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kaldap-immediate-message-reply",
+      "urls": [
+        "https://webzine.mynewsletter.co.kr/newsletter/kcplaa/202102-2/3.pdf"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "seugem-speed-up-chat-expression",
+      "urls": [
+        "https://www.ktrwa.or.kr/contents/user/file/sht/1565688931189.pdf"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mupeul-no-comments-state",
+      "urls": [
+        "https://www.imaeil.com/page/view/2006031407304547858"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "butakhaeyo-buchakhaeyo-ad-wordplay",
+      "urls": [
+        "https://www.viva100.com/article/202006013888346"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "daetgeul-matjip-video-comment-attraction",
+      "urls": [
+        "https://it.donga.com/30734/"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Eleven source-bounded entries; four recent same-program reenactments are not external viral spread.",
+    "Two articles about the same episode are one production group. Cumulative shared-source summaries kept bounded.",
+    "Historical chat slang and self-advertisement wordplay not presented as new 2026 trends.",
+    "No existing bodies, immutable hashes or test criteria changed. Original media not viewed."
+  ],
+  "query_observations": 12576,
+  "distinct_literal_queries": 10325,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

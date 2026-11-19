@@ -1,0 +1,98 @@
+{
+  "batch": 297,
+  "base": "48dc5c30f109b23056671caf454fe07b083f0b0d",
+  "canonical_before": 930,
+  "canonical_after": 931,
+  "added": [
+    "chicken-banana-challenge"
+  ],
+  "candidate_mapping": {
+    "kr-list-0089": {
+      "status": "partial",
+      "note": "음악 자체가 아닌 춤챌린지 형식만 발행"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://fannstar.tf.co.kr/fnnews/read/335678",
+      "date": "2026-05-28",
+      "within_last_year": true
+    },
+    {
+      "url": "https://enter.etoday.co.kr/news/view/277086",
+      "date": "2025-05-12",
+      "event_date": "2025-05-11",
+      "within_last_year": false
+    }
+  ],
+  "limits": "독립 기사본문2직접열람. 원영상0. 최초유행/안무발생일 미확정.",
+  "audit": "independent source and index review passed with bounded dance definition",
+  "queries": [
+    "\"방송 되게 못하네\" \"아\" \"진짜\"",
+    "\"방송 되게 못하네\" 유래",
+    "site.imbc.com \"방송 되게 못하네\"",
+    "\"치킨 바나나\" \"챌린지\" 2026",
+    "\"치킨바나나\" 챌린지 한국",
+    "\"기가차드\" 2026 광고",
+    "\"내면의 기가차드\" 2026",
+    "\"기가차드\" \"2026\" -site:namu.moe -site:orbi.kr -site:dcinside.com -게임",
+    "\"기가차드\" \"광고\" -site:namu.moe",
+    "\"치킨바나나\" \"2026\" -site:bwajuma.club -site:namu.moe -site:dhesy.com",
+    "\"기가차드\" 브랜드 캠페인",
+    "\"내면의 기가차드\" 뉴스",
+    "\"기가차드\" 2025 12",
+    "\"기가차드\" 2026 칼럼",
+    "\"테토\" \"에겐\" \"2026\" 브랜드 밈",
+    "\"창팝\" \"2026\" 패러디",
+    "\"정상화\" \"2026\" \"밈\"",
+    "\"테토\" \"에겐\" \"2026\" site:clip.imbc.com",
+    "\"테토\" \"에겐\" \"2026\" site:genie.co.kr",
+    "\"창팝\" \"2026\" -site:namu.moe -site:instablank.com",
+    "\"정상화\" \"밈\" \"양창섭\" -site:namu.moe -site:instablank.com",
+    "\"정상화\" \"양창섭\" 2026 -site:namu.moe -site:instablank.com -site:castbox.fm",
+    "\"테토\" \"에겐\" \"2026\" \"챌린지\" 방송"
+  ],
+  "followup": {
+    "inner_gigachad": {
+      "candidates": [
+        "kr-list-0257",
+        "kr-list-0320"
+      ],
+      "status": "researcher recommends one bounded entry; editor sources not yet read",
+      "sources": [
+        "https://lunatalk.chat/character/detail/56106",
+        "https://caveduck.io/ko/characters/f3cf285c-e564-4efd-8616-88a50f3c7613"
+      ]
+    },
+    "teto_egen": {
+      "candidate": "kr-list-1039",
+      "status": "researcher recommends; editor not yet read",
+      "sources": [
+        "https://sugifun.com/ko/egen-teto-test",
+        "https://www.kaehaelab.com/tests/teto-egen-lab",
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10010324611"
+      ]
+    },
+    "changpop": {
+      "candidate": "kr-list-0981",
+      "status": "hold: name usage not validated representative creation"
+    },
+    "normalization": {
+      "candidate": "kr-list-0914",
+      "status": "hold insufficient distinct meme usage"
+    }
+  },
+  "metrics": {
+    "query_observations": 2621,
+    "distinct_literal_queries": 2132
+  },
+  "ci": "new addition pending CI",
+  "prior_ci": {
+    "sha": "48dc5c30f109b23056671caf454fe07b083f0b0d",
+    "run": 44225740463,
+    "unit_tests": 495,
+    "unit_result": "passed",
+    "job_conclusion": "success",
+    "passed_steps": 65
+  }
+}

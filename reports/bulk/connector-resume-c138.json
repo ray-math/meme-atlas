@@ -1,0 +1,37 @@
+{
+  "batch": "connector-resume-c138",
+  "base": "ffd1467903f4ddf1c577ba83624d9f0905eb2694",
+  "entries": [
+    {
+      "id": "dobby-is-free",
+      "independent_usage_events": 2,
+      "sources": [
+        {
+          "url": "https://brunch.co.kr/@b928/37",
+          "observed": "2025-04-17 자신의 퇴사에 한국어·영어 도비 문구 적용."
+        },
+        {
+          "url": "https://brunch.co.kr/@jihye8xg5/57",
+          "observed": "2024-03-16 도도 is free 제목 직접확인. 과거 퇴사짤 공유는 작성자 자기보고이며 추가 사건으로 합산하지 않음."
+        },
+        {
+          "url": "https://view.asiae.co.kr/article/2022051313503603088",
+          "observed": "발행2022-05-15 12:55. 양말 장면과 퇴사 밈 연결 설명. URL숫자를 날짜로 쓰지 않음."
+        }
+      ],
+      "bounds": "영화 원장면 별도미시청. 고양이 습성·세대 일반화 채택하지 않음."
+    }
+  ],
+  "screening": {
+    "strings": 12,
+    "accepted": 1,
+    "note": "도비 관련 변형·반복 검색 포함, 고유후보 수로 합산 안함."
+  },
+  "checks": {
+    "result_entries": 853,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

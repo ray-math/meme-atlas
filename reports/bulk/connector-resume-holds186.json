@@ -1,0 +1,78 @@
+{
+  "base": "14511df5c6b1b47a9d098955d4fffa6f6dbb1a97",
+  "canonical_count": 892,
+  "accepted": [],
+  "index_queries": {
+    "룩스": [],
+    "looks": [],
+    "아이빔": [],
+    "퀵실버": [],
+    "Made My Night": [],
+    "셋로그": [],
+    "setlog": [],
+    "저격": [
+      "taste-hit"
+    ],
+    "DDR": [],
+    "부모님": [],
+    "내 나이": [],
+    "같은 나이": [],
+    "칠레": [],
+    "먼데이": [],
+    "줴줴": [
+      "jwejweiya"
+    ],
+    "제제": [],
+    "오츠카레": [
+      "kkungsit-kkungsit-challenge"
+    ],
+    "수고했어": []
+  },
+  "held": [
+    {
+      "name": "룩스 캔 킬 저격 댄스",
+      "sources": [
+        "https://imnews.imbc.com/replay/2026/nwtoday/article/6861525_37012.html",
+        "https://theqoo.net/square/4378189988"
+      ],
+      "finding": "MBC 본문23–26 동작과 참여자, 더쿠10월17일 장원영·이상이 제목과 공식링크 확인. 독립 추가 실제 재사용과 원영상 동작은 미확인. 보도자료 반복일 수 있는 뉴스핌을 독립사례로 세지 않음.",
+      "correction": "이 항목을 기존 HALCALI 음악의 kkungsit-kkungsit-challenge와 같은 곡이라고 주장하지 않음. 조사자 표현은 미확인이라 제외."
+    },
+    {
+      "name": "Made My Night DDR",
+      "finding": "일반 곡 참여와 특정 DDR 편집형식 분리 필요. 조사자 검색에서 독립 같은형식 재사용 미확보."
+    },
+    {
+      "name": "셋로그",
+      "finding": "정확 문자열 무일치이나 기존 split-screen-vlog(분할 브이로그)와 의미상 관련. 신규 검토 전 해당 기존 항목과 통합 검토가 우선. 이번 신규수록 없음."
+    },
+    {
+      "name": "칠레 길쭉한 사물",
+      "source": "https://trendportal.kr/archives/412/",
+      "finding": "본문49–55 Reddit 출처로 한국어 설명. 국내 재사용 입증 아님."
+    },
+    {
+      "name": "부모님 나이 비교",
+      "source": "https://trendissueguide.tistory.com/158",
+      "finding": "조사자 설명글 확인보고. 편집자 재열람403. 실제 사용2건 미확보."
+    },
+    {
+      "name": "그르 먼데이",
+      "finding": "해외사례 설명만 조사자 검색에서 확인. 국내재사용보류."
+    }
+  ],
+  "existing": {
+    "오츠카레": "kkungsit-kkungsit-challenge",
+    "줴줴": "jwejweiya"
+  },
+  "limits": [
+    "원영상미시청",
+    "검증완료 신규0",
+    "Python/CI미실행",
+    "DDR 부분문자열에 대한 조사자 오탐목록을 편집자892인덱스로 다시 대조한 결과 무일치"
+  ],
+  "corrections_after_review": [
+    "꿍싯과룩스 같은곡 주장은 조사자가 철회. 기존 HALCALI+료 형식과 다른 동명묘사 혼동.",
+    "셋로그는 문자열 무일치를 신규후보로 해석하면 안 되며 split-screen-vlog와 우선 대조."
+  ]
+}

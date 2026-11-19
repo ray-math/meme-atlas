@@ -1,0 +1,51 @@
+{
+  "batch": 264,
+  "canonical_before": 917,
+  "canonical_after": 917,
+  "queries": [
+    "\"2026\" \"밈\" \"11월\" site:biz.chosun.com -주식 -코인 -세무 -리트",
+    "\"2026\" \"밈\" \"11월\" site:donga.com -세무 -리트 -주식 -코인",
+    "\"2026\" \"밈\" \"11월\" site:hani.co.kr -세무 -리트",
+    "\"공휴일 하루에 하루만 더\" -site:namu.moe",
+    "\"공휴일\" \"Stick With You\" -site:namu.moe",
+    "\"하루에 하루만 더\" \"월요일\"",
+    "site.maily.so 2026 밈 11. \"트렌드\"",
+    "site:genie.co.kr/magazine \"2026\" \"밈\"",
+    "site:maily.so/trendaword/posts \"26.11\"",
+    "\"전여친 감자칼\" 밈",
+    "\"2026\" \"밈\" \"사과문 분철\"",
+    "\"천사 이미지밖에\" \"2026\"",
+    "\"이거 정말 웃어넘길\" \"2026\"",
+    "\"전여친 감자칼\" site:theqoo.net",
+    "\"천사 이미지밖에\"",
+    "\"무서운 회사네요\" \"사진\"",
+    "\"이거 정말 웃어넘길 일이 아닙니다\"",
+    "\"천사\" \"악마\" \"이미지\" \"밈\"",
+    "\"무서운 회사네요\" -site:note.com",
+    "\"혼자 보고 살아왔을\""
+  ],
+  "audit917": {
+    "sha": "3e86a50f6093cf53c775cced5c74352a7d6d8080",
+    "result": "passed body/index/README/manual;917 unique IDs,manual91; two reportedproductions not2videos; financialestimates excluded"
+  },
+  "tree": {
+    "sha": "edd30941f1201176d57ead13d1f86300bb3cdcd2",
+    "truncated": false,
+    "count": 917,
+    "index": 917,
+    "missing": 0,
+    "extra": 0
+  },
+  "semantic_duplicate": "ex-girlfriend-peeler",
+  "holds": [
+    "천사 이미지밖에:Genie16054 only one direct use",
+    "무서운 회사네요:Genie16054 only one; actual company criticism not same",
+    "공휴일 하루에 하루만 더:mirror/search metadata unchanged; normal radio playlists excluded"
+  ],
+  "not_verified": "사과문 분철 searched but no independent uses",
+  "metrics": {
+    "query_observations": 1970,
+    "distinct_literal_queries": 1604
+  },
+  "ci": "not run"
+}

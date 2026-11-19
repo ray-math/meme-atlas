@@ -26,3 +26,9 @@ aliases: ["럭키비키", "Lucky Vicky", "완전 럭키비키잖아"]
 - [오히려 좋아](ohiryeo-joa.md) · 불리한 상황을 긍정적으로 바꿔 읽는다는 공통점이 있다.
 
 [시험 수록 목록](../collections/pilot-30.md)
+
+<!-- generated-backlinks:start -->
+## 이 항목을 언급한 밈
+
+- [항준적 사고](hangjun-thinking.md)
+<!-- generated-backlinks:end -->

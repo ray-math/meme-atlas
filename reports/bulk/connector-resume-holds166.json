@@ -1,0 +1,103 @@
+{
+  "base": "91a96ef573e6c176ee56bb3200d05ed448faad79",
+  "new_entries": 0,
+  "candidate_queries": [
+    {
+      "query": "불법",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "직업",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "수상",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "범죄",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "형편없이",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "나쁘게",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "피곤",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "싫다",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "\"여러분 저 상 받았어요\" \"제거\"",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "\"여러분 저 상 받았어요\" \"2026\"",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "\"제거대상\" \"상 받았어요\" -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "\"처리대상\" \"상\" \"2026\" 밈 -site:onmeme.com",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    },
+    {
+      "query": "\"웃다가 오열\" 챌린지 -site:onmeme.com -site:jjalbang.today",
+      "source": "reports/bulk/connector-resume-holds166.json",
+      "status": "held-or-broad-query"
+    }
+  ],
+  "holds": [
+    {
+      "candidate": "자기 직업 불법적으로 말하기",
+      "findings": [
+        {
+          "url": "https://www.altong.com/ja/alsong/4720993210496",
+          "note": "한국어 질문 본문이나 일본어 UI 경로이며 최초원문/번역관계/게시일 미확정."
+        },
+        {
+          "url": "https://www.nullergames.com/play/job-quiz/",
+          "note": "서비스 화면 존재:문제수선택/입력/정답버튼. 문제실행/내용/개설일/실제참여 미확인. 운영실적이나 실제참여로 확대하지 않음."
+        },
+        {
+          "url": "https://www.inven.co.kr/board/webzine/2097/7178354",
+          "note": "검색날짜2026-09-13 단서는 있으나 본문재회복실패. 확정독립근거제외."
+        }
+      ]
+    },
+    {
+      "candidate": "여러분 저 상 받았어요",
+      "note": "독립실제사용회복실패. ndex 블로그메타데이터는 제목단서일뿐 원문미확인, 실제수상기사와 팬감사글은 다른의미라 제외. 다른밈사전 자료는 근거로채택하지않음."
+    },
+    {
+      "candidate": "웃다가 오열",
+      "note": "재검색은 일반표현뉴스만확인. 특정전환챌린지 실제사용으로 세지않음."
+    }
+  ],
+  "checks": {
+    "canonical_entries": 875,
+    "python_tests": "not run",
+    "ci": "not run"
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "batch": 449,
+  "base": "9cc5e6eee4a77e18ce39fc0d4f694b7718d254f5",
+  "canonical_before": 1106,
+  "canonical_after": 1117,
+  "added": [
+    "da-bujileomneun-effort-contrast",
+    "dokdo-kick-motion-comparison",
+    "ojida-internet-exclamation",
+    "wet-dance-challenge",
+    "metronome-dance-challenge",
+    "when-the-day-comes-dance-challenge",
+    "dwijil-land-wordplay",
+    "ttiyong-woik-reverse-remix",
+    "perfect-target-dance-challenge",
+    "still-vocal-challenge",
+    "kneel-to-none-knock-challenge"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0364",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "da-bujileomneun-effort-contrast"
+    },
+    {
+      "id": "kr-list-0389",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "dokdo-kick-motion-comparison"
+    },
+    {
+      "id": "kr-list-0787",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "ojida-internet-exclamation"
+    },
+    {
+      "id": "kr-list-0406",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "dwijil-land-wordplay"
+    },
+    {
+      "id": "kr-list-0422",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "ttiyong-woik-reverse-remix"
+    }
+  ],
+  "previous_ci": {
+    "sha": "9cc5e6eee4a77e18ce39fc0d4f694b7718d254f5",
+    "run": 44273801449,
+    "job": 134696710015,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "63.318"
+  },
+  "previous_audit": {
+    "sha": "9cc5e6eee4a77e18ce39fc0d4f694b7718d254f5",
+    "body_reads": 16,
+    "new_bodies": 14,
+    "edited_bodies": 2,
+    "index_rows": 1106,
+    "matched_entries": 14,
+    "prior1092_only_index_change": "ssipseonbi-insult",
+    "source_reopens": 16,
+    "required_changes": 0,
+    "images_videos": 0,
+    "queries": 0,
+    "passed": true
+  },
+  "sources": [
+    {
+      "id": "da-bujileomneun-effort-contrast",
+      "urls": [
+        "https://www.82cook.com/entiz/read.php?num=3883789",
+        "https://gall.dcinside.com/mgallery/board/view/?id=manariafriends&no=952220"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dokdo-kick-motion-comparison",
+      "urls": [
+        "https://gall.dcinside.com/board/view/?id=dcinterview&no=28663",
+        "https://sports.news.nate.com/view/20260320n00083"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ojida-internet-exclamation",
+      "urls": [
+        "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1004445698",
+        "https://inmun360.culture.go.kr/content/358.do?cid=1393165&mode=view"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "wet-dance-challenge",
+      "urls": [
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10010319260",
+        "https://tv.jtbc.co.kr/clip/pr10011762/pm10069852/vo10935783/view",
+        "https://news.nate.com/view/20260724n06767?mid=n0100"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "metronome-dance-challenge",
+      "urls": [
+        "https://m.etnews.com/20260604000299",
+        "https://m.swtvnews.com/news/newsview.php?ncode=1065569391508532"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "when-the-day-comes-dance-challenge",
+      "urls": [
+        "https://osen.co.kr/article/G1112570537",
+        "https://www3.osen.co.kr/article/G1112575141"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dwijil-land-wordplay",
+      "urls": [
+        "https://www.segye.com/newsView/20071221000187",
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01213606586315440"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ttiyong-woik-reverse-remix",
+      "urls": [
+        "https://whitefaceone.tistory.com/2785",
+        "https://everymemes.tistory.com/586"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "perfect-target-dance-challenge",
+      "urls": [
+        "https://m.news.nate.com/view/20260706n32795",
+        "https://v.daum.net/v/20260731201237459"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "still-vocal-challenge",
+      "urls": [
+        "https://www-cache.joynews24.com/view/2015317",
+        "https://www.sportsworldi.com/newsView/20261024505583?OutUrl=google"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kneel-to-none-knock-challenge",
+      "urls": [
+        "https://maily.so/trendaword/posts/d5ryw0gjz1w"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "research": {
+    "ledger20A": {
+      "count": 20,
+      "reexamined": 20,
+      "recommended": [
+        "0364",
+        "0389"
+      ],
+      "held": 18,
+      "queries": [
+        "\"단소 살인마\" 패러디",
+        "\"당신이 옳았어\" 밈",
+        "\"대환장 파티\" 유행어",
+        "\"동그란 맘속에 피어난\" 패러디",
+        "\"당연히 말이 되죠\" 패러디",
+        "\"대기업에 입사한 아들의 깨달음\"",
+        "\"도지삽니다\"",
+        "\"독도킥\" 패러디",
+        "\"독일초딩\" 패러디 기사",
+        "\"동전줍는 징징이\"",
+        "\"동현이의 퍼니박스\"",
+        "\"두원공대\" 밈",
+        "\"동그란 맘\" \"주현영\"",
+        "\"독도킥\" \"김장훈\" \"패러디\"",
+        "\"다 부질없는 개뻘짓이다\"",
+        "\"덤덤\" \"밈\" \"패러디\"",
+        "\"주현영\" \"그린\" \"패러디\" \"2023\"",
+        "\"독일초딩\" \"합성\" 기사"
+      ],
+      "sources": {
+        "0364": [
+          "https://www.82cook.com/entiz/read.php?num=3883789",
+          "https://gall.dcinside.com/mgallery/board/view/?id=manariafriends&no=952220"
+        ],
+        "0389": [
+          "https://gall.dcinside.com/board/view/?id=dcinterview&no=28663",
+          "https://sports.news.nate.com/view/20260320n00083"
+        ],
+        "0396": [
+          "https://dr-rwynne.tistory.com/77"
+        ]
+      },
+      "notes": [
+        "0364requotation2024-09-14+guildgamevariation2026-09-25;2016origincommentexcluded.",
+        "0389firstpersoninterview2019-12-23+2026-03-20pitchercomparison; expresslynotintentionalparody; gamedayconflict19vs20 omit.",
+        "0396onlyoneblog specifics SNLseason3ep7; conditional lowerconfidence notverifiedindependent2."
+      ]
+    },
+    "ledger20A2": {
+      "count": 20,
+      "recommended": [
+        "0406"
+      ],
+      "conditional": [
+        "0422"
+      ],
+      "held": 18,
+      "queries": [
+        "\"듀얼 만능주의\"",
+        "\"띠용띠용 워익워익\"",
+        "\"더 마스터를 기억해줘\"",
+        "\"롯데햄 후라이드 치킨\" 광고",
+        "\"뒤질랜드\" 패러디",
+        "\"딱딱해\" 밈",
+        "\"란란루\" 패러디 기사",
+        "\"마따끄\" 뜻",
+        "\"럼자오자레\"",
+        "\"락통령\" \"패러디\"",
+        "\"마이 네임 이즈 찢기\"",
+        "\"린가동자\"",
+        "\"뒤질랜드\" \"패러디\"",
+        "\"마따끄\" \"밈\" \"유래\"",
+        "\"러시아식 유머\" \"당신이\"",
+        "\"리사 수\" \"아름다우십니다\"",
+        "\"박철민\" \"뒤질랜드\" \"2008\" \"유행어\"",
+        "\"띠용띠용 워익워익\" 리믹스 -site:namu.moe -site:seore.org",
+        "\"럼자오자레\" 젠지 기사",
+        "\"란란루\" 광고 패러디 -site:namu.moe -site:seore.org"
+      ],
+      "sources": {
+        "0406": [
+          "https://www.segye.com/newsView/20071221000187",
+          "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01213606586315440"
+        ],
+        "0422": [
+          "https://whitefaceone.tistory.com/2785",
+          "https://everymemes.tistory.com/586"
+        ]
+      },
+      "notes": [
+        "0406actor2008selfreport prebroadcastchildrenuse, notinventor.2007broadcastreport.",
+        "0422twoblogs independentreportingunknown; specific reversecreation andremix; originalNgEVCauiw70failed."
+      ]
+    },
+    "ledger20C": {
+      "count": 20,
+      "recommended": [
+        "0787"
+      ],
+      "conditional": [
+        "0802",
+        "0810"
+      ],
+      "held": 17,
+      "queries": [
+        "\"오또케 오또케\" 밈",
+        "\"오 샹젤리제\" 밈",
+        "\"요나요나 댄스\"",
+        "\"왕사슴 가이즈\"",
+        "\"요나요나\" \"댄스\" -site:namu.moe",
+        "\"왕사슴\" \"가이즈\" -site:namu.moe",
+        "\"왈랄랄루\"",
+        "\"오지다\" \"뜻\"",
+        "\"오붕가\" 밈 기사",
+        "\"와쿠와쿠\" 밈",
+        "\"오타쿠가 정치글을\"",
+        "\"오지다\" \"급식체\" SBS",
+        "\"왈랄랄루\" site:inven.co.kr",
+        "\"요나요나 댄스\" site:inven.co.kr",
+        "\"왕사슴 가이즈\" 뜻",
+        "\"와쿠와쿠\" site:news.nate.com",
+        "\"오덕페이트\" 밈",
+        "\"오물 풍선\" 패러디",
+        "\"오 필승 코리아\" 패러디",
+        "\"옥동자\" 유행어",
+        "\"옴마니반메훔\" 밈",
+        "\"와칭제노\" 밈",
+        "\"와퍼\" 밈",
+        "\"와플\" 밈",
+        "\"왕의 DNA\" 패러디",
+        "\"왕이되는자\" 광고 밈",
+        "\"오타쿠\" 밈 뜻",
+        "\"왈랄랄루\" \"뭐\" -site:namu.moe -site:seore.org"
+      ],
+      "sources": {
+        "0787": [
+          "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1004445698",
+          "https://inmun360.culture.go.kr/content/358.do?cid=1393165&mode=view"
+        ],
+        "0802": [
+          "https://whitefaceone.tistory.com/3043"
+        ],
+        "0810": [
+          "https://whitefaceone.tistory.com/2569"
+        ]
+      },
+      "notes": [
+        "0787SBS2017-10-22+inmun2018-04-05twoexplanations not2originalposts; school-slang-stylefamilydifferent.",
+        "0802single2022-10-05explanation;repeattextonlyconditional.",
+        "0810single2021-12-18explanation; youtube nzd3fYwpNlo throttled notverified."
+      ]
+    },
+    "recent20B": {
+      "count": 20,
+      "recommended": [
+        "wet-dance-challenge",
+        "metronome-dance-challenge",
+        "when-the-day-comes-dance-challenge"
+      ],
+      "existing": 3,
+      "held": 14,
+      "queries": [
+        "site.enews.imbc.com 2026 \"챌린지\" \"함께\" -꺾어 -마그네틱 -긴소원",
+        "site.enter.etoday.co.kr 2026 \"챌린지\" \"도전\" -꺾어 -캐치캐치",
+        "site.osen.co.kr 2026 \"챌린지\" \"배우\" \"춤\"",
+        "\"WET\" \"챌린지\" \"2026\" 박진영",
+        "\"그날이 오면\" \"챌린지\" 2026",
+        "\"백화요란\" \"챌린지\" 2026",
+        "\"SAUCIN\" \"챌린지\" 참여",
+        "\"WET\" \"박은영\" \"정호영\" 2026 챌린지",
+        "\"그날이 오면\" \"챌린지\" \"정준원\"",
+        "site.enews.imbc.com 2026 \"챌린지\" \"손예진\"",
+        "site.enter.etoday.co.kr 2026 \"챌린지\" \"MAMMA\"",
+        "2026 \"챌린지\" \"냉장고\" \"손예진\"",
+        "\"METRONOME\" \"챌린지\" \"2026\" 이즈나",
+        "\"Love Language\" \"챌린지\" \"박보검\""
+      ],
+      "sources": {
+        "wet": [
+          "https://ent.sbs.co.kr/news/article.do?article_id=E10010319260",
+          "https://tv.jtbc.co.kr/clip/pr10011762/pm10069852/vo10935783/view",
+          "https://news.nate.com/view/20260724n06767?mid=n0100"
+        ],
+        "metronome": [
+          "https://m.swtvnews.com/news/newsview.php?ncode=1065569391508532",
+          "https://m.etnews.com/20260604000299"
+        ],
+        "day": [
+          "https://osen.co.kr/article/G1112570537",
+          "https://www3.osen.co.kr/article/G1112575141"
+        ]
+      },
+      "notes": [
+        "wetSBS2026-07-16completedparticipation;JTBCclip07-26titleonly+07-24preview sameevent, finalselectionunverified.",
+        "metronome2026-06-26SWTVnamedparticipants+easy/hard/speed;ET06-04originalrelease samePRoriginpossible.",
+        "day2025-05-16AhnEunjinKangYuseokdirectreportedparticipation+05-23originalperformancesameOSEN;notrecentyear."
+      ]
+    },
+    "recent20B2": {
+      "count": 20,
+      "recommended": [
+        "perfect-target-dance-challenge",
+        "still-vocal-challenge",
+        "kneel-to-none-knock-challenge"
+      ],
+      "existing": 5,
+      "held": 10,
+      "excluded": 2,
+      "queries": [
+        "2026 \"챌린지\" \"참여했다\" \"배우\" -꺾어 -WET -마그네틱",
+        "2026 \"챌린지\" \"따라\" site.harpersbazaar.co.kr",
+        "2026 \"챌린지\" site.esquirekorea.co.kr -오토바이",
+        "\"최유정\" \"챌린지\" \"2026\" 김선호",
+        "\"2026\" \"챌린지\" \"참여\" \"Knock\"",
+        "\"2026\" \"챌린지\" \"참여\" \"DUMB\"",
+        "\"챌린지\" \"2026\" \"잔불\"",
+        "\"챌린지\" \"2026\" \"노크\" 이채연",
+        "\"챌린지\" \"2026\" \"한강고양이\"",
+        "\"노크 챌린지\" \"김종민\"",
+        "\"Kneel to None\" \"챌린지\" 장원영",
+        "\"노크 챌린지\" \"이준\""
+      ]
+    },
+    "editor_recheck": {
+      "candidate_id": "kr-list-0802",
+      "queries": [
+        "\"왈랄랄루\" \"뭐\" site:inven.co.kr/board",
+        "\"왈랄랄루\" \"뜻\" site:arca.live",
+        "\"왈랄랄루가 뭐\" -site:namu.moe -site:inven.co.kr",
+        "\"왈랄랄루 뜻\" -site:namu.moe -site:inven.co.kr -site:whitefaceone.tistory.com"
+      ],
+      "status": "held",
+      "reason": "Linkedoriginalinaccessible;searchreturnednicknameandwiki-derivedpages, no independentrepeatreply verified.",
+      "new_candidates": 0
+    }
+  },
+  "editor_notes": [
+    "Reopened0802directlinkedDC2361387failed; retainheld, nooriginalverified.",
+    "0422conditionalacceptednarrowreverse/remix fromtwoblogsspecificcreators;independentreportingunproven/nooriginalview.",
+    "0396singleblogconcreterecreation retainedheldpendingstrongersource; notexcludedonlyfornorecentuse."
+  ],
+  "query_observations": 6946,
+  "distinct_literal_queries": 6090,
+  "limits": [
+    "Five20groups include reexamination not100newunique memes; editor4queriesexisting0802recheck.",
+    "0422acceptednarrowreverse-remix fromspecificcreationdescriptions; independentblogreportingnotestablished.",
+    "Dokdokickpitcher expresslynotintentionalparody; actorDwijilselfreportnotfieldobservation.",
+    "WETJTBCpreview+clip1event, SBScompletedparticipationmain; metronome/still sharedPRpossible; day2025historical.",
+    "No mainchanges, noCodex; this1117CIpending."
+  ]
+}

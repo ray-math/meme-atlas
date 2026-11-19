@@ -1,0 +1,523 @@
+{
+  "batch": 471,
+  "base": "509c61d056d59ba3ccde963e719612ee5e53126f",
+  "canonical_before": 1337,
+  "canonical_after": 1349,
+  "added": [
+    "jjinjjiburger-derogatory-label",
+    "mattakku-korean-interjection",
+    "grammar-nazi-correction-label",
+    "imax-aspect-ratio-reveal-parody",
+    "imax-front-row-chin-parody",
+    "dae-hanminguk-cheer-chant",
+    "paohu-kumcheok-body-shaming-label",
+    "fact-violence-reaction",
+    "pigeon-feeding-umbrella-quote",
+    "museum-artifact-costume-recreation",
+    "cat-shadowboxing-camera-video",
+    "random-bookmark-unboxing"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0975",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "jjinjjiburger-derogatory-label"
+    },
+    {
+      "id": "kr-list-0447",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "mattakku-korean-interjection"
+    },
+    {
+      "id": "kr-list-0494",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "grammar-nazi-correction-label"
+    },
+    {
+      "id": "kr-list-0563",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "dae-hanminguk-cheer-chant"
+    },
+    {
+      "id": "kr-list-1055",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "paohu-kumcheok-body-shaming-label"
+    },
+    {
+      "id": "kr-list-1060",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "fact-violence-reaction"
+    },
+    {
+      "id": "kr-list-0569",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "pigeon-feeding-umbrella-quote"
+    }
+  ],
+  "previous_ci": {
+    "run": 44296936701,
+    "job": 134776297731,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 107.254s"
+  },
+  "previous_audit": {
+    "batch": 470,
+    "status": "PASS",
+    "mandatory": 0,
+    "head": "509c61d056d59ba3ccde963e719612ee5e53126f",
+    "canonical": 1337,
+    "added": 15,
+    "changed_files": 24,
+    "prior_entries_preserved": 1322,
+    "candidate_changed": 7,
+    "mapping_loss": 0,
+    "source_urls_read": 21,
+    "media_viewed": 0,
+    "usage": {
+      "total": 1337,
+      "annotated": 74,
+      "reviewed": 73,
+      "unannotated": 1263
+    },
+    "notes": [
+      "Criticaltermsnoderogatorycreativeexamples/nohealthinference",
+      "Four tactileformats distinct operations; emphasis vs emotionacting distinct",
+      "Wide candidate0359/0925partialnotallcoverage"
+    ]
+  },
+  "research": {
+    "A": {
+      "count": 19,
+      "existing": 9,
+      "partial_existing": 2,
+      "recommended": 1,
+      "held": 7,
+      "queries": [
+        "\"찐찌버거\" 뜻",
+        "\"천상천하 유아독존\" \"밈\"",
+        "\"천안문\" \"인터넷 은어\"",
+        "\"초코빅송\" 패러디",
+        "\"초코빅송\"",
+        "\"최근 한 온라인 커뮤니티 게시판에는\" \"패러디\"",
+        "\"초난강\" \"패러디\"",
+        "\"취직 잘되는 사회를 만들든가\"",
+        "\"초코빅\" \"패러디\"",
+        "\"최애의 아이\" \"호시노\" \"패러디\""
+      ],
+      "notes": [
+        "0975–0994contains19actualrows,no0976; noinventedrow.",
+        "0994alreadyexistingwithsamesource,notnew.",
+        "0975neutralcompoundslurhistoryandbroadcastnameonly; nooriginalinsultorchilddata."
+      ]
+    },
+    "A2": {
+      "count": 19,
+      "existing": 7,
+      "partial_existing": 2,
+      "candidate_repeat": 2,
+      "held": 8,
+      "recommended": 0,
+      "queries": [
+        "\"카페인 과다복용 맨\"",
+        "\"캐피탈리즘 호\"",
+        "\"캬루\" \"밈\" \"배신\"",
+        "\"차차핑\" \"밈\"",
+        "\"맛있는 겨울배\" 밈",
+        "\"노인전\" \"밈\"",
+        "\"차차핑\" \"화내는\"",
+        "\"카페인 과다복용 맨\" -site:namu.moe -site:namu.wiki",
+        "\"카페인 과다복용 맨\" 커버",
+        "\"캡콤은 개껌이 아니라\""
+      ],
+      "notes": [
+        "0995–1014actual19rows,0998absent.",
+        "1013repeat0500and1014repeat0939 notdictionaryexisting; repeatedtitlesneedledgercheck.",
+        "1006Invenintroread butspecificcatredrawsearchonly, later502notverified."
+      ]
+    },
+    "A3": {
+      "count": 19,
+      "existing": 8,
+      "partial_existing": 4,
+      "held": 7,
+      "recommended": 0,
+      "queries": [
+        "\"케경호\"",
+        "\"코리안조커\" \"밈\"",
+        "\"코렁탕\" 뜻",
+        "\"쿄레기\"",
+        "\"크아아악\" \"밈\"",
+        "\"킹 오브 프리즘\" \"밈\"",
+        "\"코렁탕\" site:hani.co.kr",
+        "\"쿄레기\" 패러디",
+        "\"코렁탕\" 신문",
+        "\"킹 오브 프리즘\" \"이지두댄스\" 패러디"
+      ],
+      "notes": [
+        "1015–1034actual19rows,1032absent.",
+        "1019 newspaper201204301614582 titleapplication recovered; no verification of literal torture, helddefinition.",
+        "Existingpartialnotnewconnection."
+      ]
+    },
+    "A4": {
+      "count": 19,
+      "existing": 14,
+      "partial_existing": 4,
+      "held": 1,
+      "recommended": 0,
+      "queries": [
+        "\"택배 드립\"",
+        "\"팅팅송\"",
+        "\"팅팅송\" 패러디"
+      ],
+      "notes": [
+        "1035–1054actual19rows,1052absent.",
+        "1051SeeTinh alias correspondence explained lifewithmusic664dated20230316, notnewmusicentry; no lyricscopied.",
+        "SameSHA previouslyread1035/1054notcountedasnewbodyreads."
+      ]
+    },
+    "A5": {
+      "count": 20,
+      "existing": 8,
+      "partial_existing": 7,
+      "recommended": 2,
+      "held": 3,
+      "queries": [
+        "\"파오후 쿰척쿰척\" 신문",
+        "\"펀쿨섹좌\" 패러디",
+        "\"펄럭\" \"밈\"",
+        "\"평온차\"",
+        "\"파피 플레이타임\" \"패러디\" 한국",
+        "\"패드립송\"",
+        "\"팩트\" \"팩트폭력\" 뜻",
+        "\"평온차\" \"패러디\"",
+        "\"포켓몬빵\" \"밈\""
+      ],
+      "notes": [
+        "A21 actual1055–1074;1062correctedexistingpeolleok-flag-reaction due punctuation alias; no new mapping.",
+        "1055included1060partial recommendations;7partial already mapped."
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 10,
+      "family_variant": 1,
+      "held": 7,
+      "queries": [
+        "2026 \"밈\" \"졸업\" \"사진\" -site:namu.moe",
+        "2026 \"밈\" \"놀이\" site:news.kbs.co.kr",
+        "2026 \"챌린지\" \"댓글\" site:univ20.com",
+        "2026 \"밈\" \"댓글 놀이\" -site:namu.moe",
+        "2026 \"요즘\" \"밈\" site:cosmopolitan.co.kr",
+        "2026 \"밈\" \"사진 놀이\"",
+        "\"2026\" \"잘 살아\" \"GS건설\"",
+        "\"2026\" \"오디세이\" \"아이맥스\" \"밈\"",
+        "\"밈 축하 현수막\" \"2026\""
+      ],
+      "notes": [
+        "YtribefullqueryURL directrecoveryverifiededitorandworker; noexplicitdate.",
+        "Sirenendurance overlapseditorsourceobservation,existingfamilyenrichednotnew.",
+        "Existing10reobservations notnewverifiedmemes; dangerousphotos/privatestudentdetailsnotincluded."
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended": 3,
+      "existing": 4,
+      "same_family": 4,
+      "held": 6,
+      "excluded": 3,
+      "queries": [
+        "2026 \"밈\" \"도서관\" 놀이",
+        "2026 \"밈\" \"박물관\" \"챌린지\"",
+        "2026 \"유행\" \"독서\" \"인증\" 밈",
+        "\"2026\" \"국중박 분장놀이\" site:museum.go.kr",
+        "\"2026\" \"고양이\" \"섀도 복싱\" 밈"
+      ],
+      "notes": [
+        "3recommended include1previousholdrecovery,2discovery.",
+        "4artifactvariations onefamily,not4newmemes; museumofficialsamewinningperformance notindependentnewcase."
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 4,
+      "partial_existing": 1,
+      "held": 13,
+      "queries": [
+        "\"락통령\" 패러디 광고",
+        "\"러시아식 유머\" 기사",
+        "\"롯데햄\" \"후라이드\" \"광고\" 밈",
+        "\"린가동자\" 밈 패러디",
+        "\"마따끄\" 뜻 -site:namu.wiki -site:namu.moe -site:seore.org",
+        "\"마루는 강쥐\" 밈 패러디",
+        "\"마쁘리에요\" -site:namu.wiki -site:namu.moe",
+        "\"망했어요\" \"김태형\" 패러디",
+        "\"맥스\" \"길\" \"광고\" \"패러디\"",
+        "\"면제겜\" 뜻 -site:namu.wiki -site:namu.moe",
+        "\"모스카우\" 한국 패러디 기사",
+        "\"무대뽀\" 인터넷 신조어",
+        "\"무츠키 댄스\" -site:namu.wiki -site:namu.moe",
+        "\"문법 나치\" 기사",
+        "\"물음표 드립\" -site:namu.wiki -site:namu.moe",
+        "\"미안송\" 패러디",
+        "\"락통령\" \"광고\"",
+        "\"마따끄\" \"뜻\"",
+        "\"모스카우\" \"몬더그린\"",
+        "\"맥스\" \"길\" \"광고\" \"합성\""
+      ],
+      "notes": [
+        "Mattackku directdiary+communityexplanation; firstcharacteroriginnotadopted.",
+        "Grammarnazi newspaperdateunknown;CCBBLABexplanationnotpersonaltestimonial.",
+        "0449work partiallook-at-this-hand, notallworkformats."
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 4,
+      "partial_existing": 2,
+      "held": 13,
+      "queries": [
+        "\"맛나핑\" \"패러디\" -site:namu.wiki -site:namu.moe",
+        "\"미쿠미쿠하게\" 한국 패러디",
+        "\"바바바바바바\" 밈 -site:namu.wiki -site:namu.moe",
+        "\"박씨 꺼져\" 패러디",
+        "\"박대기\" \"패러디\" 광고",
+        "\"밤 샌 사람\" \"일찍 일어난\" 밈",
+        "\"방송 되게 못하네\" -site:namu.wiki -site:namu.moe",
+        "\"벽부수기\" 밈 -site:namu.wiki -site:namu.moe",
+        "\"봇이지 뭐\" -site:namu.wiki -site:namu.moe",
+        "\"북경 정씨\" 패러디",
+        "\"북방코끼리바다표범\" 밈",
+        "\"불만 있냐\" \"물도 있다\"",
+        "\"불티\" \"밈\" 패러디 -site:namu.wiki -site:namu.moe",
+        "\"불협화음\" \"밈\" -site:namu.wiki -site:namu.moe",
+        "\"붉은 악마\" \"대~한민국\" 구호 유래",
+        "\"맛나핑\" \"백종원\" -site:namu.wiki -site:namu.moe"
+      ],
+      "notes": [
+        "Count correctedfromworkerheadline3existing3partial to actualtable4existing2partial; total20unchanged.",
+        "0563 historicalchantonly,notorganizationorlastyeartrend.",
+        "0517Inven161587failedbothURLs; songintro notKoreanreplacementverified.",
+        "Worker confirmed headline arithmetic correction existing4/partial2."
+      ]
+    },
+    "C3": {
+      "count": 20,
+      "recommended": 1,
+      "enrichment_existing": 1,
+      "conditional": 1,
+      "existing": 1,
+      "partial_existing": 3,
+      "held": 13,
+      "queries": [
+        "\"브레드 이발소\" \"밈\"",
+        "\"비둘기야 먹자\" 패러디 -site:namu.wiki -site:namu.moe",
+        "\"빅 나티를 변기에\" -site:namu.wiki -site:namu.moe",
+        "\"빨강 사기맵\" -site:namu.wiki -site:namu.moe",
+        "\"뼈 맞았어\" 유행어",
+        "\"뽀구미\" \"예쁘잖아\" 인터뷰",
+        "\"뽐거지\" 신조어",
+        "\"벽돌할아버지\" 로봇댄스",
+        "\"빠순이\" 용어 비하 팬덤 기사",
+        "\"빵셔틀\" 신조어 비유",
+        "\"삐뽀핑\" \"밈\" -site:namu.wiki -site:namu.moe",
+        "\"벽돌 할아버지\" \"로봇\"",
+        "\"브베\" \"밈\" 인터뷰 -site:namu.wiki -site:namu.moe",
+        "\"빈라덴송\" 패러디 기사",
+        "\"비밀친구\" \"드립\" 뜻 -site:namu.wiki -site:namu.moe",
+        "\"빌리 헤링턴\" \"합성\" 기사",
+        "\"뷰지\" \"쥬지\" 신조어 기사",
+        "\"뼈 맞았어\" -site:namu.wiki -site:namu.moe",
+        "\"뽐거지\" site:news",
+        "\"벽돌할아버지\" -site:namu.wiki -site:namu.moe"
+      ],
+      "notes": [
+        "0585initialrecommendationcorrectedexistingyeppeujana-repetition-remix; historyenrichmentonly.",
+        "0578conditionalneutralderogatorylabelheldeditorially,notadded.",
+        "0569historicalrecollection2025postingnotorigin; Redditexactdateunknown."
+      ]
+    },
+    "editor": {
+      "count": 1,
+      "reexamined": 1,
+      "held": 1,
+      "queries": [],
+      "notes": [
+        "1006Inven248031 source recovery attempted exactURLline145;502again. Specificredrawclaim remainssearchonly. RecheckoverlapsA18,notnewcandidate.",
+        "1013/1014 duplicate classifications alreadycurrent; no ledgerupdate or newcoverageclaim."
+      ]
+    },
+    "editorSearch": {
+      "count": 5,
+      "queries": [
+        "2026 \"11월\" \"밈\" \"새로운\" -site:namu.moe -site:jjalbang.today",
+        "2026 \"11월\" \"챌린지\" \"따라\" site:univ20.com",
+        "2026 \"10월\" \"유행어\" site:careet.net",
+        "\"젠모지\" \"최애\" 2026 -site:instablank.com -site:jjalbang.today",
+        "\"글렌 파월\" \"대선후보\" 밈",
+        "\"John Politics\" 한국 밈"
+      ],
+      "notes": [
+        "Broadsource-discoveryqueries; no distinctcandidate count claimed yet.",
+        "Careet2034paywall beforecandidatebody,noaccessbypass. Incross31141 confirmsalreadyexisting54000; otheraggregatorstextnotverified.",
+        "Ytribe fullqueryURL direct recovery success, existing odyssey family enriched, notnewentry.",
+        "Threefollowupqueries: Genmojionlyaggregatordefinition, JohnPoliticsKoreanaggregators+foreignsources; no verifiedKoreanuse promoted."
+      ],
+      "existing": 1,
+      "held": 3,
+      "candidates": [
+        {
+          "title": "54000개",
+          "status": "existing",
+          "id": "54000"
+        },
+        {
+          "title": "젠모지 최애소개",
+          "status": "held-search-only"
+        },
+        {
+          "title": "오디세우스 스크리밍",
+          "status": "existing-family-enrichment"
+        },
+        {
+          "title": "John Politics",
+          "status": "held-search-only"
+        },
+        {
+          "title": "AI크리스마스가족사진",
+          "status": "held-search-only"
+        }
+      ],
+      "enrichment": 1
+    }
+  },
+  "sources": [
+    {
+      "id": "jjinjjiburger-derogatory-label",
+      "urls": [
+        "https://www.starnewskorea.com/broadcast-drama/2012/04/02/2012040206533089782",
+        "https://ichannela.com/news/detail/amp/60222346-2.do"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mattakku-korean-interjection",
+      "urls": [
+        "https://assey.tistory.com/entry/근황-2월-14일",
+        "https://gall.dcinside.com/mgallery/board/view/?id=projectmx&no=16300937"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "grammar-nazi-correction-label",
+      "urls": [
+        "https://www.joongang.co.kr/article/18832805",
+        "https://gall.dcinside.com/board/view/?id=ccbblab&no=5454"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "imax-aspect-ratio-reveal-parody",
+      "urls": [
+        "https://v.daum.net/v/20260830150153091",
+        "https://www.ytribe.co.kr/article/?bmode=view&idx=173716744&q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&t=board"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "imax-front-row-chin-parody",
+      "urls": [
+        "https://news.nate.com/view/20260821n17526"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dae-hanminguk-cheer-chant",
+      "urls": [
+        "https://www.seoul.co.kr/news/2002/06/11/20020611030005",
+        "https://www.korean-culture.org/koreanet/view.do?RN=1&seq=10811"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "paohu-kumcheok-body-shaming-label",
+      "urls": [
+        "https://www.univ20.com/Magazine/Detail/1342"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "fact-violence-reaction",
+      "urls": [
+        "https://www.khan.co.kr/article/201609181537001"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pigeon-feeding-umbrella-quote",
+      "urls": [
+        "https://yonseiji.tistory.com/m/94",
+        "https://www.reddit.com/r/KoreanGameDev/comments/1xlnnqi/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "museum-artifact-costume-recreation",
+      "urls": [
+        "https://www.museum.go.kr/MUSEUM/contents/M0701040000.do?arcId=24004&catCustomType=post&catId=93&cp=1&schM=view&sv=",
+        "https://www.mk.co.kr/news/culture/12167769"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "cat-shadowboxing-camera-video",
+      "urls": [
+        "https://www5.ajunews.com/view/20261106215131685"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "random-bookmark-unboxing",
+      "urls": [
+        "https://v.daum.net/v/20260829060217561"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "12new entries,2history-only enrichments; current-year evidence separate from historical meanings.",
+    "202researchobservations include repeats/holds, notunique newmemes; 0578conditionalnotpublished.",
+    "0585and1062aliasfalse-negativescorrectedduringeditorialreview; candidate mappings preserved.",
+    "Media0; 1337previousPython495passed, currentCIpending."
+  ],
+  "query_observations": 8882,
+  "distinct_literal_queries": 7621,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ],
+  "enrichments": [
+    {
+      "path": "memes/odyssey-scene-everyday-reenactment.md",
+      "id": "odyssey-scene-everyday-reenactment",
+      "reason": "Add documented temptation-endurance variation to existing broad scene-reenactment family; definition/indexunchanged,noaddedcanonical."
+    },
+    {
+      "path": "memes/yeppeujana-repetition-remix.md",
+      "id": "yeppeujana-repetition-remix",
+      "reason": "Existing wording-substitution family; add explicit writer reuse, no new canonical."
+    }
+  ]
+}

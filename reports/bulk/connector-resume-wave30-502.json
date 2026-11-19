@@ -1,0 +1,373 @@
+{
+  "batch": 502,
+  "base": "a0d1f4d3bff11fe79f2877beda9ecce162fc0cda",
+  "canonical_before": 1650,
+  "canonical_after": 1661,
+  "added": [
+    "onggiman-pot-game-live-action-parody",
+    "unheard-of-idea-surprise-reaction",
+    "olleh-ad-surprise-exclamation-parody",
+    "morning-is-here-alarm-parody",
+    "broth-is-amazing-ad-copy-parody",
+    "bed-is-science-ad-copy-substitution",
+    "holssi-choreography-recreation-challenge",
+    "leaving-home-hardship-caption-parody",
+    "listen-together-phone-ad-parody",
+    "aeao-short-video-speed-variation",
+    "moda-sikyung-dance-music-replacement"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0848",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "unheard-of-idea-surprise-reaction"
+    }
+  ],
+  "previous_ci": {
+    "run": 44338734251,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": 122.927
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "sha": "a0d1f4d3bff11fe79f2877beda9ecce162fc0cda",
+    "count": 1650,
+    "files": 16,
+    "notes": "Old1643 bodies and index records unchanged;74annotations unchanged;0152 only coverage change; mappings preserved;new7 source-bounded;11766 query observations9675unique strings."
+  },
+  "research": {
+    "A87": {
+      "observations": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"아나바다\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"아니다 이 악마야\" -site:namu.moe -site:seore.org",
+        "\"아로나 댄스\" -site:namu.moe -site:seore.org",
+        "\"아이 러브 마이 화자\" -site:namu.moe -site:seore.org",
+        "\"아카자\" \"패러디\" 기사",
+        "\"안전가족\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"애는 있습니다\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"야후 꾸러기\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"약한 사내다\" -site:namu.moe -site:seore.org",
+        "\"어나니머스\" \"밈\" 한국 -site:namu.moe -site:seore.org",
+        "\"어몽어스 잼민이\" -site:namu.moe -site:seore.org",
+        "\"얼리 엑세스 예시를 보여줌\" -site:namu.moe -site:seore.org",
+        "\"엄마도 사람이야 사람\" -site:namu.moe -site:seore.org",
+        "\"오 샹젤리제\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"오 필승 코리아\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"옴마니반메훔\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"와퍼\" 밈 패러디 -site:namu.moe -site:seore.org",
+        "\"왕사슴 가이즈\" -site:namu.moe -site:seore.org",
+        "\"왕이되는자\" 밈 -site:namu.moe -site:seore.org",
+        "\"요 요요\" 밈 -site:namu.moe -site:seore.org"
+      ],
+      "notes": "0797 Whopper conditional only: Korean official report explains international remix; Korean production unproven, remain held pending scope review. 20 ledger rechecks not new discoveries."
+    },
+    "B562": {
+      "observations": 20,
+      "recommended": 0,
+      "existing": 8,
+      "family": 3,
+      "held": 6,
+      "excluded": 3,
+      "queries": [
+        "2026 \"밈\" \"패러디\" site:mediahub.seoul.go.kr",
+        "2026 \"밈\" \"챌린지\" site:korea.kr",
+        "2026 \"유행어\" \"패러디\" site:hani.co.kr",
+        "\"밈\" \"2026\" \"유행\" site:gqkorea.co.kr",
+        "\"밈\" \"2026\" \"재현\" site:woman.donga.com",
+        "\"밈\" \"2026\" \"만드는\" site:cosmopolitan.co.kr",
+        "2026 밈 모음 11월 한국",
+        "2026 공무원 유튜브 패러디 유행어",
+        "2026 \"밈\" \"챌린지\" \"경찰\"",
+        "\"페탈\" \"챌린지\" 한국",
+        "\"칠레\" \"밈\" 2026",
+        "\"고맙투우사\"",
+        "\"칠레\" \"길쭉\" \"2026\"",
+        "\"칠레 밈\" -site:instablank.com -site:jjalbang.today",
+        "\"페탈\" \"챌린지\" -site:instablank.com",
+        "\"농푸\" \"2026\"",
+        "\"칠레\" \"축구장\" site:theqoo.net",
+        "\"칠레\" \"길쭉\" site:inven.co.kr"
+      ],
+      "notes": "HSAD reprint not independent source. Chile foreign image explanation no Korean use. Additional thank-you-bullfighter duplicate check outside main20; media0."
+    },
+    "parent": {
+      "observations": 7,
+      "recommended": 2,
+      "held": 4,
+      "queries": [
+        "2026 \"패러디\" \"소방\" 영상",
+        "2026 \"밈\" \"울산\" 영상",
+        "\"소방관\" \"AI 미활용\" 논란",
+        "\"옹기축제\" \"항아리 게임\" 홍보",
+        "\"2026\" \"패러디\" \"한국도로공사\" 영상",
+        "\"2026\" \"패러디\" \"국립\" 유튜브",
+        "\"2026\" \"패러디\" \"처음처럼\" 광고",
+        "\"2026\" \"패러디\" \"짜장면\" 광고",
+        "\"2026\" \"밈\" \"공식\" \"리메이크\"",
+        "\"뉴욕 헤럴드 트리뷴\" \"패러디\" \"이수근\"",
+        "\"아로나 댄스\" \"패러디\" 뉴스",
+        "\"2026\" \"패러디\" \"이것이\" 광고 -site:namu.moe",
+        "\"2026\" \"챌린지\" \"새로운\" \"공무원\"",
+        "\"같이 들을까\" \"패러디\" 광고",
+        "\"감기 조심하세요\" \"패러디\" 광고"
+      ],
+      "notes": "Onggiman 2025 domestic game character parody +2026 same producer sequel interview directly read. Same creator, not independent spread. Firefighter AI-nonuse search-only held. Media0. Soju anniversary parody search lead only, not adopted as separate repeatable format. NewYork/Arona recovery failed, wiki search excerpts not used as verification. Listen-together fixedline phone-ad parody new; cold-warning existing.",
+      "existing": 1
+    },
+    "C74": {
+      "observations": 20,
+      "recommended": 0,
+      "existing": 10,
+      "held": 10,
+      "queries": [
+        "site:esquirekorea.co.kr \"2026\" \"밈\" \"챌린지\"",
+        "site:harpersbazaar.co.kr \"2026\" \"밈\"",
+        "site:allurekorea.com \"2026\" \"밈\"",
+        "\"뉴욕 헤럴드 트리뷴\" \"패러디\"",
+        "\"소주바리\" \"챌린지\"",
+        "\"심포니\" \"돌고래\" \"밈\" 한국",
+        "\"뉴욕 헤럴드 트리뷴\" \"김희철\"",
+        "\"뉴욕 헤럴드 트리뷴\" \"장도연\"",
+        "\"뉴욕 헤럴드 트리뷴\" \"패러디\" -site:seore.org -site:tistory.com -site:namu.wiki",
+        "\"뉴욕헤럴드트리뷴\" 패러디",
+        "\"소주바리\" \"이영지\" -site:harpersbazaar.co.kr",
+        "\"심포니 돌핀\" 한국 팬"
+      ],
+      "notes": "4 external sources2dictionary bodies; Symphony domestic use absent; NewYork article title direct but second reuse pending; PDF638failed. Media0."
+    },
+    "A88": {
+      "observations": 20,
+      "recommended": 1,
+      "held": 19,
+      "queries": [
+        "\"우리 업계에서는 포상입니다\" 기사",
+        "\"육군 we 육군\" 패러디",
+        "\"의학적인 근거가 없습니다\" 밈",
+        "\"의문의\" \"행\" \"유행어\"",
+        "\"업계에서는 포상\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"의문의\" \"행\" site:game.donga.com",
+        "\"이건 정말 듣도 보도 못한 발상이군\" -site:namu.moe -site:seore.org",
+        "\"이봐요 미친놈씨\" -site:namu.moe -site:seore.org",
+        "\"이세계물\" \"드립\" 기사 -site:namu.moe -site:seore.org",
+        "\"이쿠요\" 춤 기사 -site:namu.moe -site:seore.org",
+        "\"일본 대단해\" 칠레 -site:namu.moe -site:seore.org",
+        "\"자러감\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"와플핑\" \"핫케핑\" -site:namu.moe -site:seore.org",
+        "\"아자핑\" \"하츄핑\" 밈 -site:namu.moe -site:seore.org",
+        "\"우연히\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"의문의\" \"행\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"채점하는 조교의 기분\" \"2012\"",
+        "\"듣도 보도 못한 발상이군\" -site:namu.moe -site:seore.org -site:readonly.wiki -site:tcatmon.com"
+      ],
+      "notes": "20 ledger rechecks;7rows safety/scope review without external query, not externally verified.0848 text reaction bounded, origins unconfirmed. Parent adopted2sources, DC title supplemental worker only. Originals0."
+    },
+    "B563": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 5,
+      "family": 2,
+      "held": 8,
+      "excluded": 4,
+      "queries": [
+        "2026 \"패러디\" \"제작\" \"시청\" 유튜브",
+        "2026 \"패러디\" \"영상\" \"공사\" 홍보",
+        "2026 \"밈\" \"재현\" \"대학교\"",
+        "\"아침이 왔다잖아\" 알라미",
+        "\"야릇트\" 알라미",
+        "\"포천\" \"패러디 랩\" \"2026\"",
+        "\"아침이 왔다잖아\" \"패러디\"",
+        "\"포천가득\" \"존박\" \"2026\"",
+        "\"야릇트\" \"야르송\""
+      ],
+      "notes": "Alarmy3pages same operator,dated2026Aug10creator selfreport separate; original video throttled/media0. Metrics not adopted. Existing institutions variants not new entries."
+    },
+    "C75": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 13,
+      "partial": 1,
+      "held": 5,
+      "queries": [
+        "\"뉴욕 헤럴드 트리뷴\" \"패러디\"",
+        "\"뉴욕 헤럴드 트리뷴\" \"김희철\"",
+        "\"뉴욕 헤럴드 트리뷴\" \"장도연\"",
+        "\"뉴욕 헤럴드 트리뷴\" \"무한도전\"",
+        "\"뉴욕 헤럴드 트리뷴\" \"패러디\" -site:seore.org -site:wiki* -site:readonly.wiki",
+        "추억 인터넷 유행어 \"뷁\" \"즐\" \"아햏햏\"",
+        "\"당근이지\" 유행어 광고",
+        "\"올레\" 광고 \"패러디\"",
+        "\"차도남\" 뜻 유행어",
+        "올레 광고 패러디 2009",
+        "\"뉴욕 헤럴드 트리뷴\" 장근석 패러디 방송"
+      ],
+      "notes": "Olleh historical reaction and parody reported, individual fan media0; Nownews input1970error excluded, modified2009 used. 3dictionary bodies read, restindex only."
+    },
+    "A89": {
+      "observations": 20,
+      "recommended": 0,
+      "held": 20,
+      "queries": [
+        "\"잘생겨서 안 좋은 점\" -site:namu.moe -site:seore.org",
+        "\"지이잉\" 밈 -site:namu.moe -site:seore.org",
+        "\"초코빅송\" -site:namu.moe -site:seore.org",
+        "\"차차핑\" 밈 -site:namu.moe -site:seore.org",
+        "\"초코빅\" \"노래\" 밈",
+        "\"천안문\" \"삭제\" \"은어\" -site:namu.moe -site:seore.org",
+        "\"죄송합니다\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"저런\" \"상상하고 싶지도 않네요\" -site:namu.moe -site:seore.org",
+        "\"초코빅송\" 패러디 켈로그",
+        "\"천안문\" \"게시글 삭제\" 기사",
+        "\"저런\" \"어찌될까요\" 밈 -site:namu.moe -site:seore.org"
+      ],
+      "notes": "7rows externally searched13scope/safety-only.0908one direct text use not broad validation;3successful1failed URL. Originalmedia0."
+    },
+    "B564": {
+      "observations": 20,
+      "recommended": 1,
+      "existing": 9,
+      "held": 8,
+      "excluded": 2,
+      "queries": [
+        "2026 \"패러디\" \"직접 제작\" \"밈\" -site:theslangverse.com",
+        "2026 \"패러디\" site:i-award.or.kr/Social/Assess",
+        "2026 \"챌린지\" \"직접\" site:prain.com",
+        "\"홀씨\" \"챌린지\" \"두꺼비\"",
+        "\"홀씨 챌린지\" 아이유 2024",
+        "\"파파라껍\" \"그리기\""
+      ],
+      "notes": "Holssi 2024 two personal participations+brandcase(workeronly). Parent adopts2personal articles, media0, no recentyear case. Brand records not independent fandom spread."
+    },
+    "C76": {
+      "observations": 20,
+      "recommended": 3,
+      "existing": 4,
+      "conditional": 1,
+      "held": 12,
+      "queries": [
+        "광고 유행어 \"패러디\" \"따라\" 2005 2006",
+        "\"니들이 게맛을 알아\" 패러디 광고",
+        "\"비비디 바비디 부\" 패러디 유행어",
+        "\"침대는 과학\" \"패러디\"",
+        "\"선영아 사랑해\" \"패러디\"",
+        "\"국물이 끝내줘요\" \"패러디\"",
+        "\"침대는 가구가\" \"패러디\" 광고",
+        "\"잠시 꺼두셔도\" \"패러디\"",
+        "\"묻지도 따지지도\" \"패러디\"",
+        "\"집 나가면 개고생\" \"패러디\""
+      ],
+      "notes": "20 observations includes index-only held entries;3bounded ad-copy proposals;Bibbidi conditional not accepted;history not currenttrend;media0."
+    },
+    "B565": {
+      "observations": 2,
+      "recommended": 2,
+      "queries": [],
+      "notes": "Provisional subset: two source-bounded candidates received; full20 screening and query log will be retained in next checkpoint, not inferred here. AEAO2025Dec2 onearticle domesticartists/fans and speedvariation; Moda2021iMBC musicreplacement. Originals0."
+    }
+  },
+  "sources": [
+    {
+      "id": "onggiman-pot-game-live-action-parody",
+      "urls": [
+        "https://v.daum.net/v/zNMSaT3ITa",
+        "https://www.ytn.co.kr/_ln/0103_202604291024367641"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "unheard-of-idea-surprise-reaction",
+      "urls": [
+        "https://sports.donga.com/article/all/20121010/50012243/2",
+        "https://m.yes24.com/Goods/Detail/105909114"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "olleh-ad-surprise-exclamation-parody",
+      "urls": [
+        "https://nownews.seoul.co.kr/news/newsView.php?id=20090727603038",
+        "https://sports.khan.co.kr/article/200912301617133/amp"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "morning-is-here-alarm-parody",
+      "urls": [
+        "https://alar.my/ringtones/dancingcat",
+        "https://alar.my/ringtones/xikers-morning-is-here",
+        "https://alar.my/ringtones/time-for-work",
+        "https://mynote8897.tistory.com/entry/패러디-콘텐츠-제작과-성과-분석-플랫폼별-조회수-차이에서-발견한-인사이트"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "broth-is-amazing-ad-copy-parody",
+      "urls": [
+        "https://brand.nongshim.com/udon/main/index?prodCode=464",
+        "https://www.osen.co.kr/article/G1111582307"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bed-is-science-ad-copy-substitution",
+      "urls": [
+        "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0000065147",
+        "https://busan.fnnews.com/news/201010081739570719"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "holssi-choreography-recreation-challenge",
+      "urls": [
+        "https://www.fnnews.com/news/202402251723197931",
+        "https://www.tenasia.co.kr/article/2024030452354"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "leaving-home-hardship-caption-parody",
+      "urls": [
+        "https://www.ad.co.kr/journal/column/show.do?ukey=49138"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "listen-together-phone-ad-parody",
+      "urls": [
+        "https://www.mk.co.kr/news/etc/11781189",
+        "https://www.osen.co.kr/article/G1111582307"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "aeao-short-video-speed-variation",
+      "urls": [
+        "https://sports.khan.co.kr/article/202512021112003"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "moda-sikyung-dance-music-replacement",
+      "urls": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/315358"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "11 bounded additions reviewed independently before commit. Recent AEAO evidence and alarm/Onggiman current reuse separated from historical advertising/musical recoveries.",
+    "Shared OSEN article: only two specific replay sentences across two entries, not whole-source copying. Approved content unchanged.",
+    "B565 full report pending; only actual received2candidate subset counted here. No inference that 20new discoveries occurred."
+  ],
+  "query_observations": 11896,
+  "distinct_literal_queries": 9783,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

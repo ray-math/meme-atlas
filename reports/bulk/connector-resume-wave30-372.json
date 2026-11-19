@@ -1,0 +1,80 @@
+{
+  "batch": 372,
+  "base": "daa196faef8bddd0676b0c0508af804e4b0211e5",
+  "canonical_before": 978,
+  "canonical_after": 978,
+  "added": [],
+  "researchA": {
+    "recommended": 0,
+    "held": 1,
+    "existing": 3,
+    "existing_ids": [
+      "jwejweiya",
+      "swings-denial",
+      "pray-for-you"
+    ],
+    "held_candidate": "봉쥬흐메흐씨울랄라고객센터",
+    "sources": [
+      {
+        "url": "https://www.incross.com/ko/insight/report.asp?idx=10658&mode=view&page=5&pageSize=12&searchStr=&serboardsort=",
+        "date": "2025-12-10",
+        "scope": "ownnewslettertitle variation plus explanation SAMEsource1"
+      },
+      {
+        "url": "https://creatoranalytics.com/c/hello-jadoo/",
+        "date": "2026-08-11",
+        "scope": "aggregatedJadootitle,YouTubeurybQju9ONQaccessfailed;otheraggregatorssamevideo"
+      }
+    ],
+    "queries": [
+      "\"2026\" \"밈\" \"담당자\" \"문장\" -site:namu.moe -site:instablank.com",
+      "\"2026\" \"패러디\" \"뉴스레터\" \"말투\" -site:namu.moe",
+      "\"2026\" \"밈\" \"공식 블로그\" \"댓글\" -site:namu.moe",
+      "\"봉쥬흐\" \"메흐씨\" -site:namu.moe -site:namu.wiki -site:incross.com -site:instablank.com",
+      "\"줴줴이야\" \"2026\" -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "\"울랄라\" \"3년 뒤\" -site:namu.moe -site:namu.wiki -site:incross.com -site:instablank.com",
+      "\"봉쥬흐\" \"2026\" -site:sotwe.com -site:twstalker.com -site:namu.moe",
+      "\"봉쥬르\" \"메르시\" \"밈\" \"2026\"",
+      "\"봉쥬흐\" \"울랄라\" -site:incross.com -site:youtube-rank.com -site:sotwe.com -site:twstalker.com -site:namu.moe -site:namu.wiki",
+      "\"봉주르\" \"3년 뒤\" 밈",
+      "\"메흐씨\" site:theqoo.net",
+      "\"봉쥬흐\" site:gall.dcinside.com",
+      "\"봉쥬흐\" \"메흐씨\" \"울랄라\" -site:namu.moe -site:namu.wiki -site:incross.com -site:sotwe.com -site:twstalker.com -site:youtube-rank.com",
+      "\"봉쥬흐\" site:maily.so",
+      "\"봉쥬흐\" site:stibee.com"
+    ],
+    "index_queries": [
+      "봉쥬",
+      "울랄라",
+      "줴줴",
+      "기도",
+      "기도해드",
+      "팬은",
+      "반한",
+      "분실물",
+      "포켓몬"
+    ],
+    "limits": "directapplication1+aggregatorlead1;videos0;notEuropeanpersonalityclaim;Pokenotesnotinvestigatedhere."
+  },
+  "editor": {
+    "queries": [
+      "\"봉쥬흐\" \"자두\"",
+      "\"봉쥬흐\" \"메흐씨\" \"2026\" -site:incross.com -site:namu.moe -site:youtube-rank.com -site:sotwe.com"
+    ],
+    "source": "https://www.incross.com/ko/insight/report.asp?idx=10658&mode=view&page=5&pageSize=12&searchStr=&serboardsort=",
+    "read": "L10-19 title/explanation confirmed. Newsearch onlysameJadooaggregators andordinaryFrenchgreetings;noindependentoriginalrecovered."
+  },
+  "ci": {
+    "body978": {
+      "run": 44243355045,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 110.22
+    },
+    "report371": {
+      "run": 44243704580,
+      "status": "in_progress_at_preparation"
+    }
+  }
+}

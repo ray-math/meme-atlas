@@ -1,0 +1,413 @@
+{
+  "batch": 522,
+  "base": "eff300d7449b97786bb94c436702a51bb9b3de39",
+  "canonical_before": 1858,
+  "canonical_after": 1868,
+  "added": [
+    "yeonbanin-public-media-private-work-label",
+    "anallyajum-playful-refusal",
+    "elastine-did-it-ad-parody",
+    "ppangketing-competitive-bread-order",
+    "chwiral-exaggerated-taste-scenes",
+    "yeolil-working-hard-short-form",
+    "gomanhae-stop-this-reaction",
+    "hudeoldeol-shocked-initials",
+    "geupbaljin-sudden-strong-reaction",
+    "geukdaeno-exaggerated-anger-word"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0204",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "gomanhae-stop-this-reaction"
+    }
+  ],
+  "previous_ci": {
+    "run": 44371812526,
+    "job": 135040315610,
+    "sha": "eff300d7449b97786bb94c436702a51bb9b3de39",
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 104.052s"
+    ]
+  },
+  "previous_final_audit": {
+    "status": "PASS",
+    "required": 0,
+    "sha": "eff300d7449b97786bb94c436702a51bb9b3de39",
+    "files": 19,
+    "old_records_identical": 1848,
+    "total": 1858,
+    "source_ledger_rows_preserved": true,
+    "query_rows": 13511,
+    "distinct_queries": 11091,
+    "media": 0
+  },
+  "sources": [
+    {
+      "id": "yeonbanin-public-media-private-work-label",
+      "urls": [
+        "https://v.daum.net/v/zFHUx3IkN6",
+        "https://v.daum.net/v/20260625100035823"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "anallyajum-playful-refusal",
+      "urls": [
+        "https://www.wkorea.com/2013/12/12/암호명-2013-1/",
+        "https://zdnet.co.kr/view/?no=20260401133629"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "elastine-did-it-ad-parody",
+      "urls": [
+        "https://v.daum.net/v/20050902114209236",
+        "https://www.lghnh.com/news/cf/view.jsp?seq=1281",
+        "https://www.dispatch.co.kr/284172"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ppangketing-competitive-bread-order",
+      "urls": [
+        "https://news.nate.com/view/20220702n00928",
+        "https://www.shinsegaegroupnewsroom.com/local-bakery-bread-lover-sweet/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "chwiral-exaggerated-taste-scenes",
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1140442"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "yeolil-working-hard-short-form",
+      "urls": [
+        "https://weekly.knou.ac.kr/articles/view.do?artcUn=6382",
+        "https://www.fnnews.com/news/202604281021222535"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gomanhae-stop-this-reaction",
+      "urls": [
+        "https://www.jisiklog.com/qa/19693629",
+        "https://v.daum.net/v/20161104153117153"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hudeoldeol-shocked-initials",
+      "urls": [
+        "https://www.rfa.org/korean/weekly_program/young_generation/youngyou-08252011111925.html",
+        "https://www.yna.co.kr/view/AKR20111006223200017"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "geupbaljin-sudden-strong-reaction",
+      "urls": [
+        "https://enews.imbc.com/News/ViewAmp/489606",
+        "https://news.nate.com/view/20260910n17517"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "geukdaeno-exaggerated-anger-word",
+      "urls": [
+        "https://v.daum.net/v/20200930113602861?s=print_news",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/524745"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening": {
+    "groups": [
+      {
+        "id": "C144",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 9,
+        "held": 2,
+        "queries": 5
+      },
+      {
+        "id": "B628",
+        "observations": 12,
+        "recommended": 2,
+        "existing": 5,
+        "held": 5,
+        "queries": 12
+      },
+      {
+        "id": "C145",
+        "observations": 12,
+        "recommended": 0,
+        "existing_expressions": 10,
+        "existing_families": 9,
+        "held": 2,
+        "queries": 7
+      },
+      {
+        "id": "C146",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 4,
+        "existing_family_evidence": 1,
+        "held": 6,
+        "queries": 7
+      },
+      {
+        "id": "A152",
+        "observations": 12,
+        "recommended": 0,
+        "held": 12,
+        "queries": 24
+      },
+      {
+        "id": "C147",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 3,
+        "conditional": 3,
+        "held": 5,
+        "queries": 6
+      },
+      {
+        "id": "C148",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 4,
+        "conditional": 2,
+        "held": 5,
+        "queries": 5
+      },
+      {
+        "id": "B629",
+        "observations": 12,
+        "recommended": 2,
+        "existing": 7,
+        "held": 3,
+        "queries": 11
+      },
+      {
+        "id": "A153",
+        "observations": 12,
+        "recommended": 1,
+        "held": 11,
+        "queries": 22
+      },
+      {
+        "id": "C149",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 3,
+        "conditional": 1,
+        "held": 7,
+        "queries": 3
+      }
+    ],
+    "note": "Observations include rechecks/variants, not unique newly discovered memes. C147/C148 급발진 and C148/C149 극대노 are same candidates advancing in evidence."
+  },
+  "source_ledger_audits": [
+    {
+      "observations": 12,
+      "recommended": 0,
+      "held": 12,
+      "ids": [
+        "0507",
+        "0528",
+        "0533",
+        "0548",
+        "0593",
+        "0600",
+        "0621",
+        "0683",
+        "0727",
+        "0736",
+        "0755",
+        "0841"
+      ],
+      "sources_read": [
+        "https://www.teamblind.com/kr/post/이-사람-넘-웃김-QjnfOw0j",
+        "https://kimn17.tistory.com/entry/오딘은-칭찬받고-블레이드-앤-소울2는-비판받는-이유?category=1009141",
+        "https://kafuri.tistory.com/427",
+        "https://www.osen.co.kr/article/G1111359411"
+      ],
+      "note": "0621 parody-awareness text recovered but shared format unknown;0841 actual label use overlaps unexpected-win. No classification changes."
+    },
+    {
+      "observations": 12,
+      "recommended": 1,
+      "held": 11,
+      "candidate_id": "kr-list-0204",
+      "recommended_status": "partial",
+      "ids": [
+        "0129",
+        "0136",
+        "0144",
+        "0204",
+        "0292",
+        "0335",
+        "0336",
+        "0390",
+        "0423",
+        "0520",
+        "0526",
+        "0599"
+      ],
+      "note": "0204 text-only stop reaction in cited question and reporter response, one article group; original question/comic/images unviewed. Other11 remain held; no automatic family mapping.",
+      "read": [
+        "https://v.daum.net/v/20161104153117153",
+        "https://www.jisiklog.com/qa/19693629",
+        "https://www.inews24.com/view/29150",
+        "https://www.teamblind.com/kr/post/14년도-무인기사건은-뭐야-rrNozSwR",
+        "https://theqoo.net/square/1365538349",
+        "https://www.gamemeca.com/view.php?gid=1653880"
+      ]
+    }
+  ],
+  "query_groups": {
+    "C144": [
+      "\"연반인\" \"2026\"",
+      "\"완내스\" \"2026\"",
+      "\"갓벽\" \"2026\"",
+      "\"인꾸\" 신조어 뜻",
+      "\"댕댕미\" \"2026\""
+    ],
+    "B628": [
+      "\"2026\" \"유행어\" \"문구\" \"광고\" 패러디",
+      "\"2026\" \"신조어\" \"댓글\" \"문화\"",
+      "\"2026\" \"오나의\" \"밈\"",
+      "\"엘라스틴 했어요\" \"패러디\"",
+      "\"안알랴줌\" \"2026\"",
+      "\"쌩얼\" \"신조어\" 신문",
+      "\"안알랴줌\" \"유행어\" \"2013\"",
+      "\"엘라스틴 했어요\" \"정글\" 예린",
+      "\"톤망진창\" \"2026\"",
+      "\"정글스틴\" 예린",
+      "\"엘라스틴 했어요\" \"강균성\"",
+      "\"돌직구\" \"신조어\" \"뜻\""
+    ],
+    "C145": [
+      "\"덕업일치\" \"2026\"",
+      "\"덕통사고\" \"2026\"",
+      "\"휴덕\" \"2026\"",
+      "\"덕후몰이\" \"2026\" site:enews.imbc.com",
+      "\"덕질\" \"뜻\" \"2026\"",
+      "\"덕질\" \"2026\" site:news.kbs.co.kr",
+      "\"덕질\" \"뜻\" site:korean.go.kr"
+    ],
+    "C146": [
+      "\"빵켓팅\" \"2026\"",
+      "\"밥친구\" \"2026\"",
+      "\"분좋카\" \"2026\"",
+      "\"빵켓팅\" 빵 티켓팅",
+      "\"밥친구\" \"콘텐츠\" \"뜻\"",
+      "\"면지순례\" \"2026\"",
+      "\"밥친구\" \"혼자\" \"콘텐츠\" 뜻"
+    ],
+    "A152": [
+      "\"미안송\" 패러디 -site:namu.moe -site:seore.org",
+      "\"밥 먹을 때 생각나는\" \"후라이\" -site:namu.moe -site:seore.org",
+      "\"방송 되게 못하네\" -site:namu.moe -site:seore.org",
+      "\"봇이지 뭐\" -site:namu.moe -site:seore.org",
+      "\"사고 쳤을 때 입 다물고\" -site:namu.moe -site:seore.org",
+      "\"사정없이 보내버리겠다\" -site:namu.moe -site:seore.org",
+      "\"섣불리 판단하면 안되는 이유\" -site:namu.moe -site:seore.org",
+      "\"아니다 이 악마야\" -site:namu.moe -site:seore.org",
+      "\"애는 있습니다\" 밈 -site:namu.moe -site:seore.org",
+      "\"약한 사내다\" -site:namu.moe -site:seore.org",
+      "\"엄마도 사람이야\" -site:namu.moe -site:seore.org",
+      "\"의문의\" \"행\" \"유행어\"",
+      "\"의문의\" \"행\" site:news.nate.com \"2015\"",
+      "\"의문의 연애소설행\"",
+      "\"의문의\" \"행\" \"신조어\" -site:namu.moe -site:seore.org",
+      "\"애는 있습니다\" -site:namu.moe -site:seore.org",
+      "\"의문의 예능인행\"",
+      "\"의문의\" \"행\" site:inven.co.kr \"2016\"",
+      "\"사고쳤을 때\" \"입\" \"밈\"",
+      "\"미안송\" \"패러디\" \"무한도전\"",
+      "\"의문의 갓겜행\"",
+      "\"의문의 예능행\"",
+      "\"의문의 광고행\"",
+      "\"의문의 빌런행\""
+    ],
+    "C147": [
+      "\"억텐\" \"2026\"",
+      "\"찐텐\" \"2026\"",
+      "\"열일\" \"2026\" 신조어",
+      "\"열일\" \"열심히 일\" 기사",
+      "\"극대노\" \"2026\" site:enews.imbc.com",
+      "\"급발진\" \"2026\" site:enews.imbc.com"
+    ],
+    "C148": [
+      "\"급발진\" \"2026\" 예능 -site:enews.imbc.com",
+      "\"극대노\" \"2026\" 예능 -site:enews.imbc.com",
+      "\"현웃터짐\" \"2026\"",
+      "\"킹정\" \"2026\" 뜻",
+      "\"웃음버튼\" \"2026\" site:enews.imbc.com"
+    ],
+    "B629": [
+      "\"2026\" \"유행어\" \"말투\" \"신문\"",
+      "\"2026\" \"패러디\" \"따라\" \"공공기관\"",
+      "\"2026\" \"신조어\" \"직접\" \"인터뷰\"",
+      "\"2026\" \"유행어\" \"대략\"",
+      "\"쩐다\" \"신조어\" 신문",
+      "\"전북\" \"도청 개방\" \"광고\" \"2026\"",
+      "\"후덜덜\" \"유행어\"",
+      "\"대략난감\" \"유행어\"",
+      "\"취랄\" \"위키트리\" 제이로빈",
+      "\"후덜덜\" \"2026\" \"문화\"",
+      "\"대략난감\" \"김풍\" \"섹션\""
+    ],
+    "A153": [
+      "\"늙어가는 인크레더블\" 패러디",
+      "\"Pink Elephants on Parade\" 밈 한국",
+      "\"S stands for\" 패러디 한국",
+      "\"고만해 미친놈들아\" 사용",
+      "\"나는 애쉬\" -site:namu.moe -site:seore.org",
+      "\"네가 하면 나도 한다\" 패러디",
+      "\"네 설명해드렸습니다\" -site:namu.moe -site:seore.org",
+      "\"독일초딩\" 패러디 기사",
+      "\"더 마스터를 기억해줘\" -site:namu.moe -site:seore.org",
+      "\"바바바바바바\" 밈 -site:namu.moe -site:seore.org",
+      "\"밤 샌 사람\" \"일찍\" -site:namu.moe -site:seore.org",
+      "\"사이버펑크\" \"밈\" \"한국\" 패러디",
+      "\"설명해드렸습니다\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"고만해\" \"미친놈들아\" -site:namu.moe -site:seore.org -site:wiki -site:librewiki.net",
+      "\"사이버펑크\" \"로고\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"인크레더블\" \"밈\" \"김근육\" -site:namu.moe -site:seore.org",
+      "\"네~ 설명해드렸습니다\" -site:namu.moe -site:seore.org",
+      "\"설명해드렸습니다\" \"유래\"",
+      "\"고만해 미친놈들아\" site:news.nate.com",
+      "\"사이버펑크\" \"밈\" site:gamemeca.com",
+      "\"전광석화\" \"닌자\" \"꿀딴지곰\" \"2016\"",
+      "\"고만해 미친놈들아\" \"게임동아\""
+    ],
+    "C149": [
+      "\"극대노\" \"뜻\" 기사",
+      "\"심멎\" \"2026\"",
+      "\"웃음버튼\" \"2026\" 기사"
+    ]
+  },
+  "query_increment": 102,
+  "query_observations": 13613,
+  "distinct_literal_queries": 11170,
+  "preaudit": {
+    "status": "PASS",
+    "all10": true
+  },
+  "limits": [
+    "Query observations include repeated screening, not new or verified meme counts.",
+    "Only text-based definitions and documented textual uses. Media viewed0.",
+    "Comic-related0204 is partial text reaction only, no origin/image genealogy verification.",
+    "No Codex or main changes. Existing1858 index records and all old bodies preserved."
+  ]
+}

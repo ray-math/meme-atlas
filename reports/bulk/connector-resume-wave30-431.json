@@ -1,0 +1,92 @@
+{
+  "batch": 431,
+  "base": "a230433d99c934945f6084160205f89bce82f79f",
+  "canonical_before": 1006,
+  "canonical_after": 1006,
+  "added": [],
+  "researchB": {
+    "queries": [
+      "\"듀얼 만능주의\" \"2026\"",
+      "\"블랙워그레이몬\" \"밈\" \"2026\"",
+      "\"사랑의 열매\" \"밈\"",
+      "\"삼체\" \"밈\" \"2026\"",
+      "\"영역 전개\" \"2026\" 패러디",
+      "\"듀얼로 해결\" \"2026\"",
+      "\"블랙워그레이몬\" \"명령\" -site:namu.moe -site:seore.org",
+      "\"하삼\" \"2026\"",
+      "\"영역전개\" \"2026\" -site:namu.moe -site:note.com",
+      "\"듀얼로 해결\" -site:namu.moe",
+      "\"하삼\" \"2026\" -site:inven.co.kr -커피 -작가 -기업"
+    ],
+    "held": [
+      {
+        "id": "0407",
+        "note": "원작설정외상황차용없음"
+      },
+      {
+        "id": "0568",
+        "url": "https://marcy.tistory.com/44?category=931390",
+        "note": "2021-10-29프라모델후기대사,최근/원작밖전용아님"
+      },
+      {
+        "id": "0595",
+        "note": "기부상징과인터넷패러디구별자료부족"
+      },
+      {
+        "id": "0611",
+        "note": "SF동음이의제외,하삼인벤4312547/4297150검색만502/미열람"
+      },
+      {
+        "id": "0757",
+        "sources": [
+          "https://www.xportsnews.com/article/2193315",
+          "https://gall.dcinside.com/mgallery/board/view/?id=dfip&no=5868628&t=cv"
+        ],
+        "note": "2026-09-08작품공식콜라보,11-11제목만이미지내용미확인.인벤4167849 502.기술/홍보/패러디경계미확정"
+      }
+    ]
+  },
+  "editor_queries": [
+    "\"아몰랑\" \"2026\" 후기",
+    "\"앗... 아아\" \"2026\"",
+    "\"어둠의 다크\" \"2026\""
+  ],
+  "editor_finding": {
+    "candidates": [
+      "0691",
+      "0721",
+      "0738"
+    ],
+    "status": "held",
+    "note": "아몰랑검색닉네임제외.상품후기23843·삼성37488054검색실제문구단서있으나직접cachemiss;orbi80199079접근불가.앗아아인벤4270691할인놓침검색단서502.위키풀이채택안함.어둠의다크유효원문없음.새직접적용0."
+  },
+  "coverage_sample_audit": {
+    "sha": "f54c01f0f6e09ca6ac3878fcf5640520c56aba9e",
+    "rows": [
+      "kr-list-0696",
+      "kr-list-1151"
+    ],
+    "classification": "included",
+    "passed": true,
+    "required_changes": 0,
+    "body_reads": 2,
+    "coverage": "reports/bulk/connector-resume-coverage-current-428.json",
+    "note": "표제핵심문자범위연결,모든파생·이미지·어원보증아님.0696경험검증아님,1151월일연도추정/수정일구분정확.외부재검색0."
+  },
+  "candidate_changes": [],
+  "ci429": {
+    "sha": "f54c01f0f6e09ca6ac3878fcf5640520c56aba9e",
+    "run": 44260872253,
+    "job": 134653621247,
+    "success": true,
+    "steps": 65,
+    "tests": 495,
+    "seconds": 80.659
+  },
+  "ci430": {
+    "run": 44261132332,
+    "job": 134654479923,
+    "status": "last observed in_progress"
+  },
+  "ci_new_commit": "pending"
+}

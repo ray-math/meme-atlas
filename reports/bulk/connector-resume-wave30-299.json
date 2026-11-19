@@ -1,0 +1,103 @@
+{
+  "batch": 299,
+  "base": "0862cf582591d99ce1c613a0d7fbf0b9b4150743",
+  "canonical_before": 932,
+  "canonical_after": 933,
+  "added": [
+    "inner-gigachad-dialogue"
+  ],
+  "candidate_mapping": {
+    "kr-list-0320": "core dialogue-and-address form",
+    "kr-list-0257": "partial; wider image meme excluded"
+  },
+  "sources": [
+    {
+      "url": "https://lunatalk.chat/character/detail/56106",
+      "date": "2025-12-11",
+      "kind": "actual public creation-description variant"
+    },
+    {
+      "url": "https://caveduck.io/ko/characters/f3cf285c-e564-4efd-8616-88a50f3c7613",
+      "date": null,
+      "kind": "public character description; 0000 placeholder not date"
+    },
+    {
+      "url": "https://www.teamblind.com/kr/post/기가차드…-오늘도-운동을안하고-햄버거를먹었어-4MST3rmw",
+      "date": "2025-01-14",
+      "kind": "direct address use, not full dialogue"
+    }
+  ],
+  "limits": "원문3직접확인, 대화실행/영상/이미지0. 실제완성대화3건 아님. 날짜확정최근1년1건. 최초/남성우열/상담효능 주장X.",
+  "audit": "independent review accepted bounded definition; softened mixed-language from requirement to optional",
+  "followup": {
+    "rows": [
+      "kr-list-0469",
+      "kr-list-0470",
+      "kr-list-0672"
+    ],
+    "queries": [
+      "\"고먐미\" \"2026\"",
+      "\"스튜어디스 혜정아\" \"2026\"",
+      "\"쌉인정\" \"2026\"",
+      "\"고먐미\" 고양이 네모",
+      "\"스튜어디스 혜정아\" 패러디 전현무",
+      "\"쌉인정\" site.ac.kr",
+      "\"쌉소름\" 2026",
+      "\"고먐미\" \"네모\" -site:namu.moe -site:seore.org",
+      "\"쌉인정\" \"2026\" -site:inven.co.kr -site:quizby.me -site:slangdunk.com -site:shinzoer.com",
+      "\"스튜어디스 혜정아\" \"2025\""
+    ],
+    "decisions": {
+      "cat": {
+        "status": "same squared-letter family; not alias; pinned body modification held",
+        "sources": [
+          "https://brunch.co.kr/@binkond/770",
+          "https://funnypani.com/1369"
+        ]
+      },
+      "hyejeong": {
+        "status": "distinct quote format potential; editor not yet read; recentyear0",
+        "sources": [
+          "https://www.kukinews.com/article/view/kuk202301080042",
+          "https://www.osen.co.kr/article/G1112072313"
+        ]
+      },
+      "ssap": {
+        "status": "related productive prefix not synonym; editor not yet read",
+        "sources": [
+          "https://v.daum.net/v/20230222152321333?s=print_news",
+          "https://gall.dcinside.com/mgallery/board/view/?id=deutschegrammophon&no=182583",
+          "https://news.nate.com/view/20260926n06310?mid=n0100"
+        ]
+      }
+    }
+  },
+  "queries": [
+    "\"고먐미\" \"2026\"",
+    "\"스튜어디스 혜정아\" \"2026\"",
+    "\"쌉인정\" \"2026\"",
+    "\"고먐미\" 고양이 네모",
+    "\"스튜어디스 혜정아\" 패러디 전현무",
+    "\"쌉인정\" site.ac.kr",
+    "\"쌉소름\" 2026",
+    "\"고먐미\" \"네모\" -site:namu.moe -site:seore.org",
+    "\"쌉인정\" \"2026\" -site:inven.co.kr -site:quizby.me -site:slangdunk.com -site:shinzoer.com",
+    "\"스튜어디스 혜정아\" \"2025\"",
+    "\"루나톡\" \"56106\"",
+    "\"caveduck\" \"f3cf285c-e564-4efd-8616-88a50f3c7613\"",
+    "\"4MST3rmw\""
+  ],
+  "metrics": {
+    "query_observations": 2634,
+    "distinct_literal_queries": 2145
+  },
+  "ci": "pending new commit",
+  "prior_ci": {
+    "sha": "0862cf582591d99ce1c613a0d7fbf0b9b4150743",
+    "run": 44226346550,
+    "unit_tests": 495,
+    "unit_result": "passed",
+    "seconds": 76.471,
+    "job_conclusion": "success"
+  }
+}

@@ -97,6 +97,9 @@ def _apply(root, input_path, batch, max_entries=DEFAULT_MAX_ENTRIES):
     (root/'memes/README.md').write_text(index)
     collection='# 기본 수록 목록\n\n관찰 월이나 최신 유행 순위를 뜻하지 않는 기본 수록 항목입니다. 한국에서 생성·변형되었거나 한국에서 실제 사용이 독립 검증된 개별 밈을 다룹니다.\n\n'
     collection+='\n'.join(f'- [{v["title"]}](../memes/{k}.md)' for k,v in ledger['entries'].items() if not v.get('superseded_by'))+'\n'
+    # Keep related navigation outside immutable approved entry bodies.
+    if (root/'docs/family-comparison-related.md').is_file():
+        collection += '\n## 관련 표현 안내\n\n[가족 비교 호칭 연결](../docs/family-comparison-related.md)\n'
     (root/'collections/pilot-30.md').write_text(collection)
     write_navigation(root)
     # Hash the final rendered entries, including managed navigation blocks.

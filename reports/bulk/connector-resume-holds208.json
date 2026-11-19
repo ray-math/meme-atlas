@@ -1,0 +1,60 @@
+{
+  "canonical_count": 898,
+  "added": 0,
+  "queries": [
+    "스핔",
+    "쪼아요",
+    "쪼와",
+    "스피키",
+    "spiki",
+    "spooky",
+    "트릭컬",
+    "모르는개",
+    "마음자로",
+    "한단어",
+    "모든걸",
+    "배우도전",
+    "멀리갈리",
+    "난리자베스",
+    "이게나라냐",
+    "살아남",
+    "모의고사",
+    "상책",
+    "산책",
+    "unknown-dog",
+    "strange-dog",
+    "walking",
+    "\"2026\" \"밈\" \"패러디\" site:news.sbs.co.kr",
+    "\"2026\" \"챌린지\" \"유행\" site:imnews.imbc.com \"11\"",
+    "\"2026\" \"밈\" \"11월\" site:eyesmag.com",
+    "\"2026\" \"밈\" \"변형\" \"공공기관\"",
+    "\"2026\" \"밈\" \"패러디\" \"관광공사\"",
+    "\"2026\" \"밈\" \"패러디\" \"소방\"",
+    "\"소핔이가 쪼아요\" -site:namu.moe -site:d.namu.moe -site:m.namu.moe",
+    "\"2026\" \"밈\" \"새로운\" site:news.kbs.co.kr",
+    "\"스피키가\" \"쪼아요\" 패러디",
+    "\"소핔\" \"기자\"",
+    "\"스피키\" \"소방관\" \"2026\" -site:namu.moe -site:d.namu.moe"
+  ],
+  "holds": {
+    "쪼아요 쪼아요": "Direct creator text1; secondary Fomos rewritten tool summary not creator original. Additional clean URL fails. Retain pending stronger second source.",
+    "모르는 개 산책": "2026 trend description read;2025 bookstore publisher name use read but older than1year; recent original unavailable"
+  },
+  "duplicate_notes": {
+    "배우도전": "acting-day-one",
+    "난리자베스": "nanrijabeth",
+    "이게나라냐": "is-this-a-country",
+    "트릭컬": "but-i-refuse example only, not same meme"
+  },
+  "sources": [
+    "https://maily.so/trendaword/posts/8do72j5nrgq",
+    "https://dasibookshop.tistory.com/2589?category=700242",
+    "https://ssimplay.tistory.com/744"
+  ],
+  "limits": [
+    "2022 personal blog worker-read only; not editor rechecked",
+    "No first-origin claims",
+    "No voice-synthesis claim",
+    "CI not run"
+  ]
+}

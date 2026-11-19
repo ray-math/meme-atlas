@@ -1,0 +1,29 @@
+{
+  "batch": "connector-resume-b125",
+  "base": "c43058befa9c8464fc3e1ac5dcacf18299233a68",
+  "candidate": "여기 버튼이 있습니다",
+  "id": "here-is-a-button",
+  "result": "canonical-added",
+  "independent_usage_events": 2,
+  "sources": [
+    {
+      "url": "https://orbi.kr/00076053885/%EC%97%AC%EA%B8%B0-%EB%B2%84%ED%8A%BC%EC%9D%B4-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4",
+      "observed": "제목과 본문 54~56행의 점수 교환 조건 및 누를지 묻는 문장 직접 확인"
+    },
+    {
+      "url": "https://gall.dcinside.com/board/view/?id=mlp&no=421532&page=1",
+      "observed": "본문 321~329행의 작품 속 존재로 변하는 보상과 불편한 생활 조건 직접 확인"
+    }
+  ],
+  "bounds": "기원·최초 제작자·유행 규모 미확정. 실제 인물 성적 모욕 사례 제외. 눈물버튼은 별도 의미로 판정.",
+  "checks": {
+    "title_alias_collision_count": 0,
+    "remote_base_entries": 827,
+    "result_entries": 828,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  },
+  "lost_local_work_recovered": false
+}

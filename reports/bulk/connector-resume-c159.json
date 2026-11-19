@@ -1,0 +1,86 @@
+{
+  "base": "2d74e420ea4c3cabdd8730bd9d154a34ac63c6b6",
+  "entries": [
+    {
+      "id": "yareumdapda",
+      "sources": [
+        {
+          "url": "https://v.daum.net/v/20260917100753953",
+          "observed": "2026-09-17 뉴스1 공식 전재 본문87–92행: 팬 응원 종이 및 배우 변형 인사말."
+        },
+        {
+          "url": "https://theqoo.net/johnny/4352215964",
+          "observed": "2026-09-21 직접 제목 및 영상링크/의상 감탄 본문."
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20260915_0003790514",
+          "observed": "2026-09-15 방송 발언 맥락 보조."
+        }
+      ],
+      "evidence_level": "뉴스1의 별개 후속 적용 보도+다른 연예인 팬게시물 직접 사용. 원영상 미시청.",
+      "limits": "뉴스1 원주소 본문 누락을 Daum 공식 전재로 회복. 전재본 여러곳은 같은 기사1건. 어원/순우리말/성적 의미를 공식정의로 단정하지 않음."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "야름답다",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "accepted-family",
+      "canonical": "yareumdapda"
+    },
+    {
+      "query": "야름다운",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "accepted-family",
+      "canonical": "yareumdapda"
+    },
+    {
+      "query": "야름다우신",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "accepted-family",
+      "canonical": "yareumdapda"
+    },
+    {
+      "query": "무공해",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "무조건 공감",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "과자 사꾸",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "포장지 놀이",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "나 과자",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "멜라토닌",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "사보필",
+      "source": "reports/bulk/connector-resume-c159.json",
+      "status": "held-unverified"
+    }
+  ],
+  "checks": {
+    "result_entries": 870,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

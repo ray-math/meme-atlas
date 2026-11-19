@@ -1,0 +1,30 @@
+{
+  "batch": "connector-resume-a125",
+  "base": "8274bddf7c006f49a7e1d4117c384f46f8885867",
+  "candidate": "해치웠나?",
+  "id": "did-we-get-it",
+  "result": "canonical-added",
+  "independent_usage_events": 2,
+  "sources": [
+    {
+      "url": "https://gee05053.tistory.com/11",
+      "observed": "2020-12-08 학기 후기 본문27행. 빨리 시험을 끝낼 것이라는 낙관 뒤 어려운 문제를 만난 상황을 애니의 해치웠나 플래그에 비유."
+    },
+    {
+      "url": "https://atrix-developer.tistory.com/3",
+      "observed": "2023-02-10 개발 기록 본문50~60행. 오류가 보이지 않는 순간 해치웠나 및 플래그ON으로 표현, 이후 오류가 남아 있음을 발견."
+    }
+  ],
+  "bounds": "서로 다른 작성자와 사건, 같은 블로그 플랫폼. 최초 작품·게시자·유행 규모 미확정. 코드 해결법 및 건강 경험은 인용하지 않음.",
+  "checks": {
+    "title_alias_collision_count": 0,
+    "remote_base_entries": 828,
+    "result_entries": 829,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  },
+  "lost_local_work_recovered": false,
+  "collection_correction": "직접 수록 3항목은 pilot_batch가 재생성하는 pilot 목록에서 별도 수동 목록으로 분리. 기존 pilot 목록은 main 원본 복구. 기존 상태 대장 변경 없음."
+}

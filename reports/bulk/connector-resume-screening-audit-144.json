@@ -1,0 +1,40 @@
+{
+  "audit_base": "34991fb98d6221dbb369feac113d3e5511402102",
+  "dictionary_entries": 856,
+  "main_baseline_entries": 826,
+  "new_canonical_entries": 30,
+  "static_audit": {
+    "existing_826_rows": "unchanged",
+    "derived_search_and_lists": "exact match",
+    "new_entry_backlinks": 30,
+    "coverage": {
+      "dictionary_entries": 856,
+      "annotated_entries": 74,
+      "reviewed_entries": 73,
+      "unannotated_entries": 782
+    },
+    "python_tests": "not run",
+    "ci": "not run"
+  },
+  "screening_audit": {
+    "scope": "new branch reports only; 25 reports read at audit base",
+    "complete_structured_query_list_files": [
+      "reports/bulk/connector-resume-latest-priority-139.json"
+    ],
+    "recoverable_query_rows": 14,
+    "distinct_literal_queries": 14,
+    "meaning": "감사 가능한 명시목록 하한이며 전체 조사량·고유밈수·검증완료수 아님",
+    "excluded": "숫자만있는 배치의 합산, 과거 소실1771행 큐, 복구불가로컬누적수, 설명문에서 추출하지않은 문자열"
+  },
+  "semantic_corrections": [
+    {
+      "query": "영원할 건가 보다",
+      "existing": "forever-moment"
+    },
+    {
+      "query": "부라는 게 숨긴다고 숨겨지는 것도 아니고",
+      "existing": "cannot-hide"
+    }
+  ],
+  "next_ledger_rule": "앞으로 조사문자열 원목록과 기존canonical매핑·보류·수록을 함께 저장하고 문자열빈도와 의미상고유항목을 구분한다."
+}

@@ -1,0 +1,64 @@
+{
+  "batch": 394,
+  "base": "66b341d7b0360219f8ab0421b9cc527d1449a036",
+  "canonical_before": 985,
+  "canonical_after": 985,
+  "added": [],
+  "researchA": {
+    "base": "e87215955ad998a9b0d58c49377a2735132e0472",
+    "recommended": 0,
+    "duplicates": [
+      {
+        "id": "narak-is-rock",
+        "url": "https://v.daum.net/v/20260823070130773",
+        "note": "2026-08-23극락도락이다의류치환.깨닫다디자인1밈확산아님"
+      },
+      {
+        "id": "i-really-like-this-story",
+        "url": "https://brunch.co.kr/brunchbook/ilikethisstory",
+        "note": "실제연재2024-08~2025-03,2026-11-20예정일최근실제사용아님"
+      },
+      {
+        "id": "54000",
+        "url": "https://www.incross.com/ko/insight/report.asp?idx=31141&mode=view",
+        "note": "2026-11-04말틀변형해설"
+      },
+      "weareone-cheohaja",
+      "yareu-song"
+    ],
+    "limits": "본문3사진영상0.거대생선AI정리사이트단서만",
+    "queries": [
+      "\"2026\" \"밈\" site:ohmynews.com \"썼다\"",
+      "\"2026\" \"유행어\" \"패러디\" -site:namu.moe -site:instablank.com -site:jjalbang.today -site:slangdunk.com -site:sinjoeo.kr",
+      "\"2026\" \"밈\" site:news.khan.co.kr",
+      "\"2026\" \"밈\" \"직접 해\" -site:instablank.com -site:jjalbang.today -site:namu.moe",
+      "\"2026\" \"밈\" \"직접 만든\" -site:instablank.com -site:jjalbang.today -site:namu.moe",
+      "\"2026\" \"밈\" site:brunch.co.kr \"나는\"",
+      "\"54000개\" \"먹을\" -site:instablank.com -site:jjalbang.today -site:onmeme.com -site:mika.co.kr",
+      "\"54000\" \"바나나\" \"먹을\" -site:instablank.com -site:jjalbang.today"
+    ]
+  },
+  "editor": {
+    "candidate": "kr-list-0082",
+    "queries": [
+      "\"2026\" \"좌\" \"별명\" \"누리꾼\" -site:namu.moe",
+      "\"2026\" \"좌\" \"밈\" \"붙\" -site:namu.moe -site:instablank.com",
+      "\"2026\" \"먹방좌\"",
+      "\"2026\" \"눈빛좌\"",
+      "\"2026\" \"설명좌\""
+    ],
+    "limits": "~좌 최근용례추가검증0.검색위키설명/2023영상목록은최근실제사용2건아님.부분분류유지."
+  },
+  "ci": {
+    "report392": {
+      "run": 44248946781,
+      "job": 134614618364,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 76.104
+    },
+    "report393": "pending",
+    "new_commit": "pending"
+  }
+}

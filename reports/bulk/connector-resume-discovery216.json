@@ -1,0 +1,23 @@
+{
+  "queries": [
+    "\"2026\" \"밈\" \"패러디\" site:news.seoul.go.kr",
+    "\"2026\" \"밈\" \"활용\" site:busan.go.kr",
+    "\"2026\" \"밈\" \"패러디\" site:news.suwon.go.kr",
+    "\"2026\" \"밈\" \"패러디\" \"홍보영상\" -site:instablank.com -site:jjalbang.today",
+    "\"2026\" \"밈\" \"말투\" \"공식\" -site:namu.moe -site:instablank.com",
+    "프랑스|papa|만두"
+  ],
+  "status": "Official-source discovery; exact French MV family unresolved",
+  "canonical_count": 898,
+  "added": 0,
+  "source": {
+    "url": "https://www.yna.co.kr/view/AKR20261015145100062",
+    "fact": "One official Wonju parody reported Oct15; French MV unnamed so exact meme attribution unresolved",
+    "limit": "No video inspected, no new canonical"
+  },
+  "limits": [
+    "Broad government event notices not actual meme uses",
+    "No exact-family attribution from unnamed French MV",
+    "CI not run"
+  ]
+}

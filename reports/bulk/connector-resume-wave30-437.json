@@ -1,0 +1,70 @@
+{
+  "batch": 437,
+  "base": "3b99cb37f0690b9bae60167cc94d77eeff120a24",
+  "canonical_before": 1008,
+  "canonical_after": 1008,
+  "added": [],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" \"직접 만들\" -site:namu.moe -site:instablank.com",
+      "2026 \"밈\" \"붙여봤\"",
+      "2026 \"밈\" \"써봤\"",
+      "2026 \"밈\" \"제목을\" site:brunch.co.kr",
+      "\"2026\" \"밈\" site:clien.net/service/board \"만들\"",
+      "\"2026\" \"밈\" site:damoang.net \"직접\"",
+      "\"2026\" \"밈\" site:velog.io \"회고\"",
+      "\"2026\" \"밈\" site:brunch.co.kr \"썼다\""
+    ],
+    "existing": [
+      "pumpkin-sweet-potato",
+      "kimchi-slap",
+      "neon-pair-challenge"
+    ],
+    "sources": [
+      {
+        "url": "https://mongleverse.pages.dev/tools/ai-meme-video-guide/",
+        "note": "제작자 합성기록1군. 2026년9월도구기준표기뿐정확게시일불명. 같은합성물여러요소를각독립적용으로안셈. 실제영상0,우회지시실행없음."
+      },
+      {
+        "url": "https://kmas.or.kr/webzine/cover/2026100008",
+        "note": "2026-10-07 산업제작방식기사 특정밈아님"
+      }
+    ],
+    "held": [
+      "엽떡에서OO마주친썰 인크로스10989검색설명뿐팬원문미열람/기존목격담의미대조미완료",
+      "구구가가 일본가이드번역한국제작자아님",
+      "북극곰11월예언송 기존집계반복"
+    ],
+    "recommended": 0
+  },
+  "editor_queries": [
+    "\"엽떡에서\" \"마주친\" \"2026\"",
+    "\"엽떡\" \"마주친 썰\"",
+    "\"너무 고마우시다 진짜\" \"2026\" -site:onmeme.com -site:namu.moe",
+    "\"허공대화함\" \"2026\" -site:onmeme.com"
+  ],
+  "editor_note": "너무고마우시다/엽떡목격담 최신색인 문자열불일치. 인크로스직접open timeout,검색설명뿐. AI작성사전/미러/일반감사문구는 고정패러디원문으로채택않음. 독립검토후속진행.",
+  "independent_audit": {
+    "sha": "3b99cb37f0690b9bae60167cc94d77eeff120a24",
+    "body": "worlds-best-short-term-trading-contest",
+    "body_reads": 1,
+    "passed": true,
+    "required_changes": 0,
+    "note": "제목본문1군+제목1군구분,좁은하위변형범위,원커뮤니티영상/최초규모미확정,금융권유배제. 색인목록CI재감사아님."
+  },
+  "candidate_changes": [],
+  "ci435": {
+    "run": 44262532589,
+    "job": 134659083524,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "62.339"
+  },
+  "ci1008": {
+    "run": 44262789544,
+    "job": 134659950021,
+    "status": "last observed in_progress"
+  },
+  "ci_new_commit": "pending"
+}

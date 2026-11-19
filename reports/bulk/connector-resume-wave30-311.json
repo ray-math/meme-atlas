@@ -1,0 +1,28 @@
+{
+  "batch": 311,
+  "base": "6c803cdfe534c89b96490397a48007958d314b9f",
+  "canonical_before": 945,
+  "canonical_after": 946,
+  "added": [
+    "ts-malfoy"
+  ],
+  "evidence": {
+    "candidate": "0149",
+    "editor_read": true,
+    "sources": [
+      "https://novelpia.com/novel/3291?sid=mainpage1_con3291",
+      "https://gall.dcinside.com/mgallery/board/view/?id=hogwartslegacy&no=43935&page=1",
+      "https://www.gamemeca.com/view.php?gid=1782601"
+    ],
+    "dates": [
+      null,
+      "2026-10-20",
+      "2026-10-29"
+    ],
+    "limits": "originalworkintro+modcreatorprogress2groups;recentyearcreation1;images/video0;noveldatenotconfirmed. ExtraIFfanfic461636sameworkderivativenotindependentresearchsource"
+  },
+  "audit": "editor and independent reviewer read 3 sources; index945 no duplicate",
+  "metrics": "unchanged until full research batch query ledger received",
+  "limits": "recentyearone dated creation; mod completion/distribution/run notchecked; novelchaptersnotread; noimages",
+  "ci": "pending"
+}

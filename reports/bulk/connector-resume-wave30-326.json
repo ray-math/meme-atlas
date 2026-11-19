@@ -1,0 +1,51 @@
+{
+  "batch": 326,
+  "base": "d061d0c144ccb8c1a30618a21fc158aeea626ad6",
+  "canonical_before": 956,
+  "canonical_after": 956,
+  "research": {
+    "queries": [
+      "\"2026\" \"11월\" \"밈\" 신조어",
+      "\"2026\" \"10월\" \"밈\" 유행어",
+      "\"전여친 감자칼\" -site:instablank.com",
+      "\"과학자들이\" \"Hi\" 밈 -site:instablank.com",
+      "\"라밤바 아빠\" -site:instablank.com"
+    ],
+    "note": "Discovery only, no publication",
+    "index_queries": [
+      "감자칼",
+      "과학자",
+      "라밤바"
+    ],
+    "results": [
+      {
+        "candidate": "전여친감자칼",
+        "status": "already included",
+        "id": "ex-girlfriend-peeler",
+        "extra_source_read": "https://www.tpick.co.kr/post/12768",
+        "note": "same circulatingstory, notindependentnewmeme; factualsalesclaimsnotadopted"
+      },
+      {
+        "candidate": "Scientists Reveal the Hi",
+        "status": "held",
+        "note": "explanatorylistonly, noKoreanactualuseverified"
+      },
+      {
+        "candidate": "라밤바 아빠",
+        "status": "held",
+        "note": "directindependentresultsnotrecovered"
+      }
+    ]
+  },
+  "metrics": {
+    "observations": 3298,
+    "distinct": 2776
+  },
+  "ci955": {
+    "run": 44232957996,
+    "steps": 65,
+    "python_tests": 495,
+    "conclusion": "success"
+  },
+  "limits": "Discovery pass not new publication.956 CI pending."
+}

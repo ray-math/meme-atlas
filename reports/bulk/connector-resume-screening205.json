@@ -1,0 +1,30 @@
+{
+  "queries": [
+    "\"밈\" \"2026.11.18\"",
+    "\"챌린지\" \"2026.11.18\" \"패러디\"",
+    "\"밈\" \"2026\" \"11월\" site:ditoday.com",
+    "\"로버트 패틴슨\" \"밈\" \"2026\"",
+    "\"11월\" \"2026\" \"밈\" \"편집\" -site:instablank.com -site:jjalbang.today -site:luckyvicky.moamoang.co.kr",
+    "\"밈이 된 로버트패틴슨\"",
+    "\"케이팝까지 진출한 로버트\"",
+    "\"로버트 패틴슨\" \"밈\" -site:issuelink.co.kr",
+    "\"로버트 패틴슨\" \"캐스팅 되었습니다\"",
+    "\"로버트패틴슨\" \"밈\" -site:theqoo.net -site:issuelink.co.kr",
+    "\"로버트 패틴슨\" \"치이카와\""
+  ],
+  "status": "recorded searches, direct Korean-page failure retains hold",
+  "canonical_count": 898,
+  "added": 0,
+  "candidate": "로버트 패틴슨이 ○○에 캐스팅되었습니다",
+  "unverified_urls": [
+    "https://theqoo.net/square/4409487278",
+    "https://theqoo.net/square/4409523308",
+    "https://theqoo.net/dyb/4409526190"
+  ],
+  "other_unverified": "https://www.news1.kr/society/general-society/6357447",
+  "limits": [
+    "Search titles do not establish independently inspected reuse",
+    "Fictional casting format not actual casting announcement",
+    "CI not run"
+  ]
+}

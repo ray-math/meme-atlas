@@ -1,0 +1,410 @@
+{
+  "batch": 535,
+  "base": "7b89f14de326c12c1178b69b76a9ecf56f41ad3d",
+  "canonical_before": 1986,
+  "canonical_after": 1997,
+  "added": [
+    "jangtugyo-longmen-prayer-parody",
+    "nmixxhada-sudden-change-expression",
+    "kkeodeureok-boasting-caption",
+    "ninja-haiya-thought-interruption-response",
+    "makketing-competitive-makgeolli-purchase",
+    "messenger-prison-after-work-metaphor",
+    "revolving-door-repeat-theater-audience",
+    "gwankeu-audience-disruption-label",
+    "dwaejireonhada-food-enthusiasm-wordplay",
+    "kaeseut-casting-short-form",
+    "saego-refresh-short-form"
+  ],
+  "candidate_changes": [],
+  "previous_ci": {
+    "sha": "7b89f14de326c12c1178b69b76a9ecf56f41ad3d",
+    "run": 44393266343,
+    "job": 135116312614,
+    "status": "success",
+    "steps": 65,
+    "tests": [
+      "Ran 497 tests in 206.456s"
+    ]
+  },
+  "previous_final_audit": {
+    "status": "PASS",
+    "required": 0,
+    "sha": "7b89f14de326c12c1178b69b76a9ecf56f41ad3d",
+    "total": 1986,
+    "files": 18,
+    "oldBodiesUnchanged": 1977,
+    "queryRows": 14910,
+    "distinctLiteralQueries": 12225
+  },
+  "sources": [
+    {
+      "id": "jangtugyo-longmen-prayer-parody",
+      "urls": [
+        "https://maily.so/trendaword/posts/wdr9q167olx",
+        "https://news.sbs.co.kr/amp/news.amp?news_id=N1008716133"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nmixxhada-sudden-change-expression",
+      "urls": [
+        "https://maily.so/trendaword/posts/knrj18g7rld"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kkeodeureok-boasting-caption",
+      "urls": [
+        "https://www.hankookilbo.com/news/article/A2026070711130001746",
+        "https://tv.jtbc.co.kr/clip/pr10010392/pm10032711/vo10947787/view"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ninja-haiya-thought-interruption-response",
+      "urls": [
+        "https://maily.so/trendaword/posts/32z84je4rn4"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "makketing-competitive-makgeolli-purchase",
+      "urls": [
+        "https://zdnet.co.kr/view/?no=20240425085714",
+        "https://magazine.hankyung.com/business/article/202503127715b"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "messenger-prison-after-work-metaphor",
+      "urls": [
+        "https://www.newsis.com/view/NISX20151118_0010422491",
+        "https://www.news2day.co.kr/article/20161221086702?site_preference=normal"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "revolving-door-repeat-theater-audience",
+      "urls": [
+        "https://v.daum.net/v/20260620140301132",
+        "https://m.newsis.com/view/NISX20261023_0003839085"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gwankeu-audience-disruption-label",
+      "urls": [
+        "https://ggc.ggcf.kr/p/5dd077da3a82997605be824e",
+        "https://v.daum.net/v/20260916165309343"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "dwaejireonhada-food-enthusiasm-wordplay",
+      "urls": [
+        "https://news.nate.com/view/20240801n33671"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kaeseut-casting-short-form",
+      "urls": [
+        "https://ggc.ggcf.kr/p/5dd077da3a82997605be824e",
+        "https://theqoo.net/theatermusical/4408533412?category=831246758"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "saego-refresh-short-form",
+      "urls": [
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03299686635614496",
+        "https://theqoo.net/kbaseball/4135823855"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening": {
+    "B679": {
+      "observations": 15,
+      "recommended": 0,
+      "existing": 14,
+      "held": 1,
+      "queries": [
+        "2026 \"신조어\" \"뜻\" \"문화\" -site:namu.wiki -site:sinjoeo.kr -감다뒤 -샤갈 -독파민",
+        "2026 \"유행어\" \"말장난\" -감다뒤 -샤갈 -허경환",
+        "2026 \"유행어\" \"패러디\" site:newsis.com -샤갈 -김동현 -허경환",
+        "2026 \"신조어\" site:news.kbs.co.kr"
+      ],
+      "note": "2textsmedia0;TVactual2026-07-25notURL24;빌딩스냅travelshootnotconfirmedformat;KBSrobots."
+    },
+    "A194": {
+      "observations": 10,
+      "recommended": 0,
+      "held": 10,
+      "queries": [
+        "\"사랑의 열매\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"세뇌교육\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"수박도\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"심기체론\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"아니다 이 악마야\" -site:namu.moe -site:seore.org",
+        "\"아카자\" \"패러디\" 뉴스",
+        "\"애는 있습니다\" \"패러디\"",
+        "\"약한 사내다\" \"미친놈들이다\" -site:namu.moe -site:seore.org",
+        "\"어나니머스\" \"패러디\" 한국 뉴스",
+        "\"어몽어스 잼민이\" -site:namu.moe -site:seore.org"
+      ],
+      "note": "10priorrows;2URL0usabletexts;invenunopenedsearchsnippet notverified."
+    },
+    "C200": {
+      "observations": 12,
+      "recommended": 2,
+      "existing": 7,
+      "held": 3,
+      "queries": [
+        "\"2026\" \"신조어\" \"반응\" -site:instablank.com -site:yongdev.dev",
+        "\"2026\" \"밈\" \"말투\" site:maily.so/marsinmarine",
+        "\"2026\" \"신조어\" site:newsis.com \"뜻\"",
+        "site:maily.so/marsinmarine/posts \"2026\" \"말\"",
+        "site:careet.net/Newsletter/Detail \"2026\" \"댓글\" \"요즘\"",
+        "\"스시자로\" 밈",
+        "\"장원영이다\" \"2026\" 기사",
+        "\"장투교\" \"롱멘\""
+      ],
+      "note": "장투교samecreativeorigin+editorownuse,actorrealnameconflictomit;엔믹스하다onepublisherownuse+explanation;media0. prior1977indexnew9notoverlap."
+    },
+    "CO535": {
+      "observations": 7,
+      "queries": [
+        "2026 \"밈\" \"신조어\" \"별명\" -site:namu.wiki -site:instablank.com -site:sinjoeo.kr -야르 -샤갈 -밤티",
+        "2026 \"말장난\" \"댓글\" -site:namu.wiki -site:instablank.com",
+        "\"커터칼퇴근\" -site:instablank.com -site:jjalbang.today -site:namu.wiki",
+        "\"기대컨\" \"2026\" 기사",
+        "\"뿌이커\" 2026",
+        "\"뿌이커\" -site:meme-radar-6eq.pages.dev -site:namu.wiki -site:namu.moe",
+        "\"꺼드럭\" \"2026\" -site:namu.wiki -site:instablank.com",
+        "\"꺼드럭대다\" \"국립국어원\"",
+        "2026 신조어 \"말\" \"신조어\" site:univ20.com",
+        "2026 \"신조어\" \"일명\" site:newsis.com -샤갈 -야르 -밤티",
+        "2026 \"밈\" \"표현\" site:magazine.hankyung.com -샤갈 -야르 -밤티",
+        "\"메신저 감옥\" -site:newsis.com -site:namu.wiki",
+        "\"모비노기라이크\" -site:newsis.com -site:namu.wiki",
+        "2026 \"자첫\" \"관람\" -site:namu.wiki",
+        "2026 \"캐슷\" 공연 -site:namu.wiki",
+        "2026 \"새고\" \"예매\" -site:namu.wiki"
+      ],
+      "note": "Coordinator discovery;searchsnippetnotverification.커터칼퇴근/기대컨existing;뿌이커primarynotrecovered.;공알못same알못family;모비노기라이크pressdefinitiononlyheld;메신저감옥historical2015explanation2016quoteduse.;자첫NOLdecodeerrornotverified;캐슷새고sameB682observationnotdoublecounted.",
+      "existing": 3,
+      "held": 2,
+      "recommended": 2
+    },
+    "A195": {
+      "observations": 10,
+      "recommended": 0,
+      "held": 10,
+      "queries": [
+        "\"Point 드립\" -site:namu.moe -site:seore.org",
+        "\"를 알려주겠다\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"EZ DO DANCE\" \"패러디\" 한국",
+        "\"맨까\" \"부들부들하구나\" -site:namu.moe -site:seore.org",
+        "\"구찌보이\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"동전줍는 징징이\" -site:namu.moe -site:seore.org",
+        "\"면제겜\" \"유래\" -site:namu.moe -site:seore.org",
+        "\"박씨 꺼져\" -site:namu.moe -site:seore.org",
+        "\"씽씽이\" \"패러디\" 현대",
+        "\"요 요요\" \"밈\" -site:namu.moe -site:seore.org"
+      ],
+      "note": "10priorrows1externalquestiontext notactualmeaninguse;media0,risk0399notpursued."
+    },
+    "C201": {
+      "observations": 10,
+      "recommended": 1,
+      "conditional": 2,
+      "existing": 5,
+      "held": 2,
+      "queries": [
+        "\"2026\" \"밈\" site:tpick.co.kr",
+        "\"2026\" \"밈\" site:dailycc.net",
+        "\"닌자 하이야\" 한국 밈",
+        "\"닌자 하이야\" \"2026\" -site:maily.so -site:instablank.com -site:yongdev.dev",
+        "\"닌자 하이야\" site:brunch.co.kr",
+        "\"파라파라나 춰야겠다\" -site:tpick.co.kr"
+      ],
+      "note": "6texts2failures;singlepublisherninjaownuse not2022originverified;2resultsharingneedsactualusers;media0"
+    },
+    "A196": {
+      "observations": 10,
+      "recommended": 0,
+      "held": 10,
+      "queries": [
+        "\"김헌곤 유니버스\" 뉴스",
+        "\"고누리\" \"패러디\" 제작",
+        "\"브베\" \"밈\" 기사",
+        "\"식객민우\" \"유래\" -site:namu.moe -site:seore.org",
+        "\"옴마니반메훔\" \"밈\" 뉴스",
+        "\"이훈이\" \"밈\" 기사",
+        "\"인문학적 변태\" -site:namu.moe -site:seore.org",
+        "\"죄송합니다\" \"밈\" \"유래\"",
+        "\"초코빅송\" -site:namu.moe -site:seore.org",
+        "\"차차핑\" \"밈\" -site:namu.moe -site:seore.org"
+      ],
+      "note": "priorrows10;1attempt0body;noexacttitlematchnotabsence;media0"
+    },
+    "C202": {
+      "observations": 10,
+      "recommended": 0,
+      "existing": 9,
+      "held": 1,
+      "queries": [
+        "2026 신조어 밈 \"대학신문\"",
+        "2026 밈 \"요즘\" site:tpick.co.kr/post",
+        "2026 밈 \"말투\" site:gogumafarm.kr",
+        "2026 밈 site:careet.net/Newsletter \"11월\"",
+        "2026 밈 site:maily.so \"신조어\" \"10월\""
+      ],
+      "note": "5externaltexts1intro1failure2existingbodies;knittingtypingofficialsourceunknown;media0"
+    },
+    "B680": {
+      "observations": 7,
+      "recommended": 1,
+      "existing": 3,
+      "held": 2,
+      "excluded": 1,
+      "queries": [
+        "2026 \"신조어\" \"유행\" site:magazine.hankyung.com",
+        "2026 \"밈\" \"따라\" site:allurekorea.com",
+        "\"포도알\" \"티켓팅\" 2026",
+        "\"뉴욕 헤럴드 트리뷴\" \"패러디\"",
+        "\"뉴욕 헤럴드 트리뷴\" \"장근석\" \"패러디\" -site:seore.org -site:readonly.wiki -site:tistory.com",
+        "\"막케팅\" \"막걸리\" 2026"
+      ],
+      "note": "makketing2024/2025historicalonly no lastyear;2coretextscompanyreleaseonegroup;Dongaqueryfailureexcluded;media0"
+    },
+    "C203": {
+      "observations": 12,
+      "recommended": 0,
+      "conditional": 1,
+      "existing": 7,
+      "held": 4,
+      "queries": [
+        "2026 밈 신조어 site:univ20.com",
+        "2026 밈 site:blog.hsad.co.kr",
+        "2026 밈 site:incross.com \"11월\"",
+        "\"귀인 지도\" \"2026\" 후기",
+        "\"마카롱 말먹\" \"2026\" -site:blog.hsad.co.kr",
+        "\"탭탭\" \"손가락\" \"밈\""
+      ],
+      "note": "2texts1servicesurface2existingbodies;no actualresultuse;ppisameheldfamily;media0"
+    },
+    "A197": {
+      "observations": 10,
+      "recommended": 0,
+      "held": 10,
+      "queries": [
+        "\"거짓말하지 말아요\" \"패러디\"",
+        "\"그들의 연회\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"그러면 죽어요\" \"패러디\"",
+        "\"네가 하면 나도 한다\" \"밈\" 뉴스",
+        "\"당연히 말이 되죠\" \"유행어\"",
+        "\"북방코끼리바다표범\" \"밈\" 뉴스",
+        "\"오타쿠가 정치글을\" -site:namu.moe -site:seore.org",
+        "\"의학적인 근거가 없습니다\" \"패러디\"",
+        "\"프로게이머 피지컬\" \"밈\" 뉴스",
+        "\"할 말이 없네\" \"밈\" 뉴스"
+      ],
+      "note": "priorrows2texts1existingbody;hmhdoesnotprove0335;sealpersonalexplainernoactualsource;media0"
+    },
+    "B681": {
+      "observations": 12,
+      "recommended": 2,
+      "existing": 5,
+      "held": 4,
+      "excluded": 1,
+      "queries": [
+        "2026 \"신조어\" \"문화\" site:munhwa.com",
+        "2026 \"신조어\" \"문화\" site:seoul.co.kr",
+        "2026 \"신조어\" \"공연\" -site:namu.wiki -site:semojjal.com",
+        "2026 \"신조어\" \"전시\" -site:namu.wiki",
+        "\"관크\" 2026 공연",
+        "\"회전문 관객\" 2026"
+      ],
+      "note": "4texts;repeatviewing2media;gwankeuinstitution+quotedreport noactualincidentverification;media0"
+    },
+    "C204": {
+      "observations": 10,
+      "recommended": 1,
+      "existing": 4,
+      "held": 5,
+      "queries": [
+        "\"2026\" \"밈\" \"신조어\" site:newsis.com \"요즘\"",
+        "\"2026\" \"밈\" site:20slab.org/Archives",
+        "\"2026\" \"밈\" site:the-pr.co.kr",
+        "\"밈\" \"2026\" \"신문\" \"말투\"",
+        "\"2026\" \"신조어\" \"도파민\" \"추구\"",
+        "\"2026\" \"밈\" \"카피\" -site:tpick.co.kr -site:instablank.com -site:onmeme.com",
+        "\"뉴런공유\" \"2026\"",
+        "\"닝바닝\" 뜻 기사",
+        "\"동사나사\" 뜻 기사",
+        "\"돼지런\" 뜻 기사",
+        "\"대팔대사\" 기사",
+        "\"니원내\" 뜻",
+        "\"대구은행\" \"퇴근해\"",
+        "\"돼지런하다\" site:news.nate.com",
+        "\"동사나사\" site:ac.kr",
+        "\"대팔대사\" 중고 거래"
+      ],
+      "note": "5texts3failures1existingbody;dwaejireonhistoricalonearticle;ningbaningsabasafamily;media0"
+    },
+    "C205": {
+      "observations": 10,
+      "recommended": 0,
+      "existing": 2,
+      "held": 8,
+      "queries": [
+        "\"2026\" \"밈\" site:magazine.cheil.com",
+        "\"2026\" \"밈\" site:news.skhynix.co.kr",
+        "\"2026\" \"밈\" site:design.co.kr",
+        "site:magazine.cheil.com \"웬즈데이\" \"2026\"",
+        "site:news.skhynix.co.kr \"요즘\" \"드립\"",
+        "\"2026\" \"밈\" \"국립\" \"패러디\"",
+        "\"2026\" \"현수막\" \"신조어\" \"신입생\"",
+        "\"2026\" \"밈\" \"내향\" \"표현\"",
+        "\"2026\" \"밈\" \"친구\" site:news.skhynix.com"
+      ],
+      "note": "4texts1existingbody;universitysameproduction2reports;media0;극I/EheldherependingA198differentproof"
+    },
+    "B682": {
+      "observations": 8,
+      "recommended": 2,
+      "existing": 4,
+      "held": 2,
+      "queries": [
+        "\"자첫\" \"자막\" 2026 기사",
+        "\"캐슷\" 2026 뮤지컬",
+        "\"새고\" \"티켓팅\" 기사",
+        "\"자막\" \"자첫\" \"2026\" site:theqoo.net/theatermusical",
+        "\"예대\" \"2026\" site:theqoo.net/theatermusical"
+      ],
+      "note": "B681heldrecovery notnewdiscovery;2coretexts+institution;DCtitleadditionalnotusedbody;authorindependenceunknown;자첫onlynot자막;media0"
+    }
+  },
+  "query_increment": 127,
+  "query_observations": 15037,
+  "distinct_literal_queries": 12325,
+  "preaudit": {
+    "status": "PASS",
+    "required": 0,
+    "notes": [
+      "All11definitions independentlyaudited; historical vsrecentusage explicit.",
+      "Onepublisherexplanation/ownuse nottwoindependentusers; quotedpostsnotoriginalverification.",
+      "캐슷/새고priorheldrecovery notnewdiscovery."
+    ]
+  },
+  "limits": [
+    "Old1986bodies/1091source/tests unchanged;coverageclassifications unchanged.",
+    "Usage74/reviewed73 unchanged;main/protectedbodies unchanged.",
+    "Queryrows and observations notunique memes;priorheldrechecks separated.",
+    "Originalimages/videos0;관크person-specificallegations notadopted.",
+    "NewSHA CIpending;previous1986success65/65Python497. No localPythonrun."
+  ]
+}

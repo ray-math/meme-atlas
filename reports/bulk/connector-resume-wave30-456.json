@@ -1,0 +1,410 @@
+{
+  "batch": 456,
+  "base": "44a8544c41bf93cfd14f75a9778f14a6ae11e13f",
+  "canonical_before": 1182,
+  "canonical_after": 1191,
+  "added": [
+    "nyan-cat-rainbow-loop",
+    "ai-broadcast-appearance-photo",
+    "low-cortisol-meter-meme",
+    "domestic-pet-metaphor",
+    "yee-dinosaur-sound-edit",
+    "if-this-goes-on-rider",
+    "eungae-baby-self-description",
+    "digidigiding-gang-dance-remix",
+    "gacha-girl-character-spin-edit"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0132",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "nyan-cat-rainbow-loop"
+    },
+    {
+      "id": "kr-list-0153",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "yee-dinosaur-sound-edit"
+    },
+    {
+      "id": "kr-list-0159",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "if-this-goes-on-rider"
+    },
+    {
+      "id": "kr-list-0840",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "eungae-baby-self-description"
+    },
+    {
+      "id": "kr-list-0186",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "digidigiding-gang-dance-remix"
+    },
+    {
+      "id": "kr-list-0189",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "gacha-girl-character-spin-edit"
+    }
+  ],
+  "previous_ci": {
+    "run": 44280270545,
+    "job": 134718785325,
+    "steps": 65,
+    "tests": 495,
+    "seconds": 128.878,
+    "status": "success"
+  },
+  "previous_audit": {
+    "batch": 455,
+    "sha": "44a8544c41bf93cfd14f75a9778f14a6ae11e13f",
+    "new_bodies": 10,
+    "prior_rows_unchanged": 1172,
+    "index_count": 1182,
+    "source_urls": 14,
+    "required_changes": 0
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": [
+        840
+      ],
+      "existing_partial": [
+        824,
+        829,
+        835,
+        846,
+        850,
+        851,
+        853
+      ],
+      "held": 12,
+      "queries": [
+        "\"육군 we 육군\" 패러디",
+        "\"의학적인 근거가 없습니다\" 밈",
+        "\"으악 안 돼\" 이병헌 광고",
+        "\"응애 드립\" 뜻",
+        "\"응애\" \"드립\" \"뜻\" -site:namu.moe -site:seore.org",
+        "\"의문의\" \"행\" \"드립\"",
+        "\"이건 정말 듣도 보도 못한 발상이군\"",
+        "\"이봐요 미친놈씨\"",
+        "\"유루유리 하지마루요\" 패러디",
+        "\"무료로 해줍니다\" \"밈\"",
+        "\"으악 안돼\" \"브롤스타즈\"",
+        "\"의문의\" \"행\" \"패러디\"",
+        "\"이병헌\" \"브롤스타즈\" \"2019\" \"안돼\"",
+        "\"응애 나 아기\" site:inven.co.kr",
+        "\"의문의\" \"행\" site:news.nate.com"
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": [
+        "ai-broadcast-appearance-photo",
+        "low-cortisol-meter-meme",
+        "domestic-pet-metaphor"
+      ],
+      "existing": 2,
+      "held": 11,
+      "excluded": 4,
+      "queries": [
+        "2026 \"밈\" \"사진\" \"브랜드\" site:careet.net",
+        "2026 \"밈\" \"말투\" site:allurekorea.com",
+        "2026 \"밈\" \"편집\" site:maily.so -trendaword -marsinmarine",
+        "\"로우 코르티솔\" \"엔하이픈\"",
+        "\"가정용\" \"티라노\" 밈",
+        "\"AI\" \"직캠\" \"썸네일\" 2026"
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "existing": 8,
+      "held": 12,
+      "queries": [
+        "2026 \"밈\" \"패러디\" site:allurekorea.com",
+        "2026 \"밈\" \"챌린지\" site:elle.co.kr",
+        "2026 \"밈\" \"말투\" site:careet.net",
+        "2026 밈 \"편집\" \"유행\" -site:careet.net -site:namu.wiki",
+        "2026 \"새로운 밈\" \"사진\"",
+        "2026 \"밈\" \"11월\" site:gogumafarm.kr",
+        "\"배경 트랜지션\" 릴스 -site:instablank.com",
+        "\"무례하지 않게 다시\" 밈 -site:instablank.com",
+        "\"AI 한 단어\" 챌린지 -site:instablank.com",
+        "\"주술회전샷\" -site:instablank.com -site:jjalbang.today",
+        "\"탭탭탭\" \"밈\" -site:instablank.com",
+        "\"배경\" \"트랜지션\" \"밈\" -site:instablank.com",
+        "\"젠모지\" \"밈\" -site:instablank.com",
+        "\"Kinda chic\" 한국 밈",
+        "\"점점 커지는 색소폰\" -site:instablank.com -site:jjalbang.today",
+        "\"부모님\" \"나이\" \"챌린지\" 2026",
+        "\"폴리에스터\" \"편집\" 밈 -site:instablank.com"
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": [
+        132
+      ],
+      "held": 19,
+      "ids": [
+        83,
+        86,
+        90,
+        92,
+        98,
+        101,
+        106,
+        110,
+        113,
+        114,
+        115,
+        116,
+        122,
+        124,
+        126,
+        128,
+        129,
+        130,
+        132,
+        134
+      ],
+      "queries": [
+        "\"마피아 시티\" \"밈\"",
+        "\"맥스웰 고양이\" 밈",
+        "\"냥캣\" 밈 기사",
+        "\"인크레더블\" \"불쾌\" 밈",
+        "\"FBI OPEN UP\" 밈 뜻",
+        "\"chip\" \"밈\" 고양이",
+        "\"maliali\" 밈",
+        "\"He is\" \"밈\"",
+        "\"인생\" \"롤창\" 신조어",
+        "\"Ang\" \"밈\" 뜻",
+        "\"김헌곤 유니버스\"",
+        "\"ㅎㄴㅎㄴ\" 밈",
+        "\"KON\" \"밈\" 한국",
+        "\"MC 노리아키\" 밈",
+        "\"MH세대\" 밈",
+        "\"팟캐맨\" \"밈\"",
+        "\"팽이\" \"인크레더블\" 밈",
+        "\"PAC-MAN ghost dance\" 한국",
+        "\"mmmm cow\" 뜻",
+        "\"KON\" \"여우\" 밈"
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "recommended": [
+        153,
+        159
+      ],
+      "conditional_held": [
+        151
+      ],
+      "held": 18,
+      "queries": [
+        "\"Yee\" \"밈\" 뜻",
+        "\"와이 쏘 시리어스\" 밈",
+        "\"핑구\" \"공포\" 밈",
+        "\"개꿀잼몰카\" 뜻",
+        "\"why so serious\" \"패러디\" 한국",
+        "\"Yee\" \"공룡\" \"뜻\"",
+        "\"X키를 눌러\" \"조의\" 기사",
+        "\"개꿀잼 몰카\" \"뜻\" -site:namu.moe -site:seore.org",
+        "\"S stands for\" \"밈\"",
+        "\"Sims cat breaking\" 한국",
+        "\"가수 일론 머스크\" 패러디",
+        "\"가능성의\" \"밈\"",
+        "\"와이 쏘 시리어스\" \"조커\" 기사",
+        "\"와이소시리어스\" \"패러디\"",
+        "\"X키를\" \"조의\" 뜻",
+        "\"공룡\" \"Yee\" \"패러디\" 기사",
+        "\"Pink Elephants on Parade\" \"밈\" 한국",
+        "\"The one piece is real\" \"밈\" 한국",
+        "\"포병지\" 기사",
+        "\"가면라이더\" \"드립\" 뜻"
+      ]
+    },
+    "C3": {
+      "count": 20,
+      "recommended": [
+        186,
+        189
+      ],
+      "held": 18,
+      "queries": [
+        "\"고수와 하수 차이\" 밈",
+        "\"계획대로\" \"밈\" 데스노트",
+        "\"갱갱갱\" 유행어",
+        "\"가챠걸\" 패러디",
+        "\"고만해 미친놈들아\" 유래",
+        "\"건우 엄마 데리고 와\" 패러디",
+        "\"곤룡포좌\" 밈",
+        "\"거짓말하지 말아요\" \"밈\"",
+        "\"고수와 하수\" \"밈\" 뜻",
+        "\"거룡을 상대한\"",
+        "\"거시기\" \"황산벌\" 유행어",
+        "\"건우 엄마 데리고 와\" \"패러디\" -site:namu.moe"
+      ],
+      "editor_rejection": "0198 source explicitly says it relied heavily on NamuWiki at line266; no independent corroboration. Not published."
+    },
+    "editor": {
+      "count": 11,
+      "ids": [
+        "kr-list-1155",
+        "kr-list-0777"
+      ],
+      "queries": [
+        "\"힙통령\" \"광고\" \"2015\"",
+        "\"오니기리 댄스\" 패러디 VIVINOS -site:namu.wiki -site:whitefaceone.tistory.com",
+        "2026 11월 밈 챌린지 한국 브랜드",
+        "\"2026\" \"밈\" \"11월\" site:careet.net",
+        "\"2026\" \"밈\" \"10월\" site:hsad.tistory.com",
+        "\"2026\" \"밈\" \"11월\" site:trendaword.com",
+        "\"2026\" \"밈\" \"박물관\" 패러디",
+        "\"2026\" \"밈\" \"도서관\" 패러디",
+        "\"계획대로\" \"데스노트\" \"패러디\" 기사 -site:namu.moe -site:namu.wiki",
+        "\"계획대로\" \"데스노트\" \"표정\" 광고"
+      ],
+      "notes": "Two historical held entries reexamined; seven explicit section titles screened. NEON subsection not yet separately counted. Hyp-tongryeong ad description does not establish reuse of old rap form. Onigiri single generic parody claim retained held. Independent-source recovery for0198 is part of C3 row, not an additional unique candidate.",
+      "held": 3,
+      "excluded": 3,
+      "existing": 5,
+      "recent_expression_reviews": [
+        {
+          "title": "찹쌀떡 대란",
+          "status": "excluded-product-trend"
+        },
+        {
+          "title": "농놀붐",
+          "status": "excluded-broad-sports-trend"
+        },
+        {
+          "title": "이거 내 이모지야",
+          "status": "existing",
+          "id": "my-emoji"
+        },
+        {
+          "title": "체포하겠어",
+          "status": "existing",
+          "id": "under-arrest"
+        },
+        {
+          "title": "나 왜 이 순간이 영원할 것 같지",
+          "status": "existing",
+          "id": "forever-moment"
+        },
+        {
+          "title": "L을 가져가",
+          "status": "existing",
+          "id": "take-the-l"
+        },
+        {
+          "title": "한소희 귀농",
+          "status": "excluded-ad-only-no-repeat-format"
+        },
+        {
+          "title": "반한 건 ❌",
+          "status": "existing",
+          "id": "swings-denial"
+        },
+        {
+          "title": "암사자는 신경 쓰지 않는다",
+          "status": "held-overseas-only"
+        }
+      ],
+      "source_urls": [
+        "https://www.ajunews.com/view/20150112145611173",
+        "https://whitefaceone.tistory.com/2691",
+        "https://wacf.ad.co.kr/journal/column/show.do?oid=@164032%7C1%7C24&ukey=597975",
+        "https://hsad.tistory.com/3788",
+        "https://www.careet.net/Newsletter/Detail?id=3957&pageidx=1"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "nyan-cat-rainbow-loop",
+      "urls": [
+        "https://macnews.tistory.com/5128",
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1006256263",
+        "https://whitefaceone.tistory.com/2686"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ai-broadcast-appearance-photo",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail?id=4241&pageidx=1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "low-cortisol-meter-meme",
+      "urls": [
+        "https://www.careet.net/1944"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "domestic-pet-metaphor",
+      "urls": [
+        "https://www.careet.net/Newsletter/Detail?id=3887&pageidx=1",
+        "https://theqoo.net/square/3976650678"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "yee-dinosaur-sound-edit",
+      "urls": [
+        "https://whitefaceone.tistory.com/2814"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "if-this-goes-on-rider",
+      "urls": [
+        "https://whitefaceone.tistory.com/2728"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "eungae-baby-self-description",
+      "urls": [
+        "https://everymemes.tistory.com/240"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "digidigiding-gang-dance-remix",
+      "urls": [
+        "https://www.ytn.co.kr/_ln/0117_202211231045382069",
+        "https://everymemes.tistory.com/606"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gacha-girl-character-spin-edit",
+      "urls": [
+        "https://whitefaceone.tistory.com/2798"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "131 expression reviews: 9 selected,22 existing/partial,7 excluded,93 held including conditional/rejected.",
+    "0198 declined: sole source explicitly heavily relies on NamuWiki. Do not inflate to ten additions.",
+    "Three recent forms, six historical forms. Overseas source/production distinguished. All media viewed zero; original ledger unchanged."
+  ],
+  "query_observations": 7522,
+  "distinct_literal_queries": 6563,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

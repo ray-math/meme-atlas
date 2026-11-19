@@ -1,0 +1,138 @@
+{
+  "batch": 340,
+  "base": "97ad6af10daa7584e6088b45d644a104acce732f",
+  "canonical_before": 966,
+  "canonical_after": 967,
+  "added": [
+    "monday-morning-bird"
+  ],
+  "research": {
+    "candidates": [
+      "0777",
+      "0786",
+      "0803",
+      "0810",
+      "0825"
+    ],
+    "conditional": [
+      "0825"
+    ],
+    "held": 4,
+    "queries": [
+      "\"오니기리 댄스\" 2026",
+      "\"오 샹젤리제\" 챌린지 2026",
+      "\"왕사슴 가이즈\" 2026",
+      "\"요나요나 댄스\" 2026",
+      "\"월요일 아침새\" 2026",
+      "\"월요일 아침새\" 패러디",
+      "\"오니기리 댄스\" 그려",
+      "\"요나요나 댄스\" 제작"
+    ],
+    "sources": [
+      "https://booth.pm/ja/items/8533377",
+      "https://momomoaa.tistory.com/84",
+      "https://theqoo.net/square/3159352245",
+      "https://www.viva100.com/article/20241103500409?site_preference=normal"
+    ],
+    "limits": "BOOTH undated naming,2026Nov12imagecollection classificationnotnewparody,2024Mar28lookalikenaming,2024Nov3explanation. Images/originalXWeverseunviewed. Other4:oldexplanations/samecreatoraggregation/2023worldname notrecentindependent2. indexfalsehitskingkongMondayexample/championship excluded."
+  },
+  "editor": {
+    "candidate": "0825",
+    "read": 3,
+    "sources": [
+      "https://booth.pm/ja/items/8533377",
+      "https://momomoaa.tistory.com/84",
+      "https://theqoo.net/square/3159352245"
+    ],
+    "limits": "BOOTH undatednamed3Dproduct text, no download. Tistory2026Nov12 fatigueimagecategoryname, imagesunseen. Theqoo2024Mar28 lookalikename, embeddedXunread. Species/imageidentity/originunverified. Pendingaudit.",
+    "queries": [
+      "\"월요일 아침새\" \"2026\" -site:tistory.com -site:namu.moe -site:seore.org",
+      "\"월요일 아침새\" \"피곤\" -site:namu.moe"
+    ]
+  },
+  "semantic_audit": {
+    "base": "686af40c66f506b8a14021db81179d4afce2b9d7",
+    "rows": [
+      "0990",
+      "0991",
+      "0993",
+      "0994",
+      "0997",
+      "1003",
+      "1004",
+      "1006",
+      "1007",
+      "1008",
+      "1010",
+      "1012",
+      "1016",
+      "1018",
+      "1020",
+      "1025",
+      "1028",
+      "1035",
+      "1040",
+      "1043"
+    ],
+    "unchanged": {
+      "index_not_found": 17,
+      "unclear": 3
+    },
+    "changes": 0,
+    "body_read": [
+      "hell-joseon",
+      "sorry-humanities",
+      "oo-ping",
+      "baribarista",
+      "traitor-among-us",
+      "naneun-haengbokhamnida"
+    ],
+    "queries": [
+      "최근 한|게시판에는|커뮤니티",
+      "최애의|아이돌|idol",
+      "충격|공포",
+      "취직|취업|사회",
+      "차차핑|핑",
+      "카페인|커피",
+      "캐피탈|capital|자본주의",
+      "캬루|배신",
+      "자갈|짱돌",
+      "컹스|켕",
+      "케인|한입|죄송",
+      "겨울배|배를",
+      "김성근|한화",
+      "코카인|cocaine|취해",
+      "콩쥐|팥쥐",
+      "크아아|으아아|XX아",
+      "킹근육|골드몬",
+      "탈모|모르파티",
+      "텟카이|철괴",
+      "투명|드래곤"
+    ],
+    "limits": "Semantic only, no external source. Source prose not fixed parody; characters/works notspecifictemplates. Baribarista luggage notcoffee."
+  },
+  "independent_audit": {
+    "read": 3,
+    "naming_sites": 3,
+    "recent_dated": 1,
+    "old_dated": 1,
+    "undated": 1,
+    "images_video_models": 0,
+    "limits": "Naming only, no sameimage, species, firstorigin, repeatMondayritual claims"
+  },
+  "editor_extra": {
+    "viva_read": true,
+    "image_clicks": 2,
+    "visuals_actually_inspected": 0,
+    "limits": "Image links returned no visibleimage; notvisualverification"
+  },
+  "coverage_change": "0825 N->I sourceimmutable",
+  "previous_ci": {
+    "run": 44237158134,
+    "conclusion": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": 74.248
+  },
+  "ci": "pending"
+}

@@ -1,0 +1,80 @@
+{
+  "batch": 412,
+  "base": "769243b86758e35c10d9c5f69622dfc769fa613b",
+  "canonical_before": 994,
+  "canonical_after": 995,
+  "added": [
+    "chawon-dalla-byeong"
+  ],
+  "researchA": {
+    "queries": [
+      "\"차원달라병\" \"2026\" -site:issuelink.co.kr -site:waglenet.com -site:news.nate.com -악뮤",
+      "\"차원달라병\" site:brunch.co.kr",
+      "\"차원달라병\" site:theqoo.net",
+      "\"차원달라병\" \"인천\""
+    ],
+    "candidate": {
+      "title": "차원달라병",
+      "sources": [
+        "https://news.nate.com/view/20260504n18354",
+        "https://theqoo.net/kbaseball/4300272595"
+      ],
+      "supplemental": [
+        "https://theqoo.net/boynextdoor/4284724298",
+        "https://theqoo.net/boynextdoor/4282855161"
+      ],
+      "note": "필자음악감상+음식후기2군,보조공연동일게시판,체험진위/신원0원영상0"
+    }
+  },
+  "editor": {
+    "queries": [
+      "\"가정이 무너지고\" \"2026\" -site:namu.moe",
+      "\"개노답 삼형제\" \"2026\" -site:namu.moe",
+      "\"개꿀잼몰카\" \"2026\" -site:namu.moe",
+      "\"가정이 무너지고 사회가\" \"2026\" -site:namu.moe",
+      "\"개꿀잼몰카\" \"2026\" -site:novawiki.app -site:namu.moe",
+      "\"개노답 삼형제\" \"2026\" -site:allsnsrank.com -site:issuelink.co.kr -site:orbi.kr"
+    ],
+    "held": [
+      {
+        "id": "0162",
+        "url": "https://kinolights.com/season/151857",
+        "note": "2026-10-08평문하나직접확인,정확밈차용의도미확정,일반가정붕괴보도제외",
+        "additional": "Nate20260305n27309정확제목단서 cachemiss"
+      },
+      {
+        "id": "0178",
+        "note": "orbi80021946접근불가,ygosu75517 403,영상집계/서버이름은새근거미채택",
+        "additional": "Wikitree1147388정치만평제목,정책비난주장채택안함 직접제목1,AI EDITION표시,영상0;추가독립맥락확보전보류"
+      },
+      {
+        "id": "0176",
+        "note": "위키복제외새직접근거미확보"
+      }
+    ]
+  },
+  "independent_audit": {
+    "passed": true,
+    "source_reads": 2,
+    "related_body_reads": 2,
+    "application_groups": 2,
+    "experience_truth_not_verified": true,
+    "videos_images": 0
+  },
+  "final_body_audit_994": {
+    "passed": true,
+    "body_reads": 2,
+    "required_changes": 0
+  },
+  "candidate_changes": 0,
+  "ci": {
+    "body994": {
+      "run": 44254846690,
+      "job": 134633942445,
+      "tests": 495,
+      "seconds": 77.821,
+      "success": true
+    },
+    "new_commit": "pending"
+  }
+}

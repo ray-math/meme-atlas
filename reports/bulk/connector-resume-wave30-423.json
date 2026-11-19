@@ -1,0 +1,126 @@
+{
+  "batch": 423,
+  "base": "f72e4ebce94779cc1a733c97a9aae805d092e735",
+  "canonical_before": 1001,
+  "canonical_after": 1002,
+  "added": [
+    "ah-damn-a-dream"
+  ],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" \"패러디\" site:publy.co",
+      "2026 \"밈\" site:design.co.kr",
+      "2026 \"밈\" site:eyesmag.com",
+      "2026 \"밈\" site:hypebeast.kr",
+      "2026 \"밈\" \"유행어\" site:pdjournal.com",
+      "2026 \"밈\" \"패러디\" site:mediaus.co.kr",
+      "2026 \"밈\" \"패러디\" site:news.kbs.co.kr",
+      "2026 \"밈\" \"유행\" site:hani.co.kr",
+      "\"냥캣\" \"고양시\" 패러디",
+      "\"냥캣\" \"2026\" 한국",
+      "\"인제 신남\" \"2026\" 인증",
+      "\"껍질\" \"미리 깐\" \"즐겁다\" 티셔츠"
+    ],
+    "screened": 8,
+    "recommended": "인제 신남 후속 편집 예약",
+    "existing": [
+      "geoje-yaho",
+      "pre-cracked-egg"
+    ],
+    "held": [
+      "냥캣: 국내 제작 날짜·원자료 미확정",
+      "조지 러셀 T포즈: 제목 날짜만 확인",
+      "AI 대비 형식: 칼럼 설명1",
+      "지브리풍 변환: 범용 스타일 구분 미완료",
+      "스파이더맨:2022 해외 기사 최근국내아님"
+    ],
+    "sources": [
+      "https://www.g1tv.co.kr/news/?mid=1_207_6&newsid=339497",
+      "https://v.daum.net/v/20260616111603364",
+      "https://v.daum.net/v/pXmn0XXSyb",
+      "https://gw.newdaily.co.kr/site/data/html/2026/02/22/2026022200041.html",
+      "https://design.co.kr/article/148475/",
+      "https://www.hani.co.kr/arti/economy/economy_general/1276373.html",
+      "https://www.eyesmag.com/posts/164017/f1-instagram-profile-7-"
+    ],
+    "note": "인제 신남은 여행 표지판 반응 보도와 지역 포토존 응용 보도 두 맥락.6월기사 둘은 동일사업.개인SNS원문0·영상0.2026발생/첫상품화 단정금지."
+  },
+  "researchB": {
+    "queries": [
+      "\"무지성\" \"2026\" \"밈\"",
+      "\"밤 샌 사람\" \"일찍 일어난 사람\"",
+      "\"아시발꿈\" \"2026\"",
+      "\"엄마도 사람이야\" \"2026\"",
+      "\"대한민국 완전히 망했네요\" \"2026\"",
+      "\"엄마도 사람이야 사람\" -site:namu.moe",
+      "\"아시발꿈\" 후기 -site:namu.moe",
+      "\"밤샌 사람\" \"2026\"",
+      "\"무지성 반복\" \"2026\"",
+      "\"아시발꿈\" \"2026\" -site:kone.gg -site:namu.moe -site:gall.dcinside.com"
+    ],
+    "recommended": "kr-list-0696",
+    "sources": [
+      "https://2244886060528.tistory.com/926",
+      "https://gall.dcinside.com/mgallery/board/view/?id=whiskey&no=1852624&page=1"
+    ],
+    "held": [
+      {
+        "id": "0490",
+        "note": "인벤 본문502, 일반 수식어와 형식구분 미완료"
+      },
+      {
+        "id": "0526",
+        "url": "https://theqoo.net/square/1365538349",
+        "note": "2020-04-07 제목확인,이미지미확인·최근적용없음"
+      },
+      {
+        "id": "0755",
+        "note": "가족고통 희화화 위험·안전별도적용미확보"
+      },
+      {
+        "id": "0381",
+        "url": "https://www.mk.co.kr/news/culture/12000509",
+        "note": "2026-03-27 책소개 과거발언회고,독립패러디아님"
+      }
+    ]
+  },
+  "independent_audit": {
+    "passed": true,
+    "source_reads": 2,
+    "related_body_reads": 1,
+    "direct_text_groups": 2,
+    "images_videos": 0,
+    "note": "블로그 필자 본문논평이며 댓글아님. melatonin-dream 기묘한현실비유와 꿈반전반응 구분.특정만화최초미확정."
+  },
+  "candidate_changes": [
+    {
+      "id": "kr-list-0696",
+      "from": "index_not_found",
+      "to": "included"
+    }
+  ],
+  "final1001audit": {
+    "passed": true,
+    "body_reads": 1,
+    "external_reads": 0,
+    "required_changes": 0,
+    "scope": "관람일/게시일 구분·인용범위·원작미확인,CI/index audit 제외"
+  },
+  "ci421": {
+    "run": 44258455739,
+    "job": 134645712620,
+    "success": true,
+    "tests": 495,
+    "seconds": 113.337
+  },
+  "ci1001": {
+    "sha": "f72e4ebce94779cc1a733c97a9aae805d092e735",
+    "run": 44258734686,
+    "job": 134646616455,
+    "success": true,
+    "steps": 65,
+    "tests": 495,
+    "seconds": 102.054
+  },
+  "ci_new_commit": "pending"
+}

@@ -1,0 +1,27 @@
+{
+  "batch": 268,
+  "canonical_before": 920,
+  "canonical_after": 921,
+  "added": "boomshakalaka-backpack",
+  "queries": [
+    "\"붐샤카\" \"챌린지\" \"2026\"",
+    "\"나 줘 나 줘\" \"챌린지\"",
+    "\"2026\" \"밈\" site:univpress.com",
+    "\"붐샤카라카\" \"챌린지\" -site:jtbc.co.kr -site:imbc.com -site:namu.moe",
+    "\"2026\" \"밈\" site:cosmopolitan.co.kr",
+    "\"2026\" \"밈\" site:harpersbazaar.co.kr"
+  ],
+  "index_queries": [
+    "붐샤",
+    "백팩",
+    "jumpshot",
+    "가방"
+  ],
+  "evidence": "two separately authored reports read with Korean participant examples; originals/images/videos0; linkedaccounts3 not3verifiedvideos",
+  "excluded": "JTBC title ambiguous; filmmakers recruitment403; source origin/minor identity/viewcounts omitted",
+  "metrics": {
+    "query_observations": 2068,
+    "distinct_literal_queries": 1697
+  },
+  "ci": "not run"
+}

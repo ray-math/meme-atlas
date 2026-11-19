@@ -1,0 +1,33 @@
+{
+  "batch": "connector-resume-a142",
+  "base": "845c6d65363320d51ede9b657494eb3c7a69298a",
+  "entries": [
+    {
+      "id": "this-is-my-story-template",
+      "independent_usage_events": 2,
+      "sources": [
+        {
+          "url": "https://youtu.be/PuDA9k-d8jo",
+          "observed": "진돌 영상 제목 메타데이터 직접확인. 영상시청아님; watch URL cache miss 뒤 youtu.be 정상제목반환."
+        },
+        {
+          "url": "https://gogumafarm.kr/내가-고구마팜이었으면-이-밈은-꼭-소개하고-싶음-2026/",
+          "observed": "2026-09-21 본문87행 카메라구매뒤설득 영상내용 설명. 원영상과 동일사건1개."
+        },
+        {
+          "url": "https://maily.so/trendaword/posts/2nznjlymrp5",
+          "observed": "2026-10-13 자신의 뉴스레터 제목에 직접적용. 설명용 가상예문 제외."
+        }
+      ],
+      "bounds": "원애니 미시청. 원전 회차/최초유행일 미확정. 통닭천사 동일사례 반복보도 추가집계안함."
+    }
+  ],
+  "checks": {
+    "result_entries": 856,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "batch": 467,
+  "base": "6980a4d9b5290710bcdd39e4d27e28bd5b3af8a8",
+  "canonical_before": 1300,
+  "canonical_after": 1306,
+  "added": [
+    "temu-person-quality-metaphor",
+    "obunga-nextbot-chase-parody",
+    "text-hip-reading-culture-label",
+    "changhee-dialogue-music-edit",
+    "yareu-joy-interjection",
+    "watching-xeno-stage-nickname"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0784",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "obunga-nextbot-chase-parody"
+    },
+    {
+      "id": "kr-list-0796",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "watching-xeno-stage-nickname"
+    }
+  ],
+  "previous_ci": {
+    "run": 44292361537,
+    "job": 134760509449,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 139.621s"
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "mandatory": 0,
+    "new_entries": 8,
+    "prior_entries_unchanged": 1292,
+    "candidate_changes": 4,
+    "mapping_loss": 0,
+    "source_urls_reopened": 12,
+    "media_viewed": 0
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 11,
+      "held": 8,
+      "queries": [
+        "\"오니기리 댄스\"",
+        "\"오 샹젤리제\" \"밈\"",
+        "\"오붕가\" 패러디",
+        "\"오타쿠가 정치글을\"",
+        "\"오니기리 댄스\" \"패러디\" -site:namu.moe",
+        "\"오타쿠\" \"신조어\" \"호칭\"",
+        "\"오 샹젤리제\" \"커피새\" -site:namu.moe",
+        "\"여자 아이돌 파이터 랭킹\" -site:namu.moe"
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 9,
+      "held": 10,
+      "queries": [
+        "\"오 필승 코리아\" 패러디",
+        "\"와칭제노\"",
+        "\"와퍼\" \"밈\"",
+        "\"와플\" \"밈\"",
+        "\"옥동자\" 유행어 패러디",
+        "\"왕이되는자\" 광고 패러디",
+        "\"우리 업계에서는 포상\"",
+        "\"요 요요\" \"밈\"",
+        "\"와칭제노\" \"2024.02.21\"",
+        "\"우리 업계에서는 포상\" -site:namu.moe -site:seore.org -site:wiki",
+        "\"왕사슴 가이즈\"",
+        "\"옴마니반메훔\" \"밈\""
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 15,
+      "held": 4,
+      "queries": [
+        "2026 \"밈\" \"사진\" site:allurekorea.com",
+        "2026 \"밈\" \"유행\" site:elle.co.kr",
+        "2026 \"밈\" \"말투\" site:univ20.com",
+        "2026 \"밈\" \"챌린지\" site:harpersbazaar.co.kr",
+        "2026 \"밈\" \"말투\" site:cosmopolitan.co.kr",
+        "2026 \"밈\" \"유행어\" site:marieclairekorea.com",
+        "\"이민기\" \"장기하\" \"밈\"",
+        "\"운동은 장비빨\" \"2026\""
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 2,
+      "conditional": 2,
+      "existing": 8,
+      "held": 7,
+      "editor_transfer": 1,
+      "queries": [
+        "2026 신조어 \"요즘\" \"11월\" -site:instablank.com -site:jjalbang.today",
+        "2026 \"신조어\" \"10월\" 캐릿",
+        "2026 \"밈\" \"호칭\" -site:namu.moe -site:seore.org",
+        "\"젬민이\" \"2026\" -site:instablank.com -site:namu.moe",
+        "\"막나귀\" -site:instablank.com -site:sinjoeo.kr",
+        "\"테무인간\" \"2026\" -site:instablank.com",
+        "\"텍스트힙\" \"2026\" \"나는\"",
+        "\"막나귀\" \"오늘\" -site:sinjoeo.kr -site:uge.co.kr -site:jyecinfo.kr",
+        "\"젬민이\" \"나는\" \"제미나이\" -site:namu.moe",
+        "\"테무인간\" \"문상훈\" 기사",
+        "\"젬민이 됐다\" -site:namu.moe",
+        "\"젬민이가\" \"물어\" -site:namu.moe",
+        "\"막나귀\" \"후기\" -뜻 -신조어",
+        "\"막나귀\" site:brunch.co.kr"
+      ]
+    },
+    "editor": {
+      "count": 2,
+      "queries": [
+        "\"2026\" \"신조어\" \"11월\" -site:instablank.com -site:jjalbang.today",
+        "\"2026\" \"신조어\" \"10월\" -site:instablank.com -site:jjalbang.today",
+        "\"2026\" \"밈\" \"호칭\" -site:namu.moe",
+        "\"젬민이\" \"2026\" -site:hangeul-tool.com -site:instablank.com -site:namu.moe",
+        "\"테무인간\" \"빠더너스\" -site:hangeul-tool.com -site:instablank.com",
+        "\"모깅\" \"한국\" \"2026\" -site:namu.moe",
+        "\"테무인간\" site:segye.com",
+        "\"테무인간\" site:asiatoday.co.kr",
+        "\"테무인간\" site:insight.co.kr"
+      ],
+      "notes": [
+        "Hotsan held direct-use URLs Inven webzine6170/wow2225 desktop/mobile and Roseknightmare category inaccessible; two prior explanatory sources remain not independent direct-use observations.",
+        "Temu selected (also C handoff); mogging held for insufficient Korean reuse. Other cross-stream rechecks not new candidates."
+      ],
+      "recommended": 1,
+      "held": 1
+    }
+  },
+  "sources": [
+    {
+      "id": "temu-person-quality-metaphor",
+      "urls": [
+        "https://www.insight.co.kr/news/492721",
+        "https://www.segye.com/newsView/20261001517071"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "obunga-nextbot-chase-parody",
+      "urls": [
+        "https://discite.tistory.com/33",
+        "https://ksjkhy4539.tistory.com/entry/오분가-Obunga-오붕가"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "text-hip-reading-culture-label",
+      "urls": [
+        "https://news.kyobo.com/교보생명-하루잇문학-인문학-즐기는-법/",
+        "https://v.daum.net/v/20260718002638187"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "changhee-dialogue-music-edit",
+      "urls": [
+        "https://www.elle.co.kr/article/80097"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "yareu-joy-interjection",
+      "urls": [
+        "https://news.tvchosun.com/site/data/html_dir/2026/07/24/2026072490206.html"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "watching-xeno-stage-nickname",
+      "urls": [
+        "https://whitefaceone.tistory.com/2703",
+        "https://www.sportschosun.com/entertainment/2024-02-21/202402210100145990019644",
+        "https://www.etnews.com/20251221000018"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "80 stream observations plus 2 editor observations, not 82 unique memes; Temu overlaps C/editor. Six bounded entries selected. Conditional maknagwi/gemmini remain held; explanations not direct personal application.",
+    "Yareu interjection differs from existing song covers. Changhee dialogue edit differs from generic Jang Kiha song reactions.",
+    "A8 source publication-year conflict excluded; recent nickname use not a second parody. All source media unviewed.",
+    "Remote checkpoint uses six ready entries rather than waiting for an artificial batch quota."
+  ],
+  "query_observations": 8530,
+  "distinct_literal_queries": 7328,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

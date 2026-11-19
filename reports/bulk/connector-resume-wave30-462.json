@@ -1,0 +1,401 @@
+{
+  "batch": 462,
+  "base": "aef9b803735712e299795e1b4ee57cca58143aff",
+  "canonical_before": 1244,
+  "canonical_after": 1258,
+  "added": [
+    "intern-choi-minsik-fan-trailer",
+    "condition-nienzo-wordplay",
+    "baby-dooly-situation-reparody",
+    "sleepy-not-okay-audio-remix",
+    "na-hani-inde-recommendation-comment",
+    "nalgangdu-critical-nickname",
+    "ajura-ball-sharing-chant",
+    "creator-early-fan-low-price-metaphor",
+    "gd-please-use-parasol-joke",
+    "airman-target-substitution-song-parody",
+    "daehwanjang-party-chaos-expression",
+    "all-lies-speech-audio-remix",
+    "young-forty-online-label",
+    "ouya-vowel-text-reaction"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0725",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "baby-dooly-situation-reparody"
+    },
+    {
+      "id": "kr-list-0305",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "sleepy-not-okay-audio-remix"
+    },
+    {
+      "id": "kr-list-0285",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "na-hani-inde-recommendation-comment"
+    },
+    {
+      "id": "kr-list-0307",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "nalgangdu-critical-nickname"
+    },
+    {
+      "id": "kr-list-0703",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "ajura-ball-sharing-chant"
+    },
+    {
+      "id": "kr-list-0760",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "airman-target-substitution-song-parody"
+    },
+    {
+      "id": "kr-list-0382",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "daehwanjang-party-chaos-expression"
+    },
+    {
+      "id": "kr-list-0766",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "all-lies-speech-audio-remix"
+    },
+    {
+      "id": "kr-list-0771",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "young-forty-online-label"
+    },
+    {
+      "id": "kr-list-0775",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "ouya-vowel-text-reaction"
+    }
+  ],
+  "previous_ci": {
+    "run": 44287029615,
+    "job": 134742214951,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 136.137s"
+  },
+  "previous_audit": {
+    "batch": 461,
+    "mandatory_found": 1,
+    "resolved": "0186 retained old mapping plus new; two corrected files fully read back",
+    "original_commit": "a57b2e89b6bdfb6d4435cd69a4370f68fa1d022a",
+    "fix_commit": "aef9b803735712e299795e1b4ee57cca58143aff",
+    "bodies_passed": 8,
+    "prior_rows_unchanged": 1236
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": 3,
+      "existing": 3,
+      "held": 14,
+      "queries": [
+        "\"나 XX인데 개추 눌렀다\"",
+        "\"나는 개인이오\" 패러디",
+        "\"나는 애쉬\" 밈",
+        "\"나는 예쁘지 않습니다\" 밈",
+        "\"나여 백종원\"",
+        "\"난 아무렇지 않지 않아\" 패러디",
+        "\"날강두\" 신조어",
+        "\"날 내버려둬\" 밈",
+        "\"내 거에 올라온 네 욕 볼래\"",
+        "\"내 식사를 방해할 생각인가\"",
+        "\"너 개못하잖아\"",
+        "\"너반시\"",
+        "\"너의 XX은\" 패러디",
+        "\"네가 하면 나도 한다\" 무한도전",
+        "\"네 설명해드렸습니다\" 밈",
+        "\"네가 하면 나도 한다\" 기업 하하",
+        "\"난 아무렇지 않지 않아\" 슬리피 패러디 스폰지밥",
+        "\"나 하니인데 개추\" -site:namu.moe -site:unisquads.io",
+        "\"네가 하면 나도 한다\" \"패러디\" -site:namu.moe"
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 1,
+      "held": 18,
+      "editor_note": "0369 broadcast recreation documented but held: neutral reusable form not yet bounded enough, no false murder claim",
+      "queries": [
+        "\"누나 나 죽어\" 유래",
+        "\"누나 좋아해요\" 타노스 밈",
+        "\"늬픽\"",
+        "\"닌자 몰살 소설\"",
+        "\"누가 범인일까\" 밈",
+        "\"당신이 옳았어\" 밈",
+        "\"대기업에 입사한 아들의 깨달음\"",
+        "\"대환장 파티\" 유래",
+        "\"닌자가 나타나\" \"소설\" 패러디",
+        "\"당연히 말이 되죠\" 패러디",
+        "\"늬픽\" 유행어",
+        "\"대환장 파티\" 뜻 -site:hoonmeme.com",
+        "\"노란 리본 캠페인\" 온라인",
+        "\"노 재팬\" 로고 패러디",
+        "\"뉴진스럽다\" 신조어",
+        "\"능지\" 신조어",
+        "\"단소 살인마\" 패러디",
+        "\"닭팔이\" 밈",
+        "\"노무현의 시대가 오겠어요\" 패러디",
+        "\"대자보 시국선언\" 밈",
+        "\"누가 범인일까\" 밈 강아지",
+        "\"닌자 몰살\" 소설 -site:namu.moe -site:novelpia.com"
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 3,
+      "conditional_held": 0,
+      "existing": 5,
+      "held": 9,
+      "excluded": 3,
+      "queries": [
+        "2026 밈 \"사진\" \"유행\" 매거진 -site:instablank.com",
+        "2026 릴스 \"편집\" \"트렌드\" -site:instablank.com -404",
+        "2026 밈 \"성대모사\" 유행",
+        "2026 밈 site:allurekorea.com -춤 -챌린지",
+        "2026 \"밈\" \"사진\" site:marieclairekorea.com",
+        "2026 \"릴스\" \"편집\" site:somako.co.kr",
+        "\"2026\" \"밈\" \"가상 예고편\" 최민식",
+        "\"2026\" \"저점매수\" 크리에이터 댓글",
+        "2026 \"사진\" \"유행\" \"샷\" 매거진 -site:instablank.com",
+        "2026 \"밈\" \"나레이션\" -RUDE -루드 -site:instablank.com"
+      ],
+      "editor_note": "Early-fan metaphor promoted after direct actual-comment discussion review"
+    },
+    "B2": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 5,
+      "held": 7,
+      "excluded": 7,
+      "queries": [
+        "2026 \"밈\" \"패러디\" site:news.imbc.com",
+        "2026 \"밈\" \"편집\" site:univ20.com",
+        "2026 \"밈\" \"사진\" site:elle.co.kr",
+        "\"2026\" \"양산\" \"지드래곤\" 밈",
+        "\"2026\" \"플래그 챌린지\"",
+        "\"2026\" \"밈\" \"공식\" site:somako.co.kr"
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 2,
+      "conditional_held": 3,
+      "existing": 6,
+      "held": 9,
+      "queries": [
+        "\"애는 있습니다\" 밈 유래",
+        "\"안전가족\" \"밈\" 기사",
+        "\"아이 러브 마이 화자 마자 브라자\" 밈",
+        "\"아모캣\" 패러디 기사",
+        "\"애는 있습니다\" 유재석",
+        "\"화자 마자 브라자\" 유래",
+        "\"애기공룡 둘리\" 패러디 인터뷰",
+        "\"아주라\" 문화 야구",
+        "\"애는 있습니다\" \"패러디\"",
+        "\"아모캣\" \"뜻\" -site:namu.moe -site:seore.org",
+        "\"아재\" \"드립\" \"유래\"",
+        "\"알파메일\" \"밈\" 뜻",
+        "\"아주라\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"애는 있습니다\" 밈 -site:namu.moe -site:seore.org -site:namu.wiki",
+        "\"아모캣\" -site:namu.moe -site:seore.org -site:namu.wiki",
+        "\"아카자\" \"밈\" \"대사\""
+      ],
+      "editor_note": "Ajura limited to documented repeated chant, not entire stadium culture"
+    },
+    "C2": {
+      "count": 20,
+      "recommended": 1,
+      "conditional_held": 1,
+      "existing": 6,
+      "held": 12,
+      "editor_note": "0760 narrow target-substitution promoted; two explanations of same creation, not two productions. 0756 name-chain held.",
+      "queries": [
+        "\"엄마도 사람이야 사람\" 유래",
+        "\"영국맛을 살려야지\" 패러디",
+        "\"약한 사내다\" \"아스달\" 기사",
+        "\"에어맨이 쓰러지지 않아\" 패러디 한국",
+        "\"영국맛\" 패러디",
+        "\"에어맨\" \"불곰\" 패러디 기사",
+        "\"얼리 엑세스 예시\" 치킨",
+        "\"엄마도 사람이야\" 패러디 -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"영국맛\" \"리암\"",
+        "\"불곰이 쓰러지지 않아\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"엄준식\" \"뜻\" 기사",
+        "\"약한 사내다\" 패러디 -site:namu.moe -site:seore.org",
+        "\"영국 맛을\" \"리암\"",
+        "\"불곰이 쓰러지지 않아\" 스타크래프트2 영상",
+        "\"얼리 액세스\" \"치킨\" 패러디",
+        "\"약한 사내다\" \"밈\" -site:namu.moe -site:seore.org -site:readonly.wiki"
+      ]
+    },
+    "C3": {
+      "count": 20,
+      "recommended": 3,
+      "conditional_held": 3,
+      "existing": 4,
+      "held": 10,
+      "queries": [
+        "\"오니기리 댄스\" 유래",
+        "\"오 샹젤리제\" 밈 패러디",
+        "\"오붕가\" 밈 설명",
+        "\"오 필승 코리아\" 응원가 패러디",
+        "\"여러분 이거 다 거짓말인 거 아시죠\" 패러디 기사",
+        "\"ㅗㅜㅑ\" 뜻 기사",
+        "\"영포티\" 밈 뜻",
+        "\"오 샹젤리제\" \"커피새\" -site:namu.moe",
+        "\"여러분 이거\" \"거짓말\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"ㅗㅜㅑ\" \"뜻\" -site:namu.moe -site:seore.org",
+        "\"오니기리 댄스\" \"패러디\" -site:namu.moe -site:seore.org",
+        "\"오타쿠가 정치글\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "editor": {
+      "queries": [
+        "\"2026\" \"밈\" \"11월\" -site:instablank.com -site:namu.moe -site:seore.org",
+        "\"2026\" \"밈\" \"10월\" \"댓글\" -site:instablank.com"
+      ],
+      "count": 4,
+      "existing": 4,
+      "held": 0,
+      "notes": "Four existing index matches from November discovery: my-emoji,forever-moment,age-reaction-challenge,ex-girlfriend-peeler. HSAD original read for first two; others search-only discovery, not new fact verification."
+    }
+  },
+  "sources": [
+    {
+      "id": "intern-choi-minsik-fan-trailer",
+      "urls": [
+        "https://v.daum.net/v/20260806170004739",
+        "https://m.news.nate.com/view/20260908n27207"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "condition-nienzo-wordplay",
+      "urls": [
+        "https://www.allurekorea.com/2025/04/29/나만-없는-밈-티셔츠-셀럽들의-밈-티셔츠-활용법/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "baby-dooly-situation-reparody",
+      "urls": [
+        "https://weekly.khan.co.kr/article/202010301540361"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sleepy-not-okay-audio-remix",
+      "urls": [
+        "https://whitefaceone.tistory.com/3177",
+        "https://melburn119.tistory.com/m/1423"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "na-hani-inde-recommendation-comment",
+      "urls": [
+        "https://www.incross.com/ko/insight/report.asp?idx=1575&mode=view&page="
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nalgangdu-critical-nickname",
+      "urls": [
+        "https://www.yna.co.kr/amp/view/AKR20220710013400007",
+        "https://www.khan.co.kr/article/202212031449001"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ajura-ball-sharing-chant",
+      "urls": [
+        "https://news.tf.co.kr/read/baseball/1361354.htm",
+        "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1004189808"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "creator-early-fan-low-price-metaphor",
+      "urls": [
+        "https://somako.co.kr/undervalued-creators-marketers-find-first-2026/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gd-please-use-parasol-joke",
+      "urls": [
+        "https://news.nate.com/view/20260715n27806",
+        "https://v.daum.net/v/BUnD9VfzHH"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "airman-target-substitution-song-parody",
+      "urls": [
+        "https://jaiken.tistory.com/36",
+        "https://whitefaceone.tistory.com/2969"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "daehwanjang-party-chaos-expression",
+      "urls": [
+        "https://mplay.mk.co.kr/view/?cid=3155305",
+        "https://www.mk.co.kr/news/culture/10140377"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "all-lies-speech-audio-remix",
+      "urls": [
+        "https://funnypani.com/254"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "young-forty-online-label",
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20250916158800004",
+        "https://www.yna.co.kr/view/AKR20260118017200009"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ouya-vowel-text-reaction",
+      "urls": [
+        "https://www.ohmynews.com/NWS_Web/Mobile/at_pg.aspx?CNTN_CD=A0002692332",
+        "https://everymemes.tistory.com/49"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "140 worker review observations plus four editor existing-index matches; not newly discovered unique meme count.",
+    "Worker final dispositions: selected14, existing30, excluded10, held86 (7 conditional included); editor4 existing separate.",
+    "Four entries have 2026 evidence (intern, early-fan metaphor, GD parasol, young-forty); GD/young-forty are older phenomena with recent evidence, not 2026 origins. Remaining10 historical.",
+    "Source organizations and same-production reports are not falsely counted as independent creations. No media viewed.",
+    "Previous audit mapping loss fixed and additive mapping generator adopted; main unchanged."
+  ],
+  "query_observations": 8097,
+  "distinct_literal_queries": 6981,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

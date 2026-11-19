@@ -1,0 +1,378 @@
+{
+  "batch": 443,
+  "base": "0963d1da6ea53723fbf4e890c3d949a9b344626f",
+  "canonical_before": 1033,
+  "canonical_after": 1043,
+  "added": [
+    "gukbap-comparison",
+    "night-dancer-challenge",
+    "raccoon-man-bait-switch",
+    "tokyo-olympic-pictogram-parody",
+    "ang-gimotti",
+    "gandhi-bloodshed-parody",
+    "suzume-door-locking-parody",
+    "club-dance-04",
+    "looks-can-kill-dance-challenge",
+    "igeogwodeon-text-reaction"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0222",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "gukbap-comparison"
+    },
+    {
+      "id": "kr-list-0302",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "night-dancer-challenge"
+    },
+    {
+      "id": "kr-list-0326",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "raccoon-man-bait-switch"
+    },
+    {
+      "id": "kr-list-0388",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "tokyo-olympic-pictogram-parody"
+    },
+    {
+      "id": "kr-list-0722",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "ang-gimotti"
+    },
+    {
+      "id": "kr-list-0165",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "gandhi-bloodshed-parody"
+    },
+    {
+      "id": "kr-list-0065",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "suzume-door-locking-parody"
+    },
+    {
+      "id": "kr-list-0050",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "club-dance-04"
+    },
+    {
+      "id": "kr-list-0851",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "igeogwodeon-text-reaction"
+    }
+  ],
+  "research": {
+    "pending443A": {
+      "count": 20,
+      "recommended": [
+        "0722"
+      ],
+      "held": 19,
+      "queries": [
+        "\"아주라\" \"패러디\"",
+        "\"아 진짜요\" \"밈\"",
+        "\"아파트 아파트\" \"밈\"",
+        "\"악으로 깡으로 버텨라\" 사용",
+        "\"안전가족\" \"패러디\"",
+        "\"압박\" \"통신어\"",
+        "\"앙 기모띠\" \"패러디\"",
+        "\"애니프사\" \"밈\"",
+        "\"애는 있습니다\" 패러디",
+        "\"아냐 포저\" \"표정\" 밈",
+        "\"야후 꾸러기\" 밈 패러디",
+        "\"약한 사내다\" \"미친놈들이다\"",
+        "\"얘들아 영국맛을 살려야지\"",
+        "\"얼리 엑세스 예시를 보여줌\"",
+        "\"엄마도 사람이야 사람\" 패러디",
+        "\"에어맨이 쓰러지지 않아\" 패러디 한국",
+        "\"오니기리 댄스\" 패러디",
+        "\"오또케 오또케\" 패러디",
+        "\"와칭제노\" 밈",
+        "\"요나요나 댄스\" 한국 패러디",
+        "\"앙 안전띠\" 경찰",
+        "\"앙 기모띠\" \"광고\"",
+        "\"앙 검은띠\" 인하대",
+        "\"아 진짜요\" \"밈\" \"엔플라잉\""
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikitree.co.kr/articles/252142",
+          "date": "2016-03-07",
+          "note": "reporter visitedjudo recruitment angblackbelt; posterdateFeb28visitMar2; noimage"
+        },
+        {
+          "url": "https://kpinews.kr/newsView/1065593080120569",
+          "date": "2018-12-31",
+          "note": "Ulsan promotion angbrushbelt+removal apology separatecase; coffeecampaigncontroversy notcertainintent"
+        },
+        {
+          "url": "https://m.mk.co.kr/news/economy/9917372",
+          "date": "2021-06-17",
+          "note": "samecoffeecampaignnotthirdcluster"
+        }
+      ],
+      "note": "ang-gimotti narrow criticaldefinition; existingryuseungryong-gimochi gameaudio mishearingdifferent. No sexualizedminor detail collected."
+    },
+    "pending443A2": {
+      "count": 20,
+      "limited": [
+        "0851"
+      ],
+      "held": 19,
+      "queries": [
+        "\"이궈궈던\" 유행어",
+        "\"이 뭔 개소리야\" 패러디",
+        "\"이빨 보이지마\" 패러디",
+        "\"이봐요 미친놈씨\" 패러디",
+        "\"이세계물\" \"패러디\" 한국",
+        "\"이제 그만\" \"밈\"",
+        "\"이쿠요\" \"밈\"",
+        "\"인권이 라이프\"",
+        "\"인문학적 변태\" 패러디",
+        "\"인주 앨리스\" 한국 패러디",
+        "\"인터넷 야메로\" 한국 패러디",
+        "\"일부러 PC방에는 꾀죄죄하게\"",
+        "\"자러감\" \"드립\"",
+        "\"잘생겨서 안 좋은 점\" 패러디",
+        "\"점점 빨라지는 노래\" 패러디",
+        "\"제로투 회피\"",
+        "\"제주도 찐 사투리\" 패러디",
+        "\"존나좋군\" 패러디",
+        "\"죽습니다 진짜\" 밈",
+        "\"진짠줄 알더라\" 밈",
+        "\"이궈궈던\" \"광고\"",
+        "\"이궈궈던\" \"강원기\"",
+        "\"이궈궈던\" \"방송\" -site:namu.moe -site:inven.co.kr",
+        "\"이궈궈던\" -site:namu.moe -site:inven.co.kr -site:tistory.com -site:meme100.me -site:weflview.com"
+      ],
+      "note": "Editor accepted narrow text reaction only after direct blog+DC title/category check; no image outcomes, source creator claims not adopted. Kone title dateunknown read but body excludes; Inven296685 failed3routes."
+    },
+    "pending443B": {
+      "queries": [
+        "2026 밈 \"대학\" \"챌린지\" \"10월\" -site:instablank.com -site:namu.moe",
+        "2026 \"밈\" \"대학교\" \"9월\" -site:instablank.com -site:namu.moe",
+        "\"뭉스타\" \"하이파이브\" 챌린지",
+        "\"GUAP\" \"제주시\" 챌린지"
+      ],
+      "count": 4,
+      "recommended": 0,
+      "held": [
+        "프리티걸",
+        "GUAP",
+        "반려동물하이파이브",
+        "이별로부터챌린지"
+      ],
+      "note": "allsnsrankdiscoveryonly notoriginaldate/countproof"
+    },
+    "pending443B2": {
+      "count": 20,
+      "recommended": [
+        "looks-can-kill-dance-challenge"
+      ],
+      "existing": 1,
+      "related_other": 2,
+      "held": 16,
+      "queries": [
+        "2026 \"밈\" \"11월\" \"챌린지\" 매거진 -site:instablank.com",
+        "2026 \"밈\" \"10월\" \"트렌드\" -site:instablank.com -site:gogumafarm.kr",
+        "\"Looks Can Kill\" \"이상이\" 챌린지 2026",
+        "\"Made My Night\" \"DDR\" 챌린지 2026",
+        "\"singasong\" \"챌린지\" 2026 참여",
+        "\"Made My Night\" \"챌린지\" \"참여\" -site:challenge-gym.vercel.app",
+        "\"singasong\" \"챌린지\" \"참여\" -site:challenge-gym.vercel.app",
+        "\"룩스 캔 킬\" \"이상이\" \"장원영\" 챌린지",
+        "\"룩스 캔 킬\" \"이영지\" 챌린지 -site:challenge-gym.vercel.app -site:issuelink.co.kr",
+        "\"singasong\" \"박명수\" 챌린지"
+      ],
+      "sources": [
+        "https://sports.khan.co.kr/article/202610281434003/",
+        "https://imnews.imbc.com/replay/2026/nwtoday/article/6861525_37012.html",
+        "https://m.newspim.com/news/view/20261028001495"
+      ],
+      "note": "Looks2026-10-28/29pressreports may shareagencyinformation, not3originalsources. MadeMyNightDDRoriginalreleaseonly, singasongoriginalreleaseonly; no videos."
+    },
+    "pending443C": {
+      "count": 20,
+      "recommended": [
+        "0222",
+        "0302",
+        "0326",
+        "0388"
+      ],
+      "held": 16,
+      "queries": [
+        "\"나이트 댄서\" \"챌린지\" 2023",
+        "\"도쿄올림픽 픽토그램\" \"패러디\"",
+        "\"마이야히\" \"패러디\" 기사",
+        "\"너굴맨\" \"밈\" 기사",
+        "\"고수와 하수 차이\" 밈",
+        "\"국밥충\" 유행어 기사",
+        "\"귀여운 건 나도 알아\" 박명수",
+        "\"그치만\" \"드립\" 유래",
+        "\"근데 어쩔건데\" 밈",
+        "\"깨어나세요 용사여\" 패러디",
+        "\"나\" \"인데 개추\" 밈",
+        "\"나노머신 썬\" 게임조선",
+        "\"내가 제일 잘 나가\" 패러디 광고",
+        "\"네가 하면 나도 한다\" 무한도전",
+        "\"동그란 맘속에 피어난\" SNL",
+        "\"띠용띠용 워익워익\"",
+        "\"란란루\" 밈 기사",
+        "\"마따끄\" 밈 뜻",
+        "\"망했어요\" \"김태형\"",
+        "\"모스카우\" 패러디 한국"
+      ],
+      "sources": [
+        {
+          "id": "0222",
+          "urls": [
+            "https://www.genie.co.kr/detail/albumInfo?axnm=81300177",
+            "https://www.mk.co.kr/news/business/9452772"
+          ],
+          "note": "2019-11-06 release notdescriptiondate+2020-07-30 separateadvertisement/application; comparefoodtoGukbap; gukbap-in-heartdifferent"
+        },
+        {
+          "id": "0302",
+          "urls": [
+            "https://www.khan.co.kr/article/202303191133001/amp"
+          ],
+          "note": "2023-03-19 specificKoreanparticipantsonearticle, novideos; syndicatedchartstoriesnotmultiple"
+        },
+        {
+          "id": "0326",
+          "urls": [
+            "https://everymemes.tistory.com/9",
+            "https://whitefaceone.tistory.com/2169",
+            "https://m.gamechosun.co.kr/news/view.php?no=192683"
+          ],
+          "note": "2020-06-11+2021-04-22 explanations,2023-02-04article rolecomparison; originalposts0, originspeciesnotasserted; pedroraccoondifferent"
+        },
+        {
+          "id": "0388",
+          "urls": [
+            "https://www.korean-culture.org/koreanet/view.do?seq=1039320"
+          ],
+          "note": "2021-09-14 captiontext explicitgraduationphoto parody; image0; Newsissameeventnotextracluster; studentpersonalinfoexcluded"
+        }
+      ]
+    },
+    "pending443C2": {
+      "count": 20,
+      "recommended": [
+        "0050",
+        "0065",
+        "0165"
+      ],
+      "held": 17,
+      "queries": [
+        "\"강풍 올백\" \"패러디\" 기사",
+        "\"간디\" \"유혈사태\" 게임 밈",
+        "\"눕는\" \"이모티콘\" 게임",
+        "\"04년생 클럽춤\" 밈",
+        "\"1초만에 사람을 낚는 방법\"",
+        "\"64 bits\" \"밈\" 뜻",
+        "\"문단속\" \"밈\" 패러디",
+        "\"학개론\" \"밈\" 건축학개론",
+        "\"닥터 리브지\" 밈",
+        "\"street photographer\" \"밈\"",
+        "\"didn't i do it for you\" \"밈\"",
+        "\"finally awake\" \"밈\" 한국",
+        "\"마피아 시티\" \"밈\"",
+        "\"맥스웰 고양이\" 밈",
+        "\"인크레더블\" \"언캐니\" 밈",
+        "\"mmmm cow\" 뜻",
+        "\"냥캣\" \"패러디\" 기사",
+        "\"핑구\" \"공포\" 밈",
+        "\"Yee\" \"밈\" 뜻",
+        "\"가정이 무너지고\" \"패러디\"",
+        "\"강풍 올백\" \"챌린지\" 기사",
+        "\"눕는\" \"이모티콘\" \"게임\" 시위"
+      ],
+      "note": "04dance2explanations not2performances; doorlockingonearticle2namedproductions; Gandhi1specificparodyreport+1periodcommentary. Origin dates/video0."
+    }
+  },
+  "editor_reads": [
+    {
+      "url": "https://www.genie.co.kr/detail/albumInfo?axnm=81300177",
+      "note": "Comparison template and song production text read; songlyrics not transcribed."
+    },
+    {
+      "url": "https://www.khan.co.kr/article/202303191133001/amp",
+      "note": "2023-03-19 specific Korean challenge participants in text; no video."
+    },
+    {
+      "url": "https://www.korean-culture.org/koreanet/view.do?seq=1039320",
+      "note": "Caption explicit graduationpicture parody; noimage/privatepupildata."
+    },
+    {
+      "url": "https://www.wikitree.co.kr/articles/252142",
+      "note": "2016-03-07 directreport on recruitmentposter; Feb28postMar2visit."
+    },
+    {
+      "url": "https://kpinews.kr/newsView/1065593080120569",
+      "note": "2018-12-31 text meaning+UlsanJunepromotionremoval; no minorsdetail."
+    },
+    {
+      "url": "https://m.gamechosun.co.kr/news/view.php?no=192683",
+      "note": "Interruption role comparison for raccoonman confirmed."
+    },
+    {
+      "url": "https://m.inews24.com/v/524333",
+      "note": "2010-10-27 pun photo composite reported; originalgame exactdialogue notverified"
+    },
+    {
+      "url": "https://game.donga.com/54872/",
+      "note": "2010-12-31 Gandhi threatening persona meme description"
+    },
+    {
+      "url": "https://blog.hsad.co.kr/3355",
+      "note": "2023-04 doors closing and KimGyeran/YuJunho namedparody texts read; no video; noquotedspell"
+    }
+  ],
+  "editor_queries": [
+    "\"Looks Can Kill\" \"이상이\" \"이영지\" 2026"
+  ],
+  "previous_ci": {
+    "run": 44267180691,
+    "job": 134674498500,
+    "status": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": "86.721"
+  },
+  "previous_audit": {
+    "sha": "0963d1da6ea53723fbf4e890c3d949a9b344626f",
+    "body_reads": 10,
+    "passed": true,
+    "required_changes": 0,
+    "optional_change": "sam-online-ending remove internal ledger phrasing",
+    "queries": [
+      "site:cineplay.co.kr/ko-kr/articles/9955 \"모기\""
+    ],
+    "limits": "Independent fullbody+source review not derivedfile audit. CI separate passed."
+  },
+  "metric_correction": {
+    "field": "distinct_literal_queries",
+    "stale": 5333,
+    "correct_at442": 5487,
+    "reason": "Batch441/442 added distinct_query_strings but failed legacy field; synchronize both to exact Set count next checkpoint."
+  },
+  "query_observations": 6370,
+  "distinct_literal_queries": 5582,
+  "limits": [
+    "Query observations not unique memes; title matching not semantic absence.",
+    "Editor accepted igeogwodeon narrow text reaction from explanation+dated title/category; image outcomes/origin excluded.",
+    "Single explanation/report tiers clearly separated from direct performances. No images/videos watched.",
+    "Current CI pending; main unchanged; no Codex."
+  ]
+}

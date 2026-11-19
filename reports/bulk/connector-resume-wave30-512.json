@@ -1,0 +1,426 @@
+{
+  "batch": 512,
+  "base": "df9b631fc2436dc5e2dc1e9ad4f8ee093dc8f062",
+  "canonical_before": 1757,
+  "canonical_after": 1767,
+  "added": [
+    "ipdeok-denial-period",
+    "naepduseyo-t-c-gesture-challenge",
+    "honteum-amid-confusion-abbreviation",
+    "gungseoche-serious-tone-marker",
+    "bidam-visual-member-abbreviation",
+    "deokseon-where-are-you-can-you-hear-me",
+    "onol-anom-playful-praise-abbreviation",
+    "o-pilseung-cheer-name-substitution",
+    "selgikkun-selfie-reality-contrast",
+    "naejeok-dance-inner-groove"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0791",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "o-pilseung-cheer-name-substitution"
+    }
+  ],
+  "previous_ci": {
+    "head": "df9b631fc2436dc5e2dc1e9ad4f8ee093dc8f062",
+    "run": 44355590174,
+    "job": 134982709475,
+    "conclusion": "success",
+    "steps": 65,
+    "passed": 65,
+    "python": [
+      "Ran 497 tests in 201.553s"
+    ]
+  },
+  "previous_audit": {
+    "status": "PASS",
+    "required_changes": 0,
+    "entries": 1757,
+    "files": 20,
+    "source_update": "OSEN final audit www5 endpoint directly read successfully"
+  },
+  "research": {
+    "C106": {
+      "observations": 8,
+      "recommended": 1,
+      "existing": 5,
+      "held": 2,
+      "direct": 2,
+      "rewritten_excluded": 1,
+      "failed": 1,
+      "existing_body_reads": 2,
+      "queries": [
+        "\"계못타\" 뜻",
+        "\"입덕부정기\" 뜻 기사",
+        "\"웃수저\" 뜻 기사"
+      ]
+    },
+    "B594": {
+      "observations": 9,
+      "recommended": 1,
+      "existing": 4,
+      "held": 4,
+      "direct": 3,
+      "partial_page": 1,
+      "queries": [
+        "2026 \"패러디\" \"명대사\" site:newsis.com",
+        "2026 \"유행어\" \"따라\" site:ent.sbs.co.kr",
+        "2026 \"패러디\" \"문구\" site:news1.kr",
+        "\"2026\" \"하고 가실게요\" 패러디",
+        "\"하시고 가실게요\" \"패러디\"",
+        "\"2026\" \"패러디 영상\" \"대사\" \"제작했다\" -site:namu.moe -site:filmmakers.co.kr",
+        "\"2026\" \"유행어\" \"바꿔\" \"광고\""
+      ]
+    },
+    "editor_followup": {
+      "queries": [
+        "\"혼틈\" \"셀카\" 2025",
+        "\"혼틈\" \"혼란을\" 2026 기사",
+        "2026 \"신조어\" \"해설\" \"유행\" -site:namu.wiki",
+        "2026 \"밈\" \"광고\" \"패러디\" site:etnews.com",
+        "\"혼틈\" \"말넘심\" \"신조어\" 2026",
+        "\"커터칼퇴근\" 기사",
+        "\"동결건조\" \"신조어\" 기사",
+        "\"완내스\" \"인터뷰\"",
+        "\"머선129\" \"완내스\" 기사",
+        "\"오저치고\" \"방송\"",
+        "\"일생가\" \"인터뷰\"",
+        "\"고답이\" 뜻 기사",
+        "\"오놀아놈\" 방송",
+        "\"비담\" \"비주얼 담당\" 인터뷰",
+        "\"오놀아놈\" \"유재석\"",
+        "\"일생가\" \"일상생활\" 기사",
+        "\"오놀아놈\" -site:sinjoeo.kr -site:namu.wiki",
+        "\"일생가\" \"일상생활 가능\" -site:sinjoeo.kr -site:namu.wiki",
+        "2026 \"신조어\" \"입틀막\" \"누물보\"",
+        "\"본방사수\" \"닥본사\" \"2026\"",
+        "\"댈구\" \"대리구매\" 기사",
+        "\"TMI\" \"TMT\" \"투머치토커\" 인터뷰 2026",
+        "\"내적댄스\" \"뜻\" 기사",
+        "\"깜놀\" \"신조어\" 기사",
+        "\"내적 댄스\" 뜻",
+        "\"투머치토커\" 뜻 기사",
+        "\"입틀막\" 뜻 기사",
+        "\"내적댄스\" \"뜻\" 기사",
+        "\"입틀막\" \"입을 틀어막\" 2017"
+      ],
+      "notes": "Conditional hontteum direct-source recovery.",
+      "existing_rechecks": [
+        "cutter-knife-leaving-work-wordplay",
+        "freeze-dry-affection",
+        "nanrijabeth"
+      ],
+      "excluded_duplicate": {
+        "godabi": "goguma-frustration same metaphor; two direct sources verified, excluded by semantic audit"
+      },
+      "held": [
+        "일생가 직접페이지cachemiss",
+        "오놀아놈 새적용미확보",
+        "오놀아놈2개직접해설은가상예문;대학내일PDF직접실패로새실제적용보류",
+        "일생가모바일cachemiss및데스크톱inaccessible",
+        "댈구검색결과는범죄·연령제한거래관련, 이번밈수록범위에서제외/내용재현없음"
+      ]
+    },
+    "A117": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 2,
+      "failed": 1,
+      "queries": [
+        "\"더 마스터를 기억해줘\" -site:namu.moe -site:seore.org",
+        "\"롯데햄 후라이드 치킨\" 패러디",
+        "\"미안송\" 패러디",
+        "\"봇이지 뭐\" -site:namu.moe -site:seore.org",
+        "\"사고 쳤을 때\" \"입 다물고\" -site:namu.moe -site:seore.org",
+        "\"사정없이 보내버리겠다\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "B595": {
+      "observations": 9,
+      "recommended": 0,
+      "existing": 7,
+      "family_review": 1,
+      "held": 1,
+      "direct": 2,
+      "existing_body_reads": 4,
+      "queries": [
+        "2026 \"패러디\" \"직접 제작\" \"드라마\"",
+        "2026 \"유행어\" \"따라 했다\" -site:namu.moe",
+        "2026 \"패러디\" \"광고\" site:busan.com"
+      ]
+    },
+    "A118": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 2,
+      "partial_or_failed": 1,
+      "queries": [
+        "\"왕사슴 가이즈\" -site:namu.moe -site:seore.org",
+        "\"요! 요요!\" 밈 -site:namu.moe -site:seore.org",
+        "\"육군 we 육군\" 패러디 -site:namu.moe -site:seore.org",
+        "\"의문의\" \"행\" \"신조어\"",
+        "\"인문학적 변태\" -site:namu.moe -site:seore.org",
+        "\"자러감\" \"드립\" -site:namu.moe -site:seore.org",
+        "\"의문의 백수행\"",
+        "\"자러감\" \"댓글\" \"드립\""
+      ]
+    },
+    "A119": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 2,
+      "failed": 1,
+      "queries": [
+        "\"귀여운 건 나도 알아\" 유행어",
+        "\"그러면 죽어요\" 유행어",
+        "\"그런 거 없다\" 밈 유래",
+        "\"나는 애쉬\" 패러디",
+        "\"설명해드렸습니다\" 밈",
+        "\"초코빅송\"",
+        "\"귀여운 건 나도 알아\" -site:namu.moe -site:seore.org",
+        "\"그러면 죽어요\" 솔개 밈 -site:namu.moe -site:seore.org",
+        "\"초코빅\" \"패러디\""
+      ]
+    },
+    "C107": {
+      "observations": 8,
+      "recommended": 1,
+      "held": 2,
+      "existing": 5,
+      "direct": 2,
+      "failed": 3,
+      "existing_body_reads": 1,
+      "queries": [
+        "\"닥본사\" \"닥치고\" 기사",
+        "\"궁서체\" \"진지\" 신조어",
+        "\"본방사수\" \"본방송\" 신조어"
+      ]
+    },
+    "B596": {
+      "observations": 4,
+      "recommended": 0,
+      "existing": 1,
+      "held": 3,
+      "direct": 4,
+      "queries": [
+        "2026 \"패러디\" \"문구\" \"지역\"",
+        "2026 \"따라하는\" \"말투\" \"밈\" -site:namu.moe -site:sinjoeo.kr",
+        "2026 \"패러디했다\" site:starnewskorea.com",
+        "\"슬램덩크\" \"오프닝\" \"패러디\" 2026",
+        "\"슬램덩크\" \"오프닝\" \"패러디\" \"걸어\"",
+        "\"김부장\" \"하트\" \"패러디\" 2026"
+      ]
+    },
+    "C108": {
+      "observations": 9,
+      "recommended": 0,
+      "existing": 7,
+      "held": 2,
+      "direct": 1,
+      "access_only": 2,
+      "queries": [
+        "\"좋댓구알\" 뜻 기사",
+        "\"반박시\" \"니 말\" 기사",
+        "\"주접킹\" \"애정\" 기사",
+        "\"반박 시 니 말이 맞음\"",
+        "\"주접킹\" \"김선호\"",
+        "\"선 넘네\" \"뜻\"",
+        "\"설참\" \"설명\" 기사"
+      ]
+    },
+    "B597": {
+      "observations": 4,
+      "recommended": 1,
+      "existing_family": 1,
+      "held": 2,
+      "direct": 5,
+      "queries": [
+        "2026 \"유행어\" \"말끝\"",
+        "2026 \"패러디\" \"문구를 바꿔\"",
+        "2026 \"밈\" \"댓글\" \"신조어\" site:hankookilbo.com",
+        "2026 \"유행어\" \"말투\" site:news.nate.com",
+        "2026 \"유행어\" \"바꿔\" site:osen.co.kr",
+        "2026 \"패러디\" \"대사\" site:hani.co.kr",
+        "\"덕선아 어디니\" 패러디",
+        "\"내 목소리 들리니\" \"이동휘\" 2026"
+      ]
+    },
+    "A120": {
+      "rows": 6,
+      "recommended": 0,
+      "held": 6,
+      "direct": 1,
+      "failed": 2,
+      "queries": [
+        "\"샤방송\" 패러디",
+        "\"스너고\" 밈",
+        "\"아이 러브 마이\" \"화자\"",
+        "\"안전가족\" 패러디",
+        "\"애는 있습니다\" 밈",
+        "\"얼리 엑세스 예시를 보여줌\"",
+        "\"안전가족\" \"패러디\" \"과학창의\"",
+        "\"스너고\" \"스우\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "C109": {
+      "observations": 8,
+      "recommended": 1,
+      "conditional": 1,
+      "existing": 6,
+      "direct_pages": 3,
+      "failed_pages": 2,
+      "queries": [
+        "\"내또출\" 기사 뜻",
+        "\"오놀아놈\" 기사 뜻",
+        "\"좋못사\" 기사 뜻",
+        "\"일생가\" \"뜻\" 기사",
+        "\"오놀아놈\" site:tv.jtbc.co.kr"
+      ]
+    },
+    "A121": {
+      "rows": 6,
+      "recommended": 1,
+      "held": 5,
+      "direct_pages": 3,
+      "existing_body_reads": 1,
+      "queries": [
+        "\"엄마도 사람이야 사람\" 유행어",
+        "\"오 샹젤리제\" 밈 패러디",
+        "\"오 필승 코리아\" 밈 패러디",
+        "\"이봐요 미친놈씨\" 유행어",
+        "\"일본 대단해\" \"칠레\"",
+        "\"지이잉\" 밈",
+        "\"오 샹젤리제\" \"커피새\" -site:namu.moe -site:seore.org",
+        "\"오 필승 코리아\" \"패러디\" -site:namu.moe -site:seore.org"
+      ]
+    },
+    "B598": {
+      "observations": 8,
+      "recommended": 0,
+      "existing": 3,
+      "held": 5,
+      "direct_pages": 3,
+      "queries": [
+        "2026 \"유행어\" \"따라 하며\" -site:namu.moe",
+        "2026 \"패러디\" \"대사를 바꿔\"",
+        "\"유행어\" \"누가 기침소리를\" 패러디",
+        "\"정태호\" \"잘했어\" \"2026\"",
+        "\"유행어\" \"패러디\" \"2026\" site:enews.imbc.com",
+        "\"잘했어\" \"감동받았어\" \"개그콘서트\" -site:namu.moe",
+        "\"불편합니다\" \"박영진\" 패러디",
+        "\"읏짜\" \"붐\" \"유행어\" -딸 -윤서"
+      ]
+    },
+    "C110": {
+      "observations": 12,
+      "recommended": 1,
+      "existing": 10,
+      "held": 1,
+      "direct_pages": 2,
+      "failed_pages": 2,
+      "existing_body_reads": 1,
+      "queries": [
+        "\"셀기꾼\" 뜻 기사",
+        "\"셀기꾼\" \"2026\""
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "ipdeok-denial-period",
+      "urls": [
+        "https://v.daum.net/v/20220107003626105",
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1006811828"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "naepduseyo-t-c-gesture-challenge",
+      "urls": [
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10010275397"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "honteum-amid-confusion-abbreviation",
+      "urls": [
+        "https://www.insight.co.kr/news/218734",
+        "https://view.asiae.co.kr/article/2019112920582791108"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gungseoche-serious-tone-marker",
+      "urls": [
+        "https://m.dongascience.com/news/15388",
+        "https://uicf.kangwon.ac.kr/Uploads/Notice/03140214NV0S.pdf"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bidam-visual-member-abbreviation",
+      "urls": [
+        "https://news.nate.com/view/20210729n42844"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "deokseon-where-are-you-can-you-hear-me",
+      "urls": [
+        "https://www.ytn.co.kr/_ln/0117_201601131110070304",
+        "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A201602230111"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "onol-anom-playful-praise-abbreviation",
+      "urls": [
+        "https://www.insight.co.kr/news/218734",
+        "https://v.daum.net/v/20200125130345112?s=print_news"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "o-pilseung-cheer-name-substitution",
+      "urls": [
+        "https://www.seoul.co.kr/news/society/2017/11/23/20171123500173"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "selgikkun-selfie-reality-contrast",
+      "urls": [
+        "https://m.etnews.com/20150915000003",
+        "https://www.wkorea.com/2022/04/20/나는-필터-사용을-거부합니다/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "naejeok-dance-inner-groove",
+      "urls": [
+        "https://welcometozanchi.com/2141"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Ten historical source-bounded entries; no new recent-year popularity claims. Media views zero.",
+    "오놀아놈 rests on two editorial lexical explanations, not observed personal dialogue.",
+    "오필승 is a 2017 retrospective of 2002 use. Coordinator read full text; independent auditor could not reproduce source access, but semantic overlap audit passed.",
+    "Batch511 OSEN source recovered by final auditor; earlier preaudit cache miss is not an ongoing source failure.",
+    "Candidate observations overlap and include rechecks; no summed unique-meme discovery count claimed.",
+    "투머치토커 already included; 고답이 semantically duplicates goguma-frustration and is not added. 일생가 held; 댈구 excluded from this batch.",
+    "Approved baseline bodies, permanent related-guide generator and tests unchanged."
+  ],
+  "query_observations": 12781,
+  "distinct_literal_queries": 10492,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

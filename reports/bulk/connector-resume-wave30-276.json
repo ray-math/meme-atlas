@@ -1,0 +1,48 @@
+{
+  "batch": 276,
+  "canonical_before": 924,
+  "canonical_after": 925,
+  "added": "bridgerton-dance-challenge",
+  "research": {
+    "queries": [
+      "\"2026\" \"밈\" site:univ20.com",
+      "\"2026\" \"챌린지\" site:kyungnam.ac.kr",
+      "\"2026\" \"밈\" site:magazine.cheil.com",
+      "\"2026\" \"밈\" \"패러디\" \"보도자료\"",
+      "\"2026\" \"챌린지\" \"브리저튼\"",
+      "\"2026\" \"밈\" \"도서관\"",
+      "\"브리저튼 챌린지\" -site:namu.moe -site:d.namu.moe",
+      "\"하이신스\" \"춤\" \"2026\""
+    ],
+    "index_queries": [
+      "브리저튼",
+      "하이신스",
+      "보리저튼",
+      "Bridgerton"
+    ],
+    "sources": [
+      "https://incross.com/ko/insight/report.asp?idx=10802&mode=view&page=",
+      "https://www.osen.co.kr/article/G1112777150",
+      "https://www.bo9jeong.co.kr/gallery/?bmode=view&idx=171031307"
+    ],
+    "recommended": "bridgerton-dance-challenge",
+    "note": "IncrossMar18couple domestic reuse; OSENApr8TheSeasons officialcrew shoot; companyApr27direct completedshoot but comingsoon not published; videos0; parentreadpending"
+  },
+  "index_queries": [
+    "브리저튼",
+    "하이신스",
+    "보리저튼",
+    "bridgerton"
+  ],
+  "evidence": "two reports describe distinct productions; company firsthand account completedshoot1 but not publication; all3 directly read; images/videos0; personaldata/bodyevaluations omitted",
+  "checks": {
+    "unique_ids": 925,
+    "title_alias_cross_id_collisions": 0,
+    "generator_base_roundtrip": true
+  },
+  "metrics": {
+    "query_observations": 2253,
+    "distinct_literal_queries": 1824
+  },
+  "ci": "not run"
+}

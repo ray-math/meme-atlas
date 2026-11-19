@@ -1,0 +1,51 @@
+{
+  "batch": "connector-resume-a124",
+  "base_ref": "f3cf501549f1c4f8d327ee13c904e9ed85ed2a33",
+  "status": "canonical_on_work_branch_ci_not_run",
+  "counts": {
+    "reviewed_candidates": 1,
+    "independent_usage_events": 2,
+    "canonical_added": 1
+  },
+  "duplicate_review": {
+    "remote_index_entries_checked": 826,
+    "exact_normalized_title_alias_match": false,
+    "meaning_review": "알았다는 응답의 반복 리듬. 확인한 인덱스에 라따/아라따 사용 없음. 전체 유래 본문 대조는 미실행."
+  },
+  "candidate": {
+    "title": "라따 라따 아라따",
+    "slug": "ratta-ratta-aratta",
+    "scope_type": "korean_usage",
+    "scope_basis": "국내 공공 안내 문구와 학술논문이 채록한 댓글의 독립 사용을 확인.",
+    "evidence": [
+      {
+        "url": "https://mobile.newsis.com/view/NISX20120612_0011183740",
+        "published": "2012-06-12",
+        "finding": "청주시의 열매 채취 금지 안내 현수막에 다른 유행어와 함께 구절을 사용한 보도. 2016은 수정일이다."
+      },
+      {
+        "url": "https://journal.kci.go.kr/kolali/archive/articlePdf?artiId=ART002052579",
+        "published": "2015-11-30",
+        "location": "PDF 14쪽, 인쇄 92쪽, 예문(6)ㄴ",
+        "finding": "2013년 기사에 달린 댓글을 채록해 가상 대화 속 구절 사용을 보여주며 유행어로 분석한다. 원댓글 직접 열람은 아님."
+      },
+      {
+        "url": "https://www.tenasia.co.kr/article/2019100548094",
+        "finding": "봉숭아학당 유행어 명시. 노래에 준 영감은 동일 밈으로 합치지 않음."
+      }
+    ],
+    "excluded": [
+      {
+        "url": "https://www.khan.co.kr/article/200911091748115",
+        "reason": "야구 코치 신원 서술 오류 가능성에 따른 사건 신뢰 문제. 인명만 생략해 채택하지 않고 제외."
+      }
+    ],
+    "draft_markdown": "---\ntags: [\"방송\"]\n---\n\n# 라따 라따 아라따\n\n## 뜻풀이\n알았다는 대답 앞에 비슷한 소리를 반복해 장난스러운 리듬을 만드는 유행어다. 익숙한 개그 말투로 반응하거나 안내 문구의 분위기를 가볍게 한다.\n\n- 공공 안내 현수막에서는 열매를 따지 말라는 부탁 뒤에 이 말을 붙였다.\n- 학술논문에 채록된 댓글에서는 가상의 대화를 만들어 대답하는 구절로 썼다.\n\n## 유래와 확산\n《개그콘서트》 ‘봉숭아학당’의 유행어로 알려졌다. 방송 밖에서는 공공 안내 문구에 다른 유행어와 함께 쓰이거나, 온라인 댓글에서 대화체를 흉내 내는 데 사용됐다. 비슷한 소리가 반복되다가 알았다는 대답으로 이어지는 리듬이 특징이다.\n\n## 주의\n진지한 요청에 쓰면 대충 넘기는 듯 들릴 수 있다.\n\n[기본 수록 목록](../collections/pilot-30.md)\n"
+  },
+  "limitations": [
+    "GitHub 도구에서 원격 파일을 읽고 기존 생성기 규칙에 맞춰 JS로 파생 파일을 산출했다.",
+    "Python 테스트 및 GitHub Actions 미실행. 원격 재읽기와 파일 간 정합성만 별도 확인한다.",
+    "원댓글 직접 열람은 아니며 연구자가 채록한 사용이다.",
+    "사라진 로컬 커밋 복구본이 아니다. main 및 기존 wave29 내용은 변경하지 않는다."
+  ]
+}

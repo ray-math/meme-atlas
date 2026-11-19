@@ -1,0 +1,117 @@
+{
+  "batch": 386,
+  "base": "ee3118efb6bd451591201382287d3bfce9000fa2",
+  "canonical_before": 985,
+  "canonical_after": 985,
+  "added": [],
+  "researchA": {
+    "held": "너구리 소환술",
+    "sources": [
+      "https://jijiscope.blog.jp/archives/17697069.html"
+    ],
+    "failed": [
+      "https://x.com/kongshamdu/status/2113572096588861748",
+      "https://x.com/kongshamdu/status/2113477008370069664"
+    ],
+    "limits": "소개1원문403두건동일저자,실제사용검증0;국적동물화일반별칭으로확대금지;영상사진0",
+    "duplicates": [
+      "라우럴",
+      "라을라",
+      "영원할"
+    ],
+    "queries": [
+      "\"밈\" \"2026\" \"직접\" site:brunch.co.kr -책",
+      "\"밈\" \"2026\" \"패러디\" site:ac.kr",
+      "\"밈\" \"2026\" \"만들었다\" \"공식\" -site:namu.moe -site:onmeme.com",
+      "\"라우럴\" \"넷플릭스\" 지수",
+      "\"라우럴\" \"패러디\" -site:enter.trendcuratorj.com",
+      "\"너구리 소환술\" -site:mendoi-apps.com",
+      "\"너구리 소환술\" site:x.com",
+      "\"일본인 소환술\" 한국 음식"
+    ]
+  },
+  "researchB": {
+    "base": "f5a84a31c9560385ce4d104b93c56659f4cf234a",
+    "recommended": 0,
+    "held": 5,
+    "rows": [
+      {
+        "id": "0097",
+        "note": "비공식영상집계/위키제목뿐,가창과밈재현구분"
+      },
+      {
+        "id": "0102",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=gfl2&no=7599522&page=1",
+        "note": "2026-11-16 12:00 헤이묭/파이널리어웨이크 텍스트1,이미지미검토"
+      },
+      {
+        "id": "0122",
+        "note": "게임정보와광고패러디구분,독립제작2건없음"
+      },
+      {
+        "id": "0129",
+        "url": "https://glass4.tistory.com/entry/인크레더블-밈Mr-Incredible-Becoming-Uncanny-사진-유래-만드는법-뇌절의-뇌절의-뇌절",
+        "note": "2022-02-22해설1 실제제작아님"
+      },
+      {
+        "id": "0130",
+        "url": "https://whitefaceone.tistory.com/2312",
+        "note": "2021-06-02해외영상소개1 국내재현아님"
+      }
+    ],
+    "queries": [
+      "\"이지 두 댄스\" \"2026\"",
+      "\"파이널리 어웨이크\"",
+      "\"마피아 시티\" \"2026\" 밈",
+      "\"언캐니\" \"2026\" 밈",
+      "\"mmmm cow\" 한국",
+      "\"늙어가는 인크레더블\" 제작",
+      "\"이지두댄스\" \"2026\" -site:nogomi-videos.ru",
+      "\"마피아 시티\" 패러디 만들",
+      "\"mmmm cow\" 밈",
+      "\"인크레더블\" \"밈\" \"만들\"",
+      "\"EZ DO DANCE\" \"패러디\" 한국"
+    ],
+    "limits": "사진영상0"
+  },
+  "independent_body_audit": {
+    "id": "cry-hell-sword",
+    "passed": true,
+    "required_changes": 0,
+    "sources_read": 2,
+    "limits": "2020광고제작보도1+2020~21직접프로젝트소개1,최근유행/기원확정안함,영상사진실물0"
+  },
+  "ci": {
+    "body984": {
+      "run": 44247268005,
+      "job": 134609124523,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 110.043
+    },
+    "body985": "pending",
+    "new_commit": "pending"
+  },
+  "followupA": {
+    "held": [
+      "요즘 애들은 이 낭만을 몰라",
+      "잠시 꺼두셔도 좋습니다"
+    ],
+    "sources": [
+      "https://v.daum.net/v/20260915183716963",
+      "https://news.nate.com/view/20260901n00360"
+    ],
+    "limits": "기사2매체 동일광고사건각1군.독립차용2군없음.영상사진0.",
+    "queries": [
+      "\"2026\" \"밈\" \"따라 했\" -site:namu.moe -site:onmeme.com",
+      "\"2026\" \"밈\" \"현수막\" -덕성 -site:namu.moe",
+      "\"2026\" \"밈\" \"직접 해\" site:tistory.com -버터런 -주식 -투자",
+      "\"요즘 애들은 낭만을 몰라\" \"2026\"",
+      "\"밈\" \"2026\" \"따라해봤\" -site:namu.moe -site:instagram.com -site:youtube.com",
+      "\"밈\" \"2026\" \"써먹\" -site:namu.moe",
+      "\"잠시 꺼두셔도 좋습니다\" \"2026\" -한석규 -갤럭시 -폴드 -스님",
+      "\"요즘 애들은\" \"낭만을 몰라\" -오정세 -꼬깔콘 -site:allsnsrank.com -site:namu.moe"
+    ]
+  }
+}

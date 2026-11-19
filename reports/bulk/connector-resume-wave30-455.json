@@ -1,0 +1,353 @@
+{
+  "batch": 455,
+  "base": "ea70fd20f2699ade7564c80c738f0beff9fa0c4d",
+  "canonical_before": 1172,
+  "canonical_after": 1182,
+  "added": [
+    "unfinished-bragging-story",
+    "long-flight-seat-choice",
+    "ottoke-song-cute-performance",
+    "hororollo-interview-remix",
+    "honmono-derogatory-label",
+    "hood-survival-chapter-caption",
+    "sama-internet-nickname",
+    "formerly-object-caption",
+    "walalallu-repeated-answer",
+    "anya-waku-waku-audio-remix"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0780",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "ottoke-song-cute-performance"
+    },
+    {
+      "id": "kr-list-1141",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "hororollo-interview-remix"
+    },
+    {
+      "id": "kr-list-1144",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "honmono-derogatory-label"
+    },
+    {
+      "id": "kr-list-1147",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "hood-survival-chapter-caption"
+    },
+    {
+      "id": "kr-list-0075",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "sama-internet-nickname"
+    },
+    {
+      "id": "kr-list-0081",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "formerly-object-caption"
+    },
+    {
+      "id": "kr-list-0802",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "walalallu-repeated-answer"
+    },
+    {
+      "id": "kr-list-0800",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "anya-waku-waku-audio-remix"
+    }
+  ],
+  "previous_ci": {
+    "run": 44279413489,
+    "job": 134715836481,
+    "steps": 65,
+    "tests": 495,
+    "seconds": 90.024,
+    "status": "success"
+  },
+  "previous_audit": {
+    "batch": 454,
+    "sha": "ea70fd20f2699ade7564c80c738f0beff9fa0c4d",
+    "new_bodies": 10,
+    "modified_bodies": 1,
+    "source_urls": 18,
+    "required_changes": 0,
+    "index_count": 1172,
+    "prior_rows_unchanged": 1162
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "recommended": [
+        780
+      ],
+      "existing_partial": [
+        757,
+        767,
+        787,
+        788
+      ],
+      "held": [
+        755,
+        756,
+        759,
+        760,
+        766,
+        768,
+        771,
+        775,
+        777,
+        779,
+        782,
+        783,
+        784,
+        786,
+        789
+      ],
+      "queries": [
+        "\"엄마도 사람이야 사람\" 패러디",
+        "\"에어맨이 쓰러지지 않아\" 패러디",
+        "\"여러분 이거 다 거짓말인 거 아시죠\" 패러디",
+        "\"오니기리 댄스\"",
+        "\"오또케 오또케\" 애교",
+        "\"오 샹젤리제\" 챌린지",
+        "\"오붕가\" 밈",
+        "\"ㅗㅜㅑ\" 뜻",
+        "\"오니기리\" \"댄스\" 밈",
+        "\"불곰이 쓰러지지 않아\" -site:namu.moe -site:seore.org -site:readonly.wiki",
+        "\"이거 다 거짓말인 거 아시죠\" 패러디 기사",
+        "\"영포티\" 밈 뜻"
+      ],
+      "sources": [
+        "https://playvod.imbc.com/Vod/ClipPlay?broadcastId=1004711100190100004",
+        "https://v.daum.net/v/20200520214130934?s=print_news"
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "recommended": [
+        800,
+        802
+      ],
+      "existing_partial": [
+        819
+      ],
+      "held": 17,
+      "queries": [
+        "\"와칭제노\" 뜻",
+        "\"요나요나 댄스\" 패러디",
+        "\"우마우마\" 패러디 기사",
+        "\"원앙시해자\" 밈",
+        "\"왈랄랄루\" 뜻",
+        "\"왕사슴 가이즈\"",
+        "\"와퍼\" 밈 패러디",
+        "\"와플\" 밈",
+        "\"오 필승 코리아\" 패러디 광고",
+        "\"옥동자\" \"얼굴도 못생긴\" 유행어",
+        "\"와쿠와쿠\" 밈",
+        "\"우리 업계에서는 포상입니다\" 뜻",
+        "\"오타쿠가 정치글을\"",
+        "\"왕이되는자\" \"패러디\"",
+        "\"요! 요요!\" 밈",
+        "\"우연히\" \"밈\""
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": [
+        "unfinished-bragging-story",
+        "long-flight-seat-choice"
+      ],
+      "existing": 13,
+      "partial": 1,
+      "held": 4,
+      "queries": [
+        "2026 밈 \"사진\" \"합성\" site:maily.so -trendaword",
+        "2026 밈 \"말투\" \"브랜드\" -site:instablank.com -site:namu.wiki",
+        "2026 \"밈\" \"소리\" site:letter.wepick.kr",
+        "\"숭어\" \"현대제철\" 밈",
+        "\"소문듣고 왔습니다\" \"잔망루피\"",
+        "\"자랑하는\" \"스토리\" \"듀오링고\"",
+        "\"이렇게 생기고 싶다\" \"스크럽대디\""
+      ]
+    },
+    "C": {
+      "count": 15,
+      "ids": [
+        "1131",
+        "1135",
+        "1140",
+        "1141",
+        "1142",
+        "1143",
+        "1144",
+        "1145",
+        "1147",
+        "1148",
+        "1149",
+        "1150",
+        "1152",
+        "1155",
+        "1156"
+      ],
+      "recommended": [
+        "1141",
+        "1144",
+        "1147"
+      ],
+      "partial_maintained": [
+        "1150",
+        "1156"
+      ],
+      "held": 10,
+      "queries": [
+        "\"호라\" \"젠젠\" 밈",
+        "\"호롤롤로\" 유래",
+        "\"호텔경제학\" 밈",
+        "\"혼모노\" 뜻 기사",
+        "\"후드에서 살아남기\" 기사",
+        "\"흑드라군\" 밈",
+        "\"호라 모 젠젠\"",
+        "\"황금마티즈\" 밈",
+        "\"후드에서 살아남기\" \"밈\"",
+        "\"호라\" \"멀쩡하잖아\"",
+        "\"호롤롤로\" \"패러디\"",
+        "\"황금마티즈\" \"놀이\"",
+        "\"헝그리 정신\" \"밈\"",
+        "\"헬테이커\" \"춤\" 밈",
+        "\"힙통령\" \"패러디\""
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "recommended": [
+        75,
+        81
+      ],
+      "existing_partial": [
+        51,
+        65,
+        67,
+        82
+      ],
+      "held": 14,
+      "queries": [
+        "\"11미터 모형탑\" 밈",
+        "\"1초만에 사람을 낚는 방법\"",
+        "\"64 bits\" \"밈\"",
+        "\"학개론\" \"밈\"",
+        "\"141\" \"밈\" 강원기",
+        "\"1557\" \"밈\" 기사",
+        "\"88848\" \"밈\" 기사",
+        "\"Point\" \"사회신용\" 밈",
+        "\"학개론\" \"패러디\"",
+        "\"해버리기\" 유행어",
+        "\"였던것\" 드립",
+        "\"사마\" \"만사마\" 유행어",
+        "\"학개론\" \"건축학개론\" \"패러디\" 방송",
+        "\"64비트\" 밈",
+        "\"를 알려주겠다\" 밈",
+        "\"들어올린다\" \"밈\"",
+        "\"연애학개론\" \"건축학개론\" 패러디",
+        "\"건축학개론\" \"학개론\" \"유행\"",
+        "\"사마\" \"유행어\" \"2005\"",
+        "\"였던 것\" \"드립\" -site:namu.moe -site:seore.org"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "unfinished-bragging-story",
+      "urls": [
+        "https://trendportal.kr/archives/1238/"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "long-flight-seat-choice",
+      "urls": [
+        "https://letter.wepick.kr/post/24177"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ottoke-song-cute-performance",
+      "urls": [
+        "https://v.daum.net/v/20200520214130934?s=print_news",
+        "https://playvod.imbc.com/Vod/ClipPlay?broadcastId=1004711100190100004"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hororollo-interview-remix",
+      "urls": [
+        "https://www.ytn.co.kr/_ln/0134_202002191145067152",
+        "https://whitefaceone.tistory.com/2307"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "honmono-derogatory-label",
+      "urls": [
+        "https://digitalchosun.dizzo.com/site/data/html_dir/2017/01/12/2017011212197.html",
+        "https://www.newsis.com/view/NISX20250401_0003122509"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hood-survival-chapter-caption",
+      "urls": [
+        "https://everymemes.tistory.com/592?category=945936",
+        "https://whitefaceone.tistory.com/3067"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sama-internet-nickname",
+      "urls": [
+        "https://www.domin.co.kr/news/articleView.html?idxno=468078"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "formerly-object-caption",
+      "urls": [
+        "https://whitefaceone.tistory.com/3133"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "walalallu-repeated-answer",
+      "urls": [
+        "https://whitefaceone.tistory.com/3043"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "anya-waku-waku-audio-remix",
+      "urls": [
+        "https://whitefaceone.tistory.com/2763"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "95 candidate expression reviews: 10 selected, 25 existing/partial,60 held. Reexaminations, not 95 newly discovered memes.",
+    "Two recent 2026 forms and eight bounded historical forms; Korean explanation of Waku Waku audio is not verified Korean production.",
+    "No original images/videos viewed; same-corporate broadcast sources not independent media groups."
+  ],
+  "query_observations": 7422,
+  "distinct_literal_queries": 6487,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

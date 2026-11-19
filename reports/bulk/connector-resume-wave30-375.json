@@ -1,0 +1,267 @@
+{
+  "batch": 375,
+  "base": "73581114b6f3578d40895a81c6f7d59c3ca66a66",
+  "canonical_before": 979,
+  "canonical_after": 980,
+  "added": [
+    "draw-how-i-treated-you"
+  ],
+  "researchA": {
+    "recommended": 0,
+    "held": 1,
+    "candidate": "Remember November 2026 / 노래하는 북극곰",
+    "leads": [
+      "https://t-stock.tistory.com/77",
+      "https://oraclip.com/ko/remember-november-ai"
+    ],
+    "scope": "검색결과만.직접원문0/국내사용검증0;정지이미지와후속노래형식동일시금지;인벤북극곰닉네임제외",
+    "existing": "under-arrest",
+    "index_ref_count": 978,
+    "queries": [
+      "\"2026\" \"밈\" \"제목을\" -site:namu.moe -site:namu.wiki -site:instablank.com",
+      "\"2026\" \"유행어\" \"따서\" -site:namu.moe -site:namu.wiki",
+      "\"2026\" \"밈\" \"자막\" \"공식\" -site:namu.moe -site:namu.wiki",
+      "\"2026\" \"11월\" \"북극곰\" \"밈\"",
+      "\"폴라베어\" \"밈\" -site:t-stock.tistory.com -site:namu.moe -site:namu.wiki",
+      "\"2026\" \"북극곰\" site:theqoo.net",
+      "\"2026\" \"북극곰\" site:inven.co.kr",
+      "\"Remember November\" \"2026\" site:dcinside.com",
+      "\"2026년 11월\" \"밈\" site:fmkorea.com",
+      "\"2026년 11월\" \"밈\" site:ruliweb.com",
+      "\"노래하는 북극곰\" -site:namu.moe -site:instablank.com -site:mendoi-apps.com -site:jjalnews.com"
+    ]
+  },
+  "researchA2": {
+    "recommended": 1,
+    "id": "draw-how-i-treated-you",
+    "queries": [
+      "\"2026\" \"밈\" \"패러디\" site:magazine.hankyung.com",
+      "\"2026\" \"밈\" \"직접\" site:brunch.co.kr -루팡 -포브스",
+      "\"2026\" \"유행어\" \"제목\" site:news.kbs.co.kr",
+      "\"2026\" \"그동안 나를\" \"그림\"",
+      "\"2026\" \"내가 너를\" \"대했는지\" 그림",
+      "\"2026\" \"밈\" \"최재운\" 그림"
+    ],
+    "index_queries": [
+      "treated",
+      "대했",
+      "대하는",
+      "그려",
+      "그림",
+      "이미지",
+      "chatgpt",
+      "gpt",
+      "AI"
+    ],
+    "sources": {
+      "sources": [
+        "https://rooftopsnow.tistory.com/260",
+        "https://stockist.tistory.com/1766",
+        "https://v.daum.net/v/20260927090138344"
+      ],
+      "confirmed": "1월28일/2월8일 직접실행자기보고2군+9월27일확산보도.원이미지대화0,사적건강구직정보제외;AI의식평가아님",
+      "index_title_summary_search": "대했|대해왔|대하는|그림|chatgpt|챗GPT|챗지피티|지브리",
+      "index_matches": "related broad entries only;needs narrow duplicate audit"
+    },
+    "limits": "실행자기보고2군 이미지대화0;언론은설명1군이지직접3번째사용아님;사용자성격/AI자아증거아님",
+    "existing": "old-creator-crew"
+  },
+  "editor": {
+    "queries": [
+      "\"북극곰\" \"November\" \"2026\" 한국 밈 -site:oraclip.com -site:namu.moe",
+      "\"영국맛을 살려야지\" \"2026\" -site:ryunan9903.tistory.com -site:namu.moe",
+      "\"영국맛을 살려야지\" site:gall.dcinside.com \"2026\"",
+      "\"영국맛을 살려야지\" site:blog.naver.com \"2026\"",
+      "\"영국맛을 살려야지\" site:maily.so"
+    ],
+    "direct_read": [
+      {
+        "url": "https://oraclip.com/ko/remember-november-ai",
+        "scope": "번역된제작서비스소개직접읽음;해외TikTok기원/리포스트설명은원문별검증안함;국내실제사용0"
+      },
+      {
+        "url": "https://t-stock.tistory.com/77",
+        "scope": "cachemiss;검색설명만"
+      }
+    ],
+    "limits": "다수밈설명SEO결과를독립국내사용으로세지않음;영국맛새직접근거0;추가3검색새결과없음Naverrobots"
+  },
+  "semantic_audit": {
+    "sha": "73581114b6f3578d40895a81c6f7d59c3ca66a66",
+    "rows": [
+      {
+        "id": "kr-list-0190",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0191",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0194",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0196",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0197",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0202",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0211",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0212",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0217",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0220",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0232",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0235",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0239",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0240",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0241",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0243",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0254",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0262",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0263",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0272",
+        "classification": "unclear",
+        "change": false
+      },
+      {
+        "id": "kr-list-0280",
+        "classification": "unclear",
+        "change": false
+      }
+    ],
+    "bodies_read": [
+      "ts-malfoy",
+      "dobby-is-free",
+      "jirida-reaction",
+      "menbung",
+      "no-there-is-none",
+      "kk-text-laughter",
+      "work-hard-leave"
+    ],
+    "reason": "인물/채널/짧은문장범위불명;공통뜻이나부분단어로특정대사연결안함.0241보고310미채택제안은확정으로승격안함.외부원형조사0.이번21+374의20=41새의미대조,행마다대응본문검증뜻아님.",
+    "queries": [
+      "리처드",
+      "거룡",
+      "거북",
+      "유방",
+      "거짓말",
+      "죽여",
+      "포터",
+      "경북",
+      "고누리",
+      "공항",
+      "과로사",
+      "굉장",
+      "구찌",
+      "그 XX",
+      "그건 니가",
+      "연회",
+      "정신을",
+      "죽어요",
+      "열심히",
+      "그런건",
+      "그런 건",
+      "게이야",
+      "근하하",
+      "긴또깡",
+      "김대기",
+      "꺼어억",
+      "꽈추",
+      "적절",
+      "대기",
+      "루리",
+      "노력",
+      "웃음",
+      "기절",
+      "없다",
+      "죽",
+      "구찌보이",
+      "김도",
+      "침착",
+      "우정잉"
+    ]
+  },
+  "ci": {
+    "body979": {
+      "run": 44244364126,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 56.416
+    },
+    "report374": {
+      "run": 44244502087,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 76.895
+    },
+    "new_commit": "pending"
+  }
+}

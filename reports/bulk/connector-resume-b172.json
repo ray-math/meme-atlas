@@ -1,0 +1,46 @@
+{
+  "base_sha": "2ae472c23f12cae2abc894b4910ce4b9207cc357",
+  "canonical_before": 881,
+  "canonical_after": 882,
+  "added": [
+    "age-reaction-challenge"
+  ],
+  "sources": [
+    {
+      "url": "https://maily.so/trendaword/posts/l1zq1gver5x",
+      "evidence": "직접 제목 차용 + 형식 해설"
+    },
+    {
+      "url": "https://gogumafarm.kr/거북아-그-속도론-알고리즘-못-따라가-당장-따라해야/",
+      "evidence": "사서 반납 지연 사례 보도. 원IG 접근 제한"
+    }
+  ],
+  "scope": "나이 본인/상대 조건 구분. 원영상 미시청. 같은 티켓 사례 이중계수 제외.",
+  "query_strings": [
+    "54000",
+    "54,000",
+    "오만",
+    "바나나",
+    "체포",
+    "배드",
+    "감자칼",
+    "개코",
+    "나이별",
+    "하지하지마",
+    "동엽",
+    "얼렁뚱",
+    "그러시구나",
+    "봄이구나",
+    "나이대",
+    "연령",
+    "연애 상대",
+    "나이에",
+    "age",
+    "age-reaction"
+  ],
+  "semantic_review": "동년배 드립과 고정문장 연기배틀과 구별; BAD는 ateez-bad-challenge 기존",
+  "checks": {
+    "python": "not-run",
+    "ci": "not-run"
+  }
+}

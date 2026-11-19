@@ -1,0 +1,41 @@
+{
+  "candidate": "only-you-are-missing",
+  "decision": "publish-one-family",
+  "canonical_before": 895,
+  "canonical_after": 896,
+  "queries": [
+    "너만",
+    "없더라",
+    "있음",
+    "2016",
+    "튜토리얼",
+    "알로사우루스",
+    "감성글귀",
+    "wow"
+  ],
+  "duplicate_review": "895 index 너만/없더라 및 영어·설명 필드 무일치. 2016은 기존2026-is-new-2016. 나머지 부분일치 의미중복 아님.",
+  "sources": [
+    {
+      "url": "https://btobcompany.kr/btob-behind/?bmode=view&idx=64949850",
+      "type": "official actual reuse",
+      "date": null,
+      "verified": "editor full body lines74–79"
+    },
+    {
+      "url": "https://maily.so/trendaword/posts/mjz6qpeyrwk",
+      "date": "2026-02-13",
+      "type": "newsletter own-title adaptation; fictional examples excluded"
+    },
+    {
+      "url": "https://theqoo.net/dohkyungsoo/4313230681",
+      "date": "2026-08-14",
+      "type": "direct community adaptation"
+    }
+  ],
+  "limits": [
+    "Not first-origin/date claim",
+    "No popularity magnitude claim",
+    "Three authoring contexts, not three new memes",
+    "CI and Python not run"
+  ]
+}

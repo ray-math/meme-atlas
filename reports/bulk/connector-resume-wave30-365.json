@@ -1,0 +1,105 @@
+{
+  "batch": 365,
+  "base": "345e6d4ae45586e34f9951218bda7d906b99d9b2",
+  "canonical_before": 975,
+  "canonical_after": 975,
+  "added": [],
+  "researchA": {
+    "observations": 4,
+    "existing": 1,
+    "held": 2,
+    "broad_excluded": 1,
+    "recommended": 0,
+    "existing_id": "give-up",
+    "sources": [
+      {
+        "url": "https://maily.so/marsinmarine/posts/xyow35g1r28",
+        "date": "2026-08-24",
+        "scope": "L80-86 reportsbrand2,originalbrandposts0; ownnewslettertitle uses등장이라1"
+      },
+      {
+        "url": "https://www.artinsight.co.kr/news/view.php?no=63370",
+        "date": "2023-02-14",
+        "scope": "L128-134 filmreview subheading복수는최고의용서;old1application,originalbannerunverified"
+      }
+    ],
+    "queries": [
+      "\"2026\" \"밈\" \"미술관\" 패러디",
+      "\"2026\" \"유행어\" \"뉴스레터\" -site:instablank.com -site:namu.moe -site:luckyvicky.moamoang.co.kr",
+      "\"2026\" \"밈\" \"자막\" \"철도\"",
+      "\"2026\" \"밈\" \"사보\"",
+      "\"2026\" \"밈\" \"대학교\" \"유튜브\" -site:namu.moe -site:namu.wiki",
+      "\"2026\" \"복수는 최고의 용서\" -site:easytip.kr -site:namu.moe",
+      "\"가로등\" \"신사\" \"밈\"",
+      "\"복수는 최고의 용서\" -site:namu.moe -site:namu.wiki -site:easytip.kr",
+      "\"삐에로의 등장이라\" \"2026\" -site:namu.moe -site:namu.wiki",
+      "\"하겠습니다 안하겠습니다\" \"2026\"",
+      "\"삐에로\" \"등장이라\" -site:namu.moe -site:namu.wiki",
+      "\"복수는 최고의 용서입니다\" \"2025\""
+    ],
+    "index_queries": [
+      "복수",
+      "가로등",
+      "등장이라",
+      "차가워",
+      "모시모시",
+      "하겠습니다",
+      "고민중",
+      "고민 중",
+      "할까",
+      "삐남",
+      "정통삐",
+      "삐에로"
+    ],
+    "limits": "Images/videos0. 가로등신사 broadcharacter,notvalidatedreusableformat."
+  },
+  "researchB": {
+    "ids": [
+      "0270",
+      "0274",
+      "0289",
+      "0326",
+      "0388"
+    ],
+    "already_included": 1,
+    "held": 4,
+    "recommended": 0,
+    "classification_changes": 0,
+    "queries": [
+      "\"깨어나세요 용사여\" \"2026\"",
+      "\"나노머신\" \"썬\" \"2026\"",
+      "\"너굴맨\" \"2026\"",
+      "\"픽토그램\" \"패러디\" \"2026\"",
+      "\"도쿄\" \"픽토그램\" \"패러디\" 한국",
+      "\"너굴맨이 처리\" \"2026\"",
+      "\"나노머신 썬\" -site:namu.moe",
+      "\"깨어나세요 용사여\" 패러디 -site:namu.moe",
+      "\"픽토그램\" \"패러디\" \"2021\" \"한국\"",
+      "\"너굴맨이 처리\" -site:namu.moe -site:seore.org"
+    ],
+    "sources": [
+      {
+        "url": "https://m.heroes.nexon.com/ucc/video/View?page=17&postno=1852",
+        "date": "2024-12-14 19:19",
+        "scope": "Creator description L17-19,video0,outside recentyear;not Nexonofficialproduction"
+      },
+      {
+        "url": "https://whitefaceone.tistory.com/2813",
+        "date": "2022-08-03",
+        "scope": "Explanationonly not2ndproduction"
+      }
+    ],
+    "limits": "0274alreadyincluded nochange. 0270homonymouswebtoon/gamestory;0388genericpictograms/retrospective no2neworiginals. 0326Apple429/Damoang403 unverified;AppSep2025outside recentyear."
+  },
+  "ci": {
+    "body975": {
+      "run": 44241873824,
+      "status": "in_progress_at_preparation"
+    },
+    "report362": {
+      "run": 44241671652,
+      "conclusion": "success",
+      "logs_not_inspected": true
+    }
+  }
+}

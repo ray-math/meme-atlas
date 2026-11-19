@@ -1,0 +1,417 @@
+{
+  "batch": 470,
+  "base": "d4d35045cdab151e981197715e1db122c430ee06",
+  "canonical_before": 1322,
+  "canonical_after": 1337,
+  "added": [
+    "pangtoa-inat-game-character-parody",
+    "bolkku-pen-decoration-sharing",
+    "loofah-crushing-asmr-suppu",
+    "thank-you-air-conversation-sighting-template",
+    "jeonggong-game-ableist-label",
+    "hwappu-cosmetic-case-asmr",
+    "lucky-frequency-wish-sharing",
+    "ai-suspect-motion-challenge",
+    "neungji-reversed-word-reaction",
+    "jinsuni-mild-ramen-nickname",
+    "jjijiri-derogatory-label",
+    "jjintta-derogatory-self-label",
+    "product-squishy-recreation",
+    "wax-ball-crushing-video",
+    "word-stress-shift-acting"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0925",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "pangtoa-inat-game-character-parody"
+    },
+    {
+      "id": "kr-list-0915",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "jeonggong-game-ableist-label"
+    },
+    {
+      "id": "kr-list-0359",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "ai-suspect-motion-challenge"
+    },
+    {
+      "id": "kr-list-0352",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "neungji-reversed-word-reaction"
+    },
+    {
+      "id": "kr-list-0965",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "jinsuni-mild-ramen-nickname"
+    },
+    {
+      "id": "kr-list-0972",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "jjijiri-derogatory-label"
+    },
+    {
+      "id": "kr-list-0974",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "jjintta-derogatory-self-label"
+    }
+  ],
+  "previous_ci": {
+    "run": 44295860166,
+    "job": 134772579273,
+    "steps": 65,
+    "conclusion": "success",
+    "python": "Ran 495 tests in 140.842s"
+  },
+  "previous_audit": {
+    "batch": 469,
+    "status": "PASS",
+    "mandatory": 0,
+    "head": "d4d35045cdab151e981197715e1db122c430ee06",
+    "canonical": 1322,
+    "added": 5,
+    "changed_files": 15,
+    "prior_entries_preserved": 1317,
+    "candidate_changed": 1,
+    "mapping_loss": 0,
+    "source_urls_read": 10,
+    "media_viewed": 0,
+    "notes": [
+      "cannot-hide origin uncertainty/reply enrichment verified",
+      "Setlog color-motion versus rapid horizontal versus simultaneous split-screen distinguished"
+    ]
+  },
+  "research": {
+    "A": {
+      "count": 20,
+      "existing": 12,
+      "recommended": 1,
+      "held": 7,
+      "queries": [
+        "\"정공겜\" 뜻",
+        "\"제 딸을 살해한 놈들을 15년 후에 죽여주세요\"",
+        "\"제너럴 조\" 패러디",
+        "\"제시 린가드\" \"밈\"",
+        "\"제네시스좌\"",
+        "\"조이는 보이\""
+      ],
+      "notes": [
+        "0915 source on disability disparagement recovered, potential critical-history only.0917privacyeventnotinvestigated.",
+        "0925 game creator direct self-report narrow partial; media0.0921violent-perpetratorglorificationexcluded."
+      ]
+    },
+    "A2": {
+      "count": 20,
+      "existing": 14,
+      "held": 6,
+      "recommended": 0,
+      "queries": [
+        "\"죄송합니다\" \"밈\" 박명수",
+        "\"죽습니다 진짜\" 밈",
+        "\"주갤 항복 선언문\"",
+        "\"주작송\" 패러디",
+        "\"좀비가 넘치는 세상에서 나만 공격받지 않는다\" 패러디",
+        "\"검은사막 주작송 패러디\"",
+        "\"주작송\" \"환상게임\""
+      ],
+      "notes": [
+        "0940singlecommunitycritique no independentlyverifiedsafevariation; adjacent popularityclaim differentphrases.",
+        "0945two different songs calledsamejoke label; originalvideos unavailable, no lyricscopied."
+      ]
+    },
+    "A3": {
+      "count": 20,
+      "existing": 14,
+      "recommended": 3,
+      "held": 3,
+      "queries": [
+        "\"지이잉\" 밈",
+        "\"진짠줄 알더라\"",
+        "\"진순이\" 밈",
+        "\"찌질이\" \"인터넷\"",
+        "\"직구 금지\" 패러디",
+        "\"진순이\" \"진라면\"",
+        "\"찐따\" \"비하\" 신문"
+      ],
+      "notes": [
+        "Jinsuni explanatoryblog+actualessay, notsales/qualityclaim.",
+        "Jjijiri originsconflict notmerged; jjintta criticalselflabelcontent onecolumn,notpersonalhistory.",
+        "Existingmunjjin derivativeonly."
+      ]
+    },
+    "B": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 7,
+      "existing_family": 1,
+      "held": 9,
+      "excluded": 1,
+      "queries": [
+        "2026 \"밈\" \"꾸미기\" -site:namu.moe -site:jjalbang.today",
+        "2026 \"챌린지\" \"사진\" site:allurekorea.com",
+        "2026 \"밈\" \"놀이\" site:univ20.com",
+        "\"젤리슈즈\" \"꾸미기\" 2026 슬기",
+        "\"2026 is the new 2016\" 한국",
+        "\"얼렁뚱땡이\" 2026",
+        "\"볼꾸\" 2026 \"직접\"",
+        "\"채꾸\" 2026",
+        "\"왁뿌볼\" 2026 \"영상\""
+      ],
+      "notes": [
+        "pen-decoration: two locations reporting; loofah-ASMR: onearticlemultiplevideos, media0.",
+        "Jelly shoes decoration existing sinkku; notnewfamily."
+      ]
+    },
+    "B2": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 2,
+      "same_family": 2,
+      "held": 10,
+      "excluded": 4,
+      "queries": [
+        "2026 \"왁뿌볼\" \"공유\" 뉴스",
+        "2026 \"밈\" \"신문\" \"유행어\" -site:namu.moe",
+        "2026 \"놀이\" \"SNS\" \"유행\" \"사진\" -site:instablank.com -site:jjalbang.today",
+        "2026 \"주파수\" \"행운 밈\"",
+        "\"화뿌\" 2026",
+        "2026 \"밈\" \"소셜\" \"연합뉴스\""
+      ],
+      "notes": [
+        "Hwappu sameEtudecase overlap notindependentextraexample.",
+        "Dinosaurfrequency samefamily as luckfrequency, notseparateentry.",
+        "Waxball concretecreation source recovered but held scope; no productpurchase or safetyclaim."
+      ]
+    },
+    "B3": {
+      "count": 20,
+      "recommended_recovered": 3,
+      "existing_observations": 5,
+      "existing_unique_ids": 4,
+      "family_variants": 3,
+      "held": 9,
+      "queries": [
+        "\"말랑이 콘테스트\" 2026 브랜드",
+        "\"단어\" \"강세\" \"연기 챌린지\"",
+        "\"왁뿌볼\" \"영상\" \"2026\" 소유진",
+        "2026 \"밈\" \"강세\" 연기",
+        "2026 \"밈\" \"7월\" site:allurekorea.com",
+        "2026 \"밈\" \"8월\" site:univ20.com",
+        "site:univ20.com 2026 \"유행어\"",
+        "site:allurekorea.com 2026 \"챌린지\" \"사진\""
+      ],
+      "notes": [
+        "Three recommendations recovered priorholds notnewdiscovery; multiplebrandsonecontestevent.",
+        "Same-lineacting emotionchanges vs wordstresspositions distinct rules.",
+        "Financialchart imagecandidates held:media0,partialoverseasuses,financialclaimsnotadopted."
+      ]
+    },
+    "C": {
+      "count": 20,
+      "recommended": 1,
+      "existing": 3,
+      "held": 16,
+      "queries": [
+        "\"OO 정보\" \"밈\" -site:gogumafarm.kr -site:instablank.com",
+        "\"앗아아\" \"밈\" 뜻 -site:namu.wiki -site:namu.moe",
+        "\"너무 고마우시다 진짜\" -site:instablank.com",
+        "\"껍던씸\" -site:instablank.com -site:jjalbang.today",
+        "\"비둘기야 먹자\" 패러디 기사",
+        "\"당신이 옳았어\" \"밈\" -site:namu.moe -site:namu.wiki",
+        "\"효과는 굉장했다\" \"포켓몬\" 패러디",
+        "\"그런 건 없다\" \"밈\" 패러디 -site:namu.wiki -site:namu.moe",
+        "\"자 이제 누가 악당이지\" 패러디",
+        "\"이것이 젊음인가\" 건담 패러디",
+        "\"이것은 뒷북이란다\" -site:namu.moe -site:namu.wiki",
+        "\"Remember November\" \"북극곰\"",
+        "\"나쁜 오리\" 밈 -site:namu.wiki -site:namu.moe",
+        "\"그럼 아이스티\" 밈",
+        "\"퇴사할게여\" 밈",
+        "\"한한미일\" 밈 -site:instablank.com",
+        "\"커터칼퇴\" -site:jjalbang.today -site:instablank.com",
+        "\"PPT 여우\" 밈 -site:instablank.com",
+        "\"못해솔로\" -site:instablank.com"
+      ],
+      "notes": [
+        "Existing hold reexamination not20newdiscoveries.",
+        "Incross exactnonwww body recovered; originalXunavailable. Concrete parody explained1, not2directposts.",
+        "PPTfox two sources same institutionalcontent notseparateparody."
+      ]
+    },
+    "C2": {
+      "count": 20,
+      "recommended": 2,
+      "conditional": 1,
+      "existing": 4,
+      "held": 13,
+      "queries": [
+        "\"너 개못하잖아\" 밈 유래",
+        "\"네가 하면 나도 한다\" 밈",
+        "\"설명해드렸습니다\" 밈",
+        "\"누나 나 죽어\" \"누나 좋아해요\" 밈",
+        "\"능지\" 신조어 기사 -site:namu.wiki -site:namu.moe",
+        "\"늬픽\" 밈 -site:namu.wiki -site:namu.moe",
+        "\"누가 범인일까\" 밈 패러디 -site:namu.wiki -site:namu.moe",
+        "\"단소 살인마\" 패러디 기사",
+        "\"닭팔이\" 밈 패러디 -site:namu.wiki -site:namu.moe",
+        "\"대기업에 입사한 아들의 깨달음\" -site:namu.wiki -site:namu.moe",
+        "\"독일초딩\" 패러디 기사",
+        "\"동전줍는 징징이\" -site:namu.wiki -site:namu.moe",
+        "\"동현이의 퍼니박스\" -site:namu.wiki -site:namu.moe",
+        "\"두원공대\" \"밈\" 기사",
+        "\"듀얼 만능주의\" 기사 -site:namu.wiki -site:namu.moe",
+        "\"더 마스터를 기억해줘\" -site:namu.wiki -site:namu.moe"
+      ],
+      "notes": [
+        "0359 specific AI-motionrecreation notgeneralcrimequestion.",
+        "0352 datedJan72021notFebissue; explanationandreportedcomment1group.",
+        "0369 conditionalSNLreenactment noactualcrimedetermination; originalvideo0.",
+        "0399explicitsexualeditdetailsnotreproduced; 0400adretrospectnotnewreuse."
+      ]
+    },
+    "editor": {
+      "count": 1,
+      "reexamined": 1,
+      "recommended": 1,
+      "queries": [],
+      "notes": [
+        "0915 worker held for editorialrisk; editor adopted neutral historical/critical entry on disabilitydisparagement, nocreativeinsultexamples,nomedicalclaim,sourcebodyread. OverlapsA14notadditionaluniquecandidate."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "pangtoa-inat-game-character-parody",
+      "urls": [
+        "https://xeries.tistory.com/82"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bolkku-pen-decoration-sharing",
+      "urls": [
+        "https://www.yeongnam.com/web/view.php?key=20260124021182456",
+        "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1008408829"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "loofah-crushing-asmr-suppu",
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20261029146200505"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "thank-you-air-conversation-sighting-template",
+      "urls": [
+        "https://incross.com/ko/insight/report.asp?idx=10989&mode=view&page=2&pageSize=12&searchStr=&serboardsort=9",
+        "https://www.huffingtonpost.kr/article/232094"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jeonggong-game-ableist-label",
+      "urls": [
+        "https://www.topdaily.kr/articles/22860"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "hwappu-cosmetic-case-asmr",
+      "urls": [
+        "https://incross.com/ko/insight/report.asp?idx=10978&mode=view",
+        "https://www.openads.co.kr/content/contentDetail?contsId=19974"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "lucky-frequency-wish-sharing",
+      "urls": [
+        "https://v.daum.net/v/20260415070206551"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "ai-suspect-motion-challenge",
+      "urls": [
+        "https://www.incross.com/ko/insight/report.asp?idx=10389&mode=view&page=1&pageSize=12&searchStr=&serboardsort="
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "neungji-reversed-word-reaction",
+      "urls": [
+        "https://shindonga.donga.com/society/article/all/13/2351134/1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jinsuni-mild-ramen-nickname",
+      "urls": [
+        "https://wisepeople.tistory.com/9",
+        "https://www.artinsight.co.kr/news/view.php?no=79863"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jjijiri-derogatory-label",
+      "urls": [
+        "https://www.imaeil.com/page/view/2006081015482640638",
+        "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0000717852"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "jjintta-derogatory-self-label",
+      "urls": [
+        "https://www.khan.co.kr/article/202405230600005"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "product-squishy-recreation",
+      "urls": [
+        "https://www.fastpapermag.com/2026/07/14/말랑이로-하나가-된-뷰티-브랜드들/",
+        "https://www.careet.net/1956"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "wax-ball-crushing-video",
+      "urls": [
+        "https://www.xportsnews.com/article/2154404",
+        "https://v.daum.net/v/20260717180213689"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "word-stress-shift-acting",
+      "urls": [
+        "https://incross.com/ko/insight/report.asp?idx=10978&mode=view"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "160 worker observations plus 1 overlapping editorial recheck; not161unique discovered memes.",
+    "15 bounded entries: current2026 formats and historical source recovery; historical doesn't require recentuse.",
+    "0915 criticalhistory only;0369conditionalreenactment remainsheld.",
+    "Same-line acting emotion vs emphasis position, waxball vs loofah vs cosmetics vs productmodels checked by distinct operations.",
+    "No privatechilddetail, medical/financialefficacy or lyrics adopted."
+  ],
+  "query_observations": 8764,
+  "distinct_literal_queries": 7527,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

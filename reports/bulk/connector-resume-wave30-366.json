@@ -1,0 +1,25 @@
+{
+  "batch": 366,
+  "base": "1c72588072e06d619645b372c7b05c7365dbc475",
+  "canonical_before": 975,
+  "canonical_after": 975,
+  "added": [],
+  "fix": {
+    "cause": "975 generated topics written to topics/README.md instead of collections/topics.md",
+    "changes": [
+      "Regenerate collections/topics.md",
+      "Remove accidentally added topics/README.md (absent in974)"
+    ],
+    "tests_unchanged": true
+  },
+  "ci": {
+    "failed_head": "20e31a8783d69f1be2e0c8a7fd0244d25a5cf007",
+    "run": 44241873824,
+    "job": 134591464074,
+    "tests": 495,
+    "failures": 1,
+    "seconds": 110.721,
+    "error": "test_generated_current: collections/topics.md differs",
+    "fixed_head": "pending"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "batch": 291,
+  "canonical_before": 928,
+  "canonical_after": 929,
+  "added": "aung-daung-challenge",
+  "research": {
+    "queries": [
+      "\"아웅다웅\" \"챌린지\" 에이티즈 2026",
+      "\"아웅다웅\" \"챌린지\" site:clip.imbc.com",
+      "\"아웅다웅\" \"챌린지\" 라이즈 위시",
+      "\"아웅다웅 챌린지\" 마마무",
+      "\"아웅다웅\" \"사나\" \"쯔위\""
+    ],
+    "index_queries": [
+      "아웅",
+      "다웅",
+      "Yyeon"
+    ],
+    "note": "Fanplus127472117 directbody distinct JangWonyoung/Liz fanconcert; officialvideo0. Theqoo4126245780 fanintro notwhichvideodisambiguated. DC3047957 repostmetadata notoriginal."
+  },
+  "evidence": {
+    "direct_read": [
+      "https://fanplus.co.kr/community/ive/127472117",
+      "https://www.incross.com/ko/insight/report.asp?idx=10748&mode=view",
+      "https://maily.so/trendaword/posts/mjz6qg3vrwk"
+    ],
+    "note": "Aungdaung additionalfanbodyMarch22 JangWonyoungLiz separateproduction reported; imagesvideos0. Incrossdateheader2026/internal2025 conflicting. Notyetcanonical."
+  },
+  "limits": "Two named productions inone editorial, independentfan observation ofthird; Incross genericparticipation supporting context. Originalvideo/image0; Wavbor search-only detail excluded; nofirstcreator assertion. Incross internaldate conflict explicit.",
+  "checks": {
+    "unique_ids": 929,
+    "title_alias_cross_id_collisions": 0,
+    "generator_base_roundtrip": true
+  },
+  "metrics": {
+    "query_observations": 2535,
+    "distinct_literal_queries": 2056
+  },
+  "ci": "not run"
+}

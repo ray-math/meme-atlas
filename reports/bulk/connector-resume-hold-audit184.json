@@ -1,0 +1,38 @@
+{
+  "base": "2acc90615746f2e30bb3ce43602071a7ce980172",
+  "canonical_count": 891,
+  "accepted": [],
+  "held": [
+    {
+      "candidate": "퇴사할게여",
+      "sources": [
+        "https://www.tenasia.co.kr/article/2026092889514",
+        "https://www.newsen.com/news_view.php?code=100100&uid=202609181418292410"
+      ],
+      "finding": "고아성 9월27일 자신의 SNS 및 육성재 9월17일 아이들 채널은 별개 영상. 그러나 모두 소연 신곡 홍보와 연결되어 독립 일반 사용자 재사용이나 고유 상황극 포맷을 입증했다고 세지 않음.",
+      "decision": "추가 실제 재사용 근거 대기. 기존177보류 갱신. 원영상 미시청."
+    }
+  ],
+  "explicit_queries": [
+    "퇴사",
+    "resign",
+    "quit",
+    "soyeon",
+    "소연",
+    "\"퇴사할게여\" \"챌린지\" \"직원\"",
+    "\"퇴사할게여\" \"챌린지\" \"공무원\""
+  ],
+  "checks": {
+    "index_entries": 891,
+    "unique_ids": 891,
+    "unique_paths": 891,
+    "normalized_cross_id_collisions": [],
+    "usage_coverage": {
+      "dictionary_entries": 891,
+      "annotated_entries": 74,
+      "reviewed_entries": 73,
+      "unannotated_entries": 817
+    }
+  },
+  "check_scope": "JavaScript 메모리 인덱스 검사. 원격891 재읽기 캐시 기반. 본문 전체/원영상/링크 유효성/월별목록 검사 아님. Python/CI 미실행."
+}

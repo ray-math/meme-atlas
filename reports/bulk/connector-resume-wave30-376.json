@@ -1,0 +1,238 @@
+{
+  "batch": 376,
+  "base": "68c3c6fe77ff8107bcf736d038ac88ab3032db2c",
+  "canonical_before": 980,
+  "canonical_after": 980,
+  "added": [],
+  "researchB": {
+    "candidates": 5,
+    "recommended": 0,
+    "held": 5,
+    "ref": "73581114b6f3578d40895a81c6f7d59c3ca66a66",
+    "rows": [
+      {
+        "id": "0451",
+        "note": "마이야히최근국내재사용0"
+      },
+      {
+        "id": "0478",
+        "url": "https://whitefaceone.tistory.com/3070",
+        "note": "2022-10-22해설1최근제작0"
+      },
+      {
+        "id": "0487",
+        "url": "https://m.eqlstore.com/special/16147/view",
+        "note": "EQL협업소제목직접차용1날짜없고2026-03사건언급.OTL빈본문/인벤502/Nate디코딩실패/YES24find무일치제외.원전개인학교서사제외"
+      },
+      {
+        "id": "0491",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=projectmx&no=11231382",
+        "note": "2024-05-21춤참가자기보고1기간밖영상0"
+      },
+      {
+        "id": "0517",
+        "url": "https://maily.so/leadnight.official/posts/1gz2715nr3q",
+        "note": "2025-12-03제목직접1음악소개라별도밈형식미확인"
+      }
+    ],
+    "queries": [
+      "\"마이야히\" \"2026\"",
+      "\"모스카우\" \"2026\"",
+      "\"무츠키 댄스\" \"2026\"",
+      "\"무수히 많은 악수의 요청\" \"2026\"",
+      "\"미쿠미쿠하게 해줄게\" \"2026\"",
+      "\"무수한 악수의 요청\" \"2026\"",
+      "\"무츠키 댄스\" 만들",
+      "\"모스카우\" 패러디 제작",
+      "\"무수히 많은 악수\" -site:namu.moe -site:ilbe.com -site:eqlstore.com",
+      "\"마이야히\" \"패러디\" 한국",
+      "\"무츠키 댄스\" -site:namu.moe",
+      "\"무수히 많은 악수의 요청\" -site:namu.moe -site:inven.co.kr -site:ilbe.com -site:eqlstore.com -site:piajoa.pe.kr",
+      "\"무수한 악수\" 브랜드 협업"
+    ]
+  },
+  "editor": {
+    "candidates": [
+      "AI roast me",
+      "나와내직업캐리커처"
+    ],
+    "recommended": 0,
+    "queries": [
+      "\"2026\" \"로스트 미\" \"해봤\"",
+      "\"2026\" \"챗GPT\" \"독설\" \"블로그\"",
+      "\"2026\" \"나와 내 직업\" \"캐리커처\" 후기",
+      "\"로스트미\" \"2026\" 후기",
+      "\"roast me\" \"2026\" site:tistory.com",
+      "\"캐리커처\" \"2026\" \"해봤\" 챗",
+      "\"roast me\" \"2026\" \"해봤다\" -site:journal0624.tistory.com",
+      "\"로스트\" \"2026\" \"챗GPT\" \"해봤\""
+    ],
+    "sources": [
+      {
+        "url": "https://darm.tistory.com/343",
+        "scope": "2025-11-19실행자기보고1직접;민감주변정보제외"
+      },
+      {
+        "url": "https://bonita-sy.tistory.com/",
+        "scope": "홈에2025-10-16후기본문일부,개별본문cachemiss최근기간밖"
+      },
+      {
+        "url": "https://v.daum.net/v/20260927090138344",
+        "scope": "이전직접확인설명보도1"
+      }
+    ],
+    "limits": "최근독립국내직접후기2미확보.일본note한국어자동번역국내사용으로안셈;관상인성추정기각;캐리커처는검색설명뿐"
+  },
+  "semantic_audit": {
+    "sha": "68c3c6fe77ff8107bcf736d038ac88ab3032db2c",
+    "scope": "automatic_title_alias_match first20 of328",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0054",
+        "dictionary_id": "whos-on-first",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0056",
+        "dictionary_id": "received-billion",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0070",
+        "dictionary_id": "gak-situation",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0071",
+        "dictionary_id": "gap-best",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0073",
+        "dictionary_id": "musae-repeat",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0074",
+        "dictionary_id": "ming-out",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0078",
+        "dictionary_id": "hajyu-speech",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0091",
+        "dictionary_id": "chill-guy",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0099",
+        "dictionary_id": "gg",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0107",
+        "dictionary_id": "down-team-is-down",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0121",
+        "dictionary_id": "take-the-l",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0133",
+        "dictionary_id": "otl",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0135",
+        "dictionary_id": "pet-the-peepo",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0138",
+        "dictionary_id": "ppap",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0140",
+        "dictionary_id": "queen-never-cry",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0148",
+        "dictionary_id": "tmi",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0150",
+        "dictionary_id": "ubd",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0158",
+        "dictionary_id": "horizontal-instinct",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0164",
+        "dictionary_id": "gazua",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0166",
+        "dictionary_id": "gan-because",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      }
+    ],
+    "bodies_read": 20,
+    "classification_changes": 0,
+    "limits": "20/328핵심의미범위대응검토.외부유래연도확산재검증0/영상0.나머지308완료주장아님;원래자동분류보존하고별도감사기록."
+  },
+  "independent_body_audit": {
+    "id": "draw-how-i-treated-you",
+    "sha": "68c3c6fe77ff8107bcf736d038ac88ab3032db2c",
+    "passed": true,
+    "required_changes": 0,
+    "sources_read": 3,
+    "comparative_bodies": [
+      "54000",
+      "ai-sapporo-shot",
+      "you-nailed-the-point"
+    ],
+    "limits": "실행자기보고2+설명보도1;이미지대화실행직접검증0;AI감정자아증거아님;목록CI제외"
+  },
+  "ci": {
+    "body980": {
+      "run": 44244866531,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 73.624
+    },
+    "new_commit": "pending"
+  }
+}

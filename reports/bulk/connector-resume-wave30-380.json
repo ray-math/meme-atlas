@@ -1,0 +1,81 @@
+{
+  "batch": 380,
+  "base": "e3d3dc7dc34dec757c2eee561a36231ac2c54b08",
+  "canonical_before": 981,
+  "canonical_after": 982,
+  "added": [
+    "come-out-its-me-remix"
+  ],
+  "researchA": {
+    "recommended": 1,
+    "id": "come-out-its-me-remix",
+    "sources": [
+      "https://www.osen.co.kr/article/G1112817594",
+      "https://playvod.imbc.com/Templete/VodView?bid=1003594101822100000",
+      "https://enews.imbc.com/News/RetrieveNewsInfo/514758",
+      "https://www.harpersbazaar.co.kr/article/1905258"
+    ],
+    "scope": "별도따라부름보도1+공식소개/사진기사제목직접2(같은MBC군)+바자맥락설명;영상사진0;공항당사자발언아님/6-20방송일페이지작성일아님/옛구호기원미확인",
+    "comparison": [
+      "same-line-acting-challenge",
+      "boomshakalaka-backpack"
+    ],
+    "held": [
+      "소주바리한잔만 설명1군",
+      "내돈내땀 동일계정소개중복"
+    ],
+    "existing": [
+      "young-creator-crew",
+      "old-creator-crew",
+      "pelvis-wont-stop"
+    ],
+    "queries": [
+      "\"2026\" \"밈\" site:univ20.com -라우럴",
+      "\"2026\" \"밈\" site:allurekorea.com -감자칼",
+      "\"2026\" \"밈\" site:elle.co.kr -감자칼",
+      "\"2026\" \"밈\" site:gqkorea.co.kr",
+      "\"2026\" \"패러디\" site:esquirekorea.co.kr",
+      "\"2026\" \"밈\" site:harpersbazaar.co.kr",
+      "\"소주바리 한 잔만\" 패러디",
+      "\"소주바리\" \"2026\"",
+      "\"내돈내땀\" 사우나",
+      "\"안 나오면 쳐들어간다\" \"2026\" 챌린지",
+      "\"안나오면 쳐들어간다\" 아일릿 패러디"
+    ],
+    "index_queries": [
+      "쳐들어",
+      "처들어",
+      "잇츠미",
+      "It's Me",
+      "안나오면",
+      "붐 믹스",
+      "붐 리믹스",
+      "It’s Me"
+    ]
+  },
+  "editor": {
+    "sources": [
+      "https://www.osen.co.kr/article/G1112817594",
+      "https://playvod.imbc.com/Templete/VodView?bid=1003594101822100000",
+      "https://enews.imbc.com/News/RetrieveNewsInfo/514758"
+    ],
+    "read": "OSEN2026-06-09태연따라부름보도;MBC6/20회차소개직접문구+iMBC8/14사진기사제목직접문구.후자둘같은매체군.영상사진0,재연당사자발언과편집자제목구분."
+  },
+  "ci": {
+    "body981": {
+      "run": 44245403465,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 58.474
+    },
+    "report378": {
+      "run": 44245556320,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 75.823
+    },
+    "new_commit": "pending"
+  }
+}

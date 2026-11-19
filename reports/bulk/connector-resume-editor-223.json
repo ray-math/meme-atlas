@@ -1,0 +1,65 @@
+{
+  "id": "completely-lost-their-minds",
+  "title": "○○는 완전히 멘탈이 나가버렸습니다",
+  "direct_uses": [
+    {
+      "url": "https://securities.miraeasset.com/bbs/download/2143452.pdf?attachmentId=2143452",
+      "date": "2026-03-27",
+      "scope": "cover subtitle only"
+    },
+    {
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008471266",
+      "date": "2026-03-10",
+      "scope": "sports title, video unviewed"
+    }
+  ],
+  "context": "https://typecast.ai/kr/learn/typecast-piljae-ai-voice-youtube-shorts/",
+  "limitations": "intent inference; no first creator/date; do not carry investment/technology or mental-health claims",
+  "index_queries": [
+    "거제야호",
+    "니가좋아",
+    "감옥에서",
+    "라을라",
+    "동결건조",
+    "No Roots",
+    "멘탈이",
+    "멘탈",
+    "나가버렸",
+    "장인이",
+    "유유미미",
+    "필재"
+  ],
+  "web_queries": [
+    "\"2026\" \"밈을 활용\" \"도서관\"",
+    "\"2026\" \"밈\" \"패러디\" \"박물관\"",
+    "\"2026\" \"유행어\" \"공식\" \"11월\"",
+    "\"2026\" \"패러디\" \"박물관\" -site:luckyvicky.moamoang.co.kr",
+    "\"거제 야호\" \"패러디\"",
+    "\"2026\" \"밈\" \"우체국\"",
+    "\"2026\" \"밈\" \"우체국\" -site:namu.moe",
+    "\"2026\" \"밈\" \"박물관\" \"홍보\"",
+    "\"2026\" \"밈\" \"소방서\" \"패러디\"",
+    "\"완전히 멘탈이 나가버렸습니다\" -site:luckyvicky.moamoang.co.kr",
+    "\"2026\" \"밈\" \"도서관\" \"홍보\"",
+    "\"2026\" \"밈\" \"패러디했다\" -site:namu.moe"
+  ],
+  "base": "ffbee3e265148adbd2ed51ccd30fda2b2fb57136",
+  "canonical_before": 901,
+  "canonical_after": 902,
+  "editor_sources_reread": 3,
+  "pdf_screenshot": "failed; extracted first-page text only",
+  "ci": "not run",
+  "prior_independent_audit": {
+    "fixed_sha": "a7ba12d6b7b733c6a87072bb3baf1e76bda2af4f",
+    "id": "expensive-but-want-again",
+    "worker": "candidate_batch_c",
+    "result": "pass",
+    "index": 901,
+    "unique": 901,
+    "readme": 901,
+    "manual": 75,
+    "source_texts": 3,
+    "limitations": "newsletter own title is variation; unviewed videos/images; prices not current facts",
+    "ci": "not run"
+  }
+}

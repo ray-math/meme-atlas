@@ -1,0 +1,49 @@
+{
+  "base_sha": "988f895214f7ce8ac44f01458684ce02f6d9f798",
+  "canonical_before": 882,
+  "canonical_after": 883,
+  "added": [
+    "fight-briefing-parody"
+  ],
+  "sources": [
+    {
+      "url": "https://www.seoul.co.kr/news/sport/worldcup2026/2026/06/30/20260630500118",
+      "date": "2026-06-30",
+      "evidence": "원전245–247, 홍천적용257–260"
+    },
+    {
+      "url": "https://news.tf.co.kr/read/soccer/2338125.htm",
+      "date": "2026-06-30",
+      "evidence": "춘천 별도적용37, 홍천중복39 제외"
+    }
+  ],
+  "query_strings": [
+    "싸워",
+    "단어 알지",
+    "홍명보",
+    "싸워 전술",
+    "산불",
+    "FIGHT",
+    "니가 좋아",
+    "로드스터",
+    "빅가이",
+    "BIG GUY",
+    "빅 가이",
+    "원주만두",
+    "프랑스"
+  ],
+  "held": [
+    "BIG GUY:독립국내사용부족",
+    "원주만두/프랑스:정확한형식과별도사용부족"
+  ],
+  "limits": [
+    "원영상 미시청",
+    "경기일 상충 제외",
+    "인물의 성적/사퇴/능력 판단 제외",
+    "졸업사진 학생 정보 제외"
+  ],
+  "checks": {
+    "python": "not-run",
+    "ci": "not-run"
+  }
+}

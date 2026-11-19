@@ -1,0 +1,28 @@
+{
+  "batch": 288,
+  "canonical_before": 927,
+  "canonical_after": 927,
+  "added": [],
+  "audit": {
+    "id": "chongqing-motorcycle-reels",
+    "sha": "3b3ebb8cdf74ec012086cab3b407e4e0458552fd",
+    "result": "pass-no-required-changes",
+    "scope": "body, three direct source pages, index and two lists",
+    "unique_ids": 927,
+    "source_dates": [
+      "2026-02-26",
+      "2026-04-01",
+      "2026-08-18"
+    ],
+    "distinct_productions_reported": 2,
+    "original_videos_watched": 0,
+    "limits": "Full diff, derived fixture and CI not independently audited. KwakBeom production inChina not domesticshoot. Firstorigin and requiredmusic unconfirmed.",
+    "safety": "stationary props, consent, no traffic interference, no nationality ridicule"
+  },
+  "metrics": {
+    "query_observations": 2471,
+    "distinct_literal_queries": 2002
+  },
+  "metric_note": "Audit checks not added to collection query ledger.",
+  "ci": "not run"
+}

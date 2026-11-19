@@ -1,0 +1,12 @@
+{
+  "base": "8580c3df95e2c4ff27fef3a9a382fef7165b558e",
+  "canonical": 930,
+  "previous_run": 44225392439,
+  "python_tests": 495,
+  "failed": 1,
+  "resolved_pinned_body_failures": 4,
+  "remaining": "generated index mismatch",
+  "fix": "remove empty aliases array from lying-down-yang-euiji to match build_index.py omission rule",
+  "tests_modified": false,
+  "validation": "new CI pending"
+}

@@ -1,0 +1,50 @@
+{
+  "batch": 364,
+  "base": "20e31a8783d69f1be2e0c8a7fd0244d25a5cf007",
+  "canonical_before": 975,
+  "canonical_after": 975,
+  "added": [],
+  "independent_audit": {
+    "id": "peolleok-flag-reaction",
+    "result": "passed;no mandatorycorrections",
+    "source_bodies": 3,
+    "related_bodies": [
+      "jumo-cheer",
+      "gukppong"
+    ],
+    "scope": "Directcomments onthree separate sites/posts;notverifiedauthoridentity independence. Videos/images0;noorigin/new2026claim. Derivativefiles outside audit."
+  },
+  "editor": {
+    "queries": [
+      "\"64 bits\" \"2026\" 밈",
+      "\"문단속\" \"밈\" \"2026\"",
+      "\"11미터\" \"밈\"",
+      "\"문단속\" \"2026\" \"패러디\" -site:namu.moe",
+      "\"11미터 모형탑\" -site:namu.moe -site:uge.co.kr",
+      "\"64 bits\" \"한국\" 패러디 -site:namu.moe"
+    ],
+    "candidate_ids": [
+      "kr-list-0052",
+      "kr-list-0062",
+      "kr-list-0065"
+    ],
+    "recommended": 0,
+    "status": "hold;no verifiednewapplication",
+    "limits": "64bits resultswiki/foreign/nonmeme;doorlock resultsfilm/oldfanficnotrecentformat. 11meterSBS2013originalreportlead searchsnippetonly,directopen cachemiss. Noimages/videosread.",
+    "failed_url": "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1001775513"
+  },
+  "ci": {
+    "body975": {
+      "run": 44241873824,
+      "job": 134591464074,
+      "status": "in_progress_at_preparation"
+    },
+    "body974": {
+      "run": 44241224283,
+      "conclusion": "success",
+      "steps": 65,
+      "python_tests": 495,
+      "seconds": 108.634
+    }
+  }
+}

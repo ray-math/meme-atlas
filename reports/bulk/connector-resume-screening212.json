@@ -1,0 +1,190 @@
+{
+  "canonical_count": 898,
+  "added": 0,
+  "queries": [
+    "핵심을",
+    "매끈",
+    "간식을",
+    "에겐",
+    "귀하게",
+    "난리자베스",
+    "운동많이",
+    "아자스",
+    "갈테야",
+    "할렐야루",
+    "갑차기",
+    "읽지않음",
+    "사과받",
+    "사과받고싶어요",
+    "누가내간식",
+    "에겐테토",
+    "핑퐁",
+    "헤어질",
+    "결정장애",
+    "하겠습니다",
+    "포기하",
+    "안하겠",
+    "진행하",
+    "사과",
+    "누가돌아",
+    "흑곰"
+  ],
+  "index_hits": [
+    {
+      "query": "핵심을",
+      "ids": [
+        "cider-relief",
+        "you-nailed-the-point"
+      ]
+    },
+    {
+      "query": "매끈",
+      "ids": [
+        "smooth-smooth"
+      ]
+    },
+    {
+      "query": "간식을",
+      "ids": [
+        "bring-melona",
+        "hajyu-speech",
+        "stop-bottom-dealing"
+      ]
+    },
+    {
+      "query": "에겐",
+      "ids": []
+    },
+    {
+      "query": "귀하게",
+      "ids": [
+        "precious-me-watch-this"
+      ]
+    },
+    {
+      "query": "난리자베스",
+      "ids": [
+        "nanrijabeth"
+      ]
+    },
+    {
+      "query": "운동많이",
+      "ids": []
+    },
+    {
+      "query": "아자스",
+      "ids": [
+        "azasu"
+      ]
+    },
+    {
+      "query": "갈테야",
+      "ids": [
+        "galteyateya"
+      ]
+    },
+    {
+      "query": "할렐야루",
+      "ids": [
+        "hallelyaru"
+      ]
+    },
+    {
+      "query": "갑차기",
+      "ids": [
+        "gapchagiseureounde"
+      ]
+    },
+    {
+      "query": "읽지않음",
+      "ids": []
+    },
+    {
+      "query": "사과받",
+      "ids": []
+    },
+    {
+      "query": "사과받고싶어요",
+      "ids": []
+    },
+    {
+      "query": "누가내간식",
+      "ids": []
+    },
+    {
+      "query": "에겐테토",
+      "ids": []
+    },
+    {
+      "query": "핑퐁",
+      "ids": []
+    },
+    {
+      "query": "헤어질",
+      "ids": []
+    },
+    {
+      "query": "결정장애",
+      "ids": []
+    },
+    {
+      "query": "하겠습니다",
+      "ids": [
+        "give-up"
+      ]
+    },
+    {
+      "query": "포기하",
+      "ids": [
+        "give-up",
+        "giving-up-easy",
+        "jonbeo",
+        "jung-kkeok-ma"
+      ]
+    },
+    {
+      "query": "안하겠",
+      "ids": []
+    },
+    {
+      "query": "진행하",
+      "ids": [
+        "give-up",
+        "mukbang"
+      ]
+    },
+    {
+      "query": "사과",
+      "ids": [
+        "ppap",
+        "sorry-for-being-cute"
+      ]
+    },
+    {
+      "query": "누가돌아",
+      "ids": []
+    },
+    {
+      "query": "흑곰",
+      "ids": []
+    }
+  ],
+  "duplicates": {
+    "하겠습니다 안 하겠습니다": "give-up"
+  },
+  "holds": {
+    "사과받고 싶어요": "Recent safe direct independent applications not established; appearance-mockery contexts not promoted",
+    "누가 내 간식을 먹었을까": "Institutional glossary description establishes mention, not two independent recreations"
+  },
+  "sources": [
+    "https://letter.wepick.kr/post/26039",
+    "https://www.kca.go.kr/webzine/board/view?div=kca_2603&linkId=988&menuId=MENU00330",
+    "https://www.khan.co.kr/article/202610240600001/amp"
+  ],
+  "verification": "Editor reread Wepick and KCA; Khan worker read only",
+  "limits": [
+    "General substring hits not semantic duplicates automatically",
+    "Original interview sender and private screenshot claims not adopted",
+    "CI not run"
+  ]
+}

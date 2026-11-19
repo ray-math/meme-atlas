@@ -1,0 +1,42 @@
+{
+  "batch": 426,
+  "base": "420782544194a44708c293172865499a5ed1bb58",
+  "canonical_before": 1003,
+  "canonical_after": 1004,
+  "added": [
+    "promised-two-oclock"
+  ],
+  "research_reference": "reports/bulk/connector-resume-wave30-425.json",
+  "new_queries": 0,
+  "candidate_changes": [],
+  "independent_audit": {
+    "candidate": "약속의2시",
+    "passed": true,
+    "source_reads": 4,
+    "related_body_reads": 1,
+    "note": "더쿠3글 날짜상이,익명작성자독립3인미확정.뉴스1설명보조는추가직접사용아님.상승/하락법칙아닌시간기대·체념농담.가격통계매매원인제외.championship-stock-sale와구별"
+  },
+  "editor_source_reads": 4,
+  "images_videos": 0,
+  "limits": [
+    "익명게시글3건은독립작성자3인확정아님",
+    "뉴스1해설은추가직접사용아님",
+    "투자법칙·통계·매매전략채택안함",
+    "최초발생미확정"
+  ],
+  "ci1003": {
+    "sha": "ff3a60ec10200af2e3071caf0b4d21a648fc6013",
+    "run": 44259575017,
+    "job": 134649361892,
+    "success": true,
+    "steps": 65,
+    "tests": 495,
+    "seconds": 78.698
+  },
+  "ci425": {
+    "run": 44259769189,
+    "job": 134650000577,
+    "status": "last observed in_progress"
+  },
+  "ci_new_commit": "pending"
+}

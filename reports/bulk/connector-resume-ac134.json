@@ -1,0 +1,48 @@
+{
+  "batch": "connector-resume-ac134",
+  "base": "a3f55de997301e7aa5bcfc30ab5aeea9b0d54650",
+  "entries": [
+    {
+      "id": "work-and-bow",
+      "independent_usage_events": 2,
+      "sources": [
+        {
+          "url": "https://brunch.co.kr/@sterdam/99",
+          "observed": "2015-11-09 상사관리 설명에 우스갯소리라고 명시."
+        },
+        {
+          "url": "https://brunch.co.kr/@critic/122",
+          "observed": "2018-04-03 일도 절도 안한다는 의도적 말장난."
+        }
+      ]
+    },
+    {
+      "id": "sorry-sorry-dance",
+      "independent_usage_events": 2,
+      "sources": [
+        {
+          "url": "https://www.segye.com/newsView/20090522001614",
+          "observed": "2009-05-22 굽신굽신 개사·댄스. 디시뉴스 표기 재전재. 제작사는 추측이라 쓰지않음."
+        },
+        {
+          "url": "https://sports.khan.co.kr/article/200905152008086",
+          "observed": "2009-05-15 항공사 직원 안무 영상. 원영상은 미시청."
+        }
+      ],
+      "bounds": "가사 인용 없음. 촬영 출입권한을 추정하지 않음."
+    }
+  ],
+  "held": [
+    {
+      "id": "chair-dance",
+      "reason": "두번째 한국경제 원문 이번 재열람 403. 독립 근거 재확보 대기."
+    }
+  ],
+  "checks": {
+    "result_entries": 849,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

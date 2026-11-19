@@ -1,0 +1,509 @@
+{
+  "batch": 526,
+  "base": "a0437caaa8124ed33ab65b733e4f555539e8cda9",
+  "canonical_before": 1898,
+  "canonical_after": 1908,
+  "added": [
+    "shield-defense-action-word",
+    "skrr-hiphop-style-interjection",
+    "geumsappa-geumsasik-romance-short-forms",
+    "nekarakubae-tech-company-short-name",
+    "beop-bless-you-restrained-anger-wordplay",
+    "thats-no-no-refusal-catchphrase",
+    "gomak-namchin-yeochin-sweet-voice-label",
+    "seupo-spoiler-warning-short-form",
+    "bulpeom-unauthorized-reposting-short-form",
+    "nun-gwi-hogang-sensory-pleasure-family"
+  ],
+  "candidate_changes": [],
+  "previous_ci": {
+    "run": 44377103415,
+    "job": 135059055216,
+    "sha": "a0437caaa8124ed33ab65b733e4f555539e8cda9",
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 211.610s"
+    ]
+  },
+  "previous_final_audit": {
+    "status": "PASS",
+    "required": 0,
+    "sha": "a0437caaa8124ed33ab65b733e4f555539e8cda9",
+    "files": 19,
+    "total": 1898,
+    "oldBodiesUnchanged": 1888,
+    "queryRows": 13946,
+    "distinctLiteralQueries": 11419
+  },
+  "sources": [
+    {
+      "id": "shield-defense-action-word",
+      "urls": [
+        "https://www.donga.com/news/Life/article/all/20101230/33578742/4",
+        "https://www.clien.net/service/board/park/19293687"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "skrr-hiphop-style-interjection",
+      "urls": [
+        "https://news.nate.com/view/20250224n34456",
+        "https://news.nate.com/view/20260320n14614?mid=e1200"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "geumsappa-geumsasik-romance-short-forms",
+      "urls": [
+        "https://www.imaeil.com/page/view/2011122923083344347",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/449655"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nekarakubae-tech-company-short-name",
+      "urls": [
+        "https://biz.korea.ac.kr/cdc/academic/lecture_view.html?cate=&key=&keyfield=&no=3664&page=",
+        "https://www.pknu.ac.kr/main/163?action=view&no=724910"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "beop-bless-you-restrained-anger-wordplay",
+      "urls": [
+        "https://www.ajunews.com/view/20180408151656910",
+        "https://www.kukinews.com/article/view/kuk201901220204"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "thats-no-no-refusal-catchphrase",
+      "urls": [
+        "https://v.daum.net/v/ckG0SeRYfO",
+        "https://tongblog.sdm.go.kr/2801"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gomak-namchin-yeochin-sweet-voice-label",
+      "urls": [
+        "https://www.tenasia.co.kr/article/2017051916084",
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03804806645387584"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "seupo-spoiler-warning-short-form",
+      "urls": [
+        "https://v.daum.net/v/20190112080056465",
+        "https://news.nate.com/view/20260721n22321"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bulpeom-unauthorized-reposting-short-form",
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1000925898",
+        "https://v.daum.net/v/3hweiK9UlG"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "nun-gwi-hogang-sensory-pleasure-family",
+      "urls": [
+        "https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=57&pageIndex=1&qna_seq=338387&searchCondition=&searchKeyword=",
+        "https://www.etoday.co.kr/news/view/2576996",
+        "https://v.daum.net/v/20260102000122907",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/505560",
+        "https://world.kbs.co.kr/service/contents_view.htm?board_code=music_news&board_seq=469374&id=&lang=k&menu_cate=enternews&page=79"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening": {
+    "groups": [
+      {
+        "id": "B642",
+        "observations": 12,
+        "recommended": 0,
+        "existing": 7,
+        "existing_family": 3,
+        "held": 2
+      },
+      {
+        "id": "B643",
+        "observations": 12,
+        "recommended_expressions": 2,
+        "recommended_families": 1,
+        "existing": 10,
+        "held": 0
+      },
+      {
+        "id": "B644",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 5,
+        "existing_family": 1,
+        "held": 5
+      },
+      {
+        "id": "B645",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 9,
+        "existing_family": 1,
+        "held": 1
+      },
+      {
+        "id": "C162",
+        "observations": 12,
+        "recommended": 0,
+        "existing": 4,
+        "existing_family": 7,
+        "held": 1
+      },
+      {
+        "id": "C163",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 7,
+        "held": 4
+      },
+      {
+        "id": "C164",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 9,
+        "existing_family": 2,
+        "held": 0
+      },
+      {
+        "id": "C165",
+        "observations": 12,
+        "recommended_expressions": 2,
+        "recommended_families": 1,
+        "existing": 3,
+        "held": 7
+      },
+      {
+        "id": "A163",
+        "observations": 12,
+        "recommended": 0,
+        "held": 12,
+        "ids": [
+          "0507",
+          "0593",
+          "0600",
+          "0621",
+          "0683",
+          "0727",
+          "0736",
+          "0755",
+          "0841",
+          "0129",
+          "0145",
+          "0157"
+        ],
+        "note": "0621 sharing/poster parody recognition but video unviewed.0755 similar ordinary broadcast utterance not verified reuse.0683page0lines."
+      },
+      {
+        "id": "A164",
+        "ids": [
+          "0102",
+          "0115",
+          "0122",
+          "0134",
+          "0144",
+          "0147",
+          "0190",
+          "0236",
+          "0270",
+          "0292",
+          "0294",
+          "0336"
+        ],
+        "observations": 12,
+        "recommended": 0,
+        "held": 12,
+        "note": "0236Quasarzone2024-08-02comment direct but earlier-held novelty unclear; YouTube/OneStore/Inven inaccessible; no mappings/media."
+      },
+      {
+        "id": "A165",
+        "observations": 12,
+        "recommended": 0,
+        "conditional": 1,
+        "held": 11,
+        "ids": [
+          "0714",
+          "0735",
+          "0740",
+          "0751",
+          "0786",
+          "0794",
+          "0797",
+          "0803",
+          "0812",
+          "0830",
+          "0857",
+          "0894"
+        ],
+        "note": "0830 one forum showing two video descriptions; media inaccessible, independent2groups not verified.0803official game title only.0714independence uncertain. No mappings."
+      },
+      {
+        "id": "C166",
+        "observations": 12,
+        "recommended": 1,
+        "held": 11,
+        "note": "ear enjoyment considered same sensory praise family as eye enjoyment, not separate entry"
+      }
+    ],
+    "note": "144 expression observations include repeated investigations and family variants; not unique newly found or fully verified memes.10 entries accepted including carried shield and coordinator terms."
+  },
+  "source_ledger_audits": [
+    {
+      "observations": 12,
+      "recommended": 0,
+      "held": 12,
+      "ids": [
+        "0507",
+        "0593",
+        "0600",
+        "0621",
+        "0683",
+        "0727",
+        "0736",
+        "0755",
+        "0841",
+        "0129",
+        "0145",
+        "0157"
+      ],
+      "note": "0621 sharing/poster parody recognition but video unviewed.0755 similar ordinary broadcast utterance not verified reuse.0683page0lines."
+    },
+    {
+      "ids": [
+        "0102",
+        "0115",
+        "0122",
+        "0134",
+        "0144",
+        "0147",
+        "0190",
+        "0236",
+        "0270",
+        "0292",
+        "0294",
+        "0336"
+      ],
+      "observations": 12,
+      "recommended": 0,
+      "held": 12,
+      "note": "0236Quasarzone2024-08-02comment direct but earlier-held novelty unclear; YouTube/OneStore/Inven inaccessible; no mappings/media."
+    },
+    {
+      "observations": 12,
+      "recommended": 0,
+      "conditional": 1,
+      "held": 11,
+      "ids": [
+        "0714",
+        "0735",
+        "0740",
+        "0751",
+        "0786",
+        "0794",
+        "0797",
+        "0803",
+        "0812",
+        "0830",
+        "0857",
+        "0894"
+      ],
+      "note": "0830 one forum showing two video descriptions; media inaccessible, independent2groups not verified.0803official game title only.0714independence uncertain. No mappings."
+    }
+  ],
+  "query_groups": {
+    "B642": [
+      "\"33578742\" \"쉴드\"",
+      "\"2026\" \"신조어\" \"알잘딱깔센\"",
+      "\"2026\" \"신조어\" \"도파민\"",
+      "\"킹받드라슈\" 뜻",
+      "\"낄끼빠빠\" 뜻 신문"
+    ],
+    "coordinator": [
+      "\"2026\" \"밈\" \"11월\" -site:namu.moe -site:sinjoeo.kr -site:hoonmeme.com -site:onedaddy.kr",
+      "\"2026\" \"밈\" \"10월\" site:maily.so/trendaword",
+      "\"스껄\" \"뜻\" 기사",
+      "\"스껄\" \"2026\" 인터뷰",
+      "\"스껄\" site:news.nate.com -성희롱 -초1 -초5",
+      "\"스껄\" site:careet.net",
+      "\"2026\" \"밈\" \"닭볶음탕\" 에이나",
+      "\"북치기 닭볶음탕\" 패러디",
+      "\"2026\" \"유행어\" \"스겜\"",
+      "\"스겜\" \"뜻\" 신문",
+      "\"2026\" \"스포\" \"스포일러\" \"신조어\"",
+      "\"스포\" \"스포일러의\" 신문",
+      "\"스포\" \"스포일러\" \"준말\" 기사",
+      "\"2026\" \"불펌\" \"뜻\"",
+      "\"불펌\" \"퍼\" \"말\" 신문",
+      "\"2026\" \"스포주의\" site:ac.kr",
+      "\"2026\" \"스포\" site:news.samsung.com",
+      "\"스포주의\" \"2026\" site:news.nate.com",
+      "\"불펌 금지\" \"2026\" site:go.kr",
+      "\"불펌\" \"2026\" site:ac.kr",
+      "\"불펌\" \"2026\" site:go.kr",
+      "\"불펌\" \"2026\" -site:namu.moe",
+      "\"불펌\" \"무단\" 신조어 기사"
+    ],
+    "C162": [
+      "site:korea.kr \"킹정\"",
+      "site:ac.kr \"가보자고\" \"폼\"",
+      "site:go.kr \"쌉가능\"",
+      "site:news.samsung.com \"쌉\"",
+      "\"킹정\" 뜻 뉴스",
+      "\"프사각\" \"뜻\"",
+      "\"핵이득\" \"신조어\"",
+      "\"소장각\" \"2026\" site:go.kr",
+      "\"킹정\" \"2026\" site:go.kr",
+      "\"프사각\" \"2026\"",
+      "\"저장각\" \"2026\" site:go.kr",
+      "\"프사각\" 신조어 기사",
+      "\"저장각\" 신조어 뜻",
+      "\"킹정\" site:enews.imbc.com"
+    ],
+    "A163": [
+      "\"미안송\" \"패러디\" -site:namu.moe",
+      "\"최소한 악화되지 않는다\" -site:namu.moe -site:seore.org",
+      "\"사정없이 보내버리겠다\" -site:namu.moe -site:seore.org",
+      "\"섣불리 판단하면 안되는 이유\" -site:namu.moe -site:seore.org",
+      "\"아니다 이 악마야\" -site:namu.moe -site:seore.org",
+      "\"애는 있습니다\" \"패러디\"",
+      "\"약한 사내다\" \"미친놈들이다\" -site:namu.moe",
+      "\"엄마도 사람이야 사람\" -site:namu.moe -site:seore.org",
+      "\"의문의\" \"행\" \"드립\" -site:namu.moe",
+      "\"인크레더블\" \"언캐니\" \"제작\" -site:namu.moe",
+      "\"Terrified Noot Noot\" 한국 -site:namu.moe",
+      "\"가능성의 짐승\" \"밈\" -site:namu.moe"
+    ],
+    "B643": [
+      "\"2026\" \"신조어\" \"꾸꾸꾸\"",
+      "\"2026\" \"신조어\" \"현생\"",
+      "\"2026\" \"신조어\" \"쌩얼\"",
+      "\"현생\" \"뜻\" 신문",
+      "\"쌩얼\" \"뜻\" 신문",
+      "\"꾸꾸꾸\" site:vogue.co.kr",
+      "\"금사빠\" \"금사식\" \"2026\"",
+      "\"금사빠\" \"뜻\" 신문",
+      "\"금사식\" \"지예은\" \"라디오스타\""
+    ],
+    "C163": [
+      "신조어 \"손크다\" \"추구미\" 잡지",
+      "\"신조어\" \"디깅\" \"분좋카\"",
+      "\"신조어\" \"2026\" \"요노\"",
+      "\"분좋카\" site:co.kr -site:sinjoeo.kr",
+      "\"갓성비\" \"뜻\" 신문",
+      "\"요노\" site:news.samsung.com",
+      "\"신조어\" site:magazine.cheil.com",
+      "\"요노\" site:magazine.hankyung.com",
+      "\"디깅\" site:magazine.cheil.com",
+      "\"네카라쿠배\" site:ac.kr",
+      "\"요노\" site:news.skhynix.com"
+    ],
+    "A164": [
+      "\"드디어 깨어났군\" \"스카이림\" 패러디",
+      "\"KON\" \"밈\" 한국",
+      "\"마피아 시티\" \"광고\" \"패러디\"",
+      "\"팩맨 고스트\" \"댄스\" 패러디",
+      "\"S stands for\" \"패러디\" 한국",
+      "\"원피스는 실재한다\" \"패러디\"",
+      "\"거룡을 상대한 건\" -site:namu.moe",
+      "\"그건 원작을 경험해 보신 분들의 기준인 거고요\" -site:namu.moe",
+      "\"깨어나세요 용사여\" 패러디 -site:namu.moe",
+      "\"나는 애쉬\" 패러디 -site:namu.moe",
+      "\"나는 예쁘지 않습니다\" 패러디 -site:namu.moe",
+      "\"설명해드렸습니다\" \"밈\" -site:namu.moe"
+    ],
+    "C164": [
+      "\"신조어\" \"2026\" site:news.korean.go.kr",
+      "\"신조어\" \"2026\" site:univ20.com",
+      "\"신조어\" \"2026\" site:news.skhynix.com",
+      "\"갓벽\" \"뜻\" 기사",
+      "\"좋댓구알\" \"뜻\" 기사",
+      "\"댓망진창\" 기사",
+      "\"사바사\" \"2026\"",
+      "\"법블레스유\" 뜻 신문",
+      "\"법블레스유\" \"2026\"",
+      "\"주린이\" site:korean.go.kr"
+    ],
+    "B644": [
+      "\"2026\" \"신조어\" \"갑분띠\"",
+      "\"2026\" \"신조어\" \"사바사\"",
+      "\"2026\" \"신조어\" \"케바케\"",
+      "\"댓츠노노\" 유행어",
+      "\"킹정\" 뜻 신문",
+      "\"혼놀\" \"2026\"",
+      "\"댓츠노노\" 패러디 광고",
+      "\"댓츠노노\" \"2014\"",
+      "\"혼영\" \"혼술\" \"혼밥\" 신조어",
+      "\"어쩌라고요\" \"유행어\""
+    ],
+    "C165": [
+      "\"숨듣명\" \"뜻\" 기사",
+      "\"고막남친\" \"뜻\" 기사",
+      "\"노동요\" \"2026\" site:news.samsung.com",
+      "\"내적관종\" 기사",
+      "\"고막여친\" \"2026\" 기사",
+      "\"고막남친\" \"신조어\" 뜻",
+      "\"노동요\" \"신조어\" 뜻",
+      "\"귀호강\" \"뜻\" 기사"
+    ],
+    "B645": [
+      "\"눈호강\" \"뜻\" 신문",
+      "\"계못타\" 뜻",
+      "\"눈호강\" \"2026\"",
+      "\"계못타\"",
+      "\"꾸꾸\" \"신조어\""
+    ],
+    "A165": [
+      "\"안전가족\" \"패러디\" -site:namu.moe -site:seore.org",
+      "\"야후 꾸러기\" \"복원\" \"제작\" -site:namu.moe",
+      "\"어나니머스\" \"패러디\" 한국 -site:namu.moe",
+      "\"얼리 엑세스 예시\" -site:namu.moe -site:seore.org",
+      "\"오 샹젤리제\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"옴마니반메훔\" \"패러디\" -site:namu.moe -site:seore.org",
+      "\"와퍼\" \"밈\" \"패러디\" -site:namu.moe",
+      "\"왕사슴 가이즈\" -site:namu.moe -site:seore.org",
+      "\"요 요요\" \"밈\" -site:namu.moe -site:seore.org",
+      "\"육군 we 육군\" \"패러디\" -site:namu.moe -site:seore.org",
+      "\"이세계물\" \"드립\" \"기사\" -site:namu.moe -site:seore.org",
+      "\"자러감\" \"드립\" -site:namu.moe -site:seore.org"
+    ],
+    "C166": [
+      "\"노동요\" \"플레이리스트\" site:news.samsung.com",
+      "\"귀호강\" \"2026\" site:enews.imbc.com",
+      "\"안구정화\" \"신조어\" 신문",
+      "\"길티플레저\" \"뜻\" site:co.kr -site:sinjoeo.kr -site:hoonmeme.com",
+      "\"노동요\" \"플레이리스트\" \"신조어\"",
+      "\"귀호강\" site:kbs.co.kr \"2026\"",
+      "\"길티플레저\" site:magazine.hankyung.com",
+      "\"감성팔이\" \"뜻\" 기사"
+    ]
+  },
+  "query_increment": 139,
+  "query_observations": 14085,
+  "distinct_literal_queries": 11542,
+  "preaudit": {
+    "status": "PASS",
+    "accepted": 10,
+    "required": 0
+  },
+  "limits": [
+    "No original media viewed. Reported uses, article definitions and direct text applications distinguished.",
+    "Shield historical source initially read by researcher; later coordinator/auditor reopens redirected and failed; matching search extraction and recent direct text are not proof of origin or scale.",
+    "Eye/ear enjoyment is a generalized figurative expression, not claimed internet-only or newly created in2026.",
+    "All1898prior entries and1091candidate classifications preserved. usage74/reviewed73 unchanged. main/protected bodies untouched.",
+    "Historical-only sources not treated as recent use. Query/expression observations are not unique meme counts.",
+    "This checkpoint CI not yet run. Previous1898CI success65/65,Python497confirmed."
+  ]
+}

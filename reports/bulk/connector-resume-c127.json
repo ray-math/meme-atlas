@@ -1,0 +1,54 @@
+{
+  "batch": "connector-resume-c127",
+  "base": "c03e539c5350f3f356489ed4ab20eb9dba969d30",
+  "classification": "과거 조사 후보를 현재 원문으로 재검토한 원격 신규 수록. 소실 로컬 복구 아님",
+  "entries": [
+    {
+      "id": "but-i-refuse",
+      "sources": [
+        {
+          "url": "https://effiethejay.tistory.com/42",
+          "observed": "497~501행 밥 기대 상황 뒤 거절 캡션. 인접509행 나가라는 요청과 연결했던 과거 설명 정정."
+        },
+        {
+          "url": "https://yamark.tistory.com/1051",
+          "observed": "138~142행 선택지 번호 뒤 작성자 반응 캡션."
+        }
+      ],
+      "bounds": "이미지 내 텍스트 미검증. 공식 게임 대사/제작사 패러디/죠죠 원작 연결을 주장하지 않음."
+    },
+    {
+      "id": "count-primes-and-calm-down",
+      "sources": [
+        {
+          "url": "https://rairo.tistory.com/31",
+          "observed": "마무리88~90행 대사 구조 직접 인용."
+        },
+        {
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=comics&no=848445&page=1",
+          "observed": "제목에서 죠죠 명시, 364행 산책 중 상황에 작품인물 심정과 소수세기 적용."
+        },
+        {
+          "url": "https://www.kmas.or.kr/webzine/review/27703",
+          "observed": "2020-10-22 손유진 칼럼120~121행 작품 대사와 유머코드 연결. 별도 실제사용 사건으로 세지 않음."
+        }
+      ],
+      "bounds": "두 실제사용 사건+작품 연결 보조1. 치료효과·특정인물 독점대사·최초 번역 불확정. gamgyoolboy225 재열람 실패로 제외."
+    }
+  ],
+  "checks": {
+    "base_entries": 831,
+    "result_entries": 833,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  },
+  "candidate_screen": {
+    "screened": 15,
+    "accepted": 2,
+    "already_present": 1,
+    "unverified": 12
+  }
+}

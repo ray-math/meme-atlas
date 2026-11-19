@@ -1,0 +1,35 @@
+{
+  "batch": 239,
+  "canonical_before": 907,
+  "canonical_after": 908,
+  "added": [
+    "six-seven"
+  ],
+  "evidence": {
+    "researcher_teacher_conversation_record": 1,
+    "parent_recollection_report": 1,
+    "direct_original_posts_or_videos": 0,
+    "scope": "Narrow domestic attestation, not two direct executions. Independent scope review approved. No formal empirical study/direct classroom-observation claim."
+  },
+  "sources": [
+    "https://hs-jeong.net/2026/01/12/the-conversation-the-6-7-craze-offered-a-brief-window-into-the-hidden-world-of-children/",
+    "https://www.yna.co.kr/view/AKR20261104078900505?input=feed_daum"
+  ],
+  "metrics": {
+    "query_observations": 1400,
+    "distinct_literal_queries": 1134,
+    "note": "Unchanged; candidate searches already counted in 238. Readback/repeated dedup checks not appended."
+  },
+  "checks": {
+    "canonical_ids": 908,
+    "normalized_title_alias_cross_id_collisions": 0,
+    "readme_topics_roundtrip": true,
+    "ci": "not run"
+  },
+  "limitations": [
+    "No first coinage or Korean first arrival claim",
+    "No nationwide/current popularity claim",
+    "67 numeric appearances alone excluded",
+    "No minors' identities or images retained"
+  ]
+}

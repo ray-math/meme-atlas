@@ -1,0 +1,51 @@
+{
+  "batch": 258,
+  "canonical_before": 916,
+  "canonical_after": 916,
+  "reinforced": "john-park-mcdonalds-rap",
+  "source": "https://lms.nonsan.go.kr/",
+  "source_note": "official homepage Nov17 display within2026 context; producer explanation1, originalvideo0; mirrored subdomains not separate evidence",
+  "original_video_unread": "https://www.youtube.com/watch?v=Bvx5qPeCYMg",
+  "queries": [
+    "\"2026\" \"밈\" site:news.samsung.com/kr",
+    "\"2026\" \"밈\" site:blog.hyosung.com",
+    "\"2026\" \"밈\" site:skcareersjournal.com",
+    "\"2026\" \"밈\" \"패러디\" site:ac.kr",
+    "\"2026\" \"밈\" \"패러디\" site:go.kr",
+    "\"2026\" \"밈\" \"11월\" \"뉴스레터\" -site:namu.moe -site:gogumafarm.kr -site:onmeme.com",
+    "\"랩으로 주문하기\" \"패러디\" \"2026\" -site:namu.moe -site:onmeme.com",
+    "\"존박\" \"논산딸기\"",
+    "\"밈\" \"엄마 정보\" \"아빠 정보\"",
+    "\"밈\" \"다음화 정보\"",
+    "\"OO 정보\" 밈 2026",
+    "\"동생 정보\" \"2026\" -site:maily.so -site:medium.com",
+    "\"엄마정보\" site:theqoo.net",
+    "\"아빠 정보\" site:theqoo.net"
+  ],
+  "index_queries": [
+    "존박",
+    "랩으로",
+    "빼난",
+    "오디세이",
+    "한한미일",
+    "늑구",
+    "여우",
+    "주문",
+    "정보"
+  ],
+  "holds": [
+    {
+      "candidate": "OO 정보",
+      "explainers": [
+        "https://maily.so/trendaword/posts/wdr9qxn0olx",
+        "https://gogumafarm.kr/내가-고구마팜이었으면-이-밈은-꼭-소개하고-싶음-2026/"
+      ],
+      "note": "2explainers; originalX posts4 returned403; independence not confirmed; ordinary product request excluded"
+    }
+  ],
+  "metrics": {
+    "query_observations": 1796,
+    "distinct_literal_queries": 1455
+  },
+  "ci": "not run"
+}

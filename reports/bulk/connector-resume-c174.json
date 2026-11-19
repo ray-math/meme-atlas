@@ -1,0 +1,40 @@
+{
+  "base_sha": "020bc07271276d3144837b198988cd36909e3f48",
+  "canonical_before": 883,
+  "canonical_after": 884,
+  "added": [
+    "storm-ii-challenge"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hankyung.com/article/202610016616h",
+      "date": "2026-10-01",
+      "evidence": "영주 실제 집단출연82–87"
+    },
+    {
+      "url": "https://www2.osen.co.kr/article/G1112881260",
+      "date": "2026-09-24",
+      "evidence": "장영란 AI합성 공개19–28"
+    }
+  ],
+  "query_strings": [
+    "STORM",
+    "스톰",
+    "군무",
+    "제너레이션",
+    "영 린",
+    "복제",
+    "중앙",
+    "표정"
+  ],
+  "semantic_review": "storm-before-suddenattack/fine-restaurant 게임문맥 비중복, 다른 군무밈과 특정 STORMII 구도 구별",
+  "limits": [
+    "원영상 미시청",
+    "실연과합성 구별",
+    "수치 최초발생 단정 제외"
+  ],
+  "checks": {
+    "python": "not-run",
+    "ci": "not-run"
+  }
+}

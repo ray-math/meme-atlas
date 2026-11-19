@@ -1,0 +1,68 @@
+{
+  "batch": 427,
+  "base": "6b1038a92a05387017b747c86a916632a676a24c",
+  "canonical_before": 1004,
+  "canonical_after": 1005,
+  "added": [
+    "black-cow-taunt"
+  ],
+  "research_reference": "reports/bulk/connector-resume-wave30-425.json",
+  "researchB": {
+    "queries": [
+      "\"Point\" \"드립\" \"2026\"",
+      "\"계획대로\" \"밈\" \"2026\"",
+      "\"그래 열심히 하자\" \"2026\"",
+      "\"설명해드렸습니다\" \"2026\"",
+      "\"당연히 말이 되죠\" \"2026\"",
+      "\"설명해드렸습니다\" 밈 -site:namu.moe",
+      "\"그래 열심히 하자\" 패러디",
+      "\"계획대로\" \"데스노트\" \"2026\"",
+      "\"Point 드립\" -site:namu.moe"
+    ],
+    "held": [
+      {
+        "id": "0064",
+        "note": "형식불명일반강조점검색혼재"
+      },
+      {
+        "id": "0198",
+        "url": "https://aquamico.com/posts/2026/spao-death-note-collab/",
+        "note": "2026-08-29 공식SNS문구간접소개1 원문미확인.기존본문일반어등장≠대사수록"
+      },
+      {
+        "id": "0241",
+        "url": "https://ggoltebba.tistory.com/59",
+        "note": "2012-02-27 롯데버전제작후기 이미지미확인.최근평범한격려구분불가"
+      },
+      {
+        "id": "0336",
+        "url": "https://chimhaha.net/stream_free/857870",
+        "note": "설명없음에설명했다되받기1.03.02연도미확정.닉네임2026연도증거아님"
+      },
+      {
+        "id": "0376",
+        "note": "kone접근불가게임더빙감상은독립차용아님"
+      }
+    ]
+  },
+  "independent_audit": {
+    "passed": true,
+    "source_reads": 2,
+    "related_body_reads": 3,
+    "note": "직접텍스트2사이트.퀘이사존월일만/연도이미지경로보조,위폴수정일/최초미확정.최근최초게시일확정2군아님.flex/munjjin/seubuljae별도형식.건강금액이미지제외."
+  },
+  "final1004audit": {
+    "sha": "6b1038a92a05387017b747c86a916632a676a24c",
+    "passed": true,
+    "body_reads": 1,
+    "required_changes": 0
+  },
+  "candidate_changes": [
+    {
+      "id": "kr-list-1151",
+      "from": "index_not_found",
+      "to": "included"
+    }
+  ],
+  "ci_new_commit": "pending"
+}

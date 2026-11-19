@@ -1,0 +1,116 @@
+{
+  "batch": 319,
+  "base": "9a548c38c7a30c7ce6eda530bf7c5a3434b574bf",
+  "canonical_before": 951,
+  "canonical_after": 951,
+  "research": {
+    "A": {
+      "candidates": [
+        "0132",
+        "0153",
+        "0162",
+        "0165",
+        "0178",
+        "0194",
+        "0198",
+        "0240",
+        "0290",
+        "0335"
+      ],
+      "recommended": 0,
+      "held": 10,
+      "source_read": [
+        "https://m.ruliweb.com/family/212/board/300277/read/2440791"
+      ],
+      "note": "0240 source is description not independent parody; 0335 hmh-gmg relation uncertain",
+      "queries": [
+        "\"건에 대하여\" \"밈\" -site:namu.moe -슬라임 -site:note.com",
+        "\"시험 시작 1시간 전인 건에 대하여\"",
+        "\"건에 대하여\" \"2026\" \"브이로그\"",
+        "\"Nyan Cat\" \"한국\" \"2026\"",
+        "\"Yee\" \"밈\" \"2026\" 한국",
+        "\"가정이 무너지고\" \"2026\"",
+        "\"간디\" \"유혈사태\" \"2026\"",
+        "\"개노답 삼형제\" \"2026\" -site:namu.moe",
+        "\"거짓말하지 말아요\" \"죽여버리겠어요\" -site:namu.moe",
+        "\"계획대로\" \"밈\" \"2026\" -site:namu.moe",
+        "\"그러면 죽어요\" \"2026\" -site:namu.moe",
+        "\"나는 개인이오\" \"2026\" -site:namu.moe",
+        "\"네가 하면 나도 한다\" 밈 -site:namu.moe",
+        "\"냥캣\" \"2026\" -site:namu.moe",
+        "\"간디\" \"유혈사태\" 패러디 -site:namu.moe",
+        "\"나는 개인이오\" -site:namu.moe -site:seore.org",
+        "\"그러면 죽어요\" \"패러디\" -site:namu.moe",
+        "\"계획대로\" \"데스노트\" \"2026\" -site:namu.moe"
+      ],
+      "index_queries": [
+        "nyan",
+        "냥캣",
+        "yee",
+        "가정이무너",
+        "사회가무너",
+        "간디",
+        "유혈",
+        "개노답",
+        "삼형제",
+        "거짓말하지말",
+        "계획대로",
+        "그러면죽",
+        "나는개인",
+        "네가하면",
+        "hmh"
+      ]
+    },
+    "B": {
+      "candidates": [
+        "0572",
+        "0575",
+        "0585",
+        "0599",
+        "0603",
+        "0611",
+        "0640",
+        "0657",
+        "0678",
+        "0696"
+      ],
+      "new_recommended": 0,
+      "partial_existing": 1,
+      "held": 9,
+      "sources": [
+        "https://www.chungm.com/AreyoucrazyHUMAN",
+        "https://v.daum.net/v/20260202180017194",
+        "https://www.hyundaimotorgroup.com/ko/story/CONT0000000000012156"
+      ],
+      "note": "0572 already reconciled316; no duplicate increment. Prior949 index; new950/951 do not alter these scopes",
+      "queries": [
+        "\"빅데이터\" \"휴먼\" 밈 2026",
+        "\"빈 찬합\" 2026",
+        "\"뽀구미\" \"예쁘잖아\" 2026",
+        "\"사이버펑크\" \"2077\" 밈 한국 2026",
+        "\"사탄\" \"실직\" 2026 밈",
+        "\"삼체\" 2026 밈",
+        "\"수박도\" 드립 2026",
+        "\"시그마\" 밈 2026 한국",
+        "\"씽씽이\" 밈 2026",
+        "\"아시발꿈\" 2026",
+        "\"미쳤습니까 휴먼\" 2026 -site:namu.moe -site:seore.org",
+        "\"빈 찬합\" 패러디 -site:namu.moe -site:seore.org",
+        "\"아시발꿈\" -site:namu.moe -site:seore.org",
+        "\"수박도\" \"박수\" 밈",
+        "\"삼체\" \"해주삼\" 2026",
+        "\"뽀구미\" \"예쁘잖아 캠페인\""
+      ]
+    }
+  },
+  "metrics": {
+    "observations": 3183,
+    "distinct": 2672
+  },
+  "ci_previous": {
+    "run": 44231667454,
+    "conclusion": "success",
+    "python_tests": 495
+  },
+  "limits": "No new publication or classification promotion. Worker source reads not all repeated by editor. Latest951 CI pending."
+}

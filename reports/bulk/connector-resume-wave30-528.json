@@ -1,0 +1,602 @@
+{
+  "batch": 528,
+  "base": "ceed6e87e36631b8def930dd2319981ae32ca029",
+  "canonical_before": 1918,
+  "canonical_after": 1928,
+  "added": [
+    "out-of-anjung-indifference-mixed-phrase",
+    "bokbut-copy-paste-short-form",
+    "kkeurol-resurfacing-old-content-short-form",
+    "deokryeok-fan-knowledge-and-experience",
+    "kilpo-killing-point-highlight-short-form",
+    "banjondae-mixed-speech-level-label",
+    "sochwi-wished-for-outcome-short-form",
+    "syuseu-superstar-short-nickname",
+    "pulme-full-makeup-short-form",
+    "heorakhaejunda-drama-approval-quote"
+  ],
+  "candidate_changes": [],
+  "previous_ci": {
+    "run": 44381240459,
+    "job": 135073729510,
+    "sha": "ceed6e87e36631b8def930dd2319981ae32ca029",
+    "status": "success",
+    "steps": "65/65",
+    "python": [
+      "Ran 497 tests in 217.266s"
+    ]
+  },
+  "previous_final_audit": {
+    "status": "PASS",
+    "required": 0,
+    "sha": "ceed6e87e36631b8def930dd2319981ae32ca029",
+    "files": 19,
+    "total": 1918,
+    "oldBodiesUnchanged": 1908,
+    "queryRows": 14240,
+    "distinctLiteralQueries": 11652
+  },
+  "sources": [
+    {
+      "id": "out-of-anjung-indifference-mixed-phrase",
+      "urls": [
+        "https://www.nocutnews.co.kr/news/5326946",
+        "https://v.daum.net/v/20230223113202868"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bokbut-copy-paste-short-form",
+      "urls": [
+        "https://www.newsis.com/view/NISX20230201_0002177897",
+        "https://www.etnews.com/20260406000371"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kkeurol-resurfacing-old-content-short-form",
+      "urls": [
+        "https://shindonga.donga.com/society/article/all/13/2775598/1",
+        "https://www.starnewskorea.com/star/2026/11/16/2026111523100718082"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "deokryeok-fan-knowledge-and-experience",
+      "urls": [
+        "https://japan.sookmyung.ac.kr/japan/community/employment-information.do?articleNo=118624&mode=view",
+        "https://weekly.donga.com/culture/article/all/13/6369583/1"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "kilpo-killing-point-highlight-short-form",
+      "urls": [
+        "https://www.careet.net/914",
+        "https://clip.imbc.com/m/ClipPlay/CA1_000003181810"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "banjondae-mixed-speech-level-label",
+      "urls": [
+        "https://www.mk.co.kr/news/society/9721367",
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018949"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "sochwi-wished-for-outcome-short-form",
+      "urls": [
+        "https://sports.khan.co.kr/article/202501051549003",
+        "https://v.daum.net/v/20260727070244099"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "syuseu-superstar-short-nickname",
+      "urls": [
+        "https://news.nate.com/view/20240326n40973",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/459126"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "pulme-full-makeup-short-form",
+      "urls": [
+        "https://v.daum.net/v/20220429134637766",
+        "https://v.daum.net/v/20251217073301524"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "heorakhaejunda-drama-approval-quote",
+      "urls": [
+        "https://www.starnewskorea.com/broadcast-drama/2009/12/07/2009120620142513659",
+        "https://www.allurekorea.com/2026/05/18/뉴욕-헤럴드-트리뷴-아시아-프린스-장근석의-허세/"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "screening": {
+    "groups": [
+      {
+        "id": "B651",
+        "title": "복붙",
+        "sources": [
+          "https://www.newsis.com/view/NISX20230201_0002177897",
+          "https://www.etnews.com/20260406000371"
+        ],
+        "observations": 12,
+        "recommended": 1,
+        "existing": 6,
+        "family": 1,
+        "held": 4,
+        "queries": [
+          "\"복붙\" \"신조어\"",
+          "\"집사\" \"고양이\" \"신조어\"",
+          "\"랜선친구\" \"2026\"",
+          "\"냥냥이\" \"2026\"",
+          "\"복붙\" \"2026\" \"외모\"",
+          "\"복붙\" \"2026\" site:etnews.com",
+          "\"복붙\" \"복사\" \"붙여넣기\" site:newsis.com"
+        ],
+        "note": "2023-02-02 literal computer copying;2026-04-06 editorial metaphor, not proven plagiarism. No media."
+      },
+      {
+        "id": "C172",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 5,
+        "family": 1,
+        "held": 5,
+        "title": "끌올",
+        "sources": [
+          "https://shindonga.donga.com/society/article/all/13/2775598/1",
+          "https://www.starnewskorea.com/star/2026/11/16/2026111523100718082",
+          "https://contents.premium.naver.com/careets/insight/contents/240926174633065as"
+        ],
+        "queries": [
+          "\"짤줍\" \"뜻\" 기사",
+          "\"끌올\" \"뜻\" 기사",
+          "\"뒷북\" \"인터넷\" \"뜻\"",
+          "\"성지순례\" \"온라인\" \"2026\"",
+          "\"끌올\" \"2026\" site:enews.imbc.com",
+          "\"박제\" \"인터넷 용어\" 기사",
+          "\"짤털\" 기사",
+          "\"끌올\" site:news.sbs.co.kr",
+          "\"끌올\" \"2026\" 기사 -site:sinjoeo.kr",
+          "\"끌올\" \"끌어올리다\" 신문"
+        ],
+        "note": "2021-07-08 definition and heading use;2026-11-16 editorial use only, no private claims adopted. Careetvirtualexamplesnotactualuse.Originalposts/media0."
+      },
+      {
+        "id": "C173",
+        "observations": 12,
+        "recommended": 0,
+        "existing": 9,
+        "family": 2,
+        "held": 1,
+        "queries": [
+          "\"덕계못\" \"2026\"",
+          "\"휴덕\" \"뜻\" 기사",
+          "\"입덕부정기\" \"2026\"",
+          "\"취존\" \"뜻\" 기사",
+          "\"덕계타\" 기사",
+          "\"계못\" \"덕계못\"",
+          "\"취향저격\" \"2026\" site:enews.imbc.com"
+        ],
+        "note": "덕계타2020-04-18officialclipdescription fancontentprovision only; noautomatic alias. 취향저격2026-09-15title existing. Quiznotactualuse/media0."
+      },
+      {
+        "id": "A171",
+        "observations": 12,
+        "recommended": 0,
+        "held": 12,
+        "ids": [
+          "0052",
+          "0055",
+          "0090",
+          "0092",
+          "0097",
+          "0126",
+          "0155",
+          "0195",
+          "0208",
+          "0211",
+          "0212",
+          "0262"
+        ],
+        "queries": [
+          "\"11미터 모형탑\" \"밈\" -site:namu.moe",
+          "\"1초만에 사람을 낚는 방법\" -site:namu.moe -site:seore.org",
+          "\"chip\" \"밈\" \"고양이\" -site:namu.moe",
+          "\"camel singing\" \"밈\" -site:namu.moe",
+          "\"EZ DO DANCE\" \"패러디\" 한국 -site:namu.moe",
+          "\"노리아키\" \"패러디\" -site:namu.moe",
+          "\"Zyzz\" \"밈\" 한국 -site:namu.moe",
+          "\"건우 엄마 데리고 와\" -site:namu.moe",
+          "\"곤룡포좌\" \"패러디\" -site:namu.moe",
+          "\"공항도둑\" \"밈\" -site:namu.moe",
+          "\"과로사\" \"밈\" \"패러디\" -site:namu.moe",
+          "\"긴또깡\" \"유행어\" -site:namu.moe",
+          "\"긴또깡\" \"유행어\" \"2002\" -site:namu.moe -site:seore.org -site:donga.com",
+          "\"긴또깡\" \"야인시대\" \"패러디\" -site:namu.moe -site:seore.org"
+        ],
+        "sources": [
+          "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001713680",
+          "https://pepsiturnsmoney.tistory.com/32"
+        ],
+        "note": "긴또깡KCIabstractonly2012;Donga2002directfailure notaccepted. Zyzzoverseasexplanationnotlocalreuse. No mappings/media."
+      },
+      {
+        "id": "B652",
+        "observations": 12,
+        "recommended": 2,
+        "existing": 2,
+        "held": 8,
+        "queries": [
+          "\"킬포\" \"뜻\" 신문",
+          "\"덕력\" \"2026\"",
+          "\"글삭튀\" \"2026\"",
+          "\"현활\" \"신조어\"",
+          "\"킬포\" \"2026\" site:imbc.com"
+        ],
+        "sources": [
+          "https://japan.sookmyung.ac.kr/japan/community/employment-information.do?articleNo=118624&mode=view",
+          "https://weekly.donga.com/culture/article/all/13/6369583/1",
+          "https://www.careet.net/914",
+          "https://clip.imbc.com/m/ClipPlay/CA1_000003181810"
+        ],
+        "note": "덕력 corporatepost2026-03-19 andChannelArelatedcolumn2026-09-02;킬포2022-10-24definition+2026-11-13episodelist title only, notmainvideo;media0."
+      },
+      {
+        "id": "B653",
+        "observations": 12,
+        "recommended": 0,
+        "existing": 9,
+        "held": 3,
+        "queries": [
+          "\"엄크\" \"신조어\"",
+          "\"헬린이\" \"뜻\"",
+          "\"등린이\" \"2026\"",
+          "\"까놓말\" \"2026\""
+        ],
+        "note": "Existing4bodiesread, externaldirect0;까놓말넘사듣보 notautoaliases."
+      },
+      {
+        "id": "C174",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 4,
+        "family": 2,
+        "held": 5,
+        "queries": [
+          "\"반존대\" \"2026\"",
+          "\"반모\" \"뜻\" 기사",
+          "\"풀메\" \"뜻\" 기사",
+          "\"쌩얼\" \"신조어\" 기사",
+          "\"반존대\" 설렘 기사",
+          "\"풀메\" \"2026\" 메이크업",
+          "\"패피\" \"뜻\" 기사",
+          "\"반존대\" \"반말과 존댓말\" 기사",
+          "\"풀메\" \"풀메이크업\" site:enews.imbc.com",
+          "\"패피\" \"패션피플\" site:enews.imbc.com"
+        ],
+        "sources": [
+          "https://www.mk.co.kr/news/society/9721367",
+          "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018949"
+        ],
+        "note": "2021-01-24definition/2026-11-09reportedconversation,no actualvideo/comments/personalityjudgment."
+      },
+      {
+        "id": "A172",
+        "observations": 12,
+        "recommended": 0,
+        "held": 12,
+        "ids": [
+          "0262",
+          "0399",
+          "0507",
+          "0509",
+          "0554",
+          "0593",
+          "0600",
+          "0621",
+          "0628",
+          "0633",
+          "0640",
+          "0683"
+        ],
+        "queries": [
+          "\"긴또깡\" \"야인시대\" \"유행어\" -site:namu.moe -site:donga.com",
+          "\"동전줍는 징징이\" 밈 -site:namu.moe",
+          "\"미안송\" 패러디 -site:namu.moe",
+          "\"미야\" \"밈\" -site:namu.moe",
+          "\"북경 정씨\" -site:namu.moe",
+          "\"사고 쳤을 때 입 다물고 있어라\" -site:namu.moe",
+          "\"사정없이 보내버리겠다\" -site:namu.moe",
+          "\"섣불리 판단하면 안되는 이유\" 밈 -site:namu.moe",
+          "\"세뇌교육\" \"밈\" -site:namu.moe",
+          "\"소련국가\" \"패러디\" 한국 -site:namu.moe",
+          "\"수박도\" \"드립\" -site:namu.moe",
+          "\"아니다 이 악마야\" 뜻 -site:namu.moe",
+          "\"긴또깡\" \"이재용\" \"유행어\" 기사",
+          "\"긴또깡\" \"2002\" \"학생\""
+        ],
+        "sources": [
+          "https://dpg.danawa.com/mobile/news/view?boardSeq=64&listSeq=5808554",
+          "https://www.teamblind.com/kr/post/이-사람-넘-웃김-QjnfOw0j",
+          "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1001180479"
+        ],
+        "note": "0509sameGameMecasyndicationnotnewindependent;0621videostructureunviewed;0507songperformednotreuse.0262Dongaagainfailed."
+      },
+      {
+        "id": "C175",
+        "observations": 12,
+        "recommended": 3,
+        "existing": 2,
+        "conditional": 1,
+        "held": 6,
+        "queries": [
+          "\"소취\" \"소원성취\" 기사",
+          "\"슈스\" \"슈퍼스타\" \"2026\" 기사",
+          "\"풀메\" \"풀메이크업\" 기사",
+          "\"패피\" \"패션피플\" \"2026\"",
+          "\"소취\" site:enews.imbc.com",
+          "\"슈스\" \"슈퍼스타\" site:news.nate.com",
+          "\"소취\" \"소원성취\" -site:storyworld1122.tistory.com -site:namu.wiki -site:namu.moe",
+          "\"소취\" \"2026\" 배우"
+        ],
+        "note": "소취recent1,슈스recent0,both2media;풀메2025-12-17MKsports/2022-04-29MoneyToday. 패피1sourceonlyheld. No media."
+      },
+      {
+        "id": "B654",
+        "observations": 8,
+        "recommended": 0,
+        "existing": 3,
+        "held": 5,
+        "queries": [
+          "2026 유행어 신조어 \"기사\" \"11월\"",
+          "2026 \"캡션\" \"밈\" 매거진",
+          "2026 밈 유행어 site:allurekorea.com",
+          "2026 11월 밈 site:univ20.com",
+          "2026 10월 밈 site:gqkorea.co.kr",
+          "\"허락해준다\" \"장근석\" 패러디",
+          "\"뉴욕 헤럴드 트리뷴\" 패러디"
+        ],
+        "note": "3articlesfirst extracted8, not padded12. 허락해준다recenteditorialreuse1 originresearchpending. ForeignClocking&blusherblindnessnotKoreanreuse."
+      },
+      {
+        "id": "A173",
+        "observations": 12,
+        "recommended": 0,
+        "conditional": 1,
+        "held": 11,
+        "ids": [
+          "0145",
+          "0157",
+          "0324",
+          "0707",
+          "0727",
+          "0736",
+          "0755",
+          "0790",
+          "0805",
+          "0841",
+          "0898",
+          "0960"
+        ],
+        "queries": [
+          "\"Terrified Noot Noot\" 한국 밈 -site:namu.moe",
+          "\"가능성의\" \"밈\" -site:namu.moe",
+          "\"너 개못하잖아\" -site:namu.moe",
+          "\"아카자\" \"밈\" \"패러디\" -site:namu.moe",
+          "\"애는 있습니다\" 밈 -site:namu.moe",
+          "\"약한 사내다\" \"미친놈들이다\" -site:namu.moe",
+          "\"엄마도 사람이야 사람\" -site:namu.moe",
+          "\"오타쿠가 정치글을 쓰게 만드는 정부\" -site:namu.moe",
+          "\"왕이되는자\" \"패러디\" -site:namu.moe",
+          "\"의문의\" \"행\" \"밈\" -site:namu.moe",
+          "\"잘생겨서 안 좋은 점\" -site:namu.moe",
+          "\"직구 금지\" \"패러디\" -site:namu.moe"
+        ],
+        "sources": [
+          "https://knowyourmeme.com/editorials/collections/10-new-terrified-noot-noot-memes-from-the-depths-of-tiktok",
+          "https://talk.op.gg/s/lol/humor/4428935/너%20개못하잖아",
+          "https://dosil.tistory.com/233"
+        ],
+        "note": "0145oneindependentexplanationincludingKoreantaggedclipnotnationality/domesticspread. media0,heldnotmapped.0324imageonly;0805sharedparodytitleonly."
+      },
+      {
+        "id": "B655",
+        "observations": 12,
+        "recommended": 1,
+        "existing": 4,
+        "held": 7,
+        "queries": [
+          "2026 \"유행어\" \"캡션\" 매거진",
+          "2026 \"밈\" \"말투\" site:esquirekorea.co.kr",
+          "site:harpersbazaar.co.kr 2026 \"신조어\"",
+          "site:elle.co.kr 2026 \"유행어\""
+        ],
+        "note": "허락해준다acceptedoriginaldescription1+recenteditorialreuse1. 슛슛슛internalteam,firstpenguinnoexactformat;맥싱모깅언크foreignonly;EsquireAI/loginnotadopted."
+      }
+    ],
+    "coordinator": {
+      "observations": 20,
+      "note": "Title/summary initial string screen only, not full semantic audit. 소취슈스 then independently researched byC175. 갓기 alreadyincluded; other20termchecks unconfirmed notnewcounts."
+    },
+    "note": "Repeated/family observations not unique meme counts. B654 extracted8not12. 0145singleexplanationKoreantagsnotdomesticspread;heldno mapping. Wallgrandpadance stillreserved."
+  },
+  "query_groups": {
+    "B651": [
+      "\"복붙\" \"신조어\"",
+      "\"집사\" \"고양이\" \"신조어\"",
+      "\"랜선친구\" \"2026\"",
+      "\"냥냥이\" \"2026\"",
+      "\"복붙\" \"2026\" \"외모\"",
+      "\"복붙\" \"2026\" site:etnews.com",
+      "\"복붙\" \"복사\" \"붙여넣기\" site:newsis.com"
+    ],
+    "C172": [
+      "\"짤줍\" \"뜻\" 기사",
+      "\"끌올\" \"뜻\" 기사",
+      "\"뒷북\" \"인터넷\" \"뜻\"",
+      "\"성지순례\" \"온라인\" \"2026\"",
+      "\"끌올\" \"2026\" site:enews.imbc.com",
+      "\"박제\" \"인터넷 용어\" 기사",
+      "\"짤털\" 기사",
+      "\"끌올\" site:news.sbs.co.kr",
+      "\"끌올\" \"2026\" 기사 -site:sinjoeo.kr",
+      "\"끌올\" \"끌어올리다\" 신문"
+    ],
+    "C173": [
+      "\"덕계못\" \"2026\"",
+      "\"휴덕\" \"뜻\" 기사",
+      "\"입덕부정기\" \"2026\"",
+      "\"취존\" \"뜻\" 기사",
+      "\"덕계타\" 기사",
+      "\"계못\" \"덕계못\"",
+      "\"취향저격\" \"2026\" site:enews.imbc.com"
+    ],
+    "A171": [
+      "\"11미터 모형탑\" \"밈\" -site:namu.moe",
+      "\"1초만에 사람을 낚는 방법\" -site:namu.moe -site:seore.org",
+      "\"chip\" \"밈\" \"고양이\" -site:namu.moe",
+      "\"camel singing\" \"밈\" -site:namu.moe",
+      "\"EZ DO DANCE\" \"패러디\" 한국 -site:namu.moe",
+      "\"노리아키\" \"패러디\" -site:namu.moe",
+      "\"Zyzz\" \"밈\" 한국 -site:namu.moe",
+      "\"건우 엄마 데리고 와\" -site:namu.moe",
+      "\"곤룡포좌\" \"패러디\" -site:namu.moe",
+      "\"공항도둑\" \"밈\" -site:namu.moe",
+      "\"과로사\" \"밈\" \"패러디\" -site:namu.moe",
+      "\"긴또깡\" \"유행어\" -site:namu.moe",
+      "\"긴또깡\" \"유행어\" \"2002\" -site:namu.moe -site:seore.org -site:donga.com",
+      "\"긴또깡\" \"야인시대\" \"패러디\" -site:namu.moe -site:seore.org"
+    ],
+    "B652": [
+      "\"킬포\" \"뜻\" 신문",
+      "\"덕력\" \"2026\"",
+      "\"글삭튀\" \"2026\"",
+      "\"현활\" \"신조어\"",
+      "\"킬포\" \"2026\" site:imbc.com"
+    ],
+    "coordinator": [
+      "\"소취\" \"2026\" 뜻",
+      "\"슈스\" \"2026\" 뜻",
+      "\"갓기\" \"2026\" 뜻",
+      "\"소취\" \"소원성취\" 기사",
+      "\"슈스\" \"슈퍼스타\" \"2026\"",
+      "\"소취\" \"2026\" site:enews.imbc.com",
+      "\"슈스\" \"슈퍼스타\" site:enews.imbc.com",
+      "\"소취\" \"2026\" \"소원\" -site:sinjoeo.kr"
+    ],
+    "B653": [
+      "\"엄크\" \"신조어\"",
+      "\"헬린이\" \"뜻\"",
+      "\"등린이\" \"2026\"",
+      "\"까놓말\" \"2026\""
+    ],
+    "C174": [
+      "\"반존대\" \"2026\"",
+      "\"반모\" \"뜻\" 기사",
+      "\"풀메\" \"뜻\" 기사",
+      "\"쌩얼\" \"신조어\" 기사",
+      "\"반존대\" 설렘 기사",
+      "\"풀메\" \"2026\" 메이크업",
+      "\"패피\" \"뜻\" 기사",
+      "\"반존대\" \"반말과 존댓말\" 기사",
+      "\"풀메\" \"풀메이크업\" site:enews.imbc.com",
+      "\"패피\" \"패션피플\" site:enews.imbc.com"
+    ],
+    "A172": [
+      "\"긴또깡\" \"야인시대\" \"유행어\" -site:namu.moe -site:donga.com",
+      "\"동전줍는 징징이\" 밈 -site:namu.moe",
+      "\"미안송\" 패러디 -site:namu.moe",
+      "\"미야\" \"밈\" -site:namu.moe",
+      "\"북경 정씨\" -site:namu.moe",
+      "\"사고 쳤을 때 입 다물고 있어라\" -site:namu.moe",
+      "\"사정없이 보내버리겠다\" -site:namu.moe",
+      "\"섣불리 판단하면 안되는 이유\" 밈 -site:namu.moe",
+      "\"세뇌교육\" \"밈\" -site:namu.moe",
+      "\"소련국가\" \"패러디\" 한국 -site:namu.moe",
+      "\"수박도\" \"드립\" -site:namu.moe",
+      "\"아니다 이 악마야\" 뜻 -site:namu.moe",
+      "\"긴또깡\" \"이재용\" \"유행어\" 기사",
+      "\"긴또깡\" \"2002\" \"학생\""
+    ],
+    "C175": [
+      "\"소취\" \"소원성취\" 기사",
+      "\"슈스\" \"슈퍼스타\" \"2026\" 기사",
+      "\"풀메\" \"풀메이크업\" 기사",
+      "\"패피\" \"패션피플\" \"2026\"",
+      "\"소취\" site:enews.imbc.com",
+      "\"슈스\" \"슈퍼스타\" site:news.nate.com",
+      "\"소취\" \"소원성취\" -site:storyworld1122.tistory.com -site:namu.wiki -site:namu.moe",
+      "\"소취\" \"2026\" 배우"
+    ],
+    "B654": [
+      "2026 유행어 신조어 \"기사\" \"11월\"",
+      "2026 \"캡션\" \"밈\" 매거진",
+      "2026 밈 유행어 site:allurekorea.com",
+      "2026 11월 밈 site:univ20.com",
+      "2026 10월 밈 site:gqkorea.co.kr",
+      "\"허락해준다\" \"장근석\" 패러디",
+      "\"뉴욕 헤럴드 트리뷴\" 패러디"
+    ],
+    "A173": [
+      "\"Terrified Noot Noot\" 한국 밈 -site:namu.moe",
+      "\"가능성의\" \"밈\" -site:namu.moe",
+      "\"너 개못하잖아\" -site:namu.moe",
+      "\"아카자\" \"밈\" \"패러디\" -site:namu.moe",
+      "\"애는 있습니다\" 밈 -site:namu.moe",
+      "\"약한 사내다\" \"미친놈들이다\" -site:namu.moe",
+      "\"엄마도 사람이야 사람\" -site:namu.moe",
+      "\"오타쿠가 정치글을 쓰게 만드는 정부\" -site:namu.moe",
+      "\"왕이되는자\" \"패러디\" -site:namu.moe",
+      "\"의문의\" \"행\" \"밈\" -site:namu.moe",
+      "\"잘생겨서 안 좋은 점\" -site:namu.moe",
+      "\"직구 금지\" \"패러디\" -site:namu.moe"
+    ],
+    "B655": [
+      "2026 \"유행어\" \"캡션\" 매거진",
+      "2026 \"밈\" \"말투\" site:esquirekorea.co.kr",
+      "site:harpersbazaar.co.kr 2026 \"신조어\"",
+      "site:elle.co.kr 2026 \"유행어\""
+    ]
+  },
+  "query_increment": 110,
+  "query_observations": 14350,
+  "distinct_literal_queries": 11748,
+  "preaudit": {
+    "first3": {
+      "status": "PASS",
+      "required": 0,
+      "note": "All6sourcesreopened; no media, originalcomment0; scope distinctions approved."
+    },
+    "second3": {
+      "status": "PASS",
+      "required": 0,
+      "note": "덕력·킬포·반존대 6sourcesdirect, boundaries approved."
+    },
+    "third3": {
+      "status": "PASS",
+      "required": 0,
+      "note": "소취editorialtitle notspeaker;슈스recent0;풀메bodyverifiednoheavyrequirement;6sourcesdirect."
+    },
+    "tenth": {
+      "status": "PASS",
+      "required": 0,
+      "note": "허락해준다 originaldescription1+recentreuse1 not2parodies."
+    }
+  },
+  "limits": [
+    "All1918prior bodies and1091candidate rows preserved,usage74/reviewed73 unchanged,main/protectedbodies unchanged.",
+    "Originalmedia0. Sources distinguish editorialusage/reportedcomments/officialcopy.",
+    "슈스/아웃오브안중 historicalonly notclaimedrecent. 소취title notspeakerquote.",
+    "허락해준다 originaldescription plusoneeditorialreuse, no widespreadoriginclaim.",
+    "CI for this checkpoint not yet run. Prior1918success65/65,Python497."
+  ]
+}

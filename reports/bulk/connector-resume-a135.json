@@ -1,0 +1,30 @@
+{
+  "batch": "connector-resume-a135",
+  "base": "266365dd6abe8cf2afdea65a9c88db954bbe2f85",
+  "entries": [
+    {
+      "id": "michyeosseo-chair-dance",
+      "independent_usage_events": 2,
+      "sources": [
+        {
+          "url": "https://www.newsway.co.kr/news/view?ud=200811241818410048093",
+          "observed": "2008-11-24 기사, 11-23 신봉선 개그콘서트 재현과 편집 동영상 공유. 바이라인 불일치로 기자 이름 생략."
+        },
+        {
+          "url": "https://www.ytn.co.kr/_ln/0130_200812121639136158",
+          "observed": "2008-12-12 YTN 설명, 12-10 비의 골든디스크 무대. 이번 열람128~134행에서 원래 춤 변형 명시."
+        }
+      ],
+      "bounds": "한국경제 403 대신 YTN 직접본문으로 보강. 원영상 미시청, 안무 최초 창작자 단정 없음. 같은 사건 기사 중복 집계 없음."
+    }
+  ],
+  "checks": {
+    "base_entries": 849,
+    "result_entries": 850,
+    "title_alias_collision_count": 0,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

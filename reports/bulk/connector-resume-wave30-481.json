@@ -1,0 +1,269 @@
+{
+  "batch": 481,
+  "base": "3248c9f1ba9d5e295fa3c50a9ae607c16b806508",
+  "canonical_before": 1447,
+  "canonical_after": 1457,
+  "added": [
+    "ppasuni-female-fan-label",
+    "bread-shuttle-bullying-slang",
+    "samilhan-misogynistic-violence-abbreviation",
+    "mmmm-cow-animation-music-edit",
+    "singer-elon-musk-parody-character",
+    "gajae-heart-sutra-remix-mondegreen",
+    "four-byungji-card-reaction",
+    "gaekkuljaem-hidden-camera-scenario",
+    "half-heart-to-handshake-reversal",
+    "market-question-groupchat-exit-parody"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0578",
+      "from": "index_not_found",
+      "to": "partial",
+      "dictionary_id": "ppasuni-female-fan-label"
+    },
+    {
+      "id": "kr-list-0582",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "bread-shuttle-bullying-slang"
+    },
+    {
+      "id": "kr-list-0610",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "samilhan-misogynistic-violence-abbreviation"
+    },
+    {
+      "id": "kr-list-0130",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "mmmm-cow-animation-music-edit"
+    },
+    {
+      "id": "kr-list-0160",
+      "from": "unclear",
+      "to": "partial",
+      "dictionary_id": "singer-elon-musk-parody-character"
+    },
+    {
+      "id": "kr-list-0161",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "gajae-heart-sutra-remix-mondegreen"
+    },
+    {
+      "id": "kr-list-0171",
+      "from": "unclear",
+      "to": "included",
+      "dictionary_id": "four-byungji-card-reaction"
+    },
+    {
+      "id": "kr-list-0176",
+      "from": "index_not_found",
+      "to": "included",
+      "dictionary_id": "gaekkuljaem-hidden-camera-scenario"
+    }
+  ],
+  "previous_ci": {
+    "sha": "3248c9f1ba9d5e295fa3c50a9ae607c16b806508",
+    "run": 44308260243,
+    "job": 134815372292,
+    "conclusion": "success",
+    "steps": 65,
+    "python": "Ran 495 tests in 76.087s"
+  },
+  "previous_audit": {
+    "batch": 480,
+    "sha": "3248c9f1ba9d5e295fa3c50a9ae607c16b806508",
+    "mandatory_fixes": 0,
+    "old_records_preserved": 1437,
+    "changed_files": 19,
+    "new_entries": 10,
+    "candidate_changes": 7,
+    "mapping_losses": 0,
+    "urls": 13,
+    "reopened": 12,
+    "blocked": "Bugs403, research-only read disclosed",
+    "media": 0,
+    "usage": {
+      "total": 1447,
+      "annotated": 74,
+      "reviewed": 73,
+      "unannotated": 1373
+    }
+  },
+  "research": {
+    "A42": {
+      "count": 20,
+      "recommended": 3,
+      "held": 17,
+      "queries": [
+        "\"빠순이\" 어원 비하 팬덤",
+        "\"빵셔틀\" 은어 뜻",
+        "\"뼈 맞았어\" 유행어",
+        "\"뽐거지\" 뜻",
+        "\"브베\" 밈",
+        "\"비밀친구 드립\"",
+        "\"빅 나티를 변기에 넣고서 내려\"",
+        "\"빈라덴송\"",
+        "\"빌리 헤링턴\" 합성",
+        "\"빨강 사기맵\"",
+        "\"빵뚜아 이낫\"",
+        "\"삐뽀핑\" 밈",
+        "\"벽돌할아버지\" 로봇댄스",
+        "\"사고 쳤을 때\" \"입 다물고\"",
+        "\"사랑의 열매\" \"밈\"",
+        "\"사이버펑크\" \"밈\" 한국",
+        "\"사정없이 보내버리겠다\"",
+        "\"삼일절 사이버 전쟁\"",
+        "\"삼일한\" 비하",
+        "\"샤방송\"",
+        "\"뼈 맞았어\" \"팩트\"",
+        "\"빨강 사기맵\" -site:namu.moe -site:seore.org",
+        "\"벽돌 할아버지\" \"춤\"",
+        "\"샤방송\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "20 prior candidate rows reexamined, not discoveries. Three critical definitions recommended; 8 external bodies read,1 404,2existing bodies. No media."
+    },
+    "C22": {
+      "count": 20,
+      "recommended": 5,
+      "held": 15,
+      "queries": [
+        "\"언캐니\" \"밈\" 뜻",
+        "\"mmmm cow\" 밈",
+        "\"Pray For Paris\" \"해시태그\"",
+        "\"개꿀잼몰카\" \"뜻\"",
+        "\"Mr Incredible\" \"밈\" 뜻 -site:namu.moe",
+        "\"Terrified Noot Noot\" 뜻",
+        "\"S stands for\" 밈 뜻",
+        "\"개꿀잼몰카\" 유래",
+        "\"NTR\" \"뜻\" \"신문\"",
+        "\"Remove Kebab\" 한국 기사",
+        "\"포병지\" \"뜻\"",
+        "\"가재 가재 바닷가재\" 밈",
+        "\"가수\" \"일론 머스크\" 딥페이크",
+        "\"맨까\" \"부들부들\" -site:namu.moe -site:seore.org",
+        "\"가능성의\" \"밈\" -site:namu.moe -site:seore.org",
+        "\"Zyzz\" \"밈\" 한국",
+        "\"PAC-MAN ghost dance\" 한국",
+        "\"Pink Elephants on Parade\" 밈",
+        "\"Sims cat breaking\" 한국",
+        "\"The one piece is real\" 밈 뜻",
+        "\"Why so serious\" \"패러디\" 한국",
+        "\"X키를 눌러\" \"조의\" -site:namu.moe -site:seore.org",
+        "\"가수 일론머스크\" -site:namu.moe -site:seore.org",
+        "\"인크레더블\" \"언캐니\" -site:namu.moe -site:seore.org",
+        "NTR 뜻 네토라레 언론",
+        "\"포병지\" 김병지 감스트 기사",
+        "\"일론 머스크\" \"합성\" \"노래\" 2021",
+        "\"언캐니 밈\" -site:namu.moe -site:seore.org"
+      ],
+      "notes": "20 prior rows,5limitedrecommendations (2existing source recoveries,3new sources),15held. Existingbody3;media0. No new recentuse certification. PrayForParis genuine mourning not assumed meme; NTR unreliable generalizations excluded;830wiki study not independent."
+    },
+    "B508": {
+      "count": 20,
+      "recommended": 2,
+      "existing": 7,
+      "held": 7,
+      "excluded": 4,
+      "queries": [
+        "\"2026\" \"밈\" \"공유\" site:it.chosun.com",
+        "\"2026\" \"챌린지\" \"사진\" site:marieclairekorea.com",
+        "\"2026\" \"놀이\" \"유행\" site:univ20.com/Magazine",
+        "\"2026\" \"밈\" \"10월\" site:news.nate.com",
+        "\"2026\" \"밈\" \"11월\" site:news.nate.com",
+        "\"2026\" \"릴스\" \"놀이\" site:univ20.com",
+        "\"현빈\" \"손하트\" \"패러디\"",
+        "\"V stepped into the crowd\" \"2026\""
+      ],
+      "notes": "2reportedformats,7existing/family,7held,4excluded. Originalmedia0. SportsKhan/Newsis same Son Yejin event,not two independent recreations;HyunBin2025Oct outside recentyear. Financial chatfiction not realquote."
+    }
+  },
+  "sources": [
+    {
+      "id": "ppasuni-female-fan-label",
+      "urls": [
+        "https://idology.kr/701"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "bread-shuttle-bullying-slang",
+      "urls": [
+        "https://www.newsis.com/view/NISX20101005_0006335967",
+        "https://www.khan.co.kr/article/201403161117441"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "samilhan-misogynistic-violence-abbreviation",
+      "urls": [
+        "https://www.seoul.co.kr/news/society/2014/10/09/20141009800006",
+        "https://imnews.imbc.com/news/2017/culture/article/4324364_31212.html"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "mmmm-cow-animation-music-edit",
+      "urls": [
+        "https://whitefaceone.tistory.com/2312"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "singer-elon-musk-parody-character",
+      "urls": [
+        "https://v.daum.net/v/20210523103002279?s=print_news"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gajae-heart-sutra-remix-mondegreen",
+      "urls": [
+        "https://whitefaceone.tistory.com/2442"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "four-byungji-card-reaction",
+      "urls": [
+        "https://v.daum.net/v/20170122070505372"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "gaekkuljaem-hidden-camera-scenario",
+      "urls": [
+        "https://worldofmeme.tistory.com/15"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "half-heart-to-handshake-reversal",
+      "urls": [
+        "https://news.nate.com/view/20260629n18067"
+      ],
+      "images_videos_viewed": 0
+    },
+    {
+      "id": "market-question-groupchat-exit-parody",
+      "urls": [
+        "https://news.nate.com/view/20260803n16005"
+      ],
+      "images_videos_viewed": 0
+    }
+  ],
+  "editor_notes": [
+    "Humanrights source inaccessible on editor retry; ppasuni finalbody uses directly checked Idology only.",
+    "No pinned prior body changed. Critical violent/sexist terms have no attack example or full slogan.",
+    "Two C22 source recoveries are not new independent discoveries. No media viewed."
+  ],
+  "query_observations": 9622,
+  "distinct_literal_queries": 8131,
+  "limits": [
+    "Candidate groups include reexamination, not all newly discovered memes.",
+    "No main changes, no Codex, no image/video view; current CI pending."
+  ]
+}

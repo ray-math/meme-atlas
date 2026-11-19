@@ -1,0 +1,70 @@
+{
+  "batch": 292,
+  "canonical_before": 929,
+  "canonical_after": 930,
+  "added": "where-you-at-challenge",
+  "research": {
+    "queries": [
+      "2026 \"밈\" site:singleskorea.com",
+      "2026 \"챌린지\" site:harpersbazaar.co.kr",
+      "2026 \"밈\" site:gqkorea.co.kr",
+      "\"Where You At\" \"챌린지\" \"2026\"",
+      "\"WYA\" \"챌린지\" 이효리",
+      "\"WHERE YOU AT\" \"챌린지\" -20260108 -site:ranktube.co.kr -site:namu.moe -site:namu.wiki \"2026\" \"3월\"",
+      "\"WYA\" \"챌린지\" site:fastpapermag.com",
+      "\"Where You At\" \"아이브\" \"챌린지\"",
+      "\"최보민\" \"웨어 유 엣\" \"2026\"",
+      "\"춤멤들 총출동\" \"WHERE YOU AT\""
+    ],
+    "materials": [
+      "WYA",
+      "Where You At",
+      "웨잇",
+      "Chill Guy",
+      "폭주기니",
+      "나니가스키",
+      "Who is Guilty",
+      "이라이라",
+      "레슨",
+      "부가티",
+      "우리 애 자랑",
+      "골반통신",
+      "매끈매끈",
+      "힙사사돈",
+      "양의지",
+      "영크크",
+      "얼마나 성공",
+      "안 나오면"
+    ],
+    "note": "18strings17materials:existing11/held5/recommendedWYA1. Some2025early retrospective outsidewindow notnewrecent. RecommendedHarper1894869Jan8namedSNSexamples + etnews20260316000091Mar16ChoiBominMar14fanmeeting; NewsenDaumZlJViCqFWLMar4TunexMar3sideonly artistunspecified. Originalvideos0."
+  },
+  "editor_index_queries": [
+    "WYA",
+    "WHERE YOU AT",
+    "웨어 유",
+    "where-you"
+  ],
+  "evidence": {
+    "editor_direct_read": [
+      "https://prd.harpersbazaar.co.kr/article/1894869",
+      "https://www.etnews.com/20260316000091"
+    ],
+    "note": "NamedSNSproductions reportedJan8 + separateMar14fanmeeting reportedMar16. Not2026origin. Originalvideo0, exactmovesnotclaimed; sameJan8pressrelease syndications notcountedasindependent."
+  },
+  "audit": {
+    "id": "aung-daung-challenge",
+    "sha": "ad341265e95e4e86e800653ac4d1af079a2a39d4",
+    "result": "pass-no-required-changes",
+    "scope": "body/3sources/index/twolists; nofulldiff/fixture/CI"
+  },
+  "checks": {
+    "unique_ids": 930,
+    "title_alias_cross_id_collisions": 0,
+    "generator_base_roundtrip": true
+  },
+  "metrics": {
+    "query_observations": 2567,
+    "distinct_literal_queries": 2083
+  },
+  "ci": "not run"
+}

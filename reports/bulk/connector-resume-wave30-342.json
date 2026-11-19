@@ -1,0 +1,115 @@
+{
+  "batch": 342,
+  "base": "c0be4a81f5bb61e54fb5addef60fe48da1761767",
+  "canonical_before": 968,
+  "canonical_after": 969,
+  "added": [
+    "greeting-jerry"
+  ],
+  "editor": {
+    "source_candidate_1083_read": true,
+    "scope": "Original savedrow titleonly/evidenceempty, cannot upgrade mapping to ppi",
+    "jerry_sources": [
+      "https://gall.dcinside.com/mgallery/board/view/?id=rescene1&no=810986&page=1",
+      "https://theqoo.net/beauty/3391445491",
+      "https://whitefaceone.tistory.com/2255"
+    ],
+    "read": 3,
+    "limits": "DCpage1recovered afterunqualifiedURLfailure. Needexplicitdate/bodycheck. Imageanimation0. 2021originexplanationnotoriginalfilmproof.",
+    "queries": []
+  },
+  "semantic_audit": {
+    "base": "7690f8c1ea80b09f7194143e6355acfa355acc95",
+    "rows": [
+      "1047",
+      "1048",
+      "1051",
+      "1055",
+      "1060",
+      "1061",
+      "1062",
+      "1063",
+      "1069",
+      "1076",
+      "1078",
+      "1079",
+      "1083",
+      "1086",
+      "1087",
+      "1089",
+      "1094",
+      "1096",
+      "1098",
+      "1101"
+    ],
+    "unchanged": {
+      "index_not_found": 15,
+      "unclear": 5
+    },
+    "changes": 0,
+    "conditional": {
+      "candidate": "1083",
+      "id": "ppi",
+      "reason": "Existingclownsociety/pi endingbutledgerbroadtitlecannotconfirmfamily"
+    },
+    "body_read": [
+      "advanced-a-indistinguishable-b",
+      "gukppong",
+      "jumo-cheer",
+      "trembling-reaction",
+      "waldo-style",
+      "azasu",
+      "not-ningen",
+      "ppi"
+    ],
+    "queries": [
+      "특이점|singular|고도로",
+      "틀딱|라떼|노인",
+      "팅팅|ting",
+      "파오후|쿰척",
+      "팩트|사실|팩폭",
+      "펀쿨섹|fun.cool|섹시",
+      "펄럭|펄~|국뽕",
+      "페이크|fake|속였",
+      "평타|상타|ㅍㅌ|ㅅㅌ",
+      "폴란드|poland|국가",
+      "풀발|과민|분노",
+      "피지컬|프로게이머",
+      "피에로|광대|조커",
+      "즐거우세요|즐거",
+      "하루만|기다리면",
+      "하와와|여고생",
+      "하츠네|형돈|미쿠",
+      "학교폭력|멈춰",
+      "한글.*않|utdaein|왈도",
+      "한본어|일본어|한국어"
+    ],
+    "limits": "Scopeonly;noexternal useverification. No broadcategorypromotion fromsinglephrase."
+  },
+  "independent_audit": {
+    "read3": true,
+    "actual_texts": 2,
+    "recent": 1,
+    "explanation": 1,
+    "video_image": 0,
+    "index_ref": 967,
+    "limits": "Latest968 index independently rechecked by editor; no originalfilm/2019origin claim. Mocking/bait usage notinferred."
+  },
+  "editor_index": {
+    "query": "제리|인사하는|대충.*짤",
+    "false_hits": [
+      "hello-i-am-kai",
+      "king-lovely"
+    ],
+    "reason": "Generic greeting words notJerry"
+  },
+  "previous_ci": {
+    "run": 44237825138,
+    "conclusion": "success",
+    "steps": 65,
+    "python_tests": 495,
+    "seconds": 52.61
+  },
+  "ci": "pending",
+  "coverage_change": "0924 N->I;1083 staysunclear after readingoriginalsavedtitleonlyrow. sourceimmutable"
+}

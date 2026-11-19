@@ -1,0 +1,54 @@
+{
+  "batch": 290,
+  "canonical_before": 928,
+  "canonical_after": 928,
+  "added": [],
+  "research": {
+    "queries": [
+      "site.maily.so 2026 \"밈\" \"11.16\"",
+      "2026 \"밈\" \"숨은 명곡\" 팬들",
+      "site:genie.co.kr/magazine \"2026\" \"유행어\"",
+      "\"팬들만 알고\" \"숨은 명곡\" -site:incross.com",
+      "\"수정사항을 변기에\"",
+      "\"팬들만 알고\" \"숨은 명곡\" site:theqoo.net",
+      "\"변기에 넣고서 내려\" -site:incross.com -site:minenews.stibee.com -빅나티 -김감전",
+      "\"팬들만 알고 대부분\" -site:twstalker.com -site:sotwe.com -site:incross.com",
+      "\"숨은 명곡\" \"달라달라\" 2026",
+      "\"아웅다웅 챌린지\" 2026",
+      "\"아웅다웅 챌린지\" site:clip.imbc.com",
+      "\"아웅다웅 챌린지\" site:news.nate.com",
+      "\"아웅다웅\" \"챌린지\" site:tv.jtbc.co.kr"
+    ],
+    "materials": [
+      "숨은 명곡",
+      "변기에",
+      "그러시구나",
+      "킹콩",
+      "이지까까",
+      "이거 제 이모지",
+      "미혼 앤 비혼",
+      "감사드리고",
+      "데스크탑",
+      "아웅다웅",
+      "브리저튼",
+      "과일 AI 쇼츠",
+      "그림판",
+      "크레파스",
+      "테크놀로히아"
+    ],
+    "note": "C actual15 materials. Aungdaung maily detailedTWS/ZB1two productions samepublisher; Incross10748 genericindependent explanation dateheader2026/internal2025conflict; Wavbor titledateonly excluded; jungsu4069708987 fanlistonly. 7existing; rest hold including fruitAI notsameguava/pomegranate."
+  },
+  "audit": {
+    "id": "jjapagetti-husband",
+    "sha": "d5e59af98a946bc75acdb48ecbca210d15c03ace",
+    "result": "pass-no-required-changes",
+    "scope": "body/four direct source pages/index/two lists; excludes full diff fixture and CI",
+    "unique_ids": 928,
+    "original_images_or_videos": 0
+  },
+  "metrics": {
+    "query_observations": 2527,
+    "distinct_literal_queries": 2049
+  },
+  "ci": "not run"
+}

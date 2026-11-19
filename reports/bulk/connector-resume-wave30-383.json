@@ -1,0 +1,210 @@
+{
+  "batch": 383,
+  "base": "ce92fabc91293ea81c4552e378a7ccb7d736adf4",
+  "canonical_before": 982,
+  "canonical_after": 983,
+  "added": [
+    "trap-card-activated"
+  ],
+  "researchB": {
+    "sha": "812ab94b8dd6d83e9be5605fea81caaa4a68f002",
+    "rows": [
+      {
+        "id": "0945",
+        "status": "held",
+        "note": "jujak 일반어와 노래편집형식 다름;실제제작 근거미확보"
+      },
+      {
+        "id": "0981",
+        "status": "held",
+        "sources": [
+          "https://www.kci.go.kr/kciportal/mobile/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003332480",
+          "https://www.piku.co.kr/w/azLv3c"
+        ],
+        "note": "해설1+선곡선택게임1;독립음악제작2건아님"
+      },
+      {
+        "id": "1106",
+        "status": "narrow_entry_recommended",
+        "note": "고파스댓글1맥락+기사편집비유1,최초기원확인아님"
+      },
+      {
+        "id": "1143",
+        "status": "held",
+        "source": "https://v.daum.net/v/20261002224630634",
+        "note": "정책논쟁 발언재사용,반복밈형식미확보"
+      },
+      {
+        "id": "1156",
+        "status": "held",
+        "source": "https://voda.donga.com/home/popular/3/all/39/6261487/1",
+        "note": "2026-06-09방송6-10등록 원창작자참여재사용1,영상0"
+      }
+    ],
+    "queries": [
+      "\"주작송\" \"2026\"",
+      "\"창팝\" \"2026\" 제작",
+      "\"함정카드\" \"2026\" 발동",
+      "\"호텔경제학\" \"2026\"",
+      "\"홍박사님을 아세요\" \"2026\"",
+      "\"주작송\" 패러디 제작",
+      "\"창팝\" \"2026\" -site:namu.moe -site:seore.org",
+      "\"함정카드 발동\" \"2026\" -site:inven.co.kr -site:namu.moe",
+      "\"주작송\" -site:namu.moe -site:seore.org",
+      "\"홍박사님을 아세요\" \"패러디\" \"2026\"",
+      "\"함정카드\" \"2026\" \"발동\" -site:inven.co.kr -site:namu.moe -유희왕 -쿠키런"
+    ]
+  },
+  "editor": {
+    "queries": [
+      "\"함정카드 발동\" \"2026\" -site:koreapas.com -site:namu.moe -site:news.nate.com -유희왕 -포켓몬 -쿠키런",
+      "\"함정카드\" \"2026\" \"여행\""
+    ],
+    "body_sources_read": 2,
+    "limits": "고파스 문제오독 반응1맥락+일간스포츠 편집비유1. 인벤2검색단서는직접읽기cachemiss로제외. 사진영상0. 최초유래확정안함."
+  },
+  "semantic_audit": {
+    "sha": "812ab94b8dd6d83e9be5605fea81caaa4a68f002",
+    "scope": "automatic_title_alias_match positions81-100",
+    "rows": [
+      {
+        "candidate_id": "kr-list-0343",
+        "dictionary_id": "mom-mom-made-me",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0349",
+        "dictionary_id": "hype-boy-answer",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0350",
+        "dictionary_id": "your-chief-namcheon",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0354",
+        "dictionary_id": "you-go-hawaii",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0355",
+        "dictionary_id": "do-you-know-crab",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0357",
+        "dictionary_id": "nico-nico-ni",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0362",
+        "dictionary_id": "dududunga",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0363",
+        "dictionary_id": "dame-dame",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0366",
+        "dictionary_id": "da-aneun-saramdeurigumeon",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0370",
+        "dictionary_id": "most-perfect-material",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0373",
+        "dictionary_id": "shake-a-carrot",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0375",
+        "dictionary_id": "carrot-of-course",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0378",
+        "dictionary_id": "bamboo-cloth-song",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0379",
+        "dictionary_id": "daebak-reaction",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0383",
+        "dictionary_id": "omit-details",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0384",
+        "dictionary_id": "throw-or-not",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0386",
+        "dictionary_id": "help-speedwagon",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0392",
+        "dictionary_id": "dotne",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0393",
+        "dictionary_id": "stop-bottom-dealing",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-0394",
+        "dictionary_id": "dolly-dot-song",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      }
+    ],
+    "bodies_read": 20,
+    "classification_changes": 0,
+    "limits": "0363/0378/0384는 노래·상품 전체 아닌 재사용 형식. 외부 출처·이미지·영상 재검증 0. 누적100행99고유본문."
+  },
+  "automatic_audit_cumulative": {
+    "rows": 100,
+    "distinct_rows": 100,
+    "distinct_bodies": 99,
+    "reports": [
+      376,
+      377,
+      379,
+      381,
+      383
+    ]
+  },
+  "ci": {
+    "new_commit": "pending"
+  }
+}

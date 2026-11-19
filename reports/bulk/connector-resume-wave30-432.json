@@ -1,0 +1,106 @@
+{
+  "batch": 432,
+  "base": "5b0706ab5c947120b88e55e7b0262fd6f1056e91",
+  "canonical_before": 1006,
+  "canonical_after": 1007,
+  "added": [
+    "amollang-self-reaction"
+  ],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" \"말투\" -site:namu.wiki -site:namu.moe",
+      "2026 \"밈\" \"문장\" \"바꿔\"",
+      "2026 \"밈\" \"자막\" \"반복\"",
+      "2026 \"밈\" \"제목으로\"",
+      "\"2026\" \"처하자\" -site:instablank.com -site:moamoang.co.kr",
+      "\"2026\" \"돌아왔게\" \"패러디\"",
+      "\"2026\" \"하지 말랬지\" 밈",
+      "\"2026\" \"일하기 전 제 모습\""
+    ],
+    "screened": 10,
+    "existing": [
+      "weareone-cheohaja",
+      "yunjeong-yunjeong",
+      "who-is-back-from-prison",
+      "before-working-look",
+      "jo-ta",
+      "acting-day-one",
+      "tiny-hand-tapping"
+    ],
+    "held": [
+      "말랑꽈득쪽득슬라임",
+      "내가누군데나OO예요",
+      "OO많이된다스트레스많이받을거야"
+    ],
+    "sources": [
+      "https://www.i-boss.co.kr/ab-74668-5400"
+    ],
+    "note": "소마코2026-02-10원문/전재여러개1군.최미나수설명예시≠독립사용2,김동현LG광고설명1. ad.co.kr자료rewritten summary제외."
+  },
+  "researchC": {
+    "queries": [
+      "\"아몰랑\" \"2026\" 후기 -site:inven.co.kr -site:orbi.kr",
+      "\"앗 아아\" \"2026\" 후기 -site:inven.co.kr -site:orbi.kr",
+      "\"아몰랑\" \"2026\" site:tistory.com",
+      "\"앗... 아아...\" \"2026\" site:tistory.com",
+      "\"앗 아아\" \"2026\" 게임 리뷰",
+      "\"2026\" \"앗...아아\" \"댓글\" -site:namu.moe -site:inven.co.kr -site:kone.gg"
+    ],
+    "recommended": "0691",
+    "sources": [
+      "https://lovelyjaejae.tistory.com/46",
+      "https://euangmang.tistory.com/90",
+      "https://sksn.tistory.com/560660"
+    ],
+    "note": "2026-09-30정리미룬서랍/01-27게임관리미룸/09-14구매고민접음.같은플랫폼별개블로그3,신원독립경험진실미검증.원작·성별비하맥락제외.",
+    "held": {
+      "id": "0721",
+      "sources": [
+        "https://up.seizemode.com/l/5593",
+        "https://bbs2.tunaground.net/trace/anctalk/13060"
+      ],
+      "note": "첫댓글직접1,글11-06이나댓글날짜없음.둘째검색단서본문못찾음find403.추가확실2군아님"
+    }
+  },
+  "editor_queries": [
+    "\"2026\" \"밈\" \"따라\" site:news.nate.com -광고 -트럼프 -AI -허경환",
+    "\"2026\" \"밈\" \"패러디\" site:newsis.com -트럼프 -광고 -정치"
+  ],
+  "editor_finding": {
+    "queries_result": "주로기존삐·해외AI비방/정치·과거2024손흥민노출.의혹신상폭력영상갈래확대안함.국내구체신규반복형식추천0",
+    "source_level": "search only"
+  },
+  "source_reads": {
+    "editor": 3,
+    "researcher": 3
+  },
+  "limits": [
+    "별개블로그3 같은플랫폼,실인물신원독립미검증",
+    "자기고민접기만수록,원작·최초·성별비하이력검증아님",
+    "이미지영상0"
+  ],
+  "candidate_changes": [
+    {
+      "id": "kr-list-0691",
+      "from": "index_not_found",
+      "to": "partial"
+    }
+  ],
+  "ci430": {
+    "run": 44261132332,
+    "job": 134654479923,
+    "success": true,
+    "tests": 495,
+    "steps": 65,
+    "seconds": 71.894
+  },
+  "ci431": {
+    "run": 44261345099,
+    "job": 134655171914,
+    "success": true,
+    "tests": 495,
+    "steps": 65,
+    "seconds": 61.515
+  },
+  "ci_new_commit": "pending"
+}

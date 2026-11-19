@@ -1,0 +1,389 @@
+{
+  "batch": 393,
+  "base": "e87215955ad998a9b0d58c49377a2735132e0472",
+  "canonical_before": 985,
+  "canonical_after": 985,
+  "added": [],
+  "researchA": {
+    "base": "ce4d6874685a37ddc0831251f4f792128281ea2d",
+    "held": "부캉이 게임화",
+    "sources": [
+      {
+        "url": "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1008766757",
+        "note": "2026-09-23게임집으로가는길보도"
+      },
+      {
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=webgame&no=44364&page=1",
+        "note": "2026-10-23돌아온부캉이제작자직접게시"
+      },
+      {
+        "url": "https://www.joongang.co.kr/article/25466003",
+        "note": "날짜공란/다른게임관계불명3군으로안셈"
+      }
+    ],
+    "limits": "별개게임응용2군이나동물소재공통뿐고정밈형식불명.게임실행사진영상0.코인금융제외",
+    "duplicates": [
+      "ppi",
+      "raureol",
+      "forever-moment",
+      "수원야호→geoje-yaho치환검색만"
+    ],
+    "queries": [
+      "\"2026\" \"밈\" \"제작했다\" -site:instablank.com -site:jjalbang.today -젠슨",
+      "\"2026\" \"밈\" \"제목으로\" -site:instablank.com -site:jjalbang.today",
+      "\"2026\" \"밈\" site:news.sbs.co.kr",
+      "\"2026\" \"밈\" \"부캉이\" 게임",
+      "\"2026\" \"밈\" \"퇴직연금\"",
+      "\"부캉이\" \"웹게임\" -site:instablank.com -site:jjalnews.com -site:jjalbang.today",
+      "\"2026\" \"빙고카드\" \"없\" -site:namu.moe",
+      "\"2026\" \"밈\" site:news.suwon.go.kr \"리센느\""
+    ]
+  },
+  "semantic_audit": {
+    "sha": "ce4d6874685a37ddc0831251f4f792128281ea2d",
+    "scope": "automatic_title_alias_match positions281-328",
+    "rows": [
+      {
+        "candidate_id": "kr-list-1029",
+        "dictionary_id": "king-reasonable-suspicion",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1031",
+        "dictionary_id": "king-wang-jjang",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1033",
+        "dictionary_id": "tallula",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1036",
+        "dictionary_id": "taebo-hae",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1037",
+        "dictionary_id": "tes-brother",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1042",
+        "dictionary_id": "too-much-talker",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1044",
+        "dictionary_id": "toca-toca-dance",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1045",
+        "dictionary_id": "tropicana-dance",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1046",
+        "dictionary_id": "troll-play",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1050",
+        "dictionary_id": "tiramisu-cake",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1053",
+        "dictionary_id": "leek-spin-song",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1054",
+        "dictionary_id": "green-onion-chex",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1057",
+        "dictionary_id": "judge-i-did-not-laugh",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1058",
+        "dictionary_id": "patsu",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1070",
+        "dictionary_id": "paein-online",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1071",
+        "dictionary_id": "giving-up-easy",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1074",
+        "dictionary_id": "storm-before-suddenattack",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1075",
+        "dictionary_id": "pon-eunjeong",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1077",
+        "dictionary_id": "form-michyeotda",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1081",
+        "dictionary_id": "pro-offended",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1082",
+        "dictionary_id": "flex",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1088",
+        "dictionary_id": "hao-online-style",
+        "semantic_audit_result": "scope_limited_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1090",
+        "dictionary_id": "hairu",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1091",
+        "dictionary_id": "dragoon-comment-chain",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1092",
+        "dictionary_id": "but-it-was-fast",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1095",
+        "dictionary_id": "academic-consensus",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1097",
+        "dictionary_id": "korean-preferred-speed",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1100",
+        "dictionary_id": "one-bowl-please",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1102",
+        "dictionary_id": "khaby-reaction",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1111",
+        "dictionary_id": "happy-cat",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1112",
+        "dictionary_id": "haek-intensifier",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1115",
+        "dictionary_id": "happy-circuit",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1116",
+        "dictionary_id": "haengshow",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1117",
+        "dictionary_id": "hyangsook",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1120",
+        "dictionary_id": "heomu-song",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1122",
+        "dictionary_id": "pumpkin-sweet-potato",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1124",
+        "dictionary_id": "nonghyup-flirting",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1126",
+        "dictionary_id": "heoijja",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1130",
+        "dictionary_id": "heol",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1132",
+        "dictionary_id": "hectopascal-kick",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1133",
+        "dictionary_id": "hell-joseon",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1134",
+        "dictionary_id": "hellchang",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1136",
+        "dictionary_id": "dizzy-hurry",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1137",
+        "dictionary_id": "reality-is-gutter",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1138",
+        "dictionary_id": "why-are-you-there",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1139",
+        "dictionary_id": "hyeja",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1153",
+        "dictionary_id": "hitda-hit",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      },
+      {
+        "candidate_id": "kr-list-1154",
+        "dictionary_id": "himsumjjin",
+        "semantic_audit_result": "core_scope_match",
+        "body_read": true
+      }
+    ],
+    "bodies_read": 48,
+    "classification_changes": 0,
+    "limits": "1054=0984동일green-onion-chex.누적328행325고유본문.노래제품문법전체포괄아님.외부기원검증0/영상사진0"
+  },
+  "automatic_audit_cumulative": {
+    "rows": 328,
+    "distinct_rows": 328,
+    "distinct_bodies": 325,
+    "core": 304,
+    "limited": 24,
+    "duplicate_pairs": [
+      [
+        "0107",
+        "0319"
+      ],
+      [
+        "0384",
+        "0781"
+      ],
+      [
+        "0984",
+        "1054"
+      ]
+    ],
+    "reports": [
+      376,
+      377,
+      379,
+      381,
+      383,
+      384,
+      385,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393
+    ],
+    "limits": "328행연결본문의미만검사.1091원장전체/외부출처사실전수검증완료아님"
+  },
+  "ci": {
+    "report391": {
+      "run": 44248757442,
+      "job": 134613997148,
+      "success": true,
+      "steps": 65,
+      "tests": 495,
+      "seconds": 52.982
+    },
+    "report392": "pending",
+    "new_commit": "pending"
+  }
+}

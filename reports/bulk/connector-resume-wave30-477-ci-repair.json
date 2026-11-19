@@ -1,0 +1,15 @@
+{
+  "base_sha": "c18a0b5430c8181e85ba96040d3aaa352a467a05",
+  "canonical_count": 1419,
+  "failed_run": 44304787845,
+  "python_tests": 495,
+  "failures": 2,
+  "cause": "Existing jeose-sang-tension history enrichment changed the pinned approved full-body digest.",
+  "repair": "Restore the exact approved body from a1e5a9d5c488ee74845b022f1c5da43bd9901934. Do not change tests, digest pins, or evidence approval.",
+  "retained_research": {
+    "url": "https://tv.jtbc.co.kr/cast/pr10011097",
+    "scope": "Related 저세상드립/진행력 wording on official introduction; page publication date unknown. Not independently sufficient to alter frozen canonical."
+  },
+  "new_entries_preserved": 10,
+  "main_changed": false
+}

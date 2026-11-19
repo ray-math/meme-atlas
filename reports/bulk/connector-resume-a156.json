@@ -1,0 +1,130 @@
+{
+  "base": "b5bbba2592d73b8a76a4f36a5fe8d06a9c5d617b",
+  "entries": [
+    {
+      "id": "nose-apology-scuba-challenge",
+      "sources": [
+        {
+          "url": "https://maily.so/trendaword/posts/g0zml9p7rql",
+          "observed": "2026-06-11 horangjin_couple 커플 재연 구체 소개."
+        },
+        {
+          "url": "https://blog.hsad.co.kr/3760",
+          "observed": "2026-07-09 ITZY 공식 채널 별개 재연 제목/영상 연결 소개."
+        }
+      ],
+      "evidence_level": "독립 본문2곳의 별개 참여 보고. 원영상 미시청.",
+      "limits": "HSAD 다른 참여자 이름의 오기 가능성으로 해당 사례 미사용. 스쿠바 안무 최초 제작자 단정 배제."
+    }
+  ],
+  "candidate_queries": [
+    {
+      "query": "로드스터",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "existing-family",
+      "canonical": "roadster-ai-parody"
+    },
+    {
+      "query": "테슬라",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "existing-family",
+      "canonical": "roadster-ai-parody"
+    },
+    {
+      "query": "이 순간이 영원",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "existing-family",
+      "canonical": "forever-moment"
+    },
+    {
+      "query": "영원할 건가",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "existing-family",
+      "canonical": "forever-moment"
+    },
+    {
+      "query": "오타쿠",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "주술회전",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "어제보다 슬픈 오늘",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "웃다가 오열",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "코 때리고",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "미안해하는",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "스쿠바",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "scuba",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "코 때리기",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "코 때려서 미안해",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "코 땨리고",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "accepted-family",
+      "canonical": "nose-apology-scuba-challenge"
+    },
+    {
+      "query": "손가락 막대기",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "탭탭",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    },
+    {
+      "query": "tiny hand",
+      "source": "reports/bulk/connector-resume-a156.json",
+      "status": "held-unverified"
+    }
+  ],
+  "checks": {
+    "result_entries": 867,
+    "python_tests": "not run",
+    "ci": "not run",
+    "reviewed_entries": 73,
+    "reviewed_usages": 88
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "batch": 430,
+  "base": "f54c01f0f6e09ca6ac3878fcf5640520c56aba9e",
+  "canonical_before": 1006,
+  "canonical_after": 1006,
+  "added": [],
+  "researchA": {
+    "queries": [
+      "2026 \"밈\" \"패러디\" site:news.kbs.co.kr",
+      "2026 \"밈\" \"유행어\" site:news.imaeil.com",
+      "2026 \"밈\" \"따라\" site:hani.co.kr",
+      "2026 \"밈\" \"유행\" site:kwnews.co.kr",
+      "2026 \"밈\" \"제목\" site:news.joins.com",
+      "2026 \"밈\" \"패러디\" site:news.nate.com -트럼프 -정치 -광고",
+      "2026 \"유행어\" \"따라\" site:tenasia.co.kr",
+      "2026 \"밈\" \"사용\" site:newsis.com -트럼프"
+    ],
+    "screened": 10,
+    "existing": [
+      "mihon-and-bihon",
+      "young-creator-crew",
+      "niga-joa-challenge",
+      "bomiguna-christina",
+      "dance-parapara"
+    ],
+    "held": [
+      "늑구합성물",
+      "좌아하게",
+      "AI부정행위시험장",
+      "호프외계인",
+      "총수밈"
+    ],
+    "sources": [
+      "https://news.nate.com/view/20260803n27175?mid=n1101",
+      "https://news.nate.com/view/20260426n01551?mid=e1100",
+      "https://news.nate.com/view/20260727n28492?mid=e1300"
+    ],
+    "note": "MBN8/3기존,크리스티나4/26인터뷰기존.호프7/27팬프리퀄+공식관계도는별개형식임.시험장뉴시스NISX20261118_0003872489직접접근실패.정치한게시글/넓은인물·사건표제형식확정아님."
+  },
+  "researchB": {
+    "queries": [
+      "\"꽈찌쭈\" \"2026\"",
+      "\"나가 있어\" \"밈\" \"2026\"",
+      "\"다 부질없는\" \"밈\"",
+      "\"벽을 부수는\" \"밈\"",
+      "\"빈 찬합\" \"2026\"",
+      "\"꽈찌쭈\" 패러디 -site:namu.moe",
+      "\"나가있어\" \"2026\" -site:namu.moe",
+      "\"벽부수기\" \"이지툰\" -site:namu.moe",
+      "\"빈 찬합\" \"게임\" \"2026\"",
+      "\"나가있어\" \"살인의 추억\""
+    ],
+    "held": [
+      {
+        "id": "0279",
+        "note": "SBS오류인벤502창작패러디timeout,닉네임사용제외"
+      },
+      {
+        "id": "0286",
+        "url": "https://ranktube.co.kr/video/h5DcwaVfvQw",
+        "note": "2026-08-15집계제목1,영상0.byeongjin-leave직접본문관련이나원장동일여부미확정"
+      },
+      {
+        "id": "0364",
+        "note": "가족비하재게시중심독립치환없음"
+      },
+      {
+        "id": "0540",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=easytoongall&no=215&t=cv",
+        "note": "2025-04-26제목날짜만GIF미열람최근밖"
+      },
+      {
+        "id": "0575",
+        "url": "https://novelpia.com/freestory/all/9/1/%EB%A1%9C%EB%A7%A8%EC%8A%A4?main_genre=7",
+        "note": "작품제목소개,12시간전UP≠최초게시.일상전용구분필요클리앙404"
+      }
+    ]
+  },
+  "researchC": {
+    "queries": [
+      "\"당신이 옳았어\" 밈",
+      "\"당신이 옳았어\" \"2026\" -엘리아스",
+      "\"당신이 옳았어\" \"2026\" 게임 -site:namu.moe -site:seore.org",
+      "\"당신이 옳았어\" \"2026\" \"퍼거슨\"",
+      "\"당신이 옳았어\" \"2026\" \"요리\"",
+      "\"당신이 옳았어\" \"2026\" 후기 -site:namu.moe -site:seore.org"
+    ],
+    "candidate": "0374",
+    "status": "held",
+    "sources": [
+      "https://gall.dcinside.com/mgallery/board/view/?id=stalker&no=92277&page=1",
+      "https://www.gamechosun.co.kr/webzine/board/view.php?bid=balance&num=788495&site=common"
+    ],
+    "note": "2본문직접+unexpected-win본문1.뜻밖비교승리와호명후재평가문장형식은다르나게임조선은영상맥락불명,단순동의와밈차용구별불충분.인벤7429040 502.새명확적용0."
+  },
+  "editor_queries": [
+    "\"쿵 할게요\" \"2026\" 패러디 -수호 -site:namu.moe",
+    "\"쿵할게요\" \"2026\" -수호 -site:namu.moe"
+  ],
+  "editor_result": "쿵할게요 별개2026패러디2질의결과없음.발매예정기사1군이상확보못해보류",
+  "candidate_changes": [],
+  "ci1006": {
+    "sha": "f17929d900bece3553e9a78844f546a9c6038bea",
+    "run": 44260606097,
+    "job": 134652738088,
+    "success": true,
+    "steps": 65,
+    "tests": 495,
+    "seconds": 116.533
+  },
+  "ci429": {
+    "run": 44260872253,
+    "job": 134653621247,
+    "status": "last observed in_progress"
+  },
+  "ci_new_commit": "pending"
+}

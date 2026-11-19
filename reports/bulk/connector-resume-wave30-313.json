@@ -1,0 +1,63 @@
+{
+  "batch": 313,
+  "base": "1de4f1288c29e09676a8ec1034181b58cae54447",
+  "canonical_before": 947,
+  "canonical_after": 947,
+  "added": [],
+  "recovered_scope": {
+    "base": "1de4f1288c29e09676a8ec1034181b58cae54447",
+    "rows": [
+      {
+        "id": "0130",
+        "to": "index_not_found",
+        "source": "https://whitefaceone.tistory.com/2312",
+        "reason": "동물농장오티스 편집영상으로범위회복; 설명블로그1만,최초유래미검증"
+      },
+      {
+        "id": "0189",
+        "to": "index_not_found",
+        "source": "https://whitefaceone.tistory.com/2798",
+        "reason": "트릭스터M뽑기연출패러디 범위회복; 실제별도제작미확인"
+      },
+      {
+        "id": "0195",
+        "to": "index_not_found",
+        "source": "https://v.daum.net/v/20260408153440235",
+        "reason": "사냥개들2배우인터뷰반복대사확인. 독립패러디미확보"
+      },
+      {
+        "id": "0229",
+        "to": "index_not_found",
+        "source": "https://hyojason.tistory.com/64",
+        "reason": "무한도전박명수문구설명확인. 실제영상/독립재사용미확인"
+      }
+    ],
+    "index_queries": [
+      "mmmm",
+      "오티스",
+      "가챠걸",
+      "미운푸리",
+      "건우 엄마",
+      "귀여운 건"
+    ],
+    "limits": "Editorread4sources scopeonly. Unclear→index_not_found doesnotmeanpublishable or complete semanticabsence. No newcanonical."
+  },
+  "queries": [
+    "\"건우 엄마 데려와\" 패러디 2026 -site:namu.moe -site:seore.org",
+    "\"귀여운 건 나도 알아\" \"2026\" -site:namu.moe"
+  ],
+  "result": "4 unclear rows identified to index_not_found; all remain unpublished evidence insufficient",
+  "coverage_counts": {
+    "index_not_found": 328,
+    "partial": 36,
+    "unclear": 345,
+    "automatic_title_alias_match": 328,
+    "included": 50,
+    "candidate_repeat": 4
+  },
+  "metrics": {
+    "observations": 2995,
+    "distinct": 2488
+  },
+  "ci": "pending"
+}

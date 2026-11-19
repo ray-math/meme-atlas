@@ -1,0 +1,51 @@
+{
+  "batch": 241,
+  "canonical_before": 908,
+  "canonical_after": 909,
+  "added": [
+    "easy-kkakka"
+  ],
+  "evidence": {
+    "direct_title_uses": 2,
+    "urls": [
+      "https://minenews.stibee.com/p/522",
+      "https://studio.csonline.nexon.com/Studio/View/01792328296685015001"
+    ],
+    "limits": "Nexon-platform USER creation, not official corporate campaign. Actual difficulty and exact naming intention unverified. 2024/revival narrative attributed to newsletter, not first origin."
+  },
+  "independent_review": "Independent reviewer passed six-seven/usagi-rap final bodies, index match and semantic scope. Easy-kkakka conditional title-based admission approved, Nexon is user creation not corporate promo.",
+  "queries": [
+    "\"2026\" \"밈\" \"독서\" \"제목\" -site:namu.moe",
+    "\"2026\" \"밈\" site:news.samsung.com",
+    "\"2026\" \"밈\" site:newsroom.hyundai.com",
+    "\"2026\" \"밈\" site:newsroom.kakao.com",
+    "\"2026\" \"밈\" site:skhynix.com",
+    "\"2026\" \"밈\" \"사보\"",
+    "\"이지까까\" \"2026\" -site:namu.moe -site:instablank.com",
+    "\"이지까까\" site:ac.kr",
+    "\"이지까까\" \"후기\"",
+    "이지까까",
+    "킹콩",
+    "포기하겠습니다",
+    "민음사",
+    "얼레벌레"
+  ],
+  "duplicates": [
+    "킹콩: i-punch-like-kingkong",
+    "포기하겠습니다: give-up"
+  ],
+  "excluded": [
+    "Orbi 403, snippet-only use not counted",
+    "민음사 product descriptions",
+    "얼레벌레 not independently researched"
+  ],
+  "metrics": {
+    "query_observations": 1426,
+    "distinct_literal_queries": 1153
+  },
+  "checks": {
+    "normalized_title_alias_collisions": 0,
+    "readme_topics_roundtrip": true,
+    "ci": "not run"
+  }
+}

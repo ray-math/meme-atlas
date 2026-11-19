@@ -1,0 +1,51 @@
+{
+  "batch": 247,
+  "canonical_before": 910,
+  "canonical_after": 910,
+  "gotgam": {
+    "queries": [
+      "\"미안 이제 곶감\" site:imbc.com",
+      "\"곶감\" \"11/16\" \"유행본부\"",
+      "\"2026\" \"밈\" site:news.kbs.co.kr \"11월\"",
+      "\"2026\" \"밈\" site:news.ebs.co.kr"
+    ],
+    "candidate": "미안 이제 곶감",
+    "status": "held",
+    "new_evidence": "Official MBC-distributed podcast episode TITLE only. Not listened. 2026-11-15 23:00 UTC =11/16 08:00 KST.",
+    "url": "https://podcasts.apple.com/kr/podcast/id389708317?i=1000802162521",
+    "limits": "CapCut title +broadcast topic do not establish two independent productions. MBC mini no text. KBS/EBS search access limited."
+  },
+  "captain_dance": {
+    "url": "https://kofice.or.kr/www/bbs/view.do?bbsSn=53624&mnucd=178&scBbsMngSn=18",
+    "date": "2026-04-25",
+    "status": "held pending independent source/scope review",
+    "evidence": "One directly read report describes Korean idol/group recreations. KOCCA mirror same article, not independent. Original videos0. Broad aura-points concept not equated with this dance. No minor identities collected."
+  },
+  "queries": [
+    "\"미안 이제 곶감\" site:imbc.com",
+    "\"곶감\" \"11/16\" \"유행본부\"",
+    "\"2026\" \"밈\" site:news.kbs.co.kr \"11월\"",
+    "\"2026\" \"밈\" site:news.ebs.co.kr",
+    "\"2026\" \"밈\" \"뉴스레터\" \"공공\" -site:jjalbang.today -site:namu.moe",
+    "\"2026\" \"패러디\" \"대학\" \"유행어\" -site:namu.moe",
+    "꼬마 선장",
+    "aura",
+    "아우라",
+    "라을라",
+    "책없쾌",
+    "파밍",
+    "인도네시아",
+    "노 젓",
+    "선장",
+    "오라"
+  ],
+  "duplicates": [
+    "라을라: raeulla",
+    "책없쾌: chaegeopkwae"
+  ],
+  "metrics": {
+    "query_observations": 1562,
+    "distinct_literal_queries": 1264
+  },
+  "ci": "not run"
+}
