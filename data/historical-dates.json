@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "기존 17개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
+  "scope": "기존 20개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
   "entries": [
     {
       "id": "but-i-refuse",
@@ -390,6 +390,75 @@
           "precision": "day",
           "source_url": "https://news.nate.com/view/20150929n10409",
           "note": "영화 대사를 다룬 어원 해설 기사 입력일. 수정일 9월30일 및 최초 밈 발생일과 구별한다."
+        }
+      }
+    },
+    {
+      "id": "be-rich",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2001-12",
+          "precision": "month",
+          "source_url": "https://www.fnnews.com/news/201110131529089653",
+          "note": "회고 기사에 명시된 BC카드 광고 방영 월. 월 안의 첫 송출일·제작일·밈 발생일은 확정하지 않았다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2002-01-24",
+          "precision": "day",
+          "source_url": "https://www.mk.co.kr/news/all/2690918",
+          "note": "당시 광고와 새해 덕담 사용을 소개한 인터뷰 기사 입력일. 한국 전체 최초 사용일은 아니다."
+        }
+      }
+    },
+    {
+      "id": "dream-of-me",
+      "dates": {
+        "source_edition_publication": {
+          "value": "1999",
+          "precision": "year",
+          "source_url": "https://news.appstory.co.kr/plan8477",
+          "note": "후대 광고 회고가 해당 광고를 분류한 연도. 정확한 첫 방영일·최초 패러디 날짜를 추정하지 않는다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2000-04-03",
+          "precision": "day",
+          "source_url": "https://www.etnews.com/200004030038",
+          "note": "연예인별 변형 유머가 이미 유행한다고 기록한 기사 발행일. 변형의 첫 제작일이나 한국 전체 최초 용례가 아니다."
+        }
+      }
+    },
+    {
+      "id": "dame-dame",
+      "dates": {
+        "source_edition_publication": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "공식 자료로 시리즈 카라오케 곡임은 확인했으나 원곡 첫 수록 판본의 공개일은 이번에 특정하지 않았다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2020-09-22",
+          "precision": "day",
+          "source_url": "https://developerdk.tistory.com/78",
+          "note": "국내 제작자의 생성기 소개 글 게시일. 연결된 패러디 영상 자체는 시청하지 않았으며 그 영상 최초 게시일·밈 발생일과 구별한다."
         }
       }
     }
