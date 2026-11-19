@@ -1,0 +1,116 @@
+{
+  "base_sha": "0ada66b6a2e157bb5d67191b186a63f060ef7dd0",
+  "canonical_count": 1997,
+  "new_entries": 0,
+  "updated": [
+    "usagi-rap",
+    "in-name-of-justice",
+    "stepped-on-poop"
+  ],
+  "evidence": [
+    {
+      "id": "usagi-rap",
+      "sources": [
+        {
+          "url": "https://nwww.newsis.com/view/NISX20261023_0003838921",
+          "published": "2026-10-24",
+          "supports": "치이카와 우사기, 소리·박자·기합 재현, 분장 및 발음분석 영상. URL 속 10/23을 발행일로 사용하지 않음."
+        },
+        {
+          "url": "https://www.incross.com/ko/insight/report.asp?idx=31141&mode=view",
+          "published": "2026-11-04",
+          "supports": "기합 과장·따라부르기·평가 장치 소개"
+        }
+      ],
+      "date_review": {
+        "source_edition_publication": null,
+        "meme_emergence": null,
+        "korean_use_document": "2026-10-24",
+        "note": "보도 발행일. 원영상 최초게시일·한국최초사용일은 아님."
+      },
+      "limits": "원작 공식 장면/원영상 미열람, 최초제작자·정확극중장면·조회수 미확정. 소개 영상의 독립제작 여부를 과장하지 않음."
+    },
+    {
+      "id": "in-name-of-justice",
+      "sources": [
+        {
+          "url": "https://sailormoon-official.com/goods/fashion/post_824.php",
+          "published": "2019-08-05",
+          "supports": "공식 일본어 대표대사. 상품안내일은 대사 발생일 아님."
+        },
+        {
+          "url": "https://gsedulab.co.kr/common/includes/learning/today119_j_contents_ifm.asp?t_date=2022-04-21",
+          "published": "2022-04-21",
+          "supports": "다락원 자료의 한국어 문구·일본어 원형 병기"
+        },
+        {
+          "url": "https://news.sbs.co.kr/amp/news.amp?news_id=N1001355757",
+          "published": "2012-08-31",
+          "supports": "작품·주인공 세라·국내 유명대사 연결"
+        },
+        {
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01200486606185680",
+          "published": "2014-08-09",
+          "supports": "보스와의 동침 김구라 패러디 녹화 보도"
+        }
+      ],
+      "date_review": {
+        "source_edition_publication": null,
+        "meme_emergence": null,
+        "korean_use_document": "2012-08-31",
+        "note": "국내대사 소개 보도일. 최초더빙 회차·발화일과 구별."
+      },
+      "limits": "번역자·번역동기·모든더빙판 동일성 미확정. 원영상 미열람."
+    },
+    {
+      "id": "stepped-on-poop",
+      "sources": [
+        {
+          "url": "https://gonggam.korea.kr/newsContentView.es?mid=a12604000000&news_id=EBC6D4010F2E4203E0540021F662AC5F&section_id=NCCD_CULTURE",
+          "published": "2021-10-25",
+          "supports": "제작사 대표 인터뷰:시즌2 한 장면, 역할별 노래춤·아이돌식 마무리연출"
+        },
+        {
+          "url": "https://blog.youtube/intl/ko-kr/culture-and-trends/2021_07_monthly-youtube-trends-july/",
+          "published": "2021-07-30",
+          "supports": "플랫폼 공식 한국어 보고:댄스·국악·악기커버"
+        },
+        {
+          "url": "https://www.xportsnews.com/article/1449530",
+          "published": "2021-07-15",
+          "supports": "펭수 7월14일 게시 영상의 역할별 재현 보도"
+        }
+      ],
+      "date_review": {
+        "source_edition_publication": null,
+        "meme_emergence": null,
+        "korean_use_document": "2021-07-15",
+        "note": "커버 보도일. 기사에서 말한 영상게시일 7월14일·원곡첫공개일과 구별."
+      },
+      "limits": "원영상 미열람. 정확회차·첫공개·첫유행게시물 미확정. 영상 마지막포즈를 작품엔딩곡이라고 해석하지 않음."
+    }
+  ],
+  "source_hash_updates": {
+    "in-name-of-justice": {
+      "old": "313b8227a0f4f328eb267e64d19a07921a67fe48f819224dbbcef2e7d0ceea5a",
+      "new": "a945d79616cb4124ccab39a5aaf99b086811adbe1420d51b96bfb640963afb57"
+    },
+    "stepped-on-poop": {
+      "old": "1b9f5118db7afe0ea3d02d0d43e1d379d5e646dde64142495aa168402eaffcd0",
+      "new": "d05b7bcae72a01730bf7e66a2b553b7fc2a3014f44f5802e7da98e7772e84a6f"
+    }
+  },
+  "protected_unchanged": [
+    "waiting-for-someone-like-you",
+    "jongno-song-parody",
+    "dionysus-mood-broken",
+    "gunsak-loopy",
+    "sorry-for-clickbait"
+  ],
+  "date_prototype": "기존 5개 시제품 데이터와 관측일 정렬은 그대로 유지. 이번3개 날짜검토는 이 보고서에 별도 기록.",
+  "validation": {
+    "focused_python": "현재 본문3개 frontmatter/필수섹션 통과, 수정전 편집원장2개 SHA256 일치 검증, 변경후 SHA256계산",
+    "full_python_ci": "원격 저장 후 해당SHA에서 실행 결과 별도 확인",
+    "factual_limit": "출처검토와 자동검사를 구분. 원영상 직접감상0."
+  }
+}
