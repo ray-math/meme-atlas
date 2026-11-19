@@ -1,0 +1,68 @@
+{
+  "base_sha": "c95bc1f395b16931fcac3e535907effbca97d09d",
+  "scope": "Three existing entries only",
+  "canonical_count": 1997,
+  "entries": [
+    {
+      "id": "go-back-again",
+      "changes": [
+        "영화 도입부·역순구성 명시",
+        "무한상사 꿈과 여행제목 차용",
+        "위험한실제철로 재연권장안함"
+      ],
+      "sources": [
+        "https://www.koreafilm.or.kr/movie/PM_009044",
+        "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A201306080079",
+        "https://seoul.co.kr/news/plan/kimgijung-film-travel/2026/09/04/20260904014001",
+        "https://www.xportsnews.com/article/323680",
+        "https://cine21.com/movie/info/?movie_id=2090"
+      ]
+    },
+    {
+      "id": "neona-jalhaseyo",
+      "changes": [
+        "출소 후 전도사의 두부 거절 원장면",
+        "잘 먹으세요 제목 치환",
+        "쿠퍼스 광고 근거 재확인"
+      ],
+      "sources": [
+        "https://cine21.com/news/view/?mag_id=32454",
+        "https://view.asiae.co.kr/article/2011061018225590058",
+        "https://v.daum.net/v/fgwzffg2zP",
+        "https://cine21.com/movie/info/?movie_id=9270"
+      ]
+    },
+    {
+      "id": "you-have-a-plan",
+      "changes": [
+        "기우 위조서류 자기합리화에 대한 기택의 반응",
+        "T월드 광고치환 및 심플플랜 칼럼반어적쓰임"
+      ],
+      "sources": [
+        "https://www.nocutnews.co.kr/news/5162363",
+        "https://www.mt.co.kr/culture/2020/02/18/2020021813430284251",
+        "https://v.daum.net/v/20200211173927350?s=print_news",
+        "https://ch.yes24.com/article/details/82083",
+        "https://cine21.com/movie/info/?movie_id=52641"
+      ]
+    }
+  ],
+  "dates": {
+    "before": 23,
+    "after": 26,
+    "meme_emergence": "all unknown"
+  },
+  "limitations": [
+    "기사·공식작품소개 텍스트 직접열람; 원영상·광고·이미지열람0",
+    "무한상사는 동일대사 사용확인이지 기사상원작패러디명시없음",
+    "채널예스 표시날짜2026-04-13은 최초작성/재게시여부미확인으로 날짜시제품미채택",
+    "너나잘하세요 기존고수익칼럼과 go-back-again 재밌는영화 사례는 이번 재열람근거 있는 사례로 교체; 거짓판정아님",
+    "기생충500만인증 기존문장 유지하되 이번신규재검증수에포함안함",
+    "한일톱텐쇼방송예고,코리아텍영상미열람제외"
+  ],
+  "protection": "Three old SHA256 hashes verified before general pilot-state updates; frozen bodies, fixtures, usage and tests unchanged; links preserved",
+  "checks": {
+    "focused_python": "three old hashes and six date render routes pass",
+    "full_ci": "pending resulting SHA"
+  }
+}

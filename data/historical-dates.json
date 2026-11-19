@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "기존 23개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
+  "scope": "기존 26개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
   "entries": [
     {
       "id": "but-i-refuse",
@@ -528,6 +528,75 @@
           "precision": "day",
           "source_url": "https://www.inews24.com/view/1151444",
           "note": "개봉 전 인터뷰에서 예고편으로 공개된 대사를 인용한 날짜. 극장 개봉일보다 앞선 기록이며 예고편 최초 공개일·첫 패러디 제작일은 아니다."
+        }
+      }
+    },
+    {
+      "id": "go-back-again",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2000-01-01",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=2090",
+          "note": "씨네21 한국 극장 개봉일. 영화제 상영·시사회·예고편 최초 공개일이나 밈 발생일은 아니다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2013-05-05",
+          "precision": "day",
+          "source_url": "https://www.xportsnews.com/article/323680",
+          "note": "런닝맨 차인표 재연의 기사와 방송 날짜. 이번에 날짜를 확인한 자료의 사례이며 최초 패러디 시점은 아니다."
+        }
+      }
+    },
+    {
+      "id": "neona-jalhaseyo",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2005-07-29",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=9270",
+          "note": "씨네21 한국 극장 개봉일. 영화제 상영·시사회·예고편 최초 공개일이나 밈 발생일은 아니다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2005-08-01",
+          "precision": "day",
+          "source_url": "https://cine21.com/news/view/?mag_id=32454",
+          "note": "씨네21 페이지에 표시된 기사 날짜. 본문 속 개봉 예고형 문장으로 게시일을 임의 추정하지 않으며 최초 유행일과 구별한다."
+        }
+      }
+    },
+    {
+      "id": "you-have-a-plan",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2019-05-30",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=52641",
+          "note": "씨네21 한국 극장 개봉일. 영화제 상영·시사회·예고편 최초 공개일이나 밈 발생일은 아니다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2019-06-05",
+          "precision": "day",
+          "source_url": "https://www.nocutnews.co.kr/news/5162363",
+          "note": "송강호 인터뷰 기사 게시일. 인터뷰 진행일5월30일과 한국 개봉일, 첫 패러디 발생일을 구별한다."
         }
       }
     }
