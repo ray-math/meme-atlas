@@ -1,0 +1,100 @@
+{
+  "base_sha": "e58fbd1cc8598d020e71786b1171637f32b0aa87",
+  "canonical_count": 1997,
+  "new_entries": 0,
+  "updated": [
+    {
+      "id": "king-title-wordplay",
+      "title": "왕과 사는 남자 제목 바꾸기",
+      "changes": "출처나열·조사과정 문단을 근거대장으로 이동, 장소/동사/배경에 따른 제목치환 차이 명확화"
+    },
+    {
+      "id": "niga-joa-challenge",
+      "title": "니가 좋아 챌린지",
+      "changes": "가상가수 홍보 설정 보강, 실제과거곡 역주행과 구별, 립싱크와 따라부르기를 구별"
+    },
+    {
+      "id": "rocky-triple-reaction",
+      "title": "좋음 좋음 좋음",
+      "changes": "엄지내림은 긍정문을 부정으로 뒤집는다는 기존오류 수정:로키를 흉내낸 긍정 몸짓. 재열람 못한 구체후기 대신 확인된 표현방식 설명"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "king-title-wordplay",
+      "sources": [
+        {
+          "url": "https://go.seoul.co.kr/news/newsView.php?id=20260325019009",
+          "date": "2026-03-25",
+          "basis": "육신사에 사는 남자. 영상공개3월19일은 보도내용이며 기사일과 구별."
+        },
+        {
+          "url": "https://www.taxwatch.co.kr/article/tax/2026/04/28/0003",
+          "date": "2026-04-29",
+          "basis": "왕과 세는 남자. 본문표시 발행일이며 URL4/28과 구별."
+        },
+        {
+          "url": "https://sports.donga.com/ent/article/all/20261022/134886928/1",
+          "date": "2026-10-22",
+          "basis": "폭설 패러디포스터 역과 사는 남자. 11월18일은 개봉예정,2016은 배경연도."
+        }
+      ],
+      "limits": "기사본문3개 직접열람, 영상·포스터직접열람0. 최초제작자·유행시작 미확정."
+    },
+    {
+      "id": "niga-joa-challenge",
+      "sources": [
+        {
+          "url": "https://v.daum.net/v/20260527182202773",
+          "date": "2026-05-27",
+          "basis": "류승룡 같은날 SNS게시, 차림과 립싱크 설명"
+        },
+        {
+          "url": "https://v.daum.net/v/20260603095139190",
+          "date": "2026-06-03",
+          "basis": "윈터 영상게시6월2일, 진지한 표정으로 따라부르기. 립싱크단정안함."
+        },
+        {
+          "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6828246_37004.html",
+          "date": "2026-06-06",
+          "basis": "배급사·배우인터뷰 포함 가상가수 홍보 설명"
+        }
+      ],
+      "limits": "원영상 미열람. 원곡첫공개·첫유행 미확정. 서로 다른2참여도 같은영화응원맥락."
+    },
+    {
+      "id": "rocky-triple-reaction",
+      "sources": [
+        {
+          "url": "https://www.careet.net/1880",
+          "date": "2026-04-08",
+          "basis": "반복말투와 한국어감정표현·엄지내림의 긍정 조합. 이번 국내직접근거1군."
+        },
+        {
+          "url": "https://www.penguinrandomhouse.com/books/611060/project-hail-mary-movie-tie-in-by-andy-weir/9780593135211/",
+          "date": "2021-05-04",
+          "basis": "원서 하드커버·전자책 발행일. 한국밈 발생일아님."
+        },
+        {
+          "url": "https://www.aboutamazon.com/news/entertainment/project-hail-mary-ryan-gosling-amazon-mgm-studios",
+          "date": "2025-12-16",
+          "updated": "2026-07-03",
+          "basis": "공식 영화화 설명. 페이지게시일·수정일 구분."
+        }
+      ],
+      "limits": "원작·영화·원영상 미열람. 엄지방향의 생리적원인 미확정이라 제외. 2~3년전이라는 회고를 최초사용연도로 환산하지 않음."
+    }
+  ],
+  "date_review": "원작출간일·영화관련페이지일·국내사용문서일을 분리해 기록. 최초밈발생일은 세항목 모두 미상. 기존5개 날짜시제품과 관측일정렬은 변경없음.",
+  "ledger_update": {
+    "id": "niga-joa-challenge",
+    "old": "abf68f6dabf924ff7d7b40186f773cd0f5760e7810dde160167ffe72872c0526",
+    "new": "536bc934b12c19a42e1687bc65621fe6adbf0367a44b05a323cf0a69df8428f8",
+    "parsed": 3,
+    "reason": "현재원문 해시일치 검증후 승인된 품질개선으로 원장 동기화. 승인fixture 불변"
+  },
+  "validation": {
+    "focused_python": "3 frontmatter/필수섹션 검사, 기존 원장SHA256 일치·수정후계산 통과",
+    "remote_and_ci": "저장후 실제SHA 재열람·전체CI 별도확인. 자동검사는 사실인증 아님"
+  }
+}
