@@ -1,6 +1,6 @@
 # 날짜 구분 정렬 시제품
 
-기존 32개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.
+기존 35개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.
 
 정렬 기준: 원작 관련 판본 공개일 · 오름차순
 
@@ -41,6 +41,9 @@
 - [너나 잘하세요](../memes/neona-jalhaseyo.md) · 2005-07-29 · 정밀도: 일
   - 씨네21 한국 극장 개봉일. 영화제 상영·시사회·예고편 최초 공개일이나 밈 발생일은 아니다.
   - [날짜 근거](https://cine21.com/movie/info/?movie_id=9270)
+- [묻고 더블로 가](../memes/mukgo-double.md) · 2006-09-28 · 정밀도: 일
+  - 자료에 표시된 한국 극장 개봉일. 문서 게시일·재개봉일·밈 발생일과 구별한다.
+  - [날짜 근거](https://cine21.com/movie/info/?movie_id=14535)
 - [카페베네 엔딩](../memes/caffebene-ending.md) · 2010-03-19 · 정밀도: 일
   - 《지붕 뚫고 하이킥》 126회 최종회 방송일. 정지·흑백 연출의 관련 회차 날짜이며, 음악·로고를 결합한 밈의 최초 공개일이 아니다.
   - [날짜 근거](https://sports.khan.co.kr/article/201003192102303)
@@ -56,6 +59,9 @@
 - [궁금하면 오백원](../memes/curious-500won.md) · 2012-09-02 · 정밀도: 일
   - MTN이 다음 날 보도한 《개그콘서트》 거지의 품격 방송일. 대사 사용이 확인되는 회차 날짜이며 역사상 최초 창작 시점으로 단정하지 않는다.
   - [날짜 근거](https://news.mtn.co.kr/news-detail/2012090311173467895)
+- [드루와](../memes/deuruwa.md) · 2013-02-21 · 정밀도: 일
+  - 자료에 표시된 한국 극장 개봉일. 문서 게시일·재개봉일·밈 발생일과 구별한다.
+  - [날짜 근거](https://www.cfcm.kr/home/sub.php?code3=&code6=&menukey=70&mod=view&no=190)
 - [내가 왕이 될 상인가](../memes/will-i-be-king.md) · 2013-09-11 · 정밀도: 일
   - 영화진흥위원회 표의 한국 개봉일. 표가 실린 게시글 작성일2013-11-11과 구별한다.
   - [날짜 근거](https://www.kofic.or.kr/kofic/business/noti/findNewsDetail.do?seqNo=39319)
@@ -65,6 +71,9 @@
 - [모히또 가서 몰디브 한잔](../memes/mojito-maldives.md) · 2015-11-19 · 정밀도: 일
   - 씨네21의 한국 극장 개봉일. 대사 최초 노출·예고편·밈 발생일로 보지 않는다.
   - [날짜 근거](https://cine21.com/movie/info/?movie_id=42321)
+- [뭣이 중헌디](../memes/mwosi-jungheondi.md) · 2016-05-12 · 정밀도: 일
+  - 자료에 표시된 한국 극장 개봉일. 문서 게시일·재개봉일·밈 발생일과 구별한다.
+  - [날짜 근거](https://www.kobiz.or.kr/new/kor/02_overseas/production/productionCaseView.jsp?pageIndex=1&seq=107&yearType=ALL)
 - [지금까지 이런 맛은 없었다](../memes/never-this-taste.md) · 2019-01-23 · 정밀도: 일
   - 씨네21의 한국 극장 개봉일. 대사 최초 노출·예고편·밈 발생일로 보지 않는다.
   - [날짜 근거](https://cine21.com/movie/info/?movie_id=52541)

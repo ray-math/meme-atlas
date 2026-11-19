@@ -1,0 +1,60 @@
+{
+  "base_sha": "48907a749230bb3bbaf2c3e5020289ae928a784c",
+  "canonical_count": 1997,
+  "scope": "Three existing editable entries only",
+  "entries": [
+    {
+      "id": "deuruwa",
+      "sources": [
+        "https://www.cineplay.co.kr/ko-kr/articles/8520",
+        "https://www.xportsnews.com/article/1462288",
+        "https://www.mt.co.kr/tech/2022/06/20/2022062009515280932",
+        "https://mabinogimobile.nexon.com/profile/19073856",
+        "https://www.cfcm.kr/home/sub.php?code3=&code6=&menukey=70&mod=view&no=190"
+      ]
+    },
+    {
+      "id": "mukgo-double",
+      "sources": [
+        "https://www.mk.co.kr/news/culture/8997916",
+        "https://www.brandbrief.co.kr/site/data/html/2019/10/23/2019102302523.html",
+        "https://www.joongang.co.kr/article/23689708",
+        "https://www.hankyung.com/article/202210265020i",
+        "https://cine21.com/movie/info/?movie_id=14535"
+      ]
+    },
+    {
+      "id": "mwosi-jungheondi",
+      "sources": [
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10007775933",
+        "https://ichannela.com/news/detail/80365653-1.do",
+        "https://nownews.seoul.co.kr/news/newsView.php?id=20160614601016",
+        "https://www.kobiz.or.kr/new/kor/02_overseas/production/productionCaseView.jsp?pageIndex=1&seq=107&yearType=ALL"
+      ]
+    }
+  ],
+  "changes": [
+    "효진의 외지인접촉 추궁 반문과 교사영상·여행기사의 구체적 전환",
+    "드루와 배우의 애드리브 회고 및 게임기사 제목·길드모집 초대 구분",
+    "묻고더블로가 매몰비용 일반론 축소, 실제 가상광고→브랜드기획 및 위험확대비유"
+  ],
+  "dates": {
+    "before": 32,
+    "after": 35,
+    "meme_emergence": "all unknown"
+  },
+  "limitations": [
+    "원영상·광고영상 시청0, 기사 텍스트 근거",
+    "길드 용례는 같은 작성자의 공개 작성글 목록1군이며 영화 패러디 의도 미확인",
+    "씨네플레이 작품정보2012 표시는 개봉일에 채택하지 않음",
+    "광고기획 보도의 방영예정을 실제송출확인으로 취급하지 않음",
+    "한국경제는 조사자403이나 통합자는 직접본문열람; 최종독립감사 대기",
+    "한국교육신문 타임아웃 제외하고 채널A 본문으로 교사영상 확인",
+    "중앙인터뷰 날짜미표시로 날짜근거 제외"
+  ],
+  "protection": "Old hashes checked; frozen fixtures, reviewed usage, tests, aliases and existing links unchanged",
+  "checks": {
+    "focused_python": "three old hashes and six date render routes passed",
+    "full_ci": "pending resulting SHA"
+  }
+}

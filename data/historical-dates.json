@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "기존 32개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
+  "scope": "기존 35개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
   "entries": [
     {
       "id": "but-i-refuse",
@@ -735,6 +735,75 @@
           "precision": "day",
           "source_url": "https://enter.etoday.co.kr/news/view/1002",
           "note": "대사 인용 배우 인터뷰 기사 입력일. 인터뷰 실시일·온라인 게시물 최초 작성일은 아니다."
+        }
+      }
+    },
+    {
+      "id": "mwosi-jungheondi",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2016-05-12",
+          "precision": "day",
+          "source_url": "https://www.kobiz.or.kr/new/kor/02_overseas/production/productionCaseView.jsp?pageIndex=1&seq=107&yearType=ALL",
+          "note": "자료에 표시된 한국 극장 개봉일. 문서 게시일·재개봉일·밈 발생일과 구별한다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2016-06-02",
+          "precision": "day",
+          "source_url": "https://ent.sbs.co.kr/news/article.do?article_id=E10007775933",
+          "note": "영화 대사를 인용해 장면을 설명한 기사일. 최초 패러디 생성일이나 한국 전체 최초 용례가 아니다."
+        }
+      }
+    },
+    {
+      "id": "deuruwa",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2013-02-21",
+          "precision": "day",
+          "source_url": "https://www.cfcm.kr/home/sub.php?code3=&code6=&menukey=70&mod=view&no=190",
+          "note": "자료에 표시된 한국 극장 개봉일. 문서 게시일·재개봉일·밈 발생일과 구별한다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2017-08-31",
+          "precision": "day",
+          "source_url": "https://www.cineplay.co.kr/ko-kr/articles/8520",
+          "note": "대사와 장면을 소개한 글 표시일. 이 글의 작품정보에 적힌2012는 개봉일 근거로 채택하지 않았다."
+        }
+      }
+    },
+    {
+      "id": "mukgo-double",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2006-09-28",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=14535",
+          "note": "자료에 표시된 한국 극장 개봉일. 문서 게시일·재개봉일·밈 발생일과 구별한다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2019-09-27",
+          "precision": "day",
+          "source_url": "https://www.mk.co.kr/news/culture/8997916",
+          "note": "곽철용 재유행 및 패러디를 보도한 기사 입력일. 최초 밈 발생·게시물 작성일은 미확인."
         }
       }
     }
