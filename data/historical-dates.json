@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "scope": "기존 2개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
+  "entries": [
+    {
+      "id": "but-i-refuse",
+      "dates": {
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "밈으로 쓰이기 시작한 시점 미확정."
+        },
+        "korean_attestation": {
+          "value": "2021-10-14",
+          "precision": "day",
+          "source_url": "https://trees.gamemeca.com/view.php?gid=1668640",
+          "note": "이번에 직접 확인한 국내 기사 사용일. 검토 자료 안에서 확인한 사례이며 한국 최초 사용 또는 유행 시작일이 아님."
+        },
+        "source_edition_publication": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "해당 장면 원작 최초 공개일 미확정."
+        }
+      }
+    },
+    {
+      "id": "since-when-were-you-under-the-impression",
+      "dates": {
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "밈으로 쓰이기 시작한 시점 미확정."
+        },
+        "korean_attestation": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "무료 대여 글 댓글의 한국어 차용은 확인했지만 댓글 연도가 직접 표시되지 않아 날짜 미상으로 유지."
+        },
+        "source_edition_publication": {
+          "value": "2010-06-04",
+          "precision": "day",
+          "source_url": "https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-870046-5",
+          "note": "일본 종이책 블리치 45권 발매일. 해당 대사의 최초 연재일 또는 애니 방영일이 아님."
+        }
+      }
+    }
+  ]
+}

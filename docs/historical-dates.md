@@ -1,0 +1,28 @@
+# 날짜 구분 정렬 시제품 안내
+
+[날짜 구분 정렬 시제품](../collections/date-prototype.md)은 기존 2개만 대상으로 합니다. 관측일이나 최근 유행 정렬의 대체물이 아닙니다.
+
+- 원작 관련 판본 공개일(source_edition_publication): 발행 매체·판본을 note에 기재합니다. 최초 연재일이라고 추정하지 않습니다.
+- 밈 발생 시점(meme_emergence): 밈으로 사용되기 시작한 시점의 근거가 있어야 합니다. 이번 예시는 둘 다 미상입니다.
+- 검토 자료 내 한국 사용 확인일(korean_attestation): 검토한 자료에서 확인한 가장 이른 사례입니다. 한국 전체 최초 사용일이라고 주장하지 않습니다.
+- value는 YYYY, YYYY-MM, YYYY-MM-DD 또는 null입니다. precision은 year/month/day/unknown으로 분리합니다. 알려진 날짜에는 HTTPS 근거와 설명이 필요합니다.
+- 오름·내림 모두 미상은 마지막입니다. 부분 날짜는 기간 시작을 계산 키로만 쓰고 표시 날짜를 보간하지 않습니다. 겹치는 기간의 실제 선후는 미확정이며 동일 키는 ID순입니다.
+- 날짜의 정밀도는 사실의 신뢰도 등급이 아닙니다.
+
+## 실행
+
+```sh
+python scripts/historical_dates.py --kind source_edition_publication
+python scripts/historical_dates.py --kind meme_emergence
+python scripts/historical_dates.py --kind korean_attestation --descending
+python -m unittest discover -s tests -p test_historical_dates.py -v
+```
+
+출력만 하는 CLI입니다. 관측 원장, 최근 목록, 검색 순서, 본문 파일은 바꾸지 않습니다. 정적 예시는 첫 명령의 출력이며 회귀검사에서 일치 여부를 검사합니다.
+
+## 검증 예시
+
+- 허나 거절한다: 원작 판본 공개 미상 / 밈 발생 미상 / 한국 사용 확인 2021-10-14(일 정밀도). 국내 기사에 실린 사용이며 최초 한국 용례로 확정하지 않습니다.
+- 언제부터 ~라고 착각한 거지?: 원작 관련 판본 2010-06-04(일 정밀도) / 밈 발생 미상 / 한국 사용 날짜 미상. 첫 날짜는 일본 블리치 45권 종이책 발매일이지 대사 최초 연재일이 아닙니다.
+
+연·월 정밀도는 합성 테스트로만 검증하며 확인하지 않은 실제 날짜를 예시에 추가하지 않습니다. 조사 범위를 전 사전으로 확장하거나 기존 최신 목록을 이 기준으로 대체하지 않았습니다.

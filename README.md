@@ -23,6 +23,8 @@ python scripts/get_entry.py wonyoung-thinking --section definition
 python scripts/get_entry.py wonyoung-thinking --section origin
 ```
 
+[날짜 구분 정렬 시제품 안내](docs/historical-dates.md): 기존 2개 예시에서 원작 판본 공개·밈 발생·한국 사용 확인 날짜를 따로 조회합니다. 관측일 정렬은 그대로입니다.
+
 ## 편집
 
 [작성 가이드](CONTRIBUTING.md) · [항목 템플릿](templates/meme.md) · [편집 작업대](review/README.md) · [과거 확장 기록](reports/README.md)
