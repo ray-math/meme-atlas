@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "기존 14개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
+  "scope": "기존 17개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
   "entries": [
     {
       "id": "but-i-refuse",
@@ -321,6 +321,75 @@
           "precision": "day",
           "source_url": "https://news.mtn.co.kr/news-detail/2012090311173467895",
           "note": "원방송 대사를 기록한 기사 발행일. 방송일과 구별하며 후속 패러디 최초일도 아니다."
+        }
+      }
+    },
+    {
+      "id": "chingu-aiga",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2001-03-31",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=5215",
+          "note": "씨네21 영화 정보의 한국 극장 개봉일. 예고편·시사회 최초 노출일이나 밈 발생일이 아니다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2005-11-17",
+          "precision": "day",
+          "source_url": "https://www.pressian.com/pages/articles/31550",
+          "note": "대사를 인용해 영화와 사회를 논한 비평 기사 날짜. 이번 검토 자료의 기록일이며 최초 국내 사용일은 아니다."
+        }
+      }
+    },
+    {
+      "id": "father-job",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2001-03-31",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=5215",
+          "note": "씨네21 영화 정보의 한국 극장 개봉일. 예고편·시사회 최초 노출일이나 밈 발생일이 아니다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2013-10-17",
+          "precision": "day",
+          "source_url": "https://www.starnewskorea.com/movie/2013/10/17/2013101711064612876",
+          "note": "《친구2》 제작보고회에서 대사를 재연한 사건과 보도의 날짜. 전편 공개일이나 최초 패러디 발생일이 아니다."
+        }
+      }
+    },
+    {
+      "id": "eoi-eopne",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2015-08-05",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=41344",
+          "note": "씨네21 영화 정보의 한국 극장 개봉일. 예고편·시사회 최초 노출일이나 밈 발생일이 아니다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2015-09-29",
+          "precision": "day",
+          "source_url": "https://news.nate.com/view/20150929n10409",
+          "note": "영화 대사를 다룬 어원 해설 기사 입력일. 수정일 9월30일 및 최초 밈 발생일과 구별한다."
         }
       }
     }
