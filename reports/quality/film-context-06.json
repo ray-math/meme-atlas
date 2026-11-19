@@ -1,0 +1,55 @@
+{
+  "base_sha": "ffa461098c5a8cedae68123c888894dd5dc99c10",
+  "canonical_count": 1997,
+  "scope": "Three existing editable entries only",
+  "entries": [
+    {
+      "id": "ramen-invitation",
+      "sources": [
+        "https://www.imaeil.com/page/view/2024102916204229244",
+        "https://osen.co.kr/article/G1110065358",
+        "https://cine21.com/movie/info/?movie_id=05304"
+      ]
+    },
+    {
+      "id": "will-i-be-king",
+      "sources": [
+        "https://enter.etoday.co.kr/news/view/1002",
+        "https://www.etoday.co.kr/news/view/794042",
+        "https://www.khan.co.kr/article/202110140300045",
+        "https://www.kofic.or.kr/kofic/business/noti/findNewsDetail.do?seqNo=39319"
+      ]
+    },
+    {
+      "id": "you-go-hawaii",
+      "sources": [
+        "https://cine21.com/news/view/?mag_id=78054",
+        "https://www.chosun.com/site/data/html_dir/2006/01/03/2006010370217.html?outputType=amp",
+        "https://www.joongang.co.kr/article/23634032",
+        "https://cine21.com/movie/info/?movie_id=5215"
+      ]
+    }
+  ],
+  "changes": [
+    "은수·상우 원장면과 변형구분, 실제 예능체험판·라면축제기사 용례",
+    "분쟁피신 제안 거절과 KTF광고 가라→와라 변화",
+    "수양대군의 상대 내경과 왕의 책임을 되묻는 칼럼 사용"
+  ],
+  "dates": {
+    "before": 29,
+    "after": 32,
+    "meme_emergence": "all unknown"
+  },
+  "limitations": [
+    "원영상·광고영상 시청0, 기사 텍스트 근거",
+    "재확인 불가 청년센터 용례 본문에서 제거",
+    "중앙 칼럼 본문 열람 가능하나 입력일 공란으로 날짜근거 제외",
+    "OSEN의 원대사 표기 오류는 채택하지 않고 패러디 장면에만 사용",
+    "재열람 불가 자료를 신규 보강의 단독근거로 사용하지 않음"
+  ],
+  "protection": "Existing old hashes checked; frozen fixtures, reviewed usage, tests and links unchanged",
+  "checks": {
+    "focused_python": "three old hashes and six date render routes passed",
+    "full_ci": "pending resulting SHA"
+  }
+}
