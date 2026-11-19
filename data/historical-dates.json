@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "기존 2개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
+  "scope": "기존 5개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
   "entries": [
     {
       "id": "but-i-refuse",
@@ -45,6 +45,75 @@
           "precision": "day",
           "source_url": "https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-870046-5",
           "note": "일본 종이책 블리치 45권 발매일. 해당 대사의 최초 연재일 또는 애니 방영일이 아님."
+        }
+      }
+    },
+    {
+      "id": "nico-nico-ni",
+      "dates": {
+        "source_edition_publication": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "자기소개 문구의 최초 공개 매체·회차와 날짜 미확정. 상품의 저작권 연도를 대사 공개일로 사용하지 않음."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "밈 발생 시점 미확정."
+        },
+        "korean_attestation": {
+          "value": "2016-06-13",
+          "precision": "day",
+          "source_url": "https://news.mtn.co.kr/news-detail/2016061317441610194",
+          "note": "국내 예능 말장난 사용을 확인한 기사 발행일. 기사가 전한 방송일은 6월 11일이며 이 날짜와 구별한다. 한국 최초 사용일은 아님."
+        }
+      }
+    },
+    {
+      "id": "this-is-my-story-template",
+      "dates": {
+        "source_edition_publication": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "공식 제작사 소개는 1기 방영기간을 2016년 4~6월로 제시하지만 해당 대사의 최초 공개일을 특정하지 않아 미상 유지."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "밈 발생 시점 미확정. 작품 방영기간과 구별."
+        },
+        "korean_attestation": {
+          "value": "2026-10-13",
+          "precision": "day",
+          "source_url": "https://maily.so/trendaword/posts/2nznjlymrp5",
+          "note": "뉴스레터 제목에서 이 말틀을 직접 적용한 날짜. 이번 검토 자료의 사용 사례이며 한국 최초 사용일이 아님."
+        }
+      }
+    },
+    {
+      "id": "slow-even-to-template",
+      "dates": {
+        "source_edition_publication": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "공식 회차 안내에서 애니메이션 17화 방송일 2005-02-01은 확인되나 대사 자체는 비공식 정리로만 연결됨. 해당 대사 최초 공개일 미확정."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "밈 발생 시점 미확정."
+        },
+        "korean_attestation": {
+          "value": "2026-09-21",
+          "precision": "day",
+          "source_url": "https://gogumafarm.kr/내가-고구마팜이었으면-이-밈은-꼭-소개하고-싶음-2026/",
+          "note": "국내 변형 영상 제목을 소개한 한국어 글 발행일. 원영상 시청·최초 게시일 확인과 구별하며 한국 최초 사용일이 아님."
         }
       }
     }
