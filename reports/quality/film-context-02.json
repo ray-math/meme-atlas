@@ -1,0 +1,62 @@
+{
+  "scope": "Existing three film entries only; no new entries or main changes",
+  "base_sha": "aa1b3aafb6439aed069dacc043eafea76d724de6",
+  "canonical_count": 1997,
+  "entries": [
+    {
+      "id": "chingu-aiga",
+      "changes": [
+        "준석(유오성)·상택 대화로 화자 특정",
+        "부산 행사 인사와 학교폭력 예방 광고의 반전 용례 보강"
+      ],
+      "sources": [
+        "https://www.pressian.com/pages/articles/31550",
+        "https://ichannela.com/news/detail/78916557-2.do",
+        "https://www.busan.go.kr/news/totalnews01/view?dataNo=39466&gugun=Next",
+        "https://www.ytn.co.kr/_ln/0103_201604211740065119"
+      ]
+    },
+    {
+      "id": "father-job",
+      "changes": [
+        "교사의 낮은 성적 질책·체벌 장면과 실제 가족 배경 질문 구별",
+        "친구2 비출연자 김광규의 김우빈 상대 재연 및 염소 펄 용례 명확화"
+      ],
+      "sources": [
+        "https://www.joongang.co.kr/article/24031596",
+        "https://www.starnewskorea.com/movie/2013/10/17/2013101711064612876",
+        "https://www.xportsnews.com/article/614049/"
+      ]
+    },
+    {
+      "id": "eoi-eopne",
+      "changes": [
+        "체불임금 요구자에게 한 조태오의 원장면 명확화",
+        "맷돌 설명을 실제 어원으로 오인하지 않도록 경계",
+        "마리텔 연기 수업의 억양 모방·반전 사례 보강"
+      ],
+      "sources": [
+        "https://www.sidae.com/article/2020070816228084871",
+        "https://enews.imbc.com/Tpl/View/184787?progcode=1003157100000100000",
+        "https://www.etnews.com/20160612000023",
+        "https://news.nate.com/view/20150929n10409"
+      ]
+    }
+  ],
+  "release_sources": [
+    "https://cine21.com/movie/info/?movie_id=5215",
+    "https://cine21.com/movie/info/?movie_id=41344"
+  ],
+  "limitations": [
+    "직접 열람한 기사 텍스트를 근거로 작성; 영상·이미지 시청 없음",
+    "마리텔 두 보도는 같은 사건",
+    "밈 발생일 모두 미상; 국내 사용일은 검토 자료 범위만",
+    "미열람 신사의 품격·앵그리맘 추가 사례 제외"
+  ],
+  "protection": "Only general pilot-state body_hash updated after verifying old SHA256. Frozen approved fixtures/usage locks unchanged.",
+  "checks": {
+    "focused_python": "old hashes verified; date validation and all six kind/direction renders passed",
+    "full_ci": "pending for resulting commit",
+    "independent_audit": "12 source texts re-read; 1997 distinct indexed entries; frozen files unchanged. Prior film-context-01 restored after detecting report collision; this record separated as film-context-02."
+  }
+}
