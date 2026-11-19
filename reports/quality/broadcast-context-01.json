@@ -1,0 +1,83 @@
+{
+  "base_sha": "c7bc481c4179e1de61c778daf60c43be9ed948c4",
+  "canonical_count": 1997,
+  "new_entries": 0,
+  "updated": [
+    "하이닉스 조끼",
+    "생사과가 제일 맛있었어요",
+    "말 있죠?"
+  ],
+  "changes": "출처나열·추상적용례를 실제 상황극/심사평패러디/홍보·배우자기보고의 구체장면으로 변경. 조사한계는 본문보다 근거대장에 분리.",
+  "evidence": [
+    {
+      "id": "hynix-vest-reversal",
+      "sources": [
+        {
+          "url": "https://www.mt.co.kr/society/2026/04/28/2026042808051551264",
+          "published": "2026-04-28",
+          "supports": "SNL코리아시즌8 5회. 김규원 손님·정이랑 직원, 점퍼속SK하이닉스조끼 본뒤태도변화. 기사에프로그램4월25일공개."
+        },
+        {
+          "url": "https://www.seoul.co.kr/news/society/2026/08/12/20260812500003",
+          "published": "2026-08-12",
+          "supports": "핫이슈지 유민상 장면·소개팅복장농담.5월5일은사진설명날짜이므로 첫공개로단정안함."
+        }
+      ],
+      "limits": "원영상·사진미열람. 실제재산·소득·취업·투자판단근거아님. SNL은두기사의동일사례."
+    },
+    {
+      "id": "raw-apple-was-best",
+      "sources": [
+        {
+          "url": "https://news.nate.com/view/20251225n00414",
+          "published": "2025-12-25",
+          "updated": "2025-12-26",
+          "supports": "흑백요리사2 1화 안성재가 신동민의 사과디저트평가. 직접인용은 제일,부제는 더로표기."
+        },
+        {
+          "url": "https://www.nocutnews.co.kr/news/6449523",
+          "published": "2025-12-31",
+          "supports": "심사장면·백설공주의상합성패러디.월별구획12월1일은최초게시일근거아님."
+        }
+      ],
+      "limits": "원영상·합성이미지미열람. 방송음성정확인용은기사수준. 소설차용의도미확정이라 새검증근거로추가안함."
+    },
+    {
+      "id": "mal-itjyo-drama-speech",
+      "sources": [
+        {
+          "url": "https://www2.osen.co.kr/article/G1112767388",
+          "published": "2026-03-25",
+          "supports": "엄은향의 임성한드라마 긴대사패러디 문체 설명"
+        },
+        {
+          "url": "https://www.mk.co.kr/news/hot-issues/12019578",
+          "published": "2026-04-17",
+          "supports": "라이브홍보포스터문구.예고일을실제발화일로단정안함."
+        },
+        {
+          "url": "https://v.daum.net/v/20260504083214312",
+          "published": "2026-05-04",
+          "supports": "백서라 인터뷰의 출연진단체대화사용자기보고·구체도치문장"
+        }
+      ],
+      "limits": "원영상·홍보포스터·단톡방미열람. 같은창작자패러디와홍보를별개3인독립사용으로세지않음. 특정작품첫회차·작가실제말미확정."
+    }
+  ],
+  "date_prototype": {
+    "before": 5,
+    "after": 8,
+    "added": [
+      "hynix-vest-reversal",
+      "raw-apple-was-best",
+      "mal-itjyo-drama-speech"
+    ],
+    "basis": "직접확인한한국사용문서일만기재.추가3개원작최초공개·밈발생은미상.관측일원장과기존최근정렬불변."
+  },
+  "validation": {
+    "python": "본문3개필수섹션 및 날짜8개검증,3기준×2방향렌더6회 통과.정적목록을실제Python렌더로생성.",
+    "full_ci": "최종원격SHA에서별도실행확인",
+    "limits": "형식검사는역사사실인증아님"
+  },
+  "protected": "승인고정본문·fixture·usage·편집원장변경없음. fish-head-curry-reaction 제외."
+}

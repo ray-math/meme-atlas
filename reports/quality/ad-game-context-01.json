@@ -1,0 +1,68 @@
+{
+  "base_sha": "b64c1230ec9964b1c4975e4de20ad2bb78f96d01",
+  "scope": "Three existing entries only; no additions or main changes",
+  "canonical_count": 1997,
+  "entries": [
+    {
+      "id": "be-rich",
+      "changes": [
+        "광고주·설원 장면 구체화",
+        "2002년 한정 설명을2001말~2002새해로 정정",
+        "기존영상 재송출과 츄 리메이크 구별",
+        "이번 자료에서 확인하지 못한 벨소리·인터넷패러디 주장 삭제"
+      ],
+      "sources": [
+        "https://www.mk.co.kr/news/all/2690918",
+        "https://www.mk.co.kr/news/economy/10125300",
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10004964029",
+        "https://www.fnnews.com/news/201110131529089653"
+      ]
+    },
+    {
+      "id": "dream-of-me",
+      "changes": [
+        "무한도전·편스토랑 실제 재연 사례",
+        "2000년 당시 변형유머 기록",
+        "원광고 최초 화자·브랜드 법인명 미확정으로 확장 안함"
+      ],
+      "sources": [
+        "https://www.etnews.com/200004030038",
+        "https://news.appstory.co.kr/plan8477",
+        "https://www.mk.co.kr/news/hot-issues/6468964",
+        "https://www.xportsnews.com/article/2016845"
+      ]
+    },
+    {
+      "id": "dame-dame",
+      "changes": [
+        "같은 립싱크 움직임을 다른 얼굴로 옮기는 형식",
+        "국내 생성기 제작자 소개와 궁예 사례",
+        "원곡·합성밈·실제인물행동 구별"
+      ],
+      "sources": [
+        "https://developerdk.tistory.com/78",
+        "https://economist.co.kr/article/view/ecn202101310007",
+        "https://www.sega.jp/topics/detail/221213_2/",
+        "https://www.joysound.com/web/search/title/17020"
+      ]
+    }
+  ],
+  "dates": {
+    "before": 17,
+    "after": 20,
+    "unknown": "all meme_emergence dates; dame-dame source edition date",
+    "partial_precision": "2001-12 month, 1999 year: no exact-day interpolation"
+  },
+  "limitations": [
+    "직접기사본문 기반; 영상·이미지 열람0",
+    "츄는 동일광고주 후속제작; 독립일반인패러디로 세지 않음",
+    "조코딩 링크 영상 자체·제작자 미확인",
+    "광고정보센터 rewritten summary, BC mobile404, 한경403 제외"
+  ],
+  "protection": "Existing three SHA256 verified before only general pilot-state hash sync; fixture/usage locks and test criteria unchanged.",
+  "checks": {
+    "focused_python": "three old hashes verified; all six historical-date render paths pass",
+    "full_ci": "pending resulting SHA",
+    "independent_audit": "11 source texts re-read, 1997 distinct IDs, frozen bodies/fixtures/usage/tests unchanged; be-rich wording corrected to advertising slogan rather than product-benefit description."
+  }
+}

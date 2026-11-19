@@ -1,0 +1,99 @@
+{
+  "base_sha": "b5eda3345b528482cdc5b57cdb30e2f32dcdeab9",
+  "canonical_count": 1997,
+  "new_entries": 0,
+  "updated": [
+    "nico-nico-ni",
+    "slow-even-to-template",
+    "this-is-my-story-template"
+  ],
+  "changes": "작품·화자·장면과 한국 적용 방식 구체화. 뜻풀이·태그·용법 프로필은 변경하지 않음.",
+  "evidence": [
+    {
+      "id": "nico-nico-ni",
+      "sources": [
+        [
+          "https://www.goodsmile.com/ja/product/3328/figma%2B%E7%9F%A2%E6%BE%A4%E3%81%AB%E3%81%93",
+          "공식 상품사 문구·캐릭터 연결"
+        ],
+        [
+          "https://v.daum.net/v/20161201092138540",
+          "자기소개 성격, 모모/김희철 재현 보도"
+        ],
+        [
+          "https://news.mtn.co.kr/news-detail/2016061317441610194",
+          "2016-06-13 기사. 김희철의 6월11일 방송 말장난 소개"
+        ]
+      ],
+      "limits": "첫 회차/대사 공개일·한국 최초 사용일 미확정. 원영상 시청 없음."
+    },
+    {
+      "id": "this-is-my-story-template",
+      "sources": [
+        [
+          "https://www.bones.co.jp/work/heroaca1/",
+          "공식 제작사: 원형 문장과 미도리야 이즈쿠 성장 설명"
+        ],
+        [
+          "https://www.tving.com/contents/E004440434",
+          "공식 한국어 작품소개. 2025를 대사 최초연도로 쓰지 않음"
+        ],
+        [
+          "https://maily.so/trendaword/posts/2nznjlymrp5",
+          "2026-10-13 뉴스레터 제목 직접 차용"
+        ],
+        [
+          "https://hle.fan/contents/section/67622df7ba286a6c5773116d",
+          "한화생명e스포츠 목록의 다리우스 제목 직접 확인. 개별본문/게시일 미확인"
+        ]
+      ],
+      "limits": "정확 최초발화 회차 및 밈발생일 미확정."
+    },
+    {
+      "id": "slow-even-to-template",
+      "sources": [
+        [
+          "https://www.tv-tokyo.co.jp/anime/bleach_2012/episodes/episodes02/index.html",
+          "공식17화 방송일/대결 전후 설명. 대사 자체 없음"
+        ],
+        [
+          "https://animemanga33.com/archives/20792",
+          "비공식 일본어 대사정리:17화 뱌쿠야 대사"
+        ],
+        [
+          "https://gogumafarm.kr/내가-고구마팜이었으면-이-밈은-꼭-소개하고-싶음-2026/",
+          "2026-09-21 국내 변형 제목 소개"
+        ]
+      ],
+      "limits": "공식회차 소개와 비공식대사 연결을 구분. 원작만화·영상 미열람. 한국최초 미확정."
+    }
+  ],
+  "protected_sources_preserved": [
+    {
+      "id": "annyeonghasalbeop",
+      "reason": "wave7 승인 본문 해시 고정; 본문 변경 없음",
+      "sources": [
+        "https://v.daum.net/v/20190930181604311",
+        "https://www.ohfun.net/?ac=article_view&entry_id=20712",
+        "https://times.abema.tv/articles/-/7034812?page=1"
+      ]
+    },
+    {
+      "id": "chika-dance",
+      "reason": "wave6 승인 본문 해시 고정; 본문 변경 없음. 음악교체 패러디는 이번 자료에서 미검증으로 남음.",
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000001520.000016356.html",
+        "https://kaguya.love/1st/bddvd/02.html",
+        "https://choi-company.tistory.com/14"
+      ]
+    }
+  ],
+  "editorial_state_update": {
+    "id": "nico-nico-ni",
+    "old_body_hash": "5055e9ea9ebe2aa98826381a2043c348bc28426c477b1a9cd267e2d2e9d26e98",
+    "new_body_hash": "1a50d2881d85ba81389f971237796e8093aaac64f47bc85f6f6787a4f7f1d8c7",
+    "reason": "현재 본문 해시 일치 확인 후 명시된 기존 콘텐츠 개선 범위로 원장 checksum 동기화. 테스트 승인fixture는 변경하지 않음."
+  },
+  "date_changes": "시제품2→5. 원작공개·밈발생은 추가3개 모두 미상. 국내 사용확인 기사/제목 날짜만 기록, 실제 사건일·최초사용과 구별.",
+  "validation": "커밋 후 원격 재열람 및 해당 SHA CI 별도 확인. 로컬 Python 환경 없음. 자동검사는 사실 검증을 대체하지 않음."
+}

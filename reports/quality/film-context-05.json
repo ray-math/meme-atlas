@@ -1,0 +1,70 @@
+{
+  "base_sha": "bd31443b94d29f1a1d740cd40cb50ff5514f7c72",
+  "scope": "Existing three editable entries; protected you-insulted-me excluded",
+  "canonical_count": 1997,
+  "entries": [
+    {
+      "id": "favor-right",
+      "changes": [
+        "주양검사 경찰조사지시 맥락",
+        "호의손해법칙·권리판정과 구별",
+        "동아칼럼 반냉소 및 유퀴즈 티저둘리변형"
+      ],
+      "sources": [
+        "https://www.yna.co.kr/view/AKR20101029152800005",
+        "https://www.starnewskorea.com/broadcast-show/2023/05/15/2023051517515354117",
+        "https://www.donga.com/news/amp/all/20180704/90887936/9",
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10010268772",
+        "https://cine21.com/movie/info/?movie_id=28329"
+      ]
+    },
+    {
+      "id": "one-target-only",
+      "changes": [
+        "무대포화자·거친원맥락",
+        "사진소재/대표메뉴 집중의 실제칼럼차용",
+        "사람대상위협과 비유구별"
+      ],
+      "sources": [
+        "https://www.cineplay.co.kr/ko-kr/articles/10645",
+        "https://www.nhimc.or.kr/ilsan_news/Hello_2019_Summer/html/sub01_03.html",
+        "https://v.daum.net/v/20191026050149541",
+        "https://mobile.newsis.com/view/NISX20100720_0005700607",
+        "https://cine21.com/movie/info/?movie_id=5390"
+      ]
+    },
+    {
+      "id": "sara-inne",
+      "changes": [
+        "여전히/오랜만에를필수조건에서제외",
+        "최형배말을따라하는최익현 동화기능",
+        "식혜 원작내부반복과 후속칭찬차용구별"
+      ],
+      "sources": [
+        "https://v.daum.net/v/20120215004103183",
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10000469727&cooper=ent.sbs.co.kr",
+        "https://www.khan.co.kr/article/201201251959425",
+        "https://www.osen.co.kr/article/G1109447210",
+        "https://cine21.com/movie/info/?movie_id=27425"
+      ]
+    }
+  ],
+  "dates": {
+    "before": 26,
+    "after": 29,
+    "meme_emergence": "all unknown"
+  },
+  "limitations": [
+    "직접텍스트근거; 원영상/이미지시청0",
+    "유퀴즈 공개티저사용을 본방확인과구별",
+    "OSEN의최형태오기는채택하지않고 감독인터뷰의최형배 사용",
+    "의료사보의영화장면설명만사용 의료주장미채택",
+    "국민일보 rewritten summary 제외",
+    "고정you-insulted-me 연구중단·본문미수정"
+  ],
+  "protection": "Three old SHA256 hashes verified before general pilot-state updates; approved fixtures/usage/tests and existing links preserved",
+  "checks": {
+    "focused_python": "three old hashes and six date render routes pass",
+    "full_ci": "pending resulting SHA"
+  }
+}
