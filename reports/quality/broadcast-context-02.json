@@ -1,0 +1,117 @@
+{
+  "base_commit": "28f73455111fa342d1308ba2ed7d4a8bcc6f055c",
+  "scope": "기존 3개 품질 개선. 신규 표제어와 main 변경 없음.",
+  "count": 1997,
+  "changes": [
+    {
+      "id": "caffebene-ending",
+      "old_body_hash": "4af95427a23373d6633200c4a42c46aca17e202038c61a27f0646dec4dccc208",
+      "new_body_hash": "199d1b7e2ebd6a56d275f9ca74efbdc503f79928928d4fe5b60ee0edeeec344d"
+    },
+    {
+      "id": "four-dollars",
+      "old_body_hash": "91c3b1fd1d1878238447d3507f5fd98f394f8a0ba84c781da055bbd871942f32",
+      "new_body_hash": "e5c1a318dc29453c16c00f6201c706875f8a80eb3ce4c99c3cc3ea66020abde4"
+    },
+    {
+      "id": "bravo-yeonjin",
+      "old_body_hash": "2e01fb98b8b4c1b6600a8f8a94c619c9f6cff2b4af8e45448645e834bf758c16",
+      "new_body_hash": "890e17ddc404b0c4bdf4e14a548574d6e12d801a5cce7830703b26f205d12830"
+    }
+  ],
+  "entries": [
+    {
+      "id": "caffebene-ending",
+      "sources": [
+        {
+          "url": "https://sports.khan.co.kr/article/201003192102303",
+          "date": "2010-03-19",
+          "supports": "최종회 방송과 정지·흑백 연출. 음악이나 밈 발생일 근거가 아님."
+        },
+        {
+          "url": "https://enews.imbc.com/Tpl/View/228247?progcode=0",
+          "date": null,
+          "supports": "예능에서 엉뚱한 마무리를 표현하는 패러디로 재사용된 회고. 원본 BGM은 확정하지 않음."
+        },
+        {
+          "url": "https://aejiniyam.tistory.com/55",
+          "date": "2020-02-07",
+          "supports": "제작자 자신의 영상에 적용했다고 밝힌 편집 과정. 정지화면·흑백·로고·음악 구성 확인. 영상 자체 미시청."
+        },
+        {
+          "url": "https://mlbpark.donga.com/mlbpark/b.php?b=kbotown2&id=1995603",
+          "date": "2015-10-07",
+          "supports": "명칭과 편집 형식을 직접 논의한 국내 게시글. 개별 패러디 확인이 아닌 공유·인지 정황."
+        }
+      ]
+    },
+    {
+      "id": "four-dollars",
+      "sources": [
+        {
+          "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/period/22000017580",
+          "date": "2003-05-13",
+          "supports": "공식 84회 줄거리와 일급 인상 요구. 요일 불일치는 쓰지 않음."
+        },
+        {
+          "url": "https://www.adic.or.kr/journal/column/show.do?ukey=531629",
+          "date": "2019-04-09",
+          "supports": "제작 관계자 인터뷰의 협상 패러디 설명. 광고 집행 시작과 공개일은 다름."
+        },
+        {
+          "url": "https://biz.newdaily.co.kr/svc/article_print.html?no=2019013000159",
+          "date": "2019-01-31",
+          "supports": "직원의 가격 설명을 끊는 광고와 궁예 배역을 섞은 댓글 보도. 원댓글 직접 확인 아님."
+        },
+        {
+          "url": "https://www.wikitree.co.kr/articles/394232",
+          "date": "2019-01-03",
+          "supports": "광고의 공식 게시·대사 차용 보도. 조사 자료 내 빠른 광고 기록이며 최초 밈 발생일 아님."
+        }
+      ],
+      "independence": "광고 관련 3문서는 한 캠페인을 설명한다. 3개 독립 사용으로 세지 않음."
+    },
+    {
+      "id": "bravo-yeonjin",
+      "sources": [
+        {
+          "url": "https://enews.imbc.com/News/RetrieveNewsInfo/371288",
+          "date": "2023-01-20",
+          "supports": "화보 칭찬 기사 제목의 직접 대사 차용."
+        },
+        {
+          "url": "https://www.hankookilbo.com/news/article/A2023022214030004559",
+          "date": "2023-02-28",
+          "supports": "졸업생 이름으로 바꾼 축하 현수막과 원작 반어 맥락."
+        },
+        {
+          "url": "https://www.mk.co.kr/news/movies/10724550",
+          "date": "2023-04-29",
+          "supports": "전날 백상예술대상 수상 소감에서 자기축하로 대사를 사용한 보도."
+        },
+        {
+          "url": "https://www.gqkorea.co.kr/2023/01/27/과몰입러가-열광하는-최신-유행-밈-5/",
+          "date": "2023-01-27",
+          "supports": "3화 동문상 시상식 장면 해설."
+        },
+        {
+          "url": "https://about.netflix.com/ko/news/korean-netflix-year-end-slate-2022",
+          "date": "2022-12-15",
+          "supports": "작품 공개일 2022-12-30 안내. 안내 게시일과 구별."
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "영상·이미지 직접 감상 없음. 텍스트 소개·기사·제작자 설명의 확인 범위로 제한.",
+    "날짜 시제품 8→11개. 모든 밈 발생일 미상 유지. 국내 확인일은 전체 최초 사용 보장이 아님.",
+    "승인 fixture 및 usage 고정 본문 미변경. 일반 pilot-state의 기존 SHA256 확인 후 변경 3개 해시만 갱신.",
+    "로컬 Python 날짜 렌더 3종×양방향 통과. 전체 검사 결과는 이 커밋의 GitHub Actions에서 별도 확인."
+  ],
+  "preserved": [
+    "기존 제목·별칭·태그·관련 링크",
+    "관측일 원장·최근목록·일반 정렬",
+    "전체 1997개",
+    "main"
+  ]
+}

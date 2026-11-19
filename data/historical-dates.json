@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "기존 8개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
+  "scope": "기존 11개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
   "entries": [
     {
       "id": "but-i-refuse",
@@ -183,6 +183,75 @@
           "precision": "day",
           "source_url": "https://www2.osen.co.kr/article/G1112767388",
           "note": "엄은향의 드라마 말투 패러디를 설명한 기사 보도일. 원영상 최초게시일·표현의 탄생일과 구별하며 한국 최초 사용일은 아님."
+        }
+      }
+    },
+    {
+      "id": "caffebene-ending",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2010-03-19",
+          "precision": "day",
+          "source_url": "https://sports.khan.co.kr/article/201003192102303",
+          "note": "《지붕 뚫고 하이킥》 126회 최종회 방송일. 정지·흑백 연출의 관련 회차 날짜이며, 음악·로고를 결합한 밈의 최초 공개일이 아니다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점을 특정할 근거를 확보하지 못했다."
+        },
+        "korean_attestation": {
+          "value": "2015-10-07",
+          "precision": "day",
+          "source_url": "https://mlbpark.donga.com/mlbpark/b.php?b=kbotown2&id=1995603",
+          "note": "국내 게시판에서 카페베네 짤을 봤다는 질문과 편집 형식 설명이 확인되는 날짜. 인지·공유 정황의 직접 게시글이며 개별 패러디 영상이나 최초 사용을 확인한 것은 아니다."
+        }
+      }
+    },
+    {
+      "id": "four-dollars",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2003-05-13",
+          "precision": "day",
+          "source_url": "https://programs.sbs.co.kr/programTemplate/amp/vod/period/22000017580",
+          "note": "SBS 공식 84회 소개의 방송일과 임금 협상 줄거리. 요일 표기가 페이지 안에서 충돌하여 요일은 사용하지 않았다. 영상 시청은 하지 않았다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점을 특정할 근거를 확보하지 못했다."
+        },
+        "korean_attestation": {
+          "value": "2019-01-03",
+          "precision": "day",
+          "source_url": "https://www.wikitree.co.kr/articles/394232",
+          "note": "버거킹 광고의 대사 차용을 보도한 기사 날짜. 앞선 온라인 재유통이나 밈 최초 발생일이 아니며 광고 집행 기간 시작일과도 구별한다."
+        }
+      }
+    },
+    {
+      "id": "bravo-yeonjin",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2022-12-30",
+          "precision": "day",
+          "source_url": "https://about.netflix.com/ko/news/korean-netflix-year-end-slate-2022",
+          "note": "넷플릭스가 안내한 《더 글로리》 첫 공개일. 안내문 게시일 2022-12-15와 구별한다. 대사 장면은 GQ의 3화 설명으로 대조했으며 별도 예고편 최초 노출이나 밈 발생일을 뜻하지 않는다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점을 특정할 근거를 확보하지 못했다."
+        },
+        "korean_attestation": {
+          "value": "2023-01-20",
+          "precision": "day",
+          "source_url": "https://enews.imbc.com/News/RetrieveNewsInfo/371288",
+          "note": "임지연 화보를 칭찬하는 기사 제목에 대사를 적용한 날짜. 작품 공개일·첫 패러디 제작일·한국 전체 최초 용례가 아니다."
         }
       }
     }
