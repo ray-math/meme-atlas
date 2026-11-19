@@ -62,6 +62,7 @@
   "protection": "Existing three SHA256 verified before only general pilot-state hash sync; fixture/usage locks and test criteria unchanged.",
   "checks": {
     "focused_python": "three old hashes verified; all six historical-date render paths pass",
-    "full_ci": "pending resulting SHA"
+    "full_ci": "pending resulting SHA",
+    "independent_audit": "11 source texts re-read, 1997 distinct IDs, frozen bodies/fixtures/usage/tests unchanged; be-rich wording corrected to advertising slogan rather than product-benefit description."
   }
 }
