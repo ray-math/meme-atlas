@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "기존 26개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
+  "scope": "기존 29개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
   "entries": [
     {
       "id": "but-i-refuse",
@@ -597,6 +597,75 @@
           "precision": "day",
           "source_url": "https://www.nocutnews.co.kr/news/5162363",
           "note": "송강호 인터뷰 기사 게시일. 인터뷰 진행일5월30일과 한국 개봉일, 첫 패러디 발생일을 구별한다."
+        }
+      }
+    },
+    {
+      "id": "favor-right",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2010-10-28",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=28329",
+          "note": "씨네21 한국 극장 개봉일. 영화제·예고편·대사 최초 노출일이나 밈 발생일은 아니다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2010-10-29",
+          "precision": "day",
+          "source_url": "https://www.yna.co.kr/view/AKR20101029152800005",
+          "note": "주양의 대사와 지시 맥락을 인용한 기사 송고일. 최초 패러디일·둘리 변형 생성일이 아니다."
+        }
+      }
+    },
+    {
+      "id": "one-target-only",
+      "dates": {
+        "source_edition_publication": {
+          "value": "1999-10-02",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=5390",
+          "note": "씨네21 한국 극장 개봉일. 영화제·예고편·대사 최초 노출일이나 밈 발생일은 아니다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2010-07-24",
+          "precision": "day",
+          "source_url": "https://mobile.newsis.com/view/NISX20100720_0005700607",
+          "note": "음식 칼럼의 은유적 적용 등록일. URL의7월20일·수정2017년 및 최초 한국 용례와 구별한다."
+        }
+      }
+    },
+    {
+      "id": "sara-inne",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2012-02-02",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=27425",
+          "note": "씨네21 한국 극장 개봉일. 영화제·예고편·대사 최초 노출일이나 밈 발생일은 아니다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2012-01-25",
+          "precision": "day",
+          "source_url": "https://www.khan.co.kr/article/201201251959425",
+          "note": "개봉 전 영화평에서 최민식 연기를 칭찬한 직접 차용일. 극장 개봉일 이전이며 감독의 고교 시절 사용·표현 탄생일은 특정하지 않는다."
         }
       }
     }
