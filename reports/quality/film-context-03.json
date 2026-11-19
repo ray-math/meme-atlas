@@ -1,0 +1,70 @@
+{
+  "base_sha": "9ba8d171f7e514541d79a112c1a2e5252150ab53",
+  "scope": "Three existing film entries only",
+  "canonical_count": 1997,
+  "entries": [
+    {
+      "id": "mojito-maldives",
+      "changes": [
+        "안상구→우장훈 대화 특정",
+        "촬영지 방문객과 국내여행 제목 차용",
+        "음료 이름 검색 문구와 관련 링크 보존"
+      ],
+      "sources": [
+        "https://ent.sbs.co.kr/news/article.do?article_id=E10007375936",
+        "https://m.etnews.com/20160104000410",
+        "https://m.joongdo.co.kr/view.php?key=20160225000002042",
+        "https://www.mk.co.kr/news/culture/11388970",
+        "https://cine21.com/movie/info/?movie_id=42321"
+      ]
+    },
+    {
+      "id": "have-you-eaten",
+      "changes": [
+        "한국영상자료원 설명으로 박현규를 놓아주는 장면 특정",
+        "마지막 카메라 응시 장면과 구별",
+        "햅쌀광고·상호 차용 구체화"
+      ],
+      "sources": [
+        "https://artsandculture.google.com/story/twUxg5yxeBQA8A?hl=ko",
+        "https://www.insight.co.kr/news/194653",
+        "https://www.segye.com/newsView/20181011003060",
+        "https://cine21.com/movie/info/?movie_id=5961"
+      ]
+    },
+    {
+      "id": "never-this-taste",
+      "changes": [
+        "막연한SNS 대신 씨네플레이·아이보스 실제제목 차용",
+        "위장창업·전화안내 말투",
+        "개봉전 예고편 공개와 개봉일 구별"
+      ],
+      "sources": [
+        "https://www.inews24.com/view/1151444",
+        "https://v.daum.net/v/20190125070106177",
+        "https://www.cineplay.co.kr/ko-kr/articles/9312",
+        "https://www.i-boss.co.kr/ab-6141-38921",
+        "https://cine21.com/movie/info/?movie_id=52541"
+      ]
+    }
+  ],
+  "dates": {
+    "before": 20,
+    "after": 23,
+    "meme_emergence": "all unknown",
+    "have_you_eaten": "korean attestation unknown: earlier source timestamps conflict",
+    "never_this_taste": "2019-01-14 article predates theatrical release2019-01-23"
+  },
+  "limitations": [
+    "영상·이미지 시청0; 텍스트 직접열람 근거",
+    "여행릴스 원게시물 미열람: 기사보도 범위만",
+    "아이보스 첨부광고이미지 미열람: 게시글제목만",
+    "재열람 실패한 수원시 사례는 이번 본문에서 확인된 사례로 교체; 기존내용이 거짓이라는 판정 아님",
+    "세계일보 입력·수정 날짜 역순을 보정하지 않음"
+  ],
+  "protection": "General pilot-state hash sync after verifying old hashes; approved fixtures/usage and test criteria preserved.",
+  "checks": {
+    "focused_python": "old three hashes verified; six date renders pass; 음료 이름 text retained",
+    "full_ci": "pending resulting SHA"
+  }
+}

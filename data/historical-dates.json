@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "기존 20개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
+  "scope": "기존 23개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
   "entries": [
     {
       "id": "but-i-refuse",
@@ -459,6 +459,75 @@
           "precision": "day",
           "source_url": "https://developerdk.tistory.com/78",
           "note": "국내 제작자의 생성기 소개 글 게시일. 연결된 패러디 영상 자체는 시청하지 않았으며 그 영상 최초 게시일·밈 발생일과 구별한다."
+        }
+      }
+    },
+    {
+      "id": "mojito-maldives",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2015-11-19",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=42321",
+          "note": "씨네21의 한국 극장 개봉일. 대사 최초 노출·예고편·밈 발생일로 보지 않는다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2015-12-23",
+          "precision": "day",
+          "source_url": "https://ent.sbs.co.kr/news/article.do?article_id=E10007375936",
+          "note": "대사의 현장 변경을 설명한 배우 인터뷰 기사일. 원개봉판과 확장판 개봉(12월31일), 최초 패러디 발생을 구별한다."
+        }
+      }
+    },
+    {
+      "id": "have-you-eaten",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2003-04-25",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=5961",
+          "note": "씨네21의 한국 극장 개봉일. 대사 최초 노출·예고편·밈 발생일로 보지 않는다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "이번 검토의 상호 차용 기사에 입력2018-10-12와 수정2018-10-11이 역순 표시되어 날짜를 확정하지 않았다. 별도 광고 보도2018-11-29는 확인했으나 더 이른 상호 기록의 정확한 날짜가 불명이라 미상 유지."
+        }
+      }
+    },
+    {
+      "id": "never-this-taste",
+      "dates": {
+        "source_edition_publication": {
+          "value": "2019-01-23",
+          "precision": "day",
+          "source_url": "https://cine21.com/movie/info/?movie_id=52541",
+          "note": "씨네21의 한국 극장 개봉일. 대사 최초 노출·예고편·밈 발생일로 보지 않는다."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확인."
+        },
+        "korean_attestation": {
+          "value": "2019-01-14",
+          "precision": "day",
+          "source_url": "https://www.inews24.com/view/1151444",
+          "note": "개봉 전 인터뷰에서 예고편으로 공개된 대사를 인용한 날짜. 극장 개봉일보다 앞선 기록이며 예고편 최초 공개일·첫 패러디 제작일은 아니다."
         }
       }
     }
