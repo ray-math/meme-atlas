@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "기존 5개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
+  "scope": "기존 8개 항목만 대상으로 한 날짜 정렬 시제품. 전수 조사나 최초 발생일 확정이 아님.",
   "entries": [
     {
       "id": "but-i-refuse",
@@ -114,6 +114,75 @@
           "precision": "day",
           "source_url": "https://gogumafarm.kr/내가-고구마팜이었으면-이-밈은-꼭-소개하고-싶음-2026/",
           "note": "국내 변형 영상 제목을 소개한 한국어 글 발행일. 원영상 시청·최초 게시일 확인과 구별하며 한국 최초 사용일이 아님."
+        }
+      }
+    },
+    {
+      "id": "hynix-vest-reversal",
+      "dates": {
+        "source_edition_publication": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "해당 원장면의 최초 공개일은 이번 검토에서 확정하지 않음."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확정."
+        },
+        "korean_attestation": {
+          "value": "2026-04-28",
+          "precision": "day",
+          "source_url": "https://www.mt.co.kr/society/2026/04/28/2026042808051551264",
+          "note": "SNL 상황극을 설명한 기사 입력일. 기사가 전한 프로그램 공개일은 4월25일이며 최초 밈 발생일과 구별한다. 검토 자료의 한국 사용 확인일이며 한국 최초 사용일이 아님."
+        }
+      }
+    },
+    {
+      "id": "raw-apple-was-best",
+      "dates": {
+        "source_edition_publication": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "해당 원장면의 최초 공개일은 이번 검토에서 확정하지 않음."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 밈 발생 시점 미확정."
+        },
+        "korean_attestation": {
+          "value": "2025-12-25",
+          "precision": "day",
+          "source_url": "https://news.nate.com/view/20251225n00414",
+          "note": "심사평을 직접 인용한 기사 전송일. 수정일12월26일·방송최초공개일·패러디첫제작일과 구별한다. 검토 자료의 한국 사용 확인일이며 한국 최초 사용일이 아님."
+        }
+      }
+    },
+    {
+      "id": "mal-itjyo-drama-speech",
+      "dates": {
+        "source_edition_publication": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "특정 작품·회차의 최초 대사는 확정하지 않음."
+        },
+        "meme_emergence": {
+          "value": null,
+          "precision": "unknown",
+          "source_url": null,
+          "note": "최초 패러디 제작자와 밈 발생일 미확정."
+        },
+        "korean_attestation": {
+          "value": "2026-03-25",
+          "precision": "day",
+          "source_url": "https://www2.osen.co.kr/article/G1112767388",
+          "note": "엄은향의 드라마 말투 패러디를 설명한 기사 보도일. 원영상 최초게시일·표현의 탄생일과 구별하며 한국 최초 사용일은 아님."
         }
       }
     }
